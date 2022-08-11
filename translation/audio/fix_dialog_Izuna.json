@@ -1,0 +1,27 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009009,
+            "EventID": 801,
+            "ProductionStep": "Release",
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "DialogConditionDetail": "None",
+            "DialogConditionDetailValue": 0,
+            "GroupId": 1,
+            "DialogType": "Talk",
+            "ActionName": "",
+            "Duration": 0,
+            "AnimationName": "03",
+            "LocalizeKR": "흥~ 흥흥흥~ 흥♪\n이즈나이즈나 캥캥~♪",
+            "LocalizeJP": "ふん～ふふん～\nふんふん～♪\nイズナこんこん、\nこんここ～ん♪",
+            "LocalizeEN": "Hmm hmm hmmm. ♪\nIzuna, kon kon, kon kokon~♪",
+            "VoiceClipsKr": [
+            "Izuna_EventLobby_1"
+            ],
+            "VoiceClipsJp": [
+            "Izuna_EventLobby_1"
+            ]
+        }
+    ]
+}

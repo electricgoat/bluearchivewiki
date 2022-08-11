@@ -9,18 +9,13 @@ import re
 
 from jinja2 import Environment, FileSystemLoader
 
-from pywikiapi import Site, ApiError
-#import wikitextparser as wtp
-
 from data import load_data, load_scenario_data
 from model import Character
 from generate import colorize
+import wiki
 
-WIKI_API = 'https://bluearchive.wiki/w/api.php'
 
 args = None
-site = None
-
 
 force_variant_link = {}
 
@@ -35,7 +30,6 @@ block_variant_link = {
 
 def generate():
     global args
-    global site
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
@@ -52,10 +46,8 @@ def generate():
         memorial_lines = []
 
         standard_lines = [] 
-        standard_line_types = [
-            'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', #those do not have ingame transcriptions
-            'Growup', 'Relationship'
-                            ] 
+        standard_line_types = [ #those do not have ingame transcriptions
+            'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship' ] 
 
         character_variation_ids = []
 
@@ -67,13 +59,13 @@ def generate():
 
         try:
             character = Character.from_data(character['Id'], data)
-            #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.name_translated} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
             traceback.print_exc()
             continue
 
-
+        character.model_prefab_name = character.model_prefab_name.replace('_Original','').replace('_','')
+        
         #get event versions of the character
         for character_variant in data.characters.values():
             if character_variant['DevName'].startswith(character.dev_name) or character_variant['DevName'].startswith(character.dev_name.replace('default', 'Event')) or character_variant['DevName'].startswith(character.dev_name.replace('default', 'SpecialOperation')):
@@ -83,7 +75,6 @@ def generate():
             if character.id == character_id: character_variation_ids.append(force_variant_link[character_id])
         for character_id in block_variant_link:
             if character.id == character_id: character_variation_ids.remove(block_variant_link[character_id])
-        #print(character_variation_ids)
 
 
         #dump missing translations
@@ -105,13 +96,12 @@ def generate():
         if first_memolobby_line: first_memolobby_line = first_memolobby_line[0]['LocalizeJP'].replace('\n','')
         #print(f"FIRST LINE {first_memolobby_line}")
 
-        if exists(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{character.model_prefab_name.replace('_Original','').replace('_','')}_MemorialLobby_0.ogg") or exists(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{character.model_prefab_name.replace('_Original','').replace('_','')}_MemorialLobby_0_1.ogg"):
+        if exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0.ogg") or exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0_1.ogg"):
             favor_rewards = [x for x in data.favor_rewards.values() if x['CharacterId'] == character.id and 'MemoryLobby' in x['RewardParcelType'] ]
             if favor_rewards: 
                 sdf = [x for x in scenario_data.scenario_script_favor if x['GroupId'] == favor_rewards[0]['ScenarioSriptGroupId'] and x['TextJp']]
                 for line in sdf:                  
                     if re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp'], 0).replace('\n','').find(first_memolobby_line) > -1 or first_memolobby_line.find(re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp'], 0).replace('\n','').replace('— ','').replace('― ','')) > -1: 
-                        #print (line)
                         break
                     if line['TextJp'] and line['TextJp'].startswith('―'): 
                         line['CharacterId'] = character.id
@@ -129,6 +119,7 @@ def generate():
 
 
         memorial_lines += get_memorial_lines(character, data.character_dialog)
+
 
         for id in character_variation_ids:
             lines_list = []
@@ -149,7 +140,7 @@ def generate():
             
 
 
-        if site != None: page_list = wiki_page_list(f"File:{character.name_translated}")
+        if wiki.site != None: page_list = wiki.page_list(f"File:{character.name_translated}")
         else: page_list = []
 
         for line in lines:
@@ -161,7 +152,7 @@ def generate():
 
         ml = []
         #Guess memorial lobby unlock audio if it had no text
-        if (exists(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{character.model_prefab_name.replace('_Original','').replace('_','')}_MemorialLobby_0.ogg") or exists(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{character.model_prefab_name.replace('_Original','').replace('_','')}_MemorialLobby_0_1.ogg")) and not memorial_unlock:
+        if (exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0.ogg") or exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0_1.ogg")) and not memorial_unlock:
                 #print(f'Found memorial lobby unlock audio for {character.name_translated}, but no text')
                 ml.append(process_file(character, {'CharacterId': character.id, 'ProductionStep': 'Release', 'DialogCategory': 'UILobbySpecial', 'DialogCondition': 'Idle', 'Anniversary': 'None', 'StartDate': '', 'EndDate': '', 'GroupId': 0, 'DialogType': 'Talk', 'ActionName': '', 'Duration': 0, 'AnimationName': 'Talk_00_M', 'LocalizeKR': '', 'LocalizeJP': '', 'VoiceClipsKr': [], 'VoiceClipsJp': [], 'LocalizeEN': ""}, page_list))
 
@@ -170,16 +161,16 @@ def generate():
         memorial_lines = [x for x in ml if x['WikiVoiceClip'] != [] or x['LocalizeJP'] != '']
             
 
-        file_list = os.listdir(args['data_audio'] != None and f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/" or [])
+        file_list = os.listdir(args['data_audio'] != None and f"{args['data_audio']}/JP_{character.model_prefab_name}/" or [])
         for type in standard_line_types:
             #print(f"Gathering {type}-type standard lines")
             standard_lines += [x for x in file_list if type in x.split('_')[1]]
 
         for file in standard_lines:
             wiki_filename = f"{character.name_translated.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
-            if f"File:{wiki_filename}" not in page_list and site != None:
+            if f"File:{wiki_filename}" not in page_list and wiki.site != None:
                 print (f"Uploading {wiki_filename}")
-                wiki_upload(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{file}", wiki_filename)
+                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{file}", wiki_filename)
 
 
 
@@ -188,22 +179,21 @@ def generate():
             f.write(wikitext)
             
 
-        if site != None:
+        if wiki.site != None:
             wikipath = character.name_translated + '/audio'
 
-            if not wiki_page_exists(wikipath, wikitext):
+            if not wiki.page_exists(wikipath, wikitext):
                 print(f'Publishing {wikipath}')
                 
-                site(
+                wiki.site(
                 action='edit',
                 title=wikipath,
                 text=wikitext,
                 summary=f'Generated character audio page',
-                token=site.token()
+                token=wiki.site.token()
                 )
 
             
-
             
 
 def get_memorial_lines(character, dialog_data, processing_group = 1):
@@ -250,10 +240,16 @@ def get_dialog_lines(character, dialog_data):
 
             #remove duplicate second lobby lines
             if line['DialogCategory'] == 'UILobby2': 
+                lines_copy = copy.deepcopy(lines)
+                for x in lines_copy: 
+                     x.pop('GroupId')
+
                 line_copy = line.copy()
                 line_copy['DialogCategory'] = 'UILobby'
                 line_copy['AnimationName'] = line_copy['AnimationName'].replace('S2_','')
-                if line_copy not in lines: 
+                line_copy.pop('GroupId')
+                
+                if line_copy not in lines_copy: 
                     lines.append(line)
             else: lines.append(line)
 
@@ -280,13 +276,13 @@ def merge_followup(index, dialog_data):
 
 
 def process_file(character, line, page_list):
-    if (line['VoiceClipsJp'] and not exists(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{line['VoiceClipsJp'][0]}.ogg")) or line['DialogCategory'] == 'UILobbySpecial':
+    if (line['VoiceClipsJp'] and not exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['VoiceClipsJp'][0]}.ogg")) or line['DialogCategory'] == 'UILobbySpecial':
 
         #fix script error for oCherino title line
         if line['CharacterId']==20009 and line['DialogCategory'] == 'UITitle': line['VoiceClipsJp'][0] = 'CH0164_Title'
 
-        partial_file_path = f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/"
-        partial_file_name = line['VoiceClipsJp'] and f"{line['VoiceClipsJp'][0]}" or f"{character.model_prefab_name.replace('_Original','').replace('_','')}_MemorialLobby_{line['GroupId']}"
+        partial_file_path = f"{args['data_audio']}/JP_{character.model_prefab_name}/"
+        partial_file_name = line['VoiceClipsJp'] and f"{line['VoiceClipsJp'][0]}" or f"{character.model_prefab_name}_MemorialLobby_{line['GroupId']}"
         
         line['VoiceClipsJp'] = []
         line['WikiVoiceClip'] = []
@@ -305,114 +301,16 @@ def process_file(character, line, page_list):
         if 'Title' not in line and line['VoiceClipsJp']: line['Title'] = line['VoiceClipsJp'][0].split('_', 1)[1]
         elif 'Title' not in line: line['Title'] = ''
         line['Title'] = re.sub(r"(_\d{1})_\d{1}", "\\g<1>", line['Title'], 0, re.MULTILINE)
-        #if line['Title'] == 'MemorialLobby_0': line['Title'] = 'MemorialLobbyUnlock'
-
-        
 
 
-    if site != None:
+    if wiki.site != None:
         for index, wiki_voice_clip in enumerate(line['WikiVoiceClip']):
-            #if not wiki_page_exists(f"File:{wiki_voice_clip}.ogg"):
             if f"File:{wiki_voice_clip}.ogg" not in page_list: 
                 print (f"Uploading {wiki_voice_clip}.ogg")
-                wiki_upload(f"{args['data_audio']}/JP_{character.model_prefab_name.replace('_Original','').replace('_','')}/{line['VoiceClipsJp'][index]}.ogg", f"{wiki_voice_clip}.ogg")
+                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['VoiceClipsJp'][index]}.ogg", f"{wiki_voice_clip}.ogg")
 
     return line
 
-
-
-
-def wiki_init():
-    global site
-
-    try:
-        site = Site(WIKI_API)
-        site.login(args['wiki'][0], args['wiki'][1])
-        print(f'Logged in to wiki, token {site.token()}')
-
-    except Exception as err:
-        print(f'Wiki error: {err}')
-        traceback.print_exc()
-
-
-
-def wiki_page_exists(page, wikitext = None):
-    global site
-
-    try:
-        text = site('parse', page=page, prop='wikitext')
-        if wikitext == None:
-            print (f"Found wiki page {text['parse']['title']}")
-            return True
-        elif wikitext == text['parse']['wikitext']:
-            print (f"Found wiki page {text['parse']['title']}, no changes")
-            return True
-        else:
-            return False
-    except ApiError as error:
-        #print (f"ERROR = {error.data['code']}")
-        if error.data['code'] == 'missingtitle':
-            print (f"Page {page} not found")
-            return False
-        else:
-            print (f"Unknown error {error}, retrying")
-            wiki_page_exists(page)
-        
-
-
-def wiki_page_list(match):
-    global site
-    page_list = []
-
-    try: 
-        for r in site.query(list='search', srwhat='title', srsearch=match, srlimit=200, srprop='isfilematch'):
-            for page in r['search']:
-                page_list.append(page['title'].replace(' ', '_'))
-    except ApiError as error:
-        #print(error.message)
-        if error.message == 'Call failed':
-            print (f"Call failed, retrying")
-            wiki_page_list(match)
-        elif error.data['code'] == 'fileexists-no-change':
-            print (f"{error.data['info']}")
-            return True
-        else:
-            print (f"Unknown upload error {error}")
-
-    print(f"Fetched {len(page_list)} pages that match {match}")
-    return page_list
-
-
-
-def wiki_upload(file, name):
-    global site
-
-    f = open(file, "rb")
-
-    try: 
-        site(
-            action='upload',
-            filename=name,
-            comment=f'Character audio upload',
-            ignorewarnings=True,
-            token=site.token(),
-            POST=True,
-            EXTRAS={
-                'files': {
-                    'file': f.read()
-                }
-            }
-        )
-    except ApiError as error:
-        #print(error.message)
-        if error.message == 'Call failed':
-            print (f"Call failed, retrying")
-            wiki_upload(file, name)
-        elif error.data['code'] == 'fileexists-no-change':
-            print (f"{error.data['info']}")
-            return True
-        else:
-            print (f"Unknown upload error {error}")
 
 
 def save_missing_translations(name, data):
@@ -427,6 +325,7 @@ def save_missing_translations(name, data):
     f.close()
 
 
+
 def main():
     global args
 
@@ -434,10 +333,10 @@ def main():
 
     parser.add_argument('-data_primary', metavar='DIR', help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary', metavar='DIR', help='Secondary (Global) version data to include localisation from')
+    parser.add_argument('-data_audio', metavar='DIR', help='Audio files directory')
     parser.add_argument('-translation', metavar='DIR', help='Additional translations directory')
     parser.add_argument('-outdir', metavar='DIR', help='Output directory')
     parser.add_argument('-character_id', metavar='ID', help='Id of a single character to export')
-    parser.add_argument('-data_audio', metavar='DIR', help='Audio files directory')
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
     parser.add_argument('-upload_files', metavar=('BOOL'), help='Check if audio file is already on the wiki and upload it if not')
 
@@ -452,7 +351,7 @@ def main():
     print(args)
 
     if args['wiki'] != None:
-        wiki_init()
+        wiki.init(args)
 
 
     try:
