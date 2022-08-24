@@ -17,7 +17,9 @@ import wiki
 
 args = None
 
-force_variant_link = {}
+force_variant_link = {
+    20011 : 19009025 #Serika Newyear
+}
 
 block_variant_link = {
     20003 : 19009005,
@@ -75,6 +77,7 @@ def generate():
             if character.id == character_id: character_variation_ids.append(force_variant_link[character_id])
         for character_id in block_variant_link:
             if character.id == character_id: character_variation_ids.remove(block_variant_link[character_id])
+        #print(f"Processing character ids: {character_variation_ids}")
 
 
         #dump missing translations

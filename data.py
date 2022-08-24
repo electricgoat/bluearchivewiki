@@ -13,7 +13,7 @@ BlueArchiveData = collections.namedtuple(
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization',
     'character_dialog','character_dialog_event',
-    'scenario_script_favor']
+    'scenario_script_favor','levelskill' ,'logiceffectdata']
 )
 
 
@@ -44,7 +44,9 @@ def load_data(path_primary, path_secondary, path_translation):
         etc_localization=load_etc_localization(path_primary, path_secondary, path_translation),
         character_dialog=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
         character_dialog_event=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json'),
-        scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation)
+        scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
+        levelskill = load_levelskill(path_primary),
+        logiceffectdata = load_skill_logiceffectdata(path_primary)
     )
 
 
@@ -231,6 +233,26 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
         data.append(line)
 
     return data
+
+
+def load_levelskill(path):
+    data = {}
+    for file in os.listdir(path + '/LevelSkill/'):
+        if not file.endswith('.json'):
+            continue
+
+        with open(os.path.join(path + '/LevelSkill/', file), encoding="utf8") as f:
+            skill_info = json.load(f)
+            data[skill_info[0]['GroupName']] = skill_info[0]
+
+    return data
+
+
+def load_skill_logiceffectdata(path):
+    with open(os.path.join(path, 'Battle', 'logiceffectdata.json'), encoding="utf8") as f:
+        data = json.load(f)
+
+    return {item['StringId']: item for item in data}
 
 
 

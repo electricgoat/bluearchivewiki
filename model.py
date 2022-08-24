@@ -282,7 +282,7 @@ class SkillLevel(object):
 
 
 class Skill(object):
-    def __init__(self, name, name_translated, icon, levels, description_general, damage_type, skill_cost):
+    def __init__(self, name, name_translated, icon, levels, description_general, damage_type, skill_cost, effect_data):
         self.name = name
         self.icon = icon
         self.levels = levels
@@ -293,6 +293,7 @@ class Skill(object):
         self.description_general = description_general
         #self.max_level = 10
         self.skill_cost = skill_cost
+        self.effect_data = effect_data
 
     @property
     def damage_type(self):
@@ -351,6 +352,27 @@ class Skill(object):
         if skill_name_en == None:
             print (f"No translation found for skill {data.skills_localization[group[0]['LocalizeSkillId']]['NameJp']}, group_id {group_id}")
 
+
+        effect_data = None
+        if group_id.find('Passive') > -1 and group_id.find('ExtraPassive') == -1:
+            effect_data = {}
+            #print(f'Parsing skill {group_id}')
+            for effect in data.levelskill[group_id]['EntityTimeline'][len(data.levelskill[group_id]['EntityTimeline'])-2]['Entity']['Abilities'][0]['LogicEffectGroupIds']:
+                amount_base = []
+                amount_percentage = []
+
+                if data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
+                    for lv in range(1,11):
+                        amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
+                        amount_percentage.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['TargetCoefficientAmount'])
+                    if amount_base[9] == '0': amount_base = None
+                    if amount_percentage[9] == '0': amount_percentage = None
+
+                    effect_data[effect] = {'stat_name': statcalc_replace_statname(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['StatType']), 'amount_base': amount_base, 'amount_percentage': amount_percentage}
+                
+            #print(effect_data)
+        
+
         return cls(
             data.skills_localization[group[0]['LocalizeSkillId']]['NameJp'],
             skill_name_en,
@@ -358,7 +380,8 @@ class Skill(object):
             levels,
             description_general,
             group[0]['BulletType'],
-            skill_cost
+            skill_cost,
+            effect_data
         )
 
 
@@ -524,7 +547,7 @@ class Weapon(object):
 
 
 class Gear(object):
-    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tier1_desc, tier2_desc, levels):
+    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tier1_desc, tier2_desc, levels, effect_data):
         self.name_en = name_en
         self.name_jp = name_jp
         self.desc_en = desc_en
@@ -533,6 +556,7 @@ class Gear(object):
         self.tier1_desc = tier1_desc
         self.tier2_desc = tier2_desc
         self.levels = levels
+        self.effect_data = effect_data
 
     @classmethod
     def from_data(cls, character_id, data):
@@ -546,6 +570,8 @@ class Gear(object):
         tier1_desc = "Increase " + levels[1]['stat_type'][0] + " by {{SkillValue|" + str(levels[1]['stat_value']) + "}}"
         tier2_desc = 'Normal Skill changes to '
 
+        effect_data = {'stat_name': replace_statnames(levels[1]['stat_type'][0]), 'amount_base': str(levels[1]['stat_value'])}
+
         return cls(
             'NameEn' in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]] and data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['NameEn'] or None,
             data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['NameJp'],
@@ -554,7 +580,8 @@ class Gear(object):
             data.gear[(character_id , 1)]['Icon'].rsplit('/', 1)[-1],
             tier1_desc,
             tier2_desc,
-            levels
+            levels,
+            effect_data
         )
         
 
@@ -618,20 +645,44 @@ class Momotalk(object):
 
 
 def replace_statnames(stat_list):
-            list_out = []
-            if type(stat_list) == str: stat_list = [stat_list] 
-            
-            for item in stat_list:
-                item = re.sub('_Base', '', item)
-                item = re.sub('Power', '', item)
-                item = re.sub('Max', '', item)
-                item = re.sub('Point', '', item)
-                item = re.sub('Rate', '', item)
-                item = re.sub('Normal', '', item)
-                item = re.sub('Heal', 'Healing', item)
-                item = re.sub('Speed', ' Speed', item)
-                item = re.sub('Damage', ' Damage', item)
+    list_out = []
+    if type(stat_list) == str: stat_list = [stat_list] 
+    
+    for item in stat_list:
+        item = re.sub('_Base', '', item)
+        item = re.sub('Power', '', item)
+        item = re.sub('Max', '', item)
+        item = re.sub('Point', '', item)
+        item = re.sub('Rate', '', item)
+        item = re.sub('Normal', '', item)
+        item = re.sub('Heal', 'Healing', item)
+        item = re.sub('Speed', ' Speed', item)
+        item = re.sub('Damage', ' Damage', item)
 
-                list_out.append(item)     
-            #return([re.sub('_Base', '', item) for item in stat_list])
-            return (list_out)
+        list_out.append(item)     
+    #return([re.sub('_Base', '', item) for item in stat_list])
+    return (list_out)
+
+def statcalc_replace_statname(stat_name):
+    return {
+            'AttackPower': 'attack',
+            'DefensePower': 'defense',
+            'HealPower': 'healing',
+            'MaxHP': 'hp',
+
+            'CriticalDamageRate': 'crit_damage',
+            'CriticalPoint': 'crit_rate',
+            'AccuracyPoint': 'accuracy',
+            'DodgePoint': 'evasion',
+            'OppressionPower': 'cc_str',
+            '': 'cc_res',
+            '': 'crit_res',
+            '': 'critdamage_res',
+            'HealEffectivenessRate': 'healing_inc',
+            'StabilityPoint': 'stability',
+            'NormalAttackSpeed': '',
+            'BlockRate': '',
+            'MoveSpeed': 'move_speed',
+            'DefensePenetration': '',
+            'MaxBulletCount': ''
+        }[stat_name]

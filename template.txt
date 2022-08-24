@@ -131,6 +131,15 @@
 | SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
 {% endfor -%}
 {% endfor -%}
+{% for effect in character.passive_skill.effect_data.values() -%}
+| SkillEffect{{loop.index}} = {{effect.stat_name}}
+{%- if effect.amount_percentage != None -%}
+%+{{','.join(effect.amount_percentage)}}
+{%- endif -%}
+{%- if effect.amount_base != None -%}
++{{','.join(effect.amount_base)}}
+{%- endif -%}
+{% endfor %}
 {% raw %}}}{% endraw %}
 {% raw %}{{{% endraw %}SkillTable
 | SkillName = {{character.sub_skill.name_translated}}
