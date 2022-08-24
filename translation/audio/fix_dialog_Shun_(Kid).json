@@ -1,0 +1,27 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009013,
+            "EventID": 805,
+            "ProductionStep": "Release",
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "DialogConditionDetail": "None",
+            "DialogConditionDetailValue": 0,
+            "GroupId": 3,
+            "DialogType": "Talk",
+            "ActionName": "",
+            "Duration": 0,
+            "AnimationName": "03",
+            "LocalizeKR": "선생님, 저쪽에 맛있어\n보이는 과자가 잔뜩 있어요!",
+            "LocalizeJP": "先生、あそこに美味しそうなお菓子がいっぱいあります！",
+            "LocalizeEN": "Sensei, over there!\nLook at those snacks!",
+            "VoiceClipsKr": [
+              "CH0066_EventLobby_3"
+            ],
+            "VoiceClipsJp": [
+              "CH0066_EventLobby_3"
+            ]
+          }
+    ]
+}

@@ -2743,6 +2743,58 @@
             "GroupId": "CH0103ExtraPassive01",
             "NameEn": "Leader's responsibility",
             "DescriptionEn": "Increase Attack by $1 respectively when there are 2/3/4 or more students from Arius Squad in the same unit, including self.<br>(additionally includes all versions of Azusa)"
+        },
+
+        {
+            "GroupId": "CH0075Ex01",
+            "NameEn": "Sweet・fire",
+            "DescriptionEn": "Reload instantly after skill activation.\nDeal $1 damage to 1 enemy."
+        },
+        {
+            "GroupId": "CH0075Public01",
+            "NameEn": "Force of habit",
+            "DescriptionEn": "Every $1, Increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0075Passive01",
+            "NameEn": "Sugar・high",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0075WeaponPassive01",
+            "NameEn": "Sugar・high +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0075ExtraPassive01",
+            "NameEn": "Nibble",
+            "DescriptionEn": "When reloading, decrease Attack Speed by $1, but increase Attack by $2 for $3.<br>Stacks up to a maximum of $4 times."
+        },
+
+        {
+            "GroupId": "CH0143Ex01",
+            "NameEn": "Iron Rain",
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line.<br>Apply $2 of continuous burn damage for $3."
+        },
+        {
+            "GroupId": "CH0143Public01",
+            "NameEn": "Barrage",
+            "DescriptionEn": "Every $1, deal $2 damage to 5 enemies. Inflict Stun status for $3."
+        },
+        {
+            "GroupId": "CH0143Passive01",
+            "NameEn": "Pleasure of ruination",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0143WeaponPassive01",
+            "NameEn": "Pleasure of ruination +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0143ExtraPassive01",
+            "NameEn": "Operation support",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
         
     ]

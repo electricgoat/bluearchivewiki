@@ -1,0 +1,88 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "맛있는 디저트를 위해~\n오늘도 같이 힘내요!",
+            "LocalizeJP": "おいしいスイーツのため～\n今日も一緒に、\n頑張りましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "오늘도 힘낼게요!",
+            "LocalizeJP": "今日も頑張ります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Formation_In_2"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "헤헤, 좀 더 제게\n의지하셔도 괜찮아요~",
+            "LocalizeJP": "えへへっ、もっと私に\n頼ってもいいんですよ～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Growup_2"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "에헷, 조금\n쑥스럽네요. 선생님.",
+            "LocalizeJP": "えへへっ、少し\n照れちゃいますね、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Relationship_Up_1"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "감사합니다, 선생님!",
+            "LocalizeJP": "ありがとうございます、\n先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Growup_1"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "모두 파이팅이에요!",
+            "LocalizeJP": "みんな、ファイトです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_CommonSkill"
+            ]
+        },
+        {
+            "CharacterId": 19009062,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "항상 고마워요~\n선생님. 헤헷.",
+            "LocalizeJP": "いつもありがとう\nございます～先生、\nえへへっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Growup_4"
+            ]
+        }
+    ]
+}

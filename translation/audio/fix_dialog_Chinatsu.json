@@ -1,0 +1,74 @@
+
+{
+    "DataList": [
+        {
+            "CharacterId": 26000,
+            "ProductionStep": "Release",
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "Anniversary": "None",
+            "StartDate": "12/24",
+            "EndDate": "12/25",
+            "GroupId": 400,
+            "DialogType": "Talk",
+            "ActionName": "",
+            "Duration": 8000,
+            "AnimationName": "07",
+            "LocalizeKR": "크리스마스는 좋습니다.\n빨간색이 많아지니까요.\n선생님도, 빨간색 좋아하시나요?",
+            "LocalizeJP": "クリスマスは好きです。\n街に赤の色が増えますから。\n先生も、赤色は好きですか？",
+            "LocalizeEN": "I like Christmas because its primary color is red.\nDo you appreciate shades of red like I do, Sensei?",
+            "VoiceClipsKr": [
+              "Chinatsu_Season_Xmas"
+            ],
+            "VoiceClipsJp": [
+              "Chinatsu_Season_Xmas"
+            ]
+          },
+          {
+            "CharacterId": 26000,
+            "ProductionStep": "Release",
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "Anniversary": "None",
+            "StartDate": "12/24",
+            "EndDate": "12/25",
+            "GroupId": 400,
+            "DialogType": "Talk",
+            "ActionName": "",
+            "Duration": 5500,
+            "AnimationName": "06",
+            "LocalizeKR": "…말해두겠지만,\n딱히 피를 좋아하는 건\n아닙니다.",
+            "LocalizeJP": "……言っておきますが、\n別に血が好きというわけでは\nありませんよ。",
+            "LocalizeEN": "It has nothing to do with the color of blood...",
+            "VoiceClipsKr": [],
+            "VoiceClipsJp": []
+          },
+
+          {
+            "CharacterId": 26000,
+            "ProductionStep": "Release",
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "Anniversary": "None",
+            "StartDate": "10/30",
+            "EndDate": "10/31",
+            "GroupId": 500,
+            "DialogType": "Talk",
+            "ActionName": "greeting",
+            "Duration": 0,
+            "AnimationName": "07",
+            "LocalizeKR": "선생님께 할로윈의 축복을.\n사탕은 어떠신가요?\n무설탕이라 건강합니다.",
+            "LocalizeJP": "先生にハロウィンのお祝いを。\n飴はいかがですか？\n無糖なので体にいいですよ。",
+            "LocalizeEN": "Happy Halloween, Sensei. Would you like some candy?\nThese are sugar-free, so they're healthier.",
+            "VoiceClipsKr": [
+              "Chinatsu_Season_Halloween"
+            ],
+            "VoiceClipsJp": [
+              "Chinatsu_Season_Halloween"
+            ]
+          }
+      
+    ]
+}
+
+
