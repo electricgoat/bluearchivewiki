@@ -1,0 +1,124 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브-.",
+            "LocalizeJP": "ブルーアーカイブ～。",
+            "LocalizeEN": "Blue Archive~",
+            "VoiceClipsJp": [
+                "Moe_Title"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "SRT 특수학원,\nRABBIT 소대의 카제쿠라 모에야.\n쿠후후… 지원 업무라면 내게 맡겨줘.",
+            "LocalizeJP": "SRT特殊学園、\nRABBIT小隊の風倉モエ。\nくひひ……支援なら、私に任せて。",
+            "LocalizeEN": "Kazekura Moe, of the SRT Special Academy RABBIT Platoon.\nKuheehee, when it comes to combat support, you can count on me.",
+            "VoiceClipsJp": [
+                "Moe_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이곳을 소대의\n새로운 거점으로\n삼아볼까?",
+            "LocalizeJP": "ここ、\n新しい拠点に\nしちゃって良い？",
+            "LocalizeEN": "Can I make this place my new base?",
+            "VoiceClipsJp": [
+                "Moe_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이곳은 안심이\n되는 장소인걸…",
+            "LocalizeJP": "……まあ、\n割と落ち着くかも。",
+            "LocalizeEN": "...Hmm, rather quiet in here.",
+            "VoiceClipsJp": [
+                "Moe_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "새로운\n사탕이 필요해…",
+            "LocalizeJP": "飴が足りない……。",
+            "LocalizeEN": "There's not enough candy around here...",
+            "VoiceClipsJp": [
+                "Moe_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭔가, 중요한 발사\n버튼 같은 게 떨어져\n있지 않으려나…?",
+            "LocalizeJP": "何かこう、大事な\n発射ボタンとか落ちて\nないもんかねー……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "…쿠흐, 쿠후후…",
+            "LocalizeJP": "くひひ……",
+            "LocalizeEN": "Kuheehee...",
+            "VoiceClipsJp": [
+                "Moe_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서와, 선생님.\n오늘도 바빠보이네.\n쿠후후…",
+            "LocalizeJP": "ああ、お帰り先生。\n今日も相変わらず\n忙しそうだね、くひひ……。",
+            "LocalizeEN": "Oh, welcome back Sensei.\nAnother busy day today eh? Kuheehee...",
+            "VoiceClipsJp": [
+                "Moe_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어라, 선생님이잖아?\n요즘 계속 바빠보이네.",
+            "LocalizeJP": "お、先生じゃん。\nなーんかずっと\n忙しそうだね？",
+            "LocalizeEN": "Oh, Sensei!\nYou look busy as always huh?",
+            "VoiceClipsJp": [
+                "Moe_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "슬슬 RABBIT 소대의\n보급품을 보충해\n두어야 겠는데…",
+            "LocalizeJP": "そろそろRABBIT小隊の\n備品でも補充しておくか……。",
+            "LocalizeEN": "I should restock RABBIT Platoon supplies soon...",
+            "VoiceClipsJp": [
+                "Moe_Lobby_1"
+            ]
+        }
+    ]
+}

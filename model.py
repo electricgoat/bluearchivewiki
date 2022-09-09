@@ -327,9 +327,9 @@ class Skill(object):
                 range_text.append(start_variables[i] != end_variables[i] and f'{stripped_start[0]}~{end_variables[i]}' or f'{end_variables[i]}')
 
             for skill_value in range_text:
-                text_en = re.sub(r'\$[0-9]{1}', '{{SkillValue|' + skill_value + '}}', text_en, 1) 
+                text_en = re.sub(r'\$[0-9]{1}', '{{SkillValue|' + skill_value + '}}', text_en, 1)
 
-            return text_en
+            return text_en.replace("\n",'<br>')
 
         levels = [SkillLevel.from_data(level, group_id, data) for level in sorted(group, key=operator.itemgetter('Level'))]
 
@@ -340,7 +340,7 @@ class Skill(object):
                 skill_cost.append({'level':i+1, 'cost':levels[i].cost})
 
         text_general = translate_skill(levels[9].description, max_level, group_id, data)
-        description_general = format_description(levels, text_general)
+        description_general = format_description(levels, text_general).replace("\n",'<br>')
 
 
         try: data.translated_skills[group[0]['GroupId']]['NameEn']
@@ -388,7 +388,7 @@ class Skill(object):
 def replace_units(text):
     
     text = re.sub('1回', 'once', text)
-    text = re.sub('2回', 'twice', text)
+    #text = re.sub('2回', 'twice', text)
     #text = re.sub('3回', 'three times', text)
     text = re.sub('回', '', text)
     text = re.sub('つ', '', text)

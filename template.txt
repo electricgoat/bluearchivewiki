@@ -212,7 +212,7 @@
 {% raw %}}}{% endraw %}
 {%- endif %}
 =Voiceover=
-See [[{{PAGENAME}}/audio]]
+See {% raw %}[[{{PAGENAME}}/audio]]{% endraw %}
 
 {% raw %}=Cafe=
 {{#dpl:
