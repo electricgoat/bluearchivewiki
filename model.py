@@ -340,7 +340,7 @@ class Skill(object):
                 skill_cost.append({'level':i+1, 'cost':levels[i].cost})
 
         text_general = translate_skill(levels[9].description, max_level, group_id, data)
-        description_general = format_description(levels, text_general).replace("\n",'<br>')
+        description_general = format_description(levels, text_general)
 
 
         try: data.translated_skills[group[0]['GroupId']]['NameEn']
@@ -416,7 +416,7 @@ def translate_skill(text_jp, skill_level, group_id, data):
     #if len(variables) > 0 and len(variables) != replacement_count: print(f'Mismatched number of variables ({len(variables)}/{replacement_count}) in {text_jp} / {skill_desc}')
 
     for i in range(len(variables)):
-        skill_desc = re.sub(f'\${i+1}', '{{SkillValue|' + variables[i] + '}}', skill_desc)
+        skill_desc = re.sub(f'\${i+1}', '{{SkillValue|' + variables[i] + '}}', skill_desc).replace("\n",'<br>')
     return skill_desc
 
 

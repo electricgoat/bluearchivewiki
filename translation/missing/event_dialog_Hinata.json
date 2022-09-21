@@ -62,16 +62,6 @@
             "CharacterId": 19009031,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 4,
-            "LocalizeKR": "여, 열심히 하겠습니다!",
-            "LocalizeJP": "が、頑張ります！",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 19009031,
-            "DialogCategory": "UIEventLobby",
-            "DialogCondition": "Enter",
             "GroupId": 5,
             "LocalizeKR": "마무리 정돈은 중요하죠.\n제가 도와드릴게요!",
             "LocalizeJP": "お片付けの時間ですね、\n全力でお手伝いします！",
@@ -202,36 +192,12 @@
             "CharacterId": 19009031,
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Buy",
-            "GroupId": 1,
-            "LocalizeKR": "아. 그거 좋죠!",
-            "LocalizeJP": "あっ、良いですね、それ！",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "hinata_EventShop_Buy_1"
-            ]
-        },
-        {
-            "CharacterId": 19009031,
-            "DialogCategory": "UIEventShop",
-            "DialogCondition": "Buy",
             "GroupId": 2,
             "LocalizeKR": "저도 그게 좋다고 생각해요.",
             "LocalizeJP": "はい、私もそれが\n良いと思います。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "hinata_EventShop_Buy_2"
-            ]
-        },
-        {
-            "CharacterId": 19009031,
-            "DialogCategory": "UIEventShop",
-            "DialogCondition": "Buy",
-            "GroupId": 3,
-            "LocalizeKR": "역시 선생님이시군요!",
-            "LocalizeJP": "さすがは先生です！",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "hinata_EventShop_Buy_3"
             ]
         },
         {

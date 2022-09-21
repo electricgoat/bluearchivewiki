@@ -2795,6 +2795,32 @@
             "GroupId": "CH0143ExtraPassive01",
             "NameEn": "Operation support",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0137Ex01",
+            "NameEn": "Very well done!",
+            "DescriptionEn": "Heal one other ally for $1 of Healing. Heal self for $2 of Healing.\nReceive 1 Hanamaru Stamp."
+        },
+        {
+            "GroupId": "CH0137Public01",
+            "NameEn": "I'm looking forward to next time!",
+            "DescriptionEn": "When allies deal $1 critical hits, heal one other ally with the lowest HP for $2 Healing.\nReceive 1 Hanamaru Stamp."
+        },
+        {
+            "GroupId": "CH0137Passive01",
+            "NameEn": "Instructor's responsibilities",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0137WeaponPassive01",
+            "NameEn": "Instructor's responsibilities +",
+            "DescriptionEn": "Increase Evasion by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0137ExtraPassive01",
+            "NameEn": "Plum Blossom Garden teaching method",
+            "DescriptionEn": "When $1 Hanamaru Stamps are acquired, the EX skill cost of all allies other than Kokona herself is reduced by $2. (Reduction active until EX is activated $3)\nRemove all Hanamaru Stamps.\nHeal self for $4 of Healing power."
         }
         
     ]

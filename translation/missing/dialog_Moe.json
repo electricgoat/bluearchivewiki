@@ -1,0 +1,318 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭔가, 중요한 발사\n버튼 같은 게 떨어져\n있지 않으려나…?",
+            "LocalizeJP": "何かこう、大事な\n発射ボタンとか落ちて\nないもんかねー……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하읍…\n당분 보충은 중요하지.\n이건 양보할 수 없어!",
+            "LocalizeJP": "はむ……\n糖分補給は大事っしょ。\nこれは譲ってたまるか！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아아… 선배가 만들어준\n유부 초밥 먹고 싶다.",
+            "LocalizeJP": "あー……前に先輩が\n作ってくれた、あのいなり\n寿司が食べたい気分。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "정말이지… 어째서\n사탕은 기본 보급품에\n포함되지 않는 거야?",
+            "LocalizeJP": "全く、どうして基本的な\n補給品として飴をカウント\nしちゃいけないんだ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "당분은 오퍼레이터의\n연료나 다름없는데.",
+            "LocalizeJP": "糖分はオペレーターにとって、\n燃料みたいなもんなのに",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "일, 바빠보이네.\n도와줄까?",
+            "LocalizeJP": "仕事、忙しそうじゃん。\n手伝ってあげようか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "뭐, 맡겨만 달라구.\n크히히…",
+            "LocalizeJP": "まぁ、任せてみなって。\nくひひ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해, 선생님.\n그런 의미에서… ",
+            "LocalizeJP": "誕生日おめでと、先生。\nってことで……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "한바탕 화려하게\n축하의 불꽃 놀이,\n하지 않을래?",
+            "LocalizeJP": "一発派手に、\nお祝いの花火とかどう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일 케이크? 아니,\n나는 폭죽만 있으면\n그걸로 충분해.",
+            "LocalizeJP": "誕生日ケーキ？\nいや別に、私には\n花火さえあればそれで……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "그래, 이왕이면 엄청나게\n화려하고 강렬한 것으로…\n쿠후후.",
+            "LocalizeJP": "そうだね、どうせなら\nド派手で強烈なのを……\nくひひ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "산해경 학원에서는 새해에\n폭죽을 터트려 악귀를 쫒는\n풍습이 있다고 하던데…",
+            "LocalizeJP": "山海経では新年に花火を\n打ち上げて厄除けをする\n風習があるらしいよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "아아… 정말\n멋진 풍습이야…\n쿠후후.",
+            "LocalizeJP": "ほんっと、\n良い文化だねぇ……\nくひひ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "이번 크리스마스에는\nRABBIT 소대원들과 함께\n칠면조를 먹기로 했어.",
+            "LocalizeJP": "今年のクリスマスは、\nRABBIT小隊全員で\n七面鳥を食べることになってさ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_Xmas_1"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "응? 그야 물론\n항상 있는 그 공원에서지.",
+            "LocalizeJP": "ん？もちろん\nいつもの公園でだよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "소방안전법…?\n그게 뭔데?",
+            "LocalizeJP": "ん？消防法……？\nなにそれ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_Xmas_2"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "이 호박 랜턴…\n백린 분말을 뿌리면 더\n예쁘게 타오를 것 같은데…",
+            "LocalizeJP": "このカボチャのランタン……\nあの粉をかけたらもっと\n綺麗に燃えそうじゃん……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "하아, 하아…",
+            "LocalizeJP": "はあ、はあ……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "래빗 224식 권총, 제대로 수령했어.\n…저기, 이거 너무 작은데.\n화력은 제대로 나오는거야?",
+            "LocalizeJP": "RABBIT-224式拳銃、\n確かに受け取った。\n……ねぇ、これ結構小さいけど、\nちゃんと火力出る？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Moe_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님. 세상에는\n여러가지 금기가 있어.",
+            "LocalizeJP": "先生……世の中には\n色んなものがあるでしょ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "누르면 안 되는 버튼이라던가,\n넘어서는 안 되는 선이라던가….",
+            "LocalizeJP": "押しちゃいけないボタンとか、\n超えちゃダメな一線とか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그 중에는 한 번 선택하면\n돌이킬 수 없는, 파멸로\n이어지는 선택지도 존재하지.",
+            "LocalizeJP": "中には、一度選んだら\n取り返しのつかない、破滅に\n繋がるようなものもある。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "한걸음만 잘못 내딛어도\n끝날 수 있지만, 그래도 자신의\n마음을 만족시킬 수 있다면…",
+            "LocalizeJP": "一歩間違えたら終わり、\nそれでも自分の心を満足\nさせられるかもしれない……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님은 어떤\n선택을 할 거야?",
+            "LocalizeJP": "そんな時、先生はどうする？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "무의미한 질문이라는 건 알아.\n선생님은 성실하니까.",
+            "LocalizeJP": "無意味な質問だってことは\n分かってるよ。\n先生は真面目だしね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하지만 나는……\n선을 넘어버릴지도 몰라.",
+            "LocalizeJP": "でも私は……その一線を、\n超えちゃうかもしれない。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "왜냐하면 그 파멸의 순간은,\n나 자신을 증명할 수 있는\n기회이기도 하니까.",
+            "LocalizeJP": "だってその破滅の瞬間は、\n私自身を証明できる\n機会でもある。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그러니까 선생님.",
+            "LocalizeJP": "だから、先生……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20018,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이 선을……\n나와 함께 넘어 보지 않을래?",
+            "LocalizeJP": "その一線……\n私と一緒に、超えてみない？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}
