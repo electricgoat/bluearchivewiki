@@ -213,13 +213,18 @@ class Profile(object):
         weapon = data.translated_weapons[character_id]
 
         hobbies = 'HobbiesEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['HobbiesEn'] or profile['HobbyJp']
-        illustrator = 'Illust' in data.translated_characters[character_id] and data.translated_characters[character_id]['Illust'] or profile['ArtistNameJp']
+        #illustrator = 'Illust' in data.translated_characters[character_id] and data.translated_characters[character_id]['Illust'] or f"profile['DesignerNameJp'] / profile['IllustratorNameJp']"
         voice = 'VoiceEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['VoiceEn'] or profile['CharacterVoiceJp']
         age = 'AgeEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['AgeEn']+' ' or profile['CharacterAgeJp']
         height = 'HeightEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['HeightEn'] or profile['CharHeightJp']
         release_date_jp = 'ReleaseDateJp' in data.translated_characters[character_id] and data.translated_characters[character_id]['ReleaseDateJp'] or ''
         introduction_en = 'ProfileIntroductionEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['ProfileIntroductionEn'] or ''
- 
+    
+        if (profile['DesignerNameJp'] == profile['IllustratorNameJp']):
+            illustrator = 'IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp']
+        else:
+            illustrator = ('DesignerNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['DesignerNameEn'] or profile['DesignerNameJp']) + ' / ' + ('IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp'])
+         
 
         #translator = Translator()
         #

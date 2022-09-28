@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "기다리고 있었어요…….",
+            "LocalizeKR": "기, 기다리고\n있었어요…….",
             "LocalizeJP": "お、お待ちして\nおりました……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -27,7 +27,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "흐……. 여기서 또 뵙네요…….",
+            "LocalizeKR": "또, 또 만났네요…….",
             "LocalizeJP": "ま、またお会い\nできるとは……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -37,7 +37,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "벌써 절반이 지나갔네요…….",
+            "LocalizeKR": "벌써 기간도\n절반쯤 지나갔네요…….",
             "LocalizeJP": "もう期間も\n残り半分ですか……。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -49,7 +49,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "아니에요. 신경 쓰지 마세요…….",
+            "LocalizeKR": "아니에요.\n신경 쓰지 마세요…….",
             "LocalizeJP": "いえ、\n気にしないでください。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -59,7 +59,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "계속 이렇게……. \n뵐 수 있었으면 좋겠는데…….",
+            "LocalizeKR": "계속 이렇게…….\n있을 수 있다면…….",
             "LocalizeJP": "ずっとこうやって……\n傍にいられたら……。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -71,7 +71,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "아……. 네.\n여기 있습니다…….",
+            "LocalizeKR": "아, 네, 네…….\n부르셨어요……?",
             "LocalizeJP": "あっ、は、はい……\nお呼びでしょうか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -83,7 +83,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "왜 그러시나요……?",
+            "LocalizeKR": "뭐, 뭔가 하실\n말씀이라도……?",
             "LocalizeJP": "ど、どうかされましたか\n……？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -93,7 +93,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "저……. 선생님…….\n슬슬……. 시작하시는 게…….",
+            "LocalizeKR": "저……. 선생님…….\n슬슬……. 시작\n하시는 게…….",
             "LocalizeJP": "あの……先生……。\nそろそろ……\n動かれた方が……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [

@@ -1617,7 +1617,7 @@
         {
             "Id": 3360596941,
             "NameJp": "秘伝ノートの断片",
-            "NameEn": "Secret Tech Sheet Fragment",
+            "NameEn": "Secret Tech Notes Fragment",
             "DescriptionJp": "戦術の奥義が記録されている技術ノートの断片。\n複数集めることで、「テイラーメイド」機能を通じて「秘伝ノート」として復元（生成）することができる。",
             "DescriptionEn": "A fragment of a technical note containing tactical secrets.\nBy collecting multiple fragments, you can craft a Secret Tech Sheet through the \"TailorMade\" function."
         },
@@ -2820,6 +2820,391 @@
             "NameEn": "Kokona's Eleph",
             "DescriptionJp": "ココナの神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Kokona."
+        },
+        {
+            "Id": 1943191754,
+            "NameJp": "ウタハ（応援団）の神名文字",
+            "NameEn": "Utaha's (Cheerleader) Eleph",
+            "DescriptionJp": "ウタハ（応援団）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Utaha (Cheerleader)."
+        },
+        {
+            "Id": 2421735577,
+            "NameJp": "ノアの神名文字",
+            "NameEn": "Noa's Eleph",
+            "DescriptionJp": "ノアの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Noa."
+        },
+        {
+            "Id": 2562760308,
+            "NameJp": "ヒビキ（応援団）の神名文字",
+            "NameEn": "Hibiki's (Cheerleader) Eleph",
+            "DescriptionJp": "ヒビキ（応援団）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Hibiki (Cheerleader)."
+        },
+
+        {
+            "Id": 1874282437,
+            "NameJp": "お手玉",
+            "NameEn": "Bean Bag",
+            "DescriptionJp": "柔らかい布に豆や砂などを入れて包んだお手玉。ふわふわしているため当たっても怪我をする心配がなく、玉入れなどの試合で使われる。まれに本当に爆発するお手玉が発見されることもある。",
+            "DescriptionEn": "A beanbag made by wrapping beans and sand in a soft cloth. Because it is fluffy, you don't have to worry about getting hurt even if you hit it, so it is used in games such as ball throwing. On rare occasions, some beanbags have been found to actually explode."
+        },
+        {
+            "Id": 3048078452,
+            "NameJp": "ミレニアムの旗",
+            "NameEn": "Millennium's Flag",
+            "DescriptionJp": "ミレニアムの校章が描かれている小さな旗。戻り点を表示したり集合場所を知らせるときに使用される。",
+            "DescriptionEn": "A small flag with the Millennium school crest. It is used to display the return point or to mark the meeting place."
+        },
+        {
+            "Id": 2524752608,
+            "NameJp": "ホイッスル",
+            "NameEn": "Whistle",
+            "DescriptionJp": "エンジニア部の先端技術で作られた特製ホイッスル。吹くと電子信号を発生させ、音を出すスピーカーが作動する複雑な構造になっている。",
+            "DescriptionEn": "A special whistle made with the advanced technology of the Engineering Department. It is a complex device that generates an electronic signal when blown and activates a speaker that produces sound."
+        },
+        {
+            "Id": 3113501019,
+            "NameJp": "ポケット消臭剤",
+            "NameEn": "Pocket Deodorant",
+            "DescriptionJp": "機能的化粧品ブランド「シーサイド」とのコラボで制作された携帯消臭剤。そのファッショナブルなデザインから、キーホルダーにつけてアクセサリーのように活用する生徒も多い。",
+            "DescriptionEn": "A portable deodorant produced in collaboration with the \"Seaside\" functional cosmetics brand. Because of its fashionable design, many students attach it to key chains and use it as an accessory."
+        },
+        {
+            "Id": 2979274458,
+            "NameJp": "ポケット消臭剤の設計図",
+            "NameEn": "Pocket Deodorant Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Id": 3475264813,
+            "NameJp": "ストリートファッションウォッチ",
+            "NameEn": "Street Fashion Wristwatch",
+            "DescriptionJp": "モダンで可愛いデザインが人気のストリートファッションウォッチ。「トリプルステップ」はこの時計と合わせて、ブレスレットをセット売りする戦略を立てているとか。",
+            "DescriptionEn": "Popular street fashion watch with a modern and cute design. \"Triple Step\" is planning to sell a bracelet together with this watch as a set."
+        },
+        {
+            "Id": 2977601006,
+            "NameJp": "ストリートファッションウォッチの設計図",
+            "NameEn": "Street Fashion Wristwatch Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Id": 2501983868,
+            "NameJp": "チェーンネックレス",
+            "NameEn": "Chain Necklace",
+            "DescriptionJp": "チェーンで作られたネックレス。ジャラジャラと響く音が心地良いという生徒もいれば、冷たい感触が苦手という生徒もおり、評価は割れるところ。",
+            "DescriptionEn": "A necklace made of chain links. Some students find the jingling sound pleasant, while others dislike the cold feeling, so the opinions are split."
+        },
+        {
+            "Id": 1340367308,
+            "NameJp": "チェーンネックレスの設計図",
+            "NameEn": "Chain Necklace Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+
+        {
+            "Id": 4195229634,
+            "NameJp": "大運動会の壁掛け時計",
+            "NameEn": "Sports Day Wall Clock",
+            "DescriptionJp": "競技の開始を告げる壁掛け時計。定刻になると全力でスパートを始める。",
+            "DescriptionEn": "A wall clock announcing the start of the competition. When the time comes, they start running with all their might."
+        },
+        {
+            "Id": 3711274552,
+            "NameJp": "大運動会シリーズ",
+            "NameEn": "Sports Day Set",
+            "DescriptionJp": "競技の熱気と活力が感じられる大運動会。友達と一緒に楽しみましょう！",
+            "DescriptionEn": "A large sports festival where you can feel the passion and vitality of the competition. Have fun with your friends!"
+        },
+        {
+            "Id": 1336765943,
+            "NameJp": "大運動会家具",
+            "NameEn": "Sports Day Furniture"
+        },
+        {
+            "Id": 4098284076,
+            "NameJp": "大運動会のカラーコーン・レッド",
+            "NameEn": "Sports Day Cone・Red",
+            "DescriptionJp": "レッドカラーのカラーコーン。公正な試合には欠かせない一品。",
+            "DescriptionEn": "Red cone. A must-have for a fair game."
+        },
+        {
+            "Id": 2985628937,
+            "NameJp": "大運動会のカラーコーン・ブルー",
+            "NameEn": "Sports Day Cone・Blue",
+            "DescriptionJp": "ブルーカラーのカラーコーン。公正な試合には欠かせない一品。",
+            "DescriptionEn": "Blue cone. A must-have for a fair game."
+        },
+        {
+            "Id": 791395155,
+            "NameJp": "大運動会のカラーコーン・スカイブルー",
+            "NameEn": "Sports Day Cone・Sky Blue",
+            "DescriptionJp": "スカイブルーカラーのカラーコーン。公正な試合には欠かせない一品。",
+            "DescriptionEn": "Sky Blue cone. A must-have for a fair game."
+        },
+        {
+            "Id": 1658923215,
+            "NameJp": "大運動会のフラッグ・ライトブルー",
+            "NameEn": "Sports Day Flag・Light Blue",
+            "DescriptionJp": "スカイブルーカラーのフラッグ。涼しい色は遠くからでも生徒たちの目を引く。",
+            "DescriptionEn": "Sky-blue flag. Cool colors catch the eyes of students even from a distance."
+        },
+        {
+            "Id": 1004804813,
+            "NameJp": "大運動会のフラッグ・ブルー",
+            "NameEn": "Sports Day Flag・Blue",
+            "DescriptionJp": "ブルーカラーのフラッグ。まもなく試合が始まるような活気に満ちた兆しを感じさせる。",
+            "DescriptionEn": "Blue flag. It is a vibrant sign that the match will soon begin."
+        },
+        {
+            "Id": 2057528880,
+            "NameJp": "大運動会のフラッグ・イエロー",
+            "NameEn": "Sports Day Flag・Yellow",
+            "DescriptionJp": "イエローカラーのフラッグ。苛烈な試合を終えた後の生徒たちの休憩所を表示する。",
+            "DescriptionEn": "Yellow flag. Designates a resting place for students after a grueling match."
+        },
+        {
+            "Id": 2815510359,
+            "NameJp": "大運動会のスポーツマット",
+            "NameEn": "Large Athletic Sport Mats",
+            "DescriptionJp": "競技のルールがそのまま表現されたスポーツマット。どこでも活気に満ちた試合を行うことができる。",
+            "DescriptionEn": "Sport mats that represent the rules of the competition. Lively matches can be played anywhere."
+        },
+        {
+            "Id": 3173663059,
+            "NameJp": "大運動会のマット・スカイブルー",
+            "NameEn": "Sports Day Flag・Sky Blue",
+            "DescriptionJp": "ほどよくふわふわのケガをする心配のない体操マット。",
+            "DescriptionEn": "A moderately fluffy, injury-free gymnastics mat."
+        },
+        {
+            "Id": 2486348996,
+            "NameJp": "大運動会のマット・ブルー",
+            "NameEn": "Sports Day Flag・Blue",
+            "DescriptionJp": "ほどよくふわふわのケガをする心配のない体操マット。",
+            "DescriptionEn": "A moderately fluffy, injury-free gymnastics mat."
+        },
+        {
+            "Id": 3259632524,
+            "NameJp": "大運動会のマット・ベージュ",
+            "NameEn": "Sports Day Flag・Beige",
+            "DescriptionJp": "ほどよくふわふわのケガをする心配のない体操マット。",
+            "DescriptionEn": "A moderately fluffy, injury-free gymnastics mat."
+        },
+        {
+            "Id": 3032310339,
+            "NameJp": "大運動会のスコアボード",
+            "NameEn": "Sports Day Scoreboard",
+            "DescriptionJp": "選手たちの結果と応援団の士気を高めるスコアボード。見るだけでも緊張と興奮が湧きあがる。",
+            "DescriptionEn": "A scoreboard that boosts the results of the players and the morale of the cheerleaders. Just looking at it makes one nervous and excited."
+        },
+        {
+            "Id": 604450678,
+            "NameJp": "大運動会の窓",
+            "NameEn": "Sports Day Window",
+            "DescriptionJp": "大運動会を眺めることができる窓。生徒たちが競技の真っ最中だ。",
+            "DescriptionEn": "A window from which you can see the sports festival. The students are in the middle of the competition."
+        },
+        {
+            "Id": 812562737,
+            "NameJp": "大運動会のベージュの柱",
+            "NameEn": "Sports Day Beige Pillars",
+            "DescriptionJp": "大運動会の活気を感じられるベージュ色の柱。鮮やかに空間を構成できる。",
+            "DescriptionEn": "Beige-colored column that gives a sense of the vibrancy of a large athletic event. Makes for a vivd space."
+        },
+        {
+            "Id": 2977651098,
+            "NameJp": "大運動会のボール保管箱",
+            "NameEn": "Large Ball Storage Rack",
+            "DescriptionJp": "多様な球技種目に使用するボールの保管箱。いつでもボールを持ってくることができる。",
+            "DescriptionEn": "Storage rack for balls used in a variety of ball game events. Balls can be brought in at any time."
+        },
+        {
+            "Id": 832984722,
+            "NameJp": "エナジードリンクバスケット",
+            "NameEn": "Energy Drink Basket",
+            "DescriptionJp": "冷たい氷とともに備え付けられてたエナジードリンクのバスケット。一口で活気を取り戻すことができる。",
+            "DescriptionEn": "A basket of energy drinks along with cold ice. One sip can bring you back to life."
+        },
+        {
+            "Id": 3592043563,
+            "NameJp": "大運動会のバスケットゴールポスト",
+            "NameEn": "Sports Day Basketball Goal Post",
+            "DescriptionJp": "シンプルなデザインのバスケットゴールポスト。選手じゃなくても一度はダンクシュートを決めてみたくなる！",
+            "DescriptionEn": "Basketball goal post with simple design. You don't have to be a player to want to dunk one!"
+        },
+        {
+            "Id": 1973452569,
+            "NameJp": "玉入れカゴ・イエロー",
+            "NameEn": "Ball Basket・Yellow",
+            "DescriptionJp": "イエロートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+            "DescriptionEn": "Cute yellow-colored ball basket. Let's throw in some colorful balls!"
+        },
+        {
+            "Id": 3526747408,
+            "NameJp": "玉入れカゴ・ブルー",
+            "NameEn": "Ball Basket・Blue",
+            "DescriptionJp": "ブルートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+            "DescriptionEn": "Cute blue-colored ball basket. Let's throw in some colorful balls!"
+        },
+        {
+            "Id": 820798347,
+            "NameJp": "玉入れカゴ・スカイブルー",
+            "NameEn": "Ball Basket・Sky Blue",
+            "DescriptionJp": "ライトブルートーンのかわいい玉入れカゴ。色とりどりのボールを投げ入れてみよう！",
+            "DescriptionEn": "Cute sky blue-colored ball basket. Let's throw in some colorful balls!"
+        },
+        {
+            "Id": 2398625876,
+            "NameJp": "大運動会の審判席",
+            "NameEn": "Sports Day Referee Seat",
+            "DescriptionJp": "試合を見守る審判席。誰よりも早く状況を把握できる。",
+            "DescriptionEn": "Referee's seat to watch the match. You can grasp the situation before anyone else."
+        },
+        {
+            "Id": 4051838828,
+            "NameJp": "大運動会のネット",
+            "NameEn": "Sports Day Net",
+            "DescriptionJp": "丈夫な素材で作られたネット。試合の緊張感あふれるラリーはこのネットで行われる。",
+            "DescriptionEn": "A net made of durable material. The intense rally of the match takes place in this net."
+        },
+        {
+            "Id": 3620318852,
+            "NameJp": "大運動会の木の床",
+            "NameEn": "Sports Day Wooden Floor",
+            "DescriptionJp": "丈夫に作られた木の床。摩擦力が高く、滑ることは少ない。",
+            "DescriptionEn": "Durable wooden floor. High friction makes students less likely to slip."
+        },
+        {
+            "Id": 1998183698,
+            "NameJp": "大運動会のペロロフラッグ装飾",
+            "NameEn": "Sports Day Peroro Flag Decoration",
+            "DescriptionJp": "かわいいペロロがチアリーディングしてくれるフラッグの装飾。可愛さと応援を一度に！",
+            "DescriptionEn": "Adorable Peroro cheerleading flag decorations. Cute and cheerful all at once!"
+        },
+        {
+            "Id": 2904276420,
+            "NameJp": "大運動会の応援フラッグ装飾",
+            "NameEn": "Sports Day Support Flag Decoration",
+            "DescriptionJp": "見ていると力が湧いてくる応援フラッグの装飾。鮮やかな色が情熱を燃やしてくれる。",
+            "DescriptionEn": "A cheering flag decoration that gives you strength when you look at it. Bright colors ignite passion."
+        },
+        {
+            "Id": 114040411,
+            "NameJp": "大運動会の壁紙",
+            "NameEn": "Sports Day Wallpaper",
+            "DescriptionJp": "ライトベージュの壁紙。大運動会を輝かせる器具とよく合っている。",
+            "DescriptionEn": "Light beige wallpaper. It goes well with the equipment that makes the sports festival events shine."
+        },
+        {
+            "Id": 832633492,
+            "NameJp": "大運動会の背景",
+            "NameEn": "Sports Day Background",
+            "DescriptionJp": "大運動会を引き立ててくれる背景。大運動会の活気が伝わってくるようだ。",
+            "DescriptionEn": "Background that complements the sports festival. It seems to convey the liveliness of the festival."
+        },
+        {
+            "Id": 3818682926,
+            "NameJp": "大運動会の立看板",
+            "NameEn": "Sports Day Signboard",
+            "DescriptionJp": "見る人の目を引く大運動会の立て看板。興味がなかった生徒もいつの間にか足を止めている。",
+            "DescriptionEn": "An eye-catching billboard for the sports festival. Even students who weren't interested in it suddenly stop by."
+        },
+        {
+            "Id": 4084185733,
+            "NameJp": "大運動会の折りたたみ椅子",
+            "NameEn": "Sports Day Folding Chair",
+            "DescriptionJp": "頑丈な鉄製の折り畳みチェア。普段は折りたたんで保管できるため、収納性にも優れている。",
+            "DescriptionEn": "A sturdy steel chair. It can be folded for easy storage."
+        },
+        {
+            "Id": 3719677986,
+            "NameJp": "大運動会の跳び箱",
+            "NameEn": "Sports Day Vault Box",
+            "DescriptionJp": "誰だって跳びたくなる跳び箱。爽やかな色合いは大運動会にピッタリ。",
+            "DescriptionEn": "A vaulting box that makes anyone want to jump. The refreshing colors are perfect for the big athletic festival."
+        },
+        {
+            "Id": 2320061101,
+            "NameJp": "大運動会のパン食い競走用スタンド",
+            "NameEn": "Sports Day Bread-eating Race Stand",
+            "DescriptionJp": "おいしいドーナッツがずらりと並んでいるパン食い競走用のスタンド。美食家の生徒なら競技に参加したいかも？",
+            "DescriptionEn": "A bread-eating race stand lined with delicious donuts. If you're a gourmand student, maybe you'd like to participate in the competition?"
+        },
+        {
+            "Id": 2216160600,
+            "NameJp": "大運動会の応援スタンド",
+            "NameEn": "Sports Day Support Stand",
+            "DescriptionJp": "応援するのにうってつけのスタンド。競技中の生徒を応援する熱気でいっぱいだ。",
+            "DescriptionEn": "A perfect stand to cheer from. The stands are filled with the excitement of cheering for the students competing."
+        },
+        {
+            "Id": 2711187349,
+            "NameJp": "大運動会の器具保管箱",
+            "NameEn": "Sports Day Equipment Storage Box",
+            "DescriptionJp": "様々な競技の小物が保管されている保管箱。人気の種目は早めに接近しなければならない！",
+            "DescriptionEn": "A storage box where various competition items are stored. Come in early for the popular events!"
+        },
+        {
+            "Id": 4186446994,
+            "NameJp": "大運動会のランチテーブル",
+            "NameEn": "Sports Day Lunch Table",
+            "DescriptionJp": "大運動会の華であるランチ用のテーブル。午前の反省会をし、逆転優勝を狙うための作戦会議に使える。",
+            "DescriptionEn": "A table for lunch, the centerpiece of any athletic festival. It can be used for a strategy meeting to review the morning's events and to aim for a comeback victory."
+        },
+        {
+            "Id": 3249630751,
+            "NameJp": "大運動会のトロフィー陳列台",
+            "NameEn": "Sports Day Trophy Display Stand",
+            "DescriptionJp": "栄光あるトロフィーが並んだ大運動会のトロフィー陳列台。大運動会に参加する生徒たちの目標であり夢が詰まっている。",
+            "DescriptionEn": "The trophy display stand of the sports festival, lined with glorious trophies. It is the goal and dream of the students participating in the Sports Day."
+        },
+        {
+            "Id": 1270765820,
+            "NameJp": "大運動会の入場ゲート",
+            "NameEn": "Sports Day Entrance Gate",
+            "DescriptionJp": "華やかな大運動会の開幕を知らせる入場ゲート。入った瞬間から熱気が感じられる。",
+            "DescriptionEn": "The entrance gate signaling the start of a spectacular athletic event. You can feel the excitement from the moment you enter."
+        },
+        {
+            "Id": 451299855,
+            "NameJp": "大運動会のガイドボード",
+            "NameEn": "Sports Day Guide Board",
+            "DescriptionJp": "大運動会の日程が書かれたガイドボード。大運動会の情報を知ることができる。",
+            "DescriptionEn": "A guide board with the schedule of the festival written on it. Find out all the information about Sports Day."
+        },
+        {
+            "Id": 3514482999,
+            "NameJp": "カウンターチェア・ゴールドブラック",
+            "NameEn": "Counter Chair・Gold Black",
+            "DescriptionJp": "ゴールド仕上げが引き立つカウンターチェア。どこにあっても高級感を感じられる。",
+            "DescriptionEn": "A counter chair with a gold finish. Feel the luxury wherever you are."
+        },
+        {
+            "Id": 2693388642,
+            "NameJp": "カウンターチェア・ゴールドレッドワイン",
+            "NameEn": "Counter Chair・Gold Red Wine",
+            "DescriptionJp": "気品が感じられるカウンターチェア。赤のベルベット生地がとても柔らかい。",
+            "DescriptionEn": "A supremely dignified counter chair. Very soft red velvet fabric."
+        },
+        {
+            "Id": 627414305,
+            "NameJp": "カウンターチェア・シルバーネオンブルー",
+            "NameEn": "Counter Chair・Silver Neon Blue",
+            "DescriptionJp": "ほのかなシルバー仕上げのカウンターチェア。爽やかな雰囲気を楽しみたい人にオススメ。",
+            "DescriptionEn": "Counter chair with sleek silver finish. Recommended for those who want to enjoy a refreshing atmosphere."
+        },
+        {
+            "Id": 3510817666,
+            "NameJp": "カウンターチェア・ダークバイオレット",
+            "NameEn": "Counter Chair・Dark Violet",
+            "DescriptionJp": "魅力が引き立つカウンターチェア。周囲に魅惑を振りまける。",
+            "DescriptionEn": "A charming counter chair. Brings enchantment to the surroundings."
         }
 
     ]

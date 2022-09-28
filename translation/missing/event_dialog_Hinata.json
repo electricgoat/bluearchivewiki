@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "오셨군요, 선생님!\n기다리고 있었답니다!",
+            "LocalizeKR": "수고하셨습니다, 선생님!\n기다리고 있었답니다!",
             "LocalizeJP": "お疲れ様です、先生！\nお待ちしておりました\n……！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "늘 평안하시기를…….",
+            "LocalizeKR": "부디, 평안이\n함께 하시기를…….",
             "LocalizeJP": "どうか、安らぎが\n訪れますように……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -39,7 +39,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "슬슬 더 힘을 내 볼까요?",
+            "LocalizeKR": "그럼, 다시 한번\n힘을 내볼까요!",
             "LocalizeJP": "では、気合を入れ直して\n頑張りましょう！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -51,7 +51,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "슬슬 서둘러야\n할 것 같은데…….",
+            "LocalizeKR": "아, 조금 서두르는 게\n좋을지도 모르겠네요…….",
             "LocalizeJP": "あ、少し急いだほうが\n良いかもしれませんね\n……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -63,7 +63,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "마무리 정돈은 중요하죠.\n제가 도와드릴게요!",
+            "LocalizeKR": "마무리 정돈 시간이네요.\n열심히 돕겠습니다!",
             "LocalizeJP": "お片付けの時間ですね、\n全力でお手伝いします！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -75,7 +75,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "선생님……?\n필요하신 거라도\n있으신가요?",
+            "LocalizeKR": "선생님, 무슨 일\n있으세요? 뭔가\n필요한 거라도\n있으신가요?",
             "LocalizeJP": "……？先生、どうか\nされましたか？\n何か必要なものでも\nありました？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -87,7 +87,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "으음……? \n왜, 왜 그러세요……?",
+            "LocalizeKR": "저, 저기……?\n뭔가 하실 말씀\n이라도……?",
             "LocalizeJP": "え、えっと……？\nどうかされましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -99,7 +99,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "선생님……?\n저한테 뭔가 묻기라도……?",
+            "LocalizeKR": "선생님……? 제 얼굴에\n뭐라도 묻어 있나요…?",
             "LocalizeJP": "先生……？何か私に、\n変なものでも\nついてましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -145,7 +145,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "정리랑 관리는 자신 있으니까요……!\n한 번 봐 주세요!",
+            "LocalizeKR": "정리랑 관리라면, 꼭\n제게 맡겨 주세요……!\n이걸 봐주세요!",
             "LocalizeJP": "整理や管理でしたら、\nぜひ私に任せてください……！\nこちらをどうぞ！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -193,7 +193,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Buy",
             "GroupId": 2,
-            "LocalizeKR": "저도 그게 좋다고 생각해요.",
+            "LocalizeKR": "네, 저도 그게\n좋다고 생각해요.",
             "LocalizeJP": "はい、私もそれが\n良いと思います。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

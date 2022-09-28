@@ -1,0 +1,262 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "이런 차림은\n조금 어색하지만…",
+            "LocalizeJP": "この格好、ちょっと\n慣れないけど…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "그래도 <황륜대제>의\n성공적인 개최를\n위해서라면…",
+            "LocalizeJP": "でも「晄輪大祭」が\n成功するためなら…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "후후, 즐거운 축제가\n되었으면 좋겠네.",
+            "LocalizeJP": "ふふ、楽しい\nお祭りになると良いね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "(치어리딩 연습은\n계속 연습해도 좀처럼\n익숙해지질 않네…)",
+            "LocalizeJP": "（チアリーディング、\nどれだけ練習しても\nあんまり慣れない…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "<황륜대제> 준비도\n거의 끝난 것 같아.\n조금만 더… 힘내자.",
+            "LocalizeJP": "「晄輪大祭」の準備も\nほとんど終わったみたい。\nあともう少し…頑張ろう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "도와주느라\n수고 많았어, 선생님.",
+            "LocalizeJP": "手伝ってくれて\nありがとう、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "그럼, 본 경기에서도\n우리의 응원을 기대해줘.",
+            "LocalizeJP": "本祭でも私たちの\n応援を楽しんでね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "히, 힘내라,\n힘내라… 선생님…!",
+            "LocalizeJP": "が、頑張れ、\n頑張れ…！先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "내가 만든 옷이긴 하지만…\n다들… 신경 쓰이지\n않는 걸까…",
+            "LocalizeJP": "私が作った服だけど…\nみんな…あんまり\n気にしてないのかな…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "치어리더복의 꼬리 쪽이\n신경쓰인다고…?",
+            "LocalizeJP": "この服のしっぽの\n辺りが気になるって…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLobby_3_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "지금은…\n말하기 곤란하지만…",
+            "LocalizeJP": "今は…ちょっと\n言えないけど…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLobby_3_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "나중에 몰래\n구조를 가르쳐 줄게…",
+            "LocalizeJP": "後でこっそり、\n構造を教えてあげる…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "역시 열정을\n불태우는 건…\n로망이야.",
+            "LocalizeJP": "やっぱり情熱を\n燃やすのは…\nロマンだね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님, 어서와.\n<황륜대제> 준비에 필요한\n자재를 모으는 중이야.",
+            "LocalizeJP": "先生、いらっしゃい。\n「晄輪大祭」の準備に必要な\n資材を集めていたところ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "<황륜대제> 준비에 필요한\n물자는 이쪽에 모아줘. ",
+            "LocalizeJP": "「晄輪大祭」の準備に\n必要な物資は、\nここに持ってきてね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응?\n뭔가 궁금한 거라도 있어?",
+            "LocalizeJP": "ん？どうしたの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "저기… 응원이라면\n나중에 해줄게. 지금은 조금…",
+            "LocalizeJP": "あの…応援なら後でしてあげる。\n今はちょっと…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "음, 좋은 물건이네.\n도와줘서 고마워.",
+            "LocalizeJP": "うん、良いものだね。\n手伝ってくれてありがとう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Buy_1"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "작은 성의지만… 도와준 답례야.\n받아주었으면 좋겠어.",
+            "LocalizeJP": "ささやかだけど…\n手伝ってくれたお礼。\n受けとってほしい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Buy_2"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 3,
+            "LocalizeKR": "이거라면…\n모두가 좋아할 거야.",
+            "LocalizeJP": "これなら…みんな喜ぶと思う。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Buy_3"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 4,
+            "LocalizeKR": "큰 도움이 되었어.\n고마워, 선생님.",
+            "LocalizeJP": "すごく役に立ったよ。\nありがとう、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_Buy_4"
+            ]
+        },
+        {
+            "CharacterId": 19009066,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "수고 많았어, 선생님.\n혹시라도 남은 물자가 있다면\n내가 바꿔줄게.",
+            "LocalizeJP": "お疲れさま、先生。\nもし残った物資があったら、\n私が交換してあげる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0181_EventShop_End"
+            ]
+        }
+    ]
+}

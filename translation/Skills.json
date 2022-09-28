@@ -2821,6 +2821,84 @@
             "GroupId": "CH0137ExtraPassive01",
             "NameEn": "Plum Blossom Garden teaching method",
             "DescriptionEn": "When $1 Hanamaru Stamps are acquired, the EX skill cost of all allies other than Kokona herself is reduced by $2. (Reduction active until EX is activated $3)\nRemove all Hanamaru Stamps.\nHeal self for $4 of Healing power."
+        },
+
+        {
+            "GroupId": "CH0182Ex01",
+            "NameEn": "Rai-chan MK-III, enhance",
+            "DescriptionEn": "Enhances the turret for $1. While the turret is in Enhanced state, normal attacks will deal $2 damage. Changes Normal skill activation conditions."
+        },
+        {
+            "GroupId": "CH0182Public01",
+            "NameEn": "Passion Cannon",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy. Every $3 attacks, deal $4 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0182Passive01",
+            "NameEn": "Cheerleader's Passion",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0182WeaponPassive01",
+            "NameEn": "Cheerleader's Passion +",
+            "DescriptionEn": "Increase Attack Speed by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0182ExtraPassive01",
+            "NameEn": "Cheerleader's Fighting Spirit",
+            "DescriptionEn": "When attacking weakened enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0181Ex01",
+            "NameEn": "It might be a little hot",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area.\nInflict continuous Burn damage of $2 for $3."
+        },
+        {
+            "GroupId": "CH0181Public01",
+            "NameEn": "If this voice reaches you",
+            "DescriptionEn": "Every $1, increase the Attack of an ally with the highest Attack and self by $2 for $3."
+        },
+        {
+            "GroupId": "CH0181Passive01",
+            "NameEn": "Just enough passion",
+            "DescriptionEn": "Increase Attack by $1, decrease Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0181WeaponPassive01",
+            "NameEn": "Just enough passion +",
+            "DescriptionEn": "Increase Attack by $1.\nFurther increase Attack by $2 and decrease Critical Damage rate by $3."
+        },
+        {
+            "GroupId": "CH0181ExtraPassive01",
+            "NameEn": "It's a little embarrassing...",
+            "DescriptionEn": "When attacking an enemy, deal $1 as additional damage.\nThe farther the enemy is, the more damage is done, and the closer the enemy, the weaker the damage.\n(Maximum miltiplier of x2, minimum of x0.5)"
+        },
+
+        {
+            "GroupId": "CH0095Ex01",
+            "NameEn": "Because speed is the key to records",
+            "DescriptionEn": "Apply Focused Fire to one target enemy for $1.\nDecrease their Defense by $2 for $3."
+        },
+        {
+            "GroupId": "CH0095Public01",
+            "NameEn": "There are openings everywhere!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0095Passive01",
+            "NameEn": "Secretary's leeway",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0095WeaponPassive01",
+            "NameEn": "Secretary's leeway +",
+            "DescriptionEn": "Increase Attack by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0095ExtraPassive01",
+            "NameEn": "Secretary's commitment",
+            "DescriptionEn": "When using Normal skill, increase debuff duration by $1 for $2."
         }
         
     ]

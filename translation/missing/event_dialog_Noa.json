@@ -1,0 +1,248 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "자, 그럼 다함께\n<황륜대제>를\n준비해볼까요?",
+            "LocalizeJP": "それでは、一緒に\n「晄輪大祭」の\n準備をはじめましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "개회식에 늦지 않도록\n서둘러 준비하죠!",
+            "LocalizeJP": "開会式に遅れないよう、\n頑張りましょうね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "(음… 이제\n남은 준비물은\n뭐가 있으려나…)",
+            "LocalizeJP": "（えっと… このあとに\n用意するものは…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "<황륜대제> 개최도\n이제 얼마 남지 않았네요.",
+            "LocalizeJP": "「晄輪大祭」開催まで\nあとわずかですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "마지막까지 힘내주세요.",
+            "LocalizeJP": "最後まで\n頑張ってください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "수고 많으셨습니다,\n선생님. 모두가 힘을\n모아 준비했으니, ",
+            "LocalizeJP": "お疲れ様でした先生。\n皆で一致団結して\n準備しましたから、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "분명 이번 <황륜대제>도\n즐거울거예요.",
+            "LocalizeJP": "今回の「晄輪大祭」も\n楽しいこと\n間違いなしです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "키보토스의 이목이\n집중되는 축제인 만큼,",
+            "LocalizeJP": "キヴォトス中の\n注目が集まる\nお祭りですから、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "밀레니엄의 진가를\n보여줄 수 있도록\n최선을 다하겠습니다!",
+            "LocalizeJP": "ミレニアムの真価を\n示せるよう、\n最善を尽くします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "체육은 특기가\n아닙니다만…",
+            "LocalizeJP": "運動は得意では\nありませんが…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이것도 일단은\n세미나의 업무니까요.",
+            "LocalizeJP": "これも一応、\nセミナーの\n仕事ですから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(…모두가 축제를\n기대하고 있는 건\n아닌가 보네요…)",
+            "LocalizeJP": "（…皆がお祭りを楽しみに\nしているわけでは、\nないのですね…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "유우카 씨가 나중에\n일어나면 분명 엄청나게\n잔소리를 하겠죠?",
+            "LocalizeJP": "ユウカちゃんが\n目覚めたら、きっと\n小言の嵐でしょうね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLobby_4_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후후…\n그 당황한 표정이\n기대가 되네요.",
+            "LocalizeJP": "ふふ…ユウカちゃんの\n慌てる姿、\n今から楽しみです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventLobby_4_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "여기, 황륜대제 준비에\n필요한 업무 목록입니다.",
+            "LocalizeJP": "こちら、「晄輪大祭」の\n準備に必要な\n業務一覧になります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아, 마침 잘 오셨습니다,\n선생님. 선생님의 도움이 필요한\n업무가 있었거든요.",
+            "LocalizeJP": "あ、丁度良いところに！\n先生にお願いしたいお仕事が\nありまして…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네? 무슨 일이신가요?",
+            "LocalizeJP": "あれ？どうされました？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후후, 안 돼요.\n지금은 바쁘니, 장난이라면\n나중에 받아드릴게요.",
+            "LocalizeJP": "ふふ、ダメですよ。\n今は忙しいので…\nあとでちゃんと構ってあげます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "역시 선생님이시군요.\n한 수 배웠습니다.",
+            "LocalizeJP": "さすがです、先生。\n勉強になりました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "어머나, 인상적인 일처리네요.\n감탄했습니다.",
+            "LocalizeJP": "いい仕事っぷりですね。\n感心しました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009065,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "이곳의 업무는 이것으로\n일단 마무리 된 것 같네요.\n도와주셔서 감사합니다.",
+            "LocalizeJP": "ここのお仕事はこれで\n一段落ですね。\nご協力、感謝します。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_EventMission_Day_End"
+            ]
+        }
+    ]
+}

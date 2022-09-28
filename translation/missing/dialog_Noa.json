@@ -1,0 +1,534 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브!",
+            "LocalizeJP": "ブルーアーカイブ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Title"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "세미나의 서기, 우시오 노아입니다.\n여러 의미로 잘 부탁드리겠습니다. 선생님.",
+            "LocalizeJP": "セミナーの書記、生塩ノアです。\nよろしくお願いしますね、先生……様々な面で、はい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(이 카페는 마치\n몽상가들의 꿈처럼\n느껴지네요…)",
+            "LocalizeJP": "（このカフェ、まるで\n夢想家たちが見る\n夢みたいですね……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(잠시 권태를 잊고\n백일몽에 잠겨볼까요.)",
+            "LocalizeJP": "（少しだけアンニュイな\n現実を忘れて、白昼夢に\n耽るとしましょうか）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이 가구,\n세미나의 휴게실에도\n하나 들여놓으면 좋겠네요.\n후후.",
+            "LocalizeJP": "この家具、\nセミナーの休憩室にも\n導入したいですね。\nふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "이 공간의 구조는…\n인상적이네요.",
+            "LocalizeJP": "この空間の構造…\n印象的ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "후후, 이 광경은\n유우카 쨩에게도\n보여주고 싶네요.",
+            "LocalizeJP": "ふふ、この光景、\nユウカちゃんにも\n見せてあげたいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서오세요, 선생님.",
+            "LocalizeJP": "おかえりなさい、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "오늘의 회의 일정을 확인하시겠어요?",
+            "LocalizeJP": "今日のスケジュールを\n確認されますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "후후, 조금 늦으셨네요, 선생님.",
+            "LocalizeJP": "ふふっ、\n少し遅かったですね、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_LogIn_2_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "그렇게 쳐다보셔도 지각한 사실은\n지워드릴 수 없으니까요.",
+            "LocalizeJP": "そんなに見つめても、\n遅刻した事実は\n消してあげられません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_LogIn_2_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "다음 번에는\n조금 더 일찍 찾아와주세요.",
+            "LocalizeJP": "次はもう少し\n早く来てくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(지이……)",
+            "LocalizeJP": "（じーっ……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_1_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 신경쓰지 마세요.\n관찰하고 있는 것 뿐이니까요.",
+            "LocalizeJP": "あ、気にしないでください。\n観察しているだけですので。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_1_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "뭔가 재미있는 생각이 떠오르셨나요?",
+            "LocalizeJP": "何か面白いアイディアでも\n浮かびましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "바로 받아 적을테니 부디 들려주시길.",
+            "LocalizeJP": "今すぐ書き留めますので、\n私に聞かせてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "제가 쓴 시집, 말씀인가요…?",
+            "LocalizeJP": "私の書いた詩集、ですか…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_3_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "지난 밀레니엄 프라이스에\n출품했었지요.",
+            "LocalizeJP": "前回のミレニアムプライスに\n出品しましたよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "어째서인지 다들 잘 읽어주시면서도,",
+            "LocalizeJP": "どういうわけか、\n皆さん読んではくださるのに、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_3_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "제대로 된 감상은 들려주지는\n않으시더라고요……",
+            "LocalizeJP": "きちんとした感想を\n言ってくれないんですよね……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "신기한 일이네요.",
+            "LocalizeJP": "不思議です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "유우카 씨는 감정 표현이 풍부해서\n함께 있으면 질리지가 않아요.",
+            "LocalizeJP": "ユウカちゃんは\n感情表現がとても豊かで、\n一緒にいると退屈しません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그래서 가끔은 저도 모르게…\n짗궂은 장난을 치고 만답니다. 후후.",
+            "LocalizeJP": "それで私はつい、\n彼女をからかって\nしまうんです……ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_4_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "호기심은 과학을 발전시키는\n동력이지만, 종종 우리를\n괴롭게 하지요.",
+            "LocalizeJP": "好奇心は、科学を発展させる\n動力であると同時に、\n時々、私たちを苦しめます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그것은 기이한 아픔이자,\n공포 섞인 욕망…",
+            "LocalizeJP": "それはとても奇妙な痛みで、\n恐怖の混じった欲望……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Lobby_5_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드립니다, 선생님.",
+            "LocalizeJP": "お誕生日、\nおめでとうございます先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Birthday_Player_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "기록상으로는 평소와 다를 바 없는,\n평범한 하루일지라도...",
+            "LocalizeJP": "記録上は普段と変わりのない\n平凡な日であっても……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Birthday_Player_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘은 조금 더\n행복한 하루가 되셨으면 좋겠네요.",
+            "LocalizeJP": "今日がいつもより、\n幸せな1日でありますように。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Birthday_Player_3"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "태어난 날을 기록하고 회상하는\n행위에 특별한 이유는 없다지만…",
+            "LocalizeJP": "生まれた日を記して\n回想する行為に、\n特に意味はないと言いますが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Birthday_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "그래도 축하를 받는 건 기쁜 일이네요.",
+            "LocalizeJP": "それでも、祝ってもらえるのは\n嬉しいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Birthday_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "기억해 주셔서 감사합니다.",
+            "LocalizeJP": "覚えていただいて、\nありがとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으시길.",
+            "LocalizeJP": "あけまして\nおめでとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해도 잘 부탁드립니다.",
+            "LocalizeJP": "今年もどうぞ、\nよろしくお願いしますね、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스라…",
+            "LocalizeJP": "クリスマスですか……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Xmas_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "밀레니엄 학원에서는\n특별한 축일이 아닙니다만,",
+            "LocalizeJP": "ミレニアムでは、\nなにか特別な日というわけじゃ\nありませんが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "어쩐지 오늘은 한가한 느낌이네요.",
+            "LocalizeJP": "今日はなんだか、のどかですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "…괜찮으시다면 일이 끝난 뒤에",
+            "LocalizeJP": "……もしよろしければ\nお仕事の後、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Xmas_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "저녁이라도 함께 어떠신가요? 후후.",
+            "LocalizeJP": "ディナーをご一緒に、\nいかがですか？ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "기억되지 못한 망자들을 기리는\n축제의 날이네요.",
+            "LocalizeJP": "覚えてもらえなかった\n亡者をたたえる、\n祝祭の日ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Halloween_1"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "기록되지 못하여 잊히는 사람이 없도록,\n더욱 충실히 일해야겠어요.",
+            "LocalizeJP": "記されず、誰の中からも\n消え去ってしまう人が減るよう、\n一層業務に励みたいと思います。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_Season_Halloween_2"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 컨버전 키트의 구조는 인상적이네요.\n조금… 여러가지를 시도해보고\n싶어졌어요. 후훗.",
+            "LocalizeJP": "このコンバージョンキットは\n不思議な構造をしていますね。\n少し…色々と試してみたくなりました。\nふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0095_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "…신기한 느낌이네요.",
+            "LocalizeJP": "……不思議です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭔가 종이에 글씨를 쓸 때와는 달리,\n기분이 고양되는 것 같아요.",
+            "LocalizeJP": "紙に文字を書くときと違って、\n気分が高揚しています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "기록이란 본래 현재의 의사를\n미래에 전달하기 위한 수단일 텐데.",
+            "LocalizeJP": "記録とは本来、現在の意志を\n未来に伝達するための\n手段だというのに。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "비가 그치고 해가 뜨면\n사라져 버리는 찰나의 기록이라니…",
+            "LocalizeJP": "雨が止み、\n陽が登ったら消えてしまう\n刹那の記録だなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이성과 진실, 합리를 기록하기에\n이 유리판은 너무나도 연약하네요.",
+            "LocalizeJP": "理性と真実、\n合理を記録するのに、\nこのガラスの板は\nあまりにも儚いですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……그래서 이 거대한 서판이\n더 마음에 들어요. 후후.",
+            "LocalizeJP": "……でも…だからこそ私は、\nこの大きなガラスの\nページの方が好きです。ふふ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "자, 다함께 최고의\n<황륜대제>를 위해\n힘을 모으는 거야!",
+            "LocalizeJP": "さあ、皆で最高の\n「晄輪大祭」にする\nために、力を合わせよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이런 재미있어 보이는…",
+            "LocalizeJP": "なんて面白そうな…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_2_1"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아니, 밀레니엄의\n명예가 걸린 일이라면",
+            "LocalizeJP": "ミレニアムの名誉が\nかかっているからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_2_2"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "당연히 우리\n엔지니어부가\n발벗고 도와야지.",
+            "LocalizeJP": "私たちエンジニア部が\n手伝うのは当然の事だよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "음, <황륜대제> \n준비도 계획대로\n척척 진행되고 있군.",
+            "LocalizeJP": "うむ、「晄輪大祭」の\n準備は着実に\n進んでいるね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "<황륜대제> 개최도\n이제 얼마 머지 않았어.",
+            "LocalizeJP": "「晄輪大祭」の\n開催まであと少し。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "벌써부터 흥분을\n가라앉히기가\n어려운걸.",
+            "LocalizeJP": "今から興奮が\n収まらないよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "수고 많았어, 선생님.\n그럼 응원석에서 먼저\n기다리고 있을게.",
+            "LocalizeJP": "お疲れ様、先生。\n先に応援席で待ってるね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응원은 아직\n익숙하지 않지만…",
+            "LocalizeJP": "応援はまだ\n慣れてないけど…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_1_1"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어쩔 수 없지.\n최선을 다할게.",
+            "LocalizeJP": "仕方ない、\n精一杯頑張るよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "한 번 받은 의뢰는\n끝까지 수행하는 게",
+            "LocalizeJP": "一度引き受けた依頼は、\n最後まで成し遂げる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_1_2"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우리 엔지니어부의\n모토니까!",
+            "LocalizeJP": "それが私たち\nエンジニア部の\nモットーだからね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그러고보니 세미나의\n깐깐한 회계가…\n모습이 보이질 않네.",
+            "LocalizeJP": "そういえば、セミナーの\nしっかり者の会計…\n彼女の姿が見えないね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어디 아픈 게\n아니였으면 좋겠는데.",
+            "LocalizeJP": "体調を崩してないと\n良いけれど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(모두가 평온하게 축제를\n즐길 수 있었으면\n좋겠는데…)",
+            "LocalizeJP": "（皆が穏やかに、祭りを\n楽しめるといいな…)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "움직이는 일이\n적다고는 하지만 ",
+            "LocalizeJP": "普段動くことが\n少ないとは言え、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "코토리와 히비키의 체력이\n이렇게까지 떨어졌을 줄은\n몰랐는데…",
+            "LocalizeJP": "コトリとヒビキの\n体力がここまで\n落ちていたとは…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "축제가 끝난 뒤에\n엔지니어부 부실에",
+            "LocalizeJP": "祭りが終わったら、\nエンジニア部の部室に",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_EventLobby_4_2"
+            ]
+        },
+        {
+            "CharacterId": 19009064,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "체력 단련 로봇이라도\n만들어 놓을까?",
+            "LocalizeJP": "体づくりサポートの\nロボットでも作って\n置いておこうかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

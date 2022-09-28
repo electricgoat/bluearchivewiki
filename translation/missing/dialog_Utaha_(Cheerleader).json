@@ -1,0 +1,454 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브.",
+            "LocalizeJP": "ブルーアーカイブ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Title"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "밀레니엄의 응원단장, 시라이시 우타하.\n차가운 이성과 뜨거운 열정으로,  모두를 응원하겠어.",
+            "LocalizeJP": "ミレニアムの応援団長、白石ウタハ。\n冷たい理性と熱い情熱で、\n皆を応援するとしよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "열정으로 가득찬\n공간이네.",
+            "LocalizeJP": "情熱でいっぱいの\n空間だね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기에서 응원을\n하게 되면, 어디까지\n소리가 닿을까?",
+            "LocalizeJP": "ここで応援を始めたら、\nどこまで声が届くかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "다같이 이곳에서\n매스 게임을\n해 보고 싶은데…",
+            "LocalizeJP": "ここで皆と一緒に、\nマスゲームを\nしてみたい…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(후후, 재미있는\n응원 계획이\n떠올랐어.)",
+            "LocalizeJP": "（ふふ、面白い\n応援計画を\n思いついたよ）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "뭔가… 기합이\n부족한 것 같은데.",
+            "LocalizeJP": "なんだろう…\n気合いが\n足りないような。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생님. \n응원이 필요하다면,\n언제든 이야기해 줘.",
+            "LocalizeJP": "やあ、先生。 \n応援が必要なら、\nいつでも声をかけてくれ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "자, 선생님.\n오늘도 기합 넣어서\n힘차게 일과를 시작하자고!",
+            "LocalizeJP": "さあ、先生。\n今日も気合いを入れて、\n元気に一日をはじめよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "사람의 기운을\n북돋우는 것은 중요한 일이지.",
+            "LocalizeJP": "人を元気づけるのは\n大事なことだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "창의적인 결과물을\n얻기 위해라서도 말이야.",
+            "LocalizeJP": "クリエイティブな結果を\n得るためにもね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "힘든 일이 있었다고? \n괜찮아. 일어나서\n다시 한 번 해보는 거야.",
+            "LocalizeJP": "辛いことがあったのかい？\n大丈夫、まずは\nもう一度やってみよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이렇게 선생님과\n함께 있으면…",
+            "LocalizeJP": "こうして先生と\n一緒にいると…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "뭐든 해 낼 수 있을 것\n같은 기분이 들어.",
+            "LocalizeJP": "何でもできそうな気がするよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "마이스터란,\n어떤 의미에서는\n기계들의 응원단장\n같은 존재일지도…",
+            "LocalizeJP": "マイスターとはいわば、\n機械たちの応援団長のような\n存在なのかもしれないね…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님께 이런 모습을\n보여 주는 것도 나쁘지 않네.",
+            "LocalizeJP": "先生にこんな姿を\n見せるのも悪くないね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어때? 조금은 내가…\n신선하게 느껴져?",
+            "LocalizeJP": "どうだい？\n少しは…新鮮かな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "아, 오늘이\n선생님의 생일이구나.",
+            "LocalizeJP": "ああ、今日は\n先生の誕生日か。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Birthday_Player_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘 하루만큼은\n내가 선생님만의\n응원단장이 되어줄게.",
+            "LocalizeJP": "今日一日は、先生だけの\n応援団長になるとしよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Birthday_Player_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "내 생일…?\n시간이 벌써\n그렇게 되었나.",
+            "LocalizeJP": "私の誕生日…？\nもうそんな時期なんだね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Birthday_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "고마워. 하지만\n새삼스럽지는 않네.",
+            "LocalizeJP": "ああ、でもあんまり\n特別な感じはしないな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Birthday_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님이 나를\n응원해 준 덕분에,",
+            "LocalizeJP": "先生が私を\n応援してくれてるから、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Birthday_3"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "매일이 생일 같은 기분이야.",
+            "LocalizeJP": "年中ずっと\n誕生日みたいな\n気持ちなんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "고마워, 선생님.",
+            "LocalizeJP": "ありがとう、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해가 되었구나.\n새해 첫날부터 모두가\n기운을 낼 수 있도록,\n응원전을 시작해 볼까.",
+            "LocalizeJP": "年が明けたね。\n新年初日から皆が元気に\nなれるよう、応援合戦を\nはじめるとしようか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "산타는 정말 열정적이네.\n누군가에게 응원이라도\n받고 있는 걸까?",
+            "LocalizeJP": "サンタは情熱的だね。\n誰かに応援でも\nされてるのだろうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Xmas_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아… 아이들의\n꿈과 희망이 그 열정의\n원천일지도 모르겠네.",
+            "LocalizeJP": "ああ…子供たちの夢と希望、が\n情熱の源なのかもしれないね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Xmas_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "…휴게실에 장식된 호박 램프를\n전부 폭파시킨 건\n고의가 아니었어…",
+            "LocalizeJP": "その…休憩室にあった\nカボチャのランプを\n全部爆破させたのは、\nわざとじゃあないんだ…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Halloween_1"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "그저 나는…\n호박이 60 프레임으로\n반짝이면 예쁠거라고 생각해서…",
+            "LocalizeJP": "私はただ…カボチャが\n60フレームで\n光っていたほうが\n綺麗だと思って…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_Season_Halloween_2"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "열정의 향기야말로,\n마이스터의 영감을\n일깨우는 동력이지.",
+            "LocalizeJP": "情熱の香りこそ、\nマイスターのインスピレーションを\n研ぎ澄ませる動力さ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0182_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "플레이, 플레이! 밀레니엄!",
+            "LocalizeJP": "フレー！フレー！\nミレニアム！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "싸워라! 이겨라! 밀레니엄!",
+            "LocalizeJP": "行け！行け！勝て！勝て！\nミレニアム！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후후… 어때 선생님?\n대단한 광경이지?",
+            "LocalizeJP": "ふふ… どうだい、先生？\nすごい光景だと思わないか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이 매스게임에는\n신형 블루투스 장치를\n탑재한 로봇을\n사용하고 있기 때문에, ",
+            "LocalizeJP": "このマスゲームには、\n新型ブルートゥース装置を\n搭載したロボットを\n使用しているから、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아무리 복잡한 군무라도\n완벽하게 연출할 수 있어.",
+            "LocalizeJP": "どんなに複雑な振付でも\n完璧に演出する\nことができるんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…응?\n연출에 기계를 사용할 거라면\n전광판을 설치하는 게\n더 효율적이지 않겠느냐고?",
+            "LocalizeJP": "…うん？演出に機械を\n使用するぐらいなら、\nスクリーンを設置したほうが\n効率的なのではないのかって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "멋없는 소리는\n하지 말아줘, 선생님.",
+            "LocalizeJP": "先生、\nロマンのない話は\n辞めたまえ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아날로그 패널이\n동시에 펼쳐지며\n완성하는 풍경에는",
+            "LocalizeJP": "アナログのパネルが一斉に\n動いて完成される光景には、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "전광판은 비교도\n되지 않을 정도의\n박력과 감동이 있으니까.",
+            "LocalizeJP": "スクリーンとは比べ物に\nならないほどの迫力と\n感動があるんだよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10051,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "본래 사람의 마음을 뛰게\n만드는 로망은 효율과는\n거리가 먼 사치품이거든.",
+            "LocalizeJP": "元来、胸高鳴る瞬間を\n与えるロマンは、「効率」とは\n程遠いものだからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}
