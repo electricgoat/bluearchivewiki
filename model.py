@@ -126,7 +126,7 @@ class Character(object):
     def from_data(cls, character_id, data):
         character = data.characters[character_id]
         character_ai = data.characters_ai[character['CharacterAIId']]
-        liked_gift_tags = data.characters_cafe_tags[character_id]['FavorItemTags']
+        liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
         portrait = character['TextureDir'][character['TextureDir'].rfind('/')+1:]
 
         return cls(
