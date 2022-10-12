@@ -83,6 +83,90 @@
             "VoiceClipsJp": [
                 "Neru_Battle_Victory_2"
             ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "자~ 청소라도 하러 갈까?",
+            "LocalizeJP": "さあ～て、掃除でもしに行くか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Neru_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "자, 빨리 시작하자고.",
+            "LocalizeJP": "さあ、早く始めようぜっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0101_Tactic_In_1"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭐야. 응원이라도 해주는 거야?\n하! 재미있네.",
+            "LocalizeJP": "なんだ？応援でも\nしてくれてんのか？\nはっ！面白いじゃん。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Neru_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "나에게 걸리면,\n이 정도는 식은 죽 먹기지!",
+            "LocalizeJP": "あたしにかかれば、\nこれくれぇ朝飯前だ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0101_Tactic_Victory_2"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "헤에.\n제법 센스가 있잖아?",
+            "LocalizeJP": "へえ、なかなか\nセンスあるじゃねえか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Neru_Battle_Recovery_1"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "일은 확실하게 한다고.",
+            "LocalizeJP": "仕事はきっちりやるぞ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Neru_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009015,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "청소 완료다.",
+            "LocalizeJP": "清掃完了だ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Neru_Battle_Victory_2"
+            ]
         }
     ]
 }
