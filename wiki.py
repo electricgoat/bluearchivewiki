@@ -69,7 +69,7 @@ def page_list(match):
 
 
 
-def upload(file, name):
+def upload(file, name, comment = 'File upload'):
     global site
 
     f = open(file, "rb")
@@ -78,7 +78,7 @@ def upload(file, name):
         site(
             action='upload',
             filename=name,
-            comment=f'Character audio upload',
+            comment=comment,
             ignorewarnings=True,
             token=site.token(),
             POST=True,

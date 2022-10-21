@@ -173,7 +173,7 @@ def generate():
             wiki_filename = f"{character.name_translated.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
             if f"File:{wiki_filename}" not in page_list and wiki.site != None:
                 print (f"Uploading {wiki_filename}")
-                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{file}", wiki_filename)
+                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{file}", wiki_filename, 'Character audio upload')
 
 
 
