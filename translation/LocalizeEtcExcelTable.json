@@ -2359,6 +2359,34 @@
             "DescriptionEn": "A spherical drone that always hovers around Hare.\nNamed after the Goddess of Wisdom, the drone is equipped with an artificial intelligence that can learn from its own experiences, though it often works in the exact opposite of the intention of its master, to Hare's disappointment."
         },
         {
+            "Id": 2694523503,
+            "NameKr": "목욕 보좌관",
+            "DescriptionKr": "대량 발주된 러버덕에 수염을 붙여 만든 붉은겨울 학원의 새로운 기념품.\n체리노는 어린아이나 쓸 법한 물건이라며 이 러버덕을 탐탁지 않게 여기는 듯하지만, 목욕하러 갈 때마다 꼭 대동한다고 한다.",
+            "NameJp": "お風呂補佐官",
+            "NameEn": "Bath adjutant",
+            "DescriptionJp": "大量発注されたラバー・ダックにひげをつけて作られたレッドウィンター連邦学園の新しいお土産。\nチェリノは幼い子が使うようなものだと、このラバー・ダックに対して気に食わない様子だったが、お風呂に行くたびに必ず連れていくという。",
+            "DescriptionEn": "A new souvenir from the Red Winter Federal Academy, made by adding a moustache to a mass-produced rubber duck.\nCherino was not pleased with this rubber duck, claiming it was something a young child would use, but she would always take it with her every time she went to the bath."
+        },
+        {
+            "Id": 1916503017,
+            "NameKr": "물품 관리대장",
+            "DescriptionKr": "히나타가 직접 만든 트리니티 대성당의 물품 관리대장.\n대성당의 모든 비품이 어디에 얼마나 수납되어 있는지 꼼꼼하게 정리되어 있다. 필요한 비품은 대부분 히나타가 직접 찾아주기 때문에, 외부인은 이 관리대장의 존재를 모르는 경우가 많다.",
+            "NameJp": "物品管理台帳",
+            "NameEn": "Goods management ledger",
+            "DescriptionJp": "ヒナタが自ら作ったトリニティ大聖堂の物品管理台帳。\n大聖堂のすべての物品がどこにどれだけ収納されているかを丁寧にまとめられている。必要な物品はほとんどヒナタが直接探してくれるため、外部の人はこの管理台帳の存在を知らないことが多い。",
+            "DescriptionEn": "An item management ledger for the Trinity Cathedral that Hinata made herself.\nIt carefully summarizes where and how much of all the items in the cathedral are stored. Hinata usually fetches whatever is needed herself, so outsiders often don't know about the existence of this ledger."
+        },
+        {
+            "Id": 1544503704,
+            "NameKr": "마이스터의 공구 세트",
+            "DescriptionKr": "우타하의 취향이 듬뿍 담긴 그녀만의 커스텀 공구 세트.\n마이스터의 자존심을 담아 직접 만든 이 공구 세트는 어떤 의미에서 키보토스에서 단 하나밖에 존재하지 않는 물건이라고 불러도 무방할 것이다.",
+            "NameJp": "マイスターの工具セット",
+            "NameEn": "Meister's toolset",
+            "DescriptionJp": "ウタハの好みがたっぷり詰まった彼女だけのカスタム工具セット。\nマイスターのプライドを込めて直接作ったこの工具セットはある意味、キヴォトスでたった一つしか存在しないものと言っても過言ではないだろう。",
+            "DescriptionEn": "A custom set of tools, assembled to Utaha's taste.\nIn a sense, it is no exaggeration to say that this set of tools, made with the pride of a meister, is a one of a kind across the whole of Kivotos."
+        },
+
+        {
             "Id": 1777637643,
             "NameJp": "レースの枕",
             "NameEn": "Lace Pillow",
@@ -2842,6 +2870,34 @@
             "DescriptionJp": "ヒビキ（応援団）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Hibiki (Cheerleader)."
         },
+        {
+            "Id": 1092591139,
+            "NameJp": "ユウカ（体操服）の神名文字",
+            "NameEn": "Yuuka's (Sportswear) Eleph",
+            "DescriptionJp": "ユウカ（体操服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Yuuka (Sportswear)."
+        },
+        {
+            "Id": 2023300418,
+            "NameJp": "マリー（体操服）の神名文字",
+            "NameEn": "Mari's (Sportswear) Eleph",
+            "DescriptionJp": "マリー（体操服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mari (Sportswear)."
+        },
+        {
+            "Id": 425993788,
+            "NameJp": "ハスミ（体操服）の神名文字",
+            "NameEn": "Hasumi's (Sportswear) Eleph",
+            "DescriptionJp": "ハスミ（体操服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Hasumi's (Sportswear)."
+        },
+        {
+            "Id": 2732934477,
+            "NameJp": "アカネ（バニーガール）の神名文字",
+            "NameEn": "Akane's (Bunny Girl) Eleph",
+            "DescriptionJp": "アカネ（バニーガール）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Akane (Bunny Girl)."
+        },
 
         {
             "Id": 1874282437,
@@ -3205,6 +3261,83 @@
             "NameEn": "Counter Chair・Dark Violet",
             "DescriptionJp": "魅力が引き立つカウンターチェア。周囲に魅惑を振りまける。",
             "DescriptionEn": "A charming counter chair. Brings enchantment to the surroundings."
+        },
+        {
+            "Id": 523248880,
+            "NameJp": "大運動会の休憩テント",
+            "NameEn": "Sports Day Rest Tent",
+            "DescriptionJp": "心地よい休息を提供するテント。試合に疲れた体をしばらく休めるのに最適だ。",
+            "DescriptionEn": "A tent that provides a comfortable rest area. It's perfect for relaxing your tired body after a game."
+        },
+        {
+            "Id": 3323664549,
+            "NameJp": "ゴズ（屋内戦）のブロンズトロフィー",
+            "NameEn": "Goz Bronze Trophy - Indoor Warfare",
+            "DescriptionJp": "ゴズ（屋内戦）の栄誉を讃えるブロンズトロフィー",
+            "DescriptionEn": "A bronze trophy from Goz for Indoor Warfare."
+        },
+        {
+            "Id": 430292801,
+            "NameJp": "ゴズ（屋内戦）のシルバートロフィー",
+            "NameEn": "Goz Silver Trophy - Indoor Warfare",
+            "DescriptionJp": "ゴズ（屋内戦）の栄誉を讃えるシルバートロフィー",
+            "DescriptionEn": "A silver trophy from Goz for Indoor Warfare."
+        },
+        {
+            "Id": 3096880447,
+            "NameJp": "ゴズ（屋内戦）のゴールドトロフィー",
+            "NameEn": "Goz Gold Trophy - Indoor Warfare",
+            "DescriptionJp": "ゴズ（屋内戦）の栄誉を讃えるゴールドトロフィー",
+            "DescriptionEn": "A gold trophy from Goz for Indoor Warfare."
+        },
+        {
+            "Id": 3305641783,
+            "NameJp": "ゴズ（屋内戦）のプラチナトロフィー",
+            "NameEn": "Goz Platinum Trophy - Indoor Warfare",
+            "DescriptionJp": "ゴズ（屋内戦）の栄誉を讃えるプラチナトロフィー",
+            "DescriptionEn": "A platinum trophy from Goz for Indoor Warfare."
+        },
+        {
+            "Id": 280657879,
+            "NameJp": "大運動会の思い出",
+            "NameEn": "Memories of the Sports Day",
+            "DescriptionJp": "大運動会の思い出を集めた大運動会コンセプトボード。楽しかった思い出がちらつく。",
+            "DescriptionEn": "Sports Day concept board that captures moments of the festival. A reminder of all the fun memories."
+        },
+        {
+            "Id": 3262218341,
+            "NameJp": "AMASの残骸",
+            "NameEn": "Wreckage of AMAS",
+            "DescriptionJp": "要塞都市エリドゥを守る戦闘ドローンAMASの壊れた残骸です。",
+            "DescriptionEn": "A broken wreckage of the AMAS combat drone that protects the fortified city of Eridu."
+        },
+        {
+            "Id": 2871055877,
+            "NameJp": "スポーツドリンク",
+            "NameEn": "Sports Drink",
+            "DescriptionJp": "ミレニアムが開発した特製スポーツドリンク。トレーニング部のデータに基づいて開発されているため、他のドリンクより早く水分補給ができるらしい。",
+            "DescriptionEn": "A special sports drink developed by Millennium. Since it was developed based on the data of the training department, it seems that it can rehydrate faster than other drinks."
+        },
+        {
+            "Id": 1469297879,
+            "NameJp": "リレー用バトン",
+            "NameEn": "Relay Baton",
+            "DescriptionJp": "リレーに使用されるバトン。旧式の柄付き手榴弾のような形だが、電子式雷管を挿入した製品で、一定時間内に次のランナーに引き継げれば絶対に爆発しない。",
+            "DescriptionEn": "Baton used for relay race. It's shaped like an old-fashioned grenade with a handle, but it is a device with an electronic detonator inserted into it, which will never explode if it can be passed on to the next runner within a certain time."
+        },
+        {
+            "Id": 2043178916,
+            "NameJp": "あんぱん",
+            "NameEn": "Anpan",
+            "DescriptionJp": "パン食い競争に使われる、ビニールに包まれたあんぱん。小豆だけが入ったシンプルな構成のパンだが、一部のヴァルキューレ警察学校の生徒たちから大好評を受けたという。",
+            "DescriptionEn": "Anpan wrapped in vinyl, used in bread-eating competitions. This simple bread filled with adzuki beans is said to have been very well received by some Valkyrie Police Academy students."
+        },
+        {
+            "Id": 3227336825,
+            "NameJp": "案内パンフレット",
+            "NameEn": "Information Pamphlet",
+            "DescriptionJp": "晄輪大祭実行委員会本部から配っている案内パンフレット。試合日程はもちろんの事、競技場近くのグルメマップまで詳細に記載されている。",
+            "DescriptionEn": "An information pamphlet distributed by the headquarters of the Kourin Taisai Festival Executive Committee. Contains the game schedule and a detailed gourmet map of stadium grounds."
         }
 
     ]

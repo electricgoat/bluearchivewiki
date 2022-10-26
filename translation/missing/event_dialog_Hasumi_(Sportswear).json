@@ -1,0 +1,226 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "오셨군요, 선생님.\n준비는 되셨나요?",
+            "LocalizeJP": "お待ちしておりました、\n先生。準備は\nよろしいですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "마침 경기가\n시작되려던 참입니다.\n함께 출발해 보실까요.",
+            "LocalizeJP": "ちょうど試合が\n始まるところです。\n一緒に参りましょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "꽤 분위기가 들떠 있군요.",
+            "LocalizeJP": "結構盛り上がって\nいますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "이정도면 황륜대제는\n성공적……이라고\n봐도 되겠지요.",
+            "LocalizeJP": "これなら、\n「晄輪大祭」は成功……\nと考えてもいいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "황륜대제도 막바지에\n접어들었군요.",
+            "LocalizeJP": "「晄輪大祭」も大詰めを\n迎えていますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "마지막까지\n힘내도록 하죠.",
+            "LocalizeJP": "最後まで\n頑張りましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "선생님 덕분에\n황륜대제도 대성공을\n거둘 수 있었습니다.",
+            "LocalizeJP": "先生のおかげで、\n「晄輪大祭」は大成功を\n収めることができました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "정말 수고\n많으셨습니다.",
+            "LocalizeJP": "本当に\nお疲れ様でした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님……?",
+            "LocalizeJP": "せ、先生……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "으음…….\n그렇게 쳐다보셔도\n곤란합니다만……",
+            "LocalizeJP": "そ、そんなに\n見つめられても……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "슬슬 출발해야 할\n시간입니다만…….",
+            "LocalizeJP": "そろそろ出発の\nお時間ですよ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭔가 필요한 게\n있으신가요?",
+            "LocalizeJP": "何か必要なものでも\nありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "경기 기록을\n살펴보시겠습니까?",
+            "LocalizeJP": "試合の記録を確認しますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "진행 상황을 정리해 보았습니다.\n확인해보시겠습니까?",
+            "LocalizeJP": "進行状況を整理しました。\n 確認しますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "으음…… 보여드릴 수\n있는 건 이게 다입니다만…….",
+            "LocalizeJP": "えっと……現在お見せ\nできるのはこれで全てです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "더 확인하고 싶으신 게\n있으신 걸까요……?",
+            "LocalizeJP": "他に確認したいことでも\nありますか……?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "확인했습니다.\n훌륭한 기록이네요.",
+            "LocalizeJP": "確認しました。\n素晴らしい記録ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "이건… 신기록일지도\n모르겠습니다.",
+            "LocalizeJP": "これは……\n新記録かもしれません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009069,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘의 기록은 이상입니다.",
+            "LocalizeJP": "本日の記録は以上です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0190_EventMission_Day_End"
+            ]
+        }
+    ]
+}

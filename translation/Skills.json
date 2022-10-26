@@ -61,6 +61,11 @@
             "DescriptionEn": "Every $1, summon a turret. The turret inherits $2 of Utaha's Attack. (Duration: $3)"
         },
         {
+            "GroupId": "UtahaGearPublic01",
+            "NameEn": "Rai-chan MK-II, Active +",
+            "DescriptionEn": "Every $1, summon 3 turrets. The turrets inherit $2 of Utaha's Attack. (Duration: $3)"
+        },
+        {
             "GroupId": "UtahaPassive01",
             "NameEn": "Technology's Revolution",
             "DescriptionEn": "Increase Attack by $1."
@@ -1487,6 +1492,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
         },
         {
+            "GroupId": "CH0164GearPublic01",
+            "NameEn": "Sights set, purge! +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area.\nInflict $3 continuous damage to enemies within a circular area for $4."
+        },
+        {
             "GroupId": "CH0164Passive01",
             "NameEn": "Feel the wrath of the moustache!",
             "DescriptionEn": "Increase Attack by $1."
@@ -2247,6 +2257,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to one enemy with the highest HP."
         },
         {
+            "GroupId": "CH0073GearPublic01",
+            "NameEn": "Let's talk first...! +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy with the highest HP.\nLast attack bounces to a nearby enemy and deals $3 damage."
+        },
+        {
             "GroupId": "CH0073Passive01",
             "NameEn": "Unexpected development",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -2925,7 +2940,86 @@
             "GroupId": "CH0099ExtraPassive01",
             "NameEn": "Prompt Assistance",
             "DescriptionEn": "Increase Attack of Mystic type allies by $1."
+        },
+
+        {
+            "GroupId": "CH0184Ex01",
+            "NameEn": "R.S.G!",
+            "DescriptionEn": "Move to the designated position and apply a shield of $1 Healing to self for $2.\nSet a rally flag for 3 other allies within range. When an ally reaches the flag, apply a shield of $3 Healing to them for $4."
+        },
+        {
+            "GroupId": "CH0184Public01",
+            "NameEn": "Hydration",
+            "DescriptionEn": "Every $1, if Yuuka doesn't have a shield, apply a shield of $2 Healing for $3.\nIf Yuuka has a shield, increase Healing by $4 for $5. (Stacks up to a maximum of $6 times)"
+        },
+        {
+            "GroupId": "CH0184Passive01",
+            "NameEn": "Mathematical competition strategy",
+            "DescriptionEn": "Increase Attack Speed by $1."
+        },
+        {
+            "GroupId": "CH0184WeaponPassive01",
+            "NameEn": "Mathematical competition strategy +",
+            "DescriptionEn": "Increase Healing by $1. Increase Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0184ExtraPassive01",
+            "NameEn": "Optimal pathing calculation",
+            "DescriptionEn": "When Yuuka stops moving, apply $1 Mystic damage bonus against the enemies weak to it for $2."
+        },
+
+        {
+            "GroupId": "CH0186Ex01",
+            "NameEn": "Please have some water",
+            "DescriptionEn": "Recover HP by $1 of Healing to all allies within range (except Mari herself)."
+        },
+        {
+            "GroupId": "CH0186Public01",
+            "NameEn": "Sister's support",
+            "DescriptionEn": "Every $1, recover HP of one other ally with the highest Defense and self by $2 of Healing. Increase Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0186Passive01",
+            "NameEn": "Here to help",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0186WeaponPassive01",
+            "NameEn": "Here to help +",
+            "DescriptionEn": "Increase Defense by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0186ExtraPassive01",
+            "NameEn": "Devoted encouragement",
+            "DescriptionEn": "When using EX or Normal skill, if target's HP is below 30%, additionally recover their HP by $1 of Healing."
+        },
+
+        {
+            "GroupId": "CH0190Ex01",
+            "NameEn": "Iron Will Piercing Bullet",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally consume up to 2 Cost, increasing damage dealt by 30% for every extra Cost paid.\n(Cost reduction effects will only affect the base skill cost)"
+        },
+        {
+            "GroupId": "CH0190Public01",
+            "NameEn": "Sports shooting",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0190Passive01",
+            "NameEn": "Preparing to participate",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0190WeaponPassive01",
+            "NameEn": "Preparing to participate +",
+            "DescriptionEn": "Increase Critical Rate by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0190ExtraPassive01",
+            "NameEn": "Excitement of the competition",
+            "DescriptionEn": "When attacking large enemies, deal $1 of Attack as additional damage."
         }
+
         
     ]
 }
