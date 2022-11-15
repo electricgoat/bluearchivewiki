@@ -16,8 +16,8 @@ def process():
     for path in os.listdir(args['upload_dir']):
         print (f"Processing {path}")
         if os.path.isfile(os.path.join(args['upload_dir'], path)) and wiki.site != None:
-            with open(os.path.join(args['upload_dir'], path), encoding="utf8") as f:
-                wiki.upload(os.path.join(args['upload_dir'], path), path)
+            #with open(os.path.join(args['upload_dir'], path), encoding="utf8") as f:
+            wiki.upload(os.path.join(args['upload_dir'], path), path)
 
 
 

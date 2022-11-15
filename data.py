@@ -9,11 +9,14 @@ BlueArchiveData = collections.namedtuple(
     'weapons', 'translated_weapons', 'gear',
     'currencies','translated_currencies',
     'items', #'translated_items',
+    'equipment',
     'recipes', 'recipes_ingredients', 
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization',
     'character_dialog','character_dialog_event',
-    'scenario_script_favor','levelskill' ,'logiceffectdata']
+    'scenario_script_favor','levelskill','logiceffectdata',
+    'guide_mission','guide_mission_season','localize_code', 'localization',
+    'furniture', 'furniture_group']
 )
 
 
@@ -35,6 +38,7 @@ def load_data(path_primary, path_secondary, path_translation):
         currencies=load_currencies(path_primary),
         translated_currencies=load_currencies_translation(path_translation),
         items=load_items(path_primary),
+        equipment=load_equipment(path_primary),
         #translated_items=load_items_translation(path_translation),
         recipes=load_recipes(path_primary),
         recipes_ingredients=load_recipes_ingredients(path_primary),
@@ -46,8 +50,18 @@ def load_data(path_primary, path_secondary, path_translation):
         character_dialog_event=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json'),
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
         levelskill = load_levelskill(path_primary),
-        logiceffectdata = load_skill_logiceffectdata(path_primary)
+        logiceffectdata = load_skill_logiceffectdata(path_primary),
+        guide_mission = load_generic(path_primary, 'GuideMissionExcelTable.json'),
+        guide_mission_season = load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
+        localize_code = load_localize_code(path_primary, path_secondary, path_translation),
+        localization=load_localization(path_primary, path_secondary, path_translation),
+        furniture=load_furniture(path_primary),
+        furniture_group=load_furniture_groups(path_primary)
     )
+
+
+def load_generic(path, filename):
+    return load_file(os.path.join(path, 'Excel', filename))
 
 
 def load_characters(path):
@@ -90,6 +104,9 @@ def load_file(file, key='Id'):
 
 def load_items(path):
     return load_file(os.path.join(path, 'Excel', 'ItemExcelTable.json'))
+
+def load_equipment(path):
+    return load_file(os.path.join(path, 'Excel', 'EquipmentExcelTable.json'))
 
 def load_recipes(path):
     return load_file(os.path.join(path, 'Excel', 'RecipeExcelTable.json'))
@@ -190,6 +207,43 @@ def load_etc_localization(path_primary, path_secondary, translation):
     return data_primary
 
 
+def load_localize_code(path_primary, path_secondary, translation):
+    data_primary = load_file(os.path.join(path_primary, 'Excel', 'LocalizeCodeExcelTable.json'), key='Key')
+    data_secondary = load_file(os.path.join(path_secondary, 'Excel', 'LocalizeCodeExcelTable.json'), key='Key')
+    data_aux = None
+
+    index_list = list(data_primary.keys())
+    index_list.extend(x for x in list(data_secondary.keys()) if x not in index_list)
+
+    if os.path.exists(os.path.join(translation, 'LocalizeCodeExcelTable.json')):
+        print(f'Loading additional translations from {translation}/LocalizeCodeExcelTable.json')
+        data_aux = load_file(os.path.join(translation, 'LocalizeCodeExcelTable.json'))
+
+        index_list.extend(x for x in list(data_aux.keys()) if x not in index_list)
+
+    for index in index_list:
+        try: 
+            if data_aux != None and index in data_aux:
+                #print(f'Loading aux translation {index}')
+                data_primary[index] = data_aux[index] 
+            else :
+                #print(f'Loading secondary data translation {index}')
+                data_primary[index] = data_secondary[index] 
+        except KeyError:
+            #print (f'No secondary data for localize item {index}')
+            continue
+    
+    return data_primary
+
+
+def load_furniture(path):
+    return load_file(os.path.join(path, 'Excel', 'FurnitureExcelTable.json'))
+
+
+def load_furniture_groups(path):
+    return load_file(os.path.join(path, 'Excel', 'FurnitureGroupExcelTable.json'))
+
+
 def load_character_dialog(path_primary, path_secondary, path_translation,  filename):
     #dp = {}
     ds = {}
@@ -255,6 +309,35 @@ def load_skill_logiceffectdata(path):
     return {item['StringId']: item for item in data}
 
 
+def load_localization(path_primary, path_secondary, translation):
+    data_primary = load_file(os.path.join(path_primary, 'Excel', 'LocalizeEtcExcelTable.json'), key='Key')
+    data_secondary = load_file(os.path.join(path_secondary, 'Excel', 'LocalizeEtcExcelTable.json'), key='Key')
+    data_aux = None
+
+    index_list = list(data_primary.keys())
+    index_list.extend(x for x in list(data_secondary.keys()) if x not in index_list)
+
+
+    if os.path.exists(os.path.join(translation, 'LocalizeEtcExcelTable.json')):
+        #print(f'Loading additional translations from {translation}/LocalizeEtcExcelTable.json')
+        data_aux = load_file(os.path.join(translation, 'LocalizeEtcExcelTable.json'))
+
+        index_list.extend(x for x in list(data_aux.keys()) if x not in index_list)
+
+    for index in index_list:
+        try: 
+            if data_aux != None and index in data_aux:
+                data_primary[index] = data_aux[index] 
+                #print(f'Loaded aux translation {index}')
+            else :
+                data_primary[index] = data_secondary[index] 
+                #print(f'Loaded aux translation {index}')
+            #print (f'FOUND secondary data for localize item {index}')
+        except KeyError:
+            #print (f'No secondary data for localize item {index}')
+            continue
+    
+    return data_primary
 
 
 

@@ -1,0 +1,78 @@
+[[File:EVENTNAME_Details.png|thumb]]
+EVENTNAME is the {{season['Id']-1}}th [[Events/Guide missions|Guide Mission]] Event in Blue Archive that provides various rewards upon completing certain tasks.
+
+__TOC__
+=Event Summary=
+==Schedule==
+{% raw %}{{{% endraw %}Event 
+| Server = JP 
+| Category = Guide mission
+| NameJP = JPNAME
+| NameEN = EVENTNAME
+| Image = {{season['LobbyBannerImage'][season['LobbyBannerImage'].rfind('/')+1:]}}_jp.png
+| Start_date = {{season['StartDate']}}
+| End_date = {{season['EndDate']}}
+{% raw %}}}{% endraw %}
+
+==Details==
+In this event, players can collect the event item {{season['CollectibleItemCard']}} to earn 1200 pyroxenes. Players can also earn various rewards such as training materials by clearing the missions.
+
+It is possible to complete the mission requirements up to 7 days in advance and collect reward immediately after the corresponding day is unlocked. Conversely, previous days missions can still be completed for the duration of event.
+
+=Mission Details & Rewards=
+<tabber>
+{% for day in range(1,8) -%}
+Day{{day}}=
+{% raw %}{{% endraw %}| class="wikitable"
+! colspan="4" |Day {{day}}
+|-
+!No.	
+!Mission
+!Reward
+!Remarks
+{% for mission in missions if mission['TabNumber'] == day -%}
+|-
+| style="text-align: center" |{{loop.index}}
+|{{mission['DescriptionEn']}}
+|{% for reward in mission['RewardItemCards'] -%}
+{{reward}}
+{% endfor -%}
+|
+{% endfor -%}
+{% raw %}|}{% endraw %}
+|-|
+{% endfor -%}
+</tabber>
+
+{% raw %}{{% endraw %}| class="wikitable"
+! colspan="2" |Total Rewards
+|-
+!Currency
+|{%- for reward in total_rewards if reward['Type'] == 'Currency' and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}{%- for reward in total_rewards if reward['Type'] == 'Item' and 'ExpItem' not in reward['Tags'] and 'BookItem' not in reward['Tags'] and 'CDItem' not in reward['Tags'] and 'MaterialItem' not in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!EXP Material
+|{% for reward in total_rewards if reward['Type'] == 'Item' and 'ExpItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Tech Notes
+|{% for reward in total_rewards if reward['Type'] == 'Item' and 'BookItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Blu-ray Discs
+|{% for reward in total_rewards if reward['Type'] == 'Item' and 'CDItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Ooparts
+|{% for reward in total_rewards if reward['Type'] == 'Item' and 'MaterialItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Furniture
+|{%- for reward in total_rewards if reward['Type'] == 'Furniture' and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Completion Reward
+({{season['RequirementParcelAmount']}} {{season['CollectibleItemCard']}})
+|{%- for reward in total_rewards if reward['IsCompletionReward'] -%}
+{{reward['Card']}}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{{% endraw %}#seo: 
+|image = EVENTNAME_Details.png
+|image_alt = EVENTNAME
+{% raw %}}}{% endraw %}

@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서와, 선생님.\n오늘도 잘부탁해.",
+            "LocalizeKR": "어서 와, 선생님.\n오늘도 잘 부탁해.",
             "LocalizeJP": "おかえり、先生。\n今日もよろしくね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "자, 자. 빨리 가자.\n해야 될 게 많아 보이네.",
+            "LocalizeKR": "자, 빨리 가자.\n할 일이 잔뜩이라고.",
             "LocalizeJP": "ほら、早く行こう。\nやることが山積みだよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "이제 얼마 안남았네.\n괜찮아?",
+            "LocalizeKR": "슬슬\n라스트 스퍼트일까.\n할 수 있겠어?",
             "LocalizeJP": "そろそろ\nラストスパートかな、\n行けそう？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -65,7 +65,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "어, 나 여기 있어.\n왜?",
+            "LocalizeKR": "응? 왜 그래?",
             "LocalizeJP": "ん、どうしたの？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -77,7 +77,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "그렇게 재촉하지 않아도,\n어디 안 가니까.",
+            "LocalizeKR": "걱정 안해도,\n어디 가버리지는\n않으니까.",
             "LocalizeJP": "心配しなくても、\nどっか行ったり\nしないよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -137,7 +137,7 @@
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "내가 대신 돌려 보라고?\n그래도 괜찮아?",
+            "LocalizeKR": "어, 내가 대신\n돌려도 되는 거야?",
             "LocalizeJP": "えっ、私が代わりに\n回していいの？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -161,7 +161,7 @@
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "BoxGachaPrize",
             "GroupId": 1,
-            "LocalizeKR": "오……? 굉장한데?",
+            "LocalizeKR": "오…… 굉장하네.\n축하해.",
             "LocalizeJP": "お……すごいね、\nおめでとう",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -173,7 +173,7 @@
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "BoxGachaPrize",
             "GroupId": 2,
-            "LocalizeKR": "잘 뜬 거 아냐?\n좋겠네~.",
+            "LocalizeKR": "꽤 좋아 보이잖아.\n응.",
             "LocalizeJP": "かなり良さそうだね、\nうん",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -185,7 +185,7 @@
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "BoxGachaPrize",
             "GroupId": 3,
-            "LocalizeKR": "뭔가 대단해\n보이는 게 나왔다.",
+            "LocalizeKR": "아, 뭔가\n대단해 보이는 것이……",
             "LocalizeJP": "あ、何か\nすごそうなものが……",
             "LocalizeEN": "",
             "VoiceClipsJp": [

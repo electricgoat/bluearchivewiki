@@ -63,7 +63,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "일, 바빠보이네.\n도와줄까?",
+            "LocalizeKR": "일, 바빠 보이네.\n도와줄까?",
             "LocalizeJP": "仕事、忙しそうじゃん。\n手伝ってあげようか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -75,7 +75,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "뭐, 맡겨만 달라구.\n크히히…",
+            "LocalizeKR": "뭐, 맡겨만 달라구.\n쿠히히…",
             "LocalizeJP": "まぁ、任せてみなって。\nくひひ……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -85,7 +85,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "생일 축하해, 선생님.\n그런 의미에서… ",
+            "LocalizeKR": "생일 축하해, 선생님.\n그런 의미에서…",
             "LocalizeJP": "誕生日おめでと、先生。\nってことで……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -107,7 +107,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "생일 케이크? 아니,\n나는 폭죽만 있으면\n그걸로 충분해.",
+            "LocalizeKR": "생일 케이크? 아니, 괜찮아.\n나는 폭죽만 있으면\n그걸로 충분해.",
             "LocalizeJP": "誕生日ケーキ？\nいや別に、私には\n花火さえあればそれで……。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -119,7 +119,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "그래, 이왕이면 엄청나게\n화려하고 강렬한 것으로…\n쿠후후.",
+            "LocalizeKR": "그래, 이왕이면 엄청나게\n화려하고 강렬한 것으로…\n쿠히히.",
             "LocalizeJP": "そうだね、どうせなら\nド派手で強烈なのを……\nくひひ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -129,7 +129,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "산해경 학원에서는 새해에\n폭죽을 터트려 악귀를 쫒는\n풍습이 있다고 하던데…",
+            "LocalizeKR": "산해경에서는 새해에\n폭죽을 터트려 악귀를 쫒는\n풍습이 있다고 하던데…",
             "LocalizeJP": "山海経では新年に花火を\n打ち上げて厄除けをする\n風習があるらしいよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -141,7 +141,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "아아… 정말\n멋진 풍습이야…\n쿠후후.",
+            "LocalizeKR": "정말로\n멋진 풍습이야…\n쿠히히.",
             "LocalizeJP": "ほんっと、\n良い文化だねぇ……\nくひひ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -207,7 +207,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "래빗 224식 권총, 제대로 수령했어.\n…저기, 이거 너무 작은데.\n화력은 제대로 나오는거야?",
+            "LocalizeKR": "RABBIT 224식 권총, 제대로 수령했어.\n…저기, 이거 너무 작은데.\n화력은 제대로 나오는거야?",
             "LocalizeJP": "RABBIT-224式拳銃、\n確かに受け取った。\n……ねぇ、これ結構小さいけど、\nちゃんと火力出る？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -229,7 +229,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "누르면 안 되는 버튼이라던가,\n넘어서는 안 되는 선이라던가….",
+            "LocalizeKR": "누르면 안 되는 버튼이라든가,\n넘어서는 안 되는 선이라든가….",
             "LocalizeJP": "押しちゃいけないボタンとか、\n超えちゃダメな一線とか。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -239,7 +239,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "그 중에는 한 번 선택하면\n돌이킬 수 없는, 파멸로\n이어지는 선택지도 존재하지.",
+            "LocalizeKR": "그 중에는 한번 선택하면\n돌이킬 수 없는, 파멸로\n이어지는 선택지도 존재하지.",
             "LocalizeJP": "中には、一度選んだら\n取り返しのつかない、破滅に\n繋がるようなものもある。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -249,7 +249,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "한걸음만 잘못 내딛어도\n끝날 수 있지만, 그래도 자신의\n마음을 만족시킬 수 있다면…",
+            "LocalizeKR": "한 걸음만 잘못 내딛어도\n끝날 수도 있지만, 그래도 자신의\n마음을 만족시킬 수 있다면…",
             "LocalizeJP": "一歩間違えたら終わり、\nそれでも自分の心を満足\nさせられるかもしれない……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -279,7 +279,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "하지만 나는……\n선을 넘어버릴지도 몰라.",
+            "LocalizeKR": "하지만 나는…… 그\n선을 넘어버릴지도 몰라.",
             "LocalizeJP": "でも私は……その一線を、\n超えちゃうかもしれない。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -299,7 +299,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "그러니까 선생님.",
+            "LocalizeKR": "그러니까, 선생님.",
             "LocalizeJP": "だから、先生……",
             "LocalizeEN": "",
             "VoiceClipsJp": []

@@ -4,6 +4,22 @@ import re
 #from googletrans import Translator
 
 
+def replace_glossary(item = None):
+    glossary = {
+        'Field':'Outdoor',
+        'Valkyrie Police School':'Valkyrie Police Academy',
+        'Cherenka':'Cheryonka',
+        '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
+        'Total Assault': 'Raid',
+        'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
+        #'Exclusive Weapon': 'Unique Weapon'
+    }
+    for search, replace in glossary.items():
+        if item != None:
+            item = re.sub(search, replace, item)
+    return (item)
+
+
 class Character(object):
     def __init__(self, id, name, dev_name, model_prefab_name, portrait, name_en, family_name_en, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, is_limited):
         self.id = id
@@ -691,3 +707,309 @@ def statcalc_replace_statname(stat_name):
             'DefensePenetration': '',
             'MaxBulletCount': ''
         }[stat_name]
+
+
+
+class Item(object):
+    def __init__(self, id, rarity, category, name_jp, name_en, desc_jp, desc_en, icon, splash_icon, tags, characters_favorite, characters_likes, collection, tier, recipe):
+        self.id = id
+        self.rarity = rarity
+        self._category = category
+        self.name_jp = name_jp
+        self.name_en = name_en
+        self.desc_jp = desc_jp
+        self.desc_en = desc_en
+        self.icon = icon
+        self.splash_icon = splash_icon
+        self.tags = tags
+        self.characters_favorite = characters_favorite
+        self.characters_likes = characters_likes
+        self.collection = collection
+        self.tier = tier
+        self.recipe = recipe
+
+
+    @property
+    def category(self):
+        return {
+            self._category : self._category,
+            'Favor': 'Gifts',
+            'Collectible':'Collectible',
+            'Material':'Material',
+            'Coin':'Currency',
+            'Consumable':'Consumable',
+            'CharacterExpGrowth':'Activity Report',
+            'WeaponExpGrowth':'Weapon Component',
+            'Exp':'Enhancement Stone',
+            'SecretStone':'Eleph'
+        }[self._category]
+
+
+
+    @classmethod
+    def from_data(cls, item_id, data):
+        item = data.items[item_id]
+        name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['DescriptionEn'] or None
+
+        characters_favorite = []
+        characters_likes = []
+
+        tags_list = "FavorItem" in item['Tags'] and item['Tags'].remove("FavorItem") or item['Tags']
+        tags_filtered = filter(lambda x: not x.startswith('F_'), tags_list)
+        item_tags = list(tags_filtered)
+        characters_filtered = filter(lambda x: x.startswith('F_'), tags_list)
+        tags_characters = list(characters_filtered)
+
+
+        for character_id in data.characters_cafe_tags:
+            if data.characters_cafe_tags[character_id]['FavorItemUniqueTags'][0] in tags_characters:
+                characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
+                
+            tag_intersect = list(set(data.characters_cafe_tags[character_id]['FavorItemTags']) & set(item_tags))
+            if len(tag_intersect) >1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 
+                characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
+            if len(tag_intersect)==1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 
+                characters_likes.append(data.translated_characters[character_id]['PersonalNameEn'])
+
+        if (len(characters_favorite)): characters_favorite.sort()
+        if (len(characters_likes)): characters_likes.sort()
+
+
+        match item['ItemCategory']:
+            case 'Material':
+                collection = item['Icon'][item['Icon'].rfind('/')+1:item['Icon'].rfind('_')].replace('Item_Icon_','').replace('Material_','')
+            case 'Coin':
+                collection = re.sub(r'_[0-9]+_', '_', item['Icon'])[item['Icon'].rfind('/')+1:].replace('Item_Icon_','')
+                collection = re.sub(r'_[0-9]+$', '', collection)
+                #print (collection)
+            case _:        
+                collection = None
+
+
+        return cls(
+            item['Id'],
+            item['Quality']-1,
+            item['ItemCategory'],
+            data.localization[item['LocalizeEtcId']]['NameJp'].replace("\n",' '),
+            replace_glossary(name_en),
+            data.localization[item['LocalizeEtcId']]['DescriptionJp'] != None and data.localization[item['LocalizeEtcId']]['DescriptionJp'].replace("\n\n",'<br>').replace("\n",'<br>') or '',
+            desc_en != None and replace_glossary(desc_en).replace("\n\n",'<br>').replace("\n",'<br>') or '',
+            item['Icon'][item['Icon'].rfind('/')+1:],
+            item['Icon'][item['Icon'].rfind('_')+1:],
+            item_tags,
+            characters_favorite,
+            characters_likes,
+            collection,
+            'Quality' in item and item['Quality'] or None,
+            None #recipe
+        )
+
+
+    @classmethod
+    def from_equipment_data(cls, item_id, data):
+        item = data.equipment[item_id]
+        name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['DescriptionEn'] or None
+
+        quality =  {
+            0: '0',
+            5: '0',
+            10:'1',
+            20:'2',
+            50:'3'
+        }[item['CraftQuality']]
+        
+        category =  item['EquipmentCategory'][:-1] == 'WeaponExpGrowth' and 'WeaponExpGrowth' or item['EquipmentCategory']
+
+        match category:
+            case 'WeaponExpGrowth':
+                collection = re.sub(r'_[0-9]+_', '_', item['Icon'])[item['Icon'].rfind('/')+1:].replace('Equipment_Icon_','')
+                collection = re.sub(r'_[0-9]+$', '', collection)
+                #print (collection)
+            case 'Exp':        
+                collection = 'Exp'
+            case _:        
+                collection = None
+
+        tier = 'TierInit' in item and item['TierInit'] or None
+
+
+        
+        def get_recipe(item, data):
+            #item RecipeId is for upgrading to the next tier, so we need to find previous tier equipment
+            source_id = None
+            for id in data.equipment:
+                if (data.equipment[id]['NextTierEquipment'] == item['Id']):
+                    #print (f"Source for item {item['Id']} found, id {id}")
+                    source_id = id
+                    break
+            
+            if (source_id == None): 
+                return None
+
+            recipe = data.recipe_ingredients[data.recipes[data.equipment[source_id]['RecipeId']]['RecipeIngredientId']]
+            recipe_ingredient_names = []
+
+            for ingredient_id in recipe['IngredientId']:
+                recipe_ingredient_names.append ('NameEn' in data.localization[data.equipment[ingredient_id]['LocalizeEtcId']] and data.localization[data.equipment[ingredient_id]['LocalizeEtcId']]['NameEn'] or None)
+
+            recipe['IngredientName'] = recipe_ingredient_names
+            return recipe
+
+
+        recipe = None
+        recipe = get_recipe(item, data)
+        #print(recipe)
+
+
+
+        return cls(
+            item['Id'],
+            quality,
+            category,
+            data.localization[item['LocalizeEtcId']]['NameJp'],
+            replace_glossary(name_en),
+            data.localization[item['LocalizeEtcId']]['DescriptionJp'],
+            replace_glossary(desc_en),
+            item['Icon'][item['Icon'].rfind('/')+1:],
+            item['Icon'][item['Icon'].rfind('_')+1:],
+            [],
+            [],
+            [],
+            collection,
+            tier,
+            recipe
+        )
+
+
+
+def replace_glossary(item = None):
+    if item != None:
+        item = re.sub('Field', 'Outdoor', item)
+
+    return (item)
+
+
+class Furniture(object):
+    def __init__(self, id, rarity, category, subcategory, size_width, size_height, size_other, comfort_bonus, name_jp, name_en, desc_jp, desc_en, icon, group, interaction, sources):
+        self.id = id
+        self.rarity = rarity
+        self._category = category
+        self._subcategory = subcategory
+        self.size_width = size_width
+        self.size_height = size_height
+        self.size_other = size_other
+        self.comfort_bonus = comfort_bonus
+        self.name_jp = name_jp
+        self.name_en = name_en
+        self.desc_jp = desc_jp
+        self.desc_en = desc_en
+        self.icon = icon
+        self.group = group
+        self.interaction = interaction
+        self.sources = sources
+
+    @property
+    def category(self):
+        return {
+            'Furnitures': 'furniture',
+            'Interiors': 'cafe decoration',
+            'Decorations': 'decoration'
+        }[self._category]
+
+    @property
+    def subcategory(self):
+        return {
+            'Floor': 'floor',
+            'Wallpaper': 'wallpaper',
+            'Background': 'background',
+            'WallDecoration': 'wall',
+            'Closet': 'closet',
+            'FloorDecoration': 'floor',
+            'Chair': 'chair',
+            'Table': 'table',
+            'Prop': 'prop',
+            'HomeAppliance': 'appliance',
+            'FurnitureEtc': 'trophy',
+            'Bed': 'bed'
+        }[self._subcategory]
+
+    @classmethod
+    def from_data(cls, furniture_id, data):
+        furniture = data.furniture[furniture_id]
+        name_en = 'NameEn' in data.localization[furniture['LocalizeEtcId']] and data.localization[furniture['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.localization[furniture['LocalizeEtcId']] and data.localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
+
+        furniture_group = furniture['SetGroudpId'] > 0 and FurnitureGroup.from_data(furniture['SetGroudpId'], data) or None
+
+        # interaction = []
+        # for item in data.cafe_interaction:
+        #     if data.cafe_interaction[item]['CafeCharacterState'] and int(data.cafe_interaction[item]['CafeCharacterState'][0][3:]) == furniture_id:
+        #         interaction.append(data.translated_characters[item]['PersonalNameEn'])
+
+        return cls(
+            furniture['Id'],
+            furniture['StarGradeInit'],
+            furniture['Category'],
+            furniture['SubCategory'],
+            furniture['SizeWidth'],
+            furniture['SizeHeight'],
+            furniture['OtherSize'],
+            furniture['ComfortBonus'],
+            data.localization[furniture['LocalizeEtcId']]['NameJp'],
+            replace_glossary(name_en),
+            data.localization[furniture['LocalizeEtcId']]['DescriptionJp'],
+            replace_glossary(desc_en),
+            furniture['Icon'][furniture['Icon'].rfind('/')+1:],
+            furniture_group,
+            None, #interaction,
+            None #CraftNodes.from_data(furniture_id, data)
+        )
+
+        
+
+class FurnitureGroup(object):
+    def __init__(self, id, bonus_count, bonus_comfort, set_name_jp, set_name_en, set_desc_jp, set_desc_en, series_jp, series_en):
+        self.id = id
+        self.bonus_count = bonus_count
+        self.bonus_comfort = bonus_comfort
+        self.set_name_jp = set_name_jp
+        self.set_name_en = set_name_en
+        self.set_desc_jp = set_desc_jp
+        self.set_desc_en = set_desc_en
+        self.series_jp = series_jp
+        self.series_en = series_en
+
+
+    @classmethod
+    def from_data(cls, group_id, data):
+        furniture_group = data.furniture_group[group_id]
+        #print(data.localization[furniture['LocalizeEtcId']])
+        name_en = 'NameEn' in data.localization[furniture_group['GroupNameLocalize']] and data.localization[furniture_group['GroupNameLocalize']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.localization[furniture_group['GroupNameLocalize']] and data.localization[furniture_group['GroupNameLocalize']]['DescriptionEn'] or None
+        
+
+        try: 
+            series_jp = data.localization[furniture_group['LocalizeEtcId']]['NameJp'] 
+        except:
+            series_jp = None
+            pass
+        try: 
+            series_en = data.localization[furniture_group['LocalizeEtcId']]['NameEn'] 
+        except:
+            series_en = None
+            #print(furniture_group['LocalizeEtcId'])
+            pass
+
+        return cls(
+            furniture_group['Id'],
+            furniture_group['RequiredFurnitureCount'],
+            furniture_group['ComfortBonus'],
+            data.localization[furniture_group['GroupNameLocalize']]['NameJp'],
+            replace_glossary(name_en),
+            data.localization[furniture_group['GroupNameLocalize']]['DescriptionJp'],
+            replace_glossary(desc_en),
+            series_jp,
+            replace_glossary(series_en)
+        )

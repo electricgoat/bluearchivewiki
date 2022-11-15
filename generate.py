@@ -8,16 +8,13 @@ import argparse
 
 from jinja2 import Environment, FileSystemLoader
 
-from pywikiapi import Site
 import wikitextparser as wtp
+import wiki
 
 from data import load_data
 from model import Character
 
-WIKI_API = 'https://bluearchive.wiki/w/api.php'
-
 args = None
-site = None
 
 def colorize(value):
     return re.sub(
@@ -29,7 +26,6 @@ def colorize(value):
 
 def generate():
     global args
-    global site
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
@@ -61,7 +57,7 @@ def generate():
             wikitext = template.render(character=character)
             
             f.write(wikitext)
-            if site != None:
+            if wiki.site != None:
                 update_template(character.name_translated, args['wiki_template'], wikitext)
 
         
@@ -75,7 +71,7 @@ def update_template(page_name, template_name, wikitext):
     template_new = None
     template_old = None
 
-    text = site('parse', page=page_name, prop='wikitext')
+    text = wiki.site('parse', page=page_name, prop='wikitext')
     print (f"Updating wiki page {text['parse']['title']}")
 
     wikitext_old = wtp.parse(text['parse']['wikitext'])
@@ -96,31 +92,18 @@ def update_template(page_name, template_name, wikitext):
         wiki_publish(page_name, text['parse']['wikitext'].replace(template_old, template_new))
 
 
-def wiki_init():
-    global site
-
-    try:
-        site = Site(WIKI_API)
-        site.login(args['wiki'][0], args['wiki'][1])
-        print(f'Logged in to wiki, token {site.token()}')
-
-    except Exception as err:
-        print(f'Wiki error: {err}')
-        traceback.print_exc()
-
-
 
 def wiki_publish(page_name, wikitext):
-    global args, site
+    global args
 
     #with open(os.path.join(args['outdir'], f'{page_name}_wikiupdate.txt'), 'w', encoding="utf8") as f:    
     #    f.write(wikitext)
-    site(
+    wiki.site(
         action='edit',
         title=page_name,
         text=wikitext,
         summary=f'Updated template {args["wiki_template"]} data',
-        token=site.token()
+        token=wiki.site.token()
     )
 
 
@@ -145,7 +128,7 @@ def main():
     print(args)
 
     if args['wiki'] != None and args['wiki_template'] != None and len(args['wiki_template'])>0:
-        wiki_init()
+        wiki.init(args)
     else:
         args['wiki'] = None
         args['wiki_template'] = None
