@@ -1,0 +1,402 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후후, 이 몸과 동업하고 싶다고?\n뭐, 거절하진 않겠지만.\n우리는 비싸다고. 선생님.",
+            "LocalizeJP": "ふふ、この私に協力したいと？\nまあ、断りはしないけど。\n私を雇うなら高くつくわよ？先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우리 사무실도\n이렇게 꾸미면….",
+            "LocalizeJP": "我が事務所も\nこんな風に飾ったら…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기는 월세가\n얼마려나.",
+            "LocalizeJP": "ここの家賃、\nどれぐらいかしら",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "후후후.\n흥신소의 앞날은\n밝아.",
+            "LocalizeJP": "ふふふ。\n便利屋の未来は\n明るいわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하아.\n중학교 때가\n생각나네.",
+            "LocalizeJP": "はあ、\n中学校の頃を\n思い出すわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "직원들이랑\n이런 곳에서 회식\n한 번은 해야겠지.",
+            "LocalizeJP": "我が職員たちと\n一度はこんなところで\n打ち上げしなくちゃね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님! 어서 와.\n오늘도 이 몸이\n선생님을 경호해주지!",
+            "LocalizeJP": "先生！いらっしゃい。\n今日もこの私が\n先生を警護してあげるわ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기다리고 있었어.\n무슨 의뢰든, 흥신소는 반드시\n수행해 줄 테니까!",
+            "LocalizeJP": "待ってたわ。\nどんな依頼でも、便利屋は必ず\n遂行するから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "훗.\n선생님과의 협업,\n기대하고 있다고.",
+            "LocalizeJP": "ふふっ。\n先生とのコラボレーション、\n期待してるわよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하하하!\n나의 능력이 보고 싶겠지?",
+            "LocalizeJP": "あはは！\nこの私の能力を見たいのね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…응?\n아니라고?",
+            "LocalizeJP": "…え？\n違うの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "오늘은 밤새 야근…?\n그, 그럼 끝나고 데이트는?",
+            "LocalizeJP": "今日は遅くまで残業…？\nじゃあ今夜のデートは\nどうするつもり？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그런 약속 없었다고?\n아, 아하하!\n그랬었지, 참.",
+            "LocalizeJP": "そ、そんな約束なかった？\nあ、あはは！\nそうだったわね、私ったら。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "후후. 선생님. 우리 흥신소의\n조사에는 빈틈이 없어.\n생일 축하해.",
+            "LocalizeJP": "ふふ。先生。我が便利屋の\n調査にスキはない。\nお誕生日おめでとう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "엣, 어제였다고?\n미… 미안….",
+            "LocalizeJP": "えっ昨日だったの？\nご…ごめん…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "…이 아니라!\n오늘 맞잖아!!",
+            "LocalizeJP": "…ってそんなわけないでしょ！\n今日で合ってるわよ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "잘 기억해두라고,\n오늘이 바로\n이 몸의 생일이니까!",
+            "LocalizeJP": "ちゃんと覚えておいて、\n今日はこの私の誕生日なの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "언젠가 키보토스의\n국경일 중 하나가 될 거야.",
+            "LocalizeJP": "いつかキヴォトスの\n祝日になるんだから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으라고.\n뭐, 이번 한 해도 무슨 의뢰든,\n최고의 결과로 함께 해주지.",
+            "LocalizeJP": "明けましておめでとう。まあ、\n今年もどんな依頼であろうと、\n最高の結果にしてみせるから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스라….\n그러고 보니\n가장 최근에 받은 의뢰가",
+            "LocalizeJP": "クリスマスか…。\nそういえば\n直近で受けた依頼は",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "'산타클로스'를\n제거해 달라 였지….",
+            "LocalizeJP": "「サンタクロース」の\n排除だったわね…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "우와와와앗!\n뭐, 뭐야 그 기괴한 건!",
+            "LocalizeJP": "うわあああっ！\nな、なにその変なのは！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "아, 아니야,\n하나도 안 놀랐거든?\n진짜거든?!",
+            "LocalizeJP": "ち、ちがう、\n全然驚いてないわ、\n本当よ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후후후. 이거라면…….\n무엇이든 한 발로 끝장이네.",
+            "LocalizeJP": "ふふふ。これなら……\n何だろうと一発でお終いね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Aru_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(훗, 내 일하는 모습에\n반하면 곤란하다고?)",
+            "LocalizeJP": "（ふふっ、私の働く姿に\n見惚れちゃ困るわよ？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(잘못 걸었잖아!!\n초밥집을 왜 찾아!)",
+            "LocalizeJP": "（って、かけ間違いじゃ\nないの！うちはお寿司屋さん\nじゃないんだけど！？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "흐음. 곤란하네요,\n저희가 지금 일이 꽉 차있어서.",
+            "LocalizeJP": "うーん。困りましたね。\nうちは今、スケジュールが\nキツキツでして。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(배달? 안되는 게 뻔하잖아!)",
+            "LocalizeJP": "（配達？しないに\n決まってるでしょう！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아아, 네, 네.\n이해합니다.",
+            "LocalizeJP": "ええ、はい、はい。\n分かります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(잘못 걸었으면\n빨리 끊을 것이지\n뭐이리 말이 많아…?)",
+            "LocalizeJP": "（早くかけ間違いだって\n気づいて切りなさいよ、\n話長いわよ…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "으음. 어려운 문제군요.\n이번 분기 회계상으로는….\n요즘 기준 금리가….",
+            "LocalizeJP": "うーん。難しい問題ですね。\n今期の会計上では…\n近頃の金利の問題で…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(초밥 가격을\n왜 물어보는 거야?!)",
+            "LocalizeJP": "（お寿司の値段\n聞いてんじゃないわよ！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아아, 네. 확인했습니다.\n그렇군요.",
+            "LocalizeJP": "ああ、はい。\n確認いたしました。\nなるほど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(네 초밥 취향 따위\n궁금하지 않다구….\n뭐야, 이 녀석.)",
+            "LocalizeJP": "（あなたのお寿司の\n好みなんか\n聞いてないわよ…。\n何なの、この人）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "응?\n잘못 걸린 거 아니냐고?",
+            "LocalizeJP": "ん？\n間違い電話じゃ\nないのかって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "무, 무슨 얘길 하는 거야?\n일하는 중이잖아!",
+            "LocalizeJP": "な、何言ってるの？\nちゃんと仕事中よ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

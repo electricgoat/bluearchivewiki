@@ -1,0 +1,228 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "으으음…그래서 지금부터 무얼 하면 된다고?",
+            "LocalizeJP": "えーっと…それで、今から何をすればいいの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "방금 그건… 꿈이었나?",
+            "LocalizeJP": "さっきのあれ…夢、\nだったのかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님, 왔어?\n응… 아무 데나 앉아.",
+            "LocalizeJP": "先生、来たんだ？\nうん…てきとうに座って。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "…난 신경 쓰지 마.\n하려던 일 계속해.",
+            "LocalizeJP": "…私のことは\n気にしないで、\n仕事してて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "선생님은… 집에 안 가?",
+            "LocalizeJP": "先生は…\n家に帰らないの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님, 내가 하이쿠를\n지어봤는데…들어볼래?",
+            "LocalizeJP": "先生、私、俳句を\n詠んでみたんだけど\n…聞く？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "점심밥으로\n닭튀김을 먹었다\n나고야 음식",
+            "LocalizeJP": "お昼には\nとり天食べた\n名古屋めし",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해, 선생님.",
+            "LocalizeJP": "お誕生日\nおめでとう、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘이 생일이라는 건…",
+            "LocalizeJP": "今日が誕生日って\nいうことは…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님이 태어난 날이\n오늘이라는 건가?",
+            "LocalizeJP": "先生が生まれた日は、\n今日ってこと？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "오늘이 내 생일이라고…?\n정말…?",
+            "LocalizeJP": "今日が私の誕生日…？\n本当に…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 첫 꿈에 토마토가 나왔는데…",
+            "LocalizeJP": "初夢にトマトが\n出て来たけど…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "산타클로스는 나쁜 어린이가\n누구인지 알고 있다고?",
+            "LocalizeJP": "サンタクロースは、\n誰が悪い子なのか\n知ってるの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "그거… 나마하게 아냐?",
+            "LocalizeJP": "それ…\nなまはげじゃない？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "호박 수프가 먹고 싶네…",
+            "LocalizeJP": "カボチャスープ\n飲みたいな…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Chise_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "오늘 선생님과 같이 있어서…\n무척 즐거웠어.",
+            "LocalizeJP": "今日は先生と一緒で…\nすごく楽しかった。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그래서 나, 깨달았어.",
+            "LocalizeJP": "それで私、\n気づいたの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "내가 짓고 싶었던 하이쿠, \n그건….",
+            "LocalizeJP": "私が作りたかった俳句、\nそれは…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "오늘 계속 느꼈던\n이 마음을 담은 거라는 걸.",
+            "LocalizeJP": "今日ずっと感じていた\nこの気持ちを、\n込めたものだったんだって。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…선생님과 함께라면,\n앞으로도 얼마든지-",
+            "LocalizeJP": "…先生と一緒なら、\nまだまだいくつでも、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

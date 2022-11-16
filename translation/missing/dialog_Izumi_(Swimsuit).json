@@ -1,0 +1,390 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여름! 여름이야. 선생님!\n이번 여름엔 나랑 같이, \n맛있는 거 잔뜩 먹으러 가자!",
+            "LocalizeJP": "夏！夏だよ先生！今年の夏は私と一緒に、美味しいものをたくさん食べに行こう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여름의 풍물시라면, \n빙수… 소면…\n은어 소금구이…\n 츄릅…… 핫?!",
+            "LocalizeJP": "夏の風物詩といえば、\nかき氷……そうめん……\n鮎の塩焼き…\nじゅるっ……はっ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "다음번에 선생님이랑\n바다에 가면……\n타코야키 100개 먹기다앗…!",
+            "LocalizeJP": "今度、先生と\n海に行ったら……\nたこ焼き100個\n食べよーっと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여름이라면 역시……\n야키소바, 자루소바,\n나가시소멘!",
+            "LocalizeJP": "夏と言えば……\n焼きそば！ざるそば！\n流しそうめん！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "여기는 시원해서\n좋다아~",
+            "LocalizeJP": "ここ、涼しくて\n気持ちいい～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "수영복 준비 오케이.\n아이스박스 채우기 오케이.\n여름 준비는 완벽해!",
+            "LocalizeJP": "水着の準備オッケー。\nクーラ―ボックスも\nオッケー。\n夏の準備は完璧！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "앗, 선생님이다!\n바다 가자!\n바다! 선생님!",
+            "LocalizeJP": "あっ、先生っ！\n海行こう、海！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "일해야 한다고?\n그럼 끝날 때까지 기다릴래!",
+            "LocalizeJP": "仕事をしないと？\nじゃあそれが終わる\nまで待ってるからっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "흥, 흐흥~\n어서 와, 선생님.",
+            "LocalizeJP": "ルンルン～♪\nあ、おかえり先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "난 끝났으니까.\n이제 선생님만 준비하면 돼.",
+            "LocalizeJP": "私はもう準備できてるから、\n先生のこと待ってるね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "응? 무슨 소리냐고?\n당연히 바다에 갈 준비지!",
+            "LocalizeJP": "ん？\n何の話……って？\nもちろん、\n海に行く準備だよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여름하면\n당연히 바다의 집!\n이건 가볼 수밖에 없어!\n선생님!",
+            "LocalizeJP": "夏と言えば海の家！\nもう、すぐにでも行くしか\nないよね！先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "빨강, 노랑, 초록…\n그리고 파랑…",
+            "LocalizeJP": "赤、黄、緑……\nはたまた青……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……응?\n빙수 시럽 이야기라구?",
+            "LocalizeJP": "……ん？かき氷の\nシロップの話だよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님, 바다에서\n수영을 하다보면\n금방 배가 고파지잖아?",
+            "LocalizeJP": "先生、海で泳いでると\nすぐにお腹が空くでしょ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그래서 내가 해결책을\n생각해 봤는데……",
+            "LocalizeJP": "そこで私が解決策を\n考えたんだけど……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "수영에도 쓸 수 있고,\n배고프면 그대로 먹을 수도 있는\n튜브를 사면 돼!",
+            "LocalizeJP": "普通に泳ぐのにも使えて、\nお腹が空いたらそのまま\n食べられる浮き輪を\n買えば良いと思うの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어때, 굉장한 생각이지?!\n엣-헴!",
+            "LocalizeJP": "どう、名案でしょ！？\nエッヘン！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어?\n그런 튜브는 없어?\n…어째서?",
+            "LocalizeJP": "え、そんな浮き輪はない？\n……どうして！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "그럼 기념으로!\n오늘은 같이 샬레에서\n물장구를 치자!",
+            "LocalizeJP": "それじゃあせっかくだし、\n今日は一緒に\nシャーレで水遊びしよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "짜잔~! 오늘은\n내 생일이야. 선생님!\n그러니까 자,\n수영하러 가자!",
+            "LocalizeJP": "なんと、今日は私の\n誕生日なんだよ。先生！\nだからほら、泳ぎに行こう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "여름은 아직 조금 멀었지만.\n선생님이랑 같이 있는데\n어떻게 기다려~!",
+            "LocalizeJP": "夏はまだ少し先だけど、\n先生と一緒なのにそんなの\n待ってられないよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받아!\n선생님!",
+            "LocalizeJP": "あけましておめでとう！\n先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "설날의 떡국도 물론 좋지만\n올해도 선생님이랑 같이,\n여름의 별미를 먹을 날이\n기대되네! 에헤헷!",
+            "LocalizeJP": "お正月のお雑煮ももちろん\n良いけど、今年も先生と\n一緒に、夏のグルメを味わえる\n日が待ち遠しいな！えへへっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스~!\n크리스마스에도\n수영복이라니,\n춥지 않냐고?",
+            "LocalizeJP": "メリークリスマ～ス！\nクリスマスに水着で\n寒くないの……って？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "괜찮아! 방금 막 따끈따끈한\n우동을 먹었으니까!",
+            "LocalizeJP": "大丈夫！\nさっきまで熱々の\nうどんを食べてたから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈은 별나게\n꾸며입고 사탕을\n받는 날……",
+            "LocalizeJP": "ハロウィンといえば、\nちょっと変わった格好を\nして飴をもらう日……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "혹시… 지금의 나라면\n가능할지도?!",
+            "LocalizeJP": "もしかして……\n今の私なら\nイケるんじゃ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여름 전용 장비?!\n날 위해 준비해준 거야?!\n우와아~! 기뻐라~!\n고마워-!",
+            "LocalizeJP": "夏の専用装備！？\n私のために用意してくれたの！？\nわ～い！嬉しい、ありがとー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "IzumiSwimsuit_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "으으, 느낌이 이상해애애…….\n축축하고 미끈미끈해서,\n우에엥……!",
+            "LocalizeJP": "んんっ、変な感じするぅ……\n湿っててヌルヌルして、\nうえぇん……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "저리 가아~!\n난 먹는 게 아니라구우~!",
+            "LocalizeJP": "いやっ、やめて～！\n私はまだ食べられる\nわけにはいかないのー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아직 못 먹어본\n음식도 많단 말이야아~!",
+            "LocalizeJP": "まだまだ食べたいものが\n山ほどあるんだからー！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "히읏?!\n우으읏, 이대로\n당하고 있을 수만은……!",
+            "LocalizeJP": "ひぅっ！？ううっ、\nこのままやられる\nわけには……っ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "헉!\n이대로 문어에게 먹힐 바에는\n차라리 그전에……!",
+            "LocalizeJP": "はっ！もしかして、\nこのままタコに\n食べられるぐらいなら\nいっそのこと……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "내가 먼저\n먹어버리면 될지도-?!",
+            "LocalizeJP": "私が先に食べちゃえば\nいいのかも！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

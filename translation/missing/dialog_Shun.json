@@ -1,0 +1,292 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "훈육지원부 매화원의 교관, 슌이라고 합니다.\n저희 아이들을 잘 부탁드릴게요, 선,생,님?",
+            "LocalizeJP": "訓育支援部梅花園の教官、シュンです。\nうちの子たちをよろしくお願いいたしますね、\nせ・ん・せ・い？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후후, 다음에는 이곳에서\n다 같이 수업을 할까요?",
+            "LocalizeJP": "ふふ、次はここへみんなを\n一緒に連れてきての\n授業にしましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "낮잠 시간은 아직인데…\n어쩐지 잠이 오네요…",
+            "LocalizeJP": "お昼寝の時間はまだなのに…\nなんだか眠くなってきました…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "린카는 아이들을\n잘 돌보고 있으려나…",
+            "LocalizeJP": "リンカはきちんと、\n子供たちの面倒を見ら\nれているでしょうか…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n식사부터 하실래요,\n목욕부터 하실래요?",
+            "LocalizeJP": "ようこそ、先生。\nお食事になさいますか、\nお風呂に入られますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "지난번에 하던 수업을\n마저 재개하죠, 후후…",
+            "LocalizeJP": "前回、途中で終わってしまった\n授業を再開しましょう、ふふ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "정말~ 선생님은 제게\n어리광 부리시면 안 돼요.",
+            "LocalizeJP": "もう～、先生は私に\n甘えちゃダメですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "하지만 가끔이라면…\n봐드릴게요?",
+            "LocalizeJP": "でもたまにでしたら…\n大目に見てあげますよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후훗, 오늘도\n잘 부탁드릴게요?",
+            "LocalizeJP": "ふふっ、今日もよろしくお\n願いいたしますね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "떽, 할거에요?",
+            "LocalizeJP": "こらっ、\nって叱っちゃいますよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하합니다~ ♪\n생일 축하합니다~ ♬",
+            "LocalizeJP": "ハッピーバースデー\nトゥーユー♪\nハッピーバースデー\nトゥーユー♬",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "사랑하는 선생님~ ♪\n생일 축하합니다~ ♬",
+            "LocalizeJP": "ハッピーバースデー\nディア先生～♪\nハッピーバースデー\nトゥーユー♬",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "후우… 또 한 살,\n나이를 먹고 말았네요…",
+            "LocalizeJP": "ふう…また一つ、\n年を取ってしまいましたね…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "제 나이가 몇이나고요?\n후후, 비밀이랍니다.",
+            "LocalizeJP": "私の年ですか？\nふふ、秘密ですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "후후, 올 한 해도\n잘 부탁드려요~.",
+            "LocalizeJP": "ふふ、今年も一年、\nよろしくお願いしますね～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "쉿, 선생님.\n산타 분장을 들키지 않게\n조심하세요.",
+            "LocalizeJP": "しっ、先生。\nサンタの変装がバレないように\n気を付けてくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아이들의 동심은\n그 무엇보다 소중하니까요.",
+            "LocalizeJP": "子供たちの純粋な心は、\n何よりも大切なもの\nなんですから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "어머, 아이들이 어디서\n사탕을 잔뜩 받아왔네요.",
+            "LocalizeJP": "あら、子供たちがどこかで\n飴をたくさん貰って\nきたようですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이걸 쓰고 싶지는 않았지만…\n따끔한 사랑의 매도 가끔은\n필요한 법이랍니다.",
+            "LocalizeJP": "これを使いたくはなかったのですけど……\nびしっとした愛のムチも、\n時には必要なのです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shun_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어머, 일어나셨군요.",
+            "LocalizeJP": "あら、\nお目覚めになりましたか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "오늘은… 정말 즐거웠어요.\n후후.",
+            "LocalizeJP": "今日は…\n本当に楽しかったです。\nふふ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "어머,\n아이들이 돌아올 시간이네요.",
+            "LocalizeJP": "あら、もう子供たちが\n帰ってくる時間ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "슬슬 돌아가 보셔야 하지\n않으시겠어요?",
+            "LocalizeJP": "そろそろお仕事にお\n戻りになった方が\n良いのでは…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아니… 후훗,\n좀 더 쉬세요, 선생님.",
+            "LocalizeJP": "いえ、やはり…ふふ、\nもう少しゆっくりしていて\nください、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "오늘 수업은 제가 대신 할게요.",
+            "LocalizeJP": "今日の授業は\n私が代わりますので。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아아… 귀여워라…\n후훗.",
+            "LocalizeJP": "ああ…可愛い…\nふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

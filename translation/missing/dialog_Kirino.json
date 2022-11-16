@@ -1,0 +1,300 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "발키리 경찰학교의 키리노입니다!\n모두, 손을 들고 본관의 지시에 따라 주세요!",
+            "LocalizeJP": "ヴァルキューレ警察学校のキリノです！\nみなさん、手を上にあげて\n本官の指示に従ってください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어디, 이곳에\n숨어있는 범죄자는\n없겠지요?",
+            "LocalizeJP": "どれどれ、\nここに隠れてる\n犯罪者は\nいませんよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이런 건, 규정상으로\n세이프였던가요……?",
+            "LocalizeJP": "こういうのは、\nルール的に\nセーフなのでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "저 사람, 어쩐지\n낯이 익은데…\n혹시 현상수배범?",
+            "LocalizeJP": "あの人、なんだか\n見たことあるような……\nもしかして指名手配犯？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "오늘도 키보토스는\n평화롭군요!",
+            "LocalizeJP": "今日も\nキヴォトスは\n平和ですね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n괜찮으시다면, 곧바로\n순찰을 나가려고 했습니다만,\n함께 어떠신가요?",
+            "LocalizeJP": "お帰りなさい、先生。\nよろしければ、すぐに\nパトロールに出ようと思うの\nですがご一緒にいかがですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어서 오세요, 선생님.\n오시는 동안\n수상한 사람은 없었나요?",
+            "LocalizeJP": "お帰りなさい、先生。\nここに来るまでに\n怪しい人はいませんでしたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "본관에게 무슨 문제라도……?",
+            "LocalizeJP": "……？本官に、\n何か問題でも\nありましたか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "좀 더… 키보토스의\n학생들에게 도움이\n되고 싶습니다.",
+            "LocalizeJP": "もっと……\nキヴォトスの生徒たちの\n力になりたいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이 근처에는 맛집이 많아서,\n순찰이나 당번으로 올 때마다\n매번 기대되네요.",
+            "LocalizeJP": "この辺りは美味しいお店が\n多くて、パトロールや\n当番で来るのが毎回楽しみです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "무, 물론 순찰을\n게을리한 건 아닙니다!",
+            "LocalizeJP": "も、もちろんパトロールを\nサボるわけではありません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "미란다 원칙의\n세 번째 조항이……\n뭐였더라?",
+            "LocalizeJP": "ミランダ警告の3つ目って……\nなんでしたっけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드립니다, 선생님.\n하지만 아무리 생일이라\n하더라도 규칙 위반은\n봐드릴 수 없어요?",
+            "LocalizeJP": "お誕生日おめでとうございます、\n先生。ただし、いくら\n誕生日だからって\nルール違反はダメですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "제 생일을\n기억해주시다니…\n감격했습니다, 선생님.",
+            "LocalizeJP": "私の誕生日を\n覚えていてくださったなんて……\n感激しました、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해가 밝았습니다, 선생님.\n올해도 키보토스의\n치안을 위해 함께 노력하죠!",
+            "LocalizeJP": "明けまして\nおめでとうございます、先生。\n今年もキヴォトスの治安のために\n一緒に頑張りましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "시민의 안전을\n지키는 일은 연중무휴!",
+            "LocalizeJP": "市民の安全を\n守ることは年中無休！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스에도\n안심할 수는 없지요!",
+            "LocalizeJP": "クリスマスでも\n油断できません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "앗, 또 단정치 못한\n차림으로 거리를\n오가는 학생들이……!",
+            "LocalizeJP": "あっ、またみだらな\n格好で街を歩く生徒たちが……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 총에 어울릴 수 있도록,\n사격이 능숙해질 때까지\n정진하겠습니다…!",
+            "LocalizeJP": "この銃にふさわしいくらい、\n扱いが上手なれるよう\n精進しますね……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kirino_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(어, 어떻게 하죠…?\n으읏, 읏……!\n푸, 풀리지 않아……?!)",
+            "LocalizeJP": "（ど、どうしましょう……！\nふんっ、んっ……！\nは、外れない……！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…네? 아뇨, 아뇨!\n다른 것도 아니고 경찰인 본관이\n열쇠를 잃어버릴 리가 없잖습니까!",
+            "LocalizeJP": "……え？い、いやいや！\n仮にも警察に属する本官が、\n鍵を失くすわけが\nないではありませんか！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "탈출 훈련의 시범입니다!\n불의의 사고로 수갑에\n묶였을 때를 대비하여,",
+            "LocalizeJP": "だ、脱出訓練の予行演習です！\n想定外の事態が起きて、\n万が一拘束されてしまった\n時のために……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "본관이 직접 탈출하는\n시범을 보이겠습니다!",
+            "LocalizeJP": "これより本官が、\n脱出の仕方をお見せします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "안심하시길! 본관처럼\n제대로 훈련을 받은 경찰이라면,\n이 정도는 간단하니까요!",
+            "LocalizeJP": "ご安心ください！\n本官のようにしっかり訓練を\n積んだ者であれば、\nこれくらい簡単ですから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "으으읏……!\n으으으읏……!",
+            "LocalizeJP": "くうううっ……！\nふぬぬぬぬぬぬっ……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "……죄송합니다.\n도와주세요, 선생님…….",
+            "LocalizeJP": "……ごめんなさい。\n助けてください、\n先生ぇ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

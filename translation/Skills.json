@@ -3018,6 +3018,32 @@
             "GroupId": "CH0190ExtraPassive01",
             "NameEn": "Excitement of the competition",
             "DescriptionEn": "When attacking large enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0159Ex01",
+            "NameEn": "Let me show you what I can do",
+            "DescriptionEn": "Increase Attack of one ally by $1 for $2."
+        },
+        {
+            "GroupId": "CH0159Public01",
+            "NameEn": "You might be a little surprised",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nDecrease their Evasion by $2 for $3."
+        },
+        {
+            "GroupId": "CH0159Passive01",
+            "NameEn": "Delicate clifftop flower",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0159WeaponPassive01",
+            "NameEn": "Delicate clifftop flower +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0159ExtraPassive01",
+            "NameEn": "The true worth of a super genius delicate sickly beautiful girl",
+            "DescriptionEn": "Increase Cost Recovery of allies by $1."
         }
 
         

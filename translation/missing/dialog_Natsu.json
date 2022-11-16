@@ -1,0 +1,254 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어이어이, 반갑다고. 선생님.\n오늘도 달콤한 캔디 같은 하루.",
+            "LocalizeJP": "やあやあ、会えて嬉しいよ先生。\n今日もキャンディーみたいな、甘ーい1日になりそうだぁ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "활기차네.\n분위기 좋은걸.",
+            "LocalizeJP": "うん、\n良い雰囲気だね～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "오오……!\n저건……!",
+            "LocalizeJP": "おお……！\nこれは……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생님.\n우선 뭐 좀 먹을래?",
+            "LocalizeJP": "おかえり、先生。\nとりあえず何か食べる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭐야, 선생님?\n입이 심심해?\n사탕이라도 줄까?",
+            "LocalizeJP": "どうしたの、先生？\n……口寂しい？\n飴ちゃんでもあげようか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그런데 선생님,\n평소 입가심으로는\n뭘 선호하는 편이야?",
+            "LocalizeJP": "ところで先生、\nお口直しには何が好き？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "나라고 늘 간식 이야기만\n하는 건 아니라구~",
+            "LocalizeJP": "別に私だって、\nいっつもお菓子の話ばっかり\nしてるわけじゃないよ～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님.\n'간식 배'\n라고 들어봤어?",
+            "LocalizeJP": "先生……\n別腹、って知ってる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이 디저트에 담긴 철학…….",
+            "LocalizeJP": "これもまた、\nスイーツに込められた哲学……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "어쩔 수 없군.\n오늘은 내가 쏜다!",
+            "LocalizeJP": "仕方ない、\n今日は私が奢ってあげよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님, 선생님.\n오늘 무슨 날인지……\n알고 있지?",
+            "LocalizeJP": "先生、先生。\n今日が何の日か、\nもちろん知ってるよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "자, 올해에는\n무슨 신상이 나올까?",
+            "LocalizeJP": "さあ今年の新作は\nどんな感じかなー？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "과연 올해에도\n산타는 날 버릴 것인가!",
+            "LocalizeJP": "果たして今年もサンタさんは、\n私のことを見捨ててしまうのか！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아니, 어쩌면 당신이 나의 산타일까!",
+            "LocalizeJP": "それとも今年の\nサンタさんは先生！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "오늘은 사탕을\n잔뜩 받을 수 있는 날……!",
+            "LocalizeJP": "今日はキャンディーが\nたくさん貰える日……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Season_Halloween_1_1"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "가자고, 선생님!\n저장할 공간은 충분하지?\n오늘부터 당분간,\n사탕 둘 곳이 될 테니까!",
+            "LocalizeJP": "行くよ、先生！あ、\nそこのスペースは空けといて！\n今日からしばらく\nキャンディー置き場になるから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_Season_Halloween_1_2"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오오……. 대단하잖아…….\n나 주는 거 확실하지?\n반품 같은 건 없다고~?",
+            "LocalizeJP": "うお、すごいねこれ……。\n私で良いの？\n返品とかナシだからね～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0155_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "봐봐, 선생님! 대단해……\n이렇게 가득!!",
+            "LocalizeJP": "見て見て先生！すごい……！\nこんなにたくさん！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "거기에, 이것도 저것도\n본 적도 없어!!",
+            "LocalizeJP": "それに、どれもこれも\n見たことない！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "처음으로 본\n과자 뿐이야……!!",
+            "LocalizeJP": "初めて見た\nお菓子ばっかり……！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……아핫. 미안, 미안.\n뭔가 갑자기 맥이 풀려버려서.",
+            "LocalizeJP": "……あはっ。ごめんごめん、\n何だか急に気が抜けちゃって。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님과 이렇게 있어서\n기쁘고 즐거워.",
+            "LocalizeJP": "先生とこうしていられて、\n嬉しいし、楽しいの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

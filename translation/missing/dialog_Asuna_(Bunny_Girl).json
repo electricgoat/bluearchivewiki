@@ -1,0 +1,378 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "쨔쟌-! 이것 봐, 주인님!\n토끼 아스나입니다!",
+            "LocalizeJP": "じゃーん！見て見て、ご主人様！\nバニー姿のアスナだよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "깡총깡총~.\n토끼 아스나입니다~.",
+            "LocalizeJP": "ぴょんぴょん！\nバニーのアスナ参上！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기도 되게\n재밌어보이는\n곳이네!",
+            "LocalizeJP": "ここもすっごく\n楽しそうな\nところだね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아하하하하하!\n이거 뭐야?\n재미있어!",
+            "LocalizeJP": "あははは！\n何これ面白い！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "음~. 주인님은\n어디에 있을까?\n찾으러 가볼까?",
+            "LocalizeJP": "あれ、ご主人様\nどこ行ったんだろ？\n探しに行こっかな～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "놀이공원 같은 데도\n종종, 지금의 나같은\n토끼들이 있더라!",
+            "LocalizeJP": "遊園地とかにもよく、\n今の私みたいな\nウサギさんたちが\nいるよね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 주인님!\n귀여운 토끼 차림으로\n기다렸어!",
+            "LocalizeJP": "おかえり、ご主人様！\n可愛いバニーさんの格好で\n待ってたよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "주인님이 흥미 있는 것은,\n귀? 꼬리? 아니며언~",
+            "LocalizeJP": "ご主人様が興味あるのは、\n耳？しっぽ？\nそれとも～……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응? 왜 그래?\n이 옷 마음에 들었어?\n그러면 주인님도 입어 볼래?",
+            "LocalizeJP": "ん、どうしたの？\nこの衣装気に入った？\nじゃあご主人様も着てみる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "토끼 씨는 외로워지면 안 된대.",
+            "LocalizeJP": "ウサギさんは\n寂しくさせちゃ\nダメなんだよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그러니까, 주인님이 잔뜩\n쓰다듬어주었으면 해!",
+            "LocalizeJP": "だから、ご主人様にたくさん\n撫でてもらわないと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아하하하하!\n간지러워, 주인님!",
+            "LocalizeJP": "あははははっ！\nちょっ、くすぐったいよ\nご主人様～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하고 생각했는데,\n마침 주인님이 와 줬으니까\n모두 오케이! 와-이!",
+            "LocalizeJP": "って思ってたけど、\nちょうどご主人様が\n来てくれたから\nオールオッケー！わーい！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "토끼는 어떻게 산책을 가는 걸까?",
+            "LocalizeJP": "ウサギさんって、どうやって\n散歩に連れて行くんだろうね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "……주인님, 지금부터 해 볼래?",
+            "LocalizeJP": "……ご主人様、\n今からやってみる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "해피 버스데이-주인님!\n생일이니까 주인님께는,\n귀여운 바니걸 아스나를 선물!",
+            "LocalizeJP": "ハッピーバースデー、ご主人様！\n誕生日なので、ご主人様には\nこの可愛いバニー姿の\nアスナちゃんをプレゼント！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "주인님,\n오늘이 무슨 날인지 알아?",
+            "LocalizeJP": "ご主人様、\n今日は何の日か知ってる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "후훗, 그러면, 오늘은 여느 때보다\n더 많이 놀아 줘야 할 거야!",
+            "LocalizeJP": "ふふっ、さーて、\n今日はいつも以上に\nたくさん遊んで\nもらっちゃおうかな！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새로운 한 해가 시작됐어, 주인님!\n괜찮아. 올해도 아스나가\n옆에 있어 줄 테니까!",
+            "LocalizeJP": "新年が始まったね、ご主人様！\n大丈夫、今年もアスナが\nそばにいてあげるから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "응?\n크리스마슨데 왜 토끼냐고?",
+            "LocalizeJP": "ん？\nクリスマスなのにどうして\nバニー姿なのかって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "토끼 산타-! 라는 거지!",
+            "LocalizeJP": "あれあれ、\nバニーサンタってやつ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "다들 재미있는 옷을 입고 있네!\n하지만 아스나도 이 옷이라면\n지지 않을 것 같은데,",
+            "LocalizeJP": "みんな面白い格好してるね！\nでもアスナもこの衣装なら\n負けてなさそうだし、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "자아, 주인님! 같이 돌격이야!",
+            "LocalizeJP": "さあ、ご主人様！\n一緒に突撃ー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "쨔안-! 토끼 아스나, 완전체!\n등~장이야~!",
+            "LocalizeJP": "じゃーん！\nバニー姿のアスナ、完全体！\nなんちゃって！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0098_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어라? 이런 시간에\n웬일이야, 주인님?",
+            "LocalizeJP": "あれ、\nこんな時間にどうしたの、\nご主人様？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "……나? 나야 보는대로\n빨래하러 왔지!",
+            "LocalizeJP": "……私？\n私は見ての通り、\n洗濯をしに！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "……응?\n빨래하러 왔는데\n왜 그 모습이냐고?",
+            "LocalizeJP": "……洗濯しに来たのに、\n何でその格好なのって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그야 나머지는\n전부 다 빨고 있으니까.",
+            "LocalizeJP": "実は今、この衣装以外、\n全部洗っちゃってて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "지금은 속옷까지 다 빨아서,\n다른 게 없는 걸?",
+            "LocalizeJP": "下着も全部入れちゃったから、\n他に着るもの無くってさー？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "에~. 거짓말 아닌데?\n그럼 직접 보고 확인해볼래?",
+            "LocalizeJP": "えー、嘘じゃないよ～？\n……何なら直接見て、\n確かめてみる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아하하, 얼굴 빨개!\n그런데 주인님은\n여기 왜 온 거야?",
+            "LocalizeJP": "あははっ、顔真っ赤！\nところでご主人様は、\nどうしてここに？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……응? 나 보러 왔다고?\n이 시간에?",
+            "LocalizeJP": "……え、私に会いに\n来てくれたの？\nこんな時間に？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "신난다!\n마침 혼자 있기\n지루하던 참이었는데!",
+            "LocalizeJP": "嬉しー！ちょうど一人で、\n退屈してたところだったの！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "고마워, 주인님!!\n자, 그럼 뭐 하고 놀까?",
+            "LocalizeJP": "ありがとう、ご主人様！！\nじゃあ、何して遊ぼっか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

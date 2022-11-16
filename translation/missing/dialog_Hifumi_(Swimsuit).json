@@ -1,0 +1,346 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "언제나처럼 수수한 저입니다만……\n잘 부탁드려요!",
+            "LocalizeJP": "あ、相変わらず地味めな私ですが……よろしくお願いします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "카페에서 이 차림은……\n조금 부끄럽네요.",
+            "LocalizeJP": "カフェでこの格好は……\nちょっと\n恥ずかしいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여름 분위기의\n가구가 잔뜩…….",
+            "LocalizeJP": "夏っぽい家具が\nたくさん……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(어쩐지 주목받고\n있는 것 같아요.)",
+            "LocalizeJP": "（な、なんだか注目\nされてるような\n……？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(여름의 따사로운\n햇살이……\n기분 좋아요…….)",
+            "LocalizeJP": "（夏の暖かい\n日差し……\n気持ち良い……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(여름 한정의\n페로로 굿즈는\n없으려나……?)",
+            "LocalizeJP": "（夏限定のペロロ様\nグッズは\n無いのかな……？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님. 바다예요, 바다!\n바다가 저희를\n기다리고 있어요!",
+            "LocalizeJP": "先生！\n海ですよ、海！\n海が私たちのことを\n待ってます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "오늘은 날씨가 좋네요, 선생님.\n같이 해변 산책이라도\n하지 않으시겠어요?",
+            "LocalizeJP": "今日は良い天気ですね、先生。\n一緒に海沿いで、\nお散歩でもしませんか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "바다에 간다고 해서\n조금 멋을 부려봤는데……",
+            "LocalizeJP": "海に行くとのことで、\n少しおしゃれを\nしてみたんですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "보시기에 어떠신가요?\n너무 평범해 보이지는 않나요?",
+            "LocalizeJP": "い、いかがでしょう？\n地味、ですかね……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여름 바다에서 바캉스를\n즐길 때도 페로로 님의\n인형은 빼놓을 수 없죠!",
+            "LocalizeJP": "夏の海で\nバカンスとはいっても、\nペロロ様のぬいぐるみ\nは欠かせません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "페로로 님의 부드러운 깃털이\n젖지 않도록 방수 대책도\n철저히 준비했답니다!",
+            "LocalizeJP": "ペロロ様の羽が\n濡れてしまわないように\n防水対策も徹底してます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "……어라?\n선생님. 샬레 건물\n앞에 주차되어 있던\n크루세이더 쨩, 못 보셨나요?",
+            "LocalizeJP": "……あれ？\n先生、シャーレの前に\n駐車していたはずの\nクルセイダーちゃん、\nどこに行ったかご存知ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드려요, 선생님!",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "축하의 의미로\n제가 아끼는 페로로 님\n튜브를 선물해 드릴게요!",
+            "LocalizeJP": "お祝いに私のこの、\nペロロ様の浮き輪を\nプレゼントします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "뭔가 생일 선물로 바라는 것……\n말인가요?",
+            "LocalizeJP": "何か誕生日に欲しいもの\n……ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Birthday_1"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "……감사합니다.\n그래도 괜찮아요.",
+            "LocalizeJP": "……ありがとうございます、\nでも大丈夫です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Birthday_2"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님과 함께하는\n이 바캉스가 제게는\n최고의 생일 선물이니까요!",
+            "LocalizeJP": "先生と一緒に過ごすこの\nバカンスが、私にとっては\n最高の誕生日\nプレゼントですから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요,\n선생님.",
+            "LocalizeJP": "明けましておめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "이번 여름도\n기대하고 있을게요!",
+            "LocalizeJP": "今年の夏も、\n楽しみにしてますね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아까 샬레의 건물\n앞에서 눈에 파묻힌\n페로로 님을 보았어요.",
+            "LocalizeJP": "さっきシャーレの建物の前で、\n雪に埋もれたペロロ様を\n見かけまして……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Xmas_1"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "맨 몸에 산타 모자만\n쓰고 있었는데, 이 날씨에\n춥지 않을까요……?",
+            "LocalizeJP": "裸の状態で、\nサンタさんの帽子だけを\n被っていたのですが、\n寒くないのでしょうか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Xmas_2"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "하, 할로윈 의상이요?\n이건 그냥 평범한 수영복인데요?\n아하하……조금 계절에\n어울리지 않는 차림이지만요…….",
+            "LocalizeJP": "え、ハロウィンの衣装？\nあ、いえ、これは\n普通に水着で……\nあはは、ちょっと\n季節違いかもですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 총기, 방수 처리는\n되어 있겠죠……?",
+            "LocalizeJP": "この銃器、防水加工は\nされてるんでしょうか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0058_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "구석~ 구석~\n깨끗해져라~.",
+            "LocalizeJP": "ふんふん～♪\n隅々までキレイに～♪",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "크루세이더 쨩을,\n녹슬게 할 순 없으니까요.",
+            "LocalizeJP": "クルセイダーちゃんを、\n錆びさせるわけには\nいきませんからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "원래 모두가 함께\n사용하는 물건이고\n깨끗이 제자리에\n돌려놔야 할 텐데.",
+            "LocalizeJP": "そもそもみんな\nで使うものですし、\nキレイな状態で\n学園に戻さないと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아, 선생님.\n\r너무 가까이 계시면\n물줄기에 젖을지도 몰라요?",
+            "LocalizeJP": "あ、先生。\nあまり近くにいると、\n水がかかってしまう\nかもしれませんよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "수영복을 입고 있으니\n젖어도 상관없다고요?",
+            "LocalizeJP": "水着だから\n濡れても平気……ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "확실히 그렇네요.\n\r아, 그럼 모처럼이기도 하니\n다음번엔 같이 수영하러 가요!",
+            "LocalizeJP": "確かにそうですね。\nあ、ではせっかくですし、\nこの後は一緒に\n泳ぎにも行きましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

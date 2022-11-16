@@ -1,0 +1,348 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "당신이 선생님? 오늘부터 내가 함께해주겠어.\n임무라면 나한테 맡겨.",
+            "LocalizeJP": "あなたが先生か？今日から私が一緒にいてあげる。\n任務なら、私に任せて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "정의실현부 녀석들은 골치 아픈데….",
+            "LocalizeJP": "正義実現委員会のやつらは、\nめんどくさいんだよな…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "나 참, 어쩔 수 없네.\n도와줄게.",
+            "LocalizeJP": "まったく、仕方ないな。\n手伝うよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "하아. 어쩌다 이렇게 되었는지.\n뭐… 지금도 나쁘진 않지만.",
+            "LocalizeJP": "はあ、どうしてこうなったんだ。\nまあ…別に悪くはないけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "아, 왔어?\n선생님. 오늘의 임무는 뭐야?",
+            "LocalizeJP": "や、お帰り。\n先生、今日の任務は何？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "게으름 피울 생각 하지 말아줘.\n내가 언제나 지켜보고 있을 테니까.",
+            "LocalizeJP": "サボろうとするなよ。\n私がいつも見守ってるからな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "…아니, 이상한 의미는 아니니까!",
+            "LocalizeJP": "…いや、\n変な意味じゃないから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "당분간은 한가하니…\n조금은 도와줄게.",
+            "LocalizeJP": "しばらくは余裕があるから…\n少しは手伝うよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "문제를 일으키는 녀석이\n왜 이리 많은 건지.",
+            "LocalizeJP": "問題を起こす奴らって、\nなんでこんなに多いんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "뭐, 규칙을 무조건\n따르란 건 아냐.",
+            "LocalizeJP": "まあ、\n絶対に規則に従え\nとは言わない。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "따르지 않을 경우,\n책임을 지게 할 뿐이지.",
+            "LocalizeJP": "従わない場合、\n責任を取らせるだけだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "누구나 납득할 수 있는\n규칙같은 건 없어.",
+            "LocalizeJP": "誰もが納得で\nきる規則なんてない。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그러니까 강제할\n필요가 있는 거고.",
+            "LocalizeJP": "だからこそ、\n強制する必要がある。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님,\n당신의 지휘력은 신뢰하고 있어.",
+            "LocalizeJP": "先生、\nあなたの指揮力は\n信頼してるよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "응?! 뭐, 뭐?!\n오늘 생일이라고?",
+            "LocalizeJP": "ん？！な、なに？！\n今日が誕生日？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "어, 어쩔 수 없네.\n오늘은, 그러니까,\n어떤 임무든 협력할게!",
+            "LocalizeJP": "し、仕方ないな。\n今日は、その、\nどんな任務でも\n協力するから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "축하해줘서 고마워.",
+            "LocalizeJP": "祝ってくれて\nありがとう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "나도 조금 더 성장한 거니까…\n앞으로는 좀 더 진지하게 가볼까?",
+            "LocalizeJP": "私も少しは成長したんだし…。\nこれからはもうちょっと、\n真面目になってみようかな…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "선생님. \n신년에도 같이 힘내자고.",
+            "LocalizeJP": "先生。\n新年も、一緒に頑張ろう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스인가.\n이제 와선 원래의\n의미를 잃어버렸군.",
+            "LocalizeJP": "クリスマスか。\n今となっては元の\n意味を失ってるけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "Trick or Treat이라. \n뭐, 재미있는 날이긴 하지.",
+            "LocalizeJP": "Trick or Treat、か。\nまあ、面白い日ではある。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "어때 선생님. \n같이 밖에 나가볼까?",
+            "LocalizeJP": "どう、先生？\n一緒に、外に出てみない？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "성과로 보답하겠어.\n그것만이 지금의 내 마음을\n증명할 수 있을 테니까.",
+            "LocalizeJP": "成果で応える。\n今の私の気持ちを証明できるのは、\nそれしかないから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Iori_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭐야, 그 표정은.\n이상한 생각 하는 건 아니지?",
+            "LocalizeJP": "なに、その表情は。\n変なこと考えてないよな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "언제까지 지켜 보고만\n있을 거야? 빨리해줘.",
+            "LocalizeJP": "いつまで見てるんだ？\n早くして。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "우윽… 윽,\n하읏…",
+            "LocalizeJP": "んんっ…んぅっ、\nはうっ…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아팠냐고?\n게, 게헨나의 선도부원이\n겨우 이런 걸로 아파할 리가 없잖아!",
+            "LocalizeJP": "痛かったか、って？\nげ、ゲヘナの風紀委員が\nこれぐらいで\n痛がるはずないだろ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "다만…\n조금 간지러웠을 뿐이야.",
+            "LocalizeJP": "ただ…少し、\nくすぐったかっただけ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭐하고 있어.\n붕대가 흐트러지잖아.",
+            "LocalizeJP": "何やってるんだ、\n包帯がほつれる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님이라면…\n손이 닿는 것 정도는\n신경 쓰지 않으니까.",
+            "LocalizeJP": "先生だったら…\n手が触れるぐらいなら\n気にしないから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "제대로,\n끝까지 해 줘.",
+            "LocalizeJP": "ちゃんと、\n最後までやって。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

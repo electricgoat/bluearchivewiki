@@ -1,0 +1,368 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우라와 하나코입니다.\n앞으로 여러가지 잘 부탁드립니다.\n……네. '여러가지'로.",
+            "LocalizeJP": "浦和（うらわ）ハナコです。\nこれから色々とよろしくお願いしますね。\n……はい、それはもう「色々」と。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어머나,\n귀여운 곳이네요~.",
+            "LocalizeJP": "あら、\n可愛らしい\nところですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이 인테리어는\n선생님께서?\n멋지네요.",
+            "LocalizeJP": "この内装は先生が？\n素敵ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여기다가 두고 가면,\n누군가 놀라려나요……?",
+            "LocalizeJP": "ここに置いていったら、\n誰かが驚くで\nしょうか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후훗,\n장난이라도 좀 쳐볼까요?",
+            "LocalizeJP": "……ふふっ、\nちょっといたずらでも\nしておきましょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이 공간,\n보는 것만으로도 즐겁네요.",
+            "LocalizeJP": "この空間、\n見ているだけで\n楽しいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "오셨나요, 선생님?\n오늘도 잘부탁드립니다.",
+            "LocalizeJP": "おかえりなさい、先生。\n今日もよろしく\nお願いいたします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "후훗.\n기다리고 있었습니다. 선생님.",
+            "LocalizeJP": "ふふっ。\nお待ちしておりましたよ、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후훗.\n여기서 '당번' 하는 것도,\n굉장히 재미있네요?",
+            "LocalizeJP": "ふふっ。\nここで「当番」をするのは、\nすごく楽しいですね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "지금 여기는\n저희 둘뿐인 것 같고……",
+            "LocalizeJP": "今ここにいるのは\n私たち二人だけ……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이건 기대해도 되는 걸까요?",
+            "LocalizeJP": "これは、期待しても\n良いんでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그건 이제, 선생님이\n생각하신 쪽으로…….",
+            "LocalizeJP": "それはもう、先生の\nお望み通りの意味で。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님, 제가\n해줬으면 하는 게 있으신가요?",
+            "LocalizeJP": "先生、何か私に\nしてほしいことは\nありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "후훗.\n선생님의 그 표정이\n보고싶었어요.",
+            "LocalizeJP": "ふふっ、\n先生のその表情が\n見たかったんです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드립니다, 선생님.",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "받고 싶으신 선물이\n따로 있으신가요?\n없으시다면……",
+            "LocalizeJP": "何か欲しいものなどは\nありませんか？\n何も無いのでしたら……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "'그건' 어떠세요?",
+            "LocalizeJP": "「あれ」、\nでも良いんですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "아, 선생님이 선물이라니,\n멋지네요.",
+            "LocalizeJP": "あ、先生がプレゼント、\nなんて素敵かもしれませんね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "포장은 제가\n풀어봐도 될까요?",
+            "LocalizeJP": "包みは、\n私が解いても良いですか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "이번 해에도 여러모로\n잘 부탁드립니다. 선생님.",
+            "LocalizeJP": "今年も色々と\nよろしくお願いします、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "곤란하게 만들 일이\n많겠지만, 절 버리진\n말아주세요?",
+            "LocalizeJP": "困らせてしまうことも\n多いかもしれませんが、\nこれからも私のこと、\n見捨てないでくださいね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "거룩한 밤……\n아아, 무척 기대되네요……",
+            "LocalizeJP": "聖なる夜……\nああ、すごく楽しみですね……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "……아. \n혼잣말이었어요.\n신경 쓰지 마세요.",
+            "LocalizeJP": "……あ、\nただの独り言です。\nお気になさらず。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈이라고 하면,\n자연스럽게 대담한\n노출을 할 수 있는 날……",
+            "LocalizeJP": "ハロウィンといえば、\nさりげなく大胆な\n露出ができる日……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "……선생님은 곤란한 분이시네요.\n그렇게 제 '모든 것'이 보고 싶으신가요?\n후훗……\n실력의 이야기에요. 무슨 생각 하셨나요?",
+            "LocalizeJP": "……先生は困った方ですね。\nそんなに「私の全部」が見たいのですか？\nふふっ……実力のお話です。\n今、一体何を考えていたのでしょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanako_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "와 주셔서 감사해요.",
+            "LocalizeJP": "来ていただいて、\nありがとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기는 시원해서\n굉장히 좋거든요.",
+            "LocalizeJP": "こうしていると涼しくて、\nとっても気持ち良いんですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "저만의 특등석…. 후훗…….",
+            "LocalizeJP": "私にとっての特等席なんです、\nふふっ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "모처럼이니\n선생님도 어떠신가요?",
+            "LocalizeJP": "せっかくですし、\n先生もいかがですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여기서 같이 벗어 보실까요?",
+            "LocalizeJP": "ここで一緒に、\n脱いでしまいません……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "우후후.\n이런 한낮에 벗고 있으면,",
+            "LocalizeJP": "こうして、\nこんな真っ昼間から\n素肌をさらしていると、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "어쩐지 신나지 않나요?",
+            "LocalizeJP": "何だか楽しくなって\nくるんですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하면 안되는 짓을 하고 있다.\n그런 느낌이 들어서.",
+            "LocalizeJP": "イケないことをしてる……\nそんな感じがして。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

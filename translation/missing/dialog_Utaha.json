@@ -1,0 +1,440 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "소녀를 아름답게 하는 것은\n화장이 아니라 열정이지",
+            "LocalizeJP": "少女を美しくするのは\n化粧ではなく熱情さ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "…가짜 선생님 로봇을 만들면…\n재벌이 될 수 있을지도.",
+            "LocalizeJP": "…先生のロボットを作ったら…\nお金持ちになれるかも。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그러고 보니 헬기 정비도\n슬슬 해야겠군.",
+            "LocalizeJP": "そういえば、\nそろそろヘリの整備もしなきゃ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "흐음…\n전투 기능을 갖춘 비데는 어떨까.",
+            "LocalizeJP": "うーん…\n戦闘機能を持った\n洗浄便座なんてどうかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Cafe_Act_2_b"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "어째서 아무도 광학미채\n속옷을 필요로 하지 않는 걸까…\n자신작이었는데….",
+            "LocalizeJP": "どうして誰も光学迷彩下着を必要と\nしないのだろう…。\n自信作だったのに…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "흐음……\n뭔가 수리가 필요한 거,\n없으려나.",
+            "LocalizeJP": "うーん…。\n何か修理が必要なものは、\nないのかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와 선생님. \n오늘 하루, 잘 부탁할게.",
+            "LocalizeJP": "ようこそ、先生。 \n今日一日、よろしくね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "나를 불렀다는 건, \n합리적인 선택이야.",
+            "LocalizeJP": "私を呼んだのは、\n合理的な選択だね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "그 선택에, 부응하도록 노력할게.",
+            "LocalizeJP": "その期待に応えられる\nように、頑張るよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(흐음… 선생님은… \n분석하기 참 어렵네.)",
+            "LocalizeJP": "(うーん…先生は…\n本当に、分析が難しいな)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…계산대로야. \n이렇게 함께할 수 있을 줄이야.",
+            "LocalizeJP": "…計算通りだ。 \nこうやって\n一緒にいられる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "밀레니엄의 전투란,\n얼마나 우수한 기술자와\n함께 하느냐에서 결정되지.",
+            "LocalizeJP": "ミレニアムの戦闘は、\nどれだけ優秀な技術者と\n一緒なのかで決まるんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "우리는, 선생님과 함께 함으로서\n더 많은 것이 가능하게 되었어.",
+            "LocalizeJP": "私たちは、先生と\n一緒にいることで\nさらに多くのことが\n可能になった。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "기계의 진선미란\n합리, 정밀, 그리고\n간단함이야.",
+            "LocalizeJP": "機械の真善美は \n合理的で、精密で、\nそして簡易で\nあることだね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해 선생님.",
+            "LocalizeJP": "お誕生日おめでとう\n先生。 ",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "그럼 올해로 연식이\n어떻게 되는 거야?",
+            "LocalizeJP": "そしたら今年で\n年式はいくつになる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "그렇군. 잊고 있었어.\n별로 중요하지 않았으니까….",
+            "LocalizeJP": "そうか。忘れていた。 \nあまり重要じゃなかったから…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "하지만… 선생님이\n축하해준다는 건,\n어쩐지 기쁘네.",
+            "LocalizeJP": "でも…先生が\n祝ってくれるのは、\nなんだか嬉しいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받아 선생님.",
+            "LocalizeJP": "明けまして\nおめでとう先生。 ",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해의 나는, 좀 더\n상냥한 내가 될 거야.",
+            "LocalizeJP": "今年の私は、\nもっと優しい\n私になる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "산타가 최신기기를\n선물해주면 좋겠는데.",
+            "LocalizeJP": "サンタが最新機器を\nプレゼントして\nくれたらいいのに。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "응? 직접 만들라고?",
+            "LocalizeJP": "うん？\n直接作った方がいいって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "에에. 그러니까…",
+            "LocalizeJP": "えっと。\nそれは…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "움직이는 호박 인형을\n만들어 달라는 제의를 받았어.",
+            "LocalizeJP": "動くカボチャの人形を\n作ってくれって\n頼まれたんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "하지만 자폭 기능을\n탑재했다는 이유로 거부당했지.",
+            "LocalizeJP": "しかし、自爆機能を\n搭載したことを理由に\n納品を断られた。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "…이해가 안 가네.\n자폭이 없는 로봇은\n깡통일 뿐인데.",
+            "LocalizeJP": "……理解できない。\n自爆機能のないロボットは\nただの鉄くずなのに。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "내 손끝에서 이루어지는 기적.\n설계와 제작.\n선생님. 앞으로의 나를 기대해줘.",
+            "LocalizeJP": "私の指先で成り立つ奇跡。\n設計と製作。\n先生。これからの私に期待していて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Utaha_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어디 보자….\n축 방향에 유격이 생긴 걸 보니\n베어링 문제인가 보네.",
+            "LocalizeJP": "どれどれ…ふむ、\n軸周りが緩くなっているな。\nということは、\nベアリングが…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "부품을 갈아 끼워야겠어.",
+            "LocalizeJP": "うん、もしかしたら部品の\n交換が必要かもしれないね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그나저나 계속 옆에서\n지켜보고 있을 거야?",
+            "LocalizeJP": "…先生、これは、\n見ていて面白いかい？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "말은 그렇게 했지만, \n역시 다른 곳에\n가 있었으면 좋겠는데….",
+            "LocalizeJP": "先生が良いのであれば、\n別に構わないのだけど…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그야 기계를 수리하는 건\n위험한 일이니까.",
+            "LocalizeJP": "多少なりとも危険が伴うから、\nあっちの方で座りながら\n見るのをお勧めするが…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "날카로운 쇠붙이가 곳곳에 널려 있고,\n고약한 기름 냄새도 잔뜩 나고….",
+            "LocalizeJP": "この辺りは鋭利な鉄くずが\nあちこちに散らばるし、油の\n匂いもひどいし、それに…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "얼굴도 땀과 검댕 때문에\n단정치 못하게 보이고….",
+            "LocalizeJP": "顔が、汗と煤だら\nけになる、から…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님이 있어봤자\n방해만 될 뿐이라니까.",
+            "LocalizeJP": "いや、何でもない…\n今のは忘れてくれ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…역시 윤활유가 말라서\n베어링에 마모가 생겼네.",
+            "LocalizeJP": "…なるほど、思った通り。\n潤滑油が足りなくて、\nベアリング部分が\n摩耗しているみたいだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그쪽에 있는 스패너\n좀 이리 건네 줘.",
+            "LocalizeJP": "そっちにあるスパナ、\n取ってくれるかい？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그러니까, 방금 그 말은\n습관적으로 그만….",
+            "LocalizeJP": "あ…すまない、今のはその、\nいつもの癖でつい…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "…역시 누군가 옆에서\n도와주는 게 큰 도움이 된다는 건\n부정하지 못하겠네.",
+            "LocalizeJP": "…とはいえやはり、隣で\n誰かが手伝ってくれた方が\n効率的だし、気分も高揚する\nことは否定できなさそうだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "대신 선생님도 얼굴에 검댕이\n잔뜩 묻는 건 각오해야 해?",
+            "LocalizeJP": "先生も、顔が煤だらけに\nなってしまうだろうけど\n…手伝ってくれるかい？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

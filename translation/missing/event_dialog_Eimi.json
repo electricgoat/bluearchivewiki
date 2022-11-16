@@ -15,18 +15,6 @@
         {
             "CharacterId": 19009044,
             "DialogCategory": "UIEventMission",
-            "DialogCondition": "Enter",
-            "GroupId": 2,
-            "LocalizeKR": "하으… 졸려…",
-            "LocalizeJP": "はう……眠い……。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Eimi_Operation_Mission_Login_2"
-            ]
-        },
-        {
-            "CharacterId": 19009044,
-            "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 1,
             "LocalizeKR": "이 옷……\n춥지 않냐고?",
@@ -61,16 +49,6 @@
         {
             "CharacterId": 19009044,
             "DialogCategory": "UIEventMission",
-            "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "곤란해.",
-            "LocalizeJP": "困る。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 19009044,
-            "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 1,
             "LocalizeKR": "생각보다……\n일찍 끝났네.",
@@ -78,18 +56,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "Eimi_Operation_Mission_Get_1"
-            ]
-        },
-        {
-            "CharacterId": 19009044,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Buy",
-            "GroupId": 2,
-            "LocalizeKR": "증명 완료.",
-            "LocalizeJP": "証明完了。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Eimi_Operation_Mission_Get_2"
             ]
         }
     ]

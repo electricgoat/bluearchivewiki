@@ -1,0 +1,320 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "흐음……\n이 게임, 재미있네.",
+            "LocalizeJP": "へえ……\nこのゲーム、\n面白い。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "으음. 이 게임\n후속작이 나왔다는데…….\n좋아. 아르바이트 하자.",
+            "LocalizeJP": "うーん、あのゲームの\n続編が出たらしいけど……\nよし！アルバイトしよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "좀 더 어른이 되면…….\n머리를 길러볼까.",
+            "LocalizeJP": "もう少し大人に\nなったら……\n髪を伸ばして\nみようかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "제발……나와라……\n나와라……나왔다!",
+            "LocalizeJP": "お願いだから\n……出て……\n出て……出た！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "좋아. \n이대로만 가면……\n클리어!",
+            "LocalizeJP": "よし。\nこのままいけば\n……クリア！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n오늘도 잘 부탁 드려요.",
+            "LocalizeJP": "ようこそ、先生。\n今日もよろしくお願いします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "최선을 다할게요.\n선생님과 저의 오늘이\n의미 있도록.",
+            "LocalizeJP": "ベストを尽くします。\n先生と私の今日が、\n意味のある一日になるように。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "게임개발부 애들이 걱정이네요.",
+            "LocalizeJP": "ゲーム開発部の\n子たちが心配ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "저야 선생님이랑\n있어서……좋지만.",
+            "LocalizeJP": "私は先生と一緒に\nいるから……いいですけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "앗, 선생님도\n저희 게임 해보셨죠?\n어떤 점이 가장\n재미있으셨나요?",
+            "LocalizeJP": "あっ、先生もうちの\nゲームやってみたんですよね？\nどこが一番面白かったですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "더 아름다운 것들을\n그리고 싶어요. 그러기 위해선….\n많은 경험이 필요해요.",
+            "LocalizeJP": "もっと美しいものを\n描きたいです。そのためには……\nたくさんの経験が必要です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "저도 그림을 그릴때\n'모에' 뿐만 아니라\n'사랑스러움'을 담고 싶어요.",
+            "LocalizeJP": "私は絵を描く時、\n「萌え」だけではなく\n「愛おしさ」も込めたいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "으음. 이번 달도\n용돈이 간당간당 한데.",
+            "LocalizeJP": "うーん。今月もお小遣いが\nギリギリ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "당번 학생이 되면\n급여가 나오나요?",
+            "LocalizeJP": "当番の生徒に\nなったら給料が出るんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님. 생일 진심으로\n축하드려요.",
+            "LocalizeJP": "先生。心から、お誕生日\nおめでとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "근데 뭘 좋아하실지 몰라서…",
+            "LocalizeJP": "でも何が好きか\n分からなくて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일은 가족과\n함께 보내야 해요.",
+            "LocalizeJP": "お誕生日は家族と一緒に\n過ごさなくちゃいけません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "언니랑……선생님도\n함께……어떠세요?",
+            "LocalizeJP": "お姉ちゃんと……先生も\n一緒に……いかがですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요.\n올 한 해도, 잘 부탁 드려요!",
+            "LocalizeJP": "明けまして\nおめでとうございます。\n今年も一年、\nよろしくお願いします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스!\n그……. 오늘은\n연인들을 위한 날이래요.",
+            "LocalizeJP": "メリークリスマス！\nその……今日は\n恋人たちの日らしいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈은 그렇게\n좋아하진 않지만\n올해부터는, 선생님과\n모두가 있으니까…….",
+            "LocalizeJP": "ハロウィンはそんなに好きじゃ\nないですけど今年からは、\n先生とみんながいるから……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "무기에 이런 표현을 하는 게\n맞을지는 모르겠지만….\n\r아름답네요. 기뻐요.",
+            "LocalizeJP": "武器にこんな表現をするのは\n合ってるのか分かりませんが……\n美しいですね。嬉しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Midori_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이제까지 도트 게임 외에는\n별로 관심을 갖지 않았는데….",
+            "LocalizeJP": "今までドット絵の\nゲーム以外にはあまり興味が\nなかったんですけど……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오락실에는 이런\n게임도 있는 거네요.",
+            "LocalizeJP": "ゲームセンターにはこう\nいったゲームもあるんですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "시야가 넓어지는 것 같아요.\n공부가 되었어요.",
+            "LocalizeJP": "視野が広がった気がします、\n勉強になりました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…고마워요. 선생님.\n이곳에 데려와 주셔서….",
+            "LocalizeJP": "……ありがとうございます、\n先生、ここに連れて来て\nくださって。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "덕분에 지금 저 엄청 즐거워요.",
+            "LocalizeJP": "……そのお陰で私、\n今、すごく楽しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그리고… 오늘 일은,\n언니에게는… 비밀이에요?",
+            "LocalizeJP": "今日のこと、\nお姉ちゃんには……\n内緒ですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

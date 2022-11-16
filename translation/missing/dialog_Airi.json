@@ -1,0 +1,390 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "반가워요, 선생님~\n선생님은 무슨 아이스크림을 좋아하세요?",
+            "LocalizeJP": "お会いできて嬉しいです、先生～\n先生はどんなアイスが好きですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "음,\n뭘 먹을까나….",
+            "LocalizeJP": "んー、\n何を食べようかな…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "오늘도 역시\n민트&딸기~",
+            "LocalizeJP": "今日もやっぱり\nいちご＆ミント～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아이스크림~\n아이스크림~",
+            "LocalizeJP": "アイス、アイス～\nアイスクリーム～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "방과 후엔\n역시 디저트죠!",
+            "LocalizeJP": "放課後には\nやっぱりスイーツ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님~ 오셨어요?\n오늘도 같이 디저트\n먹으러 가실 거죠?",
+            "LocalizeJP": "先生～、お帰りなさい。\n今日も一緒にスイーツ\n食べに行きますよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "같이 아이스크림\n사먹으러 가요!",
+            "LocalizeJP": "一緒にアイス買いに\n行きましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "흠흠~\n달콤한 건 너무 좋아요~",
+            "LocalizeJP": "ルンルン～\n甘いの大好き～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님도 아이스크림\n좋아하죠? 그렇죠?",
+            "LocalizeJP": "先生もアイスクリーム\n好きですよね？ね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "방과 후엔\n디저트 타임~",
+            "LocalizeJP": "放課後は\nスイーツタイム～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "맛있는 디저트를 위해~\n오늘도 같이 힘내요!",
+            "LocalizeJP": "おいしいスイーツのため～\n今日も一緒に、\n頑張りましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "응? 선생님.\n고민이 있어 보이는\n얼굴이네요.",
+            "LocalizeJP": "ん？\n先生。何か悩みが\nありそうな顔ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그럴 땐, 자자!\n맛있는 디저트를 먹으러!\n함께 가는 거예요!",
+            "LocalizeJP": "そういう時は、さあさあ！\n美味しいスイーツを食べに！\n一緒に行きましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Lobby_6"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님!\n생일 축하드려요!",
+            "LocalizeJP": "先生！お誕生日\nおめでとうございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "제가 특별히!\n맛있는 디저트 집을\n예약해 뒀다구요!",
+            "LocalizeJP": "私が特別に！おいしい\nスイーツ屋さんを\n予約しておきましたよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님~\n오늘은 제 생일이에요!\n같이 아이스크림 먹으러 가요!",
+            "LocalizeJP": "先生～ 今日は\n私の誕生日です！\n一緒にアイス食べに\n行きましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "응? \n선물은 안받냐구요?",
+            "LocalizeJP": "ん？\nプレゼントですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "괜찮아요~\n선생님이 제 선물인걸요!",
+            "LocalizeJP": "大丈夫ですよ～\n先生が私の\nプレゼントですから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "선생님~\n새해 복 많이 받으세요~",
+            "LocalizeJP": "先生～明けまして\nおめでとうございます～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해도 맛있는 디저트를 위해!\n함께 힘내요~",
+            "LocalizeJP": "今年も美味しい\nスイーツのため！\n一緒に頑張りましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "와, 선생님~!\n크리스마스예요!",
+            "LocalizeJP": "わーい、先生～！\nクリスマスですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "이런 날엔 역시\n아이스크림이 어울리죠!\n같이 갈까요?",
+            "LocalizeJP": "こういう日にはやっぱり\nアイスが似合いますよね！\n一緒に買いに行きましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "헤헷,\n오늘은 할로윈이네요.",
+            "LocalizeJP": "えへへっ、今日は\nハロウィーンですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "같이 유령 분장하고\n달콤한 걸 얻으러 가볼까요?",
+            "LocalizeJP": "一緒にお化けの\nコスプレして\n甘いものを貰いに\n行ってみましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "…이 무기는….\n감사합니다. 선생님.\n강해진다는 건 조금 두렵지만…\n선생님과 함께라면 괜찮아요!",
+            "LocalizeJP": "……この武器は……。\nありがとうございます。先生。\n強くなるのは、少し怖いことですが……。\n先生と一緒なら、大丈夫です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Airi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 아이스크림,\n사주셔서 감사해요. 선생님.",
+            "LocalizeJP": "私の分も買っていただいて\nありがとうございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "카페가 아닌 밖에서\n먹는 아이스크림은\n정말 오랜만이네요.",
+            "LocalizeJP": "カフェではなく、外で食べる\nアイスクリームって\nすごく久しぶりな気がします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그것도 선생님과 함께라니. 헤헷.",
+            "LocalizeJP": "それに、先生と一緒ですし。\nえへへっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아, 아니에요. 정말 괜찮아요.",
+            "LocalizeJP": "い、いえ、\n全然そんなことは。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "되려 즐거운 걸요.",
+            "LocalizeJP": "むしろ懐かしくて、\n嬉しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭐라고 해야 할까…\n주변에 사람도 적고….",
+            "LocalizeJP": "何と言えばいいんでしょう、\n周りに人も少ないですし…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "두근두근 거린다고\n해야 할까….",
+            "LocalizeJP": "すごく、\nドキドキすると\n言いますか…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아, 아, 아니에요!",
+            "LocalizeJP": "…な、なっ、\nなんでもありません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "고마워요, 선생님.",
+            "LocalizeJP": "…ありがとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "오늘은 선생님 덕분에\n정말 행복한 하루가 될 것 같아요.",
+            "LocalizeJP": "今日も先生のおかげで、\nもうすでに幸せな\n一日になりました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

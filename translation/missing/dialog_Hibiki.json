@@ -1,0 +1,352 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이때쯤일 거라 예측하고, 기다리고 있었어.선생님이 내 이름을 불러주는… 바로 이 순간을.",
+            "LocalizeJP": "今頃だと予測して、待ってた。先生が私の名前を呼んでくれる…今この瞬間を。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "시간과 예산을 더 주신다면…?\n자신의 능력 부족에 대한 변명일 뿐이지.",
+            "LocalizeJP": "「今少し時間と予算を\nいただければ」…？\n自分の能力不足に対する\n言い訳に過ぎない。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "주어진 시간과 예산 내에서\n최선의 결과를 뽑는 것.\n그것이 마이스터라는 거야.",
+            "LocalizeJP": "与えられた時間と予算内で\nベストな結果を出すこと。\nそれがマイスターというもの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여기에 선생님 동상을 세워보면 어떨까?\n팔다리의 관절이 움직이게 만들 수 있어.",
+            "LocalizeJP": "ここに先生の銅像を建てるのはどうかな?\n手足の関節が動くように作れるよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "흐음… 내부의 몇 가지 항목에서\n수리와 개선 사항을 발견했…\n에? 수리하면 안 되는 거야?",
+            "LocalizeJP": "ん…内部のいくつかの項目から\n修理と改善事項を発見…\nえ？修理しちゃダメ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "원한다면 깜짝 놀랄만한 함정이라도\n설치해줄 수 있는데.\n응? 안된다고?",
+            "LocalizeJP": "お望みなら、\n来た人がびっくりするような\n罠を設置してあげるけど。\nうん？ダメって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "안녕 선생님.\n오늘의 임무목록을\n책상에 올려뒀어.\n확인해주면 좋겠어.",
+            "LocalizeJP": "おはよう先生。\n今日の任務リストを\n机に置いておいたの。\n確認してほしい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "흐음… 현재의 선생님의\n임무 진행은 다소 비효율적인\n상태라 생각해.",
+            "LocalizeJP": "ん…今の先生の\n任務進行は多少、\n非効率的な状態だと思う。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "더 나은 방향을 찾아볼게.",
+            "LocalizeJP": "もっといいやり方を\n探してみる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이렇게 선생님과 있으니까…\n후후… 재미있어.",
+            "LocalizeJP": "こうやって先生と\n一緒にいると…\nふふ…楽しい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님. 어때.\n나의 장비들……\n도움이 되었을까나?",
+            "LocalizeJP": "先生、どう？\n私の装備たち…\n役に立ったかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "유용한 것을 만드는 거?\n즐겁냐고?\n그렇기도 하지만…",
+            "LocalizeJP": "有用な物を作ることが\n楽しいかって？\nそれもあるけど…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이건 내 취미가 아니라,\n삶이야.",
+            "LocalizeJP": "これは趣味じゃなく、\n生き様だよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "정비는 좋아.\n죽어있던 기계의 심장이\n다시 뛸 때",
+            "LocalizeJP": "整備は好き。\n死んでいた機械の心臓が\nまた動き出す時の、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "무언가가 이루어진,\n그 감각을 사랑해.",
+            "LocalizeJP": "何かが叶えられたっていう、\nその感覚を愛してる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(선생님의 미소가….내게는 최고의 모티베이션이야.)",
+            "LocalizeJP": "（先生のその笑顔が…\n私にとっては最高の\nモチベーションなの）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해 선생님.\n선생님이 태어나서,\n그리고 우리에게 와줘서.\n…기뻐.",
+            "LocalizeJP": "お誕生日おめでとう先生。\n先生が生まれて、そして\n私たちのところに来てくれて。\n…嬉しい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선물로 받고 싶은거?\n없어.",
+            "LocalizeJP": "プレゼントで欲しいもの？ない。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받길 바라.\n올해는 보다 개선되고\n향상된 나를 보여줄게…",
+            "LocalizeJP": "明けましておめでとう。\n今年はより改善されて、\n向上した私を見せて\nあげるね…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "산타클로스가 단 하룻밤만에\n키보토스의 아이들에게\n선물을 주기 위해선…",
+            "LocalizeJP": "サンタクロースさんが\nたった一晩でキヴォトスの\n子供たちにプレゼントを渡す\nためには…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "그의 루돌프는 최소\n마하 4 이상의 속도를 내야 할 거야.",
+            "LocalizeJP": "彼のトナカイは最低\nマッハ4以上の速度を出さなきゃ\nいけないはず。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈 데이라…\n비과학적인 날이지만,\n어쩐지 설레는, 신기한 날이네.",
+            "LocalizeJP": "ハロウィーンデーか…\n非科学的な日だけど、\nなんだかときめく、\n不思議な日だね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "더 많은 것을 만들고 싶어.\n그래서…… 좀 더 선생님의 힘이 되길 바라.",
+            "LocalizeJP": "もっとたくさんの物が作りたい。\nそうして……もっと先生の力になりたい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hibiki_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "고마워 선생님.\n이 풍경은,\n선생님 덕분에 이루어졌어.",
+            "LocalizeJP": "ありがとう、先生。\nこの風景は、\n先生のおかげで叶ってるの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아름답지?\n시간에 맞출 수 있어 다행이야.",
+            "LocalizeJP": "美しいでしょ？\n間に合ってよかった。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "응? 왜 이렇게까지…\n노력했냐고?",
+            "LocalizeJP": "うん？どうしてそんなに…\n頑張ったのかって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "밀레니엄의 여학생들이, 안전하게.\n빛나는 밤거리를\n걷게 해주고 싶었으니까.",
+            "LocalizeJP": "ミレニアムの生徒たちが、\n安全に。輝く夜道が歩ける\nようにしてあげたかったから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "내가 할 수 있는 건…\n이런 것밖에 없으니까.",
+            "LocalizeJP": "私にできることは…\nこれくらいしかないから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그리고 내게도…\n이런 순간은 이미 '선물' 그 이상이야.",
+            "LocalizeJP": "そして私にとって…\nこういう瞬間はすでに\n「プレゼント」以上の\n素敵なものなの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "어때, 선생님?\n아직 시간이 있으니까…",
+            "LocalizeJP": "どう、先生?\nまだ時間はあるから…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "좀 더…\n함께 있어줄래?",
+            "LocalizeJP": "もう少し…\n一緒にいてくれる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

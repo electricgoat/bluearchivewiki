@@ -1,0 +1,396 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "웨이트 트레이닝은 과학입니다.\n밀레니엄의 첨단 이론이 빛을 발하는 영역이죠.",
+            "LocalizeJP": "ウェイトトレーニングは科学です。\nミレニアムの最先端の理論が、輝きを放つ領域なんです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "트레이닝할 곳이 있으려나…",
+            "LocalizeJP": "トレーニングできる\nところはあるのかな…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "프리웨이팅하기 좋아 보이네요.",
+            "LocalizeJP": "フリーウェイトをするのに\n良さそうなところです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "응? 함께 스트레칭 하자고요?",
+            "LocalizeJP": "え？\n一緒にストレッチを、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요. 트레이너.\n오늘도 함께 정진하도록 하죠.",
+            "LocalizeJP": "おかえりなさい、トレーナー。\n今日も一緒に頑張りましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기다리고 있었습니다.\n그럼 트레이닝을 시작하죠.",
+            "LocalizeJP": "お待ちしておりました。\nそれではトレーニングを\n始めましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "보는 관점을 바꾸면\n세상이 달라 보입니다.",
+            "LocalizeJP": "視点が変わると、\n世界が変わって見えます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "계단조차도 훌륭한\n운동기구입니다.",
+            "LocalizeJP": "階段だって立派な\n運動器具です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그럼 먼저, \n로드워크부터 시작하시죠.",
+            "LocalizeJP": "それではまず、\nロードワークから\n始めましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "네? \n어째서 교복을\n입지 않냐고요?",
+            "LocalizeJP": "はい？なぜ制服では\nないのか、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "트레이닝에 불편하니까요.",
+            "LocalizeJP": "トレーニングするのに\n不便だからです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "요즘 학생들 사이에서는\n근육 운동이 유행입니다.",
+            "LocalizeJP": "最近生徒の間では筋トレが\n流行っているんですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…네, 죄송합니다.\n제 망상입니다.",
+            "LocalizeJP": "…はい、すみません。\n私の妄想です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "허벅지는 제2의\n심장이라고 불립니다.\n단련하셔야 합니다.",
+            "LocalizeJP": "太ももは第2の心臓と\n呼ばれています。\nしっかり鍛錬し\nないといけません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "트레이너.\n생일 축하합니다.\n선물을 준비했는데…",
+            "LocalizeJP": "トレーナー、お誕生日\nおめでとうございます。\nプレゼントを\n用意したんですが…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "네?\n덤벨이냐고요?",
+            "LocalizeJP": "え？もしかして\nダンベルかな、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "축하해주셔서 감사합니다.",
+            "LocalizeJP": "祝ってくださって\nありがとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "음…\n최고급 프로틴…\n이 아니라!",
+            "LocalizeJP": "えーっと…\n最高級のプロテイン…\nではなく！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "귀, 귀여운 고양이 인형이\n갖고 싶습니다!",
+            "LocalizeJP": "か、可愛い猫の人形が、\n欲しいです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "바라는 것이 있다면,\n올 한 해도 모두 건강하게\n보냈으면 해요.",
+            "LocalizeJP": "願い事があるとすれば、\n今年一年もまたみんな、\n健康で過ごしてほしいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "성인이 태어난 날이라더군요.",
+            "LocalizeJP": "かつて救世主が\n生まれた日だ\nそうですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "잘 모르지만, 성인이란\n분명 근육질일 겁니다.",
+            "LocalizeJP": "よく知りませんが、\n救世主はきっと\n筋肉質に違いないです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "트레이너.\n단백질 사탕 드시겠습니까?",
+            "LocalizeJP": "トレーナー、\nプロテインキャンディ\n食べますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "네?\n맛이요?",
+            "LocalizeJP": "え？\n味ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "…저도 그런 게 중요하다\n믿었던 적이 있었죠.",
+            "LocalizeJP": "…私にも、\nそういうのが大事だと\n思っていた時期がありました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이런 것을 다룰 수 있게 된 것도\n트레이닝의 성과입니다. \n하지만 안주하지 않고\n계속 노력하겠습니다, 트레이너.",
+            "LocalizeJP": "こんなものを扱えるようになったのも、\nトレーニングの成果ですね。\nですが、現状に満足せず、\n引き続き努力します。トレーナー。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Sumire_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어때요 트레이너,\n운동, 재미있죠?",
+            "LocalizeJP": "どうですかトレーナー、\n運動は、楽しいでしょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "건강해진다는\n느낌이 들지 않나요?",
+            "LocalizeJP": "健康になる感じが、\nしませんか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어, 어….\n너, 너무 쳐다보지 말아 주세요.",
+            "LocalizeJP": "あ、えっと…\nあ、あまり見つめないで\nください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(트레이닝 중에는 흉한 모습을\n보일 수 밖에 없어서……)",
+            "LocalizeJP": "(トレーニング中は\nひどい見た目だし…)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "어, 어딜 보고… 계신 건가요?",
+            "LocalizeJP": "ど、どこを\n見てるんですか…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "트레이너. 부탁이 있어요.",
+            "LocalizeJP": "…トレーナー、\nお願いがあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "앞으로도, 계속 함께,\n운동하시죠.",
+            "LocalizeJP": "これからも、\nずっと一緒に\n運動をしましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "저는 트레이너가\n건강해졌으면 좋겠습니다.",
+            "LocalizeJP": "私はトレーナーが\n健康でいてほしいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이, 이유?\n그, 그건….",
+            "LocalizeJP": "り、理由ですか？\nそ、それは…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "후훗.\n맞춰보세요.",
+            "LocalizeJP": "ふふっ。\n当ててみてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

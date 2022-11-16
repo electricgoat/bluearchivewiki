@@ -2,6 +2,216 @@
     "DataList": [
         {
             "CharacterId": 16003,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "자경단 임무의 연장인가요….\n트리니티의 안전을 위해서라면 얼마든지 협력하겠습니다.",
+            "LocalizeJP": "自警団任務の延長ですね。\nトリニティの安全のためなら、\nいくらでも協力します。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(아…. 이 장식,\n귀여워….)",
+            "LocalizeJP": "（あ…この飾り、\n可愛い…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(이런 귀여운 물건은\n나와는\n안 어울릴지도….)",
+            "LocalizeJP": "（多分、こんな可愛い物は\n私には似合わない…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "이곳의 보안은…\n훌륭하군요.\n흠 잡을 곳이 없습니다.",
+            "LocalizeJP": "ここのセキュリティは…\n素晴らしいですね。\n非の打ち所が\nありません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n바쁘신 줄 알고 있지만\n그래도 자주 뵈었으면 좋겠습니다.",
+            "LocalizeJP": "ようこそ、先生。\nお忙しいとは思いますが、\nそれでも、\nできるだけお会いしたいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "선생님, 기다리고 있었습니다.\n빨리 함께 순찰을 나가죠.",
+            "LocalizeJP": "先生、お待ちしておりました。\n早く一緒にパトロールに\n行きましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "제 인상이 그렇게\n차가워 보이나요…?",
+            "LocalizeJP": "私ってそんなに\n冷たい印象ですか…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "자경단 활동 말입니까?\n물론 힘들지만….\n누군가는 해야 할 일이니까요.",
+            "LocalizeJP": "自警団の活動ですか？\nもちろん大変ですが…\n誰かがやらないといけない\n事ですから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "정의란 사소한 것부터 하나씩\n바로잡는 게 중요합니다.",
+            "LocalizeJP": "正義というものは、\n一つの小さなことから\n正すのが大事なのです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생신 축하드립니다, 선생님.",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘은 선생님의 생신이기도 하니\n순찰 대신 느긋하게 산책이나\n하는 게 어떨까요?",
+            "LocalizeJP": "今日は先生のお誕生日ですし、\nパトロールの代わりにのんびり\nお散歩でもいかがですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "태어난 날을 기념하는 것에\n큰 의미는 없다지만 선생님께\n축하를 받을 수 있다니….",
+            "LocalizeJP": "生まれた日を記念する\nことに大きな意味はないと\n言いますが、先生に祝って\nいただけるなんて…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "왠지 큰 득을 본 기분이네요.",
+            "LocalizeJP": "なんだかとっても\n得をした気分ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "선생님의 새해 목표는 뭔가요?\n저는… 늘 그랬듯이 더 열심히\n순찰을 도는 것뿐입니다.",
+            "LocalizeJP": "先生の、新年の目標は\nなんですか?\n私は…いつも通り、頑張って\nパトロールをすることです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "연휴를 앞두고 다들\n마음이 풀어지는 시기네요.",
+            "LocalizeJP": "連休を目前にして、\n皆さんの気が緩む時期ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "이런 때일수록 더 엄격하게\n거리를 정비하죠!",
+            "LocalizeJP": "こういう時こそ、もっと厳しく\nパトロールしましょう!",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "이상한 녀석들이 거리에 가득…\n할로윈이란 이런 축제인가요?",
+            "LocalizeJP": "変な人たちが街にたくさん…。\nハロウィンって、\nこういうお祭りなんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "역시 손에 익은 무기를\n사용하는 게 최고군요.",
+            "LocalizeJP": "やはり手慣れた\n武器を使うのが一番ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Suzumi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16003,
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,

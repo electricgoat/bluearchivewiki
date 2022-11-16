@@ -1,0 +1,316 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "키히히히히히히이잇--\n캬하하하아아-!",
+            "LocalizeJP": "きひひひひひひいっ～～\nきゃははははは！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아…. 으아아아….\n어쩌지, 어쩌지.",
+            "LocalizeJP": "あ…。うあああ…。\nどうしよう、どうしよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "말 걸지\n말아주세요….",
+            "LocalizeJP": "話かけないで\nください…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "저는 구석에\n있겠습니다….",
+            "LocalizeJP": "私は端っこに\nいます…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "아…. 안녕하세요. 선생님.\n제가 여기 지키고 있었습니다.",
+            "LocalizeJP": "こ…こんにちは。先生。\n私がここで見張ってました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "츠루기, 대기 중!\n자, 잘부탁드립니다!!",
+            "LocalizeJP": "ツルギ、待機中！\nよ、よろしくお願いします！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오, 오늘도 좋은 하루입니다아악!!",
+            "LocalizeJP": "きょ、今日も\n良い一日ですねええっ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "…아, 아냐! 이게 아냐!\n무슨 말을 해야 하지!",
+            "LocalizeJP": "…ち、違う！これじゃない！\n何をしゃべればいいの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…어, 어라?\n보, 보고 계셨습니까?",
+            "LocalizeJP": "…あ、あれ？\nみ、見てたんですか？\nはぅわわわわわ！？！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아….\n무….\n무엇이든 말씀해 주세요.",
+            "LocalizeJP": "あ…。\nな…。\nなんでも話してください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "저, 저는 어, 어른의 업무\n같은 건 잘 모르니까…!",
+            "LocalizeJP": "わ、私は\nお、大人の仕事とか\nよく分からないので…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "시켜만 주십시오!",
+            "LocalizeJP": "で、でも！\nぜひやらせてください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(집에 가고 싶어….\n같이 있어서 좋긴 한데\n무슨 말을 해야 할지….)",
+            "LocalizeJP": "（家に帰りたい…。\n一緒にいて嬉しいけど\n何を話せばいいのか…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "새, 생일?!\n저, 저는 뭘 해야 합니까?",
+            "LocalizeJP": "た、誕生日？！\nわ、私は\n何をすればいいですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "새, 생일?\n제 생일 말입니까?",
+            "LocalizeJP": "た、誕生日？\n私の誕生日ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "네?\n데, 데, 데, 데이트요?",
+            "LocalizeJP": "はい？\nで、で、で、デートですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "이, 이번 한해도\n잘부탁드립니다아-!",
+            "LocalizeJP": "こ、今年も\nよろしくお願いします～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스….\n어른의 데이트….",
+            "LocalizeJP": "クリスマス…。\n大人のデート…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아, 아무 것도 아닙니다!!",
+            "LocalizeJP": "うああああ！\nな、なんでもありません！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈…축제…파티….",
+            "LocalizeJP": "ハロウィン…。\nフェスティバル…。\nパーティー…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "네?\n따, 딱히 아무 것도!",
+            "LocalizeJP": "はい？\nべ、べつに何も！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "흐흐흐흐흐- \n우후후후후후후후후후- \n크하하하하하하하하하하하핫-!!",
+            "LocalizeJP": "ふふふふふー\nうふふふふふふふふふー\nくははははははははははははっ～！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Tsurugi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(도망칠까?\n지금이라도 창문으로\n뛰어내릴까?)",
+            "LocalizeJP": "（逃げる？\n今すぐにでも窓から\n飛び降りる？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(죽을까? 죽겠지?\n죽고 싶어… 죽일까?\n아니, 그건 아니고…)",
+            "LocalizeJP": "（死ぬかな？死ぬよな？\n死にたい…。殺す？\nいや、違う違う！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "무, 무, 무, 무 무슨 말을,\n하…하려고….",
+            "LocalizeJP": "な、な、な、な、なにを、\nは…話そうと…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이, 이런 곳은….\n나랑 어울리지 않는데….",
+            "LocalizeJP": "こ、こんなところは…。\n私には似合わないのに…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아, 우우….\n아직 나는 준비가….",
+            "LocalizeJP": "あ、うう…。\nまだ私は準備が…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(갸아아아아아--!\n어째서 이런 곳에\n와버린 거냐아-!!)",
+            "LocalizeJP": "（ぎゃあああああ～～！\nなんでこんなところに\n来ちゃったのおー！！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

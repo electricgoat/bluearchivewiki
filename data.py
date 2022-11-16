@@ -258,7 +258,7 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
         data_secondary = json.load(f)['DataList']
 
     for file in os.listdir(path_translation + '/audio/'):
-        if not file.endswith('.json'):
+        if not file.endswith('.json') or file.startswith('standard_'):
             continue
 
         #print(f'Loading additional audio translations from {path_translation}/audio/{file}')

@@ -1,0 +1,380 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "무슨 일인 것이냐, 모처럼의 휴일이었는데…\n뭐, 선생의 호출이라면 어쩔 수 없는 것이다.",
+            "LocalizeJP": "なんなのだ、せっかくの休日だったのに……\nま、先生の呼び出しなら仕方ないのだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "치즈맛이 나는\n음료는 없을까?",
+            "LocalizeJP": "チーズ味の\n飲み物はないのか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "휴일을 보내기에\n좋은 장소인 것이다.",
+            "LocalizeJP": "休日を過ごすのには\nいい場所なのだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이 물건, 실험에\n쓸 순 없으려나?",
+            "LocalizeJP": "これ、実験には\n使えないのかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "괜찮아.\n무서워 하지 마,\n네즈스케.",
+            "LocalizeJP": "ほら、怖がらなくて\n良いんだぞ、ネズ助。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "오호라,\n이건 제법……",
+            "LocalizeJP": "おほ～、\nこれはかなり……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "후우, 후우…\n어, 어라? 온 것이냐?",
+            "LocalizeJP": "ふう、ふう……\nあ、あれ？来てたのだ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기다렸잖아! 정말이지,\n나님을 기다리게 하다니…",
+            "LocalizeJP": "待ってたのだ！！\n全く、ぼく様を\n待たせるなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "그 벌로 실험에 어울려 줘야겠어.\n후-후-후.",
+            "LocalizeJP": "罰として今度実験に\n付き合うように！\nふっふっふっふっ……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "음. 도삭면의 이 쫄깃한 식감은\n역시 언제 먹어도 훌륭해……",
+            "LocalizeJP": "うむ、刀削麵のこの\nモチっとした食感はやはり、\nいつ食べても美味しい……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 세상의 진리 중 하나인 것이다.",
+            "LocalizeJP": "この世における\n真理の一つなのだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "뭐야, 나님이 평범한 음식을 먹는 게\n이상한 것이냐? 그야 나님은\n네즈스케가 아니니까!",
+            "LocalizeJP": "なに、ぼく様が普通の食べ物を\n食べるのがおかしいのか？\nそんな、ぼく様は\nネズ助じゃないし！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "나님에게 잘 어울리는\n멋진 옷이라고…?",
+            "LocalizeJP": "ぼく様に似合ってて\n素敵な服……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "음-하-하-핫! 그야 당연하지.\n나님은 뭘 입어도 잘 어울린다고!",
+            "LocalizeJP": "うーはっはっはっ！\nそりゃあもちろん、ぼく様は\n何を着ても似合うのだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "영감은 연구실 밖에서도\n잔뜩 얻을 수 있지.",
+            "LocalizeJP": "インスピレーションは\n研究室の外でもいっぱい\nもらえるからな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "킨을 놀린다던가,\n메이를 괴롭힌다던가…",
+            "LocalizeJP": "キンをからかう時とか、\nメイをいじめる時とか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "응…?\n새어 나오고 있다고?\n뭐가?",
+            "LocalizeJP": "うん……？\n漏れてる？\n何が？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하하는 것이다, 선생.",
+            "LocalizeJP": "お誕生日\nおめでとうなのだ、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선물은 없지만, 대신 실험중인\n약이 있는데. 마셔볼래?",
+            "LocalizeJP": "プレゼントがない代わりに\n実験中の飲み物ならあるけど、\n飲んでみる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "으으, 불로장생의 영약을\n만들지 못한 채 또 한 살을\n더 먹어버린 것이다…",
+            "LocalizeJP": "うう、不老不死の霊薬を\n作れないまま、また一つ歳を\n取ってしまったのだ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "응? 나이 먹는 걸\n신경쓰고 있냐고?\n하하, 설마. 슌 교관도 아니고.",
+            "LocalizeJP": "うん？歳を取るのを\n気にしてるのかって？\nはは、まさか。\nシュン教官じゃあるまいし。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "선생과 함께 한 해를\n시작할 수 있다니…",
+            "LocalizeJP": "先生と一緒に一年を\n始められるなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "나님의 올해도\n운수대통일게 분명해!",
+            "LocalizeJP": "ぼく様は今年も\n大吉に違いない！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "황금은 없지만 손발이\n황금색으로 변하는 약이라면\n줄 수 있는데. 하하!",
+            "LocalizeJP": "黄金は無いけど、\n手足が黄金の色に染まる薬なら\nあげられるぞ。ははは！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "Trick or Treat!\n과자를 주지 않으면\n장난을 칠 것이다!",
+            "LocalizeJP": "Trick or Treat！\nお菓子をくれないと\nいたずらするのだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "물론 과자를 줘도\n장난을 칠 거지만,\n음-하-하-핫!",
+            "LocalizeJP": "もちろんお菓子をくれても\nいたずらはするけどな、\nうーはっはっはっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "나님은 연구 뿐만 아니라\n사격에도 능한 천재인 것이다!",
+            "LocalizeJP": "ぼく様は研究だけでなく\n射撃の腕も天才なのだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "SayaCasual_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "쿠후후… 과연, 이건 꽤나\n지독한 냄새인 것이다….",
+            "LocalizeJP": "ふふ……なるほど、\nこれは中々\nすごい匂いなのだ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "확실히 이대로는\n먹기 어렵겠어.",
+            "LocalizeJP": "確かに\nこのまま食べるのは\n難しそうだし……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "우선 잡내를\n제거하기 위해\n탈취제를 한 스푼.",
+            "LocalizeJP": "じゃあ、\nまず匂いを消すために\n消臭剤を1さじ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그리고 후각을\n둔하게 만들기 위해\n겨자 가루를 두 스푼…….",
+            "LocalizeJP": "あとは嗅覚を\n鈍らせるために、\nからしの粉を2さじ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "어, 어라? 실수로 겨자 가루를\n너무 많이 넣어 버린 것이다!",
+            "LocalizeJP": "あ、あれっ？\n間違えて、からし粉を\n入れすぎてしまったのだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "뭐, 신경 쓸 정도의\n일은 아니려나.",
+            "LocalizeJP": "まあ、気にするほどの\nことでも無いのだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20006,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그 대신 탈취제를\n조금 더 넣으면,\n아마 괜찮을 것이다!",
+            "LocalizeJP": "代わりに消臭剤を\nもう少し入れれば、\n多分大丈夫！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

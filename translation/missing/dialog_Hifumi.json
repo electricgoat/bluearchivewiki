@@ -1,0 +1,308 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아하하… 부족한 저이지만\n잘 부탁드려요.",
+            "LocalizeJP": "あはは…至らない私ですが\nよろしくお願いします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "페로로 굿즈….",
+            "LocalizeJP": "ペロロ様の\nグッズ…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아하하…. 어떨까나.",
+            "LocalizeJP": "あはは…。\nどうかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "다음 번엔\n다 같이 와도\n괜찮을지도.",
+            "LocalizeJP": "今度は\nみんなと一緒に\n来るのもいいかも。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "이런 것도\n즐거울 거 같아요~",
+            "LocalizeJP": "こういうのも\n楽しそうですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "음….\n어떠려나….",
+            "LocalizeJP": "んん…。\nどうなんでしょう…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "앗. 선생님.\n다녀오셨어요?",
+            "LocalizeJP": "あっ、先生。\n行ってきましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이거요?\n페로로 님이에요.",
+            "LocalizeJP": "これですか？\nこれはペロロ様です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…고민요? 저는 너무\n평범한 게 아닐까요…?",
+            "LocalizeJP": "…悩みですか？そうですね…。\n私はその、他の人と比べて\n平凡すぎなように\n思いませんか…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "시키실 일이라도\n있으신가요?",
+            "LocalizeJP": "私に何かできることは\nありませんか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아하하… 그렇게 흔들어도\n아무것도 나오지\n않는다고요….",
+            "LocalizeJP": "あはは…そんなに振っても\n何も出ませんから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님이 많은 것을\n가르쳐주셔서, 정말 행복해요.\n앞으로도 열심히 할게요!",
+            "LocalizeJP": "先生に色んな事を教えて\nいただいて、本当に幸せです。\nこれからも頑張ります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "그게 제가 드릴 수 있는,\n최고의 선물일테니까!",
+            "LocalizeJP": "それが私にできる、\n最高のプレゼントだから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님!\n생일축하 해주셔서 감사합니다!\n저 정말 기뻐요!",
+            "LocalizeJP": "先生！\n誕生日をお祝いしてくれて\nありがとうございます！\n私、本当に嬉しいです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새, 새해 복 많이 받으세요!\n올 한 해도 선생님과 함께….\n최선을 다할게요!",
+            "LocalizeJP": "あ、明けましておめでとう\nございます！今年も先生と\n一緒に…一生懸命頑張ります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스~\n성탄절이에요.",
+            "LocalizeJP": "メリークリスマス～\n聖誕祭です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "트리니티에서 가장\n특별한 날이죠.",
+            "LocalizeJP": "トリニティでは\n一番の特別な日です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "그리고….\n저에게도요.",
+            "LocalizeJP": "そして…\n私にとっても、一番特別です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "와앗!\n깜짝이야.",
+            "LocalizeJP": "わあっ！\nびっくりした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이… 이 무기는… 설마?!\n이걸로 저는 조금 더 자신감을\n가져도 괜찮은 거겠죠?!",
+            "LocalizeJP": "この…… この武器は…… まさか？！\nこれで私はもう少し自信を持っても\n大丈夫ですよね？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hihumi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이제 또 어딜 가볼까요?\n저기? 응, 저쪽은 어때요?",
+            "LocalizeJP": "次はどこに行って\nみましょうか？\nあっち？ん～～、でしたら\nあちらはどうですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "응, 어디든 괜찮아요.\n선생님과 함께니까-!",
+            "LocalizeJP": "はい、どこでも大丈夫です。\n先生と一緒にいられるなら！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "선생님, 저기 좀 보세요!\n저기, 저기도요!",
+            "LocalizeJP": "先生、あそこを見てください！\nあっちも、あっ！こっちも！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "늘 보던 거리였는데도\n왜 이렇게 새롭게 보일까요?",
+            "LocalizeJP": "いつも見てる街なのに\n何でこんなに\n違って見えるんでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "으응? 언제까지 거기\n앉아계실 거예요?",
+            "LocalizeJP": "ん？いつまでここで\n休憩するつもりですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "자!\n좀 더 여기저기 보러 돌아다녀요!",
+            "LocalizeJP": "さぁ！\nもっと色々見て回り\nましょうよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "네? 그 각도에서 보는\n풍경이 좋다고요?",
+            "LocalizeJP": "はい？その角度から見える\n景色がいいんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

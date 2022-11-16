@@ -1,0 +1,416 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "미식연구회에 오신 걸 환영합니다.\n궁극의 맛을 찾아\n함께 모험을 떠나볼까요?",
+            "LocalizeJP": "美食研究会へようこそ。\n究極の味を求めて、\n共に冒険に出かけましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "미식의 길은 역시 멀고도 험하군요.",
+            "LocalizeJP": "美食への道のりはやはり\n険しいものですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "맛있다는 건 뭘까요?\n우리에게 무슨 의미가 있을까요?",
+            "LocalizeJP": "美味しいとは一体何なのでしょう？\n私たちにとってそれは、\nどのような意味なのかしら？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "맛있는 것.\n그것은 존귀한 것입니다.",
+            "LocalizeJP": "美味しい。\nそれは尊いものですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "궁극의 맛을 찾기 위해 \n오늘도 최선을….",
+            "LocalizeJP": "究極の味を追求させて頂くため、\n今日も一生懸命に…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "음식에 관한 궁금한 게 있다면\n저를 찾아오시길.",
+            "LocalizeJP": "食べ物に関して気に\nなることがおありでしたら、\nいつでも私をお訪ねください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "후훗, 언제봐도 질리지 않는\n얼굴이에요.",
+            "LocalizeJP": "ふふっ、\n何度お目にかかっても\n飽きないお顔を\nされてますわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어머? 칭찬한 거예요. \n좋은 의미로. 후훗….",
+            "LocalizeJP": "あら？褒め言葉ですわよ？\n好意的な意味ですわ、\nうふふっ…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "…그건 저도\n마찬가지라고요?",
+            "LocalizeJP": "…それは私も同じ、\nですって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어머, 평안하신가요.\n우후훗.",
+            "LocalizeJP": "あら？ごきげんよう。\nうふふっ…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_LogIn_3"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "붕어빵요? 제가 가장 좋아하는\n음식이죠. 후후.",
+            "LocalizeJP": "たい焼きですの？\n私の一番お気に入りの\n食べ物ですわ。うふふ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_6"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "고급 음식점을 좋아하냐고요? \n후후. 싫어하지 않아요.",
+            "LocalizeJP": "高級料理店はお好きか、\nですって？うふふっ、\n嫌いではありませんわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하지만 제가 가장 \n좋아하는 건….",
+            "LocalizeJP": "ただ、私が一番\n好きなのは…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "사랑하는 사람과 함께하는 \n식사랍니다♡",
+            "LocalizeJP": "愛する御方と一緒に\n頂く食事ですわ♡",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "예쁘다…라니, \n무무무무무무슨소릴 하시는 건지.",
+            "LocalizeJP": "可愛い…？\nな、なななななんの\nことかしらっ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드려요, 선생님…\n생일에는 역시 케이크가\n제격이죠.",
+            "LocalizeJP": "お誕生日\nおめでとうございます、\n先生。誕生日にはやはり\nケーキですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "신선한 생크림을 올려도 좋고,\n농후한 치즈를 잔뜩 올리거나,",
+            "LocalizeJP": "新鮮な生クリームを乗せても\nいいですし、濃厚なチーズを\nたくさん乗せても、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "신선한 과일을 올려도 좋고요.",
+            "LocalizeJP": "新鮮なフルーツを\n乗せてもいいですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "어머나, 제 생일을\n기억해주고 계셨다니.\n후후후. 기뻐요.",
+            "LocalizeJP": "あら、私の誕生日を覚えてて\nくださったんですの？\nうふふ、嬉しいですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "오늘은 근사한 곳에서\n맛있는 걸 함께 먹는 건가요?\n기대하고 있을게요.",
+            "LocalizeJP": "今日はお洒落なお店で、\n美味しいものを一緒に\n頂けるのでしょうか？\n楽しみにしておりますわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요 선생님.\n설날이라면… 역시 떡국이죠.",
+            "LocalizeJP": "明けましておめでとう\nございます、先生。\nお正月といえば…\nやはりお雑煮ですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "구워도 좋고\n그냥 넣어도 좋고.",
+            "LocalizeJP": "お餅は焼いてもいいですし、\nそのまま入れてもいいですし。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "감자와 경단을 넣고\n맑게 끓여낸 뒤 코타츠 위에서\n먹는 맛… 후후후.",
+            "LocalizeJP": "ジャガイモと鶏団子を入れて\n煮込んだ後、コタツの中で\n頂くそのお味といったら…\nうふふ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스.\n오늘은 부쉬 드 노엘도 좋고\n시나몬 쿠키도 괜찮죠.",
+            "LocalizeJP": "メリークリスマス。\nこんな日にはブッシュド\nノエルや、シナモンの\nクッキーが良いですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "하지만 촛불을 켜놓고 마주 앉아\n먹는 것이라면 무엇이든\n상관없을 것 같아요. 후후후.",
+            "LocalizeJP": "ですが、キャンドルを灯して\n向かい合って頂くもので\nしたら、どんなものでも美味\nしそうですわ、フフフ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "키보토스에서 가장 맛있는\n사탕에 대해 아시나요?\n모르신다고요?",
+            "LocalizeJP": "キヴォトスで一番\n美味しい飴について、\nご存じかしら？\nご存じないですの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "선생님이 들고 있는 사탕이죠.\n제게도… 주시겠어요?",
+            "LocalizeJP": "それは、\n先生が持っていらっしゃる飴、\nですわ。…私にくださる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "미식가의 길은, 수행자의 길과 같군요.\n\r궁극이라 부르는 것을 추구하고, 탐구하고,\n또한 앞으로 나아간다. 우후후……. 이것으로\n저도 또 조금은, 앞으로 나아갈 수 있을 것 같네요.",
+            "LocalizeJP": "美食家の道は、修行者の道と同じですわね。\n究極というものを追求し、探求し、\nそして前に進んで行くこと。\nうふふっ……これで私もまた少し、\n前に進めそうですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruna_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후후, 이렇게 함께\n귀가하는 길이라니,\n붕어빵도 이렇게 잔뜩 사버렸구요.",
+            "LocalizeJP": "うふふ、こうやって一緒に\n帰宅できるだなんて、\nたい焼きもこんなにたくさん\n買ってしまいましたし。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "소박하지 않냐고요?",
+            "LocalizeJP": "たい焼きだと少し質素\nじゃないか、ですって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아뇨… 저에겐 최고로\n사치스러운 순간인걸요.",
+            "LocalizeJP": "いいえ… 私にとっては最高に\n贅沢な瞬間ですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "자, 선생님.\n이거 드릴게요.",
+            "LocalizeJP": "では、先生。\nこれをさしあげますわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…아뇨. 아아- 하셔야죠.",
+            "LocalizeJP": "…いいえ。\nあーん、でなくては。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "제일 좋아하는 사람과 함께\n제일 좋아하는 음식을 먹는다.\n이게 바로….",
+            "LocalizeJP": "一番好きな御方と一緒に、\n一番好きな食べ物を頂く。\nこれぞ正しく…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "응? 그 표정은 뭔가요?",
+            "LocalizeJP": "うん？その表情、\nどうかなさいまして？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후훗. 그런 반응도\n싫어하지 않습니다.",
+            "LocalizeJP": "うふふっ。そのような反応も、\n嫌いではありませんが。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아뇨. 따뜻해요.\n정말로.",
+            "LocalizeJP": "いいえ、暖かいですわよ。\n本当に。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

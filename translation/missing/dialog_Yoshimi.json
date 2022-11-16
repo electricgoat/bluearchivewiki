@@ -1,0 +1,354 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "작다고 얕보지 마!\n내 가능성은 엄청나게 크니까!",
+            "LocalizeJP": "小さいからって舐めないで！\n将来性はものすっごいんだから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "나의 성장판은 아직…\n끝나지 않았어! 믿어!",
+            "LocalizeJP": "…私の成長はまだ\n終わってないの！信じて！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "히힛.\n한숨 푹 자고 갈까나.",
+            "LocalizeJP": "ふふっ。\n一眠りしていこっかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "하아… 선생님은\n왜 그렇게 눈치가 없는 걸까.",
+            "LocalizeJP": "はあ…先生は\nなんであんなに\n空気が読めないんだろう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "맛있는 디저트가\n먹고 싶어!\n와앗! 선생님이다!",
+            "LocalizeJP": "美味しいスイーツが食べたーい、\nあっ！先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "히잉. 흰 우유는 싫어.\n먹어야 된다는 점이\n특히 말야!\n응? 따, 딸기 우유라고?",
+            "LocalizeJP": "ん？えー…牛乳は、嫌い。\n飲まなきゃいけないって\n分かってるから、尚更！\nえ？それ、い、イチゴ牛乳？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "머리 쓰다 듬지마아-!\n칫… 어린애 취급은 싫단말야.",
+            "LocalizeJP": "頭撫でないでっ！\nもうっ…\n子ども扱いは嫌なの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "나도… 몇 년만 지나면…\n동생이 아니라 연인처럼 보일까?",
+            "LocalizeJP": "私も…\nあと何年か経ったら…\n妹じゃなくて、\n恋人に見えるかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우유라면 1L씩 마시고 있어.\n매일매일매일 말야!",
+            "LocalizeJP": "牛乳なら1L飲んでる。\n仕方なく、毎日、毎日、毎日ね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "다, 당번을 하면, 선생님과\n맛있는 과자를 먹는 시간도 있는 거지?",
+            "LocalizeJP": "と、当番になれば、先生と\n美味しいお菓子を食べる\n時間があるはずよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "오늘도 열심히 해봐!\n내가 도와줄 테니까!",
+            "LocalizeJP": "ほら、今日も頑張って！\n私が手伝ってあげるから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "어라?\n선생님 안색이 안 좋은데?",
+            "LocalizeJP": "あの、先生、\n疲れてない？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "마, 맛있는 디저트라도 먹으러 갈래?",
+            "LocalizeJP": "お、美味しいスイーツでも\n食べに行く?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "흥! 내가 있는 이상\n농땡이 칠 계획은 포기하라구!\n자! 일할 시간이야! 임무를 시작하자!",
+            "LocalizeJP": "ほら！私がいる限り\nサボろうとするのは\n諦めなさい！\nさ、仕事の時間よ！\n任務を始めましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해 선생님!\n근처에 괜찮은 스위츠가 있어. 가자!",
+            "LocalizeJP": "誕生日おめでとう、先生！\n近くに良いスイーツ\n屋さんがあるの、行こ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "추, 축하해줘서 고마워.",
+            "LocalizeJP": "お、お祝いしてくれて\nありがとう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "(몇 번의 생일이 지나야…\n곁에 있을 때, 어울린다는\n말을 들을 수 있을까?)",
+            "LocalizeJP": "（あと誕生日が何回来たら…\nそばにいた時に、お似合いって\n思ってもらえるのかな？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "벼, 별로 아무 생각 안 했거든?\n왜 뚫어지게 쳐다보는 거야?!",
+            "LocalizeJP": "べ、別に何も、\n変なことは考えてないけど？\n何をそんなにじっと\n見つめてるのよ？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_Birthday2"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받아!\n올해의 목표? 뻔하잖아!\n나이스 바디가 되는 거지!!",
+            "LocalizeJP": "明けましておめでとう！\n今年の目標？\nそんなの決まってるでしょ！\nナイスバディになることよ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스!\n나는 크리스마스가 좋아!\n내가 좋아하는 색이 \n거리에 가득해지니까!",
+            "LocalizeJP": "メリークリスマス！\nクリスマスって大好き！\n街が、私の好きな色で\nいっぱいになるから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "Trick or Treat~\n방과후 디저트부에는\n특별한 할로윈이야!\n나가자!",
+            "LocalizeJP": "Trick or Treat～\n放課後スイーツ部には\n特別な日、ハロウィーンよ！\n外に行こう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "유령에는 관심 없지만, \n사탕은 중요한 거니까!",
+            "LocalizeJP": "幽霊には興味ないけど、\n飴は大事だからね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이런 거 받아버리면…\n진심으로 노력할 수밖에 없잖아!",
+            "LocalizeJP": "こんなの貰っちゃったら……\n本気で頑張るしかないじゃん！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yoshimi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "정말이지, 선생님은\n항상 사람을\n놀래킨단 말이야.",
+            "LocalizeJP": "ほんと、先生には驚か\nされっぱなしっていうか、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "알다가도 모를\n사람이라니까.",
+            "LocalizeJP": "振り回されっぱな\nしっていうか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "……응?\n뭘 그렇게\n빤히 보는 거야?",
+            "LocalizeJP": "……ん？\n何をそんな、\nじっと見てるわけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아아, 보나마나\n또 무슨 수상한 짓을\n꾸미는 중이겠지?",
+            "LocalizeJP": "ねぇ、\nまさかまた変なこと\n考えてないでしょうね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "난 선생님의\n장난감이 아니라고.",
+            "LocalizeJP": "私は先生の\nオモチャじゃ\nないんだから、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "적당히 하지 않으면\n진짜로 화 낼 거야.",
+            "LocalizeJP": "いい加減やめないと\n本当に怒るよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…뭐 그다지 싫지만은\n않지만 말이지.\n…히히히.",
+            "LocalizeJP": "……いやまあ、\n別に心の底から嫌、\nってわけじゃないけど……。\n……ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(언젠가는 이렇게, 나란히\n걷는 게 어울리는 날도\n오지 않을까…?)",
+            "LocalizeJP": "（いつかこうやって\n隣に……堂々と、\n並んで歩ける日が……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

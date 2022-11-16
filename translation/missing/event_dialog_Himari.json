@@ -1,0 +1,52 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009018,
+            "DialogCategory": "UISpecialOperationLobby",
+            "DialogCondition": "CollectionOpen",
+            "GroupId": 1,
+            "LocalizeKR": "새로운 데이터를\n확보했습니다.",
+            "LocalizeJP": "新たなデータが\n入手できたようですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0159_Collection_1"
+            ]
+        },
+        {
+            "CharacterId": 19009018,
+            "DialogCategory": "UISpecialOperationLobby",
+            "DialogCondition": "CollectionOpen",
+            "GroupId": 2,
+            "LocalizeKR": "그럼, 이번에는\n어떤 정보일지 확인해볼까요.",
+            "LocalizeJP": "さて、今回はどんな\nデータなのでしょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0159_Collection_2"
+            ]
+        },
+        {
+            "CharacterId": 19009018,
+            "DialogCategory": "UISpecialOperationLobby",
+            "DialogCondition": "StoryOpen",
+            "GroupId": 1,
+            "LocalizeKR": "다음 목표가\n정해진 것 같네요.",
+            "LocalizeJP": "次の目標が\n決まりましたね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0159_StageOpen_1"
+            ]
+        },
+        {
+            "CharacterId": 19009018,
+            "DialogCategory": "UISpecialOperationLobby",
+            "DialogCondition": "StoryOpen",
+            "GroupId": 2,
+            "LocalizeKR": "자, 이제 다음 단계로\n넘어가도록 하겠습니다.",
+            "LocalizeJP": "では、次の段階に\n進みましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0159_StageOpen_2"
+            ]
+        }
+    ]
+}

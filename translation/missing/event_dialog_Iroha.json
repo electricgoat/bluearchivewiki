@@ -52,16 +52,6 @@
             "CharacterId": 19009041,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 4,
-            "LocalizeKR": "귀찮은 일은 질색인지라.",
-            "LocalizeJP": "面倒ごとは嫌なので。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 19009041,
-            "DialogCategory": "UIEventLobby",
-            "DialogCondition": "Enter",
             "GroupId": 5,
             "LocalizeKR": "아무래도 소동은 마무리\n된 것 같네요. 수고하셨\n습니다, 선생님.",
             "LocalizeJP": "どうやら落ち着いたよう\nですね。お疲れ様でした、\n先生。",
@@ -152,18 +142,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "CH0156_EventMission_1"
-            ]
-        },
-        {
-            "CharacterId": 19009041,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "힘~들~어~",
-            "LocalizeJP": "だーーーるい……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0156_EventMission_2"
             ]
         },
         {

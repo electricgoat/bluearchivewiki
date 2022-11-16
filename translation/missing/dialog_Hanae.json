@@ -1,0 +1,310 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "백의의 천사가!\n당신을 찾아왔어요!!",
+            "LocalizeJP": "白衣の天使が！\nあなたを訪ねて来ましたよ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "랄라~ 수술이\n필요한 사람?\n누구 없으려나~",
+            "LocalizeJP": "るんるん～\n手術が必要な人～？\n誰かいないのかな～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "구원도! 희망도!\n그리고 사랑도!\n하나에는\n전부 갖고 있죠!",
+            "LocalizeJP": "救援も！希望も！\nそして愛も！\nハナエはすべて\n備え持っていますよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "빨리 토끼랑\n고양이랑\n놀고 싶다!",
+            "LocalizeJP": "早くウサギさんや\n猫さんと遊びたいな！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "친구가 많이 생겨서\n매일매일이\n즐거워요!",
+            "LocalizeJP": "友達がたくさんできて、\n毎日が楽しいです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "안녕하세요!\n하나에예요!\n잘 부탁드려요!",
+            "LocalizeJP": "こんにちは！ハナエです！\nよろしくお願いします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님! 새로운 편지가 왔어요!\n즐거운 임무, 오늘도 시작해요!",
+            "LocalizeJP": "先生！新しいメールが\n届きました！楽しい任務を、\n今日も始めましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "꺄아! 어서 오세요!\n선생님이 오시길 기다렸다고요!",
+            "LocalizeJP": "きゃあ！ようこそ！先生が\n来るのを待ってましたよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "앗 선생님! 안색이 안 좋아요!\n간단히 수술해 드릴까요?!",
+            "LocalizeJP": "あっ先生！顔色が悪いです！\n簡単な手術をしましょうか？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "활력과 미소를 원하신다면!\n하나에에게 맡기세요!",
+            "LocalizeJP": "活力や笑顔をご所望なら！\nこのハナエにお任せください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "발랄하고 귀여운 소녀겠죠?!",
+            "LocalizeJP": "ハツラツとした\n可愛い女の子ですよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "오늘은 할 일이 잔뜩 있으니까\n게으름 피우시면 안 돼요!",
+            "LocalizeJP": "今日はやることがたくさん\nあるので怠けちゃだめですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "앗! 뭔가 좋은 일이\n일어날 것 같은 예감!",
+            "LocalizeJP": "あっ！なんだか\nいいことが起きそうな予感！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘은 최고로 기쁜 날이에요!\n선생님! 생일 축하해요!",
+            "LocalizeJP": "今日は最高に嬉しい日です！\n先生！お誕生日\nおめでとうございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "오늘은 제 생일이에요!\n생일 선물로…",
+            "LocalizeJP": "今日は私の誕生日です！\n誕生日プレゼントに、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "해피 뉴이어!\n올해도! 행복한 한 해되세요!",
+            "LocalizeJP": "ハッピーニューイヤー！\n今年も幸せな一年に\nなりますように！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Season_Newyear"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "모두가 행복한 크리스마스이에요!\n트리니티 여학생이라면,\n누구나 설레는 날이죠!",
+            "LocalizeJP": "みんなが幸せな\nクリスマスです！\nトリニティの女子生徒なら、\n誰もがドキドキする日ですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "앗. 할로윈이 시작되었어요.\n빨리 나가봐요~ 축제가 시작되니까!",
+            "LocalizeJP": "あっ。ハロウィンが始まり\nました。早く出かけましょう～\nお祭りが始まりますから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 무기는…\n사랑이 가득 담겨 있어요!",
+            "LocalizeJP": "この武器には……\n愛がたくさんつまっています！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Hanae_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "자, 지금부터 상처를 소독할 테니\n양말을 걷고 얌전히 기다려주세요.",
+            "LocalizeJP": "さあ、ではまず\n傷口を消毒するので、\n靴下を脱いで大人しく\nしていてください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "상처를 깨끗이 소독하지 않으면\n피부가 덧나 위험할 수도 있으니까요.",
+            "LocalizeJP": "きちんと消毒しないと、\n傷から炎症を起こして\n大変なことになって\nしまうかもしれません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "조금 따끔할지도 몰라요~.",
+            "LocalizeJP": "少し痛いかもですけど、\n我慢してくださいね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "에잇!",
+            "LocalizeJP": "ん、しょっ…！\nきれいきれいにっ…と！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "네, 잘 참으셨어요.\n조금만 더 힘내세요.",
+            "LocalizeJP": "はい、よく我慢できました！\nもう少しですよー。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "그럼 제가 선생님을 위해\n특별히 상처가 낫는\n마법의 주문을 걸어드릴게요.",
+            "LocalizeJP": "特別におまけで、\n傷が早く治る魔法の\n呪文をかけて\nあげましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "아픈 거, 다 날아가라~",
+            "LocalizeJP": "では、痛いの痛いの、\n飛んでけ～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 7,
+            "LocalizeKR": "자, 이제 하나도 안 아프죠?",
+            "LocalizeJP": "どうですか？\n痛くなくなりましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -2,6 +2,268 @@
     "DataList": [
         {
             "CharacterId": 16004,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "평안하신지요?\n아, 이 말이 더 어울리겠군요.\n처음 뵙겠습니다!",
+            "LocalizeJP": "ごきげんよう。\nアッ、こっちの言葉の方がより自然かもデス。\nハジメマシテ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "좋은 곳이네요.\n어쩐지 그리운 느낌이 듭니다!",
+            "LocalizeJP": "良いところデスね。\nなんだか懐かしい感じがしマス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님도 피자나 핫케이크보다\n오코노미야끼를\n좋아해주셨으면…",
+            "LocalizeJP": "センセイにも、\nピザやホットケーキより\nお好み焼きを好きに\nなってもらいたいデス…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "와우~\n분위기 좋아요!",
+            "LocalizeJP": "Wow〜、\n良い雰囲気デスネ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "Cool~ 한 우롱차가\n좋습니다!\n커피나 콜라는 싫습니다.",
+            "LocalizeJP": "Cool～な烏龍茶がいいデス！\nコーヒーやコーラは好きじゃないデス。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "앗, 무심코 예전 학원의 말투가…",
+            "LocalizeJP": "アッ、思わず前の\n学園での口癖が…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어서 오세요 선생님~\n오늘도 화끈하게 임무를 시작하죠!",
+            "LocalizeJP": "ようこそセンセイ〜\n今日も思い切って、\n任務を始めマショウ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "백귀야행의 여름은 두근두근 합니다.\n축제가 시작되니까요!",
+            "LocalizeJP": "百鬼夜行の夏は\nドキドキしマス。\nお祭りが始まりマスから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "정말이지 Kimono는 최고라고요!\n최고 of 최고!",
+            "LocalizeJP": "本当にKimonoは最高デスよ！\n最高 of the 最高！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "안심하세요.\n칼등으로 쳤으니까…",
+            "LocalizeJP": "安心してクダサイ。\n峰打ちデス…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "앗… 다시 보니\n개머리판입니다!",
+            "LocalizeJP": "アッ…。\nよく見たら\n刀ではなく\n銃デシタ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "불의를 용서치 않는!\n정의로운 금발 미녀!\n여기에 등장!",
+            "LocalizeJP": "不義を許さない！\n正義の金髪美女！\nここに参上、デス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "인사할 때는 물구나무를 서라고요?\n백귀야행의 문화는 역시 신비합니다!",
+            "LocalizeJP": "挨拶するときは、\n逆立ちをするんデスか？\n百鬼夜行の文化は、\nやはり不思議デス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "Today~ is~일년에\n단 한번 뿐인, 특별한 날입니다!",
+            "LocalizeJP": "Today～is～、\n一年にただ一度だけの、\n特別な日デス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "Happy Birthday To You!\n선생님! 생일을 축하합니다!",
+            "LocalizeJP": "Happy Birthday To You！\nセンセイ！お誕生日\nおめでとうございマス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "오늘은 저의 생일입니다!",
+            "LocalizeJP": "今日はワタシの\n誕生日デス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님!\n팥밥을 먹으러 가야합니다!",
+            "LocalizeJP": "センセイ!\nおこわを食べなけれ\nばなりまセン！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "선생님!\n새해에는 새해맞이 행사장에 가야 합니다!",
+            "LocalizeJP": "センセイ！\n新年には神社に\n行くべきデス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Season_Newyear"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "오미쿠지를 뽑으러 당장 가는 겁니다!",
+            "LocalizeJP": "おみくじを引きに、\n今すぐ行くのデス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "MerryChristmas!\n산타는 좋습니다!",
+            "LocalizeJP": "Merry Christmas！\nサンタは素晴らしいデス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "선생님도 산타를\n좋아하시나요?!",
+            "LocalizeJP": "センセイもサンタは\n好きデスか？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "엣? 절분 아니었습니까\nHalloween입니까?!",
+            "LocalizeJP": "エッ？\n節分ではなかったのデスか？\nHalloweenデスか？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "강해지는 것은\n무기가 아니라, 영혼입니다!",
+            "LocalizeJP": "強くなるのは\n武器ではなく、魂デス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Pina_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16004,
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,

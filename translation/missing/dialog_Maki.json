@@ -1,0 +1,320 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 벽에 내 그림을 걸면\n더 멋질 것 같은데!",
+            "LocalizeJP": "ここの壁にあたしの絵を添えたら、\nもっと素敵になりそう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이 푹신푹신한 느낌을\n스프레이로 표현하려면\n어떻게 해야할까?",
+            "LocalizeJP": "このふかふかな感じを\nスプレーで表現するには\nどうすればいいのかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아차차. \n페인트가 묻지 않게\n조심, 또 조심.",
+            "LocalizeJP": "おっと、\n塗料が付かないように\n気を付けて、\n気を付けて…っと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생님. \n오늘의 패션도 인상적인 걸?",
+            "LocalizeJP": "お帰り、先生。\n今日のファッションも\nいい感じだね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "늦었잖아, 선생님!\n조금만 더 기다리게 했으면…",
+            "LocalizeJP": "遅いじゃん、先生\nこれ以上待たせてたら… ",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "선생님의 핸드폰,펑! 터트리려 했다구.",
+            "LocalizeJP": "先生のスマホ、ドカンッ！って\n爆発させるところだったよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이 그래피티 디자인 멋지지?\n내가 직접 그린 거야!",
+            "LocalizeJP": "このグラフィティ素敵でしょ？\nあたしが描いたの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "기껏 방화벽을 뚫어놓고선\n",
+            "LocalizeJP": "せっかく\nセキュリティを\n突破したのに、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "발자국 하나도 남기지 못한다면\n해킹을 하는 보람이 없지. 흐흐.",
+            "LocalizeJP": "その足跡も残さなかったら、\nハッキングのし甲斐が\nないよね。ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "키보토스 중앙의 생텀 타워를",
+            "LocalizeJP": "キヴォトス中央の\nサンクトゥムタワーの\n外壁を、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "모두 그래피티로 채울 수 있다면,\n얼마나 멋질까…?",
+            "LocalizeJP": "全部グラフィティで\n埋められたら、\nどんなに素敵だろう…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님, 생일 축하해!",
+            "LocalizeJP": "先生、\nお誕生日おめでとう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "응?\n생일은 어떻게 알았냐고?",
+            "LocalizeJP": "ん？\nなんで知ってるのかって？ ",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "아차, 아직 공개된 정보가 아니었던가?",
+            "LocalizeJP": "おっと、\nまだ公開されてない\n情報だったっけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일 선물로 뭘 받고 싶냐고?음…",
+            "LocalizeJP": "プレゼントに何が\n欲しいか、って？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님의 옷,\n내가 원하는 색으로\n칠해봐도 괜찮아?",
+            "LocalizeJP": "先生の服、あたしが\nチョイスした色で\n塗ってみてもいい？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해도 반짝반짝한 걸\n잔뜩 그려보자!",
+            "LocalizeJP": "今年もキラキラしたものを\nいっぱい描いていこう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "온 사방에 예쁜\n일루미네이션이 가득해…",
+            "LocalizeJP": "あっちもこっちも綺麗な\nイルミネーションで\nいっぱい…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "이걸 회벽 위에\n옮겨 담을 수는 없을까?",
+            "LocalizeJP": "これ、そのまま壁に\n描き写せないかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "이번 할로윈을 위해\n저번 달부터 코스튬을 준비했어.",
+            "LocalizeJP": "今回のハロウィンのために、\n先月からコスチュームを\n準備してたの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "후후, 기대하라구!",
+            "LocalizeJP": "ふふっ、\n期待してて！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 총으로 세상을\n알록달록 물들이는 거야!",
+            "LocalizeJP": "この銃で、世界を\n色鮮やかにに染めるの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Maki_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "자, 이만하면 괜찮지 않을까?\n선생님이 보기엔 어때?",
+            "LocalizeJP": "さて、これでいい\n感じじゃない？\n先生から見て、どう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "치잇… 왜 그렇게 반응이\n미적지근한 거야?",
+            "LocalizeJP": "えぇっ…なんでそんなに\nイマイチな反応なの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "좀 더 예술혼을 불태워서\n평가해 보라고!",
+            "LocalizeJP": "もっと芸術魂を\n燃やして見てみてよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "선생님은 뭘 그린 거야?\n으음…",
+            "LocalizeJP": "先生は何を描いたの？\nえーっと…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "푸하하! 이게 뭐야,\n완전 웃겨!",
+            "LocalizeJP": "あはは！なにこれ、\nめっちゃ面白い！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "높아서 무섭지 않냐고?\n괜찮아, 선생님이 옆에 있으니까.",
+            "LocalizeJP": "こんな高いところで\n怖くないのかって？\n大丈夫、\n先生がそばにいるから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "필요하다면 언제든 나를 불러줘.\n벽도, 선생님도,\n멋지게 칠해줄 테니까!",
+            "LocalizeJP": "必要ならいつでもあたしを\n呼んで。 壁も、先生も、\nいい感じに彩ってあげる！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

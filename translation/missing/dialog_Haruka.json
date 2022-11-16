@@ -1,0 +1,338 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "저, 제가 와도 괜찮은 걸까요?\n쓸모없다고 생각되면 어, 언제든지 말씀해주세요….",
+            "LocalizeJP": "あの、私が来てもよかったんでしょうか？\n邪魔だと思いましたら、\nい、いつでも仰ってください…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "숨을 곳은 어디….",
+            "LocalizeJP": "隠れる場所は\nどこに…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기 있어도\n괜찮은 걸까요.",
+            "LocalizeJP": "ここにいても\nいいんでしょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "사람 많은 곳은\n싫어….\n숨고 싶어….",
+            "LocalizeJP": "人が多い所は\n苦手…。\n隠れたい…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그, 그러니까….\n헤헤… 제, 제가\n도와드릴 게 있을까요?",
+            "LocalizeJP": "あ、あの…。\nえへへ…わ、私が\n手伝うことありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "서, 선생님.\n고맙… 습… 아, 아니!\n죄송합니다!",
+            "LocalizeJP": "せ、先生。\nあ、りが…とうござい…\nい、いえ！すみません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "저, 저기… 저를 부르신 게 맞나요?\n뭔가 착각하신 거 아닌가요?",
+            "LocalizeJP": "あ、あの…。\n私のこと呼びましたか？\n何かの勘違いではないですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "저따위가 여기 있어도\n되는 걸까요….",
+            "LocalizeJP": "私なんかがここにいても\nいいんでしょうか…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님께 도움이 되도록 \n최선을 다할 테니….",
+            "LocalizeJP": "先生の役に立てるように\n全力を尽くしますから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…고맙습니다. 선생님.",
+            "LocalizeJP": "…ありがとうございます。\n先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "네?\n너무 긴장하지 말라고요?\n티, 티가 났나요?!",
+            "LocalizeJP": "はい？そんなに\n緊張しないで、ですか？\nバ、バレてましたか？！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(죽고싶어 죽고싶어 죽고싶어\n죽고싶어 죽고싶어 죽고싶어.)",
+            "LocalizeJP": "（死にたい死にたい死にたい\n死にたい死にたい死にたい）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "새, 생일 축하드립니다!",
+            "LocalizeJP": "お、お誕生日\nおめでとう\nございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "무, 물론 저따위가 축하드려봤자\n기분 나쁘시겠지만…!",
+            "LocalizeJP": "も、もちろん、私なんかが\nお祝いしたところで気持ち悪い\nだけだと思いますが…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "네?\n추, 축하한다고요?",
+            "LocalizeJP": "はい？\nお、おめでとう、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새, 새해 복 많이 받으세요!",
+            "LocalizeJP": "あ、明けまして\nおめでとうございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해도 선생님과….\n다 없애버릴게요~",
+            "LocalizeJP": "今年も、先生と一緒に…\nぜ、全部消し\nちゃいましょうねっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "이번 성탄도,\n선생님과 함께라서….\n기뻐요.",
+            "LocalizeJP": "今年のクリスマスも、\n先生と一緒で…。\n嬉しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "무, 물론 저한테\n자격이 있는지는\n모르겠지만…!",
+            "LocalizeJP": "も、もちろん、私に\nそんな資格があるかどうか\nわかりませんが…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "아아.\n오늘이 할로윈이었군요.",
+            "LocalizeJP": "ああ。\n今日ってハロウィーン\nでしたか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "갑자기 귀신 분장한 사람들이\n몰려와서 쏴버렸는데….",
+            "LocalizeJP": "急にお化けコスプレの人達が\n群がって来たから\n撃っちゃったんですけど…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님이 싫어하시는 건,\n제가 다… 없애버릴게요!",
+            "LocalizeJP": "先生が嫌いなものは、\n私が……全部消しちゃいます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Haruka_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그, 그게……!\n그러니까 어…….\n이건 그……!",
+            "LocalizeJP": "あ、えっ？えっ……！？\nな、なななんで、えっ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어, 어째서 서, 선생님이\n여기에 계시는 거…죠……?",
+            "LocalizeJP": "ど、どうして……！？\nどうして先生が、こ、ここに\nいらっしゃるのですか……！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "뭔가 잘못됐나?\n나, 또 무슨 실수를 해 버렸나……?",
+            "LocalizeJP": "わ、私また何か\nとんでもないミスを……！？\nあ、も、もしかして\n伝える場所を間違えて……！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그러니까\n여, 여기는……. 그…….",
+            "LocalizeJP": "あ、え、えっとですね、\nここはその……\n何と言いますか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그냥……. 제 잡초라든가…….\n그런 걸 키우는 곳인데……요…….",
+            "LocalizeJP": "その、私が雑草とか……\nそういうのを育てている場所、\nでして……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "죄, 죄송합니다. 선생님.\n제 실수로……. 누추한 분께서\n이렇게 귀한 곳에…….",
+            "LocalizeJP": "す、すみません先生、\nまた私のミスで……\n大切な方を、\nこんなところに……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……어? 저, 저…….\n방금 무슨 말을……!?!?",
+            "LocalizeJP": "え、あ……わ、私もしかして今、\nな、ななな何か、\n凄いことを口に……っ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(죽고싶어죽고싶어죽고싶어\n죽고싶어죽고싶어죽고싶어\n죽고싶어죽고싶어죽고싶어……)",
+            "LocalizeJP": "（しっ、\n死にたい死にたい死にたい\n死にたい死にたい死にたい\n死にたい死なないと……！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

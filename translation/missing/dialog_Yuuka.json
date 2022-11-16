@@ -1,0 +1,430 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "조건은 클리어 되었어요.\n우리는 오늘 이 순간을.\n인연이라 정의하고, 증명하게 될 거예요.",
+            "LocalizeJP": "条件はクリアされました。\n私たちは今日この瞬間を\n絆と定義し、証明することになるでしょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어라?\n이런 공간이\n있었나?",
+            "LocalizeJP": "あれ？\nこんな空間あったっけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이대로면 파산하겠어….\n소비를 줄이지 않으면….",
+            "LocalizeJP": "このままだと破産する…。\n出費を減らさないと…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "응?\n잠깐 쉬고 가지 않을래요?\n약 1890초 정도는 여유가 있으니까.",
+            "LocalizeJP": "うん？\n少し休んでいきますか？\n私も、約1890秒くらいの\n余裕はありますから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어쩐지 오늘은 재미있는\n일이 있을 것 같아.\n확률적으로~",
+            "LocalizeJP": "なんだか今日は楽しいことが\nありそうな気がする。\n確率的に～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님. 오늘도 전력으로\n당신을 보좌하겠어요.",
+            "LocalizeJP": "先生。今日も全力で\nあなたをアシストしますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어서 오세요 선생님.\n지금부터 반성회를 시작하죠.",
+            "LocalizeJP": "ようこそ、先生。\n今から反省会を始めます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "앗, 어딜 가시는거죠?",
+            "LocalizeJP": "あっ、\nどこに行くんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선~ 생~ 님~\n조금 더 노력해주세요!",
+            "LocalizeJP": "せ～ん～せ～い～。\nもう少し頑張ってください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님.\n지금 선생님의 행동에\n대해 하고 싶은 말은\n약 서른네 개 정도입니다.",
+            "LocalizeJP": "先生。今、先生の\n行動について言いたいことが\n34個あります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(…그 중에 하나는\n특별한 말이지만.)",
+            "LocalizeJP": "（…そのうちの一つは\n特別な言葉だけど）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "최근엔 그래도\n선생님다워 진 것 같네요.",
+            "LocalizeJP": "でも最近は先生らしく\nなった気がします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "네? \n제 덕분이라고요?!",
+            "LocalizeJP": "はい？\n私のおかげ、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "우웃….\n다, 당연하죠!",
+            "LocalizeJP": "うえぇっ？\n…も、もちろんです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님. \n업무를 시작하기 전에\n먼저 앞으로의 목표와\n방향성을 준비해주세요.",
+            "LocalizeJP": "先生。\nお仕事を始める前に\nまず、これからの目標と\n方向性を策定してください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하 드려요 선생님.",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘로 선생님이 태어난지\n약…",
+            "LocalizeJP": "今日で先生が\n生まれてから\n約…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "네?\n계산하지 말라고요?",
+            "LocalizeJP": "はい？\n計算しちゃダメですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "오늘은 제 생일이에요.\n선물은, 제가 고르겠어요.",
+            "LocalizeJP": "今日は私の誕生日です。\nプレゼントは、\n私が選びますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "자, 밖으로 나가보실까요?\n비싼 게 아니라도 좋으니까!",
+            "LocalizeJP": "さあ、出かけませんか？\n高い物じゃなくてもいいので！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "수학에서도 시작은 중요하죠.\n올해의 처음을, 시작해볼까요?",
+            "LocalizeJP": "数学でも初めが肝心です。\n今年の始まりを、\n一緒に始めましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Season_Newyear"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스라… \n이런 날은 하나도 안 재밌지만.",
+            "LocalizeJP": "クリスマスか…。\n普段こういう日は\nちっとも楽しくないけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "선생님이 있어서,\n약간은 즐겁네요.",
+            "LocalizeJP": "今は先生がいてくれて、\n少しは楽しいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "학원도시의 인구에 비례해볼 때\n현재 키보토스에 유통되는",
+            "LocalizeJP": "学園都市の人口に\n比例してみると、\n現在のキヴォトスに\n流通している",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "사탕의 개수와 그 칼로리는…. \n(중얼중얼)",
+            "LocalizeJP": "飴の数とそのカロリーは…\n（ぶつぶつ）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이건… 엄청나게 플러스가 될 거야!",
+            "LocalizeJP": "これは……\nものすごいプラスになるやつだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Yuuka_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "정말이지…\n어른이면 어른답게 제대로\n계획적인 소비를 해주세요.",
+            "LocalizeJP": "まったく…大人なんですから、\nしっかりと大人らしく計画的な\n消費をしてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "용돈을 받아서\n흥청망청 써버리는\n어린 아이도 아니잖아요?",
+            "LocalizeJP": "お小遣いをもらって\nパーッと使っちゃう\n子供じゃないんですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이렇게 영수증 정리를\n도와드리는 건\n저 밖에 없으니까….",
+            "LocalizeJP": "それに、こうして領収証の\n整理を手伝ってくれる\nのなんて、私くらい\nなんですから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "다음번에는 절대로\n도와드리지 않을 테니까요!",
+            "LocalizeJP": "次はもう、\n絶対に手伝いませんからね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "보름 전 편의점에서 구매한\n치킨 샌드위치가 500엔….\n신간 만화책 구입에 450엔….",
+            "LocalizeJP": "15日前にコンビニで購入\nしたチキンサンド500円…\n新刊の漫画購入で450円…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "으응…? 그제 밤\n<클럽 말랑말랑>에서 2만엔…?",
+            "LocalizeJP": "ん…？一昨日の夜、\n「クラブ・ふわりん」\nで2万円…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "서, 선생님!\n도대체 뭔가요, 이 영수증은!",
+            "LocalizeJP": "せ、先生！\nいったい何ですか、\nこの領収証は！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "타의 모범이 되어야 할 교육자가\n이런 저질스러운 곳에 가시다니…",
+            "LocalizeJP": "生徒たちの模範となるべき\n教育者が、こんな、い、\nいかがわしいお店に\n行くだなんて…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "믿을 수가 없어요!\n최악이에요!",
+            "LocalizeJP": "信じられません！\n最低です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아, <클럽 말랑말랑>이라는 이름의\n가챠 게임이라고요?",
+            "LocalizeJP": "え、「クラブ・ふわりん」\nっていう名前の、\nスマホゲームのガチャ…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어휴.\n저는 또….",
+            "LocalizeJP": "…ふぅ。\nてっきり私、その…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "아니. 그렇다 하더라도\n한 번에 2만엔은 너무 심하잖아요!",
+            "LocalizeJP": "って、いやいや！\nそれでも一回で2万円は\n課金しすぎです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "충동 구매는 금지!\n소비는 계획적으로 해주세요!",
+            "LocalizeJP": "衝動買いは禁止！\n消費はちゃんと計画的にっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

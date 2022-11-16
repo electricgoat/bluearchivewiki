@@ -1,0 +1,314 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "최고의 봉사를 약속하며.\n주인님께 인사 올립니다.",
+            "LocalizeJP": "最高のご奉仕をお約束し、\nご主人様へのご挨拶と\n致します。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 공간은 잘 청소되어 있군요.\n유능한 메이드가\n대기 중인 게 분명해요.",
+            "LocalizeJP": "この場所はきれいに\n掃除されてますね。\n有能なメイドが待機\nしているに違いないです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "다이어트라….\n한때 그런 걸\n고민하던 시절도\n있었죠. 후훗.",
+            "LocalizeJP": "ダイエットですか…。\n一時、そういうことで\n悩んでいた時期も\nありましたね。ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "어서 오세요.\n따뜻한 홍차 한 잔,\n준비해 드릴까요?",
+            "LocalizeJP": "ようこそいらっしゃいました。\n温かい紅茶を一杯、\nご用意いたしましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "주인님, 선생님, 아니면… 달링?\n후훗.\n어떻게 불러드리는 걸\n더 좋아하실까요.",
+            "LocalizeJP": "ご主人様、先生、もしくは…ダーリン？\nふふっ。\nどのようにお呼びするのが\nお好きでしょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어머. 이런 건… 제가 할 일인데…\n제가 더 기운이 나버렸잖아요.\n주.인.님",
+            "LocalizeJP": "あら。これは…私がやる\nべきことでしたのに…。\nさらにやる気になってしまいましたよ。\nご・主・人・様。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요. 주인님.\n오늘도 고생 많으셨어요.",
+            "LocalizeJP": "おかえりなさいませ、ご主人様。\n今日もお疲れ様でした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "차라도 한 잔 드시겠어요?\n마침 최고급 찻잎이\n들어왔답니다.",
+            "LocalizeJP": "お茶でもいかがでしょうか？\nちょうど最高級の茶葉が\n入りましたよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "네에~\n서류는 제가 정리해 두었답니다.\n맡겨주세요.",
+            "LocalizeJP": "はい。書類は私が\n片づけておきました。\nお任せください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "원하시는 걸 말씀해 주세요.\n최고의 봉사로, 보답할게요.",
+            "LocalizeJP": "何かお望みでしょうか。\n最高のご奉仕で、\nお応えします。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "읽.어.드.릴.까.요?",
+            "LocalizeJP": "お・読・み・い・た・し・\nま・しょ・う・か？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "우아하지 못한 부탁일지도 몰라요.\n하지만, 주인님.",
+            "LocalizeJP": "優雅な願いでは\nないかもしれません。\nでも、ご主人様。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "앞으로도 아카네를 불러주세요.",
+            "LocalizeJP": "これからもアカネを\nお呼びください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드립니다. 주인님.",
+            "LocalizeJP": "お誕生日おめでとう\nございます。ご主人様。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "주인님이 이곳에 와주셔서…",
+            "LocalizeJP": "ご主人様がここに\n来てくださって…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "주인님과 만난 그 순간부터,\n저는 늘 그 사실에 감사했답니다.",
+            "LocalizeJP": "ご主人様に出会った\nその瞬間から、\n私はその事にいつも\n感謝していました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많~~이 받으세요.",
+            "LocalizeJP": "明けましておめでとう\nございま～～っす。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Season_Newyear"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올 한 해도, 잘 부탁드립니다.\n주인님!",
+            "LocalizeJP": "今年一年も、よろしく\nお願いします。ご主人様！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "제 선물은 최고의\n봉사와 미소랍니다.",
+            "LocalizeJP": "私からの\nプレゼントは、\n最高のご奉仕と\n笑顔です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "선생님의 선물은 뭔가요?",
+            "LocalizeJP": "先生からの\nプレゼントは何ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "자아. 사탕을 주지 않으면, \n장난을 칠 거에요~?",
+            "LocalizeJP": "さあ。飴をくれないと、\nいたずらしますよ～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "전 장난이 더 좋지만요.",
+            "LocalizeJP": "私は、いたずらの方が\n好きですけどね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "기대 받는다는 건, 이토록 설레는 일이었군요.\n아카네는, 주인님께 최고의 봉사로 보답하겠습니다.",
+            "LocalizeJP": "期待されるとは、\nこんなにもときめくことだったのですね。\nアカネは、ご主人様に\n最高のご奉仕で応えます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Akane_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아, 주인님. \n마침 최고급 찻잎이 들어왔답니다.",
+            "LocalizeJP": "あ、ご主人様。ちょうど\n最高級の茶葉が入りましたよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "제가 한 잔 준비해드릴까요?",
+            "LocalizeJP": "私の方で一杯、\nご用意いたしましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "네?\n여긴 우리들의 집이 아니라고요?",
+            "LocalizeJP": "はい？ここは、私たちの\nお家ではないですって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후훗.\n상관 없어요.",
+            "LocalizeJP": "ふふっ。\n気にしません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "우리들의 집은 아니지만,\n우리는 지금 함께 있으니까요.",
+            "LocalizeJP": "私たちのお家ではなくても、\n私たちは今一緒に\nいるのですから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

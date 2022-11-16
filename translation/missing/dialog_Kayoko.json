@@ -1,0 +1,304 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "화난 건 아니니 오해하진 마. 선생.\n얼굴이 무섭다는 말은 자주 들으니까.",
+            "LocalizeJP": "怒ってないから、\n誤解しないでね。先生。\n顔が怖いってよく言われるんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "흠,\n조금은 흥미가\n생기는데.",
+            "LocalizeJP": "ふーん、少しは興味が\n沸いてきた。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "앞으로의\n계획은…\n뭐, 괜찮으려나.",
+            "LocalizeJP": "これからの計画は…\nまあ、いいか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "의외로… 귀엽다고?\n흠. 재미없는… 농담이네.",
+            "LocalizeJP": "意外と…可愛い？\nふうん、\nつまらない冗談…だね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "뭐, 무섭게 생겼다는 건\n알고 있어.",
+            "LocalizeJP": "まあ、怖い顔だっていうのは\nわかってる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생.\n그럼 일을 시작해볼까.",
+            "LocalizeJP": "おかえり、先生。\nじゃあ仕事を始めようか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "다음 의뢰가 들어왔어.\n어쩐지 익숙하네.",
+            "LocalizeJP": "次の依頼が入った。\nこの感じ、なんだか\n慣れ親しんだやつだね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "샬레는 흥신소랑\n닮은 구석이 있는 거 같아.",
+            "LocalizeJP": "シャーレは、便利屋と\n似ているところが\nあるように感じる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "볼일이라도 있어?\n뭐, 문제가 있으면\n해결해 주겠지만.",
+            "LocalizeJP": "なんか用？\nまあ、問題があったら\n解決してあげるけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…알아.\n무서운 얼굴이라는 거.\n오해를 자주 받으니까.",
+            "LocalizeJP": "…知ってる。\n怖い顔だってね。\nよく誤解されるから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "귀엽…다고? \n장난하지 마, 선생.",
+            "LocalizeJP": "かわ…いい？\nふざけないで、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "선생을 돕겠어.\n그것이 약속이니까.",
+            "LocalizeJP": "先生を手伝う。\nそれが約束だから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그것이 프로의 자세니까.",
+            "LocalizeJP": "それがプロとしての\n心構えだから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "음, 이런 날엔\n무슨 얘길 해야하는 거지….",
+            "LocalizeJP": "うーん、こういう日って\nどんな話をすればいいんだ…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일? \n으음.",
+            "LocalizeJP": "誕生日？えっと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "아니, 흥신소 이외의 사람에게\n축하 받는건 처음이라….",
+            "LocalizeJP": "いや、便利屋以外の人に\nお祝いしてもらったのは\n初めてで…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스.\n연인들의 날이라….",
+            "LocalizeJP": "メリークリスマス。\n恋人たちの日か…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "거리가 눈부시고,\n달콤한 것으로 가득 하네.\n난 익숙하지 않은 분위기라….",
+            "LocalizeJP": "街が眩しくて、甘そうな\nものでいっぱいだ。\nあんまり慣れない空気…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "그래도 밖으로\n같이 한 번 나가볼까?",
+            "LocalizeJP": "でも、一緒に\n行ってみようか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생의 결정에 이견은 없지만 말야.\n하아… 아무것도 아니야.\n기대하는 만큼 열심히 노력해 볼게.",
+            "LocalizeJP": "先生が決めたことなら異論はないけど……。\nはあ……何でもない。\n期待されてる分、頑張るよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Kayoko_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여기까지 따라 올 필요는\n없는데 말야, 선생.",
+            "LocalizeJP": "ここまで付いてこなくても\nよかったのに、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그냥 비가 오니까\n와 봤던 거뿐이야.",
+            "LocalizeJP": "雨が降ってたから、\n見に来ただけ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…아마 괜찮겠지.\n혼자서도 잘 지내는\n녀석이니까.",
+            "LocalizeJP": "…多分、大丈夫。\n一人でも平気な子だから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "얽매이는 것도,\n상처받을 일도 없으니\n좋지만….",
+            "LocalizeJP": "縛られることも、\n傷つけられることも\nないのはいいけど…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그래도 혼자는\n쓸쓸하니까….",
+            "LocalizeJP": "でも、一人は\n寂しいから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "…내버려 둘 수 없는\n녀석이니까. 그냥 그뿐이야.",
+            "LocalizeJP": "…放っておけなかった。\nただ、それだけ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "다른 뜻은 아니라고.\n응, 선생?",
+            "LocalizeJP": "別に深い意味はないから。\n先生、分かった？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -1,0 +1,306 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "트리니티 정의실현부 1학년, 마시로.\n어떤 장소라도, 어떤 상황이라도,\n전력으로 선생님을 지원하겠습니다.",
+            "LocalizeJP": "トリニティの正義実現委員会１年、マシロ。どんな場所でも、いついかなる状況でも、全力で先生のことを支援します。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭔가 수상한 시선이\n느껴집니다만…….",
+            "LocalizeJP": "なんだか視線を\n感じます……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "설마, 이런 곳에서도\n분란을 일으키려는\n문제 학생은 없겠지요?",
+            "LocalizeJP": "まさか、こんなところで\n問題を起こそうとする\n問題児はいませんよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(다음엔,\n선배들과 함께……)",
+            "LocalizeJP": "（次は、先輩たち\nみんなと一緒に……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(마침 좋은 곳에\n저격 포인트가 있군요.)",
+            "LocalizeJP": "（ここ、\n狙撃ポイントとして\n良さそうですね）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(호수의 물처럼\n흔들림 없이\n잔잔하게…….)",
+            "LocalizeJP": "（心は水面のように。\n揺れを徐々に、\n静かに……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n오늘의 훈련은 무엇인가요?",
+            "LocalizeJP": "おかえりなさい、先生。\n今日の訓練は何をしましょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기다리고 있었습니다, 선생님.\n바로 물놀이를……",
+            "LocalizeJP": "お待ちしておりました、先生。\nすぐに遊びに……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아니, 훈련을 하러 떠나죠!",
+            "LocalizeJP": "い、いえ、\n訓練に行きましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어떤 환경에서도\n정의는 변치 않습니다!",
+            "LocalizeJP": "どんな場所であっても、\n正義は不変です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……이것 말인가요?\n평범한 아이스 캔디입니다만?",
+            "LocalizeJP": "……これですか？普通の\nアイスキャンディーですよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "제가 먹던 것이라도\n괜찮으시다면……\n드시겠습니까?",
+            "LocalizeJP": "私の食べかけでも\nよろしければ……\n食べますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생신 축하드립니다, 선생님.",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님의 오늘 하루가\n완벽하도록 제가 옆에서\n밀착 경호를 하겠습니다.",
+            "LocalizeJP": "先生の今日という日が\n完璧なものになるように、\n私がすぐ隣で密着警護します。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "제 생일 선물 말입니까?\n그렇군요……",
+            "LocalizeJP": "誕生日プレゼント、\nですか？そうですね……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님과 함께 아이스 캔디를\n먹을 수 있다면, 그걸로\n충분합니다.",
+            "LocalizeJP": "先生と一緒に\nアイスキャンディーを\n食べられれば、\nそれで充分です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으시길.\n올해의 여름 훈련도\n기대하고 있겠습니다.",
+            "LocalizeJP": "明けましておめでとう\nございます。\n今年の夏の訓練も、\n楽しみにしていますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "어느새 여름이 지나고\n크리스마스가……",
+            "LocalizeJP": "いつの間に、\n夏が過ぎてクリスマスに……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "즐거운 시간은 참 빨리 가네요.",
+            "LocalizeJP": "楽しい時間が\n経つのは早いですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "학생 식당에서 나오는\n따끈한 호박 스프가\n그리워지는 계절이네요……",
+            "LocalizeJP": "学食で出てくるあの、\n温かいかぼちゃスープが\n恋しくなる季節ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0061_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님은 아이스 캔디를\n깨물어서 드시나요,\n녹여서 드시나요?",
+            "LocalizeJP": "先生はアイスキャンディー、\n噛んで食べる派ですか？\nそれとも舐める派ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "저는 천천히 녹여서\n먹는 편이랍니다.",
+            "LocalizeJP": "私は、\nゆっくり舐めて\n食べる派です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그 편이 아이스 캔디의\n맛을 오래 즐길 수 있거든요.",
+            "LocalizeJP": "その方が、\nアイスキャンディーの味を\n長く楽しめますから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "냠…… 핥짝, 핥짝.",
+            "LocalizeJP": "はむっ……\nぺろっ、れろっ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……네?\n먹는 방법이\n이상하다고요?",
+            "LocalizeJP": "……はい？\n食べ方がちょっと……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "저는 평범하다고 생각합니다만……\n뭔가 이상한가요?",
+            "LocalizeJP": "私としては、\nいつも通りなのですけど……\n何か変でしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 20004,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님……\n어쩐지 또 수상한 표정을\n짓고 계십니다만…….",
+            "LocalizeJP": "……先生？\nなんだかまた、\n変な表情をされてる\n気がするのですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

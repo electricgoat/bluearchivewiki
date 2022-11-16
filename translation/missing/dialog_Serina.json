@@ -1,0 +1,290 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "다치신 분은 어디에 계신가요?\n제가 바로 찾아갈게요.",
+            "LocalizeJP": "ケガをされた方はいらっしゃいますか?\n私がすぐに駆け付けますよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여기, 아프신 분은 없으신가요?",
+            "LocalizeJP": "ここに、体調が\n悪い人はいませんか?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "보고만 있어도\n마음이 따듯해지는 공간이네요.",
+            "LocalizeJP": "見ているだけで心が\n温かくなる空間ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이런 곳이라면\n환자들도 빨리 완쾌할 수 있을 거예요.",
+            "LocalizeJP": "こういうところなら、\n患者さんたちも早く\n完治できると思います。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "가끔은 이런 여유를\n즐기는 것도 나쁘지 않네요.",
+            "LocalizeJP": "たまにはこうして、\n余裕を楽しむのも\n悪くないですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n오늘 컨디션은 어떠신가요?",
+            "LocalizeJP": "ようこそ、先生。\n今日のご体調は\nいかがですか?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기다리고 있었어요, 선생님.\n오늘도 평화로운 세계를 \n위해 함께 노력하죠!",
+            "LocalizeJP": "お待ちしておりました、先生。\n今日も平和な世界のために\n一緒に頑張りましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "앗, 새로운 환자인가요?",
+            "LocalizeJP": "あっ、\n新たな患者さんですか?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "피곤해 보이시네요… \n어깨라도 주물러 드릴까요?",
+            "LocalizeJP": "お疲れのようですね…\n肩でも揉んで\nさしあげましょうか?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "피로는 만병의 원인! \n너무 무리하지 마세요.",
+            "LocalizeJP": "疲れは万病の元！\nあまり無理しないでくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아픈 환자들을 생각하면 \n언제나 가슴이 아파요…",
+            "LocalizeJP": "患者さんたちのことを思うと、\nいつも胸が痛みます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "평화를 깨트리는 악당은 \n용서할 수 없어요!",
+            "LocalizeJP": "平和を乱す\n悪党は許せません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하드려요, 선생님!\n오늘 하루는 행복만 \n가득하시길 바랄게요!",
+            "LocalizeJP": "お誕生日おめでとう\nございます、先生！\n今日一日が、幸せで\nいっぱいである\nことを願ってます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일 축하해 주셔서 감사합니다. \n…생일 선물요?",
+            "LocalizeJP": "祝ってくださって\nありがとうございます。\n誕生日プレゼント、ですか?",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님의 웃는 얼굴만으로도 충분해요!",
+            "LocalizeJP": "先生の笑顔だけでも\n十分ですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요!\n새해부터 감기에 걸리지 않도록\n옷은 꼭 따듯하게 입으세요!",
+            "LocalizeJP": "明けましておめでとう\nございます！新年から\n風邪ひかないように、\nしっかり暖かく\n着込んでくださいね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "메리 크리스마스, 선생님. \n오늘만큼은 모두 싸우지 말고 \n평화로운 하루가 되었으면 좋겠네요.",
+            "LocalizeJP": "メリークリスマス、先生。\n今日ぐらいは皆さん\nケンカしないで、\n平和な一日になると\nいいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈 사탕을 선물받았어요!",
+            "LocalizeJP": "ハロウィンの\n飴をいただきました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "사탕은 달콤하지만… \n너무 많이 먹으면,\n이가 썩어버릴 거에요…",
+            "LocalizeJP": "飴は甘くて美味しいけど\n食べ過ぎるときっと\n虫歯になっちゃいます…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "주사가 아프다고\n도망치시면 안 돼요!",
+            "LocalizeJP": "注射が痛いからって\n逃げたらだめですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Serina_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이럴 땐 어떻게 해야 하나요?\n이런 적이 없었어서…",
+            "LocalizeJP": "こういうことを\nしてもらったのは初めてで、\n何だかちょっと\n戸惑ってしまって……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "후훗.\n…이런 분은 처음이네요.",
+            "LocalizeJP": "……こんな方に出会ったのは、\n初めてです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭐, 중요한 건\n지금의 기분이겠지요.",
+            "LocalizeJP": "すみません、ちょっと\n混乱してしまったのですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님 덕분에 지금,\n세리나는 너무나도 기쁘니까요!",
+            "LocalizeJP": "ありがとうございます、\nとっても嬉しいです……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "…여러가지로요.",
+            "LocalizeJP": "……先生のおかげなんです、\nこの気持ちは。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

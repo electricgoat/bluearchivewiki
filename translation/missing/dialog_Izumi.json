@@ -1,0 +1,404 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우와-!! 날 찾아준 거야?\n같이 맛있는 거 먹자!!",
+            "LocalizeJP": "うわ！！私のことを探して\nくれてたの？一緒に\n美味しいもの食べに行こうよ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "햄버거가 열리는\n나무가 있으면 좋겠어!\n언젠가 개발되지 않으려나?",
+            "LocalizeJP": "ハンバーガーが実る木が\nあったらいいのに！\nいつか開発されるんじゃ\nないかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "좋아!\n음식을 찾아보겠어!",
+            "LocalizeJP": "よし！\n食べ物を探してみる！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "특기가 뭐냐고?\n응! 먹는 거지!",
+            "LocalizeJP": "特技？\nうん！食べることかな！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "식사 시간이면\n날 불러야지!",
+            "LocalizeJP": "食事の時間だったら\n私を呼んでくれないと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와 선생님!\n기다리고 있었어!\n빨리 밥 먹으러 가자!",
+            "LocalizeJP": "ようこそ先生！\n待ってたよ！\n早くご飯食べに行こう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "선생님!\n오늘은 무엇을 먹으러 갈까~",
+            "LocalizeJP": "先生！今日は何を\n食べに行こっか～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "나쁜 식당을 혼내주러\n가는 임무 없으려나.",
+            "LocalizeJP": "美味しくない、\n悪い店をやっつけに\n行く任務とかないかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "샬레 근처에 맛집은\n뭐가 있으려나?",
+            "LocalizeJP": "シャーレの近くに\n美味しいお店ないかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "트리니티 쪽 식당을\n털어본 적은 있는데….",
+            "LocalizeJP": "トリニティの食堂で\n食べ尽くしちゃったから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아!\n이거 말하면 안 되는 거였나…?",
+            "LocalizeJP": "あ、これは言っちゃダメな\nやつだったっけ…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "응? 그 과자 주는 거야?",
+            "LocalizeJP": "うん？\nこのお菓子くれるの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(아까 그 문어 팬케이크….\n맛있어 보이던데….)",
+            "LocalizeJP": "（さっきのあの\nタコのパンケーキ…\n美味しそうだったな…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "음… 치킨 맛이겠네.",
+            "LocalizeJP": "多分…\nチキンの味に\n近いんだろうな～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "그럼 카페를 전세내서\n하루종일 케이크를 먹자!",
+            "LocalizeJP": "だったらカフェを貸し切って、\n一日中ケーキを食べよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "내가 하루종일 함께 있을게!",
+            "LocalizeJP": "今日一日、\n私が一緒にいてあげる！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "짜잔~\n오늘이 무슨 날인줄 알아?",
+            "LocalizeJP": "じゃーん！\n今日が何の日か知ってる？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "엣헴!\n무조건 맛있는 걸 먹는 날이야~!",
+            "LocalizeJP": "えっへん！\nとにかく美味しいものを\n食べる日なんだ～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "함께 케이크 먹자!\n특별히 나눠줄 테니까?",
+            "LocalizeJP": "じゃ、一緒に\nケーキ食べよう！\n特別に少し分けて\nあげてもいいよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "설날이야!\n어서 떡이랑 팥죽 먹어야지!",
+            "LocalizeJP": "お正月だよ！\n早くお餅とおしるこを\n食べなきゃ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Season_Newyear"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "저쪽에 가면 감주도 준대!",
+            "LocalizeJP": "あっちに行ったら\n甘酒もくれるんだって！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "칠면조와 생크림\n케이크가 맛있지~",
+            "LocalizeJP": "七面鳥とか生クリームの\nケーキが美味しいよね～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "두 개를 합쳐\n먹으면 더 맛있지~",
+            "LocalizeJP": "それを一緒に食べると、\nもっと美味しいよね～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "안녕 선생님!\nTreat or Treat야!\n빨리 나가보자!",
+            "LocalizeJP": "やっほー先生！\nTreat or Treat！だよ！\n早く行ってみよう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "수박만한 사탕도 있대!",
+            "LocalizeJP": "スイカぐらい大っきい\n飴もあるんだって！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "맛있는 걸 먹기 위한 도구가\n또 하나 늘어나 버렸어!\n물론 젓가락 같은 그런 거랑은 다르지만…….\n이걸로 이것저것 잔뜩 또 먹자, 선생님!",
+            "LocalizeJP": "美味しいものを食べるための道具が\nまた一つ増えちゃった！もちろん\nお箸とかそういうのとは違うけど……。\nこれで、あれこれいっぱい\n食べに行こう、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Izumi_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "고, 고양이들이 하도 \n맛있게 먹고 있다 보니,\n나도 모르게…!",
+            "LocalizeJP": "ね、猫ちゃんたちが\nあまりにも美味しそうに\n食べてたから、つい…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후에에엥?!\n자, 잠깐만 할퀴지 마아!",
+            "LocalizeJP": "って、ふえええっ？！\nま、待って！\n引っ掻かないで～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "왜애~!?\n고양이들이 습격해온다~!",
+            "LocalizeJP": "何でぇ～！？\n猫ちゃんたちが襲ってくる～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "하, 하지만!\n엄청 맛있어 보였는걸!",
+            "LocalizeJP": "だ、だって！\nすごく美味しそう\nだったんだもん！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그리고! 나,\n미식연구회의 일원이니까!",
+            "LocalizeJP": "そ、それに！\n私、美食研究会の一員だし！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "신경 쓰인 건\n일단 먹어보지 않으면……!",
+            "LocalizeJP": "気になったものは\nまず食べてみないと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "더군다나 이거\n<참치맛>, <고급> 이라고\n쓰여 있었고……! ",
+            "LocalizeJP": "おまけにこれ\n「ツナ味」、「高級」って\n書いてあるし…！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "이런 좋은 걸\n너희들끼리만\n먹다니 용서 못 해!",
+            "LocalizeJP": "こんな良いものを\nあなたたちだけで\n食べるなんて許せない！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "맛있는 건\n같이 나눠 먹어야지!",
+            "LocalizeJP": "美味しいものは、\n一緒に分け合って食べないと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아얏! 그, 그러니까\n미안하다니까!",
+            "LocalizeJP": "あ痛！\nだ、だからごめんってば！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 6,
+            "LocalizeKR": "후에에!\n깨물지 마아~!",
+            "LocalizeJP": "ふええ！\n噛まないで～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -1,0 +1,334 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "저, 정말로 여기 있어도\n괜찮은 걸까…….",
+            "LocalizeJP": "こ、ここにいても、\n本当に良いのか……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "으, 으헉!?\n선생님……!?",
+            "LocalizeJP": "うぅ、はっ！？\nせ、先生……！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그게…… 저기……\n으으…… 으아아아-!",
+            "LocalizeJP": "え、えっと……\nあのぅ……うう……\nうああぁぁぁあ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "차라리 싸움터가\n마음 편해…….",
+            "LocalizeJP": "戦場より、\n落ち着かない……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "저, 저는……\n이런 장소는 좀……!",
+            "LocalizeJP": "わ、私にはその、\nこういうところは\nあまり……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "오, 오늘도\n잘 부탁드립니다…….",
+            "LocalizeJP": "きょ、今日もよろしく、\nお願いします……っ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "기, 기다리고 있었습니다.\n선생님!",
+            "LocalizeJP": "お、お待ちして\nおりました！\n先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "크히…… 히히히……\n크히히히히!!",
+            "LocalizeJP": "くひ……くひひ……\nくひひひひ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하하하하!!!!\n캬캬캬캬!!",
+            "LocalizeJP": "ははははははははは！！！\nきゃひゃひゃひゃひゃ！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……에?\n서, 선생님……?",
+            "LocalizeJP": "……あっ。\nせ、先生……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "에……?\n아까 전부터 계속……!?\n그, 그럼……!!",
+            "LocalizeJP": "え……？\nさっきからずっと……！？\nそ、そんな……！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "새, 생일이라니……\n뭐, 뭐든지 말씀만\n해주십시오, 선생님……!",
+            "LocalizeJP": "せ、先生のお誕生日……！\nわ、私にできることなら、\n何でも言ってください、\n先生……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "……에? 생일……?\n제, 제 생일 축하를……!?",
+            "LocalizeJP": "……え？誕生日……？\nわ、私の誕生日をお祝い……！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "……가, 감사합니다……선생님.",
+            "LocalizeJP": "……あ、ありがとう\nございます、先生……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해도 잘 부탁드립니다,\n선생님…….",
+            "LocalizeJP": "こ、今年もよろしく\nお願いします、先生……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "뭐, 뭔가 이 날에\n맞는 옷이 아닌 것 같은……",
+            "LocalizeJP": "こ、こういう日には\nあまり相応し\nくない身なりかもしれません……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "……네? 이것대로\n괜찮으시다고요……?",
+            "LocalizeJP": "……え？\n逆に悪くない、ですか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "거리 전체가 이상하게\n빛나고, 번화하고……",
+            "LocalizeJP": "街全体が怪しく光ってて、\n賑やかで……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "이것이, 할로윈……",
+            "LocalizeJP": "これが、\nハロウィン……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "으흐흐흐…… 이걸로 확실하게…….\n\r으히히히히히!!!",
+            "LocalizeJP": "うふふふ……これで、確実に……\nうひひひひひっ！！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0060_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "카하하하하하-",
+            "LocalizeJP": "きひっ、\nきゃははははははっ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 죄송합니다.\n……감사합니다, 선생님.",
+            "LocalizeJP": "あ、すみません……\nありがとうございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이렇게 바다에서 논 건\n처음이라…….",
+            "LocalizeJP": "こうして海で遊んだのは、\n初めてでして。\n楽しいですが、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "즐겁습니다만, 생각보다\n체력이 필요한 일이었군요…….",
+            "LocalizeJP": "同時に思ったより体力が\n要るものなのですね……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……조금 지쳤습니다.",
+            "LocalizeJP": "ちょっとだけ、\n疲れました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그러고 보니 선생님,\n갑자기 든 생각인데…….",
+            "LocalizeJP": "……そういえば先生。\nふと思い出したのですが、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "이 수영복, 조금 갑갑해서…….",
+            "LocalizeJP": "この水着ずっと、\n少し窮屈で…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "혹시 사이즈가\n안 맞는 걸까요…….",
+            "LocalizeJP": "もしかして、\nサイズが合って\nないのでしょうか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "어, 어라……\n왜 그러십니까?",
+            "LocalizeJP": "あ、あれ……\nど、どうかしましたか！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16005,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "제, 제, 제가\n또 뭔가 실수를……?!",
+            "LocalizeJP": "わ、わ、私また、\n何か変なことを……！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}
