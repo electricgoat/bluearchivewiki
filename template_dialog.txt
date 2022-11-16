@@ -79,10 +79,10 @@
 {%- endraw %}
 {% for line in standard_lines -%}
 |-
-| {{line.replace(character.model_prefab_name.replace('_Original','').replace('_','')+'_','').replace('.ogg','')}}
-| [[File:{{line.replace(character.model_prefab_name.replace('_Original','').replace('_',''),character.name_translated).replace(' ','_')}}]]
-| 
-| 
+| {{line['Title']}}
+| [[File:{{line['WikiName'].replace(' ','_')}}]]
+| {{line['LocalizeJP']}}
+| {{line['LocalizeEN']}}
 {% endfor -%}
 {% raw -%}
 |}

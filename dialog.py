@@ -18,8 +18,7 @@ import wiki
 
 
 args = None
-data = None
-scenario_data = None
+
 
 force_variant_link = {
     20011 : 19009025 #Serika Newyear
@@ -39,8 +38,9 @@ block_variant_link = {
 
 def generate():
     global args
-    global data, scenario_data
-
+    
+    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+    scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.filters['colorize'] = colorize
@@ -169,19 +169,17 @@ def generate():
         memorial_lines = [x for x in ml if x['WikiVoiceClip'] != [] or x['LocalizeJP'] != '']
             
         
+        sl = []
         file_list = os.listdir(args['data_audio'] != None and f"{args['data_audio']}/JP_{character.model_prefab_name}/" or [])
         for type in standard_line_types:
             #print(f"Gathering {type}-type standard lines")
-            standard_lines += [x for x in file_list if type in x.split('_')[1]]
+            sl += [x for x in file_list if type in x.split('_')[1]]
 
-        for file in standard_lines:
-            wiki_filename = f"{character.name_translated.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
-            if f"File:{wiki_filename}" not in page_list and wiki.site != None:
-                print (f"Uploading {wiki_filename}")
-                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{file}", wiki_filename, 'Character audio upload')
-
-        dd = [x for x in data.character_dialog if x['CharacterId'] == character.id and x['DialogCategory'] == 'Standard']
-        if dd: print (dd)
+        standard_lines = get_standard_lines(character, sl, data.character_dialog_standard)
+        for line in standard_lines:
+            if f"File:{line['WikiName']}" not in page_list and wiki.site != None:
+                print (f"Uploading {line['WikiName']}")
+                wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['Filename']}", line['WikiName'], 'Character audio upload')
 
 
         with open(os.path.join(args['outdir'], f'{character.name_translated}_dialog.txt'), 'w', encoding="utf8") as f:
@@ -208,8 +206,9 @@ def generate():
 
 def scavenge():
     global args
-    global data, scenario_data
 
+    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+    #scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
 
     for character in data.characters.values():      
         lines = []
@@ -245,7 +244,7 @@ def scavenge():
                 if line[2] == '' and line[3] == '':
                     continue
 
-                clip_name = f"{character.dev_name.replace('_default', '')}_{line[0]}"
+                clip_name = f"{character.dev_name.replace('_default', '').replace('_', '')}_{line[0]}"
 
                 standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('<p>','').replace('</p>','').replace('<br>','\n')})
 
@@ -253,20 +252,28 @@ def scavenge():
 
 
 
-# def get_standard_lines(character, dialog_data, files):
-#     lines = []
-    
-#     for index, line in enumerate(dialog_data):
-#         if line['CharacterId'] == character.id and line['DialogCategory'] == 'UILobbySpecial':
+def get_standard_lines(character, files, dialog_data):
+    lines = []
 
-#             if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''
-            
-#             line['LocalizeJP'] = len(line['LocalizeJP'])>0 and '<p>' + line['LocalizeJP'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
-#             line['LocalizeEN'] = len(line['LocalizeEN'])>0 and '<p>' + line['LocalizeEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
+    for file in files:
+        line = {}
+        line['Filename'] = file
+        line['VoiceClip'] = file[0:file.index('.')]
+        line['WikiName'] = f"{character.name_translated.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
+        line['Title'] = line['VoiceClip'].split('_', 1)[1]
 
-#             lines.append(line)
+        if line['VoiceClip'] in dialog_data:
+            line.update(dialog_data[line['VoiceClip']])
+        
+        if 'LocalizeJP' not in line or line['LocalizeJP'] == None: line['LocalizeJP'] = ''
+        if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''
+        
+        line['LocalizeJP'] = len(line['LocalizeJP'])>0 and '<p>' + line['LocalizeJP'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
+        line['LocalizeEN'] = len(line['LocalizeEN'])>0 and '<p>' + line['LocalizeEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
 
-#     return lines
+        lines.append(line)
+
+    return lines
 
 
 
@@ -444,10 +451,7 @@ def main():
 
 
     try:
-        data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
-        scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
-
-        #scavenge()
+        if (args['scavenge']): scavenge()
         generate()
     except:
         parser.print_help()

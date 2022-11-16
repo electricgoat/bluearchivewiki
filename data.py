@@ -13,7 +13,7 @@ BlueArchiveData = collections.namedtuple(
     'recipes', 'recipes_ingredients', 
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization',
-    'character_dialog','character_dialog_event',
+    'character_dialog','character_dialog_event','character_dialog_standard',
     'scenario_script_favor','levelskill','logiceffectdata',
     'guide_mission','guide_mission_season','localize_code', 'localization',
     'furniture', 'furniture_group']
@@ -48,6 +48,7 @@ def load_data(path_primary, path_secondary, path_translation):
         etc_localization=load_etc_localization(path_primary, path_secondary, path_translation),
         character_dialog=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
         character_dialog_event=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json'),
+        character_dialog_standard=load_character_dialog_standard(path_translation),
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
         levelskill = load_levelskill(path_primary),
         logiceffectdata = load_skill_logiceffectdata(path_primary),
@@ -267,16 +268,17 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
     
 
     for line in data_secondary:
-        ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])] = line 
+        ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'].replace('\n\r','\n').replace('\r',''))] = line 
 
     for line in data_aux:
-        da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])] = line 
+        da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'].replace('\n\r','\n').replace('\r',''))] = line 
 
     for line in data_primary:
         try: 
-            
-            if (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in da: line['LocalizeEN'] = da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN']
-            elif (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in ds: line['LocalizeEN'] = ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN']
+            line['LocalizeJP'] = line['LocalizeJP'].replace('\n\r','\n').replace('\r','')
+
+            if (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in da: line['LocalizeEN'] = da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN'].replace('\n\r','\n')
+            elif (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in ds: line['LocalizeEN'] = ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN'].replace('\n\r','\n')
             elif 'LocalizeEN' not in line: line['LocalizeEN'] = ''
 
         except KeyError:
@@ -285,6 +287,24 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
             pass
 
         data.append(line)
+
+    return data
+
+
+def load_character_dialog_standard(path_translation):
+    data = {}
+    data_aux = []
+
+    for file in os.listdir(path_translation + '/audio/'):
+        if not file.endswith('.json') or not file.startswith('standard_'):
+            continue
+
+        #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
+        with open(os.path.join(path_translation + '/audio/', file), encoding="utf8") as f:
+            data_aux += json.load(f)['DataList']
+
+    for line in data_aux:
+        data[line['VoiceClip']] = line 
 
     return data
 

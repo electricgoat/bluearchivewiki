@@ -64,7 +64,7 @@ def page_list(match):
         else:
             print (f"Unknown upload error {error}")
 
-    print(f"Fetched {len(page_list)} pages that match {match}")
+    #print(f"Fetched {len(page_list)} pages that match {match}")
     return page_list
 
 
