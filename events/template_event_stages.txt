@@ -1,0 +1,43 @@
+=={{stage_type}} Stages==
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible stagetable"
+|-
+! rowspan="2" |
+! rowspan="2" |Stage
+! rowspan="2" |Level
+! rowspan="2" |Entry cost
+! rowspan="2" |Environment
+! rowspan="2" |Enemy armor
+! colspan="{{rewardcols}}" |Rewards
+|-
+{%- if 'FirstClear' in reward_types %}
+!style="font-stretch: condensed;"|FirstClear{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+!style="font-stretch: condensed;"|ThreeStar{% endif %}
+{%- if 'Event' in reward_types %}
+!Event{% endif %}
+{%- if 'Default' in reward_types %}
+!Default{% endif %}
+{%- if 'Rare' in reward_types %}
+!Rare{% endif %}
+{% for stage in stages -%}
+|-
+|{{stage.stage_number}}{% if stage.content_type == "EventContentStoryStage" %}{% raw %}<br>{{Icon|Story|title=Story stage}}{% endraw %}{% endif %}
+| style="text-align: left;" |{{stage.name}}
+|{{stage.rec_level}}
+|{{stage.wiki_enter_cost}}
+|{{stage.wiki_topography()}}
+| class="bg-element" |{% if stage.armor_type %}<span class="{{stage.armor_type.lower()}}">{{stage.armor_type}}</span>{% endif %}
+{%- if 'FirstClear' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['FirstClear'] -%}{{wiki_itemcard(reward, Card.QUANTITY)}}{% endfor %}</div>{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['ThreeStar'] -%}{{wiki_itemcard(reward, Card.QUANTITY)}}{% endfor %}</div>{% endif %}
+{%- if 'Event' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['Event'] -%}{{wiki_itemcard(reward, Card.QUANTITY)}}{% endfor %}</div>{% endif %}
+{%- if 'Default' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['Default'] -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>{% endif %}
+{%- if 'Rare' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['Rare'] -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>{% endif %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+

@@ -16,35 +16,44 @@ BlueArchiveData = collections.namedtuple(
     'character_dialog','character_dialog_event','character_dialog_standard',
     'scenario_script_favor','levelskill','logiceffectdata',
     'guide_mission','guide_mission_season','localize_code', 'localization',
-    'furniture', 'furniture_group']
+    'furniture', 'furniture_group',
+    'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
+    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_mission',
+    'ground', 
+    'gacha_elements', 'gacha_elements_recursive', 'gacha_groups']
 )
+
+# BlueArchiveTranslations = collections.namedtuple(
+#     'BlueArchiveTranslations',
+#     ['strategies']
+# )
 
 
 def load_data(path_primary, path_secondary, path_translation):
     return BlueArchiveData(
-        characters=load_characters(path_primary),
-        characters_ai=load_characters_ai(path_primary),
-        characters_localization=load_characters_localization(path_primary),
-        characters_skills=load_characters_skills(path_primary),
-        characters_stats=load_characters_stats(path_primary),
-        characters_cafe_tags = load_characters_cafe_tags(path_primary),
-        skills=load_skills(path_primary),
-        skills_localization=load_skills_localization(path_primary),
-        translated_characters = load_characters_translation(path_translation),
-        translated_skills =  load_skills_translation(path_translation),
-        weapons = load_weapons(path_primary),
-        translated_weapons = load_weapons_translation(path_translation),
-        gear = load_gear(path_primary),
-        currencies=load_currencies(path_primary),
-        translated_currencies=load_currencies_translation(path_translation),
-        items=load_items(path_primary),
-        equipment=load_equipment(path_primary),
+        characters=                 load_generic(path_primary, 'CharacterExcelTable.json'),
+        characters_ai=              load_generic(path_primary, 'CharacterAIExcelTable.json'),
+        characters_localization=    load_generic(path_primary, 'LocalizeCharProfileExcelTable.json', key='CharacterId'),
+        characters_skills=          load_characters_skills(path_primary),
+        characters_stats=           load_generic(path_primary, 'CharacterStatExcelTable.json', key='CharacterId'),
+        characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
+        skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
+        skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
+        translated_characters =     load_characters_translation(path_translation),
+        translated_skills =         load_skills_translation(path_translation),
+        weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
+        translated_weapons =        load_weapons_translation(path_translation),
+        gear =                      load_gear(path_primary),
+        currencies=                 load_generic(path_primary, 'CurrencyExcelTable.json', key='ID'),
+        translated_currencies=      load_currencies_translation(path_translation),
+        items=                      load_generic(path_primary, 'ItemExcelTable.json'),
+        equipment=                  load_generic(path_primary, 'EquipmentExcelTable.json'),
         #translated_items=load_items_translation(path_translation),
-        recipes=load_recipes(path_primary),
-        recipes_ingredients=load_recipes_ingredients(path_primary),
+        recipes=                    load_generic(path_primary, 'RecipeExcelTable.json'),
+        recipes_ingredients=        load_generic(path_primary, 'RecipeIngredientExcelTable.json'),
         favor_levels=load_favor_levels(path_primary),
         favor_rewards=load_favor_rewards(path_primary),
-        memory_lobby=load_memory_lobby(path_primary),
+        memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='CharacterId'),
         etc_localization=load_etc_localization(path_primary, path_secondary, path_translation),
         character_dialog=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
         character_dialog_event=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json'),
@@ -52,29 +61,47 @@ def load_data(path_primary, path_secondary, path_translation):
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
         levelskill = load_levelskill(path_primary),
         logiceffectdata = load_skill_logiceffectdata(path_primary),
-        guide_mission = load_generic(path_primary, 'GuideMissionExcelTable.json'),
-        guide_mission_season = load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
+        guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
+        guide_mission_season =      load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
         localize_code = load_localize_code(path_primary, path_secondary, path_translation),
         localization=load_localization(path_primary, path_secondary, path_translation),
-        furniture=load_furniture(path_primary),
-        furniture_group=load_furniture_groups(path_primary)
+        furniture=                  load_generic(path_primary, 'FurnitureExcelTable.json'),
+        furniture_group=            load_generic(path_primary, 'FurnitureGroupExcelTable.json'),
+        campaign_stages=            load_generic(path_primary, 'CampaignStageExcelTable.json'),
+        campaign_stage_rewards=     load_campaign_stage_rewards(path_primary),
+        campaign_strategy_objects=  load_generic(path_primary, 'CampaignStrategyObjectExcelTable.json'),
+        campaign_units=             load_generic(path_primary, 'CampaignUnitExcelTable.json'),
+        event_content_seasons=      load_event_content_seasons(path_primary),
+        event_content_stages=       load_generic(path_primary, 'EventContentStageExcelTable.json'),
+        event_content_stage_rewards=load_event_content_stage_rewards(path_primary),
+        event_content_mission=      load_generic(path_primary, 'EventContentMissionExcelTable.json'),
+        ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
+        gacha_elements=             load_gacha_elements(path_primary),
+        gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
+        gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
     )
 
 
-def load_generic(path, filename):
-    return load_file(os.path.join(path, 'Excel', filename))
+
+def load_generic(path, filename, key='Id'):
+    return load_file(os.path.join(path, 'Excel', filename), key)
 
 
-def load_characters(path):
-    return load_file(os.path.join(path, 'Excel', 'CharacterExcelTable.json'))
+def load_file(file, key='Id'):
+    with open(file,encoding="utf8") as f:
+        data = json.load(f)
+
+    return {item[key]: item for item in data['DataList']}
 
 
-def load_characters_ai(path):
-    return load_file(os.path.join(path, 'Excel', 'CharacterAIExcelTable.json'))
+def load_file_grouped(file, key="Id"):
+    with open(file,encoding="utf8") as f:
+        data = json.load(f)
+    groups = collections.defaultdict(list)
+    for item in data['DataList']:
+        groups[item[key]].append(item)
 
-
-def load_characters_localization(path):
-    return load_file(os.path.join(path, 'Excel', 'LocalizeCharProfileExcelTable.json'), key='CharacterId')
+    return dict(groups)
 
 
 def load_characters_skills(path):
@@ -87,45 +114,9 @@ def load_characters_skills(path):
         in data['DataList']
     }
 
-
-def load_characters_stats(path):
-    return load_file(os.path.join(path, 'Excel', 'CharacterStatExcelTable.json'), key='CharacterId')
-
-
-def load_currencies(path):
-    return load_file(os.path.join(path, 'Excel', 'CurrencyExcelTable.json'), key='ID')
-
-
-def load_file(file, key='Id'):
-    with open(file,encoding="utf8") as f:
-        data = json.load(f)
-
-    return {item[key]: item for item in data['DataList']}
-
-
-def load_items(path):
-    return load_file(os.path.join(path, 'Excel', 'ItemExcelTable.json'))
-
-def load_equipment(path):
-    return load_file(os.path.join(path, 'Excel', 'EquipmentExcelTable.json'))
-
-def load_recipes(path):
-    return load_file(os.path.join(path, 'Excel', 'RecipeExcelTable.json'))
-
-def load_recipes_ingredients(path):
-    return load_file(os.path.join(path, 'Excel', 'RecipeIngredientExcelTable.json'))
-
-def load_skills(path):
-    return load_file(os.path.join(path, 'Excel', 'SkillExcelTable.json'))
-
-def load_skills_localization(path):
-    return load_file(os.path.join(path, 'Excel', 'LocalizeSkillExcelTable.json'), key='Key')
-
 def load_characters_translation(path):
     return load_file(os.path.join(path, 'CharProfile.json'), key='CharacterId')
 
-def load_weapons(path):
-    return load_file(os.path.join(path, 'Excel', 'CharacterWeaponExcelTable.json'), key='Id')
 
 def load_weapons_translation(path):
     return load_file(os.path.join(path, 'Weapons.json'), key='Id')
@@ -164,9 +155,6 @@ def load_favor_rewards(path):
     }
   
 
-def load_memory_lobby(path):
-    return load_file(os.path.join(path, 'Excel', 'MemoryLobbyExcelTable.json'), key='CharacterId')
-
 def load_currencies_translation(path):
     return load_file(os.path.join(path, 'Currencies.json'))
 
@@ -176,8 +164,6 @@ def load_currencies_translation(path):
 def load_skills_translation(path):
     return load_file(os.path.join(path, 'Skills.json'), key='GroupId')
 
-def load_characters_cafe_tags(path):
-    return load_file(os.path.join(path, 'Excel', 'CharacterAcademyTagsExcelTable.json'))
 
 def load_etc_localization(path_primary, path_secondary, translation):
     data_primary = load_file(os.path.join(path_primary, 'Excel', 'LocalizeEtcExcelTable.json'), key='Key')
@@ -236,13 +222,6 @@ def load_localize_code(path_primary, path_secondary, translation):
     
     return data_primary
 
-
-def load_furniture(path):
-    return load_file(os.path.join(path, 'Excel', 'FurnitureExcelTable.json'))
-
-
-def load_furniture_groups(path):
-    return load_file(os.path.join(path, 'Excel', 'FurnitureGroupExcelTable.json'))
 
 
 def load_character_dialog(path_primary, path_secondary, path_translation,  filename):
@@ -358,6 +337,38 @@ def load_localization(path_primary, path_secondary, translation):
             continue
     
     return data_primary
+
+
+
+def load_campaign_stage_rewards(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'CampaignStageRewardExcelTable.json'), 'GroupId')
+
+
+def load_event_content_seasons(path):
+    with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json')) as f:
+        data = json.load(f)
+        f.close()
+
+    return {
+        (season['EventContentId'], season['EventContentType']): season
+        for season
+        in data['DataList']
+    }
+  
+
+def load_event_content_stage_rewards(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentStageRewardExcelTable.json'), 'GroupId')
+
+def load_strategies_translations(path):
+    return load_file(os.path.join(path, 'Strategies.json'), key='Name')
+
+def load_gacha_elements(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'GachaElementExcelTable.json'), 'GachaGroupID')
+
+def load_gacha_elements_recursive(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'GachaElementRecursiveExcelTable.json'), 'GachaGroupID')
+
+
 
 
 

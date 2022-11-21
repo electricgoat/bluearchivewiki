@@ -1,0 +1,26 @@
+[[File:Event ENNAME.png|thumb|Event promo image]]
+ENNAME is the '''00th''' [[Events|event]] in Blue Archive.
+
+__TOC__
+=Event Notice=
+
+=Event Summary=
+==Schedule==
+{% raw %}{{{% endraw %}Event 
+| Id = {{season['EventContentId']}}
+| Server = JP
+| Category = Event
+| NameJP = JPNAME
+| NameEN = ENNAME
+| Image = 
+| Start_date = {{season['EventContentOpenTime']}}
+| End_date = {{season['EventContentCloseTime']}}
+| Reward_exchange_start = {{season['EventContentOpenTime']}}
+| Reward_exchange_end = {{season['ExtensionTime']}}
+| Notes = 
+{% raw %}}}{% endraw %}
+
+==Details==
+
+=Stage Info=
+
