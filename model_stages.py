@@ -27,6 +27,24 @@ def translate_group_name(text):
     return text
 
 
+def damage_type(text):
+    return {
+        'Explosion': 'Explosive',
+        'Pierce': 'Penetration',
+        'Mystic': 'Mystic',
+        None: None
+    }[text]
+
+
+def armor_type(text):
+    return {
+        'LightArmor': 'Light',
+        'HeavyArmor': 'Heavy',
+        'Unarmed': 'Special',
+        None: None
+    }[text]
+
+
 
 def get_currency_rewards(reward, data):
     currency = data.currencies[reward['RewardId']]
@@ -185,7 +203,7 @@ def wiki_enter_cost(stage, data):
 
 
 class EventStage(object):
-    def __init__(self, id, name, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, ground_id, content_type, rewards, wiki_enter_cost, damage_type, armor_type):
+    def __init__(self, id, name, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types):
         self.id = id
         self.name = name
         self.season = season
@@ -203,12 +221,12 @@ class EventStage(object):
         self._topography = topography
         self.rec_level = rec_level
         self.strategy_environment = strategy_environment
-        self.ground_id = ground_id
+        self.grounds = grounds
         self.content_type = content_type
         self.rewards = rewards
         self.wiki_enter_cost = wiki_enter_cost
-        self._damage_type = damage_type
-        self._armor_type = armor_type
+        self.damage_types = damage_types
+        self.armor_types = armor_types
 
     def __repr__ (self):
         return f"EventStage:{self.name}"
@@ -221,23 +239,23 @@ class EventStage(object):
             'Outdoor': 'Outdoors'
         }[self._topography]
 
-    @property
-    def damage_type(self):
-        return {
-            'Explosion': 'Explosive',
-            'Pierce': 'Penetration',
-            'Mystic': 'Mystic',
-            None: None
-        }[self._damage_type]
+    # @property
+    # def damage_type(self):
+    #     return {
+    #         'Explosion': 'Explosive',
+    #         'Pierce': 'Penetration',
+    #         'Mystic': 'Mystic',
+    #         None: None
+    #     }[self._damage_type]
 
-    @property
-    def armor_type(self):
-        return {
-            'LightArmor': 'Light',
-            'HeavyArmor': 'Heavy',
-            'Unarmed': 'Special',
-            None: None
-        }[self._armor_type]
+    # @property
+    # def armor_type(self):
+    #     return {
+    #         'LightArmor': 'Light',
+    #         'HeavyArmor': 'Heavy',
+    #         'Unarmed': 'Special',
+    #         None: None
+    #     }[self._armor_type]
 
     
     def wiki_topography(self):
@@ -246,13 +264,17 @@ class EventStage(object):
 
     @classmethod
     def from_data(cls, stage_id, data):
+        grounds = []
         stage = data.event_content_stages[stage_id]
 
         rewards = get_event_rewards(stage, data)
         enter_cost =  wiki_enter_cost(stage, data)
 
 
-        ground = stage['GroundID'] in data.ground and data.ground[stage['GroundID']] or None
+        if stage['GroundID'] > 0 and stage['GroundID'] in data.ground: grounds.append(data.ground[stage['GroundID']])
+        else:
+            for entity in data.strategymaps[stage['StrategyMap'][12:]]['hexaUnitList']:
+                grounds.append(data.ground[entity['Id']])
 
 
 
@@ -274,15 +296,13 @@ class EventStage(object):
             stage['StageTopography'],
             stage['RecommandLevel'],
             stage['StrategyEnvironment'] == "None" and None or stage['StrategyEnvironment'],
-            stage['GroundID'],
+            grounds,
             stage['ContentType'],
             rewards,
             enter_cost,
-            (ground != None and ground["EnemyBulletType"] != "Normal") and ground["EnemyBulletType"] or None,
-            ground != None and ground["EnemyArmorType"] or None
+            set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
+            set([armor_type(x['EnemyArmorType']) for x in grounds])
         )
-
-
 
 
 

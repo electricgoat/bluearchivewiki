@@ -16,6 +16,7 @@ from events.mission_desc import mission_desc
 args = None
 data = None
 
+characters = {}
 items = {}
 furniture = {}
 
@@ -23,6 +24,7 @@ stages = {}
 missions = {}
 
 total_rewards = {}
+total_milestone_rewards = {}
 
 
 class Card(IntFlag):
@@ -73,31 +75,13 @@ def parse_missions(season_id):
             missions.pop(mission['Id'])
             continue
         
-        mission_desc(mission, data, missing_descriptions)
+        mission_desc(mission, data, missing_descriptions, items=items, furniture=furniture)
 
         mission['RewardItemNames'] = []
         mission['RewardItemCards'] = []
     
         for index, _ in enumerate(mission['MissionRewardParcelType']):
-            if mission['MissionRewardParcelType'][index] == 'Item':
-                mission['RewardItemNames'].append(items[mission['MissionRewardParcelId'][index]].name_en )
-                mission['RewardItemCards'].append('{{ItemCard|'+items[mission['MissionRewardParcelId'][index]].name_en+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
-                #print(data.items[mission['MissionRewardParcelId'][index]].name_en)
-            elif mission['MissionRewardParcelType'][index] == 'Furniture':
-                mission['RewardItemNames'].append(furniture[mission['MissionRewardParcelId'][index]].name_en )
-                mission['RewardItemCards'].append('{{FurnitureCard|'+furniture[mission['MissionRewardParcelId'][index]].name_en+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
-                #print(data.furniture[mission['MissionRewardParcelId'][index]].name_en)
-            elif mission['MissionRewardParcelType'][index] == 'Equipment':
-                mission['RewardItemNames'].append(data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
-                mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
-                #print(data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
-            elif mission['MissionRewardParcelType'][index] == 'Currency':
-                mission['RewardItemNames'].append(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
-                mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
-                #print(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
-            else:
-                mission['RewardItemNames'].append("UNKNOWN REWARD TYPE")
-                print (f"Unknown reward parcel type {mission['MissionRewardParcelType'][index]}")
+            mission_reward_parcels(mission, index)
             
             if mission['Category'] == "EventAchievement":
                 if mission['MissionRewardParcelId'][index] not in total_rewards:
@@ -109,42 +93,123 @@ def parse_missions(season_id):
                 else:
                     total_rewards[mission['MissionRewardParcelId'][index]]['Amount'] += mission['MissionRewardAmount'][index]
                 # if mission['TabNumber'] == 0:
-                #     total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = True
+                #     total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = True   
         
-        
-    icon_size = ['80px','60px']
     for item in total_rewards.values():
-        if item['Type'] == 'Item':
-            item['Name'] = (items[item['Id']].name_en )
-            item['Card'] = ('{{ItemCard|'+items[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-            item['Tags'] = items[item['Id']].tags
-        elif item['Type'] == 'Furniture':
-            item['Name'] = (furniture[item['Id']].name_en )
-            item['Card'] = ('{{FurnitureCard|'+furniture[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        elif item['Type'] == 'Equipment':
-            item['Name'] = (data.etc_localization[data.equipment[item['Id']]['LocalizeEtcId']]['NameEn'])
-            item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.equipment[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        elif item['Type'] == 'Currency':
-            item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
-            item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        else:
-            item['Name'] = ("UNKNOWN REWARD TYPE")
-            print (f"Unknown reward parcel type {item['Type']}")
+        total_reward_card(item)
 
 
     return missions
+
+
+def parse_milestone_rewards(season_id):
+    global args, data
+    missing_descriptions = []
+    global total_milestone_rewards
+
+    milestones = [x for x in data.event_content_stage_total_rewards.values() if x['EventContentId'] == season_id]
+
+    for mission in milestones:        
+        #mission_desc(mission, data, missing_descriptions)
+        mission['DescriptionEn'] = f"Event Points: {mission['RequiredEventItemAmount']}"
+
+        mission['RewardItemNames'] = []
+        mission['RewardItemCards'] = []
+    
+        for index, _ in enumerate(mission['RewardParcelType']):
+            mission['MissionRewardParcelType'] = mission['RewardParcelType']
+            mission['MissionRewardParcelId'] = mission['RewardParcelId']
+            mission['MissionRewardAmount'] = mission['RewardParcelAmount']
+
+            mission_reward_parcels(mission, index)  
+
+            if (mission['RewardParcelType'][index], mission['RewardParcelId'][index]) not in total_milestone_rewards:
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])] = {}
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['Id'] = mission['RewardParcelId'][index]
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['Amount'] = mission['RewardParcelAmount'][index]
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['Type'] = mission['RewardParcelType'][index]
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['IsCompletionReward'] = False
+            else:
+                total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['Amount'] += mission['RewardParcelAmount'][index]
+
+    for item in total_milestone_rewards.values():
+        total_reward_card(item)
+
+    return milestones
+
+
+def mission_reward_parcels(mission, index):
+    global data, items, furniture
+
+    if mission['MissionRewardParcelType'][index] == 'Item':
+        mission['RewardItemNames'].append(items[mission['MissionRewardParcelId'][index]].name_en )
+        mission['RewardItemCards'].append('{{ItemCard|'+items[mission['MissionRewardParcelId'][index]].name_en+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
+        #print(data.items[mission['MissionRewardParcelId'][index]].name_en)
+    elif mission['MissionRewardParcelType'][index] == 'Furniture':
+        mission['RewardItemNames'].append(furniture[mission['MissionRewardParcelId'][index]].name_en )
+        mission['RewardItemCards'].append('{{FurnitureCard|'+furniture[mission['MissionRewardParcelId'][index]].name_en+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
+        #print(data.furniture[mission['MissionRewardParcelId'][index]].name_en)
+    elif mission['MissionRewardParcelType'][index] == 'Equipment':
+        mission['RewardItemNames'].append(data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+        mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
+        #print(data.etc_localization[ data.equipment[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+    elif mission['MissionRewardParcelType'][index] == 'Currency':
+        mission['RewardItemNames'].append(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+        mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
+        #print(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+    else:
+        mission['RewardItemNames'].append("UNKNOWN REWARD TYPE")
+        print (f"Unknown reward parcel type {mission['MissionRewardParcelType'][index]}")
+
+    return
+
+
+def total_reward_card(item):
+    global data, items, furniture
+    icon_size = ['80px','60px']
+
+    if item['Type'] == 'Item':
+        item['Name'] = (items[item['Id']].name_en )
+        item['Card'] = ('{{ItemCard|'+items[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+        item['Tags'] = items[item['Id']].tags
+    elif item['Type'] == 'Furniture':
+        item['Name'] = (furniture[item['Id']].name_en )
+        item['Card'] = ('{{FurnitureCard|'+furniture[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+    elif item['Type'] == 'Equipment':
+        item['Name'] = (data.etc_localization[data.equipment[item['Id']]['LocalizeEtcId']]['NameEn'])
+        item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.equipment[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+    elif item['Type'] == 'Currency':
+        item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
+        item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+    else:
+        item['Name'] = ("UNKNOWN REWARD TYPE")
+        print (f"Unknown reward parcel type {item['Type']}")
+
+    return
 
 
 
 
 def generate():
     global args, data, stages, missions
-    global items, furniture
-    global total_rewards
+    global characters, items, furniture
+    global total_rewards, total_milestone_rewards
 
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+   
 
+    for character in data.characters.values():
+        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+            continue
+
+        try:
+            character = Character.from_data(character['Id'], data)
+            characters[character.id] = character
+        except Exception as err:
+            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
+            traceback.print_exc()
+            continue
 
     for item in data.items.values():
         try:
@@ -169,11 +234,38 @@ def generate():
     season = data.event_content_seasons[(args['event_season'], "Stage")]
 
 
+    bc = data.event_content_character_bonus[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
+    bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    for item in bonus_characters:  
+        for character in bc:
+            if item in character['EventContentItemType']:
+                bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':characters[character['CharacterId']].name_translated, 'Class':characters[character['CharacterId']].combat_class, 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
+    #print (bonus_characters)
+
+    bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    for item in bonus_characters:
+        for character in bonus_characters[item]:
+            bonus_values[item].append(character['BonusPercentage'])
+        bonus_values[item] = list(set(bonus_values[item]))
+        bonus_values[item].sort(reverse=True)
+    #print(bonus_values)
+
+    cy = data.event_content_currency[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
+    event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    for currency in cy:
+        event_currencies[currency['EventContentItemType']] = {'ItemUniqueId': currency['ItemUniqueId'], 'Name':items[currency['ItemUniqueId']].name_en} 
+    #print(event_currencies)
+
+
     if (args['event_season'], "Stage") in data.event_content_seasons:
         stages = parse_stages(data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId'])
 
     if (args['event_season'], "Mission") in data.event_content_seasons:
         missions = parse_missions(data.event_content_seasons[(args['event_season'], "Mission")]['EventContentId'])
+
+    #Pt milestone rewards
+    milestones = parse_milestone_rewards(args['event_season'])
+   
     
     
     stage_reward_types = {x: [] for x in ['Normal', 'Hard', 'VeryHard']}
@@ -197,11 +289,19 @@ def generate():
     template = env.get_template('events/template_event.txt')
     wikitext_event = template.render(season=season)
 
+    template = env.get_template('events/template_event_bonus_characters.txt')
+    wikitext_bonus_characters = template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
+
     template = env.get_template('events/template_event_missions.txt')
-    wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=total_rewards.values())
+    wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=dict(sorted(total_rewards.items())).values())
+
+    wikitext_milestones = ''
+    if milestones:
+        template = env.get_template('events/template_event_milestones.txt')
+        wikitext_milestones = template.render(milestones=milestones, total_rewards=dict(sorted(total_milestone_rewards.items())).values())
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
-        f.write(wikitext_event+wikitext_stages+wikitext_missions)
+        f.write(wikitext_event+wikitext_bonus_characters+wikitext_stages+wikitext_missions+wikitext_milestones)
 
 
 

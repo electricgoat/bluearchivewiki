@@ -1,0 +1,13 @@
+
+=Event Points Milestones=
+
+{% for milestone in milestones -%}
+* {{milestone['DescriptionEn']}} {% for reward in milestone['RewardItemCards'] -%}{{reward}}{% endfor %}
+{% endfor -%}
+
+
+{% raw %}{{% endraw %}| class="wikitable"
+! Total Milestone Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
+{% raw %}|}{% endraw %}

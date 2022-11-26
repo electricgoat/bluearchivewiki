@@ -18,9 +18,10 @@ BlueArchiveData = collections.namedtuple(
     'guide_mission','guide_mission_season','localize_code', 'localization',
     'furniture', 'furniture_group',
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
-    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_mission',
+    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency',
     'ground', 
-    'gacha_elements', 'gacha_elements_recursive', 'gacha_groups']
+    'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
+    'strategymaps']
 )
 
 # BlueArchiveTranslations = collections.namedtuple(
@@ -74,11 +75,15 @@ def load_data(path_primary, path_secondary, path_translation):
         event_content_seasons=      load_event_content_seasons(path_primary),
         event_content_stages=       load_generic(path_primary, 'EventContentStageExcelTable.json'),
         event_content_stage_rewards=load_event_content_stage_rewards(path_primary),
+        event_content_stage_total_rewards = load_generic(path_primary, 'EventContentStageTotalRewardExcelTable.json'),
         event_content_mission=      load_generic(path_primary, 'EventContentMissionExcelTable.json'),
+        event_content_character_bonus= load_event_content_character_bonus(path_primary),
+        event_content_currency=     load_event_content_currency(path_primary),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
         gacha_elements=             load_gacha_elements(path_primary),
         gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
         gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
+        strategymaps=               load_strategymaps(path_primary),
     )
 
 
@@ -369,6 +374,17 @@ def load_gacha_elements_recursive(path):
     return load_file_grouped(os.path.join(path, 'Excel', 'GachaElementRecursiveExcelTable.json'), 'GachaGroupID')
 
 
+def load_strategymaps(path_primary):
+    data = {}
+    
+    for file in os.listdir(path_primary + '/HexaMap/'):
+        if not file.endswith('.json') or not file.startswith('strategymap_'):
+            continue
+        
+        with open(os.path.join(path_primary, 'HexaMap', file), encoding="utf8") as f:
+            data[file[12:file.index('.')]] = json.load(f)
+
+    return data
 
 
 
@@ -438,3 +454,11 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
         data.append(line)
 
     return data
+
+
+def load_event_content_character_bonus(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCharacterBonusExcelTable.json'), 'EventContentId')
+
+def load_event_content_currency(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCurrencyItemExcelTable.json'), 'EventContentId')
+
