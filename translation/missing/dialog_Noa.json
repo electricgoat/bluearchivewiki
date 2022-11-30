@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "세미나의 서기, 우시오 노아입니다.\n여러 의미로 잘 부탁드리겠습니다. 선생님.",
+            "LocalizeKR": "세미나의 서기, 우시오 노아입니다.\n잘 부탁드리겠습니다, 선생님.\n……여러모로요.",
             "LocalizeJP": "セミナーの書記、生塩ノアです。\nよろしくお願いしますね、先生……様々な面で、はい。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "이 가구,\n세미나의 휴게실에도\n하나 들여놓으면 좋겠네요.\n후후.",
+            "LocalizeKR": "이 가구,\n세미나의 휴게실에도\n들여놓고 싶네요.\n후후.",
             "LocalizeJP": "この家具、\nセミナーの休憩室にも\n導入したいですね。\nふふっ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서오세요, 선생님.",
+            "LocalizeKR": "어서 오세요, 선생님.",
             "LocalizeJP": "おかえりなさい、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "오늘의 회의 일정을 확인하시겠어요?",
+            "LocalizeKR": "오늘의 스케줄을 확인하시겠어요?",
             "LocalizeJP": "今日のスケジュールを\n確認されますか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -111,7 +111,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "후후, 조금 늦으셨네요, 선생님.",
+            "LocalizeKR": "후후, 조금 늦으셨네요,\n선생님.",
             "LocalizeJP": "ふふっ、\n少し遅かったですね、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -169,7 +169,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "뭔가 재미있는 생각이 떠오르셨나요?",
+            "LocalizeKR": "뭔가 재미있는 생각이\n떠오르셨나요?",
             "LocalizeJP": "何か面白いアイディアでも\n浮かびましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -181,7 +181,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "바로 받아 적을테니 부디 들려주시길.",
+            "LocalizeKR": "바로 받아 적을테니\n부디 들려주시길.",
             "LocalizeJP": "今すぐ書き留めますので、\n私に聞かせてください。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -213,7 +213,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "어째서인지 다들 잘 읽어주시면서도,",
+            "LocalizeKR": "어째서인지 다들\n잘 읽어주시면서도,",
             "LocalizeJP": "どういうわけか、\n皆さん読んではくださるのに、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -225,7 +225,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "제대로 된 감상은 들려주지는\n않으시더라고요……",
+            "LocalizeKR": "제대로 된 감상은 들려주지\n않으시더라고요……",
             "LocalizeJP": "きちんとした感想を\n言ってくれないんですよね……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -245,7 +245,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "유우카 씨는 감정 표현이 풍부해서\n함께 있으면 질리지가 않아요.",
+            "LocalizeKR": "유우카 쨩은 감정 표현이 풍부해서\n함께 있으면 질리지가 않아요.",
             "LocalizeJP": "ユウカちゃんは\n感情表現がとても豊かで、\n一緒にいると退屈しません。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -257,7 +257,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "그래서 가끔은 저도 모르게…\n짗궂은 장난을 치고 만답니다. 후후.",
+            "LocalizeKR": "그래서 가끔은 저도 모르게…\n짓궂은 장난을 치고 만답니다. 후후.",
             "LocalizeJP": "それで私はつい、\n彼女をからかって\nしまうんです……ふふっ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -305,7 +305,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "기록상으로는 평소와 다를 바 없는,\n평범한 하루일지라도...",
+            "LocalizeKR": "기록상으로는 평소와 다를 바 없는,\n평범한 하루일지라도…",
             "LocalizeJP": "記録上は普段と変わりのない\n平凡な日であっても……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -329,7 +329,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "태어난 날을 기록하고 회상하는\n행위에 특별한 이유는 없다지만…",
+            "LocalizeKR": "태어난 날을 기록하고 회상하는\n행위에 특별한 의미는 없다지만…",
             "LocalizeJP": "生まれた日を記して\n回想する行為に、\n特に意味はないと言いますが……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -341,7 +341,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "그래도 축하를 받는 건 기쁜 일이네요.",
+            "LocalizeKR": "그래도 축하를 받는 건\n기쁜 일이네요.",
             "LocalizeJP": "それでも、祝ってもらえるのは\n嬉しいですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -363,7 +363,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "새해 복 많이 받으시길.",
+            "LocalizeKR": "새해 복 많이 받으세요.",
             "LocalizeJP": "あけまして\nおめでとうございます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -375,7 +375,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "올해도 잘 부탁드립니다.",
+            "LocalizeKR": "올해도 잘 부탁드립니다,\n선생님.",
             "LocalizeJP": "今年もどうぞ、\nよろしくお願いしますね、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -417,7 +417,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "…괜찮으시다면 일이 끝난 뒤에",
+            "LocalizeKR": "…혹시 괜찮으시다면\n일이 끝난 뒤에",
             "LocalizeJP": "……もしよろしければ\nお仕事の後、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -429,7 +429,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "저녁이라도 함께 어떠신가요? 후후.",
+            "LocalizeKR": "저녁이라도 함께\n어떠신가요? 후후.",
             "LocalizeJP": "ディナーをご一緒に、\nいかがですか？ふふっ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -451,7 +451,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "기록되지 못하여 잊히는 사람이 없도록,\n더욱 충실히 일해야겠어요.",
+            "LocalizeKR": "기록되지 못하여\n잊히는 사람이 없도록,\n더욱 충실히 일해야겠어요.",
             "LocalizeJP": "記されず、誰の中からも\n消え去ってしまう人が減るよう、\n一層業務に励みたいと思います。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -485,7 +485,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "뭔가 종이에 글씨를 쓸 때와는 달리,\n기분이 고양되는 것 같아요.",
+            "LocalizeKR": "종이에 글씨를 쓸 때와는 달리,\n기분이 고양되는 것 같아요.",
             "LocalizeJP": "紙に文字を書くときと違って、\n気分が高揚しています。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -525,7 +525,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "……그래서 이 거대한 서판이\n더 마음에 들어요. 후후.",
+            "LocalizeKR": "하지만…… 그래서 저는\n이 거대한 서판이\n더 마음에 들어요. 후후.",
             "LocalizeJP": "……でも…だからこそ私は、\nこの大きなガラスの\nページの方が好きです。ふふ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

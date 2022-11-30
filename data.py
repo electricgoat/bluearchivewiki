@@ -18,7 +18,7 @@ BlueArchiveData = collections.namedtuple(
     'guide_mission','guide_mission_season','localize_code', 'localization',
     'furniture', 'furniture_group',
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
-    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency',
+    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_location_reward', 
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps']
@@ -79,11 +79,13 @@ def load_data(path_primary, path_secondary, path_translation):
         event_content_mission=      load_generic(path_primary, 'EventContentMissionExcelTable.json'),
         event_content_character_bonus= load_event_content_character_bonus(path_primary),
         event_content_currency=     load_event_content_currency(path_primary),
+        event_content_location_reward = load_generic(path_primary, 'EventContentLocationRewardExcelTable.json'),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
         gacha_elements=             load_gacha_elements(path_primary),
         gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
         gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
         strategymaps=               load_strategymaps(path_primary),
+        #TODO: stage files
     )
 
 

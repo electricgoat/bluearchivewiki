@@ -3044,6 +3044,32 @@
             "GroupId": "CH0159ExtraPassive01",
             "NameEn": "The true worth of a super genius delicate sickly beautiful girl",
             "DescriptionEn": "Increase Cost Recovery of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0122Ex01",
+            "NameEn": "Shigure Special Bottle Grenade",
+            "DescriptionEn": "Deal $1 damage to enemies within a straight line.\nInflict $2 continuous Burn damage for $3."
+        },
+        {
+            "GroupId": "CH0122Public01",
+            "NameEn": "How about a drink?",
+            "DescriptionEn": "Every $1, increase Attack of one other ally with  the highest Attack by $2, but decrease the Accuracy by $3. (Duration: $4)"
+        },
+        {
+            "GroupId": "CH0122Passive01",
+            "NameEn": "Sweet fermentation",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0122WeaponPassive01",
+            "NameEn": "Sweet fermentation +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0122ExtraPassive01",
+            "NameEn": "Wild guess",
+            "DescriptionEn": "Normal attack damage radius is increased by x$1, but attacks deal $2 damage."
         }
 
         

@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "어, 어떤 것 같아…?\n치어리더 의상을 만들어본 건 처음이긴 한데….\n그렇게 나쁘지는… 않지?",
+            "LocalizeKR": "선생님… 어, 어때…?\n치어리더 의상을 만들어본 건 처음이긴 한데….\n그렇게 나쁘지는… 않지?",
             "LocalizeJP": "先生…ど、どう…？\nチアリーダーの衣装を作ったのは、\n初めてだけど…そんなに悪くは…ない？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "이런 떠들석한 분위기…\n나쁘진 않아.",
+            "LocalizeKR": "이런 떠들썩한\n분위기…\n나쁘진 않아.",
             "LocalizeJP": "この賑やかな\n雰囲気…\n悪くない。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "힘드네…\n조금 목이 탈 지도.",
+            "LocalizeKR": "힘드네…\n조금 목이 탈지도.",
             "LocalizeJP": "疲れた…少し\n喉乾いてきたかも。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서 와. 선생님.\n지금부터 응원할래?\n아니면 개조?\n그도 아니면….",
+            "LocalizeKR": "어서 와. 선생님.\n응원할래?\n개조할래?\n그것도 아니면….",
             "LocalizeJP": "おかえりなさい、先生。\n応援する？改造する？\nそれとも…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -171,7 +171,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "(아무래도 나…\n선생님을 의식하고\n있는 걸까.)",
+            "LocalizeKR": "(혹시 나…\n선생님을 의식하고\n있는 걸까.)",
             "LocalizeJP": "（もしかして私…\n先生のこと、\n意識してるのかな）",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -231,7 +231,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "그러니까 오늘은…\n선생님에게 응원, 받고싶어.",
+            "LocalizeKR": "그러니까 오늘은…\n선생님에게 응원, 받고 싶어.",
             "LocalizeJP": "だから今日は…先生に応援、\nしてもらいたいな。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -241,7 +241,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "새해에도 힘차게\n선생님을 위해\n열심히 응원할게.",
+            "LocalizeKR": "새해 복 많이 받아, 선생님.\n올해도 선생님을 위해\n열심히 응원할게.",
             "LocalizeJP": "あけましておめでとう、先生。\n今年も、先生のために\n一生懸命応援する。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -289,7 +289,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "고마워, 선생님. \n그리고 앞으로 계속 보여줄게.\n …지금까지 보지 못했던\n새로운 광경을.",
+            "LocalizeKR": "고마워, 선생님.\n그리고 앞으로 계속 보여줄게.\n…지금까지 보지 못했던\n새로운 광경을.",
             "LocalizeJP": "ありがとう、先生…\nこれからも見せ続けてあげる。\n…今まで見られなかったような、\n新しい景色を。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -331,7 +331,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "글쎄… 선생님을\n괴롭히는 업무라던가.\n선생님으로서의\n책무라던가….",
+            "LocalizeKR": "글쎄… 선생님을\n괴롭히는 업무라든가.\n선생님으로서의\n책무라든가….",
             "LocalizeJP": "何だろう…？\n先生を苦しめる業務、とか。\n先生としての責任とか…？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -361,7 +361,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "(…뭔가 이상하네, \n선생님이 불타오르기는커녕,\n집중하지 못하는 것처럼 보여.)",
+            "LocalizeKR": "(…뭔가 이상하네, 선생님이\n의욕을 내기는커녕, 오히려\n집중하지 못하는 것처럼 보여.)",
             "LocalizeJP": "（…なんだかおかしい。\n先生、元気になるどころか、\nあんまり集中できて\nなさそうに見える）",
             "LocalizeEN": "",
             "VoiceClipsJp": []

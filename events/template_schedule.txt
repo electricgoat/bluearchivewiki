@@ -1,0 +1,14 @@
+{% raw %}{{% endraw %}| class="wikitable stagetable mw-collapsible"
+! colspan="3" |{{location_name}}
+|-
+!Room<br> Level
+!Visiting Student<br />Eleph
+!Rewards
+{% for location in locations -%}
+|-
+|{{location.order}}
+|'''{{location.secretstone_prob/100}}%'''
+|<div class="rewards">{%- for reward in location.rewards -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>
+{% endfor -%}
+|{% raw %}}{% endraw %}
+

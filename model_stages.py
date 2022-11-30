@@ -271,11 +271,15 @@ class EventStage(object):
         enter_cost =  wiki_enter_cost(stage, data)
 
 
-        if stage['GroundID'] > 0 and stage['GroundID'] in data.ground: grounds.append(data.ground[stage['GroundID']])
+        if stage['GroundID'] > 0 and stage['GroundID'] in data.ground: 
+            grounds.append(data.ground[stage['GroundID']])
+            #print(data.ground[stage['GroundID']])
         else:
             for entity in data.strategymaps[stage['StrategyMap'][12:]]['hexaUnitList']:
                 grounds.append(data.ground[entity['Id']])
 
+        #TODO get unit lists from Stage files, linked by ground 'StageFileName'
+        
 
 
         return cls(

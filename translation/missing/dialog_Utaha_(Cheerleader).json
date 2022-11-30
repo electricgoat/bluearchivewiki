@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "밀레니엄의 응원단장, 시라이시 우타하.\n차가운 이성과 뜨거운 열정으로,  모두를 응원하겠어.",
+            "LocalizeKR": "밀레니엄의 응원단장, 시라이시 우타하.\n차가운 이성과 뜨거운 열정으로, 모두를 응원하겠어.",
             "LocalizeJP": "ミレニアムの応援団長、白石ウタハ。\n冷たい理性と熱い情熱で、\n皆を応援するとしよう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "다같이 이곳에서\n매스 게임을\n해 보고 싶은데…",
+            "LocalizeKR": "이곳에서 다같이\n매스게임을\n해 보고 싶은데…",
             "LocalizeJP": "ここで皆と一緒に、\nマスゲームを\nしてみたい…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서 와, 선생님. \n응원이 필요하다면,\n언제든 이야기해 줘.",
+            "LocalizeKR": "어서 와, 선생님.\n응원이 필요하다면,\n언제든 이야기해 줘.",
             "LocalizeJP": "やあ、先生。 \n応援が必要なら、\nいつでも声をかけてくれ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "자, 선생님.\n오늘도 기합 넣어서\n힘차게 일과를 시작하자고!",
+            "LocalizeKR": "자, 선생님.\n오늘도 기합 넣어서\n힘차게 하루를 시작하자고!",
             "LocalizeJP": "さあ、先生。\n今日も気合いを入れて、\n元気に一日をはじめよう！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -135,7 +135,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "힘든 일이 있었다고? \n괜찮아. 일어나서\n다시 한 번 해보는 거야.",
+            "LocalizeKR": "힘든 일이 있었다고?\n괜찮아. 일단은\n다시 한번 해보는 거야.",
             "LocalizeJP": "辛いことがあったのかい？\n大丈夫、まずは\nもう一度やってみよう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -159,7 +159,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "뭐든 해 낼 수 있을 것\n같은 기분이 들어.",
+            "LocalizeKR": "뭐든지 해낼 수 있을 것 같아.",
             "LocalizeJP": "何でもできそうな気がするよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -169,7 +169,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "마이스터란,\n어떤 의미에서는\n기계들의 응원단장\n같은 존재일지도…",
+            "LocalizeKR": "마이스터란,\n어떤 의미에서는\n기계들의 응원단장같은\n존재일지도 모르겠네…",
             "LocalizeJP": "マイスターとはいわば、\n機械たちの応援団長のような\n存在なのかもしれないね…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -193,7 +193,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "어때? 조금은 내가…\n신선하게 느껴져?",
+            "LocalizeKR": "어때? 조금은…\n신선하게 느껴져?",
             "LocalizeJP": "どうだい？\n少しは…新鮮かな？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -239,7 +239,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "고마워. 하지만\n새삼스럽지는 않네.",
+            "LocalizeKR": "고마워. 하지만\n특별한 느낌은 안 나네.",
             "LocalizeJP": "ああ、でもあんまり\n特別な感じはしないな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -263,7 +263,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "매일이 생일 같은 기분이야.",
+            "LocalizeKR": "매일매일이 생일 같은 기분이야.",
             "LocalizeJP": "年中ずっと\n誕生日みたいな\n気持ちなんだ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -319,7 +319,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "…휴게실에 장식된 호박 램프를\n전부 폭파시킨 건\n고의가 아니었어…",
+            "LocalizeKR": "그… 휴게실에 장식된\n호박 램프를 전부 폭파시킨 건\n고의가 아니었어…",
             "LocalizeJP": "その…休憩室にあった\nカボチャのランプを\n全部爆破させたのは、\nわざとじゃあないんだ…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -375,7 +375,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "후후… 어때 선생님?\n대단한 광경이지?",
+            "LocalizeKR": "후후… 어때, 선생님?\n대단한 광경이라고\n생각되지 않아?",
             "LocalizeJP": "ふふ… どうだい、先生？\nすごい光景だと思わないか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -385,7 +385,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "이 매스게임에는\n신형 블루투스 장치를\n탑재한 로봇을\n사용하고 있기 때문에, ",
+            "LocalizeKR": "이 매스게임에는\n신형 블루투스 장치를\n탑재한 로봇을\n사용하고 있기 때문에,",
             "LocalizeJP": "このマスゲームには、\n新型ブルートゥース装置を\n搭載したロボットを\n使用しているから、",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -415,7 +415,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "멋없는 소리는\n하지 말아줘, 선생님.",
+            "LocalizeKR": "선생님,\n낭만이 없는 이야기는\n하지 말아줘.",
             "LocalizeJP": "先生、\nロマンのない話は\n辞めたまえ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -445,7 +445,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "본래 사람의 마음을 뛰게\n만드는 로망은 효율과는\n거리가 먼 사치품이거든.",
+            "LocalizeKR": "본래 사람의 가슴을 뛰게\n만드는 로망은 효율과는\n거리가 먼 법이거든.",
             "LocalizeJP": "元来、胸高鳴る瞬間を\n与えるロマンは、「効率」とは\n程遠いものだからね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "자, 그럼 다함께\n<황륜대제>를\n준비해볼까요?",
+            "LocalizeKR": "그럼, 다함께\n<황륜대제>의 준비를\n시작해볼까요.",
             "LocalizeJP": "それでは、一緒に\n「晄輪大祭」の\n準備をはじめましょう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -29,7 +29,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "(음… 이제\n남은 준비물은\n뭐가 있으려나…)",
+            "LocalizeKR": "(음… 이 다음에\n준비해야 할 물건은…)",
             "LocalizeJP": "（えっと… このあとに\n用意するものは…）",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -63,7 +63,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "수고 많으셨습니다,\n선생님. 모두가 힘을\n모아 준비했으니, ",
+            "LocalizeKR": "수고 많으셨습니다,\n선생님. 모두가 힘을\n모아 준비했으니,",
             "LocalizeJP": "お疲れ様でした先生。\n皆で一致団結して\n準備しましたから、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -75,7 +75,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "분명 이번 <황륜대제>도\n즐거울거예요.",
+            "LocalizeKR": "이번 <황륜대제>도\n분명히 즐거울 거예요.",
             "LocalizeJP": "今回の「晄輪大祭」も\n楽しいこと\n間違いなしです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -141,7 +141,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "유우카 씨가 나중에\n일어나면 분명 엄청나게\n잔소리를 하겠죠?",
+            "LocalizeKR": "유우카 쨩이 나중에\n일어나면 분명 엄청나게\n잔소리를 하겠죠?",
             "LocalizeJP": "ユウカちゃんが\n目覚めたら、きっと\n小言の嵐でしょうね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -153,7 +153,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "후후…\n그 당황한 표정이\n기대가 되네요.",
+            "LocalizeKR": "후후… 유우카 쨩의\n당황한 표정이\n벌써부터 기대가 되네요.",
             "LocalizeJP": "ふふ…ユウカちゃんの\n慌てる姿、\n今から楽しみです。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -177,7 +177,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "아, 마침 잘 오셨습니다,\n선생님. 선생님의 도움이 필요한\n업무가 있었거든요.",
+            "LocalizeKR": "아, 마침 잘 오셨어요.\n선생님께 부탁드리고 싶은 일이\n있었거든요…",
             "LocalizeJP": "あ、丁度良いところに！\n先生にお願いしたいお仕事が\nありまして…。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -201,7 +201,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "후후, 안 돼요.\n지금은 바쁘니, 장난이라면\n나중에 받아드릴게요.",
+            "LocalizeKR": "후후, 안 돼요.\n지금은 바쁘니…\n나중에 상대해 드릴게요.",
             "LocalizeJP": "ふふ、ダメですよ。\n今は忙しいので…\nあとでちゃんと構ってあげます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -213,7 +213,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 1,
-            "LocalizeKR": "역시 선생님이시군요.\n한 수 배웠습니다.",
+            "LocalizeKR": "역시 선생님이시네요.\n공부가 되었습니다.",
             "LocalizeJP": "さすがです、先生。\n勉強になりました。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -225,7 +225,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 2,
-            "LocalizeKR": "어머나, 인상적인 일처리네요.\n감탄했습니다.",
+            "LocalizeKR": "훌륭한 일처리네요.\n감탄했습니다.",
             "LocalizeJP": "いい仕事っぷりですね。\n感心しました。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

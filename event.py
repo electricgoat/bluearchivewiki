@@ -10,6 +10,7 @@ from jinja2 import Environment, FileSystemLoader
 from data import load_data
 from model import Item, Furniture, FurnitureGroup, Character
 from model_stages import EventStage
+from model_event_schedule import EventScheduleLocation
 from events.mission_desc import mission_desc
 
 
@@ -29,7 +30,10 @@ total_milestone_rewards = {}
 
 class Card(IntFlag):
     PROBABILITY = auto()
+    #PROBABILITY_ALWAYS = auto()
     QUANTITY = auto()
+    QUANTITY_AUTO = auto()
+
 
 
 def parse_stages(season_id):
@@ -44,22 +48,33 @@ def parse_stages(season_id):
         stages.append(stage)
 
     return stages
+
+
+def parse_schedule_locations(season_id = 100000):
+    global args, data
+    locations = []
+
+    for location in data.event_content_location_reward.values():
+        if location['ScheduleGroupId'] < season_id:
+            continue
+    
+        location = EventScheduleLocation.from_data(location['Id'], data)
+        locations.append(location)
+
+    return locations
     
 
 def wiki_itemcard(reward, *params):
-    # match reward.prob:
-    #     case 100:
-    #         probability = ''
-    #     case _:
     card_type = reward.type != 'Character' and 'ItemCard' or 'CharacterCard'
 
     if Card.PROBABILITY in params: probability = f'|probability={reward.prob:g}'
     else: probability = ''
 
-    if Card.QUANTITY in params: quantity = reward.amount>1 and '|quantity='+str(reward.amount) or ''
+    if Card.QUANTITY_AUTO in params: quantity = reward.amount>1 and '|quantity='+str(reward.amount) or ''
+    elif Card.QUANTITY in params: quantity = '|quantity='+str(reward.amount)
     else: quantity = ''
 
-    return '{{'+card_type+'|'+reward.name+quantity+probability+'|text=|60px|block}}'
+    return '{{'+card_type+'|'+(reward.name != None and reward.name or 'Unknown')+quantity+probability+'|text=|60px|block}}'
 
 
 
@@ -200,7 +215,7 @@ def generate():
    
 
     for character in data.characters.values():
-        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':#  not in ['Release', 'Complete']:
             continue
 
         try:
@@ -229,7 +244,6 @@ def generate():
             traceback.print_exc()
             continue
 
-   
 
     season = data.event_content_seasons[(args['event_season'], "Stage")]
 
@@ -239,7 +253,10 @@ def generate():
     for item in bonus_characters:  
         for character in bc:
             if item in character['EventContentItemType']:
-                bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':characters[character['CharacterId']].name_translated, 'Class':characters[character['CharacterId']].combat_class, 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
+                try:
+                    bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':characters[character['CharacterId']].name_translated, 'Class':characters[character['CharacterId']].combat_class, 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
+                except KeyError as err:
+                    bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':str(character['CharacterId']), 'Class':'Striker', 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
     #print (bonus_characters)
 
     bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
@@ -248,7 +265,7 @@ def generate():
             bonus_values[item].append(character['BonusPercentage'])
         bonus_values[item] = list(set(bonus_values[item]))
         bonus_values[item].sort(reverse=True)
-    #print(bonus_values)
+    #print(len(bonus_values['EventToken2']))
 
     cy = data.event_content_currency[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
     event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
@@ -276,14 +293,38 @@ def generate():
                 stage_reward_types[stage.difficulty].append(reward_tag)
 
 
+
+
+
+
     wikitext_stages = ''
     difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge'}
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['wiki_itemcard'] = wiki_itemcard
+    env.globals['len'] = len
 
     for difficulty in stage_reward_types:
         template = env.get_template('events/template_event_stages.txt')
         wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=[x for x in stages if x.difficulty == difficulty], reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
+
+
+    
+    wikitext_schedule_locations = ''
+    schedule_locations = parse_schedule_locations()
+    #print(schedule_locations)
+
+    schedule_groups = list(set([x['ScheduleGroupId'] for x in data.event_content_location_reward.values() if x['Id']>100000]))
+    #print(schedule_groups)
+
+    for schedule_group in schedule_groups:
+        locations = [x for x in schedule_locations if x.group_id == schedule_group]
+        template = env.get_template('events/template_schedule.txt')
+        wikitext_schedule_locations += template.render(location_name=locations[0].name, locations=locations, Card=Card)
+
+    #print(wikitext_schedule_locations)
+    with open(os.path.join(args['outdir'], 'events' ,f"schedule_event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
+        f.write(wikitext_schedule_locations)
+
 
 
     template = env.get_template('events/template_event.txt')

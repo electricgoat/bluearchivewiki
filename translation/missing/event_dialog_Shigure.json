@@ -1,0 +1,220 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "야호- 선생님.\n혹시 괜찮다면 온천장의 일을\n도와주지 않을래?",
+            "LocalizeJP": "やっほー、先生。\nよかったら温泉郷の仕事を\n手伝ってもらえないかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "잠깐 시간 괜찮아?\n탕에 들어가기 전에\n가볍게 움직여 보자고.",
+            "LocalizeJP": "ちょっといい？\n温泉に浸かる前に軽く運動したくて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "노도카도 참 열심이라니까~",
+            "LocalizeJP": "ノドカは\n頑張り屋さんなんだから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후후, 이번에 담근\n모르스는 정말 잘 익었는걸.",
+            "LocalizeJP": "ふふ、今回のモルスは\nよく出来てる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……응? 나랑 같이\n목욕하고 싶어?",
+            "LocalizeJP": "ん？一緒に\nお風呂に行きたいの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_3_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": " 농담이야.\n그렇게 정색하진 마.",
+            "LocalizeJP": "冗談。\nそんな真顔にならないで。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_3_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "수고했어.\n상으로 모르스 한 모금…… 어때?",
+            "LocalizeJP": "お疲れ様。\nよかったらモルス一口、どう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "역시 선생님……\n인기가 많은 이유를 알겠네.",
+            "LocalizeJP": "さすが先生。\n皆に人気の理由が分かったよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘 일은 이걸로 끝이야.\n남은 시간은 느긋하게\n목욕이라도 하면서 보내는 게 어때?",
+            "LocalizeJP": "今日はこれでおしまい。\nあとはお風呂にでも浸かって、\nのんびりするのはどうかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Day_End"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "야호- 선생님.\n혹시 괜찮다면 온천장의 일을\n도와주지 않을래?",
+            "LocalizeJP": "やっほー、先生。\nよかったら温泉郷の仕事を\n手伝ってもらえないかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "잠깐 시간 괜찮아?\n탕에 들어가기 전에\n가볍게 움직여 보자고.",
+            "LocalizeJP": "ちょっといい？\n温泉に浸かる前に軽く運動したくて。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "노도카도 참 열심이라니까~",
+            "LocalizeJP": "ノドカは\n頑張り屋さんなんだから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후후, 이번에 담근\n모르스는 정말 잘 익었는걸.",
+            "LocalizeJP": "ふふ、今回のモルスは\nよく出来てる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "……응? 나랑 같이\n목욕하고 싶어?",
+            "LocalizeJP": "ん？一緒に\nお風呂に行きたいの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_3_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": " 농담이야.\n그렇게 정색하진 마.",
+            "LocalizeJP": "冗談。\nそんな真顔にならないで。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_3_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "수고했어.\n상으로 모르스 한 모금…… 어때?",
+            "LocalizeJP": "お疲れ様。\nよかったらモルス一口、どう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "역시 선생님……\n인기가 많은 이유를 알겠네.",
+            "LocalizeJP": "さすが先生。\n皆に人気の理由が分かったよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009080,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘 일은 이걸로 끝이야.\n남은 시간은 느긋하게\n목욕이라도 하면서 보내는 게 어때?",
+            "LocalizeJP": "今日はこれでおしまい。\nあとはお風呂にでも浸かって、\nのんびりするのはどうかな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Shigure_EventMission_Day_End"
+            ]
+        }
+    ]
+}

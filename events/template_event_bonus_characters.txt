@@ -10,17 +10,18 @@
 |-
 !1 Team
 !2 Team
-{% for item in bonus_values -%}
+{% for item in bonus_values if bonus_values[item] != [] -%}
 |-
-| rowspan="2" |{% raw %}{{{% endraw %}ItemCard|{{event_currencies[item]['Name']}}|80px|block{% raw %}}}{% endraw %}
+| rowspan="{{len(bonus_values[item])}}" |{% raw %}{{{% endraw %}ItemCard|{{event_currencies[item]['Name']}}|80px|block{% raw %}}}{% endraw %}
 {% for bonus in bonus_values[item] -%}
 {%- if loop.index >1 %}|-
 {% endif -%}
 |{{bonus}}%
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Striker' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|100px}}{% endraw %}{% endfor %}
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Special' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|100px}}{% endraw %}{% endfor %}
-|
-|
+{% if loop.index == 1 %}| rowspan="{{len(bonus_values[item])}}" |
+| rowspan="{{len(bonus_values[item])}}" |
+{% endif -%}
 {% endfor -%}{% endfor -%}
 {% raw %}|}{% endraw %}
 
