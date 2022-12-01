@@ -21,7 +21,7 @@ BlueArchiveData = collections.namedtuple(
     'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_shop_info', 'event_content_shop', 'event_content_location_reward', 'event_content_zone', 'event_content_box_gacha_manage', 'event_content_box_gacha_shop', 
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
-    'strategymaps','goods']
+    'strategymaps','goods', 'stages']
 )
 
 # BlueArchiveTranslations = collections.namedtuple(
@@ -90,7 +90,8 @@ def load_data(path_primary, path_secondary, path_translation):
         gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
         gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
         strategymaps=               load_strategymaps(path_primary),
-        goods=                      load_generic(path_primary, 'GoodsExcelTable.json')
+        goods=                      load_generic(path_primary, 'GoodsExcelTable.json'),
+        stages=                     load_stages(path_primary),
     )
 
 
@@ -394,6 +395,39 @@ def load_strategymaps(path_primary):
     return data
 
 
+def load_stages(path_primary):
+    data = {}
+    
+    for file in os.listdir(path_primary + '/Stage/'):
+        if not file.endswith('.json'):
+            continue
+        
+        with open(os.path.join(path_primary, 'Stage', file), encoding="utf8") as f:
+            data[file[:file.index('.')]] = json.load(f)
+
+    return data
+
+
+    
+def load_event_content_character_bonus(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCharacterBonusExcelTable.json'), 'EventContentId')
+
+def load_event_content_currency(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCurrencyItemExcelTable.json'), 'EventContentId')
+
+def load_event_content_shop_info(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopInfoExcelTable.json'), 'EventContentId')
+
+def load_event_content_shop(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopExcelTable.json'), 'EventContentId')
+
+def load_event_content_box_gacha_manage(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaManageExcelTable.json'), 'EventContentId')
+
+def load_event_content_box_gacha_shop(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaShopExcelTable.json'), 'EventContentId')
+
+
 
 
 
@@ -462,21 +496,3 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
 
     return data
 
-
-def load_event_content_character_bonus(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCharacterBonusExcelTable.json'), 'EventContentId')
-
-def load_event_content_currency(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCurrencyItemExcelTable.json'), 'EventContentId')
-
-def load_event_content_shop_info(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopInfoExcelTable.json'), 'EventContentId')
-
-def load_event_content_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopExcelTable.json'), 'EventContentId')
-
-def load_event_content_box_gacha_manage(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaManageExcelTable.json'), 'EventContentId')
-
-def load_event_content_box_gacha_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaShopExcelTable.json'), 'EventContentId')

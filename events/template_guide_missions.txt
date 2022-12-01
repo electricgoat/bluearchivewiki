@@ -71,8 +71,3 @@ Day{{day}}=
 {{reward['Card']}}
 {% endfor -%}
 {% raw %}|}{% endraw %}
-
-{% raw %}{{{% endraw %}#seo: 
-|image = EVENTNAME_Details.png
-|image_alt = EVENTNAME
-{% raw %}}}{% endraw %}

@@ -239,24 +239,6 @@ class EventStage(object):
             'Outdoor': 'Outdoors'
         }[self._topography]
 
-    # @property
-    # def damage_type(self):
-    #     return {
-    #         'Explosion': 'Explosive',
-    #         'Pierce': 'Penetration',
-    #         'Mystic': 'Mystic',
-    #         None: None
-    #     }[self._damage_type]
-
-    # @property
-    # def armor_type(self):
-    #     return {
-    #         'LightArmor': 'Light',
-    #         'HeavyArmor': 'Heavy',
-    #         'Unarmed': 'Special',
-    #         None: None
-    #     }[self._armor_type]
-
     
     def wiki_topography(self):
         return '{{Icon|'+str(self.topography)+'|size=24}}<br />'+str(self.topography)
@@ -271,15 +253,21 @@ class EventStage(object):
         enter_cost =  wiki_enter_cost(stage, data)
 
 
+        devname_characters = {x['DevName']:{'Id':x['Id'], 'BulletType':x['BulletType'],'ArmorType':x['ArmorType']} for x in data.characters.values()}
+        spawn_templates = dict()
+
         if stage['GroundID'] > 0 and stage['GroundID'] in data.ground: 
             grounds.append(data.ground[stage['GroundID']])
-            #print(data.ground[stage['GroundID']])
         else:
             for entity in data.strategymaps[stage['StrategyMap'][12:]]['hexaUnitList']:
                 grounds.append(data.ground[entity['Id']])
 
-        #TODO get unit lists from Stage files, linked by ground 'StageFileName'
-        
+        for ground in grounds:
+            stagefile = data.stages[ground['StageFileName'][0]]
+
+            for template in json_find_key(stagefile, 'SpawnTemplateId'):
+                if template != '' and template in devname_characters and template not in spawn_templates:
+                    spawn_templates[template] = devname_characters[template]     
 
 
         return cls(
@@ -304,10 +292,21 @@ class EventStage(object):
             stage['ContentType'],
             rewards,
             enter_cost,
-            set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
-            set([armor_type(x['EnemyArmorType']) for x in grounds])
+            # set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
+            # set([armor_type(x['EnemyArmorType']) for x in grounds])
+            set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
+            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()]))
         )
 
 
 
-
+def json_find_key(json_input, lookup_key):
+    if isinstance(json_input, dict):
+        for k, v in json_input.items():
+            if k == lookup_key:
+                yield v
+            else:
+                yield from json_find_key(v, lookup_key)
+    elif isinstance(json_input, list):
+        for item in json_input:
+            yield from json_find_key(item, lookup_key)

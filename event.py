@@ -43,7 +43,6 @@ def parse_stages(season_id):
     for stage in data.event_content_stages.values():
         if stage['EventContentId'] != season_id:
             continue
-    
         stage = EventStage.from_data(stage['Id'], data)
         stages.append(stage)
 
@@ -255,7 +254,9 @@ def generate():
     global total_rewards, total_milestone_rewards
 
     season = data.event_content_seasons[(args['event_season'], "Stage")]
-
+    
+    content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
+    print(f"Event {args['event_season']} content types: {content_types}")
 
     bc = data.event_content_character_bonus[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
     bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
@@ -376,7 +377,6 @@ def generate():
                 reward_quantity=good['ParcelAmount'][0]
                 box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None )
                 box['total_stock'] += box_item['GroupElementAmount']
-                #box_item.pop('Round')
 
             box['total_price'] = box['total_stock'] * first_good['ConsumeParcelAmount'][0]
 
@@ -417,10 +417,13 @@ def generate():
         template = env.get_template('events/template_event_milestones.txt')
         wikitext_milestones = template.render(milestones=milestones, total_rewards=dict(sorted(total_milestone_rewards.items())).values())
 
+    template = env.get_template('events/template_event_footer.txt')
+    wikitext_footer = template.render(season=season)
     
     wikitext = wikitext_event+wikitext_bonus_characters+wikitext_stages
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_footer
+
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
         f.write(wikitext)
