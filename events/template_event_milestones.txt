@@ -1,6 +1,4 @@
-
-=Event Points Milestones=
-
+==Event Points Milestones==
 {% raw %}{{% endraw %}| class="wikitable columns-2 limitwidth-1024"
 |-
 |
@@ -14,3 +12,4 @@
 |-
 |<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
 {% raw %}|}{% endraw %}
+

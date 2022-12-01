@@ -1,5 +1,3 @@
-=Mission Details & Rewards=
-
 ==Daily Missions==
 {% raw %}{{% endraw %}| class="wikitable"
 !No.	
@@ -17,7 +15,7 @@
 {% endfor -%}
 {% raw %}|}{% endraw %}
 
-==Achievement Mission==
+==Achievement Missions==
 {% raw %}{{% endraw %}| class="wikitable"
 !No.	
 !Mission
@@ -39,3 +37,4 @@
 |-
 |<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
 {% raw %}|}{% endraw %}
+

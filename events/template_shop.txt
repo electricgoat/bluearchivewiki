@@ -1,0 +1,19 @@
+{% raw %}{{% endraw %}| class="wikitable"
+|+{{shop.wiki_title}}
+|-
+!Item
+!Cost
+!Stock
+!Subtotal
+{% for good in shop.shop_content -%}
+|-
+|{{good.wiki_card}}
+|{% if good.cost is integer %}{{"{:,}".format(good.cost)}}{% else %}{{good.cost}}{% endif %}
+|{% if good.stock is integer %}{{"{:,}".format(good.stock)}}{% else %}{{good.stock}}{% endif %}
+|{% if good.subtotal is integer %}{{"{:,}".format(good.subtotal)}}{% else %}{{good.subtotal}}{% endif %}
+{% endfor -%}
+|-
+| colspan="3" |Total
+|{{"{:,}".format(shop.total_cost)}}
+|{% raw %}}{% endraw %}
+
