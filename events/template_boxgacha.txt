@@ -1,0 +1,18 @@
+|-|
+{{box.wiki_title}}=
+{% raw %}{{% endraw %}| class="wikitable"
+|-
+! colspan="2" |Price: {{box.wiki_price}}
+|-
+!Total Price: {{box.total_price}}
+!Total Stock: {{box.total_stock}}
+|-
+!Item
+!Stock
+{% for good in box['Items'] -%}
+|-
+|{{good.wiki_card}}
+| style="text-align:center" |{% if good.GroupElementAmount is integer %}{{"{:,}".format(good.GroupElementAmount)}}{% else %}{{good.GroupElementAmount}}{% endif %}
+{% endfor -%}
+|{% raw %}}{% endraw %}
+

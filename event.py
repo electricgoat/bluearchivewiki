@@ -93,7 +93,7 @@ def wiki_card(type, id, **params ):
         case 'Currency':
             card_type = 'ItemCard'
             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
-        case  'Character':
+        case 'Character':
             card_type = 'CharacterCard'
             name = characters[id].name
         case 'Furniture':
@@ -127,8 +127,7 @@ def parse_missions(season_id):
     missions = copy.copy(data.event_content_mission)
     missing_descriptions = []
     global total_rewards
-
-    
+ 
     for mission in data.event_content_mission.values():
         if mission['EventContentId'] != season_id:
             missions.pop(mission['Id'])
@@ -156,7 +155,6 @@ def parse_missions(season_id):
         
     for item in total_rewards.values():
         total_reward_card(item)
-
 
     return missions
 
@@ -355,6 +353,51 @@ def generate():
         wikitext_shops += '</div>\n'
 
 
+    #BOXGACHA
+    wikitext_boxgacha = ''
+    if (args['event_season'], "BoxGacha") in data.event_content_seasons:
+        wikitext_boxgacha = '==Supply Box==\n<tabber>\n'
+        template = env.get_template('events/template_boxgacha.txt')
+
+        box_gacha = data.event_content_box_gacha_manage[args['event_season']]
+        for box in box_gacha:
+            box['wiki_title'] = f"Box {box['Round']}{box['IsLoop']==True and '+' or ''}"
+            
+            box['Items'] = [{'GroupId': x['GroupId'], 'GroupElementAmount': x['GroupElementAmount'], 'IsPrize': x['IsPrize'], 'GoodsId': x['GoodsId'], 'DisplayOrder': x['DisplayOrder']} for x in data.event_content_box_gacha_shop[args['event_season']] if x['Round'] == box['Round']]
+
+            first_good = data.goods[box['Items'][0]['GoodsId'][0]]
+            box['wiki_price'] = wiki_card(first_good['ConsumeParcelType'][0], first_good['ConsumeParcelId'][0], quantity = first_good['ConsumeParcelAmount'][0] )
+            box['total_stock'] = 0
+            box['total_price'] = 0
+            box['is_duplicate'] = False
+            
+            for box_item in box['Items']:
+                good = data.goods[box_item['GoodsId'][0]]
+                reward_quantity=good['ParcelAmount'][0]
+                box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None )
+                box['total_stock'] += box_item['GroupElementAmount']
+                #box_item.pop('Round')
+
+            box['total_price'] = box['total_stock'] * first_good['ConsumeParcelAmount'][0]
+
+            
+        #Deduplicate boxes with matching contents
+        for index, box in enumerate(box_gacha):
+            if index < 2:
+                continue
+
+            for i in range(0, index):
+                if box['Items'] == box_gacha[i]['Items']:
+                    box['is_duplicate'] = True
+                    box_gacha[i]['wiki_title'] += f"/{box['Round']}"
+
+
+        for box in box_gacha:
+            if box['is_duplicate'] == False: wikitext_boxgacha += template.render(box=box)
+        
+        wikitext_boxgacha += '</tabber>\n'
+
+
 
     season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season['EventContentCloseTime'] = season['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
@@ -377,7 +420,7 @@ def generate():
     
     wikitext = wikitext_event+wikitext_bonus_characters+wikitext_stages
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n'+wikitext_missions + wikitext_shops+wikitext_milestones
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
         f.write(wikitext)
