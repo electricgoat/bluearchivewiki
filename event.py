@@ -23,6 +23,7 @@ furniture = {}
 
 stages = {}
 missions = {}
+hexamaps = {}
 
 total_rewards = {}
 total_milestone_rewards = {}
@@ -34,10 +35,11 @@ class Card(IntFlag):
     QUANTITY = auto()
     QUANTITY_AUTO = auto()
 
+DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge'}
 
 
 def parse_stages(season_id):
-    global args, data
+    global args, data, hexamaps
     stages = []
 
     for stage in data.event_content_stages.values():
@@ -45,6 +47,9 @@ def parse_stages(season_id):
             continue
         stage = EventStage.from_data(stage['Id'], data)
         stages.append(stage)
+                
+        if stage.content_type == 'EventContentMainStage':
+            hexamaps[f"{DIFFICULTY[stage.difficulty]} {stage.stage_number}"] = {'name':f"{DIFFICULTY[stage.difficulty]} {stage.stage_number}", 'filename':f"{stage.name}.png"}
 
     return stages
 
@@ -412,6 +417,9 @@ def generate():
     template = env.get_template('events/template_event_missions.txt')
     wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=dict(sorted(total_rewards.items())).values())
 
+    template = env.get_template('events/template_event_hexamaps.txt')
+    wikitext_hexamaps = template.render(hexamaps=hexamaps.values())
+
     wikitext_milestones = ''
     if milestones:
         template = env.get_template('events/template_event_milestones.txt')
@@ -420,7 +428,7 @@ def generate():
     template = env.get_template('events/template_event_footer.txt')
     wikitext_footer = template.render(season=season)
     
-    wikitext = wikitext_event+wikitext_bonus_characters+wikitext_stages
+    wikitext = wikitext_event + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
     wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_footer
 

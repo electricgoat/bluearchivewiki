@@ -1,0 +1,8 @@
+==Strategy Map Guide==
+<tabber>
+{% for hexamap in hexamaps -%}
+{%- if loop.index >1 %}|-|
+{% endif -%}
+{{hexamap.name}}={% raw %}{{{% endraw %}MissionMap | Filename = {{hexamap.filename}} {% raw %}}}{% endraw %}
+{% endfor -%}
+</tabber>
