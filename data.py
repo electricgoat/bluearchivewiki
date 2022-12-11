@@ -118,7 +118,7 @@ def load_file_grouped(file, key="Id"):
 
 
 def load_characters_skills(path):
-    with open(os.path.join(path, 'Excel', 'CharacterSkillListExcelTable.json')) as f:
+    with open(os.path.join(path, 'Excel', 'CharacterSkillListExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
 
     return {
@@ -135,7 +135,7 @@ def load_weapons_translation(path):
     return load_file(os.path.join(path, 'Weapons.json'), key='Id')
 
 def load_gear(path):
-    with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json')) as f:
+    with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
         f.close()
 
@@ -146,7 +146,7 @@ def load_gear(path):
     }
 
 def load_favor_levels(path):
-    with open(os.path.join(path, 'Excel', 'FavorLevelRewardExcelTable.json')) as f:
+    with open(os.path.join(path, 'Excel', 'FavorLevelRewardExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
         f.close()
 
@@ -157,7 +157,7 @@ def load_favor_levels(path):
     }
 
 def load_favor_rewards(path):
-    with open(os.path.join(path, 'Excel', 'AcademyFavorScheduleExcelTable.json')) as f:
+    with open(os.path.join(path, 'Excel', 'AcademyFavorScheduleExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
         f.close()
 
@@ -358,7 +358,7 @@ def load_campaign_stage_rewards(path):
 
 
 def load_event_content_seasons(path):
-    with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json')) as f:
+    with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
         f.close()
 
