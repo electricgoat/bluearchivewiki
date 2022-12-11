@@ -183,12 +183,13 @@ class Character(object):
 
 
 class Profile(object):
-    def __init__(self, full_name, age, birthday, height, hobbies, illustrator, voice, introduction_jp, introduction_en, reading, release_date_jp, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated):
+    def __init__(self, full_name, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, reading, release_date_jp, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated):
         self.full_name = full_name
         self._age = age
         self._birthday = birthday
         self.height = height
         self.hobbies = hobbies
+        self.designer = designer
         self.illustrator = illustrator
         self.voice = voice
         self.introduction_jp = introduction_jp
@@ -236,11 +237,8 @@ class Profile(object):
         release_date_jp = 'ReleaseDateJp' in data.translated_characters[character_id] and data.translated_characters[character_id]['ReleaseDateJp'] or ''
         introduction_en = 'ProfileIntroductionEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['ProfileIntroductionEn'] or ''
     
-        if (profile['DesignerNameJp'] == profile['IllustratorNameJp']):
-            illustrator = 'IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp']
-        else:
-            illustrator = ('DesignerNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['DesignerNameEn'] or profile['DesignerNameJp']) + ' / ' + ('IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp'])
-         
+        designer = 'DesignerNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['DesignerNameEn'] or profile['DesignerNameJp']
+        illustrator = 'IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp']
 
         #translator = Translator()
         #
@@ -256,6 +254,7 @@ class Profile(object):
             profile['BirthDay'],
             height,
             hobbies,
+            designer,
             illustrator,
             voice,
             '<p>' + profile['ProfileIntroductionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
