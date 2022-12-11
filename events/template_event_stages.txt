@@ -22,7 +22,7 @@
 {% for stage in stages -%}
 |-
 |{{stage.stage_number}}{% if stage.content_type == "EventContentStoryStage" %}{% raw %}<br>{{Icon|Story|title=Story stage}}{% endraw %}{% endif %}{% if stage.content_type == "EventContentMainStage" %}{% raw %}<br>{{Icon|Tile|title=Strategy map}}{% endraw %}{% endif %}
-| style="text-align: left;" |{{stage.name}}
+| style="text-align: left;" |{{stage.name_en}}
 |{{stage.rec_level}}
 |{{stage.wiki_enter_cost}}
 |{{stage.wiki_topography()}}

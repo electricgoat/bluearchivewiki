@@ -7,6 +7,8 @@ ignore_item_id = [
 
 Reward = collections.namedtuple('Reward', 'name,tag,prob,amount,type')
 
+DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge'}
+
 def translate_group_name(text):
     text = re.sub('스테이지용', 'Stage', text)
     text = re.sub('스테이지', 'Stage', text)
@@ -203,9 +205,10 @@ def wiki_enter_cost(stage, data):
 
 
 class EventStage(object):
-    def __init__(self, id, name, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types):
+    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types):
         self.id = id
         self.name = name
+        self.name_en = name_en
         self.season = season
         self.difficulty = difficulty
         self.stage_number = stage_number
@@ -252,6 +255,7 @@ class EventStage(object):
         rewards = get_event_rewards(stage, data)
         enter_cost =  wiki_enter_cost(stage, data)
 
+        name_en = f"{DIFFICULTY[stage['StageDifficulty']]} {stage['StageNumber']}"
 
         devname_characters = {x['DevName']:{'Id':x['Id'], 'BulletType':x['BulletType'],'ArmorType':x['ArmorType']} for x in data.characters.values()}
         spawn_templates = dict()
@@ -273,6 +277,7 @@ class EventStage(object):
         return cls(
             stage['Id'],
             stage['Name'],
+            name_en,
             stage['EventContentId'],
             stage['StageDifficulty'],
             stage['StageNumber'],
