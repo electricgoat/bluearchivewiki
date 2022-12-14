@@ -1,0 +1,414 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브.",
+            "LocalizeJP": "ブルーアーカイブ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Title"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "메리 크리스마스! 구호기사단의 세리나입니다!\n특별한 크리스마스 보내세요!",
+            "LocalizeJP": "メリークリスマス！救護騎士団のセリナです！\n特別なクリスマスにしましょうね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "모두, 감기 조심하세요.",
+            "LocalizeJP": "皆さん、風邪には\n気を付けて\nくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "구급약도 선물이\n될 수 있으려나……",
+            "LocalizeJP": "救急薬もプレゼントに\nなるかな……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "착한 아이에게\n보내는 선물……\n뭐가 좋을까요?",
+            "LocalizeJP": "良い子に贈る\nプレゼント……\n何がいいでしょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "무리하면 안 돼요.\n건강이 최고랍니다.",
+            "LocalizeJP": "無理しちゃダメ\nですよ。健康が\n一番です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "여러분의 건강을\n진심으로 기원\n하겠습니다.",
+            "LocalizeJP": "皆さんの健康を\n心から祈っています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님!\n오늘의 세리나는\n산타랍니다. 후훗.",
+            "LocalizeJP": "おかえりなさい、先生！\n今日のセリナはサンタさん\nですよ？ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "돌아오셨군요, 선생님!\n메리 크리스마스!",
+            "LocalizeJP": "お待ちしておりました、先生！\nメリークリスマス！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아이들에게 건네 주는\n선물로 고민이신가요?",
+            "LocalizeJP": "子供たちに渡す\nプレゼントでお悩みですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "저와 같이 생각해 볼까요……\n후훗.",
+            "LocalizeJP": "私と一緒に考えましょうか……\nふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "산타는 필요해요.\n아이들의 꿈을\n위해서라도요.",
+            "LocalizeJP": "子供たちの夢のためにも、\nサンタさんは必要です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "만약 내가 진짜\n산타였다면……",
+            "LocalizeJP": "もし私が本物の\nサンタさんだったなら……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "좀 더 선생님에게\n도움이 됐을까…?",
+            "LocalizeJP": "もっと先生の\nお役に立てたのかな……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "부르셨나요?\n네. 선생님의 세리나에요.",
+            "LocalizeJP": "お呼びですか？\nはい、先生のセリナです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "오늘의 세리나는\n산타랍니다.",
+            "LocalizeJP": "今日のセリナは\nサンタさんですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "언제든지 말씀해 주세요.",
+            "LocalizeJP": "いつでも声を\nかけてくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "마음의 준비라면……\n되어 있으니까.",
+            "LocalizeJP": "心の準備なら……\nできていますから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선생님, 생일 축하드려요!",
+            "LocalizeJP": "先生、お誕生日\nおめでとうございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "선물, 기대하며\n기다려 주세요.",
+            "LocalizeJP": "プレゼント、期待して\n待っていてくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "생일…… 저, 요……?",
+            "LocalizeJP": "誕生日……\n私の、ですか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "앗, 바빠서 잊고 있었어요!\n고맙습니다!",
+            "LocalizeJP": "あっ、忙しくて\n忘れていました！\nありがとうございます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "얼마 전에 크리스마스\n였던 거 같은데,\n벌써 설이네요.",
+            "LocalizeJP": "クリスマスかと思えば、\nもうお正月ですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요.",
+            "LocalizeJP": "あけまして\nおめでとうございます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "앞으로도 여러분의\n행복이 계속된다면,\n저도 기쁠 거예요.",
+            "LocalizeJP": "これからも皆さんの\n幸せが続いたら、\n私もうれしいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스네요!\n어떤가요…… 어울리나요?",
+            "LocalizeJP": "クリスマスですね！\nどうでしょう……\n似合ってますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "이 차림으로 걷다 보니\n할로윈 복장으로 오해받았어요.",
+            "LocalizeJP": "この格好で歩いていたら、\nハロウィーンの仮装と\n間違えられてしまいました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "그런 의도는 아니었는데….",
+            "LocalizeJP": "意識したわけでは\nないんですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "와, 감사합니다.\n알고 계신가요? 산타할아버지는\n우는 아이에게는 선물을 줄 수 없대요.\n그러니까 선생님은 울면 안 돼요?",
+            "LocalizeJP": "わぁ、ありがとうございます。\n知っていますか？サンタさんは泣いている\n子にはプレゼントは渡せないんです。\nだから、先生は泣かないでくださいね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선, 선생님?\n이 목도리를… 저에게?",
+            "LocalizeJP": "せ、先生？\nこのマフラーを\n……私に？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "하, 하지만…\n오늘은 제가 산타인데요.",
+            "LocalizeJP": "で、でも……今日の\n私はサンタさんですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선물을 드려야 하는 건\n제 쪽인데……",
+            "LocalizeJP": "本当は、私がプレゼントを\n渡すほうなのに……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님께서 선물을 주시다니……",
+            "LocalizeJP": "先生から\nいただけるだなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "네? 산타도 보상을\n받아도 좋다, 고요……?",
+            "LocalizeJP": "えっ、サンタさんにも\nご褒美があってもいい……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "그렇게 말씀하신다면……",
+            "LocalizeJP": "そうおっしゃるなら……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후훗……",
+            "LocalizeJP": "ふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10056,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "감사합니다. 소중히 할게요.",
+            "LocalizeJP": "ありがとうございます、\n大切にしますね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

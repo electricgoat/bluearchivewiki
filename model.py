@@ -407,7 +407,7 @@ class Skill(object):
 
 def replace_units(text):
     
-    text = re.sub('1回', 'once', text)
+    #text = re.sub('1回', 'once', text)
     #text = re.sub('2回', 'twice', text)
     #text = re.sub('3回', 'three times', text)
     text = re.sub('回', '', text)

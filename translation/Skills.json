@@ -3070,6 +3070,58 @@
             "GroupId": "CH0122ExtraPassive01",
             "NameEn": "Wild guess",
             "DescriptionEn": "Normal attack damage radius is increased by x$1, but attacks deal $2 damage."
+        },
+
+        {
+            "GroupId": "CH0194Ex01",
+            "NameEn": "The sound of blessings",
+            "DescriptionEn": "Increase Critical Damage $1 for $2 and apply 1 \"Holy Night Blessing\". (\"Holy Night Blessing\" stacks up to 15 times)\nEach \"Holy Night Blessing\" adds $3 Explosion damage bonus against the enemies weak to it. (Duration: $4)"
+        },
+        {
+            "GroupId": "CH0194Public01",
+            "NameEn": "Gift set C",
+            "DescriptionEn": "Every $1 normal attacks, throw random gifts at other allies within a circular area. (Duration: $2)\n\nGreen box: Increase Critical Damage by $3\nRed box: Increase Critical Damage by $4\nStuffed bear: Increase Critical Damage by $5"
+        },
+        {
+            "GroupId": "CH0194Passive01",
+            "NameEn": "Guardian angel's will",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0194WeaponPassive01",
+            "NameEn": "Guardian angel's will +",
+            "DescriptionEn": "Increase Defense by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0194ExtraPassive01",
+            "NameEn": "Divine protection",
+            "DescriptionEn": "When reloading, increase Evasion by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0195Ex01",
+            "NameEn": "It's gifts time～",
+            "DescriptionEn": "Apply 1 \"Holy Night Blessing\" to allies within a circular area (\"Holy Night Blessing\" stacks up to 15 times) and continuously recover their HP by $1 of Healing for $2.\nHealing effect is increased by $3 for each active \"Holy Night Blessing\"."
+        },
+        {
+            "GroupId": "CH0195Public01",
+            "NameEn": "Cheer up!",
+            "DescriptionEn": "Every $1, increase the Recovery Rate of an ally with the lowest HP by $2 for $3."
+        },
+        {
+            "GroupId": "CH0195Passive01",
+            "NameEn": "Blessed relief",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0195WeaponPassive01",
+            "NameEn": "Blessed relief +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0195ExtraPassive01",
+            "NameEn": "I'm rooting for you!",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
 
         
