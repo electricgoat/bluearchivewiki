@@ -3075,12 +3075,12 @@
         {
             "GroupId": "CH0194Ex01",
             "NameEn": "The sound of blessings",
-            "DescriptionEn": "Increase Critical Damage $1 for $2 and apply 1 \"Holy Night Blessing\". (\"Holy Night Blessing\" stacks up to 15 times)\nEach \"Holy Night Blessing\" adds $3 Explosion damage bonus against the enemies weak to it. (Duration: $4)"
+            "DescriptionEn": "Increase Critical Damage $1 for $2 and grant 1 \"Holy Night Blessing\" to other allies within a circular area around Serina. (\"Holy Night Blessing\" stacks up to 15 times)\nEach \"Holy Night Blessing\" adds $3 Penetration damage bonus against the enemies weak to it. (Duration: $4)"
         },
         {
             "GroupId": "CH0194Public01",
             "NameEn": "Gift set C",
-            "DescriptionEn": "Every $1 normal attacks, throw random gifts at other allies within a circular area. (Duration: $2)\n\nGreen box: Increase Critical Damage by $3\nRed box: Increase Critical Damage by $4\nStuffed bear: Increase Critical Damage by $5"
+            "DescriptionEn": "Every $1 normal attacks, throw random gifts to other allies within a circular area. (Duration: $2)\n\nGreen box: Increase Critical Damage by $3\nRed box: Increase Critical Damage by $4\nStuffed bear: Increase Critical Damage by $5"
         },
         {
             "GroupId": "CH0194Passive01",
@@ -3101,7 +3101,7 @@
         {
             "GroupId": "CH0195Ex01",
             "NameEn": "It's gifts time～",
-            "DescriptionEn": "Apply 1 \"Holy Night Blessing\" to allies within a circular area (\"Holy Night Blessing\" stacks up to 15 times) and continuously recover their HP by $1 of Healing for $2.\nHealing effect is increased by $3 for each active \"Holy Night Blessing\"."
+            "DescriptionEn": "Grant 1 \"Holy Night Blessing\" to allies within a circular area (\"Holy Night Blessing\" stacks up to 15 times) and continuously recover their HP by $1 of Healing for $2.\nHealing effect is increased by $3 for each active \"Holy Night Blessing\"."
         },
         {
             "GroupId": "CH0195Public01",

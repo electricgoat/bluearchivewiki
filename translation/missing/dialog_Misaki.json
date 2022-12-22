@@ -2,42 +2,6 @@
     "DataList": [
         {
             "CharacterId": 10041,
-            "DialogCategory": "UITitle",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "블루아카이브",
-            "LocalizeJP": "ブルーアーカイブ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Title"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "CharacterGet",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "아리우스 스쿼드의 미사키.\n말하자면 주인을 잃은 사냥개 중에 하나.\n목줄은 그쪽에 있으니까, 마음대로 명령해.",
-            "LocalizeJP": "……アリウススクワッドのミサキ。\n今は主のいない猟犬みたいなものだから……\nリードはあげる。好きに命令して。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Gachaget"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "조금 시끄럽네.",
-            "LocalizeJP": "少し騒がしいね。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Cafe_monolog_1"
-            ]
-        },
-        {
-            "CharacterId": 10041,
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
@@ -50,42 +14,6 @@
         },
         {
             "CharacterId": 10041,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 3,
-            "LocalizeKR": "……그거, 즐거워?",
-            "LocalizeJP": "……それ、楽しいの？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Cafe_monolog_3"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "나는 관심 없어.",
-            "LocalizeJP": "別に興味ない。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Cafe_monolog_4"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "……뭐 하는 거지?",
-            "LocalizeJP": "……何をしてるの？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Cafe_monolog_5"
-            ]
-        },
-        {
-            "CharacterId": 10041,
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
@@ -148,28 +76,6 @@
             "CharacterId": 10041,
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "잡담은, 적극적으로 하는\n편은 아니야.",
-            "LocalizeJP": "雑談は、積極的にする\n方じゃない。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Lobby_4"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "글쎄. 뭐, 명령이라면\n따르겠지만.",
-            "LocalizeJP": "それが命令なら、\nまぁ、従うけど。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
             "GroupId": 5,
             "LocalizeKR": "내가, 선생님을\n재미있게 해주는\n타입이라고 생각해?",
             "LocalizeJP": "私が、先生を\n楽しませられる\nようなタイプだと思う？",
@@ -193,26 +99,6 @@
         {
             "CharacterId": 10041,
             "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "하지만…\n이제는 조금 알 것 같아.",
-            "LocalizeJP": "でも……今は少しだけ\n感じることがある。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "당신이……\n여기 있어 줘서 다행이야.",
-            "LocalizeJP": "……あなたが、\nここにいてくれてよかった。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
             "LocalizeKR": "태어난 날을 축하하는 이유는\n지금도 잘 이해하지 못해.",
@@ -227,42 +113,12 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "애초에 태어나지도\n않았다면 죽음을 슬퍼할\n일도 없었을 텐데.",
-            "LocalizeJP": "そもそも生まれなければ、\n死について考える事も\nなかったのに。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
             "LocalizeKR": "아아. 이것은 질병과도\n같은 것이겠지.",
             "LocalizeJP": "まあ、これは……\n病気みたいなもの\nなんだろうね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "Misaki_Season_Birthday_1_2"
             ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
-            "LocalizeKR": "미안해. 이런 걸\n말하고 싶었던 게\n아니었는데…….",
-            "LocalizeJP": "ごめん、こういう事を\n言いたかったわけじゃ\nなくて……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
-            "LocalizeKR": "…고마워.",
-            "LocalizeJP": "その、ありがとう。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10041,
@@ -292,16 +148,6 @@
             "CharacterId": 10041,
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "뭐, 분위기에 찬물을\n끼얹을 생각은 없으니까,\n조용히 있을게.",
-            "LocalizeJP": "とにかく、良い雰囲気に\n水を差したくないから、\n静かにしてるね。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
             "GroupId": 500,
             "LocalizeKR": "미안하지만\n장난이라면 관심 없어.",
             "LocalizeJP": "悪いけど、\n悪戯とかには\n興味ないから。",
@@ -321,16 +167,6 @@
             "VoiceClipsJp": [
                 "Misaki_Season_Halloween_1_2"
             ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "……명령이야?",
-            "LocalizeJP": "……それは、命令？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10041,
@@ -396,28 +232,6 @@
             "CharacterId": 10041,
             "DialogCategory": "UILobby2",
             "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "잡담은, 적극적으로 하는\n편은 아니야.",
-            "LocalizeJP": "雑談は、積極的にする\n方じゃない。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Misaki_Lobby_4"
-            ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "글쎄. 뭐, 명령이라면\n따르겠지만.",
-            "LocalizeJP": "それが命令なら、\nまぁ、従うけど。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
             "GroupId": 5,
             "LocalizeKR": "내가, 선생님을\n재미있게 해주는\n타입이라고 생각해?",
             "LocalizeJP": "私が、先生を\n楽しませられる\nようなタイプだと思う？",
@@ -441,26 +255,6 @@
         {
             "CharacterId": 10041,
             "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "하지만…\n이제는 조금 알 것 같아.",
-            "LocalizeJP": "でも……今は少しだけ\n感じることがある。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "당신이……\n여기 있어 줘서 다행이야.",
-            "LocalizeJP": "……あなたが、\nここにいてくれてよかった。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
             "DialogCondition": "Idle",
             "GroupId": 200,
             "LocalizeKR": "태어난 날을 축하하는 이유는\n지금도 잘 이해하지 못해.",
@@ -475,42 +269,12 @@
             "DialogCategory": "UILobby2",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "애초에 태어나지도\n않았다면 죽음을 슬퍼할\n일도 없었을 텐데.",
-            "LocalizeJP": "そもそも生まれなければ、\n死について考える事も\nなかったのに。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
             "LocalizeKR": "아아. 이것은 질병과도\n같은 것이겠지.",
             "LocalizeJP": "まあ、これは……\n病気みたいなもの\nなんだろうね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "Misaki_Season_Birthday_1_2"
             ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
-            "LocalizeKR": "미안해. 이런 걸\n말하고 싶었던 게\n아니었는데…….",
-            "LocalizeJP": "ごめん、こういう事を\n言いたかったわけじゃ\nなくて……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
-            "LocalizeKR": "…고마워.",
-            "LocalizeJP": "その、ありがとう。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10041,
@@ -540,16 +304,6 @@
             "CharacterId": 10041,
             "DialogCategory": "UILobby2",
             "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "뭐, 분위기에 찬물을\n끼얹을 생각은 없으니까,\n조용히 있을게.",
-            "LocalizeJP": "とにかく、良い雰囲気に\n水を差したくないから、\n静かにしてるね。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
             "GroupId": 500,
             "LocalizeKR": "미안하지만\n장난이라면 관심 없어.",
             "LocalizeJP": "悪いけど、\n悪戯とかには\n興味ないから。",
@@ -569,16 +323,6 @@
             "VoiceClipsJp": [
                 "Misaki_Season_Halloween_1_2"
             ]
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "……명령이야?",
-            "LocalizeJP": "……それは、命令？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10041,
@@ -616,26 +360,6 @@
             "CharacterId": 10041,
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "……나?",
-            "LocalizeJP": "……私？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "나를, 걱정해서……?",
-            "LocalizeJP": "私を、心配して……？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
             "GroupId": 3,
             "LocalizeKR": "그런 하찮은 것에도\n신경 쓰다니……",
             "LocalizeJP": "そんな、\nくだらないことまで\n気にするなんて……。",
@@ -649,16 +373,6 @@
             "GroupId": 3,
             "LocalizeKR": "한가한 거구나?\n어른이면서.",
             "LocalizeJP": "暇なんだね、\n大人なのに。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10041,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "이 차갑고\n시끄러운 세계도……\n나도.",
-            "LocalizeJP": "この冷たくて騒がしい\n世の中も、私も。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
         },
