@@ -403,6 +403,50 @@ def generate():
         wikitext_boxgacha += '</tabber>\n'
 
 
+    #OMIKUJI / FORTUNE SLIPS
+    wikitext_fortunegacha = ''
+    if (args['event_season'], "FortuneGachaShop") in data.event_content_seasons:
+        template = env.get_template('events/template_fortunegacha.txt')
+
+        fortune_gacha = data.event_content_fortune_gacha_shop[args['event_season']]
+        fortune_tiers = {
+            5:{'wiki_title':'Great Blessing (大吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            4:{'wiki_title':'Blessing (吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            3:{'wiki_title':'Modest Blessing (中吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            2:{'wiki_title':'Small Blessing (小吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            1:{'wiki_title':'Future Blessing (末吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            0:{'wiki_title':'Misfortune (凶)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+        }
+        for tier in range(0,6):
+        
+            for box in fortune_gacha:
+                if box['Grade'] != tier:
+                    continue
+                
+                fortune_tiers[tier]['total_prob'] += box['Prob']
+                fortune_tiers[tier]['total_modifier'] += box['ProbModifyValue']
+                fortune_tiers[tier]['total_mod_limit'] += box['ProbModifyLimit']
+
+                if 'RewardParcelType' not in fortune_tiers[tier]: fortune_tiers[tier]['RewardParcelType'] = box['RewardParcelType']
+                elif fortune_tiers[tier]['RewardParcelType'] != box['RewardParcelType']: print(f'Mismatched RewardParcelType data within FortuneGacha tier {tier}')
+
+                if 'RewardParcelId' not in fortune_tiers[tier]: fortune_tiers[tier]['RewardParcelId'] = box['RewardParcelId']
+                elif fortune_tiers[tier]['RewardParcelId'] != box['RewardParcelId']: print(f'Mismatched RewardParcelId data within FortuneGacha tier {tier}')
+
+                if 'RewardParcelAmount' not in fortune_tiers[tier]: fortune_tiers[tier]['RewardParcelAmount'] = box['RewardParcelAmount']
+                elif fortune_tiers[tier]['RewardParcelAmount'] != box['RewardParcelAmount']: print(f'Mismatched RewardParcelAmount data within FortuneGacha tier {tier}')
+            
+            for index,type in enumerate(fortune_tiers[tier]['RewardParcelType']):
+                wiki_card_text = wiki_card(type, fortune_tiers[tier]['RewardParcelId'][index], quantity = fortune_tiers[tier]['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                fortune_tiers[tier]['wiki_items'].append(wiki_card_text)
+
+            #print(fortune_tiers[tier])
+        cost_good = data.goods[fortune_gacha[0]['CostGoodsId']]
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+
+        wikitext_fortunegacha += template.render(fortune_tiers=fortune_tiers.values(), wiki_price = wiki_price)
+
+
 
     season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season['EventContentCloseTime'] = season['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
@@ -430,7 +474,7 @@ def generate():
     
     wikitext = wikitext_event + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_footer
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_fortunegacha + wikitext_footer
 
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:

@@ -1,0 +1,15 @@
+==Omikuji==
+Each Omikuji (fortune slip) draw costs {{wiki_price}}. There is a soft modifier that increases Great Blessing chance after 5 other draws, up to a seemingly guaranteed Great Blessing in 15 total draws.
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible" style="text-align:center"
+|-
+!Fortune
+!Draw Rate
+!Reward
+{% for fortune in fortune_tiers -%}
+|-
+| style="text-align:left;" |{{fortune.wiki_title}}
+|{{'%g'%(fortune.total_prob / 100)}}%
+|{% for wiki_card in fortune.wiki_items -%}{{wiki_card}}{% endfor %}
+{% endfor -%}
+|{% raw %}}{% endraw %}
+
