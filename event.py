@@ -190,7 +190,7 @@ def parse_milestone_rewards(season_id):
                 total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['IsCompletionReward'] = False
             else:
                 total_milestone_rewards[(mission['RewardParcelType'][index], mission['RewardParcelId'][index])]['Amount'] += mission['RewardParcelAmount'][index]
-
+  
     for item in total_milestone_rewards.values():
         total_reward_card(item)
 
