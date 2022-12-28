@@ -705,7 +705,8 @@ def statcalc_replace_statname(stat_name):
             'MoveSpeed': 'move_speed',
             'DefensePenetration': '',
             'MaxBulletCount': '',
-            'ExtendBuffDuration':''
+            'ExtendBuffDuration':'',
+            'EnhanceExplosionRate':'',
         }[stat_name]
 
 

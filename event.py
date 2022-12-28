@@ -410,12 +410,12 @@ def generate():
 
         fortune_gacha = data.event_content_fortune_gacha_shop[args['event_season']]
         fortune_tiers = {
-            5:{'wiki_title':'Great Blessing (大吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
-            4:{'wiki_title':'Blessing (吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
-            3:{'wiki_title':'Modest Blessing (中吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
-            2:{'wiki_title':'Small Blessing (小吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
-            1:{'wiki_title':'Future Blessing (末吉)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
-            0:{'wiki_title':'Misfortune (凶)', 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            5:{'wiki_title':'Great Blessing (大吉)',    'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            4:{'wiki_title':'Blessing (吉)',            'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            3:{'wiki_title':'Modest Blessing (中吉)',   'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            2:{'wiki_title':'Small Blessing (小吉)',    'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            1:{'wiki_title':'Future Blessing (末吉)',   'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
+            0:{'wiki_title':'Misfortune (凶)',          'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'wiki_items': []},
         }
         for tier in range(0,6):
         

@@ -3122,6 +3122,84 @@
             "GroupId": "CH0195ExtraPassive01",
             "NameEn": "I'm rooting for you!",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0191Ex01",
+            "NameEn": "Gourmet's Wrath",
+            "DescriptionEn": "Target up to 5 enemies, dealing $1 damage to each in turn, additinally deal $2 damage within a circular area around each hit."
+        },
+        {
+            "GroupId": "CH0191Public01",
+            "NameEn": "Gourmet's Belief",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0191Passive01",
+            "NameEn": "New Year's Viando",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0191WeaponPassive01",
+            "NameEn": "New Year's Viando +",
+            "DescriptionEn": "Increase Explosive damage bonus against the enemies weak to it by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0191ExtraPassive01",
+            "NameEn": "Farewell Dessert",
+            "DescriptionEn": "When attacking, there is a $1 chance to reduce enemy Defense by $2 for $3. (Cooldown: $4)"
+        },
+
+        {
+            "GroupId": "CH0192Ex01",
+            "NameEn": "Food grudge",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular range."
+        },
+        {
+            "GroupId": "CH0192Public01",
+            "NameEn": "I wanted to eat that...",
+            "DescriptionEn": "Every $1 normal attacks, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0192Passive01",
+            "NameEn": "Let's get this over with!",
+            "DescriptionEn": "Increase Attack Speed by $1."
+        },
+        {
+            "GroupId": "CH0192WeaponPassive01",
+            "NameEn": "Let's get this over with! +",
+            "DescriptionEn": "Increase Attack Speed by $1. Further increase Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0192ExtraPassive01",
+            "NameEn": "This was my only dress!",
+            "DescriptionEn": "When EX or Normal skill are activated, increase Critical Rate by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0177Ex01",
+            "NameEn": "Lunch Club New Year dishes",
+            "DescriptionEn": "Reduce EX skill cost for one other ally by up to $1 (reduction active until EX is activated $2). The discount is rounded down to the nearest whole number.\n\nIncrease Critical Damage by $3 for $4."
+        },
+        {
+            "GroupId": "CH0177Public01",
+            "NameEn": "Tasting time!",
+            "DescriptionEn": "Every $1, grant a shield to an ally with the lowest HP (shield HP is $2 of Fuuka's Healing). (Duration: $3)"
+        },
+        {
+            "GroupId": "CH0177Passive01",
+            "NameEn": "The best bite",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0177WeaponPassive01",
+            "NameEn": "The best bite +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0177ExtraPassive01",
+            "NameEn": "Lunch Club delivery",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
 
         
