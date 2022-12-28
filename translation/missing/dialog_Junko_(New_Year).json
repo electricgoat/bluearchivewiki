@@ -1,0 +1,414 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브~!",
+            "LocalizeJP": "ブルーアーカイブ～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Title"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님 새해 복 많이 받아~!\n같이 맛있는 거, 찾으러 가자!",
+            "LocalizeJP": "先生、あけましておめでとうー！\n一緒においしいもの、探しに行きましょ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "좋은 곳이네……\n아니, 재미있는\n곳인가?",
+            "LocalizeJP": "素敵な……という\nより、面白そうな\nところね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "뭔가…. 맛있는\n냄새가….",
+            "LocalizeJP": "なんだか……\nおいしそうな\n匂いが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "더럽히지 않도록\n조심해야지.",
+            "LocalizeJP": "汚さないように\n気をつけないと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "맛있는 걸 먹으려고 하면\n꼭 방해가 들어오는 느낌이\n……",
+            "LocalizeJP": "おいしいものを\n食べようとしてる\nときに限って、いつも\n邪魔が入るような……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "괜찮아, 분명히 클 수\n있을거야! 아직\n가능성은 있지…?",
+            "LocalizeJP": "大丈夫、きっと\n大きくなれるはず！\nまだ可能性は\nあるわよね……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생님!\n빨리 일같은 건 끝내버리고\n맛있는 거 먹으러 가자!",
+            "LocalizeJP": "おかえりなさい、先生！\n早く仕事なんて終わりにして\nおいしいもの食べに行きましょ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "나도 도울테니까!",
+            "LocalizeJP": "私も手伝うから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "정말, 선생님 어디 갔던거야?\n엇, 왜 기다렸냐고?\n그야 선생님이……",
+            "LocalizeJP": "もう、先生ったらどこ\n行ってたのよ？えっ、\nなんで待ってたのかって？\nそんなの先生のことが…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아니, 무슨 말을\n하게 하는 거야!",
+            "LocalizeJP": "…って、なに言わせる気よ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "혹시, 기모노 차림에 반했어?",
+            "LocalizeJP": "もしかして、着物姿に\n見惚れちゃった？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "다, 당연하지.\n날 그냥 먹보라고\n착각하고 있는 거 아냐?",
+            "LocalizeJP": "と、当然でしょ。私をただの\n食いしん坊と勘違いしてるん\nじゃないの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "제일 좋아하는 오세치 요리?\n음~ 고르기가 어렵네.\n왜냐면 다 맛있거든!",
+            "LocalizeJP": "一番好きなおせち料理？\nん～、選ぶのが難しいなぁ。\nだってどれもおいしいんだもの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "저기~ 아직 일 안 끝났어~?",
+            "LocalizeJP": "ね～、いつまで仕事\nしてるの～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "빨리이~\n어디 같이 놀러 가자~",
+            "LocalizeJP": "はやく～はやく\n遊びに行きましょうよ～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하아…… 내가 요리 같은 거라도\n할 줄 알았으면, 같이 무언가\n만들어 먹기라도 하는 건데.",
+            "LocalizeJP": "はぁ……私が料理上手\nだったらなぁ。そうしたら\n一緒に何か作れるのに。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "왜 그래? 혹시\n혼자라서 쓸쓸해졌어?",
+            "LocalizeJP": "なあに？\n寂しくなっちゃったの？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "따, 딱히 내가 그렇다는 건\n아니니까!",
+            "LocalizeJP": "べ、別に私がそう思ってる\nわけじゃなくて！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "에헤헤,\n오늘은 선생님 생일이네.\n축하하러 같이 외출해줄게!",
+            "LocalizeJP": "えへへ、今日は先生の\nお誕生日ね。お祝いに\n一緒にお出かけしてあげる！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "내 생일, 잊은 건 아니지?\n빨리 준비해서 가자!",
+            "LocalizeJP": "私の誕生日、忘れた\nわけじゃないでしょ？\n早く支度して行くわよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "후후… 오늘은 어떤 걸\n얻어먹을까나~?",
+            "LocalizeJP": "ふふ……今日は何を\nごちそうしてもらおっかな～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받아, 선생님!\n이 복장?",
+            "LocalizeJP": "あけましておめでとう、先生！\nこの格好？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "그, 그야… 설날이니까.\n어, 어때…? 뭔가 감상\n같은 거 없나~ 해서.",
+            "LocalizeJP": "ほ、ほら……お正月だからね。\nど、どうかな……？なんか\n感想とかないのかな～って。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "잘 어울린다고?\n귀, 귀여워…?",
+            "LocalizeJP": "似合ってる？か、可愛い……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "스톱!\n이, 이제 됐어!",
+            "LocalizeJP": "す、ストップ！\nも、もういいから！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스도 맛있는게 많지!\n이번에야말로…",
+            "LocalizeJP": "クリスマスもおいしいものが\nいっぱいだよね！\n今度こそ……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "먹을 때 방해받지\n않았으면 좋겠는데.",
+            "LocalizeJP": "食べる時邪魔されないと\nいいんだけど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈은 다른 축제와 비교해서\n좀 아쉽하다고나 할까…\n호박만 있어서 그런가?",
+            "LocalizeJP": "ハロウィーンって、他の\nお祭りと比べてちょっと\n物足りないというか……。\nカボチャばかりだからかな？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "뭐, 맛있으니까 상관없지만!",
+            "LocalizeJP": "ま、おいしいから\nいいんだけどね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "나 강해졌구나….\n…한번만 말할거니까, 제대로 들어!\n그…. 고마워. 다 선생님 덕분이야.\n감사하고있어.",
+            "LocalizeJP": "私、強くなったんだね……。\n……一度しか言わないから、\nちゃんと聞いてるのよ！\nその……ありがとう。全部、\n先生のおかげ。感謝してる。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0192_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "여기, 하나 줄게. 선생님.",
+            "LocalizeJP": "はい、先生。一個あげる、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "왜 그렇게 놀라는거야!\n어, 어쩌다 많이 들어가\n있던 것 뿐이야!",
+            "LocalizeJP": "って、なんでそんなに驚くの！\nた、たまたま多く入ってたの！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이거, 선생님이\n사 준 거기도 하고…\n거기에 오늘 하루 종일…",
+            "LocalizeJP": "というかこれ、先生が\n買ってくれたものだし……。\nそれに、今日は一日中……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(생각해 보면, 오늘은\n하루 종일 선생님과……)",
+            "LocalizeJP": "(そういえば、今日は\nずっと先生と……)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(무, 무슨 생각을\n하는 거야, 나는!)",
+            "LocalizeJP": "(わ、私ってば、\n何を考えてるの！)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "아, 정말! 아무튼 내가\n주겠다는 거니까\n그런 줄 알아!",
+            "LocalizeJP": "もう！私があげるって\n言ってるんだからいいじゃない！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -1,0 +1,424 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브.",
+            "LocalizeJP": "ブルーアーカイブ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Title"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후훗, 새해 복 많이 받으세요.\n후리소데 차림에 꽃을 피우고,\n새로운 마음으로 미지의 음식을 찾으러 갑시다. ",
+            "LocalizeJP": "ふふっ、あけましておめでとうございます。\n振袖姿に花を咲かせ、心新たに未知の\n食を求めに参りましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "요리가 위대한 것은,\n거기에 모든 것이\n담겨 있기 때문이죠.",
+            "LocalizeJP": "料理の偉大な\nところは、一皿に\n全てが込められている\n点にあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Cafe_Act_1"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "의복과 장소도, 어떻게\n보면 미식의 한 요소\n라고 할 수 있죠.",
+            "LocalizeJP": "ドレスコードや\nロケーションも、美食\nの大切な要素と\n言えるでしょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Cafe_Act_2"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이 시기에는 특별한\n요리가 많죠….\n후훗, 기대가 됩니다.",
+            "LocalizeJP": "この時期は特別な\n料理が目白押しで……\nふふっ、楽しみです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Cafe_Act_3"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후리소데에는\n나름 익숙해져 있답니다.",
+            "LocalizeJP": "振袖の身のこなしで\nしたら、それなりに\n慣れております。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Cafe_Act_4"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "멋진 요리를\n찾을 수 있으면\n좋겠는데….",
+            "LocalizeJP": "素敵なお料理が\n見つかれば良い\nのですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Cafe_Act_5"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "후훗. 어서 오세요 선생님.\n오늘은 미식을 찾으셨나요?",
+            "LocalizeJP": "ふふっ。ようこそ、先生。\n今日は美食に出会えましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "평안하신가요, 선생님.\n그러면 함께, 새해의 미식을\n찾아 볼까요?",
+            "LocalizeJP": "ごきげんよう、先生。\nさあ、私と一緒にお正月の\n美食探しと参りましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "…선생님은 후리소데를\n좋아하시나요? 네?\n잘 어울린다구요? 우후후…\n당, 당연하죠.",
+            "LocalizeJP": "……先生は振袖姿が\nお好きなんですか？\nえっ、よく似合っている？\nうふふ……と、当然の事です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "갑자기 따뜻하고 부드러운\n맛의 음식이 먹고싶어졌어요.\n …선생님과 이야기하고\n있기 때문일까요.",
+            "LocalizeJP": "急に、温かくて優しい味の\n食べ物が恋しくなってしまい\nました。……先生とお話して\nいるからでしょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "오세치는 본디 조림 계열의\n음식으로만 이루어지죠.",
+            "LocalizeJP": "おせちとは本来、\n煮物だけで作られている\nのですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "최근에는 그렇지 않은 경우도\n많은 듯 합니다만……",
+            "LocalizeJP": "最近は変わり種も\n増えたのだとか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "저는 어느 쪽이든 좋아한답니다.",
+            "LocalizeJP": "もちろん、私は\nどちらも美味しく\nいただきますよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "계절 음식은 모두 매력적이죠…\n설날이라고 하면, 오세치나\n오조니, 오시루코…….",
+            "LocalizeJP": "季節の食べ物はどれも\n魅力的ですね……。お正月と\nいえば、おせちやお雑煮、\nお汁粉……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아아…… 배가 고파졌어요.",
+            "LocalizeJP": "ああ……お腹が\n空いてきましたわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "미식이란 건 보편적인 가치죠.",
+            "LocalizeJP": "美食とは、普遍的に\n価値があるものですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Lobby_5"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "……선생님께서도 물론,\n동의하시겠죠?",
+            "LocalizeJP": "……もちろん先生も\n同意してくださりますよね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오늘은 선생님 생일이죠.\n원하시는 식사가 있으실까요?",
+            "LocalizeJP": "今日は先生のお誕生日\nですわね。お食事に何か\nご希望はございますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "제가 선생님 입맛에 맞는\n가게를 예약하도록 할게요.",
+            "LocalizeJP": "私が先生のお口に合う\nお店を予約いたしますわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님이 제 생일을\n축하해 주시다니…… 기쁩니다.",
+            "LocalizeJP": "先生が私の誕生日を\n祝ってくださるなんて……\n嬉しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "으후훗, 오늘은 에스코트\n해주시겠어요?",
+            "LocalizeJP": "うふふっ、本日は\nエスコートして\nくださりますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님과 함께라면….\n어떤 식사라도 미식이 되니까요.",
+            "LocalizeJP": "先生と一緒なら……\nどのような食事でも\n美食になりますから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요,\n선생님.",
+            "LocalizeJP": "あけましておめでとう\nございます、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "후훗…. 설날이 되었네요.\n모처럼이니 후리소데로\n갈아입고 왔습니다.",
+            "LocalizeJP": "ふふっ……\nお正月になりましたね。\nせっかくですので、振袖に\n着替えて参りましたわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "특별한 요리를 즐기기 위해서는\n우선 복장부터, 이니까요.",
+            "LocalizeJP": "特別なお料理を楽しむには、\nまず服装から、ですからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "선생님, 크리스마스 잘 보내고\n계신가요? 여러가지 것들이\n달콤하고 따듯하게\n느껴지는 날입니다….",
+            "LocalizeJP": "先生、クリスマスを楽しんで\nいらっしゃいますか？\n様々なものが甘くて、\n温かく感じられる日です",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "후훗, 이것도 선생님\n덕분입니다.",
+            "LocalizeJP": "……ふふっ、これも\n先生のおかげですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "할로윈이네요. 맛있는\n호박파이를 가져왔습니다만…",
+            "LocalizeJP": "ハロウィーンですね。\nおいしいカボチャパイを\n持ってきたのですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "선생님도 한입, 어떠신가요?",
+            "LocalizeJP": "先生も一口、いかがですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "특별한 시기에 맛보는 특별한 음식은\n한층 더 각별한 것이지요.\n이것으로 한층 더 미식의 길에……\n그리고 선생님에게 다가갈 수\n있게 된 것 같습니다. 언제나\n감사드리고 있답니다. 선생님?",
+            "LocalizeJP": "特別な日に味わう料理は、\nこれほどまでに素晴らしい\n味わいなのですね。これで\nさらなる美食の道……そして\n先生に近づけたような気がいたします。\nいつも感謝しておりますわ、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "미식에 있어서 중요한 것은,\n요리와 상대… 그리고 시기.",
+            "LocalizeJP": "美食にとって大切なものは、\n料理と相手……そして時期。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그만큼 상황도 없어서는\n안 될 존재죠.",
+            "LocalizeJP": "それと同じくらい、\nシチュエーションも\nなくてはならない存在です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "자, 그러니 오늘은 서로\n먹여 주기를 해 보도록 할까요?",
+            "LocalizeJP": "うふふっ。ですので、\n今日は食べさせあいっこを\nいたしましょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "우선은 저부터…. \n자, 선생님. 입을 벌리고…\n아~ 해 주세요.",
+            "LocalizeJP": "まずは私から……\nはい、先生。\nお口を開けて……\nあ～んしてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "정, 정말, 어서요.\n저도… 부끄럽습니다만….",
+            "LocalizeJP": "も、もう、早くなさって\nください。私も……\n恥ずかしいのですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님께서 먹어 주실 때까지,\n저는 이대로 있을거랍니다?",
+            "LocalizeJP": "先生が口にしてくださるまで、\n私はこのまま続けますわよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10057,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "자요…… 아~.",
+            "LocalizeJP": "ほら……あ～ん。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}
