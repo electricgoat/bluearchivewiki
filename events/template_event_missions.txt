@@ -3,16 +3,13 @@
 !No.	
 !Mission
 !Reward
-!Remarks
-{% for mission in missions if mission['Category'] == "Daily" and mission['ViewFlag'] == True -%}
+{% for mission in missions if mission['ResetType'] == "Daily" and mission['ViewFlag'] == True -%}
 |-
 | style="text-align: center" |{{mission['DisplayOrder']}}
 |{{mission['DescriptionEn']}}
 |{% for reward in mission['RewardItemCards'] -%}
 {{reward}}
-{% endfor -%}
-|
-{% endfor -%}
+{% endfor -%}{% endfor -%}
 {% raw %}|}{% endraw %}
 
 ==Achievement Missions==

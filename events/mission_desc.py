@@ -101,8 +101,9 @@ map_descriptions = {
     'Event_MISSION_CLEAR_CAMPAIGN_STAGE_DIFFICULTY_Hard':9999990003,
     'Event_Mission_Complete_Campaign_Stage_Story': 9999990004,
     'Event_Mission_Complete_Campaign_Stage_Quest': 9999990005,
-    'Mission_Event_Location_At_Specipic_Rank_808':4069346749,
-    'Event_Mission_Omikuji_Count':1910182025,
+    'Mission_Event_Location_At_Specipic_Rank_808': 4069346749,
+    'Event_Mission_Omikuji_Count': 1910182025,
+    'Event_Mission_Daily_Complete_Mission': 373831186,
 }
 
 map_descriptions_all = {  #for reference only
