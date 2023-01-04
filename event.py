@@ -263,7 +263,16 @@ def generate():
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
 
-    bc = data.event_content_character_bonus[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
+
+    if season['MainEventId'] != 0:
+        print(f"This is a sub-event, using bonus character data from MainEventId {season['MainEventId']}")
+        bc = data.event_content_character_bonus[season['MainEventId']]
+    elif season['EventContentId'] in data.event_content_character_bonus:
+        bc = data.event_content_character_bonus[season['EventContentId']]
+    else:
+        print('Warning - no bonus character data found!')
+        bc = []
+    
     bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
     for item in bonus_characters:  
         for character in bc:
@@ -282,7 +291,16 @@ def generate():
         bonus_values[item].sort(reverse=True)
     #print(len(bonus_values['EventToken2']))
 
-    cy = data.event_content_currency[data.event_content_seasons[(args['event_season'], "Stage")]['EventContentId']]
+
+    if season['MainEventId'] != 0:
+        print(f"This is a sub-event, using currencies data from MainEventId {season['MainEventId']}")
+        cy = data.event_content_currency[season['MainEventId']]
+    elif season['EventContentId'] in data.event_content_currency:
+        cy = data.event_content_currency[season['EventContentId']]
+    else:
+        print('Warning - no bonus character data found!')
+        cy = []
+
     event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
     for currency in cy:
         event_currencies[currency['EventContentItemType']] = {'ItemUniqueId': currency['ItemUniqueId'], 'Name':items[currency['ItemUniqueId']].name_en} 
@@ -422,7 +440,7 @@ def generate():
             for box in fortune_gacha:
                 if box['Grade'] != tier:
                     continue
-                
+               
                 fortune_tiers[tier]['total_prob'] += box['Prob']
                 fortune_tiers[tier]['total_modifier'] += box['ProbModifyValue']
                 fortune_tiers[tier]['total_mod_limit'] += box['ProbModifyLimit']
