@@ -21,7 +21,7 @@ It is possible to complete the mission requirements up to 7 days in advance and 
 
 =Mission Details & Rewards=
 <tabber>
-{% for day in range(1,8) -%}
+{% for day in range(1, tab_count) -%}
 Day{{day}}=
 {% raw %}{{% endraw %}| class="wikitable"
 ! colspan="4" |Day {{day}}
@@ -29,7 +29,6 @@ Day{{day}}=
 !No.	
 !Mission
 !Reward
-!Remarks
 {% for mission in missions if mission['TabNumber'] == day -%}
 |-
 | style="text-align: center" |{{loop.index}}
@@ -37,7 +36,6 @@ Day{{day}}=
 |{% for reward in mission['RewardItemCards'] -%}
 {{reward}}
 {% endfor -%}
-|
 {% endfor -%}
 {% raw %}|}{% endraw %}
 |-|
@@ -48,26 +46,38 @@ Day{{day}}=
 ! colspan="2" |Total Rewards
 |-
 !Currency
-|{%- for reward in total_rewards if reward['Type'] == 'Currency' and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}{%- for reward in total_rewards if reward['Type'] == 'Item' and 'ExpItem' not in reward['Tags'] and 'BookItem' not in reward['Tags'] and 'CDItem' not in reward['Tags'] and 'MaterialItem' not in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|{%- for reward in total_rewards['Currency'].values() if not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}{%- for reward in total_rewards['Item'].values() if 'ExpItem' not in reward['Tags'] and 'BookItem' not in reward['Tags'] and 'CDItem' not in reward['Tags'] and 'MaterialItem' not in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
 |-
 !EXP Material
-|{% for reward in total_rewards if reward['Type'] == 'Item' and 'ExpItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
-|-
-!Tech Notes
-|{% for reward in total_rewards if reward['Type'] == 'Item' and 'BookItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|{% for reward in total_rewards['Item'].values() if 'ExpItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+{%- for reward in total_rewards['Equipment'].values() if not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
 |-
 !Blu-ray Discs
-|{% for reward in total_rewards if reward['Type'] == 'Item' and 'CDItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|{% for reward in total_rewards['Item'].values() if 'CDItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|-
+!Tech Notes
+|{% for reward in total_rewards['Item'].values() if 'BookItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
 |-
 !Ooparts
-|{% for reward in total_rewards if reward['Type'] == 'Item' and 'MaterialItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|{% for reward in total_rewards['Item'].values() if 'MaterialItem' in reward['Tags'] and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+{% if total_rewards['Furniture']|length > 0 -%}
 |-
 !Furniture
-|{%- for reward in total_rewards if reward['Type'] == 'Furniture' and not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+|{%- for reward in total_rewards['Furniture'].values() if not reward['IsCompletionReward'] -%}{{reward['Card']}}{% endfor %}
+{% endif -%}
 |-
 !Completion Reward
 ({{season['RequirementParcelAmount']}} {{season['CollectibleItemCard']}})
-|{%- for reward in total_rewards if reward['IsCompletionReward'] -%}
+|{%- for reward in total_rewards['Currency'].values() if reward['IsCompletionReward'] -%}
+{{reward['Card']}}
+{% endfor -%}
+{%- for reward in total_rewards['Item'].values() if reward['IsCompletionReward'] -%}
+{{reward['Card']}}
+{% endfor -%}
+{%- for reward in total_rewards['Furniture'].values() if reward['IsCompletionReward'] -%}
+{{reward['Card']}}
+{% endfor -%}
+{%- for reward in total_rewards['Equipment'].values() if reward['IsCompletionReward'] -%}
 {{reward['Card']}}
 {% endfor -%}
 {% raw %}|}{% endraw %}

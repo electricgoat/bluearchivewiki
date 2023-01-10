@@ -25,7 +25,7 @@ def generate():
     global data 
     items = {}
     furniture = {}
-    total_rewards = {}
+    total_rewards = {'Item':{},'Furniture':{},'Equipment':{},'Currency':{}}
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
@@ -89,43 +89,40 @@ def generate():
                 mission['RewardItemNames'].append("UNKNOWN REWARD TYPE")
                 print (f"Unknown reward parcel type {mission['MissionRewardParcelType'][index]}")
             
-            if mission['MissionRewardParcelId'][index] not in total_rewards:
-                total_rewards[mission['MissionRewardParcelId'][index]] = {}
-                total_rewards[mission['MissionRewardParcelId'][index]]['Id'] = mission['MissionRewardParcelId'][index]
-                total_rewards[mission['MissionRewardParcelId'][index]]['Amount'] = mission['MissionRewardAmount'][index]
-                total_rewards[mission['MissionRewardParcelId'][index]]['Type'] = mission['MissionRewardParcelType'][index]
-                total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = False
+            if mission['MissionRewardParcelId'][index] not in total_rewards[mission['MissionRewardParcelType'][index]]:
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]] = {}
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['Id'] = mission['MissionRewardParcelId'][index]
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['Amount'] = mission['MissionRewardAmount'][index]
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['Type'] = mission['MissionRewardParcelType'][index]
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = False
             else:
-                total_rewards[mission['MissionRewardParcelId'][index]]['Amount'] += mission['MissionRewardAmount'][index]
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['Amount'] += mission['MissionRewardAmount'][index]
             if mission['TabNumber'] == 0:
-                total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = True
-
-
+                total_rewards[mission['MissionRewardParcelType'][index]][mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = True
 
 
     icon_size = ['80px','60px']
-    for item in total_rewards.values():
-        if item['Type'] == 'Item':
-            item['Name'] = (items[item['Id']].name_en )
-            item['Card'] = ('{{ItemCard|'+items[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-            item['Tags'] = items[item['Id']].tags
-        elif item['Type'] == 'Furniture':
-            item['Name'] = (furniture[item['Id']].name_en )
-            item['Card'] = ('{{FurnitureCard|'+furniture[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        elif item['Type'] == 'Equipment':
-            item['Name'] = (data.etc_localization[data.equipment[item['Id']]['LocalizeEtcId']]['NameEn'])
-            item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.equipment[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        elif item['Type'] == 'Currency':
-            item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
-            item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
-        else:
-            item['Name'] = ("UNKNOWN REWARD TYPE")
-            print (f"Unknown reward parcel type {item['Type']}")
+    for item in total_rewards['Item'].values():
+        item['Name'] = (items[item['Id']].name_en )
+        item['Card'] = ('{{ItemCard|'+items[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+        item['Tags'] = items[item['Id']].tags
+
+    for item in total_rewards['Furniture'].values():
+        item['Name'] = (furniture[item['Id']].name_en )
+        item['Card'] = ('{{FurnitureCard|'+furniture[item['Id']].name_en+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+
+    for item in total_rewards['Equipment'].values():
+        item['Name'] = (data.etc_localization[data.equipment[item['Id']]['LocalizeEtcId']]['NameEn'])
+        item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.equipment[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+
+    for item in total_rewards['Currency'].values():
+        item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
+        item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
 
 
 
     with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['id']}.txt"), 'w', encoding="utf8") as f:
-        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards.values())
+        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards, tab_count = len(set([x['TabNumber'] for x in missions.values()])) )
         f.write(wikitext)
 
 
