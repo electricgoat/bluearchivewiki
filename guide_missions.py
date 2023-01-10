@@ -52,7 +52,7 @@ def generate():
     template = env.get_template('events/template_guide_missions.txt')
 
     missions = copy.copy(data.guide_mission)
-    season = data.guide_mission_season[args['season']]
+    season = data.guide_mission_season[args['id']]
     season['StartDate'] = f"{season['StartDate'][0:10]}T{season['StartDate'][11:16]}+09"
     season['EndDate'] = f"{season['EndDate'][0:10]}T{season['EndDate'][11:16]}+09"
     season['CollectibleItemName'] = items[season["RequirementParcelId"]].name_en
@@ -60,10 +60,10 @@ def generate():
 
 
     for mission in data.guide_mission.values():
-        if mission['SeasonId'] != args['season']:
+        if mission['SeasonId'] != args['id']:
             missions.pop(mission['Id'])
             continue
-        mission_desc(mission, data, missing_descriptions)
+        mission_desc(mission, data, missing_descriptions, items, furniture)
 
         mission['RewardItemNames'] = []
         mission['RewardItemCards'] = []
@@ -124,7 +124,7 @@ def generate():
 
 
 
-    with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['season']}.txt"), 'w', encoding="utf8") as f:
+    with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['id']}.txt"), 'w', encoding="utf8") as f:
         wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards.values())
         f.write(wikitext)
 
@@ -136,14 +136,14 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('season', metavar='SEASON_NUMBER', help='Guide mission season to export')
+    parser.add_argument('id', metavar='ID_NUMBER', help='Guide mission id to export')
     parser.add_argument('-data_primary', metavar='DIR', help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary', metavar='DIR', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation', metavar='DIR', help='Additional translations directory')
     parser.add_argument('-outdir', metavar='DIR', help='Output directory')
 
     args = vars(parser.parse_args())
-    args['season'] = int(args['season'])
+    args['id'] = int(args['id'])
 
     args['data_primary'] = args['data_primary'] == None and '../ba-data/jp' or args['data_primary']
     args['data_secondary'] = args['data_secondary'] == None and '../ba-data/global' or args['data_secondary']

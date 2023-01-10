@@ -298,7 +298,7 @@ def generate():
     elif season['EventContentId'] in data.event_content_currency:
         cy = data.event_content_currency[season['EventContentId']]
     else:
-        print('Warning - no bonus character data found!')
+        print('Warning - no event currencies data found!')
         cy = []
 
     event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
