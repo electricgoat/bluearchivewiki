@@ -29,7 +29,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "모두, 감기 조심하세요.",
+            "LocalizeKR": "모두, 감기\n조심하세요.",
             "LocalizeJP": "皆さん、風邪には\n気を付けて\nくださいね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -235,7 +235,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "생일…… 저, 요……?",
+            "LocalizeKR": "생일…… 제, 생일이요……?",
             "LocalizeJP": "誕生日……\n私の、ですか……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -323,7 +323,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "와, 감사합니다.\n알고 계신가요? 산타할아버지는\n우는 아이에게는 선물을 줄 수 없대요.\n그러니까 선생님은 울면 안 돼요?",
+            "LocalizeKR": "와, 감사합니다. 알고 계신가요?\n산타 할아버지는 우는 아이\n에게는 선물을 줄 수 없대요.\n그러니까 선생님은 울면 안 돼요?",
             "LocalizeJP": "わぁ、ありがとうございます。\n知っていますか？サンタさんは泣いている\n子にはプレゼントは渡せないんです。\nだから、先生は泣かないでくださいね？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -355,7 +355,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "선물을 드려야 하는 건\n제 쪽인데……",
+            "LocalizeKR": "사실은, 제가\n선물을 드려야 하는데……",
             "LocalizeJP": "本当は、私がプレゼントを\n渡すほうなのに……",
             "LocalizeEN": "",
             "VoiceClipsJp": []

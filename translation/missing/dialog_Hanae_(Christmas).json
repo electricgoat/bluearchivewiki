@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "선물과 수술이\n필요하신 분, \n계신가요?",
+            "LocalizeKR": "수술과 선물이\n필요하신 분,\n계신가요?",
             "LocalizeJP": "手術とプレゼントが\n必要な人～、\nいませんか～？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "크리스마스에도\n구호기사단은 준비되어\n있답니다.",
+            "LocalizeKR": "크리스마스에도\n구호기사단은 준비\n되어 있답니다.",
             "LocalizeJP": "クリスマスでも\n救護騎士団の\n準備はバッチリです！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -77,7 +77,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "크리스마스에는\n자선행사를 하곤 해요.\n노래를 부르면서요.",
+            "LocalizeKR": "크리스마스에는 자선\n행사를 하곤 해요.\n노래를 부르면서요.",
             "LocalizeJP": "クリスマスにチャリティー\nイベントがあるんです。\n私もそこでみんなと\n一緒に歌いますよ～",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "산타인 제가\n선물해 버리려구요~!",
+            "LocalizeKR": "산타인 제가\n선물을 드리려구요~!",
             "LocalizeJP": "サンタの私がプレゼント\nしちゃいますよ～！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -133,7 +133,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "네? 무슨 일 있으신가요?\n저는 아무 일도 없어요!",
+            "LocalizeKR": "저는 오늘도 건강하답니다!\n선생님은 별일 없으신가요?",
             "LocalizeJP": "私は今日も元気です！\n先生はお変わりありませんか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -179,7 +179,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "잘못하면 환부를\n절단해야 하니까요!",
+            "LocalizeKR": "조금이라도 잘못되면\n환부를 절단해야 하니까요!",
             "LocalizeJP": "一歩でも間違えたら、\n患部を切断する\nことになっちゃいますから！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -211,7 +211,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "선생님, 선생님!\n큰 토끼 인형은 어때요?",
+            "LocalizeKR": "선생님, 선생님!\n크리스마스 선물로\n커다란 토끼 인형 같은 건\n어떠세요?",
             "LocalizeJP": "先生、先生！\nクリスマスプレゼントに\nおっきなウサギのぬいぐるみ\nなんてどうですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -343,7 +343,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "좋아요, 준비 오케이에요!",
+            "LocalizeKR": "좋아요, 준비 오케이예요!",
             "LocalizeJP": "よし、準備オッケーです！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -355,7 +355,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "이건...... 저 나름대로\n산타할아버지를 맞이하는\n준비예요.",
+            "LocalizeKR": "이건… 저 나름대로\n산타 할아버지를 맞이하는\n준비예요.",
             "LocalizeJP": "これは……私なりの\nサンタさんを\nお迎えする準備です。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -365,7 +365,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "산타할아버지가 춥지 않게\n벽난로에 불을 넣고…",
+            "LocalizeKR": "산타 할아버지가 춥지 않게\n벽난로에 불을 넣고…",
             "LocalizeJP": "サンタさんが寒くないよう、\n暖炉に火を入れて……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -385,7 +385,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "산타할아버지,\n기다리고 있어요~\n라고요",
+            "LocalizeKR": "산타 할아버지,\n기다리고 있어요~\n라고요.",
             "LocalizeJP": "サンタさん、\n待ってますよ～って。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -395,7 +395,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "그렇게 하면, 산타클로스가\n반드시 양말에 선물을\n넣어 주시거든요!",
+            "LocalizeKR": "그렇게 하면,\n반드시 양말에 선물을\n넣어 주시거든요!",
             "LocalizeJP": "そうすると、必ず靴下に\nプレゼントを入れて\nくれるんです！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -415,7 +415,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "꼭 산타클로스께\n보답해 드릴 거에요!",
+            "LocalizeKR": "꼭 산타클로스께\n보답해 드릴 거예요!",
             "LocalizeJP": "サンタさんにお礼を\nしようと思っています！",
             "LocalizeEN": "",
             "VoiceClipsJp": []

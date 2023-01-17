@@ -29,7 +29,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "와…… 멋진 곳이네요.",
+            "LocalizeKR": "와…… 멋진\n곳이네요.",
             "LocalizeJP": "わぁ……\n素敵な場所ですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "도움이 필요하신 분이……\n계실까요?",
+            "LocalizeKR": "도움이 필요하신\n분이… 계실까요?",
             "LocalizeJP": "手助けが必要な方は……\nいらっしゃる\nでしょうか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -65,7 +65,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "평소보다 몸이\n가벼운 느낌이에요…….",
+            "LocalizeKR": "평소보다 몸이\n가벼운 느낌이에요\n…….",
             "LocalizeJP": "いつもより身体が\n軽い気がします……。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -111,7 +111,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "어서오세요, 선생님.",
+            "LocalizeKR": "어서 오세요, 선생님.",
             "LocalizeJP": "おかえりなさい、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -177,7 +177,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "왠지 안절부절 못하고 있네요.",
+            "LocalizeKR": "왠지 안절부절못하게 되네요.",
             "LocalizeJP": "なんだか\n落ち着かないですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -243,7 +243,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "조금 부끄러운 것 같기도 해요…….",
+            "LocalizeKR": "조금 부끄러운 것\n같기도 해요…….",
             "LocalizeJP": "少し恥ずかしい気も、\nします……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -253,7 +253,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "생신축하드려요, 선생님!",
+            "LocalizeKR": "생신 축하드려요, 선생님!",
             "LocalizeJP": "お誕生日\nおめでとうございます、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -265,7 +265,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "뭔가 필요하신 거라도 있으실까요?",
+            "LocalizeKR": "뭔가 필요하신 거라도\n있으실까요?",
             "LocalizeJP": "何か欲しいものはありますか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -275,7 +275,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "새, 생일 축하요……? 제 생일……?",
+            "LocalizeKR": "새, 생일 축하요…?\n제 생일…이요?",
             "LocalizeJP": "た、誕生日祝い、\nですか……？私の……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -287,7 +287,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "하, 하하…….\n가, 감사합니다……!",
+            "LocalizeKR": "와아…….\n가, 감사합니다……!",
             "LocalizeJP": "わぁ……\nありがとうございます……！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -297,7 +297,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "새해 복 많이 받으세요, 선생님!",
+            "LocalizeKR": "새해 복 많이 받으세요,\n선생님!",
             "LocalizeJP": "明けまして\nおめでとうございます、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -375,7 +375,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "하아, 하아…….\n죄송해요, 선생님…….",
+            "LocalizeKR": "하아, 하아….\n죄송해요, 선생님….",
             "LocalizeJP": "はぁ、はぁ……\nすみません、先生……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -385,7 +385,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "이런 모습을……. 하아…….",
+            "LocalizeKR": "이런 모습을…. 하아….",
             "LocalizeJP": "こんな姿を……はぁ……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -395,7 +395,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "보여드리려던 건 아니었는데…….",
+            "LocalizeKR": "보여드리려던 건 아니었는데….",
             "LocalizeJP": "お見せするつもりでは\nなかったのですが……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -405,7 +405,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "죄송해요,\n우선…… 진정을 좀, 하고…….",
+            "LocalizeKR": "죄송해요,\n우선… 진정을 좀, 하고….",
             "LocalizeJP": "すみません、まずは……\n落ち着いてから、続きを……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -415,7 +415,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "하아…… 후우…….",
+            "LocalizeKR": "하아… 후우….",
             "LocalizeJP": "はぁ……ふぅ……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -425,7 +425,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "네……!?\n아, 아니요 딱히 그런 의미는……!",
+            "LocalizeKR": "네…!? 아, 그게,\n딱히 그런 의미는…!",
             "LocalizeJP": "えっ……！？\nあっ、その、\n別にそういう意味では……！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -435,7 +435,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "마, 말씀만으로도\n감사합니다…….",
+            "LocalizeKR": "마, 말씀만으로도\n정말 감사합니다….",
             "LocalizeJP": "お、お言葉だけでも\nとてもありがたいです……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -455,7 +455,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "(선생님께서…….\n저를 신경써주시다니…….)",
+            "LocalizeKR": "(선생님께서….\n저를 신경써주시다니….)",
             "LocalizeJP": "（先生が……私のことを気に\nかけてくださるなんて……。）",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -465,7 +465,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "(이런 일이 생길 거라곤\n상상도 못했어요…….)",
+            "LocalizeKR": "(이런 일은,\n상상도 하지 못했어요….)",
             "LocalizeJP": "（そんな事、思いも\nしておりませんでした……。）",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -485,7 +485,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "이런 말씀을\n드려도 될지 모르겠지만…….",
+            "LocalizeKR": "이런 일, 말씀드려도\n괜찮을지 모르겠지만….",
             "LocalizeJP": "こんな事を、口にして良いのか\n分かりませんが……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -495,7 +495,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "선생님을\n독차지하고 있는 것 같아서……",
+            "LocalizeKR": "선생님을\n독차지하고 있는 것 같아서…",
             "LocalizeJP": "先生を\n独り占めしているみたいで……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -505,7 +505,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "이러면 벌을 받을 지도\n모르겠지만…… 그렇지만…….",
+            "LocalizeKR": "이러면 벌을 받을 지도\n모르겠지만… 그렇지만….",
             "LocalizeJP": "こんな事、\n罰があたってしまうかも\nしれません……でも、",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -515,7 +515,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "저…… 이 시간이,\n너무 행복……해요…….",
+            "LocalizeKR": "저… 이 시간이,\n너무 행복… 해요….",
             "LocalizeJP": "私……この時間が、\nとても幸せ……なんです……。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "베리타스의 부장 겸 초현상특무부의 부장을 맡고 있는, 밀레니엄 최고의 청초한 천재 병약 미소녀 해커. 네, 아케보시 히마리라고 합니다. 후훗, 잘 부탁드린답니다? 선생님.",
+            "LocalizeKR": "베리타스의 부장 겸 초현상특무부의 부장…. 밀레니엄 최고의\n청초계 병약 미소녀 해커. 아케보시 히마리라고 합니다.\n후훗, 잘 부탁드린답니다? 선생님.",
             "LocalizeJP": "ヴェリタスの部長兼、特異現象捜査部の部長…ミレニアム最高の天才清楚系病弱美少女ハッカーの明星ヒマリと申します。ふふっ、よろしくお願いしますね、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "많은 분들로 북적북적…\n다소 소란스러워서\n지치네요.",
+            "LocalizeKR": "많은 분들이\n계시네요….\n…조금 지치는걸요.",
             "LocalizeJP": "たくさんの方が\nいますね…\n…少々疲れます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "어머나… 이런 장소에\n이런 게 있을 줄이야.\n살짝 재미있어보이는걸요?",
+            "LocalizeKR": "어라, 이런 게 있을 줄은.\n뭔가 재밌어 보이네요.",
             "LocalizeJP": "あら、こんなものが\nあるなんて。なんだか\n面白いですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -65,7 +65,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "후훗, 이 정도 넓이라면,\n베리타스의 모두나,\n에이미까지 함께 소풍을\n와도 괜찮을 듯하네요.",
+            "LocalizeKR": "후훗, 이 정도 넓이라면, 베리\n타스의 모두나, 에이미까지\n함께 소풍을 와도 괜찮을\n듯하네요.",
             "LocalizeJP": "ふふっ。この広さなら、\nヴェリタスのみんなや\nエイミと一緒にピクニックが\nできそうですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -77,7 +77,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "흐음~ 제법 마음에 드는 곳이네요.\n좀 더 이곳저곳에 편의 기능을\n추가해두면 좋을 듯한데…\n가볍게 해킹을 해둘까요?",
+            "LocalizeKR": "나쁘지 않은 장소네요. 좀 더\n편의 기능을 추가해두면 좋을\n듯한데… 가볍게 해킹을\n해볼까요?",
             "LocalizeJP": "悪くない場所ですね。もう少し\n便利機能も充実していると\nいいのですが。…軽く\nハッキングしてみましょうか。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -111,7 +111,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "언제나 바쁜 선생님을\n돕기 위해 찾아온 것은, \n밀레니엄의 초천재\n병약미소녀 해커였다…",
+            "LocalizeKR": "언제나 바쁜 선생님을\n돕기 위해, 밀레니엄의\n초천재병약미소녀해커가\n달려왔답니다. ",
             "LocalizeJP": "いつもお忙しい先生の\nお手伝いに、ミレニアムの\n超天才病弱美少女ハッカーが\n馳せ参じました。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -123,7 +123,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "짝짝짝.\n환영의 박수랍니다.",
+            "LocalizeKR": "환영의 박수는 없나요?\n이렇게, 짝짝짝…\n같은 거라든지.",
             "LocalizeJP": "歓迎の拍手は無いのですか？\nこう、パチパチパチ…\nというような。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -133,7 +133,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "밀레니엄의 청초한 미소녀이자\n절벽 위의 꽃. 모두가 동경하는\n<전지>의 학위를 가진 실력자가\n업무를 도와준다니.",
+            "LocalizeKR": "밀레니엄의 청초한 절벽의\n꽃이자, 모두가 동경하는\n<전지>의 학위를 가진 미목수려한\n재녀가 업무를 도와준다니….",
             "LocalizeJP": "ミレニアムの清楚な高嶺の\n花であり、みなさんの憧れである\n「全知」の学位を持つ眉目秀麗な\n乙女から仕事を\n手伝ってもらえるなんて…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -145,7 +145,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "선생님은 행운아시네요.",
+            "LocalizeKR": "선생님은 매우 운이 좋은,\n행운아이시네요.",
             "LocalizeJP": "先生はとびっきりの\n幸運の持ち主ですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -155,7 +155,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "…네?\n제가 자기소개를 할 땐,\n어쩐지 매번 수식어가\n달라지지 않느냐고요?",
+            "LocalizeKR": "…저의 자기소개 내용이\n매번 다르다고요?",
             "LocalizeJP": "…私の自己紹介が毎回違う？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -167,7 +167,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "후후, 용케 눈치채셨군요. ",
+            "LocalizeKR": "후훗, 용케 눈치채셨군요.\n맞아요. 매번 바꾸고 있습니다.",
             "LocalizeJP": "ふふっ。よく気づきましたね、\nその通り、毎回変えております…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -177,7 +177,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "네에, 정답이랍니다. ",
+            "LocalizeKR": "참고로 전부 사실이니까요?",
             "LocalizeJP": "全部本当の事ですけどね？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -199,7 +199,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "그때그때 다르게\n말하곤 한답니다.",
+            "LocalizeKR": "그때마다 표현을\n바꾸어 말하는 것이랍니다.",
             "LocalizeJP": "その都度表現を\n変えているのです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -209,7 +209,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "말로서 자신을 정확히\n소개한다는 건\n참으로 어려운 일이네요…",
+            "LocalizeKR": "말이란, 참으로\n어려운 것이네요….",
             "LocalizeJP": "言葉とは、とても\n難しいものですね…。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -219,7 +219,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "가끔 베리타스가\n괴짜들의 집단이란 음해를\n들을 때가 있는데.\n참으로 안타깝답니다.",
+            "LocalizeKR": "베리타스가\n괴짜들의 집단이란 음해를\n들을 때가 있는데.\n참으로 안타깝답니다.",
             "LocalizeJP": "ヴェリタスは変わり者の\n集団だというお話を\n時折小耳に挟むのですが、\nとても残念でなりません…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -231,7 +231,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "…저라는\n병약 미소녀가 있는데,\n어째서일까요?",
+            "LocalizeKR": "저라는 희대의 미소녀가 있는데,\n대체 어째서일까요?",
             "LocalizeJP": "私という稀代の美少女が\nいるというのに、一体\nどういうことなのでしょう？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -241,7 +241,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "이렇게 옆에서\n일을 돕고 있으려니,\n선생님. ",
+            "LocalizeKR": "이렇게 옆에서 일을\n돕고 있다 보면, 신선한\n발견을 잔뜩 하게 되네요.",
             "LocalizeJP": "こうしてお仕事を\n手伝っていると、新鮮な\n発見がたくさんあります。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -253,7 +253,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "평소에 정말 다양한\n업무를 하고 계셨던 거네요.\n조금 신선한 느낌이에요.\n놀라워라.",
+            "LocalizeKR": "선생님은 평소에도\n다양한 업무들을\n하고 계셨던 거네요.",
             "LocalizeJP": "先生は普段から\nさまざまなお仕事を\nされているのですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -275,7 +275,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "히얏...?!\n따, 딱히 졸고 있었던 건\n아니랍니다? \n정말이라구요?",
+            "LocalizeKR": "히얏...?!\n따, 딱히 졸고 있었던 건\n아니랍니다?\n정말이라구요?",
             "LocalizeJP": "ひゃっ…！？\nべ、別に寝てなんかいません。\n本当ですよ？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -285,7 +285,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "잠시... 그래요. \n렘수면과 논렘수면을 몸으로\n실증하고 있었을 뿐이니까요.\n네, 정말로.",
+            "LocalizeKR": "…그렇네요. 굳이 말하자면.\n렘 수면과 논 렘수면의 관계를\n고찰하고 있었을 뿐이랍니다.\n네, 정말로요.",
             "LocalizeJP": "…そうですねあえていうなら、\nレム睡眠とノンレム睡眠の\n関係を考察していただけです。\nええ、そうですとも。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -309,7 +309,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "오늘 같은 날, 저와 함께\n있을 수 있다니. 정말\n멋진 선물이네요.",
+            "LocalizeKR": "오늘 같은 날을 저와 함께\n보낼 수 있다니, 정말로\n멋진 하루가 되겠네요.",
             "LocalizeJP": "今日のような日を私と一緒に\n過ごせるなんて、本当に\n素晴らしい一日になりますね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -329,7 +329,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "제 생일, 축하 말인가요? \n그, 뭐라고 할까.",
+            "LocalizeKR": "제 생일 말인가요?\n감사합니다.",
             "LocalizeJP": "私の誕生日ですか？\nありがとうございます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -341,7 +341,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "부원들이 축하해줄 때도\n그야 기쁘긴 했지만.",
+            "LocalizeKR": "…물론 부원들이\n축하해줄 때도\n기쁘긴 했지만.",
             "LocalizeJP": "…もちろん部員たちから\n祝われた時も\n嬉しかったのですが。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -351,7 +351,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "선생님에게 축하를\n받는다는 건,\n이런 종류의 느낌인가요…",
+            "LocalizeKR": "선생님에게 축하 인사를\n받게 되면… 이러한 종류의\n기분이 드는군요.",
             "LocalizeJP": "先生からお言葉を\nもらえるのは…このような\n気持ちになるのですね。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -361,7 +361,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "과연… 흥미, 롭네요.",
+            "LocalizeKR": "…후훗, 네.\n매우 흥미롭네요.",
             "LocalizeJP": "…ふふっ、ええ。\nとても興味深いです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -371,7 +371,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "어라, 새해로군요.",
+            "LocalizeKR": "어머…\n새해가 되었네요.\n새해 복 많이 받으세요.",
             "LocalizeJP": "あら…\n新しい年になりましたね。\nあけまして\nおめでとうございます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -383,7 +383,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "또 이렇게\n한 해가 지나고,\n새로운 해가 찾아온다.",
+            "LocalizeKR": "이렇게 1년이 끝나고,\n또 다시 새로운 해가 찾아오는,\n그 순간을, 함께 보낸다….",
             "LocalizeJP": "こうして1年が終わり、\nまた新しい年が訪れ、\nその節目を\n共に過ごすことができる…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -393,7 +393,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "후후, 나쁘지 않은 느낌이네요.\n선생님. 새해 복 많이 받으세요.",
+            "LocalizeKR": "후후, 나쁘지 않은 느낌이네요.\n선생님. 올해도\n잘 부탁드립니다.",
             "LocalizeJP": "ふふっ、悪くないですね。\n先生、今年も\nよろしくお願いします。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -403,7 +403,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "크리스마스…인가요. ",
+            "LocalizeKR": "크리스마스…인가요.",
             "LocalizeJP": "クリスマス…ですか。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -425,7 +425,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "후훗…. 그럼 모처럼이니까,\n영화라도 같이 보러 가는 건\n어떠신가요, 선생님? ",
+            "LocalizeKR": "후훗…. 그럼 모처럼이니까,\n영화라도 같이 보러 가는 건\n어떠신가요, 선생님?",
             "LocalizeJP": "ふふっ…\nでは、せっかくですし、\n映画でもご一緒にいかがですか、\n先生？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -435,7 +435,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "할로윈이라.\n오늘은 후배들이 특히\n좋아하는 날이었지요.",
+            "LocalizeKR": "…할로윈, 인가요.\n후배들은 특히\n할로윈을 좋아했지요.",
             "LocalizeJP": "…ハロウィーン、ですか。\n後輩たちは特に\nハロウィーンが好きでした。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -447,7 +447,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "장난치기 딱 좋다고 했던가요?",
+            "LocalizeKR": "분명, 장난을 치기에\n딱인 날이라고\n했던가요.",
             "LocalizeJP": "たしか、イタズラするのに\nぴったりな日だと\n言っていたような。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -457,7 +457,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "후후, 결정했어요.\n가시지요. 선생님.\n오래간만에 다 같이 모여\n과자파티를 하죠.",
+            "LocalizeKR": "후훗, 결정했어요. 선생님.\n오랜만에 다 같이 모여\n과자 파티를 하죠.",
             "LocalizeJP": "ふふっ、決めました先生。\n久しぶりにみんなでお菓子\nパーティーを開きましょう。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -467,7 +467,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "어머, 이런 귀중한 물건을 턱 하니 건네주시다니.\n속이 너무 보이시는… 네? 그런 게 아니라,\n평소 의지하고 있으니까. 인가요?\n아, 그… 그렇군요. 가, 감사합니다…. 선, 생님…",
+            "LocalizeKR": "뭐, 이런 귀중한 물건을 받을 수 있다니.\n무언가 소원이라도 있으신가요?\n저는 초천재미소녀니까.\n뭐든지 다 이뤄드리… 네?\n늘 의지하고 있으니까…?\n그, 그런가요….\n감사합니다… 선생님.",
             "LocalizeJP": "まあ、こんなに貴重なものを\nいただけるなんて。\nなにかお願い事でもあるのですか？\n私は超天才美少女ですから、\n何でも叶えて差し上げ…え？\nいつも頼りにしているから…？\nそ、そうでしたか…\nありがとうございます…先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -489,7 +489,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "좀처럼 흔치 않은… \n흔치 않은 기회의….",
+            "LocalizeKR": "좀처럼 흔치 않은…\n흔치 않은 기회의….",
             "LocalizeJP": "なかなかお目にかかれ…\nかかれないはずの…。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -499,7 +499,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "읏…? \n생각했던 것보다…\n뭔가 이상한 듯한….",
+            "LocalizeKR": "읏…?\n생각했던 것보다…\n뭔가 이상한 듯한….",
             "LocalizeJP": "っ…？\n思ったより…\nなんだか変な…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -519,7 +519,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "마, 말로 표현하기\n어려운 감정이…! ",
+            "LocalizeKR": "마, 말로 표현하기\n어려운 감정이…!",
             "LocalizeJP": "げ、言語化が難しい感情が…！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -539,7 +539,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "후, 후훗. 네, 물론\n각오는 되어 있으니\n신경 쓰지 마시길.\n부디, 마음껏…! ",
+            "LocalizeKR": "후, 후훗. 네, 물론\n각오는 되어 있으니\n신경 쓰지 마시길.\n부디, 마음껏…!",
             "LocalizeJP": "ふ、ふふっ。ええ、\nもちろん覚悟はできて\nおりますので、お気になさらず。\nどうぞ、心ゆくまで…！",
             "LocalizeEN": "",
             "VoiceClipsJp": []

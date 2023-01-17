@@ -3210,7 +3210,7 @@
         {
             "GroupId": "CH0152Public01",
             "NameEn": "Severe Sentence",
-            "DescriptionEn": "Whenever \"Ready for Rescue\" status ends, deal $1 damage to enemies within a circular area, and reduce their Evasion and Defense by $2 for $3."
+            "DescriptionEn": "Whenever \"Ready for Rescue\" status ends, deal $1 Defense damage to enemies within a circular area, and reduce their Evasion and Defense by $2 for $3."
         },
         {
             "GroupId": "CH0152Passive01",
@@ -3225,7 +3225,7 @@
         {
             "GroupId": "CH0152ExtraPassive01",
             "NameEn": "Indomitable Courage",
-            "DescriptionEn": "When using EX skill, apply \"Ready for Rescue\" status, granting continuous HP recovery of $1 Healing.\nIf \"Ready for Rescue\" is already active, instead increase Critical Resistance by $2 for $3."
+            "DescriptionEn": "When using EX skill, apply \"Ready for Rescue\" status, granting continuous HP recovery of $1 Healing for $2.\nIf \"Ready for Rescue\" is already active, instead increase Critical Resistance by $3 for $4."
         }
 
         

@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "선생님! 크리스마스가 왔어요!",
+            "LocalizeKR": "선생님!\n크리스마스가 왔어요!",
             "LocalizeJP": "先生！クリスマスですよ！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "저까지 가슴이 두근거리네요.",
+            "LocalizeKR": "저까지 가슴이\n두근거리네요.",
             "LocalizeJP": "私まで\nワクワクしてきます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -39,7 +39,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "이번 성탄절에는\n어떤 예정이 잡혀 있으신가요?",
+            "LocalizeKR": "이번 크리스마스, 뭔가\n예정이라도 있으신가요?",
             "LocalizeJP": "今年のクリスマス、\n何かご予定はありますか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -51,7 +51,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "혹시…… 괜찮으시다면,\n저와……",
+            "LocalizeKR": "혹시…… 괜찮으시다면,\n저와 둘이서……",
             "LocalizeJP": "その……\nもしよろしければ、\n私と二人で……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -61,7 +61,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "아, 아니에요!",
+            "LocalizeKR": "아, 아뇨.\n아무것도 아니에요!",
             "LocalizeJP": "い、いえっ、\nなんでもありません！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -95,7 +95,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "크리스마스에는,\n산타 세리나를 찾아 주세요!",
+            "LocalizeKR": "크리스마스에는, 산타\n세리나를 찾아 주세요!",
             "LocalizeJP": "クリスマスには、\nサンタのセリナを\n呼んでくださいね！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -143,7 +143,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "선생님, 뭔가 도와드리겠습니다.",
+            "LocalizeKR": "선생님, 뭐든지 돕게 해주세요.",
             "LocalizeJP": "先生、\n何かお手伝いさせてください。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -155,7 +155,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "하나에 쨩은 잘 하고 있으려나……",
+            "LocalizeKR": "하나에 쨩, 괜찮을까……",
             "LocalizeJP": "ハナエちゃん、大丈夫かな……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -191,7 +191,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Buy",
             "GroupId": 3,
-            "LocalizeKR": "이렇게 귀중한 것까지……\n기부해 주셔도 괜찮으신가요 ?",
+            "LocalizeKR": "이렇게 귀중한 것까지……\n기부해 주셔도 괜찮으신가요?",
             "LocalizeJP": "こんなに貴重なものまで……\n寄付していただいていいんですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [

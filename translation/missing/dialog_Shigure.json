@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "어라. 선생님이잖아?\n……일하기 전에 가볍게 한 잔 어때?\n술은 아니니까 걱정하지 않아도 된다고.",
+            "LocalizeKR": "아, 선생님.\n일하기 전에 가볍게 한 잔 어때?\n후후…… 술은 아니니까 안심해.",
             "LocalizeJP": "あ、先生。仕事前に\n一杯どうかな？ふふっ……\nお酒じゃないから安心して。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -29,7 +29,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "귀여운 것들이 많네.",
+            "LocalizeKR": "귀여운 것들이\n잔뜩 있네.",
             "LocalizeJP": "かわいいものが\nいっぱいだね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "어라. 저건……?",
+            "LocalizeKR": "저건……?",
             "LocalizeJP": "あれは……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "후후, 발효에\n딱 좋은 온도인걸.",
+            "LocalizeKR": "발효에 딱 좋은\n온도인걸.",
             "LocalizeJP": "発酵に最適な\n温度だね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -65,7 +65,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "이곳은 따듯하네……\n조금만 더 머무르고 싶어.",
+            "LocalizeKR": "이곳은 따듯하네……\n조금만 더\n머무르고 싶어.",
             "LocalizeJP": "ここは温かいね。\n……もう少しだけ\nここにいたいな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서와, 선생님.\n마침 심심하던 참이었는데……",
+            "LocalizeKR": "어서 와, 선생님.\n마침 한가하던 참이었는데……",
             "LocalizeJP": "いらっしゃい、先生。\nちょうど暇だったし",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "같이 수다나 떨자구.",
+            "LocalizeKR": "같이 수다라도 떨지 않을래?",
             "LocalizeJP": "おしゃべりでもしない？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -111,7 +111,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "다녀왔구나, 선생님.\n피곤하지?",
+            "LocalizeKR": "어서 와, 선생님.\n뭔가 피곤해보이네.",
             "LocalizeJP": "おかえり、先生。\n疲れてるみたいだね……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -169,7 +169,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "다음 번엔 우리가\n선생님을 초대해볼까~",
+            "LocalizeKR": "다음번엔 내가\n선생님을 초대해볼까~",
             "LocalizeJP": "今度は私が\n先生を招待しようかな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -217,7 +217,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "너무 오래 전 일이라\n기억이 잘 안 나는 걸.\n후후.",
+            "LocalizeKR": "오래 전 일이라\n기억이 잘 안 나는걸.\n후후.",
             "LocalizeJP": "昔のことだから思い\n出せないや……ふふ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -331,7 +331,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "나는 지금 이대로가 좋아.",
+            "LocalizeKR": "……나는 지금\n이대로도 충분해.",
             "LocalizeJP": "……私は\n今のままで十分かな。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -363,7 +363,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "이 유탄발사기 말이야.\n화력은 좋아서 모닥불을 붙일 때는 좋은데,\n사냥에 쓰기에는 영 미묘하단 말이지.\n……그래도 곰을 쫓아내기에는 충분할지도.",
+            "LocalizeKR": "이 유탄발사기. 불을 붙일 때는 좋은데,\n사냥에 쓰기에는 미묘하단 말이지.\n……그래도 뭐, 곰을 쫓아내기엔 충분할지도.",
             "LocalizeJP": "このグレネードランチャー、\n火を起こす時はいいんだけど\n狩りでは微妙なんだよね。\n……でもまぁ、\n熊を追い返すには十分なのかな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -385,7 +385,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "멋진 풍경을 보여줘서\n고마워, 선생님.",
+            "LocalizeKR": "이런 멋진 풍경을 보여줘서\n고마워, 선생님.",
             "LocalizeJP": "こんな素敵な景色を\n見せてくれてありがとう、\n先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -435,7 +435,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "나는 어둠 속에서 별을\n바라보는 것 만으로도\n충분히 행복해.",
+            "LocalizeKR": "그러니까, 나는 어둠 속에서\n바라보는 것 만으로도 충분해.",
             "LocalizeJP": "だから、私は暗闇から\n眺めるだけで十分。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
