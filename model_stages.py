@@ -65,6 +65,14 @@ def get_equipment_rewards(reward, data):
 def get_item_rewards(reward, data):
     item = data.items[reward['RewardId']]
     name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+    if item['ImmediateUse']:
+        print(f"Item {item['Id']} is ImmediateUse through {item['UsingResultParcelType']}")
+        if item['UsingResultParcelType'] == 'GachaGroup':
+            for reward in _get_gacha_rewards(item['UsingResultId'], reward['RewardProb'] / 100, data, tag = 'Default'):
+                yield reward
+            return
+        else:
+            print(f"Do not know to process {item['UsingResultParcelType']}")
 
     yield Reward(name_en, reward['RewardTag'], reward['RewardProb'] / 100, reward['RewardAmount'], reward['RewardParcelType'])
 
@@ -83,7 +91,7 @@ def get_gacha_rewards(stage_reward, data):
 
 
 
-def _get_gacha_rewards(group_id, stage_reward_prob, data):
+def _get_gacha_rewards(group_id, stage_reward_prob, data, tag='Other'):
     global ignore_item_id
     verbose = False
 
@@ -115,8 +123,7 @@ def _get_gacha_rewards(group_id, stage_reward_prob, data):
         prob = get_gacha_prob(gacha_element, data) * stage_reward_prob / 100
         amount = gacha_element['ParcelAmountMin'] == gacha_element['ParcelAmountMax'] and gacha_element['ParcelAmountMin'] or f"{gacha_element['ParcelAmountMin']}~{gacha_element['ParcelAmountMax']}"
 
-
-        yield Reward(name_en, 'Other', prob > 5 and round(prob,1) or round(prob,2), amount, gacha_element['ParcelType'])
+        yield Reward(name_en, tag, prob > 5 and round(prob,1) or round(prob,2), amount, gacha_element['ParcelType'])
 
 
 def _get_gacha_rewards_recursive(group_id, stage_reward_prob, data):
