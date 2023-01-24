@@ -184,12 +184,17 @@
         {
             "GroupId": "NeruEx01",
             "NameEn": "Huh? Do you have a fucking death wish?",
-            "DescriptionEn": "Attack 1 enemy with $1 Attack power. When angered, damage is multiplied $2x."
+            "DescriptionEn": "Attack 1 enemy with $1 Attack power. When enraged, damage is multiplied $2x."
         },
         {
             "GroupId": "NeruPublic01",
             "NameEn": "Huh? Stop bullshitting!",
-            "DescriptionEn": "Every $1, apply a status of anger to herself. Increase Evasion by $2. ($3 duration)"
+            "DescriptionEn": "Every $1, apply Enraged status to self. Increase Evasion by $2. (Duration: $3)"
+        },
+        {
+            "GroupId": "NeruGearPublic01",
+            "NameEn": "Huh? Stop bullshitting! +",
+            "DescriptionEn": "Every $1, apply Enraged status to self. Increase Evasion by $2. (Duration: $3)\nWhen enraged, EX skill damage multiplier is increased by further $4."
         },
         {
             "GroupId": "NeruPassive01",
@@ -204,7 +209,7 @@
         {
             "GroupId": "NeruExtraPassive01",
             "NameEn": "Fury",
-            "DescriptionEn": "When angered, increase Attack by $1. ($2 duration)"
+            "DescriptionEn": "When enraged, increase Attack by $1. ($2 duration)"
         },
         {
             "GroupId": "HasumiEx01",
@@ -474,6 +479,11 @@
             "DescriptionEn": "Every $1, attack 1 enemy for $2 Attack."
         },
         {
+            "GroupId": "SuzumiGearPublic01",
+            "NameEn": "Hidden Strength of the Vigilante Corps +",
+            "DescriptionEn": "Every $1, attack 1 enemy for $2 Attack and Stun them for $3."
+        },
+        {
             "GroupId": "SuzumiPassive01",
             "NameEn": "Emergency Evasion",
             "DescriptionEn": "Increase Evasion by $1."
@@ -622,6 +632,11 @@
             "GroupId": "ZunkoPublic01",
             "NameEn": "Don't talk to me when I'm hungry!",
             "DescriptionEn": "Junko gains Immortal status for $2 when her HP is under $1. (Can only be used $3 per battle)"
+        },
+        {
+            "GroupId": "ZunkoGearPublic01",
+            "NameEn": "Don't talk to me when I'm hungry! +",
+            "DescriptionEn": "Junko gains Immortal status for $2 when her HP is under $1.\nAdditionally, reduce EX skill cost by $3. (Reduction active until EX is activated $4 times)\n(Can only be used $5 per battle)"
         },
         {
             "GroupId": "ZunkoPassive01",
@@ -877,7 +892,12 @@
         {
             "GroupId": "ShirokoPublic01",
             "NameEn": "Grenade Toss",
-            "DescriptionEn": "Every $1, deal $2 of Shiroko's Attack as damage to a circular area."
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "ShirokoGearPublic01",
+            "NameEn": "Grenade Toss +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
         },
         {
             "GroupId": "ShirokoPassive01",
@@ -3226,7 +3246,86 @@
             "GroupId": "CH0152ExtraPassive01",
             "NameEn": "Indomitable Courage",
             "DescriptionEn": "When using EX skill, apply \"Ready for Rescue\" status, granting continuous HP recovery of $1 Healing for $2.\nIf \"Ready for Rescue\" is already active, instead increase Critical Resistance by $3 for $4."
+        },
+
+        {
+            "GroupId": "CH0069Ex01",
+            "NameEn": "Kyrie Eleison",
+            "DescriptionEn": "Deal $1 damage to a single enemy.\nDamage is multiplied by x$2 depending on the target's current HP.\nThe higher the target enemy's HP, the greater the damage."
+        },
+        {
+            "GroupId": "CH0069Public01",
+            "NameEn": "Call of the Stars",
+            "DescriptionEn": "Every $1 normal attacks, deal $2 damage to one enemy.\nEvery 3 Normal Skill activations, a meteorite falls, dealing $3 additional damage."
+        },
+        {
+            "GroupId": "CH0069Passive01",
+            "NameEn": "Gloria Patri",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0069WeaponPassive01",
+            "NameEn": "Gloria Patri +",
+            "DescriptionEn": "Increase Penetration damage bonus against the enemies weak to it by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0069ExtraPassive01",
+            "NameEn": "Benedictio",
+            "DescriptionEn": "All attacks are guaranteed to be critical hits.\nIncrease damage dealt by $1 and reduce damage taken by $2."
+        },
+
+        {
+            "GroupId": "CH0088Ex01",
+            "NameEn": "I like it hot~!",
+            "DescriptionEn": "Deal $1 damage enemies within a conical area.\nIncrease Attack by $2 and ignore normal attack delay for $3."
+        },
+        {
+            "GroupId": "CH0088Public01",
+            "NameEn": "I'll warm it up for you!",
+            "DescriptionEn": "Every $1, inflict $2 continuous damage to enemies within a circular area. (Duration: $3)"
+        },
+        {
+            "GroupId": "CH0088Passive01",
+            "NameEn": "Give way!",
+            "DescriptionEn": "Increase Defense by $1 and Attack by $2."
+        },
+        {
+            "GroupId": "CH0088WeaponPassive01",
+            "NameEn": "Give way! +",
+            "DescriptionEn": "Increase Defense by $1 and Attack by $2. Further increase Defense by $3 and Attack by $4."
+        },
+        {
+            "GroupId": "CH0088ExtraPassive01",
+            "NameEn": "Ah, so refreshing!",
+            "DescriptionEn": "Every $1 attacks, recover HP by $2 of Healing."
+        },
+
+        {
+            "GroupId": "CH0170Ex01",
+            "NameEn": "Chief of Public Security",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAfter that, $2 of the damage done by the allies to that enemy is added up for $3, and the resulting damage is done again as Penetration type.\n(This damage can not be critical, maximum amount of damage that can be accumulated is $4 of Kanna's Attack)"
+        },
+        {
+            "GroupId": "CH0170Public01",
+            "NameEn": "Intense interrogation",
+            "DescriptionEn": "Every $1, deal $2 damage equal to one enemy.\nReduce their Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0170Passive01",
+            "NameEn": "Mad Dog obsession",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0170WeaponPassive01",
+            "NameEn": "Mad Dog obsession +",
+            "DescriptionEn": "Increase Defense by $1 and Attack by $2. Further increase Attack by $4."
+        },
+        {
+            "GroupId": "CH0170ExtraPassive01",
+            "NameEn": "PSB special ammunition",
+            "DescriptionEn": "Increase Attack of Penetration type allies by $1."
         }
+
 
         
     ]

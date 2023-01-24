@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "후훗, 새해 복 많이 받으세요.\n후리소데 차림에 꽃을 피우고,\n새로운 마음으로 미지의 음식을 찾으러 갑시다. ",
+            "LocalizeKR": "후훗, 새해 복 많이 받으세요.\n후리소데 차림에 꽃을 피우고,\n새로운 마음으로 미지의 음식을 찾으러 갑시다.",
             "LocalizeJP": "ふふっ、あけましておめでとうございます。\n振袖姿に花を咲かせ、心新たに未知の\n食を求めに参りましょう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "의복과 장소도, 어떻게\n보면 미식의 한 요소\n라고 할 수 있죠.",
+            "LocalizeKR": "의복과 장소도, 어떻게\n보면 미식의 중요한\n요소라고 할 수 있겠죠.",
             "LocalizeJP": "ドレスコードや\nロケーションも、美食\nの大切な要素と\n言えるでしょう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "이 시기에는 특별한\n요리가 많죠….\n후훗, 기대가 됩니다.",
+            "LocalizeKR": "이 시기에는 특별한\n요리가 눈에 띄곤 해서…\n후훗, 기대가 되네요.",
             "LocalizeJP": "この時期は特別な\n料理が目白押しで……\nふふっ、楽しみです。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "후훗. 어서 오세요 선생님.\n오늘은 미식을 찾으셨나요?",
+            "LocalizeKR": "후훗. 어서 오세요, 선생님.\n오늘은 미식과 만나셨나요?",
             "LocalizeJP": "ふふっ。ようこそ、先生。\n今日は美食に出会えましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -125,7 +125,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "갑자기 따뜻하고 부드러운\n맛의 음식이 먹고싶어졌어요.\n …선생님과 이야기하고\n있기 때문일까요.",
+            "LocalizeKR": "갑자기 따뜻하고 부드러운\n맛의 음식이 먹고싶어졌어요.\n…선생님과 이야기하고\n있기 때문일까요.",
             "LocalizeJP": "急に、温かくて優しい味の\n食べ物が恋しくなってしまい\nました。……先生とお話して\nいるからでしょうか。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -159,7 +159,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "저는 어느 쪽이든 좋아한답니다.",
+            "LocalizeKR": "물론, 저는 어느 쪽이든\n좋아한답니다.",
             "LocalizeJP": "もちろん、私は\nどちらも美味しく\nいただきますよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -247,7 +247,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "으후훗, 오늘은 에스코트\n해주시겠어요?",
+            "LocalizeKR": "우후훗, 오늘은 에스코트\n해주시겠어요?",
             "LocalizeJP": "うふふっ、本日は\nエスコートして\nくださりますか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -365,7 +365,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "그만큼 상황도 없어서는\n안 될 존재죠.",
+            "LocalizeKR": "그것들 만큼이나,\n미식을 즐기는 상황도,\n빼놓을 수 없는 존재죠.",
             "LocalizeJP": "それと同じくらい、\nシチュエーションも\nなくてはならない存在です。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -375,7 +375,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "자, 그러니 오늘은 서로\n먹여 주기를 해 보도록 할까요?",
+            "LocalizeKR": "우후훗. 그런고로, 오늘은 서로\n먹여 주기를 해 보도록 할까요?",
             "LocalizeJP": "うふふっ。ですので、\n今日は食べさせあいっこを\nいたしましょう？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -385,7 +385,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "우선은 저부터…. \n자, 선생님. 입을 벌리고…\n아~ 해 주세요.",
+            "LocalizeKR": "우선은 저부터….\n자, 선생님. 입을 벌리고…\n아~ 해 주세요.",
             "LocalizeJP": "まずは私から……\nはい、先生。\nお口を開けて……\nあ～んしてください。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

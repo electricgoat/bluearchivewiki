@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "같이 빌어 드릴게요!",
+            "LocalizeKR": "저도 옆에서\n같이 빌어 드릴게요!",
             "LocalizeJP": "私も隣でお祈りしますね！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -129,7 +129,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "저, 열심히 할 테니까…\n지켜봐주시면\n감사하겠습니다.",
+            "LocalizeKR": "저, 열심히 할 테니까…\n지켜봐 주시면\n감사하겠습니다.",
             "LocalizeJP": "私、頑張りますから…\n見守ってくださると\n嬉しいです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -151,7 +151,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "그저 최선을 다하는 것,\n그것 뿐입니다.",
+            "LocalizeKR": "그저 최선을 다하는 것,\n그것뿐입니다.",
             "LocalizeJP": "ただ最善を尽くす、\nそれだけです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -193,7 +193,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "선생님, 어서 오세요. \n상가 분들이 여러 가지\n물품을 준비해 주셨어요.",
+            "LocalizeKR": "선생님, 어서 오세요.\n상가 분들이 여러 가지\n물품을 준비해 주셨어요.",
             "LocalizeJP": "先生、いらっしゃいませ。\n商店街の方に色々なものを\n用意していただきました！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -217,7 +217,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "괜찮아요 걱정하지 마세요.",
+            "LocalizeKR": "괜찮아요. 걱정하지 마세요.",
             "LocalizeJP": "大丈夫ですよ。\n心配しないでください。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

@@ -104,6 +104,9 @@ class Character(object):
             'SPTF': 'Supernatural Phenomenon Task Force',
             'TheSeminar': 'Seminar',
             'AriusSqud': 'Arius Squad',
+            'PublicPeaceBureau':'Public Peace Bureau',
+            'HotSpringsDepartment':'Hot Springs Department',
+            'TeaParty':'Tea Party',
             'EmptyClub': 'no club'
         }[self._club]
 
@@ -669,6 +672,9 @@ def replace_statnames(stat_list):
     if type(stat_list) == str: stat_list = [stat_list] 
     
     for item in stat_list:
+        item = re.sub('OppressionPower', 'CC Strength', item)
+        item = re.sub('OppressionResist', 'CC Resistance', item)        
+        
         item = re.sub('_Base', '', item)
         item = re.sub('Power', '', item)
         item = re.sub('Max', '', item)
@@ -707,6 +713,7 @@ def statcalc_replace_statname(stat_name):
             'MaxBulletCount': '',
             'ExtendBuffDuration':'',
             'EnhanceExplosionRate':'',
+            'EnhancePierceRate':'',
         }[stat_name]
 
 

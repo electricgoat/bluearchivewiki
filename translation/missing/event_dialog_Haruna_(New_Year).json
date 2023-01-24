@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "자, 같이\n차 한잔 하도록 해요.",
+            "LocalizeKR": "자, 같이\n차 한잔하도록 해요.",
             "LocalizeJP": "さあ、一緒に\nお茶を致しましょう。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -73,7 +73,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "의외로 장난을\n좋아하시는군요?",
+            "LocalizeKR": "선생님은, 의외로 장난을\n좋아하시는군요?",
             "LocalizeJP": "先生ったら、\n意外とイタズラが\nお好きなんですね？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -193,7 +193,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "분명.",
+            "LocalizeKR": "예. 분명.",
             "LocalizeJP": "ええ、きっと。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -281,7 +281,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "코스요리에서 먹는\n그라니테처럼.",
+            "LocalizeKR": "코스요리에서 먹는\n그라니테처럼요.",
             "LocalizeJP": "コース料理で頂く\nグラニテのように。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -381,7 +381,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck1",
             "GroupId": 5,
-            "LocalizeKR": "즉, 길조군요.\n네, (상품은) 이쪽입니다.",
+            "LocalizeKR": "즉, 길조군요.\n네, 이쪽입니다.",
             "LocalizeJP": "つまり、吉兆ですわね。\nはい、こちらをどうぞ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -391,7 +391,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck0",
             "GroupId": 6,
-            "LocalizeKR": "괜찮아요.\n오미쿠지(의 결과)는\n현재의 운세니까요.",
+            "LocalizeKR": "괜찮아요.\n오미쿠지 결과는\n현재의 운세니까요.",
             "LocalizeJP": "大丈夫ですわ。\nおみくじの結果は\n現在の運勢ですもの。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -413,7 +413,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck0",
             "GroupId": 6,
-            "LocalizeKR": "…네? 제게 위로를 받으니\n기쁜듯 슬프듯 하다구요…?\n그, 그건 대체…",
+            "LocalizeKR": "…네? 제게 위로를 받으니\n기쁜 듯 슬픈 듯하다구요…?\n그, 그건 대체…",
             "LocalizeJP": "…え？私に慰められると、\nうれしいような\n悲しいような…？\nそ、それは一体…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -423,7 +423,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "선생님, 제비뽑기라면\n아직 접수하고 있어요\n잊지 말고 뽑아주세요.",
+            "LocalizeKR": "선생님, 오미쿠지라면\n아직 접수하고 있어요\n잊지 말고 뽑아주세요.",
             "LocalizeJP": "先生、おみくじでしたら、\nまだ受け付けておりますよ。\n忘れずにお引きくださいね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

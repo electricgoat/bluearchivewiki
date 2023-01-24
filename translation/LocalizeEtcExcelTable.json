@@ -4024,6 +4024,363 @@
             "NameEn": "Memorial Film",
             "DescriptionJp": "生徒さんたちと先生の様々な思い出が込められたフィルムです。",
             "DescriptionEn": "It is a film that contains various memories of the students and Sensei."
+        },
+
+        {
+            "Id": 604894754,
+            "NameJp": "ミネの神名文字",
+            "NameEn": "Mine's Eleph",
+            "DescriptionJp": "ミネの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mine."
+        },
+        {
+            "Id": 908129603,
+            "NameJp": "ミカの神名文字",
+            "NameEn": "Mika's Eleph",
+            "DescriptionJp": "ミカの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mika."
+        },
+        {
+            "Id": 914856422,
+            "NameJp": "メグの神名文字",
+            "NameEn": "Megu's Eleph",
+            "DescriptionJp": "メグの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Megu."
+        },
+        {
+            "Id": 2958408234,
+            "NameJp": "カンナの神名文字",
+            "NameEn": "Kanna's Eleph",
+            "DescriptionJp": "カンナの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kanna."
+        },
+
+        {
+            "Id": 49207748,
+            "NameJp": "ネルのスカジャン",
+            "DescriptionJp": "ネルが1秒も体から離そうとしないスカジャン。こだわる理由について聞くと、とても単純明快な答えが返ってくる。",
+            "NameEn":"Neru's Sukajan",
+            "DescriptionEn": "A sukajan that Neru won't let go of even for a second. When asked why she sticks to it, she gives a very simple and clear answer."
+        },
+        {
+            "Id": 1865059509,
+            "NameJp": "シロコのドローン",
+            "DescriptionJp": "シロコがいつも持ち歩いているドローン。シロコ本人は運動する時に使う撮影用ドローンだと主張するが、撮影に関係ない様々な「付加装置」が装備されている。",
+            "NameEn":"Shiroko's Drone",
+            "DescriptionEn": "A drone that Shiroko always carries around. She claims it to be a photography drone used for exercise, but it is equipped with various \"additional devices\" unrelated to photography."
+        },
+        {
+            "Id": 2878555129,
+            "NameJp": "グルメ手帳",
+            "DescriptionJp": "ジュンコが愛用する手帳。ジュンコが通ったおいしいお店を区域別に評価を付けて記録しておいた特別な手帳だ。",
+            "NameEn": "Gourmet Notebook",
+            "DescriptionEn": "Junko's treasured notebook. In it, Junko keeps a rating record of the restaurants she has visited."
+        },
+        {
+            "Id": 1261922711,
+            "NameJp": "パトロールヘッドホン",
+            "DescriptionJp": "スズミがパトロールの時に持ち歩いているヘッドホン。「パトロールヘッドホン」は自分でつけた名前なだけで、普通の汎用品だ。",
+            "NameEn":"Patrol Headphones",
+            "DescriptionEn": "Headphones that Suzumi carries around on patrol. \"Patrol Headphones\" is just what she calls them, it is in fact a normal general-purpose product."
+        },
+        {
+            "Id": 607571213,
+            "NameJp": "アビドス教室の黒板",
+            "NameEn": "Abydos Classroom Blackboard",
+            "DescriptionJp": "キレイに片付けられている黒板。なにかちょっと落書きしたくなる。",
+            "DescriptionEn": "A neatly organized chalkboard. Makes you want to scribble something."
+        },
+        {
+            "Id": 4141233484,
+            "NameJp": "アビドス教室シリーズ",
+            "NameEn": "Abydos Classroom Set",
+            "DescriptionJp": "生徒たちとの楽しくワクワクする時間がたっぷり詰まったアビドス教室シリーズ。生徒たちと思い出作りしましょう！",
+            "DescriptionEn": "Abydos classroom is full of fun and exciting times with students. Make memories with your students!"
+        },
+        {
+            "Id": 144156645,
+            "NameJp": "アビドス教室シリーズ",
+            "NameEn": "Abydos Classroom Furniture"
+        },
+        {
+            "Id": 1585717654,
+            "NameJp": "アビドス教室の生徒用ロッカー",
+            "NameEn": "Abydos Classroom Student Lockers",
+            "DescriptionJp": "アビドスの生徒に与えられるロッカー。内部を飾るのは各自の自由。",
+            "DescriptionEn": "A locker provided to Abydos students. Decorating the inside is up to you."
+        },
+        {
+            "Id": 1946673948,
+            "NameJp": "アビドス教室の収納ケース",
+            "NameEn": "Abydos Classroom Storage Cabinet",
+            "DescriptionJp": "教室に必要なものを収納できる収納ケース。色の配分が可愛い。",
+            "DescriptionEn": "A storage cabinet for classroom supplies. The color distribution is lovely."
+        },
+        {
+            "Id": 1608437119,
+            "NameJp": "アビドス教室の椅子",
+            "NameEn": "Abydos Classroom Chair",
+            "DescriptionJp": "すっきりした外観が印象的な教室の椅子。机を少し移せば友達と並んで座ることができる。",
+            "DescriptionEn": "Simple and sturdy classroom chair. If you move your desk a little, you can sit side by side with your friends."
+        },
+        {
+            "Id": 2332133708,
+            "NameJp": "アビドス教室の壁掛け時計",
+            "NameEn": "Abydos Classroom Wall Clock",
+            "DescriptionJp": "すっきりとしたデザインの壁掛け時計。ランチタイムが始る前の1分1秒を争う生徒たちにとって重要なもの。",
+            "DescriptionEn": "Wall clock with a simple design. Important for students who are eagerly counting minutes and seconds before lunchtime."
+        },
+        {
+            "Id": 2029098150,
+            "NameJp": "アビドス教室のお弁当が置かれた机",
+            "NameEn": "Abydos Classroom Desk With Lunch Boxes",
+            "DescriptionJp": "誰かの温かい気持ちのこもったお弁当が置かれた机。食事の時間はまだ遠い。",
+            "DescriptionEn": "A desk with someone's warm and hearty bento on it. Lunch break hasn't started yet."
+        },
+        {
+            "Id": 2742545103,
+            "NameJp": "アビドス教室の床",
+            "NameEn": "Abydos Classroom Floor",
+            "DescriptionJp": "ベージュ色が印象的な教室の床。滑りにくい仕様で安全だ。",
+            "DescriptionEn": "The floor of a classroom with an attractive beige color. It is non-slip and safe."
+        },
+        {
+            "Id": 2333504969,
+            "NameJp": "アビドス教室の廊下パーテーション",
+            "NameEn": "Abydos Classroom Corridor Partition",
+            "DescriptionJp": "スペースを効率的に分けられる教室のパーテーション。楽しい状況を演出できる。",
+            "DescriptionEn": "Classroom partitions that effectively divide space. Can create fun situations."
+        },
+        {
+            "Id": 3598923842,
+            "NameJp": "アビドス教室の壁掛けスピーカー",
+            "NameEn": "Abydos Classroom Wall Speakers",
+            "DescriptionJp": "クラシックなデザインの教室の壁掛けスピーカー。予想よりも音が力強い。",
+            "DescriptionEn": "Classroom wall-mounted speaker of a classic design. The sound is louder than expected."
+        },
+        {
+            "Id": 832134850,
+            "NameJp": "アビドス教室の柱",
+            "NameEn": "Abydos Classroom Pillar",
+            "DescriptionJp": "パーテーションとマッチする教室の柱。鮮やかな色が印象的だ。",
+            "DescriptionEn": "Support pillar that is styled to match the partition. Painted in attractive bright colors."
+        },
+        {
+            "Id": 1559310292,
+            "NameJp": "アビドス教室のスケジュール黒板",
+            "NameEn": "Abydos Classroom Schedule Blackboard",
+            "DescriptionJp": "学校のスケジュールを一目で見ることができる黒板。毎日新しい日程でいっぱいだ。",
+            "DescriptionEn": "Blackboard with the school schedule pasted on. It is updated with a new schedule every day."
+        },
+        {
+            "Id": 2961499698,
+            "NameJp": "アビドス教室のキャンペーン黒板",
+            "NameEn": "Abydos Classroom Campaign Blackboard",
+            "DescriptionJp": "学校のキャンペーンを閲覧できる黒板。積極的な生徒たちの表情を垣間見ることができる。",
+            "DescriptionEn": "A chalkboard dedicated to school campaigns. You can catch a glimpse of the positive notes left by students."
+        },
+        {
+            "Id": 2508722855,
+            "NameJp": "アビドス教室の掃除道具箱",
+            "NameEn": "Abydos Classroom Cleaning Tools Closet",
+            "DescriptionJp": "清潔さは生徒の美徳。アビドスの清掃道具箱は何でも揃っている。",
+            "DescriptionEn": "Cleanliness is a student virtue. Abydos's cleaning closet has everything."
+        },
+        {
+            "Id": 565013558,
+            "NameJp": "アビドス教室の先生用ロッカー",
+            "NameEn": "Abydos Classroom Teacher's Locker",
+            "DescriptionJp": "先生だけのための教室ロッカー。それぞれの記念日にはロッカーがしばしば溢れたりも？",
+            "DescriptionEn": "Classroom lockers for teachers' use only. Somehow, lockers are knows to overflow on each anniversary."
+        },
+        {
+            "Id": 1273888019,
+            "NameJp": "アビドス教室のカーディガンが置かれた机",
+            "NameEn": "Abydos Classroom Desk With a Cardigan",
+            "DescriptionJp": "黄色いカーディガンが掛かっている机。温厚な上、何だか豊かな気品が感じられる。",
+            "DescriptionEn": "Desk with a yellow cardigan draped over the chair. In addition to being warm, you can feel an aura of rich dignity."
+        },
+        {
+            "Id": 2424547713,
+            "NameJp": "アビドス教室のクジラ人形が置かれた机",
+            "NameEn": "Abydos Classroom Desk With a Whale Plush",
+            "DescriptionJp": "かわいいクジラの人形が置かれた机。何だかゆったりとした気分が味わえる。",
+            "DescriptionEn": "Desk with a cute whale doll. Makes you feel relaxed."
+        },
+        {
+            "Id": 2024364171,
+            "NameJp": "アビドス教室のメガネが置かれた机",
+            "NameEn": "Abydos Classroom Desk With Glasses",
+            "DescriptionJp": "赤い縁のメガネが置かれた机。丁寧で信頼できる持ち主の机だ。",
+            "DescriptionEn": "Desk with red-rimmed glasses left on it. Has a polite and trustworthy owner."
+        },
+        {
+            "Id": 3616232594,
+            "NameJp": "アビドス教室の覆面が置かれた机",
+            "NameEn": "Abydos Classroom Desk With a Mask",
+            "DescriptionJp": "覆面が置かれた机。凡庸でないオーラが感じられる。",
+            "DescriptionEn": "A desk with a mask on it. Something feels off about it."
+        },
+        {
+            "Id": 629150665,
+            "NameJp": "アビドス教室のリボンと手袋が置かれた机",
+            "NameEn": "Abydos Classroom Desk With Ribbons and Gloves",
+            "DescriptionJp": "リボンと手袋が置かれた机。この机の持ち主なら重要なことも任せられそうだ。",
+            "DescriptionEn": "A desk with ribbons and gloves on it. The owner of this desk seems to be entrusted with important matters."
+        },
+        {
+            "Id": 1101212602,
+            "NameJp": "アビドス教室の大きなバッグが置かれた机",
+            "NameEn": "Abydos Classroom Desk With a Large Bag",
+            "DescriptionJp": "大きなバックが置かれた机。どうしたことか持ち主は長い間席に戻ってきてないようだ。",
+            "DescriptionEn": "Desk with a big bag on it. Somehow, the owner hasn't returned to their seat for a long time."
+        },
+        {
+            "Id": 1560236674,
+            "NameJp": "アビドス教室のガンスタンド",
+            "NameEn": "Abydos Classroom Gun Stand",
+            "DescriptionJp": "生徒たちの最も大切な物の一つである銃器が置かれたスタンド。クラスで一番目立つ存在。",
+            "DescriptionEn": "The stand where the firearms, some of the students' most prized possessions, are stored. The most conspicuous in the class."
+        },
+        {
+            "Id": 3852063070,
+            "NameJp": "アビドス教室のボードパーテーション",
+            "NameEn": "Abydos Classroom Board Partition",
+            "DescriptionJp": "情報伝達と空間分離をひとつにまとめた驚くべき発明品。居心地の良さと可愛さを同時に。",
+            "DescriptionEn": "An astonishing invention that combines information transmission and spatial separation. Cozy and cute at the same time."
+        },
+        {
+            "Id": 1315605472,
+            "NameJp": "アビドス教室の先生のデスク",
+            "NameEn": "Abydos Classroom Teacher's Desk",
+            "DescriptionJp": "生徒を指導する先生のデスク。生徒たちが持ってきてくれた香しい花と手紙でいっぱいだ。",
+            "DescriptionEn": "The desk of a teacher. It is covered with fragrant flowers and letters brought by the students."
+        },
+        {
+            "Id": 1541047128,
+            "NameJp": "アビドス教室のロゴフレーム",
+            "NameEn": "Abydos Classroom Logo Frame",
+            "DescriptionJp": "アビドス教室のロゴフレーム。アビドスの象徴だ。",
+            "DescriptionEn": "Abydos classroom logo frame. Symbol of Abydos."
+        },
+        {
+            "Id": 2984050247,
+            "NameJp": "アビドス教室の学級目標",
+            "NameEn": "Abydos Classroom Class Goals",
+            "DescriptionJp": "お金に対する強い意志が感じられる世俗的ながらも現実的な学級目標。見る者に意志を湧かせる。",
+            "DescriptionEn": "A mundane yet realistic lass goal that betrays an urgent need for money. Inspires the viewer."
+        },
+        {
+            "Id": 1007047880,
+            "NameJp": "アビドス教室の分別ボックス",
+            "NameEn": "Abydos Classroom Sorting Bins",
+            "DescriptionJp": "色ごとにわかりやすく作られた分別ボックス。かわいい色でインテリア効果はおまけ。",
+            "DescriptionEn": "Garbage sorting bins that are helpfully color-coded. Colors being cute is an added bonus."
+        },
+        {
+            "Id": 3661683422,
+            "NameJp": "アビドス教室のホワイトボード",
+            "NameEn": "Abydos Classroom Whiteboard",
+            "DescriptionJp": "混沌と計画が一箇所に集まったホワイトボード。誰かには無限の画用紙。誰かには計画書。",
+            "DescriptionEn": "A whiteboard where chaos and plans come together in one place. Endless drawing paper for some, and for someone else, a plan."
+        },
+        {
+            "Id": 3759624148,
+            "NameJp": "アビドス教室の背景",
+            "NameEn": "Abydos Classroom Background",
+            "DescriptionJp": "学生時代のロマンと熾烈さで満ちた教室の背景。",
+            "DescriptionEn": "The background of the classroom filled with the romance and adventure of school days."
+        },
+        {
+            "Id": 2790194128,
+            "NameJp": "アビドス教室のタイルの床",
+            "NameEn": "Abydos Classroom Tile Floor",
+            "DescriptionJp": "木材が織り成された教室のタイルの床。穏やかな雰囲気を作ってくれる。",
+            "DescriptionEn": "Classroom floor made of intersecting wood tiles. Creates a calm atmosphere."
+        },
+        {
+            "Id": 409560581,
+            "NameJp": "アビドス教室の壁",
+            "NameEn": "Abydos Classroom Wall",
+            "DescriptionJp": "教室の柱とマッチする教室の壁。明るく晴れた感じがする。",
+            "DescriptionEn": "Classroom walls that match the classroom pillars style. It feels bright and sunny."
+        },
+        {
+            "Id": 4182499635,
+            "NameJp": "アビドス教室の本棚",
+            "NameEn": "Abydos Classroom Bookshelf",
+            "DescriptionJp": "実戦に強くなれるガイドブックなどが並ぶ教室の本棚。生徒たちの思い出もある。",
+            "DescriptionEn": "Classroom book shelf lined with guidebooks and other materials that will prepare you for life. Also filled with students' memories."
+        },
+        {
+            "Id": 2143635196,
+            "NameJp": "アビドス教室の自転車",
+            "NameEn": "Abydos Classroom Bicycle",
+            "DescriptionJp": "アクティブな持ち主が乗って通いそうな自転車。自転車から活力と落ち着きが同時に感じられる。",
+            "DescriptionEn": "A bicycle that an active owner seems to ride. The bike feels energized and calm at the same time."
+        },
+        {
+            "Id": 2931758471,
+            "NameJp": "アビドス教室のパーテーション",
+            "NameEn": "Abydos Classroom Partition",
+            "DescriptionJp": "スペースを効率的に分割する一般的なパーテーション。広いスペースを区別するのに便利です。",
+            "DescriptionEn": "A common partition that divides space efficiently. Useful for distinguishing large spaces."
+        },
+        {
+            "Id": 2296293045,
+            "NameJp": "アビドス教室の教卓",
+            "NameEn": "Abydos Classroom Lectern",
+            "DescriptionJp": "生徒の注目を一目で受けることができる教託。眺める目はたくさんですが、席の所有者は一つ。",
+            "DescriptionEn": "A small lectern that commands the attention of a classrom. Many eyes meet the one standing behind it."
+        },
+        {
+            "Id": 680245797,
+            "NameJp": "アビドス教室の自動販売機",
+            "NameEn": "Abydos Classroom Vending Machine",
+            "DescriptionJp": "生徒の口当たりをひきつける飲み物がいっぱいの自動販売機。先生もしばしば愛用する。",
+            "DescriptionEn": "A vending machine filled with beverages that appeal to students' palate. Teachers seem to love it too."
+        },
+        {
+            "Id": 1631977102,
+            "NameJp": "アビドス教室のマシンガンスタンド",
+            "NameEn": "Abydos Classroom Machine Gun Rack",
+            "DescriptionJp": "強力な性能とかわいい色を兼ね備えたマシンガンスタンド。簡単に取り外し可能。",
+            "DescriptionEn": "A machine gun rack that combines robust performance with cute colors. Easily removable."
+        },
+        {
+            "Id": 728041019,
+            "NameJp": "アビドス教室の窓",
+            "NameEn": "Abydos Classroom Window",
+            "DescriptionJp": "砂漠が広がるアビドス一帯が見える窓。誰かを待ちたくなる。",
+            "DescriptionEn": "A window overlooking Abydos desert. Makes you long to see someone."
+        },
+        {
+            "Id": 449531113,
+            "NameJp": "トリニティオルガン",
+            "NameEn": "Trinity Organ",
+            "DescriptionJp": "トリニティの装飾が細かく荘厳なオルガン。眺めているだけでも神聖な感じがする。",
+            "DescriptionEn": "Trinity's finely decorated majestic organ. Just looking at it is a spiritual experience."
+        },
+        {
+            "Id": 557842591,
+            "NameJp": "ティーパーティーテーブル",
+            "NameEn": "Tea Party Table",
+            "DescriptionJp": "華やかなデザインが際立つティーパーティーのテーブル。美しい外観とは異なり、深刻な話が行き来することもある。",
+            "DescriptionEn": "A tea party table that stands out for its glamorous design. In contrast to beautiful appearance, serious conversations can happen at it."
+        },
+        {
+            "Id": 1616329815,
+            "NameJp": "取調室のテーブル",
+            "NameEn": "Interrogation Room Table",
+            "DescriptionJp": "ヴァルキューレ警察学校の取調室に設置されている一般的なテーブル。取り調べは時に厳しく、時に優しく。",
+            "DescriptionEn": "A standard table installed in the interrogation rooms of Valkyrie Police Academy. The interrogation is sometimes strict and sometimes gentle."
+        },
+        {
+            "Id": 1827809008,
+            "NameJp": "大聖堂の長椅子",
+            "NameEn": "Cathedral Bench",
+            "DescriptionJp": "座ると敬虔な心を持てるようになる椅子。朝晩のお祈りに適している。",
+            "DescriptionEn": "A bench that fills ones' heart with piety when you sit on it. Suitable for morning and evening prayers."
         }
       
 

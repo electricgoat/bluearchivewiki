@@ -29,7 +29,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "요리에서 중요한 건\n계량이죠.",
+            "LocalizeKR": "요리에서는 확실하게\n계량하는 것이\n중요하답니다.",
             "LocalizeJP": "料理はしっかり\n計量するのが\n大切なんですよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -189,7 +189,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "물론....\n저에게 있어서도요, 에헤헷.",
+            "LocalizeKR": "물론….\n저에게 있어서도요, 에헤헷.",
             "LocalizeJP": "もちろん……\n私にとってもです、えへへっ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -233,7 +233,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "슬슬 가지 않으면…",
+            "LocalizeKR": "슬슬 가야 하는데……",
             "LocalizeJP": "そろそろ行かないと……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -265,7 +265,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "저도 축하할 수 있어서 기뻐요! ",
+            "LocalizeKR": "저도 축하할 수 있어서 기뻐요!",
             "LocalizeJP": "私もお祝いできて\nうれしいです！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -329,7 +329,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "새해에는 역시 새 옷이죠!",
+            "LocalizeKR": "모처럼의 설날이니\n기모노를 입어보았습니다.",
             "LocalizeJP": "せっかくのお正月なので、\n着物に袖を通してみました。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -339,7 +339,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "새해 요리도\n이미 준비해 뒀답니다.",
+            "LocalizeKR": "오세치도 준비했어요.\n같이 드실래요?",
             "LocalizeJP": "おせちも用意してありますよ。\n一緒にいかがですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -455,7 +455,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "그러니까, 선생님.",
+            "LocalizeKR": "그러니까, 그… 선생님.",
             "LocalizeJP": "なので、その……先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
