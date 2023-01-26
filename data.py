@@ -21,7 +21,9 @@ BlueArchiveData = collections.namedtuple(
     'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_shop_info', 'event_content_shop', 'event_content_location_reward', 'event_content_zone', 'event_content_box_gacha_manage', 'event_content_box_gacha_shop', 'event_content_fortune_gacha_shop', 
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
-    'strategymaps','goods', 'stages']
+    'strategymaps','goods', 'stages',
+    'world_raid_season', 'world_raid_stage','world_raid_stage_reward',
+    ]
 )
 
 # BlueArchiveTranslations = collections.namedtuple(
@@ -93,6 +95,9 @@ def load_data(path_primary, path_secondary, path_translation):
         strategymaps=               load_strategymaps(path_primary),
         goods=                      load_generic(path_primary, 'GoodsExcelTable.json'),
         stages=                     load_stages(path_primary),
+        world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
+        world_raid_stage=           load_generic(path_primary, 'WorldRaidStageExcelTable.json'),
+        world_raid_stage_reward=    load_world_raid_stage_reward(path_primary),
     )
 
 
@@ -430,6 +435,9 @@ def load_event_content_box_gacha_shop(path):
 
 def load_event_content_fortune_gacha_shop(path):
     return load_file_grouped(os.path.join(path, 'Excel', 'EventContentFortuneGachaShopExcelTable.json'), 'EventContentId')
+
+def load_world_raid_stage_reward(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'WorldRaidStageRewardExcelTable.json'), 'GroupId')
 
 
 
