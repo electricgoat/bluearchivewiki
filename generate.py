@@ -41,6 +41,10 @@ def generate():
     #    f.close()
     #    return True
 
+    # total_characters = 0
+    # total_momotalks = 0
+    # total_jims=0
+
     for character in data.characters.values():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
@@ -59,6 +63,20 @@ def generate():
             f.write(wikitext)
             if wiki.site != None:
                 update_template(character.name_translated, args['wiki_template'], wikitext)
+
+        
+    #     total_characters += 1
+    #     for reward in character.momotalk.levels:
+    #         total_momotalks += 1
+    #         for index,parcel in enumerate(reward['RewardParcelType']):
+    #             if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
+    #                 total_jims += reward['RewardAmount'][index]
+
+    # print(f"Total playable characters: {total_characters}")
+    # print(f"Total momotalks: {total_momotalks}")
+    # print(f"Total pyroxene rewards: {total_jims}")
+
+
 
         
         #weapon_data['DataList'].append({'Id':character.id, 'NameJP': character.profile.weapon_name, 'NameEN': character.profile.weapon_name_translated, 'DescriptionJP': character.profile.weapon_desc, 'DescriptionEN': character.profile.weapon_desc_translated})

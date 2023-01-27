@@ -70,6 +70,15 @@
 | MemoryLobbyUnlockLv = {{character.memory_lobby.unlock_level}}
 | MemoryLobbyImage = {{character.memory_lobby.image}}
 {%- endif -%}
+
+{%- for momotalk in character.momotalk.levels %}
+    {%- for reward in momotalk['RewardParcelType'] %}
+        {%- if reward == 'Currency' and momotalk['RewardParcelId'][loop.index-1] == 3 %}
+| MomotalkRewardLevel{{momotalk['FavorRank']}} = {{momotalk['RewardAmount'][loop.index-1]}}
+        {%- endif -%}
+    {%- endfor %}
+{%- endfor %}
+
 {%- for level in character.favor.levels %}
 | AffectionLevel{{level}} ={% for stat_type in character.favor.levels[level]['stat_type'] %} {{stat_type}}+{{character.favor.levels[level]['stat_value'][loop.index-1]}}{% endfor -%}
 {%- endfor %}
