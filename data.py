@@ -506,3 +506,15 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
 
     return data
 
+
+
+# BlueArchiveSeasonData = collections.namedtuple(
+#     'BlueArchiveSeasonData',
+#     ['raid_season_manage']
+# )
+
+# def load_scenario_data(path):
+#     return BlueArchiveScenarioData(
+#         raid_season=            load_generic(path, 'RaidSeasonManageExcelTable.json', key='SeasonId'),
+#         world_raid_season=      load_generic(path, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
+#     )

@@ -1,7 +1,7 @@
 import traceback
 
 from pywikiapi import Site, ApiError
-#import wikitextparser as wtp
+import wikitextparser as wtp
 
 WIKI_API = 'https://bluearchive.wiki/w/api.php'
 
@@ -66,6 +66,98 @@ def page_list(match):
 
     #print(f"Fetched {len(page_list)} pages that match {match}")
     return page_list
+
+
+
+def update_template(page_name, template_name, wikitext):
+    template_old = None
+    template_new = None
+
+    text = site('parse', page=page_name, prop='wikitext')
+    print (f"Updating wiki page {text['parse']['title']}")
+
+    wikitext_old = wtp.parse(text['parse']['wikitext'])
+    for template in wikitext_old.templates:
+        if template.name.strip() == template_name: 
+            template_old = str(template)
+            #print (f'Old template text is {template_old}')
+            break
+
+    wikitext_new = wtp.parse(wikitext)
+    for template in wikitext_new.templates:
+        if template.name.strip() == template_name: 
+            template_new = str(template)
+            #print (f'New template text is {template_new}')
+            break
+
+    if template_new == None:
+        print (f'Unable to find new template data')
+        return
+
+    if template_old == None:
+        print (f'Unable to find old template data')
+        return
+
+    if template_new == template_old:
+        print (f'...no changes in {template_name} for {page_name}')
+    else:
+        publish(page_name, text['parse']['wikitext'].replace(template_old, template_new), summary=f'Updated {template_name} template data')
+
+
+
+def update_section(page_name, section_name, wikitext):
+    section_old = None
+    section_new = None
+
+    text = site('parse', page=page_name, prop='wikitext')
+    print (f"Updating wiki page {text['parse']['title']}")
+
+    wikitext_old = wtp.parse(text['parse']['wikitext'])
+    for section in wikitext_old.sections:
+        if  section.title != None and section.title.strip() == section_name: 
+            section_old = str(section)
+            #print (f'Old section text is {section_old}')
+            break
+
+    wikitext_new = wtp.parse(wikitext)
+    for section in wikitext_new.sections:
+        if section.title != None and section.title.strip() == section_name: 
+            section_new = str(section)
+            #print (f'New section text is {section_new}')
+            break
+
+    if section_new == None:
+        print (f'Unable to find new section data')
+        return
+
+    if section_old == None:
+        print (f'Unable to find old section data')
+        return
+
+    if section_new == section_old:
+        print (f'...no changes in {section_name} section for {page_name}')
+    else:
+        publish(page_name, text['parse']['wikitext'].replace(section_old, section_new), summary=f'Updated {section_name} section')
+
+
+
+def publish(page_name, wikitext, summary='Publishing generated page'):
+    global args
+
+    try:
+        site(
+            action='edit',
+            title=page_name,
+            text=wikitext,
+            summary=summary,
+            token=site.token()
+        )
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            publish(page_name, wikitext, summary)
+        else:
+            print (f"Unknown publishing error {error}")
 
 
 

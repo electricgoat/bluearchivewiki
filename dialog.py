@@ -426,21 +426,17 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-data_primary', metavar='DIR', help='Fullest (JP) game version data')
-    parser.add_argument('-data_secondary', metavar='DIR', help='Secondary (Global) version data to include localisation from')
-    parser.add_argument('-data_audio', metavar='DIR', help='Audio files directory')
-    parser.add_argument('-translation', metavar='DIR', help='Additional translations directory')
-    parser.add_argument('-outdir', metavar='DIR', help='Output directory')
-    parser.add_argument('-character_id', metavar='ID', help='Id of a single character to export')
-    parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
-    parser.add_argument('-upload_files', metavar=('BOOL'), help='Check if audio file is already on the wiki and upload it if not')
+    parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
+    parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
+    parser.add_argument('-data_audio',      metavar='DIR', required=True, help='Audio files directory')
+    parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
+    parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
+    parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
+    parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
+    parser.add_argument('-upload_files',    metavar=('BOOL'), help='Check if audio file is already on the wiki and upload it if not')
     parser.add_argument('-scavenge', action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
     args = vars(parser.parse_args())
-    args['data_primary'] = args['data_primary'] == None and '../ba-data/jp' or args['data_primary']
-    args['data_secondary'] = args['data_secondary'] == None and '../ba-data/global' or args['data_secondary']
-    args['translation'] = args['translation'] == None and 'translation' or args['translation']
-    args['outdir'] = args['outdir'] == None and 'out' or args['outdir']
     args['character_id'] = args['character_id'] == None and '' or args['character_id']
     args['data_audio'] = args['data_audio'] == None and None or args['data_audio']
     args['upload_files'] = args['upload_files'] == None and True or args['character_id']

@@ -541,20 +541,14 @@ def main():
     global args
 
     parser = argparse.ArgumentParser()
-
-    parser.add_argument('event_season', metavar='SEASON_NUMBER', help='Event mission season to export')
-    parser.add_argument('-data_primary', metavar='DIR', help='Fullest (JP) game version data')
-    parser.add_argument('-data_secondary', metavar='DIR', help='Secondary (Global) version data to include localisation from')
-    parser.add_argument('-translation', metavar='DIR', help='Additional translations directory')
-    parser.add_argument('-outdir', metavar='DIR', help='Output directory')
+    parser.add_argument('event_season',     metavar='season_number', help='Event season to export')
+    parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
+    parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
+    parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
+    parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
 
     args = vars(parser.parse_args())
     args['event_season'] = int(args['event_season'])
-
-    args['data_primary'] = args['data_primary'] == None and '../ba-data/jp' or args['data_primary']
-    args['data_secondary'] = args['data_secondary'] == None and '../ba-data/global' or args['data_secondary']
-    args['translation'] = args['translation'] == None and '../bluearchivewiki/translation' or args['translation']
-    args['outdir'] = args['outdir'] == None and 'out' or args['outdir']
     print(args)
 
     try:
