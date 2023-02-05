@@ -142,7 +142,7 @@ def update_section(page_name, section_name, wikitext):
 
 
 def publish(page_name, wikitext, summary='Publishing generated page'):
-    global args
+    global site
 
     try:
         site(

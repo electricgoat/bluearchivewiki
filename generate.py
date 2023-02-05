@@ -52,10 +52,11 @@ def generate():
             wikitext = template.render(character=character)
             
             f.write(wikitext)
-            if wiki.site != None and args['wiki_template'] != None:
-                wiki.update_template(character.name_translated, args['wiki_template'], wikitext)
-            elif wiki.site != None and args['wiki_section'] != None:
-                wiki.update_section(character.name_translated, args['wiki_section'], wikitext)
+            
+        if wiki.site != None and args['wiki_template'] != None:
+            wiki.update_template(character.name_translated, args['wiki_template'], wikitext)
+        elif wiki.site != None and args['wiki_section'] != None:
+            wiki.update_section(character.name_translated, args['wiki_section'], wikitext)
 
         
     #     total_characters += 1
