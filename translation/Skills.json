@@ -3318,15 +3318,39 @@
         {
             "GroupId": "CH0170WeaponPassive01",
             "NameEn": "Mad Dog obsession +",
-            "DescriptionEn": "Increase Defense by $1 and Attack by $2. Further increase Attack by $4."
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
         },
         {
             "GroupId": "CH0170ExtraPassive01",
             "NameEn": "PSB special ammunition",
             "DescriptionEn": "Increase Attack of Penetration type allies by $1."
+        },
+
+        {
+            "GroupId": "CH0067Ex01",
+            "NameEn": "Baptismal seal",
+            "DescriptionEn": "Deal $1 damage to one enemy and apply Focused Fire for $2.\nNormal attacks deal $3 as additional damage for $4."
+        },
+        {
+            "GroupId": "CH0067Public01",
+            "NameEn": "Sister's garment",
+            "DescriptionEn": "Every $1, increase Attack Speed by $2 for $3."
+        },
+        {
+            "GroupId": "CH0067Passive01",
+            "NameEn": "He who judges the guilty",
+            "DescriptionEn": "Increase Attack Speed by $1."
+        },
+        {
+            "GroupId": "CH0067WeaponPassive01",
+            "NameEn": "He who judges the guilty +",
+            "DescriptionEn": "Increase Mystic damage bonus against the enemies weak to it by $1. Increase Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0067ExtraPassive01",
+            "NameEn": "May the light be with you",
+            "DescriptionEn": "Deal $1 as additional damage against the enemies with Special armor."
         }
-
-
         
     ]
 }

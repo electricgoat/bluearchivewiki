@@ -76,7 +76,7 @@ class Character(object):
             'GourmetClub': 'Gourmet Research Club',
             'RemedialClass': 'Supplemental Classes Club',
             'SisterHood': 'Sisterhood',
-            'Kohshinjo68': 'Handyman 68',
+            'Kohshinjo68': 'Problem Solver 68',
             'CleanNClearing': 'Cleaning & Clearing',
             'Shugyobu': 'Inner Discipline Club',
             'MatsuriOffice': 'Festival Organization Committee',
@@ -384,10 +384,14 @@ class Skill(object):
                 amount_base = []
                 amount_percentage = []
 
+        #TODO Sakurako update broke this, figure it out, she doesn't seem to have CH0067_Passive01_Effect01_Lv2
                 if data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
                     for lv in range(1,11):
-                        amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
-                        amount_percentage.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['TargetCoefficientAmount'])
+                        if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
+                        else: amount_base.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['BaseAmount'])
+                        
+                        if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['TargetCoefficientAmount'])
+                        else: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['TargetCoefficientAmount'])
                     if amount_base[9] == '0': amount_base = None
                     if amount_percentage[9] == '0': amount_percentage = None
 
@@ -713,6 +717,7 @@ def statcalc_replace_statname(stat_name):
             'ExtendBuffDuration':'',
             'EnhanceExplosionRate':'',
             'EnhancePierceRate':'',
+            'EnhanceMysticRate':'',
         }[stat_name]
 
 
