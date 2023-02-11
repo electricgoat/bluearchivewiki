@@ -21,7 +21,7 @@ def replace_glossary(item = None):
 
 
 class Character(object):
-    def __init__(self, id, name, dev_name, model_prefab_name, portrait, name_en, family_name_en, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, is_limited):
+    def __init__(self, id, name, dev_name, model_prefab_name, portrait, name_en, family_name_en, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool):
         self.id = id
         self.name = name
         self.rarity = rarity
@@ -49,7 +49,7 @@ class Character(object):
         self.memory_lobby = memory_lobby
         self.momotalk = momotalk
         self.liked_gift_tags = liked_gift_tags
-        self.is_limited = is_limited
+        self.character_pool = character_pool
 
         self.dev_name = dev_name
         self.model_prefab_name = model_prefab_name
@@ -181,7 +181,7 @@ class Character(object):
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
-            'IsLimited' in data.translated_characters[character_id] or False
+            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] else 'regular'
         )
 
 

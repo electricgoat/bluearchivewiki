@@ -28,6 +28,7 @@
 | EquipmentSlot1 = {{character.equipment[0]}}
 | EquipmentSlot2 = {{character.equipment[1]}}
 | EquipmentSlot3 = {{character.equipment[2]}}
+| CharacterPool = {{character.character_pool}}
 | ReleaseDate = {{character.profile.release_date_jp}}
 {% raw %}}}{% endraw %}
 
@@ -38,7 +39,7 @@
 {% raw %}}}{% endraw %}
 
 =How to Obtain=
-{% if character.is_limited == False %}*Regular Gacha pool
+{% if character.character_pool == "regular" %}*Regular Gacha pool
 {% endif -%}{% raw %}{{CharacterBanners}}{{CharacterMissionRewards}}{% endraw %}
 
 =Character Details=

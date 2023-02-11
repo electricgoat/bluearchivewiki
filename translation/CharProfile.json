@@ -102,6 +102,7 @@
     },
     {
       "CharacterId": 13004,
+      "CharacterPool": "event",
       "FamilyNameEn": "Izayoi",
       "PersonalNameEn": "Nonomi",
       "ProfileIntroductionEn": "A member of the Countermeasure Council of Abydos.\n\nShe has an emotional and gentle personality, and plays a role as a mental support bringing together the members of the Countermeasure Council, which has many extreme personalities.\nThough she doesn't say it herself, she is the daughter of a very rich family. In fact, she pays for almost all of the Countermeasure Council's snacks from her own allowance.",
@@ -505,7 +506,7 @@
       "CharacterId": 10014,
       "FamilyNameEn": "Kuda",
       "PersonalNameEn": "Izuna",
-      "ProfileIntroductionEn": "A member of Ninjutsu Research Club of Hyakkiyako. <br>Her dream is \"to become the greatest Ninja of Kivotos\". Because of pursuing a dream not many people can reason with, Izuna is often seen alone despite her bright and cheerful personality. <br>In order to become a proper ninja, she continues to call the teacher \"Master\" while \"escorting\" (simply chasing after the car) and devoting herself to various other activities.",
+      "ProfileIntroductionEn": "A member of Ninjutsu Research Club of Hyakkiyako.\n\nHer dream is \"to become the greatest Ninja of Kivotos\". Because of pursuing a dream not many people can reason with, Izuna is often seen alone despite her bright and cheerful personality.\nIn her pursuit to become a proper ninja, she continues to refer to Sensei as \"Master\" while \"escorting\" him (simply tailing Sensei around Kivotos) and devoting herself to various other activities.",
       "HobbiesEn": "Studying ninja arts, escorting her master",
       "DesignerNameEn": "はねこと (''Hanekoto'')",
       "IllustratorNameEn": "はねこと (''Hanekoto'')",
@@ -526,7 +527,7 @@
       "CharacterId": 10017,
       "FamilyNameEn": "Renkawa",
       "PersonalNameEn": "Cherino",
-      "ProfileIntroductionEn": "Cherino is the tyrannical and childlike student council president of Red Winter. <br>She has an extremely strong desire for power - despite being overthrown in a revolution almost every week, Cherino somehow keeps returning to the seat of student council president. <br>According to Cherino, her fake moustache is a \"symbol of influence\" that \"radiates authority\".",
+      "ProfileIntroductionEn": "Cherino is the tyrannical and childlike student council president of Red Winter. \n\nShe has an extremely strong desire for power - despite being overthrown in a revolution almost every week, Cherino somehow keeps returning to the seat of student council president. <br>According to Cherino, her fake moustache is a \"symbol of influence\" that \"radiates authority\".",
       "HobbiesEn": "Purges, snowball fights",
       "-Illust": "Hwansang",
       "VoiceEn": "Sakura Tange",
@@ -544,7 +545,7 @@
     },
     {
       "CharacterId": 26006,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Amami",
       "PersonalNameEn": "Nodoka",
       "ProfileIntroductionEn": "Nodoka is a student of Red Winter. However, she is currently suspended from school, instead being confined to Class No. 227 in the old school building.\n\nThe reason for her suspension is \"using a telescope to engage in stalking\".\nNodoka has a desire to observe all of the beautiful things in the world with her own eyes (including Sensei). The long hardship she has endured as part of Class No. 227 has given her a deep-running sense of frugality.",
@@ -661,7 +662,7 @@
     },
     {
       "CharacterId": 20004,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Shizuyama",
       "PersonalNameEn": "Mashiro (Swimsuit)",
       "ProfileIntroductionEn": "Enrolled at Trinity Integrated Academy, Mashiro is a member of the Justice Actualization Committee assigned to taking along and watching over Tsurugi at the beach. <br>The shining beach, glittering sand. Anyone would see it as a situation to go playing, Mashiro's mind is focused on training. For this is the justice she believes in.",
@@ -713,7 +714,7 @@
     },
     {
       "CharacterId": 20007,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Hatsune",
       "PersonalNameEn": "Hatsune Miku",
       "ProfileIntroductionEn": "The always-cheerful virtual singer who really loves to sing. <br>Originally a purely electronic existence, the technology of Kivotos has allowed Miku to obtain a real body and stand in the real world. As expected of a singer whose music can overcome time and space, Miku has many secret fans in Kivotos who are eagerly looking forward to the live concert that she's planning to hold in this world.",
@@ -724,6 +725,7 @@
     },
     {
       "CharacterId": 16005,
+      "CharacterPool": "event",
       "FamilyNameEn": "Kenzaki",
       "PersonalNameEn": "Tsurugi (Swimsuit)",
       "ProfileIntroductionEn": "Enrolled at Trinity Integrated Academy, Tsurugi, having sought out a youth's dream of going to the beach, is the president of the Justice Actualization Committee and its strategic weapon. <br>In her enjoying her time during summer vacation, she works to control her explosive temper while enjoying her youth... <br>Somehow her time at the summer beach doesn't go according to plan.",
@@ -734,10 +736,10 @@
     },
     {
       "CharacterId": 16006,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Shishidō",
       "PersonalNameEn": "Izumi (Swimsuit)",
-      "ProfileIntroductionEn": "A gluttonous girl beloning to Gehenna Academy's Gourmet Research Society who, despite the sultry summer heat, still has a huge appetite. <br>A watermelon in her right hand, and a cooler box in her left. Still craving more summer gourmet, Izumi headed for the seaside. Chocolate-flavored broiled eel, extremely spicy shaved ice, watermelon topped with chocolate mint - these are just some of the strange things on her fully-loaded summer menu. Izumi's passion in pursuing any and all foods (including the previously-mentioned atrocities) burns as hot as the summer heat itself.",
+      "ProfileIntroductionEn": "A gluttonous girl beloning to Gehenna Academy's Gourmet Research Society who, despite the sultry summer heat, still has a huge appetite.\n\nA watermelon in her right hand, and a cooler box in her left. Still craving more summer gourmet, Izumi headed for the seaside. Chocolate-flavored broiled eel, extremely spicy shaved ice, watermelon topped with chocolate mint - these are just some of the strange things on her fully-loaded summer menu. Izumi's passion in pursuing any and all foods (including the previously-mentioned atrocities) burns as hot as the summer heat itself.",
       "HobbiesEn": "Making and eating strange foods",
       "IllustratorNameEn": "Mx2j",
       "VoiceEn": "Kubo Yurika",
@@ -745,7 +747,7 @@
     },
     {
       "CharacterId": 10021,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Shirasu",
       "PersonalNameEn": "Azusa (Swimsuit)",
       "ProfileIntroductionEn": "The ice witch of Trinity's Supplemental Lessons Club who ended up visiting the seaside for the first time. <br>Despite thinking she'd just \"be her usual cool self\" in order to not cause any bother, Azusa's friends just won't leave her be. Not only is this her first ever trip to the seaside, the anxiety invoked by the gazes of those in her vicinity leaves Azusa in a state of restlessness.",
@@ -756,7 +758,7 @@
     },
     {
       "CharacterId": 10022,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Sorasaki",
       "PersonalNameEn": "Hina (Swimsuit)",
       "ProfileIntroductionEn": "The president of the Gehenna Academy's Disciplinary Committee who visited the seaside for a training camp. <br>Fundamentally someone who doesn't like to put in a lot of effort, she reluctantly visited the beach for training. Both her swimsuit and rubber ring are ones she had when she was younger, having hardly ever played at the beach. Hina attempts to explain this by saying \"it'd be a waste if I didn't use them\", but deep down she is a little conscious of the fact that her old school swimsuit still fits. Regardless, no matter her appearance, and despite it being summer and being at the beach, her strictness when it comes to public morals doesn't change.",
@@ -767,7 +769,7 @@
     },
     {
       "CharacterId": 10023,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Shiromi",
       "PersonalNameEn": "Iori (Swimsuit)",
       "ProfileIntroductionEn": "The cold-hearted specialist of Gehenna Academy's Disciplinary Committee who took part in a summer training camp. <br>She patrols the seashore along with the other Disciplinary Committee members to stop the problem children from getting carried away in the summer mood. While she doesn't show it, Iori isn't exactly happy with how she's been fighting with the incessant problem kids ever since arriving at the beach.",
@@ -790,7 +792,7 @@
     },
     {
       "CharacterId": 10026,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Mikamo",
       "PersonalNameEn": "Neru (Bunny Girl)",
       "ProfileIntroductionEn": "The leader of the secret organization \"C&C\" of Millennium Science School, who for the purpose of her mission has changed into a bunny girl outfit. <br>While it certainly has the appearance of something that Neru would never wear, if it's for a mission it can't be helped. Despite regularly enduring various circumstances as part of her mission, it seems that her jacket is one thing Neru simply won't part with.",
@@ -801,7 +803,7 @@
     },
     {
       "CharacterId": 10027,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Kakudate",
       "PersonalNameEn": "Karin (Bunny Girl)",
       "ProfileIntroductionEn": "An agent of Millennium Science School's secret society \"C&C\", who this time finds herself directly taking part at the forefront of the operation. <br>There's an air of excitement around Karin as she puts on her bunny girl costume, despite her saying it's only for the sake of her mission. The increase in glances from those around her naturally make her feel a little uneasy, however.",
@@ -812,7 +814,7 @@
     },
     {
       "CharacterId": 16007,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Sashiro",
       "PersonalNameEn": "Tomoe",
       "ProfileIntroductionEn": "Tomoe is a student of Red Winter Federal Academy, the secretary general of the Red Winter Secretariat, and the first member of Cherino's inner circle.<br>She is a master storyteller who can make anything sound plausible, and she regularly infuses her loyalty to Chairman Cherino into various speeches. Cherino herself believes that Tomoe is inspired by her charisma and has a sense of loyalty to her, but in reality Tomoe is just blindly adoring Cherino.",
@@ -853,7 +855,7 @@
     },
     {
       "CharacterId": 10031,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Rikuhachima",
       "PersonalNameEn": "Aru (New Year)",
       "ProfileIntroductionEn": "Gehenna Academy's self-appointed president of Problem Solver 68 celebrates the New Year. <br>She spent a lot of money to get her hair done and even rented a kimono to start the new year off with a bang in hopes that Handyman will prosper. With that outfit, Aru's confidence is better than ever, as is her mood. She plays the role of a gracious president, with an elegant walk and a relaxed tone of voice (but on the inside, she is the same as always).",
@@ -864,7 +866,7 @@
     },
     {
       "CharacterId": 10032,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Asagi",
       "PersonalNameEn": "Mutsuki (New Year)",
       "ProfileIntroductionEn": "A student of Gehenna Academy, Mutsuki is the go-getter of Problem Solver 68. <br>She is dressed up for the New Year to celebrate the occasion with Aru and her friends. Despite the New Year's spirit, she is still the same bundle of mischief and pranks. As always, she is watching out for Aru, prone to getting into trouble even in the new year, always staying by her side. Mutsuki is a girl of the devilish type who enjoys New Year's in her own way.",
@@ -885,7 +887,7 @@
     },
     {
       "CharacterId": 10033,
-      "IsLimited": true,
+      "CharacterPool": "anniversary",
       "FamilyNameEn": "Kosaka",
       "PersonalNameEn": "Wakamo",
       "ProfileIntroductionEn": "Formerly from Hyakkiyako Alliance Academy, Wakamo is one of the \"Seven Prisoners\" that escaped from Corrections Bureau after being suspended from school. <br>Known as the Fox of Misfortune for her indiscriminate and large-scale destruction, she is widely feared. Her motives and purpose are shrouded in mystery. Her true face, hidden beneath the mask, is rumored to be as scary as a demon or as ugly as the devil.",
@@ -895,7 +897,7 @@
     },
     {
       "CharacterId": 16008,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Nemugaki",
       "PersonalNameEn": "Fubuki",
       "ProfileIntroductionEn": "A lazy student of the Community Safety Bureau of Valkyrie Police Academy.<br>She enrolled in the Valkyrie Police Academy pursuing the carefree life of a civil servant. Treats any incoming complaints with utter indifference, and enjoys the life of a window-gazer who's not motivated by money nor honor. Her favorite thing to do is to listen to the radio while eating a doughnut.",
@@ -998,6 +1000,7 @@
     },
     {
       "CharacterId": 16009,
+      "CharacterPool": "event",
       "FamilyNameEn": "Chidori",
       "PersonalNameEn": "Michiru",
       "ProfileIntroductionEn": "A student of Hyakkiyako Alliance Academy and director of the Ninjutsu Research Department, Michiru is always full of unfounded self-confidence. She is an otaku who loves ninja movies, anime, and goods. Michiru is running around with the members of the Ninjutsu Research Department today to let everyone throughout Kivotos know of the greatness of ninjas.",
@@ -1096,7 +1099,7 @@
 
     {
       "CharacterId": 26007,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Okusora",
       "PersonalNameEn": "Ayane (Swimsuit)",
       "ProfileIntroductionEn": "The treasurer of the Countermeasure Council of Abydos High School, Ayane has come to the summer seaside.\n\nAlthough she intended to forget  the usual duties and enjoy herself for a while..., Ayane quickly fell back to her usual seriousness.",
@@ -1108,7 +1111,7 @@
 
     {
       "CharacterId": 10045,
-      "IsLimited": true,
+      "CharacterPool": "anniversary",
       "FamilyNameEn": "Takanashi",
       "PersonalNameEn": "Hoshino (Swimsuit)",
       "ProfileIntroductionEn": "A young, lazy girl from Abydos High School and president of the Countermeasure Council. Hoshino came to the uninhabited island in search of a relaxing summer.\n\nDespite to her laid back attitude, she is surprisingly well prepared for the trip. However, she does not seem to be aware that she is a little more aggressive than usual.",
@@ -1119,7 +1122,7 @@
     },
     {
       "CharacterId": 10046,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Kuda",
       "PersonalNameEn": "Izuna (Swimsuit)",
       "ProfileIntroductionEn": "A member of Ninjutsu Research Club of Hyakkiyako, Izuna's training brings her to the sea.\n\nIzuna is usually a bundle of energy even on regular days, and this time, surrounded by the lively summer atmosphere, she is 200% energetic. Today, Izuna is enjoying the summer by training alongside her master, in order to become a proficient summertime ninja.",
@@ -1131,7 +1134,7 @@
     },
     {
       "CharacterId": 10047,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Waraku",
       "PersonalNameEn": "Chise (Swimsuit)",
       "ProfileIntroductionEn": "Chise is a naturally-airheaded girl from the Yin-Yang club of Hyakkiyako, who is still as absentmided as ever even under the summer sun.\n\nShe may have improved her idol power (?) by changing into a swimsuit, and the passion of her fans overshadowns even the blazing summer sun. However, she didn't seem to be aware of it at all. Today, Chise is spending a fulfilling summer day with her teacher, looking at the glittering lights and poking a turtle.",
@@ -1142,7 +1145,7 @@
     },
     {
       "CharacterId": 26008,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Kawawa",
       "PersonalNameEn": "Shizuko (Swimsuit)",
       "ProfileIntroductionEn": "A student of Hyakkiyako, Shizuko is the president of the festival management committee, full of ambition even in summer.\n\nShe is  passionate about growing Momoyo Hall into the best franchise in Kivotos. In the summer, no obstacle is too large to overcome with her idol charm and no dreams are out of reach!",
@@ -1211,7 +1214,7 @@
     },
     {
       "CharacterId": 16010,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Nekozuka",
       "PersonalNameEn": "Hibiki (Cheerleader)",
       "ProfileIntroductionEn": "A member of the engineering club dressed in a cheerleader costume for the grand athletic festival.\n\nUsing the sewing skills that she has cultivated through her usual cosplay hobby, she made the costumes worn by the engineers. Hibiki seems to be a little worried about her skirt length, probably because she reused the one she made a long time ago.",
@@ -1234,7 +1237,7 @@
 
     {
       "CharacterId": 10053,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Hayase",
       "PersonalNameEn": "Yuuka (Sportswear)",
       "ProfileIntroductionEn": "A member of the Millennium Science School, Seminar's treasurer changed into gym clothes for the Kourin Taisai Festival.\n\nAlthough she had been occupied with hard work preparing for the big event hosted by Millennium, she is currently in excellent shape, having rested well only the day before the opening of the festival, thanks to the consideration of other students. Yuka, an officer of the student council of the host school and a member of the executive committee, tried to approach the competition rationally, but the passion for victory over the other participating schools seemesto stimulate her competitive spirit.",
@@ -1244,7 +1247,7 @@
     },
     {
       "CharacterId": 10054,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Iochi",
       "PersonalNameEn": "Mari (Sportswear)",
       "ProfileIntroductionEn": "A student of Trinity Integrated Academy, and a member of the Sisterhood, Mari changed into gym clothes to participate in the Kourin Taisai Festival.\n\nShe volunteered to work as a committee member for the festival that was supposed to promote peace in Kivothos, only to find out that there was constant conflict and trouble. This, coupled with her kind nature which makes her unable to leave others in peril, seems to keep Marie involved in all sorts of disputes.",
@@ -1254,7 +1257,7 @@
     },
     {
       "CharacterId": 16011,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Hanekawa",
       "PersonalNameEn": "Hasumi (Sportswear)",
       "ProfileIntroductionEn": "Enrolled at Trinity Integrated Academy, the vice-chairman of the Justice Actualization Committee changed into gym clothes for the Kourin Taisai Festival.\n\nShe was assigned to replace Tsurugi, who was unfamiliar with external affairs, as a member of the executive committee. Despite the exuberant atmosphere at the venue, Hasumi has been trying to calmly fulfill her duties as a committee member, but the unending cavalcades of delinquent students and the sweet temptations wafting from the food stalls are making the job harder.",
@@ -1306,7 +1309,7 @@
 
     {
       "CharacterId": 10057,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Kurodate",
       "PersonalNameEn": "Haruna (New Year)",
       "ProfileIntroductionEn": "Enrolled at Gehenna Academy, the club president of the Gourmet Research Society, Haruna changed into a kimono for the new year celebrations.\n\nBelieveing that dressing up for the occasion is an important part of exploring gastronomy, she walks the path of gastronomy in a fine kimono. Haruna is the most elegant young lady in sight, but...\n\nLet's hope that she is served food worthy of her expectations.",
@@ -1316,7 +1319,7 @@
     },
     {
       "CharacterId": 16012,
-      "IsLimited": true,
+      "CharacterPool": "event",
       "FamilyNameEn": "Akashi",
       "PersonalNameEn": "Junko (New Year)",
       "ProfileIntroductionEn": "A member of Gehenna Academy's Gourmet Research Society, Junko changed into a kimono for the New Year.\n\nLooking forward to New Year's cooking, Junko has a new look. She still absolutely can't stand being disturbed when she eats.",
@@ -1326,7 +1329,7 @@
     },
     {
       "CharacterId": 20022,
-      "IsLimited": true,
+      "CharacterPool": "limited",
       "FamilyNameEn": "Aikiyo",
       "PersonalNameEn": "Fuuka (New Year)",
       "ProfileIntroductionEn": "Belonging to Gehenna Academy's School Lunch Club, Fuuka changed into a kimono for the New Year..\n\nShe's hoping for peaceful days this year, but it's still unknown if the universe will allow it.",
@@ -1347,7 +1350,7 @@
 
     {
       "CharacterId": 10059,
-      "IsLimited": true,
+      "CharacterPool": "anniversary",
       "FamilyNameEn": "Misono",
       "PersonalNameEn": "Mika",
       "ProfileIntroductionEn": "Student of Trinity Integrated Academy and the former leader of \"Patel\", the student union that makes up Trinity.\n\nMika is a former member of the Tea Party and is also a childhood friend of its leader, Nagisa. However, because of their opposing political positions, they make a clear distinction between their public and private lives. Mika always presents a happy smile and innocent appearance, but she seems to be troubled by something she's unable to confide in others.",
