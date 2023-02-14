@@ -97,7 +97,7 @@ def generate():
     wikitext = template.render(season_data=season_data)
     
 
-    with open(os.path.join(args['outdir'], 'events' ,f"raid_seasons.txt"), 'w', encoding="utf8") as f:
+    with open(os.path.join(args['outdir'], 'events' ,f"raid_seasons.txt"), 'w+', encoding="utf8") as f:
         f.write(wikitext)
 
     if wiki.site != None:

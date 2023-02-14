@@ -80,8 +80,22 @@
         {
             "CharacterId": 10045,
             "DialogCategory": "Standard",
+            "VoiceClip": "HoshinoSwimsuit_Battle_Damage_1",
+            "LocalizeJP": "ふっ…。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Standard",
             "VoiceClip": "HoshinoSwimsuit_Battle_Damage_2",
             "LocalizeJP": "ぐぅ…。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Standard",
+            "VoiceClip": "HoshinoSwimsuit_Battle_Damage_3",
+            "LocalizeJP": "いたたた…。",
             "LocalizeEN": ""
         },
         {
@@ -131,6 +145,27 @@
             "DialogCategory": "Standard",
             "VoiceClip": "HoshinoSwimsuit_Battle_Retire",
             "LocalizeJP": "うへ～。調子に乗り過ぎちゃったかな？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Standard",
+            "VoiceClip": "HoshinoSwimsuit_Battle_Shout_1",
+            "LocalizeJP": "はっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Standard",
+            "VoiceClip": "HoshinoSwimsuit_Battle_Shout_2",
+            "LocalizeJP": "ふっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Standard",
+            "VoiceClip": "HoshinoSwimsuit_Battle_Shout_3",
+            "LocalizeJP": "やぁ！",
             "LocalizeEN": ""
         },
         {

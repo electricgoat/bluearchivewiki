@@ -2,18 +2,6 @@
     "DataList": [
         {
             "CharacterId": 10048,
-            "DialogCategory": "UITitle",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "블루아카이브",
-            "LocalizeJP": "ブルーアーカイブ",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Title"
-            ]
-        },
-        {
-            "CharacterId": 10048,
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
@@ -28,48 +16,12 @@
             "CharacterId": 10048,
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "흠…",
-            "LocalizeJP": "ふむ…",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Cafe_monolog_1"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
             "GroupId": 2,
             "LocalizeKR": "이런 장소는\n익숙해지지 않는군…",
             "LocalizeJP": "こういう場所は\n慣れないな…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "Saori_Cafe_monolog_2"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 3,
-            "LocalizeKR": "이건, 뭐지…?",
-            "LocalizeJP": "これは、なんだ…？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Cafe_monolog_3"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "Cafe",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "이해하지 못하겠어…",
-            "LocalizeJP": "理解ができない…",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Cafe_monolog_4"
             ]
         },
         {
@@ -99,40 +51,6 @@
         {
             "CharacterId": 10048,
             "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 2,
-            "LocalizeKR": "기다리고 있었다. 선생.",
-            "LocalizeJP": "待っていたぞ、先生",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_LogIn_2"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 2,
-            "LocalizeKR": "…뭐지, 그 반응은.",
-            "LocalizeJP": "…なんだ、その反応は",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "내가 아직 쓸모가 있나?",
-            "LocalizeJP": "私は、役に立てているか？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Lobby_1"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
             "LocalizeKR": "…그럼 됐어. 그것만으로도\n나는 여기에 있을 수 있어.",
@@ -267,16 +185,6 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "그럴 자격이 있는지도 말이야.",
-            "LocalizeJP": "その資格があるのかも。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
             "LocalizeKR": "언젠가 이 날을, 진심으로\n축하할 수 있는 날이\n오게 될까…?",
             "LocalizeJP": "いつかこの日を、\n心から祝うことが\nできるだろうか…。",
             "LocalizeEN": "",
@@ -332,16 +240,6 @@
             "CharacterId": 10048,
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "…모든 것은. 헛될 뿐이야.",
-            "LocalizeJP": "…全ては、虚しいだけだ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
             "GroupId": 500,
             "LocalizeKR": "아무래도 축제 같지만…\n특별히 흥미는 없어.",
             "LocalizeJP": "どうやらお祭りらしいが…\n特に興味は無いな。",
@@ -349,16 +247,6 @@
             "VoiceClipsJp": [
                 "Saori_Season_Halloween"
             ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "그저 헛될 뿐이야.",
-            "LocalizeJP": "ただ虚しいだけだ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10048,
@@ -375,40 +263,6 @@
         {
             "CharacterId": 10048,
             "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 2,
-            "LocalizeKR": "기다리고 있었다. 선생.",
-            "LocalizeJP": "待っていたぞ、先生",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_LogIn_2"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 2,
-            "LocalizeKR": "…뭐지, 그 반응은.",
-            "LocalizeJP": "…なんだ、その反応は",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "내가 아직 쓸모가 있나?",
-            "LocalizeJP": "私は、役に立てているか？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_Lobby_1"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
             "DialogCondition": "Idle",
             "GroupId": 1,
             "LocalizeKR": "…그럼 됐어. 그것만으로도\n나는 여기에 있을 수 있어.",
@@ -543,16 +397,6 @@
             "DialogCategory": "UILobby2",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "그럴 자격이 있는지도 말이야.",
-            "LocalizeJP": "その資格があるのかも。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
             "LocalizeKR": "언젠가 이 날을, 진심으로\n축하할 수 있는 날이\n오게 될까…?",
             "LocalizeJP": "いつかこの日を、\n心から祝うことが\nできるだろうか…。",
             "LocalizeEN": "",
@@ -608,16 +452,6 @@
             "CharacterId": 10048,
             "DialogCategory": "UILobby2",
             "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "…모든 것은. 헛될 뿐이야.",
-            "LocalizeJP": "…全ては、虚しいだけだ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
             "GroupId": 500,
             "LocalizeKR": "아무래도 축제 같지만…\n특별히 흥미는 없어.",
             "LocalizeJP": "どうやらお祭りらしいが…\n特に興味は無いな。",
@@ -625,48 +459,6 @@
             "VoiceClipsJp": [
                 "Saori_Season_Halloween"
             ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobby2",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "그저 헛될 뿐이야.",
-            "LocalizeJP": "ただ虚しいだけだ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "WeaponGet",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "너는… 어떻게 나를 신뢰할 수 있지?\n그런 일이 있었는데도…\n배신을 당해도 상관없다는 건가?\n아직 나는 모르는 것투성이지만,\n나는, 최선을 다하겠어.",
-            "LocalizeJP": "お前は…どうして私のことを信頼できる？\nあんなことがあったというのに…\n裏切られても、構わないというのか？\nまだ私には分からないことだらけだが、\nそれでも…私は、最善を尽くそう。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Saori_ExWeapon_Get"
-            ]
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "선생…… 어째서 여기에?",
-            "LocalizeJP": "先生、どうしてここに…？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "크윽…… 하아아……",
-            "LocalizeJP": "ぐっ…はぁ…",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10048,
@@ -703,16 +495,6 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "콜록, 콜록……",
-            "LocalizeJP": "げほっ、げほっ…！",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
             "LocalizeKR": "그런 표정 짓지 마.\n고통은 익숙하니까.",
             "LocalizeJP": "そんな顔をするな、\n痛みには慣れている。",
             "LocalizeEN": "",
@@ -725,26 +507,6 @@
             "GroupId": 4,
             "LocalizeKR": "이제까지 해왔던 것과\n달라진 건 없어.\n새삼스러울 것도 없지.",
             "LocalizeJP": "今までと何も変わらない。\n今さらの話だ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "지금은 이걸로 괜찮아…….",
-            "LocalizeJP": "今はこれで良い…",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10048,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "조금만 더, 이대로……",
-            "LocalizeJP": "もう少し、このままで…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
         }
