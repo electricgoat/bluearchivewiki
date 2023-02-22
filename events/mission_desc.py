@@ -104,6 +104,12 @@ map_descriptions = {
     'Mission_Event_Location_At_Specipic_Rank_808': 4069346749,
     'Event_Mission_Omikuji_Count': 1910182025,
     'Event_Mission_Daily_Complete_Mission': 373831186,
+    'Event_Mission_Conquest_Get_Tile_Count': 4186334259,
+    'Event_Mission_Conquest_Get_Tile_All_Specific_Step': 4186334259,
+    'Event_Mission_Conquest_Kill_Boss_Specific_Step': 4122563110,
+    'Event_Mission_Conquest_Tile_Clear_TimeLimit': 4026331692,
+    'Event_Mission_Conquest_Get_Upgrade_Tile_Count': 9999990005,
+
 }
 
 map_descriptions_all = {  #for reference only

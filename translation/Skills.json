@@ -3350,6 +3350,58 @@
             "GroupId": "CH0067ExtraPassive01",
             "NameEn": "May the light be with you",
             "DescriptionEn": "Deal $1 as additional damage against the enemies with Special armor."
+        },
+
+        {
+            "GroupId": "CH0187Ex01",
+            "NameEn": "System: Abi-Eshuh",
+            "DescriptionEn": "Switch to Abi-Eshuh mode; increase Attack by $1, Accuracy by $2, and Evasion by $3.\n(Exit the mode after using EX skill $4 times)\nAfter mode change, when using EX skill (5 cost), 1st and 2nd attacks deal $5 damage to enemies within a straight line. The final attack deals $6 damage to the targeted enemy, and $7 to other enemies within a straight line. \nAll 3 attacks ignore $8 of enemy Defense."
+        },
+        {
+            "GroupId": "CH0187Public01",
+            "NameEn": "Tactical judgment",
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy.\nIn Abi-Eshuh mode, this attack ignores $8 of enemy Defense."
+        },
+        {
+            "GroupId": "CH0187Passive01",
+            "NameEn": "Call sign zero four",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0187WeaponPassive01",
+            "NameEn": "Call sign zero four +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0187ExtraPassive01",
+            "NameEn": "An eye for an eye",
+            "DescriptionEn": "While in Abi-Eshuh mode, when using EX skill, deal additional damage depending on the number of uses\nFirst EX skill: $1 damage\nSecond EX skill: $2 damage\nThird EX skill: $3 damage.\nThis attack ignores $4 of enemy Defense."
+        },
+
+        {
+            "GroupId": "CH0068Ex01",
+            "NameEn": "Time On Target",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area.\nIf the enemy has Light armor, decrease their Defense by $2 before attacking, for $3."
+        },
+        {
+            "GroupId": "CH0068Public01",
+            "NameEn": "Afternoon Tea",
+            "DescriptionEn": "Every $1, heal one ally with the lowest HP for $2 of Healing.\nIf the target is a student of Trinity, heal for $3 of Healing instead."
+        },
+        {
+            "GroupId": "CH0068Passive01",
+            "NameEn": "Pride of Tea Party",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0068WeaponPassive01",
+            "NameEn": "Pride of Tea Party +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0068ExtraPassive01",
+            "NameEn": "Noblesse oblige",
+            "DescriptionEn": "Increase Critical Damage of Explosive damade type allies by $1."
         }
         
     ]

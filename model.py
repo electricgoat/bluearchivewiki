@@ -115,7 +115,8 @@ class Character(object):
         return {
             'Explosion': 'Explosive',
             'Pierce': 'Penetration',
-            'Mystic': 'Mystic'
+            'Mystic': 'Mystic',
+            'Sonic': 'Sonic'
         }[self._damage_type]
 
     @property
@@ -123,7 +124,8 @@ class Character(object):
         return {
             'LightArmor': 'Light',
             'HeavyArmor': 'Heavy',
-            'Unarmed': 'Special'
+            'Unarmed': 'Special',
+            'ElasticArmor': 'Elastic'
         }[self._armor_type]
 
     @property
