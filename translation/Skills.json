@@ -2985,7 +2985,7 @@
         {
             "GroupId": "CH0184ExtraPassive01",
             "NameEn": "Optimal pathing calculation",
-            "DescriptionEn": "When Yuuka stops moving, apply $1 Mystic damage bonus against the enemies weak to it for $2."
+            "DescriptionEn": "When Yuuka stops moving, she gains $1 Mystic damage bonus against the enemies weak to it for $2."
         },
 
         {
@@ -3355,12 +3355,12 @@
         {
             "GroupId": "CH0187Ex01",
             "NameEn": "System: Abi-Eshuh",
-            "DescriptionEn": "Switch to Abi-Eshuh mode; increase Attack by $1, Accuracy by $2, and Evasion by $3.\n(Exit the mode after using EX skill $4 times)\nAfter mode change, when using EX skill (5 cost), 1st and 2nd attacks deal $5 damage to enemies within a straight line. The final attack deals $6 damage to the targeted enemy, and $7 to other enemies within a straight line. \nAll 3 attacks ignore $8 of enemy Defense."
+            "DescriptionEn": "Switch to Abi-Eshuh mode; increase Attack by $1, Accuracy by $2, and Evasion by $3.\n(Exit the mode after using EX skill $4 times)\nAfter mode change, when using EX skill (5 cost) fire three shots; 1st and 2nd attack deal $5 damage to enemies within a straight line, the final attack deals $6 damage to the targeted enemy, and $7 to other enemies within a straight line. \nAll 3 attacks ignore $8 of enemy Defense."
         },
         {
             "GroupId": "CH0187Public01",
             "NameEn": "Tactical judgment",
-            "DescriptionEn": "Every $1, deal $2 damage to a single enemy.\nIn Abi-Eshuh mode, this attack ignores $8 of enemy Defense."
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy.\nIn Abi-Eshuh mode, this attack ignores $3 of enemy Defense."
         },
         {
             "GroupId": "CH0187Passive01",
@@ -3401,7 +3401,7 @@
         {
             "GroupId": "CH0068ExtraPassive01",
             "NameEn": "Noblesse oblige",
-            "DescriptionEn": "Increase Critical Damage of Explosive damade type allies by $1."
+            "DescriptionEn": "Increase Critical Damage of Explosive damage type allies by $1."
         }
         
     ]

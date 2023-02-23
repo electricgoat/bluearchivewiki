@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "응…? 이런 곳에\n탐정토끼 시리즈의\n신작이…?",
+            "LocalizeKR": "이런 곳에\n탐정토끼 시리즈의\n신작이…?",
             "LocalizeJP": "こんなところに\n探偵ウサギシリーズの\n新作が…？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "공안국의 힘이\n필요하시다면, 부디.",
+            "LocalizeKR": "공안국의 힘이\n필요하시다면, 언제든지.",
             "LocalizeJP": "公安局の力が\n必要でしたら、いつでも。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -123,7 +123,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "영장을 청구해 올테니\n잠시만 기다려주십시오.",
+            "LocalizeKR": "잠시만 기다려주십시오.\n곧 영장을 청구해 오겠습니다.",
             "LocalizeJP": "少々お待ちを。\n令状を発行してきます。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -145,7 +145,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "가끔은 샬레의 신속한 처리 능력이\n부러울 때도 있습니다.",
+            "LocalizeKR": "가끔은 샬레의 신속한 대응이\n부러울 때도 있습니다.",
             "LocalizeJP": "シャーレの迅速な対応が\nうらやましくなる時があります。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -191,7 +191,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "중범죄 무게를 짊어지기에는\n아직 너무 무르지요.",
+            "LocalizeKR": "중범죄의 무게를 짊어지기에는\n아직 너무 무르지요.",
             "LocalizeJP": "ですが重犯罪を担当するには\nまだ早いです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -225,7 +225,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "부끄러우니 가급적 앞에서는\n부르지 말아주셨으면 합니다.",
+            "LocalizeKR": "그… 부끄러우니 가급적\n다른 사람들 앞에서는\n부르지 말아주셨으면 합니다.",
             "LocalizeJP": "その…恥ずかしいですから、\nあまり人前では\n呼ばないでください。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -269,7 +269,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "괜찮으시다면\n단골 가게에서 한 턱 내지요.",
+            "LocalizeKR": "혹시 괜찮으시다면\n단골 가게에서 한 턱 내지요.",
             "LocalizeJP": "もしよろしければ、\nいきつけのお店でご馳走します。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -373,7 +373,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "평소의 블랙 커피 대신\n달콤한 라테는 어떠십니까?",
+            "LocalizeKR": "평소의 블랙 커피 대신\n달콤한 라떼는 어떠십니까?",
             "LocalizeJP": "ブラックコーヒーの代わりに、\n甘いラテはいかがですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -519,7 +519,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "그러니 오늘은. ",
+            "LocalizeKR": "그러니 오늘은.",
             "LocalizeJP": "ですので今日は、",
             "LocalizeEN": "",
             "VoiceClipsJp": []

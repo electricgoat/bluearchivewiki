@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "밀어버릴 게 필요해?\n아니면 파낼 거? 뭐든 말만 해~!",
+            "LocalizeKR": "야호~! 어딜 밀어버릴까?\n아니면 파줄까? 뭐든 말만 해~!",
             "LocalizeJP": "やっほ～！どこ削ってほしい？\nそれとも掘り起こしとく？なんでも言って～！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "오, 선생님! 왔어?\n오늘은 뭘 시킬 생각이야?",
+            "LocalizeKR": "아, 선생님! 어서 와~.\n오늘은 뭐 할까? 온천 만들기?",
             "LocalizeJP": "おっ、先生！おかえり～。\n今日は何する？温泉作る？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -179,7 +179,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "배고파?\n라면이라도 끓여줄까?",
+            "LocalizeKR": "배고파?\n컵라면이라도 끓여줄까?",
             "LocalizeJP": "お腹空いたの？\nカップ麺でも作ろっか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -201,7 +201,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "…이걸로 하지!!",
+            "LocalizeKR": "…이걸로 만들지~♪",
             "LocalizeJP": "…これで作るよ～♪",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -223,7 +223,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "아마 될 걸?\n해 본 적은 없지만 말이야!",
+            "LocalizeKR": "될 걸? 아마도.\n해 본 적은 없지만 말이야!",
             "LocalizeJP": "できるよ？多分。\nやったことないけどね！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -289,7 +289,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "오늘이 착하게 산 녀석들에게\n선물이 온다는 날인가?",
+            "LocalizeKR": "오늘이었던가?\n착하게 산 녀석들에게\n선물이 온다는 날.",
             "LocalizeJP": "今日だっけ？\nいい子にしてたら\nプレゼントが贈られる日って。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -311,7 +311,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "밖에 신기한 옷들이 많네….",
+            "LocalizeKR": "밖에 신기한 모습을 한\n녀석들이 잔뜩….",
             "LocalizeJP": "街に不思議な\n格好の子がいっぱい…。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -323,7 +323,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "오늘은 작업 하다\n도망쳐도 잡히지 않겠는걸?",
+            "LocalizeKR": "오늘은 선도부에게 걸려도\n도망치기 쉽겠는걸?",
             "LocalizeJP": "今日は風紀委員に\n見つかっても\n逃げられるかも？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -333,7 +333,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "어라, 나 주는 거야? 왜?\n으음~. 난 바보라서 잘 모르겠지만…\n뭐, 열심히 하면 어떻게든 되겠지!\n아하하하!!",
+            "LocalizeKR": "어라, 주는 거야? 왜?\n으음~. 난 바보라서 잘 모르겠지만…\n뭐, 열심히 하면 어떻게든 되겠지!\n아하하하!!",
             "LocalizeJP": "あれっ、くれるの？なんで？\nう～ん。私、バカだから\nよく分かんないけど…。\nま、一生懸命やりゃなんとかなるよね！\nあははは！！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -365,7 +365,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "아아~. 그렇긴 한데….\n계속 나오는\n온천은 아니거든?",
+            "LocalizeKR": "아아~. 그렇긴 한데….\n이거, 계속 나오는\n온천이 아니거든?",
             "LocalizeJP": "ああ～\nそれはそうなんだけど…\nこれ、湧き続ける\n温泉じゃないんだ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -395,7 +395,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "이래 봬도 온천개발부니까!\n따듯한 물이 필요한 사람을\n지나칠 순 없지.",
+            "LocalizeKR": "이래 봬도 온천개발부니까!\n아무래도, 따듯한 물이 필요한\n사람을 지나칠 순 없거든.",
             "LocalizeJP": "こう見えても温泉開発部だし！\nそれに、お湯を求める人を\n見て見ぬふりなんてできないし。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -405,7 +405,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "뭣보다….\n선생님의 일이니까 말이야!\n…히히!",
+            "LocalizeKR": "뭣보다….\n선생님의 일이고 말이지!\n…히히!",
             "LocalizeJP": "なにより、先生が\n関わってるってなったらね！\n…ひひっ！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
