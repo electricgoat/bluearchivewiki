@@ -55,10 +55,15 @@
             "En": "Clear all Quest stages of the event"
         },
         {
-            "Id": 9999990005,
+            "Id": 9999990006,
             "Jp": "",
-            "En": "Upgrade base {1} time(s)"
-          },
+            "En": "Upgrade base {0} time(s)"
+        },
+        {
+            "Id": 9999990007,
+            "Jp": "拠点を{0}回占領",
+            "En": "Occupy a base {0} time(s)"
+        },
         {
             "Id": 1910182025,
             "Kr": "오미쿠지를 {0}회 시행하기",

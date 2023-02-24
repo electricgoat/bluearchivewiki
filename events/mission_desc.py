@@ -104,11 +104,7 @@ map_descriptions = {
     'Mission_Event_Location_At_Specipic_Rank_808': 4069346749,
     'Event_Mission_Omikuji_Count': 1910182025,
     'Event_Mission_Daily_Complete_Mission': 373831186,
-    'Event_Mission_Conquest_Get_Tile_Count': 4186334259,
-    'Event_Mission_Conquest_Get_Tile_All_Specific_Step': 4186334259,
-    'Event_Mission_Conquest_Kill_Boss_Specific_Step': 4122563110,
-    'Event_Mission_Conquest_Tile_Clear_TimeLimit': 4026331692,
-    'Event_Mission_Conquest_Get_Upgrade_Tile_Count': 9999990005,
+    'Event_Mission_Conquest_Get_Tile_Count': 9999990007,
 
 }
 
@@ -502,6 +498,52 @@ def localize_KillEnemyWithTagCount(mission):
     return True
 
 
+def localize_ConquerSpecificStepTileAll(mission):
+    desc_jp = 'エリア$1をすべて占領'
+    desc_en = 'Occupy all of area $1'
+    
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1',str(mission['CompleteConditionParameter'][2]+1))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1',str(mission['CompleteConditionParameter'][2]+1))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_UpgradeConquestBaseTileCount(mission):
+    desc_jp = 'Lv.{0}拠点を{1}個保有する'
+    desc_en = 'Own {1} Lv. {0} base(s)'
+    
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(mission['CompleteConditionParameter'][2]))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(mission['CompleteConditionParameter'][2]))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_KillConquestBoss(mission):
+    desc_jp = 'エリア{0}のボスを倒す'
+    desc_en = 'Defeat the area {0} boss'
+    
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}',str(mission['CompleteConditionParameter'][2]+1))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}',str(mission['CompleteConditionParameter'][2]+1))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_ClearEventConquestTileTimeLimitFromSecond(mission):
+    desc_jp = '-'
+    desc_en = 'Clear Challenge {0} within {1} second(s)'
+
+    clevel = str(mission['CompleteConditionParameter'][0])[-1:]
+    
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(clevel))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(clevel))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
 
 
 def description_cleanup(text):
@@ -510,6 +552,9 @@ def description_cleanup(text):
     text = text.replace(' 2 time(s)', ' twice')
     text = text.replace('time(s)', 'times') 
     text = text.replace(' 1 laps', ' 1 lap')
+    text = text.replace(' 1 base(s)', ' 1 base')
+    text = text.replace(' base(s)', ' bases')
+    text = text.replace(' second(s)', ' seconds')
 
     return text
 
