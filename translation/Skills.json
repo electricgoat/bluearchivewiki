@@ -1739,7 +1739,7 @@
         {
             "GroupId": "CH0059Ex01",
             "NameEn": "Biting Water",
-            "DescriptionEn": "Deal $1 damage to a single enemy and apply $2 continuous cold damage over $3."
+            "DescriptionEn": "Deal $1 damage to a single enemy and apply $2 continuous chill damage over $3."
         },
         {
             "GroupId": "CH0059Public01",
@@ -2699,7 +2699,7 @@
         {
             "GroupId": "CH0178ExtraPassive01",
             "NameEn": "Brrr~ Getting chilly?",
-            "DescriptionEn": "When using EX skill, additionally deal $1 continuous Chill damage for $2."
+            "DescriptionEn": "When using EX skill, additionally deal $1 continuous chill damage for $2."
         },
 
         {
@@ -3402,6 +3402,32 @@
             "GroupId": "CH0068ExtraPassive01",
             "NameEn": "Noblesse oblige",
             "DescriptionEn": "Increase Critical Damage of Explosive damage type allies by $1."
+        },
+
+        {
+            "GroupId": "CH0198Ex01",
+            "NameEn": "Tricky variables",
+            "DescriptionEn": "Throw a random bomb, dealing damage to enemies within a circular area.\nBullet: Deal $1 damage\nElectric Field: Deal $2 damage\nExplosion: Deal $3 damage"
+        },
+        {
+            "GroupId": "CH0198Public01",
+            "NameEn": "Did you think it was just you!?",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 2 nearby enemies.\nReload immediately after skill activation."
+        },
+        {
+            "GroupId": "CH0198Passive01",
+            "NameEn": "Do you believe in miracles?",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0198WeaponPassive01",
+            "NameEn": "Do you believe in miracles? +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0198ExtraPassive01",
+            "NameEn": "Chaos theory",
+            "DescriptionEn": "When EX skill is activated, increase Attack depending on the type of bomb used. (Duration: $1)\nBullet: Increase Attack by $2\nElectric Field:Increase Attack by $3\nExplosion: Increase Attack by $4"
         }
         
     ]

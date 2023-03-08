@@ -2,18 +2,6 @@
     "DataList": [
         {
             "CharacterId": 10049,
-            "DialogCategory": "UITitle",
-            "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "블루 아카이브.",
-            "LocalizeJP": "ブルーアーカイブ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Kazusa_Title"
-            ]
-        },
-        {
-            "CharacterId": 10049,
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
@@ -124,16 +112,6 @@
             "CharacterId": 10049,
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
-            "GroupId": 1,
-            "LocalizeKR": "아, 하지만, 어려운 문장을\n읽는 것은 서툴러서……\n그런 건 패스.",
-            "LocalizeJP": "あー、でも、小難しい文章を\n読んだりするのは苦手だから……\nそういうのはパスで",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
             "GroupId": 2,
             "LocalizeKR": "여기 있으면, 뭔가\n안정되네…… 조금\n졸린 것 같기도.",
             "LocalizeJP": "ここにいると、何だか\n落ち着く……ちょっと、\n眠くなってきたかも",
@@ -193,16 +171,6 @@
         {
             "CharacterId": 10049,
             "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "음, 같이 산책하는 건 어때?",
-            "LocalizeJP": "えっと、一緒に散歩でもどう？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
             "LocalizeKR": "그렇구나, 내 생일\n이었구나. ……응.\n고마워, 선생님. 기뻐.",
@@ -223,48 +191,6 @@
             "VoiceClipsJp": [
                 "Kazusa_Season_NewYear"
             ]
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 300,
-            "LocalizeKR": "새해가 되어도,\n뭔가 크게 바뀐 느낌은\n들지 않지만",
-            "LocalizeJP": "年が明けても、\n何かが大きく変わった\n感じはしないけど",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 300,
-            "LocalizeKR": "……그것도 나쁘지는\n않다고 생각해.",
-            "LocalizeJP": "……それも\n悪くはないかな。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "크리스마스……구나.",
-            "LocalizeJP": "クリスマス……か。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Kazusa_Season_Xmas"
-            ]
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "이따가 뭐 할 일 있어?\n실은 그게, 일단 준비한게\n있어서…….",
-            "LocalizeJP": "この後、予定とかある？\n実はその、一応用意して\nあって……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 10049,
@@ -355,16 +281,6 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "……그, 그래?\n……그런가?",
-            "LocalizeJP": "……そ、そう？\n……そうかな？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
             "LocalizeKR": "뭐…… 그렇다면\n다행이다만…….",
             "LocalizeJP": "まあ……それなら\n良いんだけど……。",
             "LocalizeEN": "",
@@ -375,28 +291,8 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "……뭐야. 그 반응…….",
-            "LocalizeJP": "……何、その反応。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
             "LocalizeKR": "뭐, 뭐야?!\n뭐가 그리 웃긴데!?",
             "LocalizeJP": "なっ、何！？\n何でそんなに笑うのさ！？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 10049,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "야-!!!",
-            "LocalizeJP": "ちょっと！！！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
         }

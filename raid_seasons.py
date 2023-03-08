@@ -43,7 +43,8 @@ SEASON_NOTES = {
         14:'Ability to set and borrow Raid Supports in the player\'s Club added',
         18:'Emergency raid 2',
         23:'Emergency raid 3',
-        29:'Introduction of Insane Difficulty'
+        29:'Introduction of Insane Difficulty',
+        43:'Introduction of Torment Difficulty'
     },
     'gl' : {
         2:'Beta version, no ranking rewards',

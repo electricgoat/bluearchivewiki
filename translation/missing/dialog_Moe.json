@@ -51,38 +51,6 @@
         {
             "CharacterId": 20018,
             "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 4,
-            "LocalizeKR": "당분은 오퍼레이터의\n연료나 다름없는데.",
-            "LocalizeJP": "糖分はオペレーターにとって、\n燃料みたいなもんなのに",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "일, 바빠 보이네.\n도와줄까?",
-            "LocalizeJP": "仕事、忙しそうじゃん。\n手伝ってあげようか？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Moe_Lobby_5"
-            ]
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "뭐, 맡겨만 달라구.\n쿠히히…",
-            "LocalizeJP": "まぁ、任せてみなって。\nくひひ……。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
             "LocalizeKR": "생일 축하해, 선생님.\n그런 의미에서…",
@@ -95,16 +63,6 @@
         {
             "CharacterId": 20018,
             "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 100,
-            "LocalizeKR": "한바탕 화려하게\n축하의 불꽃 놀이,\n하지 않을래?",
-            "LocalizeJP": "一発派手に、\nお祝いの花火とかどう？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
             "LocalizeKR": "생일 케이크? 아니, 괜찮아.\n나는 폭죽만 있으면\n그걸로 충분해.",
@@ -113,16 +71,6 @@
             "VoiceClipsJp": [
                 "Moe_Season_Birthday"
             ]
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Idle",
-            "GroupId": 200,
-            "LocalizeKR": "그래, 이왕이면 엄청나게\n화려하고 강렬한 것으로…\n쿠히히.",
-            "LocalizeJP": "そうだね、どうせなら\nド派手で強烈なのを……\nくひひ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 20018,
@@ -140,16 +88,6 @@
             "CharacterId": 20018,
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
-            "GroupId": 300,
-            "LocalizeKR": "정말로\n멋진 풍습이야…\n쿠히히.",
-            "LocalizeJP": "ほんっと、\n良い文化だねぇ……\nくひひ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
             "GroupId": 400,
             "LocalizeKR": "이번 크리스마스에는\nRABBIT 소대원들과 함께\n칠면조를 먹기로 했어.",
             "LocalizeJP": "今年のクリスマスは、\nRABBIT小隊全員で\n七面鳥を食べることになってさ。",
@@ -157,50 +95,6 @@
             "VoiceClipsJp": [
                 "Moe_Season_Xmas_1"
             ]
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "응? 그야 물론\n항상 있는 그 공원에서지.",
-            "LocalizeJP": "ん？もちろん\nいつもの公園でだよ。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 400,
-            "LocalizeKR": "소방안전법…?\n그게 뭔데?",
-            "LocalizeJP": "ん？消防法……？\nなにそれ？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Moe_Season_Xmas_2"
-            ]
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "이 호박 랜턴…\n백린 분말을 뿌리면 더\n예쁘게 타오를 것 같은데…",
-            "LocalizeJP": "このカボチャのランタン……\nあの粉をかけたらもっと\n綺麗に燃えそうじゃん……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Moe_Season_Halloween"
-            ]
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobby",
-            "DialogCondition": "Enter",
-            "GroupId": 500,
-            "LocalizeKR": "하아, 하아…",
-            "LocalizeJP": "はあ、はあ……",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         },
         {
             "CharacterId": 20018,
@@ -258,16 +152,6 @@
             "CharacterId": 20018,
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
-            "GroupId": 2,
-            "LocalizeKR": "선생님은 어떤\n선택을 할 거야?",
-            "LocalizeJP": "そんな時、先生はどうする？",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
             "GroupId": 3,
             "LocalizeKR": "무의미한 질문이라는 건 알아.\n선생님은 성실하니까.",
             "LocalizeJP": "無意味な質問だってことは\n分かってるよ。\n先生は真面目だしね。",
@@ -291,16 +175,6 @@
             "GroupId": 4,
             "LocalizeKR": "왜냐하면 그 파멸의 순간은,\n나 자신을 증명할 수 있는\n기회이기도 하니까.",
             "LocalizeJP": "だってその破滅の瞬間は、\n私自身を証明できる\n機会でもある。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
-        },
-        {
-            "CharacterId": 20018,
-            "DialogCategory": "UILobbySpecial",
-            "DialogCondition": "Idle",
-            "GroupId": 5,
-            "LocalizeKR": "그러니까, 선생님.",
-            "LocalizeJP": "だから、先生……",
             "LocalizeEN": "",
             "VoiceClipsJp": []
         },
