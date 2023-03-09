@@ -57,7 +57,11 @@ class EventScheduleLocation(object):
     def from_data(cls, location_id, data):
         location = data.event_content_location_reward[location_id]
 
-        name = data.etc_localization[location['LocalizeEtcId']]['NameEn']
+        try:
+            name = data.etc_localization[location['LocalizeEtcId']]['NameEn']
+        except:
+            name = data.etc_localization[location['LocalizeEtcId']]['NameJp']
+            print(f"English ETC localization {location['LocalizeEtcId']} not found")
         rewards = get_schedule_rewards(location, data)
 
         return cls(

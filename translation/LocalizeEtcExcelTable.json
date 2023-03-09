@@ -54,7 +54,7 @@
             "NameJp": "お徳用チョコレートパック",
             "NameEn": "Chocolate Value Pack",
             "DescriptionJp": "連邦生徒会に置かれているお徳用のミニチョコレート。リンも仕事中にたまに食べるらしい。",
-            "DescriptionEn": "Mini-chocolate value pack that is available at the Federal Student Council. Rin sometimes eats them during work."
+            "DescriptionEn": "Mini-chocolate value pack that is available at the General Student Council. Rin sometimes eats them during work."
         },
         {
             "Id": 2724075845,
@@ -4528,6 +4528,85 @@
             "NameEn": "Recollection・4th memory",
             "DescriptionJp": "4th PVの映像を再生できる機械",
             "DescriptionEn": "Machine that plays 4th PV video."
+        },
+
+        {
+            "Id": 1355249104,
+            "NameJp": "連邦生徒会の安全帽",
+            "NameEn": "FSC Safety Helmet",
+            "DescriptionJp": "連邦生徒会のロゴが刻まれた安全帽。今回の復旧作業のために特別に製作された。",
+            "DescriptionEn": "A safety cap emblazoned with the General Student Council logo. Specially made for this restoration project."
+        },
+        {
+            "Id": 2999413236,
+            "NameJp": "財務諸表",
+            "NameEn": "Financial Statement",
+            "DescriptionJp": "連邦生徒会、行政委員会傘下の財務室で使用する財務諸表。キヴォトスの財務状況に関する内容が詳細にまとめられている。",
+            "DescriptionEn": "Financial statements used by the General Student Council and the Finance Office under the Administrative Committee. A detailed summary of the financial situation of Kivotos."
+        },
+        {
+            "Id": 636205895,
+            "NameJp": "めんたいポテチ",
+            "NameEn": "Mentai Potato Chips",
+            "DescriptionJp": "モモカが好んで食べている明太子のお菓子。口の中をしょっぱくするその風味は絶品と言える。",
+            "DescriptionEn": "Momoka's favorite snack. Its mouthwatering salty flavor is exquisite."
+        },
+
+        {
+            "Id": 2747068905,
+            "NameJp": "秘密報酬",
+            "NameEn": "Secret Reward",
+            "DescriptionJp": "獲得するまでは中身がわかりません。",
+            "DescriptionEn": "You won't know what's inside until you get it."
+        },
+        {
+            "Id": 3970885803,
+            "NameJp": "オーパーツ（1）抽選ボックス",
+            "NameEn": "Artifact Raffle Ticket 1",
+            "DescriptionJp": "使用時、10種類のオーパーツ（1）の中から、1つを獲得できるボックス。",
+            "DescriptionEn": "When used, rewards one random T1 oopart out of all 10 kinds possible."
+        },
+        {
+            "Id": 2309235892,
+            "NameJp": "オーパーツ（2）抽選ボックス",
+            "NameEn": "Artifact Raffle Ticket 2",
+            "DescriptionJp": "使用時、10種類のオーパーツ（1）の中から、1つを獲得できるボックス。",
+            "DescriptionEn": "When used, rewards one random T2 oopart out of all 10 kinds possible."
+        },
+        {
+            "Id": 3338584538,
+            "NameJp": "オーパーツ（3）抽選ボックス",
+            "NameEn": "Artifact Raffle Ticket 3",
+            "DescriptionJp": "使用時、10種類のオーパーツ（1）の中から、1つを獲得できるボックス。",
+            "DescriptionEn": "When used, rewards one random T3 oopart out of all 10 kinds possible."
+        },
+        {
+            "Id": 245454049,
+            "NameJp": "オーパーツ（4）抽選ボックス",
+            "NameEn": "Artifact Raffle Ticket 4",
+            "DescriptionJp": "使用時、10種類のオーパーツ（1）の中から、1つを獲得できるボックス。",
+            "DescriptionEn": "When used, rewards one random T4 oopart out of all 10 kinds possible."
+        },
+        {
+            "Id": 81895359,
+            "NameJp": "プレナパテスの大人のカード",
+            "NameEn": "Phrenapates Adult Card",
+            "DescriptionJp": "プレナパテスが持っていた「大人のカード」。外形がわからないほど焦げていて、すぐにでも粉々になりそうな状態なため扱いには注意が必要だ。このカードを使用すると青輝石を手に入れることができますが、カードは破壊されます。",
+            "DescriptionEn": "The \"adult card\" that belonged to Phrenapates. It's so charred that you can barely tell the shape of it, and it looks ready to crumble into pieces, so you'll need to be careful when handling it. Using this card will allow you to obtain pyroxene, but the card will be destroyed."
+        },
+        {
+            "Id": 2579841029,
+            "NameJp": "粉々になった大人のカード",
+            "NameEn": "Shattered Adult Card",
+            "DescriptionJp": "プレナパテスが持っていた粉々になった「大人のカード」。そのカードの本来の姿は今では何人かの記憶の中に残っているだけだ。",
+            "DescriptionEn": "The shattered \"adult card\" that belonged to Phrenapates. The card's original form now only remains in the memories of some people."
+        },
+        {
+            "Id": 344128946,
+            "NameJp": "イベントPt",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得することができる。",
+            "NameEn": "Event Points",
+            "DescriptionEn": "These points are earned each time you progress in an event. The more you earn, the greater the variety of rewards you can receive."
         }
 
     ]

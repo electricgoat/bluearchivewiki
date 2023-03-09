@@ -105,6 +105,7 @@ map_descriptions = {
     'Event_Mission_Omikuji_Count': 1910182025,
     'Event_Mission_Daily_Complete_Mission': 373831186,
     'Event_Mission_Conquest_Get_Tile_Count': 9999990007,
+    'Mission_Event_Location_At_Specipic_Rank_824': 260494932
 
 }
 
