@@ -44,22 +44,22 @@ def generate():
             character = Character.from_data(character['Id'], data)
             if character.club == character._club and character.club != 'Veritas':
                 print(
-                    f' Unknown club name {character.name_translated} {character.club}')
+                    f' Unknown club name {character.wiki_name} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
             traceback.print_exc()
             continue
 
         if args['resume_from'] is not None and not done_skipping:
-            if character.name_translated == args['resume_from']:
+            if character.wiki_name == args['resume_from']:
                 done_skipping = True
             else:
                 continue
 
-        print(f'Processing {character.name_translated}')
+        print(f'Processing {character.wiki_name}')
 
         # Get page from wiki
-        page = get_character_page(site, character.name_translated)
+        page = get_character_page(site, character.wiki_name)
         content_raw = page['revisions'][0]['slots']['main']['content']
         content = wtp.parse(content_raw)
 
@@ -70,7 +70,7 @@ def generate():
                 break
         else:
             print(
-                f'Did not find skill upgrade materials section for {character.name_translated}')
+                f'Did not find skill upgrade materials section for {character.wiki_name}')
 
         # Then re-render the skill tables
         for section in content.sections:
@@ -79,11 +79,11 @@ def generate():
                 break
 
         rendered = str(content)
-        with open(os.path.join(args['outdir'], f'{character.name_translated}.txt'), 'w', encoding="utf8") as f:
+        with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:
             f.write(rendered)
 
         if site is not None:
-            wiki_publish(character.name_translated, rendered)
+            wiki_publish(character.wiki_name, rendered)
 
 
 def wiki_init():

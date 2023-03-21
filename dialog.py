@@ -88,13 +88,13 @@ def generate():
         #dump missing translations
         missing_tl = [x for x in data.character_dialog if x['CharacterId']==character.id and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
         if len(missing_tl)>1 : 
-            print(f"Missing {character.name_translated} translations: {len(missing_tl)}")
-            save_missing_translations('dialog_'+character.name_translated.replace(' ', '_'), missing_tl)
+            print(f"Missing {character.wiki_name} translations: {len(missing_tl)}")
+            save_missing_translations('dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
 
         missing_tl = [x for x in data.character_dialog_event if x['CharacterId'] in character_variation_ids and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
         if len(missing_tl)>1 : 
-            print(f"Missing {character.name_translated} event translations: {len(missing_tl)}")
-            save_missing_translations('event_dialog_'+character.name_translated.replace(' ', '_'), missing_tl)
+            print(f"Missing {character.wiki_name} event translations: {len(missing_tl)}")
+            save_missing_translations('event_dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
         
 
 
@@ -148,7 +148,7 @@ def generate():
             
 
 
-        if wiki.site != None: page_list = wiki.page_list(f"File:{character.name_translated}")
+        if wiki.site != None: page_list = wiki.page_list(f"File:{character.wiki_name}")
         else: page_list = []
 
         for line in lines:
@@ -161,7 +161,7 @@ def generate():
         ml = []
         #Guess memorial lobby unlock audio if it had no text
         if (exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0.ogg") or exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_0_1.ogg")) and not memorial_unlock:
-                #print(f'Found memorial lobby unlock audio for {character.name_translated}, but no text')
+                #print(f'Found memorial lobby unlock audio for {character.wiki_name}, but no text')
                 ml.append(process_file(character, {'CharacterId': character.id, 'ProductionStep': 'Release', 'DialogCategory': 'UILobbySpecial', 'DialogCondition': 'Idle', 'Anniversary': 'None', 'StartDate': '', 'EndDate': '', 'GroupId': 0, 'DialogType': 'Talk', 'ActionName': '', 'Duration': 0, 'AnimationName': 'Talk_00_M', 'LocalizeKR': '', 'LocalizeJP': '', 'VoiceClipsKr': [], 'VoiceClipsJp': [], 'LocalizeEN': ""}, page_list))
 
         for line in memorial_lines:
@@ -182,13 +182,13 @@ def generate():
                 wiki.upload(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['Filename']}", line['WikiName'], 'Character audio upload')
 
 
-        with open(os.path.join(args['outdir'], f'{character.name_translated}_dialog.txt'), 'w', encoding="utf8") as f:
+        with open(os.path.join(args['outdir'], f'{character.wiki_name}_dialog.txt'), 'w', encoding="utf8") as f:
             wikitext = template.render(character=character,lines=lines,event_lines=event_lines,memorial_lines=memorial_lines,standard_lines=standard_lines)
             f.write(wikitext)
             
 
         if wiki.site != None:
-            wikipath = character.name_translated + '/audio'
+            wikipath = character.wiki_name + '/audio'
 
             if not wiki.page_exists(wikipath, wikitext):
                 print(f'Publishing {wikipath}')
@@ -227,10 +227,10 @@ def scavenge():
             traceback.print_exc()
             continue
 
-        print (f'Scavenging standard lines for {character.name_translated}')
+        print (f'Scavenging standard lines for {character.wiki_name}')
         if wiki.site != None:
             parsed_section = None
-            wikipath = character.name_translated + '/audio'
+            wikipath = character.wiki_name + '/audio'
                     
             text = wiki.site('parse', page=wikipath, prop='wikitext')
             text_parsed = wtp.parse(text['parse']['wikitext'])
@@ -248,7 +248,7 @@ def scavenge():
 
                 standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('<p>','').replace('</p>','').replace('<br>','\n')})
 
-            if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.name_translated.replace(' ', '_') + '.json', standard_lines)
+            if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
 
 
@@ -259,7 +259,7 @@ def get_standard_lines(character, files, dialog_data):
         line = {}
         line['Filename'] = file
         line['VoiceClip'] = file[0:file.index('.')]
-        line['WikiName'] = f"{character.name_translated.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
+        line['WikiName'] = f"{character.wiki_name.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
         line['Title'] = line['VoiceClip'].split('_', 1)[1]
 
         if line['VoiceClip'] in dialog_data:
@@ -309,7 +309,7 @@ def get_dialog_lines(character, dialog_data):
                 line['Title'] = line['VoiceClipsJp'][0].split('_', 1)[1]
 
                 line['WikiVoiceClip'] = []
-                line['WikiVoiceClip'].append(character.name_translated.replace(' ', '_') + '_' + line['Title'])
+                line['WikiVoiceClip'].append(character.wiki_name.replace(' ', '_') + '_' + line['Title'])
             
             if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''
 
@@ -370,12 +370,12 @@ def process_file(character, line, page_list):
 
         if exists(f"{partial_file_path}{partial_file_name}.ogg"): 
             line['VoiceClipsJp'].append(f"{partial_file_name}")
-            line['WikiVoiceClip'].append(character.name_translated.replace(' ', '_') + '_' + f"{partial_file_name.split('_', 1)[1]}")
+            line['WikiVoiceClip'].append(character.wiki_name.replace(' ', '_') + '_' + f"{partial_file_name.split('_', 1)[1]}")
 
         i=0
         while exists(f"{partial_file_path}{partial_file_name}_{i+1}.ogg"):
             line['VoiceClipsJp'].append(f"{partial_file_name}_{i+1}")
-            line['WikiVoiceClip'].append(character.name_translated.replace(' ', '_') + '_' + f"{partial_file_name.split('_', 1)[1]}_{i+1}")
+            line['WikiVoiceClip'].append(character.wiki_name.replace(' ', '_') + '_' + f"{partial_file_name.split('_', 1)[1]}_{i+1}")
             #print(f"Added {partial_file_path}{partial_file_name}_{i+1}.ogg partial voiceline to the list")
             i += 1
 

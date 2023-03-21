@@ -4,74 +4,7 @@ import re
 #from googletrans import Translator
 
 
-def replace_glossary(item = None):
-    glossary = {
-        'Field':'Outdoor',
-        'Valkyrie Police School':'Valkyrie Police Academy',
-        'Cherenka':'Cheryonka',
-        '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
-        'Total Assault': 'Raid',
-        'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
-        #'Exclusive Weapon': 'Unique Weapon'
-    }
-    for search, replace in glossary.items():
-        if item != None:
-            item = re.sub(search, replace, item)
-    return (item)
-
-
-class Character(object):
-    def __init__(self, id, name, dev_name, model_prefab_name, portrait, name_en, family_name_en, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool):
-        self.id = id
-        self.name = name
-        self.rarity = rarity
-        self.school = school
-        self._club = club
-        self._role = role
-        self.position = position
-        self._damage_type = damage_type
-        self._armor_type = armor_type
-        self._combat_class = combat_class
-        self.equipment = equipment
-        self.weapon_type = weapon_type
-        self._uses_cover = uses_cover
-        self.profile = profile
-        self.normal_skill = normal_skill
-        self.normal_gear_skill = normal_gear_skill
-        self.ex_skill = ex_skill
-        self.passive_skill = passive_skill
-        self.passive_weapon_skill = passive_weapon_skill
-        self.sub_skill = sub_skill
-        self.stats = stats
-        self.weapon = weapon
-        self.gear = gear
-        self.favor = favor
-        self.memory_lobby = memory_lobby
-        self.momotalk = momotalk
-        self.liked_gift_tags = liked_gift_tags
-        self.character_pool = character_pool
-
-        self.dev_name = dev_name
-        self.model_prefab_name = model_prefab_name
-
-        self.portrait = portrait
-        self.name_translated = name_en
-        self.family_name_translated = family_name_en
-
-    @property
-    def role(self):
-        return {
-            'DamageDealer': 'Attacker',
-            'Tanker': 'Tank',
-            'Supporter': 'Support',
-            'Healer': 'Healer',
-            'Vehicle': 'Tactical Support'
-        }[self._role]
-
-    @property
-    def club(self):
-        return {
-            self._club: self._club,
+CLUBS = {
             'Countermeasure': 'Countermeasure Council',
             'GourmetClub': 'Gourmet Research Club',
             'RemedialClass': 'Supplemental Classes Club',
@@ -108,7 +41,90 @@ class Character(object):
             'HotSpringsDepartment':'Hot Springs Department',
             'TeaParty':'Tea Party',
             'EmptyClub': 'no club'
-        }[self._club]
+}
+
+
+def replace_glossary(item = None):
+    glossary = {
+        'Field':'Outdoor',
+        'Valkyrie Police School':'Valkyrie Police Academy',
+        'Cherenka':'Cheryonka',
+        '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
+        'Total Assault': 'Raid',
+        'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
+        #'Exclusive Weapon': 'Unique Weapon'
+    }
+    for search, replace in glossary.items():
+        if item != None:
+            item = re.sub(search, replace, item)
+    return (item)
+
+
+class Character(object):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool):
+        self.id = id
+        self.rarity = rarity
+        self.school = school
+        self._club = club
+        self._role = role
+        self.position = position
+        self._damage_type = damage_type
+        self._armor_type = armor_type
+        self._combat_class = combat_class
+        self.equipment = equipment
+        self.weapon_type = weapon_type
+        self._uses_cover = uses_cover
+        self.profile = profile
+        self.normal_skill = normal_skill
+        self.normal_gear_skill = normal_gear_skill
+        self.ex_skill = ex_skill
+        self.passive_skill = passive_skill
+        self.passive_weapon_skill = passive_weapon_skill
+        self.sub_skill = sub_skill
+        self.stats = stats
+        self.weapon = weapon
+        self.gear = gear
+        self.favor = favor
+        self.memory_lobby = memory_lobby
+        self.momotalk = momotalk
+        self.liked_gift_tags = liked_gift_tags
+        self.character_pool = character_pool
+
+        self.dev_name = dev_name
+        self.model_prefab_name = model_prefab_name
+
+        self.portrait = portrait
+        self.family_name_en = family_name_en
+        self.personal_name_en = personal_name_en
+        self.variant = variant
+
+
+    @property
+    def role(self):
+        return {
+            'DamageDealer': 'Attacker',
+            'Tanker': 'Tank',
+            'Supporter': 'Support',
+            'Healer': 'Healer',
+            'Vehicle': 'Tactical Support'
+        }[self._role]
+
+    @property
+    def club(self):
+        return CLUBS[self._club] if self._club in CLUBS else self._club
+
+    @property
+    def full_name_en(self):
+        full_name = f'{self.family_name_en} {self.personal_name_en}'.strip()
+        if self.variant: full_name += ' '+f'({self.variant})'
+        return full_name
+
+    @property
+    def wiki_name(self):
+        out = self.personal_name_en
+        if self.variant: out += ' '+f'({self.variant})'
+        return out
+
 
     @property
     def damage_type(self):
@@ -139,10 +155,6 @@ class Character(object):
     def uses_cover(self):
         return 'Yes' if self._uses_cover else 'No'
 
-    @property
-    def name_normalized(self):
-        return re.split("[ _(]", self.name_translated)[0]
-
     @classmethod
     def from_data(cls, character_id, data):
         character = data.characters[character_id]
@@ -152,12 +164,12 @@ class Character(object):
 
         return cls(
             character['Id'],
-            data.characters_localization[character_id]['PersonalNameJp'],
             character['DevName'],
             character['ModelPrefabName'],
             portrait,
-            data.translated_characters[character_id]['PersonalNameEn'],
             data.translated_characters[character_id]['FamilyNameEn'],
+            data.translated_characters[character_id]['PersonalNameEn'],
+            data.translated_characters[character_id]['VariantNameEn'],
             character['DefaultStarGrade'],
             character['School'] != 'RedWinter' and character['School'] or 'Red Winter',
             character['Club'],
@@ -183,14 +195,14 @@ class Character(object):
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
-            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] else 'regular'
+            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular'
         )
 
 
 class Profile(object):
-    def __init__(self, full_name, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, reading, release_date_jp, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated):
+    def __init__(self, full_name, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, reading, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
         self.full_name = full_name
-        self._age = age
+        self.age = age
         self._birthday = birthday
         self.height = height
         self.hobbies = hobbies
@@ -200,15 +212,12 @@ class Profile(object):
         self.introduction_jp = introduction_jp
         self.introduction_en = introduction_en
         self.reading = reading
-        self.release_date_jp = release_date_jp
         self.weapon_name = weapon_name
         self.weapon_desc = weapon_desc
         self.weapon_name_translated = weapon_name_translated
         self.weapon_desc_translated = weapon_desc_translated
-
-    @property
-    def age(self):
-        return self._age[:-1]
+        self.release_date_jp = release_date_jp
+        self.release_date_gl = release_date_gl
 
     @property
     def birthday(self):
@@ -232,18 +241,16 @@ class Profile(object):
     @classmethod
     def from_data(cls, character_id, data):
         profile = data.characters_localization[character_id]
-        weapon = data.translated_weapons[character_id]
+        localization = data.translated_characters[character_id]
 
-        hobbies = 'HobbiesEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['HobbiesEn'] or profile['HobbyJp']
-        #illustrator = 'Illust' in data.translated_characters[character_id] and data.translated_characters[character_id]['Illust'] or f"profile['DesignerNameJp'] / profile['IllustratorNameJp']"
-        voice = 'VoiceEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['VoiceEn'] or profile['CharacterVoiceJp']
-        age = 'AgeEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['AgeEn']+' ' or profile['CharacterAgeJp']
-        height = 'HeightEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['HeightEn'] or profile['CharHeightJp']
-        release_date_jp = 'ReleaseDateJp' in data.translated_characters[character_id] and data.translated_characters[character_id]['ReleaseDateJp'] or ''
-        introduction_en = 'ProfileIntroductionEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['ProfileIntroductionEn'] or ''
-    
-        designer = 'DesignerNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['DesignerNameEn'] or profile['DesignerNameJp']
-        illustrator = 'IllustratorNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['IllustratorNameEn'] or profile['IllustratorNameJp']
+        field_list = ['FamilyName', 'PersonalName', 'CharacterAge', 'CharHeight', 'DesignerName', 'IllustratorName', 'Voice', 'Hobby', 'ProfileIntroduction', 'WeaponName', 'WeaponDesc' ]
+        localized_strings = {}
+        for f in field_list:
+            localized_strings[f] = localization[f+'En'] if f+'En' in localization and localization[f+'En'] is not None else profile[f+'Jp']
+
+        release_date_jp = 'ReleaseDateJp' in localization and localization['ReleaseDateJp'] or ''
+        release_date_gl = 'ReleaseDateGl' in localization and localization['ReleaseDateGl'] or ''
+
 
         #translator = Translator()
         #
@@ -255,21 +262,22 @@ class Profile(object):
 
         return cls(
             f'{profile["FamilyNameJp"]} {profile["PersonalNameJp"]}',
-            age,
+            localized_strings['CharacterAge'].replace('歳',''),
             profile['BirthDay'],
-            height,
-            hobbies,
-            designer,
-            illustrator,
-            voice,
+            localized_strings['CharHeight'],
+            localized_strings['Hobby'],
+            localized_strings['DesignerName'],
+            localized_strings['IllustratorName'],
+            localized_strings['Voice'],
             '<p>' + profile['ProfileIntroductionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
-            '<p>' + introduction_en.replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            '<p>' + localized_strings['ProfileIntroduction'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             f'{profile["FamilyNameRubyJp"]} {profile["PersonalNameJp"]}',
-            release_date_jp,
             profile['WeaponNameJp'],
             '<p>' + profile['WeaponDescJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
-            weapon['NameEN'],
-            '<p>' + weapon['DescriptionEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            localized_strings['WeaponName'],
+            '<p>' + localized_strings['WeaponDesc'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            release_date_jp,
+            release_date_gl,
         )
 
 

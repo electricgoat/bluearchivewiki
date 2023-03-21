@@ -99,7 +99,7 @@ def wiki_card(type, id, **params ):
             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
         case 'Character':
             card_type = 'CharacterCard'
-            name = characters[id].name
+            name = characters[id].wiki_name
         case 'Furniture':
             card_type = 'FurnitureCard'
             name = furniture[id].name_en
@@ -278,7 +278,7 @@ def generate():
         for character in bc:
             if item in character['EventContentItemType']:
                 try:
-                    bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':characters[character['CharacterId']].name_translated, 'Class':characters[character['CharacterId']].combat_class, 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
+                    bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':characters[character['CharacterId']].wiki_name, 'Class':characters[character['CharacterId']].combat_class, 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
                 except KeyError as err:
                     bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':str(character['CharacterId']), 'Class':'Striker', 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
     #print (bonus_characters)

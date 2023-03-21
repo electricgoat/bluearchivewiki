@@ -1,10 +1,9 @@
 {% raw %}{{{% endraw %}Character
 | Id = {{character.id}}
-| Name = {{character.name_translated}}
-| Image = {{character.name_translated}}_full.png
+| Name = {{character.wiki_name}}
 | Portrait = {{character.portrait}}
 | JPName = {{character.profile.full_name}}
-| JPReading = {{character.family_name_translated}} {{character.name_translated.split('(', 1)[0].strip()}}
+| JPReading = {{character.family_name_en}} {{character.personal_name_en}}
 | School = {{character.school}}
 | Club = {{character.club}}
 | Age = {{character.profile.age}}
@@ -86,7 +85,7 @@
 {% raw %}}}{% endraw %}{% raw %}{{#dpl:
 | namespace       = 
 | category        = Characters
-| titleregexp     = ^{% endraw %}{{character.name_normalized}}{% raw %}(?: \(.+\))*$
+| titleregexp     = ^{% endraw %}{{character.personal_name_en}}{% raw %}(?: \(.+\))*$
 | format          = ,<div class="affection-alt">[[File:%PAGE%.png|frameless|48px|alt=%TITLE%|link=%PAGE%|class=affection-portrait]],</div>,
 | ordermethod     = title
 | include         = {CharacterAffectionTable}

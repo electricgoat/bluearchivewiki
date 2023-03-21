@@ -6,7 +6,7 @@ BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
     ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 
     'skills', 'skills_localization','translated_characters','translated_skills',
-    'weapons', 'translated_weapons', 'gear',
+    'weapons', 'gear',
     'currencies','translated_currencies',
     'items', #'translated_items',
     'equipment',
@@ -45,7 +45,7 @@ def load_data(path_primary, path_secondary, path_translation):
         translated_characters =     load_characters_translation(path_translation),
         translated_skills =         load_skills_translation(path_translation),
         weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
-        translated_weapons =        load_weapons_translation(path_translation),
+        #translated_weapons =        load_weapons_translation(path_translation),
         gear =                      load_gear(path_primary),
         currencies=                 load_generic(path_primary, 'CurrencyExcelTable.json', key='ID'),
         translated_currencies=      load_currencies_translation(path_translation),
@@ -133,12 +133,10 @@ def load_characters_skills(path):
         in data['DataList']
     }
 
+
 def load_characters_translation(path):
-    return load_file(os.path.join(path, 'CharProfile.json'), key='CharacterId')
+    return load_file(os.path.join(path, 'LocalizeCharProfile.json'), key='CharacterId')
 
-
-def load_weapons_translation(path):
-    return load_file(os.path.join(path, 'Weapons.json'), key='Id')
 
 def load_gear(path):
     with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json'),encoding="utf8") as f:

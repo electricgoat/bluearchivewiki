@@ -44,7 +44,7 @@ SEASON_NOTES = {
         18:'Emergency raid 2',
         23:'Emergency raid 3',
         29:'Introduction of Insane Difficulty',
-        43:'Introduction of Torment Difficulty'
+        51:'Introduction of Torment Difficulty'
     },
     'gl' : {
         2:'Beta version, no ranking rewards',
@@ -77,6 +77,11 @@ def generate():
 
             if boss[0] not in RAIDS:
                 print(f"Unknown boss {season['OpenRaidBossGroup']}")
+                continue
+
+            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 7):
+                print(f"Raid {region} SeasonId {season['SeasonId']} is too far in the future and will be ignored")
+                season['ignore'] = True
                 continue
 
             season['raid_name'] = RAIDS[boss[0]].name
