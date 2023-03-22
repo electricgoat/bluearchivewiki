@@ -105,7 +105,8 @@ map_descriptions = {
     'Event_Mission_Omikuji_Count': 1910182025,
     'Event_Mission_Daily_Complete_Mission': 373831186,
     'Event_Mission_Conquest_Get_Tile_Count': 9999990007,
-    'Mission_Event_Location_At_Specipic_Rank_824': 260494932
+    'Mission_Event_Location_At_Specipic_Rank_824': 260494932,
+    'Event_Mission_Complete_Mission_Challenge_Count': 9999990008,
 
 }
 
@@ -543,6 +544,57 @@ def localize_ClearEventConquestTileTimeLimitFromSecond(mission):
 
     mission['AutoLocalized'] = True
     return True
+
+
+def localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture):
+    desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
+    desc_en = 'Clear $2 $1 within $3 seconds'
+
+    idlen = len(str(mission['EventContentId']))
+    difficulty = int(str(mission['CompleteConditionParameter'][1])[idlen:idlen+1])
+    difficulty_names = ['','Story','Quest','Challenge']
+
+    stage = str(mission['CompleteConditionParameter'][1])[idlen+2:idlen+4].lstrip('0')
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    )
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_Event_Mission_Complete_Campaign_Stage_Main_TimeLimit(mission, data, items, furniture):
+    return localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture)
+     
+
+def localize_Event_Mission_Complete_Campaign_Stage_Minimum_Turn(mission, data, items, furniture):
+    desc_jp = '$2のステージ$1を$3ターン以内にクリア'
+    desc_en = 'Clear $2 $1 within $3 turns'
+
+    idlen = len(str(mission['EventContentId']))
+    difficulty = int(str(mission['CompleteConditionParameter'][1])[idlen:idlen+1])
+    difficulty_names = ['','Story','Quest','Challenge']
+
+    stage = str(mission['CompleteConditionParameter'][1])[idlen+2:idlen+4].lstrip('0')
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    )
+
+    mission['AutoLocalized'] = True
+    return True
+
 
 
 
