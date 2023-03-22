@@ -771,8 +771,8 @@ class Item(object):
     @classmethod
     def from_data(cls, item_id, data):
         item = data.items[item_id]
-        name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
-        desc_en = 'DescriptionEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['DescriptionEn'] or None
+        name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['DescriptionEn'] or None
 
         characters_favorite = []
         characters_likes = []
@@ -813,9 +813,9 @@ class Item(object):
             item['Id'],
             item['Quality']-1,
             item['ItemCategory'],
-            data.localization[item['LocalizeEtcId']]['NameJp'].replace("\n",' '),
+            data.etc_localization[item['LocalizeEtcId']]['NameJp'].replace("\n",' '),
             replace_glossary(name_en),
-            data.localization[item['LocalizeEtcId']]['DescriptionJp'] != None and data.localization[item['LocalizeEtcId']]['DescriptionJp'].replace("\n\n",'<br>').replace("\n",'<br>') or '',
+            data.etc_localization[item['LocalizeEtcId']]['DescriptionJp'] != None and data.etc_localization[item['LocalizeEtcId']]['DescriptionJp'].replace("\n\n",'<br>').replace("\n",'<br>') or '',
             desc_en != None and replace_glossary(desc_en).replace("\n\n",'<br>').replace("\n",'<br>') or '',
             item['Icon'][item['Icon'].rfind('/')+1:],
             item['Icon'][item['Icon'].rfind('_')+1:],
@@ -831,8 +831,8 @@ class Item(object):
     @classmethod
     def from_equipment_data(cls, item_id, data):
         item = data.equipment[item_id]
-        name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
-        desc_en = 'DescriptionEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['DescriptionEn'] or None
+        name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['DescriptionEn'] or None
 
         quality =  {
             0: '0',
@@ -874,7 +874,7 @@ class Item(object):
             recipe_ingredient_names = []
 
             for ingredient_id in recipe['IngredientId']:
-                recipe_ingredient_names.append ('NameEn' in data.localization[data.equipment[ingredient_id]['LocalizeEtcId']] and data.localization[data.equipment[ingredient_id]['LocalizeEtcId']]['NameEn'] or None)
+                recipe_ingredient_names.append ('NameEn' in data.etc_localization[data.equipment[ingredient_id]['LocalizeEtcId']] and data.etc_localization[data.equipment[ingredient_id]['LocalizeEtcId']]['NameEn'] or None)
 
             recipe['IngredientName'] = recipe_ingredient_names
             return recipe
@@ -890,9 +890,9 @@ class Item(object):
             item['Id'],
             quality,
             category,
-            data.localization[item['LocalizeEtcId']]['NameJp'],
+            data.etc_localization[item['LocalizeEtcId']]['NameJp'],
             replace_glossary(name_en),
-            data.localization[item['LocalizeEtcId']]['DescriptionJp'],
+            data.etc_localization[item['LocalizeEtcId']]['DescriptionJp'],
             replace_glossary(desc_en),
             item['Icon'][item['Icon'].rfind('/')+1:],
             item['Icon'][item['Icon'].rfind('_')+1:],
@@ -960,8 +960,8 @@ class Furniture(object):
     @classmethod
     def from_data(cls, furniture_id, data):
         furniture = data.furniture[furniture_id]
-        name_en = 'NameEn' in data.localization[furniture['LocalizeEtcId']] and data.localization[furniture['LocalizeEtcId']]['NameEn'] or None
-        desc_en = 'DescriptionEn' in data.localization[furniture['LocalizeEtcId']] and data.localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
+        name_en = 'NameEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
 
         furniture_group = furniture['SetGroudpId'] > 0 and FurnitureGroup.from_data(furniture['SetGroudpId'], data) or None
 
@@ -979,9 +979,9 @@ class Furniture(object):
             furniture['SizeHeight'],
             furniture['OtherSize'],
             furniture['ComfortBonus'],
-            data.localization[furniture['LocalizeEtcId']]['NameJp'],
+            data.etc_localization[furniture['LocalizeEtcId']]['NameJp'],
             replace_glossary(name_en),
-            data.localization[furniture['LocalizeEtcId']]['DescriptionJp'],
+            data.etc_localization[furniture['LocalizeEtcId']]['DescriptionJp'],
             replace_glossary(desc_en),
             furniture['Icon'][furniture['Icon'].rfind('/')+1:],
             furniture_group,
@@ -1007,18 +1007,18 @@ class FurnitureGroup(object):
     @classmethod
     def from_data(cls, group_id, data):
         furniture_group = data.furniture_group[group_id]
-        #print(data.localization[furniture['LocalizeEtcId']])
-        name_en = 'NameEn' in data.localization[furniture_group['GroupNameLocalize']] and data.localization[furniture_group['GroupNameLocalize']]['NameEn'] or None
-        desc_en = 'DescriptionEn' in data.localization[furniture_group['GroupNameLocalize']] and data.localization[furniture_group['GroupNameLocalize']]['DescriptionEn'] or None
+        #print(data.etc_localization[furniture['LocalizeEtcId']])
+        name_en = 'NameEn' in data.etc_localization[furniture_group['GroupNameLocalize']] and data.etc_localization[furniture_group['GroupNameLocalize']]['NameEn'] or None
+        desc_en = 'DescriptionEn' in data.etc_localization[furniture_group['GroupNameLocalize']] and data.etc_localization[furniture_group['GroupNameLocalize']]['DescriptionEn'] or None
         
 
         try: 
-            series_jp = data.localization[furniture_group['LocalizeEtcId']]['NameJp'] 
+            series_jp = data.etc_localization[furniture_group['LocalizeEtcId']]['NameJp'] 
         except:
             series_jp = None
             pass
         try: 
-            series_en = data.localization[furniture_group['LocalizeEtcId']]['NameEn'] 
+            series_en = data.etc_localization[furniture_group['LocalizeEtcId']]['NameEn'] 
         except:
             series_en = None
             #print(furniture_group['LocalizeEtcId'])
@@ -1028,9 +1028,9 @@ class FurnitureGroup(object):
             furniture_group['Id'],
             furniture_group['RequiredFurnitureCount'],
             furniture_group['ComfortBonus'],
-            data.localization[furniture_group['GroupNameLocalize']]['NameJp'],
+            data.etc_localization[furniture_group['GroupNameLocalize']]['NameJp'],
             replace_glossary(name_en),
-            data.localization[furniture_group['GroupNameLocalize']]['DescriptionJp'],
+            data.etc_localization[furniture_group['GroupNameLocalize']]['DescriptionJp'],
             replace_glossary(desc_en),
             series_jp,
             replace_glossary(series_en)

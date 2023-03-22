@@ -47,14 +47,14 @@ def wiki_itemformat(reward, *params):
 
 def get_currency_rewards(reward, data):
     currency = data.currencies[reward['ClearStageRewardParcelUniqueID']]
-    name_en = 'NameEn' in data.localization[currency['LocalizeEtcId']] and data.localization[currency['LocalizeEtcId']]['NameEn'] or None
+    name_en = 'NameEn' in data.etc_localization[currency['LocalizeEtcId']] and data.etc_localization[currency['LocalizeEtcId']]['NameEn'] or None
 
     yield Reward(name_en, 'Other', reward['ClearStageRewardProb'] / 100, reward['ClearStageRewardAmount'], reward['ClearStageRewardParcelType'])
 
 
 def get_equipment_rewards(reward, data):
     item = data.equipment[reward['ClearStageRewardParcelUniqueID']]
-    name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+    name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
 
     yield Reward(name_en, 'Other', reward['ClearStageRewardProb'] / 100, reward['ClearStageRewardAmount'], reward['ClearStageRewardParcelType'])
 
@@ -72,7 +72,7 @@ def get_item_rewards(reward, data):
         #print(f"Ignoring item {item['Id']}, drop probability is {reward['ClearStageRewardProb']}")
         return
 
-    name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+    name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
     if item['ImmediateUse'] and item['Id'] not in noopen_item_id:
         print(f"Item {item['Id']} is ImmediateUse through {item['UsingResultParcelType']}")
         if item['UsingResultParcelType'] == 'GachaGroup':
@@ -128,7 +128,7 @@ def _get_gacha_rewards(group_id, stage_reward_prob, data, tag='Other'):
             item = data.items[gacha_element['ParcelID']]
         #There is no support for Character rewards here but they are never in gachagroups
 
-        name_en = 'NameEn' in data.localization[item['LocalizeEtcId']] and data.localization[item['LocalizeEtcId']]['NameEn'] or None
+        name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
 
         if verbose: print (f'   {name_en}')
         prob = get_gacha_prob(gacha_element, data) * stage_reward_prob / 100
