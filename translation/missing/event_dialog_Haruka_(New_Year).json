@@ -1,0 +1,380 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "서, 서서서서, 선생님?!\n어, 어서 오세요!\n그리고, 죄, 죄송합니다!",
+            "LocalizeJP": "せ、せせせせ、先生！？\nお、おかえりなさい！\nそして、す、すみません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "……헤헤……\n여기서 선생님을\n뵙다니…",
+            "LocalizeJP": "……へへ……\nここで先生に\n会えるなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아, 아뇨! 특별히\n무슨 뜻이\n있는 게 아니라…!",
+            "LocalizeJP": "い、いいえ！なにか\n特別な意味が\nあるとかではなく……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네, 네엣?!\n무, 무무무무, 무슨\n일이신가요, 선생님?!",
+            "LocalizeJP": "は、はいっ！？\nど、どどどど、\nどうしましたか、先生！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "네…? 그냥…\n불러 보셨다고요?",
+            "LocalizeJP": "へ……？ただ……\n呼んでみただけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그, 그런가요.\n에, 헤헤….",
+            "LocalizeJP": "そ、そうなんですね。\nえ、へへ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "새해를 맞이해……\n흥신소의 여러분…\n선생님과 이렇게……",
+            "LocalizeJP": "新年を迎えて……\n便利屋のみんなと……\n先生とこうして……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "에헤헤……\n조금, 특별, 한\n기분이에요. ",
+            "LocalizeJP": "えへへ……\n少し、特別な、\n気持ちです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님, 역시 저, 저\n같은 거랑 있어도……\n그렇게 즐겁지는……",
+            "LocalizeJP": "先生。やはり、わ、\n私なんかといても……\nそんな楽しく……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아니…… 라고요?\n그, 러신가요….",
+            "LocalizeJP": "そんなことない\n……ですか？\nそう、ですか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……가, 감사, 합니다.\n선생님.",
+            "LocalizeJP": "……あ、ありがとう、\nございます。先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "잘 모르겠지만……\n엄청난 일이\n되어버린 것 같네요……",
+            "LocalizeJP": "よくわからないですが……\nとんでもないことになって\nしまったみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "……전부,\n부숴버릴까요?",
+            "LocalizeJP": "ぜ、全部\n壊しちゃいましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "아루 님께선……\n즐거우신 것 같아요……",
+            "LocalizeJP": "アル様は……\n楽しんでるみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "그건, 다행이네요.\n헤, 헤헤……",
+            "LocalizeJP": "よかったです。\nへ、へへ……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "드디어 소동이 잠잠해진\n모양이에요…… ",
+            "LocalizeJP": "やっと騒動が\n落ち着いたみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "저기, 그 로봇은……\n뭐였을까요……?",
+            "LocalizeJP": "えっと、あの\nロボットは……何だったん\nでしょうか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "서, 서서서서, 선생님?!\n어, 어서 오세요!\n그리고, 죄, 죄송합니다!",
+            "LocalizeJP": "せ、せせせせ、先生！？\nお、おかえりなさい！\nそして、す、すみません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "……헤헤……\n여기서 선생님을\n뵙다니…",
+            "LocalizeJP": "……へへ……\nここで先生に\n会えるなんて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아, 아뇨! 특별히\n무슨 뜻이\n있는 게 아니라…!",
+            "LocalizeJP": "い、いいえ！なにか\n特別な意味が\nあるとかではなく……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네, 네엣?!\n무, 무무무무, 무슨\n일이신가요, 선생님?!",
+            "LocalizeJP": "は、はいっ！？\nど、どどどど、\nどうしましたか、先生！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "네…? 그냥…\n불러 보셨다고요?",
+            "LocalizeJP": "へ……？ただ……\n呼んでみただけ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그, 그런가요.\n에, 헤헤….",
+            "LocalizeJP": "そ、そうなんですね。\nえ、へへ……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "새해를 맞이해……\n흥신소의 여러분…\n선생님과 이렇게……",
+            "LocalizeJP": "新年を迎えて……\n便利屋のみんなと……\n先生とこうして……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "에헤헤……\n조금, 특별, 한\n기분이에요. ",
+            "LocalizeJP": "えへへ……\n少し、特別な、\n気持ちです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님, 역시 저, 저\n같은 거랑 있어도……\n그렇게 즐겁지는……",
+            "LocalizeJP": "先生。やはり、わ、\n私なんかといても……\nそんな楽しく……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아니…… 라고요?\n그, 러신가요….",
+            "LocalizeJP": "そんなことない\n……ですか？\nそう、ですか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "……가, 감사, 합니다.\n선생님.",
+            "LocalizeJP": "……あ、ありがとう、\nございます。先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "잘 모르겠지만……\n엄청난 일이\n되어버린 것 같네요……",
+            "LocalizeJP": "よくわからないですが……\nとんでもないことになって\nしまったみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "……전부,\n부숴버릴까요?",
+            "LocalizeJP": "ぜ、全部\n壊しちゃいましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "아루 님께선……\n즐거우신 것 같아요……",
+            "LocalizeJP": "アル様は……\n楽しんでるみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "그건, 다행이네요.\n헤, 헤헤……",
+            "LocalizeJP": "よかったです。\nへ、へへ……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "드디어 소동이 잠잠해진\n모양이에요…… ",
+            "LocalizeJP": "やっと騒動が\n落ち着いたみたいです……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0087_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009121,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "저기, 그 로봇은……\n뭐였을까요……?",
+            "LocalizeJP": "えっと、あの\nロボットは……何だったん\nでしょうか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

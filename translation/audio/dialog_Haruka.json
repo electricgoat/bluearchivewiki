@@ -1,0 +1,94 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 응? 에…!?\n어, 어어어, 어째서?\n으에!?",
+            "LocalizeJP": "あ、えっ？えっ…！？\nな、なななんで、えっ！？",
+            "LocalizeEN": "Th-That's...! I mean, this is...!",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어, 어째서…!\n어째서 선생님께서\n여기 계시는지…!?",
+            "LocalizeJP": "ど、どうして…！？\nどうして先生が、こ、ここに\nいらっしゃるのですか…！？",
+            "LocalizeEN": "Wh-Why are you here, Sensei?",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "제, 제가 또\n이상한 실수를…!",
+            "LocalizeJP": "わ、私また何か\nとんでもないミスを…！？",
+            "LocalizeEN": "Wait, that's not right.",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아, 호, 혹시\n장소 전달을\n잘못 알고…?",
+            "LocalizeJP": "あ、も、もしかして\n伝える場所を間違えて…！？",
+            "LocalizeEN": "I messed up again, didn't I?",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아, 그, 그게 말이죠.\n여기는 그…\n뭐라고 해야 하나….",
+            "LocalizeJP": "あ、え、えっとですね、\nここはその…\n何と言いますか…。",
+            "LocalizeEN": "Wh-What?! H-Here? S-So this is, um...",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 제가 잡초라던가….\n그런 걸 키우는 장소입니다만….\n그게….",
+            "LocalizeJP": "その、私が雑草とか…\nそういうのを\n育てている場所、でして…。",
+            "LocalizeEN": "Th-This is just...a place...where I can grow my weeds...and stuff...",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "죄, 죄송합니다, 선생님.\n제가 또 실수로….\n소중한 분을, 이런 곳에….",
+            "LocalizeJP": "す、すみません先生、\nまた私のミスで…\n大切な方を、\nこんなところに…。",
+            "LocalizeEN": "S-Sorry, Sensei. It's my fault that...someone like you came to a filthy place like this...",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…어? 아…?\n저, 바, 방금 뭐,\n뭐뭐뭐 뭔가 또\n엄청난 소리를…!?",
+            "LocalizeJP": "え、あ…\nわ、私もしかして今、\nな、ななな何か、\n凄いことを口に…っ！？",
+            "LocalizeEN": "Wait, I-I just... What did I just say?!",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(죽고싶어죽고싶어죽고싶어\n죽고싶어죽고싶어죽고싶어\n죽고싶어죽고싶어죽고싶어…)",
+            "LocalizeJP": "（しっ、\n死にたい死にたい死にたい\n死にたい死にたい死にたい\n死にたい死なないと…！）",
+            "LocalizeEN": "(I wanna die I wanna die I wanna die I wanna die I wanna die I wanna die I wanna die I wanna die I wanna die...)",
+            "VoiceClipsJp": []
+        }
+    ]
+}

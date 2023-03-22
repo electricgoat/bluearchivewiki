@@ -725,6 +725,7 @@ def statcalc_replace_statname(stat_name):
             'DefensePenetration': '',
             'MaxBulletCount': '',
             'ExtendBuffDuration':'',
+            'ExtendDebuffDuration':'',
             'EnhanceExplosionRate':'',
             'EnhancePierceRate':'',
             'EnhanceMysticRate':'',

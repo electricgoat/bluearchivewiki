@@ -63,7 +63,7 @@ def generate():
     #     for reward in character.momotalk.levels:
     #         total_momotalks += 1
     #         if reward['FavorRank'] > 9:
-    #             print(f"{character.name_translated} has a reward at FavorRank {reward['FavorRank']}")
+    #             print(f"{character.wiki_name} has a reward at FavorRank {reward['FavorRank']}")
     #         for index,parcel in enumerate(reward['RewardParcelType']):
     #             if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
     #                 total_jims += reward['RewardAmount'][index]

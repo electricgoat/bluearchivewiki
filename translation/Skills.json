@@ -3428,6 +3428,59 @@
             "GroupId": "CH0198ExtraPassive01",
             "NameEn": "Chaos theory",
             "DescriptionEn": "When EX skill is activated, increase Attack depending on the type of bomb used. (Duration: $1)\nBullet: Increase Attack by $2\nElectric Field:Increase Attack by $3\nExplosion: Increase Attack by $4"
+        },
+
+        
+        {
+            "GroupId": "CH0086Ex01",
+            "NameEn": "New Year's Omamori",
+            "DescriptionEn": "For one other ally, add $1 to the Mystic damage bonus against the enemies weak to it. (Duration: $2)\nGrant them Omamori status."
+        },
+        {
+            "GroupId": "CH0086Public01",
+            "NameEn": "Cat's protection",
+            "DescriptionEn": "Every $1, increase Critical Rate of one other ally by $2 for $3."
+        },
+        {
+            "GroupId": "CH0086Passive01",
+            "NameEn": "Escalating misunderstandings",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0086WeaponPassive01",
+            "NameEn": "Escalating misunderstandings +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0086ExtraPassive01",
+            "NameEn": "Omamori bond",
+            "DescriptionEn": "When allies deal $1 critical hits, increases Attack by $2.\nFor allies with an Omamori, add $3 to the Mystic damage bonus against the enemies weak to it. (Duration: $4)\nAfterwards, clear all Omamori from allies."
+        },
+
+        {
+            "GroupId": "CH0087Ex01",
+            "NameEn": "Who gave permission……?",
+            "DescriptionEn": "Lower Critical Resistance and Critical Damage Resistance of 1 enemy by $1 for $2. Deal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0087Public01",
+            "NameEn": "Proper greeting",
+            "DescriptionEn": "Every $1, lower the Critical Damage Resistance of 1 enemy by $2 for $3."
+        },
+        {
+            "GroupId": "CH0087Passive01",
+            "NameEn": "Unforgivable, unforgivable",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0087WeaponPassive01",
+            "NameEn": "Unforgivable, unforgivable +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0087ExtraPassive01",
+            "NameEn": "With all my heart",
+            "DescriptionEn": "Increase Cost Recovery of allies by $1."
         }
         
     ]
