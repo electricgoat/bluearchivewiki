@@ -537,23 +537,41 @@ def init_data():
             continue
 
 
+def list_seasons():
+    seasons = {}
+
+    for evencontent in data.event_content_seasons.values():
+        if evencontent['EventContentId'] not in seasons: 
+            seasons[evencontent['EventContentId']] = {'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']}
+
+    for season in seasons:
+        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['EventContentOpenTime']} ~ {seasons[season]['EventContentCloseTime']}")
+
+
+
+
 def main():
     global args
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('event_season',     metavar='season_number', help='Event season to export')
+    parser.add_argument('event_season',     metavar='event_season', nargs='?', default=None, help='Event season to export')
     parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
 
     args = vars(parser.parse_args())
-    args['event_season'] = int(args['event_season'])
     print(args)
 
     try:
         init_data()
-        generate()
+
+        if args['event_season'] is not None:
+            args['event_season'] = int(args['event_season'])
+            generate()
+        else:
+            list_seasons()
+
     except:
         parser.print_help()
         traceback.print_exc()
