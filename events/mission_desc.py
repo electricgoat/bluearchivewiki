@@ -106,7 +106,9 @@ map_descriptions = {
     'Event_Mission_Daily_Complete_Mission': 373831186,
     'Event_Mission_Conquest_Get_Tile_Count': 9999990007,
     'Mission_Event_Location_At_Specipic_Rank_824': 260494932,
+    'Mission_Event_Location_At_Specipic_Rank_817': 816893370,
     'Event_Mission_Complete_Mission_Challenge_Count': 9999990008,
+    'Event_Mission_Complete_Mission_Challenge_Count_817': 9999990008,
 
 }
 
@@ -232,8 +234,8 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
     #Matching by Description is a finer sieve than condition type, it's used because some conditions are used for differently-phrased missions
     if f"localize_{mission['Description']}" in globals():
         globals()[f"localize_{mission['Description']}"](mission, data, items, furniture)
-    elif f"localize_{mission['CompleteConditionType']}" in globals():
-        globals()[f"localize_{mission['CompleteConditionType']}"](mission)
+    elif f"localize_{mission['CompleteConditionType'].replace('Reset_','')}" in globals():
+        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission)
 
 
     if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and mission['Description'] not in missing_descriptions:
@@ -309,28 +311,6 @@ def localize_ClearSpecificCampaignStageCount(mission):
 
     mission['AutoLocalized'] = True
     return True
-
-
-def localize_EventClearSpecificCampaignStageCount(mission):
-    desc_jp = 'エリア$1 $2をクリア'
-    desc_en = 'Clear $2 $1 of the event'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][0])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][0])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
-
 
 
 def localize_ClearCampaignStageTimeLimitFromSecond(mission):
@@ -551,10 +531,10 @@ def localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, dat
     desc_en = 'Clear $2 $1 within $3 seconds'
 
     idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][1])[idlen:idlen+1])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
     difficulty_names = ['','Story','Quest','Challenge']
 
-    stage = str(mission['CompleteConditionParameter'][1])[idlen+2:idlen+4].lstrip('0')
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
@@ -578,10 +558,10 @@ def localize_Event_Mission_Complete_Campaign_Stage_Minimum_Turn(mission, data, i
     desc_en = 'Clear $2 $1 within $3 turns'
 
     idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][1])[idlen:idlen+1])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
     difficulty_names = ['','Story','Quest','Challenge']
 
-    stage = str(mission['CompleteConditionParameter'][1])[idlen+2:idlen+4].lstrip('0')
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
@@ -590,6 +570,27 @@ def localize_Event_Mission_Complete_Campaign_Stage_Minimum_Turn(mission, data, i
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
                                                           .replace('$3', str(mission['CompleteConditionCount']))
+                                                    )
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_Event_Mission_Clear_Specific_Campaign_Stage(mission, data, items, furniture):
+    desc_jp = 'エリア$1 $2をクリア'
+    desc_en = 'Clear $2 $1 of the event'
+
+    idlen = len(str(mission['EventContentId']))
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
+    difficulty_names = ['','Story','Quest','Challenge']
+
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
+                                                          .replace('$2', difficulty_names[difficulty])
                                                     )
 
     mission['AutoLocalized'] = True

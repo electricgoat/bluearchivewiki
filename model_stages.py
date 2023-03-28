@@ -79,7 +79,11 @@ def get_item_rewards(reward, data):
 def get_character_rewards(reward, data):
     #print (f"Character reward {reward}")
     #item = data.characters[reward['RewardId']]
-    name_en = reward['RewardId'] in data.translated_characters and data.translated_characters[reward['RewardId']]['PersonalNameEn'] or f"Character {reward['RewardId']}"
+    if reward['RewardId'] in data.translated_characters:
+        name_en = data.translated_characters[reward['RewardId']]['PersonalNameEn']
+        if data.translated_characters[reward['RewardId']]['VariantNameEn'] is not None: name_en += ' ('+data.translated_characters[reward['RewardId']]['VariantNameEn']+')'
+    else:
+        name_en = f"Character {reward['RewardId']}"
 
     yield Reward(name_en, reward['RewardTag'], reward['RewardProb'] / 100, reward['RewardAmount'], reward['RewardParcelType'])
 
