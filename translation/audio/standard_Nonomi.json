@@ -4,64 +4,64 @@
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Formation_In_1",
-            "LocalizeJP": "はい！お任せください。",
-            "LocalizeEN": ""
+            "LocalizeJP": "はい お任せください",
+            "LocalizeEN": "yes please"
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Formation_In_2",
-            "LocalizeJP": "ええ、先生をお手伝いします。",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生はお手伝いします。",
+            "LocalizeEN": "The teacher will help you."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Formation_Select",
-            "LocalizeJP": "あぁ、私を選んでくださるのですか？",
-            "LocalizeEN": ""
+            "LocalizeJP": "私を選んでくださいのですか。",
+            "LocalizeEN": "will you choose me"
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_Defeat_1",
-            "LocalizeJP": "うーん……ちょっと無理みたい……",
-            "LocalizeEN": ""
+            "LocalizeJP": "ちょっと無理みたい。",
+            "LocalizeEN": "It seems a bit impossible."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_Defeat_2",
-            "LocalizeJP": "惜しかったねー、次こそは絶対に。",
-            "LocalizeEN": ""
+            "LocalizeJP": "惜しかったね、次こそは絶対に。",
+            "LocalizeEN": "It was a pity, next time definitely."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_In_1",
-            "LocalizeJP": "さぁみなさん、よろしくお願いしますー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "さあ、皆さんよろしくお願いします。",
+            "LocalizeEN": "Hello everyone."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_In_2",
-            "LocalizeJP": "うんうん、みんなで頑張りましょうね。",
-            "LocalizeEN": ""
+            "LocalizeJP": "みんなで頑張りましょうね。",
+            "LocalizeEN": "Let's all do our best."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_Victory_1",
-            "LocalizeJP": "先生のおかげです！",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生のおかげです。",
+            "LocalizeEN": "Thanks to my teacher."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Tactic_Victory_2",
-            "LocalizeJP": "最高の指揮でした！",
-            "LocalizeEN": ""
+            "LocalizeJP": "最高の式でした。",
+            "LocalizeEN": "It was the perfect ceremony."
         },
         {
             "CharacterId": 13004,
@@ -74,8 +74,8 @@
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Damage_2",
-            "LocalizeJP": "おっとっと……！",
-            "LocalizeEN": ""
+            "LocalizeJP": "おっとっと",
+            "LocalizeEN": "Oops"
         },
         {
             "CharacterId": 13004,
@@ -88,141 +88,162 @@
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_In_1",
-            "LocalizeJP": "今日もファイト！",
-            "LocalizeEN": ""
+            "LocalizeJP": "今日もファイト。",
+            "LocalizeEN": "Fight again today."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_In_2",
-            "LocalizeJP": "最善を尽くしますぅー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "最善を尽くします。",
+            "LocalizeEN": "I will do my best."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Recovery_1",
-            "LocalizeJP": "うわぁ、さいこー！",
-            "LocalizeEN": ""
+            "LocalizeJP": "最高。",
+            "LocalizeEN": "Best."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Retire",
-            "LocalizeJP": "うぅ……ごめんなさい……",
-            "LocalizeEN": ""
+            "LocalizeJP": "ごめんなさい。",
+            "LocalizeEN": "sorry."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Shout_1",
+            "LocalizeJP": "髪が乱れちゃいました。",
+            "LocalizeEN": "My hair was a mess."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Shout_2",
+            "LocalizeJP": "では、真面目に行きますよ。",
+            "LocalizeEN": "Now let's get serious."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Shout_3",
-            "LocalizeJP": "いいですよー、準備終わりましたー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "いいですよ。準備 終わりました。",
+            "LocalizeEN": "OK. I'm ready."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Victory_1",
-            "LocalizeJP": "ふふーん、最高の戦いでしたー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "最高の戦いでした。",
+            "LocalizeEN": "It was a great fight."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Victory_2",
-            "LocalizeJP": "みんなー、お疲れさまでしたー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "みんな お疲れ様でした。",
+            "LocalizeEN": "Thank you all for your hard work."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_1",
-            "LocalizeJP": "うんうん、準備かんりょー！",
-            "LocalizeEN": ""
+            "LocalizeJP": "準備完了。",
+            "LocalizeEN": "Ready."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_2",
-            "LocalizeJP": "あら、私の番ですねー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "はら 私の番ですね。",
+            "LocalizeEN": "Hara It's my turn."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_3",
-            "LocalizeJP": "'''ノノミ'''ー、いきまーす！",
-            "LocalizeEN": ""
+            "LocalizeJP": "ななみ 行きます。",
+            "LocalizeEN": "Nanami I'm going."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_Level_1",
-            "LocalizeJP": "お仕置きの時間ですよー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "串焼きの時間ですよ。",
+            "LocalizeEN": "It's skewer time."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_Level_2",
-            "LocalizeJP": "全弾はっしゃー！",
-            "LocalizeEN": ""
+            "LocalizeJP": "仙台発射",
+            "LocalizeEN": "Sendai launch"
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_ExSkill_Level_3",
-            "LocalizeJP": "覚悟してくださいねー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "覚悟してくださいね。",
+            "LocalizeEN": "Please be prepared."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Growup_1",
-            "LocalizeJP": "先生、いつも気にかけてくださって嬉しいです。",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生 いつも気にかけてくださって嬉しいです。",
+            "LocalizeEN": "Thank you for always taking care of me."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Growup_2",
-            "LocalizeJP": "ふふ、一歩前進しました！",
-            "LocalizeEN": ""
+            "LocalizeJP": "一歩前進しました。",
+            "LocalizeEN": "One step forward."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Growup_3",
-            "LocalizeJP": "私、もっと頑張ります！",
-            "LocalizeEN": ""
+            "LocalizeJP": "私もっと頑張ります。",
+            "LocalizeEN": "I will do my best."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Growup_4",
-            "LocalizeJP": "今この瞬間にも、成長してますから！",
-            "LocalizeEN": ""
+            "LocalizeJP": "今この瞬間には成長してますから",
+            "LocalizeEN": "I'm growing up in this moment"
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Relationship_Up_1",
             "LocalizeJP": "先生との距離がさらに近くなった気がします。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I feel like I've become even closer to my teacher."
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Relationship_Up_2",
-            "LocalizeJP": "なんだか……ドキドキします。",
-            "LocalizeEN": ""
+            "LocalizeJP": "なんだかドキドキします。",
+            "LocalizeEN": "I'm kind of excited."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Relationship_Up_3",
+            "LocalizeJP": "先生 見ていてください。私 一生懸命頑張りますから",
+            "LocalizeEN": "Sensei, please watch. i will do my best"
         },
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Relationship_Up_4",
-            "LocalizeJP": "はい、わかりました先生。それでは……あれ、してあげましょうか？",
-            "LocalizeEN": ""
+            "LocalizeJP": "はいわかりました 先生 それでは あれしてあげましょうか",
+            "LocalizeEN": "Okay sir so let me do that"
         }
     ]
 }

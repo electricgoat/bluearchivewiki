@@ -1,0 +1,256 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Formation_In_1",
+            "LocalizeJP": "トレーニングを始めましょう。",
+            "LocalizeEN": "Let the training begin."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Formation_In_2",
+            "LocalizeJP": "トレーナーの指示に従います。",
+            "LocalizeEN": "Follow the trainer's instructions."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Formation_Select",
+            "LocalizeJP": "1212",
+            "LocalizeEN": "1212"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_Defeat_1",
+            "LocalizeJP": "すみません。",
+            "LocalizeEN": "excuse me."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_Defeat_2",
+            "LocalizeJP": "申し訳ありません トレーナー",
+            "LocalizeEN": "sorry trainer"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_In_1",
+            "LocalizeJP": "今日のトレーニングは実戦形式にしますか？",
+            "LocalizeEN": "Do you want today's training to be a real battle format?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_In_2",
+            "LocalizeJP": "それな よろしくお願いします。",
+            "LocalizeEN": "Thank you very much."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_Victory_1",
+            "LocalizeJP": "結果を得られるというのは嬉しいことです。",
+            "LocalizeEN": "It's nice to see the results."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Tactic_Victory_2",
+            "LocalizeJP": "さらに 1段階強くなったのを感じます。",
+            "LocalizeEN": "I feel one step stronger."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Buffed_1",
+            "LocalizeJP": "ありがとうございます。",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Damage_3",
+            "LocalizeJP": "あれ？",
+            "LocalizeEN": "that?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Defense_1",
+            "LocalizeJP": "無駄です。",
+            "LocalizeEN": "It is a waste."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_In_1",
+            "LocalizeJP": "私 トレーナーの役に立ちたいです。",
+            "LocalizeEN": "I want to be useful as a trainer."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_In_2",
+            "LocalizeJP": "今までの成果をお見せします。",
+            "LocalizeEN": "I will show you the results so far."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Move_1",
+            "LocalizeJP": "ちょうどいい具合の刺激ですね。",
+            "LocalizeEN": "It's just the right amount of stimulation."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Move_2",
+            "LocalizeJP": "今日のトレーニングも楽しいですね。",
+            "LocalizeEN": "Today's training is also fun."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Recovery_1",
+            "LocalizeJP": "プロテインならもっと良かったのですが、",
+            "LocalizeEN": "Protein would have been better"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Retire",
+            "LocalizeJP": "鍛錬 が足りませんでした。",
+            "LocalizeEN": "I didn't train enough."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Shout_2",
+            "LocalizeJP": "12。",
+            "LocalizeEN": "12."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_TacticalAction_1",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Victory_1",
+            "LocalizeJP": "そんなに見ないでください。",
+            "LocalizeEN": "don't look so much"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Battle_Victory_2",
+            "LocalizeJP": "お疲れ様でした。",
+            "LocalizeEN": "good job for today."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_CommonSkill",
+            "LocalizeJP": "ロック",
+            "LocalizeEN": "rock"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_ExSkill_1",
+            "LocalizeJP": "では行きます。",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_ExSkill_2",
+            "LocalizeJP": "準備オッケー。",
+            "LocalizeEN": "Ready."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_ExSkill_3",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_ExSkill_Level_1",
+            "LocalizeJP": "12の3",
+            "LocalizeEN": "3 of 12"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_ExSkill_Level_3",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Growup_1",
+            "LocalizeJP": "トレーニングは辛いですが この瞬間のためなら耐えられます",
+            "LocalizeEN": "Training is hard, but for this moment, I can endure it."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Growup_2",
+            "LocalizeJP": "もっと素敵な自分になりたいです トレーナーと一緒に",
+            "LocalizeEN": "I want to become a better me with my trainer"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Growup_3",
+            "LocalizeJP": "トレーナーも一緒に運動しましょう 運動は本当にいいことづくめです。",
+            "LocalizeEN": "Work out with a trainer Exercise is really a good thing."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Growup_4",
+            "LocalizeJP": "今日もありがとうございます。",
+            "LocalizeEN": "Thank you very much for today."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Relationship_Up_1",
+            "LocalizeJP": "トレーナーに合うたびに胸が苦しくなります どうしてでしょうか",
+            "LocalizeEN": "My chest hurts every time I see a sweatshirt. Why is that?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Relationship_Up_2",
+            "LocalizeJP": "それな 私と腕相撲してみませんか、消して トレーナーと手を繋ぎたくて というわけではありません。",
+            "LocalizeEN": "It's not like you want to arm-wrestle with me, turn it off and hold hands with your trainer."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Relationship_Up_3",
+            "LocalizeJP": "トレーナーと一緒にいると心拍数が増加します。",
+            "LocalizeEN": "Being with a trainer increases your heart rate."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Sumire_Relationship_Up_4",
+            "LocalizeJP": "一緒に汗を流しに行きませんか。",
+            "LocalizeEN": "Would you like to go sweat it out with me?"
+        }
+    ]
+}

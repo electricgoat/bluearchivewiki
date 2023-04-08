@@ -4,15 +4,15 @@
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Formation_In_1",
-            "LocalizeJP": "私の出番ですか～？",
-            "LocalizeEN": ""
+            "LocalizeJP": "私の出番ですか。",
+            "LocalizeEN": "is it my turn"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Formation_In_2",
-            "LocalizeJP": "うんうん！楽しく行きましょう～☆",
-            "LocalizeEN": ""
+            "LocalizeJP": "楽しくいきましょう。",
+            "LocalizeEN": "Let's have fun."
         },
         {
             "CharacterId": 10044,
@@ -31,37 +31,58 @@
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Tactic_Defeat_2",
+            "LocalizeJP": "もう一度やってみましょう。今度はきっとうまくいきます。",
+            "LocalizeEN": "Let's try again. I'm sure it will work this time."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Tactic_In_1",
-            "LocalizeJP": "みんなで頑張りましょうね！",
-            "LocalizeEN": ""
+            "LocalizeJP": "みんなで頑張りましょうね。",
+            "LocalizeEN": "Let's all do our best."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Tactic_In_2",
-            "LocalizeJP": "みなさん～、ファイト！オ～！ですよ～☆",
-            "LocalizeEN": ""
+            "LocalizeJP": "皆さんファイトですよ。",
+            "LocalizeEN": "Everyone is a fighter."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Tactic_Victory_1",
-            "LocalizeJP": "うふふ~ 任務完了です！",
-            "LocalizeEN": ""
+            "LocalizeJP": "任務完了です。",
+            "LocalizeEN": "Mission complete."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Tactic_Victory_2",
+            "LocalizeJP": "サクッと 勝利です。",
+            "LocalizeEN": "A quick victory."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Buffed_1",
-            "LocalizeJP": "ありがとうございます～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "ありがとうございます。",
+            "LocalizeEN": "thank you."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_BuffSelf_1",
-            "LocalizeJP": "張り切って行きましょう～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "張り切っていきましょう。",
+            "LocalizeEN": "Let's keep working hard."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Battle_Damage_1",
+            "LocalizeJP": "あいたたた",
+            "LocalizeEN": "Aitatata"
         },
         {
             "CharacterId": 10044,
@@ -81,8 +102,8 @@
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Defense_1",
-            "LocalizeJP": "無駄ですよー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "無駄ですよ。",
+            "LocalizeEN": "It's no use."
         },
         {
             "CharacterId": 10044,
@@ -95,64 +116,99 @@
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_In_2",
-            "LocalizeJP": "さぁ、では始めましょうか☆",
-            "LocalizeEN": ""
+            "LocalizeJP": "さっては始めましょうか。",
+            "LocalizeEN": "Shall we begin?"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Move_1",
-            "LocalizeJP": "どんどん行きますよ～",
-            "LocalizeEN": ""
+            "LocalizeJP": "どんどん行きますよ。",
+            "LocalizeEN": "I will keep going."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Move_2",
-            "LocalizeJP": "前進です～☆",
-            "LocalizeEN": ""
+            "LocalizeJP": "全身です。",
+            "LocalizeEN": "Whole body."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Recovery_1",
             "LocalizeJP": "元気が出ました。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm feeling better."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Battle_Retire",
-            "LocalizeJP": "少し、疲れてしまいました……。",
-            "LocalizeEN": ""
+            "LocalizeJP": "少し疲れてしまいました。",
+            "LocalizeEN": "I'm a little tired."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Battle_Shout_1",
+            "LocalizeJP": "発車",
+            "LocalizeEN": "departure"
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Battle_Shout_2",
+            "LocalizeJP": "少し痛いですよ。",
+            "LocalizeEN": "It hurts a little."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Battle_Victory_1",
+            "LocalizeJP": "大勝利です。",
+            "LocalizeEN": "Big win."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_Battle_Victory_2",
+            "LocalizeJP": "先生 お疲れ様でした。",
+            "LocalizeEN": "Thank you for your hard work, teacher."
+        },
+        {
+            "CharacterId": 10044,
+            "DialogCategory": "Standard",
+            "VoiceClip": "CH0092_CommonSkill",
+            "LocalizeJP": "たまにはこういうのもいいですよね。",
+            "LocalizeEN": "It's good to be like this sometimes."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_ExSkill_1",
-            "LocalizeJP": "せーのっ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "せーの。",
+            "LocalizeEN": "Let's go."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_ExSkill_2",
-            "LocalizeJP": "行きますよぉ～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "行きますよ。",
+            "LocalizeEN": "I will go."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_ExSkill_3",
-            "LocalizeJP": "これはどうでしょう！",
-            "LocalizeEN": ""
+            "LocalizeJP": "これはどうでしょう。",
+            "LocalizeEN": "What about this?"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_ExSkill_Level_1",
-            "LocalizeJP": "スパイク～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "スパイク",
+            "LocalizeEN": "spike"
         },
         {
             "CharacterId": 10044,
@@ -172,57 +228,57 @@
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Growup_1",
-            "LocalizeJP": "ありがとうございます。これからも頑張りますね。",
-            "LocalizeEN": ""
+            "LocalizeJP": "ありがとうございます これからも頑張りますね",
+            "LocalizeEN": "Thank you"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Growup_2",
-            "LocalizeJP": "これ、とっても良いですね。ありがとうございます。",
-            "LocalizeEN": ""
+            "LocalizeJP": "これとってもいいですね ありがとうございます",
+            "LocalizeEN": "this is very nice thank you"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Growup_3",
-            "LocalizeJP": "これで、さらにお役に立てるかもです。",
-            "LocalizeEN": ""
+            "LocalizeJP": "これでさらにお役に立てるかもです。",
+            "LocalizeEN": "This might help you further."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Growup_4",
-            "LocalizeJP": "先生のために、これからも頑張りますよ～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生のために これからも頑張りますよ。",
+            "LocalizeEN": "I will continue to do my best for my teacher."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Relationship_Up_1",
-            "LocalizeJP": "夏の海はキラキラしてて良いですね。うふふ。みんなと、それに先生と一緒だからか、なおのこと輝いて見えます。",
-            "LocalizeEN": ""
+            "LocalizeJP": "夏の海は キラキラしてていいですね みんなと それに先生と一緒だからかなおのこと輝いて見えます",
+            "LocalizeEN": "It's nice to see the sea sparkle in summer.Kanao can be seen shining because she's with everyone and her teacher."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Relationship_Up_2",
-            "LocalizeJP": "この水着、どうでしょう？　感想を聞いてもいいですか？",
-            "LocalizeEN": ""
+            "LocalizeJP": "この水着 どうでしょう 感想を聞いてもいいですか？",
+            "LocalizeEN": "What do you think of this swimsuit? May I ask what you think?"
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Relationship_Up_3",
-            "LocalizeJP": "もっともっと、先生と色んなお話がしたいです。",
-            "LocalizeEN": ""
+            "LocalizeJP": "もっともっと先生といろんなお話がしたいです。",
+            "LocalizeEN": "I want to talk to you more and more."
         },
         {
             "CharacterId": 10044,
             "DialogCategory": "Standard",
             "VoiceClip": "CH0092_Relationship_Up_4",
-            "LocalizeJP": "先生もちゃんと楽しめてますか？……なら、私も嬉しいです。",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生も ちゃんと楽しめてますか なら私も嬉しいです。",
+            "LocalizeEN": "If the teacher is enjoying it properly, I'm happy too."
         }
     ]
 }

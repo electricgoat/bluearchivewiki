@@ -1,0 +1,277 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Formation_In_1",
+            "LocalizeJP": "私に任せて。",
+            "LocalizeEN": "leave it to me"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Formation_In_2",
+            "LocalizeJP": "それが命令なら。",
+            "LocalizeEN": "if that is the order."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Formation_Select",
+            "LocalizeJP": "もう一応 従うけどしっかり頼むよ 先生。",
+            "LocalizeEN": "I'll obey you once more, but I'll ask you to be firm, Sensei."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_Defeat_1",
+            "LocalizeJP": "諦めない。",
+            "LocalizeEN": "to not give up."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_Defeat_2",
+            "LocalizeJP": "悔しい。",
+            "LocalizeEN": "regrettable."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_In_1",
+            "LocalizeJP": "意義なし 出発する。",
+            "LocalizeEN": "irrelevant I'm leaving."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_In_2",
+            "LocalizeJP": "点滅させてやる。",
+            "LocalizeEN": "I'll let it flash."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_Victory_1",
+            "LocalizeJP": "油断はしない。",
+            "LocalizeEN": "I will not let my guard down."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Tactic_Victory_2",
+            "LocalizeJP": "当たり前の結果だ。",
+            "LocalizeEN": "It's a natural result."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Buffed_1",
+            "LocalizeJP": "サン",
+            "LocalizeEN": "Sun"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_BuffSelf_1",
+            "LocalizeJP": "覚悟しろ。",
+            "LocalizeEN": "Be prepared."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Covered_1",
+            "LocalizeJP": "準備完了。",
+            "LocalizeEN": "Ready."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Damage_2",
+            "LocalizeJP": "負けたく。",
+            "LocalizeEN": "I want to lose"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Damage_3",
+            "LocalizeJP": "ありえ",
+            "LocalizeEN": "Arie"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_In_1",
+            "LocalizeJP": "さあ、行くぞ。",
+            "LocalizeEN": "Here we go."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_In_2",
+            "LocalizeJP": "7時に従う 全身",
+            "LocalizeEN": "Follow 7 o'clock whole body"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Move_1",
+            "LocalizeJP": "さて さっさと片付けよう",
+            "LocalizeEN": "Now let's clean up"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Move_2",
+            "LocalizeJP": "次。",
+            "LocalizeEN": "Next."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Recovery_1",
+            "LocalizeJP": "ありがたい感謝する。",
+            "LocalizeEN": "Thank you very much."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Retire",
+            "LocalizeJP": "やられたか。",
+            "LocalizeEN": "did you get hit?"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Shout_2",
+            "LocalizeJP": "遅。",
+            "LocalizeEN": "Late."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Shout_3",
+            "LocalizeJP": "行くぞ。",
+            "LocalizeEN": "let's go."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_TacticalAction_1",
+            "LocalizeJP": "移動する。",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Victory_1",
+            "LocalizeJP": "これが ゲヘナ 風紀委員会の力だ。",
+            "LocalizeEN": "This is the power of the Gehenna Disciplinary Commission."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Victory_2",
+            "LocalizeJP": "私1人でも十分だった。",
+            "LocalizeEN": "It was enough for me alone."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_1",
+            "LocalizeJP": "リロード 完了 覚悟しろ。",
+            "LocalizeEN": "Reload complete Prepare yourself."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_2",
+            "LocalizeJP": "射程距離に入った 行くぞ。",
+            "LocalizeEN": "I'm in range. Let's go."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_3",
+            "LocalizeJP": "ゲヘナ 吹き 委員会のスナイパーをなめるな。",
+            "LocalizeEN": "Gehenna Blowing Don't Lick the Commission's Sniper."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_Level_1",
+            "LocalizeJP": "逃げても無駄だ。",
+            "LocalizeEN": "It's no use running away."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_Level_2",
+            "LocalizeJP": "これでとどめだ。",
+            "LocalizeEN": "Stop with this."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_ExSkill_Level_3",
+            "LocalizeJP": "覚悟しろ、規則違反者ともめ",
+            "LocalizeEN": "Get ready, rule-breakers and quarrels"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Growup_1",
+            "LocalizeJP": "確かに強くなった気分。",
+            "LocalizeEN": "I definitely feel stronger."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Growup_2",
+            "LocalizeJP": "これからも大変な 任務なら私に任せて。",
+            "LocalizeEN": "If you continue to have difficult missions, leave them to me."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Growup_3",
+            "LocalizeJP": "ベストを尽くして成果を得る 当たり前のようだけど、叶うと本当に嬉しい。",
+            "LocalizeEN": "Do your best and get results It seems obvious, but I'm really happy when it comes true."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Growup_4",
+            "LocalizeJP": "ありがとう。先生 これからもよろしく。",
+            "LocalizeEN": "thank you. Thank you for your continued support."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Relationship_Up_1",
+            "LocalizeJP": "少しは頼れそうな先生になったかな。",
+            "LocalizeEN": "I wonder if I've become a teacher who can rely on a little bit."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Relationship_Up_2",
+            "LocalizeJP": "ずっと風神界のことだけで頭がいっぱいだったけど、最近は少し 別のことに夢中になってる。",
+            "LocalizeEN": "I've always been preoccupied with the Fujinkai, but lately I've been preoccupied with something else."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Relationship_Up_3",
+            "LocalizeJP": "新しい任務が入った一緒にそれを遂行してその帰り道にちょっと遊んでくるっていうのはどう",
+            "LocalizeEN": "How about carrying out a new mission together and having a little fun on the way home?"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Relationship_Up_4",
+            "LocalizeJP": "急に近寄るなんでって その心の準備が必要だから",
+            "LocalizeEN": "Because you need to prepare your heart for suddenly approaching"
+        }
+    ]
+}

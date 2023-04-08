@@ -1,0 +1,291 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Formation_In_1",
+            "LocalizeJP": "しょうがない。",
+            "LocalizeEN": "can't help."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Formation_In_2",
+            "LocalizeJP": "準備はできてる。",
+            "LocalizeEN": "I'm ready."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Formation_Select",
+            "LocalizeJP": "いいわ。",
+            "LocalizeEN": "Right on."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_Defeat_1",
+            "LocalizeJP": "油断したの。",
+            "LocalizeEN": "I let my guard down."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_Defeat_2",
+            "LocalizeJP": "私らしくないミスをごめん 先生。",
+            "LocalizeEN": "I'm sorry for my uncharacteristic mistakes, Sensei."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_In_1",
+            "LocalizeJP": "めんどくさいけど ま やらなきゃいけないことだから",
+            "LocalizeEN": "It's troublesome, but it's something I have to do"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_In_2",
+            "LocalizeJP": "先生の指示に従う。",
+            "LocalizeEN": "Follow your teacher's instructions."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_Victory_1",
+            "LocalizeJP": "これくらいの任務 別に 何ともない。",
+            "LocalizeEN": "I have nothing to do with this kind of mission."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Tactic_Victory_2",
+            "LocalizeJP": "簡単な仕事だったけどまあ お疲れ様 先生",
+            "LocalizeEN": "It was an easy job, but thank you for your hard work, teacher."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Buffed_1",
+            "LocalizeJP": "支援を確認した。",
+            "LocalizeEN": "Confirmed support."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_BuffSelf_1",
+            "LocalizeJP": "覚悟して。",
+            "LocalizeEN": "Be prepared."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Damage_1",
+            "LocalizeJP": "全く。",
+            "LocalizeEN": "not at all."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Damage_2",
+            "LocalizeJP": "よくないな。",
+            "LocalizeEN": "Not good."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Defense_1",
+            "LocalizeJP": "無駄。",
+            "LocalizeEN": "waste."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_In_1",
+            "LocalizeJP": "戦闘突入、極力早く 侵入する。",
+            "LocalizeEN": "Enter battle, invade as quickly as possible."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_In_2",
+            "LocalizeJP": "さあ、行こう。",
+            "LocalizeEN": "Alright, let's go."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Move_1",
+            "LocalizeJP": "めんどくさい。",
+            "LocalizeEN": "bothersome."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Move_2",
+            "LocalizeJP": "もうやってもやっても終わらない。",
+            "LocalizeEN": "It doesn't end no matter how much you do it."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Recovery_1",
+            "LocalizeJP": "よし、回復した。",
+            "LocalizeEN": "ok, i'm recovered."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Retire",
+            "LocalizeJP": "全く どこで間違えたのか。",
+            "LocalizeEN": "where did i go wrong at all?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Supply",
+            "LocalizeJP": "補給 確認",
+            "LocalizeEN": "replenishment"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_TacticalAction_1",
+            "LocalizeJP": "移動する。",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_TSA_1",
+            "LocalizeJP": "風紀委員会の6号戦車 この威力を今こそ試すとき",
+            "LocalizeEN": "The disciplinary committee's No. 6 tank. Now is the time to test its power."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_TSA_2",
+            "LocalizeJP": "これで戦況は こっちに傾いたもう諦めて",
+            "LocalizeEN": "With this, the battle situation has tilted in this direction, give up already"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Victory_1",
+            "LocalizeJP": "当然の結果ってわけ。",
+            "LocalizeEN": "It's a natural result."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Battle_Victory_2",
+            "LocalizeJP": "勝利を 次は何をしたらいい",
+            "LocalizeEN": "victory what should i do next"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_CommonSkill",
+            "LocalizeJP": "行こう。",
+            "LocalizeEN": "let's go."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_1",
+            "LocalizeJP": "実力行使で行く。",
+            "LocalizeEN": "Go by force."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_2",
+            "LocalizeJP": "こいつの出番。",
+            "LocalizeEN": "This guy's turn."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_3",
+            "LocalizeJP": "ターゲットは確認した。",
+            "LocalizeEN": "Target confirmed."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_Level_1",
+            "LocalizeJP": "どれくらい耐えられるか見ものね。",
+            "LocalizeEN": "Let's see how long it can last."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_Level_2",
+            "LocalizeJP": "逃げることはできない。",
+            "LocalizeEN": "You cannot escape."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_ExSkill_Level_3",
+            "LocalizeJP": "逃さない。",
+            "LocalizeEN": "Don't miss it."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Growup_1",
+            "LocalizeJP": "より強くなった。",
+            "LocalizeEN": "got stronger."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Growup_2",
+            "LocalizeJP": "まだ成長できるんだ。",
+            "LocalizeEN": "I can still grow"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Growup_3",
+            "LocalizeJP": "この力は先生のために使う。",
+            "LocalizeEN": "Use this power for your teacher."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Growup_4",
+            "LocalizeJP": "気にしてくれてありがとう。",
+            "LocalizeEN": "Thank you for your concern."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Relationship_Up_1",
+            "LocalizeJP": "こんな私でもいいの。",
+            "LocalizeEN": "It's okay to be like this."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Relationship_Up_2",
+            "LocalizeJP": "一緒にいてくれてありがとう先生。",
+            "LocalizeEN": "Thank you for being with me, sir."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Relationship_Up_3",
+            "LocalizeJP": "こんな時はどうすればいいのかよくわからなくてごめん。",
+            "LocalizeEN": "I'm sorry I don't really know what to do in this situation."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hina_Relationship_Up_4",
+            "LocalizeJP": "このぬくもり 先生の温かさが伝わってきてるのかな。",
+            "LocalizeEN": "This warmth I wonder if the warmth of the teacher is transmitted."
+        }
+    ]
+}
