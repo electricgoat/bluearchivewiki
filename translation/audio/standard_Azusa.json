@@ -18,7 +18,7 @@
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Tactic_Defeat_1",
-            "LocalizeJP": "戦略を間違えた 私のミスだ ごめん。",
+            "LocalizeJP": "戦略を間違えた。私のミスだ。ごめん。",
             "LocalizeEN": "Wrong strategy It's my mistake I'm sorry."
         },
         {
@@ -46,14 +46,14 @@
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Tactic_Victory_1",
-            "LocalizeJP": "処理 任務完了。",
+            "LocalizeJP": "勝利。任務完了。",
             "LocalizeEN": "Action Mission complete."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Tactic_Victory_2",
-            "LocalizeJP": "まだまだ大丈夫。他にも やることがあるなら任せて。",
+            "LocalizeJP": "まだまだ大丈夫。他にもやることがあるなら任せて。",
             "LocalizeEN": "It's still okay. If you have other things to do, leave it to me."
         },
         {
@@ -67,21 +67,21 @@
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_BuffSelf_1",
-            "LocalizeJP": "覚悟",
-            "LocalizeEN": "readiness"
+            "LocalizeJP": "覚悟しろ。",
+            "LocalizeEN": "Prepare yourself."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Covered_1",
             "LocalizeJP": "遮蔽物を確保。",
-            "LocalizeEN": "Secure cover."
+            "LocalizeEN": "Cover secured."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Damage_3",
-            "LocalizeJP": "くそやられた。",
+            "LocalizeJP": "くそ、やられた。",
             "LocalizeEN": "Damn it."
         },
         {
@@ -95,7 +95,7 @@
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_In_1",
-            "LocalizeJP": "光線を開始する。",
+            "LocalizeJP": "抗戦を開始する。",
             "LocalizeEN": "Start the rays."
         },
         {
@@ -116,162 +116,162 @@
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Move_2",
-            "LocalizeJP": "ここはある程度 片付いた行こう。",
+            "LocalizeJP": "ここはある程度片付いた。行こう。",
             "LocalizeEN": "Let's clear things up to some extent here."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Recovery_1",
-            "LocalizeJP": "回復 完了。",
+            "LocalizeJP": "回復完了。",
             "LocalizeEN": "Recovery complete."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Retire",
-            "LocalizeJP": "まさかこんな",
-            "LocalizeEN": "No way this"
+            "LocalizeJP": "まさか、こんな…",
+            "LocalizeEN": "This can't be..."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_TacticalAction_1",
             "LocalizeJP": "ポジションを移動する。",
-            "LocalizeEN": "move positions."
+            "LocalizeEN": "Changing position."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_TSA_1",
-            "LocalizeJP": "先日 支援兵器 到着 今から 敵の殲滅作戦に入る",
-            "LocalizeEN": "Support weapons arrived the other day"
+            "LocalizeJP": "戦術支援兵器到着。今から敵の全滅作戦に入る。",
+            "LocalizeEN": "Tactical support weapon has arrived. Proceeding to target elimination."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_TSA_2",
-            "LocalizeJP": "先日 新兵器 登場タンクデサントを始める",
-            "LocalizeEN": "The other day, a new weapon appeared Tank Descente started"
+            "LocalizeJP": "戦術支援兵器登場。タンクデサントを始める。",
+            "LocalizeEN": "Tactical support weapon is here. Commencing tank descent."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Victory_1",
-            "LocalizeJP": "任務の成功 完了。",
-            "LocalizeEN": "Mission Success Complete."
+            "LocalizeJP": "任務の遂行完了。",
+            "LocalizeEN": "Mission progress complete."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Victory_2",
             "LocalizeJP": "まあ、当たり前の結果だ。",
-            "LocalizeEN": "Well, it's a normal result."
+            "LocalizeEN": "Success, as expected."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_CommonSkill",
-            "LocalizeJP": "ターゲット確認",
-            "LocalizeEN": "target confirmation"
+            "LocalizeJP": "ターゲット確認。",
+            "LocalizeEN": "Target confirmed."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_1",
-            "LocalizeJP": "ヴァニタス ヴァニタ 頭 江藤も庭 ヴァニタ",
-            "LocalizeEN": "Vanitas Vanita Head Eto Mo Niwa Vanita"
+            "LocalizeJP": "ヴァニタスヴァニタートゥム、エトオムニアヴァニタス。",
+            "LocalizeEN": "Vanitas Vanitatum Et Omnia Vanitas."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_2",
-            "LocalizeJP": "ヴァニタス 場にたー。",
-            "LocalizeEN": "Go to Vanitas."
+            "LocalizeJP": "ヴァニタスヴァニタートゥム",
+            "LocalizeEN": "Vanitas Vanitatum."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_3",
-            "LocalizeJP": "全てを無に 機種 徒労であると知れ、",
-            "LocalizeEN": "Knowing that everything is a waste of time,"
+            "LocalizeJP": "全てを無に帰し、徒労であると知れ。",
+            "LocalizeEN": "Turn everything to dust. Show it's all a futile effort."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_Level_1",
             "LocalizeJP": "これで楽になるはず。",
-            "LocalizeEN": "This should make it easier."
+            "LocalizeEN": "This should make things easier."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_Level_2",
             "LocalizeJP": "仕方ない。",
-            "LocalizeEN": "it can not be helped."
+            "LocalizeEN": "It can not be helped."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_ExSkill_Level_3",
             "LocalizeJP": "これでもう大丈夫なはず。",
-            "LocalizeEN": "This should be fine."
+            "LocalizeEN": "Everything should go well now."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Growup_1",
-            "LocalizeJP": "戦術 推敲 能力が上がった。",
-            "LocalizeEN": "Tactical elaboration ability increased."
+            "LocalizeJP": "戦術遂行能力が上がった。",
+            "LocalizeEN": "My tactical operation skills increased."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Growup_2",
             "LocalizeJP": "強くなった。",
-            "LocalizeEN": "I got stronger."
+            "LocalizeEN": "I've grown stronger."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Growup_3",
             "LocalizeJP": "期待に応えられるようにする。",
-            "LocalizeEN": "Meet expectations."
+            "LocalizeEN": "I'll strive to meet your expectations."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Growup_4",
-            "LocalizeJP": "成長した ありがとう",
-            "LocalizeEN": "grown up thank you"
+            "LocalizeJP": "成長した。ありがとう。",
+            "LocalizeEN": "I've grown up. Thank you."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Relationship_Up_1",
-            "LocalizeJP": "こんな気持ち 想像してなかった。",
-            "LocalizeEN": "I never imagined feeling like this."
+            "LocalizeJP": "こんな気持ち、想像してなかった。",
+            "LocalizeEN": "This feeling, I never imagined."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Relationship_Up_2",
-            "LocalizeJP": "ありがとう。",
-            "LocalizeEN": "thank you."
+            "LocalizeJP": "ううん、ありがとう。",
+            "LocalizeEN": "It's nothing. Thank you."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Relationship_Up_3",
-            "LocalizeJP": "気を使ってくれてありがとう。",
-            "LocalizeEN": "Thank you for your concern."
+            "LocalizeJP": "う、うん。気を使ってくれてありがとう。",
+            "LocalizeEN": "Y-yes. Thank you for your concern."
         },
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Relationship_Up_4",
-            "LocalizeJP": "ドキドキする どうすればいいかわからない。",
-            "LocalizeEN": "My heart is pounding I don't know what to do."
+            "LocalizeJP": "ドキドキする。どうすればいいかわからない。",
+            "LocalizeEN": "My heart is pounding. What should I do?"
         }
     ]
 }
