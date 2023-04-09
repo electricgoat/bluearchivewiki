@@ -87,6 +87,13 @@
         {
             "CharacterId": 16001,
             "DialogCategory": "Standard",
+            "VoiceClip": "Asuna_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Standard",
             "VoiceClip": "Asuna_Battle_Damage_2",
             "LocalizeJP": "助けて。",
             "LocalizeEN": "Help!"
@@ -146,6 +153,20 @@
             "VoiceClip": "Asuna_Battle_Retire",
             "LocalizeJP": "ごめん。",
             "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Asuna_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Asuna_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16001,

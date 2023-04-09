@@ -101,6 +101,20 @@
         {
             "CharacterId": 13000,
             "DialogCategory": "Standard",
+            "VoiceClip": "Akane_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akane_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Standard",
             "VoiceClip": "Akane_Battle_In_1",
             "LocalizeJP": "お任せください。ご主人様とご一緒することこそ私のやりがいですから。",
             "LocalizeEN": "Please leave it to me. Working alongside my master is my calling."
@@ -143,9 +157,30 @@
         {
             "CharacterId": 13000,
             "DialogCategory": "Standard",
+            "VoiceClip": "Akane_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Standard",
             "VoiceClip": "Akane_Battle_Shout_2",
             "LocalizeJP": "あらあら。",
             "LocalizeEN": "Oh my."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akane_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akane_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13000,

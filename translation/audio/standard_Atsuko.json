@@ -17,6 +17,20 @@
         {
             "CharacterId": 10042,
             "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Tactic_Defeat_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
             "VoiceClip": "Atsuko_Tactic_Defeat_2",
             "LocalizeJP": "負けちゃった。",
             "LocalizeEN": "We lost."
@@ -73,6 +87,20 @@
         {
             "CharacterId": 10042,
             "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
             "VoiceClip": "Atsuko_Battle_Damage_3",
             "LocalizeJP": "私、狙われる価値があるんだ。",
             "LocalizeEN": "So I am worth targeting after all."
@@ -83,6 +111,13 @@
             "VoiceClip": "Atsuko_Battle_Defense_1",
             "LocalizeJP": "無駄。",
             "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10042,
@@ -122,9 +157,37 @@
         {
             "CharacterId": 10042,
             "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
             "VoiceClip": "Atsuko_Battle_TacticalAction_1",
             "LocalizeJP": "そっちに行くね。",
             "LocalizeEN": "I'll go over there."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Atsuko_Battle_Victory_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10042,

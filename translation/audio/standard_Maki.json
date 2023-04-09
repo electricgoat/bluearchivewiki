@@ -80,6 +80,27 @@
         {
             "CharacterId": 10007,
             "DialogCategory": "Standard",
+            "VoiceClip": "Maki_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Maki_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Maki_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Standard",
             "VoiceClip": "Maki_Battle_Defense_1",
             "LocalizeJP": "無駄無駄。",
             "LocalizeEN": "really useless."
@@ -125,6 +146,13 @@
             "VoiceClip": "Maki_Battle_Retire",
             "LocalizeJP": "やられちゃった。",
             "LocalizeEN": "I got hit."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Maki_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10007,
@@ -202,6 +230,13 @@
             "VoiceClip": "Maki_ExSkill_Level_2",
             "LocalizeJP": "君たちにプレゼント",
             "LocalizeEN": "gift for you"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Maki_ExSkill_Level_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10007,

@@ -17,6 +17,13 @@
         {
             "CharacterId": 13005,
             "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
             "VoiceClip": "Kayoko_Tactic_Defeat_1",
             "LocalizeJP": "ごめんちょっと油断した",
             "LocalizeEN": "sorry i got a little careless"
@@ -80,6 +87,27 @@
         {
             "CharacterId": 13005,
             "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
             "VoiceClip": "Kayoko_Battle_Defense_1",
             "LocalizeJP": "この程度。",
             "LocalizeEN": "This degree."
@@ -118,6 +146,20 @@
             "VoiceClip": "Kayoko_Battle_Recovery_1",
             "LocalizeJP": "ありがたくもらう。",
             "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Battle_Retire",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13005,
@@ -178,9 +220,23 @@
         {
             "CharacterId": 13005,
             "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_ExSkill_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
             "VoiceClip": "Kayoko_ExSkill_2",
             "LocalizeJP": "仕方ないか。",
             "LocalizeEN": "I can't help it"
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Kayoko_ExSkill_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13005,

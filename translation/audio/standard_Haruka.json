@@ -17,6 +17,13 @@
         {
             "CharacterId": 16000,
             "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
             "VoiceClip": "Haruka_Tactic_Defeat_1",
             "LocalizeJP": "ごめんなさいごめんなさいごめんなさい",
             "LocalizeEN": "sorry sorry sorry"
@@ -66,6 +73,34 @@
         {
             "CharacterId": 16000,
             "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
             "VoiceClip": "Haruka_Battle_Defense_1",
             "LocalizeJP": "痛くありません。",
             "LocalizeEN": "It doesn't hurt."
@@ -111,6 +146,27 @@
             "VoiceClip": "Haruka_Battle_Retire",
             "LocalizeJP": "ダメなのに。",
             "LocalizeEN": "I can't."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16000,
@@ -174,6 +230,20 @@
             "VoiceClip": "Haruka_ExSkill_3",
             "LocalizeJP": "はるか 行きます。",
             "LocalizeEN": "I will go to Haruka."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_ExSkill_Level_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Haruka_ExSkill_Level_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16000,

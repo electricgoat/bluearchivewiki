@@ -38,6 +38,20 @@
         {
             "CharacterId": 23000,
             "DialogCategory": "Standard",
+            "VoiceClip": "Airi_ExSkill_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Airi_ExSkill_Level_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Standard",
             "VoiceClip": "Airi_ExSkill_Level_3",
             "LocalizeJP": "もったいない。",
             "LocalizeEN": "Such a waste."

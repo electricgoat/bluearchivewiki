@@ -3,6 +3,13 @@
         {
             "CharacterId": 10020,
             "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Formation_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
             "VoiceClip": "Koharu_Formation_In_2",
             "LocalizeJP": "仕方ないなあ。",
             "LocalizeEN": "I can't help it."
@@ -45,9 +52,23 @@
         {
             "CharacterId": 10020,
             "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Tactic_Victory_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
             "VoiceClip": "Koharu_Tactic_Victory_2",
             "LocalizeJP": "見たこれが私の実力よ。",
             "LocalizeEN": "You see, this is my strength."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Buffed_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10020,
@@ -62,6 +83,27 @@
             "VoiceClip": "Koharu_Battle_Covered_1",
             "LocalizeJP": "生物 確保",
             "LocalizeEN": "securing"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10020,
@@ -115,6 +157,27 @@
         {
             "CharacterId": 10020,
             "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
             "VoiceClip": "Koharu_Battle_TacticalAction_1",
             "LocalizeJP": "今行くわ。",
             "LocalizeEN": "I'm going now"
@@ -153,6 +216,27 @@
             "VoiceClip": "Koharu_CommonSkill",
             "LocalizeJP": "待ってて。",
             "LocalizeEN": "Have been waiting."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_ExSkill_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_ExSkill_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Koharu_ExSkill_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10020,

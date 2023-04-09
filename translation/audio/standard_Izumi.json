@@ -3,9 +3,23 @@
         {
             "CharacterId": 10009,
             "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Formation_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
             "VoiceClip": "Izumi_Formation_In_2",
             "LocalizeJP": "準備完了。",
             "LocalizeEN": "Ready."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10009,
@@ -73,6 +87,13 @@
         {
             "CharacterId": 10009,
             "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
             "VoiceClip": "Izumi_Battle_Damage_3",
             "LocalizeJP": "お腹空いた。",
             "LocalizeEN": "I'm hungry."
@@ -129,6 +150,27 @@
         {
             "CharacterId": 10009,
             "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
             "VoiceClip": "Izumi_Battle_TacticalAction_1",
             "LocalizeJP": "あっちに行くね。",
             "LocalizeEN": "I'll go over there."
@@ -136,9 +178,23 @@
         {
             "CharacterId": 10009,
             "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Battle_Victory_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
             "VoiceClip": "Izumi_Battle_Victory_2",
             "LocalizeJP": "暴れた後のハンバーガーってやっぱり 最高。",
             "LocalizeEN": "A hamburger after a rampage is still the best."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10009,
@@ -167,6 +223,13 @@
             "VoiceClip": "Izumi_ExSkill_Level_1",
             "LocalizeJP": "元気が出る。",
             "LocalizeEN": "I feel better."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_ExSkill_Level_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10009,
@@ -223,6 +286,13 @@
             "VoiceClip": "Izumi_Relationship_Up_3",
             "LocalizeJP": "今度は何を食べようか。",
             "LocalizeEN": "What shall we eat next time?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Izumi_Relationship_Up_4",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         }
     ]
 }

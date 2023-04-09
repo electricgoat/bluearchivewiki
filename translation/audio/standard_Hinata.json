@@ -73,6 +73,13 @@
         {
             "CharacterId": 10036,
             "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
             "VoiceClip": "Hinata_Battle_Covered_1",
             "LocalizeJP": "もう勘弁してください。",
             "LocalizeEN": "Please excuse me."
@@ -80,9 +87,37 @@
         {
             "CharacterId": 10036,
             "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
             "VoiceClip": "Hinata_Battle_Defense_1",
             "LocalizeJP": "無駄です。",
             "LocalizeEN": "It is a waste."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10036,
@@ -122,6 +157,34 @@
         {
             "CharacterId": 10036,
             "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
             "VoiceClip": "Hinata_Battle_Victory_1",
             "LocalizeJP": "シャッター やりました。",
             "LocalizeEN": "I did the shutter."
@@ -132,6 +195,13 @@
             "VoiceClip": "Hinata_Battle_Victory_2",
             "LocalizeJP": "私もしかしてうまくできたのでしょうか",
             "LocalizeEN": "Did I do well?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hinata_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10036,

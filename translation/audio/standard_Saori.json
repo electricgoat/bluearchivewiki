@@ -73,9 +73,37 @@
         {
             "CharacterId": 10048,
             "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
             "VoiceClip": "Saori_Battle_Covered_1",
             "LocalizeJP": "遮蔽物 確保",
             "LocalizeEN": "Securing a shield"
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10048,
@@ -125,6 +153,27 @@
             "VoiceClip": "Saori_Battle_Retire",
             "LocalizeJP": "またこうなるとは 爪が甘いな。",
             "LocalizeEN": "To end like this again... I'm losing my edge."
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10048,
@@ -181,6 +230,13 @@
             "VoiceClip": "Saori_ExSkill_Level_1",
             "LocalizeJP": "誰もそこからは逃れられない。",
             "LocalizeEN": "No one can escape from it."
+        },
+        {
+            "CharacterId": 10048,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Saori_ExSkill_Level_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10048,

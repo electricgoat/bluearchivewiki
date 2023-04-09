@@ -17,6 +17,13 @@
         {
             "CharacterId": 10016,
             "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
             "VoiceClip": "Midori_Tactic_Defeat_1",
             "LocalizeJP": "悔しい。",
             "LocalizeEN": "regrettable."
@@ -66,9 +73,30 @@
         {
             "CharacterId": 10016,
             "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
             "VoiceClip": "Midori_Battle_Covered_1",
             "LocalizeJP": "ここに隠れます。",
             "LocalizeEN": "Hide here."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10016,
@@ -125,6 +153,27 @@
             "VoiceClip": "Midori_Battle_Retire",
             "LocalizeJP": "もう少し落ち着いてできてれば、",
             "LocalizeEN": "If only I could calm down a little more,"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Midori_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10016,
