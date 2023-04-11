@@ -143,8 +143,8 @@ def generate():
             line_copy['EventID'] -= 10000
             if line_copy in event_lines:
                 event_lines.remove(line)
-            else:
-                print(line)
+            # else:
+            #     print(line)
             
 
 
@@ -260,8 +260,8 @@ def get_standard_lines(character, files, dialog_data):
         line['WikiName'] = f"{character.wiki_name.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
         line['Title'] = line['VoiceClip'].split('_', 1)[1]
 
-        if line['VoiceClip'] in dialog_data:
-            line.update(dialog_data[line['VoiceClip']])
+        if line['WikiName'].split('.')[0] in dialog_data:
+            line.update(dialog_data[line['WikiName'].split('.')[0]])
         
         if 'LocalizeJP' not in line or line['LocalizeJP'] == None: line['LocalizeJP'] = ''
         if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''

@@ -217,6 +217,13 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
     data = []
     data_aux = []
 
+    # Even old JP script keeps getting tweaked, so clean out some formatting changes for better matching
+    # aggresive option removes ALL line breaks to hopefully match more lines, non-aggressively cleaned line is then actually used
+    def line_cleanup(text, aggresive = False): 
+        text = text.replace('\n\r','\n').replace('\r','').replace(' \n','\n').replace('\n ','\n').strip()
+        if (aggresive): text = text.replace('\n','').replace('  ',' ').strip()
+        return text
+
     with open(os.path.join(path_primary, 'Excel', filename), encoding="utf8") as f:
         data_primary = json.load(f)['DataList']
 
@@ -233,17 +240,17 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
     
 
     for line in data_secondary:
-        ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'].replace('\n\r','\n').replace('\r',''))] = line 
+        ds[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
 
     for line in data_aux:
-        da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'].replace('\n\r','\n').replace('\r',''))] = line 
+        da[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
 
     for line in data_primary:
         try: 
-            line['LocalizeJP'] = line['LocalizeJP'].replace('\n\r','\n').replace('\r','')
+            line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
 
-            if (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in da: line['LocalizeEN'] = da[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN'].replace('\n\r','\n')
-            elif (line['CharacterId'], line['DialogCategory'], line['LocalizeJP']) in ds: line['LocalizeEN'] = ds[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]['LocalizeEN'].replace('\n\r','\n')
+            if (line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in da: line['LocalizeEN'] = line_cleanup(da[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
+            elif (line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in ds: line['LocalizeEN'] = line_cleanup(ds[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
             elif 'LocalizeEN' not in line: line['LocalizeEN'] = ''
 
         except KeyError:

@@ -1,0 +1,44 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "자. 그럼 지금부터\n상처를 소독할 테니,",
+            "LocalizeJP": "さあ、ではまず\n傷口を消毒するので、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "양말을 걷고\n얌전히 기다려주세요.",
+            "LocalizeJP": "靴下を脱いで大人しく\nしていてください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "제대로 상처를\n소독하지 않으면\n상처에 염증이 일어나",
+            "LocalizeJP": "きちんと消毒しないと、\n傷から炎症を起こして",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "큰일이 생길지도\n모르니까요.",
+            "LocalizeJP": "大変なことになって\nしまうかもしれません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "하실 일들의 리스트를\n정리해 보았습니다…….",
+            "LocalizeJP": "や、やることリストを\nまとめてみました……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이쪽이에요.\n선생님께 부탁드릴 일들입니다…….",
+            "LocalizeJP": "こ、こちらです。先生には、\nお手数をおかけしますが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "음……? 선생님…….",
+            "LocalizeJP": "せ、先生？\nこれは、どういう……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아니에요……. 괜찮습니다…….",
+            "LocalizeJP": "あ、いえ、\nお気になさらず……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이렇게 둘이서 리스트를\n정리하는 것도 즐겁네요…….",
+            "LocalizeJP": "こ、こうやってただ、\nふたりでリストを確認しているだけで……\n何だか、楽しいですね……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "아……. 네.\n잘 해결됐습니다…….",
+            "LocalizeJP": "あ、お疲れ様です……\n何とか上手くいったようですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "그렇군요…….\n네. 체크해 둘 게요…….",
+            "LocalizeJP": "あ、そうでしたか……\nでは、チェックしておきますね。\nお疲れ様でした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘 일은…….\n여기서 끝났습니다…….\n감사합니다, 선생님…….",
+            "LocalizeJP": "きょ、今日の分は、\nこれで終わり……ですね。\nあ、ありがとうございました、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Day_End"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "하실 일들의 리스트를\n정리해 보았습니다…….",
+            "LocalizeJP": "や、やることリストを\nまとめてみました……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이쪽이에요.\n선생님께 부탁드릴 일들입니다…….",
+            "LocalizeJP": "こ、こちらです。先生には、\nお手数をおかけしますが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "음……? 선생님…….",
+            "LocalizeJP": "せ、先生？\nこれは、どういう……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아니에요……. 괜찮습니다…….",
+            "LocalizeJP": "あ、いえ、\nお気になさらず……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "이렇게 둘이서 리스트를\n정리하는 것도 즐겁네요…….",
+            "LocalizeJP": "こ、こうやってただ、\nふたりでリストを確認しているだけで……\n何だか、楽しいですね……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "아……. 네.\n잘 해결됐습니다…….",
+            "LocalizeJP": "あ、お疲れ様です……\n何とか上手くいったようですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "그렇군요…….\n네. 체크해 둘 게요…….",
+            "LocalizeJP": "あ、そうでしたか……\nでは、チェックしておきますね。\nお疲れ様でした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009030,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘 일은…….\n여기서 끝났습니다…….\n감사합니다, 선생님…….",
+            "LocalizeJP": "きょ、今日の分は、\nこれで終わり……ですね。\nあ、ありがとうございました、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0169_EventMission_Day_End"
+            ]
+        }
+    ]
+}

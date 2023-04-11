@@ -1,0 +1,40 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009067,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "일단은 실행위원이지만,\n몇몇 경기는 직접\n출전할 예정이라서요.",
+            "LocalizeJP": "実行委員ではありますが、\nいくつかの種目に\n出場する予定です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0184_EventLogin_2_1"
+            ]
+        },
+        {
+            "CharacterId": 19009067,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "대회도 어느덧 후반부……\n마지막까지 긴장을\n늦추지 말아주세요!",
+            "LocalizeJP": "晄輪大祭も、もう終盤……\n最後まで気を\n緩めないでくださいね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0184_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009067,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "역시 조금……\n들뜬 것처럼\n보이려나요……?",
+            "LocalizeJP": "やっぱり、ちょっと……\n浮かれているように\n見えます……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0184_EventLobby_3_3"
+            ]
+        }
+    ]
+}

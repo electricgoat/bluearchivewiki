@@ -1,0 +1,52 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009043,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "우갹, 벌써 이런\n시간이…. 이거,\n늦지 않으려나…?",
+            "LocalizeJP": "うっぎゃ、もうこんな\n時間……これ、\n間に合うのかな……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0113_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009043,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "닌자란,\n포기하지 않는 자.",
+            "LocalizeJP": "忍者とは、\n諦めないもの",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0113_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009043,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "우갹, 벌써 이런\n시간이…. 이거,\n늦지 않으려나…?",
+            "LocalizeJP": "うっぎゃ、もうこんな\n時間……これ、\n間に合うのかな……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0113_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009043,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "닌자란,\n포기하지 않는 자.",
+            "LocalizeJP": "忍者とは、\n諦めないもの",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0113_EventLobby_3"
+            ]
+        }
+    ]
+}
