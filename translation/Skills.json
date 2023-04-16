@@ -67,17 +67,17 @@
         },
         {
             "GroupId": "UtahaPassive01",
-            "NameEn": "Technology's Revolution",
+            "NameEn": "Technological Revolution",
             "DescriptionEn": "Increase Attack by $1."
         },
         {
             "GroupId": "UtahaWeaponPassive01",
-            "NameEn": "Technology's Revolution +",
+            "NameEn": "Technological Revolution +",
             "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
         },
         {
             "GroupId": "UtahaExtraPassive01",
-            "NameEn": "Oath of My star",
+            "NameEn": "Meister's Oath",
             "DescriptionEn": "Increase HP of all allies by $1."
         },
         {
@@ -3481,6 +3481,32 @@
             "GroupId": "CH0087ExtraPassive01",
             "NameEn": "With all my heart",
             "DescriptionEn": "Increase Cost Recovery of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0107Ex01",
+            "NameEn": "Being a fan",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0107Public01",
+            "NameEn": "Clear mind",
+            "DescriptionEn": "Every $1, apply \"Serenity\" status and increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0107Passive01",
+            "NameEn": "Passionate dedication",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0107WeaponPassive01",
+            "NameEn": "Passionate dedication +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0107ExtraPassive01",
+            "NameEn": "Tranquil composure",
+            "DescriptionEn": "When \"Serenity\" status is active, deal $1 of Attack as additional damage."
         }
         
     ]
