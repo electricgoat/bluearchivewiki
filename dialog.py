@@ -314,6 +314,11 @@ def get_dialog_lines(character, dialog_data):
             line['LocalizeJP'] = len(line['LocalizeJP'])>0 and '<p>' + line['LocalizeJP'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
             line['LocalizeEN'] = len(line['LocalizeEN'])>0 and '<p>' + line['LocalizeEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
 
+            #Some characters have title drop spelled out, some don't. Default to neutral game name if there's nothing.
+            if line['Title'] == 'Title':
+                if not line['LocalizeJP']: line['LocalizeJP'] = 'ブルーアーカイブ'
+                if not line['LocalizeEN']: line['LocalizeEN'] = 'Blue Archive' 
+
             #this varies arbitrarily for event reruns, so it's easier to ignore
             if 'DialogConditionDetailValue' in line: line.pop('DialogConditionDetailValue')
 
@@ -430,7 +435,7 @@ def main():
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
-    parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
+    parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
     parser.add_argument('-upload_files',    action='store_false', help='Check if audio file is already on the wiki and upload it if not')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 

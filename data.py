@@ -221,7 +221,7 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
     # aggresive option removes ALL line breaks to hopefully match more lines, non-aggressively cleaned line is then actually used
     def line_cleanup(text, aggresive = False): 
         text = text.replace('\n\r','\n').replace('\r','').replace(' \n','\n').replace('\n ','\n').strip()
-        if (aggresive): text = text.replace('\n','').replace('  ',' ').strip()
+        if (aggresive): text = text.replace('\n','').replace(' ','').strip()
         return text
 
     with open(os.path.join(path_primary, 'Excel', filename), encoding="utf8") as f:

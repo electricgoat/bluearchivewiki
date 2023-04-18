@@ -64,6 +64,18 @@
             "CharacterId": 19009020,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "따, 딱히 즐기고 있는 건\n아니거든? 서기장으로서\n학원을 시찰하고 있을\n뿐이니까!",
+            "LocalizeJP": "ま、満喫なんてしてない！\nあくまで、書記長として、\n視察をしているんだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0164_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009020,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
             "GroupId": 4,
             "LocalizeKR": "게헨나의 그 온천개발부\n녀석들은 꽤나 실력이\n괜찮았었지……",
             "LocalizeJP": "あのゲヘナの\n温泉開発部のやつら、\nすごかったな……",
@@ -186,6 +198,18 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "CH0164_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009020,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "따, 딱히 즐기고 있는 건\n아니거든? 서기장으로서\n학원을 시찰하고 있을\n뿐이니까!",
+            "LocalizeJP": "ま、満喫なんてしてない！\nあくまで、書記長として、\n視察をしているんだ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0164_EventLobby_3"
             ]
         },
         {
