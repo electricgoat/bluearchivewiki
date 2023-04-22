@@ -5,48 +5,48 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Formation_In_1",
             "LocalizeJP": "医療支援はお任せください。",
-            "LocalizeEN": "Leave medical support to us."
+            "LocalizeEN": "Leave medical support to me."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Formation_In_2",
             "LocalizeJP": "出撃の時間ですね。",
-            "LocalizeEN": "It's time to sortie."
+            "LocalizeEN": "It's time to depart."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Battle_In_1",
-            "LocalizeJP": "千夏 参戦します。",
-            "LocalizeEN": "Chinatsu will participate."
+            "LocalizeJP": "チナツ、参戦します。",
+            "LocalizeEN": "Chinatsu will join the fight."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Battle_In_2",
-            "LocalizeJP": "助けが必要な時は 私を呼んでください。",
-            "LocalizeEN": "call me when you need help"
+            "LocalizeJP": "助けが必要な時は私を呼んでください。",
+            "LocalizeEN": "Call me when you need help."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_CommonSkill",
-            "LocalizeJP": "バイタル 成城 進んでください。",
-            "LocalizeEN": "Vital Seijo Please proceed."
+            "LocalizeJP": "バイタル正常。進んでください。",
+            "LocalizeEN": "Vitals are normal. Please proceed."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_ExSkill_1",
-            "LocalizeJP": "痛いですか ではこちらを。",
-            "LocalizeEN": "Does it hurt?"
+            "LocalizeJP": "痛いですか？ではこちらを。",
+            "LocalizeEN": "Does it hurt? Here."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_ExSkill_2",
-            "LocalizeJP": "助けが必要なら 私にお任せください。",
+            "LocalizeJP": "助けが必要なら私にお任せください。",
             "LocalizeEN": "Please let me know if you need help."
         },
         {
@@ -54,7 +54,7 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_ExSkill_3",
             "LocalizeJP": "薬品ではありません、未来です。",
-            "LocalizeEN": "It's not drugs, it's the future."
+            "LocalizeEN": "It's not medicine, it's the future."
         },
         {
             "CharacterId": 26000,
@@ -68,14 +68,14 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_ExSkill_Level_2",
             "LocalizeJP": "諦めないでください。",
-            "LocalizeEN": "don't give up."
+            "LocalizeEN": "Don't give up."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_ExSkill_Level_3",
             "LocalizeJP": "私の薬があなたを救うでしょ。",
-            "LocalizeEN": "my medicine will save you"
+            "LocalizeEN": "My medicine will save you."
         },
         {
             "CharacterId": 26000,
@@ -89,49 +89,49 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Growup_2",
             "LocalizeJP": "最善を尽くして精進いたします。",
-            "LocalizeEN": "We will do our best to improve."
+            "LocalizeEN": "I will do my best to improve."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Growup_3",
             "LocalizeJP": "これからはもっと先生のお役に立てそうです。",
-            "LocalizeEN": "From now on, the teacher will be more helpful."
+            "LocalizeEN": "I'm sure I can be of use to Sensei now."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Growup_4",
             "LocalizeJP": "より強くなりましたね。",
-            "LocalizeEN": "You've become stronger."
+            "LocalizeEN": "I've become stronger."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Relationship_Up_1",
-            "LocalizeJP": "先生と一緒にいると心拍数に異常が見られます 私は医療担当なのに困りますね。",
-            "LocalizeEN": "My heart rate is abnormal when I'm with my doctor."
+            "LocalizeJP": "先生と一緒にいると心拍数に異常が見られます。私は医療担当なのに困りますね。",
+            "LocalizeEN": "My heart rate is abnormal when I'm with Sensei. As the doctor-in-charge, this is troubling."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Relationship_Up_2",
             "LocalizeJP": "先生は変わっていますね。",
-            "LocalizeEN": "Your teacher has changed."
+            "LocalizeEN": "You are a strange person, Sensei."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Relationship_Up_3",
-            "LocalizeJP": "顔が暑い気がします 風邪ではないようなのですがおかしいですね",
-            "LocalizeEN": "My face feels hot. It doesn't seem like a cold, but it's strange."
+            "LocalizeJP": "顔が暑い気がします。風邪ではないようなのですが。おかしいですね。",
+            "LocalizeEN": "My face feels hot. It doesn't seem like a cold. Strange."
         },
         {
             "CharacterId": 26000,
             "DialogCategory": "Standard",
             "VoiceClip": "Chinatsu_Relationship_Up_4",
-            "LocalizeJP": "先生は本当に手がかかる人ですね そういうところも嫌いではないですけど",
-            "LocalizeEN": "The teacher is really a person who needs a lot of work."
+            "LocalizeJP": "先生は本当に手がかかる人ですね。そういうところも嫌いではないですけど。",
+            "LocalizeEN": "You really are a handful, Sensei. I don't dislike that."
         }
     ]
 }
