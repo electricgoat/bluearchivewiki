@@ -1,0 +1,15 @@
+{% raw %}
+{|class="mw-collapsible mw-collapsed wikitable character-affectiontable"
+|- class="summary"
+|[[File:icon_affection.png|frameless|36px|alt=Affection rank bonus|link=|class=affection-icon]]Total bonus at affection rank <span class="affection-level">50</span>: <span class="affection-total"></span>
+|-
+| class="affection-data" |
+{% endraw %}
+<div class="xptable">
+{% for row in levels -%}
+<div><span class="level">{{row.Level}}</span><span class="xp">{{row.Exp}}</span><span class="ap">{{row.APAutoChargeMax}}</span></div>
+{% endfor -%}
+</div>
+{% raw %}
+|}
+{% endraw %}
