@@ -143,8 +143,8 @@ def generate():
             line_copy['EventID'] -= 10000
             if line_copy in event_lines:
                 event_lines.remove(line)
-            else:
-                print(line)
+            # else:
+            #     print(line)
             
 
 
@@ -241,12 +241,10 @@ def scavenge():
 
             lines = [x for x in parsed_section.tables[0].data() if re.search(r"\[\[File:(.+)\.ogg\]\]", x[1]) is not None]
             for line in lines:
-                if line[2] == '' and line[3] == '':
-                    continue
+            
+                clip_name = f"{character.wiki_name.replace(' ', '_')}_{line[0]}"
 
-                clip_name = f"{character.dev_name.replace('_default', '').replace('_', '')}_{line[0]}"
-
-                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('<p>','').replace('</p>','').replace('<br>','\n')})
+                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n')})
 
             if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
@@ -262,8 +260,8 @@ def get_standard_lines(character, files, dialog_data):
         line['WikiName'] = f"{character.wiki_name.replace(' ', '_') + '_' + file.split('_', 1)[1]}"
         line['Title'] = line['VoiceClip'].split('_', 1)[1]
 
-        if line['VoiceClip'] in dialog_data:
-            line.update(dialog_data[line['VoiceClip']])
+        if line['WikiName'].split('.')[0] in dialog_data:
+            line.update(dialog_data[line['WikiName'].split('.')[0]])
         
         if 'LocalizeJP' not in line or line['LocalizeJP'] == None: line['LocalizeJP'] = ''
         if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''
@@ -272,7 +270,7 @@ def get_standard_lines(character, files, dialog_data):
         line['LocalizeEN'] = len(line['LocalizeEN'])>0 and '<p>' + line['LocalizeEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
 
         lines.append(line)
-
+    
     return lines
 
 
@@ -315,6 +313,11 @@ def get_dialog_lines(character, dialog_data):
 
             line['LocalizeJP'] = len(line['LocalizeJP'])>0 and '<p>' + line['LocalizeJP'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
             line['LocalizeEN'] = len(line['LocalizeEN'])>0 and '<p>' + line['LocalizeEN'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or ''
+
+            #Some characters have title drop spelled out, some don't. Default to neutral game name if there's nothing.
+            if line['Title'] == 'Title':
+                if not line['LocalizeJP']: line['LocalizeJP'] = 'ブルーアーカイブ'
+                if not line['LocalizeEN']: line['LocalizeEN'] = 'Blue Archive' 
 
             #this varies arbitrarily for event reruns, so it's easier to ignore
             if 'DialogConditionDetailValue' in line: line.pop('DialogConditionDetailValue')
@@ -432,14 +435,13 @@ def main():
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
-    parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
-    parser.add_argument('-upload_files',    metavar=('BOOL'), help='Check if audio file is already on the wiki and upload it if not')
-    parser.add_argument('-scavenge', action='store_true', help='Parse existing standard line transcriptions from the wikidata')
+    parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
+    parser.add_argument('-upload_files',    action='store_false', help='Check if audio file is already on the wiki and upload it if not')
+    parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
     args = vars(parser.parse_args())
     args['character_id'] = args['character_id'] == None and '' or args['character_id']
     args['data_audio'] = args['data_audio'] == None and None or args['data_audio']
-    args['upload_files'] = args['upload_files'] == None and True or args['character_id']
     print(args)
 
     if args['wiki'] != None:

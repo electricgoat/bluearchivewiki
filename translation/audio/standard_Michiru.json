@@ -3,225 +3,302 @@
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Formation_In_1",
-            "LocalizeJP": "びっくりした 今から羊羹",
+            "VoiceClip": "Michiru_Formation_In_1",
+            "LocalizeJP": "ひゃーーっ！び、びっくりしたー……あ、今から出陣？了解～！",
             "LocalizeEN": "I was surprised."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Formation_In_2",
-            "LocalizeJP": "そう、私の出番だね。違う あってる。",
+            "VoiceClip": "Michiru_Formation_In_2",
+            "LocalizeJP": "ふふ……さあ、私の出番だねー！え、違う？合ってる？",
             "LocalizeEN": "Yes, it's my turn. It's wrong."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Formation_Select",
-            "LocalizeJP": "どうも 先生 どのみちる です。",
+            "VoiceClip": "Michiru_Formation_Select",
+            "LocalizeJP": "ドーモ、センセイ＝ドノ、ミチルです。さあーご用命をー！",
             "LocalizeEN": "Hello, my name is Michiru.\nNow, give us your orders~!"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_Defeat_1",
-            "LocalizeJP": "どうして？",
+            "VoiceClip": "Michiru_Tactic_Defeat_1",
+            "LocalizeJP": "あーーれーーど、どうしてー！？な、なんでー！！",
             "LocalizeEN": "Why?"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_Defeat_2",
-            "LocalizeJP": "バカと 一番いい。",
+            "VoiceClip": "Michiru_Tactic_Defeat_2",
+            "LocalizeJP": "うわーーん！爆発オチはいやーー！！",
             "LocalizeEN": "stupid and best"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_In_1",
-            "LocalizeJP": "忍者研究部 指導",
+            "VoiceClip": "Michiru_Tactic_In_1",
+            "LocalizeJP": "忍術研究部、始動！",
             "LocalizeEN": "Ninja Research Department Guidance"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_In_2",
-            "LocalizeJP": "忍者のお 恐ろしさ 見せてあげるんだから 過去。",
+            "VoiceClip": "Michiru_Tactic_In_2",
+            "LocalizeJP": "忍者の恐ろしさ、見せてあげるんだから……覚悟！",
             "LocalizeEN": "I'll show you the horror of the ninja, so it's the past."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_Victory_1",
-            "LocalizeJP": "任務完了。",
+            "VoiceClip": "Michiru_Tactic_Victory_1",
+            "LocalizeJP": "任務完了……ふっ、決まった……！",
             "LocalizeEN": "Mission complete."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Tactic_Victory_2",
-            "LocalizeJP": "私たち 忍術研究部にとって これくらい朝飯前だよ ちょろい ちょろい。",
+            "VoiceClip": "Michiru_Tactic_Victory_2",
+            "LocalizeJP": "私たち忍術研究部にとって、これくらい朝飯前だよ！ちょろいちょろい！",
             "LocalizeEN": "For us, the Ninjutsu Research Club, this is a piece of cake."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Buffed_1",
-            "LocalizeJP": "何か強くなった気がしないわけでもない。",
+            "VoiceClip": "Michiru_Battle_Buffed_1",
+            "LocalizeJP": "おぉ……何か強くなった気が……しないわけでもない！",
             "LocalizeEN": "It's not like I don't feel like I've become stronger."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_BuffSelf_1",
-            "LocalizeJP": "癒し なんか行けそうな気がする。",
+            "VoiceClip": "Michiru_Battle_BuffSelf_1",
+            "LocalizeJP": "よし、なんかいけそーな気がする！",
             "LocalizeEN": "Healing I feel like I can do something."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Covered_1",
-            "LocalizeJP": "かくれん me",
+            "VoiceClip": "Michiru_Battle_Covered_1",
+            "LocalizeJP": "隠れ身！",
             "LocalizeEN": "hide and seek me"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Damage_2",
-            "LocalizeJP": "ヒーター",
+            "VoiceClip": "Michiru_Battle_Damage_1",
+            "LocalizeJP": "痛！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Damage_2",
+            "LocalizeJP": "いったー！？",
             "LocalizeEN": "heater"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Defense_1",
-            "LocalizeJP": "そうなの 通じないよ。",
+            "VoiceClip": "Michiru_Battle_Damage_3",
+            "LocalizeJP": "はりゃぁ！？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Defense_1",
+            "LocalizeJP": "ははん！そんなの通じないよ！",
             "LocalizeEN": "I don't get it."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_In_1",
-            "LocalizeJP": "よーしに迎えしー。",
+            "VoiceClip": "Michiru_Battle_In_1",
+            "LocalizeJP": "ふふーん！よーし、任務開始！",
             "LocalizeEN": "Welcome to me."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_In_2",
-            "LocalizeJP": "とりあえず始めよう。",
+            "VoiceClip": "Michiru_Battle_In_2",
+            "LocalizeJP": "うぅ……と、とりあえず始めよう！",
             "LocalizeEN": "Let's get started."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Move_1",
-            "LocalizeJP": "イエス 次行こう。",
+            "VoiceClip": "Michiru_Battle_Move_1",
+            "LocalizeJP": "よし、次行こう。",
             "LocalizeEN": "Jesus let's go"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Move_2",
-            "LocalizeJP": "まだ続くの。",
+            "VoiceClip": "Michiru_Battle_Move_2",
+            "LocalizeJP": "もー、まだ続くの？",
             "LocalizeEN": "still going on."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Recovery_1",
-            "LocalizeJP": "お助け 感謝",
+            "VoiceClip": "Michiru_Battle_Recovery_1",
+            "LocalizeJP": "お助け感謝！",
             "LocalizeEN": "thanks for your help"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Victory_1",
-            "LocalizeJP": "これぞ 私たち20 研究部の力なんだから。",
+            "VoiceClip": "Michiru_Battle_Retire",
+            "LocalizeJP": "うわーーん！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Shout_1",
+            "LocalizeJP": "ほっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Shout_2",
+            "LocalizeJP": "てゃぁ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Shout_3",
+            "LocalizeJP": "はぁっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_TacticalAction_1",
+            "LocalizeJP": "しゅばばばば！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Battle_Victory_1",
+            "LocalizeJP": "どう？これぞ私たち忍術研究部の力なんだから！",
             "LocalizeEN": "This is the strength of our 20 Research Department."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Battle_Victory_2",
-            "LocalizeJP": "やっぱり道で流 人数にしたくない。",
+            "VoiceClip": "Michiru_Battle_Victory_2",
+            "LocalizeJP": "うん、やっぱりミチル流忍術に死角なし！",
             "LocalizeEN": "After all, I don't want to be the number of people drifting on the street."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_CommonSkill",
-            "LocalizeJP": "鳥はいいぞ、忍者 グッズで精神力を回復",
+            "VoiceClip": "Michiru_CommonSkill",
+            "LocalizeJP": "とりあえず忍者グッズで精神力を回復……！",
             "LocalizeEN": "Birds are good, restore your mental strength with ninja goods"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_ExSkill_2",
-            "LocalizeJP": "見せてあげる。",
+            "VoiceClip": "Michiru_ExSkill_1",
+            "LocalizeJP": "ミ……ミチル流忍法！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_ExSkill_2",
+            "LocalizeJP": "か、火遁の術……見せてあげる！",
             "LocalizeEN": "I'll show you."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_ExSkill_3",
-            "LocalizeJP": "技術研究所",
+            "VoiceClip": "Michiru_ExSkill_3",
+            "LocalizeJP": "忍術研究部の部長をなめるなー！",
             "LocalizeEN": "Research Institute"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Growup_1",
-            "LocalizeJP": "これくれるの 私にやはり正々堂のは見る目があるね なんちゃって",
+            "VoiceClip": "Michiru_ExSkill_Level_1",
+            "LocalizeJP": "うわぁ！あっつ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_ExSkill_Level_2",
+            "LocalizeJP": "忍法あっちちちちっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_ExSkill_Level_3",
+            "LocalizeJP": "うぎゃぁ！あっつぅー！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Michiru_Growup_1",
+            "LocalizeJP": "へ、これくれるの？私に？ふふ、やはり先生殿は見る目があるねー……なんちゃって。なはは！",
             "LocalizeEN": "Can you give me this?"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Growup_2",
-            "LocalizeJP": "これでますます強く。",
+            "VoiceClip": "Michiru_Growup_2",
+            "LocalizeJP": "おー！これでますます強くー！",
             "LocalizeEN": "It's getting stronger with this."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Growup_3",
-            "LocalizeJP": "筆頭",
+            "VoiceClip": "Michiru_Growup_3",
+            "LocalizeJP": "えっとー、そのー……あ、ありが、とー……？",
             "LocalizeEN": "head"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Growup_4",
-            "LocalizeJP": "ついに私もここまで来た 先生 どのの期待に答えて 八面六臂の活躍をご覧に入れようぜ",
+            "VoiceClip": "Michiru_Growup_4",
+            "LocalizeJP": "ふふ、ついに私もここまできた！先生殿の期待に応えて、八面六臂の活躍を、ご覧に入れようぞー！",
             "LocalizeEN": "Finally, I've come this far too, Sensei."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Relationship_Up_1",
-            "LocalizeJP": "近い近い 身長に悪い",
+            "VoiceClip": "Michiru_Relationship_Up_1",
+            "LocalizeJP": "ひゃー！ちょ、近い、近いってー！距離感！ははぁ、心臓に悪い……",
             "LocalizeEN": "bad for height"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Relationship_Up_2",
-            "LocalizeJP": "先生どのと一緒だとなんだか こんな私でも何でもできるんじゃないか って気持ちになにこれ 変なの。",
+            "VoiceClip": "Michiru_Relationship_Up_2",
+            "LocalizeJP": "先生殿と一緒だと、なんだか、こんな私でも何でもできるんじゃないかって気持ちに……なにこれ、変なの",
             "LocalizeEN": "When I'm with my teacher, I feel like I can do anything."
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Relationship_Up_3",
-            "LocalizeJP": "何この距離感 からかってるドッキリ。",
+            "VoiceClip": "Michiru_Relationship_Up_3",
+            "LocalizeJP": "わっ、何この距離感！？からかってる？ドッキリ？べ、別に、いやってわけじゃないけどぉ？",
             "LocalizeEN": "What is this sense of distance?"
         },
         {
             "CharacterId": 16009,
             "DialogCategory": "Standard",
-            "VoiceClip": "CH0113_Relationship_Up_4",
-            "LocalizeJP": "近い いや いっそのこと こっちからそうだ私の色仕掛けの術でそんな恥ずかしいことできるか。",
+            "VoiceClip": "Michiru_Relationship_Up_4",
+            "LocalizeJP": "あ、近い……いや、いっそのことこっちから？そうだ、私の色仕掛けの術で……ってそんな恥ずかしいことできるかー！",
             "LocalizeEN": "It's close, no, it's better, it's from here."
         }
     ]

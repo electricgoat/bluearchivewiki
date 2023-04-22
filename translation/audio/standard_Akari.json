@@ -17,6 +17,13 @@
         {
             "CharacterId": 13002,
             "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
             "VoiceClip": "Akari_Tactic_Defeat_1",
             "LocalizeJP": "ちょっと頭にきますね。",
             "LocalizeEN": "This is a bit irritating."
@@ -80,6 +87,27 @@
         {
             "CharacterId": 13002,
             "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
             "VoiceClip": "Akari_Battle_Defense_1",
             "LocalizeJP": "無駄ですよ。",
             "LocalizeEN": "It's no use."
@@ -129,9 +157,30 @@
         {
             "CharacterId": 13002,
             "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
             "VoiceClip": "Akari_Battle_Shout_2",
             "LocalizeJP": "行きます。",
             "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Akari_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13002,

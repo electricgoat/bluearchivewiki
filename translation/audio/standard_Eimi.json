@@ -17,6 +17,13 @@
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Tactic_Defeat_1",
             "LocalizeJP": "作戦失敗、再編成を",
             "LocalizeEN": "Operation failed, reorganize"
@@ -73,6 +80,27 @@
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Defense_1",
             "LocalizeJP": "無駄。",
             "LocalizeEN": "waste."
@@ -122,9 +150,23 @@
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Shout_2",
             "LocalizeJP": "照準",
             "LocalizeEN": "aiming"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Eimi_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10001,

@@ -87,6 +87,13 @@
         {
             "CharacterId": 10006,
             "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
             "VoiceClip": "Iori_Battle_Damage_2",
             "LocalizeJP": "負けたく。",
             "LocalizeEN": "I want to lose"
@@ -97,6 +104,13 @@
             "VoiceClip": "Iori_Battle_Damage_3",
             "LocalizeJP": "ありえ",
             "LocalizeEN": "Arie"
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10006,
@@ -143,6 +157,13 @@
         {
             "CharacterId": 10006,
             "DialogCategory": "Standard",
+            "VoiceClip": "Iori_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
             "VoiceClip": "Iori_Battle_Shout_2",
             "LocalizeJP": "遅。",
             "LocalizeEN": "Late."
@@ -174,6 +195,13 @@
             "VoiceClip": "Iori_Battle_Victory_2",
             "LocalizeJP": "私1人でも十分だった。",
             "LocalizeEN": "It was enough for me alone."
+        },
+        {
+            "CharacterId": 10006,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Iori_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10006,

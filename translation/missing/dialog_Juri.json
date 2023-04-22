@@ -1,0 +1,136 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "…어머, 내 정신 좀 봐!\n파이를 오븐에\n넣어놓은 걸 깜박했어요!",
+            "LocalizeJP": "…あら、私ったら！\nパイをオーブンに入れっぱなし\nだったことを忘れてました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "Juri_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "앗, 이것 좀 보세요. 선생님.",
+            "LocalizeJP": "あっ、見てください先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "새빨갛게 익은 토마토.\n정말 맛있어 보이지 않나요?",
+            "LocalizeJP": "この真っ赤に実ったトマト、\nすっごく美味しそうだと\n思いませんか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "엣헴. 이것도 다\n급양부로서의 성과예요.",
+            "LocalizeJP": "えへん、これも\n給食部としての成果です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "정성껏 키운 보람이 있네요!",
+            "LocalizeJP": "丹精込めて作った\n甲斐がありました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아, 저쪽에 있는 토마토도\n탐스럽게 익어서…….",
+            "LocalizeJP": "あ、あっちのトマトも\nすごく良い感じに……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그게, 아, 저기,\n있는 건데요. 그게…….\n어쩐지, 조금 거리가……?",
+            "LocalizeJP": "えっと、あ、あれ、\nなのですが、その……\n何だかちょっと距離が……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이렇게나 가까우면,\n저기, 저…….",
+            "LocalizeJP": "この近さですと、\nあの、私……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(아, 선생님의 냄새가…….)",
+            "LocalizeJP": "（あ、先生の香りが……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(어, 어째서인지 갑자기,\n가슴이 콩닥 콩닥거리는데요……!?)",
+            "LocalizeJP": "（な、何だか急に、胸がド\nキドキしてきました……！？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "괘, 괜찮답니다, 네!\n걱정하지 않으셔도……!",
+            "LocalizeJP": "だっ、大丈夫です、はい！\nご心配なく……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "다만 그게 뭐랄까요,\n그러니까…….",
+            "LocalizeJP": "ただその何と言いますか、\nえっと……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 26002,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "뭔가 얼굴이 뜨거워져서,\n그게……! 우으……!",
+            "LocalizeJP": "何だか顔が熱くなってきて、\nその……！うぅ……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

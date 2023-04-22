@@ -87,6 +87,20 @@
         {
             "CharacterId": 16004,
             "DialogCategory": "Standard",
+            "VoiceClip": "Pina_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Pina_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Standard",
             "VoiceClip": "Pina_Battle_Defense_1",
             "LocalizeJP": "くすぐったい 攻撃ですね。",
             "LocalizeEN": "It's a tickling attack."
@@ -139,6 +153,13 @@
             "VoiceClip": "Pina_Battle_Shout_1",
             "LocalizeJP": "すき。",
             "LocalizeEN": "like."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Pina_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16004,

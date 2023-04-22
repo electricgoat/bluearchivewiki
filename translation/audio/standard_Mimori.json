@@ -87,6 +87,13 @@
         {
             "CharacterId": 10034,
             "DialogCategory": "Standard",
+            "VoiceClip": "Mimori_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Standard",
             "VoiceClip": "Mimori_Battle_Damage_2",
             "LocalizeJP": "負けません。",
             "LocalizeEN": "I won't lose"
@@ -153,6 +160,13 @@
             "VoiceClip": "Mimori_Battle_Shout_1",
             "LocalizeJP": "これ 受け取ってください。",
             "LocalizeEN": "Please accept this."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Mimori_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10034,

@@ -17,6 +17,13 @@
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Tactic_Defeat_1",
             "LocalizeJP": "戦略を間違えた。私のミスだ。ごめん。",
             "LocalizeEN": "Wrong strategy It's my mistake I'm sorry."
@@ -80,6 +87,20 @@
         {
             "CharacterId": 10019,
             "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
             "VoiceClip": "Azusa_Battle_Damage_3",
             "LocalizeJP": "くそ、やられた。",
             "LocalizeEN": "Damn it."
@@ -132,6 +153,27 @@
             "VoiceClip": "Azusa_Battle_Retire",
             "LocalizeJP": "まさか、こんな…",
             "LocalizeEN": "This can't be..."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Azusa_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10019,

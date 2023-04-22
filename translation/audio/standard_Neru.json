@@ -87,9 +87,23 @@
         {
             "CharacterId": 10008,
             "DialogCategory": "Standard",
+            "VoiceClip": "Neru_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Standard",
             "VoiceClip": "Neru_Battle_Damage_2",
             "LocalizeJP": "めんどくせーな。",
             "LocalizeEN": "It's troublesome."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Neru_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10008,
@@ -139,6 +153,13 @@
             "VoiceClip": "Neru_Battle_Retire",
             "LocalizeJP": "みっともね。",
             "LocalizeEN": "No way."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Neru_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10008,
@@ -202,6 +223,13 @@
             "VoiceClip": "Neru_ExSkill_3",
             "LocalizeJP": "なめんな。",
             "LocalizeEN": "I'm sorry."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Neru_ExSkill_Level_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10008,

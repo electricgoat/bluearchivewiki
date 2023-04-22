@@ -3,9 +3,37 @@
         {
             "CharacterId": 10013,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Formation_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Formation_In_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Formation_Select",
             "LocalizeJP": "ふーん。",
             "LocalizeEN": "Hmm."
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Tactic_Defeat_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Tactic_Defeat_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10013,
@@ -17,9 +45,44 @@
         {
             "CharacterId": 10013,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Tactic_In_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Tactic_Victory_1",
             "LocalizeJP": "ねえ、当然だ。",
             "LocalizeEN": "Hey, of course."
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Tactic_Victory_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10013,
@@ -45,9 +108,107 @@
         {
             "CharacterId": 10013,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Retire",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_TSA_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Battle_TSA_2",
             "LocalizeJP": "赤いだ 破壊してやる。",
             "LocalizeEN": "It's red. I'll destroy it."
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Victory_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Victory_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_Level_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_Level_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_ExSkill_Level_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10013,
@@ -69,6 +230,13 @@
             "VoiceClip": "Tsurugi_Growup_3",
             "LocalizeJP": "父は敵はどこだ この力を使わせろ。",
             "LocalizeEN": "Father, where is the enemy? Let me use this power."
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Growup_4",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10013,

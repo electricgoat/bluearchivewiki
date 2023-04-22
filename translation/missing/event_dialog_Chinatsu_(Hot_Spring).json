@@ -1,0 +1,240 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "네, 준비는 끝났습니다.",
+            "LocalizeJP": "はい、準備は\nできています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "서포트는 맡겨주세요.",
+            "LocalizeJP": "サポートは\nお任せください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님……?\n어, 업무에\n집중해 주세요……!",
+            "LocalizeJP": "せ、先生……！？\nぎょ、業務に\n集中してください……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기서 무의미하게\n시간을 보내는 건…….",
+            "LocalizeJP": "ここで無意味に時間を\n過ごすのは、その……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아, 아뇨.\n싫어하지는\n않습니다만…….",
+            "LocalizeJP": "い、いえ、私は嫌では\nないのですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "무엇을 도와드리면\n될까요, 선생님?",
+            "LocalizeJP": "何をお手伝いすれば\nよろしいですか、先生？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "노, 농담은\n그만둬 주세요…….",
+            "LocalizeJP": "じょ、冗談は\nやめてください……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "슬슬 속도를 내야 할\n때네요, 선생님.",
+            "LocalizeJP": "そろそろ追い込みをかけても\n良いタイミングかも\nしれませんね、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "라스트 스퍼트군요.\n돕겠습니다.",
+            "LocalizeJP": "ラストスパートですね、\nお手伝いしますよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "뒷정리도 준비만큼\n중요하니까요.",
+            "LocalizeJP": "後片付けは、\n準備と同じくらい\n大切ですからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "네, 준비는 끝났습니다.",
+            "LocalizeJP": "はい、準備は\nできています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "서포트는 맡겨주세요.",
+            "LocalizeJP": "サポートは\nお任せください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님……?\n어, 업무에\n집중해 주세요……!",
+            "LocalizeJP": "せ、先生……！？\nぎょ、業務に\n集中してください……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "여기서 무의미하게\n시간을 보내는 건…….",
+            "LocalizeJP": "ここで無意味に時間を\n過ごすのは、その……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아, 아뇨.\n싫어하지는\n않습니다만…….",
+            "LocalizeJP": "い、いえ、私は嫌では\nないのですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "무엇을 도와드리면\n될까요, 선생님?",
+            "LocalizeJP": "何をお手伝いすれば\nよろしいですか、先生？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "노, 농담은\n그만둬 주세요…….",
+            "LocalizeJP": "じょ、冗談は\nやめてください……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "슬슬 속도를 내야 할\n때네요, 선생님.",
+            "LocalizeJP": "そろそろ追い込みをかけても\n良いタイミングかも\nしれませんね、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "라스트 스퍼트군요.\n돕겠습니다.",
+            "LocalizeJP": "ラストスパートですね、\nお手伝いしますよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009021,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "뒷정리도 준비만큼\n중요하니까요.",
+            "LocalizeJP": "後片付けは、\n準備と同じくらい\n大切ですからね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0163_EventLogin_Season_End"
+            ]
+        }
+    ]
+}

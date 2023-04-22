@@ -31,6 +31,13 @@
         {
             "CharacterId": 10018,
             "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Tactic_Defeat_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Tactic_In_1",
             "LocalizeJP": "他の人達と一緒に頑張ります。",
             "LocalizeEN": "I will do my best with other people."
@@ -76,6 +83,20 @@
             "VoiceClip": "Yuzu_Battle_Covered_1",
             "LocalizeJP": "ここに隠れて引きつけます。今のうちに",
             "LocalizeEN": "I will hide here and attract you. While we have time"
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10018,
@@ -132,6 +153,20 @@
             "VoiceClip": "Yuzu_Battle_Retire",
             "LocalizeJP": "ごめんなさい。",
             "LocalizeEN": "sorry."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10018,

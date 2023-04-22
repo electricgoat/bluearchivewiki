@@ -1,0 +1,224 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님!\n크리스마스가 왔어요!",
+            "LocalizeJP": "先生！クリスマスですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "저까지 가슴이\n두근거리네요.",
+            "LocalizeJP": "私まで\nワクワクしてきます。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLogin_2_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "모두에게 행복이라는\n이름의 선물이 내리길……",
+            "LocalizeJP": "皆さんに「幸せ」という\n名のプレゼントが\n届きますように……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이번 크리스마스, 뭔가\n예정이라도 있으신가요?",
+            "LocalizeJP": "今年のクリスマス、\n何かご予定はありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLogin_2_2"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "혹시…… 괜찮으시다면,\n저와 둘이서……",
+            "LocalizeJP": "その……\nもしよろしければ、\n私と二人で……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "아, 아뇨.\n아무것도 아니에요!",
+            "LocalizeJP": "い、いえっ、\nなんでもありません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네! 산타 세리나예요!",
+            "LocalizeJP": "はい！\nサンタのセリナですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "도와드릴 일이 있을까요?",
+            "LocalizeJP": "何かお手伝いすることは\nありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "크리스마스에는, 산타\n세리나를 찾아 주세요!",
+            "LocalizeJP": "クリスマスには、\nサンタのセリナを\n呼んでくださいね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님?\n무슨 일이라도 있으세요?",
+            "LocalizeJP": "先生？\nどうかしましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "크리스마스 자선 모금은\n이쪽입니다!",
+            "LocalizeJP": "クリスマスのチャリティー募金は\nこちらです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "어려운 분들을 위해서\n기부 부탁드려요!",
+            "LocalizeJP": "困っている方々のために、\nどうか寄付をお願いします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선생님, 뭐든지 돕게 해주세요.",
+            "LocalizeJP": "先生、\n何かお手伝いさせてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하나에 쨩, 괜찮을까……",
+            "LocalizeJP": "ハナエちゃん、大丈夫かな……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_2"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "감사합니다.\n자, 여기 선물이에요.",
+            "LocalizeJP": "ありがとうございます。\nはい、こちらがプレゼントですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_Buy_1"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "메리 크리스마스!\n멋진 하루 되세요!",
+            "LocalizeJP": "メリークリスマス！\n素敵な一日をお過ごしください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_Buy_2"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 3,
+            "LocalizeKR": "이렇게 귀중한 것까지……\n기부해 주셔도 괜찮으신가요?",
+            "LocalizeJP": "こんなに貴重なものまで……\n寄付していただいていいんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_Buy_3"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "크리스마스 자선 모금은\n종료됐습니다.",
+            "LocalizeJP": "クリスマスのチャリティー募金は\n終了しました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0194_EventShop_End"
+            ]
+        },
+        {
+            "CharacterId": 19009082,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "빠트린 것은 없는지 확인해 주세요.",
+            "LocalizeJP": "やり残した事はないか、\n確認してくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

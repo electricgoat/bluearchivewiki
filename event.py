@@ -4,10 +4,11 @@ import re
 import traceback
 import copy
 import argparse
+from datetime import datetime
 
 from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
-from data import load_data
+from data import load_data, load_season_data
 from model import Item, Furniture, FurnitureGroup, Character
 from model_stages import EventStage
 from model_event_schedule import EventScheduleLocation
@@ -16,6 +17,7 @@ from events.mission_desc import mission_desc
 
 args = None
 data = None
+season_data = {'jp':None, 'gl':None}
 
 characters = {}
 items = {}
@@ -501,10 +503,12 @@ def generate():
 
 
 def init_data():
-    global args, data, characters, items, furniture
+    global args, data, season_data, characters, items, furniture
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
-   
+
+    season_data['jp'] = load_season_data(args['data_primary'])
+    season_data['gl'] = load_season_data(args['data_secondary']) 
 
     for character in data.characters.values():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':#  not in ['Release', 'Complete']:
@@ -535,19 +539,33 @@ def init_data():
             print(f'Failed to parse for item {item}: {err}')
             traceback.print_exc()
             continue
+   
 
 
 def list_seasons():
-    seasons = {}
+    print ("============ JP seasons ============")
+    print_seasons('jp')
+    print ("============ GL seasons ============")
+    print_seasons('gl')
 
-    for evencontent in data.event_content_seasons.values():
+
+def print_seasons(region: str):
+    seasons = {}
+    now = datetime.now() #does not account for timezone
+
+    for evencontent in season_data[region].event_content_season.values():
         if evencontent['EventContentId'] not in seasons: 
-            seasons[evencontent['EventContentId']] = {'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']}
+            seasons[evencontent['EventContentId']] = {'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']} 
 
     for season in seasons:
-        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['EventContentOpenTime']} ~ {seasons[season]['EventContentCloseTime']}")
+        note = ''
+        opentime = datetime.strptime(seasons[season]['EventContentOpenTime'], "%Y-%m-%d %H:%M:%S")
+        closetime = datetime.strptime(seasons[season]['EventContentCloseTime'], "%Y-%m-%d %H:%M:%S")
 
+        if (opentime > now): note = 'future'
+        elif (closetime > now): note = 'current'
 
+        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['EventContentOpenTime']} ~ {seasons[season]['EventContentCloseTime']} {note}")
 
 
 def main():

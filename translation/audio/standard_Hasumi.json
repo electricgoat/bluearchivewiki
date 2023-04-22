@@ -17,6 +17,13 @@
         {
             "CharacterId": 13003,
             "DialogCategory": "Standard",
+            "VoiceClip": "Hasumi_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Standard",
             "VoiceClip": "Hasumi_Tactic_Defeat_1",
             "LocalizeJP": "申し訳ございません。",
             "LocalizeEN": "I'm sorry."
@@ -66,9 +73,30 @@
         {
             "CharacterId": 13003,
             "DialogCategory": "Standard",
+            "VoiceClip": "Hasumi_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Standard",
             "VoiceClip": "Hasumi_Battle_Covered_1",
             "LocalizeJP": "狙撃ポイント確保しました。",
             "LocalizeEN": "I secured a sniper point."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hasumi_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hasumi_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13003,
@@ -139,6 +167,13 @@
             "VoiceClip": "Hasumi_Battle_Shout_2",
             "LocalizeJP": "行きます。",
             "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Hasumi_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13003,

@@ -1,0 +1,434 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님, 어서 오세요.\n어머…설날에도 일하시나요?\n때로는 휴식도 중요하죠.",
+            "LocalizeJP": "先生、おかえりなさいませ。\nあら…お正月も\nお仕事ですか？\n時には休憩も大切ですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "자, 같이\n차 한잔하도록 해요.",
+            "LocalizeJP": "さあ、一緒に\nお茶を致しましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "우후후, 설날부터\n만날 수 있다니\n너무 기쁘네요.",
+            "LocalizeJP": "うふふ、お正月から\nお会いできるとは、\nうれしい限りですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "저는 언제든지\n준비되어 있답니다?",
+            "LocalizeJP": "私はいつでも\n準備できておりますよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "후후후.\n부르셨나요, 선생님?",
+            "LocalizeJP": "うふふ。\nお呼びですか、先生？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "자꾸 간지럽히시면,\n곤란하답니다?",
+            "LocalizeJP": "そう何度もくすぐられては\n困ってしまいますわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님은, 의외로 장난을\n좋아하시는군요?",
+            "LocalizeJP": "先生ったら、\n意外とイタズラが\nお好きなんですね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "확실히 후리소데는\n번거로운 면이 있지요.",
+            "LocalizeJP": "たしかに振袖は、\n少々煩わしく\n思うところもあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그렇지만 이것도 모두\n미식을 위한 길이니까요.",
+            "LocalizeJP": "ですが、これも\n全て美食の道へと\n通ずるのです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "궁극의 맛에 도달하기\n위해서는, 흔들림 없는\n각오가 필요합니다.",
+            "LocalizeJP": "究極の味に\nたどり着くためには、\n揺るぎない覚悟が\n必要なのです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "…누구도 우리를\n막을 수 없을 거예요.\n우후훗.",
+            "LocalizeJP": "…誰にも私たちを\n止める事などできません。\nうふふっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "조금 복잡한\n상황이긴 합니다만…",
+            "LocalizeJP": "少しばかり複雑な\n状況ではありますが…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "제 미식에 대한 마음은\n이 정도로 꺾이거나\n하지 않습니다.",
+            "LocalizeJP": "私の美食への思いは、\nこの程度で挫けたりなど\nいたしません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "각자가 최선을\n다하기를 바라며.",
+            "LocalizeJP": "各々が最善を\n尽くすことを願って。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "열의와 성의를 담아\n맛을 보도록 하겠습니다.",
+            "LocalizeJP": "熱意と誠意を込めて、\n味わわせて\nいただきましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "시간은 흐르고,\n사건은 잊혀지겠죠.",
+            "LocalizeJP": "時の流れに従って、事件は\n忘れられることでしょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "하지만 저와 선생님이\n기억하는 한…\n괜찮을 거예요.",
+            "LocalizeJP": "ですが、私と先生が\n覚えている限り…\n大丈夫ですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "예. 분명.",
+            "LocalizeJP": "ええ、きっと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님도\n오미쿠지를 뽑으러…?\n이쪽입니다.",
+            "LocalizeJP": "先生も\nおみくじを引きに…？\nこちらですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikuji_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "우후후, 그렇게\n초조해하지 않아도\n괜찮아요.",
+            "LocalizeJP": "うふふっ、\nそんなに焦らなくても\n大丈夫ですよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "우후훗…\n이런일, 처음 해봐요.",
+            "LocalizeJP": "うふふっ…\nこのようなこと、初めて\n体験いたしましたわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikuji_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "왠지 즐겁네요.",
+            "LocalizeJP": "なんだか楽しいですわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "원하는 것은 찾으셨나요?",
+            "LocalizeJP": "探し物は\n見つかりましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikuji_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "우후후. 그것은 어쩌면,\n가까운 곳에 있을 지도요?",
+            "LocalizeJP": "うふふ、\n意外と身近なところに\nあるかもしれませんわよ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "침착하게 호흡을\n가다듬는 시간도\n중요하죠.",
+            "LocalizeJP": "落ち着いて、\n呼吸を整える\n時間も大切ですわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikuji_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "코스요리에서 먹는\n그라니테처럼요.",
+            "LocalizeJP": "コース料理で頂く\nグラニテのように。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck5",
+            "GroupId": 1,
+            "LocalizeKR": "오오, 대길이군요?\n역시 선생님,\n대단하시네요!",
+            "LocalizeJP": "あら、大吉ですわ！\n流石先生、\n運も持っていますのね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_1"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck5",
+            "GroupId": 1,
+            "LocalizeKR": "대길을 뽑으신\n선생님께는,\n특별한 상품이\n준비되어 있답니다.",
+            "LocalizeJP": "大吉を引いた先生には、\n特別な商品を\nご用意しておりますわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck4",
+            "GroupId": 2,
+            "LocalizeKR": "길이면, 운이\n돌아오고 있다는 거군요.",
+            "LocalizeJP": "吉とは運が\n回ってきていますわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_4"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck4",
+            "GroupId": 2,
+            "LocalizeKR": "올해도 멋진 한해가\n되길 바라겠습니다.",
+            "LocalizeJP": "今年も素敵な\n一年になるよう、\n願っておりますわ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck3",
+            "GroupId": 3,
+            "LocalizeKR": "중길인가요. 괜찮네요.\n중길의 상품은,\n이쪽입니다.",
+            "LocalizeJP": "中吉…\nなかなか良いですわね。\nこちらが中吉の商品です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_2"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck2",
+            "GroupId": 4,
+            "LocalizeKR": "소길…\n나쁘진 않네요.",
+            "LocalizeJP": "小吉…\n悪くはありませんわね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_3"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck2",
+            "GroupId": 4,
+            "LocalizeKR": "복을 불러들이기 위해서는\n작은 것들이 쌓이는게\n중요하다고 하니까요.",
+            "LocalizeJP": "福を呼び込むには、\n小さな積み重ねが\n大切と申しますもの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck1",
+            "GroupId": 5,
+            "LocalizeKR": "말길은, 후에\n길로 돌아설 조짐…",
+            "LocalizeJP": "末吉は、\n後に吉と転じる兆し…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_5"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck1",
+            "GroupId": 5,
+            "LocalizeKR": "즉, 길조군요.\n네, 이쪽입니다.",
+            "LocalizeJP": "つまり、吉兆ですわね。\nはい、こちらをどうぞ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck0",
+            "GroupId": 6,
+            "LocalizeKR": "괜찮아요.\n오미쿠지 결과는\n현재의 운세니까요.",
+            "LocalizeJP": "大丈夫ですわ。\nおみくじの結果は\n現在の運勢ですもの。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikujipickup_6"
+            ]
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck0",
+            "GroupId": 6,
+            "LocalizeKR": "향후, 복으로\n바뀐다고도 말하니…",
+            "LocalizeJP": "今後、福に転じるとも\n申しますから…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Luck0",
+            "GroupId": 6,
+            "LocalizeKR": "…네? 제게 위로를 받으니\n기쁜 듯 슬픈 듯하다구요…?\n그, 그건 대체…",
+            "LocalizeJP": "…え？私に慰められると、\nうれしいような\n悲しいような…？\nそ、それは一体…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009090,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "선생님, 오미쿠지라면\n아직 접수하고 있어요\n잊지 말고 뽑아주세요.",
+            "LocalizeJP": "先生、おみくじでしたら、\nまだ受け付けておりますよ。\n忘れずにお引きくださいね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0191_Omikuji_End"
+            ]
+        }
+    ]
+}

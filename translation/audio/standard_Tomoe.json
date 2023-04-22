@@ -87,6 +87,27 @@
         {
             "CharacterId": 16007,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tomoe_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tomoe_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tomoe_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16007,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tomoe_Battle_Defense_1",
             "LocalizeJP": "危ないところでした。",
             "LocalizeEN": "It was dangerous."
@@ -146,6 +167,13 @@
             "VoiceClip": "Tomoe_Battle_Shout_2",
             "LocalizeJP": "命中させます。",
             "LocalizeEN": "Let it hit."
+        },
+        {
+            "CharacterId": 16007,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tomoe_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16007,

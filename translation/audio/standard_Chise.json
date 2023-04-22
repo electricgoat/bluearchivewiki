@@ -73,9 +73,37 @@
         {
             "CharacterId": 13001,
             "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
             "VoiceClip": "Chise_Battle_Covered_1",
             "LocalizeJP": "隠れてるね。",
             "LocalizeEN": "I'll hide, ok?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13001,
@@ -125,6 +153,20 @@
             "VoiceClip": "Chise_Battle_Retire",
             "LocalizeJP": "時代劇の録画忘れてた。",
             "LocalizeEN": "I forgot to record the period drama."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Chise_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13001,

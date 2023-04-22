@@ -17,6 +17,13 @@
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Tactic_Defeat_1",
             "LocalizeJP": "ごめん、私の判断ミスだ。",
             "LocalizeEN": "Sorry, my mistake."
@@ -66,6 +73,13 @@
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Battle_Covered_1",
             "LocalizeJP": "遮蔽物確",
             "LocalizeEN": "sure to cover"
@@ -73,9 +87,23 @@
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Battle_Damage_2",
             "LocalizeJP": "全く。",
             "LocalizeEN": "not at all."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10010,
@@ -125,6 +153,27 @@
             "VoiceClip": "Shiroko_Battle_Retire",
             "LocalizeJP": "ミスター ごめん。",
             "LocalizeEN": "sorry mr."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Shiroko_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10010,
