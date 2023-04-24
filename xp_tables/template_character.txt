@@ -1,0 +1,14 @@
+{% raw %}
+<div class="wikitable xptable">
+<div class="header">
+<div><span class="level">Level</span><span class="xp">EXP to next level</span><span class="total_xp">Total EXP</span></div>
+</div>
+{%- endraw %}
+<div class="content">
+{% for row in levels -%}
+<div><span class="level">{{row.Level}}</span><span class="xp">{{row.Exp}}</span><span class="total_xp">{{row.TotalExp}}</span></div>
+{%- if loop.index %10 == 0 %}
+{% endif -%}
+{% endfor %}
+</div>
+</div>

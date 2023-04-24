@@ -5,8 +5,8 @@
 ! rowspan="2" |Stage
 ! rowspan="2" |Level
 ! rowspan="2" |Entry cost
-! rowspan="2" |Environment
-! rowspan="2" |Enemy armor
+!style="font-stretch: condensed;" rowspan="2" |Environment
+!style="font-stretch: condensed;" rowspan="2" |Enemy armor
 ! colspan="{{rewardcols}}" |Rewards
 |-
 {%- if 'FirstClear' in reward_types %}

@@ -111,6 +111,13 @@ def load_file(file, key='Id'):
     return {item[key]: item for item in data['DataList']}
 
 
+def load_json(path, filename):
+    with open(os.path.join(path, 'Excel', filename),encoding="utf8") as f:
+        data = json.load(f)
+
+    return data['DataList']
+
+
 def load_file_grouped(file, key="Id"):
     with open(file,encoding="utf8") as f:
         data = json.load(f)
