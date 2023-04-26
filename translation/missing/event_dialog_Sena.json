@@ -75,18 +75,6 @@
         {
             "CharacterId": 19009028,
             "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘 업무는 이상입니다.\n……수고하셨습니다. 선생님.",
-            "LocalizeJP": "では、本日のお仕事は以上です。\n先生、お疲れ様でした。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0081_EventMission_Day_End"
-            ]
-        },
-        {
-            "CharacterId": 19009028,
-            "DialogCategory": "UIEventMission",
             "DialogCondition": "Enter",
             "GroupId": 1,
             "LocalizeKR": "반갑습니다. 선생님.\n이번 업무의 리스트입니다.\n잘 부탁드립니다.",
@@ -154,18 +142,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "CH0081_EventMission_Get_2"
-            ]
-        },
-        {
-            "CharacterId": 19009028,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘 업무는 이상입니다.\n……수고하셨습니다. 선생님.",
-            "LocalizeJP": "では、本日のお仕事は以上です。\n先生、お疲れ様でした。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0081_EventMission_Day_End"
             ]
         }
     ]

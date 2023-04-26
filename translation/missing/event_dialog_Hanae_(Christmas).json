@@ -116,7 +116,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 1,
+            "GroupId": 3,
             "LocalizeKR": "함께 힘내죠, 선생님!",
             "LocalizeJP": "一緒に\n頑張りましょう、先生！",
             "LocalizeEN": "",
@@ -128,7 +128,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 2,
+            "GroupId": 4,
             "LocalizeKR": "이제 거의 다 왔어요!\n보람차지만……",
             "LocalizeJP": "あと少しです！\n達成感はありますけど……",
             "LocalizeEN": "",
@@ -140,7 +140,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 2,
+            "GroupId": 4,
             "LocalizeKR": "조금, 아쉽기도 하네요.",
             "LocalizeJP": "ちょっと寂しくも\nなりますね。",
             "LocalizeEN": "",
@@ -150,7 +150,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 3,
+            "GroupId": 5,
             "LocalizeKR": "벌써 정리할\n시간이네요.",
             "LocalizeJP": "もうお開きの\nお時間ですね。",
             "LocalizeEN": "",
@@ -162,7 +162,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
-            "GroupId": 3,
+            "GroupId": 5,
             "LocalizeKR": "뒷정리,\n도와드릴게요!",
             "LocalizeJP": "後片付け、\nお手伝いしますよ！",
             "LocalizeEN": "",
@@ -185,7 +185,7 @@
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "앗, 선생님! 어서 오세요!\n제비뽑기 하지 않으실래요?",
+            "LocalizeKR": "앗, 선생님! 어서 오세요!\n제비뽑기는 어떠신가요?",
             "LocalizeJP": "あっ、先生！ようこそ！\nくじはいかがですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -256,7 +256,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "Enter",
-            "GroupId": 1,
+            "GroupId": 3,
             "LocalizeKR": "자선 이벤트는\n종료되었습니다!",
             "LocalizeJP": "チャリティーイベントは\n終了しました！",
             "LocalizeEN": "",
@@ -268,7 +268,7 @@
             "CharacterId": 19009081,
             "DialogCategory": "UIEventBoxGachaShop",
             "DialogCondition": "Enter",
-            "GroupId": 1,
+            "GroupId": 3,
             "LocalizeKR": "아직 추첨권을\n가지고 계신다면\n제가 교환해드릴게요!",
             "LocalizeJP": "まだ手元に抽選券が\nあるなら、\n私が引き換えますよ！",
             "LocalizeEN": "",
@@ -355,28 +355,6 @@
             "VoiceClipsJp": [
                 "CH0195_EventMission_Get_2"
             ]
-        },
-        {
-            "CharacterId": 19009081,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "목표는 매일 꾸준히 달성하는 것이\n중요하잖아요.",
-            "LocalizeJP": "目標は毎日コツコツ達成するのが\n大切ですよね。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0195_EventMission_Day_End"
-            ]
-        },
-        {
-            "CharacterId": 19009081,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘도 열심히 하셨어요, 선생님!",
-            "LocalizeJP": "今日もよく頑張りました、先生！",
-            "LocalizeEN": "",
-            "VoiceClipsJp": []
         }
     ]
 }

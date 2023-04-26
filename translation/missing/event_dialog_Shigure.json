@@ -99,18 +99,6 @@
         {
             "CharacterId": 19009080,
             "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘 일은 이걸로 끝이야.\n남은 시간은 목욕이라도 하면서\n느긋하게 보내는 게 어때?",
-            "LocalizeJP": "今日はこれでおしまい。\nあとはお風呂にでも浸かって、\nのんびりするのはどうかな。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Shigure_EventMission_Day_End"
-            ]
-        },
-        {
-            "CharacterId": 19009080,
-            "DialogCategory": "UIEventMission",
             "DialogCondition": "Enter",
             "GroupId": 1,
             "LocalizeKR": "야호- 선생님.\n혹시 괜찮다면 온천장의 일을\n도와주지 않을래?",
@@ -202,18 +190,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "Shigure_EventMission_Get_2"
-            ]
-        },
-        {
-            "CharacterId": 19009080,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘 일은 이걸로 끝이야.\n남은 시간은 목욕이라도 하면서\n느긋하게 보내는 게 어때?",
-            "LocalizeJP": "今日はこれでおしまい。\nあとはお風呂にでも浸かって、\nのんびりするのはどうかな。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "Shigure_EventMission_Day_End"
             ]
         }
     ]

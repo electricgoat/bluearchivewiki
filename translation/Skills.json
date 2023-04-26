@@ -509,6 +509,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area."
         },
         {
+            "GroupId": "EimiGearPublic01",
+            "NameEn": "A furious fixated attack +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area.\nRecover HP equal to $3 of Healing."
+        },
+        {
             "GroupId": "EimiPassive01",
             "NameEn": "Specialist's rest",
             "DescriptionEn": "Increase healing received by $1."
@@ -973,6 +978,11 @@
         {
             "GroupId": "IzumiPublic01",
             "NameEn": "Reeeady, Bang!",
+            "DescriptionEn": "Normal attacks have a $1 chance to deal $2 Attack damage to one enemy. (Cooldown: $3)"
+        },
+        {
+            "GroupId": "IzumiGearPublic01",
+            "NameEn": "Reeeady, Bang! +",
             "DescriptionEn": "Normal attacks have a $1 chance to deal $2 Attack damage to one enemy. (Cooldown: $3)"
         },
         {
@@ -1822,6 +1832,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies in an area."
         },
         {
+            "GroupId": "CH0058GearPublic01",
+            "NameEn": "Peroro-sama's Attack +",
+            "DescriptionEn": "Every $1, deal $2 damage to up to 3 enemies within a circular area. If the same enemy is attacked multiple times, followup attack will only deal $3 damage."
+        },
+        {
             "GroupId": "CH0058Passive01",
             "NameEn": "Collector's Fighting Spirit",
             "DescriptionEn": "Increase Attack by $1."
@@ -1920,6 +1935,11 @@
             "GroupId": "CH0063Public01",
             "NameEn": "Slow and Knock out",
             "DescriptionEn": "Every $1, deal $2 damage to a single enemy and stun them for $3."
+        },
+        {
+            "GroupId": "CH0063GearPublic01",
+            "NameEn": "Slow and Knock out +",
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy and stun them for $3.\nStun them for $4."
         },
         {
             "GroupId": "CH0063Passive01",
@@ -3507,7 +3527,85 @@
             "GroupId": "CH0107ExtraPassive01",
             "NameEn": "Tranquil composure",
             "DescriptionEn": "When \"Serenity\" status is active, deal $1 of Attack as additional damage."
-        }
+        },
+
+        {
+            "GroupId": "CH0200Ex01",
+            "NameEn": "Arisu, clean up!",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0200Public01",
+            "NameEn": "Meticulous care",
+            "DescriptionEn": "Every $1 normal attacks, add $2 to Mystic damage bonus against the enemies weak to it, and increase Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0200Passive01",
+            "NameEn": "It's a job bonus!",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0200WeaponPassive01",
+            "NameEn": "It's a job bonus! +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0200ExtraPassive01",
+            "NameEn": "Job Trait: Maid Hero!",
+            "DescriptionEn": "Normal attacks now hit 1 enemy and deal $1 additional damage."
+        },
+
+        {
+            "GroupId": "CH0211Ex01",
+            "NameEn": "Special Weapon: Arm Gear",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0211Public01",
+            "NameEn": "Agents' Secret Tools",
+            "DescriptionEn": "Every $1, deal $2 damage to 1 enemy. Reduce their Critical Damage Resistance by $3 for $4."
+        },
+        {
+            "GroupId": "CH0211Passive01",
+            "NameEn": "Expertise",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0211WeaponPassive01",
+            "NameEn": "Expertise +",
+            "DescriptionEn": "Increase Attack Speed by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0211ExtraPassive01",
+            "NameEn": "Arms Handling",
+            "DescriptionEn": "When EX skill is activated, add $1 to Explosive damage bonus against the enemies weak to it. (Duration: $2)"
+        },
         
+        {
+            "GroupId": "CH0203Ex01",
+            "NameEn": "Starting infiltration!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area, then deal the same damage in surrounding circular areas\nIf the same enemy is attacked multiple times, followup attack will only deal $2 damage."
+        },
+        {
+            "GroupId": "CH0203Public01",
+            "NameEn": "High Score Attack",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0203Passive01",
+            "NameEn": "Clean Code",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0203WeaponPassive01",
+            "NameEn": "Clean Code +",
+            "DescriptionEn": "Increase Critical Rate by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0203ExtraPassive01",
+            "NameEn": "Bonds of the Game Development Club",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        }
+
     ]
 }

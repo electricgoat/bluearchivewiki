@@ -1,0 +1,528 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브!",
+            "LocalizeJP": "ブルーアーカイブ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Title"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "메이드로 전직했어도, 아리스는 아리스입니다.\n지켜봐 주세요, 선생님!",
+            "LocalizeJP": "メイドにジョブチェンジしても、アリスはアリスです。\n見ていてください、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "……어디서부터\n청소할까요?",
+            "LocalizeJP": "……どこからお\n掃除しましょう？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "서브 퀘스트가 발생할\n것 같은 장소입니다…!",
+            "LocalizeJP": "サブクエストが\n発生しそうな\n場所です……！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아리스, 알고 있어요.\n세상에는\n메이드 카페라는 게 있대요!",
+            "LocalizeJP": "アリス、知ってます。\n世の中には\nメイドカフェというものが\nあるらしいです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "메이드에게는\n주인이 필요해요.\n아리스의 주인은…\n물론 선생님입니다!",
+            "LocalizeJP": "メイドには\nご主人様が必要です。\nアリスのご主人様は……\nもちろん先生です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "메이드 레벨이 올랐어요!\n아리스와 메이드복의 궁합,\n조금 좋아졌습니다.",
+            "LocalizeJP": "メイドレベルが\n上がりました！\nアリスとメイド服の相性は、\n少し良くなってきました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 주인님!",
+            "LocalizeJP": "おかえりなさいませ、\nご主人様！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "메이드 아리스에게\n무엇이든 맡겨주세요.",
+            "LocalizeJP": "メイドのアリスに\n何でもお任せください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "뭐든지 말해주세요.",
+            "LocalizeJP": "何でも言ってください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_LogIn_2"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "지금의 아리스는\n선생님의 메이드니까요!",
+            "LocalizeJP": "今のアリスは\n先生のメイドなので！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오늘의 아리스는 메이드이자 용사!",
+            "LocalizeJP": "今日のアリスは\nメイドであり勇者！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_1"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "즉 메이드 용사입니다!",
+            "LocalizeJP": "つまりメイド勇者です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "메이드 용사란 메이드와 용사의\n경지에 이른 끝에 있습니다.",
+            "LocalizeJP": "メイド勇者とは、メイドと\n勇者を極めた先にあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "RPG로 비유하자면 상급직입니다!",
+            "LocalizeJP": "RPGで例えるなら上級職です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "메이드 옷으로 갈아입으니,\n청소 스킬이 는 것 같아요!",
+            "LocalizeJP": "メイド服に着替えると、お掃除\nスキルが上がった気がします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_2"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님, 혹시 청소할 곳이 있나요?",
+            "LocalizeJP": "先生、どこかお掃除する\nところはありますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "메이드는 다양한\n일을 해낸다고 들었어요!",
+            "LocalizeJP": "メイドは様々な\nお仕事をこなすと聞きました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_3"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "요리, 청소, 세탁♪\n파괴에 강습, 경비에 세계 평화까지!",
+            "LocalizeJP": "お料理、お掃除、お洗濯♪\n破壊に強襲、警備に\n世界平和まで！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "저격수에게 중요한 것은\n평상심이라고 들었습니다.",
+            "LocalizeJP": "狙撃手にとって、\n平常心が大事だと聞きました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_4_1"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "서, 선생님?\n그렇게 머리를 쓰다듬으시면……?",
+            "LocalizeJP": "せ、先生？\nそんなに頭を撫でられると……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후아아아…… 아리스는\n평상심이 깨지고 말았습니다……",
+            "LocalizeJP": "……ふわぁ。アリスは\n平常心を失ってしまいました……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_4_2"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "선생님, 오늘 스케줄 알려주세요!",
+            "LocalizeJP": "先生、今日のスケジュールを\n教えてください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_5_1"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "하루종일 뒹굴뒹굴 하는 건가요?\n네? 아리스도…?",
+            "LocalizeJP": "一日中、\nゴロゴロするんですか……？\nえ、アリスも……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "네! 아리스도 뒹굴뒹굴 하겠습니다!",
+            "LocalizeJP": "はい！\nアリスもゴロゴロします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Lobby_5_2"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해요, 선생님!",
+            "LocalizeJP": "お誕生日\nおめでとうございます、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "기념 아이템은 뭐가 좋을까요?",
+            "LocalizeJP": "記念アイテムは\n何が良いですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "게임개발부 친구들,\n그리고 선생님과 만난 날…",
+            "LocalizeJP": "ゲーム開発部のみんな、\nそして先生と出会った日……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Season_Birthday"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "그날 있었던 일을,\n아리스는 잊지 않을 거예요.",
+            "LocalizeJP": "あの日の出来事を、\nアリスは忘れません。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "선생님,\n앞으로도 잘 부탁드립니다!",
+            "LocalizeJP": "先生、これからも\nよろしくお願いします！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으세요, 선생님!",
+            "LocalizeJP": "あけまして\nおめでとうございます、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Season_NewYear"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "메이드 아리스의 첫 일,\n뭐가 좋으세요?",
+            "LocalizeJP": "メイドアリスの初仕事、\n何が良いですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "……옆에 있기만 해도 된다구요?",
+            "LocalizeJP": "……そばに居るだけで\n良いんですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아리스, 알고 있습니다.",
+            "LocalizeJP": "アリス、知っています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Season_Xmas"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "게임이든 현실이든, \n크리스마스는 이벤트의 시간입니다!",
+            "LocalizeJP": "ゲームでも現実でも、\nクリスマスはイベントの\n時間です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "해피 할로윈!",
+            "LocalizeJP": "ハッピーハロウィーン！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_Season_Halloween"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "다같이 게임 캐릭터처럼\n가장하는 날이네요!",
+            "LocalizeJP": "みんなでゲームのキャラクター\nみたいに仮装する日ですね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "아니면…\n게임이 현실이 되는 날일까요?",
+            "LocalizeJP": "それとも……ゲームが\n現実になる日なのでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이건… 아리스와 선생님의\n힘으로 강화한 전설의 성검…!\n감사합니다 선생님!\n아리스, 메이드 레벨을 더 올려서\n메이드 용사가 되겠습니다!",
+            "LocalizeJP": "これは……アリスと先生の\n力で強化した伝説の聖剣……！\nありがとうございます、先生！\nアリス、もっとメイドレベルを\n上げて、メイド勇者になります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0200_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "선, 선생님!?\n아리스, 아직 준비중이라서……",
+            "LocalizeJP": "せ、先生！？\nアリス、まだ\n準備中なので……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "메이드를 극복하고,\n전직한 아리스의 모습……",
+            "LocalizeJP": "メイドを克服し、\nジョブチェンジした\nアリスの姿……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "선생님께 보여드리려고\n생각했는데……",
+            "LocalizeJP": "先生に見せようと\n思ったのですが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아리스가 준비를 끝낼 때까지,\n조금만 기다려 주세요.",
+            "LocalizeJP": "アリスの支度が整うまで、\nもう少しだけ\n待っていてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "맞아요!\n이제 메이드는 무섭지 않아요!",
+            "LocalizeJP": "その通りです！\nもうメイドは\n怖くありません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "이건 전부 선생님이\n계셔 주었기 때문입니다.",
+            "LocalizeJP": "これも全部、先生が\n居てくれたおかげです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "선생님과 함께라면……",
+            "LocalizeJP": "先生と一緒なら……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아리스는 어떤 던전이든\n공략할 수 있으니까요.",
+            "LocalizeJP": "アリスはどんな\nダンジョンでも\n攻略できますから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "네! 아리스,\n모험 준비가 끝났어요!",
+            "LocalizeJP": "はいっ！アリス、\n冒険の準備が\n整いました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

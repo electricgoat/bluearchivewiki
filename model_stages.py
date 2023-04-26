@@ -34,6 +34,7 @@ def damage_type(text):
         'Explosion': 'Explosive',
         'Pierce': 'Penetration',
         'Mystic': 'Mystic',
+        'Sonic': 'Sonic',
         None: None
     }[text]
 
@@ -43,6 +44,7 @@ def armor_type(text):
         'LightArmor': 'Light',
         'HeavyArmor': 'Heavy',
         'Unarmed': 'Special',
+        'ElasticArmor': 'Elastic',
         None: None
     }[text]
 
