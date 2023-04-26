@@ -124,7 +124,8 @@ def wiki_card(type, id, **params ):
     if 'block' in params:
         wikitext_params += f"|block"
 
-    return '{{'+card_type+'|'+(name != None and name or 'Unknown')+wikitext_params+'}}'
+    if name == None: print (f"Unknown {type} item {id}")
+    return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
 
 
 
