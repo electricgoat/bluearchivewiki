@@ -736,7 +736,7 @@
         {
             "GroupId": "KotoriEx01",
             "NameEn": "Black box",
-            "DescriptionEn": "Move 4 allies to the specified location and apply a shield equal to $1 of Healing power."
+            "DescriptionEn": "Move 4 allies to the specified location and grant them shields of $1 Healing power for $2."
         },
         {
             "GroupId": "KotoriPublic01",
@@ -745,12 +745,12 @@
         },
         {
             "GroupId": "KotoriPassive01",
-            "NameEn": "Comprehending the issue",
+            "NameEn": "Getting the point",
             "DescriptionEn": "Increase Critical Damage by $1."
         },
         {
             "GroupId": "KotoriWeaponPassive01",
-            "NameEn": "Comprehending the issue +",
+            "NameEn": "Getting the point +",
             "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
         },
         {
