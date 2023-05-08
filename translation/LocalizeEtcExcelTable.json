@@ -5123,6 +5123,189 @@
             "NameEn": "Recollection・4.5th memory",
             "DescriptionJp": "4.5th PVの映像を再生できる機械",
             "DescriptionEn": "Machine that plays 4.5th PV video."
-        }
+        },
+
+        {
+            "Id": 936819385,
+            "NameJp": "初級技術ノートボックス",
+            "NameEn": "Beginner Tech Notes Chest",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills."
+        },
+        {
+            "Id": 2243900442,
+            "NameJp": "家具選択ボックス（青）",
+            "NameEn": "Furniture Selection Box (Blue)",
+            "DescriptionJp": "青等級の家具の中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A selection box that allows you to select and exchange any piece of blue-grade furniture."
+        },
+        {
+            "Id": 2581283474,
+            "NameJp": "家具選択ボックス（橙）",
+            "NameEn": "Furniture Selection Box (Orange)",
+            "DescriptionJp": "橙等級の家具の中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A selection box that allows you to select and exchange any piece of orange-grade furniture."
+        },
+        {
+            "Id": 1889003926,
+            "NameJp": "家具選択ボックス（紫）",
+            "NameEn": "Furniture Selection Box (Purple)",
+            "DescriptionJp": "紫等級の家具の中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A selection box that allows you to select and exchange any piece of purple-grade furniture."
+        },
+        {
+            "Id": 2954222223,
+            "NameJp": "ゲーム開発部シリーズ選択ボックス",
+            "NameEn": "Game Development Club Furniture Choice Ticket",
+            "DescriptionJp": "ゲーム開発部シリーズの中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for Game Development Club Furniture of your choice."
+        },
+        {
+            "Id": 3924377603,
+            "NameJp": "その他シリーズ選択ボックス",
+            "NameEn": "Miscellaneous Furniture Choice Ticket",
+            "DescriptionJp": "使用時、その他シリーズ家具の中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for miscellaneous furniture of your choice."
+        },
+        {
+            "Id": 83348033,
+            "NameJp": "ゲーム開発部シリーズ抽選ボックス",
+            "NameEn": "Game Development Club Raffle Ticket",
+            "DescriptionJp": "使用時、ゲーム開発部シリーズの家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for Game Development Club Furniture based on set probabilities."
+        },
+        {
+            "Id": 3210941758,
+            "NameJp": "家具抽選ボックス（青）",
+            "NameEn": "Furniture Raffle Box (Blue)",
+            "DescriptionJp": "使用時、青等級の家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for a random piece of blue-grade furniture."
+        },
+        {
+            "Id": 2455303925,
+            "NameJp": "家具抽選ボックス（橙）",
+            "NameEn": "Furniture Raffle Box (Orange)",
+            "DescriptionJp": "使用時、橙等級の家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for a random piece of orange-grade furniture."
+        },
+        {
+            "Id": 616748062,
+            "NameJp": "家具抽選ボックス（紫）",
+            "NameEn": "Furniture Raffle Box (Purple)",
+            "DescriptionJp": "使用時、紫等級の家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for a random piece of purple-grade furniture."
+        },
+        {
+            "Id": 1327603225,
+            "NameJp": "その他シリーズ抽選ボックス",
+            "NameEn": "Miscellaneous Furniture Raffle Box",
+            "DescriptionJp": "使用時、その他シリーズ家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A ticket that can be exchanged for a random piece of miscellaneous furniture."
+        },
+
+        {
+            "Id": 2053117222,
+            "NameKr": "기초 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 게헨나, 산해경, 트리니티, 발키리, 아리우스 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "初級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。ゲヘナ、山海経、トリニティ、ヴァルキューレ、アリウスのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นต่ำ",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนเกเฮนน่า, ซานไห่จิง, ทรีนิตี้, วัลคิรี่ หรืออาเรียส 1 แบบ",
+            "NameTw": "基礎技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從格黑娜、山海經、三一、女武神、奧利斯學園當中獲得一個。",
+            "NameEn": "Beginner Tech Notes Chest (Gehenna, Shanhaijing, Trinity, Valkyrie, Arius)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills from Gehenna, Shanhaijing, Trinity, Valkyrie, or Arius."
+          },
+          {
+            "Id": 572366011,
+            "NameKr": "일반 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 게헨나, 산해경, 트리니티, 발키리, 아리우스 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "中級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。ゲヘナ、山海経、トリニティ、ヴァルキューレ、アリウスのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นกลาง",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนเกเฮนน่า, ซานไห่จิง, ทรีนิตี้, วัลคิรี่ หรืออาเรียส 1 แบบ",
+            "NameTw": "一般技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從格黑娜、山海經、三一、女武神、奧利斯學園當中獲得一個。",
+            "NameEn": "Normal Tech Notes Chest (Gehenna, Shanhaijing, Trinity, Valkyrie, Arius)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills from Gehenna, Shanhaijing, Trinity, Valkyrie, or Arius."
+          },
+          {
+            "Id": 871337437,
+            "NameKr": "상급 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 게헨나, 산해경, 트리니티, 발키리, 아리우스 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "上級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。ゲヘナ、山海経、トリニティ、ヴァルキューレ、アリウスのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นสูง",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนเกเฮนน่า, ซานไห่จิง, ทรีนิตี้, วัลคิรี่ หรืออาเรียส 1 แบบ",
+            "NameTw": "高級技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從格黑娜、山海經、三一、女武神、奧利斯學園當中獲得一個。",
+            "NameEn": "Advanced Tech Notes Chest (Gehenna, Shanhaijing, Trinity, Valkyrie, Arius)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills from Gehenna, Shanhaijing, Trinity, Valkyrie, or Arius."
+          },
+          {
+            "Id": 317230714,
+            "NameKr": "최상급 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 게헨나, 산해경, 트리니티, 발키리, 아리우스 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "最上級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。ゲヘナ、山海経、トリニティ、ヴァルキューレ、アリウスのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นสูงสุด",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนเกเฮนน่า, ซานไห่จิง, ทรีนิตี้, วัลคิรี่ หรืออาเรียส 1 แบบ",
+            "NameTw": "最高級技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從格黑娜、山海經、三一、女武神、奧利斯學園當中獲得一個。",
+            "NameEn": "Superior Tech Notes Chest (Gehenna, Shanhaijing, Trinity, Valkyrie, Arius)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills from Gehenna, Shanhaijing, Trinity, Valkyrie, or Arius."
+          },
+          {
+            "Id": 4164563020,
+            "NameKr": "기초 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 아비도스, 밀레니엄, 백귀야행, 붉은겨울 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "初級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。アビドス、ミレニアム、百鬼夜行、レッドウィンターのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นต่ำ",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนอะบิดอส, มิลเลเนียม, เฮียกคิยาโค หรือเรดวินเทอร์ 1 แบบ",
+            "NameTw": "基礎技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從阿拜多斯、千年、百鬼夜行、赤冬學園當中獲得一個。",
+            "NameEn": "Beginner Tech Notes Chest (Abydos, Millennium, Hyakkiyako, Red Winter)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills. Contains one from either the Abydos, Millennium, Hyakkiyako, or Red Winter Academy."
+          },
+          {
+            "Id": 668634446,
+            "NameKr": "일반 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 아비도스, 밀레니엄, 백귀야행, 붉은겨울 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "中級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。アビドス、ミレニアム、百鬼夜行、レッドウィンターのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นกลาง",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนอะบิดอส, มิลเลเนียม, เฮียกคิยาโค หรือเรดวินเทอร์ 1 แบบ",
+            "NameTw": "一般技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從阿拜多斯、千年、百鬼夜行、赤冬學園當中獲得一個。",
+            "NameEn": "Normal Tech Notes Chest (Abydos, Millennium, Hyakkiyako, Red Winter)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills. Contains one from either the Abydos, Millennium, Hyakkiyako, or Red Winter Academy."
+          },
+          {
+            "Id": 1198266499,
+            "NameKr": "상급 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 아비도스, 밀레니엄, 백귀야행, 붉은겨울 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "上級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。アビドス、ミレニアム、百鬼夜行、レッドウィンターのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นสูง",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนอะบิดอส, มิลเลเนียม, เฮียกคิยาโค หรือเรดวินเทอร์ 1 แบบ",
+            "NameTw": "高級技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從阿拜多斯、千年、百鬼夜行、赤冬學園當中獲得一個。",
+            "NameEn": "Advanced Tech Notes Chest (Abydos, Millennium, Hyakkiyako, Red Winter)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills. Contains one from either the Abydos, Millennium, Hyakkiyako, or Red Winter Academy."
+          },
+          {
+            "Id": 3946876494,
+            "NameKr": "최상급 기술 노트 상자",
+            "DescriptionKr": "스킬을 강화시키는 기술 노트가 들어 있는 상자. 아비도스, 밀레니엄, 백귀야행, 붉은겨울 학원 중 하나를 획득할 수 있다.",
+            "NameJp": "最上級技術ノートボックス",
+            "DescriptionJp": "スキルを強化してくれる技術ノートが入っている箱。アビドス、ミレニアム、百鬼夜行、レッドウィンターのいずれかの生徒にあげることができる。",
+            "NameTh": "กล่องตำราสกิลขั้นสูงสุด",
+            "DescriptionTh": "กล่องบรรจุตำราสกิลสำหรับใช้พัฒนาสกิล เมื่อเปิดจะได้รับตำราสกิลของนักเรียนอะบิดอส, มิลเลเนียม, เฮียกคิยาโค หรือเรดวินเทอร์ 1 แบบ",
+            "NameTw": "最高級技術筆記箱",
+            "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從阿拜多斯、千年、百鬼夜行、赤冬學園當中獲得一個。",
+            "NameEn": "Superior Tech Notes Chest (Abydos, Millennium, Hyakkiyako, Red Winter)",
+            "DescriptionEn": "A chest containing Tech Notes for enhancing skills. Contains one from either the Abydos, Millennium, Hyakkiyako, or Red Winter Academy."
+          }
     ]
 }
