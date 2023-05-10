@@ -3605,6 +3605,32 @@
             "GroupId": "CH0203ExtraPassive01",
             "NameEn": "Bonds of the Game Development Club",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0167Ex01",
+            "NameEn": "Come challenge me!",
+            "DescriptionEn": "Deal $1 damage to enemies within a conical area\nCleanse $2 debuff from self."
+        },
+        {
+            "GroupId": "CH0167Public01",
+            "NameEn": "Victory pose!",
+            "DescriptionEn": "Every $1, continuously regenerate HP at a rate of $2 Healing for $3."
+        },
+        {
+            "GroupId": "CH0167Passive01",
+            "NameEn": "All day long!",
+            "DescriptionEn": "Increase Attack by $1, increase HP by $2."
+        },
+        {
+            "GroupId": "CH0167WeaponPassive01",
+            "NameEn": "All day long! +",
+            "DescriptionEn": "Increase Attack by $1, increase HP by $2. Further increase Attack by $3, increase HP by $4."
+        },
+        {
+            "GroupId": "CH0167ExtraPassive01",
+            "NameEn": "The presense of Uzawa Reisa",
+            "DescriptionEn": "When using EX skill, decrease target Defense by $1.\nTaunt them for $2."
         }
 
     ]

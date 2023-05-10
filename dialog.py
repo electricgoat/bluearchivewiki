@@ -405,7 +405,7 @@ def save_missing_translations(name, data):
         lines.append({'CharacterId': line['CharacterId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
 
     f = open(args['translation'] + '/missing/' + name + '.json', "w", encoding='utf8' )
-    f.write(json.dumps({'DataList':lines}, sort_keys=False, indent=4, ensure_ascii=False))
+    f.write(json.dumps({'DataList':lines}, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
     f.close()
 
 
@@ -417,7 +417,7 @@ def write_file(file, items):
         data['DataList'].append(item)
 
     f = open(os.path.join(file), 'w', encoding="utf8")
-    f.write(json.dumps(data, sort_keys=False, indent=4, ensure_ascii=False))
+    f.write(json.dumps(data, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
     f.close()
     return True
 
@@ -450,7 +450,7 @@ def main():
 
     try:
         if (args['scavenge']): scavenge()
-        generate()
+        else: generate()
     except:
         parser.print_help()
         traceback.print_exc()

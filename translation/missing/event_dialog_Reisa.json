@@ -1,0 +1,680 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "아, 선생님! 이쪽입니다!",
+            "LocalizeJP": "あっ、先生！\nこっちですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "자경단의 슈퍼히어로!",
+            "LocalizeJP": "自警団の\nスーパーヒーロー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "우자와 레이사\n인사드립니다!",
+            "LocalizeJP": "宇沢レイサ、\nご挨拶申し上げます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "오오옷-!\n달아오르고 있습니다!",
+            "LocalizeJP": "おおおっ！\n盛り上がって\nまいりました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "막판 스퍼-트! 입니다!",
+            "LocalizeJP": "ラストスパート！です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "마지막까지, 달려나갑시다!",
+            "LocalizeJP": "最後まで、\n駆けぬけましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네! 우자와 레이사\n대기중입니다!",
+            "LocalizeJP": "はい！\n宇沢レイサ、\n待機中です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀해주세요!",
+            "LocalizeJP": "どうかしましたか？\nいつでも\nお声がけください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "사건인가요!?\n어디죠!?\n누구의 일이죠!?",
+            "LocalizeJP": "事件ですか！？\nどこですか！？\n誰の事ですか！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "으음…….\n가만히 있는 게\n제일 힘듭니다…….",
+            "LocalizeJP": "んん……\nじっとしているのが、\n一番、難しいです……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "순찰 중에 모은 물건입니다!\n선생님도 보시겠어요?",
+            "LocalizeJP": "パトロール中に集めた物です！先生もご覧になりますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이 일을 하다 보면,\n분실물을 자주 보게 되네요….",
+            "LocalizeJP": "この仕事をしていると、\n落とし物をよく\n見かけるんですよね……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "무사히 주인을\n찾았으면 좋겠습니다만",
+            "LocalizeJP": "無事持ち主が\n見つかるといいんですが",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "더 필요하신 것 있으신가요?\n확인하고 오겠습니다!",
+            "LocalizeJP": "他に何か必要なものは\nありますか？\n確認してまいります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_End"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응? 뭘 찾으시나요?",
+            "LocalizeJP": "うん？何かお探しですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그건 여기에는 없는 건가요?",
+            "LocalizeJP": "それはここには\nないものでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "필요한 게 있으면\n뭐든 말씀해 주세요!",
+            "LocalizeJP": "必要な物が\nありましたら何なりと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "바로 가져다 드릴께요!",
+            "LocalizeJP": "すぐにお持ちしますので！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오호, 과연과연.",
+            "LocalizeJP": "ほお、なるほどなるほど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "음! 그것도 좋죠.",
+            "LocalizeJP": "んむ！\nそれもいいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 3,
+            "LocalizeKR": "그게 필요하셨군요?",
+            "LocalizeJP": "お探しのものは、\nそちらでしたか！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_3"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 4,
+            "LocalizeKR": "자, 여기 있습니다~!",
+            "LocalizeJP": "はい、こちらです、\nどうぞー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_4"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "앗! 안녕하세요, 선생님!",
+            "LocalizeJP": "あっ！\nこんにちは、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "해결해야 할 사건이\n산더미에요!",
+            "LocalizeJP": "解決しなきゃいけない\n事件が山積みです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "리스트를 준비해 두었습니다!\n함께 체크해 보시죠!",
+            "LocalizeJP": "リストをご用意しました！\n一緒にチェックしていきましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응……? 선생님?\n왜 그러시죠?",
+            "LocalizeJP": "うん……？先生？\nどうしました？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "집중!\n작업에 집중해 주세요!",
+            "LocalizeJP": "集中！\n作業に集中してください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오오-!\n역시 선생님!",
+            "LocalizeJP": "おおー！\nさすが先生です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "좋습니다! 순조롭군요!!",
+            "LocalizeJP": "いいですね！順調です！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "아, 선생님! 이쪽입니다!",
+            "LocalizeJP": "あっ、先生！\nこっちですよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "자경단의 슈퍼히어로!",
+            "LocalizeJP": "自警団の\nスーパーヒーロー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "우자와 레이사\n인사드립니다!",
+            "LocalizeJP": "宇沢レイサ、\nご挨拶申し上げます！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "오오옷-!\n달아오르고 있습니다!",
+            "LocalizeJP": "おおおっ！\n盛り上がって\nまいりました！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "막판 스퍼-트! 입니다!",
+            "LocalizeJP": "ラストスパート！です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "마지막까지, 달려나갑시다!",
+            "LocalizeJP": "最後まで、\n駆けぬけましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네! 우자와 레이사\n대기중입니다!",
+            "LocalizeJP": "はい！\n宇沢レイサ、\n待機中です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀해주세요!",
+            "LocalizeJP": "どうかしましたか？\nいつでも\nお声がけください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "사건인가요!?\n어디죠!?\n누구의 일이죠!?",
+            "LocalizeJP": "事件ですか！？\nどこですか！？\n誰の事ですか！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "으음…….\n가만히 있는 게\n제일 힘듭니다…….",
+            "LocalizeJP": "んん……\nじっとしているのが、\n一番、難しいです……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "순찰 중에 모은 물건입니다!\n선생님도 보시겠어요?",
+            "LocalizeJP": "パトロール中に集めた物です！先生もご覧になりますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "이 일을 하다 보면,\n분실물을 자주 보게 되네요….",
+            "LocalizeJP": "この仕事をしていると、\n落とし物をよく\n見かけるんですよね……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "무사히 주인을\n찾았으면 좋겠습니다만",
+            "LocalizeJP": "無事持ち主が\n見つかるといいんですが",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "더 필요하신 것 있으신가요?\n확인하고 오겠습니다!",
+            "LocalizeJP": "他に何か必要なものは\nありますか？\n確認してまいります！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_End"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응? 뭘 찾으시나요?",
+            "LocalizeJP": "うん？何かお探しですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그건 여기에는 없는 건가요?",
+            "LocalizeJP": "それはここには\nないものでしょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "필요한 게 있으면\n뭐든 말씀해 주세요!",
+            "LocalizeJP": "必要な物が\nありましたら何なりと！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "바로 가져다 드릴께요!",
+            "LocalizeJP": "すぐにお持ちしますので！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오호, 과연과연.",
+            "LocalizeJP": "ほお、なるほどなるほど。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "음! 그것도 좋죠.",
+            "LocalizeJP": "んむ！\nそれもいいですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 3,
+            "LocalizeKR": "그게 필요하셨군요?",
+            "LocalizeJP": "お探しのものは、\nそちらでしたか！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_3"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventShop",
+            "DialogCondition": "Buy",
+            "GroupId": 4,
+            "LocalizeKR": "자, 여기 있습니다~!",
+            "LocalizeJP": "はい、こちらです、\nどうぞー！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventShop_Buy_4"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "앗! 안녕하세요, 선생님!",
+            "LocalizeJP": "あっ！\nこんにちは、先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "해결해야 할 사건이\n산더미에요!",
+            "LocalizeJP": "解決しなきゃいけない\n事件が山積みです！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "리스트를 준비해 두었습니다!\n함께 체크해 보시죠!",
+            "LocalizeJP": "リストをご用意しました！\n一緒にチェックしていきましょう！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "응……? 선생님?\n왜 그러시죠?",
+            "LocalizeJP": "うん……？先生？\nどうしました？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "집중!\n작업에 집중해 주세요!",
+            "LocalizeJP": "集中！\n作業に集中してください！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오오-!\n역시 선생님!",
+            "LocalizeJP": "おおー！\nさすが先生です！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009133,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "좋습니다! 순조롭군요!!",
+            "LocalizeJP": "いいですね！順調です！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0167_EventMission_Get_2"
+            ]
+        }
+    ]
+}
