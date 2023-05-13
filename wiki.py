@@ -163,7 +163,6 @@ def publish(page_name, wikitext, summary='Publishing generated page'):
 
 def upload(file, name, comment = 'File upload'):
     global site
-
     f = open(file, "rb")
 
     try: 
@@ -189,3 +188,33 @@ def upload(file, name, comment = 'File upload'):
             return True
         else:
             print (f"Unknown upload error {error}")
+
+
+def move(name_old, name_new, summary='Consistent naming'):
+    global site
+
+    print(f"Moving {name_old} → {name_new}")
+    try:
+        #get pageid
+        pageid = None
+        for page in site.query_pages(titles=[name_old]):
+            #print(page)
+            pageid = page['pageid']
+
+        if pageid:
+            site(
+                action='move',
+                fromid=pageid,
+                to=name_new,
+                reason=summary,
+                movetalk=True,
+                movesubpages=True,
+                token=site.token(),
+                POST=True
+            )
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            move(name_old, name_new, summary)
+        else:
+            print (f"Unknown moving error {error}")

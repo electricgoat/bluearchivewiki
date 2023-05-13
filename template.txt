@@ -69,6 +69,7 @@
 {%- if character.memory_lobby.image != None %}
 | MemoryLobbyUnlockLv = {{character.memory_lobby.unlock_level}}
 | MemoryLobbyImage = {{character.memory_lobby.image}}
+| MemoryLobbyBGMId = {{character.memory_lobby.bgm_id}}
 {%- endif -%}
 
 {%- for momotalk in character.momotalk.levels %}

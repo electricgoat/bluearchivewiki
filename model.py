@@ -641,8 +641,9 @@ class Favor(object):
 
 
 class MemoryLobby(object):
-    def __init__(self, image, unlock_level):
+    def __init__(self, image, bgm_id, unlock_level):
         self.image = image
+        self.bgm_id = bgm_id
         self.unlock_level = unlock_level
 
 
@@ -658,6 +659,7 @@ class MemoryLobby(object):
         
         return cls(
             lobby_data['RewardTextureName'][lobby_data['RewardTextureName'].rfind('/')+1:],
+            lobby_data['BGMId'],
             unlock_level
         )
 

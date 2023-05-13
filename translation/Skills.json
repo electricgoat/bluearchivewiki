@@ -3625,12 +3625,12 @@
         {
             "GroupId": "CH0167WeaponPassive01",
             "NameEn": "All day long! +",
-            "DescriptionEn": "Increase Attack by $1, increase HP by $2. Further increase Attack by $3, increase HP by $4."
+            "DescriptionEn": "Increase Attack by $1, increase HP by $2.\nFurther increase Attack by $3, increase HP by $4."
         },
         {
             "GroupId": "CH0167ExtraPassive01",
             "NameEn": "The presense of Uzawa Reisa",
-            "DescriptionEn": "When using EX skill, decrease target Defense by $1.\nTaunt them for $2."
+            "DescriptionEn": "When using EX skill, decrease target Defense by $1 for $2.\nTaunt them for $3."
         }
 
     ]

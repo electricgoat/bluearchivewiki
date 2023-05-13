@@ -23,6 +23,7 @@ BlueArchiveData = collections.namedtuple(
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
     'world_raid_season', 'world_raid_stage','world_raid_stage_reward',
+    'bgm',
     ]
 )
 
@@ -96,6 +97,7 @@ def load_data(path_primary, path_secondary, path_translation):
         world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
         world_raid_stage=           load_generic(path_primary, 'WorldRaidStageExcelTable.json'),
         world_raid_stage_reward=    load_world_raid_stage_reward(path_primary),
+        bgm=                        load_bgm(path_primary, path_translation),
     )
 
 
@@ -388,6 +390,22 @@ def load_event_content_fortune_gacha_shop(path):
 
 def load_world_raid_stage_reward(path):
     return load_file_grouped(os.path.join(path, 'Excel', 'WorldRaidStageRewardExcelTable.json'), 'GroupId')
+
+
+def load_bgm(path_primary, path_translation):
+    data_primary = load_file(os.path.join(path_primary, 'Excel', 'BGMExcelTable.json'))
+    data_aux = None
+
+    if os.path.exists(os.path.join(path_translation, 'BGM.json')):
+        print(f'Loading additional translations from {path_translation}/BGM.json')
+        data_aux = load_file(os.path.join(path_translation, 'BGM.json'))
+
+        for id in data_aux.keys():
+            if id in data_primary: data_primary[id] |= (data_aux[id])
+            else: print(f'   ...track {id} is not listed in the BGMExcelTable.json')
+    
+    return data_primary
+
 
 
 

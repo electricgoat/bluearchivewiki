@@ -1,0 +1,4 @@
+=Tracklist=
+{% for track_id, track_data in filtered_data.items() -%}
+{% raw %}{{Track{% endraw %} | Id = {{track_id}} | Artist = {{ track_data.get('ArtistEn', '') }} | ArtistTrack = {{ track_data.get('ArtistTrack', '0') }} | Title = {{ track_data.get('NameEn', '') }} | File = {{ track_data.get('WikiFilename', '') }} {% raw %}}}{% endraw %}
+{% endfor %}
