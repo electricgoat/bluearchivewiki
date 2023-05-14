@@ -66,6 +66,27 @@
         {
             "CharacterId": 13008,
             "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_Buffed_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_Covered_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
             "VoiceClip": "Serika_Battle_Damage_1",
             "LocalizeJP": "",
             "LocalizeEN": ""
@@ -108,6 +129,13 @@
         {
             "CharacterId": 13008,
             "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
             "VoiceClip": "Serika_Battle_In_1",
             "LocalizeJP": "三好 行こか",
             "LocalizeEN": "Oookay, let's go!"
@@ -118,6 +146,20 @@
             "VoiceClip": "Serika_Battle_In_2",
             "LocalizeJP": "さあ、行こう。",
             "LocalizeEN": "Alright, let's go."
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_Move_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_Move_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13008,
@@ -178,6 +220,13 @@
         {
             "CharacterId": 13008,
             "DialogCategory": "Standard",
+            "VoiceClip": "Serika_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
             "VoiceClip": "Serika_Battle_Victory_1",
             "LocalizeJP": "簡単な任務だったから当然よ。",
             "LocalizeEN": "Of course it was an easy task."
@@ -188,6 +237,13 @@
             "VoiceClip": "Serika_Battle_Victory_2",
             "LocalizeJP": "何日と見てのよ こっちみんな",
             "LocalizeEN": "What're you looking at? Stop staring at me!"
+        },
+        {
+            "CharacterId": 13008,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Serika_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13008,
