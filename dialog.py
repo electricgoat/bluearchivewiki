@@ -186,22 +186,17 @@ def generate():
             wikitext = template.render(character=character,lines=lines,event_lines=event_lines,memorial_lines=memorial_lines,standard_lines=standard_lines)
             f.write(wikitext)
             
-
+        
         if wiki.site != None:
             wikipath = character.wiki_name + '/audio'
 
-            if not wiki.page_exists(wikipath, wikitext):
+            if args['wiki_section'] != None:
+                #print(f"Updating section {args['wiki_section']} of {wikipath}")
+                wiki.update_section(wikipath, args['wiki_section'], wikitext)
+            elif not wiki.page_exists(wikipath, wikitext):
                 print(f'Publishing {wikipath}')
-                
-                wiki.site(
-                action='edit',
-                title=wikipath,
-                text=wikitext,
-                summary=f'Generated character audio page',
-                token=wiki.site.token()
-                )
+                wiki.publish(wikipath, wikitext, f'Generated character audio page')
 
-            
 
 
 def scavenge():
@@ -436,6 +431,7 @@ def main():
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
+    parser.add_argument('-wiki_section',    metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-upload_files',    action='store_false', help='Check if audio file is already on the wiki and upload it if not')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 

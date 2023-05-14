@@ -143,6 +143,78 @@
             "VoiceClipsJp": [
                 "AzusaSwimsuit_EventLobby_4"
             ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "바다….\n여름….",
+            "LocalizeJP": "夏…海…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLogin_1_1"
+            ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "으, 응? 뭐야.\n뭘 보는 거야…",
+            "LocalizeJP": "…ん？な、何で\nそんなにこっちを\n見てるんだ…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLogin_1_2"
+            ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이 수영복…\n귀여워… 후후…",
+            "LocalizeJP": "この水着、\n可愛い…ふふっ…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…서, 선생님…?\n언제부터 보고 있었어…?",
+            "LocalizeJP": "せ、先生…？\nいつから見てた…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그, 그만 봐…\n이런 거,\n익숙하지 않으니까…",
+            "LocalizeJP": "み、見ないで…\nこういうの、\n慣れてないから…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009004,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "아, 아냐. 괜찮아…\n바, 방금 말은\n신경 쓰지 마.",
+            "LocalizeJP": "その…\nや、やっぱり\n何でもない…\n気にしないで。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "AzusaSwimsuit_EventLobby_4"
+            ]
         }
     ]
 }
