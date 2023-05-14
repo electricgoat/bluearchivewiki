@@ -4,15 +4,15 @@
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Formation_In_1",
-            "LocalizeJP": "新しい任務",
-            "LocalizeEN": "new mission"
+            "LocalizeJP": "新しい任務？",
+            "LocalizeEN": "A new mission?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Formation_In_2",
-            "LocalizeJP": "いいよ 任せて。",
-            "LocalizeEN": "okay leave it to me"
+            "LocalizeJP": "いいよ、任せて。",
+            "LocalizeEN": "Okay, leave it to me."
         },
         {
             "CharacterId": 10001,
@@ -25,8 +25,8 @@
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Tactic_Defeat_1",
-            "LocalizeJP": "作戦失敗、再編成を",
-            "LocalizeEN": "Operation failed, reorganize"
+            "LocalizeJP": "作戦失敗、再編成を。",
+            "LocalizeEN": "Operation failed. Reorganize."
         },
         {
             "CharacterId": 10001,
@@ -40,7 +40,7 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Tactic_In_1",
             "LocalizeJP": "私の出番かな。",
-            "LocalizeEN": "Maybe it's my turn"
+            "LocalizeEN": "I guess it's my turn."
         },
         {
             "CharacterId": 10001,
@@ -53,29 +53,29 @@
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Tactic_Victory_1",
-            "LocalizeJP": "効率的な式だった先生。",
-            "LocalizeEN": "The teacher who was an efficient formula."
+            "LocalizeJP": "効率的な式だった、先生。",
+            "LocalizeEN": "Efficiently calculated, Sensei."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Tactic_Victory_2",
-            "LocalizeJP": "作戦終了 他に指示は",
-            "LocalizeEN": "Operation finished. Any other instructions?"
+            "LocalizeJP": "作戦終了。他に指示は？",
+            "LocalizeEN": "Operation clear. Any other instructions?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Buffed_1",
-            "LocalizeJP": "支援 十分 受け取った。",
-            "LocalizeEN": "Received enough support."
+            "LocalizeJP": "支援、十分受け取った。",
+            "LocalizeEN": "Support acknowledged."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_BuffSelf_1",
             "LocalizeJP": "全力で行く。",
-            "LocalizeEN": "Go with all your might."
+            "LocalizeEN": "I'll give it my all."
         },
         {
             "CharacterId": 10001,
@@ -103,7 +103,7 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Defense_1",
             "LocalizeJP": "無駄。",
-            "LocalizeEN": "waste."
+            "LocalizeEN": "Useless."
         },
         {
             "CharacterId": 10001,
@@ -117,35 +117,35 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_In_2",
             "LocalizeJP": "突入する。",
-            "LocalizeEN": "enter abruptly."
+            "LocalizeEN": "Breaking in."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Move_1",
-            "LocalizeJP": "これで終わり。",
-            "LocalizeEN": "That's it."
+            "LocalizeJP": "これで終わり？",
+            "LocalizeEN": "Is that it?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Move_2",
-            "LocalizeJP": "次の敵はどこ",
-            "LocalizeEN": "where is the next enemy"
+            "LocalizeJP": "次の敵はどこ？",
+            "LocalizeEN": "Where is the next enemy?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
-            "LocalizeEN": "thank you."
+            "LocalizeEN": "Thank you."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Retire",
             "LocalizeJP": "私はここまで。",
-            "LocalizeEN": "I'm here."
+            "LocalizeEN": "This is as far as I go."
         },
         {
             "CharacterId": 10001,
@@ -158,36 +158,36 @@
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Shout_2",
-            "LocalizeJP": "照準",
-            "LocalizeEN": "aiming"
+            "LocalizeJP": "照準。",
+            "LocalizeEN": "Aiming."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Shout_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "打つ。",
+            "LocalizeEN": "Fire!"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_TacticalAction_1",
             "LocalizeJP": "移動する。",
-            "LocalizeEN": "Moving."
+            "LocalizeEN": "Changing position."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Victory_1",
-            "LocalizeJP": "結果が導き出せた。",
-            "LocalizeEN": "results have been obtained."
+            "LocalizeJP": "結果が導き出せた？",
+            "LocalizeEN": "Did we come out with results?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Battle_Victory_2",
-            "LocalizeJP": "私たちの勝利",
-            "LocalizeEN": "our victory"
+            "LocalizeJP": "私たちの勝利。",
+            "LocalizeEN": "This is our victory."
         },
         {
             "CharacterId": 10001,
@@ -200,57 +200,57 @@
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_1",
-            "LocalizeJP": "インタープリター 起動 解析 開始。",
-            "LocalizeEN": "interpreter launch parsing start."
+            "LocalizeJP": "インタープリター起動。解析開始。",
+            "LocalizeEN": "Launching interpreter. Parsing start."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_2",
-            "LocalizeJP": "コードを再解析、適用 完了。",
-            "LocalizeEN": "Reanalyze code, apply Done."
+            "LocalizeJP": "コードを再解析。適用完了。",
+            "LocalizeEN": "Reanalyze code. Applied."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_3",
             "LocalizeJP": "パターン分析中。",
-            "LocalizeEN": "Under pattern analysis."
+            "LocalizeEN": "Undergoing pattern analysis."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_Level_1",
-            "LocalizeJP": "ディフェンスモード 転換",
-            "LocalizeEN": "Defense mode conversion"
+            "LocalizeJP": "ディフェンスモード転換",
+            "LocalizeEN": "Switching to defense mode."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_Level_2",
             "LocalizeJP": "苦しむのは慣れてる。",
-            "LocalizeEN": "I'm used to suffering."
+            "LocalizeEN": "I'm used to pain."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_ExSkill_Level_3",
-            "LocalizeJP": "適用 完了 もう大丈夫。",
-            "LocalizeEN": "Apply Done Okay."
+            "LocalizeJP": "適用完了。もう大丈夫。",
+            "LocalizeEN": "Changes applied. It's okay now."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Growup_1",
             "LocalizeJP": "これも戦闘に必要なことだよね。",
-            "LocalizeEN": "This is also necessary for combat."
+            "LocalizeEN": "I need this for combat as well, right?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Growup_2",
             "LocalizeJP": "私にもっとたくさん教えて。",
-            "LocalizeEN": "tell me more"
+            "LocalizeEN": "Teach me some more."
         },
         {
             "CharacterId": 10001,
@@ -264,35 +264,35 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Growup_4",
             "LocalizeJP": "成長してる。",
-            "LocalizeEN": "Growing up"
+            "LocalizeEN": "I'm growing stronger."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Relationship_Up_1",
             "LocalizeJP": "先生になら私の背中を任せてもいい。",
-            "LocalizeEN": "If it's a teacher, you can leave my back to me."
+            "LocalizeEN": "I know I can leave my back to you, Sensei."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Relationship_Up_2",
-            "LocalizeJP": "私の銃に興味ある。",
-            "LocalizeEN": "I'm interested in my gun."
+            "LocalizeJP": "私の銃に興味ある？",
+            "LocalizeEN": "You want to know about my gun?"
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Relationship_Up_3",
             "LocalizeJP": "先生の言うことは理解しやすいから 好き。",
-            "LocalizeEN": "I like what the teacher says because it is easy to understand."
+            "LocalizeEN": "It's easy to understand when you teach me, Sensei."
         },
         {
             "CharacterId": 10001,
             "DialogCategory": "Standard",
             "VoiceClip": "Eimi_Relationship_Up_4",
             "LocalizeJP": "先生を守ることが私の任務だから。",
-            "LocalizeEN": "Because it's my duty to protect my teacher."
+            "LocalizeEN": "It's my duty to protect Sensei."
         }
     ]
 }
