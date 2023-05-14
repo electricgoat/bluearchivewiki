@@ -16,16 +16,20 @@ def upload_tracks(tracks):
     global args 
 
     for track in tracks.values():
+        print(f"=== Track {track['Id']} ===")
+
         localpath = os.path.join(args['data_audio'], f"{track['Path'].lstrip('Audio/')}.ogg")
         if not os.path.exists(localpath):
             print(f'File not found: {localpath}')
             continue
 
         #Rename old file if it had no artist/name listed previously, but now does
-        if wiki.page_exists(f"File:Track_{track['Id']}.ogg"):
-            if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not wiki.page_exists(f"File:{track['WikiFilename']}"):
+        generic_name_exists = wiki.page_exists(f"File:Track_{track['Id']}.ogg")
+        complete_name_exists = wiki.page_exists(f"File:{track['WikiFilename']}")
+        if generic_name_exists:
+            if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not complete_name_exists:
                 wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}")
-        else:
+        elif not complete_name_exists:
             print (f"Uploading {localpath} as {track['WikiFilename']}")
             wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
 

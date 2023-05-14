@@ -190,7 +190,7 @@ def upload(file, name, comment = 'File upload'):
             print (f"Unknown upload error {error}")
 
 
-def move(name_old, name_new, summary='Consistent naming'):
+def move(name_old, name_new, summary='Consistent naming', noredirect=True):
     global site
 
     print(f"Moving {name_old} → {name_new}")
@@ -209,6 +209,7 @@ def move(name_old, name_new, summary='Consistent naming'):
                 reason=summary,
                 movetalk=True,
                 movesubpages=True,
+                noredirect=noredirect,
                 token=site.token(),
                 POST=True
             )
