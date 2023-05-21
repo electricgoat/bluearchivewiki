@@ -1,0 +1,32 @@
+==Card Draw==
+A set of 4 cards will be presented to the players. Revealing the first card will cost {{wiki_price}}, and the price will increase by 10 for any subsequent card after it (200, 210, 220, and finally 230); player can reset the hand at any point instead of revealing the next card, resetting the cost. 
+There are 4 rarities that can appear in the event card: SSR / Ultra Rare (Rainbow Border), Super Rare (Golden Border), Rare (Blue Border), and Normal (Gray Border). 
+*Each set of 4 cards has a minimum of one SR or better card.
+*All 4 cards are random and a set might not contain an UR card.
+*Regardless of rarity, each card will always contain {{shop_currency}} which is required to exchange items from the 3rd Shop.
+*Similar rarities will contain mostly the same rewards but at different quantities.
+
+<tabber>
+{% for tier in card_tiers -%}
+{{tier}} Cards=
+{| class="wikitable mw-collapsible" style="text-align:center"
+! colspan="3" |Event Card Drop & Draw Rate
+|-
+!Card
+!Draw Rate
+!Reward
+{%- for card in card_set if card['Rarity'] == tier %}
+|-
+{%- if card.image %}
+|{% if card.wiki_image_rowspan>1 %} rowspan="{{card.wiki_image_rowspan}}" |{% endif %}[[File:{{card['image']}}.png|100px|{{card['name']}}]]
+{%- endif %}
+|'''{{'%g'%(card.Prob / 100)}}%'''
+|{% for wiki_card in card.wiki_items -%}{{wiki_card}}{% endfor -%}
+{%- endfor %}
+|-
+| colspan="3" | Total {{tier}} card probability: '''{{'%g'%(cardshop_data[tier]['total_prob'] / 100)}}%'''
+|}
+|-|
+{% endfor -%}
+</tabber>
+

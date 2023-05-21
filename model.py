@@ -584,7 +584,7 @@ class Weapon(object):
 
 
 class Gear(object):
-    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tier1_desc, tier2_desc, levels, effect_data):
+    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tier1_desc, tier2_desc, levels, effect_data, unlock_level):
         self.name_en = name_en
         self.name_jp = name_jp
         self.desc_en = desc_en
@@ -594,14 +594,17 @@ class Gear(object):
         self.tier2_desc = tier2_desc
         self.levels = levels
         self.effect_data = effect_data
+        self.unlock_level = unlock_level
 
     @classmethod
     def from_data(cls, character_id, data):
         levels = {}
+        unlock_level = None
 
         for gear in data.gear:
             if gear[0] == character_id:
                 levels[gear[1]] = {'stat_type':replace_statnames(data.gear[(character_id , gear[1])]['StatType']), 'stat_value':data.gear[(character_id , gear[1])]['MaxStatValue']}
+                if unlock_level == None: unlock_level =  data.gear[(character_id , gear[1])]['OpenFavorLevel']
 
 
         tier1_desc = "Increase " + levels[1]['stat_type'][0] + " by {{SkillValue|" + str(levels[1]['stat_value']) + "}}"
@@ -618,7 +621,8 @@ class Gear(object):
             tier1_desc,
             tier2_desc,
             levels,
-            effect_data
+            effect_data,
+            unlock_level
         )
         
 

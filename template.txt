@@ -68,8 +68,12 @@
 {% raw %}{{{% endraw %}CharacterAffectionTable
 {%- if character.memory_lobby.image != None %}
 | MemoryLobbyUnlockLv = {{character.memory_lobby.unlock_level}}
-| MemoryLobbyImage = {{character.memory_lobby.image}}
+| MemoryLobbyImage = Lobbyillust_{{character.wiki_name.replace(' ', '_')}}
 | MemoryLobbyBGMId = {{character.memory_lobby.bgm_id}}
+{%- endif -%}
+
+{%- if character.normal_gear_skill != None %}
+| UniqueGearUnlockLv = {{character.gear.unlock_level}}
 {%- endif -%}
 
 {%- for momotalk in character.momotalk.levels %}

@@ -18,7 +18,7 @@ BlueArchiveData = collections.namedtuple(
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group',
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
-    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_shop_info', 'event_content_shop', 'event_content_location_reward', 'event_content_zone', 'event_content_box_gacha_manage', 'event_content_box_gacha_shop', 'event_content_fortune_gacha_shop', 
+    'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_shop_info', 'event_content_shop', 'event_content_location_reward', 'event_content_zone', 'event_content_box_gacha_manage', 'event_content_box_gacha_shop', 'event_content_fortune_gacha_shop', 'event_content_card', 'event_content_card_shop', 
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
@@ -87,6 +87,8 @@ def load_data(path_primary, path_secondary, path_translation):
         event_content_box_gacha_manage= load_event_content_box_gacha_manage(path_primary),
         event_content_box_gacha_shop= load_event_content_box_gacha_shop(path_primary),
         event_content_fortune_gacha_shop= load_event_content_fortune_gacha_shop(path_primary),
+        event_content_card=         load_generic(path_primary, 'EventContentCardExcelTable.json', key='CardGroupId'),
+        event_content_card_shop=    load_event_content_card_shop(path_primary),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
         gacha_elements=             load_gacha_elements(path_primary),
         gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
@@ -387,6 +389,9 @@ def load_event_content_box_gacha_shop(path):
 
 def load_event_content_fortune_gacha_shop(path):
     return load_file_grouped(os.path.join(path, 'Excel', 'EventContentFortuneGachaShopExcelTable.json'), 'EventContentId')
+
+def load_event_content_card_shop(path):
+    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCardShopExcelTable.json'), 'EventContentId')
 
 def load_world_raid_stage_reward(path):
     return load_file_grouped(os.path.join(path, 'Excel', 'WorldRaidStageRewardExcelTable.json'), 'GroupId')

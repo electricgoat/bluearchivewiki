@@ -361,6 +361,7 @@ def generate():
 
         for shop in data.event_content_shop_info[args['event_season']]:
             shop = shop
+            shop['wiki_currency'] = f"{{{{ItemCard|{items[shop['CostParcelId'][0]].name_en}}}}}"
             shop['wiki_title'] = f"{{{{ItemCard|{items[shop['CostParcelId'][0]].name_en}|48px}}}}"
             shop['total_cost'] = 0
             shop['shop_content'] = [x for x in data.event_content_shop[args['event_season']] if x['CategoryType'] == shop['CategoryType']]
@@ -468,6 +469,57 @@ def generate():
         wikitext_fortunegacha += template.render(fortune_tiers=fortune_tiers.values(), wiki_price = wiki_price)
 
 
+    #CARDSHOP (4-card draw store) 
+    wikitext_cardshop = ''
+    if (args['event_season'], "CardShop") in data.event_content_seasons:
+        template = env.get_template('events/template_cardshop.txt')
+
+        cardshop_data = {}
+        card_groups = data.event_content_card
+        card_shop = data.event_content_card_shop[args['event_season']]
+        card_tiers = sorted(set([x['Rarity'] for x in card_shop]), key=lambda x: ('SSR', 'SR', 'R', 'N').index(x))
+        #print(f"CardShop card tiers are: {card_tiers}")
+
+        #Expectation is that RefreshGroups are [1, 2, 3, 4], with 1~3 being complete duplicates and 4 being the SR+ rarity one.
+        refresh_groups = sorted(set([x['RefreshGroup'] for x in card_shop]))
+        #print(f"CardShop RefreshGroups are: {refresh_groups}")
+
+        card_set = [x for x in card_shop if x['RefreshGroup'] == 1]
+        for index, card in enumerate(card_set):
+            #This mess is to deal with IconPath strings being lowercase while actual resouce names are capitalized
+            card['image'] = '_'.join(word.upper() if word.lower() in ['sr', 'ssr'] else word.capitalize() for word in re.split(r'[_ ]', card_groups[card["CardGroupId"]]['IconPath'].rsplit('/', 1)[-1]))
+            card['wiki_image_rowspan'] = 1
+
+            card['LocalizeEtcId'] = card_groups[card["CardGroupId"]]['LocalizeEtcId']
+            card['name'] = data.etc_localization[card['LocalizeEtcId']]['NameJp'].capitalize()
+            card['wiki_items'] = []
+            
+            while card['CardGroupId'] == card_set[index-1]['CardGroupId']:
+                card['image'] = None
+                card_set[index-1]['wiki_image_rowspan'] += 1
+                index -= 1
+            
+
+            for index,type in enumerate(card['RewardParcelType']):
+                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                card['wiki_items'].append(wiki_card_text)
+
+
+        for tier in card_tiers:
+            cardshop_data[tier] = {'total_prob':0, 'total_ProbWeight1':0}
+        for card in card_set:
+            cardshop_data[card['Rarity']]['total_prob'] += card['Prob']
+            cardshop_data[card['Rarity']]['total_ProbWeight1'] += card['ProbWeight1'] #unused?
+            
+                
+        cost_good = data.goods[card_set[0]['CostGoodsId']]
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+
+
+        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
+
+
+
 
     season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season['EventContentCloseTime'] = season['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
@@ -495,7 +547,7 @@ def generate():
     
     wikitext = wikitext_event + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_fortunegacha + wikitext_footer
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_footer
 
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
