@@ -40,6 +40,9 @@ CLUBS = {
             'PublicPeaceBureau':'Public Peace Bureau',
             'HotSpringsDepartment':'Hot Springs Department',
             'TeaParty':'Tea Party',
+            'Genryumon': 'Genryumon',
+            'BlackTortoisePromenade': 'Black Tortoise Promenade',
+            'LaborParty': 'Labor Party',
             'EmptyClub': 'no club'
 }
 
@@ -735,6 +738,7 @@ def statcalc_replace_statname(stat_name):
             'EnhanceExplosionRate':'',
             'EnhancePierceRate':'',
             'EnhanceMysticRate':'',
+            'WeaponRange':'weapon_range'
         }[stat_name]
 
 

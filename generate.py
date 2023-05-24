@@ -42,7 +42,7 @@ def generate():
 
         try:
             character = Character.from_data(character['Id'], data)
-            if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
+            #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
             traceback.print_exc()

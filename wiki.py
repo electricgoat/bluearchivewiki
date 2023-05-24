@@ -108,9 +108,14 @@ def update_template(page_name, template_name, wikitext):
 def update_section(page_name, section_name, wikitext):
     section_old = None
     section_new = None
-
-    text = site('parse', page=page_name, prop='wikitext')
-    print (f"Updating wiki page {text['parse']['title']}")
+    
+    try:
+        text = site('parse', page=page_name, prop='wikitext')
+        print (f"Updating wiki page {text['parse']['title']}")
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            update_section(page_name, section_name, wikitext)
 
     wikitext_old = wtp.parse(text['parse']['wikitext'])
     for section in wikitext_old.sections:

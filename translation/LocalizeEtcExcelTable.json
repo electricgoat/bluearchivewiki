@@ -5306,14 +5306,112 @@
             "DescriptionTw": "裝有強化技能的技術筆記的箱子。可從阿拜多斯、千年、百鬼夜行、赤冬學園當中獲得一個。",
             "NameEn": "Superior Tech Notes Chest (Abydos, Millennium, Hyakkiyako, Red Winter)",
             "DescriptionEn": "A chest containing Tech Notes for enhancing skills. Contains one from either the Abydos, Millennium, Hyakkiyako, or Red Winter Academy."
-          },
+        },
 
-          {
+        {
             "Id": 2472586128,
             "NameJp": "レイサの神名文字",
             "NameEn": "Reisa's Eleph",
             "DescriptionJp": "レイサの神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Reisa."
+        },
+        {
+            "Id": 3860137970,
+            "NameJp": "ルミの神名文字",
+            "NameEn": "Rumi's Eleph",
+            "DescriptionJp": "ルミの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Rumi."
+        },
+        {
+            "Id": 2533846119,
+            "NameJp": "ミナの神名文字",
+            "NameEn": "Mina's Eleph",
+            "DescriptionJp": "ミナの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mina."
+        },
+        {
+            "Id": 3479046096,
+            "NameJp": "ホド（屋内戦）のブロンズトロフィー",
+            "NameEn": "Hod Bronze Trophy - Indoor Warfare",
+            "DescriptionJp": "ホド（屋内戦）の栄誉を讃えるブロンズトロフィー",
+            "DescriptionEn": "A bronze trophy from Hod for Indoor Warfare."
+        },
+        {
+            "Id": 1194368024,
+            "NameJp": "ホド（屋内戦）のシルバートロフィー",
+            "NameEn": "Hod Silver Trophy - Indoor Warfare",
+            "DescriptionJp": "ホド（屋内戦）の栄誉を讃えるシルバートロフィー",
+            "DescriptionEn": "A silver trophy from Hod for Indoor Warfare."
+        },
+        {
+            "Id": 2463161083,
+            "NameJp": "ホド（屋内戦）のゴールドトロフィー",
+            "NameEn": "Hod Gold Trophy - Indoor Warfare",
+            "DescriptionJp": "ホド（屋内戦）の栄誉を讃えるゴールドトロフィー",
+            "DescriptionEn": "A gold trophy from Hod for Indoor Warfare."
+        },
+        {
+            "Id": 73445307,
+            "NameJp": "ホド（屋内戦）のプラチナトロフィー",
+            "NameEn": "Hod Platinum Trophy - Indoor Warfare",
+            "DescriptionJp": "ホド（屋内戦）の栄誉を讃えるプラチナトロフィー",
+            "DescriptionEn": "A platinum trophy from Hod for Indoor Warfare."
+        },
+        {
+            "Id": 4074976012,
+            "NameJp": "中華風ホットショーケース",
+            "NameEn": "Chinese-style Hot Showcase",
+            "DescriptionJp": "美味しそうな食材と甘口の醬油が並ぶ中華風のホットショーケース。見る人の食欲をそそらせる。",
+            "DescriptionEn": "A Chinese-style hot showcase with delicious-looking food dripping in sweet soy sauce. It is sure to whet the appetite of anyone who sees it."
+        },
+        {
+            "Id": 1367889524,
+            "NameJp": "中華風の椅子",
+            "NameEn": "Chinese-style Chair",
+            "DescriptionJp": "古風な雰囲気が漂う中華風の椅子。原木の高級感と豊かな色合いのクッションが絶妙なハーモニーを奏でる。",
+            "DescriptionEn": "A old-fashioned Chinese-style chair. The luxurious feel of raw wood and richly colored cushions create an exquisite harmony."
+        },
+        {
+            "Id": 827068541,
+            "NameJp": "木工作業台",
+            "NameEn": "Woodworking Bench",
+            "DescriptionJp": "何でもすぐに作れる木工作業台。新しい作業を始めると、時間が経つのもあっという間。",
+            "DescriptionEn": "A woodworking workbench where you can quickly create anything. Time really flies when you start a new project."
+        },
+        {
+            "Id": 611002646,
+            "NameJp": "カードセット",
+            "NameEn": "Card set",
+            "DescriptionJp": "山海経で人気のカードゲームのセット。たくさん集めるほど、より多くのゲームができる。",
+            "DescriptionEn": "A set of collectible cards for a game that's all the rage in Shanhaijing. The more you collect, the more games you can play."
+        },
+        {
+            "Id": 1712890776,
+            "NameJp": "玄武商会の食券",
+            "NameEn": "Black Tortiose Meal Ticket",
+            "DescriptionJp": "玄武商会が発行する食券。持っていけば玄武商会の手厚いもてなしを受けることができる。",
+            "DescriptionEn": "A meal ticket issued by Black Tortiose. If you remember to bring it, you can enjoy the warm hospitality of Black Tortiose Promenade."
+        },
+        {
+            "Id": 1093209845,
+            "NameJp": "玄龍門バッジ",
+            "NameEn": "Genryumon Badge",
+            "DescriptionJp": "玄龍門の文様が描かれたバッジ。グッズとして販売されているが、人気はそれほど高くないようだ……",
+            "DescriptionEn": "A badge with Genryumon design on it. It's sold as merchandise, but doesn't seem to be that popular..."
+        },
+        {
+            "Id": 133960514,
+            "NameJp": "溶媒抽出セット",
+            "NameEn": "Solvent Extraction Set",
+            "DescriptionJp": "誰でも使えるとのことで販売されている溶媒抽出セット。梅花園では購入を渋っているという噂がある。",
+            "DescriptionEn": "A solvent extraction set sold for anyone to use. Rumor has it that Meihua Yuan members are reluctant to buy it."
+        },
+        {
+            "Id": 4287098248,
+            "NameJp": "高級万年筆",
+            "NameEn": "Luxury Fountain Pen",
+            "DescriptionJp": "連邦生徒会で決裁用に使う高級万年筆。ペン先から柔らかくインクが流れるため、手が疲れにくい。",
+            "DescriptionEn": "A high-class fountain pen used for writing decrees at the General Student Council. The nib softly glides over the paper, so the writers' hand does not get tired."
         }
     ]
 }

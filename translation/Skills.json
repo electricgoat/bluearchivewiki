@@ -3631,6 +3631,58 @@
             "GroupId": "CH0167ExtraPassive01",
             "NameEn": "The presense of Uzawa Reisa",
             "DescriptionEn": "When using EX skill, decrease target Defense by $1 for $2.\nTaunt them for $3."
+        },
+
+        {
+            "GroupId": "CH0135Ex01",
+            "NameEn": "Best in the world!",
+            "DescriptionEn": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing"
+        },
+        {
+            "GroupId": "CH0135Public01",
+            "NameEn": "No complaints allowed!",
+            "DescriptionEn": "Every $1, deals $2 damage to enemies within a fan-shaped area."
+        },
+        {
+            "GroupId": "CH0135Passive01",
+            "NameEn": "Chairman's pride",
+            "DescriptionEn": "Increase normal attack Firing Range by $1 and Healing by $2."
+        },
+        {
+            "GroupId": "CH0135WeaponPassive01",
+            "NameEn": "Chairman's pride +",
+            "DescriptionEn": "Increase Healing by $1.\nIncrease normal attack Firing Range by $2 and Healing by $3."
+        },
+        {
+            "GroupId": "CH0135ExtraPassive01",
+            "NameEn": "Memorable taste",
+            "DescriptionEn": "For allies healed by EX skill, additionally continuously heal by $1 of Healing for $2."
+        },
+
+        {
+            "GroupId": "CH0138Ex01",
+            "NameEn": "Clash of Giants",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nDecrease their Attack, Evasion, Accuracy by $2 for $3."
+        },
+        {
+            "GroupId": "CH0138Public01",
+            "NameEn": "Unstoppable Force",
+            "DescriptionEn": "Every $1 normal attacks, reload instantly and deal $2 damage to one enemy.\nDeal additional damage depending on the number of debuffs of the target:\n3 debuffs: $3 damage\n4 debuffs: $4 damage\n5 or more debuffs: $5 damage."
+        },
+        {
+            "GroupId": "CH0138Passive01",
+            "NameEn": "Relentless",
+            "DescriptionEn": "Increase Evasion by $1"
+        },
+        {
+            "GroupId": "CH0138WeaponPassive01",
+            "NameEn": "Relentless +",
+            "DescriptionEn": "Increase Accuracy by $1. Increase Evasion by $2."
+        },
+        {
+            "GroupId": "CH0138ExtraPassive01",
+            "NameEn": "Riding the Tiger",
+            "DescriptionEn": "When using EX skill, increase Attack, Evasion, and Accuracy by $1 for $2."
         }
 
     ]
