@@ -1729,7 +1729,7 @@
             "VoiceEn": "Akane Fujita",
             "HobbyEn": "Watching animal-related videos",
             "ProfileIntroductionEn": "Miyako is the leader of RABBIT platoon belonging to SRT Special Academy. She enrolled in the SRT Special Academy admiring the success of her seniors, only to find her school suddenly closed. She is now living in the park with fellow platoon members. Her facial expressions do not change much and she rarely shows her emotions, so people around Miyako tend to think that she is unsociable. However, deep down inside, she is always concerned about the members of her platoon and has a kind heart. Her callsign is \"RABBIT1\".",
-            "WeaponNameEn": "RABBIT-31 type submachine gun",
+            "WeaponNameEn": "RABBIT type-31 submachine gun",
             "WeaponDescEn": "Regulation submachine gun issued to Miyako by the SRT Special Academy.\n\nIt is a highly reliable gun and can effectively repel the enemy even under extreme circumstances.",
             "ReleaseDateJp": "2022/03/23",
             "ReleaseDateGl": null
@@ -1747,7 +1747,7 @@
             "VoiceEn": "Yuko Goto",
             "HobbyEn": "Negative thoughts, escapism, pebbles hunting",
             "ProfileIntroductionEn": "A sniper of the RABBIT platoon belonging to SRT Special Academy.\n\nShe enrolled SRT Special Academy because of her talent as a sniper, only to find her school suddenly closed. She is now living in the park with fellow platoon members. Miyu has a weak presence, which in itself is useful for sniper missions, but she is often forgotten not only by the enemies but also by her allies. Her callsign is \"RABBIT 4\".",
-            "WeaponNameEn": "RABBIT-39 type rifle",
+            "WeaponNameEn": "RABBIT type-39 rifle",
             "WeaponDescEn": "Regulation sniper rifle issued to Miyu by the SRT Special Academy.\n\nFinely made and boasts an amazing accuracy.",
             "ReleaseDateJp": "2022/04/06",
             "ReleaseDateGl": null
@@ -1765,7 +1765,7 @@
             "VoiceEn": "Akane Tomonaga",
             "HobbyEn": "Firearms maintenance, gathering plants, etc.",
             "ProfileIntroductionEn": "Saki is the point man of the RABBIT platoon, belonging to SRT Special Academy. She entered the SRT Special Academy in search of a life based on strict rules and regulations, but the academy was suddenly shut down. Saki now lives in a park with other members of the same platoon, always carrying around an SRT tactics manual, and is basically the type of person who always focuses on following the principles of the school. She enjoys foraging for wild vegetables and other scavenged items, which seems to be of great use in the current scarcity of resources in the park. Her callsign is \"RABBIT2\".",
-            "WeaponNameEn": "RABBIT-26 type machine gun",
+            "WeaponNameEn": "RABBIT type-26 machine gun",
             "WeaponDescEn": "Regulation machine gun issued to Saki  by the SRT Special Academy.\n\nRequires arduous maintenance due to its construction, this gun boasts significant firepower as long as it is maintained properly.",
             "ReleaseDateJp": "2022/03/23",
             "ReleaseDateGl": null
@@ -1835,7 +1835,7 @@
             "DesignerNameEn": "にぎりうさぎ (''Nigiri&nbsp;Usagi'')",
             "IllustratorNameEn": "にぎりうさぎ (''Nigiri&nbsp;Usagi'')",
             "VoiceEn": "Ayasa Goto",
-            "HobbyEn": "Body replacement technique, holding breath",
+            "HobbyEn": "Body replacement technique, hiding",
             "ProfileIntroductionEn": "A member of the Ninjutsu Research Club of Hyakkiyako Academy.\n\nTsukuyo grew up tall in an early age, and she was often teased for her physique, and as a result, her current reclusive personality was formed. Tsukuyo is a timid person and isn't good at communicating to others, but she also has the strength to jump into any situation once she sets her mind to it. Although she is not very familiar with the ways of ninja yet, she seems to be enjoying her time in the Ninjutsu Research Club with her senior Michiru, and Izuna.",
             "WeaponNameEn": "Tsukuyo-style Submachine Gun",
             "WeaponDescEn": "A submachine gun that Tsukuyo cherishes.\n\nTsukuyo is not good at handling guns, so Michiru and Izuna have added various decorations and modifications for her. It's irreplaceable for Tsukuyo, and at the crucial moments she holds the barrel even more tenderly.",
@@ -2053,7 +2053,7 @@
             "VoiceEn": "Izawa Shiori",
             "HobbyEn": "Fireworks",
             "ProfileIntroductionEn": "An operator of the RABBIT platoon belonging to SRT Special Academy. Her callsign is \"RABBIT3\".\n\nMoe enlisted in the SRT Special Academy because of its focus on firepower, but the academy was suddenly shut down and now she is sleeping outdoors with the other platoon members in the park. She's got a weird taste for blowing things up and ruining things, but she's a solid operator. Moe also has a serious sweet tooth and is rarely seen without a candy bar in her mouth.",
-            "WeaponNameEn": "Rabbit-224 type pistol",
+            "WeaponNameEn": "RABBIT type-224 pistol",
             "WeaponDescEn": "A standard pistol that Moe received from SRT Special Academy.\n\nIn spite of being a pistol, it has a high rate of fire and can empty its magazine in a blink.",
             "ReleaseDateJp": "2022/08/24",
             "ReleaseDateGl": null
@@ -2654,6 +2654,25 @@
             "WeaponNameEn": "Black Dragon & White Tiger",
             "WeaponDescEn": "Mina's favorite pair of pistols. \n\nWhite Tiger goes on the right, Black Dragon on the left. They, she claims, are her best friends in arms. There may be times when style takes precedence over logic.",
             "ReleaseDateJp": "2023/05/24",
+            "ReleaseDateGl": null
+        },
+
+        {
+            "CharacterId": 20026,
+            "CharacterPool": null,
+            "FamilyNameEn": "Yasumori",
+            "PersonalNameEn": "Minori",
+            "VariantNameEn": null,
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": "二色こぺ (''nishikikope'')",
+            "IllustratorNameEn": null,
+            "VoiceEn": "Kikuchi Sayaka",
+            "HobbyEn": "Strikes, demonstrations, construction",
+            "ProfileIntroductionEn": "Student of the Red Winter Federal Academy, and head of the engineering department. Minori will send workers to any place where manpower is needed, such as large-scale civil engineering and construction projects, and direct them on-site. Although good at her job, Minori seems to be infamous with her employers for going on strikes and demonstrations over trivial matters...",
+            "WeaponNameEn": "Steel Torch",
+            "WeaponDescEn": "Minori's beloved sturdy assault rifle.\n\nAs its name suggests, this assault rifle of simple construction has silently lit the way on Minori's path of struggle.",
+            "ReleaseDateJp": "2023/06/07",
             "ReleaseDateGl": null
         }
     ]

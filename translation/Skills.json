@@ -3636,7 +3636,8 @@
         {
             "GroupId": "CH0135Ex01",
             "NameEn": "Best in the world!",
-            "DescriptionEn": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing"
+            "DescriptionEn": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing\n2nd and 3rd targets: heals $2 of Healing",
+            "ReplaceOnLevel5" : "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing"
         },
         {
             "GroupId": "CH0135Public01",
@@ -3683,6 +3684,32 @@
             "GroupId": "CH0138ExtraPassive01",
             "NameEn": "Riding the Tiger",
             "DescriptionEn": "When using EX skill, increase Attack, Evasion, and Accuracy by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0214Ex01",
+            "NameEn": "Raise up!",
+            "DescriptionEn": "Deal $1 damage enemies within a circular area.\nAdditionally consume up to 2 Cost, increasing damage by 35% per 1 Cost.\n(Cost reduction effects will only affect the base skill cost)"
+        },
+        {
+            "GroupId": "CH0214Public01",
+            "NameEn": "United will",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0214Passive01",
+            "NameEn": "Hand in hand",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0214WeaponPassive01",
+            "NameEn": "Hand in hand +",
+            "DescriptionEn": "Increase Attack by $1. Increase Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0214ExtraPassive01",
+            "NameEn": "Fruits of labor",
+            "DescriptionEn": "For all allies, increase Explosive damage bonus against the enemies weak to it by $1."
         }
 
     ]
