@@ -109,6 +109,8 @@ map_descriptions = {
     'Mission_Event_Location_At_Specipic_Rank_817': 816893370,
     'Event_Mission_Complete_Mission_Challenge_Count': 9999990008,
     'Event_Mission_Complete_Mission_Challenge_Count_817': 9999990008,
+    'MISSION_CLEAR_SCHEDULE_IN_DU_1': 3664015476,
+    'MISSION_CLEAR_SCHEDULE_IN_DU_2': 616759800,
 
 }
 
