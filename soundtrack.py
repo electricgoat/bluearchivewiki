@@ -24,14 +24,16 @@ def upload_tracks(tracks):
             continue
 
         #Rename old file if it had no artist/name listed previously, but now does
-        generic_name_exists = wiki.page_exists(f"File:Track_{track['Id']}.ogg")
         complete_name_exists = wiki.page_exists(f"File:{track['WikiFilename']}")
-        if generic_name_exists:
-            if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not complete_name_exists:
-                wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}")
-        elif not complete_name_exists:
-            print (f"Uploading {localpath} as {track['WikiFilename']}")
-            wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
+
+        if not complete_name_exists:
+            generic_name_exists = wiki.page_exists(f"File:Track_{track['Id']}.ogg")
+            if generic_name_exists:
+                if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not complete_name_exists:
+                    wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}")
+            else:
+                print (f"Uploading {localpath} as {track['WikiFilename']}")
+                wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
 
 
 

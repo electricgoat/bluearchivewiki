@@ -319,25 +319,28 @@ def generate():
 
     #Pt milestone rewards
     milestones = parse_milestone_rewards(args['event_season'])
-   
-    
-    #STAGES
-    stage_reward_types = {x: [] for x in ['Normal', 'Hard', 'VeryHard']}
 
-    for stage in stages:
-        for reward_tag in stage.rewards:
-            if reward_tag not in stage_reward_types[stage.difficulty]:
-                stage_reward_types[stage.difficulty].append(reward_tag)
-    
-    wikitext_stages = ''
-    difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge'}
+
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['wiki_itemcard'] = wiki_itemcard
     env.globals['len'] = len
+   
+    
+    #STAGES
+    wikitext_stages = ''
+    difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge'}
+    if (args['event_season'], "Stage") in data.event_content_seasons:
 
-    for difficulty in stage_reward_types:
-        template = env.get_template('events/template_event_stages.txt')
-        wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=[x for x in stages if x.difficulty == difficulty], reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
+        stage_reward_types = {x: [] for x in ['Normal', 'Hard', 'VeryHard']}
+
+        for stage in stages:
+            for reward_tag in stage.rewards:
+                if reward_tag not in stage_reward_types[stage.difficulty]:
+                    stage_reward_types[stage.difficulty].append(reward_tag)
+    
+        for difficulty in stage_reward_types:
+            template = env.get_template('events/template_event_stages.txt')
+            wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=[x for x in stages if x.difficulty == difficulty], reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
 
 
     #SCHEDULE
@@ -423,7 +426,7 @@ def generate():
         for box in box_gacha:
             if box['is_duplicate'] == False: wikitext_boxgacha += template.render(box=box)
         
-        wikitext_boxgacha += '</tabber>\n'
+        wikitext_boxgacha = wikitext_boxgacha.rstrip('|-|\n') + '</tabber>\n'
 
 
     #OMIKUJI / FORTUNE SLIPS

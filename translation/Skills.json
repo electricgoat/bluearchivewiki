@@ -3710,7 +3710,86 @@
             "GroupId": "CH0214ExtraPassive01",
             "NameEn": "Fruits of labor",
             "DescriptionEn": "For all allies, increase Explosive damage bonus against the enemies weak to it by $1."
+        },
+
+        {
+            "GroupId": "CH0215Ex01",
+            "NameEn": "Flying drone operational",
+            "DescriptionEn": "Decrease Critical Damage Resistance of 1 enemy by $1 for $2.\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0215Public01",
+            "NameEn": "Lightweight equipment",
+            "DescriptionEn": "Every $1, increase Evasion by $1 for $2."
+        },
+        {
+            "GroupId": "CH0215Passive01",
+            "NameEn": "Steady training",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0215WeaponPassive01",
+            "NameEn": "Steady training +",
+            "DescriptionEn": "Increase Evasion by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0215ExtraPassive01",
+            "NameEn": "Tactical maneuver",
+            "DescriptionEn": "After $1 evasions, increase Cost Recovery by $2 for $3."
+        },
+
+        {
+            "GroupId": "CH0217Ex01",
+            "NameEn": "Signal flare away!",
+            "DescriptionEn": "Deal $1 damage to a single enemy.\nDecrease their Defense, Attack, and Critical Resistance by $2 for $3."
+        },
+        {
+            "GroupId": "CH0217Public01",
+            "NameEn": "Covering fire",
+            "DescriptionEn": "Every $1 normal attacks, deal $2 damage to enemies within a conical area.\nDeal $3 of Attack as additional damage against medium-sized enemies."
+        },
+        {
+            "GroupId": "CH0217Passive01",
+            "NameEn": "Meticulous maintenance",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0217WeaponPassive01",
+            "NameEn": "Meticulous maintenance +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0217ExtraPassive01",
+            "NameEn": "Brothers-in-arms",
+            "DescriptionEn": "Increase Attack of self and Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0218Ex01",
+            "NameEn": "Seagull attack",
+            "DescriptionEn": "Deal $1 guaranteed critical damage to enemies within a straight line."
+        },
+        {
+            "GroupId": "CH0218Public01",
+            "NameEn": "Stealth strike",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a cone-shaped area."
+        },
+        {
+            "GroupId": "CH0218Passive01",
+            "NameEn": "Underwater composite ammo",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0218WeaponPassive01",
+            "NameEn": "Underwater composite ammo +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0218ExtraPassive01",
+            "NameEn": "Observation status report",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
+
 
     ]
 }
