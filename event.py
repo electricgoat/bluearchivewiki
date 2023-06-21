@@ -261,12 +261,15 @@ def generate():
     global characters, items, furniture
     global total_rewards, total_milestone_rewards
 
-    season = data.event_content_seasons[(args['event_season'], "Stage")] if (args['event_season'], "Stage") in data.event_content_seasons else None
-    season = data.event_content_seasons[(args['event_season'], "MiniEvent")] if (args['event_season'], "MiniEvent") in data.event_content_seasons else None
+    if (args['event_season'], "Stage") in data.event_content_seasons:
+        season = data.event_content_seasons[(args['event_season'], "Stage")]
+    elif (args['event_season'], "MiniEvent") in data.event_content_seasons:
+        season = data.event_content_seasons[(args['event_season'], "MiniEvent")]
+    else:
+        exit(f"Season {args['event_season']} data not found. Is this a new event type?")
     
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
-
 
     if season['MainEventId'] != 0:
         print(f"This is a sub-event, using bonus character data from MainEventId {season['MainEventId']}")
