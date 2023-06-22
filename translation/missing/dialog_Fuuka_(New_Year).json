@@ -133,7 +133,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "기, 기모노…… 어떠, 세요?",
+            "LocalizeKR": "저, 저기…… 기모노,\n어떠, 신가요?",
             "LocalizeJP": "そ、その……着物、\nどう、でしょうか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -199,7 +199,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "확실히 오세치는 손이 많이 가죠.",
+            "LocalizeKR": "오세치는\n손이 많이 가는 요리이지만,",
             "LocalizeJP": "おせちは\n手間のかかる料理ですが、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -211,7 +211,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "그렇지만 그만큼 보람도 있어요.",
+            "LocalizeKR": "그렇기 때문에 만드는\n보람이 있어요.",
             "LocalizeJP": "そういうものこそ作り\n甲斐があるんです。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -253,7 +253,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "오늘은 선생님 생일이시군요!\n축하드립니다.",
+            "LocalizeKR": "선생님의 생일이시네요!\n축하드려요.",
             "LocalizeJP": "先生のお誕生日ですね！\nおめでとうございます。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -275,7 +275,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "어떤 요리를 좋아하세요…?",
+            "LocalizeKR": "오늘은 어떤 요리가\n좋으신가요?",
             "LocalizeJP": "今日は\nどんな料理がいいですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -349,7 +349,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "크리스마스……\n올해도 벌써 끝을 향해 가네요.",
+            "LocalizeKR": "벌써 크리스마스……\n올해도 끝이 가까워졌네요.",
             "LocalizeJP": "もうクリスマス……\n今年も終わりが\n近づいてきましたね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -361,7 +361,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "조촐하게 파티를\n준비할까 하는데…… 어떠세요?",
+            "LocalizeKR": "소소하게 파티 준비를\n하려고 하는데요.\n선생님도 어떠세요?",
             "LocalizeJP": "ささやかなパーティーの準備を\nしようと思うのですが、\n先生もいかがですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -465,7 +465,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "지금부터도, 잘 부탁드릴게요?",
+            "LocalizeKR": "앞으로도, 잘 부탁드릴게요?",
             "LocalizeJP": "これからも、お願いしますね？",
             "LocalizeEN": "",
             "VoiceClipsJp": []

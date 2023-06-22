@@ -296,12 +296,12 @@ def get_dialog_lines(character, dialog_data):
     for index, line in enumerate(dialog_data):
         if line['CharacterId'] == character.id and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
             line = merge_followup(index, dialog_data)
+            line['Title'] = 'Unknown'
+            line['WikiVoiceClip'] = []
 
-            if line['VoiceClipsJp']: 
+            if line['VoiceClipsJp'] and len(line['VoiceClipsJp'][0]) > 1: #length check is working around bad game data 
                 line['VoiceClipsJp'][0] = line['VoiceClipsJp'][0].replace('__','_').replace('Memoriallobby', 'MemorialLobby')
                 line['Title'] = line['VoiceClipsJp'][0].split('_', 1)[1]
-
-                line['WikiVoiceClip'] = []
                 line['WikiVoiceClip'].append(character.wiki_name.replace(' ', '_') + '_' + line['Title'])
             
             if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''

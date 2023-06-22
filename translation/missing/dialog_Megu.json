@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "야호~! 어딜 밀어버릴까?\n아니면 파줄까? 뭐든 말만 해~!",
+            "LocalizeKR": "야호~! 어딜 밀었으면 좋겠어?\n아니면 파낼까? 뭐든 말하라구~!",
             "LocalizeJP": "やっほ～！どこ削ってほしい？\nそれとも掘り起こしとく？なんでも言って～！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "아, 선생님! 어서 와~.\n오늘은 뭐 할까? 온천 만들기?",
+            "LocalizeKR": "오, 선생님! 어서 와~.\n오늘은 뭐 할까? 온천 개발?",
             "LocalizeJP": "おっ、先生！おかえり～。\n今日は何する？温泉作る？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "대기하고 있었지!\n뭐든 말만 해!\n바로 착수할 테니!!",
+            "LocalizeKR": "기다리고 있었어, 선생님!\n뭐든지 말해!\n바로 착수할 테니!",
             "LocalizeJP": "待ってたよ、先生！\n何でも言って！\nすぐに取りかかるから！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -135,7 +135,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "음?\n일 없을 때는 뭐하냐고?\n…뭐했더라?",
+            "LocalizeKR": "응? 일 없을 때?\n……뭐했더라?",
             "LocalizeJP": "ん？仕事がない時？\n…なにしてたっけ？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -147,7 +147,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "아! 일을 찾았지?",
+            "LocalizeKR": "아! 일을 찾았지!",
             "LocalizeJP": "あ！仕事探してた！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -179,7 +179,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "배고파?\n컵라면이라도 끓여줄까?",
+            "LocalizeKR": "배고파?\n라면이라도 끓여줄까?",
             "LocalizeJP": "お腹空いたの？\nカップ麺でも作ろっか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -201,7 +201,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "…이걸로 만들지~♪",
+            "LocalizeKR": "……이걸로 하지～♪",
             "LocalizeJP": "…これで作るよ～♪",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -223,7 +223,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "될 걸? 아마도.\n해 본 적은 없지만 말이야!",
+            "LocalizeKR": "될 걸? 아마도.\n해 본 적은 없지만!",
             "LocalizeJP": "できるよ？多分。\nやったことないけどね！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -279,7 +279,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "올해는 더 많은 일을…\n장애물과 파실수 있는\n땅을 주세요!!",
+            "LocalizeKR": "올해는 더 많은 일을……\n장애물과 팔 수 있는\n땅을 주세요!!",
             "LocalizeJP": "今年はもっとたくさんの\n仕事を…障害物と\n掘れる土地をください！！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -289,7 +289,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "오늘이었던가?\n착하게 산 녀석들에게\n선물이 온다는 날.",
+            "LocalizeKR": "오늘이었나?\n착하게 있으면 선물 받는 날.",
             "LocalizeJP": "今日だっけ？\nいい子にしてたら\nプレゼントが贈られる日って。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -301,7 +301,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "좋아! 난 뭐가 올까?\n벌써 기대돼!",
+            "LocalizeKR": "좋네!\n나는 뭘 받을까?\n기대된다!",
             "LocalizeJP": "いいね！私は何が\nもらえんのかな？\n楽しみ！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -323,7 +323,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "오늘은 선도부에게 걸려도\n도망치기 쉽겠는걸?",
+            "LocalizeKR": "오늘은 선도부한테\n걸려도 도망칠 수 있을지도?",
             "LocalizeJP": "今日は風紀委員に\n見つかっても\n逃げられるかも？",
             "LocalizeEN": "",
             "VoiceClipsJp": []

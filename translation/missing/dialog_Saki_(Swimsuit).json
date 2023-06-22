@@ -1,0 +1,568 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브.",
+            "LocalizeJP": "ブルー、アーカイブ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Title"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "RABBIT 2, 작전 준비 완료.\n바다에서도 경계 임무는 소홀히 할 수 없지!",
+            "LocalizeJP": "RABBIT2、作戦準備完了。\n海とはいえ、警戒任務は怠らないぞ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Gachaget"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(역시 실내에서\n이 차림은 조금\n움직이기 불편하네…)",
+            "LocalizeJP": "（やはりこの格好、\n室内では\n動きづらいな…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(저건… 먹을 수\n있으려나…?)",
+            "LocalizeJP": "（あれは…\n食べられるん\nだろうか…？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "다음 작전에는…\n저런 차림을 하는 것도\n나쁘지 않겠네.",
+            "LocalizeJP": "次の作戦では…\nああいう格好をするのも、\n悪くないかもしれないな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "설마 저건…\n교범으로만 확인했던\n그 무기…?",
+            "LocalizeJP": "あれはまさか…\n教範でしか\n見たことがない、\n例の武器…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "정찰 중 이상 없음.",
+            "LocalizeJP": "偵察中、異常なし。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 와, 선생님.\n마침 총기의 정비를\n하던 중이었어.",
+            "LocalizeJP": "来たか、先生。\n丁度、銃の整備を\nするところだったんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_LogIn_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "우, 우왓?\n어느틈에 온 거야?",
+            "LocalizeJP": "う、うわっ！？\nいつの間に？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_LogIn_2_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "따, 딴짓하고\n있었던 거 아니거든?!",
+            "LocalizeJP": "べ、別にサボってないぞ！？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_LogIn_2_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오늘도 날씨가 무덥네.",
+            "LocalizeJP": "今日も暑っいなぁ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_1_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "열사병 대책은\n확실히 하고 있어?",
+            "LocalizeJP": "熱中症対策はできてるか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "탈수는 조심해야 해.\n수분 보충 잘 하고.",
+            "LocalizeJP": "脱水に気をつけるんだぞ、\n水の補給はしっかりとな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_1_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "그리고, 염분도\n섭취해두는 게 좋아.",
+            "LocalizeJP": "あと、塩も摂ったほうがいい。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "사실 바다는 그렇게\n좋아하지 않아.",
+            "LocalizeJP": "本当は、そんなに\n海は好きじゃないんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_2_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "총기의 기능 고장이\n일어나기 쉬우니까.",
+            "LocalizeJP": "銃器が壊れやすいから…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "하지만 어떤 환경에서도\n완벽히 대응할 수 있어야\nSRT의 학생이라고 할 수 있겠지.",
+            "LocalizeJP": "だが、どんな環境でも\n完璧に対応できてこそ、\nSRTの生徒だからな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_2_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "바닷가에서는 방수 처리를 한\n전술지도를 사용하고 있어.",
+            "LocalizeJP": "海辺では、\n防水処理をした\n戦術地図を使っている。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_3_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "모에는 방수 성능이 있는\nGPS 장비를 쓰라고 했지만…",
+            "LocalizeJP": "モエには防水機能付きの\nGPS装備を勧められたが…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_3_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그건 싫어.\n종이 지도에는 종이 지도 만의\n가치가 있는 법이니까!",
+            "LocalizeJP": "私は嫌だ。\n紙には紙にしかない\n価値があるのだからな！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_3_3"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(임무가 아닌 형태로\n다른 대원들과 함께\n바다에 올 수 있었다면\n더 좋았을텐데…)",
+            "LocalizeJP": "（任務ではない形で、\n他の隊員とも一緒に、\n海に来れたら\nよかったのだが…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_4"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "평소의 철모는\n어디에 두었냐고?",
+            "LocalizeJP": "いつもの鉄帽は\nどうしたのかって？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_5_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이 부니햇이\n지금은 철모 대신이야.",
+            "LocalizeJP": "このブーニーハットが\n鉄帽の代わりだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Lobby_5_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이래보여도 방탄 섬유로\n만든 물건이라고…?",
+            "LocalizeJP": "こう見えて、防弾素材で\nできてるんだぞ？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일 축하해, 선생님.",
+            "LocalizeJP": "お誕生日おめでとう、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Birthday_Player_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "오래 걸리는 일이라면\n내가 대신 해 둘테니까,\n오늘은 먼저 들어가서\n푹 쉬도록 해.",
+            "LocalizeJP": "時間がかかる仕事は、\n私がやっておくから。\n今日は先に帰って休んどけ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생일날 까지 야근을 하면…\n그것도 좀 서글프잖아.",
+            "LocalizeJP": "誕生日の日に夜勤だなんて…\n悲しいからな。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Birthday_Player_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "…생일 선물?\n딱히… 필요는 없는데…",
+            "LocalizeJP": "…誕生日プレゼント？\n別に…要らない…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Birthday_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "혹시 선생님만 괜찮다면…\n같이 저녁이나 먹자.",
+            "LocalizeJP": "でも、先生がよければ…\n一緒に晩飯を食べよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Birthday_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "메뉴는 편의점 폐기든\n뭐든 상관없으니까.",
+            "LocalizeJP": "メニューは、\nコンビニ弁当でも\nなんでもいいから。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받아, 선생님.\n올해의 목표…?",
+            "LocalizeJP": "あけましておめでとう、先生。\n今年の目標…？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_NewYear_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "글쎄… 가능하다면\n1주일에 한 번\n신선한 생선 요리를…",
+            "LocalizeJP": "そうだな…できれば、\n週に1回は新鮮な\n魚料理を…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "아, 아니…\n역시 SRT 특수학원의\n부활이지!",
+            "LocalizeJP": "あ、いや…\nSRT特殊学園の復活だな！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_NewYear_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "아, 선생님.\n저녁에 시간이 남으면\n코우사기 공원에 들려줘.",
+            "LocalizeJP": "あ、先生。\n夜に時間があったら、\n子ウサギ公園に\n来てくれないか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Xmas_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "크리스마스 기념이라며\n모에가 커다란\n칠면조를 가져왔는데,",
+            "LocalizeJP": "クリスマスだから、\nモエが大きな七面鳥を\n持ってきたんだけど、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Xmas_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "RABBIT 소대 끼리만\n먹기에는 너무 많은 것\n같아서 말이야.",
+            "LocalizeJP": "RABBIT小隊だけじゃ\n食べ切れそうにないんだ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "샬레에서 바비큐를\n하기는 어려울테니…\n공원에서 같이 파티하자.",
+            "LocalizeJP": "シャーレでバーベキューは\n難しいし…\n公園でパーティーにしよう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Xmas_3"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "최근에, 호박이 들어간\n편의점 폐기 도시락이\n자주 보이는 것 같은데…",
+            "LocalizeJP": "ここ最近、カボチャの\n入ったコンビニ弁当を\nよく見かける\n気がするんだが。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Halloween_1"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "그렇다는 말은…\n이게 그 말로만 듣던\n할로윈 시즌이라는 건가?",
+            "LocalizeJP": "もしかして…\nこれが噂に聞く\nハロウィーンシーズン？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_Season_Halloween_2"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "RABBIT 26식 기관총, 수령 완료.\n물이 들어가도 고장나지 않도록\n방수처리도 완벽히 했어.\n물론 전투가 끝나면\n열심히 닦고 기름을 쳐야겠지만…",
+            "LocalizeJP": "RABBIT26式機関銃、\n確かに受け取った。\n水中でも壊れないように、\n防水処理もバッチリだ。\nもちろん、戦闘が終わったら\nきちんと整備しないとだけど…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0217_ExWeapon_Get"
+            ]
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(자, 선생님.\n진정하고 이쪽을 봐.)",
+            "LocalizeJP": "（さあ、先生。\n落ち着いて、\nこっちを見るんだ）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "(그래, 천천히.\n천천히 숨을 내쉬는 거야.)",
+            "LocalizeJP": "（そうそう、ゆっくり。\n息をゆっくり吐いて）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(후훗, 역시 선생님이야.\n 배우는 속도가 빠르네.)",
+            "LocalizeJP": "（ふふっ、\nさすが先生。\n習得が早いな）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(…뭔가 묘한 기분이네.)",
+            "LocalizeJP": "（…なんか変な感じだ）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(바다 속에서 선생님과 단둘이, \n아무 말없이 시선과\n손짓 만으로 대화를 하려니…)",
+            "LocalizeJP": "（海の中で先生と\n二人きり、言葉もなく\n視線とジェスチャーだけで\n会話していると…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "(마치 뭔가…)",
+            "LocalizeJP": "（まるで…）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(…응? 어쩐지 호흡이\n어려워 보인다고?)",
+            "LocalizeJP": "（…えっ？呼吸が\n苦しそうに見える？）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "(아니야, 아무것도\n문제없어. 괜찮아!)",
+            "LocalizeJP": "（いや、\n何も問題ない。\n大丈夫だ！）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(다만 평소와는 다르게…\n호흡이 조금 불안정하네.)",
+            "LocalizeJP": "（なんだか、\nいつもと違って…\n呼吸が不安定だ）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 10072,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "(…역시 선생님과 하는\n다이브는 내게는 조금\n일렀을지도 모르겠어.)",
+            "LocalizeJP": "（…先生とのダイブ、\n私にはまだ早かったのかも\nしれないな)",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

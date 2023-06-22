@@ -75,7 +75,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "전부 선생님 덕분이야.\n잊어버린 물건은 없지?\n있다면, 내가 찾아 줄 테니까.",
+            "LocalizeKR": "전부 선생님 덕분이야.\n잊어버린 물건은 없지?\n있다면, 찾아 줄 테니까.",
             "LocalizeJP": "全部先生のおかげ。\n忘れ物は大丈夫？\nあったら探してくるよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -173,7 +173,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "미안. 이 이야기는\n여기까지만 할게.",
+            "LocalizeKR": "미안. 이야기는\n여기까지만.",
             "LocalizeJP": "ごめん、話はここまで。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -228,7 +228,7 @@
             "DialogCondition": "Enter",
             "GroupId": 2,
             "LocalizeKR": "그만큼 중요한 건, 상품 진열과 배치.\n자, 천천히 보라고.",
-            "LocalizeJP": "同じくらい重要なのは、\n商品の配置と並び。\nさ、ゆっくり見てって",
+            "LocalizeJP": "同じくらい重要なのは、\n商品の配置と並び。\nさ、ゆっくり見てって。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
         },
@@ -433,7 +433,7 @@
             "DialogCategory": "UIEventCardShop",
             "DialogCondition": "Prize2",
             "GroupId": 2,
-            "LocalizeKR": "뽑기 어려운 카드였는데,\n멋지게 해 냈네.",
+            "LocalizeKR": "좀처럼 나오지 않는\n카드였는데, 꽤 하잖아.",
             "LocalizeJP": "なかなか出ない\nカードなのに、やるね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -445,7 +445,7 @@
             "DialogCategory": "UIEventCardShop",
             "DialogCondition": "Prize2",
             "GroupId": 2,
-            "LocalizeKR": "나까지 즐거워지는데?",
+            "LocalizeKR": "나까지\n즐거워졌어.",
             "LocalizeJP": "こっちも\n楽しくなってきた。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -455,7 +455,7 @@
             "DialogCategory": "UIEventCardShop",
             "DialogCondition": "Prize1",
             "GroupId": 3,
-            "LocalizeKR": "어디 보자…… 결과는……?\n뭐, 나쁘지 않은데?",
+            "LocalizeKR": "어디 보자…… 결과는……?\n뭐, 좋지 않아?",
             "LocalizeJP": "どれどれ……結果は……？\nま、いいんじゃない？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -467,7 +467,7 @@
             "DialogCategory": "UIEventCardShop",
             "DialogCondition": "Prize0",
             "GroupId": 4,
-            "LocalizeKR": "앗차…… 그, 뭐냐.\n너무 실망하지 마. 선생님.\n다음이라는 게 있잖아?",
+            "LocalizeKR": "앗차…… 뭐, 뭐.\n너무 실망하지 마. 선생님.\n다음이라는 게 있으니까.",
             "LocalizeJP": "ありゃあ……まぁまぁ、\nそう落ち込まないで、\n先生。次があるからさ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

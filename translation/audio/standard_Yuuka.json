@@ -11,8 +11,8 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Formation_In_2",
-            "LocalizeJP": "これ 報酬は出るんです。",
-            "LocalizeEN": "You'll get a reward for this."
+            "LocalizeJP": "これ 報酬は出るんです？",
+            "LocalizeEN": "Will I get a reward for this?"
         },
         {
             "CharacterId": 13010,
@@ -46,8 +46,8 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Tactic_In_2",
-            "LocalizeJP": "敵の位置を確認、距離、資金、戦力 計算 完了",
-            "LocalizeEN": "Confirm enemy's position, distance, money, strength calculation completed"
+            "LocalizeJP": "敵の位置を確認。距離、至近、戦力、計算完了。",
+            "LocalizeEN": "Check enemy positions. Distance, proximity, strength, calculation complete."
         },
         {
             "CharacterId": 13010,
@@ -60,7 +60,7 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Tactic_Victory_2",
-            "LocalizeJP": "運が良かった いいえ、計算通りです。",
+            "LocalizeJP": "運が良かった？いいえ、計算通りです。",
             "LocalizeEN": "I was lucky No, it was calculated."
         },
         {
@@ -81,8 +81,8 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Covered_1",
-            "LocalizeJP": "隠れるわ 支援 お願い。",
-            "LocalizeEN": "I'm hiding. Please help me."
+            "LocalizeJP": "隠れるわ、支援をお願い。",
+            "LocalizeEN": "I'm hiding, please help me."
         },
         {
             "CharacterId": 13010,
@@ -109,42 +109,42 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Defense_1",
-            "LocalizeJP": "無駄。",
+            "LocalizeJP": "無駄よ。",
             "LocalizeEN": "waste."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_In_1",
-            "LocalizeJP": "計算は完璧 落ち着いていこう。",
-            "LocalizeEN": "Calculations are perfect Let's calm down."
+            "LocalizeJP": "計算は完璧、落ち着いていこう。",
+            "LocalizeEN": "Calm down, the math is perfect."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_In_2",
-            "LocalizeJP": "私たちの勝率はかなり高い自信を持っていこう。",
-            "LocalizeEN": "Let's be confident that our win rate is pretty high."
+            "LocalizeJP": "私たちの勝率はかなり高い。自信を持っていこう。",
+            "LocalizeEN": "Our win rate is pretty high. Be confident."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Move_1",
-            "LocalizeJP": "ここまでは 計算通りね。",
+            "LocalizeJP": "まぁ、ここまでは計算通りね。",
             "LocalizeEN": "So far it's calculated."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Move_2",
-            "LocalizeJP": "計算が合っていればすぐに次の目標が見えてくるはず",
-            "LocalizeEN": "If the calculations are correct, you should be able to see the next target immediately"
+            "LocalizeJP": "計算が合っていれば、すぐに次の目標が見えてくるはず。",
+            "LocalizeEN": "If the calculation is correct, the next target should be visible soon."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Recovery_1",
-            "LocalizeJP": "ちょうどいい量ね。",
+            "LocalizeJP": "うん、ちょうどいい量ね。",
             "LocalizeEN": "Just the right amount."
         },
         {
@@ -186,15 +186,15 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Victory_1",
-            "LocalizeJP": "計算通り 完璧。",
-            "LocalizeEN": "Calculated perfect."
+            "LocalizeJP": "計算通り、完璧。",
+            "LocalizeEN": "As calculated, perfect."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Battle_Victory_2",
-            "LocalizeJP": "数学は真実を導く 私たちの価値よ。",
-            "LocalizeEN": "Mathematics leads us to truth, our worth."
+            "LocalizeJP": "数学は真実を導く。私たちの勝ちよ。",
+            "LocalizeEN": "Mathematics leads to truth. our win."
         },
         {
             "CharacterId": 13010,
@@ -207,22 +207,22 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_ExSkill_1",
-            "LocalizeJP": "悲しみも 怒りも全て 因数分解してやるわ。",
-            "LocalizeEN": "I'll factor all my sadness and anger."
+            "LocalizeJP": "悲しみも怒りも、全て因数分解してやるわ。",
+            "LocalizeEN": "Sorrow and anger, I'll factor them all."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_ExSkill_2",
-            "LocalizeJP": "現在の状況と条件よし これは勝ちね",
-            "LocalizeEN": "The current situation and conditions are good, this is a win"
+            "LocalizeJP": "現在の状況と条件…、よし、これは勝ちね。",
+            "LocalizeEN": "The current situation and conditions... OK, this wins."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_ExSkill_3",
-            "LocalizeJP": "攻撃が私に命中する確率は極めて低い。",
-            "LocalizeEN": "The probability of an attack hitting me is extremely low."
+            "LocalizeJP": "攻撃が私に命中する確率は、極めて低い！",
+            "LocalizeEN": "The probability of an attack hitting me is extremely low!"
         },
         {
             "CharacterId": 13010,
@@ -235,29 +235,29 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_ExSkill_Level_2",
-            "LocalizeJP": "合理と理性は無慈悲。",
+            "LocalizeJP": "合理と理性は無慈悲よ。",
             "LocalizeEN": "Reason and reason are merciless."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_ExSkill_Level_3",
-            "LocalizeJP": "勝利は証明するわ。",
+            "LocalizeJP": "勝利を証明するわ。",
             "LocalizeEN": "I will prove victory."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Growup_1",
-            "LocalizeJP": "成果を見せるチャンス 待ってました。",
+            "LocalizeJP": "成果を見せるチャンス、待ってました。",
             "LocalizeEN": "I was waiting for the chance to show my results."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Growup_2",
-            "LocalizeJP": "周知で感じられる結果というのは、人をドキドキさせますね。",
-            "LocalizeEN": "The results that are known and felt make people's hearts beat."
+            "LocalizeJP": "数値で感じられる結果というのは、人をドキドキさせますね。",
+            "LocalizeEN": "The results that can be felt in numbers make people's hearts beat."
         },
         {
             "CharacterId": 13010,
@@ -284,21 +284,21 @@
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Relationship_Up_2",
-            "LocalizeJP": "計算ができません 今 この気持ちがですよ",
+            "LocalizeJP": "計算ができません。今、この気持ちがですよ？",
             "LocalizeEN": "I can't count, this is how I feel right now"
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Relationship_Up_3",
-            "LocalizeJP": "いつも 測定や計算だけを考えてたけど、今はただこの瞬間を感じていたい。",
+            "LocalizeJP": "いつも測定や計算だけを考えてたけど、今は、ただこの瞬間を感じていたい。",
             "LocalizeEN": "I used to think only about measurements and calculations, but now I just want to feel this moment."
         },
         {
             "CharacterId": 13010,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuuka_Relationship_Up_4",
-            "LocalizeJP": "どうして かな 説明できない感覚だけど嫌いじゃない。",
+            "LocalizeJP": "どうしてかな。説明できない感覚だけど嫌いじゃない。",
             "LocalizeEN": "It's a feeling I can't explain, but I don't hate it."
         }
     ]

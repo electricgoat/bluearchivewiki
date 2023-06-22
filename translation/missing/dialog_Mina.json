@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "산해경 고급중학교 소속 현룡문 집행부장 고노에 미나다.\n우리의 앞길을 막는 건, 모두 내가 처리하겠다!",
+            "LocalizeKR": "산해경 고급중학교 소속 현룡문 집행부장 코노에 미나다.\n우리의 앞길을 막는 건, 모두 내가 처리하겠다!",
             "LocalizeJP": "山海経高級中学校所属、\n玄龍門の執行部長、近衛ミナだ。\n我々の行く手を阻むものは、全て私が処理しよう！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -133,7 +133,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "오늘은 어떤 세계가\n우리를 반길까?\n설레네.",
+            "LocalizeKR": "오늘은 어떤 세계가\n우리를 맞아 주는 것일까.\n설레게 되어 버려.",
             "LocalizeJP": "今日はどんな世界が我々を\n迎えてくれるんだろうか。\nワクワクしてしまうな。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -187,7 +187,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "너무 걱정하지 말라고, 선생님.\n내일이면 다 괜찮아 질 테니까.",
+            "LocalizeKR": "그렇게 걱정하지\n말라고, 선생님.\n내일이면 다 괜찮아질 테니까.",
             "LocalizeJP": "そう心配するな、先生。\n明日になれば、全て治まるさ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -199,7 +199,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "영화는 좋지.\n세월이라는 품질보증서가\n붙으면 더 좋고.",
+            "LocalizeKR": "영화는 좋은 거야.\n세월이라는 이름의 품질보증서가\n포함된 것은 더 좋고.",
             "LocalizeJP": "映画は良いものだ。\n歳月という名の\n折り紙付きのものは、\n尚良い。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -211,7 +211,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "명작이어서\n살아남은 게 아니야.\n살아남았기 때문에\n명작인 거라고.",
+            "LocalizeKR": "명작이어서\n살아남은 게 아니야.\n살아남았기 때문에\n명작이라고 부르는 거다.",
             "LocalizeJP": "名作だから\n生き残ったのではない、\n生き残ったからこそ\n名作と呼ぶのだ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -221,7 +221,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "가끔 그런 생각을 하지.\n뭔가가 되고 싶다고.",
+            "LocalizeKR": "가끔 누군가가\n되고 싶다고\n생각하곤 하지.",
             "LocalizeJP": "時折、\n何者かになりたいと\n思うことがある。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -233,7 +233,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "무엇이든 좋으니,\n지금의 자신보다 더 나은\n무언가가 되고 싶다고.",
+            "LocalizeKR": "무엇이든 좋으니,\n지금의 자신보다도\n뛰어난 무언가가―",
             "LocalizeJP": "何でもいいから、\n今の自分よりも\n優れた何かに――",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -253,7 +253,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "축하한다고, 선생님.\n뭐가 말이냐고?\n그거야 선생님의\n생일인 게 당연하잖아.",
+            "LocalizeKR": "축하한다고, 선생님.\n뭐냐니, 그거야 선생님의\n생일이지.",
             "LocalizeJP": "おめでとう、先生。\n何がって、\nそりゃあ先生の\n誕生日のことさ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -265,7 +265,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "선물로는…\n내가 직접 고른\n고전 느와르 영화\n10선을 준비했어! ",
+            "LocalizeKR": "선물은…\n내가 엄선한\n누아르 영화 10선이다!",
             "LocalizeJP": "プレゼントは――\n私が厳選した、\nノワール映画10選だ！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -275,7 +275,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 100,
-            "LocalizeKR": "같이 보자고!",
+            "LocalizeKR": "자아, 같이 보자고!",
             "LocalizeJP": "さあ、一緒に\n観ようじゃないか！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -285,7 +285,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "후우…\n선생님에게 생일을\n축하 받는 이 기분,\n나쁘지 않군.",
+            "LocalizeKR": "후우…\n선생님에게 생일을\n축하받는 이 기분,\n나쁘지 않군.",
             "LocalizeJP": "ふぅ…\n先生から誕生日を\n祝われるこの感じ、\n悪くないな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -307,7 +307,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "오늘 하루, 어울려 달라고.",
+            "LocalizeKR": "오늘 하루, 어울려 달라고!",
             "LocalizeJP": "今日一日\n私に付き合ってくれ！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -381,7 +381,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "할로윈…\n아이들이 바빠지는 때로군.",
+            "LocalizeKR": "할로윈인가…\n아이들이 바빠지는 때로군.",
             "LocalizeJP": "ハロウィーンか…\n子供たちが\n忙しい時期だな。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -393,7 +393,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "간만에\n매화원에 들러서,\n사탕을 뿌려 볼까.",
+            "LocalizeKR": "간만에\n매화원에 들러서,\n사탕이라도 나누어 줄까…",
             "LocalizeJP": "久しぶりに\n梅花園に寄って、\n飴でも配るか…",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -403,7 +403,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "선생님도 같이, 어때?",
+            "LocalizeKR": "괜찮다면 선생님도\n함께 하면 어떨까?",
             "LocalizeJP": "よかったら先生も\n一緒にどうだ？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -435,7 +435,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "여러 가지가\n심플하게 보이니까. ",
+            "LocalizeKR": "여러 가지가\n심플하게 보이지.",
             "LocalizeJP": "色々なものが\nシンプルに見える。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -445,7 +445,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "흑과 백.\n느와르의 세계.",
+            "LocalizeKR": "백과 흑.\n누아르의 세계.",
             "LocalizeJP": "白と黒――\nノワールの世界。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -485,7 +485,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "하지만\n느와르의 세계는\n그렇지 않아.",
+            "LocalizeKR": "하지만\n누아르의 세계는\n그렇지 않아.",
             "LocalizeJP": "ノワールの世界は、\n違うんだ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -515,7 +515,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "길을 잃지 않도록,\n밝은 색의 우산이 좋겠어.",
+            "LocalizeKR": "길을 잃지 않도록,\n밝은색의 우산이 좋겠어.",
             "LocalizeJP": "道に迷わぬよう、\n明るい色のものが\n良いだろう。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

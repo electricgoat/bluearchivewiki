@@ -39,7 +39,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "후, 주위를 너무 둘러보다\n길을 잃어도 곤란하다고?",
+            "LocalizeKR": "후. 너무\n두리번거리지 말라고,\n길을 잃어도 곤란하다.",
             "LocalizeJP": "ふっ。あまり\nキョロキョロするな、\n迷子になられても困る。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -49,7 +49,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "분명 현무상회 녀석들의\n짓이야.",
+            "LocalizeKR": "현무상회 놈들의\n짓이겠지.",
             "LocalizeJP": "玄武商会の奴らの\n仕業だろう。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -61,7 +61,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "일일이 조사하지 않아도\n나는 알 수 있어.",
+            "LocalizeKR": "이정도는,\n조사하지 않아도\n알 수 있어.",
             "LocalizeJP": "この程度、\n調べなくとも分かる。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -257,7 +257,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "일과가 어렵다면, 말만 하라고.",
+            "LocalizeKR": "일과가 어렵다고 느껴진다면,\n즉시 말해 달라고.",
             "LocalizeJP": "日課が難しいと感じたら、\nすぐに言ってくれ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -269,7 +269,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "내가 언제든 선생님의 편이\n되어 줄 테니까.",
+            "LocalizeKR": "언제든 선생님의 편이\n되어 줄 테니까.",
             "LocalizeJP": "いつでも先生の\n味方になるぞ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -279,7 +279,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "확실히, 현룡문으로서도 이 정도면\n꽤나 어려운 스케줄이야……\n솔직히 놀랐어. 선생님.",
+            "LocalizeKR": "이건, 현룡문에 속한 사람이어도\n어려운 내용이었을 텐데……\n솔직히 놀랐어. 선생님.",
             "LocalizeJP": "これは、玄龍門の者でも\n難しい内容のはずだが……\n正直驚いたぞ、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

@@ -63,7 +63,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "마지막까지, 달려나갑시다!",
+            "LocalizeKR": "마지막까지,\n달려 나갑시다!",
             "LocalizeJP": "最後まで、\n駆けぬけましょう！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -75,7 +75,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "네! 우자와 레이사\n대기중입니다!",
+            "LocalizeKR": "네! 우자와 레이사\n대기 중입니다!",
             "LocalizeJP": "はい！\n宇沢レイサ、\n待機中です！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -87,7 +87,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀해주세요!",
+            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀 해주세요!",
             "LocalizeJP": "どうかしましたか？\nいつでも\nお声がけください！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -203,7 +203,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "바로 가져다 드릴께요!",
+            "LocalizeKR": "바로 가져다드릴께요!",
             "LocalizeJP": "すぐにお持ちしますので！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -401,7 +401,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "마지막까지, 달려나갑시다!",
+            "LocalizeKR": "마지막까지,\n달려 나갑시다!",
             "LocalizeJP": "最後まで、\n駆けぬけましょう！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -413,7 +413,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "네! 우자와 레이사\n대기중입니다!",
+            "LocalizeKR": "네! 우자와 레이사\n대기 중입니다!",
             "LocalizeJP": "はい！\n宇沢レイサ、\n待機中です！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -425,7 +425,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀해주세요!",
+            "LocalizeKR": "무슨 일이세요?\n언제든지 말씀 해주세요!",
             "LocalizeJP": "どうかしましたか？\nいつでも\nお声がけください！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -541,7 +541,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "바로 가져다 드릴께요!",
+            "LocalizeKR": "바로 가져다드릴께요!",
             "LocalizeJP": "すぐにお持ちしますので！",
             "LocalizeEN": "",
             "VoiceClipsJp": []

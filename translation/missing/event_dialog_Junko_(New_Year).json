@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어, 왔어? 선생님?\n뭔가 소란스러운데,\n같이 나가 볼래?",
+            "LocalizeKR": "아, 얏호- 선생님.\n왠지 시끄럽네.\n보러 가 볼래?",
             "LocalizeJP": "あっ、やっほー先生。\nなんだか騒がしいね。\n見に行ってみる？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -17,7 +17,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "설날은 평소와는 달리\n맛있는 게 많구나…",
+            "LocalizeKR": "설날은 평소와는\n다르게 맛있는 것이\n많이 있단 말이지…",
             "LocalizeJP": "お正月って普段とは\n違う美味しいものが\nたくさんあるのよね…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -73,7 +73,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "난 하카마가 더 좋달까……\n움직이기 편하잖아?",
+            "LocalizeKR": "나는 하카마 쪽이\n좋으려나……\n움직이기 쉽기도 하고.",
             "LocalizeJP": "私は袴の方が好きかな…\n動きやすいし。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -97,7 +97,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "그, 그런 게 나한테\n어울릴 리 없잖아… 됐어…",
+            "LocalizeKR": "그런 게 나에게\n어울릴 리 없고…\n됐다고…",
             "LocalizeJP": "そーゆーの私には\n似合わないし…\nいいかな…。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -107,7 +107,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "뭔가 일이\n귀찮아지려고 하는\n느낌이 드는데…",
+            "LocalizeKR": "왠지 귀찮은\n일이 될 것 같은……",
             "LocalizeJP": "なんだか厄介な\nことになりそうな…。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -119,7 +119,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 3,
-            "LocalizeKR": "내 직감,\n안 좋은 쪽으로는\n잘 맞으니까…",
+            "LocalizeKR": "내 직감,\n안 좋을 때만\n맞으니까……",
             "LocalizeJP": "私の直感って、嫌なときに\n限って当たるから…。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -129,7 +129,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "뭐, 결국 이렇게\n되는 건가 싶기도 하고.",
+            "LocalizeKR": "이렇게 될 것 같기는\n했는데 말이지……",
             "LocalizeJP": "こうなるような\n気はしてたけど…。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -141,7 +141,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "그래도, 선생님이 있으니까\n어떻게든 되지 않을까?",
+            "LocalizeKR": "뭐, 선생님도 같이 있고,\n어떻게든 되지 않을까?",
             "LocalizeJP": "ま、先生と一緒なら、\nなんとかなるんじゃない？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -163,7 +163,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "오세치도 맛있었고,\n간만에 배부르게 먹었어!",
+            "LocalizeKR": "오세치도 맛있었고,\n배부르게 먹었고!",
             "LocalizeJP": "おせちもおいしかったし、\nお腹いっぱい\n食べられたし！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -195,7 +195,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "아무래도 여유를 부릴\n시간은 없는 모양이야.\n힘 내라고, 선생님.",
+            "LocalizeKR": "여유를 부리고 있을 상황이 아니야!\n자, 힘내. 선생님.",
             "LocalizeJP": "余裕ぶってる\n場合じゃないわよ！\nほら、頑張って、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -229,7 +229,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "시끌벅적한 걸 싫어하는 건 아냐.\n안 그랬다간 미식연구회 애들이랑\n같이 못 다니지.",
+            "LocalizeKR": "시끌벅적한 걸 싫어하는 건 아냐.\n안 그랬다면, 미식연구회\n애들이랑 같이 못 다닐 거 아냐?",
             "LocalizeJP": "騒がしいのも嫌いじゃないわ。\nでなかったら、美食研究会の\nみんなと一緒にいないでしょ？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -263,7 +263,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 2,
-            "LocalizeKR": "솔직히 나보고\n이런 거 하라면 못 할 거 같아.",
+            "LocalizeKR": "나 혼자였다면\n불가능했다고 생각해……\n이것이 어른의 힘……",
             "LocalizeJP": "私ひとりじゃ\nできなかったと思う…。\nこれが大人の力…",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -275,7 +275,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 2,
-            "LocalizeKR": "…어른이란 대단하네. 제법.",
+            "LocalizeKR": "꽤 하잖아.",
             "LocalizeJP": "なかなかやるじゃない。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -285,7 +285,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Interaction",
             "GroupId": 1,
-            "LocalizeKR": "오늘 할 일은 끝인 건가?",
+            "LocalizeKR": "오늘 할 일은 이걸로 끝?",
             "LocalizeJP": "今日の仕事はこれでおしまい？",
             "LocalizeEN": "",
             "VoiceClipsJp": [

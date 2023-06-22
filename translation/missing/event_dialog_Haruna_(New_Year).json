@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "선생님, 어서 오세요.\n어머…설날에도 일하시나요?\n때로는 휴식도 중요하죠.",
+            "LocalizeKR": "선생님, 어서 오세요.\n어머… 설날에도 일하시나요?\n때로는 휴식도 중요하죠.",
             "LocalizeJP": "先生、おかえりなさいませ。\nあら…お正月も\nお仕事ですか？\n時には休憩も大切ですよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -61,7 +61,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "자꾸 간지럽히시면,\n곤란하답니다?",
+            "LocalizeKR": "그렇게 자꾸 간지럼을\n태우시면 곤란하답니다.",
             "LocalizeJP": "そう何度もくすぐられては\n困ってしまいますわ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -73,7 +73,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "선생님은, 의외로 장난을\n좋아하시는군요?",
+            "LocalizeKR": "선생님께서는,\n의외로 장난을\n좋아하시는군요?",
             "LocalizeJP": "先生ったら、\n意外とイタズラが\nお好きなんですね？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -291,7 +291,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck5",
             "GroupId": 1,
-            "LocalizeKR": "오오, 대길이군요?\n역시 선생님,\n대단하시네요!",
+            "LocalizeKR": "어머, 대길이네요!\n역시나 선생님.\n운을 가지고 계시는군요!",
             "LocalizeJP": "あら、大吉ですわ！\n流石先生、\n運も持っていますのね！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -303,7 +303,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck5",
             "GroupId": 1,
-            "LocalizeKR": "대길을 뽑으신\n선생님께는,\n특별한 상품이\n준비되어 있답니다.",
+            "LocalizeKR": "대길을 뽑으신\n선생님께는,\n특별한 상품을\n준비하고 있답니다.",
             "LocalizeJP": "大吉を引いた先生には、\n特別な商品を\nご用意しておりますわ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -335,7 +335,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck3",
             "GroupId": 3,
-            "LocalizeKR": "중길인가요. 괜찮네요.\n중길의 상품은,\n이쪽입니다.",
+            "LocalizeKR": "중길…… 꽤나 좋네요.\n이쪽이 중길의 상품입니다.",
             "LocalizeJP": "中吉…\nなかなか良いですわね。\nこちらが中吉の商品です。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -381,7 +381,7 @@
             "DialogCategory": "UIEventFortuneGachaShop",
             "DialogCondition": "Luck1",
             "GroupId": 5,
-            "LocalizeKR": "즉, 길조군요.\n네, 이쪽입니다.",
+            "LocalizeKR": "즉, 길조군요.\n네. 이쪽으로 오세요.",
             "LocalizeJP": "つまり、吉兆ですわね。\nはい、こちらをどうぞ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []

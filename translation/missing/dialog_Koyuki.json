@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "뭐 재밌는 일 있나요?\n쿠로사키 코유키가- 왔습니다-!! 니.하.하.하!!",
+            "LocalizeKR": "뭐 재밌는 거 없나요~?\n쿠로사키 코유키, 와버렸어요!!\n니 · 하 · 하 · 하!!",
             "LocalizeJP": "なんか面白いことないですか～？\n黒崎コユキ、来ちゃいました！！\nに・は・は・は！！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "여, 여기는 안전\n지대죠!? 누가 저\n잡아갈 수 없겠죠!?",
+            "LocalizeKR": "여, 여기는 안전지대죠!?\n누군가에게 끌려가거나\n하진 않죠!?",
             "LocalizeJP": "こ、ここって安全\n地帯ですよね！？\n誰かに連れていかれたり\nとかしませんよね！？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -53,7 +53,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "아하, 여기가 바로\n그 소문의…….",
+            "LocalizeKR": "헤에, 여기가\n소문의…….",
             "LocalizeJP": "へぇ、ここが\n噂の……。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -143,7 +143,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "도와드릴 거 없나요?",
+            "LocalizeKR": "뭔가 도와드리고 싶은데요!",
             "LocalizeJP": "なにかお役に立ちたいです～",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -209,7 +209,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "아, 여기 온 거 선배들에게\n말씀해 주셨나요?",
+            "LocalizeKR": "아, 제가 여기 있다는 거\n선배들에게 말해 주셨나요?",
             "LocalizeJP": "あ、私がここにいるって\n先輩たちに言ってくれました？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -265,7 +265,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "오늘은 선생님을 위해\n뭐든지 들어드리죠!",
+            "LocalizeKR": "오늘은 선생님의 부탁,\n뭐든지 들어드리죠!",
             "LocalizeJP": "今日は先生のお願い、\nなんでも聞いて\nあげちゃいますよ！",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -275,7 +275,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "음! 오늘은 저의 생일입니다!",
+            "LocalizeKR": "네! 오늘은 저의\n생일입니다!",
             "LocalizeJP": "はいっ！今日は私の\n誕生日です！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -375,7 +375,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 500,
-            "LocalizeKR": "있~었나~ 모……르겠네요?\n니하핫……?",
+            "LocalizeKR": "없던가~그렇지도\n않던…가? 니하하…?",
             "LocalizeJP": "ないような～そうでもない\n……ような？にはは……？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -385,7 +385,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "아니, 어……. 음…… 응? 얼레?\n괜찮나요, 이거?\n진짜 이래도 괜찮은 건가요?\n선생님, 설마 저…….\n정말, 믿어 주시는 건가요……?",
+            "LocalizeKR": "어…. 으음…?\n괜찮나요, 이거?\n진짜 이래도 괜찮은 건가요?\n선생님, 설마 저…….\n정말, 믿어 주시는 건가요……?",
             "LocalizeJP": "えっ……んん？？\nいいんですか？\nこれ、本当に大丈夫ですか！？\n先生、もしかして私のこと……\n本当に、信じてくれるんですか……？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -397,7 +397,7 @@
             "DialogCategory": "UILobbySpecial",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "선생님! 이거 봐요!!\n진짜 네잎클로버예요!!",
+            "LocalizeKR": "선생님! 이거 봐요!!\n네잎클로버예요!!",
             "LocalizeJP": "先生！見てください！！\n四葉のクローバーですよ！！",
             "LocalizeEN": "",
             "VoiceClipsJp": []

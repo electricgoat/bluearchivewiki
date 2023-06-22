@@ -5,7 +5,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "안녕하세요, 선생님!\n새해의 소원은\n뭘로 정하셨나요?",
+            "LocalizeKR": "안녕하세요. 선생님!\n새해의 소원은\n정하셨나요?",
             "LocalizeJP": "こんにちは、先生！\n新年のお願いは\n決まりましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -27,7 +27,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "춥지 않으세요?\n따뜻한 음식이라도\n준비할까요?",
+            "LocalizeKR": "춥지 않으세요?\n따뜻한 식사라도\n어떠신가요?",
             "LocalizeJP": "寒くありませんか？\n温かい食事でも\nいかがでしょう？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -73,7 +73,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "오세치 말고도\n다른 새해 음식을\n만들어 보고 싶어요.",
+            "LocalizeKR": "오세치 이외의\n새해 요리에도\n도전해 보고 싶어요!",
             "LocalizeJP": "おせち以外の\nお正月料理にも\n挑戦してみたいです！",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -183,7 +183,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 5,
-            "LocalizeKR": "저, 선생님?\n제 요리는…\n입에 맞으셨나요?",
+            "LocalizeKR": "그…… 제 요리,\n입맛에 맞으셨나요?",
             "LocalizeJP": "その…私の料理、\nお口に合いましたか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -239,7 +239,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "네? 급양부 특제 요리\n같은 건 없느냐고요?",
+            "LocalizeKR": "네? 급양부 특제 요리,\n말씀이신가요……?",
             "LocalizeJP": "えっ？\n給食部の特製料理、ですか…？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -251,7 +251,7 @@
             "DialogCategory": "UIEventShop",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "혹시… 원하시면\n만들어 드릴까요?",
+            "LocalizeKR": "혹시 괜찮으시다면\n만들어 드릴까요?",
             "LocalizeJP": "もしよろしければ\nお作りしましょうか？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
