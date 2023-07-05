@@ -8,7 +8,7 @@ import argparse
 from jinja2 import Environment, FileSystemLoader
 from data import load_data
 from model import Item, Furniture, FurnitureGroup, Character
-from model_stages import translate_group_name
+from model_stages import translate_package_name
 from event import Card, wiki_itemcard
 
 ignore_item_id = [
@@ -111,7 +111,7 @@ def _get_gacha_rewards(group_id, stage_reward_prob, data, tag='Other'):
         return
 
     gacha_group = data.gacha_groups[group_id]
-    if verbose: print(f"Getting rewards for group_id {group_id}: {translate_group_name(gacha_group['NameKr'])}")
+    if verbose: print(f"Getting rewards for group_id {group_id}: {translate_package_name(gacha_group['NameKr'])}")
     if gacha_group['IsRecursive']:
         if verbose: print (f'This is a recursive group')
         yield from _get_gacha_rewards_recursive(group_id, stage_reward_prob, data)

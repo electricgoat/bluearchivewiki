@@ -1,5 +1,6 @@
 import collections
 import re
+import shared.functions
 
 ignore_item_id = [
         500100, #bundle of one of: Novice Activity Report / Lesser Enhancement Stone / Booster Ticket / (1 random T1 oopart). All story stages seem to have it 
@@ -8,26 +9,6 @@ ignore_item_id = [
 Reward = collections.namedtuple('Reward', 'name,tag,prob,amount,type')
 
 DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge'}
-
-def translate_group_name(text):
-    text = re.sub('스테이지용', 'Stage', text)
-    text = re.sub('스테이지', 'Stage', text)
-    text = re.sub('장비', 'equipment', text)
-    text = re.sub('티어', 'Tier', text)
-    text = re.sub('박스', 'bundle', text)
-    text = re.sub('묶음', 'recursive', text)
-    text = re.sub('통합', 'integrated', text)
-    text = re.sub('가챠', 'gacha', text)
-    text = re.sub('크레딧', 'Credits', text)
-    text = re.sub('공통', 'common', text)
-    text = re.sub('오파츠', 'OOparts', text)
-    text = re.sub('아이템', 'item', text)
-    text = re.sub('그룹', 'group', text)
-    text = re.sub('하급', 'low-class', text)
-    text = re.sub('하드', 'hard', text)
-    
-    return text
-
 
 def damage_type(text):
     return {
@@ -106,7 +87,7 @@ def _get_gacha_rewards(group_id, stage_reward_prob, data, tag='Other'):
         return
 
     gacha_group = data.gacha_groups[group_id]
-    if verbose: print(f"Getting rewards for group_id {group_id}: {translate_group_name(gacha_group['NameKr'])}")
+    if verbose: print(f"Getting rewards for group_id {group_id}: {shared.functions.translate_package_name(gacha_group['NameKr'])}")
     if gacha_group['IsRecursive']:
         if verbose: print (f'This is a recursive group')
         yield from _get_gacha_rewards_recursive(group_id, stage_reward_prob, data)

@@ -22,7 +22,9 @@ BlueArchiveData = collections.namedtuple(
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
+    'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_season', 'world_raid_stage','world_raid_stage_reward',
+    'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
     'bgm',
     ]
 )
@@ -96,9 +98,17 @@ def load_data(path_primary, path_secondary, path_translation):
         strategymaps=               load_strategymaps(path_primary),
         goods=                      load_generic(path_primary, 'GoodsExcelTable.json'),
         stages=                     load_stages(path_primary),
+        raid_stage=                 load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidStageExcelTable.json'), 'RaidBossGroup'),
+        raid_stage_reward=          load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidStageRewardExcelTable.json'), 'GroupId'),
+        raid_stage_season_reward=   load_generic(path_primary, 'RaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
+        raid_ranking_reward=        load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
         world_raid_stage=           load_generic(path_primary, 'WorldRaidStageExcelTable.json'),
         world_raid_stage_reward=    load_world_raid_stage_reward(path_primary),
+        eliminate_raid_stage=       load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidStageExcelTable.json'), 'RaidBossGroup'),
+        eliminate_raid_stage_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidStageRewardExcelTable.json'), 'GroupId'),
+        eliminate_raid_stage_season_reward=load_generic(path_primary, 'EliminateRaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
+        eliminate_raid_ranking_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         bgm=                        load_bgm(path_primary, path_translation),
     )
 
@@ -109,10 +119,13 @@ def load_generic(path, filename, key='Id'):
 
 
 def load_file(file, key='Id'):
-    with open(file,encoding="utf8") as f:
-        data = json.load(f)
-
-    return {item[key]: item for item in data['DataList']}
+    if os.path.exists(file): 
+        with open(file,encoding="utf8") as f:
+            data = json.load(f)
+        return {item[key]: item for item in data['DataList']}
+    else:
+        print(f'WARNING - file {file} is not present')
+        return {}
 
 
 def load_json(path, filename):
@@ -483,12 +496,13 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
 
 BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
-    ['raid_season', 'world_raid_season', 'event_content_season']
+    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'event_content_season']
 )
 
 def load_season_data(path):
     return BlueArchiveSeasonData(
         raid_season=            load_generic(path, 'RaidSeasonManageExcelTable.json', key='SeasonId'),
         world_raid_season=      load_generic(path, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
+        eliminate_raid_season=  load_generic(path, 'EliminateRaidSeasonManageExcelTable.json', key='SeasonId'),
         event_content_season=   load_event_content_seasons(path),
     )

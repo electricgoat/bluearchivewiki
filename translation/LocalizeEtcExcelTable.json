@@ -327,7 +327,7 @@
             "NameJp": "おやつ担当のお仕事",
             "NameEn": "Snack Supervisor's Choice",
             "DescriptionJp": "アビドスのおやつ担当であるノノミが用意したチョコレートセット。先生や個性的な対策委員会メンバーのだれもが楽しめるよう、あらゆる種類のチョコが詰まっている。",
-            "DescriptionEn": "The chocolate set that was prepared by Nonomi, who is in charge of Abydos' snacks. It's filled with all kinds of chocolates for everyone to enjoy, including Sensei and members of the  Countermeasures Committee."
+            "DescriptionEn": "The chocolate set that was prepared by Nonomi, who is in charge of Abydos' snacks. It's filled with all kinds of chocolates for everyone to enjoy, including Sensei and members of the Countermeasures Committee."
         },
         {
             "Id": 689413464,
@@ -650,7 +650,14 @@
             "NameEn": "Intact Okiku Doll",
             "DescriptionJp": "完全な状態の髪伸び人形。製造や強化に使用される。",
             "DescriptionEn": "A hair-growing Okiku doll in perfect condition. Used in various crafted items and enhancements."
-        },        
+        },  
+        {
+            "Id": 3284034061,
+            "NameJp": "総力戦コイン",
+            "NameEn": "Raid Coin",
+            "DescriptionJp": "総力戦ショップで利用可能なコイン。",
+            "DescriptionEn": "This coin can be spent at the Raid Shop."
+        },      
         {
             "Id": 2742824586,
             "NameJp": "総力戦レアコイン",
@@ -740,7 +747,7 @@
             "NameJp": "おみくじ引換券",
             "NameEn": "Fortune Slip Voucher (2021)",
             "DescriptionJp": "おみくじと交換するための引換券。実は真っ当なおみくじではなく黒亀組が販売しているもので、その結果に応じて別の商品が貰える。",
-            "DescriptionEn": "A voucher that can be exchanged for a fortune reading. In fact, it's not  just a regular omikuji, but one sold by the Black Tortoise Clan, and depending on the result, you get a different item."
+            "DescriptionEn": "A voucher that can be exchanged for a fortune reading. In fact, it's not just a regular omikuji, but one sold by the Black Tortoise Clan, and depending on the result, you get a different item."
         },
         {
             "Id": 1669990889,
@@ -4851,7 +4858,7 @@
             "NameJp": "ゲーム開発部模様の寝具セット",
             "NameEn": "Game Development Club Bedding Set",
             "DescriptionJp": "ゲーム開発部模様の布団と枕。かっこいい夢が見られそうだ。",
-            "DescriptionEn": "Pillow and futon embroidered  with a GDC pattern. It'll help you have cool dreams."
+            "DescriptionEn": "Pillow and futon embroidered with a GDC pattern. It'll help you have cool dreams."
         },
         {
             "Id": 1464352390,
@@ -4919,7 +4926,7 @@
             "NameJp": "シルバー·ポリッシングの床",
             "NameEn": "Silver Polish Floor",
             "DescriptionJp": "シルバーポリッシング素材の床。どの色ともよく馴染むので廊下の構成にピッタリだ。",
-            "DescriptionEn": "Floor of a silver polished material. As it goes well with any color, it goes perfectly as part of  the corridor composition."
+            "DescriptionEn": "Floor of a silver polished material. As it goes well with any color, it goes perfectly as part of the corridor composition."
         },
         {
             "Id": 1414845365,
@@ -5552,16 +5559,16 @@
         {
             "Id": 3496625428,
             "NameJp": "大決戦コイン",
-            "NameEn": "Great Battle Coin",
+            "NameEn": "Elimination Raid Coin",
             "DescriptionJp": "大決戦ショップで利用可能なコイン。",
-            "DescriptionEn": "Coin that can be redeemed at the Great Battle Shop."
+            "DescriptionEn": "Coin that can be redeemed at the Elimination Raid Shop."
         },
         {
             "Id": 196124168,
             "NameJp": "大決戦レアコイン",
-            "NameEn": "Great Battle Rare Coin",
+            "NameEn": "Rare Elimination Raid Coin",
             "DescriptionJp": "大決戦ショップで利用可能なレアコイン。",
-            "DescriptionEn": "Coin that can be redeemed at the Great Battle Shop."
+            "DescriptionEn": "Coin that can be redeemed at the Elimination Raid Shop."
         },
         {
             "Id": 3217702690,
@@ -5632,6 +5639,13 @@
             "NameEn": "Dice 6 Fixed Ticket",
             "DescriptionJp": "サイコロの出目を確定してくれるクーポン。6の目を選択すると、クーポンが消費されます。",
             "DescriptionEn": "A coupon that determines the outcome of the die roll. If you select the 6 point roll, the coupon will be consumed."
+        },
+        {
+            "Id": 1788699589,
+            "NameJp": "サイコロ確定券",
+            "NameEn": "Dice Fixed Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。どの数字のチケットが出るかは誰にも分からない。",
+            "DescriptionEn": "A coupon that determines the outcome of the die roll. Random ticket will be awarded."
         }
 
     ]

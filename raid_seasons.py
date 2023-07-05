@@ -16,16 +16,17 @@ args = None
 data = None
 season_data = {'jp':None, 'gl':None}
 
-Raid = collections.namedtuple('Raid', 'name,environment') #Store default environment so we don't have to look at actual boss info
+Raid = collections.namedtuple('Raid', 'name, shortname, environment') #Store default environment so we don't have to look at actual boss info
 RAIDS = {
-    'Binah':            Raid('Decagrammaton: Binah', 'Outdoors'),
-    'Chesed':           Raid('Decagrammaton: Chesed', 'Indoors'),
-    'ShiroKuro':        Raid('Slumpia: ShiroKuro', 'Urban'),
-    'Hieronymus':       Raid('Communio Sanctorum: Hieronymus', 'Indoors'),
-    'Perorozilla':      Raid('The Library of Lore: Perorodzilla', 'Indoors'),
-    'Kaitenger':        Raid('Kaitenger: KAITEN FX Mk.0', 'Outdoors'),
-    'HOD':              Raid('Decagrammaton: Hod', 'Urban'),
-    'Goz':              Raid('Slumpia: Goz', 'Indoors'),
+    'Binah':            Raid('Decagrammaton: Binah', 'Binah', 'Outdoors'),
+    'Chesed':           Raid('Decagrammaton: Chesed', 'Chesed', 'Indoors'),
+    'ShiroKuro':        Raid('Slumpia: ShiroKuro', 'ShiroKuro', 'Urban'),
+    'Hieronymus':       Raid('Communio Sanctorum: Hieronymus', 'Hieronymus', 'Indoors'),
+    'Perorozilla':      Raid('The Library of Lore: Perorodzilla', 'Perorodzilla', 'Indoors'),
+    'Kaitenger':        Raid('Kaitenger: KAITEN FX Mk.0', 'Kaitenger', 'Outdoors'),
+    'HOD':              Raid('Decagrammaton: Hod', 'Hod', 'Urban'),
+    'Goz':              Raid('Slumpia: Goz', 'Goz', 'Indoors'),
+    'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors')
 }
 
 SEASON_IGNORE = {
@@ -91,7 +92,7 @@ def generate():
             else:
                 season['env'] = RAIDS[boss[0]].environment
 
-            season['banner'] = f"Raid_Banner_{boss[0]}.png"
+            season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname}.png"
 
             season['notes'] = ''
             if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
@@ -101,12 +102,12 @@ def generate():
 
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    template = env.get_template('./template_raid_seasons.txt')
+    template = env.get_template('./raid/template_raid_seasons.txt')
 
     wikitext = template.render(season_data=season_data)
     
 
-    with open(os.path.join(args['outdir'], 'events' ,f"raid_seasons.txt"), 'w+', encoding="utf8") as f:
+    with open(os.path.join(args['outdir'], 'raids' ,f"raid_seasons.txt"), 'w+', encoding="utf8") as f:
         f.write(wikitext)
 
     if wiki.site != None:

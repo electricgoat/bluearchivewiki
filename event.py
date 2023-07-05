@@ -280,7 +280,7 @@ def generate():
         print('Warning - no bonus character data found!')
         bc = []
     
-    bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for item in bonus_characters:  
         for character in bc:
             if item in character['EventContentItemType']:
@@ -290,7 +290,7 @@ def generate():
                     bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':str(character['CharacterId']), 'Class':'Striker', 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
     #print (bonus_characters)
 
-    bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for item in bonus_characters:
         for character in bonus_characters[item]:
             bonus_values[item].append(character['BonusPercentage'])
@@ -308,7 +308,7 @@ def generate():
         print('Warning - no event currencies data found!')
         cy = []
 
-    event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for currency in cy:
         event_currencies[currency['EventContentItemType']] = {'ItemUniqueId': currency['ItemUniqueId'], 'Name':items[currency['ItemUniqueId']].name_en} 
     #print(event_currencies)
