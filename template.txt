@@ -211,8 +211,20 @@
 | DescriptionJP = {{character.gear.desc_jp}} 
 | Tier1 = {{character.gear.tier1_desc}} 
 | Tier2 = {{character.gear.tier2_desc}}<b>{{character.normal_gear_skill.name_translated}}</b>
-| StatBonusT1 = {{character.gear.levels[1].stat_type[0]}}
-| StatBonusValueT1 = {{character.gear.levels[1].stat_value}}
+{% for tier in character.gear.tiers -%}
+{%  if tier.stats != None and tier.stats.stat_type != [] -%}
+| StatBonusT1 = {{tier.stats.stat_type[0]}}
+| StatBonusValueT1 = {{tier.stats.stat_value[0]}}
+{%- endif %}
+| UnlockFavorT{{loop.index}} = {{tier.unlock_favor}}
+{%- if tier.materials != None  %}
+{% set outer_loop = loop -%}
+{% for name, amount in tier.materials -%}
+| UnlockItemT{{outer_loop.index}}_{{loop.index}}_Name = {{name}}
+| UnlockItemT{{outer_loop.index}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}
+{%- endif -%}
+{% endfor -%}
 {% raw %}}}{% endraw %}
 {% raw %}{{{% endraw %}SkillTable
 | SkillName = {{character.normal_gear_skill.name_translated}}
