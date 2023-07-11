@@ -11,7 +11,7 @@
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Formation_In_2",
-            "LocalizeJP": "ok、 参戦する。",
+            "LocalizeJP": "オッケー、参戦する。",
             "LocalizeEN": "ok, join the race."
         },
         {
@@ -53,15 +53,15 @@
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Tactic_Victory_1",
-            "LocalizeJP": "備えあれば憂いなし シンプルなルール。",
+            "LocalizeJP": "備えあれば憂いなし シンプルなルールだ。",
             "LocalizeEN": "No worries if you are prepared Simple rules."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Tactic_Victory_2",
-            "LocalizeJP": "素晴らしい 式だった先生、",
-            "LocalizeEN": "It was a wonderful ceremony, Mr."
+            "LocalizeJP": "素晴らしい 式だった、先生。",
+            "LocalizeEN": "It was a wonderful ceremony, Sensei."
         },
         {
             "CharacterId": 10010,
@@ -96,7 +96,7 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Battle_Damage_2",
             "LocalizeJP": "全く。",
-            "LocalizeEN": "not at all."
+            "LocalizeEN": "Good grief."
         },
         {
             "CharacterId": 10010,
@@ -151,8 +151,8 @@
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Battle_Retire",
-            "LocalizeJP": "ミスター ごめん。",
-            "LocalizeEN": "sorry mr."
+            "LocalizeJP": "ミスった。ごめん。",
+            "LocalizeEN": "Sorry, I made a mistake"
         },
         {
             "CharacterId": 10010,
@@ -200,15 +200,15 @@
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Battle_Victory_2",
-            "LocalizeJP": "クリ",
-            "LocalizeEN": "Chestnut"
+            "LocalizeJP": "クリア。",
+            "LocalizeEN": "Clear."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_CommonSkill",
             "LocalizeJP": "行くよ。",
-            "LocalizeEN": "go."
+            "LocalizeEN": "Let's go."
         },
         {
             "CharacterId": 10010,
@@ -264,14 +264,14 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Growup_2",
             "LocalizeJP": "ありがとう先生。",
-            "LocalizeEN": "Thanks teacher."
+            "LocalizeEN": "Thanks Sensei."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Growup_3",
             "LocalizeJP": "成長したみたい これも先生のおかげ",
-            "LocalizeEN": "I feel like I've grown, thanks to my teacher"
+            "LocalizeEN": "I feel like I've grown, thanks to Sensei."
         },
         {
             "CharacterId": 10010,
@@ -284,29 +284,29 @@
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Relationship_Up_1",
-            "LocalizeJP": "昔 ドキドキが止まらない。",
-            "LocalizeEN": "I can't stop pounding in the past."
+            "LocalizeJP": "おかしい...ドキドキが止まらない。",
+            "LocalizeEN": "It's strange...I can't stop pounding."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Relationship_Up_2",
             "LocalizeJP": "先生と一緒にいるとなんだか不思議な気分",
-            "LocalizeEN": "I feel strange when I'm with my teacher"
+            "LocalizeEN": "I feel strange when I'm with Sensei."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Relationship_Up_3",
             "LocalizeJP": "先生教えて 私の知らない いろんなことをもっと。",
-            "LocalizeEN": "Teacher, tell me more things I don't know."
+            "LocalizeEN": "Sensei, tell me more things I don't know."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Standard",
             "VoiceClip": "Shiroko_Relationship_Up_4",
             "LocalizeJP": "先生にあったその瞬間から ここは私にとってもっと特別な場所になった",
-            "LocalizeEN": "From that moment I met my teacher, this place became more special to me."
+            "LocalizeEN": "From that moment I met Sensei, this place became more special to me."
         }
     ]
 }

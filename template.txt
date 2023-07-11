@@ -1,7 +1,7 @@
 {% raw %}{{{% endraw %}Character
 | Id = {{character.id}}
 | Name = {{character.wiki_name}}
-| Portrait = {{character.portrait}}
+| Portrait = Portrait_{{character.wiki_name.replace(' ', '_')}}
 | JPName = {{character.profile.full_name}}
 | JPReading = {{character.family_name_en}} {{character.personal_name_en}}
 | School = {{character.school}}
