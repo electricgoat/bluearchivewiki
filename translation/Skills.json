@@ -3788,6 +3788,32 @@
             "GroupId": "CH0218ExtraPassive01",
             "NameEn": "Observation status report",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0188Ex01",
+            "NameEn": "Big catch",
+            "DescriptionEn": "Decrease Defense of one enemy by $1 for $2\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0188Public01",
+            "NameEn": "\"Right here\"",
+            "DescriptionEn": "At the beginning of combat, increase the Critical Rate of all other allies by $1 for $2, and reduce EX skill cost by $3.\n(Reduction active until EX is activated $4 time)"
+        },
+        {
+            "GroupId": "CH0188Passive01",
+            "NameEn": "Slightly buoyant",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0188WeaponPassive01",
+            "NameEn": "Slightly buoyant +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0188ExtraPassive01",
+            "NameEn": "Toned body",
+            "DescriptionEn": "Increase Cost Recovery of all allies by $1."
         }
 
 

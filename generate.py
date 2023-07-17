@@ -35,7 +35,8 @@ def generate():
     # total_characters = 0
     # total_momotalks = 0
     # total_jims=0
-
+    # rank = 1
+    # rental = 1
     for character in data.characters.values():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
@@ -57,6 +58,15 @@ def generate():
             wiki.update_template(character.wiki_name, args['wiki_template'], wikitext)
         elif wiki.site != None and args['wiki_section'] != None:
             wiki.update_section(character.wiki_name, args['wiki_section'], wikitext)
+        elif wiki.site != None and args['wiki_section_number'] != None:
+            wiki.update_section_number(character.wiki_name, args['wiki_section_number'], wikitext)
+
+
+        #print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank=|attack=|role=}}", end='')
+        # print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank="+str(rank)+("|rental=" if rental%5==1 else "")+"}}", end='')
+        # rank +=1
+        # rental +=1
+        # if rank > 6: rank = 1
 
         
     #     total_characters += 1
@@ -86,11 +96,12 @@ def main():
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
     parser.add_argument('-wiki_template', metavar='TEMPLATE NAME', help='Name of a template whose data will be updated')
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
+    parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
 
     args = vars(parser.parse_args())
     print(args)
 
-    if args['wiki'] != None and (args['wiki_template'] != None or args['wiki_section'] != None):
+    if args['wiki'] != None and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
         wiki.init(args)
     else:
         args['wiki'] = None

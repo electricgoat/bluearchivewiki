@@ -368,8 +368,15 @@ def generate():
 
         for shop in data.event_content_shop_info[args['event_season']]:
             shop = shop
-            shop['wiki_currency'] = f"{{{{ItemCard|{items[shop['CostParcelId'][0]].name_en}}}}}"
-            shop['wiki_title'] = f"{{{{ItemCard|{items[shop['CostParcelId'][0]].name_en}|48px}}}}"
+            if shop['CostParcelType'][0] == 'Item':
+                shop['wiki_currency_name'] = items[shop['CostParcelId'][0]].name_en
+            elif shop['CostParcelType'][0] == 'Currency':
+                shop['wiki_currency_name'] = data.etc_localization[data.currencies[shop['CostParcelId'][0]]['LocalizeEtcId']]['NameEn']
+            else:
+                print(f"Unknown shop currency type for {shop}")
+
+            shop['wiki_currency'] = f"{{{{ItemCard|{shop['wiki_currency_name']}}}}}" 
+            shop['wiki_title'] = f"{{{{ItemCard|{shop['wiki_currency_name']}|48px}}}}"
             shop['total_cost'] = 0
             shop['shop_content'] = [x for x in data.event_content_shop[args['event_season']] if x['CategoryType'] == shop['CategoryType']]
 

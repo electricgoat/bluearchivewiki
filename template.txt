@@ -29,7 +29,7 @@
 | EquipmentSlot3 = {{character.equipment[2]}}
 | CharacterPool = {{character.character_pool}}
 | ReleaseDate = {{character.profile.release_date_jp}}
-{% raw %}}}{% endraw %}
+{% raw %}}}{% endraw %}{% raw %}{{{% endraw %}CharacterVariants|{{character.personal_name_en}}{% raw %}}}{% endraw %}__TOC__
 
 =Background=
 {% raw %}{{{% endraw %}CharacterBackground

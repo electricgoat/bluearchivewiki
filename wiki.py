@@ -146,6 +146,43 @@ def update_section(page_name, section_name, wikitext):
 
 
 
+#This is a bit weird, added to update the first part of character pages which do not have a section heading
+def update_section_number(page_name, section_number, wikitext): 
+    section_old = None
+    section_new = None
+    
+    try:
+        text = site('parse', page=page_name, prop='wikitext')
+        print (f"Updating wiki page {text['parse']['title']}")
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            update_section(page_name, section_number, wikitext)
+
+    wikitext_old = wtp.parse(text['parse']['wikitext'])
+    section_old = str(wikitext_old.sections[section_number])
+    #print (f'Old section text is {section_old}')
+
+    wikitext_new = wtp.parse(wikitext)
+    section_new = str(wikitext_new.sections[section_number])
+    #print (f'New section text is {section_new}')
+
+    if section_new == None:
+        print (f'Unable to find new section data')
+        return
+
+    if section_old == None:
+        print (f'Unable to find old section data')
+        return
+
+    if section_new == section_old:
+        print (f'...no changes in section №{section_number} for {page_name}')
+    else:
+        #print(f'Updated section number {section_number}')
+        publish(page_name, text['parse']['wikitext'].replace(section_old, section_new), summary=f'Updated section №{section_number}')
+
+
+
 def publish(page_name, wikitext, summary='Publishing generated page'):
     global site
 

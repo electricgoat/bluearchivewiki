@@ -111,7 +111,8 @@ map_descriptions = {
     'Event_Mission_Complete_Mission_Challenge_Count_817': 9999990008,
     'MISSION_CLEAR_SCHEDULE_IN_DU_1': 3664015476,
     'MISSION_CLEAR_SCHEDULE_IN_DU_2': 616759800,
-
+    'Event_Mission_WorldRaid_JoinToBossNumber': 2946961325,
+    'Event_Mission_WorldRaid_JoinWithTag_Abydos': 1685706037,
 }
 
 map_descriptions_all = {  #for reference only
@@ -599,6 +600,46 @@ def localize_Event_Mission_Clear_Specific_Campaign_Stage(mission, data, items, f
     return True
 
 
+def localize_Event_Mission_WorldRaid_DamageToBoss(mission, data, items, furniture):
+    desc_jp = '$1に$2以上ダメージ'
+    desc_en = 'Deal $1 damage to $2'
+
+    #TODO actually properly localize those
+    boss_names = {10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)'}
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount']))
+                                                          .replace('$2', boss_names[mission['CompleteConditionParameter'][1]])
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount']))
+                                                          .replace('$2', boss_names[mission['CompleteConditionParameter'][1]])
+                                                    )
+    
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_Event_Mission_WorldRaid_TimeLimit(mission, data, items, furniture):
+    desc_jp = '$1$2を$3秒以内にクリア'
+    desc_en = 'Defeat $1 on $2 within $3 seconds'
+
+    #TODO actually properly localize those
+    boss_names = {301200: 'Wakamo (Swimsuit)', 302200: 'Wakamo (Hovercraft)'}
+
+    difficulty = int(str(mission['CompleteConditionParameter'][1])[6:7])
+    difficulty_names = ['','Normal','Hard','VeryHard']
+
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', boss_names[int(str(mission['CompleteConditionParameter'][1])[:-3])])
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', boss_names[int(str(mission['CompleteConditionParameter'][1])[:-3])])
+                                                          .replace('$2', difficulty_names[difficulty])
+                                                          .replace('$3', str(mission['CompleteConditionCount']))
+                                                    )
+
+    mission['AutoLocalized'] = True
+    return True
 
 
 
