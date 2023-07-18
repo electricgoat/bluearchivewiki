@@ -152,11 +152,6 @@ def generate():
         print (f"Working on season {season['SeasonId']}")
         wikitext = ''
 
-
-
-
-
-        
         template = env.get_template('./raid/template_raid_boss.txt')
         for group in boss_groups:
             boss_data[season[group][0]]= get_raid_boss_data(season[group][0])
