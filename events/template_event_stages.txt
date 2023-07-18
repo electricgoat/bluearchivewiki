@@ -19,6 +19,8 @@
 !Default{% endif %}
 {%- if 'Rare' in reward_types %}
 !Rare{% endif %}
+{%- if 'Other' in reward_types %}
+!Other{% endif %}
 {% for stage in stages -%}
 |-
 |{{stage.stage_number}}{% if stage.content_type == "EventContentStoryStage" %}{% raw %}<br>{{Icon|Story|title=Story stage}}{% endraw %}{% endif %}{% if stage.content_type == "EventContentMainStage" %}{% raw %}<br>{{Icon|Tile|title=Strategy map}}{% endraw %}{% endif %}
@@ -37,6 +39,8 @@
 |<div class="rewards">{%- for reward in stage.rewards['Default'] -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>{% endif %}
 {%- if 'Rare' in reward_types %}
 |<div class="rewards">{%- for reward in stage.rewards['Rare'] -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>{% endif %}
+{%- if 'Other' in reward_types %}
+|<div class="rewards">{%- for reward in stage.rewards['Other'] -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>{% endif %}
 {% endfor -%}
 {% raw %}|}{% endraw %}
 

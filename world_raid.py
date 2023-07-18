@@ -55,7 +55,7 @@ def wiki_card(type: str, id: int, **params):
 
 #DEPRECATED
 def wiki_itemformat(reward, *params):
-    print ("WARNING - wiki_itemformat functoin is deprecated, switch to wiki_card")
+    #print ("WARNING - wiki_itemformat function is deprecated, switch to wiki_card")
     if (type(reward).__name__ == 'Reward'):
         return wiki_itemcard(reward, *params)
     elif (type(reward).__name__ == 'GachaGroup'):   
