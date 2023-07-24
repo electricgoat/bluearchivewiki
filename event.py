@@ -331,19 +331,20 @@ def generate():
     
     #STAGES
     wikitext_stages = ''
-    difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge'}
-    if (args['event_season'], "Stage") in data.event_content_seasons:
 
-        stage_reward_types = {x: [] for x in ['Normal', 'Hard', 'VeryHard']}
+    if (args['event_season'], "Stage") in data.event_content_seasons:
+        difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge', 'VeryHard_Ex': 'Extra Challenge'}
+        stage_reward_types = {x: [] for x in difficulty_names.keys()}
 
         for stage in stages:
             for reward_tag in stage.rewards:
                 if reward_tag not in stage_reward_types[stage.difficulty]:
                     stage_reward_types[stage.difficulty].append(reward_tag)
     
+        template = env.get_template('events/template_event_stages.txt')
         for difficulty in stage_reward_types:
-            template = env.get_template('events/template_event_stages.txt')
-            wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=[x for x in stages if x.difficulty == difficulty], reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
+            stages_filtered = [x for x in stages if x.difficulty == difficulty]
+            if len(stages_filtered): wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=stages_filtered, reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
 
 
     #SCHEDULE
