@@ -41,6 +41,9 @@ def generate():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
 
+        if args['character_id'] is not None and character['Id'] not in args['character_id']:
+            continue
+
         try:
             character = Character.from_data(character['Id'], data)
             #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
@@ -97,6 +100,7 @@ def main():
     parser.add_argument('-wiki_template', metavar='TEMPLATE NAME', help='Name of a template whose data will be updated')
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
+    parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
 
     args = vars(parser.parse_args())
     print(args)

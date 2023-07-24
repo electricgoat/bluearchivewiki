@@ -5646,6 +5646,143 @@
             "NameEn": "Dice Fixed Ticket",
             "DescriptionJp": "サイコロの出目を確定してくれるクーポン。どの数字のチケットが出るかは誰にも分からない。",
             "DescriptionEn": "A coupon that determines the outcome of the die roll. Random ticket will be awarded."
+        },
+
+        {
+            "Id": 1404874799,
+            "NameJp": "美しい花束",
+            "NameEn": "Beautiful Bouquet",
+            "DescriptionJp": "大切な人に贈るルビーで作られた花束\n美しい赤い花びらが相手の心をつかむ。",
+            "DescriptionEn": "A bouquet of ruby flowers, to be given to someone special.\nThe beautiful red petals are sure to capture the heart of the recepient."
+        },
+        {
+            "Id": 1967270032,
+            "NameJp": "羊皮紙の欠片",
+            "NameEn": "Parchment Piece",
+            "DescriptionJp": "古い羊皮紙の欠片。すべて集めれば何か一つの形に完成できそうだ。",
+            "DescriptionEn": "Fragment of an old parchment. If you collect all of them, it should be possible to piece the whole thing together."
+        },
+        {
+            "Id": 549917402,
+            "NameJp": "レモン",
+            "NameEn": "Lemon",
+            "DescriptionJp": "島のあちこちに実っているレモン。",
+            "DescriptionEn": "Lemons grow all over the island."
+        },
+        {
+            "Id": 365419572,
+            "NameJp": "古びた鍵",
+            "NameEn": "Old Key",
+            "DescriptionJp": "あちこちで見つかる古びた鍵。箱やキャビネットなどを開けられそうだ。",
+            "DescriptionEn": "Old keys found all over the place. They seem to open boxes, cabinets, etc."
+        },
+        {
+            "Id": 3943096043,
+            "NameJp": "シロコ（水着）の神名文字",
+            "NameEn": "Shiroko's (Swimsuit) Eleph",
+            "DescriptionJp": "シロコ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Shiroko (Swimsuit)"
+        },
+        {
+            "Id": 2032893708,
+            "NameJp": "ウイ（水着）の神名文字",
+            "NameEn": "Ui's (Swimsuit) Eleph",
+            "DescriptionJp": "ウイ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Ui (Swimsuit)"
+        },
+        {
+            "Id": 4066073750,
+            "NameJp": "ハナコ（水着）の神名文字",
+            "NameEn": "Hanako's (Swimsuit) Eleph",
+            "DescriptionJp": "ハナコ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Hanako (Swimsuit)"
+        },
+        {
+            "Id": 1816901664,
+            "NameJp": "コハル（水着）の神名文字",
+            "NameEn": "Koharu's (Swimsuit) Eleph",
+            "DescriptionJp": "コハル（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Koharu (Swimsuit)"
+        },
+        {
+            "Id": 795548328,
+            "NameJp": "ヒナタ（水着）の神名文字",
+            "NameEn": "Hinata's (Swimsuit) Eleph",
+            "DescriptionJp": "ヒナタ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Hinata (Swimsuit)"
+        },
+        {
+            "Id": 2884332539,
+            "NameJp": "ゴズ（屋外戦）のブロンズトロフィー",
+            "NameEn": "Goz Bronze Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゴズ（屋外戦）の栄誉を讃えるブロンズトロフィー",
+            "DescriptionEn": "A bronze trophy from Goz for Outdoor Warfare."
+        },
+        {
+            "Id": 2640249121,
+            "NameJp": "ゴズ（屋外戦）のシルバートロフィー",
+            "NameEn": "Goz Silver Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゴズ（屋外戦）の栄誉を讃えるシルバートロフィー",
+            "DescriptionEn": "A silver trophy from Goz for Outdoor Warfare."
+        },
+        {
+            "Id": 301399459,
+            "NameJp": "ゴズ（屋外戦）のゴールドトロフィー",
+            "NameEn": "Goz Gold Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゴズ（屋外戦）の栄誉を讃えるゴールドトロフィー",
+            "DescriptionEn": "A gold trophy from Goz for Outdoor Warfare."
+        },
+        {
+            "Id": 3430032418,
+            "NameJp": "ゴズ（屋外戦）のプラチナトロフィー",
+            "NameEn": "Goz Platinum Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゴズ（屋外戦）の栄誉を讃えるプラチナトロフィー",
+            "DescriptionEn": "A platinum trophy from Goz for Outdoor Warfare."
+        },
+        {
+            "Id": 2635859011,
+            "NameKr": "비밀을 감추는 여우 가면",
+            "DescriptionKr": "와카모가 평소에도 애용하고 있는 여우 가면. 와카모가 마음에 꼭 들어 하는 물건으로, 본래 그 용도는 쓸데없는 일에 휘말리지 않도록 자신의 정체를 숨기기 위한 것이었지만, 지금에 이르러 가면 너머로 감춘 비밀은 그뿐만이 아니다. 흘러넘치는 소녀의 순정을 감추기에도 안성맞춤인 패셔너블한 아이템.",
+            "NameJp": "秘密を隠すキツネのお面",
+            "DescriptionJp": "ワカモが普段から愛用しているキツネのお面。ワカモのお気に入りのアイテムで、元々その用途は余計なことに巻き込まれないように自分の正体を隠すためだったが、今ではマスクの向こうに隠された秘密はそれだけではない。溢れる少女の純情を隠すのにも最適な、ファッショナブルなアイテム。",
+            "NameEn": "Mysterious fox mask",
+            "DescriptionEn": "A fox mask that Wakamo often uses. Wakamo's favorite item, originally used to hide her identity so as not to get involved in unnecessary affairs, but now that's not the only secret hidden behind the mask. This fashionable item is also perfect for concealing a girl's overflowing pure emotions."
+        },
+        {
+            "Id": 2119169468,
+            "NameKr": "꿈이 담긴 벚꽃색 앞치마",
+            "DescriptionKr": "미모리의 벚꽃색 앞치마. 청소할 때도, 요리할 때도. 가사 전반의 친구라고 할 수 있는 앞치마다.",
+            "NameJp": "夢が詰まった桜色エプロン",
+            "DescriptionJp": "ミモリの桜色のエプロン。掃除の時も、料理の時も。家事全般の友とも言えるエプロンだ。",
+            "NameEn": "Cherry blossom apron full of dreams",
+            "DescriptionEn": "Mimori's cherry blossom-patterned apron. Suitable for both cleaning and cooking, an apron like this comes handy for all household chores."
+        },
+        {
+            "Id": 2513809664,
+            "NameKr": "보물 가득 파우치",
+            "DescriptionKr": "바닷가에 찾아오며 치세가 가져온 귀엽고 팬시한 디자인의 파우치. 겉에는 혹시 잃어버리진 않을까, 걱정한 카호가 직접 달아준 이름표가 달려 있다. 치세는 바닷가에서 찾은 수많은 추억들을 이 파우치에 담았다. 그중엔 미처 담지 못한 것도 있었지만, 그래도 그 추억은 영원히 사라지지 않는다.",
+            "NameJp": "宝物いっぱいポーチ",
+            "DescriptionJp": "チセが海辺に遊びに来た時に持ってきた、可愛くてファンシーなデザインのポーチ。外側には、忘れてしまうのではないかと、カホが心配してつけてくれた名札が付いている。チセは、海辺で見つけた数々の思い出をこのポーチに詰め込んだ。うっかり入れそびれたのもあったが、それでもその思い出は永遠に消えない。",
+            "NameEn": "Treasure-filled pouch",
+            "DescriptionEn": "Pouch with a cute and fancy design that Chise brought when she visited the beach. Kaho put a name tag on it because she was worried that Chise might forget it. Chise packed many mementos she found at the seaside into this pouch. Some of them may have fallen out, but the memories will never be lost."
+        },
+        {
+            "Id": 3704183677,
+            "NameKr": "세리카의 스포츠백",
+            "DescriptionKr": "세리카의 검은색 스포츠백. 공부용, 아르바이트용, 운동용, 정비용…… 뭐든 집어넣고 꺼낼 수 있는 만능 가방이다.",
+            "NameJp": "セリカのスポーツバッグ",
+            "DescriptionJp": "セリカの黒いスポーツバッグ。勉強用、アルバイト用、運動用、整備用……何でも入れて持ち出せる万能バッグだ。",
+            "NameEn": "Serika's sports bag",
+            "DescriptionEn": "Serika's black sports bag. It's a versatile bag that comes useful for school, part-time work, exercise, maintenance... and anything else you need to take with you."
+        },
+        {
+            "Id": 794937786,
+            "NameKr": "사야의 스케이트보드",
+            "DescriptionKr": "사야 전용으로 꾸며진 스케이트보드. 자전거나 스쿠터와 달리 양손을 자유롭게 쓸 수 있지만, 그만큼 숙련도도 요구한다.",
+            "NameJp": "サヤのスケートボード",
+            "DescriptionJp": "サヤ専用に飾られたスケートボード。自転車やスクーターと違って両手が自由に使えるが、その分熟練度も求められる。",
+            "NameEn": "Saya's skateboard",
+            "DescriptionEn": "A skateboard personally decorated by Saya. Unlike bicycles and scooters, it leaves both hands free, but also requires a degree of skill to ride."
         }
 
     ]

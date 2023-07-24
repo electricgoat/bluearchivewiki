@@ -336,7 +336,8 @@ class Skill(object):
         return {
             'Explosion': 'Explosive',
             'Pierce': 'Penetration',
-            'Mystic': 'Mystic'
+            'Mystic': 'Mystic',
+            'Sonic': 'Sonic'
         }[self._damage_type]
 
     @classmethod
@@ -613,6 +614,8 @@ class Gear(object):
         tier2_desc = 'Normal Skill changes to '
 
         effect_data = {'stat_name': tiers[0].stats['stat_type'][0], 'amount_base': str(tiers[0].stats['stat_value'][0])}
+
+        if 'NameEn' not in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]: print (f"Missing Unique Gear translation, LocalizeEtcId {data.gear[(character_id , 1)]['LocalizeEtcId']}")
 
         return cls(
             'NameEn' in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]] and data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['NameEn'] or None,

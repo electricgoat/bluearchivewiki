@@ -139,7 +139,12 @@
         {
             "GroupId": "SerikaPublic01",
             "NameEn": "Precision Shooting",
-            "DescriptionEn": "Deal $2 damage to one enemy every $1."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "SerikaGearPublic01",
+            "NameEn": "Precision Shooting +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
         },
         {
             "GroupId": "SerikaPassive01",
@@ -1807,6 +1812,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to all enemies within a circular area."
         },
         {
+            "GroupId": "CH0133GearPublic01",
+            "NameEn": "Research never ends! +",
+            "DescriptionEn": "Every $1, deal $2 damage to all enemies within a circular area.\nAdditionally deal $3 continuous Poison damage for $4."
+        },
+        {
             "GroupId": "CH0133Passive01",
             "NameEn": "Elixir of concentration",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -2047,6 +2057,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to one enemy."
         },
         {
+            "GroupId": "CH0111GearPublic01",
+            "NameEn": "Cherry Blossom Storm +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
             "GroupId": "CH0111Passive01",
             "NameEn": "Destructive urges in full bloom",
             "DescriptionEn": "Increase Attack by $1."
@@ -2145,6 +2160,11 @@
             "GroupId": "CH0115Public01",
             "NameEn": "I've packed lunch",
             "DescriptionEn": "Every $1, continuously regenerate HP of an ally with the lowest HP (except Mimori herself) at a rate of $2 Healing for $3."
+        },
+        {
+            "GroupId": "CH0115GearPublic01",
+            "NameEn": "I've packed lunch +",
+            "DescriptionEn": "Every $1, continuously regenerate HP of an ally with the lowest HP (except Mimori herself) at a rate of $2 Healing, and increase their Attack Speed by $3 for $4.\nIf there is another ally other than Mimori nearby, the lunch will bounce to them (up to 2 times), increasing their Attack Speed by $5 for $6."
         },
         {
             "GroupId": "CH0115Passive01",
@@ -2705,6 +2725,11 @@
             "GroupId": "CH0178Public01",
             "NameEn": "Beach ball, shoo~t",
             "DescriptionEn": "Every $1, deal $2 damage to one enemy and Stun them for $3."
+        },
+        {
+            "GroupId": "CH0178GearPublic01",
+            "NameEn": "Beach ball, shoo~t +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy and Stun them for $3.\nAdditionally, increase Chise's Attack by $4 for $5."
         },
         {
             "GroupId": "CH0178Passive01",
@@ -3814,7 +3839,86 @@
             "GroupId": "CH0188ExtraPassive01",
             "NameEn": "Toned body",
             "DescriptionEn": "Increase Cost Recovery of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0204Ex01",
+            "NameEn": "Private cafe",
+            "DescriptionEn": "Move 4 other allies within a circular area to Ui's position, then add $1 to their Penetration Efficiency for $2."
+        },
+        {
+            "GroupId": "CH0204Public01",
+            "NameEn": "Definitive clue",
+            "DescriptionEn": "When $1 Clues are obtained, add $2 Penetration Efficiency to all Striker allies for $3.\nConsume $4 Clues."
+        },
+        {
+            "GroupId": "CH0204Passive01",
+            "NameEn": "Seeker's will",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0204WeaponPassive01",
+            "NameEn": "Seeker's will +",
+            "DescriptionEn": "Increase HP by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0204ExtraPassive01",
+            "NameEn": "Identifying clues",
+            "DescriptionEn": "When other allies use $1 EX skills, increase Attack by $2 for $3. Acquire $4 Clue."
+        },
+
+        {
+            "GroupId": "CH0210Ex01",
+            "NameEn": "Fun waterplay",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular range. (this attack ignores $2 of enemy Defense)"
+        },
+        {
+            "GroupId": "CH0210Public01",
+            "NameEn": "Refreshing dip",
+            "DescriptionEn": "Every $1, throw a water balloon to deal $2 damage to 1 enemy. If there are enemies around the target that have not yet been attacked, the water balloon will bounce in that direction and deal the same damage (up to 6 times).\n(This attack ignores $3 of the enemy Defense)"
+        },
+        {
+            "GroupId": "CH0210Passive01",
+            "NameEn": "Expeditionary passion",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0210WeaponPassive01",
+            "NameEn": "Expeditionary passion +",
+            "DescriptionEn": "Increase Explosive Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0210ExtraPassive01",
+            "NameEn": "Caring hands",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0205Ex01",
+            "NameEn": "It's not like that!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0205Public01",
+            "NameEn": "Don't stare!",
+            "DescriptionEn": "Every $1, increases Critical Rate by $2 for $3."
+        },
+        {
+            "GroupId": "CH0205Passive01",
+            "NameEn": "Elites' duty",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0205WeaponPassive01",
+            "NameEn": "Elites' duty +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0205ExtraPassive01",
+            "NameEn": "Nothing naughty! Death penalty!",
+            "DescriptionEn": "When attacking medium-sized enemies, deal $1 of Attack as additional damage."
         }
+
 
 
     ]
