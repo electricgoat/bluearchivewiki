@@ -3870,7 +3870,7 @@
         {
             "GroupId": "CH0210Ex01",
             "NameEn": "Fun waterplay",
-            "DescriptionEn": "Deal $1 damage to enemies within a circular range. (this attack ignores $2 of enemy Defense)"
+            "DescriptionEn": "Deal $1 damage to enemies within a circular range around self. (this attack ignores $2 of enemy Defense)"
         },
         {
             "GroupId": "CH0210Public01",
@@ -3917,6 +3917,32 @@
             "GroupId": "CH0205ExtraPassive01",
             "NameEn": "Nothing naughty! Death penalty!",
             "DescriptionEn": "When attacking medium-sized enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0209Ex01",
+            "NameEn": "I'm going to douse you ♡",
+            "DescriptionEn": "Deal $1 damage to enemies within a fan-shaped area.\nIf the water gauge is 1 or more, EX skill card remains in hand. Subtract 1 water gauge charge."
+        },
+        {
+            "GroupId": "CH0209Public01",
+            "NameEn": "Take good care of it ♡",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area.\nAdditionally, decrease their Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0209Passive01",
+            "NameEn": "True feelings hidden in midsummer",
+            "DescriptionEn": "Increase Attack by $1 and Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0209WeaponPassive01",
+            "NameEn": "True feelings hidden in midsummer +",
+            "DescriptionEn": "Increase Attack by $1 and Critical Damage by $2.\nFurther increase Attack by $3 and Critical Damage by $4."
+        },
+        {
+            "GroupId": "CH0209ExtraPassive01",
+            "NameEn": "We're all pumped up ♡",
+            "DescriptionEn": "Charge the water gauge by $1 when any other ally uses an EX skill.\nFor every 100% charge, increase Attack by $2 for $3.\n(The water gauge can hold up to 2 full charges)"
         }
 
 

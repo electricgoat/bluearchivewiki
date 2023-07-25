@@ -113,6 +113,14 @@ map_descriptions = {
     'MISSION_CLEAR_SCHEDULE_IN_DU_2': 616759800,
     'Event_Mission_WorldRaid_JoinToBossNumber': 2946961325,
     'Event_Mission_WorldRaid_JoinWithTag_Abydos': 1685706037,
+    'Event_Mission_TBG_Complete_Round_Count': 1240110750,
+    'Event_Mission_TBG_Complete_Thema1_Normal': 3285415668,
+    'Event_Mission_TBG_Complete_Thema2_Normal': 2074176759,
+    'Event_Mission_TBG_Complete_Thema3_Normal': 3986099473,
+    'Event_Mission_TBG_Complete_Thema4_Normal': 107350320,
+    'Event_Mission_TBG_Complete_Thema2_Hidden': 2905801638,
+    'Event_Mission_TBG_Complete_Thema4_Hidden': 3584453321,
+    'Event_Mission_Complete_Campaign_Stage': 538150987,
 }
 
 map_descriptions_all = {  #for reference only

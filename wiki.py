@@ -116,6 +116,11 @@ def update_section(page_name, section_name, wikitext):
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
             update_section(page_name, section_name, wikitext)
+        elif error.code == 'missingtitle':
+            print (f'Target page {page_name} not found')
+            return
+        else:
+            print(error)
 
     wikitext_old = wtp.parse(text['parse']['wikitext'])
     for section in wikitext_old.sections:

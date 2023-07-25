@@ -610,7 +610,12 @@ class Gear(object):
         tiers = [GearTier.from_data(tier, data) for tier in sorted(gear_tiers_data, key=operator.itemgetter('Tier'))]
         unlock_level = tiers[0].unlock_favor
 
-        tier1_desc = "Increase " + tiers[0].stats['stat_type'][0] + " by {{SkillValue|" + str(tiers[0].stats['stat_value'][0]) + "}}"
+        
+        stat_bonus_text = []
+        for index,stat_type in enumerate(tiers[0].stats['stat_type']):
+            stat_bonus_text.append(stat_type + " by {{SkillValue|" + str(tiers[0].stats['stat_value'][index]) + "}}")
+
+        tier1_desc = "Increase " + (" and ".join(stat_bonus_text))
         tier2_desc = 'Normal Skill changes to '
 
         effect_data = {'stat_name': tiers[0].stats['stat_type'][0], 'amount_base': str(tiers[0].stats['stat_value'][0])}

@@ -1,0 +1,204 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "그럼,\n슬슬 시작해 볼까요?",
+            "LocalizeJP": "そろそろ\nはじめましょうか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "즐거운 '여름 이벤트'의\n시작이에요~ 후후.",
+            "LocalizeJP": "楽しい「夏のイベント」の\nはじまりですよ～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "어머, 벌써 절반이\n지났군요……?",
+            "LocalizeJP": "あら、もう折り返し\nなんですね……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "끝이 가까워졌네요.",
+            "LocalizeJP": "終わりが\n近づいてきましたね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "조금은, 쓸쓸합니다.",
+            "LocalizeJP": "……少しだけ、\n寂しいです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "빠뜨린 게 있는지\n살펴볼까요?",
+            "LocalizeJP": "忘れ物はないか、\n確認してみましょうか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "음? 무슨 일이실까요?",
+            "LocalizeJP": "ん？どうされました？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "어머, 선생님에게\n이런 일면이 있다니♡",
+            "LocalizeJP": "あら、先生に\nこんな一面があるなんて♡",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여기서 선생님이 하신 거,\n다 기억하고 있다구요~?",
+            "LocalizeJP": "ここで先生にされたこと、\n全部覚えてますからね～？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "돌아가면…\n각오해 주세요♡",
+            "LocalizeJP": "帰ったら……\n覚悟していてください♡",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "후후후……♡",
+            "LocalizeJP": "うふふ……♡",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "앞으로 무슨 일이 일어날지,\n기대되네요.",
+            "LocalizeJP": "このさき何が起こるのか、\n楽しみですね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "후훗. 다들 선생님을\n기다리고 있어요.",
+            "LocalizeJP": "ふふっ。\n皆さんが、先生を待っていますよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 이런 곳에서, 그런…♡",
+            "LocalizeJP": "あぁ、\nこんなところで、そんな……♡",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Touch_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "후훗,\n선생님 무슨 일 있었나요?",
+            "LocalizeJP": "ふふっ、\n先生、何かありましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Touch_2"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "어머나, 이건 꽤…….",
+            "LocalizeJP": "あら、これはかなり……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009162,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "열심히 한 보람이 있었네요",
+            "LocalizeJP": "頑張った甲斐がありましたね～",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0209_Minigame_Get_2"
+            ]
+        }
+    ]
+}

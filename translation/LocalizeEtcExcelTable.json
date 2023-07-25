@@ -474,7 +474,7 @@
             "NameJp": "カカオ99.99%",
             "NameEn": "Cacao 99.99%",
             "DescriptionJp": "先生のためにハルカが準備したチョコレート。99.99という数字を見て「とりあえず凄そう」と感じたら便利屋68に向いているのかもしれない。",
-            "DescriptionEn": "The chocolate that was prepared by Haruka for Sensei. If you look at the number 99.99 and think, 'At any rate, that looks amazing,' you might be a good candidate for Handyman 68."
+            "DescriptionEn": "The chocolate that was prepared by Haruka for Sensei. If you look at the number 99.99 and think, 'At any rate, that looks amazing,' you might be a good candidate for Problem Solver 68."
         },
         {
             "Id": 3579363383,
@@ -2335,7 +2335,7 @@
             "NameJp": "アルのすごく貴重な財布",
             "NameEn": "Aru's treasured wallet",
             "DescriptionJp": "アルが愛用する高級財布。\n質の良い素材で作られた高級品だが、長く使用したせいで色があせ、あちこちにキズがついている。初めて便利屋を立ち上げた後、ハルカ、カヨコ、ムツキが一緒にお金を集めてプレゼントしてくれたもので、アルにとってはかけがえのない大切なものである。",
-            "DescriptionEn": "A luxury wallet that Aru loves.\nIt's a luxury item made of high quality materials, but it has faded and scratched here and there due to long use. Haruka, Kayoko, and Mutsuki pooled money together and presented this wallet as a gift to commemorate the beginnings of Handyman 68, which makes it an irreplaceable treasured posession for Aru."
+            "DescriptionEn": "A luxury wallet that Aru loves.\nIt's a luxury item made of high quality materials, but it has faded and scratched here and there due to long use. Haruka, Kayoko, and Mutsuki pooled money together and presented this wallet as a gift to commemorate the beginnings of Problem Solver 68, which makes it an irreplaceable treasured posession for Aru."
         },
         {
             "Id": 1197583309,
@@ -5783,7 +5783,346 @@
             "DescriptionJp": "サヤ専用に飾られたスケートボード。自転車やスクーターと違って両手が自由に使えるが、その分熟練度も求められる。",
             "NameEn": "Saya's skateboard",
             "DescriptionEn": "A skateboard personally decorated by Saya. Unlike bicycles and scooters, it leaves both hands free, but also requires a degree of skill to ride."
+        },
+
+        {
+            "Id": 1241224346,
+            "NameJp": "サンシャイン・アンサンブル植木鉢",
+            "NameEn": "Sunshine Ensemble Flowerpot",
+            "DescriptionJp": "爽やかな香りが漂うアンサンブルの植木鉢。明るい色合いが気分を盛り上げてくれる。",
+            "DescriptionEn": "An ensemble flowerpot with a refreshing aroma. The bright colors lift your mood."
+        },
+        {
+            "Id": 1586097976,
+            "NameJp": "サンシャインリゾートシリーズ",
+            "NameEn": "Sunshine Resort Set",
+            "DescriptionJp": "日差しいっぱい！リラックスして爽やかなサンシャインリゾートシリーズ。甘いデザートと花の香りを満喫してください！",
+            "DescriptionEn": "Full of sunshine! Relax and enjoy the refreshing Sunshine Resort Set. Indulge in sweet desserts and the scent of flowers!"
+        },
+        {
+            "Id": 1972622074,
+            "NameJp": "サンシャインリゾートシリーズ",
+            "NameEn": "Sunshine Resort Furniture",
+            "DescriptionJp": "",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1822135647,
+            "NameJp": "サンシャイン・標識",
+            "NameEn": "Sunshine Sign",
+            "DescriptionJp": "花飾りが目を引く標識。どこに行くかなんて、これから決めればいい。",
+            "DescriptionEn": "A sign with eye-catching flower decorations. You can decide where to go from here."
+        },
+        {
+            "Id": 519693909,
+            "NameJp": "サンシャイン・植木鉢陳列台",
+            "NameEn": "Sunshine Flower Pot Stand",
+            "DescriptionJp": "多彩な花飾りが優雅な印象を与える植木鉢の陳列台。飾った瞬間空間が明るくなる。",
+            "DescriptionEn": "A flower pot stand with colorful flower decorations that give an elegant impression. It brightens up the space instantly when displayed."
+        },
+        {
+            "Id": 703992589,
+            "NameJp": "サンシャイン・アロハ植木鉢",
+            "NameEn": "Sunshine Aloha Flowerpot",
+            "DescriptionJp": "小さなかわいいアロハの植木鉢。見かけた人に挨拶をしてくれる。",
+            "DescriptionEn": "A small, cute aloha flowerpot. It greets anyone who sees it."
+        },
+        {
+            "Id": 3404111810,
+            "NameJp": "サンシャイン・ラタン照明セット",
+            "NameEn": "Sunshine Rattan Lighting Set",
+            "DescriptionJp": "ほのかな雰囲気を醸し出すラタン照明。暗い空間を穏やかに照らしてくれる。",
+            "DescriptionEn": "Rattan lighting that creates a subtle ambiance. It gently illuminates dark spaces."
+        },
+        {
+            "Id": 3154914473,
+            "NameJp": "サンシャイン・トロピカルバスケット",
+            "NameEn": "Sunshine Tropical Basket",
+            "DescriptionJp": "熱帯の果物がたっぷり入ったトロピカルバスケット。甘い香りが漂ってくる。",
+            "DescriptionEn": "A tropical basket filled with plenty of tropical fruits. It exudes a sweet fragrance."
+        },
+        {
+            "Id": 263458747,
+            "NameJp": "サンシャイン・パーテーション",
+            "NameEn": "Sunshine Partition",
+            "DescriptionJp": "さわやかなホワイト木材で仕上げたパーテーション。安定した構造で周辺の空間を分けてくれる。",
+            "DescriptionEn": "A partition made of refreshing white wood. It divides the surrounding space with a stable structure."
+        },
+        {
+            "Id": 2136491683,
+            "NameJp": "サンシャイン・トロピカル植木鉢",
+            "NameEn": "Sunshine Tropical Flowerpot",
+            "DescriptionJp": "涼しげに伸びた葉が印象的なトロピカル植木鉢。爽やかな空気を感じられる。",
+            "DescriptionEn": "A tropical flowerpot with impressively elongated leaves that evoke a refreshing atmosphere."
+        },
+        {
+            "Id": 1726224862,
+            "NameJp": "サンシャイン・ミニウインドウ",
+            "NameEn": "Sunshine Mini Window",
+            "DescriptionJp": "可愛らしい花飾りで飾られたミニウィンドウ。小さな隙間から漏れる光が空間を明るくしてくれる。",
+            "DescriptionEn": "A mini window adorned with lovely flower decorations. The light leaking through the small gaps brightens up the space."
+        },
+        {
+            "Id": 3934548801,
+            "NameJp": "サンシャイン・トロピカルペインティング",
+            "NameEn": "Sunshine Tropical Painting",
+            "DescriptionJp": "爽やかな印象を与えるトロピカルペインティング。かけると自然に馴染んでくれる。",
+            "DescriptionEn": "A tropical painting that gives off a refreshing impression. It naturally blends in when hung up."
+        },
+        {
+            "Id": 792618258,
+            "NameJp": "サンシャイン・アロハ壁掛け",
+            "NameEn": "Sunshine Aloha Wall Hanging",
+            "DescriptionJp": "ピンク色の華やかな花が流れ落ちるように咲いているアロハ壁掛け。甘い香りがする。",
+            "DescriptionEn": "An aloha wall hanging with vibrant pink flowers cascading. It gives off a sweet fragrance."
+        },
+        {
+            "Id": 957016821,
+            "NameJp": "サンシャイン・アロハ照明",
+            "NameEn": "Sunshine Aloha Lighting",
+            "DescriptionJp": "金属装飾と優雅な造形を持つアロハ照明。壁にかけておくと周りが明るくなる。",
+            "DescriptionEn": "An aloha lighting with metallic decorations and elegant design. It brightens up the surrounding when hung on the wall."
+        },
+        {
+            "Id": 2586521896,
+            "NameJp": "サンシャイン・アロハ壁掛け照明",
+            "NameEn": "Sunshine Aloha Wall Lighting",
+            "DescriptionJp": "優雅な造形を誇るアロハ壁掛け照明。周辺にほのかな光を与えてくれる。",
+            "DescriptionEn": "An aloha wall lighting with an elegant design. It provides a soft glow to the surroundings."
+        },
+        {
+            "Id": 3717368859,
+            "NameJp": "サンシャイン・パターンマット",
+            "NameEn": "Sunshine Pattern Mat",
+            "DescriptionJp": "均一なパターンが繰り返されるパターンマット。見る人に妙な安定感を与える。",
+            "DescriptionEn": "A pattern mat with a uniform pattern that gives viewers a peculiar sense of stability."
+        },
+        {
+            "Id": 1538168673,
+            "NameJp": "サンシャイン・ダイヤモンドパターンマット",
+            "NameEn": "Sunshine Diamond Pattern Mat",
+            "DescriptionJp": "ピンクダイヤモンドパターンが繰り返されるダイヤモンドパターンマット。可愛らしい感じを与える。",
+            "DescriptionEn": "A diamond pattern mat with repeating pink diamond patterns. It gives a cute feeling."
+        },
+        {
+            "Id": 207142551,
+            "NameJp": "サンシャイン・ナチュラルマット",
+            "NameEn": "Sunshine Natural Mat",
+            "DescriptionJp": "自然素材が多く使用されたナチュラルマット。通気性がよく軽いのでどこへでも持ち歩きたくなる。",
+            "DescriptionEn": "A natural mat made with various natural materials. It is breathable and lightweight, making it easy to carry anywhere."
+        },
+        {
+            "Id": 1592124213,
+            "NameJp": "サンシャイン・ラタンマット",
+            "NameEn": "Sunshine Rattan Mat",
+            "DescriptionJp": "ラタン素材を使用し、丸めて仕上げたマット。どの家具と配置しても相性がいい。",
+            "DescriptionEn": "A round mat made of rattan material. It goes well with any furniture arrangement."
+        },
+        {
+            "Id": 2881491135,
+            "NameJp": "サンシャイン・ブランチソファ",
+            "NameEn": "Sunshine Brunch Sofa",
+            "DescriptionJp": "果物とジュースが一緒に置かれたブランチソファ。居心地の良さと甘さが休息を与えてくれる。",
+            "DescriptionEn": "A brunch sofa with fruits and juice placed onto it. It provides comfort and sweetness, giving you a moment of rest."
+        },
+        {
+            "Id": 2664169208,
+            "NameJp": "サンシャイン・ソファ",
+            "NameEn": "Sunshine Sofa",
+            "DescriptionJp": "様々な形のクッションが魅力的なソファ。さわやかな色と暖かさが安定感を与える。",
+            "DescriptionEn": "A sofa with various attractive cushions. Its refreshing colors and warmth give a sense of stability."
+        },
+        {
+            "Id": 554721548,
+            "NameJp": "サンシャイン・トロピカルテーブル",
+            "NameEn": "Sunshine Tropical Table",
+            "DescriptionJp": "トロピカルフルーツと食事が用意されたトロピカルテーブル。見るだけで心豊かになる。",
+            "DescriptionEn": "A tropical table set with tropical fruits and meals. Just looking at it makes you feel enriched."
+        },
+        {
+            "Id": 2262440972,
+            "NameJp": "サンシャイン・ジューステーブル",
+            "NameEn": "Sunshine Juice Table",
+            "DescriptionJp": "甘い果実とさわやかなジュースが一緒に並んだジューステーブル。暑さが和らぐようだ。",
+            "DescriptionEn": "A juice table with sweet fruits and refreshing drinks lined up together. It seems to ease the heat."
+        },
+        {
+            "Id": 4126741064,
+            "NameJp": "サンシャイン・フラワー噴水",
+            "NameEn": "Sunshine Flower Fountain",
+            "DescriptionJp": "ピンク色の花が咲き誇るフラワー噴水。爽やかな感じと甘い香りを同時に感じられる。",
+            "DescriptionEn": "A flower fountain with blooming pink flowers. It gives off a refreshing feeling and a sweet fragrance at the same time."
+        },
+        {
+            "Id": 232967354,
+            "NameJp": "サンシャイン・ストライプソファー",
+            "NameEn": "Sunshine Striped Sofa",
+            "DescriptionJp": "居心地の良い日よけのストライプソファ。一休みするにはうってつけ。",
+            "DescriptionEn": "A cozy sunshade striped sofa. Perfect for taking a break and relaxing."
+        },
+        {
+            "Id": 4082949419,
+            "NameJp": "サンシャイン・サンベッドホワイト",
+            "NameEn": "Sunshine Sunbed White",
+            "DescriptionJp": "暖かい日差しを浴びられるサンベッド。さわやかなホワイトカラーが印象的だ。",
+            "DescriptionEn": "A sunbed to bask in the warm sunlight. Its refreshing white color leaves a lasting impression."
+        },
+        {
+            "Id": 3361327025,
+            "NameJp": "サンシャイン・サンベッドレモン",
+            "NameEn": "Sunshine Sunbed Lemon",
+            "DescriptionJp": "暖かい日差しを浴びられるサンベッド。かわいいレモンカラーが目を引く。",
+            "DescriptionEn": "A sunbed to bask in the warm sunlight. Its adorable lemon color catches the eye."
+        },
+        {
+            "Id": 1416177935,
+            "NameJp": "サンシャイン・陳列棚",
+            "NameEn": "Sunshine Display Shelf",
+            "DescriptionJp": "高級木材を使用したショーケース。ホワイトフラワーを添えて優雅な感じだ。",
+            "DescriptionEn": "A showcase made of high-quality wood. It exudes an elegant feeling, complemented by white flowers."
+        },
+        {
+            "Id": 3596365973,
+            "NameJp": "サンシャイン・ヤシの木",
+            "NameEn": "Sunshine Palm Tree",
+            "DescriptionJp": "ホワイトフラワーが咲き誇るヤシの木。置いておくとさわやかな空気を感じられる。",
+            "DescriptionEn": "A palm tree with blooming white flowers. Placing it in a room brings a refreshing atmosphere."
+        },
+        {
+            "Id": 1169747405,
+            "NameJp": "サンシャイン・ホワイトフラワー鉢",
+            "NameEn": "Sunshine White Flower Pot",
+            "DescriptionJp": "ホワイトフラワーが咲き誇る鉢植え。置き場所ごとに活気を吹き込んでくれる。",
+            "DescriptionEn": "A potted plant with blooming white flowers. It adds vitality to any location it is placed in."
+        },
+        {
+            "Id": 4022204357,
+            "NameJp": "サンシャイン・オーシャンビューウィンドウ",
+            "NameEn": "Sunshine Ocean View Window",
+            "DescriptionJp": "外の海が見えるサンシャインオーシャンビューウィンドウ。両側のホワイトフラワーのポイントは爽やかさを増してくれる。",
+            "DescriptionEn": "A window with a view of the ocean. The presence of white flowers on both sides enhances its refreshing ambiance."
+        },
+        {
+            "Id": 3105102853,
+            "NameJp": "サンシャイン・ビーチマット",
+            "NameEn": "Sunshine Beach Mat",
+            "DescriptionJp": "海の涼しさが感じられるビーチマット。空間に爽やかさを加えてくれる。",
+            "DescriptionEn": "A beach mat that exudes the coolness of the sea. It adds a sense of refreshment to the space."
+        },
+        {
+            "Id": 3364171698,
+            "NameJp": "サンシャイン・ラブリー壁紙",
+            "NameEn": "Sunshine Lovely Wallpaper",
+            "DescriptionJp": "ベージュトーンの配色が印象的なラブリー壁紙。ほのかなパターンが安定感を与える。",
+            "DescriptionEn": "A lovely wallpaper with beige tones and subtle patterns that evoke a sense of stability."
+        },
+        {
+            "Id": 1361351300,
+            "NameJp": "サンシャイン・ナチュラル床",
+            "NameEn": "Sunshine Natural Floor",
+            "DescriptionJp": "様々な高級木材がパターン化されて作られたナチュラル床。とても滑らかだ。",
+            "DescriptionEn": "A smooth and patterned natural floor made from various high-quality woods."
+        },
+        {
+            "Id": 2727117241,
+            "NameJp": "サンシャイン・リゾートの背景",
+            "NameEn": "Sunshine Resort Background",
+            "DescriptionJp": "活気に満ちた気分と夏のときめきをそのまま秘めたリゾートの背景。ドキドキが伝わってくるようだ。",
+            "DescriptionEn": "A resort background full of vitality and the excitement of summer. It seems to convey a feeling of excitement."
+        },
+        {
+            "Id": 4045901954,
+            "NameJp": "サンシャイン・キャノピーソファ",
+            "NameEn": "Sunshine Canopy Sofa",
+            "DescriptionJp": "エレガントなレースと可愛らしい装飾がうかがえるキャノピーソファ。ずっとこのまま横になっていたい。",
+            "DescriptionEn": "A canopy sofa with elegant lace and lovely decorations. You'll want to lie down on it forever."
+        },
+        {
+            "Id": 1674376645,
+            "NameJp": "サンシャイン・ドリンクバー",
+            "NameEn": "Sunshine Drink Bar",
+            "DescriptionJp": "様々な味の飲み物が揃ったドリンクバー。周辺を飾った多彩な花が飲み物の味覚を引き立ててくれる。",
+            "DescriptionEn": "A drink bar with various flavors of beverages. The colorful flowers around it enhance the taste of the drinks."
+        },
+        {
+            "Id": 120234292,
+            "NameJp": "サンシャイン・フラワープール",
+            "NameEn": "Sunshine Flower Pool",
+            "DescriptionJp": "華やかな花飾りのフラワープール。風が吹くと花びらが波の間に落ちて美しい。",
+            "DescriptionEn": "A flower pool with gorgeous flower decorations. When the wind blows, petals fall beautifully like waves."
+        },
+        {
+            "Id": 2513190942,
+            "NameJp": "サンシャイン・トロピカルプール",
+            "NameEn": "Sunshine Tropical Pool",
+            "DescriptionJp": "トロピカルフルーツトレイ付きトロピカルプール。涼しさと甘さが同時に楽しめる。",
+            "DescriptionEn": "A tropical pool with a tray of tropical fruits. It offers both coolness and sweetness at the same time."
+        },
+        {
+            "Id": 4183959593,
+            "NameJp": "サンシャイン・レーステーブル",
+            "NameEn": "Sunshine Lace Table",
+            "DescriptionJp": "パラソル付きレーステーブル。ベージュトーンの木製テーブルと椅子が置かれている。",
+            "DescriptionEn": "A lace table with an attached parasol. It features beige-toned wooden tables and chairs."
+        },
+        {
+            "Id": 2854672646,
+            "NameJp": "サンシャイン・アロハウインドウ",
+            "NameEn": "Sunshine Aloha Window",
+            "DescriptionJp": "外の景色が一望できるアロハウィンドウ。涼しい空気が伝わってくる。",
+            "DescriptionEn": "An Aloha window that offers a view of the outside scenery. It conveys a sense of coolness."
+        },
+        {
+            "Id": 2932512474,
+            "NameJp": "便利屋68バンドステージ",
+            "NameEn": "Problem Solver 68 Band Stage",
+            "DescriptionJp": "Rock＆Bad!便利屋68！アウトローの楽しそうな姿が際立つ便利屋68のバンドステージ。",
+            "DescriptionEn": "Rock & Bad! Problem Solver 68! The band stage of Problem Solver 68 stands out with its delightfully outlaw appearance."
+        },
+        {
+            "Id": 2867363316,
+            "NameJp": "クラシックパターンスーツケース",
+            "NameEn": "Classic Pattern Suitcase",
+            "DescriptionJp": "クラシックな柄の優雅さと実用性を兼ね備えたトラベルバッグ。エレガントな旅行にぴったり。",
+            "DescriptionEn": "A travel bag that combines the elegance of classic patterns with practicality. Perfect for an elegant journey."
+        },
+        {
+            "Id": 2884023970,
+            "NameJp": "ミニスツールとサンベッド",
+            "NameEn": "Mini Stool and Sunbed",
+            "DescriptionJp": "爽やかなジュースが置かれたミニスツールとサンベッド。チェック柄のクッションで快適さをプラス。",
+            "DescriptionEn": "A mini stool and sunbed with refreshing juice. The checkered cushion adds to the comfort."
+        },
+        {
+            "Id": 2252585741,
+            "NameJp": "アイスクリームテーブル",
+            "NameEn": "Ice Cream Table",
+            "DescriptionJp": "甘いアイスクリームが置かれたアイスクリームテーブル。一口で夏がとろける。",
+            "DescriptionEn": "An ice cream table with sweet ice cream on top. Summer melts in your mouth with each bite."
+        },
+        {
+            "Id": 406850184,
+            "NameJp": "サンシャイン・レモンツリー",
+            "NameEn": "Sunshine Lemon Tree",
+            "DescriptionJp": "爽やかなレモンがいっぱい実ったサンシャインレモンの木。蛇口を回して爽快感On!",
+            "DescriptionEn": "A lemon tree full of refreshing lemons. Turn the faucet for an exhilarating experience!"
+        },
+        {
+            "Id": 2773697566,
+            "NameJp": "ボードゲームテーブル",
+            "NameEn": "Board Game Table",
+            "DescriptionJp": "古い地図や馬と、ダイスが並んでいるボードゲームテーブル。楽しいゲームが始まりそうだ。",
+            "DescriptionEn": "A board game table with old maps, figures, and dice arranged on it. It looks like a fun game is about to begin."
+        },
+        {
+            "Id": 2459684995,
+            "NameJp": "イベントPt",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得することができる。",
+            "NameEn": "Event Points",
+            "DescriptionEn": "These points are earned each time you progress in an event. The more you earn, the greater the variety of rewards you can receive."
         }
+        
+
 
     ]
 }

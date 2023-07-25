@@ -8,7 +8,7 @@ ignore_item_id = [
 
 Reward = collections.namedtuple('Reward', 'name,tag,prob,amount,type')
 
-DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge'}
+DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge', 'VeryHard_Ex': 'Extra Challenge'}
 
 def damage_type(text):
     return {
