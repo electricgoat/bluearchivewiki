@@ -51,6 +51,7 @@ SEASON_NOTES = {
         2:'Beta version, no ranking rewards',
         7:'Introduction of Extreme Difficulty',
         24:'Introduction of Insane Difficulty',
+        46:'Introduction of Torment Difficulty'
 
     }
 }
