@@ -89,7 +89,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어서오십시오, 선생님.",
+            "LocalizeKR": "어서 오십시오, 선생님.",
             "LocalizeJP": "お帰りなさい、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -101,7 +101,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "어떤 명령이라도 완벽하게\n수행해 보이겠습니다.",
+            "LocalizeKR": "준비는 만전입니다.\n어떤 명령이라도 완벽하게\n수행해 보이겠습니다.",
             "LocalizeJP": "準備は万全です。\nどんな命令でも、\n完璧に遂行してみせます。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -111,7 +111,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "오셨군요. 선생님.\n기다리고 있었습니다.",
+            "LocalizeKR": "안녕하세요, 선생님.\n기다리고 있었습니다.",
             "LocalizeJP": "こんにちは、先生。\nお待ちしておりました。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -123,7 +123,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "네…?\n수영복 차림으로 기다리느라\n춥지는 않았느냐고요?",
+            "LocalizeKR": "네…?\n수영복 차림으로 기다리느라\n춥지는 않았냐고요?",
             "LocalizeJP": "え…？\n水着姿で待っていて、\n寒くないのか、ですか？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -135,7 +135,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "문제 없습니다. \n어떤 모습이든, 선생님을\n기다리는 시간은\n힘들지 않으니까요.",
+            "LocalizeKR": "문제없습니다. \n어떤 모습이든, 선생님을\n기다리는 시간은\n힘들지 않으니까요.",
             "LocalizeJP": "問題ありません。\nどんな服装であろうと、\n待っている時間は\n苦ではありませんから。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -239,7 +239,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "토끼 무늬가\n있어도 좋았을텐데…",
+            "LocalizeKR": "토끼 무늬가\n있어도 좋았을 텐데…",
             "LocalizeJP": "ウサギ柄があってもいいのに。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -249,7 +249,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 5,
-            "LocalizeKR": "좀 더 자주\n불러 주셔도 괜찮습니다.",
+            "LocalizeKR": "좀 더 편하게\n불러 주셔도 괜찮습니다.",
             "LocalizeJP": "もっと気軽に\nお声がけください。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -305,7 +305,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "제 생일… 인가요.",
+            "LocalizeKR": "제 생일…인가요.",
             "LocalizeJP": "私の誕生日…ですか。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -329,7 +329,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 200,
-            "LocalizeKR": "선물은 이미 받은 것 같네요.",
+            "LocalizeKR": "선물이라면\n이미 받았으니\n괜찮습니다.",
             "LocalizeJP": "プレゼントなら、\nもういただいているので\n大丈夫です。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -351,7 +351,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "올해는\n작전이 아니더라도\n함께 바다에…. ",
+            "LocalizeKR": "올해는\n작전이 아니더라도\n함께 바다에….",
             "LocalizeJP": "今年は、作戦でなくても\n一緒に海へ…。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -417,7 +417,7 @@
             "DialogCategory": "WeaponGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "RABBIT 31식 기관단총, 수령했습니다.\n수중전에 대비하여 내부 부품을\n일부 교체했습니다만,\n외부 파츠도 귀여운 것으로\n교체하는 것이 좋았으려나요…?",
+            "LocalizeKR": "RABBIT 31식 기관단총, 수령했습니다.\n수중전에 대비하여 내부 부품을\n일부 교체했습니다만……\n그, 외부 파츠도 귀여운 것으로\n교체하는 것이 좋았으려나요…?",
             "LocalizeJP": "RABBIT-31式短機関銃、\n受領しました。水中戦に備え、\n内部パーツを一部交換しましたが、\nその…外部のパーツも、\n可愛らしいものに変えたほうが\nよかったでしょうか…？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
