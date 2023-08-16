@@ -3943,6 +3943,32 @@
             "GroupId": "CH0209ExtraPassive01",
             "NameEn": "We're all pumped up ♡",
             "DescriptionEn": "Charge the water gauge by $1 when any other ally uses an EX skill.\nFor every 100% charge, increase Attack by $2 for $3.\n(The water gauge can hold up to 2 full charges)"
+        },
+
+        {
+            "GroupId": "CH0183Ex01",
+            "NameEn": "It's summer!",
+            "DescriptionEn": "Deploy a cover, and increases the Attack Speed of allies within a circular area by $1 for $2\nThe cover inherits $3 of Mimori's HP."
+        },
+        {
+            "GroupId": "CH0183Public01",
+            "NameEn": "Do you want some?",
+            "DescriptionEn": "Every $1, grant a shield to an ally with the lowest HP (shield HP is $2 of Mimori's Healing). (Duration: $3)"
+        },
+        {
+            "GroupId": "CH0183Passive01",
+            "NameEn": "I brought plenty",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0183WeaponPassive01",
+            "NameEn": "I brought plenty +",
+            "DescriptionEn": "Increase Healing by $1.\nIncrease HP by $2."
+        },
+        {
+            "GroupId": "CH0183ExtraPassive01",
+            "NameEn": "Don't worry. I'm by your side.",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
         }
 
 
