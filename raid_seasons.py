@@ -26,7 +26,8 @@ RAIDS = {
     'Kaitenger':        Raid('Kaitenger: KAITEN FX Mk.0', 'Kaitenger', 'Outdoors'),
     'HOD':              Raid('Decagrammaton: Hod', 'Hod', 'Urban'),
     'Goz':              Raid('Slumpia: Goz', 'Goz', 'Indoors'),
-    'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors')
+    'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors'),
+    'HoverCraft':       Raid('Wakamo: Hovercraft', 'Hovercraft', 'Outdoors')
 }
 
 SEASON_IGNORE = {
