@@ -65,10 +65,25 @@ def environment_type(environment):
     }[environment]
 
 
+
+def print_season(season, note: str = ''):
+    now = datetime.now() #does not account for timezone
+
+    opentime = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
+    closetime = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S")
+
+    if (opentime > now): note = 'future'
+    elif (closetime > now): note = 'current'
+
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(36, ' ')} {season['env'].ljust(10, ' ')} {note}")
+
+
+
 def generate():
     global args, data, season_data
 
     for region in ['jp', 'gl']:
+        print (f"============ {region.upper()} raids ============")
         for season in season_data[region].raid_season.values():
             boss = season['OpenRaidBossGroup'][0].split('_',1)
 
@@ -86,6 +101,7 @@ def generate():
                 season['ignore'] = True
                 continue
 
+
             season['raid_name'] = RAIDS[boss[0]].name
 
             if (len(boss)>1):
@@ -100,6 +116,8 @@ def generate():
             season_length = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S") - datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
             if (season_length.days + 1) != 7: 
                 season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
+
+            print_season(season)
 
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))

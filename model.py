@@ -43,6 +43,7 @@ CLUBS = {
             'Genryumon': 'Genryumon',
             'BlackTortoisePromenade': 'Black Tortoise Promenade',
             'LaborParty': 'Labor Party',
+            'KnowledgeLiberationFront': 'Knowledge Liberation Front',
             'EmptyClub': 'no club'
 }
 
@@ -64,7 +65,7 @@ def replace_glossary(item = None):
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self.school = school
@@ -93,6 +94,8 @@ class Character(object):
         self.liked_gift_tags = liked_gift_tags
         self.character_pool = character_pool
 
+        self.costume = costume
+
         self.dev_name = dev_name
         self.model_prefab_name = model_prefab_name
 
@@ -100,6 +103,7 @@ class Character(object):
         self.family_name_en = family_name_en
         self.personal_name_en = personal_name_en
         self.variant = variant
+
 
 
     @property
@@ -162,13 +166,16 @@ class Character(object):
     def from_data(cls, character_id, data):
         character = data.characters[character_id]
         character_ai = data.characters_ai[character['CharacterAIId']]
-        liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
-        portrait = character['TextureDir'][character['TextureDir'].rfind('/')+1:]
+        costume = data.costumes[character['CostumeGroupId']]
 
+        liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
+        portrait = costume['TextureDir'][costume['TextureDir'].rfind('/')+1:]
+
+        
         return cls(
             character['Id'],
             character['DevName'],
-            character['ModelPrefabName'],
+            costume['ModelPrefabName'],
             portrait,
             data.translated_characters[character_id]['FamilyNameEn'],
             data.translated_characters[character_id]['PersonalNameEn'],
@@ -185,20 +192,21 @@ class Character(object):
             character['WeaponType'],
             character_ai['CanUseObstacleOfKneelMotion'] or character_ai['CanUseObstacleOfStandMotion'],
             Profile.from_data(character_id, data),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['PublicSkillGroupId'][0], data),
-            (character_id, 0, 2, False) in data.characters_skills and Skill.from_data(data.characters_skills[(character_id, 0, 2, False)]['PublicSkillGroupId'][0], data) or None,
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['ExSkillGroupId'][0], data, 5),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(character_id, 2, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['ExtraPassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PublicSkillGroupId'][0], data),
+            (character_id, 0, 2, False) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, False)]['PublicSkillGroupId'][0], data) or None,
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExSkillGroupId'][0], data, 5),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExtraPassiveSkillGroupId'][0], data),
             Stats.from_data(character_id, data),
-            Weapon.from_data(character_id, data),
+            Weapon.from_data(character_id, costume, data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
             Favor.from_data(character_id, data),
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
-            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular'
+            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular',
+            costume
         )
 
 
@@ -533,20 +541,19 @@ class Weapon(object):
 
 
     @classmethod
-    def from_data(cls, character_id, data):
+    def from_data(cls, character_id, costume, data):
         weapon = data.weapons[character_id]
         stats = data.characters_stats[character_id]
 
 
-
-        weapon_passive_skill = Skill.from_data(data.characters_skills[(character_id, 2, 0, False)]['PassiveSkillGroupId'][0], data)
+        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data)
 
         #print (passive_skill.name_translated)
         #try: data.translated_skills[group[0]['GroupId']]['NameEn']
         #except KeyError: 
         #    skill_name_en = None
         #else:  
-        #    skill_name_en = data.characters_skills[(character_id, False)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
+        #    skill_name_en = data.characters_skills[(costume['CharacterSkillListGroupId'], False)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
 
         rank2_desc = f'Passive Skill changes to <b>{weapon_passive_skill.name_translated}</b>'
 

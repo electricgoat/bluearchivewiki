@@ -3948,7 +3948,7 @@
         {
             "GroupId": "CH0183Ex01",
             "NameEn": "It's summer!",
-            "DescriptionEn": "Deploy a cover, and increases the Attack Speed of allies within a circular area by $1 for $2\nThe cover inherits $3 of Mimori's HP."
+            "DescriptionEn": "Deploy a cover, and increase the Attack Speed of allies within a circular area around it by $1 for $2.\nThe cover inherits $3 of Mimori's HP."
         },
         {
             "GroupId": "CH0183Public01",
@@ -3969,6 +3969,58 @@
             "GroupId": "CH0183ExtraPassive01",
             "NameEn": "Don't worry. I'm by your side.",
             "DescriptionEn": "Increase Attack Speed of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0124Ex01",
+            "NameEn": "Great idea",
+            "DescriptionEn": "Deal $1 damage to one enemy, and inflict $2 of continuous Burn damage for $3.\nApply the Weak Point Exposed debuff on target for $4.\nWhen attacked, an enemy with this debuff takes additional damage equal to $5 of Meru's Attack.\n(This damage can not be critical, effect ends after $6)"
+        },
+        {
+            "GroupId": "CH0124Public01",
+            "NameEn": "Shipping has no limits",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nInflict $3 of additional Burn damage for $4."
+        },
+        {
+            "GroupId": "CH0124Passive01",
+            "NameEn": "Input",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0124WeaponPassive01",
+            "NameEn": "Input +",
+            "DescriptionEn": "Increase Attack by $1.\nFurther increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0124ExtraPassive01",
+            "NameEn": "Setting breakdown!",
+            "DescriptionEn": "Every $1 Normal attacks, fire enhanced bullets, dealing $2 damage."
+        },
+
+        {
+            "GroupId": "CH0126Ex01",
+            "NameEn": "Be quiet in the library",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0126Public01",
+            "NameEn": "Power of Knowledge",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $2."
+        },
+        {
+            "GroupId": "CH0126Passive01",
+            "NameEn": "Collector's ardour",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0126WeaponPassive01",
+            "NameEn": "Collector's ardour +",
+            "DescriptionEn": "Increase Healing by $1.\nIncrease Attack by $2."
+        },
+        {
+            "GroupId": "CH0126ExtraPassive01",
+            "NameEn": "Beginning of the Journey",
+            "DescriptionEn": "At the beginning of combat, increase Attack by $1.\nNormal attack damage radius is increased by x$2."
         }
 
 

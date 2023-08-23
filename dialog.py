@@ -91,7 +91,7 @@ def generate():
             print(f"Missing {character.wiki_name} translations: {len(missing_tl)}")
             save_missing_translations('dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
 
-        missing_tl = [x for x in data.character_dialog_event if x['CharacterId'] in character_variation_ids and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
+        missing_tl = [x for x in data.character_dialog_event if x['OriginalCharacterId'] in character_variation_ids and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
         if len(missing_tl)>1 : 
             print(f"Missing {character.wiki_name} event translations: {len(missing_tl)}")
             save_missing_translations('event_dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
@@ -294,7 +294,8 @@ def get_dialog_lines(character, dialog_data):
     lines = []
 
     for index, line in enumerate(dialog_data):
-        if line['CharacterId'] == character.id and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
+        #if line['CharacterId'] == character.id and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
+        if line['CostumeUniqueId'] == character.costume['CostumeUniqueId'] and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
             line = merge_followup(index, dialog_data)
             line['Title'] = 'Unknown'
             line['WikiVoiceClip'] = []
@@ -358,7 +359,7 @@ def process_file(character, line, page_list):
     if (line['VoiceClipsJp'] and not exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['VoiceClipsJp'][0]}.ogg")) or line['DialogCategory'] == 'UILobbySpecial':
 
         #fix script error for oCherino title line
-        if line['CharacterId']==20009 and line['DialogCategory'] == 'UITitle': line['VoiceClipsJp'][0] = 'CH0164_Title'
+        #if line['CharacterId']==20009 and line['DialogCategory'] == 'UITitle': line['VoiceClipsJp'][0] = 'CH0164_Title'
 
         partial_file_path = f"{args['data_audio']}/JP_{character.model_prefab_name}/"
         partial_file_name = line['VoiceClipsJp'] and f"{line['VoiceClipsJp'][0]}" or f"{character.model_prefab_name}_MemorialLobby_{line['GroupId']}"
@@ -397,7 +398,8 @@ def save_missing_translations(name, data):
     lines = []
 
     for line in data:
-        lines.append({'CharacterId': line['CharacterId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
+        #lines.append({'CharacterId': line['CharacterId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
+        lines.append({'CostumeUniqueId': line['CostumeUniqueId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
 
     f = open(args['translation'] + '/missing/' + name + '.json', "w", encoding='utf8' )
     f.write(json.dumps({'DataList':lines}, sort_keys=False, indent=4, ensure_ascii=False)+"\n")

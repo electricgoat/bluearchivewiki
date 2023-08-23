@@ -5,6 +5,7 @@ import os
 BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
     ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 
+     'costumes',
     'skills', 'skills_localization','translated_characters','translated_skills',
     'weapons', 'gear',
     'currencies','translated_currencies',
@@ -43,6 +44,7 @@ def load_data(path_primary, path_secondary, path_translation):
         characters_skills=          load_characters_skills(path_primary),
         characters_stats=           load_generic(path_primary, 'CharacterStatExcelTable.json', key='CharacterId'),
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
+        costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
         skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
         translated_characters =     load_characters_translation(path_translation),
@@ -151,7 +153,7 @@ def load_characters_skills(path):
         data = json.load(f)
 
     return {
-        (character_skill['CharacterId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['IsFormConversion']): character_skill
+        (character_skill['CharacterSkillListGroupId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['IsFormConversion']): character_skill
         for character_skill
         in data['DataList']
     }
@@ -314,7 +316,10 @@ def load_levelskill(path):
 
         with open(os.path.join(path + '/LevelSkill/', file), encoding="utf8") as f:
             skill_info = json.load(f)
-            data[skill_info[0]['GroupName']] = skill_info[0]
+
+            if (type(skill_info) is list): data[skill_info[0]['GroupName']] = skill_info[0] #pre-1.35
+            elif (type(skill_info) is dict): data[skill_info['GroupName']] = skill_info
+            else: print(f"ERROR - file {file} with unknown data of type {type(skill_info)}")
 
     return data
 

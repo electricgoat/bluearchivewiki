@@ -39,24 +39,23 @@ def generate():
             continue
         
         print(f"=== {character.wiki_name} ===")
-        data_character = data.characters[character.id]
         
         #character portrait
-        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{data_character['CollectionTexturePath']}.png" )
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['CollectionTexturePath']}.png" )
         image_internal = local_path.rsplit('/',1)[-1]
         image_target = f"{character.wiki_name.replace(' ', '_')}.png"
         copy_wikinamed(local_path, image_target)
         enforce_naming(local_path, image_internal, image_target, 'character portrait')
 
         #character collection portrait
-        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{data_character['TextureDir']}.png" )
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}.png" )
         image_internal = local_path.rsplit('/',1)[-1]
         image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}.png"
         copy_wikinamed(local_path, image_target)
         enforce_naming(local_path, image_internal, image_target, 'character portrait')
 
         #character collection portrait small
-        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{data_character['TextureDir']}_Small.png" )
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png" )
         image_internal = local_path.rsplit('/',1)[-1]
         image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}_Small.png"
         copy_wikinamed(local_path, image_target)

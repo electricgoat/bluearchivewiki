@@ -32,11 +32,7 @@ def generate():
     env.filters['colorize'] = colorize
     template = env.get_template('template.txt')
 
-    # total_characters = 0
-    # total_momotalks = 0
-    # total_jims=0
-    # rank = 1
-    # rental = 1
+
     for character in data.characters.values():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
@@ -63,27 +59,6 @@ def generate():
             wiki.update_section(character.wiki_name, args['wiki_section'], wikitext)
         elif wiki.site != None and args['wiki_section_number'] != None:
             wiki.update_section_number(character.wiki_name, args['wiki_section_number'], wikitext)
-
-
-        #print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank=|attack=|role=}}", end='')
-        # print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank="+str(rank)+("|rental=" if rental%5==1 else "")+"}}", end='')
-        # rank +=1
-        # rental +=1
-        # if rank > 6: rank = 1
-
-        
-    #     total_characters += 1
-    #     for reward in character.momotalk.levels:
-    #         total_momotalks += 1
-    #         if reward['FavorRank'] > 9:
-    #             print(f"{character.wiki_name} has a reward at FavorRank {reward['FavorRank']}")
-    #         for index,parcel in enumerate(reward['RewardParcelType']):
-    #             if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
-    #                 total_jims += reward['RewardAmount'][index]
-
-    # print(f"Total playable characters: {total_characters}")
-    # print(f"Total momotalks: {total_momotalks}")
-    # print(f"Total pyroxene rewards: {total_jims}")
 
 
 
