@@ -38,6 +38,7 @@ def generate():
             traceback.print_exc()
             continue
         
+        #print (f"{character.dev_name.ljust(20)} {character.wiki_name}")
 
         #print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank=|attack=|role=}}", end='')
         # print("{{CharacterCard/sandbox|"+character.wiki_name+"|rank="+str(rank)+("|rental=" if rental%5==1 else "")+"}}", end='')
@@ -49,8 +50,8 @@ def generate():
         total_characters += 1
         for reward in character.momotalk.levels:
             total_momotalks += 1
-            if reward['FavorRank'] > 9:
-                print(f"{character.wiki_name} has a reward at FavorRank {reward['FavorRank']}")
+            # if reward['FavorRank'] > 9:
+            #     print(f"{character.wiki_name} has a reward at FavorRank {reward['FavorRank']}")
             for index,parcel in enumerate(reward['RewardParcelType']):
                 if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
                     total_jims += reward['RewardAmount'][index]

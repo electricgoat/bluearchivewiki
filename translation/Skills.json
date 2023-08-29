@@ -4005,7 +4005,7 @@
         {
             "GroupId": "CH0126Public01",
             "NameEn": "Power of Knowledge",
-            "DescriptionEn": "Every $1, increase Attack by $2 for $2."
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
         },
         {
             "GroupId": "CH0126Passive01",
@@ -4020,7 +4020,8 @@
         {
             "GroupId": "CH0126ExtraPassive01",
             "NameEn": "Beginning of the Journey",
-            "DescriptionEn": "At the beginning of combat, increase Attack by $1.\nNormal attack damage radius is increased by x$2."
+            "DescriptionEn": "At the beginning of combat, increase Attack by $1.",
+            "AddOnLevel7": "\nNormal attack damage radius is increased by x$2."
         }
 
 
