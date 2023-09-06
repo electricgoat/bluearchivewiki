@@ -4022,6 +4022,32 @@
             "NameEn": "Beginning of the Journey",
             "DescriptionEn": "At the beginning of combat, increase Attack by $1.",
             "AddOnLevel7": "\nNormal attack damage radius is increased by x$2."
+        },
+
+        {
+            "GroupId": "CH0185Ex01",
+            "NameEn": "The origin of the gun salute is...",
+            "DescriptionEn": "Deal $1 damage to enemies within a conical area.."
+        },
+        {
+            "GroupId": "CH0185Public01",
+            "NameEn": "Ah, that's right!",
+            "DescriptionEn": "Every $1 EX skill uses, increase Critical Rate of surrounding allies (except self) by $2 for $3."
+        },
+        {
+            "GroupId": "CH0185Passive01",
+            "NameEn": "Please ask me anything!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0185WeaponPassive01",
+            "NameEn": "Please ask me anything! +",
+            "DescriptionEn": "Increase Accuracy by $1.\nIncrease Attack by $2."
+        },
+        {
+            "GroupId": "CH0185ExtraPassive01",
+            "NameEn": "Glad to be of service!",
+            "DescriptionEn": "Every time Normal skill buff is applied to an ally, increase own Attack by $1 for $2. (stacks up to $3)"
         }
 
 

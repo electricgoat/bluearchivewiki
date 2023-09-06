@@ -38,7 +38,7 @@ def generate():
             traceback.print_exc()
             continue
         
-        print(f"=== {character.wiki_name} ===")
+        print(f"\n=== {character.wiki_name} ===")
         
         #character portrait
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['CollectionTexturePath']}.png" )
@@ -74,6 +74,13 @@ def generate():
         image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}_Small.png"
         copy_wikinamed(local_path, image_target)
         enforce_naming(local_path, image_internal, image_target, 'character memorial lobby small')
+
+        #Weapon
+        local_path = os.path.join(args['data_assets'] ,f"Assets/_MX/AddressableAsset/UIs/01_Common/04_Weapon/Weapon_Icon_{character.weapon.image_path}.png")
+        image_internal = f"Weapon_Icon_{character.weapon.image_path}.png"
+        image_target = f"Weapon_Icon_{character.wiki_name.replace(' ', '_')}.png"
+        copy_wikinamed(local_path, image_target)
+        enforce_naming(local_path, image_internal, image_target, 'character unique weapon image')
 
 
 

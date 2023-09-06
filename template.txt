@@ -1,5 +1,6 @@
 {% raw %}{{{% endraw %}Character
 | Id = {{character.id}}
+| DevName = {{character.dev_name}}
 | Name = {{character.wiki_name}}
 | Portrait = Portrait_{{character.wiki_name.replace(' ', '_')}}
 | JPName = {{character.profile.full_name}}
@@ -175,7 +176,7 @@
 
 ===Unique weapon===
 {% raw %}{{{% endraw %}UniqueWeapon
-| CharacterId = {{character.weapon.image_path}}
+| CharacterId = {{character.wiki_name.replace(' ', '_')}}
 | NameEN = {{character.profile.weapon_name_translated}} 
 | NameJP = {{character.profile.weapon_name}} 
 | DescriptionEN = {{character.profile.weapon_desc_translated}} 
