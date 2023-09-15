@@ -4048,6 +4048,32 @@
             "GroupId": "CH0185ExtraPassive01",
             "NameEn": "Glad to be of service!",
             "DescriptionEn": "Every time Normal skill buff is applied to an ally, increase own Attack by $1 for $2. (stacks up to $3)"
+        },
+
+        {
+            "GroupId": "CH0193Ex01",
+            "NameEn": "Gourmet endorsement",
+            "DescriptionEn": "Move up to 4 allies within circular area to the specified position and heal them for $1 of Healing."
+        },
+        {
+            "GroupId": "CH0193Public01",
+            "NameEn": "Gourmet approach",
+            "DescriptionEn": "Every $1, deal $2 damage to 6 enemies.\nDecrease their Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0193Passive01",
+            "NameEn": "Healing sweets",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0193WeaponPassive01",
+            "NameEn": "Healing sweets +",
+            "DescriptionEn": "Increase Healing by $1.\nFurther increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0193ExtraPassive01",
+            "NameEn": "Sports banquet",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
 
 
