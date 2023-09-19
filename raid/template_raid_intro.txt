@@ -1,0 +1,43 @@
+{% raw %}{{{% endraw %}#seo:
+    |title={{info.name}} (Raid)
+    |title_mode=append
+    |keywords={{info.name}},{{info.shortname}},Raid,raidboss,total war
+    |description=Binah is one of the Elimination Raid bosses in Blue Archive
+    |image = Raid_{{info.shortname}}_promo.png
+    |image_alt = {{info.name}} (Raid)
+{% raw %}}}{% endraw %}
+[[File:Raid_{{info.shortname}}_promo.png|thumb|{{info.shortname}} promo image]]
+{{info.shortname}} is a [[Raid|Raid boss]] in Blue Archive.
+
+{{blurb}}
+
+==Appearances==
+<tabber>
+JP={% raw %}{{{% endraw %}#cargo_query:
+  tables = raids
+| fields = Image, Name, Environment, Season, Start_date=Start_date, End_date=End_date, Notes
+| where = Name="{{info.name}}" AND Server="JP"
+| order by = Start_date ASC
+| more results text =
+| format = template
+| template = RaidTableRow
+| named args = yes
+| intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
+| outro = </table>
+| default = None!
+{% raw %}}}{% endraw %}
+|-|
+Global={% raw %}{{{% endraw %}#cargo_query:
+  tables = raids
+| fields = Image, Name, Environment, Season, Start_date=Start_date, End_date=End_date, Notes
+| where = Name="{{info.name}}" AND Server="GL"
+| order by = Start_date ASC
+| more results text =
+| format = template
+| template = RaidTableRow
+| named args = yes
+| intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
+| outro = </table>
+| default = None!
+{% raw %}}}{% endraw %}
+</tabber>

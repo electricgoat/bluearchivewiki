@@ -139,7 +139,12 @@
         {
             "GroupId": "SerikaPublic01",
             "NameEn": "Precision Shooting",
-            "DescriptionEn": "Deal $2 damage to one enemy every $1."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "SerikaGearPublic01",
+            "NameEn": "Precision Shooting +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
         },
         {
             "GroupId": "SerikaPassive01",
@@ -509,6 +514,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area."
         },
         {
+            "GroupId": "EimiGearPublic01",
+            "NameEn": "A furious fixated attack +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area.\nRecover HP equal to $3 of Healing."
+        },
+        {
             "GroupId": "EimiPassive01",
             "NameEn": "Specialist's rest",
             "DescriptionEn": "Increase healing received by $1."
@@ -731,7 +741,7 @@
         {
             "GroupId": "KotoriEx01",
             "NameEn": "Black box",
-            "DescriptionEn": "Move 4 allies to the specified location and apply a shield equal to $1 of Healing power."
+            "DescriptionEn": "Move 4 allies to the specified location and grant them shields of $1 Healing power for $2."
         },
         {
             "GroupId": "KotoriPublic01",
@@ -740,12 +750,12 @@
         },
         {
             "GroupId": "KotoriPassive01",
-            "NameEn": "Comprehending the issue",
+            "NameEn": "Getting the point",
             "DescriptionEn": "Increase Critical Damage by $1."
         },
         {
             "GroupId": "KotoriWeaponPassive01",
-            "NameEn": "Comprehending the issue +",
+            "NameEn": "Getting the point +",
             "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
         },
         {
@@ -973,6 +983,11 @@
         {
             "GroupId": "IzumiPublic01",
             "NameEn": "Reeeady, Bang!",
+            "DescriptionEn": "Normal attacks have a $1 chance to deal $2 Attack damage to one enemy. (Cooldown: $3)"
+        },
+        {
+            "GroupId": "IzumiGearPublic01",
+            "NameEn": "Reeeady, Bang! +",
             "DescriptionEn": "Normal attacks have a $1 chance to deal $2 Attack damage to one enemy. (Cooldown: $3)"
         },
         {
@@ -1797,6 +1812,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to all enemies within a circular area."
         },
         {
+            "GroupId": "CH0133GearPublic01",
+            "NameEn": "Research never ends! +",
+            "DescriptionEn": "Every $1, deal $2 damage to all enemies within a circular area.\nAdditionally deal $3 continuous Poison damage for $4."
+        },
+        {
             "GroupId": "CH0133Passive01",
             "NameEn": "Elixir of concentration",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -1820,6 +1840,11 @@
             "GroupId": "CH0058Public01",
             "NameEn": "Peroro-sama's Attack",
             "DescriptionEn": "Every $1, deal $2 damage to enemies in an area."
+        },
+        {
+            "GroupId": "CH0058GearPublic01",
+            "NameEn": "Peroro-sama's Attack +",
+            "DescriptionEn": "Every $1, deal $2 damage to up to 3 enemies within a circular area. If the same enemy is attacked multiple times, followup attack will only deal $3 damage."
         },
         {
             "GroupId": "CH0058Passive01",
@@ -1919,6 +1944,11 @@
         {
             "GroupId": "CH0063Public01",
             "NameEn": "Slow and Knock out",
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy and stun them for $3."
+        },
+        {
+            "GroupId": "CH0063GearPublic01",
+            "NameEn": "Slow and Knock out +",
             "DescriptionEn": "Every $1, deal $2 damage to a single enemy and stun them for $3."
         },
         {
@@ -2027,6 +2057,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to one enemy."
         },
         {
+            "GroupId": "CH0111GearPublic01",
+            "NameEn": "Cherry Blossom Storm +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
             "GroupId": "CH0111Passive01",
             "NameEn": "Destructive urges in full bloom",
             "DescriptionEn": "Increase Attack by $1."
@@ -2125,6 +2160,11 @@
             "GroupId": "CH0115Public01",
             "NameEn": "I've packed lunch",
             "DescriptionEn": "Every $1, continuously regenerate HP of an ally with the lowest HP (except Mimori herself) at a rate of $2 Healing for $3."
+        },
+        {
+            "GroupId": "CH0115GearPublic01",
+            "NameEn": "I've packed lunch +",
+            "DescriptionEn": "Every $1, continuously regenerate HP of an ally with the lowest HP (except Mimori herself) at a rate of $2 Healing, and increase their Attack Speed by $3 for $4.\nIf there is another ally other than Mimori nearby, the lunch will bounce to them (up to 2 times), increasing their Attack Speed by $5 for $6."
         },
         {
             "GroupId": "CH0115Passive01",
@@ -2687,6 +2727,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to one enemy and Stun them for $3."
         },
         {
+            "GroupId": "CH0178GearPublic01",
+            "NameEn": "Beach ball, shoo~t +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy and Stun them for $3.\nAdditionally, increase Chise's Attack by $4 for $5."
+        },
+        {
             "GroupId": "CH0178Passive01",
             "NameEn": "Stroll, ready",
             "DescriptionEn": "Increase Attack by $1."
@@ -2907,7 +2952,7 @@
         {
             "GroupId": "CH0181ExtraPassive01",
             "NameEn": "It's a little embarrassing...",
-            "DescriptionEn": "When attacking an enemy, deal $1 as additional damage.\nThe farther the enemy is, the more damage is done, and the closer the enemy, the weaker the damage.\n(Maximum miltiplier of x2, minimum of x0.5)"
+            "DescriptionEn": "When attacking an enemy, deal $1 as additional damage.\nThe farther the enemy is, the more damage is done, and the closer the enemy, the weaker the damage.\n(Maximum multiplier of x2, minimum of x0.5)"
         },
 
         {
@@ -3198,7 +3243,7 @@
 
         {
             "GroupId": "CH0177Ex01",
-            "NameEn": "Lunch Club New Year dishes",
+            "NameEn": "Lunch Club osechi",
             "DescriptionEn": "Reduce EX skill cost for one other ally by up to $1 (reduction active until EX is activated $2 time). The discount is rounded down to the nearest whole number.\n\nIncrease Critical Damage by $3 for $4."
         },
         {
@@ -3507,7 +3552,531 @@
             "GroupId": "CH0107ExtraPassive01",
             "NameEn": "Tranquil composure",
             "DescriptionEn": "When \"Serenity\" status is active, deal $1 of Attack as additional damage."
-        }
+        },
+
+        {
+            "GroupId": "CH0200Ex01",
+            "NameEn": "Arisu, clean up!",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0200Public01",
+            "NameEn": "Meticulous care",
+            "DescriptionEn": "Every $1 normal attacks, add $2 to Mystic damage bonus against the enemies weak to it, and increase Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0200Passive01",
+            "NameEn": "It's a job bonus!",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0200WeaponPassive01",
+            "NameEn": "It's a job bonus! +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0200ExtraPassive01",
+            "NameEn": "Job Trait: Maid Hero!",
+            "DescriptionEn": "Normal attacks now hit 1 enemy and deal $1 additional damage."
+        },
+
+        {
+            "GroupId": "CH0211Ex01",
+            "NameEn": "Special Weapon: Arm Gear",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0211Public01",
+            "NameEn": "Agents' Secret Tools",
+            "DescriptionEn": "Every $1, deal $2 damage to 1 enemy. Reduce their Critical Damage Resistance by $3 for $4."
+        },
+        {
+            "GroupId": "CH0211Passive01",
+            "NameEn": "Expertise",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0211WeaponPassive01",
+            "NameEn": "Expertise +",
+            "DescriptionEn": "Increase Attack Speed by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0211ExtraPassive01",
+            "NameEn": "Arms Handling",
+            "DescriptionEn": "When EX skill is activated, add $1 to Explosive damage bonus against the enemies weak to it. (Duration: $2)"
+        },
         
+        {
+            "GroupId": "CH0203Ex01",
+            "NameEn": "Starting infiltration!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area, then deal the same damage in surrounding circular areas\nIf the same enemy is attacked multiple times, followup attack will only deal $2 damage."
+        },
+        {
+            "GroupId": "CH0203Public01",
+            "NameEn": "High Score Attack",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0203Passive01",
+            "NameEn": "Clean Code",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0203WeaponPassive01",
+            "NameEn": "Clean Code +",
+            "DescriptionEn": "Increase Critical Rate by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0203ExtraPassive01",
+            "NameEn": "Bonds of the Game Development Club",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0167Ex01",
+            "NameEn": "Come challenge me!",
+            "DescriptionEn": "Deal $1 damage to enemies within a conical area\nCleanse $2 debuff from self."
+        },
+        {
+            "GroupId": "CH0167Public01",
+            "NameEn": "Victory pose!",
+            "DescriptionEn": "Every $1, continuously regenerate HP at a rate of $2 Healing for $3."
+        },
+        {
+            "GroupId": "CH0167Passive01",
+            "NameEn": "All day long!",
+            "DescriptionEn": "Increase Attack by $1, increase HP by $2."
+        },
+        {
+            "GroupId": "CH0167WeaponPassive01",
+            "NameEn": "All day long! +",
+            "DescriptionEn": "Increase Attack by $1, increase HP by $2.\nFurther increase Attack by $3, increase HP by $4."
+        },
+        {
+            "GroupId": "CH0167ExtraPassive01",
+            "NameEn": "The presense of Uzawa Reisa",
+            "DescriptionEn": "When using EX skill, decrease target Defense by $1 for $2.\nTaunt them for $3."
+        },
+
+        {
+            "GroupId": "CH0135Ex01",
+            "NameEn": "Best in the world!",
+            "DescriptionEn": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing\n2nd and 3rd targets: heals $2 of Healing",
+            "ReplaceOnLevel5" : "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing"
+        },
+        {
+            "GroupId": "CH0135Public01",
+            "NameEn": "No complaints allowed!",
+            "DescriptionEn": "Every $1, deals $2 damage to enemies within a fan-shaped area."
+        },
+        {
+            "GroupId": "CH0135Passive01",
+            "NameEn": "Chairman's pride",
+            "DescriptionEn": "Increase normal attack Firing Range by $1 and Healing by $2."
+        },
+        {
+            "GroupId": "CH0135WeaponPassive01",
+            "NameEn": "Chairman's pride +",
+            "DescriptionEn": "Increase Healing by $1.\nIncrease normal attack Firing Range by $2 and Healing by $3."
+        },
+        {
+            "GroupId": "CH0135ExtraPassive01",
+            "NameEn": "Memorable taste",
+            "DescriptionEn": "For allies healed by EX skill, additionally continuously heal by $1 of Healing for $2."
+        },
+
+        {
+            "GroupId": "CH0138Ex01",
+            "NameEn": "Clash of Giants",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nDecrease their Attack, Evasion, Accuracy by $2 for $3."
+        },
+        {
+            "GroupId": "CH0138Public01",
+            "NameEn": "Unstoppable Force",
+            "DescriptionEn": "Every $1 normal attacks, reload instantly and deal $2 damage to one enemy.\nDeal additional damage depending on the number of debuffs of the target:\n3 debuffs: $3 damage\n4 debuffs: $4 damage\n5 or more debuffs: $5 damage."
+        },
+        {
+            "GroupId": "CH0138Passive01",
+            "NameEn": "Relentless",
+            "DescriptionEn": "Increase Evasion by $1"
+        },
+        {
+            "GroupId": "CH0138WeaponPassive01",
+            "NameEn": "Relentless +",
+            "DescriptionEn": "Increase Accuracy by $1. Increase Evasion by $2."
+        },
+        {
+            "GroupId": "CH0138ExtraPassive01",
+            "NameEn": "Riding the Tiger",
+            "DescriptionEn": "When using EX skill, increase Attack, Evasion, and Accuracy by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0214Ex01",
+            "NameEn": "Raise up!",
+            "DescriptionEn": "Deal $1 damage enemies within a circular area.\nAdditionally consume up to 3 Cost, increasing damage by 35% per 1 Cost.\n(Cost reduction effects will only affect the base skill cost)"
+        },
+        {
+            "GroupId": "CH0214Public01",
+            "NameEn": "United will",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0214Passive01",
+            "NameEn": "Hand in hand",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0214WeaponPassive01",
+            "NameEn": "Hand in hand +",
+            "DescriptionEn": "Increase Attack by $1. Increase Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0214ExtraPassive01",
+            "NameEn": "Fruits of labor",
+            "DescriptionEn": "For all allies, increase Explosive damage bonus against the enemies weak to it by $1."
+        },
+
+        {
+            "GroupId": "CH0215Ex01",
+            "NameEn": "Flying drone operational",
+            "DescriptionEn": "Decrease Critical Damage Resistance of 1 enemy by $1 for $2.\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0215Public01",
+            "NameEn": "Lightweight equipment",
+            "DescriptionEn": "Every $1, increase Evasion by $2 for $3."
+        },
+        {
+            "GroupId": "CH0215Passive01",
+            "NameEn": "Steady training",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0215WeaponPassive01",
+            "NameEn": "Steady training +",
+            "DescriptionEn": "Increase Evasion by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0215ExtraPassive01",
+            "NameEn": "Tactical maneuver",
+            "DescriptionEn": "After $1 evasions, increase Cost Recovery by $2 for $3."
+        },
+
+        {
+            "GroupId": "CH0217Ex01",
+            "NameEn": "Signal flare away!",
+            "DescriptionEn": "Deal $1 damage to a single enemy.\nDecrease their Defense, Attack, and Critical Resistance by $2 for $3."
+        },
+        {
+            "GroupId": "CH0217Public01",
+            "NameEn": "Covering fire",
+            "DescriptionEn": "Every $1 normal attacks, deal $2 damage to enemies within a conical area.\nDeal $3 of Attack as additional damage against medium-sized enemies."
+        },
+        {
+            "GroupId": "CH0217Passive01",
+            "NameEn": "Meticulous maintenance",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0217WeaponPassive01",
+            "NameEn": "Meticulous maintenance +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0217ExtraPassive01",
+            "NameEn": "Brothers-in-arms",
+            "DescriptionEn": "Increase Attack of self and Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0218Ex01",
+            "NameEn": "Seagull attack",
+            "DescriptionEn": "Deal $1 guaranteed critical damage to enemies within a straight line."
+        },
+        {
+            "GroupId": "CH0218Public01",
+            "NameEn": "Stealth strike",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a cone-shaped area."
+        },
+        {
+            "GroupId": "CH0218Passive01",
+            "NameEn": "Underwater composite ammo",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0218WeaponPassive01",
+            "NameEn": "Underwater composite ammo +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0218ExtraPassive01",
+            "NameEn": "Observation status report",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0188Ex01",
+            "NameEn": "Big catch",
+            "DescriptionEn": "Decrease Defense of one enemy by $1 for $2\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0188Public01",
+            "NameEn": "\"Right here\"",
+            "DescriptionEn": "At the beginning of combat, increase the Critical Rate of all other allies by $1 for $2, and reduce EX skill cost by $3.\n(Reduction active until EX is activated $4 time)"
+        },
+        {
+            "GroupId": "CH0188Passive01",
+            "NameEn": "Slightly buoyant",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0188WeaponPassive01",
+            "NameEn": "Slightly buoyant +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0188ExtraPassive01",
+            "NameEn": "Toned body",
+            "DescriptionEn": "Increase Cost Recovery of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0204Ex01",
+            "NameEn": "Private cafe",
+            "DescriptionEn": "Move 4 other allies within a circular area to Ui's position, then add $1 to their Penetration Efficiency for $2."
+        },
+        {
+            "GroupId": "CH0204Public01",
+            "NameEn": "Definitive clue",
+            "DescriptionEn": "When $1 Clues are obtained, add $2 Penetration Efficiency to all Striker allies for $3.\nConsume $4 Clues."
+        },
+        {
+            "GroupId": "CH0204Passive01",
+            "NameEn": "Seeker's will",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0204WeaponPassive01",
+            "NameEn": "Seeker's will +",
+            "DescriptionEn": "Increase HP by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0204ExtraPassive01",
+            "NameEn": "Identifying clues",
+            "DescriptionEn": "When other allies use $1 EX skills, increase Attack by $2 for $3. Acquire $4 Clue."
+        },
+
+        {
+            "GroupId": "CH0210Ex01",
+            "NameEn": "Fun waterplay",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular range around self. (this attack ignores $2 of enemy Defense)"
+        },
+        {
+            "GroupId": "CH0210Public01",
+            "NameEn": "Refreshing dip",
+            "DescriptionEn": "Every $1, throw a water balloon to deal $2 damage to 1 enemy. If there are enemies around the target that have not yet been attacked, the water balloon will bounce in that direction and deal the same damage (up to 6 times).\n(This attack ignores $3 of the enemy Defense)"
+        },
+        {
+            "GroupId": "CH0210Passive01",
+            "NameEn": "Expeditionary passion",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0210WeaponPassive01",
+            "NameEn": "Expeditionary passion +",
+            "DescriptionEn": "Increase Explosive Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0210ExtraPassive01",
+            "NameEn": "Caring hands",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0205Ex01",
+            "NameEn": "It's not like that!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0205Public01",
+            "NameEn": "Don't stare!",
+            "DescriptionEn": "Every $1, increases Critical Rate by $2 for $3."
+        },
+        {
+            "GroupId": "CH0205Passive01",
+            "NameEn": "Elites' duty",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0205WeaponPassive01",
+            "NameEn": "Elites' duty +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0205ExtraPassive01",
+            "NameEn": "Nothing naughty! Death penalty!",
+            "DescriptionEn": "When attacking medium-sized enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0209Ex01",
+            "NameEn": "I'm going to douse you ♡",
+            "DescriptionEn": "Deal $1 damage to enemies within a fan-shaped area.\nIf the water gauge is 1 or more, EX skill card remains in hand. Subtract 1 water gauge charge."
+        },
+        {
+            "GroupId": "CH0209Public01",
+            "NameEn": "Take good care of it ♡",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area.\nAdditionally, decrease their Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0209Passive01",
+            "NameEn": "True feelings hidden in midsummer",
+            "DescriptionEn": "Increase Attack by $1 and Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0209WeaponPassive01",
+            "NameEn": "True feelings hidden in midsummer +",
+            "DescriptionEn": "Increase Attack by $1 and Critical Damage by $2.\nFurther increase Attack by $3 and Critical Damage by $4."
+        },
+        {
+            "GroupId": "CH0209ExtraPassive01",
+            "NameEn": "We're all pumped up ♡",
+            "DescriptionEn": "Charge the water gauge by $1 when any other ally uses an EX skill.\nFor every 100% charge, increase Attack by $2 for $3.\n(The water gauge can hold up to 2 full charges)"
+        },
+
+        {
+            "GroupId": "CH0183Ex01",
+            "NameEn": "It's summer!",
+            "DescriptionEn": "Deploy a cover, and increase the Attack Speed of allies within a circular area around it by $1 for $2.\nThe cover inherits $3 of Mimori's HP."
+        },
+        {
+            "GroupId": "CH0183Public01",
+            "NameEn": "Do you want some?",
+            "DescriptionEn": "Every $1, grant a shield to an ally with the lowest HP (shield HP is $2 of Mimori's Healing). (Duration: $3)"
+        },
+        {
+            "GroupId": "CH0183Passive01",
+            "NameEn": "I brought plenty",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0183WeaponPassive01",
+            "NameEn": "I brought plenty +",
+            "DescriptionEn": "Increase Healing by $1.\nIncrease HP by $2."
+        },
+        {
+            "GroupId": "CH0183ExtraPassive01",
+            "NameEn": "Don't worry. I'm by your side.",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0124Ex01",
+            "NameEn": "Great idea",
+            "DescriptionEn": "Deal $1 damage to one enemy, and inflict $2 of continuous Burn damage for $3.\nApply the Weak Point Exposed debuff on target for $4.\nWhen attacked, an enemy with this debuff takes additional damage equal to $5 of Meru's Attack.\n(This damage can not be critical, effect ends after $6)"
+        },
+        {
+            "GroupId": "CH0124Public01",
+            "NameEn": "Shipping has no limits",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nInflict $3 of additional Burn damage for $4."
+        },
+        {
+            "GroupId": "CH0124Passive01",
+            "NameEn": "Input",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0124WeaponPassive01",
+            "NameEn": "Input +",
+            "DescriptionEn": "Increase Attack by $1.\nFurther increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0124ExtraPassive01",
+            "NameEn": "Setting breakdown!",
+            "DescriptionEn": "Every $1 Normal attacks, fire enhanced bullets, dealing $2 damage."
+        },
+
+        {
+            "GroupId": "CH0126Ex01",
+            "NameEn": "Be quiet in the library",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0126Public01",
+            "NameEn": "Power of Knowledge",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0126Passive01",
+            "NameEn": "Collector's ardour",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0126WeaponPassive01",
+            "NameEn": "Collector's ardour +",
+            "DescriptionEn": "Increase Critical Rate by $1.\nIncrease Attack by $2."
+        },
+        {
+            "GroupId": "CH0126ExtraPassive01",
+            "NameEn": "Beginning of the Journey",
+            "DescriptionEn": "At the beginning of combat, increase Attack by $1.",
+            "AddOnLevel7": "\nNormal attack damage radius is increased by x$2."
+        },
+
+        {
+            "GroupId": "CH0185Ex01",
+            "NameEn": "The origin of the gun salute is...",
+            "DescriptionEn": "Deal $1 damage to enemies within a conical area.."
+        },
+        {
+            "GroupId": "CH0185Public01",
+            "NameEn": "Ah, that's right!",
+            "DescriptionEn": "Every $1 EX skill uses, increase Critical Rate of surrounding allies (except self) by $2 for $3."
+        },
+        {
+            "GroupId": "CH0185Passive01",
+            "NameEn": "Please ask me anything!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0185WeaponPassive01",
+            "NameEn": "Please ask me anything! +",
+            "DescriptionEn": "Increase Accuracy by $1.\nIncrease Attack by $2."
+        },
+        {
+            "GroupId": "CH0185ExtraPassive01",
+            "NameEn": "Glad to be of service!",
+            "DescriptionEn": "Every time Normal skill buff is applied to an ally, increase own Attack by $1 for $2. (stacks up to $3)"
+        },
+
+        {
+            "GroupId": "CH0193Ex01",
+            "NameEn": "Gourmet endorsement",
+            "DescriptionEn": "Move up to 4 allies within circular area to the specified position and heal them for $1 of Healing."
+        },
+        {
+            "GroupId": "CH0193Public01",
+            "NameEn": "Gourmet approach",
+            "DescriptionEn": "Every $1, deal $2 damage to 6 enemies.\nDecrease their Defense by $3 for $4."
+        },
+        {
+            "GroupId": "CH0193Passive01",
+            "NameEn": "Healing sweets",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0193WeaponPassive01",
+            "NameEn": "Healing sweets +",
+            "DescriptionEn": "Increase Healing by $1.\nFurther increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0193ExtraPassive01",
+            "NameEn": "Sports banquet",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        }
+
+
+
     ]
 }

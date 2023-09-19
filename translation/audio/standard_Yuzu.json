@@ -18,22 +18,22 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Formation_Select",
-            "LocalizeJP": "私をですか やってみます",
-            "LocalizeEN": "I'll try"
+            "LocalizeJP": "私を、ですか？やってみます…。",
+            "LocalizeEN": "me? I'll try."
         },
         {
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Tactic_Defeat_1",
-            "LocalizeJP": "ごめんなさい。",
+            "LocalizeJP": "ご、ごめんなさい…！",
             "LocalizeEN": "sorry."
         },
         {
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Tactic_Defeat_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "ああ、ダメ…。",
+            "LocalizeEN": "Oh,No good…."
         },
         {
             "CharacterId": 10018,
@@ -60,7 +60,7 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Tactic_Victory_2",
-            "LocalizeJP": "セイコー 嬉しいです こんな気分なんですね",
+            "LocalizeJP": "成功、嬉しいです こんな気分なんですね",
             "LocalizeEN": "Seiko I'm happy I feel like this"
         },
         {
@@ -95,7 +95,7 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Battle_Damage_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "痛い",
             "LocalizeEN": ""
         },
         {
@@ -144,8 +144,8 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Battle_Recovery_1",
-            "LocalizeJP": "おはよう ありがとうございます",
-            "LocalizeEN": "Good morning, thank you"
+            "LocalizeJP": "ご配慮、ありがとうございます",
+            "LocalizeEN": "Thank you for your consideration."
         },
         {
             "CharacterId": 10018,
@@ -172,29 +172,29 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Battle_Shout_3",
-            "LocalizeJP": "引きます。",
-            "LocalizeEN": "I'll pull."
-        },
-        {
-            "CharacterId": 10018,
-            "DialogCategory": "Standard",
-            "VoiceClip": "Yuzu_Battle_TacticalAction_1",
             "LocalizeJP": "行きます。",
             "LocalizeEN": "to go."
         },
         {
             "CharacterId": 10018,
             "DialogCategory": "Standard",
+            "VoiceClip": "Yuzu_Battle_TacticalAction_1",
+            "LocalizeJP": "い…行きます。",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Battle_TSA_1",
-            "LocalizeJP": "これは私が送信します。",
-            "LocalizeEN": "I will send this."
+            "LocalizeJP": "これは私が操縦します。",
+            "LocalizeEN": "I will control this."
         },
         {
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Battle_TSA_2",
-            "LocalizeJP": "私はエース パイロット ですゲームっての話ですが、",
-            "LocalizeEN": "I'm an ace pilot."
+            "LocalizeJP": "私はエースパイロットです、ゲームでの話ですが…",
+            "LocalizeEN": "I'm an ace pilot, in video game..."
         },
         {
             "CharacterId": 10018,
@@ -243,7 +243,7 @@
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_ExSkill_Level_1",
             "LocalizeJP": "レトロ よ、永遠であれ",
-            "LocalizeEN": "Retro forever"
+            "LocalizeEN": "Retro forever!"
         },
         {
             "CharacterId": 10018,
@@ -312,8 +312,8 @@
             "CharacterId": 10018,
             "DialogCategory": "Standard",
             "VoiceClip": "Yuzu_Relationship_Up_4",
-            "LocalizeJP": "私も先生のこと えっと恥ずかしい。",
-            "LocalizeEN": "I'm also embarrassed about my teacher."
+            "LocalizeJP": "私も先生のこと、えっと、その、恥ずかしい。",
+            "LocalizeEN": ""
         }
     ]
 }

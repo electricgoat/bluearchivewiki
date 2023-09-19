@@ -124,7 +124,8 @@ def wiki_card(type, id, **params ):
     if 'block' in params:
         wikitext_params += f"|block"
 
-    return '{{'+card_type+'|'+(name != None and name or 'Unknown')+wikitext_params+'}}'
+    if name == None: print (f"Unknown {type} item {id}")
+    return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
 
 
 
@@ -260,11 +261,15 @@ def generate():
     global characters, items, furniture
     global total_rewards, total_milestone_rewards
 
-    season = data.event_content_seasons[(args['event_season'], "Stage")]
+    if (args['event_season'], "Stage") in data.event_content_seasons:
+        season = data.event_content_seasons[(args['event_season'], "Stage")]
+    elif (args['event_season'], "MiniEvent") in data.event_content_seasons:
+        season = data.event_content_seasons[(args['event_season'], "MiniEvent")]
+    else:
+        exit(f"Season {args['event_season']} data not found. Is this a new event type?")
     
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
-
 
     if season['MainEventId'] != 0:
         print(f"This is a sub-event, using bonus character data from MainEventId {season['MainEventId']}")
@@ -275,7 +280,7 @@ def generate():
         print('Warning - no bonus character data found!')
         bc = []
     
-    bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    bonus_characters = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for item in bonus_characters:  
         for character in bc:
             if item in character['EventContentItemType']:
@@ -285,7 +290,7 @@ def generate():
                     bonus_characters[item].append({'CharacterId':character['CharacterId'], 'Name':str(character['CharacterId']), 'Class':'Striker', 'BonusPercentage':int(character['BonusPercentage'][character['EventContentItemType'].index(item)]/100)})
     #print (bonus_characters)
 
-    bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    bonus_values = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for item in bonus_characters:
         for character in bonus_characters[item]:
             bonus_values[item].append(character['BonusPercentage'])
@@ -303,7 +308,7 @@ def generate():
         print('Warning - no event currencies data found!')
         cy = []
 
-    event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3']}
+    event_currencies = {x: [] for x in ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']}
     for currency in cy:
         event_currencies[currency['EventContentItemType']] = {'ItemUniqueId': currency['ItemUniqueId'], 'Name':items[currency['ItemUniqueId']].name_en} 
     #print(event_currencies)
@@ -317,25 +322,29 @@ def generate():
 
     #Pt milestone rewards
     milestones = parse_milestone_rewards(args['event_season'])
-   
-    
-    #STAGES
-    stage_reward_types = {x: [] for x in ['Normal', 'Hard', 'VeryHard']}
 
-    for stage in stages:
-        for reward_tag in stage.rewards:
-            if reward_tag not in stage_reward_types[stage.difficulty]:
-                stage_reward_types[stage.difficulty].append(reward_tag)
-    
-    wikitext_stages = ''
-    difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge'}
+
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['wiki_itemcard'] = wiki_itemcard
     env.globals['len'] = len
+   
+    
+    #STAGES
+    wikitext_stages = ''
 
-    for difficulty in stage_reward_types:
+    if (args['event_season'], "Stage") in data.event_content_seasons:
+        difficulty_names = {'Normal':'Story','Hard':'Quest','VeryHard':'Challenge', 'VeryHard_Ex': 'Extra Challenge'}
+        stage_reward_types = {x: [] for x in difficulty_names.keys()}
+
+        for stage in stages:
+            for reward_tag in stage.rewards:
+                if reward_tag not in stage_reward_types[stage.difficulty]:
+                    stage_reward_types[stage.difficulty].append(reward_tag)
+    
         template = env.get_template('events/template_event_stages.txt')
-        wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=[x for x in stages if x.difficulty == difficulty], reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
+        for difficulty in stage_reward_types:
+            stages_filtered = [x for x in stages if x.difficulty == difficulty]
+            if len(stages_filtered): wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=stages_filtered, reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
 
 
     #SCHEDULE
@@ -360,7 +369,15 @@ def generate():
 
         for shop in data.event_content_shop_info[args['event_season']]:
             shop = shop
-            shop['wiki_title'] = f"{{{{ItemCard|{items[shop['CostParcelId'][0]].name_en}|48px}}}}"
+            if shop['CostParcelType'][0] == 'Item':
+                shop['wiki_currency_name'] = items[shop['CostParcelId'][0]].name_en
+            elif shop['CostParcelType'][0] == 'Currency':
+                shop['wiki_currency_name'] = data.etc_localization[data.currencies[shop['CostParcelId'][0]]['LocalizeEtcId']]['NameEn']
+            else:
+                print(f"Unknown shop currency type for {shop}")
+
+            shop['wiki_currency'] = f"{{{{ItemCard|{shop['wiki_currency_name']}}}}}" 
+            shop['wiki_title'] = f"{{{{ItemCard|{shop['wiki_currency_name']}|48px}}}}"
             shop['total_cost'] = 0
             shop['shop_content'] = [x for x in data.event_content_shop[args['event_season']] if x['CategoryType'] == shop['CategoryType']]
 
@@ -420,7 +437,7 @@ def generate():
         for box in box_gacha:
             if box['is_duplicate'] == False: wikitext_boxgacha += template.render(box=box)
         
-        wikitext_boxgacha += '</tabber>\n'
+        wikitext_boxgacha = wikitext_boxgacha.rstrip('|-|\n') + '</tabber>\n'
 
 
     #OMIKUJI / FORTUNE SLIPS
@@ -467,6 +484,57 @@ def generate():
         wikitext_fortunegacha += template.render(fortune_tiers=fortune_tiers.values(), wiki_price = wiki_price)
 
 
+    #CARDSHOP (4-card draw store) 
+    wikitext_cardshop = ''
+    if (args['event_season'], "CardShop") in data.event_content_seasons:
+        template = env.get_template('events/template_cardshop.txt')
+
+        cardshop_data = {}
+        card_groups = data.event_content_card
+        card_shop = data.event_content_card_shop[args['event_season']]
+        card_tiers = sorted(set([x['Rarity'] for x in card_shop]), key=lambda x: ('SSR', 'SR', 'R', 'N').index(x))
+        #print(f"CardShop card tiers are: {card_tiers}")
+
+        #Expectation is that RefreshGroups are [1, 2, 3, 4], with 1~3 being complete duplicates and 4 being the SR+ rarity one.
+        refresh_groups = sorted(set([x['RefreshGroup'] for x in card_shop]))
+        #print(f"CardShop RefreshGroups are: {refresh_groups}")
+
+        card_set = [x for x in card_shop if x['RefreshGroup'] == 1]
+        for index, card in enumerate(card_set):
+            #This mess is to deal with IconPath strings being lowercase while actual resouce names are capitalized
+            card['image'] = '_'.join(word.upper() if word.lower() in ['sr', 'ssr'] else word.capitalize() for word in re.split(r'[_ ]', card_groups[card["CardGroupId"]]['IconPath'].rsplit('/', 1)[-1]))
+            card['wiki_image_rowspan'] = 1
+
+            card['LocalizeEtcId'] = card_groups[card["CardGroupId"]]['LocalizeEtcId']
+            card['name'] = data.etc_localization[card['LocalizeEtcId']]['NameJp'].capitalize()
+            card['wiki_items'] = []
+            
+            while card['CardGroupId'] == card_set[index-1]['CardGroupId']:
+                card['image'] = None
+                card_set[index-1]['wiki_image_rowspan'] += 1
+                index -= 1
+            
+
+            for index,type in enumerate(card['RewardParcelType']):
+                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                card['wiki_items'].append(wiki_card_text)
+
+
+        for tier in card_tiers:
+            cardshop_data[tier] = {'total_prob':0, 'total_ProbWeight1':0}
+        for card in card_set:
+            cardshop_data[card['Rarity']]['total_prob'] += card['Prob']
+            cardshop_data[card['Rarity']]['total_ProbWeight1'] += card['ProbWeight1'] #unused?
+            
+                
+        cost_good = data.goods[card_set[0]['CostGoodsId']]
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+
+
+        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
+
+
+
 
     season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season['EventContentCloseTime'] = season['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
@@ -494,7 +562,7 @@ def generate():
     
     wikitext = wikitext_event + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_fortunegacha + wikitext_footer
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_footer
 
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:

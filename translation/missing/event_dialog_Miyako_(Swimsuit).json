@@ -1,0 +1,248 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "이것은 어디까지나\n사건의 조사를\\위한 잠입 작전……\n무사히 끝났으면 좋겠네요.",
+            "LocalizeJP": "これはあくまでも事件の\n調査のための潜入作戦……\n無事に終わると\nいいのですが。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "RABBIT 1, 작전 준비를\n모두 마쳤습니다.\n선생님, 지시를.",
+            "LocalizeJP": "RABBIT1。\n作戦準備完了しました。\n先生、指示を。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "아무래도 주민 여러분의\n기분을 상하게\n만든 것 같습니다만……",
+            "LocalizeJP": "どうやら、住民の\n皆さんの気分を害して\nしまったようです……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "어떻게 하면 좋을까요……?",
+            "LocalizeJP": "どうすれば\n良いのでしょう……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "후후……\n해수욕을 즐기는 것 이상으로,\n저희 SRT 다운 여름이 되었네요.",
+            "LocalizeJP": "ふふ……\n海水浴を楽しむ以上に、\n私たちSRTらしい夏に\nなりました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "수고 많으셨습니다, 선생님.",
+            "LocalizeJP": "お疲れ様でした、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_Season_End_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "작전 때문이긴 합니다만,\n모처럼 바닷가에\n나왔는데……",
+            "LocalizeJP": "作戦のためでは\nありますが、\nせっかくの海ですし……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLogin_Season_End_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "……잠깐 시간 내 주실 수\n있으신가요?",
+            "LocalizeJP": "……少し、\nお時間いただけますか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "마지막으로\n새우가 듬뿍 들어간\n샌드위치를 먹은 것이\n언제였었는지……",
+            "LocalizeJP": "最後にエビがたっぷり\n入ったサンドイッチを\n食べたのは、\nいつだったのでしょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "(너무 들뜬 것처럼\n보이면 안 될 텐데……)",
+            "LocalizeJP": "（あまり、\n浮かれている感じに\n見えませんように……）",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "자리를 비우는 동안\n깡총이는,",
+            "LocalizeJP": "不在の間、\nぴょんこのお世話は、",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLobby_3_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "발키리 생활안전국의\n학생 여러분께 돌봐달라고\n부탁드렸습니다.",
+            "LocalizeJP": "ヴァルキューレ\n生活安全局の\n皆さんに\nお願いしています。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "가끔은 깡총이가\nRABBIT 소대보다,",
+            "LocalizeJP": "たまに、ぴょんこが\nRABBIT小隊より",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventLobby_3_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "생활안전국 학생 여러분을\n더 좋아하는 것처럼 보여서\n서운할 때도 있답니다.",
+            "LocalizeJP": "生活安全局の皆さんに\n懐いでいるように見えて、\n少し寂しくも\nありますが……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오세요, 선생님.\n조사를 위해 필요한 목록을\n정리했습니다.",
+            "LocalizeJP": "来てくれましたか、先生。\n調査に必要なリストを\nまとめてみました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "……이상이, 오늘 잠입 작전의\n타깃입니다.",
+            "LocalizeJP": "……以上が、今日の潜入作戦の\nターゲットになります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네, 무슨 일이신가요?",
+            "LocalizeJP": "どうされましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그…… 이 수영복은 원단이\n조금 얇은 것 같아서……",
+            "LocalizeJP": "あの……この水着、\n生地が少し薄くて……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_2_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "그, 그렇게 쳐다보시면……\n신경이 쓰이는데요……",
+            "LocalizeJP": "その……\nそんなに見つめられると……\n気になってしまうのですが……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_2_2"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "역시 선생님이시군요.\n믿고 있었습니다.",
+            "LocalizeJP": "さすがです、先生。\n信じていました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009150,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "도와주셔서 감사합니다.\n큰 도움이 되었어요.",
+            "LocalizeJP": "ご協力、\nありがとうございました。\n助かりました。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0215_EventMission_Get_2"
+            ]
+        }
+    ]
+}

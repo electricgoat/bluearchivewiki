@@ -17,7 +17,7 @@
             "DialogCategory": "CharacterGet",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "새해가 되었으니까…\n그에 맞는 새 옷을 입은 것 뿐이야.\n이번에도 잘 부탁할게, 선생.",
+            "LocalizeKR": "새해가 되었으니까…\n그에 맞는 새 옷을 입은 것뿐이야.\n이번에도 잘 부탁할게, 선생.",
             "LocalizeJP": "新年だから、新しい服なだけ。\n今年もよろしくね、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -29,7 +29,7 @@
             "DialogCategory": "Cafe",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "올해도……\n무사했으면 좋겠는데.\n……여러가지로.",
+            "LocalizeKR": "올해도……\n무사했으면 좋겠는데.\n……여러 가지로.",
             "LocalizeJP": "今年も……\n無事だといいんだけど。\n……いろいろと。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -123,7 +123,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "기모노를 입으니……\n한층 귀여워 보인다고?",
+            "LocalizeKR": "기모노를 입으니……\n한층 더 귀여워 보인다고?",
             "LocalizeJP": "着物だと……\nますます可愛く見える？",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -135,7 +135,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "하아…… 그런 말만\n하고 말이지.",
+            "LocalizeKR": "하아…… 그런 마음에 없는\n소리 하지 마.",
             "LocalizeJP": "はぁ……そんな事\nばっかり言って。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -145,7 +145,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "하아…… 놀리는 것도\n적당히 해 줘. 선생.",
+            "LocalizeKR": "후…… 놀리는 것도\n적당히 하라고, 선생.",
             "LocalizeJP": "はあ……からかうのも\nいい加減にして、先生。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -157,7 +157,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 2,
-            "LocalizeKR": "진심이라고……?\n이, 이제 됐으니까.",
+            "LocalizeKR": "진심이라고……?\n이, 이제 괜찮으니까!",
             "LocalizeJP": "本心……？\nも、もういいから。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -167,7 +167,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Idle",
             "GroupId": 3,
-            "LocalizeKR": "흥신소라……\n걱정이라고 할까,\n신경은 쓰이지.",
+            "LocalizeKR": "흥신소에 대해서는……\n걱정이라기 보다는,\n신경 쓰이는 정도.",
             "LocalizeJP": "便利屋のことは……\n心配というよりは、\n気になってる感じ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -235,7 +235,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 100,
-            "LocalizeKR": "음반이라면 제법\n가지고 있는데 말이야.",
+            "LocalizeKR": "음반이라면 제법\n가지고 있지만.",
             "LocalizeJP": "アルバムなら\nそれなりに持ってるけど。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -289,7 +289,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 300,
-            "LocalizeKR": "……나에게 새뱃돈을?\n굳이……?",
+            "LocalizeKR": "……나에게 세뱃돈을?\n굳이……?",
             "LocalizeJP": "……私にお年玉を？\n……わざわざ……？",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -299,7 +299,7 @@
             "DialogCategory": "UILobby",
             "DialogCondition": "Enter",
             "GroupId": 400,
-            "LocalizeKR": "크리스마스…… 인가.\n새해도 머지 않았네.",
+            "LocalizeKR": "크리스마스…… 인가.\n새해도 머지않았네.",
             "LocalizeJP": "クリスマス……。\nもう少しで新年だね。",
             "LocalizeEN": "",
             "VoiceClipsJp": [

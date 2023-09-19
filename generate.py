@@ -32,17 +32,17 @@ def generate():
     env.filters['colorize'] = colorize
     template = env.get_template('template.txt')
 
-    # total_characters = 0
-    # total_momotalks = 0
-    # total_jims=0
 
     for character in data.characters.values():
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
 
+        if args['character_id'] is not None and character['Id'] not in args['character_id']:
+            continue
+
         try:
             character = Character.from_data(character['Id'], data)
-            if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
+            #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
             traceback.print_exc()
@@ -57,20 +57,8 @@ def generate():
             wiki.update_template(character.wiki_name, args['wiki_template'], wikitext)
         elif wiki.site != None and args['wiki_section'] != None:
             wiki.update_section(character.wiki_name, args['wiki_section'], wikitext)
-
-        
-    #     total_characters += 1
-    #     for reward in character.momotalk.levels:
-    #         total_momotalks += 1
-    #         if reward['FavorRank'] > 9:
-    #             print(f"{character.wiki_name} has a reward at FavorRank {reward['FavorRank']}")
-    #         for index,parcel in enumerate(reward['RewardParcelType']):
-    #             if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
-    #                 total_jims += reward['RewardAmount'][index]
-
-    # print(f"Total playable characters: {total_characters}")
-    # print(f"Total momotalks: {total_momotalks}")
-    # print(f"Total pyroxene rewards: {total_jims}")
+        elif wiki.site != None and args['wiki_section_number'] != None:
+            wiki.update_section_number(character.wiki_name, args['wiki_section_number'], wikitext)
 
 
 
@@ -86,11 +74,13 @@ def main():
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
     parser.add_argument('-wiki_template', metavar='TEMPLATE NAME', help='Name of a template whose data will be updated')
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
+    parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
+    parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
 
     args = vars(parser.parse_args())
     print(args)
 
-    if args['wiki'] != None and (args['wiki_template'] != None or args['wiki_section'] != None):
+    if args['wiki'] != None and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
         wiki.init(args)
     else:
         args['wiki'] = None

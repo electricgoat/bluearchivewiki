@@ -91,7 +91,7 @@ def generate():
             print(f"Missing {character.wiki_name} translations: {len(missing_tl)}")
             save_missing_translations('dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
 
-        missing_tl = [x for x in data.character_dialog_event if x['CharacterId'] in character_variation_ids and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
+        missing_tl = [x for x in data.character_dialog_event if x['OriginalCharacterId'] in character_variation_ids and x['LocalizeEN'] == '' and x['LocalizeJP'] != '']
         if len(missing_tl)>1 : 
             print(f"Missing {character.wiki_name} event translations: {len(missing_tl)}")
             save_missing_translations('event_dialog_'+character.wiki_name.replace(' ', '_'), missing_tl)
@@ -186,22 +186,17 @@ def generate():
             wikitext = template.render(character=character,lines=lines,event_lines=event_lines,memorial_lines=memorial_lines,standard_lines=standard_lines)
             f.write(wikitext)
             
-
+        
         if wiki.site != None:
             wikipath = character.wiki_name + '/audio'
 
-            if not wiki.page_exists(wikipath, wikitext):
+            if args['wiki_section'] != None:
+                #print(f"Updating section {args['wiki_section']} of {wikipath}")
+                wiki.update_section(wikipath, args['wiki_section'], wikitext)
+            elif not wiki.page_exists(wikipath, wikitext):
                 print(f'Publishing {wikipath}')
-                
-                wiki.site(
-                action='edit',
-                title=wikipath,
-                text=wikitext,
-                summary=f'Generated character audio page',
-                token=wiki.site.token()
-                )
+                wiki.publish(wikipath, wikitext, f'Generated character audio page')
 
-            
 
 
 def scavenge():
@@ -299,14 +294,15 @@ def get_dialog_lines(character, dialog_data):
     lines = []
 
     for index, line in enumerate(dialog_data):
-        if line['CharacterId'] == character.id and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
+        #if line['CharacterId'] == character.id and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
+        if line['CostumeUniqueId'] == character.costume['CostumeUniqueId'] and line['VoiceClipsJp'] != [] and line['DialogCategory'] != 'UILobbySpecial' :
             line = merge_followup(index, dialog_data)
+            line['Title'] = 'Unknown'
+            line['WikiVoiceClip'] = []
 
-            if line['VoiceClipsJp']: 
+            if line['VoiceClipsJp'] and len(line['VoiceClipsJp'][0]) > 1: #length check is working around bad game data 
                 line['VoiceClipsJp'][0] = line['VoiceClipsJp'][0].replace('__','_').replace('Memoriallobby', 'MemorialLobby')
                 line['Title'] = line['VoiceClipsJp'][0].split('_', 1)[1]
-
-                line['WikiVoiceClip'] = []
                 line['WikiVoiceClip'].append(character.wiki_name.replace(' ', '_') + '_' + line['Title'])
             
             if 'LocalizeEN' not in line or line['LocalizeEN'] == None: line['LocalizeEN'] = ''
@@ -363,7 +359,7 @@ def process_file(character, line, page_list):
     if (line['VoiceClipsJp'] and not exists(f"{args['data_audio']}/JP_{character.model_prefab_name}/{line['VoiceClipsJp'][0]}.ogg")) or line['DialogCategory'] == 'UILobbySpecial':
 
         #fix script error for oCherino title line
-        if line['CharacterId']==20009 and line['DialogCategory'] == 'UITitle': line['VoiceClipsJp'][0] = 'CH0164_Title'
+        #if line['CharacterId']==20009 and line['DialogCategory'] == 'UITitle': line['VoiceClipsJp'][0] = 'CH0164_Title'
 
         partial_file_path = f"{args['data_audio']}/JP_{character.model_prefab_name}/"
         partial_file_name = line['VoiceClipsJp'] and f"{line['VoiceClipsJp'][0]}" or f"{character.model_prefab_name}_MemorialLobby_{line['GroupId']}"
@@ -402,10 +398,11 @@ def save_missing_translations(name, data):
     lines = []
 
     for line in data:
-        lines.append({'CharacterId': line['CharacterId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
+        #lines.append({'CharacterId': line['CharacterId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
+        lines.append({'CostumeUniqueId': line['CostumeUniqueId'], 'DialogCategory': line['DialogCategory'], 'DialogCondition': line['DialogCondition'], 'GroupId': line['GroupId'], 'LocalizeKR': line['LocalizeKR'], 'LocalizeJP': line['LocalizeJP'], 'LocalizeEN': '', 'VoiceClipsJp': line['VoiceClipsJp']})
 
     f = open(args['translation'] + '/missing/' + name + '.json', "w", encoding='utf8' )
-    f.write(json.dumps({'DataList':lines}, sort_keys=False, indent=4, ensure_ascii=False))
+    f.write(json.dumps({'DataList':lines}, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
     f.close()
 
 
@@ -417,7 +414,7 @@ def write_file(file, items):
         data['DataList'].append(item)
 
     f = open(os.path.join(file), 'w', encoding="utf8")
-    f.write(json.dumps(data, sort_keys=False, indent=4, ensure_ascii=False))
+    f.write(json.dumps(data, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
     f.close()
     return True
 
@@ -436,6 +433,7 @@ def main():
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
+    parser.add_argument('-wiki_section',    metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-upload_files',    action='store_false', help='Check if audio file is already on the wiki and upload it if not')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
@@ -450,7 +448,7 @@ def main():
 
     try:
         if (args['scavenge']): scavenge()
-        generate()
+        else: generate()
     except:
         parser.print_help()
         traceback.print_exc()

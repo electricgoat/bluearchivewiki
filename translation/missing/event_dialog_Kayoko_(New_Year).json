@@ -29,7 +29,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "세상 일이 생각대로는\n되지 않겠지만,",
+            "LocalizeKR": "세상만사가 뜻대로\n되지는 않지만,",
             "LocalizeJP": "世の中思い通りに\nはいかないけど、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -41,7 +41,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "기원하는 시간만은,\n자유니까.",
+            "LocalizeKR": "소원을 비는 것 만큼은,\n자유니까.",
             "LocalizeJP": "お願い事をする時は、\n自由だからさ。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -119,7 +119,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Idle",
             "GroupId": 4,
-            "LocalizeKR": "(……검은거북파라.\n어쩐지 좋지 않은\n예감이 드는걸.)",
+            "LocalizeKR": "(……검은거북파라.\n좋지 않은\n예감이 드는걸.)",
             "LocalizeJP": "（……黒亀組か。\n嫌な予感がする。）",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -155,7 +155,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "귀찮은 일에 머리를\n들이 밀 생각은 없지만,",
+            "LocalizeKR": "귀찮은 일에 머리를\n들이밀 생각은 없지만,",
             "LocalizeJP": "厄介ごとに首を\n突っ込むつもりは\nなかったんだけど、",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -209,7 +209,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Enter",
             "GroupId": 1,
-            "LocalizeKR": "마침 잘 왔어, 선생. 도움을\n요청하고 싶은 일이 있어서.",
+            "LocalizeKR": "선생, 마침 잘 왔어.\n도움을 요청하고 싶은\n일이 있어서.",
             "LocalizeJP": "先生、丁度いいところに。\n頼みたいことがあるの。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -233,7 +233,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "흥신소에서 역으로 선생에게\n의뢰를 하다니……",
+            "LocalizeKR": "흥신소가 선생에게\n의뢰를 하다니……",
             "LocalizeJP": "便利屋が先生に\n依頼だなんて……",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -245,7 +245,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Idle",
             "GroupId": 1,
-            "LocalizeKR": "뭔가 평소와는 달라서 새롭네.",
+            "LocalizeKR": "평소와는 입장이 정반대라,\n어쩐지 새롭네.",
             "LocalizeJP": "いつもと立場が逆で、\nなんだか新鮮。",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -277,7 +277,7 @@
             "DialogCategory": "UIEventMission",
             "DialogCondition": "Buy",
             "GroupId": 1,
-            "LocalizeKR": "도와줘서 고마워. 이건\n흥신소 68에서 주는 사례야.",
+            "LocalizeKR": "도와줘서 고마워.\n자, 흥신소 68에서 주는 사례야.",
             "LocalizeJP": "手伝ってくれてありがと。\nはい、便利屋68からのお礼だよ。",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -294,18 +294,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "CH0086_EventMission_Get_2"
-            ]
-        },
-        {
-            "CharacterId": 19009120,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘은 이만하면 괜찮을까.\n행사장의 바보들도\n이 정도면 포기하겠지.",
-            "LocalizeJP": "今日はこの辺でいいかな。\n会場のやつらも、\nいい加減諦めるだろうし。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0086_EventMission_Day_End"
             ]
         },
         {
@@ -337,7 +325,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 2,
-            "LocalizeKR": "세상 일이 생각대로는\n되지 않겠지만,",
+            "LocalizeKR": "세상일이 생각대로는\n되지 않겠지만,",
             "LocalizeJP": "世の中思い通りに\nはいかないけど、",
             "LocalizeEN": "",
             "VoiceClipsJp": [
@@ -463,7 +451,7 @@
             "DialogCategory": "UIEventLobby",
             "DialogCondition": "Enter",
             "GroupId": 4,
-            "LocalizeKR": "귀찮은 일에 머리를\n들이 밀 생각은 없지만,",
+            "LocalizeKR": "귀찮은 일에 머리를\n들이밀 생각은 없지만,",
             "LocalizeJP": "厄介ごとに首を\n突っ込むつもりは\nなかったんだけど、",
             "LocalizeEN": "",
             "VoiceClipsJp": []
@@ -602,18 +590,6 @@
             "LocalizeEN": "",
             "VoiceClipsJp": [
                 "CH0086_EventMission_Get_2"
-            ]
-        },
-        {
-            "CharacterId": 19009120,
-            "DialogCategory": "UIEventMission",
-            "DialogCondition": "Interaction",
-            "GroupId": 1,
-            "LocalizeKR": "오늘은 이만하면 괜찮을까.\n행사장의 바보들도\n이 정도면 포기하겠지.",
-            "LocalizeJP": "今日はこの辺でいいかな。\n会場のやつらも、\nいい加減諦めるだろうし。",
-            "LocalizeEN": "",
-            "VoiceClipsJp": [
-                "CH0086_EventMission_Day_End"
             ]
         }
     ]

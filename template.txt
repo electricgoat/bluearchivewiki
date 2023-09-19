@@ -1,7 +1,8 @@
 {% raw %}{{{% endraw %}Character
 | Id = {{character.id}}
+| DevName = {{character.dev_name}}
 | Name = {{character.wiki_name}}
-| Portrait = {{character.portrait}}
+| Portrait = Portrait_{{character.wiki_name.replace(' ', '_')}}
 | JPName = {{character.profile.full_name}}
 | JPReading = {{character.family_name_en}} {{character.personal_name_en}}
 | School = {{character.school}}
@@ -29,7 +30,7 @@
 | EquipmentSlot3 = {{character.equipment[2]}}
 | CharacterPool = {{character.character_pool}}
 | ReleaseDate = {{character.profile.release_date_jp}}
-{% raw %}}}{% endraw %}
+{% raw %}}}{% endraw %}{% raw %}{{{% endraw %}CharacterVariants|{{character.personal_name_en}}{% raw %}}}{% endraw %}__TOC__
 
 =Background=
 {% raw %}{{{% endraw %}CharacterBackground
@@ -68,7 +69,12 @@
 {% raw %}{{{% endraw %}CharacterAffectionTable
 {%- if character.memory_lobby.image != None %}
 | MemoryLobbyUnlockLv = {{character.memory_lobby.unlock_level}}
-| MemoryLobbyImage = {{character.memory_lobby.image}}
+| MemoryLobbyImage = Lobbyillust_{{character.wiki_name.replace(' ', '_')}}
+| MemoryLobbyBGMId = {{character.memory_lobby.bgm_id}}
+{%- endif -%}
+
+{%- if character.normal_gear_skill != None %}
+| UniqueGearUnlockLv = {{character.gear.unlock_level}}
 {%- endif -%}
 
 {%- for momotalk in character.momotalk.levels %}
@@ -170,7 +176,7 @@
 
 ===Unique weapon===
 {% raw %}{{{% endraw %}UniqueWeapon
-| CharacterId = {{character.weapon.image_path}}
+| CharacterId = {{character.wiki_name.replace(' ', '_')}}
 | NameEN = {{character.profile.weapon_name_translated}} 
 | NameJP = {{character.profile.weapon_name}} 
 | DescriptionEN = {{character.profile.weapon_desc_translated}} 
@@ -206,8 +212,20 @@
 | DescriptionJP = {{character.gear.desc_jp}} 
 | Tier1 = {{character.gear.tier1_desc}} 
 | Tier2 = {{character.gear.tier2_desc}}<b>{{character.normal_gear_skill.name_translated}}</b>
-| StatBonusT1 = {{character.gear.levels[1].stat_type[0]}}
-| StatBonusValueT1 = {{character.gear.levels[1].stat_value}}
+{% for tier in character.gear.tiers -%}
+{%  if tier.stats != None and tier.stats.stat_type != [] -%}
+| StatBonusT1 = {{tier.stats.stat_type[0]}}
+| StatBonusValueT1 = {{tier.stats.stat_value[0]}}
+{%- endif %}
+| UnlockFavorT{{loop.index}} = {{tier.unlock_favor}}
+{%- if tier.materials != None  %}
+{% set outer_loop = loop -%}
+{% for name, amount in tier.materials -%}
+| UnlockItemT{{outer_loop.index}}_{{loop.index}}_Name = {{name}}
+| UnlockItemT{{outer_loop.index}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}
+{%- endif -%}
+{% endfor -%}
 {% raw %}}}{% endraw %}
 {% raw %}{{{% endraw %}SkillTable
 | SkillName = {{character.normal_gear_skill.name_translated}}

@@ -1,0 +1,23 @@
+<table class="wikitable">
+{%- for tier in range(0,8) %}
+<tr>
+<td>T{{tier+1}}</td>
+<td>
+{%- raw %}
+<div class="xptable">
+<div class="header">
+<div><span class="level">Level</span><span class="xp">EXP to next level</span><span class="total_xp">Total EXP</span></div>
+</div>
+{%- endraw %}
+<div class="content">
+{% for row in levels -%}
+<div><span class="level">{{row.Level}}</span><span class="xp">{{row.TierLevelExp[tier]}}</span><span class="total_xp">{{row.TotalExp[tier]}}</span></div>
+{%- if row.TierLevelExp[tier] == 0 %}{% break %}{% endif -%}
+{%- if loop.index %10 == 0 %}
+{% endif -%}
+{% endfor -%}
+</div></td>
+</tr>
+{%- endfor %}
+</table>
+</div>

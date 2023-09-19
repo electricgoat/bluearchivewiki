@@ -16,16 +16,18 @@ args = None
 data = None
 season_data = {'jp':None, 'gl':None}
 
-Raid = collections.namedtuple('Raid', 'name,environment') #Store default environment so we don't have to look at actual boss info
+Raid = collections.namedtuple('Raid', 'name, shortname, environment') #Store default environment so we don't have to look at actual boss info
 RAIDS = {
-    'Binah':            Raid('Decagrammaton: Binah', 'Outdoors'),
-    'Chesed':           Raid('Decagrammaton: Chesed', 'Indoors'),
-    'ShiroKuro':        Raid('Slumpia: ShiroKuro', 'Urban'),
-    'Hieronymus':       Raid('Communio Sanctorum: Hieronymus', 'Indoors'),
-    'Perorozilla':      Raid('The Library of Lore: Perorodzilla', 'Indoors'),
-    'Kaitenger':        Raid('Kaitenger: KAITEN FX Mk.0', 'Outdoors'),
-    'HOD':              Raid('Decagrammaton: Hod', 'Urban'),
-    'Goz':              Raid('Slumpia: Goz', 'Indoors'),
+    'Binah':            Raid('Decagrammaton: Binah', 'Binah', 'Outdoors'),
+    'Chesed':           Raid('Decagrammaton: Chesed', 'Chesed', 'Indoors'),
+    'ShiroKuro':        Raid('Slumpia: ShiroKuro', 'ShiroKuro', 'Urban'),
+    'Hieronymus':       Raid('Communio Sanctorum: Hieronymus', 'Hieronymus', 'Indoors'),
+    'Perorozilla':      Raid('The Library of Lore: Perorodzilla', 'Perorodzilla', 'Indoors'),
+    'Kaitenger':        Raid('Kaitenger: KAITEN FX Mk.0', 'Kaitenger', 'Outdoors'),
+    'HOD':              Raid('Decagrammaton: Hod', 'Hod', 'Urban'),
+    'Goz':              Raid('Slumpia: Goz', 'Goz', 'Indoors'),
+    'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors'),
+    'HoverCraft':       Raid('Wakamo: Hovercraft', 'Hovercraft', 'Outdoors')
 }
 
 SEASON_IGNORE = {
@@ -50,6 +52,7 @@ SEASON_NOTES = {
         2:'Beta version, no ranking rewards',
         7:'Introduction of Extreme Difficulty',
         24:'Introduction of Insane Difficulty',
+        46:'Introduction of Torment Difficulty'
 
     }
 }
@@ -63,10 +66,25 @@ def environment_type(environment):
     }[environment]
 
 
+
+def print_season(season, note: str = ''):
+    now = datetime.now() #does not account for timezone
+
+    opentime = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
+    closetime = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S")
+
+    if (opentime > now): note = 'future'
+    elif (closetime > now): note = 'current'
+
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(36, ' ')} {season['env'].ljust(10, ' ')} {note}")
+
+
+
 def generate():
     global args, data, season_data
 
     for region in ['jp', 'gl']:
+        print (f"============ {region.upper()} raids ============")
         for season in season_data[region].raid_season.values():
             boss = season['OpenRaidBossGroup'][0].split('_',1)
 
@@ -79,10 +97,11 @@ def generate():
                 print(f"Unknown boss {season['OpenRaidBossGroup']}")
                 continue
 
-            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 7):
-                print(f"Raid {region} SeasonId {season['SeasonId']} is too far in the future and will be ignored")
+            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 20):
+                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
                 season['ignore'] = True
                 continue
+
 
             season['raid_name'] = RAIDS[boss[0]].name
 
@@ -91,7 +110,7 @@ def generate():
             else:
                 season['env'] = RAIDS[boss[0]].environment
 
-            season['banner'] = f"Raid_Banner_{boss[0]}.png"
+            season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname}.png"
 
             season['notes'] = ''
             if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
@@ -99,14 +118,16 @@ def generate():
             if (season_length.days + 1) != 7: 
                 season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
 
+            print_season(season)
+
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    template = env.get_template('./template_raid_seasons.txt')
+    template = env.get_template('./raid/template_raid_seasons.txt')
 
     wikitext = template.render(season_data=season_data)
     
 
-    with open(os.path.join(args['outdir'], 'events' ,f"raid_seasons.txt"), 'w+', encoding="utf8") as f:
+    with open(os.path.join(args['outdir'], 'raids' ,f"raid_seasons.txt"), 'w+', encoding="utf8") as f:
         f.write(wikitext)
 
     if wiki.site != None:

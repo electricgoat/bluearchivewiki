@@ -1,4 +1,3 @@
-|-|
 {{box.wiki_title}}=
 {% raw %}{{% endraw %}| class="wikitable"
 |-
@@ -15,4 +14,5 @@
 | style="text-align:center" |{% if good.GroupElementAmount is integer %}{{"{:,}".format(good.GroupElementAmount)}}{% else %}{{good.GroupElementAmount}}{% endif %}
 {% endfor -%}
 |{% raw %}}{% endraw %}
+|-|
 

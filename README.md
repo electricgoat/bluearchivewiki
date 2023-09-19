@@ -1,5 +1,5 @@
 # Blue Archive Wiki Script
-Original script for generating character pages for the Blue Archive Wiki at https://bluearchive.wiki modified to include translated data.
+Script for generating wikitext for the Blue Archive Wiki at https://bluearchive.wiki.
 
 ## Todo
 - Events: localized strings

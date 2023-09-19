@@ -1,0 +1,15 @@
+==Cumulative Score Milestones==
+{% raw %}{{% endraw %}| class="wikitable columns-2 rewards limitwidth-1024"
+|-
+|
+{% for reward in season.rewards -%}
+* <span class="score">{{season['StackedSeasonRewardGauge'][loop.index-1]|thousands}}:</span><span class="items">{% for item in reward.format_wiki_items(text='') -%}{{item}} {% endfor %}</span>
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable"
+! Total Score Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards -%}{{reward}}{% endfor %}</div>
+{% raw %}|}{% endraw %}
+

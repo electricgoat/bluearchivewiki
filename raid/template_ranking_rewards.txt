@@ -1,0 +1,13 @@
+=Rewards=
+==Ranking rewards==
+Note that listed brackets are for the Japanese server. Global version has differing bracket sizes depending on the region.
+{% raw %}{{% endraw %}| class="wikitable"
+!Bracket
+!Rewards
+{% for entry in rewards -%}
+|-
+!{{entry['RankStart']}}~{{entry['RankEnd']}}
+|{% for item in entry.reward.wiki_items -%}{{item}} {% endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+

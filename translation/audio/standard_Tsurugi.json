@@ -66,6 +66,20 @@
         {
             "CharacterId": 10013,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Buffed_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Battle_Damage_1",
             "LocalizeJP": "",
             "LocalizeEN": ""
@@ -87,6 +101,13 @@
         {
             "CharacterId": 10013,
             "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Battle_In_1",
             "LocalizeJP": "敵は目の前だ。",
             "LocalizeEN": "The enemy is right in front of you."
@@ -97,6 +118,20 @@
             "VoiceClip": "Tsurugi_Battle_In_2",
             "LocalizeJP": "暴れる時間だ。",
             "LocalizeEN": "It's time to rage."
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Move_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_Move_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10013,
@@ -130,6 +165,13 @@
             "CharacterId": 10013,
             "DialogCategory": "Standard",
             "VoiceClip": "Tsurugi_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10013,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Tsurugi_Battle_TacticalAction_1",
             "LocalizeJP": "",
             "LocalizeEN": ""
         },

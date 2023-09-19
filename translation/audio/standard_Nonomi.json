@@ -66,6 +66,20 @@
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Buffed_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Damage_1",
             "LocalizeJP": "うぅ……",
             "LocalizeEN": ""
@@ -87,6 +101,13 @@
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_In_1",
             "LocalizeJP": "今日もファイト。",
             "LocalizeEN": "Fight again today."
@@ -97,6 +118,20 @@
             "VoiceClip": "Nonomi_Battle_In_2",
             "LocalizeJP": "最善を尽くします。",
             "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Move_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_Move_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13004,
@@ -136,6 +171,13 @@
         {
             "CharacterId": 13004,
             "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
             "VoiceClip": "Nonomi_Battle_Victory_1",
             "LocalizeJP": "最高の戦いでした。",
             "LocalizeEN": "It was a great fight."
@@ -146,6 +188,13 @@
             "VoiceClip": "Nonomi_Battle_Victory_2",
             "LocalizeJP": "みんな お疲れ様でした。",
             "LocalizeEN": "Thank you all for your hard work."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Nonomi_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 13004,

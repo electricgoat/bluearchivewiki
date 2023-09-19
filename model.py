@@ -40,6 +40,10 @@ CLUBS = {
             'PublicPeaceBureau':'Public Peace Bureau',
             'HotSpringsDepartment':'Hot Springs Department',
             'TeaParty':'Tea Party',
+            'Genryumon': 'Genryumon',
+            'BlackTortoisePromenade': 'Black Tortoise Promenade',
+            'LaborParty': 'Labor Party',
+            'KnowledgeLiberationFront': 'Knowledge Liberation Front',
             'EmptyClub': 'no club'
 }
 
@@ -61,7 +65,7 @@ def replace_glossary(item = None):
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self.school = school
@@ -90,6 +94,8 @@ class Character(object):
         self.liked_gift_tags = liked_gift_tags
         self.character_pool = character_pool
 
+        self.costume = costume
+
         self.dev_name = dev_name
         self.model_prefab_name = model_prefab_name
 
@@ -97,6 +103,7 @@ class Character(object):
         self.family_name_en = family_name_en
         self.personal_name_en = personal_name_en
         self.variant = variant
+
 
 
     @property
@@ -159,13 +166,16 @@ class Character(object):
     def from_data(cls, character_id, data):
         character = data.characters[character_id]
         character_ai = data.characters_ai[character['CharacterAIId']]
-        liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
-        portrait = character['TextureDir'][character['TextureDir'].rfind('/')+1:]
+        costume = data.costumes[character['CostumeGroupId']]
 
+        liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
+        portrait = costume['TextureDir'][costume['TextureDir'].rfind('/')+1:]
+
+        
         return cls(
             character['Id'],
             character['DevName'],
-            character['ModelPrefabName'],
+            costume['ModelPrefabName'],
             portrait,
             data.translated_characters[character_id]['FamilyNameEn'],
             data.translated_characters[character_id]['PersonalNameEn'],
@@ -182,20 +192,21 @@ class Character(object):
             character['WeaponType'],
             character_ai['CanUseObstacleOfKneelMotion'] or character_ai['CanUseObstacleOfStandMotion'],
             Profile.from_data(character_id, data),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['PublicSkillGroupId'][0], data),
-            (character_id, 0, 2, False) in data.characters_skills and Skill.from_data(data.characters_skills[(character_id, 0, 2, False)]['PublicSkillGroupId'][0], data) or None,
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['ExSkillGroupId'][0], data, 5),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(character_id, 2, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(character_id, 0, 0, False)]['ExtraPassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PublicSkillGroupId'][0], data),
+            (character_id, 0, 2, False) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, False)]['PublicSkillGroupId'][0], data) or None,
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExSkillGroupId'][0], data, 5),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExtraPassiveSkillGroupId'][0], data),
             Stats.from_data(character_id, data),
-            Weapon.from_data(character_id, data),
+            Weapon.from_data(character_id, costume, data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
             Favor.from_data(character_id, data),
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
-            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular'
+            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular',
+            costume
         )
 
 
@@ -333,7 +344,8 @@ class Skill(object):
         return {
             'Explosion': 'Explosive',
             'Pierce': 'Penetration',
-            'Mystic': 'Mystic'
+            'Mystic': 'Mystic',
+            'Sonic': 'Sonic'
         }[self._damage_type]
 
     @classmethod
@@ -529,20 +541,19 @@ class Weapon(object):
 
 
     @classmethod
-    def from_data(cls, character_id, data):
+    def from_data(cls, character_id, costume, data):
         weapon = data.weapons[character_id]
         stats = data.characters_stats[character_id]
 
 
-
-        weapon_passive_skill = Skill.from_data(data.characters_skills[(character_id, 2, 0, False)]['PassiveSkillGroupId'][0], data)
+        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data)
 
         #print (passive_skill.name_translated)
         #try: data.translated_skills[group[0]['GroupId']]['NameEn']
         #except KeyError: 
         #    skill_name_en = None
         #else:  
-        #    skill_name_en = data.characters_skills[(character_id, False)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
+        #    skill_name_en = data.characters_skills[(costume['CharacterSkillListGroupId'], False)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
 
         rank2_desc = f'Passive Skill changes to <b>{weapon_passive_skill.name_translated}</b>'
 
@@ -584,30 +595,39 @@ class Weapon(object):
 
 
 class Gear(object):
-    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tier1_desc, tier2_desc, levels, effect_data):
+    def __init__(self, name_en, name_jp, desc_en, desc_jp, icon, tiers, tier1_desc, tier2_desc, effect_data, unlock_level):
         self.name_en = name_en
         self.name_jp = name_jp
         self.desc_en = desc_en
         self.desc_jp = desc_jp
         self.icon = icon
+        self.tiers = tiers
         self.tier1_desc = tier1_desc
         self.tier2_desc = tier2_desc
-        self.levels = levels
         self.effect_data = effect_data
+        self.unlock_level = unlock_level
+
 
     @classmethod
     def from_data(cls, character_id, data):
-        levels = {}
+        gear_tiers_data = [entry for entry in data.gear.values() if entry['CharacterId'] == character_id]
+        # if not gear:
+        #     raise KeyError(character_id)
 
-        for gear in data.gear:
-            if gear[0] == character_id:
-                levels[gear[1]] = {'stat_type':replace_statnames(data.gear[(character_id , gear[1])]['StatType']), 'stat_value':data.gear[(character_id , gear[1])]['MaxStatValue']}
+        tiers = [GearTier.from_data(tier, data) for tier in sorted(gear_tiers_data, key=operator.itemgetter('Tier'))]
+        unlock_level = tiers[0].unlock_favor
 
+        
+        stat_bonus_text = []
+        for index,stat_type in enumerate(tiers[0].stats['stat_type']):
+            stat_bonus_text.append(stat_type + " by {{SkillValue|" + str(tiers[0].stats['stat_value'][index]) + "}}")
 
-        tier1_desc = "Increase " + levels[1]['stat_type'][0] + " by {{SkillValue|" + str(levels[1]['stat_value']) + "}}"
+        tier1_desc = "Increase " + (" and ".join(stat_bonus_text))
         tier2_desc = 'Normal Skill changes to '
 
-        effect_data = {'stat_name': replace_statnames(levels[1]['stat_type'][0]), 'amount_base': str(levels[1]['stat_value'])}
+        effect_data = {'stat_name': tiers[0].stats['stat_type'][0], 'amount_base': str(tiers[0].stats['stat_value'][0])}
+
+        if 'NameEn' not in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]: print (f"Missing Unique Gear translation, LocalizeEtcId {data.gear[(character_id , 1)]['LocalizeEtcId']}")
 
         return cls(
             'NameEn' in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]] and data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['NameEn'] or None,
@@ -615,11 +635,49 @@ class Gear(object):
             'DescriptionEn' in data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]] and '<p>' + data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['DescriptionEn'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>' or None,
             '<p>' + data.etc_localization[data.gear[(character_id , 1)]["LocalizeEtcId"]]['DescriptionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             data.gear[(character_id , 1)]['Icon'].rsplit('/', 1)[-1],
+            tiers,
             tier1_desc,
             tier2_desc,
-            levels,
-            effect_data
+            effect_data,
+            unlock_level,
         )
+    
+
+class GearTier(object):
+    def __init__(self, tier, unlock_favor, materials, stats):
+        self.tier = tier
+        self.unlock_favor = unlock_favor
+        self.materials = materials
+        self.stats = stats
+
+    @classmethod
+    def from_data(cls, tier, data):
+        return cls(
+            tier['Tier'],
+            tier['OpenFavorLevel'],
+            tier['Tier']>1 and list(_get_recipe_materials(data.gear[(tier['CharacterId'], tier['Tier']-1)]['RecipeId'], data)) or None,
+            {'stat_type':replace_statnames(tier['StatType']), 'stat_value':tier['MaxStatValue']}
+        )
+
+
+def _get_recipe_materials(recipe_id, data):
+    recipe = data.recipes[recipe_id]
+    if recipe['RecipeType'] != 'EquipmentTierUp':
+        return
+
+    ingredients = data.recipes_ingredients[recipe['RecipeIngredientId']]
+    ingredients = itertools.chain(
+        zip(ingredients['IngredientParcelType'], ingredients['IngredientId'], ingredients['IngredientAmount']),
+        zip(ingredients['CostParcelType'], ingredients['CostId'], ingredients['CostAmount'])
+    )
+    for type_, id, amount in ingredients:
+        if type_ == 'Item':
+            #yield data.etc_localization[data.items[id]['LocalizeEtcId']]['NameEn'], data.items[id]['Icon'].rsplit('/', 1)[-1], amount
+            yield data.etc_localization[data.items[id]['LocalizeEtcId']]['NameEn'], amount
+        elif type_ == 'Currency':
+            #yield data.translated_currencies[id]['NameEn'], data.currencies[id]['Icon'].rsplit('/', 1)[-1], amount
+            yield data.translated_currencies[id]['NameEn'], amount
+            
         
 
 class Favor(object):
@@ -641,8 +699,9 @@ class Favor(object):
 
 
 class MemoryLobby(object):
-    def __init__(self, image, unlock_level):
+    def __init__(self, image, bgm_id, unlock_level):
         self.image = image
+        self.bgm_id = bgm_id
         self.unlock_level = unlock_level
 
 
@@ -658,6 +717,7 @@ class MemoryLobby(object):
         
         return cls(
             lobby_data['RewardTextureName'][lobby_data['RewardTextureName'].rfind('/')+1:],
+            lobby_data['BGMId'],
             unlock_level
         )
 
@@ -729,6 +789,7 @@ def statcalc_replace_statname(stat_name):
             'EnhanceExplosionRate':'',
             'EnhancePierceRate':'',
             'EnhanceMysticRate':'',
+            'WeaponRange':'weapon_range'
         }[stat_name]
 
 

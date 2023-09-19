@@ -1,0 +1,10 @@
+=={{boss_data['name']}}==
+{% raw %}{{% endraw %}| class="wikitable limitwidth-720 limitwidth-nomin"
+! colspan="2" style="padding:0" |{% raw %}{{{% endraw %}BossSplash|Image={{boss_data['portrait']}}.png|Background={{boss_data['portrait_bg']}}.png|Name={{boss_data['name']}}{% raw %}}}{% endraw %}
+|-
+!Server-wide HP
+| style="text-align:center;" |{{raid_group_data['WorldBossHP']|thousands}}
+|-
+!Victory Reward
+| style="text-align:center;" |{%- for reward in clear_rewards -%}{{wiki_itemformat(reward, Card.QUANTITY)}}{% endfor %}
+|{% raw %}}{% endraw %}

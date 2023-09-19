@@ -1,0 +1,396 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님 오셨군요.",
+            "LocalizeJP": "先生、来ましたか。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLogin_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "잠입 임무,\n준비는 완료했습니다.",
+            "LocalizeJP": "潜入任務、準備は\n完了しております。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "준비는 되어 있습니다.\n언제든지 지시를.",
+            "LocalizeJP": "準備はできています。\nいつでもご指示を。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLogin_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "여기에는, 뭔가 비밀이\n숨어있을 것 같군요.",
+            "LocalizeJP": "ここには、何か秘密が\n隠れていそうです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "혼란스러운 기분은\n이해합니다.\n하지만 저를 믿어 주세요.",
+            "LocalizeJP": "困惑する気持ちは\n分かります。ですが\n私を信じてください。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "저는 언제든지\n선생님 편입니다.",
+            "LocalizeJP": "私はいつでも\n先生の味方です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "모두, 차질없이\n정리되어 다행입니다.",
+            "LocalizeJP": "すべて、つつがなく\nまとまって何よりです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "이번 교훈을 바탕으로, 보다\n완벽한 에이전트를 목표로\n노력하도록 하겠습니다.",
+            "LocalizeJP": "今回の教訓を基に、より\n完璧なエージェントを\n目指し努めて参ります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "네. 선생님.\n무슨 일이신지요?",
+            "LocalizeJP": "はい、先生。\n何かありましたか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLobby_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "웃… 이 옷은,\n감각이 다이렉트로\n전해지네요…",
+            "LocalizeJP": "うっ…この服は、\n感覚がダイレクトに\n伝わりますね…",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLobby_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…소재가 얇으니까\n당연하겠지만요…",
+            "LocalizeJP": "…素材が薄いから、\n当然ですが…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "바니 슈트, 말인가요?",
+            "LocalizeJP": "バニースーツ、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLobby_3"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "메이드복과는\n다른 이점이 있어서,\n좋다고 생각합니다.",
+            "LocalizeJP": "メイド服とは\n異なる利点があって、\nよいと思っております。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "바니 모습,\n잘 어울린다, 고요?",
+            "LocalizeJP": "バニー姿、よく\n似合ってる、ですか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventLobby_4"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "음… 그, 감사, 합니다.\n칭찬받을 줄은,\n생각지도 못했네요…",
+            "LocalizeJP": "ん…その、\nありがとう、ございます。褒められるとは、\n思ってもおらず…。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님이시군요.\n오늘의 미션은, 이쪽입니다.",
+            "LocalizeJP": "先生でしたか。\n本日のミッションは、\nこちらになります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "미션은 중요 사항 중\n하나입니다.",
+            "LocalizeJP": "ミッションは\n重要事項の一つです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "오늘도 한 걸음씩,\n차근차근 나아갑시다.",
+            "LocalizeJP": "今日も一歩ずつ、\n着実に進んでいきましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "매일 부과되는 일과란,\n때로 부담스러운 것이기도 하죠.",
+            "LocalizeJP": "毎日課せられる日課は、\n時に負担に\nなることもあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "괜찮습니다, 제가 선생님의\n힘이 되어 드리겠습니다.",
+            "LocalizeJP": "大丈夫です、\n私が先生の力になります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "에이전트와 미션은\n떼려야 뗄 수 없는 관계.",
+            "LocalizeJP": "エージェントとミッションは、\n切っても切れない関係。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…즉 지금의 선생님은,\n에이전트이기도 하시다는 것이죠.",
+            "LocalizeJP": "…つまり今の先生は、\nエージェントでもあるという事です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오늘의 미션, 컴플리트입니다.\n수고하셨습니다, 선생님.",
+            "LocalizeJP": "本日のミッション、\nコンプリートです。\nお疲れ様でした、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "제가 보아도 상당히\n힘든 일정이었습니다.",
+            "LocalizeJP": "私からみてもかなり\nハードなスケジュールでした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "선생님은 역시 대단하십니다.",
+            "LocalizeJP": "さすがです、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "선생님이시군요.\n오늘의 미션은, 이쪽입니다.",
+            "LocalizeJP": "先生でしたか。\n本日のミッションは、\nこちらになります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Login_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "미션은 중요 사항 중\n하나입니다.",
+            "LocalizeJP": "ミッションは\n重要事項の一つです。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Login_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "오늘도 한 걸음씩,\n차근차근 나아갑시다.",
+            "LocalizeJP": "今日も一歩ずつ、\n着実に進んでいきましょう。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "매일 부과되는 일과란,\n때로 부담스러운 것이기도 하죠.",
+            "LocalizeJP": "毎日課せられる日課は、\n時に負担に\nなることもあります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "괜찮습니다, 제가 선생님의\n힘이 되어 드리겠습니다.",
+            "LocalizeJP": "大丈夫です、\n私が先生の力になります。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "에이전트와 미션은\n떼려야 뗄 수 없는 관계.",
+            "LocalizeJP": "エージェントとミッションは、\n切っても切れない関係。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…즉 지금의 선생님은,\n에이전트이기도 하시다는 것이죠.",
+            "LocalizeJP": "…つまり今の先生は、\nエージェントでもあるという事です。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "오늘의 미션, 컴플리트입니다.\n수고하셨습니다, 선생님.",
+            "LocalizeJP": "本日のミッション、\nコンプリートです。\nお疲れ様でした、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Get_1"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "제가 보아도 상당히\n힘든 일정이었습니다.",
+            "LocalizeJP": "私からみてもかなり\nハードなスケジュールでした。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0211_EventMission_Get_2"
+            ]
+        },
+        {
+            "CharacterId": 19009131,
+            "DialogCategory": "UIEventMiniGameMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "선생님은 역시 대단하십니다.",
+            "LocalizeJP": "さすがです、先生。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

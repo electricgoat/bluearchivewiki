@@ -66,6 +66,20 @@
         {
             "CharacterId": 10015,
             "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_Buffed_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
             "VoiceClip": "Arisu_Battle_Damage_1",
             "LocalizeJP": "",
             "LocalizeEN": ""
@@ -87,6 +101,13 @@
         {
             "CharacterId": 10015,
             "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_Defense_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
             "VoiceClip": "Arisu_Battle_In_1",
             "LocalizeJP": "アリスがここにいます アリスが手伝います。",
             "LocalizeEN": "Aris is here. Aris is here to help."
@@ -97,6 +118,20 @@
             "VoiceClip": "Arisu_Battle_In_2",
             "LocalizeJP": "光が道へと導くでしょう。",
             "LocalizeEN": "Light will lead the way."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_Move_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_Move_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10015,
@@ -136,6 +171,13 @@
         {
             "CharacterId": 10015,
             "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_Battle_TacticalAction_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
             "VoiceClip": "Arisu_Battle_TSA_1",
             "LocalizeJP": "合体！",
             "LocalizeEN": "Fusion!"
@@ -160,6 +202,13 @@
             "VoiceClip": "Arisu_Battle_Victory_2",
             "LocalizeJP": "勇気、それは最高の魔法です。",
             "LocalizeEN": "Courage is the ultimate magic."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Standard",
+            "VoiceClip": "Arisu_CommonSkill",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10015,

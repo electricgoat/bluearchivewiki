@@ -1,0 +1,10 @@
+{| class="wikitable stagetable limitwidth-720 limitwidth-nomin"
+!Battle Reward
+|-
+|{%- for reward in battle_end_rewards -%}{{wiki_itemformat(reward, Card.QUANTITY)}}{% endfor %}
+|-
+!Clear Reward
+|-
+|<div class="rewards" style="justify-content: center;">{%- for reward in rewards['Other'] -%}{{wiki_itemformat(reward, Card.PROBABILITY, Card.QUANTITY)}}{% endfor %}<div class="break"></div>{%- for reward in rewards['GachaGroup'] -%}{{wiki_itemformat(reward, Card.PROBABILITY, Card.QUANTITY)}}{% endfor %}</div>
+|}
+
