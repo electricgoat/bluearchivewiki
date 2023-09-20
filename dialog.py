@@ -236,10 +236,11 @@ def scavenge():
 
             lines = [x for x in parsed_section.tables[0].data() if re.search(r"\[\[File:(.+)\.ogg\]\]", x[1]) is not None]
             for line in lines:
-            
                 clip_name = f"{character.wiki_name.replace(' ', '_')}_{line[0]}"
+                line_jp = line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[2] is not None else ''
+                line_en = line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[3] is not None else ''
 
-                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n')})
+                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line_jp, "LocalizeEN":line_en})
 
             if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
