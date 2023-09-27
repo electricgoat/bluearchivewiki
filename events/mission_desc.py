@@ -22,6 +22,14 @@ item_types = {
         'Charm': 'Charm blueprints',
         'Watch': 'Watch blueprints',
         'Necklace': 'Necklace blueprints',
+        'Tier2Piece': 'Tier 2 equipment blueprints',
+        'Tier3Piece': 'Tier 3 equipment blueprints',
+        'Tier4Piece': 'Tier 4 equipment blueprints',
+        'Tier5Piece': 'Tier 5 equipment blueprints',
+        'Tier6Piece': 'Tier 6 equipment blueprints',
+        'Tier7Piece': 'Tier 7 equipment blueprints',
+        'Tier8Piece': 'Tier 8 equipment blueprints',
+        'Tier9Piece': 'Tier 9 equipment blueprints',
     }
 
 enemy_tags = {
@@ -447,6 +455,9 @@ def localize_GetEquipmentWithTagCount(mission):
 
     desc_jp = '$1を$2個獲得する'
     desc_en = 'Acquire $2 $1'
+
+    
+    if type(mission['CompleteConditionParameterName']) is list and len(mission['CompleteConditionParameterName'])==1: mission['CompleteConditionParameterName'] = mission['CompleteConditionParameterName'][0] 
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', item_types[mission['CompleteConditionParameterName']]).replace('$2',str(mission['CompleteConditionCount']))) 
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', item_types[mission['CompleteConditionParameterName']]).replace('$2',str(mission['CompleteConditionCount']))) 

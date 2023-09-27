@@ -1,0 +1,444 @@
+{
+    "DataList": [
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UITitle",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "블루 아카이브~.",
+            "LocalizeJP": "ブルーアーカイブ～。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Title"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "CharacterGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "어라, 데리러 와주신 검까? 말해줬으면 제가 갔을텐데~\n다시 한번, 트리니티 종합학원 정의실현부의 이치카임다.\n잘부탁드림다!",
+            "LocalizeJP": "あれっ、迎えに来てくれたっすか？言ってくれたらこっちから向かったのに～。改めまして、トリニティ総合学園、正義実現委員会のイチカっす。よろしくっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Gachaget"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "오, 여깁니까?\n선생님의 카페!",
+            "LocalizeJP": "おっ、ここっすか？\n先生のカフェ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Cafe_monolog_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "과연.\n이런 취향이셨군요…….",
+            "LocalizeJP": "なるほど、\nこういう趣味\nだったんすね……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Cafe_monolog_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "여긴\n평화로워서 좋네요!",
+            "LocalizeJP": "ここ、\n平和でいいっすね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Cafe_monolog_3"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "마음이 편해진다……",
+            "LocalizeJP": "落ち着く……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Cafe_monolog_4"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "Cafe",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "정리라도\n좀 도울까…….",
+            "LocalizeJP": "片付けでも\n手伝いますか……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Cafe_monolog_5"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서 오십쇼~ 선생님!\n오늘 하루도 힘내보죠!",
+            "LocalizeJP": "おかえりっす、先生！\n今日も一日、\n頑張っていくっすよ～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_LogIn_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "짜잔!\n이치카, 등장임다!",
+            "LocalizeJP": "じゃじゃーん！\nイチカ、登場っす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_LogIn_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "…가 아니라\n선생님의 등장임다!",
+            "LocalizeJP": "……じゃなく、\n先生の、登場っす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "이야~.\n여기 업무는 편함다.",
+            "LocalizeJP": "いや～\nここの仕事は楽っすね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Lobby_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아. 쉽다는 뜻은 아니었고요.\n방향성의 이야기.",
+            "LocalizeJP": "あ、簡単って意味じゃなくて、\n方向性の話っすよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "제일 힘든 건……\n싸움 말리는 일인 거 같슴다.",
+            "LocalizeJP": "一番大変なのは……\nケンカの仲裁っすかね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Lobby_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "오 선생님도요?\n동지네요.",
+            "LocalizeJP": "お、先生もっすか？\n仲間っすね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "모두들 너무 빡세게 말고,\n좀 대충하면 좋을 텐데….",
+            "LocalizeJP": "みんなも全力でやらないで、\nそこそこで\n留めればいいのに……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Lobby_3"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "저도 선생님처럼 짊어진다면…\n뭔가에 푹 빠질 수 있는겁니까?",
+            "LocalizeJP": "私も先生みたいに、\n背負うものができたら……\n何かに夢中になれるんすかね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Lobby_4"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "부탁임까?\n뭐든지 하겠슴다!",
+            "LocalizeJP": "頼み事っすか？\nなんでもするっすよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Lobby_5"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "시키는 대로 하는 건\n자신 있슴다!",
+            "LocalizeJP": "言われた通りに\n何かをするのは、\n自信あるっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "생신축하드립니다,\n선생님!!",
+            "LocalizeJP": "お誕生日おめでとうっす、\n先生！！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Season_Birthday_Player"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 100,
+            "LocalizeKR": "좋은 일 있으셨슴까?\n없으면 같이 만들러 갈까요?",
+            "LocalizeJP": "何かいいことあったんすか？\nなかったら、\n今から一緒に作りにいくっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "…음, 생일에,\n굳이 여기까지 온 이유,\n말임까?",
+            "LocalizeJP": "…ええと、誕生日に、\nわざわざここに来た理由、\nっすか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Season_Birthday"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Idle",
+            "GroupId": 200,
+            "LocalizeKR": "음...생일이니까,\n한번 와봤다…\n같은 느낌? 히히.",
+            "LocalizeJP": "そっすねぇ……\n誕生日だからこそ、\n来てみた……てきな？ひひ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "새해 복 많이 받으십쇼,\n선생님!",
+            "LocalizeJP": "明けましておめでとうっす、\n先生！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Season_NewYear"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 300,
+            "LocalizeKR": "올해야말로,\n느긋하게 보낼 수 있으면\n좋겠슴다!",
+            "LocalizeJP": "今年こそ、\nのんびりできるといいっすね！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "오늘은 아침부터\n정신이 없어서\n죄송합니다!",
+            "LocalizeJP": "今日は朝から\nバタバタしちゃってすみません！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Season_Xmas"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "정의실현부는\n여기저기서 불려가는\n경우가 많아서…",
+            "LocalizeJP": "正義実現委員会は\nあっちこっちから\n呼ばれることが多くて……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 400,
+            "LocalizeKR": "눈이 핑핑 돕니다~!",
+            "LocalizeJP": "目が回るっす～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "왠지 싫은 예감이 듬다…",
+            "LocalizeJP": "なんか嫌な\n予感がするっす……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_Season_Halloween"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobby",
+            "DialogCondition": "Enter",
+            "GroupId": 500,
+            "LocalizeKR": "근데 뭐,\n별로 괜찮지 않을까 싶슴다.\n하하!",
+            "LocalizeJP": "でもまあ、\n別に大丈夫じゃないっすかね？\nはは！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "WeaponGet",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "뭐랄까……. 참.\n좋게 봐 주시는 건 감사하지만, 저에게 그럴 가치가 있는지는 모르겠네요.\n그래도…… 기쁘네요. 정말로.",
+            "LocalizeJP": "なんというか……ええっと……\nこんなに良くしてもらえるのは、\nとてもありがたいのですけど、\n私にそんな価値があるかどうかは……。\nでも……嬉しいです。本当に。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_ExWeapon_Get"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "하하! 선생님,\n여김다! 이쪽!\n보입니까?",
+            "LocalizeJP": "はは！\n先生、こっちっす！こっち！\n見えるっすか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아ー이건 그냥\n풍선임다만…",
+            "LocalizeJP": "あーこれはただの\n風船っすけど……。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "왠지, 이걸 가지고 있으면\n놀이공원에서 신난 아이처럼\n보이네요…하하.",
+            "LocalizeJP": "なんだか、コレ持ってると\n遊園地ではしゃぐ子供みたいに\n見えちゃうっすね……はは。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "아! 제꺼 아님다!\n…그게, 어쩌다보니,\n잠깐.",
+            "LocalizeJP": "あ！私のじゃないっすよ！\n……その、成り行きで、\nちょっと。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "아, 어……\n그렇긴합니다만…\n어떻게 알았슴까?",
+            "LocalizeJP": "あ、あれっ……\nそうなんすけど……\nどうして分かるんすか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "뭐지…?\n얼굴에 티가났나…?",
+            "LocalizeJP": "なんでだろ……？\n顔に出ちゃってたとか……？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "뭐 상관없지…\n이 각도에서 선생님을 보는 건,\n처음임다.",
+            "LocalizeJP": "まぁいいや……\nこの角度から先生を見るのは、\n初めてっすね。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "시점이 다르면,\n보이는 방법도 달라지는 것\n같다고나 할까……",
+            "LocalizeJP": "視点が違うと、\n見え方も違ってくる\n気がするというか……",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "…왠지, 재밌슴다.",
+            "LocalizeJP": "……なんだか、面白いっす。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        },
+        {
+            "CostumeUniqueId": 1007701,
+            "DialogCategory": "UILobbySpecial",
+            "DialogCondition": "Idle",
+            "GroupId": 5,
+            "LocalizeKR": "이 느낌, 마음에 듬다!\n하하!",
+            "LocalizeJP": "この感じ、気に入ったっす！\n……はは！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": []
+        }
+    ]
+}

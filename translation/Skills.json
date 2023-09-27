@@ -4074,9 +4074,61 @@
             "GroupId": "CH0193ExtraPassive01",
             "NameEn": "Sports banquet",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0071Ex01",
+            "NameEn": "Excuse me for a moment",
+            "DescriptionEn": "Deal $1 damage to enemies within a cone-shaped area."
+        },
+        {
+            "GroupId": "CH0071Public01",
+            "NameEn": "Justice Actualization Committee contact network",
+            "DescriptionEn": "Every $1, add $2 to Sonic Efficiency for $3."
+        },
+        {
+            "GroupId": "CH0071Passive01",
+            "NameEn": "Sharp instincts",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0071WeaponPassive01",
+            "NameEn": "Sharp instincts +",
+            "DescriptionEn": "Increase Attack by $1.\nIncrease Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0071ExtraPassive01",
+            "NameEn": "Everybody has bad days",
+            "DescriptionEn": "When attacking enemies that are not in cover, deal $1 as additional damage."
+        },
+        
+        {
+            "GroupId": "CH0089Ex01",
+            "NameEn": "Giant Heel Crush",
+            "DescriptionEn": "For enemies within a circular area, decrease Defense by $1 for $2.\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0089Public01",
+            "NameEn": "That's an important message",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0089Passive01",
+            "NameEn": "Madman's strategy",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0089WeaponPassive01",
+            "NameEn": "Madman's strategy +",
+            "DescriptionEn": "Increase Critical Damage by $1.\nIncrease Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0089ExtraPassive01",
+            "NameEn": "Did the drill stop?",
+            "DescriptionEn": "Every $1 EX skill uses, deal $2 additional damage."
         }
 
-
+        
 
     ]
 }

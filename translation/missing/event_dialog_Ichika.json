@@ -1,0 +1,196 @@
+{
+    "DataList": [
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "어서오십쇼~!\n준비는 다 돼 있슴다!",
+            "LocalizeJP": "ようこそ！こっちは\n準備万端っすよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLogin_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "자, 슬슬 시작함다!",
+            "LocalizeJP": "さて、ぼちぼち\n始めるっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLogin_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 3,
+            "LocalizeKR": "앞으로 반, 남았을까요?",
+            "LocalizeJP": "これであと半分、\nっすかね？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLogin_Season_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 4,
+            "LocalizeKR": "거의 다 왔슴다.\n도울 수 있는 것이 있다면\n뭐든지 말해주십쇼!",
+            "LocalizeJP": "あと少しっすね。\n手伝えるものがあれば、\nなんでも\n言ってほしいっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLogin_Season_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Enter",
+            "GroupId": 5,
+            "LocalizeKR": "그럼, 한번 둘러보겠슴다!",
+            "LocalizeJP": "じゃ、さーっと\n見てみるっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLogin_Season_End"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "아, 네. 여기 있슴다.",
+            "LocalizeJP": "はい、私はここっすよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLobby_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "음…?\n아까부터 왜 그러십니까?",
+            "LocalizeJP": "ん……？\nさっきから\nどうしたんすか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLobby_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 3,
+            "LocalizeKR": "그런 장난은 좋지 않슴다~.\n히히.",
+            "LocalizeJP": "そんなイタズラ、\nよくないっすよ～\nひひっ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLobby_3"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventLobby",
+            "DialogCondition": "Idle",
+            "GroupId": 4,
+            "LocalizeKR": "하하, 선생님 그렇게 몇번이고\n부르지 않으셔도 됩니다.\n저는 여기서 상시 대기하고\n있슴다.",
+            "LocalizeJP": "はは、先生、そんな\n何度も呼ばなくても。\n私はここで\n常時待機してるっすよ。",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventLobby_4"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 1,
+            "LocalizeKR": "헉! 선생님!\n딱 좋은 타이밍에!",
+            "LocalizeJP": "はっ！先生！\nちょうどいいところに！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_Login_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Enter",
+            "GroupId": 2,
+            "LocalizeKR": "리스트 체크 하실거죠?\n이쪽에 준비해놨슴다!",
+            "LocalizeJP": "リストのチェックっすね？\nこっちに用意してありますんで！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_Login_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 1,
+            "LocalizeKR": "앗! 뭐 하시는 겁니까, 선생님.\n저도 똑같이 해버릴 검다?",
+            "LocalizeJP": "おっと！なんすか、先生。\n同じこと、やり返しちゃっても\nいいんすか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Idle",
+            "GroupId": 2,
+            "LocalizeKR": "…다음엔, 각오해 두십쇼!",
+            "LocalizeJP": "……今度、\n覚悟しておくっすよ！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 1,
+            "LocalizeKR": "네! 확인했슴다~!",
+            "LocalizeJP": "はい！確認完了っす～！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_Get_1"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Buy",
+            "GroupId": 2,
+            "LocalizeKR": "좋네요~! 체크해 놓겠슴다!",
+            "LocalizeJP": "それっすか？\n押さえておくっす！",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_Get_2"
+            ]
+        },
+        {
+            "CostumeUniqueId": 1900918001,
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "GroupId": 1,
+            "LocalizeKR": "오늘은 이걸로 끝!\n하핫! 선생님. 이제 뭐 하실 겁니까?",
+            "LocalizeJP": "今日はこれで終わりっと！\nははっ！先生、この後は\n何するんすか？",
+            "LocalizeEN": "",
+            "VoiceClipsJp": [
+                "CH0071_EventMission_Day_End"
+            ]
+        }
+    ]
+}

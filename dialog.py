@@ -128,7 +128,6 @@ def generate():
 
         memorial_lines += get_memorial_lines(character, data.character_dialog)
 
-
         for id in character_variation_ids:
             lines_list = []
             character_variant = copy.copy(character)
