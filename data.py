@@ -318,7 +318,7 @@ def load_levelskill(path):
             skill_info = json.load(f)
 
             if (type(skill_info) is list): data[skill_info[0]['GroupName']] = skill_info[0] #pre-1.35
-            elif (type(skill_info) is dict): data[skill_info['GroupName']] = skill_info
+            elif (type(skill_info) is dict): data[skill_info['SkillDataKey']] = skill_info
             else: print(f"ERROR - file {file} with unknown data of type {type(skill_info)}")
 
     return data

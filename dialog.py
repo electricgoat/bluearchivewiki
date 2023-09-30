@@ -132,9 +132,11 @@ def generate():
             lines_list = []
             character_variant = copy.copy(character)
             character_variant.id = id
+            character_variant.costume =  data.costumes[data.characters[id]['CostumeGroupId']]
+
             lines_list = get_dialog_lines(character_variant, data.character_dialog_event)
             if len(lines_list)>0: event_lines.extend(lines_list)
-            
+
 
         #deduplicate event rerun lines
         for line in [x for x in event_lines if x['EventID']>10000]:
@@ -343,7 +345,7 @@ def merge_followup(index, dialog_data):
     except IndexError: 
         return current
     
-    if current['CharacterId'] == next['CharacterId'] and current['GroupId'] == next['GroupId'] and current['DialogCategory'] == next['DialogCategory'] and next['VoiceClipsJp'] == []:
+    if current['CostumeUniqueId'] == next['CostumeUniqueId'] and current['GroupId'] == next['GroupId'] and current['DialogCategory'] == next['DialogCategory'] and next['VoiceClipsJp'] == []:
         next = merge_followup(index + 1, dialog_data)
         if 'LocalizeEN' not in current or current['LocalizeEN'] == None: current['LocalizeEN'] = ''
         if 'LocalizeEN' not in next or next['LocalizeEN'] == None: next['LocalizeEN'] = ''

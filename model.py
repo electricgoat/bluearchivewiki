@@ -403,24 +403,24 @@ class Skill(object):
         if group_id.find('Passive') > -1 and group_id.find('ExtraPassive') == -1:
             effect_data = {}
             #print(f'Parsing skill {group_id}')
-        #     for effect in data.levelskill[group_id]['EntityTimeline'][len(data.levelskill[group_id]['EntityTimeline'])-2]['Entity']['Abilities'][0]['LogicEffectGroupIds']:
-        #         amount_base = []
-        #         amount_percentage = []
+            for effect in data.levelskill[group_id]['EntityTimeline'][len(data.levelskill[group_id]['EntityTimeline'])-2]['Entity']['Abilities'][0]['LogicEffectGroupIds']:
+                amount_base = []
+                amount_percentage = []
 
-        # #TODO Sakurako update broke this, figure it out, she doesn't seem to have CH0067_Passive01_Effect01_Lv2
-        #         if data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
-        #             for lv in range(1,11):
-        #                 if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
-        #                 else: amount_base.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['BaseAmount'])
+        #TODO Sakurako update broke this, figure it out, she doesn't seem to have CH0067_Passive01_Effect01_Lv2
+                if data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
+                    for lv in range(1,11):
+                        if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
+                        else: amount_base.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['BaseAmount'])
                         
-        #                 if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['TargetCoefficientAmount'])
-        #                 else: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['TargetCoefficientAmount'])
-        #             if amount_base[9] == '0': amount_base = None
-        #             if amount_percentage[9] == '0': amount_percentage = None
+                        if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['TargetCoefficientAmount'])
+                        else: amount_percentage.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['TargetCoefficientAmount'])
+                    if amount_base[9] == '0': amount_base = None
+                    if amount_percentage[9] == '0': amount_percentage = None
 
-        #             effect_data[effect] = {'stat_name': statcalc_replace_statname(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['StatType']), 'amount_base': amount_base, 'amount_percentage': amount_percentage}
+                    effect_data[effect] = {'stat_name': statcalc_replace_statname(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['StatType']), 'amount_base': amount_base, 'amount_percentage': amount_percentage}
                 
-        #     #print(effect_data)
+            #print(effect_data)
         
 
         return cls(
