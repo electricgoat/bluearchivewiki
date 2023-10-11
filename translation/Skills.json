@@ -4126,6 +4126,32 @@
             "GroupId": "CH0089ExtraPassive01",
             "NameEn": "Did the drill stop?",
             "DescriptionEn": "Every $1 EX skill uses, deal $2 additional damage."
+        },
+
+        {
+            "GroupId": "CH0123Ex01",
+            "NameEn": "Shigure Special Fruit Milk",
+            "DescriptionEn": "Recover HP by $2 of Healing for all allies within a circular area every $1 for $3."
+        },
+        {
+            "GroupId": "CH0123Public01",
+            "NameEn": "How about a bite?",
+            "DescriptionEn": "Every $1, heal 4 allies with the lowest HP by $2 of Healing."
+        },
+        {
+            "GroupId": "CH0123Passive01",
+            "NameEn": "Warm four-and-a-half tatami room",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0123WeaponPassive01",
+            "NameEn": "Warm four-and-a-half tatami room +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0123ExtraPassive01",
+            "NameEn": "Tangy flavor",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
 
         
