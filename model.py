@@ -38,7 +38,7 @@ CLUBS = {
             'TheSeminar': 'Seminar',
             'AriusSqud': 'Arius Squad',
             'PublicPeaceBureau':'Public Peace Bureau',
-            'HotSpringsDepartment':'Hot Springs Department',
+            'HotSpringsDepartment':'Hot Springs Development Department',
             'TeaParty':'Tea Party',
             'Genryumon': 'Genryumon',
             'BlackTortoisePromenade': 'Black Tortoise Promenade',
@@ -262,6 +262,7 @@ class Profile(object):
         release_date_jp = 'ReleaseDateJp' in localization and localization['ReleaseDateJp'] or ''
         release_date_gl = 'ReleaseDateGl' in localization and localization['ReleaseDateGl'] or ''
 
+        if profile['DesignerNameJp'] not in localized_strings['DesignerName'] or profile['IllustratorNameJp'] not in localized_strings['IllustratorName']:  print (f"Possible mistranslation {localization['PersonalNameEn'].ljust(10)}: {(profile['DesignerNameJp']+'/'+localized_strings['DesignerName']).ljust(45)} {profile['IllustratorNameJp']}/{localized_strings['IllustratorName']}")
 
         #translator = Translator()
         #

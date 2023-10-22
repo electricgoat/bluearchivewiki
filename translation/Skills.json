@@ -1629,7 +1629,7 @@
         {
             "GroupId": "CH0072Ex01",
             "NameEn": "Holy blessing",
-            "DescriptionEn": "Grant a shield to an ally (shield HP is $1 of Healing) and clear all debuffs. (Duration: $2)"
+            "DescriptionEn": "Grant a shield of $1 Healing to an ally for $2, and cleanse $3 debuff from them."
         },
         {
             "GroupId": "CH0072Public01",
@@ -4074,9 +4074,87 @@
             "GroupId": "CH0193ExtraPassive01",
             "NameEn": "Sports banquet",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0071Ex01",
+            "NameEn": "Excuse me for a moment",
+            "DescriptionEn": "Deal $1 damage to enemies within a cone-shaped area."
+        },
+        {
+            "GroupId": "CH0071Public01",
+            "NameEn": "Justice Actualization Committee contact network",
+            "DescriptionEn": "Every $1, add $2 to Sonic Efficiency for $3."
+        },
+        {
+            "GroupId": "CH0071Passive01",
+            "NameEn": "Sharp instincts",
+            "DescriptionEn": "Increase Accuracy by $1."
+        },
+        {
+            "GroupId": "CH0071WeaponPassive01",
+            "NameEn": "Sharp instincts +",
+            "DescriptionEn": "Increase Attack by $1.\nIncrease Accuracy by $2."
+        },
+        {
+            "GroupId": "CH0071ExtraPassive01",
+            "NameEn": "Everybody has bad days",
+            "DescriptionEn": "When attacking enemies that are not in cover, deal $1 as additional damage."
+        },
+        
+        {
+            "GroupId": "CH0089Ex01",
+            "NameEn": "Giant Heel Crush",
+            "DescriptionEn": "For enemies within a circular area, decrease Defense by $1 for $2.\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0089Public01",
+            "NameEn": "That's an important message",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0089Passive01",
+            "NameEn": "Madman's strategy",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0089WeaponPassive01",
+            "NameEn": "Madman's strategy +",
+            "DescriptionEn": "Increase Critical Damage by $1.\nIncrease Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0089ExtraPassive01",
+            "NameEn": "Did the drill stop?",
+            "DescriptionEn": "Every $1 EX skill uses, deal $2 additional damage."
+        },
+
+        {
+            "GroupId": "CH0123Ex01",
+            "NameEn": "Shigure Special Fruit Milk",
+            "DescriptionEn": "Recover HP by $2 of Healing for all allies within a circular area every $1 for $3."
+        },
+        {
+            "GroupId": "CH0123Public01",
+            "NameEn": "How about a bite?",
+            "DescriptionEn": "Every $1, heal 4 allies with the lowest HP by $2 of Healing."
+        },
+        {
+            "GroupId": "CH0123Passive01",
+            "NameEn": "Warm four-and-a-half tatami room",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0123WeaponPassive01",
+            "NameEn": "Warm four-and-a-half tatami room +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0123ExtraPassive01",
+            "NameEn": "Tangy flavor",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
 
-
+        
 
     ]
 }

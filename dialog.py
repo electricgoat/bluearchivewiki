@@ -128,14 +128,15 @@ def generate():
 
         memorial_lines += get_memorial_lines(character, data.character_dialog)
 
-
         for id in character_variation_ids:
             lines_list = []
             character_variant = copy.copy(character)
             character_variant.id = id
+            character_variant.costume =  data.costumes[data.characters[id]['CostumeGroupId']]
+
             lines_list = get_dialog_lines(character_variant, data.character_dialog_event)
             if len(lines_list)>0: event_lines.extend(lines_list)
-            
+
 
         #deduplicate event rerun lines
         for line in [x for x in event_lines if x['EventID']>10000]:
@@ -236,10 +237,11 @@ def scavenge():
 
             lines = [x for x in parsed_section.tables[0].data() if re.search(r"\[\[File:(.+)\.ogg\]\]", x[1]) is not None]
             for line in lines:
-            
                 clip_name = f"{character.wiki_name.replace(' ', '_')}_{line[0]}"
+                line_jp = line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[2] is not None else ''
+                line_en = line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[3] is not None else ''
 
-                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n'), "LocalizeEN":line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n')})
+                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line_jp, "LocalizeEN":line_en})
 
             if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
@@ -343,7 +345,7 @@ def merge_followup(index, dialog_data):
     except IndexError: 
         return current
     
-    if current['CharacterId'] == next['CharacterId'] and current['GroupId'] == next['GroupId'] and current['DialogCategory'] == next['DialogCategory'] and next['VoiceClipsJp'] == []:
+    if current['CostumeUniqueId'] == next['CostumeUniqueId'] and current['GroupId'] == next['GroupId'] and current['DialogCategory'] == next['DialogCategory'] and next['VoiceClipsJp'] == []:
         next = merge_followup(index + 1, dialog_data)
         if 'LocalizeEN' not in current or current['LocalizeEN'] == None: current['LocalizeEN'] = ''
         if 'LocalizeEN' not in next or next['LocalizeEN'] == None: next['LocalizeEN'] = ''
