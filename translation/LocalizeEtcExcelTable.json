@@ -6345,7 +6345,397 @@
             "DescriptionJp": "色々と意味深なハナコの愛蔵書。よく没収されているが、ハナコはそのたび、様々な方法で取り戻している。",
             "NameEn": "Dubious literature",
             "DescriptionEn": "Hanako's dearly loved book, in many ways. It is often confiscated, but Hanako somehow manages to get it back every time."
-          }
+        },
+        {
+            "Id": 2860754489,
+            "NameJp": "設備部品",
+            "NameEn": "Equipment Parts",
+            "DescriptionJp": "ミレニアム廃墟の設備を修理するための部品。廃墟のいたるところで入手でき、集めて設備を作動させることができる。",
+            "DescriptionEn": "Parts for repairing Millennium Ruins equipment. They can be found throughout the ruins and can be collected to activate equipment."
+        },
+        {
+            "Id": 3572927324,
+            "NameJp": "変わった形のネジ",
+            "NameEn": "Strange Shaped Screws",
+            "DescriptionJp": "多少変わった形をしたネジ。ミレニアム廃墟の機器に使用されている。",
+            "DescriptionEn": "A screw with a slightly unusual shape. Used in equipment in the Millennium Ruins."
+        },
+        {
+            "Id": 3819866792,
+            "NameJp": "珍しいケーブル",
+            "NameEn": "Unusual Cable",
+            "DescriptionJp": "ミレニアム廃墟でしか見られない珍しいケーブル。状態は良好だ。",
+            "DescriptionEn": "A rare cable that can only be seen in the Millennium Ruins. It's in good condition."
+        },
+        {
+            "Id": 374437121,
+            "NameJp": "未確認データチップ",
+            "NameEn": "Unidentified data chip",
+            "DescriptionJp": "ミレニアム廃墟の設備を解析するためのデータ。様々な情報が盛り込まれている。",
+            "DescriptionEn": "Data for analyzing the facilities of the Millennium Ruins. Contains a variety of information."
+        },
+        {
+            "Id": 3948852357,
+            "NameJp": "デパートのモダンブティックショーケース",
+            "NameEn": "",
+            "DescriptionJp": "モダンな印象のブティックショーケース。すっきりとした並べ方が目を引く。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3493255660,
+            "NameJp": "デパートシリーズ",
+            "NameEn": "",
+            "DescriptionJp": "エレガントなブランド品から可愛らしい小物、子供の遊び場まで！すべてを楽しめるデパートに是非お越しください！",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2858536165,
+            "NameJp": "デパートシリーズ",
+            "NameEn": ""
+        },
+        {
+            "Id": 2843447104,
+            "NameJp": "デパートのモダンバッグショーケース",
+            "NameEn": "",
+            "DescriptionJp": "目玉商品を並べるためのモダンバッグショーケース。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1029383789,
+            "NameJp": "デパートのデザイナーソファ",
+            "NameEn": "",
+            "DescriptionJp": "実用性もあるデザイナーズソファ。ひと休みしたい時に欠かせない。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3298716052,
+            "NameJp": "デパートのデザイナー椅子",
+            "NameEn": "",
+            "DescriptionJp": "両側に寄りかかって休めるよう設計された多人数用の椅子。休むときも優雅に。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3000301457,
+            "NameJp": "デパートの買い物かご置き場",
+            "NameEn": "",
+            "DescriptionJp": "かごがきれいに並べられた買い物かご置き場。たくさんのお買い物のお供に。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3517538403,
+            "NameJp": "デパートの最新雑誌棚",
+            "NameEn": "",
+            "DescriptionJp": "最新号が並んでいる棚。流行の最先端を要チェック。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 422081260,
+            "NameJp": "デパートの絵本棚",
+            "NameEn": "",
+            "DescriptionJp": "子供の身長に合わせた可愛らしい絵本棚。下には収納も可能だ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2058089340,
+            "NameJp": "デパートのモダン大理石柄カーペット",
+            "NameEn": "",
+            "DescriptionJp": "モダンな大理石柄のカーペット。重厚な雰囲気を醸し出すのに最適。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 966592390,
+            "NameJp": "デパートのロングモダン大理石柄カーペット",
+            "NameEn": "",
+            "DescriptionJp": "モダンな大理石柄のカーペット。敷くだけで高級感がある。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1110368262,
+            "NameJp": "デパートのコンフォートベージュカーペット",
+            "NameEn": "",
+            "DescriptionJp": "目に優しいコンフォートベージュカーペット。ゆったりとした気分になれる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 996442753,
+            "NameJp": "デパートのキディーチェック柄カーペット",
+            "NameEn": "",
+            "DescriptionJp": "チェック柄がキュートな印象のキディーチェック柄カーペット。クッション性があり、子供たちに人気だ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2253191261,
+            "NameJp": "ホワイトレザークッションチェア",
+            "NameEn": "",
+            "DescriptionJp": "柔らかなレザーで仕上げられたホワイトレザークッションチェア。座った瞬間からあなたが主役だ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 303399993,
+            "NameJp": "モモフレンズの立て看板",
+            "NameEn": "",
+            "DescriptionJp": "かわいいモモフレンズに会える立て看板。デパートの人気フォトスポットだ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 11622143,
+            "NameJp": "デパートのフェンス",
+            "NameEn": "",
+            "DescriptionJp": "すっきりとしたデザインが際立つデパートのフェンス。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3928902562,
+            "NameJp": "デパートのムードライト",
+            "NameEn": "",
+            "DescriptionJp": "エレガントなデザインのムードライト。雰囲気を変えてくれる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2923636030,
+            "NameJp": "デパートのシルバーパーテーション",
+            "NameEn": "",
+            "DescriptionJp": "クールでピュアな雰囲気のシルバーのパーテーション。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3347896372,
+            "NameJp": "デパートのゴールドパーテーション",
+            "NameEn": "",
+            "DescriptionJp": "情熱的で華やかな雰囲気のゴールドのパーテーション。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 93532265,
+            "NameJp": "デパートのさわやかなナチュラルソファ",
+            "NameEn": "",
+            "DescriptionJp": "リラックスできるさわやかなソファ。青い光が安らぎを与えてくれる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3655403000,
+            "NameJp": "デパートのスポットライト",
+            "NameEn": "",
+            "DescriptionJp": "商品の魅力を引き出してくれるスポットライト。この下に置いた商品は必ず売り切れになるのだとか。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2506675602,
+            "NameJp": "デパートのワイドテーブル",
+            "NameEn": "",
+            "DescriptionJp": "シンプルなデザインのワイドテーブル。どの空間にもよく馴染む。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3920217594,
+            "NameJp": "デパートのモモフレンズのネオン壁飾り",
+            "NameEn": "",
+            "DescriptionJp": "可愛くスタイリッシュなモモフレンズのネオン壁飾り。ファンに大人気!",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2425908298,
+            "NameJp": "デパートのベーシック柱",
+            "NameEn": "",
+            "DescriptionJp": "純白のホワイト、威厳を表すブラックのアンダーバー、その間に交差するゴールドが印象的なベーシック柱。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 411585928,
+            "NameJp": "デパートの実用書棚",
+            "NameEn": "",
+            "DescriptionJp": "教養を求める人のための実用書棚。ファッションから最新の経済書まで幅広い。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3855951081,
+            "NameJp": "デパートのキューティエレガントソファ",
+            "NameEn": "",
+            "DescriptionJp": "可愛さとエレガンスは共存できるのか？このソファがその答えを提示してくれるだろう。誰もが座りたがるソファ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 988814768,
+            "NameJp": "デパートのモモフレンズのハンガーラック",
+            "NameEn": "",
+            "DescriptionJp": "モモフレンズの帽子や服、スリッパが詰まったモモフレンズのハンガーラック。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3766457455,
+            "NameJp": "デパートの高級更衣室",
+            "NameEn": "",
+            "DescriptionJp": "何着でも試着できるデパートの高級更衣室。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3091049367,
+            "NameJp": "デパートのシンプルフルーツショーケース",
+            "NameEn": "",
+            "DescriptionJp": "旬のフルーツが並ぶショーケース。近づくと甘い香りが漂う。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3221041640,
+            "NameJp": "デパートのネイチャーガーデン",
+            "NameEn": "",
+            "DescriptionJp": "自然の美しさを感じられるネイチャーガーデン。空間に爽やかさを足してくれる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3195263895,
+            "NameJp": "デパートのモダン電子案内板",
+            "NameEn": "",
+            "DescriptionJp": "道に迷ったらここへ！丁寧に案内してくれるモダンな電子案内板。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1303798775,
+            "NameJp": "デパートのモモフレンズパーテーション",
+            "NameEn": "",
+            "DescriptionJp": "モモフレンズがパーテーションになって登場！可愛い上に実用的で嬉しいパーテーション。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 362684567,
+            "NameJp": "デパートのエレガント香水ショーケース",
+            "NameEn": "",
+            "DescriptionJp": "試香から包装までできるエレガントな香水のショーケース。近くにいるだけで香りが伝わってくる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1456098985,
+            "NameJp": "デパートのエレガントシューズショーケース",
+            "NameEn": "",
+            "DescriptionJp": "コーナースペースを活用したエレガントなデパートのシューズショーケース。実用性と美しさを両立させている。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 935678649,
+            "NameJp": "デパートのエレガントバッグショーケース",
+            "NameEn": "",
+            "DescriptionJp": "コーナーにも商品を並べられるように作られたエレガントなバッグのショーケース。巧みな配置がポイント。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3624370282,
+            "NameJp": "デパートのエレガント衣類ショーケース",
+            "NameEn": "",
+            "DescriptionJp": "下には衣類を並べ、上にはアクセサリーを陳列するエレガントな衣類ショーケース。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2104197048,
+            "NameJp": "デパートのエレガントブランドショーケース",
+            "NameEn": "",
+            "DescriptionJp": "美しさを重視したエレガントなブランドショーケース。商品一つ一つが際立っていて目を引く。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2327997342,
+            "NameJp": "デパートのモモフレンズおもちゃショーケース",
+            "NameEn": "",
+            "DescriptionJp": "子供たちの目を引くモモフレンズのおもちゃショーケース。チマチマしたおもちゃが可愛い。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 84164281,
+            "NameJp": "デパートの高級大理石タイル",
+            "NameEn": "",
+            "DescriptionJp": "デパートの雰囲気を構成している高級大理石タイル。優雅さと清潔感を同時に与えてくれる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3072281616,
+            "NameJp": "デパートのラグジュアリー壁紙",
+            "NameEn": "",
+            "DescriptionJp": "大胆な構成とゴールドのラインが際立つラグジュアリーな壁紙。一緒に置かれた商品を引き立たせる。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3758863591,
+            "NameJp": "デパートのラグジュアリー背景",
+            "NameEn": "",
+            "DescriptionJp": "ラグジュアリーな柄が美しく刺繍された背景。エレガントな雰囲気が漂う。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2538482771,
+            "NameJp": "デパートのモモフレンズのプール",
+            "NameEn": "",
+            "DescriptionJp": "デパートを訪れた子供たちにとって夢のような空間、モモフレンズプール。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 421326092,
+            "NameJp": "デパートのモモフレンズ台",
+            "NameEn": "",
+            "DescriptionJp": "モモフレンズグッズを購入できるモモフレンズ台。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 792048723,
+            "NameJp": "デパートのモモフレンズのクッションショーケース",
+            "NameEn": "",
+            "DescriptionJp": "ふわふわモモフレンズの仲間がいっぱい！あなたはどれを選ぶ？モモフレンズクッションのショーケース。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2859769149,
+            "NameJp": "デパートのラグジュアリースペシャルショーケース",
+            "NameEn": "",
+            "DescriptionJp": "商品を美しく引き立たせるラグジュアリーなスペシャルショーケース。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1158553897,
+            "NameJp": "デパートの大型ショーケース",
+            "NameEn": "",
+            "DescriptionJp": "フルーツや商品がたくさん並べられるすっきりとしたショーケース。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 657013837,
+            "NameJp": "デパートのウェーブキャット自動販売機",
+            "NameEn": "",
+            "DescriptionJp": "ウェーブキャットが描かれた自販機。お客さんに大人気！",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 659331947,
+            "NameJp": "デパートのワイドウィンドウ",
+            "NameEn": "",
+            "DescriptionJp": "たまには空でも見よう。外の景色を眺めることができるワイドウィンドウ。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 1445269164,
+            "NameJp": "折り紙テーブル",
+            "NameEn": "",
+            "DescriptionJp": "心に癒やしをもたらす古風な折り紙用のテーブル。お嬢様の密やかな趣味の場。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 2764760079,
+            "NameJp": "モモフレンズのグッズ台",
+            "NameEn": "",
+            "DescriptionJp": "モモフレンズのグッズがずらりと並ぶ台。誰もがその可愛さに惹かれて見入ってしまう。",
+            "DescriptionEn": ""
+        },
+        {
+            "Id": 3954747188,
+            "NameJp": "フレッシュショップテーブル",
+            "NameEn": "Fresh Shop Table",
+            "DescriptionJp": "清潔感と自然の融合！フレッシュなショップテーブル。フレッシュフルーツで一服いかが？",
+            "DescriptionEn": "A fusion of cleanliness and nature! Fresh shop table. How about some fresh fruit?"
+        },
+        {
+            "Id": 1783190384,
+            "NameJp": "タロットテーブル",
+            "NameEn": "Tarot Table",
+            "DescriptionJp": "運命のカードをいざ！一度は引いてみたくなるタロットテーブル。",
+            "DescriptionEn": "The cards of destiny! A table with a tarot deck that you will want to try at least once."
+        }
         
 
 
