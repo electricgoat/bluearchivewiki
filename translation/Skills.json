@@ -854,6 +854,11 @@
             "DescriptionEn": "Every $1, increase Attack by $2. (Duration: $3)"
         },
         {
+            "GroupId": "SumireGearPublic01",
+            "NameEn": "Warming Up +",
+            "DescriptionEn": "Every $1, increase Attack by $2. (Duration: $3)\nIncrease Defense by $4. (Duration: $5)"
+        },
+        {
             "GroupId": "SumirePassive01",
             "NameEn": "Pinpoint Attack",
             "DescriptionEn": "Increase HP by $1."
@@ -1477,6 +1482,11 @@
             "DescriptionEn": "Every $1, increase Defense of an ally with the lowest HP by $2. (Duration: $3)"
         },
         {
+            "GroupId": "CH0055GearPublic01",
+            "NameEn": "Beco~me tougher♪ +",
+            "DescriptionEn": "Every $1, increase Defense of two allies with the lowest HP by $2. (Duration: $3)\nRecover HP for $4 of Healing."
+        },
+        {
             "GroupId": "CH0055Passive01",
             "NameEn": "I'm feeling pumped up!",
             "DescriptionEn": "Increase Hanako's Healing by $1."
@@ -1919,6 +1929,11 @@
         {
             "GroupId": "CH0062Public01",
             "NameEn": "Sweet and sour and delicious!",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0062GearPublic01",
+            "NameEn": "Sweet and sour and delicious! +",
             "DescriptionEn": "Every $1, increase Attack by $2 for $3."
         },
         {
@@ -2370,6 +2385,11 @@
             "GroupId": "CH0142Public01",
             "NameEn": "Claymore",
             "DescriptionEn": "Every $1, 5 fragments are scattered from a small claymore, each dealing $2 damage."
+        },
+        {
+            "GroupId": "CH0142GearPublic01",
+            "NameEn": "Claymore +",
+            "DescriptionEn": "Every $1, 5 fragments are scattered from a small claymore, each dealing $2 damage.\nIncrease CC Resistance by $3 for $4."
         },
         {
             "GroupId": "CH0142Passive01",
@@ -4152,6 +4172,84 @@
             "GroupId": "CH0123ExtraPassive01",
             "NameEn": "Tangy flavor",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH9996Ex01",
+            "NameEn": "Full swing",
+            "DescriptionEn": "Deal $1 damage to enemies in a circular area."
+        },
+        {
+            "GroupId": "CH9996Public01",
+            "NameEn": "Secret mackerel curry",
+            "DescriptionEn": "Every $1, increase Attack of one ally by $2 for $3.\nEvery time Ruiko uses a Normal skill, the number of targets increases by 1 (up to a maximum of 3)."
+        },
+        {
+            "GroupId": "CH9996Passive01",
+            "NameEn": "Going all out!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH9996WeaponPassive01",
+            "NameEn": "Going all out! +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH9996ExtraPassive01",
+            "NameEn": "Me too!",
+            "DescriptionEn": "Increase Attack of all allies  by $1."
+        },
+
+        {
+            "GroupId": "CH9997Ex01",
+            "NameEn": "Mental Out",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nConfuse the target and two closest enemies within a circular area for $2."
+        },
+        {
+            "GroupId": "CH9997Public01",
+            "NameEn": "Would you help me out a little?",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH9997Passive01",
+            "NameEn": "Queen of Tokiwadai",
+            "DescriptionEn": "Increase CC Strength by $1."
+        },
+        {
+            "GroupId": "CH9997WeaponPassive01",
+            "NameEn": "Queen of Tokiwadai +",
+            "DescriptionEn": "Increase Attack by $1. Increase CC Strength by $2."
+        },
+        {
+            "GroupId": "CH9997ExtraPassive01",
+            "NameEn": "I'm the smartest here",
+            "DescriptionEn": "Every time Shokuhou Misaki's EX skill applies Confusion to an enemy, increase Defense and Evasion by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH9998Ex01",
+            "NameEn": "Tokiwadai Railgun",
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line."
+        },
+        {
+            "GroupId": "CH9998Public01",
+            "NameEn": "It's going to tingle!",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area.\nApply $3 continuous electric shock damage for $4."
+        },
+        {
+            "GroupId": "CH9998Passive01",
+            "NameEn": "Electromaster",
+            "DescriptionEn": "Increase Accuracy by $1.\nIgnore Shokuhou Misaki's Confusion effect."
+        },
+        {
+            "GroupId": "CH9998WeaponPassive01",
+            "NameEn": "Electromaster +",
+            "DescriptionEn": "Increase Attack by $1. Increase Accuracy by $2.\nIgnore Shokuhou Misaki's Confusion effect."
+        },
+        {
+            "GroupId": "CH9998ExtraPassive01",
+            "NameEn": "Don't make me repeat myself",
+            "DescriptionEn": "When Normal skill is activated, increase Attack by $1 for $2."
         }
 
         

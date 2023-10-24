@@ -17,8 +17,7 @@ def upload_tracks(tracks):
 
     for track in tracks.values():
         print(f"=== Track {track['Id']} ===")
-
-        localpath = os.path.join(args['data_audio'], f"{track['Path'].lstrip('Audio/')}.ogg")
+        localpath = os.path.join(args['data_audio'], f"{track['Path'][0].lstrip('Audio/')}.ogg")
         if not os.path.exists(localpath):
             print(f'File not found: {localpath}')
             continue

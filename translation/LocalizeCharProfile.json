@@ -2178,7 +2178,7 @@
             "IllustratorNameEn": null,
             "VoiceEn": "Haruka Ran",
             "HobbyEn": "Calculating things",
-            "ProfileIntroductionEn": "A member of the Millennium Science School, Seminar's treasurer changed into gym clothes for the Kourin Taisai Festival.\n\nAlthough she had been occupied with hard work preparing for the big event hosted by Millennium, she is currently in excellent shape, having rested well only the day before the opening of the festival, thanks to the consideration of other students. Yuka, an officer of the student council of the host school and a member of the executive committee, tried to approach the competition rationally, but the passion for victory over the other participating schools seemes to stimulate her competitive spirit.",
+            "ProfileIntroductionEn": "A member of the Millennium Science School, Seminar's treasurer changed into gym clothes for the Kourin Taisai Festival.\n\nAlthough she had been occupied with hard work preparing for the big event hosted by Millennium, she is currently in excellent shape, having rested well only the day before the opening of the festival, thanks to the consideration of other students. Yuuka, an officer of the student council of the host school and a member of the executive committee, tried to approach the competition rationally, but the passion for victory over the other participating schools seemes to stimulate her competitive spirit.",
             "WeaponNameEn": "Logic & Reason",
             "WeaponDescEn": "A pair of submachine guns used by Yuuka.\n\nThis time around, Logic & Reason will represent Yuuka's rational and reasoned judgments at the sports festival.",
             "ReleaseDateJp": "2022/10/26",
@@ -2538,8 +2538,8 @@
             "IllustratorNameEn": null,
             "VoiceEn": "Matsui Eriko",
             "HobbyEn": "Promoting Hyakkiyako culture, Collecting Hyakkiyako merchandise",
-            "ProfileIntroductionEn": "Hyakkiyako Alliance Academy Deputy Director of the Yin-Yang club and Strategic Leader of the Cultural Tourism Industry Public Relations Support Department.\n\nKaho loves Hyakkiyako culture more than anyone else and cares deeply about the students who contribute to it. Because of her appearance, some Hyakkiyako students have been known to refer to her as \"Kaho-san, who is more of a department head than that actual department head\". Incidentally, she is also a valued straight man of the Yin-Yang club.",
-            "WeaponNameEn": "Strategic leader know-how",
+            "ProfileIntroductionEn": "Hyakkiyako Alliance Academy Deputy Director of the Yin-Yang club and Lead Strategist of the Cultural Tourism Industry Public Relations Support Department.\n\nKaho loves Hyakkiyako culture more than anyone else and cares deeply about the students who contribute to it. Because of her appearance, some Hyakkiyako students have been known to refer to her as \"Kaho-san, who is more of a department head than that actual department head\". Incidentally, she is also a valued straight man of the Yin-Yang club.",
+            "WeaponNameEn": "Lead Strategist know-how",
             "WeaponDescEn": "A rifle that Kaho usually uses.\n\nIt was custom-made by her to convey the wonders of Hyakkiyako. Not only is it useful for publicity, but its also powerful enough to pacify the school's delinquents.",
             "ReleaseDateJp": "2023/04/12",
             "ReleaseDateGl": null
@@ -2967,7 +2967,64 @@
             "WeaponDescEn": "A grenade launcher that Shigure usually carries around.\n\nThe sight of Shigure masterfully loading a grenade as if swinging a shaker has been well-received by customers as one of the highlights of Hot Spring Resort No. 227.",
             "ReleaseDateJp": "2023/10/11",
             "ReleaseDateGl": null
+        },
+
+        {
+            "CharacterId": 10079,
+            "CharacterPool": "limited",
+            "FamilyNameEn": "",
+            "PersonalNameEn": "Misaka Mikoto",
+            "VariantNameEn": null,
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": "ミミトケ (''Mimitoke'')",
+            "VoiceEn": "Sato Rina",
+            "HobbyEn": "Browsing magazines at the convenience store, collecting Gekota goods",
+            "ProfileIntroductionEn": "A junior student at Tokiwadai Middle School, Misaka Mikoto is one of only seven top Level 5 psychics across the entire Academy City.\n\nHer superpower is \"Electromaster\", which allows her to freely manipulate powerful electrical currents. However, since her transfer to Kivotos she seems to have trouble using her abilities to their full potential. Mikoto has a kind-hearted and frank character, and is well-liked by other students. She is a fan of the frog mascot Gekota.",
+            "WeaponNameEn": "Gunvolt",
+            "WeaponDescEn": "Specialty firearm made by the Engineering Club for Misaka Mikoto.\n\nIt comes equipped with \"special\" functions for those with electrical abilities.",
+            "ReleaseDateJp": "2023/10/24",
+            "ReleaseDateGl": null
+        },
+        {
+            "CharacterId": 10080,
+            "CharacterPool": "limited",
+            "FamilyNameEn": "",
+            "PersonalNameEn": "Shokuhou Misaki",
+            "VariantNameEn": null,
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": "ミミトケ (''Mimitoke'')",
+            "VoiceEn": "Azumi Asakura",
+            "HobbyEn": "Drinking tea, eating organic food",
+            "ProfileIntroductionEn": "An elegant junior student from Tokiwadai Middle School.\n\nShe is a prominent leader of the largest faction at the prestigious  Tokiwadai School, and is one of only seven Level 5 psychics in Academy City. Her superpower is \"Mental Out\", which allows her to manipulate the minds of others. However, since her transfer to Kivotos Misaki seems to have trouble using her abilities to their full potential.\n\nMisaki has something of a rivalry with a fellow Level 5 psychic, Misaka Mikoto, whose power conflicts with her own abilities.",
+            "WeaponNameEn": "Mental pointer",
+            "WeaponDescEn": "Specialty firearm made by the Engineering Club for Shokuhou Misaki.\n\nA sleek handgun that is perfect as a fashion statement for high school girls.",
+            "ReleaseDateJp": "2023/10/24",
+            "ReleaseDateGl": null
+        },
+        {
+            "CharacterId": 26011,
+            "CharacterPool": "event",
+            "FamilyNameEn": "",
+            "PersonalNameEn": "Saten Ruiko",
+            "VariantNameEn": null,
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": "ミミトケ (''Mimitoke'')",
+            "VoiceEn": "Itō Kanae",
+            "HobbyEn": "Online mahjong, trying out sweets",
+            "ProfileIntroductionEn": "A cheerful junior student from Sakugawa Middle School. She is best friends with a classmate Uiharu Kazari, who introduced Ruiko to Misaka Mikoto, her senior at Tokiwadai Middle School.\n\nAlthough she is a Level 0 with no special powers, Ruiko has good intuition and often finds crucial clues others woul miss. Her favorite things are urban legends and sweets. On her days off, she often goes out to try out new desserts.",
+            "WeaponNameEn": "Bullet·Swinger",
+            "WeaponDescEn": "Specialty firearm made by the Engineering Club for Saten Ruiko.\n\nIt's strong enough not to break even if you take a swing at something with it.",
+            "ReleaseDateJp": "2023/10/24",
+            "ReleaseDateGl": null
         }
+
+
  
     ]
 }

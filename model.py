@@ -232,6 +232,7 @@ class Profile(object):
 
     @property
     def birthday(self):
+        if len(self._birthday) < 2: return self._birthday
         month, day = self._birthday.split('/')
         month = [
             'January',
