@@ -2389,7 +2389,7 @@
         {
             "GroupId": "CH0142GearPublic01",
             "NameEn": "Claymore +",
-            "DescriptionEn": "Every $1, 5 fragments are scattered from a small claymore, each dealing $2 damage.\nReduce CC Resistance by $3 for $4."
+            "DescriptionEn": "Every $1, 5 fragments are scattered from a small claymore, each dealing $2 damage.\nReduce CC Resistance of hit enemies by $3 for $4."
         },
         {
             "GroupId": "CH0142Passive01",
@@ -4203,7 +4203,7 @@
         {
             "GroupId": "CH9997Ex01",
             "NameEn": "Mental Out",
-            "DescriptionEn": "Deal $1 damage to one enemy.\nConfuse the target and two closest enemies within a circular area for $2."
+            "DescriptionEn": "Deal $1 damage to the target and two closest enemies within a circular area.\nConfuse them for $2."
         },
         {
             "GroupId": "CH9997Public01",
