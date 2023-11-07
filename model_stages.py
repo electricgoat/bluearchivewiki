@@ -199,7 +199,7 @@ def wiki_enter_cost(stage, data):
 
 
 class EventStage(object):
-    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types):
+    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint):
         self.id = id
         self.name = name
         self.name_en = name_en
@@ -224,6 +224,7 @@ class EventStage(object):
         self.wiki_enter_cost = wiki_enter_cost
         self.damage_types = damage_types
         self.armor_types = armor_types
+        self.stage_hint = stage_hint
 
     def __repr__ (self):
         return f"EventStage:{self.name}"
@@ -265,7 +266,11 @@ class EventStage(object):
 
             for template in json_find_key(stagefile, 'SpawnTemplateId'):
                 if template != '' and template in devname_characters and template not in spawn_templates:
-                    spawn_templates[template] = devname_characters[template]     
+                    spawn_templates[template] = devname_characters[template]
+
+        stage_hint = ''
+        if stage['StageHint'] > 0 and stage['StageHint'] in data.etc_localization:
+            stage_hint = data.etc_localization[stage['StageHint']]['DescriptionEn'] if 'DescriptionEn' in data.etc_localization[stage['StageHint']] else data.etc_localization[stage['StageHint']]['DescriptionJp']
 
 
         return cls(
@@ -294,7 +299,8 @@ class EventStage(object):
             # set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
             # set([armor_type(x['EnemyArmorType']) for x in grounds])
             set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
-            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()]))
+            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
+            stage_hint
         )
 
 
