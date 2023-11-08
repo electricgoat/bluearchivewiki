@@ -4250,6 +4250,32 @@
             "GroupId": "CH9998ExtraPassive01",
             "NameEn": "Don't make me repeat myself",
             "DescriptionEn": "When Normal skill is activated, increase Attack by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0161Ex01",
+            "NameEn": "Boldness of youth",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area.\nConsume as many \"Prayers\" you own as possible in groups of 10, for each 10 Prayers consumed deal $2 guaranteed critical damage."
+        },
+        {
+            "GroupId": "CH0161Public01",
+            "NameEn": "Long-awaited reunion",
+            "DescriptionEn": "Every $1, obtain $2 Prayer effects (Prayers can stack up to a maximum of 50).\nIncrease Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0161Passive01",
+            "NameEn": "Hyakkaryouran elite",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0161WeaponPassive01",
+            "NameEn": "Hyakkaryouran elite +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0161ExtraPassive01",
+            "NameEn": "Rise up to the challenge",
+            "DescriptionEn": "Obtain a Prayer for any Cost consumed by other allies (Prayers can stack up to a maximum of 50).\nFor every 10 Prayers accumulated, increase Critical Damage by $1 for $2."
         }
 
         

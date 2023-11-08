@@ -44,6 +44,7 @@ CLUBS = {
             'BlackTortoisePromenade': 'Black Tortoise Promenade',
             'LaborParty': 'Labor Party',
             'KnowledgeLiberationFront': 'Knowledge Liberation Front',
+            'Hyakkayouran': 'Hyakkaryouran',
             'EmptyClub': 'no club'
 }
 
