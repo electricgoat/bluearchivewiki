@@ -3,6 +3,8 @@ import operator
 import re
 #from googletrans import Translator
 
+from shared.tag_map import map_tags
+
 
 CLUBS = {
             'Countermeasure': 'Countermeasure Council',
@@ -842,18 +844,18 @@ class Item(object):
         characters_favorite = []
         characters_likes = []
 
-        tags_list = "FavorItem" in item['Tags'] and item['Tags'].remove("FavorItem") or item['Tags']
-        tags_filtered = filter(lambda x: not x.startswith('F_'), tags_list)
+
+        tags_mapped = map_tags(item['Tags'])
+        tags_list = "FavorItem" in tags_mapped and tags_mapped.remove("FavorItem") or tags_mapped
+        tags_filtered = filter(lambda x: not x.startswith('F_') and not x.startswith('TagName'), tags_list)
         item_tags = list(tags_filtered)
-        characters_filtered = filter(lambda x: x.startswith('F_'), tags_list)
-        tags_characters = list(characters_filtered)
 
 
         for character_id in data.characters_cafe_tags:
-            if data.characters_cafe_tags[character_id]['FavorItemUniqueTags'][0] in tags_characters:
+            if data.characters_cafe_tags[character_id]['FavorItemUniqueTags'][0] in item['Tags']:
                 characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
                 
-            tag_intersect = list(set(data.characters_cafe_tags[character_id]['FavorItemTags']) & set(item_tags))
+            tag_intersect = list(set(data.characters_cafe_tags[character_id]['FavorItemTags']) & set(item['Tags']))
             if len(tag_intersect) >1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 
                 characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
             if len(tag_intersect)==1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 

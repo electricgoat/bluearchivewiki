@@ -2,6 +2,7 @@ import re
 
 item_types = {
         'MaterialItem':'Ooparts of any tier',
+        'MaterialItemN':'Tier 1 Ooparts',
         'MaterialItemR':'Tier 2 Ooparts',
         'MaterialItemSR':'Tier 3 Ooparts',
         'MaterialItemSSR':'Tier 4 Ooparts',

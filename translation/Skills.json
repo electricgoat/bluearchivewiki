@@ -4255,7 +4255,7 @@
         {
             "GroupId": "CH0161Ex01",
             "NameEn": "Boldness of youth",
-            "DescriptionEn": "Deal $1 damage to enemies within a circular area.\nConsume as many \"Prayers\" you own as possible in groups of 10, for each 10 Prayers consumed deal $2 guaranteed critical damage."
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area.\nConsume as many owned Prayers as possible in groups of 10, for each 10 Prayers consumed deal $2 guaranteed critical damage."
         },
         {
             "GroupId": "CH0161Public01",
@@ -4275,7 +4275,59 @@
         {
             "GroupId": "CH0161ExtraPassive01",
             "NameEn": "Rise up to the challenge",
-            "DescriptionEn": "Obtain a Prayer for any Cost consumed by other allies (Prayers can stack up to a maximum of 50).\nFor every 10 Prayers accumulated, increase Critical Damage by $1 for $2."
+            "DescriptionEn": "Obtain a Prayer for each Cost consumed by other allies (Prayers can stack up to a maximum of 50).\nFor every 10 Prayers accumulated, increase Critical Damage by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0224Ex01",
+            "NameEn": "Hyakkaryouran shooting technique",
+            "DescriptionEn": "Inflict $1 continuous Burn damage to enemies within a fan-shaped area. (Duration: $2)\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0224Public01",
+            "NameEn": "Burning passion",
+            "DescriptionEn": "Every $1, obtain Passion status, increasing Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0224Passive01",
+            "NameEn": "Hyakkaryouran oni instructor",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0224WeaponPassive01",
+            "NameEn": "Hyakkaryouran oni instructor +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0224ExtraPassive01",
+            "NameEn": "Cutthroat captain's duty",
+            "DescriptionEn": "When attacking in Passion state, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0225Ex01",
+            "NameEn": "Divinely calculated move",
+            "DescriptionEn": "Reduce Defense of enemies within a cross-shaped area by $1 for $2.\nDeal $3 damage to them."
+        },
+        {
+            "GroupId": "CH0225Public01",
+            "NameEn": "If you know the enemy and know yourself, you need not fear the result of a hundred battles",
+            "DescriptionEn": "Every $1, add Sonic Efficiency to other allies within a circular area. (Duration: $2)\nEffect depends on the number of allies affected:\n1 person: $3\n2 people: $4\n3 or more: $5."
+        },
+        {
+            "GroupId": "CH0225Passive01",
+            "NameEn": "Qualifications of a strategist",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0225WeaponPassive01",
+            "NameEn": "Qualifications of a strategist +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0225ExtraPassive01",
+            "NameEn": "Fūrinkazan strategy",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3.\nGrant 1 Fūrinkazan (stacks up to a maximum of 3).\nWhen using an EX skill with 3 Fūrinkazan present, all Fūrinkazan will be consumed and the EX skill cost of all other allies will be reduced by $4. (Reduction active until EX is activated $5 times)"
         }
 
         
