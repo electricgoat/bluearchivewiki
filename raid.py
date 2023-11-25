@@ -13,7 +13,7 @@ from data import load_data, load_season_data
 from model import Item, Furniture, Character
 from raid_seasons import RAIDS, SEASON_IGNORE, SEASON_NOTES
 import shared.functions
-
+from shared.MissingTranslations import MissingTranslations
 
 args = None
 
@@ -23,6 +23,8 @@ items = {}
 furniture = {}
 
 season_data = {'jp':None, 'gl':None}
+skills_by_groupid = {}
+missing_translations = MissingTranslations("translation/missing_LocalizeSkillExcelTable.json")
 
 
 class SeasonReward(object):
@@ -85,6 +87,7 @@ def get_raid_boss_data(group):
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
+        stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'])
     
     return boss_data
 
@@ -132,6 +135,33 @@ def get_ranking_rewards(season):
 
 
 
+def get_boss_skills(skill_list_group_id):
+    global args, data, season_data, skills_by_groupid
+    global missing_translations
+
+    SKILL_LISTS = ['NormalSkillGroupId', 'ExSkillGroupId', 'PublicSkillGroupId', 'PassiveSkillGroupId', 'LeaderSkillGroupId', 'ExtraPassiveSkillGroupId', 'HiddenPassiveSkillGroupId']
+
+
+    skill_list_group = data.characters_skills[(skill_list_group_id, 0, 0, False)]
+
+    skill_data = []
+    for skill_group in SKILL_LISTS:
+        for skill_id in skill_list_group[skill_group]:
+            skill_data.append(skills_by_groupid[skill_id])
+            skill_data[-1]['SkillType'] = skill_group[0:-12]
+
+
+    for skill in skill_data:
+        skill['IconName'] = skill['IconName'][skill['IconName'].rfind('/')+1:]
+
+        if 'NameEn' not in data.skills_localization[skill['LocalizeSkillId']] and data.skills_localization[skill['LocalizeSkillId']]['NameJp']!="":
+            print(f"Missing skill localization {skill['LocalizeSkillId']}")
+            missing_translations.add_entry(data.skills_localization[skill['LocalizeSkillId']])
+
+    return skill_data
+
+
+
 
 
 def generate():
@@ -145,19 +175,24 @@ def generate():
     env.filters['damage_type'] = shared.functions.damage_type
     env.filters['armor_type'] = shared.functions.armor_type
     env.filters['thousands'] = shared.functions.format_thousands
+    env.filters['colorize'] = shared.functions.colorize
+    env.filters['nl2br'] = shared.functions.nl2br
     
 
     region = 'jp'
     for season in season_data[region].raid_season.values():
         print (f"Working on season {season['SeasonId']}")
-        wikitext = ''
+        wikitext = "\n==Boss Info==\n===Stats===\n"
+
 
         template = env.get_template('./raid/template_raid_boss.txt')
         for group in boss_groups:
             boss_data[season[group][0]]= get_raid_boss_data(season[group][0])
             wikitext += template.render(season_data=season, boss_data=boss_data[season[group][0]])
+ 
+            template = env.get_template('./raid/template_boss_skills.txt')
+            wikitext += template.render(boss_data=boss_data[season[group][0]], skills_localization = data.skills_localization)
 
-        wikitext = "\n==Boss Info==\n===Stats===\n" + wikitext + "\n===Skills===\n"
 
         wikitext += "=Unit recommendations=\n"
 
@@ -172,7 +207,10 @@ def generate():
         
         localization_id = boss_data[season[group][0]]['stage'][0]['BossBGInfoKey']
         print(f"localize_code id is {localization_id}")
-        blurb = 'En' in data.localize_code[localization_id] and data.localize_code[localization_id]['En'] or data.localize_code[localization_id]['Jp']
+        try:
+            blurb = 'En' in data.localize_code[localization_id] and data.localize_code[localization_id]['En'] or data.localize_code[localization_id]['Jp']
+        except:
+            blurb = ''
         template = env.get_template('./raid/template_raid_intro.txt')
         wikitext = template.render(info=RAIDS[season['OpenRaidBossGroup'][0].split('_',1)[0]], blurb=blurb, season_data=season) + wikitext
 
@@ -184,7 +222,7 @@ def generate():
 
 
 def init_data():
-    global args, data, season_data
+    global args, data, season_data, skills_by_groupid
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     season_data['jp'] = load_season_data(args['data_primary'])
@@ -219,6 +257,9 @@ def init_data():
             print(f'Failed to parse for furniture {item}: {err}')
             traceback.print_exc()
             continue
+
+    #skills appear to be referenced by GroupId rather than Id, so prepare a better data structure
+    skills_by_groupid = {item['GroupId']: item for item in data.skills.values()} 
    
 
 def main():
@@ -243,6 +284,7 @@ def main():
     try:
         init_data()
         generate()
+        missing_translations.write()
     except:
         parser.print_help()
         traceback.print_exc()

@@ -28,7 +28,7 @@ RAIDS = {
     'Goz':              Raid('Slumpia: Goz', 'Goz', 'Indoors'),
     'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors'),
     'HoverCraft':       Raid('Wakamo: Hovercraft', 'Hovercraft', 'Outdoors'),
-    'EN0006':           Raid('One Hundred Ghost Stories: Myouki Kurokage', 'Kurokage', 'Urban'),
+    'EN0006':           Raid('One Hundred Ghost Tales: Myouki Kurokage', 'Kurokage', 'Urban'),
 }
 
 SEASON_IGNORE = {

@@ -46,7 +46,7 @@ def load_data(path_primary, path_secondary, path_translation):
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
         costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
-        skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
+        skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),#load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
         translated_characters =     load_characters_translation(path_translation),
         translated_skills =         load_skills_translation(path_translation),
         weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
@@ -217,7 +217,7 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
     if os.path.exists(os.path.join(path_translation, filename)):
         print(f'Loading additional translations from {path_translation}/{filename}')
-        data_aux = load_file(os.path.join(path_translation, filename))
+        data_aux = load_file(os.path.join(path_translation, filename), key)
 
         index_list.extend(x for x in list(data_aux.keys()) if x not in index_list)
 

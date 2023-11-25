@@ -1,5 +1,18 @@
 import re
 
+def colorize(text:str):
+    if len(text):
+        return re.sub(
+            r'\[c]\[([0-9A-Fa-f]{6})]([^\[]*)\[-]\[/c]',
+            r'{{SkillValue|\2}}',
+            text
+        )
+    else: return ''
+
+def nl2br(text:str):
+    if len(text): return text.replace('\n','<br>')
+    else: return ''
+
 def environment_type(environment):
     return {
         'Street': 'Urban',

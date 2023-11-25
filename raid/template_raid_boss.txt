@@ -8,7 +8,7 @@
 !DEF
 ! class="condensed" |CRIT RES
 ! class="condensed" |CRIT DMG RES
-! class="condensed" |Stagger Gauge
+! class="condensed" |Groggy Gauge
 
 {%- for stage in boss_data['stage'] %}
 |-
