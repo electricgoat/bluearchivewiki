@@ -20,9 +20,9 @@ class MissingTranslations:
             with open(self.filename, 'w', encoding="utf8") as file:
                 file.write(json.dumps({'DataList': self.entries}, sort_keys=False, indent=4, ensure_ascii=False))
                 file.close()
-            print(f"Dumped missing locaziations to {self.filename}")
+            print(f"Dumped missing localizations to {self.filename}")
         else:
-            print("No missing locaziations to write.")
+            print(f"No missing localizations to write for {self.filename}")
 
 
     def __add_empty_en_fields(self):

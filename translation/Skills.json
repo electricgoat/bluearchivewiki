@@ -3708,7 +3708,9 @@
         {
             "GroupId": "CH0138Ex01",
             "NameEn": "Clash of Giants",
-            "DescriptionEn": "Deal $1 damage to one enemy.\nDecrease their Attack, Evasion, Accuracy by $2 for $3."
+            "DescriptionEn": "Deal $1 damage to one enemy.\nDecrease their Attack by $2 for $3.",
+            "ReplaceOnLevel3" : "Deal $1 damage to one enemy.\nDecrease their Attack and Evasion by $2 for $3.",
+            "ReplaceOnLevel5" : "Deal $1 damage to one enemy.\nDecrease their Attack, Evasion, and Accuracy by $2 for $3."
         },
         {
             "GroupId": "CH0138Public01",

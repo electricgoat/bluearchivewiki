@@ -13,15 +13,9 @@ import wiki
 
 from data import load_data
 from model import Character
+import shared.functions
 
 args = None
-
-def colorize(value):
-    return re.sub(
-        r'\[c]\[([0-9A-Fa-f]{6})]([^\[]*)\[-]\[/c]',
-        r'{{SkillValue|\2}}',
-        value
-    )
 
 
 def generate():
@@ -29,7 +23,7 @@ def generate():
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    env.filters['colorize'] = colorize
+    env.filters['colorize'] = shared.functions.colorize
     template = env.get_template('template.txt')
 
 

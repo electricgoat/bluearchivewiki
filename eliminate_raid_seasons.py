@@ -57,7 +57,7 @@ def generate():
                 print(f"Unknown boss {season['OpenRaidBossGroup01']}")
                 continue
 
-            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 7):
+            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 14):
                 print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
                 season['ignore'] = True
                 continue
