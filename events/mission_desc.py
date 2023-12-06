@@ -278,8 +278,8 @@ def localize_CompleteScheduleWithTagCount(mission):
     desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
     desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
 
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterName'])) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterName'])) 
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
 
     mission['AutoLocalized'] = True
     return True
@@ -437,12 +437,12 @@ def localize_GetItemWithTagCount(mission):
     desc_jp = '$1を$2個獲得する'
     desc_en = 'Acquire $2 $1'
 
-    if type(mission['CompleteConditionParameterName']) is list:
-        for index, etag in enumerate(mission['CompleteConditionParameterName']):
-            mission['CompleteConditionParameterName'][index] = get_item_type(mission['CompleteConditionParameterName'][index])
-        tag = " or ".join(mission['CompleteConditionParameterName'])
+    if type(mission['CompleteConditionParameterTag']) is list:
+        for index, etag in enumerate(mission['CompleteConditionParameterTag']):
+            mission['CompleteConditionParameterTag'][index] = get_item_type(mission['CompleteConditionParameterTag'][index])
+        tag = " or ".join(mission['CompleteConditionParameterTag'])
     else:
-        tag =  get_item_type(mission['CompleteConditionParameterName'])
+        tag =  get_item_type(mission['CompleteConditionParameterTag'])
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
@@ -458,10 +458,10 @@ def localize_GetEquipmentWithTagCount(mission):
     desc_en = 'Acquire $2 $1'
 
     
-    if type(mission['CompleteConditionParameterName']) is list and len(mission['CompleteConditionParameterName'])==1: mission['CompleteConditionParameterName'] = mission['CompleteConditionParameterName'][0] 
+    if type(mission['CompleteConditionParameterTag']) is list and len(mission['CompleteConditionParameterTag'])==1: mission['CompleteConditionParameterTag'] = mission['CompleteConditionParameterTag'][0] 
 
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', item_types[mission['CompleteConditionParameterName']]).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', item_types[mission['CompleteConditionParameterName']]).replace('$2',str(mission['CompleteConditionCount']))) 
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', item_types[mission['CompleteConditionParameterTag']]).replace('$2',str(mission['CompleteConditionCount']))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', item_types[mission['CompleteConditionParameterTag']]).replace('$2',str(mission['CompleteConditionCount']))) 
 
     mission['AutoLocalized'] = True
     return True
@@ -473,7 +473,7 @@ def localize_ClearBattleWithTagCount(mission):
     desc_jp = '-'
     desc_en = 'Clear any stage with a student from $1 $2 time(s)'
 
-    tag = mission['CompleteConditionParameterName'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterName']] or mission['CompleteConditionParameterName']
+    tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
     
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
@@ -488,12 +488,12 @@ def localize_KillEnemyWithTagCount(mission):
     desc_jp = '-'
     desc_en = 'Defeat any enemy from $1 $2 time(s)'
 
-    if type(mission['CompleteConditionParameterName']) is list:
-        for index, etag in enumerate(mission['CompleteConditionParameterName']):
-            mission['CompleteConditionParameterName'][index] = etag in enemy_tags and enemy_tags[etag] or etag
-        tag = " or ".join(mission['CompleteConditionParameterName'])
+    if type(mission['CompleteConditionParameterTag']) is list:
+        for index, etag in enumerate(mission['CompleteConditionParameterTag']):
+            mission['CompleteConditionParameterTag'][index] = etag in enemy_tags and enemy_tags[etag] or etag
+        tag = " or ".join(mission['CompleteConditionParameterTag'])
     else:
-        tag = mission['CompleteConditionParameterName'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterName']] or mission['CompleteConditionParameterName']
+        tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
 
     
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
