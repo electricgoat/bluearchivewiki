@@ -12,7 +12,7 @@ import wikitextparser as wtp
 
 from data import load_data, load_scenario_data
 from model import Character
-from generate import colorize
+import shared.functions
 import wiki
 
 
@@ -43,7 +43,7 @@ def generate():
     scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    env.filters['colorize'] = colorize
+    env.filters['colorize'] = shared.functions.colorize
     template = env.get_template('template_dialog.txt')
 
 

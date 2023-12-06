@@ -4330,6 +4330,33 @@
             "GroupId": "CH0225ExtraPassive01",
             "NameEn": "Fūrinkazan strategy",
             "DescriptionEn": "Every $1, increase Attack by $2 for $3.\nGrant 1 Fūrinkazan (stacks up to a maximum of 3).\nWhen using an EX skill with 3 Fūrinkazan present, all Fūrinkazan will be consumed and the EX skill cost of all other allies will be reduced by $4. (Reduction active until EX is activated $5 times)"
+        },
+
+        {
+            "GroupId": "CH0219Ex01",
+            "NameEn": "Reliable support",
+            "DescriptionEn": "Move 6 allies within a circular area to the specified location, grant them a shield of $1 Healing for $2.",
+            "ReplaceOnLevel3" : "Move 6 allies within a circular area to the specified location, grant them a shield of $1 Healing and increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0219Public01",
+            "NameEn": "Eimi's confidence",
+            "DescriptionEn": "Every $1, increase Attack Speed of 4 allies by $2 for $3."
+        },
+        {
+            "GroupId": "CH0219Passive01",
+            "NameEn": "Like fish in water",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0219WeaponPassive01",
+            "NameEn": "Like fish in water +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0219ExtraPassive01",
+            "NameEn": "Slippery",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
         }
 
         
