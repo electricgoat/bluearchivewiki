@@ -257,16 +257,43 @@ def total_reward_card(item):
 
 
 def generate():
-    global args, data, stages, missions
+    global args, data, stages, missions, season_data
     global characters, items, furniture
     global total_rewards, total_milestone_rewards
 
-    if (args['event_season'], "Stage") in data.event_content_seasons:
-        season = data.event_content_seasons[(args['event_season'], "Stage")]
-    elif (args['event_season'], "MiniEvent") in data.event_content_seasons:
-        season = data.event_content_seasons[(args['event_season'], "MiniEvent")]
-    else:
-        exit(f"Season {args['event_season']} data not found. Is this a new event type?")
+    # if (args['event_season'], "Stage") in data.event_content_seasons:
+    #     season = data.event_content_seasons[(args['event_season'], "Stage")]
+    # elif (args['event_season'], "MiniEvent") in data.event_content_seasons:
+    #     season = data.event_content_seasons[(args['event_season'], "MiniEvent")]
+    # else:
+    #     exit(f"Season {args['event_season']} data not found. Is this a new event type?")
+
+    try:
+        if (args['event_season'], "Stage") in season_data['jp'].event_content_season:
+            season_jp = season_data['jp'].event_content_season[(args['event_season'], "Stage")]
+            season = season_jp
+        elif (args['event_season'], "MiniEvent") in season_data['jp'].event_content_season:
+            season_jp = season_data['jp'].event_content_season[(args['event_season'], "MiniEvent")]
+        else:
+            raise Exception
+    except:
+        exit(f"JP season {args['event_season']} data not found. Is this a new event type?")
+
+    
+    try:
+        if (args['event_season'], "Stage") in season_data['gl'].event_content_season:
+            season_gl = season_data['gl'].event_content_season[(args['event_season'], "Stage")]
+        elif (args['event_season'], "MiniEvent") in season_data['gl'].event_content_season:
+            season_gl = season_data['gl'].event_content_season[(args['event_season'], "MiniEvent")]
+        else:
+            season_gl = None
+            print(f"GL season {args['event_season']} data not found. Is this event not on global yet?")
+            #raise Exception
+    except:
+        exit(f"Error looking up GL season {args['event_season']} data.")
+
+    season = season_jp #TODO work directly with season_jp or _gl
+
     
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
@@ -534,17 +561,28 @@ def generate():
         wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
 
 
+    template = env.get_template('events/template_event_header.txt')
+    wikitext_header = template.render(season=season)
+
+    season_jp['EventContentOpenTime'] = season_jp['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
+    season_jp['EventContentCloseTime'] = season_jp['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
+    season_jp['EventContentOpenTime'] = season_jp['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
+    season_jp['ExtensionTime'] = season_jp['ExtensionTime'].replace(' ','T')[:-3]+'+09'
+    template = env.get_template('events/template_event_dates.txt')
+    wikitext_event_dates = '\n==Schedule==\n' + template.render(title='Japanese Version', server='JP', season=season_jp)
+
+    if season_gl is not None:
+        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
+        season_gl['EventContentCloseTime'] = season_gl['EventContentCloseTime'].replace(' ','T')[:-3]+'+00'
+        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
+        season_gl['ExtensionTime'] = season_gl['ExtensionTime'].replace(' ','T')[:-3]+'+00'
+        #template = env.get_template('events/template_event.txt')
+        wikitext_event_dates += template.render(title='Global Version', server='GL', season=season_gl)
 
 
-    season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
-    season['EventContentCloseTime'] = season['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
-    season['EventContentOpenTime'] = season['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
-    season['ExtensionTime'] = season['ExtensionTime'].replace(' ','T')[:-3]+'+09'
-    template = env.get_template('events/template_event.txt')
-    wikitext_event = template.render(season=season)
 
     template = env.get_template('events/template_event_bonus_characters.txt')
-    wikitext_bonus_characters = template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
+    wikitext_bonus_characters = '==Details==\n' + template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
 
     template = env.get_template('events/template_event_missions.txt')
     wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=dict(sorted(total_rewards.items())).values())
@@ -560,7 +598,7 @@ def generate():
     template = env.get_template('events/template_event_footer.txt')
     wikitext_footer = template.render(season=season)
     
-    wikitext = wikitext_event + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
+    wikitext = wikitext_header + wikitext_event_dates + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
     wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_footer
 

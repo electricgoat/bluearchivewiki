@@ -1,0 +1,15 @@
+==={{title}}===
+{% raw %}{{{% endraw %}Event 
+| Id = {{season['EventContentId']}}
+| Server = {{server}}
+| Category = Event
+| NameJP = JPNAME
+| NameEN = ENNAME
+| Image = 
+| Start_date = {{season['EventContentOpenTime']}}
+| End_date = {{season['EventContentCloseTime']}}
+| Reward_exchange_start = {{season['EventContentOpenTime']}}
+| Reward_exchange_end = {{season['ExtensionTime']}}
+| Notes = 
+{% raw %}}}{% endraw %}
+

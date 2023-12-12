@@ -85,7 +85,7 @@
     {%- endfor %}
 {%- endfor %}
 
-{%- for level in character.favor.levels %}
+{%- for level in character.favor.levels if level<100 %}
 | AffectionLevel{{level}} ={% for stat_type in character.favor.levels[level]['stat_type'] %} {{stat_type}}+{{character.favor.levels[level]['stat_value'][loop.index-1]}}{% endfor -%}
 {%- endfor %}
 {% raw %}}}{% endraw %}{% raw %}{{#dpl:
@@ -239,6 +239,7 @@
 {% endfor -%}
 {% raw %}}}{% endraw %}
 {%- endif %}
+{% raw %}{{MomoTalkLink}}{% endraw %}
 =Voiceover=
 See {% raw %}[[{{PAGENAME}}/audio]]{% endraw %}
 
