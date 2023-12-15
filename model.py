@@ -389,7 +389,7 @@ class Skill(object):
                 #print (f'Skill level {i+1} cost change from {levels[i-1].cost} to {levels[i].cost}')
                 skill_cost.append({'level':i+1, 'cost':levels[i].cost})
 
-        text_general = translate_skill(levels[9].description, max_level, group_id, data)
+        text_general = "DescriptionGeneral" in data.translated_skills[group_id] and data.translated_skills[group_id]["DescriptionGeneral"] or translate_skill(levels[9].description, max_level, group_id, data)
         description_general = format_description(levels, text_general)
 
 
@@ -446,6 +446,7 @@ def replace_units(text):
     #text = re.sub('3回', 'three times', text)
     text = re.sub('回', '', text)
     text = re.sub('つ', '', text)
+    text = re.sub('\]1秒\[', ']1 second[', text)
     text = re.sub('秒', ' seconds', text)
     text = re.sub('個', '', text)
     text = re.sub('発分', ' hits', text)

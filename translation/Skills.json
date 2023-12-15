@@ -3682,7 +3682,8 @@
             "GroupId": "CH0135Ex01",
             "NameEn": "Best in the world!",
             "DescriptionEn": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing\n2nd and 3rd targets: heals $2 of Healing",
-            "ReplaceOnLevel5" : "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing"
+            "ReplaceOnLevel5" : "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals $1 of Healing, cleanses $2 debuff\n2nd and 3rd targets: heals $3 of Healing",
+            "DescriptionGeneral": "Toss fried rice to one other ally, healing them, and if there is an ally near the target that has not yet been healed, fried rice bounces in that direction and heals them as well (up to 4 times).\n1st and 4th target: heals {{SkillValue|117~223%}} of Healing, cleanses {{SkillValue|0~1}} debuff\n2nd and 3rd targets: heals {{SkillValue|82.2~156%}} of Healing"
         },
         {
             "GroupId": "CH0135Public01",
@@ -4336,7 +4337,8 @@
             "GroupId": "CH0219Ex01",
             "NameEn": "Reliable support",
             "DescriptionEn": "Move 6 allies within a circular area to the specified location, grant them a shield of $1 Healing for $2.",
-            "ReplaceOnLevel3" : "Move 6 allies within a circular area to the specified location, grant them a shield of $1 Healing and increase Attack by $2 for $3."
+            "ReplaceOnLevel3" : "Move 6 allies within a circular area to the specified location, grant them a shield of $1 Healing and increase Attack by $2 for $3.",
+            "DescriptionGeneral": "Move 6 allies within a circular area to the specified location, grant them a shield of {{SkillValue|104~197%}} Healing and increase Attack by {{SkillValue|0~12.6%}} for {{SkillValue|30 seconds}}."
         },
         {
             "GroupId": "CH0219Public01",
