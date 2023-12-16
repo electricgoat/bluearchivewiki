@@ -42,8 +42,9 @@ def generate():
             traceback.print_exc()
             continue
         
+        fragment_sources = "FragmentSources" in data.translated_characters[character.id] and "\n"+data.translated_characters[character.id]["FragmentSources"] or None
         with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:
-            wikitext = template.render(character=character)
+            wikitext = template.render(character=character, fragment_sources = fragment_sources)
             
             f.write(wikitext)
             
@@ -53,6 +54,9 @@ def generate():
             wiki.update_section(character.wiki_name, args['wiki_section'], wikitext)
         elif wiki.site != None and args['wiki_section_number'] != None:
             wiki.update_section_number(character.wiki_name, args['wiki_section_number'], wikitext)
+        elif wiki.site != None and not wiki.page_exists(character.wiki_name, wikitext):
+            print(f"Publishing {character.wiki_name}")
+            wiki.publish(character.wiki_name, wikitext, "Updated character page")
 
 
 
@@ -74,10 +78,10 @@ def main():
     args = vars(parser.parse_args())
     print(args)
 
-    if args['wiki'] != None and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
+    if args['wiki'] != None: #and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
         wiki.init(args)
-    else:
-        args['wiki'] = None
+    # else:
+    #     args['wiki'] = None
 
 
     try:

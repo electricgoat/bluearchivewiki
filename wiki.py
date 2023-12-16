@@ -58,11 +58,11 @@ def page_list(match):
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
             page_list(match)
-        elif error.data['code'] == 'fileexists-no-change':
-            print (f"{error.data['info']}")
-            return True
+        # elif error.data['code'] == 'fileexists-no-change':
+        #     print (f"{error.data['info']}")
+        #     return True
         else:
-            print (f"Unknown upload error {error}")
+            print (f"Unknown error {error}")
 
     #print(f"Fetched {len(page_list)} pages that match {match}")
     return page_list
@@ -208,7 +208,7 @@ def publish(page_name, wikitext, summary='Publishing generated page'):
 
 
 
-def upload(file, name, comment = 'File upload'):
+def upload(file, name, comment = 'File upload', text = ''):
     global site
     f = open(file, "rb")
 
@@ -217,6 +217,7 @@ def upload(file, name, comment = 'File upload'):
             action='upload',
             filename=name,
             comment=comment,
+            text=text,
             ignorewarnings=True,
             token=site.token(),
             POST=True,

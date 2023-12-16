@@ -41,6 +41,7 @@
 =How to Obtain=
 {% if character.character_pool == "regular" %}*Regular Gacha pool
 {% endif -%}{% raw %}{{CharacterBanners}}{{CharacterMissionRewards}}{% endraw %}
+{%- if fragment_sources != None %}{{fragment_sources}}{% endif %}
 
 =Character Details=
 {% raw %}{{{% endraw %}CharacterStatTable
@@ -239,11 +240,15 @@
 {% endfor -%}
 {% raw %}}}{% endraw %}
 {%- endif %}
-{% raw %}{{MomoTalkLink}}{% endraw %}
-=Voiceover=
-See {% raw %}[[{{PAGENAME}}/audio]]{% endraw %}
 
-{% raw %}=Cafe=
+{% raw %}=Resources=
+{{MomoTalkLink}}
+{{CharacterGalleryLink}}
+==Voiceover==
+See [[{{PAGENAME}}/audio]]
+
+=Cafe=
+{{CharacterCafeImage}}
 {{#dpl:
 | category        = Furniture
 | linksto         = {{PAGENAME}}
@@ -255,3 +260,5 @@ See {% raw %}[[{{PAGENAME}}/audio]]{% endraw %}
 {{CharacterGifts}}{% endraw %}
 {% raw %}{{CharacterNavbox}}{% endraw %}
 [[Category:Characters]]
+{%- if fragment_sources != None %}
+[[Category:Characters_with_shards_that_can_be_farmed_or_bought]]{% endif %}
