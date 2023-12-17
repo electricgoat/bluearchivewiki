@@ -1030,13 +1030,18 @@ class Furniture(object):
         furniture = data.furniture[furniture_id]
         name_en = 'NameEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['NameEn'] or None
         desc_en = 'DescriptionEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
-
+        
         furniture_group = furniture['SetGroudpId'] > 0 and FurnitureGroup.from_data(furniture['SetGroudpId'], data) or None
 
-        # interaction = []
-        # for item in data.cafe_interaction:
-        #     if data.cafe_interaction[item]['CafeCharacterState'] and int(data.cafe_interaction[item]['CafeCharacterState'][0][3:]) == furniture_id:
-        #         interaction.append(data.translated_characters[item]['PersonalNameEn'])
+        interaction = []
+        interaction_tags = set(furniture['CafeCharacterStateReq'] + furniture['CafeCharacterStateAdd'] + furniture['CafeCharacterStateMake'] + furniture['CafeCharacterStateOnly'])
+        for item in data.cafe_interaction.values():
+            if item['CafeCharacterState'] and bool(interaction_tags.intersection(item['CafeCharacterState'])):
+                
+                character_wiki_name = data.translated_characters[item['CharacterId']]['PersonalNameEn']
+                character_wiki_name += f" ({data.translated_characters[item['CharacterId']]['VariantNameEn']})" if 'VariantNameEn' in data.translated_characters[item['CharacterId']] and data.translated_characters[item['CharacterId']]['VariantNameEn'] is not None else ''
+
+                interaction.append(character_wiki_name)
 
         return cls(
             furniture['Id'],
@@ -1053,7 +1058,7 @@ class Furniture(object):
             replace_glossary(desc_en),
             furniture['Icon'][furniture['Icon'].rfind('/')+1:],
             furniture_group,
-            None, #interaction,
+            interaction,
             None #CraftNodes.from_data(furniture_id, data)
         )
 
