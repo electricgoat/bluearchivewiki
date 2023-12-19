@@ -18,7 +18,7 @@ galleries = []
 
 
 class Gallery(object):
-    def __init__(self, root_dir, dirname, character_wikiname, variant_origin:str, is_diorama, is_exported, description, files, exclude_files = []):
+    def __init__(self, root_dir, dirname, character_wikiname, variant_origin:str, is_diorama, is_exported, description, files, exclude_files = None):
         self.root_dir = root_dir
         self.dirname = dirname
         self.character_wikiname = character_wikiname
@@ -29,26 +29,37 @@ class Gallery(object):
         self.files = files
         self.exclude_files = exclude_files
 
+
     @property
     def character_dir_path(self):
         return os.path.join(self.root_dir, self.dirname)
+    
 
+    @property
+    def files_exportable(self):
+        out = {}
+        for path in self.files.keys():
+            out[path] = [x for x in self.files[path] if x not in self.exclude_files[path]]
+        return out
     
     
     @property
     def wikitext(self):
-        self.exclude_files = compare_images(self.files, self.character_dir_path)
-        wikitext = self.generate_gallery_wikitext(self.files, self.exclude_files, self.character_wikiname, self.description)
-        #S2 is a second set of usually same faces for a sprite variant (no mask/hat etc), 
-        #so display as a separate gallery within same section, or merge if first section has few images
-        if(os.path.exists(self.character_dir_path+"_S2")):
-            s2_path = self.character_dir_path+"_S2"
-            s2_files = self.scan_files(s2_path)
-            s2_exclude_files = compare_images(s2_files, s2_path)
-            self.exclude_files += s2_exclude_files
+        if self.exclude_files == None:
+            self.exclude_files = compare_images(self.files)
+            if Gallery.flatlist(self.exclude_files): print(f"Excluding from {self.character_wikiname}: {Gallery.flatlist(self.exclude_files)}")
 
-            if len(self.files) > 2: wikitext += self.generate_gallery_wikitext(s2_files, s2_exclude_files, None, None) #append second gallery
-            else: wikitext = self.generate_gallery_wikitext(self.files + s2_files, self.character_wikiname, self.description) #redo gallery merged
+        if len(self.files.keys()) == 1:
+            wikitext = self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description)
+        else:
+            #S2 is a second set of usually same faces for a sprite variant (no mask/hat etc), 
+            #display as a separate gallery within same section, or merge if first section has few images
+            first_gallery_size = len(list(self.files_exportable.values())[0])
+
+            if first_gallery_size > 2: 
+                wikitext = self.generate_gallery_wikitext(list(self.files_exportable.values())[0], Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description) + self.generate_gallery_wikitext(list(self.files_exportable.values())[1], [], None, None) #append second gallery
+            else: 
+                wikitext = self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description) #make gallery merged
         
         return wikitext
 
@@ -62,7 +73,12 @@ class Gallery(object):
         is_diorama = character_dir.endswith("diorama")
         is_exported = (is_diorama or f"{character_dir}_diorama" not in export_catalog) and not character_dir.endswith("S2")    
 
-        files = Gallery.scan_files(character_dir_path)
+        file_list = Gallery.scan_files(character_dir_path)
+        files = {character_dir_path: file_list}
+        
+        if(os.path.exists(character_dir_path+"_S2")):
+            s2_file_list = Gallery.scan_files(character_dir_path+"_S2")
+            files[character_dir_path+"_S2"] = s2_file_list
         
         return cls(
             root_dir,
@@ -76,21 +92,28 @@ class Gallery(object):
         )
     
 
+    @staticmethod
     def scan_files(dir):
         return [x for x in os.listdir(dir) if x.endswith(".png")]
+    
+
+    @staticmethod
+    def flatlist(data):
+        out = []
+        for path in data.keys():
+            out += data[path]
+        return out
 
 
     def generate_gallery_wikitext(cls, files: list, exclude_files: list, title, description = None):
         wikitext = ""
 
-        gallery_list = [x for x in files if x not in exclude_files]
-
         if title is not None: wikitext += f"=={title}==\n"
         if description is not None and description != '': wikitext += description+"\n"
 
         if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
-        #print(wikitext)
-        wikitext += "<gallery>\n" + "\n".join(gallery_list) + "\n</gallery>\n"
+
+        wikitext += "<gallery>\n" + "\n".join(files) + "\n</gallery>\n"
 
         return wikitext
 
@@ -137,11 +160,12 @@ def upload_files(export_galleries):
         wiki_text = "\n".join([f"[[Category:{x}]]" for x in wiki_categories])
 
         comment = f"Sprite for {gallery.character_wikiname}"
-    
-        for file in [x for x in gallery.files if f"File:{x}" not in page_list and x not in gallery.exclude_files]:
-            print (f"Uploading {file}")
-            path = os.path.join(args['gallery_dir'], gallery.dirname, file)
-            wiki.upload(path, file, comment, wiki_text)
+
+        for path in gallery.files_exportable.keys():
+            for file in [x for x in gallery.files_exportable[path] if f"File:{x}" not in page_list and x not in gallery.exclude_files[path]]:
+                print (f"Uploading {file} from {os.path.join(path, file)}")
+                #path = os.path.join(args['gallery_dir'], gallery.dirname, file)
+                wiki.upload(os.path.join(path, file), file, comment, wiki_text)
 
 
 
