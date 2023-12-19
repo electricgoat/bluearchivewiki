@@ -19,16 +19,17 @@ season_data = {'jp':None, 'gl':None}
 
 SEASON_IGNORE = {
     'jp' : [1],
-    'gl' : [],
+    'gl' : [1],
 }
 
 SEASON_NOTES = {
     'jp' : {
         2:'Beta version',
         3:'Beta version',
+        5:'Torment difficulty no longer based on original defense type',
     },
     'gl' : {
-
+        2:'Beta version',
     }
 }
 
@@ -44,7 +45,7 @@ def environment_type(environment):
 def generate():
     global args, data, season_data
 
-    for region in ['jp']:
+    for region in ['jp', 'gl']:
         for season in season_data[region].eliminate_raid_season.values():
             boss = season['OpenRaidBossGroup01'].split('_',2)
 
@@ -96,7 +97,7 @@ def init_data():
     global args, data, season_data
     
     season_data['jp'] = load_season_data(args['data_primary'])
-    #season_data['gl'] = load_season_data(args['data_secondary'])
+    season_data['gl'] = load_season_data(args['data_secondary'])
    
 
 def main():
