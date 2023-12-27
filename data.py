@@ -26,7 +26,7 @@ BlueArchiveData = collections.namedtuple(
     'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
-    'bgm',
+    'bgm','voice',
     ]
 )
 
@@ -115,6 +115,7 @@ def load_data(path_primary, path_secondary, path_translation):
         eliminate_raid_stage_season_reward=load_generic(path_primary, 'EliminateRaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
         eliminate_raid_ranking_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         bgm=                        load_bgm(path_primary, path_translation),
+        voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
     )
 
 
@@ -155,7 +156,7 @@ def load_characters_skills(path):
         data = json.load(f)
 
     return {
-        (character_skill['CharacterSkillListGroupId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['IsFormConversion']): character_skill
+        (character_skill['CharacterSkillListGroupId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['FormIndex']): character_skill
         for character_skill
         in data['DataList']
     }

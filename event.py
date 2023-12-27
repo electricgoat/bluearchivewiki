@@ -106,6 +106,8 @@ def wiki_card(type, id, **params ):
             card_type = 'FurnitureCard'
             name = furniture[id].name_en
         case _:
+            card_type = 'ItemCard'
+            name = None
             print(f'Unrecognized item type {type}')
     
     if 'probability' in params:

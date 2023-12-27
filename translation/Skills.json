@@ -4359,7 +4359,60 @@
             "GroupId": "CH0219ExtraPassive01",
             "NameEn": "Slippery",
             "DescriptionEn": "Increase Attack Speed of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0232Ex01",
+            "NameEn": "Bear bell toss",
+            "DescriptionEn": "Deal $1 damage to one enemy and inflict Confusion for $2."
+        },
+        {
+            "GroupId": "CH0232Public01",
+            "NameEn": "Resonance effect",
+            "DescriptionEn": "Every $1, increase Attack of one other ally and self by $2 for $3."
+        },
+        {
+            "GroupId": "CH0232Passive01",
+            "NameEn": "Noise amplification",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0232WeaponPassive01",
+            "NameEn": "Noise amplification +",
+            "DescriptionEn": "Increase CC Strength by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0232ExtraPassive01",
+            "NameEn": "Radio interference",
+            "DescriptionEn": "When attacking an enemy, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0233Ex01",
+            "NameEn": "Campfire cooking",
+            "DescriptionEn": "Increase Attack of one other ally by $1 for $2.\nAdditionally, give self 5 Freshly Roasted Sweet Potatoes. (Stacks up to a maximum of 15)"
+        },
+        {
+            "GroupId": "CH0233Public01",
+            "NameEn": "Spreading warmth",
+            "DescriptionEn": "Every $1, increase Attack of allies within a circular area by $2 for $3."
+        },
+        {
+            "GroupId": "CH0233Passive01",
+            "NameEn": "Detox effect",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0233WeaponPassive01",
+            "NameEn": "Detox effect +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0233ExtraPassive01",
+            "NameEn": "The best part of camping",
+            "DescriptionEn": "When attacking an enemy while holding Freshly Roasted Sweet Potatoes, deal $1 of Attack as additional damage.\nAfter that, reduce owned Freshly Roasted Sweet Potatoes count by 1."
         }
+
 
         
 

@@ -130,6 +130,7 @@ map_descriptions = {
     'Event_Mission_TBG_Complete_Thema2_Hidden': 2905801638,
     'Event_Mission_TBG_Complete_Thema4_Hidden': 3584453321,
     'Event_Mission_Complete_Campaign_Stage': 538150987,
+    'Event_Mission_Omikuji_Count_832': 2417672652,
 }
 
 map_descriptions_all = {  #for reference only

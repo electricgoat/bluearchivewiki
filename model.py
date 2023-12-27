@@ -195,12 +195,12 @@ class Character(object):
             character['WeaponType'],
             character_ai['CanUseObstacleOfKneelMotion'] or character_ai['CanUseObstacleOfStandMotion'],
             Profile.from_data(character_id, data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PublicSkillGroupId'][0], data),
-            (character_id, 0, 2, False) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, False)]['PublicSkillGroupId'][0], data) or None,
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExSkillGroupId'][0], data, 5),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, False)]['ExtraPassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PublicSkillGroupId'][0], data),
+            (character_id, 0, 2, 0) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, 0)]['PublicSkillGroupId'][0], data) or None,
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExSkillGroupId'][0], data, 5),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExtraPassiveSkillGroupId'][0], data),
             Stats.from_data(character_id, data),
             Weapon.from_data(character_id, costume, data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
@@ -389,7 +389,10 @@ class Skill(object):
                 #print (f'Skill level {i+1} cost change from {levels[i-1].cost} to {levels[i].cost}')
                 skill_cost.append({'level':i+1, 'cost':levels[i].cost})
 
-        text_general = "DescriptionGeneral" in data.translated_skills[group_id] and data.translated_skills[group_id]["DescriptionGeneral"] or translate_skill(levels[9].description, max_level, group_id, data)
+        try: 
+            text_general = data.translated_skills[group_id]["DescriptionGeneral"] 
+        except:
+            text_general = translate_skill(levels[9].description, max_level, group_id, data)
         description_general = format_description(levels, text_general)
 
 
@@ -552,14 +555,14 @@ class Weapon(object):
         stats = data.characters_stats[character_id]
 
 
-        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, False)]['PassiveSkillGroupId'][0], data)
+        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data)
 
         #print (passive_skill.name_translated)
         #try: data.translated_skills[group[0]['GroupId']]['NameEn']
         #except KeyError: 
         #    skill_name_en = None
         #else:  
-        #    skill_name_en = data.characters_skills[(costume['CharacterSkillListGroupId'], False)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
+        #    skill_name_en = data.characters_skills[(costume['CharacterSkillListGroupId'], 0)]['PassiveSkillGroupId'][0] #data.translated_skills[group[0]['GroupId']]['NameEn']
 
         rank2_desc = f'Passive Skill changes to <b>{weapon_passive_skill.name_translated}</b>'
 
