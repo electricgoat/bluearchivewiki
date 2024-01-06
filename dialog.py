@@ -189,7 +189,7 @@ def generate():
             sl += [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
         standard_lines = get_standard_lines(character, sl, data.character_dialog_standard)
 
-        #dump_missing_standard_translations(character, standard_lines)
+        dump_missing_standard_translations(character, standard_lines)
 
 
 
@@ -411,14 +411,14 @@ def process_files(character, dialog:Dialog, page_list:list):
 def dump_missing_standard_translations(character:Character, lines:list[Voice]):
     data = []
     for line in lines:
-        if line.localize_en != '': continue
+        if len(line.localize_en): continue
 
         data.append({
             "CharacterId": character.id,
             "DialogCategory": "Standard",
             "VoiceClip": line.voice[0].wiki_voice_clips[0],
             "Path": line.voice[0].path[0],
-            "LocalizeKR": line.localize_kr,
+            #"LocalizeKR": line.localize_kr,
             "LocalizeJP": line.localize_jp,
             "LocalizeEN": line.localize_en
         })
