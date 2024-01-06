@@ -9,16 +9,18 @@
 ! style="width:240px" |Japanese
 ! style="width:240px" |English
 {%- endraw %}
-{% for line in lines -%}
+{% for line in lines if line.voice != [] -%}
 |-
-| {{line['Title']}}
-| {% for clip in line['WikiVoiceClip'] %}[[File:{{clip}}.ogg]]<br>{% endfor %}
-| {{line['LocalizeJP']}}
-| {{line['LocalizeEN']}}
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
 {% endfor -%}
 {% raw -%}
 |}
 {% endraw %}
+
+
 {%- if memorial_lines != [] %}
 {%- raw -%}
 =Memorial lobby=
@@ -31,17 +33,19 @@
 ! style="width:240px" |Japanese
 ! style="width:240px" |English
 {%- endraw %}
-{% for line in memorial_lines -%}
+{% for line in memorial_lines if line.voice != [] -%}
 |-
-| {{line['Title']}}
-| {% for clip in line['WikiVoiceClip'] %}[[File:{{clip}}.ogg]]<br>{% endfor %}
-| {{line['LocalizeJP']}}
-| {{line['LocalizeEN']}}
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
 {% endfor -%}
 {% raw -%}
 |}
 {% endraw %}
 {%- endif -%}
+
+
 {%- if event_lines != [] %}
 {%- raw -%}
 =Event lines=
@@ -56,15 +60,17 @@
 {%- endraw %}
 {% for line in event_lines -%}
 |-
-| {{line['Title']}}
-| {% for clip in line['WikiVoiceClip'] %}[[File:{{clip}}.ogg]]<br>{% endfor %}
-| {{line['LocalizeJP']}}
-| {{line['LocalizeEN']}}
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
 {% endfor -%}
 {% raw -%}
 |}
 {% endraw %}
 {%- endif -%}
+
+
 {%- if standard_lines != [] %}
 {%- raw -%}
 =Tactics and growth=
@@ -79,10 +85,10 @@
 {%- endraw %}
 {% for line in standard_lines -%}
 |-
-| {{line['Title']}}
-| [[File:{{line['WikiName'].replace(' ','_')}}]]
-| {{line['LocalizeJP']}}
-| {{line['LocalizeEN']}}
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
 {% endfor -%}
 {% raw -%}
 |}

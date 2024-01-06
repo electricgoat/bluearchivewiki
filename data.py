@@ -1,6 +1,7 @@
 import collections
 import json
 import os
+import re
 
 BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
@@ -26,7 +27,7 @@ BlueArchiveData = collections.namedtuple(
     'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
-    'bgm','voice',
+    'bgm','voice','voice_spine',
     ]
 )
 
@@ -63,9 +64,9 @@ def load_data(path_primary, path_secondary, path_translation):
         favor_rewards=load_favor_rewards(path_primary),
         memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='CharacterId'),
         etc_localization=           load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeEtcExcelTable.json'),
-        character_dialog=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
-        character_dialog_event=load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json'),
-        character_dialog_standard=load_character_dialog_standard(path_translation),
+        character_dialog=           load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
+        character_dialog_event=     load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json', match_id='OriginalCharacterId', aux_prefix='event'),
+        character_dialog_standard=  load_character_dialog_standard(path_translation),
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
         levelskill = load_levelskill(path_primary),
         logiceffectdata = load_skill_logiceffectdata(path_primary),
@@ -116,12 +117,16 @@ def load_data(path_primary, path_secondary, path_translation):
         eliminate_raid_ranking_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         bgm=                        load_bgm(path_primary, path_translation),
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
+        voice_spine=                load_generic(path_primary, 'VoiceSpineExcelTable.json', key='Id'),
     )
 
 
 
 def load_generic(path, filename, key='Id'):
     return load_file(os.path.join(path, 'Excel', filename), key)
+
+def load_generic_db(path, filename, key='Id'):
+    return load_file(os.path.join(path, 'DB', filename), key)
 
 
 def load_file(file, key='Id'):
@@ -149,6 +154,18 @@ def load_file_grouped(file, key="Id"):
         groups[item[key]].append(item)
 
     return dict(groups)
+
+
+
+# Even old JP script keeps getting tweaked, so clean out some formatting changes for better matching
+# aggresive option removes ALL line breaks to hopefully match more lines, non-aggressively cleaned line is then actually used
+def line_cleanup(text, aggresive = False): 
+    text = text.replace('\n\r','\n').replace('\r','').replace(' \n','\n').replace('\n ','\n').strip()
+    if (aggresive): 
+        text = text.replace('\n','').replace(' ','').strip()
+        text = re.sub(r'\[.*?\]', '', text)
+        if (text.endswith('。')): text = text[:-1]
+    return text
 
 
 def load_characters_skills(path):
@@ -240,19 +257,12 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
 
 
-def load_character_dialog(path_primary, path_secondary, path_translation,  filename):
+def load_character_dialog(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'dialog'):
     #dp = {}
     ds = {}
     da = {}
     data = []
     data_aux = []
-
-    # Even old JP script keeps getting tweaked, so clean out some formatting changes for better matching
-    # aggresive option removes ALL line breaks to hopefully match more lines, non-aggressively cleaned line is then actually used
-    def line_cleanup(text, aggresive = False): 
-        text = text.replace('\n\r','\n').replace('\r','').replace(' \n','\n').replace('\n ','\n').strip()
-        if (aggresive): text = text.replace('\n','').replace(' ','').strip()
-        return text
 
     with open(os.path.join(path_primary, 'Excel', filename), encoding="utf8") as f:
         data_primary = json.load(f)['DataList']
@@ -261,7 +271,7 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
         data_secondary = json.load(f)['DataList']
 
     for file in os.listdir(path_translation + '/audio/'):
-        if not file.endswith('.json') or file.startswith('standard_'):
+        if not file.endswith('.json') or not file.startswith(aux_prefix):
             continue
 
         #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
@@ -270,17 +280,17 @@ def load_character_dialog(path_primary, path_secondary, path_translation,  filen
     
 
     for line in data_secondary:
-        ds[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
+        ds[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
 
     for line in data_aux:
-        da[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
+        da[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
 
     for line in data_primary:
         try: 
             line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
 
-            if (line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in da: line['LocalizeEN'] = line_cleanup(da[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
-            elif (line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in ds: line['LocalizeEN'] = line_cleanup(ds[(line['CharacterId'], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
+            if (line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in da: line['LocalizeEN'] = line_cleanup(da[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
+            elif (line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True)) in ds: line['LocalizeEN'] = line_cleanup(ds[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))]['LocalizeEN'])
             elif 'LocalizeEN' not in line: line['LocalizeEN'] = ''
 
         except KeyError:
@@ -435,17 +445,70 @@ def load_bgm(path_primary, path_translation):
 
 
 
-
+#TODO switch to using new DB scenario_script everywhere
 BlueArchiveScenarioData = collections.namedtuple(
     'BlueArchiveScenarioData',
-    ['scenario_script_favor']
+    ['scenario_script', 'scenario_script_favor']
 )
 
 
 def load_scenario_data(path_primary, path_secondary, path_translation):
     return BlueArchiveScenarioData(
+        scenario_script=load_db_scenario_script(path_primary, path_secondary, path_translation),
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation)
     )
+
+
+def load_db_scenario_script(path_primary, path_secondary, path_translation):
+    ds = {}
+    da = {}
+    data = []
+    data_aux = []
+
+    with open(os.path.join(path_primary, 'DB', 'ScenarioScriptExcelTable.json'), encoding="utf8") as f:
+        data_primary = json.load(f)['DataList']
+        #print(f'Loaded primary script data from ScenarioScriptExcelTable.json, {len(data_primary)} entries')
+
+    secondary_file = os.path.join(path_secondary, 'DB', 'ScenarioScriptExcelTable.json')
+    if os.path.exists(secondary_file): 
+        with open(secondary_file, encoding="utf8") as f:
+            data_secondary = json.load(f)['DataList']
+            #print(f'Loaded secondary script data from ScenarioScriptExcelTable.json, {len(data_primary)} entries')
+    else: data_secondary = []
+
+
+    for file in os.listdir(path_translation + '/scenario/'):
+        if not file.endswith('.json'):
+            continue
+
+        #print(f'Loading additional scenario translations from {path_translation}/scenario/{file}')
+        with open(os.path.join(path_translation + '/scenario/', file), encoding="utf8") as f:
+            data_aux += json.load(f)['DataList']
+
+    for line in data_secondary:
+        ds[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
+
+    for line in data_aux:
+        da[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
+
+    for line in data_primary:
+        try: 
+            line['ScriptKr'] = line_cleanup(line['ScriptKr'])
+            line['TextJp'] = line_cleanup(line['TextJp'])
+            if (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in da: line['TextEn'] = da[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
+            elif (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in ds: line['TextEn'] = ds[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
+            elif 'TextEn' not in line: line['TextEn'] = ''
+
+        except KeyError:
+            #print (f"Localization not found {dp[(line['GroupId'], line['ScriptKr'], line['TextJp'])]}")
+            line['TextEn'] = ''
+            pass
+
+        data.append(line)
+
+    return data
+
+
 
 
 def load_scenario_script_favor(path_primary, path_secondary, path_translation):
@@ -480,16 +543,17 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
             data_aux += json.load(f)['DataList']
 
     for line in data_secondary:
-        ds[(line['GroupId'], line['ScriptKr'], line['TextJp'])] = line 
+        ds[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
 
     for line in data_aux:
-        da[(line['GroupId'], line['ScriptKr'], line['TextJp'])] = line 
+        da[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
 
     for line in data_primary:
         try: 
-            
-            if (line['GroupId'], line['ScriptKr'], line['TextJp']) in da: line['TextEn'] = da[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
-            elif (line['GroupId'], line['ScriptKr'], line['TextJp']) in ds: line['TextEn'] = ds[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
+            line['ScriptKr'] = line_cleanup(line['ScriptKr'])
+            line['TextJp'] = line_cleanup(line['TextJp'])
+            if (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in da: line['TextEn'] = da[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
+            elif (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in ds: line['TextEn'] = ds[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
             elif 'TextEn' not in line: line['TextEn'] = ''
 
         except KeyError:
