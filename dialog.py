@@ -26,10 +26,12 @@ force_variant_link = {
 }
 
 block_variant_link = {
-    20003 : 19009005,
+    10019 : 19009004, #Azusa -> Azusa (Swimsuit)
+    20003 : 19009005, #Mashiro -> Mashiro (Swimsuit)
     10003 : 19009006,
     10013 : 19009007,
     10009 : 19009008, #Izumi getting linked Izumi (Swimsuit) event
+    
 }
 
 
@@ -189,7 +191,7 @@ def generate():
             sl += [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
         standard_lines = get_standard_lines(character, sl, data.character_dialog_standard)
 
-        dump_missing_standard_translations(character, standard_lines)
+        #dump_missing_standard_translations(character, standard_lines)
 
 
 
@@ -374,41 +376,49 @@ def get_dialog_lines(character, dialog_data, costume_id):
                 lines.append(dialog)
         
 
-    print(f"Gathered {len(lines)} dialog lines for costume id {costume_id}")
+    #print(f"Gathered {len(lines)} dialog lines for costume id {costume_id}")
     return lines
 
 
 
 def process_files(character, dialog:Dialog, page_list:list):
+    global args
+
+    if wiki.site == None: return
     page_list_lower = [x.lower() for x in page_list]
 
     for line in dialog.voice:
         for index, filepath in enumerate(line.path):
+            wikiname = f"File:{line.wiki_voice_clips[index]}.ogg"
+            wikitext = f"[[Category:Character dialog]]\r\n[[Category:{character.wiki_name} dialog]]"
+
             if not os.path.exists(os.path.join(args['data_audio'], f"{filepath}.ogg")):
                 print(f"Local file not found at {os.path.join(args['data_audio'], f'{filepath}.ogg')}")
                 continue
-        
-            if f"File:{line.wiki_voice_clips[index]}.ogg" in page_list: 
-                print(f"File:{line.wiki_voice_clips[index]}.ogg is already in known pages list")
-                continue
-
-            if f"File:{line.wiki_voice_clips[index]}.ogg".lower() in page_list_lower:
-                i = page_list_lower.index(f"File:{line.wiki_voice_clips[index]}.ogg".lower())
-                print(f"File:{line.wiki_voice_clips[index]}.ogg is in known pages list, but capitalized as {page_list[i]}")
-                if wiki.site != None:
-                    wiki.move(page_list[i], f"File:{line.wiki_voice_clips[index]}.ogg", 'Name capitalization changed', noredirect=False)
-                       
             
-            if wiki.site != None:
-                print (f"Uploading {filepath}.ogg → {line.wiki_voice_clips[index]}.ogg")
-                wiki.upload(os.path.join(args['data_audio'], f"{filepath}.ogg"), 
-                            f"{line.wiki_voice_clips[index]}.ogg", 
-                            'Character dialog upload', 
-                            f"[[Category:Character dialog]]\r\n[[Category:{character.wiki_name} dialog]]")
+            if wikiname in page_list: 
+                print(f"File:{line.wiki_voice_clips[index]}.ogg is already in known pages list")
+                if args['update_files'] and not wiki.page_exists(wikiname, wikitext): 
+                    wiki.publish(wikiname, wikitext, 'Updated audio categories')
+                    continue
+                else: continue
+
+            if wikiname.lower() in page_list_lower:
+                i = page_list_lower.index(wikiname.lower())
+                print(f"File:{line.wiki_voice_clips[index]}.ogg is in known pages list, but capitalized as {page_list[i]}")
+                wiki.move(page_list[i], wikiname, 'Name capitalization changed', noredirect=False)
+                #no continue here because we will try and upload the new file on the chance it's data changed
+            
+            
+            print (f"Uploading {filepath}.ogg → {line.wiki_voice_clips[index]}.ogg")
+            wiki.upload(os.path.join(args['data_audio'], f"{filepath}.ogg"), 
+                        f"{line.wiki_voice_clips[index]}.ogg", 
+                        'Character dialog upload', 
+                        wikitext)
 
 
 
-def dump_missing_standard_translations(character:Character, lines:list[Voice]):
+def dump_missing_standard_translations(character:Character, lines:list[Dialog]):
     data = []
     for line in lines:
         if len(line.localize_en): continue
@@ -423,21 +433,13 @@ def dump_missing_standard_translations(character:Character, lines:list[Voice]):
             "LocalizeEN": line.localize_en
         })
     
-    if len(data)>0:
-        f = open(args['translation'] + '/missing/' + f"standard_{character.wiki_name}.json".replace(' ', '_'), "w", encoding='utf8' )
-        f.write(json.dumps({'DataList':data}, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
-        f.close()
+    if len(data)>0: write_file(os.path.join(args['translation'], 'missing', f"standard_{character.wiki_name.replace(' ', '_')}.json"), data)
 
 
 
-def write_file(file, items):
-    data = {}
-    data['DataList'] = []
-    for item in items: 
-        data['DataList'].append(item)
-
-    f = open(os.path.join(file), 'w', encoding="utf8")
-    f.write(json.dumps(data, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
+def write_file(file, data):
+    f = open(file, 'w', encoding="utf8")
+    f.write(json.dumps({'DataList':data}, sort_keys=False, indent=4, ensure_ascii=False)+"\n")
     f.close()
     return True
 
@@ -458,7 +460,7 @@ def main():
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
     parser.add_argument('-wiki_section',    metavar='SECTION NAME', help='Name of a page section to be updated')
-    parser.add_argument('-upload_files',    action='store_false', help='Check if audio file is already on the wiki and upload it if not')
+    parser.add_argument('-update_files',    action='store_true', help='Check audio file wikitext and update it')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
     args = vars(parser.parse_args())
