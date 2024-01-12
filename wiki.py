@@ -230,7 +230,10 @@ def upload(file, name, comment = 'File upload', text = ''):
     except ApiError as error:
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
-            upload(file, name)
+            upload(file, name, comment, text)
+        elif error.data['code'] == 'backend-fail-internal':
+            print (f"Server failed with {error.data['code']}, retrying")
+            upload(file, name, comment, text)
         elif error.data['code'] == 'fileexists-no-change':
             print (f"{error.data['info']}")
             return True
