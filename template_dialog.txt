@@ -46,9 +46,11 @@
 {%- endif -%}
 
 
-{%- if event_lines != [] %}
-{%- raw -%}
+{%- if event_lines != [] or event_standard_lines != [] -%}
+
 =Event lines=
+{% if event_lines != [] %}
+{%- raw -%}
 {| class="wikitable limitwidth-1024"
 |+
 ! rowspan="2" |Name
@@ -69,6 +71,33 @@
 |}
 {% endraw %}
 {%- endif -%}
+
+{% if event_standard_lines != [] %}
+{%- raw -%}
+==Extra event lines==
+{| class="wikitable limitwidth-1024"
+|+
+! rowspan="2" |Name
+! rowspan="2" style="width:300px" |
+! colspan="2" |Transcription
+|-
+! style="width:240px" |Japanese
+! style="width:240px" |English
+{%- endraw %}
+{% for line in event_standard_lines -%}
+|-
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
+{% endfor -%}
+{% raw -%}
+|}
+{% endraw %}
+{%- endif -%}
+
+{%- endif -%}
+
 
 
 {%- if standard_lines != [] %}
@@ -94,6 +123,8 @@
 |}
 {% endraw %}
 {%- endif -%}
+
+
 {% raw -%}
 {{CharacterAudioSeo}}
 {%- endraw %}

@@ -34,6 +34,9 @@ block_variant_link = {
     
 }
 
+STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
+            'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
+EVENT_STANDARD_LINE_TYPES = [ 'EventLocation' ] 
 
 
 def list_character_variants(character):
@@ -93,13 +96,12 @@ def generate():
 
 
     for character in data.characters.values():      
-        lines = []
+        normal_lines = []
         event_lines = []
         memorial_lines = []
 
         standard_lines = [] 
-        standard_line_types = [ #those do not have ingame transcriptions
-            'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship' ] 
+        
 
 
 
@@ -119,6 +121,10 @@ def generate():
         if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
             continue
 
+        if (args['scavenge']):
+            scavenge(character)
+            continue
+
         print (f"===== [{character.id}] {character.wiki_name} =====")
 
         character.model_prefab_name = character.model_prefab_name.replace('_Original','').replace('_','')
@@ -128,7 +134,7 @@ def generate():
     
 
         
-        lines = get_dialog_lines(character, data.character_dialog , character.costume['CostumeUniqueId'])
+        normal_lines = get_dialog_lines(character, data.character_dialog , character.costume['CostumeUniqueId'])
 
         memorial_lines = get_memorial_lines(character, data.character_dialog)
         
@@ -178,26 +184,21 @@ def generate():
 
 
 
-        if wiki.site != None: page_list = wiki.page_list(f"File:{character.wiki_name}")
-        else: page_list = []
-        #print(f"Existing pages list: {page_list}")
-
-            
         
         sl = []
         file_list = os.listdir(os.path.join(args['data_audio'], files_scandir))
-        for type in standard_line_types:
+        for type in (STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES):
             #print(f"Gathering {type}-type standard lines")
-            sl += [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
-        standard_lines = get_standard_lines(character, sl, data.character_dialog_standard)
-
+            sl = [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
+            if type in EVENT_STANDARD_LINE_TYPES and sl: print (f'Found {type}-type lines {sl}') 
+            standard_lines += get_standard_lines(character, sl, data.character_dialog_standard, type)
         #dump_missing_standard_translations(character, standard_lines)
 
 
 
 
         all_used_files = []
-        for x in lines: all_used_files += x.used_files
+        for x in normal_lines: all_used_files += x.used_files
         for x in memorial_lines: all_used_files += x.used_files 
         for x in event_lines: all_used_files += x.used_files
         for x in standard_lines: all_used_files += x.used_files 
@@ -205,8 +206,14 @@ def generate():
         unused_files = list(set(all_used_files).symmetric_difference(set([x.split('.')[0] for x in file_list])))
         if len(unused_files): print(f"WARNING - unused files: {unused_files}")
 
+
+
+        if wiki.site != None: page_list = wiki.page_list(f"File:{character.wiki_name}")
+        else: page_list = []
+        #print(f"Existing pages list: {page_list}")
+
         
-        for line in lines:
+        for line in normal_lines:
             process_files(character, line, page_list)
 
         for line in memorial_lines:
@@ -221,7 +228,14 @@ def generate():
 
 
         with open(os.path.join(args['outdir'], f'{character.wiki_name}_dialog.txt'), 'w', encoding="utf8") as f:
-            wikitext = template.render(character=character, lines=lines, event_lines=event_lines, memorial_lines=memorial_lines, standard_lines=standard_lines)
+            wikitext = template.render(
+                character=character, 
+                lines=normal_lines, 
+                event_lines=event_lines, 
+                memorial_lines=memorial_lines, 
+                standard_lines=[x for x in standard_lines if x.dialog_category in STANDARD_LINE_TYPES],
+                event_standard_lines=[x for x in standard_lines if x.dialog_category in EVENT_STANDARD_LINE_TYPES],
+                )
             f.write(wikitext)
             
         
@@ -237,69 +251,48 @@ def generate():
 
 
 
-def scavenge():
-    global args
+def scavenge(character):
+    global args, data
+    assert(wiki.site != None)
+    SCRAPE_SECTIONS = ['Tactics and growth', 'Extra event lines']
 
-    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
-    #scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
-
-    for character in data.characters.values():      
-        lines = []
-        standard_lines = [] 
-
-        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
-            continue
-
-        if (args['character_id'] != None) and (character['Id'] != int(args['character_id'])):
-            continue
-
-        try:
-            character = Character.from_data(character['Id'], data)
-        except Exception as err:
-            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
-            traceback.print_exc()
-            continue
-
-        if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
-            continue
-
-
-        print (f'Scavenging standard lines for {character.wiki_name}')
-        if wiki.site != None:
-            parsed_section = None
-            wikipath = character.wiki_name + '/audio'
-                    
-            text = wiki.site('parse', page=wikipath, prop='wikitext')
-            text_parsed = wtp.parse(text['parse']['wikitext'])
+    print (f'Scavenging standard lines for [{character.id}] {character.wiki_name}')
+    
+    parsed_section = None
+    standard_lines =[]
+    wikipath = character.wiki_name + '/audio'
             
-            for section in text_parsed.sections:
-                if section.title == 'Tactics and growth':
-                    parsed_section = section
-
+    text = wiki.site('parse', page=wikipath, prop='wikitext')
+    text_parsed = wtp.parse(text['parse']['wikitext'])
+    
+    for section in text_parsed.sections:
+        if section.title in SCRAPE_SECTIONS:
+            parsed_section = section
             lines = [x for x in parsed_section.tables[0].data() if re.search(r"\[\[File:(.+)\.ogg\]\]", x[1]) is not None]
             for line in lines:
                 clip_name = f"{character.wiki_name.replace(' ', '_')}_{line[0]}"
+                category = line[0].replace(character.wiki_name+'_','').split('_',1)[0] or "Standard"
                 line_jp = line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[2] is not None else ''
                 line_en = line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[3] is not None else ''
 
-                standard_lines.append({"CharacterId":character.id, "DialogCategory":"Standard", "VoiceClip": clip_name, "LocalizeJP":line_jp, "LocalizeEN":line_en})
+                standard_lines.append({"CharacterId":character.id, "DialogCategory":category, "VoiceClip": clip_name, "LocalizeJP":line_jp, "LocalizeEN":line_en})
 
-            if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
+    if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
 
 
-def get_standard_lines(character, files, dialog_data):
+def get_standard_lines(character, files, dialog_data, dialog_category) -> list[Dialog]:
     lines = []
 
     for file in files:
-        dialog = Dialog.construct_standard(character, dialog_data, file)
+        dialog = Dialog.construct_standard(character, dialog_data, file, dialog_category = dialog_category)
         lines.append(dialog)
     
     return lines
 
 
 
-def get_memorial_lines(character, dialog_data):
+def get_memorial_lines(character, dialog_data) -> list[Dialog]:
     global data
     lines:list[Dialog] = []
     known_paths = [] #VoiceExcelTable contains duplicates
@@ -332,7 +325,7 @@ def get_memorial_lines(character, dialog_data):
 
 
 
-def get_dialog_lines(character, dialog_data, costume_id):
+def get_dialog_lines(character, dialog_data, costume_id) -> list[Dialog]:
     global data
     lines:list[Dialog] = []
     known_list = []
@@ -354,7 +347,7 @@ def get_dialog_lines(character, dialog_data, costume_id):
                 is_duplicate = True
                 break
             if len(known_line['VoiceId'])==1 and len(line['VoiceId'])==1 and known_line['VoiceId'] == line['VoiceId']:
-                print(f"Duplicate line with VoiceId {line['VoiceId']}")
+                print(f"Deduplicated line with VoiceId {line['VoiceId']}")
                 is_duplicate = True
                 break
         
@@ -400,8 +393,8 @@ def process_files(character, dialog:Dialog, page_list:list):
                 print(f"File:{line.wiki_voice_clips[index]}.ogg is already in known pages list")
                 if args['update_files'] and not wiki.page_exists(wikiname, wikitext): 
                     wiki.publish(wikiname, wikitext, 'Updated audio categories')
-                    continue
-                else: continue
+                    print('... updated file categories.')
+                continue
 
             if wikiname.lower() in page_list_lower:
                 i = page_list_lower.index(wikiname.lower())
@@ -475,8 +468,7 @@ def main():
         args['character_wikiname'] = [x.replace('_',' ').strip() for x in args['character_wikiname']]
 
     try:
-        if (args['scavenge']): scavenge()
-        else: generate()
+        generate()
     except:
         parser.print_help()
         traceback.print_exc()
