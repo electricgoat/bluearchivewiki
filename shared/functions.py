@@ -1,4 +1,5 @@
 import re
+from xxhash import xxh32_intdigest
 
 def colorize(text:str):
     if len(text):
@@ -75,31 +76,76 @@ def item_sort_order(item):
 
 
 def translate_package_name(text):
-    text = re.sub('스테이지용', 'Stage', text)
-    text = re.sub('스테이지', 'Stage', text)
-    text = re.sub('장비', 'equipment', text)
-    text = re.sub('티어', 'Tier', text)
-    text = re.sub('박스', 'bundle', text)
-    text = re.sub('묶음', 'recursive', text)
-    text = re.sub('통합', 'integrated', text)
-    text = re.sub('가챠', 'gacha', text)
-    text = re.sub('크레딧', 'Credits', text)
-    text = re.sub('공통', 'common', text)
-    text = re.sub('오파츠', 'OOparts', text)
-    text = re.sub('아이템', 'item', text)
-    text = re.sub('그룹', 'group', text)
-    text = re.sub('하급', 'novice', text)
-    text = re.sub('하드', 'hard', text)
+    glossary = {
+        '가챠' : 'Gacha',
+        '제조' : 'Crafting',
+        '튜토리얼' : 'Tutorial',
+        '선별' : 'Selection',
+        '레거시' : 'Legacy',
+        '시즌용' : 'Seasonal',
+        '더미' : 'Dummy',
+        '학생모집(스즈미)' : 'Student recruitment (Suzumi)',
+        '재료' : 'Ingredient',
+        '스킬' : 'Skill',
+        '책' : 'Book',
+        '장비' : 'Equipment',
+        '티어' : 'Tier',
+        '박스' : 'Bundle',
+        '묶음' : 'Recursive',
+        '통합' : 'Integrated',
+        '크레딧' : 'Credits',
+        '오파츠' : 'OOparts',
+        '아이템' : 'item',
+        '그룹' : 'Group',
+        '하급' : 'Novice',
+        '중급' : 'Normal',
+        '상급' : 'Advanced',
+        '최상급' : 'Superior',
+        '하드' : 'Hard',
+        '공통' : 'Common',
+        '강화석' : 'Lesser',
+        '일반' : 'Normal',
+        '엘리그마' : 'Eligma',
+        '스킬북' : 'Skill book',
+        'EX스킬' : 'EXskill',
+        '강화석' : 'Enhancement stone',
+        '마모된' : 'Worn-out',
+        '활동' : 'Activity',
+        '만드라고라' : 'Mandragora',
+        '비의서' : 'Secret tech notes',
+        '선물' : 'Gift',
+        '타입' : 'Type',
+        '조각' : 'Piece',
+        '스테이지' : 'Stage',
+        '스테이지' : 'For stage',
+        '가챠그룹' : 'GachaGroup',
+        '호드' : 'Horde',
+        '비나' : 'Binah',
+        '헤세드' : 'Chesed',
+        '시로쿠로' : 'Shirokuro',
 
-    text = re.sub('강화석', 'lesser', text)
-    text = re.sub('일반', 'normal', text)
-    text = re.sub('엘리그마', 'eligma', text)
-    text = re.sub('강화석', 'enhancement stone', text)
-    text = re.sub('마모된', 'worn-out', text)
-    text = re.sub('활동', 'activity', text)
-    text = re.sub('만드라고라', 'Mandragora', text)
-    text = re.sub('비의서', 'secret tech notes', text)
-    text = re.sub('조각', 'piece', text)
+        '복각' : 'Rerun',
+        '아비도스' : 'Abydos',
+        '드랍' : 'Drop',
+
+    }
+
+
+    words = text.replace('_',' ').split()
+    words = [glossary.get(x, x) for x in words]
+
+    text = ' '.join(words)
+
+    text = re.sub('번째', 'th', text)
+    text = re.sub('게헨', 'Gehenna', text)
+    text = re.sub('레드', 'RW', text)
+    text = re.sub('산해', 'Shanhai', text)
+    text = re.sub('백귀', 'Hyakki', text)
+    text = re.sub('아비', 'Abydos', text)
+    text = re.sub('트리', 'Trinity', text)
+    text = re.sub('밀레', 'Millenium', text)
+    text = re.sub('아리', 'Arius', text)
+    text = re.sub('발키', 'Valk', text)
     
     return text
 
@@ -144,3 +190,7 @@ def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:di
 
     if name == None: print (f"Unknown {type} item {id}")
     return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
+
+
+def hashkey(text:str)->int:
+    return xxh32_intdigest(text)

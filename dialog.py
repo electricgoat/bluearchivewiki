@@ -12,7 +12,7 @@ import wikitextparser as wtp
 from data import load_data, load_scenario_data
 from model import Character
 from classes.Dialog import Dialog, Voice
-#import shared.functions
+from shared.functions import hashkey
 import wiki
 
 
@@ -36,7 +36,7 @@ block_variant_link = {
 
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
             'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
-EVENT_STANDARD_LINE_TYPES = [ 'EventLocation' ] 
+EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'Minigame' ] 
 
 
 def list_character_variants(character):
@@ -191,7 +191,7 @@ def generate():
             #print(f"Gathering {type}-type standard lines")
             sl = [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
             if type in EVENT_STANDARD_LINE_TYPES and sl: print (f'Found {type}-type lines {sl}') 
-            standard_lines += get_standard_lines(character, sl, data.character_dialog_standard, type)
+            standard_lines += get_standard_lines(character, sl, type)
         #dump_missing_standard_translations(character, standard_lines)
 
 
@@ -281,10 +281,46 @@ def scavenge(character):
 
 
 
-def get_standard_lines(character, files, dialog_data, dialog_category) -> list[Dialog]:
+def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
+    global data
+    dialog_data = data.character_dialog_standard
     lines = []
 
+    operator_by_voiceid = {x['VoiceId'][0]:x for x in data.operator.values() if len(x['VoiceId'])}
+    voice_by_path = {x['Path'][0]:x for x in data.voice.values() if len(x['Path'])}
+    
+    character_dialog_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog if len(x['VoiceId'])}
+    character_dialog_event_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog_event if len(x['VoiceId'])}
+
+    
     for file in files:
+        file_wikititle = character.wiki_name.replace(' ', '_') + '_' + file.rsplit("/", 1)[-1].split('_',1)[-1]
+        voice_id = None
+        if file in voice_by_path: voice_id = voice_by_path[file]['Id']
+
+        if voice_id and voice_id in character_dialog_by_voiceid:
+            #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog")
+            continue
+
+        if voice_id and voice_id in character_dialog_event_by_voiceid:
+            #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog_event")
+            continue
+
+        # Inject localization data linked through operator lines
+        if voice_id and voice_id in operator_by_voiceid:
+            operator_line = operator_by_voiceid[voice_id]
+            localize_key = hashkey(operator_line['TextLocalizeKey'])
+            if localize_key in data.localization:
+                if file_wikititle not in dialog_data:
+                    dialog_data[file_wikititle] = {'LocalizeKR': data.localization[localize_key].get('Kr'),
+                                                    'LocalizeJP': data.localization[localize_key].get('Jp'), 
+                                                    'LocalizeEN': data.localization[localize_key].get('En')}
+                else:
+                    dialog_data[file_wikititle]['LocalizeKR'] = dialog_data[file_wikititle]['LocalizeKR'] or data.localization[localize_key].get('Kr')
+                    dialog_data[file_wikititle]['LocalizeJP'] = dialog_data[file_wikititle]['LocalizeJP'] or data.localization[localize_key].get('Jp')
+                    dialog_data[file_wikititle]['LocalizeEN'] = dialog_data[file_wikititle]['LocalizeEN'] or data.localization[localize_key].get('En')
+
+
         dialog = Dialog.construct_standard(character, dialog_data, file, dialog_category = dialog_category)
         lines.append(dialog)
     
