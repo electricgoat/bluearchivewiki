@@ -6,21 +6,37 @@ import wikitextparser as wtp
 WIKI_API = 'https://bluearchive.wiki/w/api.php'
 
 site = None
+stored_auth = [None, None]
 
 
 
 def init(args):
     global site
+    global stored_auth
 
     try:
         site = Site(WIKI_API)
         site.login(args['wiki'][0], args['wiki'][1])
         print(f'Logged in to wiki, token {site.token()}')
+        stored_auth = args['wiki']
 
     except Exception as err:
         print(f'Wiki error: {err}')
         traceback.print_exc()
 
+
+def reauthenticate():
+    global site
+    global stored_auth
+
+    print (f"Server reports bad CSRF token, reathenticating")
+    try:
+        site.login(stored_auth[0], stored_auth[1])
+        print(f'Logged in to wiki, token {site.token()}')
+
+    except Exception as err:
+        print(f'Wiki error: {err}')
+        traceback.print_exc()
 
 
 def page_exists(page, wikitext = None):
@@ -46,12 +62,12 @@ def page_exists(page, wikitext = None):
         
 
 
-def page_list(match):
+def page_list(match, srwhat='title', srnamespace = '*'): #TODO namespaces lookup https://www.mediawiki.org/wiki/Manual:Namespace
     global site
     page_list = []
 
     try: 
-        for r in site.query(list='search', srwhat='title', srsearch=match, srlimit=200, srprop='isfilematch'):
+        for r in site.query(list='search', srwhat=srwhat, srsearch=match, srlimit=200, srprop='isfilematch', srnamespace = srnamespace):
             for page in r['search']:
                 page_list.append(page['title'].replace(' ', '_'))
     except ApiError as error:
@@ -203,6 +219,9 @@ def publish(page_name, wikitext, summary='Publishing generated page'):
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
             publish(page_name, wikitext, summary)
+        elif error.data['code'] == 'badtoken':
+            reauthenticate()
+            publish(page_name, wikitext, summary)
         else:
             print (f"Unknown publishing error {error}")
 
@@ -233,6 +252,9 @@ def upload(file, name, comment = 'File upload', text = ''):
             upload(file, name, comment, text)
         elif error.data['code'] == 'backend-fail-internal':
             print (f"Server failed with {error.data['code']}, retrying")
+            upload(file, name, comment, text)
+        elif error.data['code'] == 'badtoken':
+            reauthenticate()
             upload(file, name, comment, text)
         elif error.data['code'] == 'fileexists-no-change':
             print (f"{error.data['info']}")
