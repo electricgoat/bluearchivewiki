@@ -169,6 +169,20 @@ def upload_files(export_galleries):
 
 
 
+def redirect_files(export_galleries):
+    assert wiki.site != None
+    global args
+
+    for gallery in export_galleries:
+        page_list = wiki.page_list(f"File:{gallery.character_wikiname}")
+
+        for path in gallery.exclude_files.keys():
+            for file in [x for x in gallery.exclude_files[path] if f"File:{x}" not in page_list]:
+                print (f"Creating redirect from {file} to {gallery.exclude_files[path][file]}")
+                wiki.publish(f"File:{file}", f"#REDIRECT [[File:{gallery.exclude_files[path][file]}]]", "Identical sprite redirect")
+
+
+
 def get_character_data():
     global args, map_wikiname_id
 
@@ -227,6 +241,7 @@ def generate():
         
         if args['wiki'] != None and wiki.site != None: 
             upload_files(export_galleries)
+            redirect_files(export_galleries)
 
             wikipath = character_wikiname + '/gallery'
 

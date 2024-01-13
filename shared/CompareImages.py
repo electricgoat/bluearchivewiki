@@ -24,18 +24,24 @@ def identical_images(image1, image2):
 
 
 def compare_images(files):
-    #data = []
-    duplicate_list = {}
+    #duplicate_list = {}
+    duplicate_map = {}
     
     for path in files.keys():
         fileset = files[path]
         data = []
-        duplicate_list[path] = []
+        #duplicate_list[path] = []
+        duplicate_map[path] = {}
         for file in fileset:
             data.append(np.array(Image.open(os.path.join(path, file))))
 
         for index,file in enumerate(fileset):
             for i in range(index+1,len(fileset)):
-                if identical_images(data[index], data[i]): duplicate_list[path].append(fileset[i])
-
-    return duplicate_list
+                if identical_images(data[index], data[i]):
+                    #print(f"{fileset[i]} is a duplicate of {fileset[index]}")
+                    #duplicate_list[path].append(fileset[i])
+                    duplicate_map[path][fileset[i]] = fileset[index]
+                    
+    #print(duplicate_list)
+    #print(duplicate_map)
+    return duplicate_map
