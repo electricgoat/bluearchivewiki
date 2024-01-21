@@ -261,7 +261,7 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
 
 def load_character_dialog(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'dialog'):
-    #dp = {}
+    dp = {}
     ds = {}
     da = {}
     data = []
@@ -289,6 +289,7 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
         da[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
 
     for line in data_primary:
+        dp[(line[match_id], line['DialogCategory'], line_cleanup(line['LocalizeJP'], aggresive=True))] = line 
         try: 
             line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
 
@@ -302,6 +303,14 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
             pass
 
         data.append(line)
+
+    #Force aux lines into the list if they are missing there completely
+    for key, line in da.items():
+        if key not in dp: 
+            line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
+            line['LocalizeEN'] = line_cleanup(line['LocalizeEN'])
+            data.append(line)
+
 
     return data
 

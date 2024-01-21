@@ -391,17 +391,17 @@ def get_dialog_lines(character, dialog_data, costume_id) -> list[Dialog]:
             #print(f"Skipped duplicate line {line}")
             continue
 
-
+        
         known_list.append(line)
-        dialog = Dialog.from_data(character.wiki_name, data.voice, line)
+        dialog = Dialog.from_data(character.wiki_name, data.voice, line, line['AddVoice'] if 'AddVoice' in line else None)
         
         #merge followup lines instead of generating new ones
         if len(lines) == 0: lines.append(dialog)
         else:
             prev_dialog = lines[-1]
-            if dialog.voice_id == [] and dialog.group_id == prev_dialog.group_id and dialog.display_order > prev_dialog.display_order:
+            if dialog.voice == [] and dialog.group_id == prev_dialog.group_id and dialog.display_order > prev_dialog.display_order:
                 prev_dialog.followup.append(dialog)
-            elif dialog.voice_id != []:
+            elif dialog.voice != []:
                 lines.append(dialog)
         
 

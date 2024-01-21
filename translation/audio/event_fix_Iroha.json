@@ -1,0 +1,52 @@
+
+{
+    "DataList": [
+        {
+            "CostumeUniqueId": 1900904101,
+            "OriginalCharacterId": 20016,
+            "DisplayOrder": 900,
+            "EventID": 813,
+            "ProductionStep": "Release",
+            "DialogCategory": "UIEventMission",
+            "DialogCondition": "Interaction",
+            "DialogConditionDetail": "None",
+            "DialogConditionDetailValue": 0,
+            "GroupId": 2,
+            "DialogType": "UITalk",
+            "ActionName": "",
+            "Duration": 0,
+            "AnimationName": "03",
+            "LocalizeKR": "오늘은 이 정도로\n\r수습된 느낌이네요.\n\r수고하셨습니다.",
+            "LocalizeJP": "今日はこんなところで \n\rしょうか。ま、お疲れ様 \n\rですと言っておきます。",
+            "LocalizeTH": "เท่านี้ก็คงแก้ไขได้\nเรียบร้อยแล้วนะคะ\nขอบคุณมากค่ะ",
+            "LocalizeTW": "今天好像整理到\n這個程度了。\n辛苦了，",
+            "LocalizeEN": "I think that's enough for today. Great work!",
+            "VoiceId": [],
+            "AddVoice": [{
+                "UniqueId": 0,
+                "Id": 0,
+                "Nation": [
+                  "All"
+                ],
+                "Path": [
+                  "Audio/VOC_JP/JP_CH0156/CH0156_EventMission_Day_End"
+                ],
+                "Volume": [
+                  1
+                ]
+            }],
+            "CollectionVisible": true,
+            "CVCollectionType": "CVEvent",
+            "UnlockEventSeason": 813,
+            "ScenarioGroupId": 10011005,
+            "LocalizeCVGroup": "CVGroup_UIEventMission_Buy2"
+          }
+    ]
+}
+
+
+
+
+
+
+
