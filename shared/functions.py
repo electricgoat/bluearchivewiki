@@ -172,7 +172,7 @@ def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:di
         case _:
             print(f'Unrecognized item type {type}')
     
-    if 'probability' in params:
+    if 'probability' in params and params['probability'] != None:
         wikitext_params += f"|probability={params['probability']:g}"
 
     if 'quantity' in params and params['quantity'] != None:

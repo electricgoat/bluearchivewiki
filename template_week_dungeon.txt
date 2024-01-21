@@ -1,0 +1,14 @@
+{| class="wikitable limitwidth-1024"
+|+
+!Stage
+!Level
+!Rewards
+{% for stage in stages -%}
+|-
+| {{stage['Name']}}
+| style="text-align: center;" | {{stage['RecommandLevel']}}
+| {% for reward_parcel in stage['Rewards'].values() %}{{reward_parcel.wikitext}}{% endfor %}
+{% endfor -%}
+{% raw -%}
+|}
+{% endraw %}
