@@ -11,6 +11,7 @@ import wiki
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
 from raid_seasons import RAIDS
+import shared.functions
 
 
 args = None
@@ -34,16 +35,26 @@ SEASON_NOTES = {
 }
 
 
-def environment_type(environment):
-    return {
-        'Street': 'Urban',
-        'Outdoor': 'Outdoors',
-        'Indoor': 'Indoors'
-    }[environment]
+
+def get_raid_boss_data(group):
+    global args, data, season_data
+
+    boss_data = {}
+
+    boss_data['stage'] = data.eliminate_raid_stage[group]
+    for stage in boss_data['stage']:
+        #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
+        stage['ground'] = data.ground[stage['GroundId']]
+        stage['character'] = data.characters[stage['RaidCharacterId']]
+        stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
+    
+    return boss_data
+
 
 
 def generate():
     global args, data, season_data
+    boss_groups = ['OpenRaidBossGroup01', 'OpenRaidBossGroup02', 'OpenRaidBossGroup03']
 
     for region in ['jp', 'gl']:
         for season in season_data[region].eliminate_raid_season.values():
@@ -66,7 +77,7 @@ def generate():
             season['raid_name'] = RAIDS[boss[0]].name
 
             if (len(boss)>1):
-                season['env'] = environment_type(boss[1])
+                season['env'] = boss[1]
             else:
                 season['env'] = RAIDS[boss[0]].environment
 
@@ -78,8 +89,21 @@ def generate():
             if (season_length.days + 1) != 7: 
                 season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
 
+            boss_data = {}
+            for group in boss_groups:
+                boss_data[group]= get_raid_boss_data(season[group])
+                for stage in boss_data[group]['stage']: 
+                    if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
+                        #print(f"TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']} {stage['IsOpen']}")
+                        season['challenge'] = stage['character']['ArmorType']
+
+
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
+    env.filters['environment_type'] = shared.functions.environment_type
+    env.filters['damage_type'] = shared.functions.damage_type
+    env.filters['armor_type'] = shared.functions.armor_type
+    env.filters['thousands'] = shared.functions.format_thousands
     template = env.get_template('./raid/template_eliminate_raid_seasons.txt')
 
     wikitext = template.render(season_data=season_data)
@@ -96,6 +120,7 @@ def generate():
 def init_data():
     global args, data, season_data
     
+    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     season_data['jp'] = load_season_data(args['data_primary'])
     season_data['gl'] = load_season_data(args['data_secondary'])
    
