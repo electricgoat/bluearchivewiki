@@ -42,6 +42,9 @@ def armor_type(type):
     }[type]
 
 
+
+
+
 def format_thousands(number):
     return "{:,}".format(number).replace(',',' ') #hate this, but seems to be the most practcal locale-independent way
 
@@ -73,6 +76,23 @@ def item_sort_order(item):
 
     #print(f"{item} {translate_package_name(item['parcel_name'])} is sort index {sort_value}")
     return sort_value
+
+
+def replace_glossary(item:str = None):
+    glossary = {
+        'Field':'Outdoor',
+        'Valkyrie Police School':'Valkyrie Police Academy',
+        'Cherenka':'Cheryonka',
+        '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
+        'Total Assault': 'Raid',
+        'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
+        #'Exclusive Weapon': 'Unique Weapon'
+    }
+    for search, replace in glossary.items():
+        if item != None:
+            item = re.sub(search, replace, item)
+    return item
+
 
 
 def translate_package_name(text):

@@ -978,6 +978,7 @@ class Item(object):
 
 
 def replace_glossary(item = None):
+    print ("model > replace_glossary is deprecated")
     if item != None:
         item = re.sub('Field', 'Outdoor', item)
 
@@ -1002,6 +1003,9 @@ class Furniture(object):
         self.group = group
         self.interaction = interaction
         self.sources = sources
+
+    def __repr__(self):
+        return str(self.__dict__)
 
     @property
     def category(self):
@@ -1030,6 +1034,8 @@ class Furniture(object):
 
     @classmethod
     def from_data(cls, furniture_id, data):
+        print ("model > Furniture class is deprecated, use classes.Funiture > Furniture")
+
         furniture = data.furniture[furniture_id]
         name_en = 'NameEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['NameEn'] or None
         desc_en = 'DescriptionEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
@@ -1082,6 +1088,8 @@ class FurnitureGroup(object):
 
     @classmethod
     def from_data(cls, group_id, data):
+        print ("model > FurnitureGroup class is deprecated, use classes.Funiture > FurnitureGroup")
+
         furniture_group = data.furniture_group[group_id]
         #print(data.etc_localization[furniture['LocalizeEtcId']])
         name_en = 'NameEn' in data.etc_localization[furniture_group['GroupNameLocalize']] and data.etc_localization[furniture_group['GroupNameLocalize']]['NameEn'] or None
