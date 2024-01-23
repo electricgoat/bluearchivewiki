@@ -31,6 +31,7 @@ SEASON_NOTES = {
     },
     'gl' : {
         2:'Beta version',
+        3:'Beta version',
     }
 }
 

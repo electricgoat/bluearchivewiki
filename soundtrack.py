@@ -29,7 +29,7 @@ def upload_tracks(tracks):
             generic_name_exists = wiki.page_exists(f"File:Track_{track['Id']}.ogg")
             if generic_name_exists:
                 if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not complete_name_exists:
-                    wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}")
+                    wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}", summary='Descriptive track name', noredirect=False)
             else:
                 print (f"Uploading {localpath} as {track['WikiFilename']}")
                 wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
@@ -45,12 +45,12 @@ def generate():
 
     # Filter tracks with ID under 999 or those explicitly used in memorylobbies
     def has_info(track_data):
-        return True if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) else False
+        return True if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM') else False
         
     filtered_data = {
         track_id: {
             **track_data,
-            'WikiFilename': f"Track_{track_id}{'_'+track_data['ArtistEn'] if has_info(track_data) else ''}{'_'+track_data['NameEn'] if has_info(track_data) else ''}.ogg"
+            'WikiFilename': f"Track_{track_id}{'_'+track_data['ArtistEn'] if has_info(track_data) else ''}{'_'+track_data['NameEn'] if has_info(track_data) else ''}.ogg".replace(' ', '_')
         }
         for track_id, track_data in data.bgm.items()
         if track_id < 999 or track_id in memolobby_tracklist
