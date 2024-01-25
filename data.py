@@ -7,7 +7,7 @@ BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
     ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 
      'costumes',
-    'skills', 'skills_localization','translated_characters','translated_skills',
+    'skills', 'skills_localization','skill_additional_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
     'currencies','translated_currencies',
     'items', #'translated_items',
@@ -50,6 +50,7 @@ def load_data(path_primary, path_secondary, path_translation):
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
         #skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
         skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
+        skill_additional_tooltip =  load_file_grouped(os.path.join(path_primary, 'DB', 'SkillAdditionalTooltipExcelTable.json'), key='GroupId'),
         translated_characters =     load_characters_translation(path_translation),
         translated_skills =         load_skills_translation(path_translation),
         weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
@@ -127,6 +128,7 @@ def load_data(path_primary, path_secondary, path_translation):
 
 def load_generic(path, filename, key='Id'):
     return load_file(os.path.join(path, 'Excel', filename), key)
+
 
 def load_generic_db(path, filename, key='Id'):
     return load_file(os.path.join(path, 'DB', filename), key)

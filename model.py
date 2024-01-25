@@ -196,12 +196,12 @@ class Character(object):
             character['WeaponType'],
             character_ai['CanUseObstacleOfKneelMotion'] or character_ai['CanUseObstacleOfStandMotion'],
             Profile.from_data(character_id, data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PublicSkillGroupId'][0], data),
-            (character_id, 0, 2, 0) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, 0)]['PublicSkillGroupId'][0], data) or None,
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExSkillGroupId'][0], data, 5),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data),
-            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExtraPassiveSkillGroupId'][0], data),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PublicSkillGroupId'][0], data, show_skill_slot='Normal'),
+            (character_id, 0, 2, 0) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, 0)]['PublicSkillGroupId'][0], data, show_skill_slot='Gear Normal') or None,
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExSkillGroupId'][0], data, 5, show_skill_slot='EX'),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PassiveSkillGroupId'][0], data, show_skill_slot='Passive'),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data, show_skill_slot='Weapon Passive'),
+            Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExtraPassiveSkillGroupId'][0], data, show_skill_slot='Sub'),
             Stats.from_data(character_id, data),
             Weapon.from_data(character_id, costume, data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
@@ -332,7 +332,7 @@ class SkillLevel(object):
 
 
 class Skill(object):
-    def __init__(self, name, name_translated, icon, levels, description_general, damage_type, skill_cost, effect_data):
+    def __init__(self, name, name_translated, icon, levels, description_general, damage_type, skill_cost, effect_data, additional_tooltip = [], show_skill_slot = ''):
         self.name = name
         self.icon = icon
         self.levels = levels
@@ -344,6 +344,8 @@ class Skill(object):
         #self.max_level = 10
         self.skill_cost = skill_cost
         self.effect_data = effect_data
+        self.additional_tooltip = additional_tooltip
+        self.show_skill_slot = show_skill_slot
 
     @property
     def damage_type(self):
@@ -353,17 +355,20 @@ class Skill(object):
             'Mystic': 'Mystic',
             'Sonic': 'Sonic'
         }[self._damage_type]
-
+    
     @classmethod
-    def from_data(cls, group_id, data, max_level = 10):
+    def from_data(cls, group_id, data, max_level = 10, show_skill_slot = None):
         group = [skill for skill in data.skills.values() if skill['GroupId'] == group_id]
         if not group:
             raise KeyError(group_id)
 
-
-
-
-
+        def skill_type(slot):
+            return {
+                slot: slot,
+                'Ex': 'EX',
+                'Extrapassive':'Sub'
+            }[slot]
+        
         def format_description(levels, text_en):
             start_variables = re.findall(r'\{\{SkillValue\|([^\}\[]+)\}\}',  levels[0].description)
             end_variables = re.findall(r'\{\{SkillValue\|([^\}\[]+)\}\}',  levels[max_level-1].description)
@@ -381,6 +386,14 @@ class Skill(object):
                 text_en = re.sub(r'\$[0-9]{1}', '{{SkillValue|' + skill_value + '}}', text_en, 1)
 
             return text_en.replace("\n",'<br>')
+        
+
+        additional_tooltip = []
+        if group[0]['AdditionalToolTipId'] != 0: 
+            #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']}")
+            for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
+                additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, show_skill_slot=add_tooltip['ShowSkillSlot']))
+
 
         levels = [SkillLevel.from_data(level, group_id, data) for level in sorted(group, key=operator.itemgetter('Level'))]
 
@@ -411,11 +424,13 @@ class Skill(object):
         if group_id.find('Passive') > -1 and group_id.find('ExtraPassive') == -1:
             effect_data = {}
             #print(f'Parsing skill {group_id}')
-            for effect in data.levelskill[group_id]['EntityTimeline'][len(data.levelskill[group_id]['EntityTimeline'])-2]['Entity']['Abilities'][0]['LogicEffectGroupIds']:
-                amount_base = []
-                amount_percentage = []
 
-        #TODO Sakurako update broke this, figure it out, she doesn't seem to have CH0067_Passive01_Effect01_Lv2
+            #TODO THIS IS BROKEN NOW figure it out
+            try:
+                for effect in data.levelskill[group_id]['EntityTimeline'][len(data.levelskill[group_id]['EntityTimeline'])-2]['Entity']['Abilities'][0]['LogicEffectGroupIds']:
+                    amount_base = []
+                    amount_percentage = []
+
                 if f'{effect}_Lv1' in data.logiceffectdata and data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
                     for lv in range(1,11):
                         if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
@@ -427,9 +442,9 @@ class Skill(object):
                     if amount_percentage[9] == '0': amount_percentage = None
 
                     effect_data[effect] = {'stat_name': statcalc_replace_statname(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['StatType']), 'amount_base': amount_base, 'amount_percentage': amount_percentage}
+            except: 
+                pass
                 
-            #print(effect_data)
-        
 
         return cls(
             data.skills_localization[group[0]['LocalizeSkillId']]['NameJp'],
@@ -439,7 +454,9 @@ class Skill(object):
             description_general,
             group[0]['BulletType'],
             skill_cost,
-            effect_data
+            effect_data,
+            additional_tooltip,
+            skill_type(show_skill_slot),
         )
 
 
@@ -556,7 +573,7 @@ class Weapon(object):
         stats = data.characters_stats[character_id]
 
 
-        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data)
+        weapon_passive_skill = Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data, show_skill_slot="Weapon Passive")
 
         #print (passive_skill.name_translated)
         #try: data.translated_skills[group[0]['GroupId']]['NameEn']

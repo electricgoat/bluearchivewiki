@@ -1,0 +1,19 @@
+{% raw %}{{{% endraw %}EXSkillTable
+| SkillName = {{skill.name_translated}}
+| SkillNameJP = {{skill.name}}
+| SkillIconType = {{skill.icon}}
+| SkillDamageType = {{skill.damage_type}}
+| SkillBaseCost = {{skill.levels[0].cost}}
+{% for skill in skill.skill_cost -%}
+| SkillCostLv{{skill.level}} = {{skill.cost}}
+{% endfor -%}
+| SkillDescriptionGeneral = {{skill.description_general|colorize}}
+{% for level in skill.levels -%}
+| SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
+{% if show_materials %}{% set outer_loop = loop -%}
+{% for name, _, amount in level.materials -%}
+| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
+| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}{% endif -%}
+{% endfor -%}
+{% raw %}}}{% endraw %}

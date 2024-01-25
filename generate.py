@@ -24,7 +24,7 @@ def generate():
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.filters['colorize'] = shared.functions.colorize
-    template = env.get_template('template.txt')
+    template = env.get_template('templates/page_character.txt')
 
 
     for character in data.characters.values():

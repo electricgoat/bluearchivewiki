@@ -98,83 +98,78 @@
 | include         = {CharacterAffectionTable}
 }}{% endraw %}
 ===Skills===
-{% raw %}{{{% endraw %}EXSkillTable
-| SkillName = {{character.ex_skill.name_translated}}
-| SkillNameJP = {{character.ex_skill.name}}
-| SkillIconType = {{character.ex_skill.icon}}
-| SkillDamageType = {{character.ex_skill.damage_type}}
-| SkillBaseCost = {{character.ex_skill.levels[0].cost}}
-{% for skill in character.ex_skill.skill_cost -%}
-| SkillCostLv{{skill.level}} = {{skill.cost}}
-{% endfor -%}
-| SkillDescriptionGeneral = {{character.ex_skill.description_general|colorize}}
-{% for level in character.ex_skill.levels -%}
-| SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
-{% set outer_loop = loop -%}
-{% for name, _, amount in level.materials -%}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
-{% endfor -%}
-{% endfor -%}
-{% raw %}}}{% endraw %}
-{% raw %}{{{% endraw %}SkillTable
-| SkillName = {{character.normal_skill.name_translated}}
-| SkillNameJP = {{character.normal_skill.name}}
-| SkillIconType = {{character.normal_skill.icon}}
-| SkillDamageType = {{character.normal_skill.damage_type}}
-| SkillType = Normal
-| SkillDescriptionGeneral = {{character.normal_skill.description_general|colorize}}
-{% for level in character.normal_skill.levels -%}
-| SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
-{% set outer_loop = loop -%}
-{% for name, _, amount in level.materials -%}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
-{% endfor -%}
-{% endfor -%}
-{% raw %}}}{% endraw %}
-{% raw %}{{{% endraw %}SkillTable
-| SkillName = {{character.passive_skill.name_translated}}
-| SkillNameJP = {{character.passive_skill.name}}
-| SkillIconType = {{character.passive_skill.icon}}
-| SkillDamageType = {{character.passive_skill.damage_type}}
-| SkillType = Passive
-| SkillDescriptionGeneral = {{character.passive_skill.description_general|colorize}}
-{% for level in character.passive_skill.levels -%}
-| SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
-{% set outer_loop = loop -%}
-{% for name, _, amount in level.materials -%}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
-{% endfor -%}
-{% endfor -%}
-{% for effect in character.passive_skill.effect_data.values() -%}
-| SkillEffect{{loop.index}} = {{effect.stat_name}}
-{%- if effect.amount_percentage != None -%}
-%+{{','.join(effect.amount_percentage)}}
-{%- endif -%}
-{%- if effect.amount_base != None -%}
-+{{','.join(effect.amount_base)}}
-{%- endif -%}
-{% endfor %}
-{% raw %}}}{% endraw %}
-{% raw %}{{{% endraw %}SkillTable
-| SkillName = {{character.sub_skill.name_translated}}
-| SkillNameJP = {{character.sub_skill.name}}
-| SkillIconType = {{character.sub_skill.icon}}
-| SkillDamageType = {{character.sub_skill.damage_type}}
-| SkillType = Sub
-| SkillDescriptionGeneral = {{character.sub_skill.description_general|colorize}}
-{% for level in character.sub_skill.levels -%}
-| SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
-{% set outer_loop = loop -%}
-{% for name, _, amount in level.materials -%}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
-| SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
-{% endfor -%}
-{% endfor -%}
-{% raw %}}}{% endraw %}
+{%- set skill = character.ex_skill %}{% set show_materials = true %}
+{% include "templates/template_skilltable_ex.txt" %}
 
+{%- if character.ex_skill.additional_tooltip != [] %}
+<div class="skill-additional">
+{%- for add_skill in character.ex_skill.additional_tooltip %}
+    {%- set skill = add_skill %}
+    {%- set show_materials = false %}
+    {%- if skill.show_skill_slot == 'EX' %}
+{% include "templates/template_skilltable_ex.txt" %}
+    {%- else %}
+{% include "templates/template_skilltable.txt" %}
+    {%- endif %}
+{%- endfor %}
+</div>
+{%- endif -%}
+
+
+{%- set skill = character.normal_skill %}{% set show_materials = true %}
+{% include "templates/template_skilltable.txt" %}
+
+{%- if character.normal_skill.additional_tooltip != [] %}
+<div class="skill-additional">
+{%- for add_skill in character.normal_skill.additional_tooltip %}
+    {%- set skill = add_skill %}
+    {%- set show_materials = false %}
+    {%- if skill.show_skill_slot == 'EX' %}
+{% include "templates/template_skilltable_ex.txt" %}
+    {%- else %}
+{% include "templates/template_skilltable.txt" %}
+    {%- endif %}
+{%- endfor %}
+</div>
+{%- endif -%}
+
+
+{%- set skill = character.passive_skill %}{% set show_materials = true %}
+{% include "templates/template_skilltable.txt" %}
+
+{%- if character.passive_skill.additional_tooltip != [] %}
+<div class="skill-additional">
+{%- for add_skill in character.passive_skill.additional_tooltip %}
+    {%- set skill = add_skill %}
+    {%- set show_materials = false %}
+    {%- if skill.show_skill_slot == 'EX' %}
+{% include "templates/template_skilltable_ex.txt" %}
+    {%- else %}
+{% include "templates/template_skilltable.txt" %}
+    {%- endif %}
+{%- endfor %}
+</div>
+{%- endif -%}
+
+
+{%- set skill = character.sub_skill %}{% set show_materials = true %}
+{% include "templates/template_skilltable.txt" %}
+
+{%- if character.sub_skill.additional_tooltip != [] %}
+<div class="skill-additional">
+{%- for add_skill in character.sub_skill.additional_tooltip %}
+    {%- set skill = add_skill %}
+    {%- set show_materials = false %}
+    {%- if skill.show_skill_slot == 'EX' %}
+{% include "templates/template_skilltable_ex.txt" %}
+    {%- else %}
+{% include "templates/template_skilltable.txt" %}
+    {%- endif %}
+{%- endfor %}
+</div>
+{%- endif -%}
+
+{% raw %}{% endraw %}
 ===Unique weapon===
 {% raw %}{{{% endraw %}UniqueWeapon
 | CharacterId = {{character.wiki_name.replace(' ', '_')}}
