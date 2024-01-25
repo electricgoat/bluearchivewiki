@@ -1282,6 +1282,11 @@
             "DescriptionEn": "Every $1, increase Nonomi's Attack by $2. (Duration: $3)"
         },
         {
+            "GroupId": "NonomiGearPublic01",
+            "NameEn": "Ta-da☆ +",
+            "DescriptionEn": "Every $1, increase Nonomi's Attack by $2 and Accuracy by $3. (Duration: $4)"
+        },
+        {
             "GroupId": "NonomiPassive01",
             "NameEn": "That's not okay!",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -2570,6 +2575,11 @@
             "DescriptionEn": "Every $1, increase Attack by $2 for $3."
         },
         {
+            "GroupId": "CH0105GearPublic01",
+            "NameEn": "I can't wait to get this over with +",
+            "DescriptionEn": "Every $1, increase Attack by $2 and Defense Penetration by $3 for $4."
+        },
+        {
             "GroupId": "CH0105Passive01",
             "NameEn": "Pointless technology",
             "DescriptionEn": "Increase Attack by $1."
@@ -3192,6 +3202,11 @@
             "GroupId": "CH0195Public01",
             "NameEn": "Cheer up!",
             "DescriptionEn": "Every $1, increase the Recovery Rate of an ally with the lowest HP by $2 for $3."
+        },
+        {
+            "GroupId": "CH0195GearPublic01",
+            "NameEn": "Cheer up! +",
+            "DescriptionEn": "Every $1, increase the Recovery Rate of 4 allies with the lowest HP by $2 and continuously heal them by $3 Healing for $4."
         },
         {
             "GroupId": "CH0195Passive01",
@@ -4411,8 +4426,132 @@
             "GroupId": "CH0233ExtraPassive01",
             "NameEn": "The best part of camping",
             "DescriptionEn": "When attacking an enemy while holding Freshly Roasted Sweet Potatoes, deal $1 of Attack as additional damage.\nAfter that, reduce owned Freshly Roasted Sweet Potatoes count by 1."
-        }
+        },
 
+        {
+            "GroupId": "CH0231Ex01",
+            "NameEn": "Perfect agent",
+            "DescriptionEn": "For allies within a circular range, increase Critical Rate by $1 and Critical Damage $2 for $3.\nAdditionally, add 1 \"Perfect bodyguard\" to each ally (up to a maximum of $4)."
+        },
+        {
+            "GroupId": "CH0231Public01",
+            "NameEn": "Don't miss the target!",
+            "DescriptionEn": "Every $1, decrease the Defense of one enemy by $2 for $3.\nDeal damage depending on the number of \"Perfect bodyguards\" owned:\n3 or less: Deal $4 damage\n4 to 7: Deal $5 damage\n8 to 11: Deal $6 damage\n12 or more: Deal $7 damage"
+        },
+        {
+            "GroupId": "CH0231Passive01",
+            "NameEn": "Agent confidence",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0231WeaponPassive01",
+            "NameEn": "Agent confidence +",
+            "DescriptionEn": "Increase Attack by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0231ExtraPassive01",
+            "NameEn": "Operation results",
+            "DescriptionEn": "Increase Attack by $1 for each \"Perfect bodyguard\"."
+        },
+
+        {
+            "GroupId": "CH0079Ex01",
+            "NameEn": "M-mistake!",
+            "DescriptionEn": "Deal damage to enemies depending on the number of them within the circular area:\n4 or less: Deal $1 damage\n5 to 9: Deal $2 damage\n10 or more: Deal $3 damage"
+        },
+        {
+            "GroupId": "CH0079Public01",
+            "NameEn": "Listen!",
+            "DescriptionEn": "Every $1, decrease the Defense of enemies within a circular area by $2 for $3."
+        },
+        {
+            "GroupId": "CH0079Passive01",
+            "NameEn": "Great Chairman of Pandemonium Society",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0079WeaponPassive01",
+            "NameEn": "Great Chairman of Pandemonium Society +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0079ExtraPassive01",
+            "NameEn": "Invincible! The true leader of Gehenna!",
+            "DescriptionEn": "Increase Penetration Efficiency of all aliies by $1."
+        },
+
+        {
+            "GroupId": "CH0077Ex01",
+            "NameEn": "Ibuki's drawing time!",
+            "DescriptionEn": "Increase Attack of all other allies within a circular area by $1 for $2."
+        },
+        {
+            "GroupId": "CH0077Public01",
+            "NameEn": "Bad kids get punished!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nAdditionally, decrease their Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0077Passive01",
+            "NameEn": "Well-behaved girl",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0077WeaponPassive01",
+            "NameEn": "Well-behaved girl +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0077ExtraPassive01",
+            "NameEn": "Pandemonium mascot",
+            "DescriptionEn": "When using EX skill, heal self for $1 of Healing."
+        },
+        {
+            "GroupId": "CH0077RidingEx01",
+            "NameEn": "Patrol with Iroha-senpai!",
+            "DescriptionEn": "When onboard Toramaru with Iroha, deal $1 damage to enemies within a circular area."
+        },
+
+
+        {
+            "GroupId": "CH0230Ex01",
+            "NameEn": "Opening scene: Ishbóshet",
+            "DescriptionEn": "Switch to Concentrated Fire stance for $1.\nWhile in Concentrated Fire stance, character can not perform normal attacks or move.\n(CC application cancels the effect)"
+        },
+        {
+            "GroupId": "CH0230Ex02",
+            "NameEn": "First note of the melody",
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line.\nEach time it penetrates an enemy, damage is reduced by $2 (minimum $3 damage).\nThis attack is not affected by Stability and always does maximum damage.\nMaintain Concentrated Fire stance for $4 and prepare the next shot."
+        },
+        {
+            "GroupId": "CH0230Ex03",
+            "NameEn": "Second note of the melody",
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line.\nEach time it penetrates an enemy, damage is reduced by $2 (minimum $3 damage).\nThis attack is not affected by Stability and always does maximum damage.\nMaintain Concentrated Fire stance for $4 and prepare the next shot."
+        },
+        {
+            "GroupId": "CH0230Ex04",
+            "NameEn": "Closing note of the melody",
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line.\nEach time it penetrates an enemy, damage is reduced by $2 (minimum $3 damage).\nThis attack is not affected by Stability and always does maximum damage.\nAfter shooting, exit Concentrated Fire stance."
+        },
+        {
+            "GroupId": "CH0230Public01",
+            "NameEn": "Thorough preparation",
+            "DescriptionEn": "At the beginning of combat, add $1 to Explosive Efficiency and increase Accuracy by $2.\n(Can only be used $3 per battle)"
+        },
+        {
+            "GroupId": "CH0230Passive01",
+            "NameEn": "Passionate performance",
+            "DescriptionEn": "Increase Attack by $1, increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0230WeaponPassive01",
+            "NameEn": "Passionate performance +",
+            "DescriptionEn": "Increase Attack by $1, increase Critical Rate by $2.\nFurther increase Attack by $3, increase Critical Rate by $4."
+        },
+        {
+            "GroupId": "CH0230ExtraPassive01",
+            "NameEn": "Sincerity",
+            "DescriptionEn": "While in a Concentrated Fire stance, increase Explosive Efficiency by $1 and gain immunity to Taunt status."
+        }
 
         
 
