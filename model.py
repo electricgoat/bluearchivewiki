@@ -4,6 +4,7 @@ import re
 #from googletrans import Translator
 
 from shared.tag_map import map_tags
+from shared.functions import replace_glossary
 
 
 CLUBS = {
@@ -51,20 +52,20 @@ CLUBS = {
 }
 
 
-def replace_glossary(item = None):
-    glossary = {
-        'Field':'Outdoor',
-        'Valkyrie Police School':'Valkyrie Police Academy',
-        'Cherenka':'Cheryonka',
-        '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
-        'Total Assault': 'Raid',
-        'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
-        #'Exclusive Weapon': 'Unique Weapon'
-    }
-    for search, replace in glossary.items():
-        if item != None:
-            item = re.sub(search, replace, item)
-    return (item)
+# def replace_glossary(item = None):
+#     glossary = {
+#         'Field':'Outdoor',
+#         'Valkyrie Police School':'Valkyrie Police Academy',
+#         'Cherenka':'Cheryonka',
+#         '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
+#         'Total Assault': 'Raid',
+#         'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
+#         #'Exclusive Weapon': 'Unique Weapon'
+#     }
+#     for search, replace in glossary.items():
+#         if item != None:
+#             item = re.sub(search, replace, item)
+#     return (item)
 
 
 class Character(object):
@@ -415,7 +416,7 @@ class Skill(object):
                 amount_percentage = []
 
         #TODO Sakurako update broke this, figure it out, she doesn't seem to have CH0067_Passive01_Effect01_Lv2
-                if data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
+                if f'{effect}_Lv1' in data.logiceffectdata and data.logiceffectdata[f'{effect}_Lv1']['EffectData']['Category'] != 'Dummy':
                     for lv in range(1,11):
                         if f'{effect}_Lv{lv}' in data.logiceffectdata: amount_base.append(data.logiceffectdata[f'{effect}_Lv{lv}']['EffectData']['BaseAmount'])
                         else: amount_base.append(data.logiceffectdata[f'{effect}_Lv1']['EffectData']['BaseAmount'])
@@ -977,12 +978,12 @@ class Item(object):
 
 
 
-def replace_glossary(item = None):
-    print ("model > replace_glossary is deprecated")
-    if item != None:
-        item = re.sub('Field', 'Outdoor', item)
+# def replace_glossary(item = None):
+#     print ("model > replace_glossary is deprecated")
+#     if item != None:
+#         item = re.sub('Field', 'Outdoor', item)
 
-    return (item)
+#     return (item)
 
 
 class Furniture(object):

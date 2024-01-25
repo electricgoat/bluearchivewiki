@@ -80,4 +80,7 @@ Day{{day}}=
 {%- for reward in total_rewards['Equipment'].values() if reward['IsCompletionReward'] -%}
 {{reward['Card']}}
 {% endfor -%}
+{%- for reward in total_rewards['Character'].values() if reward['IsCompletionReward'] -%}
+{{reward['Card']}}
+{% endfor -%}
 {% raw %}|}{% endraw %}

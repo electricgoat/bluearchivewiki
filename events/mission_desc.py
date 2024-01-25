@@ -1,4 +1,5 @@
 import re
+from shared.functions import hashkey
 
 item_types = {
         'MaterialItem':'Ooparts of any tier',
@@ -131,6 +132,9 @@ map_descriptions = {
     'Event_Mission_TBG_Complete_Thema4_Hidden': 3584453321,
     'Event_Mission_Complete_Campaign_Stage': 538150987,
     'Event_Mission_Omikuji_Count_832': 2417672652,
+    'Mission_Clear_Specific_Chaserdungeon': 1859421411,
+    'Mission_Clear_Specific_Schooldungeon': 2400906688,
+    'Mission_Clear_Specific_Weekdungeon': 4187819492
 }
 
 map_descriptions_all = {  #for reference only
@@ -260,6 +264,8 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 
 
     if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and mission['Description'] not in missing_descriptions:
+        key = hashkey(mission['Description'])
+        print(key)
         missing_descriptions.append(mission['Description'])
         print (f"Missing localization mapping for {mission['Description']} of {mission}")
         return False

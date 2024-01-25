@@ -442,7 +442,8 @@ def load_world_raid_stage_reward(path):
 
 
 def load_bgm(path_primary, path_translation):
-    data_primary = load_file(os.path.join(path_primary, 'Excel', 'BGMExcelTable.json'))
+    #data_primary = load_file(os.path.join(path_primary, 'Excel', 'BGMExcelTable.json'))
+    data_primary = load_file(os.path.join(path_primary, 'DB', 'BGMExcelTable.json'))
     data_aux = None
 
     if os.path.exists(os.path.join(path_translation, 'BGM.json')):

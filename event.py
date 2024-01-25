@@ -9,9 +9,10 @@ from datetime import datetime
 from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from model import Item, Furniture, FurnitureGroup, Character
+from model import Item, Character
 from model_stages import EventStage
 from model_event_schedule import EventScheduleLocation
+from classes.Furniture import Furniture, FurnitureGroup
 from events.mission_desc import mission_desc
 
 

@@ -10,11 +10,14 @@ import argparse
 from jinja2 import Environment, FileSystemLoader
 
 from data import load_data
-from model import Item, Furniture, FurnitureGroup
+from model import Character, Item
+from classes.Furniture import Furniture
 from events.mission_desc import mission_desc
+from shared.functions import hashkey
 
 args = None
 data = None
+characters = {}
 missions = None
 missing_descriptions = []
 
@@ -23,11 +26,23 @@ missing_descriptions = []
 def generate():
     global args
     global data 
+    global characters
     items = {}
     furniture = {}
-    total_rewards = {'Item':{},'Furniture':{},'Equipment':{},'Currency':{}}
+    total_rewards = {'Item':{},'Furniture':{},'Equipment':{},'Currency':{},'Character':{}}
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+
+    for character in data.characters.values():
+        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+            continue
+
+        try:
+            char = Character.from_data(character['Id'], data)
+            characters[char.id] = char
+        except Exception as err:
+            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
+            traceback.print_exc()
 
     for item in data.items.values():
         try:
@@ -58,6 +73,8 @@ def generate():
     season['CollectibleItemName'] = items[season["RequirementParcelId"]].name_en
     season['CollectibleItemCard'] = '{{ItemCard|'+season['CollectibleItemName']+'}}'#+'|quantity='+str(season['RequirementParcelAmount'])+'}}'
 
+    print(f"Title localize {hashkey(season['TitleLocalizeCode'])}")
+
 
     for mission in data.guide_mission.values():
         if mission['SeasonId'] != args['id']:
@@ -85,6 +102,9 @@ def generate():
                 mission['RewardItemNames'].append(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
                 mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
                 #print(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+            elif mission['MissionRewardParcelType'][index] == 'Character':
+                mission['RewardItemNames'].append(characters[mission['MissionRewardParcelId'][index]].wiki_name)
+                mission['RewardItemCards'].append('{{CharacterCard|'+characters[mission['MissionRewardParcelId'][index]].wiki_name+'}}')
             else:
                 mission['RewardItemNames'].append("UNKNOWN REWARD TYPE")
                 print (f"Unknown reward parcel type {mission['MissionRewardParcelType'][index]}")
@@ -119,6 +139,9 @@ def generate():
         item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
         item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
 
+    for item in total_rewards['Character'].values():
+        item['Name'] = (characters[item['Id']].wiki_name)
+        item['Card'] = ('{{CharacterCard|'+characters[item['Id']].wiki_name+'}}')
 
 
     with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['id']}.txt"), 'w', encoding="utf8") as f:
