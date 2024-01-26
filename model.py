@@ -33,7 +33,7 @@ CLUBS = {
             'anzenkyoku': 'Community Safety Bureau',
             'Justice': 'Justice Actualization Committee',
             'TrinityVigilance': 'Vigilante Corps',
-            'Onmyobu': 'Yin-Yang Сlub',
+            'Onmyobu': 'Yin-Yang Club',
             'BookClub': 'Library Committee',
             'Meihuayuan': 'Plum Blossom Garden',
             'TrainingClub': 'Training Club',
