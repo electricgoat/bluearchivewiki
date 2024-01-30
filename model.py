@@ -392,7 +392,8 @@ class Skill(object):
         if group[0]['AdditionalToolTipId'] != 0: 
             #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']}")
             for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
-                additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, show_skill_slot=add_tooltip['ShowSkillSlot']))
+                add_max_level = add_tooltip['ShowSkillSlot'].lower() == 'ex' and 5 or 10
+                additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
 
 
         levels = [SkillLevel.from_data(level, group_id, data) for level in sorted(group, key=operator.itemgetter('Level'))]

@@ -24,8 +24,8 @@ class GachaGroup(object):
     def list_contents(self):
         for x in self.contents:
             match type(x).__name__:
-                # case 'GachaGroup':
-                #     x.list_contents()
+                case 'GachaGroup':
+                    x.list_contents()
                 case 'GachaElementRecursive':
                     x.gacha_group.list_contents
                 case 'GachaElement':

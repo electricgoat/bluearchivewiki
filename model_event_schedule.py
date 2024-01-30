@@ -1,6 +1,6 @@
 import collections
 import re
-from model_stages import get_currency_rewards, get_equipment_rewards, get_item_rewards, get_character_rewards, get_gacha_rewards, _get_gacha_rewards, _get_gacha_rewards_recursive, get_gacha_prob, _REWARD_TYPES
+from classes.model_stages import get_currency_rewards, get_equipment_rewards, get_item_rewards, get_character_rewards, get_gacha_rewards, _get_gacha_rewards, _get_gacha_rewards_recursive, get_gacha_prob, _REWARD_TYPES
 
 ignore_item_id = [
         500100, #bundle of one of: Novice Activity Report / Lesser Enhancement Stone / Booster Ticket / (1 random T1 oopart). All story stages seem to have it 

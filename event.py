@@ -10,10 +10,12 @@ from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
 from model import Item, Character
-from model_stages import EventStage
+from classes.model_stages import EventStage
 from model_event_schedule import EventScheduleLocation
 from classes.Furniture import Furniture, FurnitureGroup
 from events.mission_desc import mission_desc
+from events.mode_Field import *
+from shared.functions import hashkey
 
 
 args = None
@@ -377,6 +379,11 @@ def generate():
             if len(stages_filtered): wikitext_stages += template.render(stage_type=difficulty_names[difficulty], stages=stages_filtered, reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]), Card=Card)
 
 
+    #FIELD
+    wikitext_field = ''
+    if (args['event_season'], "Field") in data.event_content_seasons:
+        wikitext_field = "=Field Mission=\n" + get_mode_field(args['event_season'], data, characters, items, furniture)
+
     #SCHEDULE
     wikitext_schedule_locations = ''
     if (args['event_season'], "EventLocation") in data.event_content_seasons:
@@ -603,7 +610,7 @@ def generate():
     
     wikitext = wikitext_header + wikitext_event_dates + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_footer
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_field + wikitext_footer
 
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
@@ -664,7 +671,15 @@ def print_seasons(region: str):
 
     for evencontent in season_data[region].event_content_season.values():
         if evencontent['EventContentId'] not in seasons: 
-            seasons[evencontent['EventContentId']] = {'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']} 
+            event_name = ''
+            localize_key = hashkey(evencontent['Name'])
+            if localize_key in data.localization: 
+                event_name = 'En' in data.localization and data.localization[localize_key]['En'] or data.localization[localize_key]['Jp']
+            elif localize_key in data.localize_code:
+                event_name = 'En' in data.localize_code and data.localize_code[localize_key]['En'] or data.localize_code[localize_key]['Jp']
+
+            seasons[evencontent['EventContentId']] = {'Name': event_name, 'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']} 
+            #print (data.localize_code[hashkey(evencontent['Name'])])
 
     for season in seasons:
         note = ''
@@ -674,7 +689,7 @@ def print_seasons(region: str):
         if (opentime > now): note = 'future'
         elif (closetime > now): note = 'current'
 
-        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['EventContentOpenTime']} ~ {seasons[season]['EventContentCloseTime']} {note}")
+        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['EventContentOpenTime']} ~ {seasons[season]['EventContentCloseTime']} {note.ljust(8)} {seasons[season]['Name']}")
 
 
 def main():

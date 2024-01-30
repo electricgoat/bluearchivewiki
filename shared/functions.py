@@ -14,6 +14,13 @@ def nl2br(text:str):
     if len(text): return text.replace('\n','<br>')
     else: return ''
 
+
+def nl2p(text:str):
+    if len(text): 
+        return '<p>' + text.replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>'
+    else: return ''
+
+
 def environment_type(environment):
     return {
         'Street': 'Urban',

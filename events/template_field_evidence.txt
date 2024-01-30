@@ -1,0 +1,19 @@
+==Lost Items==
+{% raw %}{{% endraw %}| class="wikitable limitwidth-1280 sortable"
+!Icon
+!Item
+!Description
+!Day
+!Location
+!Reward
+{% for item in evidence.values() -%}
+|-
+| style="text-align: center" |[[File:{{item['Image']}}.png|64px]]
+|{{item['Name']['Jp']}}
+{{item['Name']['En']}}
+|{{item['Desc']['En']|nl2p}}
+|style="text-align: center" |
+|
+|{% for reward_parcel in item['Rewards'] %}{{reward_parcel.wikitext}}{% endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}

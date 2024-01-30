@@ -29,6 +29,7 @@ BlueArchiveData = collections.namedtuple(
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
     'bgm','voice','voice_spine',
     'operator',
+    'field_season', 'field_world_map_zone', 'field_quest', 'field_reward', 'field_evidence', 'field_keyword', 'field_date', 'field_interaction', 'field_content_stage', 'field_content_stage_reward',
     ]
 )
 
@@ -122,6 +123,17 @@ def load_data(path_primary, path_secondary, path_translation):
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
         voice_spine=                load_generic(path_primary, 'VoiceSpineExcelTable.json', key='Id'),
         operator=                   load_generic(path_primary, 'OperatorExcelTable.json', key='UniqueId'),
+        
+        field_season =              load_generic(path_primary, 'FieldSeasonExcelTable.json', key='UniqueId'),
+        field_world_map_zone =      load_generic(path_primary, 'FieldWorldMapZoneExcelTable.json', key='Id'),
+        field_quest =               load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldQuestExcelTable.json'), 'FieldSeasonId'),
+        field_reward =              load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldRewardExcelTable.json'), 'GroupId'),
+        field_evidence =            load_generic(path_primary, 'FieldEvidenceExcelTable.json', key='UniqueId'),
+        field_keyword =             load_generic(path_primary, 'FieldKeywordExcelTable.json', key='UniqueId'),
+        field_date =                load_generic(path_primary, 'FieldDateExcelTable.json', key='UniqueId'),
+        field_interaction =         load_generic(path_primary, 'FieldInteractionExcelTable.json', key='UniqueId'),
+        field_content_stage =       load_generic(path_primary, 'FieldContentStageExcelTable.json'),
+        field_content_stage_reward= load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldContentStageRewardExcelTable.json'), 'GroupId')
     )
 
 
