@@ -2,6 +2,48 @@
     "DataList": [
         {
             "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_4",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10053,
             "DialogCategory": "Formation",
             "VoiceClip": "Yuuka_(Sportswear)_Formation_In_1",
             "LocalizeJP": "最適な選択ですね。",
@@ -47,7 +89,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuuka_(Sportswear)_Tactic_In_2",
             "LocalizeJP": "計算完了、絶対に負けません。",
-            "LocalizeEN": "Completion of the calculation, never lose."
+            "LocalizeEN": "Calculation completed. I will definitely not lose."
         },
         {
             "CharacterId": 10053,
@@ -82,7 +124,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Covered_1",
             "LocalizeJP": "隠れるわ 支援をお願い。",
-            "LocalizeEN": "I'm hiding. Please help me."
+            "LocalizeEN": "I'm behind cover. Please provide support."
         },
         {
             "CharacterId": 10053,
@@ -96,14 +138,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Damage_2",
             "LocalizeJP": "計算外よ。",
-            "LocalizeEN": "Out of the calculation."
+            "LocalizeEN": "Not a part of my calculations."
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Damage_3",
             "LocalizeJP": "邪魔になっちゃう。",
-            "LocalizeEN": "I'm going to get in the way."
+            "LocalizeEN": "It's getting in my way."
         },
         {
             "CharacterId": 10053,
@@ -124,28 +166,28 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_In_2",
             "LocalizeJP": "コンディションは万全。結果は決まっていたわ。",
-            "LocalizeEN": "Perfect condition. The outcome was decided."
+            "LocalizeEN": "Perfect condition. The outcome has been decided."
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Move_1",
             "LocalizeJP": "次の目標は？",
-            "LocalizeEN": "What's your next goal?"
+            "LocalizeEN": "What's the next objective?"
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Move_2",
             "LocalizeJP": "目標に向かって前進。",
-            "LocalizeEN": "Move forward towards your goal."
+            "LocalizeEN": "Moving toward the objective."
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Recovery_1",
             "LocalizeJP": "計算外の補給、感謝するわ。",
-            "LocalizeEN": "Thank you for the uncalculated replenishment."
+            "LocalizeEN": "Thank you for the uncalculated supplies."
         },
         {
             "CharacterId": 10053,
@@ -166,7 +208,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Shout_2",
             "LocalizeJP": "行くわよ。",
-            "LocalizeEN": "Go．"
+            "LocalizeEN": "Let's go．"
         },
         {
             "CharacterId": 10053,
@@ -187,14 +229,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Victory_1",
             "LocalizeJP": "計算通り、当然の結果ね。",
-            "LocalizeEN": "As calculated, it's a natural result."
+            "LocalizeEN": "As calculated, this is the result."
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_(Sportswear)_Battle_Victory_2",
             "LocalizeJP": "運動も完璧。",
-            "LocalizeEN": "Exercise is perfect."
+            "LocalizeEN": "A perfect exercise."
         },
         {
             "CharacterId": 10053,
@@ -215,7 +257,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_(Sportswear)_ExSkill_2",
             "LocalizeJP": "ミレニアムの技術力を見せてあげなさい。",
-            "LocalizeEN": "Show me the technical prowess of the millennium."
+            "LocalizeEN": "I will show you the technical prowess of millennium."
         },
         {
             "CharacterId": 10053,
@@ -229,14 +271,14 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_(Sportswear)_ExSkill_Level_1",
             "LocalizeJP": "迅速に。",
-            "LocalizeEN": "Rapidly."
+            "LocalizeEN": "Quickly."
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_(Sportswear)_ExSkill_Level_2",
             "LocalizeJP": "こっち。",
-            "LocalizeEN": "here!"
+            "LocalizeEN": "Here!"
         },
         {
             "CharacterId": 10053,
@@ -250,14 +292,14 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_(Sportswear)_Growup_1",
             "LocalizeJP": "体操着って効率的な服装ですよね、先生もそう思いませんか。",
-            "LocalizeEN": "Gym clothes are efficient clothes, don't you think so too?"
+            "LocalizeEN": "Gym clothes are efficient, don't you think so too?"
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_(Sportswear)_Growup_2",
             "LocalizeJP": "そ、そんなに見つめられると困るというか。でも、まあ、先生ならいいですけど。",
-            "LocalizeEN": "It would be troublesome if you stared at me like that, but it would be nice if it was a teacher"
+            "LocalizeEN": "Staring at me like that makes me uncomfortable, but it's fine if Sensei is doing it."
         },
         {
             "CharacterId": 10053,
@@ -278,7 +320,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_1",
             "LocalizeJP": "無理は禁物ですよ。先生も気をつけてくださいね。私も無理しがちだって？そうですけど…。",
-            "LocalizeEN": "Do not overdo it. Please be careful too. Do I tend to push myself too hard? That's right, but..."
+            "LocalizeEN": "I won't overdo it. Sensei, please be careful too. Do I tend to push myself too hard? That's right, but..."
         },
         {
             "CharacterId": 10053,
@@ -292,14 +334,14 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_3",
             "LocalizeJP": "体操着を着るとやる気がどんどん湧いてきます。これは服装のせいでしょうか？それとも、先生がそばにいるから？",
-            "LocalizeEN": "Wearing gym clothes keeps me motivated. Is this because of my clothes? Or is it because the teacher is by your side?"
+            "LocalizeEN": "Wearing gym clothes keeps me motivated. Is this because of my clothes? Or... is it because Sensei is by my side?"
         },
         {
             "CharacterId": 10053,
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_4",
             "LocalizeJP": "先生と一緒にいると 私の計算能力が鈍ってしまうときがあります。誤解しないでくださいね。その、頭がちょっとぼーっとするって意味です。",
-            "LocalizeEN": "My math skills sometimes get dull when I'm with my teacher. Please don't get me wrong. It means to be a little dizzy."
+            "LocalizeEN": "My math skills sometimes get dull when I'm with Sensei. Please don't get me wrong. I'm just a little dizzy."
         }
     ]
 }

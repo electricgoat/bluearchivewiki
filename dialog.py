@@ -316,7 +316,7 @@ def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
                                                     'LocalizeJP': data.localization[localize_key].get('Jp'), 
                                                     'LocalizeEN': data.localization[localize_key].get('En')}
                 else:
-                    dialog_data[file_wikititle]['LocalizeKR'] = dialog_data[file_wikititle]['LocalizeKR'] or data.localization[localize_key].get('Kr')
+                    #dialog_data[file_wikititle]['LocalizeKR'] = dialog_data[file_wikititle]['LocalizeKR'] or data.localization[localize_key].get('Kr')
                     dialog_data[file_wikititle]['LocalizeJP'] = dialog_data[file_wikititle]['LocalizeJP'] or data.localization[localize_key].get('Jp')
                     dialog_data[file_wikititle]['LocalizeEN'] = dialog_data[file_wikititle]['LocalizeEN'] or data.localization[localize_key].get('En')
 

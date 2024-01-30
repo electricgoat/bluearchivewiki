@@ -2,303 +2,380 @@
     "DataList": [
         {
             "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Box_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Box_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Fail_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Fail_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Map",
+            "LocalizeJP": "は、はいっ、次……！",
+            "LocalizeEN": "N-Next...!"
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Start",
+            "LocalizeJP": "ふ、ふーん、ここね。も、もちろん知ってる場所だけど。",
+            "LocalizeEN": "I know all about this place. Of course I do!"
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Facility",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Item",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Re",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Success",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Koharu_(Swimsuit)_Minigame_Victory",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16013,
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私の力が必要なの？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "仕方ないわね！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "ちょっと、何よ！何する気！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Defeat_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ごめんなさい、先生……。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Defeat_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "どうして！？こんなはずじゃ……。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私についてきて！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "分かった！任せて！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "勝った！これが私の実力なのよ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "みんな、お疲れさま！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとうございます。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_BuffSelf_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これが私の本気！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "遮蔽！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ひっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "きゃっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ひぃっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "効かないわよ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "緊張しないように、頑張る！いける！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "平気よ！実力はこっちの方が上なんだから！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "次ー！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう……。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Retire",
-            "LocalizeJP": "",
+            "LocalizeJP": "はうっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "やぁ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "はあっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "やあっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ひあっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これぐらい当然よ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "どこ見てるのよ！スケベ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Koharu_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "あ、あああっ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "こんなことを！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ってこれは私のじゃ！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "違うんだからー！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "許さない！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "くらえ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "うわああああ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう……ございます、先生。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "当たり前よね！だって私、エリートだし！……ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "こんなにたくさんもらっちゃって、いいの？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生が色々してくれた分、真面目にやるから。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "また、海、一緒に行ってくれる？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "変なの。先生のそばにいると、心が……。えっ、何？別に何も言ってないけど！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "こういう時間が、もっといっぱいあったらいいのに。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16013,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "次は、私が素敵なところに連れてってあげる！",
             "LocalizeEN": ""
         }
     ]
