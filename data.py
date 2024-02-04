@@ -30,6 +30,7 @@ BlueArchiveData = collections.namedtuple(
     'bgm','voice','voice_spine',
     'operator',
     'field_season', 'field_world_map_zone', 'field_quest', 'field_reward', 'field_evidence', 'field_keyword', 'field_date', 'field_interaction', 'field_content_stage', 'field_content_stage_reward',
+    'emblem'
     ]
 )
 
@@ -133,7 +134,8 @@ def load_data(path_primary, path_secondary, path_translation):
         field_date =                load_generic(path_primary, 'FieldDateExcelTable.json', key='UniqueId'),
         field_interaction =         load_generic(path_primary, 'FieldInteractionExcelTable.json', key='UniqueId'),
         field_content_stage =       load_generic(path_primary, 'FieldContentStageExcelTable.json'),
-        field_content_stage_reward= load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldContentStageRewardExcelTable.json'), 'GroupId')
+        field_content_stage_reward= load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldContentStageRewardExcelTable.json'), 'GroupId'),
+        emblem=                     load_generic(path_primary, 'EmblemExcelTable.json', key='Id'),
     )
 
 

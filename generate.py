@@ -14,6 +14,9 @@ import wiki
 from data import load_data
 from model import Character
 import shared.functions
+from shared.MissingTranslations import MissingTranslations
+
+missing_skill_localization = MissingTranslations("translation/missing/LocalizeSkillExcelTable.json")
 
 args = None
 
@@ -35,7 +38,7 @@ def generate():
             continue
 
         try:
-            character = Character.from_data(character['Id'], data)
+            character = Character.from_data(character['Id'], data, missing_skill_localization)
             #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
@@ -89,6 +92,8 @@ def main():
     except:
         parser.print_help()
         traceback.print_exc()
+
+    missing_skill_localization.write()
 
 
 if __name__ == '__main__':

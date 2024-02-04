@@ -1,0 +1,13 @@
+{% raw %}{{DISPLAYTITLE:{{SUBPAGENAME}}}}{% endraw %}
+{% raw %}{{{% endraw %}Emblem
+| Id = {{emblem.id}}
+| Category = {{emblem.category}}
+| Rarity = {{emblem.rarity}}
+| Name = {{emblem.name}}
+| Description = {{emblem.description}}
+| Text = {{emblem.text}}
+| Icon = {{emblem.icon}}
+| EmblemIcon = {{emblem.emblem_icon}}
+| EmblemIconBG = {{emblem.emblem_iconbg}}
+| EmblemBG = {{emblem.emblem_bg}}
+{% raw %}}}{% endraw %}
