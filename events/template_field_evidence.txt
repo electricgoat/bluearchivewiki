@@ -11,7 +11,7 @@
 | style="text-align: center" |[[File:{{item['Image']}}.png|64px]]
 |{{item['Name']['Jp']}}
 {{item['Name']['En']}}
-|{{item['Desc']['En']|nl2p}}
+|{{item['Desc']['En']|nl2p}}{% if item['Detail']  %}<em>{{item['Detail']['En'] or item['Detail']['Jp']|nl2p}}</em>{% endif %}
 |style="text-align: center" |
 |
 |{% for reward_parcel in item['Rewards'] %}{{reward_parcel.wikitext}}{% endfor %}

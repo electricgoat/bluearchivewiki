@@ -1,5 +1,5 @@
 [[Category:Events]]
 {% raw %}{{{% endraw %}#seo: 
-|image = EVENTNAME_Details.png
-|image_alt = EVENTNAME
+|image = {{season['LocalizeName']['En']}}_Details.png
+|image_alt = {{season['LocalizeName']['En']}}
 {% raw %}}}{% endraw %}

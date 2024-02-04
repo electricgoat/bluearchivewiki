@@ -1,5 +1,5 @@
-[[File:Event ENNAME.png|thumb|Event promo image]]
-ENNAME is the '''00th''' [[Events|event]] in Blue Archive.
+[[File:Event {{season['LocalizeName']['En']}}.png|thumb|Event promo image]]
+{{season['LocalizeName']['En']}} is the '''00th''' [[Events|event]] in Blue Archive.
 
 __TOC__
 =Event Notice=
@@ -11,8 +11,8 @@ __TOC__
 | Id = {{season['EventContentId']}}
 | Server = JP
 | Category = Event
-| NameJP = JPNAME
-| NameEN = ENNAME
+| NameJP = {{season['LocalizeName']['Jp']}}
+| NameEN = {{season['LocalizeName']['En']}}
 | Image = 
 | Start_date = {{season['EventContentOpenTime']}}
 | End_date = {{season['EventContentCloseTime']}}

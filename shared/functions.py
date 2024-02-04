@@ -92,8 +92,11 @@ def replace_glossary(item:str = None):
         'Cherenka':'Cheryonka',
         '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
         'Total Assault': 'Raid',
+        'Grand Assault': 'Elimination Raid',
         'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
-        #'Exclusive Weapon': 'Unique Weapon'
+        'Relationship Rank': 'Affection rank',
+        'Exclusive Weapon': 'Unique Weapon',
+        'Unique Item': 'Unique Gear',
     }
     for search, replace in glossary.items():
         if item != None:

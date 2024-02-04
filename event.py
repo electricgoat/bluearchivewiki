@@ -16,6 +16,10 @@ from classes.Furniture import Furniture, FurnitureGroup
 from events.mission_desc import mission_desc
 from events.mode_Field import *
 from shared.functions import hashkey
+from shared.MissingTranslations import MissingTranslations
+
+missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
+missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
 
 
 args = None
@@ -299,7 +303,9 @@ def generate():
 
     season = season_jp #TODO work directly with season_jp or _gl
 
-    
+    localize_key = hashkey(season['Name'])
+    if localize_key in data.localization: season['LocalizeName'] = data.localization[localize_key]
+
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
 
@@ -382,7 +388,7 @@ def generate():
     #FIELD
     wikitext_field = ''
     if (args['event_season'], "Field") in data.event_content_seasons:
-        wikitext_field = "=Field Mission=\n" + get_mode_field(args['event_season'], data, characters, items, furniture)
+        wikitext_field = "=Field Mission=\n" + get_mode_field(args['event_season'], data, characters, items, furniture, missing_localization, missing_code_localization)
 
     #SCHEDULE
     wikitext_schedule_locations = ''
@@ -674,9 +680,7 @@ def print_seasons(region: str):
             event_name = ''
             localize_key = hashkey(evencontent['Name'])
             if localize_key in data.localization: 
-                event_name = 'En' in data.localization and data.localization[localize_key]['En'] or data.localization[localize_key]['Jp']
-            elif localize_key in data.localize_code:
-                event_name = 'En' in data.localize_code and data.localize_code[localize_key]['En'] or data.localize_code[localize_key]['Jp']
+                event_name = 'En' in data.localization[localize_key] and data.localization[localize_key]['En'] or data.localization[localize_key]['Jp']
 
             seasons[evencontent['EventContentId']] = {'Name': event_name, 'EventContentOpenTime': evencontent['EventContentOpenTime'], 'EventContentCloseTime': evencontent['EventContentCloseTime']} 
             #print (data.localize_code[hashkey(evencontent['Name'])])
@@ -713,6 +717,9 @@ def main():
             generate()
         else:
             list_seasons()
+
+        missing_localization.write()
+        missing_code_localization.write()
 
     except:
         parser.print_help()

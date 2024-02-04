@@ -20,7 +20,7 @@ class MissingTranslations:
             with open(self.filename, 'w', encoding="utf8") as file:
                 file.write(json.dumps({'DataList': self.entries}, sort_keys=False, indent=4, ensure_ascii=False))
                 file.close()
-            print(f"Dumped missing localizations to {self.filename}")
+            print(f"Dumped {len(self.entries)} missing localizations to {self.filename}")
         else:
             print(f"No missing localizations to write for {self.filename}")
 

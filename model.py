@@ -5,67 +5,9 @@ import re
 
 from shared.tag_map import map_tags
 from shared.functions import replace_glossary
+from shared.glossary import CLUBS
 
-
-CLUBS = {
-            'Countermeasure': 'Countermeasure Council',
-            'GourmetClub': 'Gourmet Research Club',
-            'RemedialClass': 'Supplemental Classes Club',
-            'SisterHood': 'Sisterhood',
-            'Kohshinjo68': 'Problem Solver 68',
-            'CleanNClearing': 'Cleaning & Clearing',
-            'Shugyobu': 'Inner Discipline Club',
-            'MatsuriOffice': 'Festival Organization Committee',
-            'Endanbou': 'Chinese alchemy study group',
-            'Class227': 'Class No. 227',
-            'HoukagoDessert': 'After School Sweets Club',
-            'GameDev': 'Game Development Club',
-            'Veritas': 'Veritas',
-            'Engineer': 'Engineering Club',
-            'KnightsHospitaller': 'Rescue Knights',
-            'FoodService': 'School Lunch Club',
-            'PandemoniumSociety': 'Pandemonium Society',
-            'RabbitPlatoon': 'RABBIT Platoon',
-            'Emergentology': 'Emergency Medicine Department',
-            'RedwinterSecretary': 'Red Winter Secretariat',
-            'Fuuki': 'Disciplinary Committee',
-            'NinpoKenkyubu': 'Ninjutsu Research Department',
-            'anzenkyoku': 'Community Safety Bureau',
-            'Justice': 'Justice Actualization Committee',
-            'TrinityVigilance': 'Vigilante Corps',
-            'Onmyobu': 'Yin-Yang Club',
-            'BookClub': 'Library Committee',
-            'Meihuayuan': 'Plum Blossom Garden',
-            'TrainingClub': 'Training Club',
-            'SPTF': 'Supernatural Phenomenon Task Force',
-            'TheSeminar': 'Seminar',
-            'AriusSqud': 'Arius Squad',
-            'PublicPeaceBureau':'Public Peace Bureau',
-            'HotSpringsDepartment':'Hot Springs Development Department',
-            'TeaParty':'Tea Party',
-            'Genryumon': 'Genryumon',
-            'BlackTortoisePromenade': 'Black Tortoise Promenade',
-            'LaborParty': 'Labor Party',
-            'KnowledgeLiberationFront': 'Knowledge Liberation Front',
-            'Hyakkayouran': 'Hyakkaryouran',
-            'EmptyClub': 'no club'
-}
-
-
-# def replace_glossary(item = None):
-#     glossary = {
-#         'Field':'Outdoor',
-#         'Valkyrie Police School':'Valkyrie Police Academy',
-#         'Cherenka':'Cheryonka',
-#         '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
-#         'Total Assault': 'Raid',
-#         'Used for Exclusive Weapon Growth':'Used to enhance Unique Weapons',
-#         #'Exclusive Weapon': 'Unique Weapon'
-#     }
-#     for search, replace in glossary.items():
-#         if item != None:
-#             item = re.sub(search, replace, item)
-#     return (item)
+missing_skill_localization = None
 
 
 class Character(object):
@@ -167,7 +109,10 @@ class Character(object):
         return 'Yes' if self._uses_cover else 'No'
 
     @classmethod
-    def from_data(cls, character_id, data):
+    def from_data(cls, character_id, data, ext_missing_skill_localization = None):
+        global missing_skill_localization
+        missing_skill_localization = ext_missing_skill_localization
+
         character = data.characters[character_id]
         character_ai = data.characters_ai[character['CharacterAIId']]
         costume = data.costumes[character['CostumeGroupId']]
@@ -358,6 +303,8 @@ class Skill(object):
     
     @classmethod
     def from_data(cls, group_id, data, max_level = 10, show_skill_slot = None):
+        global missing_skill_localization
+
         group = [skill for skill in data.skills.values() if skill['GroupId'] == group_id]
         if not group:
             raise KeyError(group_id)
@@ -414,6 +361,7 @@ class Skill(object):
         try: data.translated_skills[group[0]['GroupId']]['NameEn']
         except KeyError: 
             skill_name_en = None
+            if missing_skill_localization: missing_skill_localization.add_entry(data.skills_localization[group[0]['LocalizeSkillId']])
         else:  
             skill_name_en = data.translated_skills[group[0]['GroupId']]['NameEn']
 

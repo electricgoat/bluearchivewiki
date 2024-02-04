@@ -6,20 +6,14 @@ import shared.functions
 from classes.RewardParcel import RewardParcel
 from classes.Stage import FieldStage
 
+missing_localization = None
+missing_code_localization = None
+
 data = {}
 characters = {}
 items = {}
 furniture = {}
 
-missing_localize_id = []
-
-
-def dump_missing_translation(missing_translations, translation_filepath):
-    if not len(missing_translations): return False
-    f = open(translation_filepath, 'w', encoding="utf8")
-    f.write(json.dumps({"DataList":missing_translations}, sort_keys=False, indent=4, ensure_ascii=False))
-    f.close()
-    return True
 
 
 def wiki_card(type: str, id: int, **params):
@@ -27,12 +21,15 @@ def wiki_card(type: str, id: int, **params):
     return shared.functions.wiki_card(type, id, data=data, characters=None, items=items, furniture=None, **params)
 
 
-def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furniture):
+def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_missing_localization, ext_missing_code_localization):
     global data, characters, items, furniture
+    global missing_localization, missing_code_localization
     data = ext_data
     characters = ext_characters
     items = ext_items
     furniture = ext_furniture
+    missing_localization = ext_missing_localization
+    missing_code_localization = ext_missing_code_localization
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['len'] = len
@@ -56,10 +53,9 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
         rewards = []
 
         if 'En' not in data.localization[entry['QuestNamKey']] or not data.localization[entry['QuestNamKey']]['En']:
-            missing_localize_id.append(entry['QuestNamKey'])
+            missing_localization.add_entry(data.localization[entry['QuestNamKey']])
         if 'En' not in data.localization[entry['QuestDescKey']] or not data.localization[entry['QuestDescKey']]['En']:
-            missing_localize_id.append(entry['QuestDescKey'])
-        
+            missing_localization.add_entry(data.localization[entry['QuestDescKey']])
         for reward in data.field_reward[entry['RewardId']]:
             rewards.append(RewardParcel(reward['RewardParcelType'], reward['RewardId'], [reward['RewardAmount']], [reward['RewardProb']], data=data, wiki_card=wiki_card))
         
@@ -89,12 +85,11 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
         localize_detail_key = shared.functions.hashkey(entry['DetailLocalizeKey'])
 
         if 'En' not in data.localization[localize_key] or not data.localization[localize_key]['En']:
-            missing_localize_id.append(localize_key)
+            missing_localization.add_entry(data.localization[localize_key])
         if 'En' not in data.localization[localize_desc_key] or not data.localization[localize_desc_key]['En']:
-            missing_localize_id.append(localize_desc_key)
+            missing_localization.add_entry(data.localization[localize_desc_key])
         if entry['DetailLocalizeKey'] != '' and localize_detail_key in data.localization and ('En' not in data.localization[localize_detail_key] or not data.localization[localize_detail_key]['En']):
-            missing_localize_id.append(localize_detail_key)
-
+            missing_localization.add_entry(data.localization[localize_detail_key])
         
         entry['Name'] = data.localization[localize_key]
         entry['Desc'] = data.localization[localize_desc_key]
@@ -142,10 +137,6 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
 
     #print(wikitext['stages']
             
-    
-    #print(set(missing_localize_id))
-    dump_missing_translation([data.localization[x] for x in data.localization if x in set(missing_localize_id)], os.path.join('translation', 'missing', 'LocalizeExcelTable.json'))
-
     return '\n'.join(wikitext.values())
 
 

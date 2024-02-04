@@ -10,8 +10,7 @@ ignore_item_id = [
 DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge', 'VeryHard_Ex': 'Extra Challenge'}
 
 
-
-class EventStage(object):
+class Stage(object):
     def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint):
         self.id = id
         self.name = name
@@ -68,6 +67,9 @@ class EventStage(object):
             
 
 
+
+class EventStage(Stage):
+    
     @classmethod
     def get_rewards(cls, stage, data, wiki_card = None):
         reward_parcels = []
@@ -156,7 +158,7 @@ class EventStage(object):
     
 
 
-class FieldStage(EventStage):
+class FieldStage(Stage):
 
     @classmethod
     def get_rewards(cls, stage, data, wiki_card = None):
