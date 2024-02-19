@@ -122,28 +122,3 @@ class Emblem(object):
             check_value = entry['CheckPassCount'],
             raw_data = entry,
         )
-    
-
-
-# a={
-#       "Id": 5200023,
-#       "Category": "Favor",
-#       "Rarity": "SSR",
-#       "DisplayOrder": 360,
-#       "LocalizeEtcId": 3524651602,
-#       "LocalizeCodeId": 0,
-#       "UseAtLocalizeId": 0,
-#       "EmblemTextVisible": true,
-#       "IconPath": "",
-#       "EmblemIconPath": "UIs/01_Common/43_Emblem/Emblem_Icon_Favor_saya",
-#       "EmblemIconBGPath": "",
-#       "EmblemBGPathJp": "UIs/01_Common/43_Emblem/Emblem_BG_Favor_100",
-#       "EmblemBGPathKr": "",
-#       "DisplayType": "Favor",
-#       "DisplayStartDate": "",
-#       "DisplayEndDate": "",
-#       "DislpayFavorLevel": 80,
-#       "CheckPassType": "Favor",
-#       "EmblemParameter": 20002,
-#       "CheckPassCount": 100
-#     },

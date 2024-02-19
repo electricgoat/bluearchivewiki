@@ -74,7 +74,7 @@ def load_data(path_primary, path_secondary, path_translation):
         character_dialog_standard=  load_character_dialog_standard(path_translation),
         scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
         levelskill = load_levelskill(path_primary),
-        logiceffectdata = load_skill_logiceffectdata(path_primary),
+        logiceffectdata =           load_skill_logiceffectdata(path_primary),
         guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
         guide_mission_season =      load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
         localize_code =             load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeCodeExcelTable.json'),
@@ -366,11 +366,24 @@ def load_levelskill(path):
 
 
 def load_skill_logiceffectdata(path):
-    with open(os.path.join(path, 'Battle', 'logiceffectdata.json'), encoding="utf8") as f:
+    with open(os.path.join(path, 'DB', 'LogicEffectData.json'), encoding="utf8") as f:
         data = json.load(f)
 
-    return {item['StringId']: item for item in data}
+    return {item['StringId']: convert_boolean_strings(item) for item in data}
 
+def convert_boolean_strings(obj):
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            obj[key] = convert_boolean_strings(value)
+    elif isinstance(obj, list):
+        for i in range(len(obj)):
+            obj[i] = convert_boolean_strings(obj[i])
+    elif isinstance(obj, str):
+        if obj.lower() == "true":
+            return True
+        elif obj.lower() == "false":
+            return False
+    return obj
 
 
 def load_campaign_stage_rewards(path):
