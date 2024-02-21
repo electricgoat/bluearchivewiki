@@ -364,7 +364,7 @@
         {
             "GroupId": "MutsukiExtraPassive01",
             "NameEn": "Let's go have fun?",
-            "DescriptionEn": "Normal attacks have a $1 chance of increasing accuracy by $2 for $3. (Cooldown: $4)"
+            "DescriptionEn": "Normal attacks have a $1 chance of increasing Accuracy by $2 for $3. (Cooldown: $4)"
         },
         {
             "GroupId": "YoshimiEx01",
@@ -4619,8 +4619,59 @@
             "GroupId": "CH0230ExtraPassive01",
             "NameEn": "Sincerity",
             "DescriptionEn": "While in a Concentrated Fire stance, increase Explosive Efficiency by $1 and gain immunity to Taunt status."
-        }
+        },
 
+        {
+            "GroupId": "CH0239Ex01",
+            "NameEn": "Shadow Shot",
+            "DescriptionEn": "Deal $1 damage to one enemy (this attack ignores $2 of enemy Defense).\nIf Infiltration mode is active, this attack is a guaranteed critical hit. Afterwards, exit Infiltration mode."
+        },
+        {
+            "GroupId": "CH0239Public01",
+            "NameEn": "Back in the groove",
+            "DescriptionEn": "Every $1, increase Critical Damage by $2 for $3."
+        },
+        {
+            "GroupId": "CH0239Passive01",
+            "NameEn": "Assassins' eyes",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0239WeaponPassive01",
+            "NameEn": "Assassins' eyes +",
+            "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0239ExtraPassive01",
+            "NameEn": "Infiltration tactics",
+            "DescriptionEn": "At the start of battle, activate Infiltration mode, this mode ends whenever Kayoko is attacked.\nAfter Infiltration mode ends, if Kayoko is not attacked for 10 seconds, enter Infiltration mode again.\nWhen in Infiltration mode, increase own Critical Damage by $1."
+        },
+
+        {
+            "GroupId": "CH0240Ex01",
+            "NameEn": "Fascinating proposal",
+            "DescriptionEn": "Increase Critical Damage by $1 of one other ally for $2."
+        },
+        {
+            "GroupId": "CH0240Public01",
+            "NameEn": "Meaningful transaction",
+            "DescriptionEn": "Every $1, heal one other ally with the lowest HP for $2 of Healing."
+        },
+        {
+            "GroupId": "CH0240Passive01",
+            "NameEn": "Dress up",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0240WeaponPassive01",
+            "NameEn": "Dress up +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0240ExtraPassive01",
+            "NameEn": "Favorable trade",
+            "DescriptionEn": "Normal attacks have a 30% chance to reduce Critical Resistance of the target by $1 for $2. (Cooldown: $3 seconds)"
+        }
         
 
     ]

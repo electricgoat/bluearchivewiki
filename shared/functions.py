@@ -180,26 +180,37 @@ def translate_package_name(text):
     return text
 
 
-def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:dict|None, furniture:dict|None, **params):
+def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:dict|None, furniture:dict|None, emblems:dict|None, **params):
     wikitext_params = ''
 
     match type:
         case 'Item':
+            assert data is not None, "ItemCard card is called for, but no items dict has been "
             card_type = 'ItemCard'
             name = items[id].name_en
         case 'Equipment':
+            assert data is not None, "Equipment ItemCard card is called for, but no data dict has been "
             card_type = 'ItemCard'
             name = data.etc_localization[data.equipment[id]['LocalizeEtcId']]['NameEn']
         case 'Currency':
+            assert data is not None, "Currency ItemCard card is called for, but no data dict has been "
             card_type = 'ItemCard'
             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
         case 'Character':
+            assert characters is not None, "Character card is called for, but no characters dict has been provided"
             card_type = 'CharacterCard'
             name = characters[id].wiki_name
         case 'Furniture':
+            assert furniture is not None, "Furniture card is called for, but no furniture dict has been provided"
             card_type = 'FurnitureCard'
             name = furniture[id].name_en
+        case 'Emblem':
+            assert emblems is not None, "Emblem card is called for, but no emblems dict has been provided"
+            card_type = 'TitleCard'
+            name = emblems[id].name
         case _:
+            card_type = 'ItemCard'
+            name = None
             print(f'Unrecognized item type {type}')
     
     if 'probability' in params and params['probability'] != None:

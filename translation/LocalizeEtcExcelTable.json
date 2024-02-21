@@ -7745,6 +7745,241 @@
             "DescriptionJp": "最終編{0}章{1}話クリア",
             "NameEn": "Clear Final Chapter",
             "DescriptionEn": "Clear Chapter {0} Episode {1} of Final Chapter"
+        },
+        {
+            "Key": 580407020,
+            "NameJp": "カヨコ（ドレス）の神名文字",
+            "NameEn": "Kayoko's (Dress) Eleph",
+            "DescriptionJp": "カヨコ（ドレス）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kayoko (Dress)."
+        },
+        {
+            "Key": 1150751510,
+            "NameJp": "アル（ドレス）の神名文字",
+            "NameEn": "Aru's (Dress) Eleph",
+            "DescriptionJp": "アル（ドレス）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Aru (Dress)."
+        },
+        {
+            "Key": 1549901025,
+            "NameJp": "ターゲットの手がかり",
+            "NameEn": "Target Clue",
+            "DescriptionJp": "依頼のターゲットに関する手がかり。仕事を進める上で最も重要な情報だ。",
+            "DescriptionEn": "Clues regarding the target of the request. This is the most crucial information to progress with the job."
+        },
+        {
+            "Key": 3633823236,
+            "NameJp": "公演のパンフレット",
+            "NameEn": "Performance Brochure",
+            "DescriptionJp": "公演の内容が記載されているパンフレット。公演が終わっても、これを開けばあの時の感動がよみがえってくる。",
+            "DescriptionEn": "A brochure containing details of the performance. Even after the performance ends, opening this will revive the excitement of that time."
+        },
+        {
+            "Key": 3045934720,
+            "NameJp": "蝶ネクタイ",
+            "NameEn": "Bow Tie",
+            "DescriptionJp": "上品な場所でよく見かける小さなネクタイ。誰でも簡単に使える仕様になっている。",
+            "DescriptionEn": "A small tie often seen in elegant places. Designed to be easy for anyone to use."
+        },
+        {
+            "Key": 1268221723,
+            "NameJp": "オペラグラス",
+            "NameEn": "Opera Glasses",
+            "DescriptionJp": "遠くからでも舞台の様子がはっきり見られる望遠鏡。役者の熱演を、素敵な美術を、その目に焼き付けよう。",
+            "DescriptionEn": "Small binoculars that allow a clear view of the stage even from a distance. Let's imprint the passionate performances of actors and beautiful art in your eyes."
+        },
+        {
+            "Key": 1224308689,
+            "NameJp": "バレンタインデーのお誘い",
+            "NameEn": "Valentine's Day Invitation",
+            "DescriptionJp": "バレンタインデーに誰かがあなたを待っているという証。特別な日にはきっと特別な出会いがある。※イベント終了後、未使用のまま保持していた「バレンタインデーのお誘い」は400,000クレジットに変換されます",
+            "DescriptionEn": "Evidence that someone is waiting for you on Valentine's Day. Surely there will be a special encounter on a special day. *After the event ends, any unused 'Valentine's Day Invitations' will be converted to 400,000 credits."
+        },
+
+        {
+            "Key": 390594649,
+            "NameJp": "手作りチョコスティック",
+            "NameEn": "Handmade Chocolate Sticks",
+            "DescriptionJp": "イチカが先生のために手作りしたチョコレート。持ちやすく食べやすい棒状になっている。手作りなのに既製品に負けない、見事な仕上がりになっている。",
+            "DescriptionEn": "Chocolate handmade by Ichika for Sensei. It is in a stick shape that is easy to hold and eat. Despite being homemade, it has an exquisite finish that rivals ready-made products."
+        },
+        {
+            "Key": 3418867182,
+            "NameJp": "チョコサンダル",
+            "NameEn": "Chocolate Sandals",
+            "DescriptionJp": "実際のサンダルサイズと同じ大きさのかなり大きなチョコレート。見た目と違ってとても丈夫で、実際に履いて歩いても大丈夫だそうだ。",
+            "DescriptionEn": "A considerably large chocolate of the same size as real sandals. Contrary to its appearance, it is very sturdy and apparently safe to wear and walk in."
+        },
+        {
+            "Key": 3006306790,
+            "NameJp": "シークレットメッセージ",
+            "NameEn": "Secret Message",
+            "DescriptionJp": "コユキが先生に送った手作りチョコレート。見た目は普通のギフト用のチョコレートだが、別の意味が隠されているらしい。",
+            "DescriptionEn": "Homemade chocolate sent to Sensei by Koyuki. Although it looks like ordinary gift chocolate, it seems to have a hidden meaning."
+        },
+        {
+            "Key": 291186913,
+            "NameJp": "自らの選択",
+            "NameEn": "Personal Choice",
+            "DescriptionJp": "サクラコが先生のために用意した高級チョコレート。普段とは違い、サクラコ自身が悩んだり考えたりして決めた、なかなか手に入らない貴重なプレゼントだ。",
+            "DescriptionEn": "High-quality chocolate prepared for Sensei by Sakurako. Unlike usual gift bars, this is a precious presents that is hard to come by, it was picked out after much thought and deliberation by Sakurako herself."
+        },
+        {
+            "Key": 498190404,
+            "NameJp": "バレンタイン挑戦状",
+            "NameEn": "Valentine's Challenge",
+            "DescriptionJp": "挑戦状の形をしたレイサのチョコレート。実は広々としたチョコレートの上に挑戦状封筒を乗せてあるだけ。中にはレイサからの手紙が入っている。",
+            "DescriptionEn": "Chocolate shaped like a challenge from Reisa. Actually, it's just an envelope of challenge placed on top of a generous chocolate bar. Inside, there is a letter from Reisa."
+        },
+        {
+            "Key": 2827551265,
+            "NameJp": "温泉卵チョコレート",
+            "NameEn": "Hot Spring Egg Chocolate",
+            "DescriptionJp": "メグの特製手作りチョコレート。一見、温泉卵に似ているため間違えやすい。大量に作っているので、必要ならいくらでももらえるという。",
+            "DescriptionEn": "Special homemade chocolate from Megu. At first glance, it resembles a regular hot spring egg, making it easy to mistake. Since there are plenty available, you can get as much as you want."
+        },
+        {
+            "Key": 2152153824,
+            "NameJp": "チョコレート月餅",
+            "NameEn": "Chocolate Mooncake",
+            "DescriptionJp": "ルミが先生に「試食」をお願いしたいという理由で作ったチョコレート月餅。料理人らしく様々な方法で作られ、どれも先生に味わってほしいという想いが込められている。",
+            "DescriptionEn": "Chocolate mooncake made by Rumi because she wants Sensei to 'taste test' it. They are made in a variety of flavors, befitting a chef, and each one is made with the interntion for Sensei to taste it."
+        },
+        {
+            "Key": 219184488,
+            "NameJp": "玄龍門の文様をしたチョコレート",
+            "NameEn": "Genryumon Pattern Chocolate",
+            "DescriptionJp": "ミナが自分にとって「一番大事なもの」をイメージして作ったチョコレート。その気持ちは確かに嬉しいけれど、どこかずれているような気もする……",
+            "DescriptionEn": "Chocolate made by Mina, it symbolizes 'the most important thing' to her. While the sentiment is certainly appreciated, there's a sense that something is off..."
+        },
+        {
+            "Key": 717036626,
+            "NameJp": "チョコレートキーホルダーグッズ",
+            "NameEn": "Chocolate Keychain Goods",
+            "DescriptionJp": "モミジが当たりだと主張するキーホルダーとチョコレート。偶然にも、モミジとペアになっている。",
+            "DescriptionEn": "Keychain and chocolate that Momiji claims are a perfect match. Coincidentally, they are part of a paired set."
+        },
+        {
+            "Key": 2219659309,
+            "NameJp": "ナギサの平凡なチョコレート",
+            "NameEn": "Nagisa's Ordinary Chocolate",
+            "DescriptionJp": "ナギサが先生に感謝の気持ちを込めて手作りしたチョコレート。他の意図や政治的な解釈が入らないようにというナギサの願いを込めて、意図的にシンプルで素朴な作りになっている。しかし、チョコレートの味とクオリティは、既製品を遥かに凌駕している。",
+            "DescriptionEn": "Chocolate handmade by Nagisa as a token of her gratitude to Sensei. Nagisa's desire to avoid any other intentions or political interpretations is reflected in the design, which is intentionally plain and simple. However, the taste and quality of chocolate far exceeds that of ready-made chocolate."
+        },
+        {
+            "Key": 2751216385,
+            "NameJp": "ハイカロリーチョコ",
+            "NameEn": "High-Calorie Chocolate",
+            "DescriptionJp": "バレンタインデーという日を楽しみたいけど、そうはいかないミノリが考えた解決策。ミノリは、ついでにあげたかのように話していたが、実は数あるメーカーの中からこれを選ぶのにかなりの時間を費やした。",
+            "DescriptionEn": "A solution devised by Minori who wants to enjoy Valentine's Day but can't. Minori casually mentioned it as if it was an afterthought, but in reality, she spent quite some time selecting this from among many manufacturers."
+        },
+        {
+            "Key": 2983078984,
+            "NameJp": "認識の差",
+            "NameEn": "Difference in Perception",
+            "DescriptionJp": "アオイが先生のために用意したチョコレート。サイズは小さいが、ひとつひとつにかなりの手間がかかっている。相手が何を好むかわからないので、あえて様々な種類で用意しているらしい。",
+            "DescriptionEn": "Chocolate prepared for Sensei by Aoi. While the size is small, each piece requires considerable effort. As she doesn't know what the recipient prefers, she deliberately prepared various types."
+        },
+        {
+            "Key": 3666669973,
+            "NameJp": "プラナのプラナたっぷりチョコレート",
+            "NameEn": "Plana's Prana-filled Chocolate",
+            "DescriptionJp": "プラナがアロナに内緒で作ったチョコレート。先生の好みにぴったりの味がする。",
+            "DescriptionEn": "Chocolate that Plana made without telling Alona. The taste is perfectly matched to Sensei's preference."
+        },
+        {
+            "Key": 967746156,
+            "NameJp": "自画像チョコレート",
+            "NameEn": "Self-Portrait Chocolate",
+            "DescriptionJp": "メルがホワイトチョコレートに描いた、メルの自画像チョコレート。完成度という点では気に入ってない様子だが、本当の問題はそれをどこから食べるかということだった。",
+            "DescriptionEn": "Chocolate self-portrait drawn by Meru on white chocolate. While she doesn't seem satisfied with the execution, the real issue is figuring out where to start eating it."
+        },
+        {
+            "Key": 3706730641,
+            "NameJp": "至高にして究極の手作りチョコレートケーキ",
+            "NameEn": "Supreme and Ultimate Handmade Chocolate Cake",
+            "DescriptionJp": "キヴォトスの有名店と比較しても決して負けないと主張する手作りチョコレートケーキ。キャッチフレーズは至高にして究極のおもてなしだそうだ。",
+            "DescriptionEn": "The handmade chocolate cake claimed to never be outdone by any of the famous stores in Kivotos. Their catchphrase is 'Supreme and Ultimate Hospitality.'"
+        },
+        {
+            "Key": 2168519091,
+            "NameJp": "戦略リーダーの手作りチョコレート",
+            "NameEn": "Lead Strategist's Handmade Chocolate",
+            "DescriptionJp": "カホが先生のために作った手作りチョコレート。一見シンプルな広報グッズに見えるが、丁寧に刻まれた一文字一文字にこだわりが込められている。",
+            "DescriptionEn": "Chocolate handmade for Sensei by Kaho. Although it looks like a simple PR item at first glance, each character is meticulously carved with attention to detail."
+        },
+        {
+            "Key": 3486261893,
+            "NameJp": "「いつもの」コーヒー",
+            "NameEn": "\"Usual\" Coffee",
+            "DescriptionJp": "カンナが先生に淹れてくれた普通のブレンドコーヒー。ただ、いつもと違ってカンナの「主観的な感情」が加わっているせいか、チョコレートのような甘い香りがしている。",
+            "DescriptionEn": "Regular blend coffee brewed by Kanna for Sensei. However, it has a sweet chocolate-like aroma due to Kanna's 'personal feelings' being added, unlike usual."
+        },
+        {
+            "Key": 1766939933,
+            "NameJp": "二人で一緒に作った生チョコレート",
+            "NameEn": "Chocolate Made Together",
+            "DescriptionJp": "レンゲが先生の助けを借りて無事完成した手作り生チョコレート。完成度は高くないものの、その中に溶け込んだ思い出は誰にも否定できない。",
+            "DescriptionEn": "Renge successfully completed this homemade raw chocolate with Senseis help. It may not be perfectly done, but no one can deny the memories that come along with it."
+        },
+        {
+            "Key": 2005226182,
+            "NameJp": "作戦参謀のチョコレート",
+            "NameEn": "Staff Strategist's Chocolate",
+            "DescriptionJp": "キキョウが先生のために用意したチョコレート。堅苦しい名前とは裏腹に、かわいい猫のキャラクターが描かれている。どうやら名前の本当の意味は、このチョコレートを届けるための一連の秘密の大作戦にあるとかないとか。",
+            "DescriptionEn": "Chocolate prepared by Kikyo for Sensei. Despite its formal name, it features a cute cat character. Apparently, the real meaning of the name lies in a series of secret operations undertaken to deliver this chocolate."
+        },
+        {
+            "Key": 3801373544,
+            "NameJp": "勘解由小路のお守りとチョコ味の駄菓子",
+            "NameEn": "Kadenokouji Amulet and Chocolate-Flavored Sweets",
+            "DescriptionJp": "先生のために、ユカリが自分で作ったお守りと、早朝から商店街を歩き回ってやっと手に入れたうんめえ棒の限定版セット。勘解由小路としての自分、百花繚乱の部員としての自分をすべて伝えたいというユカリの様々な気持ちから生まれた、本当に心温まるプレゼントだ。",
+            "DescriptionEn": "A limited edition set consisting of an amulet handmade by Yukari and a chocolate-flavored version of a corn stick acquired after walking around the shopping district since early morning, all for Sensei. This heartfelt gift was born from various feelings of Yukari wanting to convey both her identity as a Kadenokouji and as a member of Hyakkaryoran."
+        },
+        {
+            "Key": 3081511179,
+            "NameJp": "イブキが作ったチョコプリン",
+            "NameEn": "Chocolate Pudding Made by Ibuki",
+            "DescriptionJp": "イブキが用意した手作りのチョコプリン。丁寧に作ろうとした結果材料が増え、とてつもなく甘くなった。一度にたくさん食べると舌がしびれるかも。",
+            "DescriptionEn": "Handmade chocolate pudding prepared by Ibuki. The attempt to make it carefully resulted in adding more ingredients, making it extremely sweet. Eating a lot at once might numb your tongue."
+        },
+        {
+            "Key": 1270452267,
+            "NameJp": "ミカ特製☆チョコロールケーキ",
+            "NameEn": "Mika's Special ☆ Chocolate Roll Cake",
+            "DescriptionJp": "先生のためにミカが直接焼いたチョコロールケーキ。多少あらい部分もあるが、ミカの努力が垣間見えるようだ。",
+            "DescriptionEn": "A chocolate roll cake baked personally by Mika for Sensei. While there are some rough parts, Mika's efforts are evident."
+        },
+        {
+            "Key": 3269210663,
+            "NameJp": "議長が用意した最高級チョコレートファウンテン",
+            "NameEn": "Chocolate Fountain Prepared by the Chairman",
+            "DescriptionJp": "マコトが特別に先生のために、パーティーと合わせて用意した最高級のチョコレートファウンテン。このままでもとても素敵なものだが、より完璧なものを作りたいというマコトの要望で改造されたため、たまにモーターが暴走してチョコレートを四散させることがある。",
+            "DescriptionEn": "The finest chocolate fountain prepared by Makoto specifically for Sensei, in addition to the party. While it's already very impressive, Makoto's desire for perfection led to modifications, occasionally causing the motor to go haywire and scatter chocolate."
+        },
+        {
+            "Key": 471153362,
+            "NameJp": "最高級役員用デスク",
+            "NameEn": "Top Executive Desk",
+            "DescriptionJp": "モダンなデザインから威圧感を感じられる役員用デスク。力と権威が感じられる！",
+            "DescriptionEn": "An executive desk that exudes an intimidating presence with its modern design. It conveys power and authority!"
+        },
+        {
+            "Key": 1604931288,
+            "NameJp": "臼と杵",
+            "NameEn": "Mortar and Pestle",
+            "DescriptionJp": "おいしい餅が作れる臼と杵。新年を迎える一つの素敵な方法だ！",
+            "DescriptionEn": "A mortar and pestle for making delicious mochi. A wonderful way to welcome the new year!"
+        },
+
+        {
+            "Key": 3819686275,
+            "NameKr": "0068 오페라로부터 사랑을 담아서!",
+            "DescriptionKr": "0068 오페라로부터 사랑을 담아서! 칭호 획득 미션 클리어",
+            "NameJp": "0068 オペラより愛をこめて！",
+            "DescriptionJp": "0068 オペラより愛をこめて！の称号獲得ミッションクリア",
+            "NameEn": "0068 from Opera with Love!",
+            "DescriptionEn": "Clear the event mission to obtain the 0068 from Opera with Love! title"
         }
 
     ]

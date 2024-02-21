@@ -195,15 +195,18 @@ def get_character_data():
         try:
             character = Character.from_data(character['Id'], data)
             map_wikiname_id[character.wiki_name] = character.id
+
+            if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
+                continue
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
             traceback.print_exc()
+            continue
 
         # if args['character_id'] is not None and character['Id'] not in args['character_id']:
         #     continue
 
-        if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
-            continue
+        
     
 
 

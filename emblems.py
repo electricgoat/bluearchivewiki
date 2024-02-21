@@ -64,7 +64,7 @@ def generate():
             f.write(wikitext)
 
 
-        if wiki is not None:
+        if args['wiki'] is not None:
             upload_asset(emblem.icon_path, emblem.icon, existing_files)
             upload_asset(emblem.emblem_icon_path, emblem.emblem_icon, existing_files)
             upload_asset(emblem.emblem_iconbg_path, emblem.emblem_iconbg, existing_files)
@@ -161,7 +161,7 @@ def main():
     parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
-    parser.add_argument('-assets_dir',     metavar='DIR', default='C:/Games/datamine/blue_archive/work_240124/', help='Directory with exported assets')
+    parser.add_argument('-assets_dir',     metavar='DIR', default='C:/Games/datamine/blue_archive/work_240221/', help='Directory with exported assets')
     parser.add_argument('-outdir',          metavar='DIR', default='./out/emblems', help='Output directory')
     
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')

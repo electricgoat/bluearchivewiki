@@ -13,21 +13,22 @@ data = {}
 characters = {}
 items = {}
 furniture = {}
-
+emblems = {}
 
 
 def wiki_card(type: str, id: int, **params):
-    global data, characters, items, furniture
-    return shared.functions.wiki_card(type, id, data=data, characters=None, items=items, furniture=None, **params)
+    global data, characters, items, furniture, emblems
+    return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
 
 
-def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_missing_localization, ext_missing_code_localization):
-    global data, characters, items, furniture
+def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization):
+    global data, characters, items, furniture, emblems
     global missing_localization, missing_code_localization
     data = ext_data
     characters = ext_characters
     items = ext_items
     furniture = ext_furniture
+    emblems = ext_emblems
     missing_localization = ext_missing_localization
     missing_code_localization = ext_missing_code_localization
 

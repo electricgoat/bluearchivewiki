@@ -16,7 +16,7 @@ from classes.Furniture import Furniture, FurnitureGroup
 from classes.Emblem import Emblem
 from events.mission_desc import mission_desc
 from events.mode_Field import *
-from shared.functions import hashkey
+from shared.functions import hashkey, wiki_card
 from shared.MissingTranslations import MissingTranslations
 
 missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
@@ -82,6 +82,10 @@ def parse_schedule_locations(location_groups):
     
 
 def wiki_itemcard(reward, *params):
+    #
+    #Deprecated
+    #Use shared.functions wiki_card
+    #
     card_type = reward.type != 'Character' and 'ItemCard' or 'CharacterCard'
 
     if Card.PROBABILITY in params: probability = f'|probability={reward.prob:g}'
@@ -94,53 +98,52 @@ def wiki_itemcard(reward, *params):
     return '{{'+card_type+'|'+(reward.name != None and reward.name or 'Unknown')+quantity+probability+'|text=|60px|block}}'
 
 
-#TODO replace wiki_itemcard with this one
-def wiki_card(type, id, **params ):
-    global data, items, furniture, emblems
-    wikitext_params = ''
+# def wiki_card(type, id, **params ):
+#     global data, items, furniture, emblems
+#     wikitext_params = ''
 
-    match type:
-        case 'Item':
-            card_type = 'ItemCard'
-            name = items[id].name_en
-        case 'Equipment':
-            card_type = 'ItemCard'
-            name = data.etc_localization[data.equipment[id]['LocalizeEtcId']]['NameEn']
-        case 'Currency':
-            card_type = 'ItemCard'
-            name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
-        case 'Character':
-            card_type = 'CharacterCard'
-            name = characters[id].wiki_name
-        case 'Furniture':
-            card_type = 'FurnitureCard'
-            name = furniture[id].name_en
-        case 'Emblem':
-            card_type = 'TitleCard'
-            name = emblems[id].name
-        case _:
-            card_type = 'ItemCard'
-            name = None
-            print(f'Unrecognized item type {type}')
+#     match type:
+#         case 'Item':
+#             card_type = 'ItemCard'
+#             name = items[id].name_en
+#         case 'Equipment':
+#             card_type = 'ItemCard'
+#             name = data.etc_localization[data.equipment[id]['LocalizeEtcId']]['NameEn']
+#         case 'Currency':
+#             card_type = 'ItemCard'
+#             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
+#         case 'Character':
+#             card_type = 'CharacterCard'
+#             name = characters[id].wiki_name
+#         case 'Furniture':
+#             card_type = 'FurnitureCard'
+#             name = furniture[id].name_en
+#         case 'Emblem':
+#             card_type = 'TitleCard'
+#             name = emblems[id].name
+#         case _:
+#             card_type = 'ItemCard'
+#             name = None
+#             print(f'Unrecognized item type {type}')
     
-    if 'probability' in params:
-        wikitext_params += f"|probability={params['probability']:g}"
+#     if 'probability' in params:
+#         wikitext_params += f"|probability={params['probability']:g}"
 
-    if 'quantity' in params and params['quantity'] != None:
-        wikitext_params += f"|quantity={params['quantity']}"
+#     if 'quantity' in params and params['quantity'] != None:
+#         wikitext_params += f"|quantity={params['quantity']}"
 
-    if 'text' in params:
-        text = params['text'] != None and params['text'] or ''
-        wikitext_params += f"|text={text}"
+#     if 'text' in params:
+#         text = params['text'] != None and params['text'] or ''
+#         wikitext_params += f"|text={text}"
 
-    if 'size' in params:
-        wikitext_params += f"|{params['size']}"
+#     if 'size' in params:
+#         wikitext_params += f"|{params['size']}"
 
-    if 'block' in params:
-        wikitext_params += f"|block"
+#     if 'block' in params:
+#         wikitext_params += f"|block"
 
-    if name == None: print (f"Unknown {type} item {id}")
-    return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
+#     if name == None: print (f"Unknown {type} item {id}")
+#     return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
 
 
 
@@ -216,7 +219,7 @@ def parse_milestone_rewards(season_id):
 
 
 def mission_reward_parcels(mission, index):
-    global data, items, furniture
+    global data, characters, items, furniture, emblems
 
     if mission['MissionRewardParcelType'][index] == 'Item':
         mission['RewardItemNames'].append(items[mission['MissionRewardParcelId'][index]].name_en )
@@ -234,6 +237,9 @@ def mission_reward_parcels(mission, index):
         mission['RewardItemNames'].append(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
         mission['RewardItemCards'].append('{{ItemCard|'+data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn']+'|quantity='+str(mission['MissionRewardAmount'][index])+'}}')
         #print(data.etc_localization[ data.currencies[mission['MissionRewardParcelId'][index]]['LocalizeEtcId']]['NameEn'])
+    elif mission['MissionRewardParcelType'][index] == 'Emblem':
+        mission['RewardItemNames'].append(emblems[mission['MissionRewardParcelId'][index]].name)
+        mission['RewardItemCards'].append('{{TitleCard|'+emblems[mission['MissionRewardParcelId'][index]].name+'}}')
     else:
         mission['RewardItemNames'].append("UNKNOWN REWARD TYPE")
         print (f"Unknown reward parcel type {mission['MissionRewardParcelType'][index]}")
@@ -246,7 +252,7 @@ def mission_reward_parcels(mission, index):
 
 
 def total_reward_card(item):
-    global data, items, furniture
+    global data, character, items, furniture, emblems
     icon_size = ['80px','60px']
 
     if item['Type'] == 'Item':
@@ -262,6 +268,9 @@ def total_reward_card(item):
     elif item['Type'] == 'Currency':
         item['Name'] = (data.etc_localization[data.currencies[item['Id']]['LocalizeEtcId']]['NameEn'])
         item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+    elif item['Type'] == 'Emblem':
+        item['Name'] = (emblems[item['Id']].name)
+        item['Card'] = ('{{TitleCard|'+emblems[item['Id']].name+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
     else:
         item['Name'] = ("UNKNOWN REWARD TYPE")
         print (f"Unknown reward parcel type {item['Type']}")
@@ -400,7 +409,7 @@ def generate():
     #FIELD
     wikitext_field = ''
     if (args['event_season'], "Field") in data.event_content_seasons:
-        wikitext_field = "=Field Mission=\n" + get_mode_field(args['event_season'], data, characters, items, furniture, missing_localization, missing_code_localization)
+        wikitext_field = "=Field Mission=\n" + get_mode_field(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization)
 
     #SCHEDULE
     wikitext_schedule_locations = ''
@@ -439,7 +448,7 @@ def generate():
             for shop_item in shop['shop_content']:
                 good = data.goods[shop_item['GoodsId'][0]]
                 reward_quantity=good['ParcelAmount'][0]
-                shop_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None  )
+                shop_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], data, characters, items, furniture, emblems, quantity = reward_quantity > 1 and reward_quantity or None  )
                 shop_item['cost'] = good['ConsumeParcelAmount'][0]
                 shop_item['stock'] = shop_item['PurchaseCountLimit']>0 and shop_item['PurchaseCountLimit'] or '∞'
                 shop_item['subtotal'] = shop_item['PurchaseCountLimit']>0 and shop_item['cost']*shop_item['PurchaseCountLimit'] or ''
@@ -464,7 +473,7 @@ def generate():
             box['Items'] = [{'GroupId': x['GroupId'], 'GroupElementAmount': x['GroupElementAmount'], 'IsPrize': x['IsPrize'], 'GoodsId': x['GoodsId'], 'DisplayOrder': x['DisplayOrder']} for x in data.event_content_box_gacha_shop[args['event_season']] if x['Round'] == box['Round']]
 
             first_good = data.goods[box['Items'][0]['GoodsId'][0]]
-            box['wiki_price'] = wiki_card(first_good['ConsumeParcelType'][0], first_good['ConsumeParcelId'][0], quantity = first_good['ConsumeParcelAmount'][0] )
+            box['wiki_price'] = wiki_card(first_good['ConsumeParcelType'][0], first_good['ConsumeParcelId'][0], data, characters, items, furniture, emblems, quantity = first_good['ConsumeParcelAmount'][0] )
             box['total_stock'] = 0
             box['total_price'] = 0
             box['is_duplicate'] = False
@@ -472,7 +481,7 @@ def generate():
             for box_item in box['Items']:
                 good = data.goods[box_item['GoodsId'][0]]
                 reward_quantity=good['ParcelAmount'][0]
-                box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None )
+                box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], data, characters, items, furniture, emblems, quantity = reward_quantity > 1 and reward_quantity or None )
                 box['total_stock'] += box_item['GroupElementAmount']
 
             box['total_price'] = box['total_stock'] * first_good['ConsumeParcelAmount'][0]
@@ -529,12 +538,12 @@ def generate():
                 elif fortune_tiers[tier]['RewardParcelAmount'] != box['RewardParcelAmount']: print(f'Mismatched RewardParcelAmount data within FortuneGacha tier {tier}')
             
             for index,type in enumerate(fortune_tiers[tier]['RewardParcelType']):
-                wiki_card_text = wiki_card(type, fortune_tiers[tier]['RewardParcelId'][index], quantity = fortune_tiers[tier]['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                wiki_card_text = wiki_card(type, fortune_tiers[tier]['RewardParcelId'][index], data, characters, items, furniture, emblems, quantity = fortune_tiers[tier]['RewardParcelAmount'][index], text = None, size = '60px', block = True )
                 fortune_tiers[tier]['wiki_items'].append(wiki_card_text)
 
             #print(fortune_tiers[tier])
         cost_good = data.goods[fortune_gacha[0]['CostGoodsId']]
-        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], data, characters, items, furniture, emblems, quantity = cost_good['ConsumeParcelAmount'][0])
 
         wikitext_fortunegacha += template.render(fortune_tiers=fortune_tiers.values(), wiki_price = wiki_price)
 
@@ -571,7 +580,7 @@ def generate():
             
 
             for index,type in enumerate(card['RewardParcelType']):
-                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], data, characters, items, furniture, emblems, quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
                 card['wiki_items'].append(wiki_card_text)
 
 
@@ -583,7 +592,7 @@ def generate():
             
                 
         cost_good = data.goods[card_set[0]['CostGoodsId']]
-        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], data, characters, items, furniture, emblems, quantity = cost_good['ConsumeParcelAmount'][0])
 
 
         wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
