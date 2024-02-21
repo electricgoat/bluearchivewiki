@@ -821,7 +821,7 @@
         {
             "GroupId": "HihumiEx01",
             "NameEn": "Help me, Peroro-sama!",
-            "DescriptionEn": "Summon a Peroro Doll, dealing $1 damage to enemies in a circular area and taunting them for $2. The Peroro Doll has $3 of Hifumi's Max HP."
+            "DescriptionEn": "Summon a Peroro Doll, dealing $1 damage to enemies in a circular area and taunting them. The Peroro Doll additionally inherits $2 of Hifumi's Max HP."
         },
         {
             "GroupId": "HihumiPublic01",
@@ -842,6 +842,11 @@
             "GroupId": "HihumiExtraPassive01",
             "NameEn": "Nimble Collector",
             "DescriptionEn": "When using EX skill, increase skill cost recovery speed by $1. (Duration: $2)"
+        },
+        {
+            "GroupId": "HihumiDecoyPassive01",
+            "NameEn": "Help me, Peroro-sama!",
+            "DescriptionEn": "When the Peroro Doll appears, it Taunts enemies within a circular area around itself for $1."
         },
         {
             "GroupId": "SumireEx01",
@@ -1534,7 +1539,7 @@
         {
             "GroupId": "CH0164Ex01",
             "NameEn": "Purge-kun No. 1, attack!",
-            "DescriptionEn": "Cherino enters the battlefield riding Purge-kun No. 1. <br>Its Attack is increased by $1 of Cherino's Attack. (Duration: $2) <br>Every 3 normal attacks, Purge-kun No. 1 will activate its \"Purge them all!\" skill and deal $3 damage to the targeted enemy, plus $4 damage to the targeted enemy and in conical area behind them.<br>(Only one tactical support vehicle can be fielded at any given time)"
+            "DescriptionEn": "Cherino enters the battlefield riding Purge-kun No. 1.\nPurge-kun No. 1 additionally inherits $1 of Cherino's Attack. (Duration: $2)\n(Only one tactical support vehicle can be fielded at any given time)"
         },
         {
             "GroupId": "CH0164Public01",
@@ -1561,6 +1566,12 @@
             "NameEn": "This is the authority of the moustache!",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
         },
+        {
+            "GroupId": "SM0164Public01",
+            "NameEn": "Purge them all!",
+            "DescriptionEn": "Every 3 normal attacks, Purge-kun No. 1 will activate its \"Purge them all!\" skill and deal $1 damage to the targeted enemy, plus $2 damage to the targeted enemy and in conical area behind them."
+        },
+
         {
             "GroupId": "TomoeEx01",
             "NameEn": "Everyone, please listen to me!",
@@ -1589,28 +1600,34 @@
         {
             "GroupId": "CH0165Ex01",
             "NameEn": "No. 227 Hot Spring Resort, Open for Business!",
-            "DescriptionEn": "Nodoka (Hot Spring) enters the battlefield. Every $1, a random snack is thrown to one ally with the lowest HP in the circular area around Nodoka. (Duration: $2)<br>Hot Spring Manju: $3 of Healing<br>Corn Stick: $4 of Healing<br>Milk: $5 of Healing"
+            "DescriptionEn": "Nodoka (Hot Spring) enters the battlefield to distribute snacks to allies. (Duration: $1)"
         },
         {
             "GroupId": "CH0165Public01",
-            "NameEn": "Landlady's Hospitality",
+            "NameEn": "Hostess' Hospitality",
             "DescriptionEn": "Every $1, increase incoming healing of the ally with the lowest HP by $2 for 20 seconds."
         },
         {
             "GroupId": "CH0165Passive01",
-            "NameEn": "Spring Water's Cure",
+            "NameEn": "Spring Water Cure",
             "DescriptionEn": "Increase Healing by $1."
         },
         {
             "GroupId": "CH0165WeaponPassive01",
-            "NameEn": "Spring Water's Cure +",
+            "NameEn": "Spring Water Cure +",
             "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
         },
         {
             "GroupId": "CH0165ExtraPassive01",
-            "NameEn": "Hot Spring's Feeling",
+            "NameEn": "Hot Springs Warmth",
             "DescriptionEn": "Increase Attack of all allies by $1."
         },
+        {
+            "GroupId": "SM016501Public01",
+            "NameEn": "I brought snacks!",
+            "DescriptionEn": "Every $1, a random snack is thrown to one ally with the lowest HP within the circular area around Nodoka (Hot Spring), recovering their HP.\nHot Spring Manju: $2 of Healing<br>Corn Stick: $3 of Healing<br>Milk: $4 of Healing"
+        },
+
         {
             "GroupId": "CH0098Ex01",
             "NameEn": "Hey, hey, look at this!",
@@ -1694,7 +1711,7 @@
         {
             "GroupId": "CH9999Ex01",
             "NameEn": "Putting my heart into it at every moment!",
-            "DescriptionEn": "Heal allies within a circular area for $1 of Miku's Healing. While Miku is dancing on the field (duration: $2), additionally increase their Attack by $3."
+            "DescriptionEn": "Heal allies within a circular area for $1 of Miku's Healing."
         },
         {
             "GroupId": "CH9999Public01",
@@ -1716,6 +1733,12 @@
             "NameEn": "The Blessing of Hatsune Miku",
             "DescriptionEn": "Increase all allies' incoming healing by $1."
         },
+        {
+            "GroupId": "SM999901Passive01",
+            "NameEn": "Putting my heart into it at every moment!",
+            "DescriptionEn": "While allies remain near Miku dancing on the field, increase their Attack by $1. (Duration: $2)"
+        },
+
         {
             "GroupId": "CH0084Ex01",
             "NameEn": "Hard boiled Hanetsuki shot",
@@ -1849,7 +1872,7 @@
         {
             "GroupId": "CH0058Ex01",
             "NameEn": "Crusader-chan, please!",
-            "DescriptionEn": "Hifumi enters the battlefield riding Crusader-chan.<br>Its Attack is increased by $1 of Hifumi's Attack. (Duration: $2)<br>Every $3, Crusader-chan will activate its \"2-pounder loaded with HE shell!\" skill and deal $4 damage to enemies in an area.<br>(Only one tactical support vehicle can be fielded at any given time)"
+            "DescriptionEn": "Hifumi enters the battlefield riding Crusader-chan.\nCrusader-chan additionally inherits $1 of Hifumi's Attack. (Duration: $2)\n(Only one tactical support vehicle can be fielded at any given time)"
         },
         {
             "GroupId": "CH0058Public01",
@@ -1876,6 +1899,12 @@
             "NameEn": "Angry Adelie's Blessing",
             "DescriptionEn": "Increase Attack Speed of all allies by $1."
         },
+        {
+            "GroupId": "SM005801Public01",
+            "NameEn": "2-Pounder High-Explosive Loaded!",
+            "DescriptionEn": "Every $1, Crusader-chan will activate its \"2-Pounder High-Explosive Loaded!\" skill and deal $2 damage to enemies in a circilar area."
+        },
+        
         {
             "GroupId": "CH0060Ex01",
             "NameEn": "Unstoppable torrent",
@@ -2124,7 +2153,7 @@
         {
             "GroupId": "CH0081Ex01",
             "NameEn": "Emergency dispatch",
-            "DescriptionEn": "Sena enters the battlefield riding Emergency Vehicle No. 11. Its Healing is increased by $1 of Sena's Healing power. (Duration: $2)<br>Attack of allies (excluding Sena herself) within the circular range around Emergency Vehicle No. 11 is increased by $3, and they are healed for $5 Healing every $4.<br>(Only one tactical support vehicle can be fielded at any given time)"
+            "DescriptionEn": "Sena enters the battlefield riding Emergency Vehicle No. 11.\nEmergency Vehicle No. 11 additionally inherits $1 of Sena's Healing. (Duration: $2)\n(Only one tactical support vehicle can be fielded at any given time)"
         },
         {
             "GroupId": "CH0081Public01",
@@ -2146,6 +2175,17 @@
             "NameEn": "As soon as possible",
             "DescriptionEn": "Increase Attack of all allies by $1."
         },
+        {
+            "GroupId": "SM008101Passive01",
+            "NameEn": "On-site support",
+            "DescriptionEn": "While Emergency Vehicle No. 11 is deployed, increase Attack for all other allies (excluding Sena herself) remaining within the circular area around Emergency Vehicle No. 11 by $1."
+        },
+        {
+            "GroupId": "SM008101Passive02",
+            "NameEn": "On-site support",
+            "DescriptionEn": "While Emergency Vehicle No. 11 is deployed, heal all other allies (excluding Sena herself) within the circular area around Emergency Vehicle No. 11 for $2 of Healing every $1."
+        },
+
         {
             "GroupId": "CH0141Ex01",
             "NameEn": "First of all, rest well",
@@ -2517,7 +2557,7 @@
         {
             "GroupId": "CH0156Ex01",
             "NameEn": "Let's go, Toramaru",
-            "DescriptionEn": "Iroha enters the battlefield riding Toramaru. <br>Its Attack is increased by $1 of Iroha's Attack. (Duration: $2) <br>Every $3, Toramaru will activate its \"Main gun aim, fire\" skill, dealing $4 damage to one enemy. Upon hit, shell fragments and deals the same damage to 2 nearby enemies, then deals the same damage to further 2 nearby enemies.<br>(Only one tactical support vehicle can be fielded at any given time)"
+            "DescriptionEn": "Iroha enters the battlefield riding Toramaru.\nToramaru additionally inherits $1 of Iroha's Attack. (Duration: $2)\n(Only one tactical support vehicle can be fielded at any given time)"
         },
         {
             "GroupId": "CH0156Public01",
@@ -2539,6 +2579,12 @@
             "NameEn": "Please stay strong",
             "DescriptionEn": "Increase Attack of all allies by $1."
         },
+        {
+            "GroupId": "SM015601Public01",
+            "NameEn": "Main gun aim, fire",
+            "DescriptionEn": "Every $1, Toramaru activates its \"Main gun aim, fire\" skill, dealing $2 damage to one enemy. Upon hit, shell fragments and deals the same damage to 2 nearby enemies, then deals the same damage to further 2 nearby enemies."
+        },
+
         {
             "GroupId": "CH0114Ex01",
             "NameEn": "Tsukuyo-style technique...!",
@@ -2672,7 +2718,7 @@
         {
             "GroupId": "CH0176Ex01",
             "NameEn": "Nimbostratus, attacking!",
-            "DescriptionEn": "Ayane enters the battlefield aboard the Nimbostratus.<br>Its Attack is increased by $1 and Critical Rate is increased by $2 of Ayane's. (Duration:$3)<br>Every $4, The Nimbostratus will activate its \"Rainstorm Missile\" skill, dealing $5 damage to one enemy. (This attack ignores $6 of the enemy Defense)<br>(Only one tactical support vehicle can be fielded at any given time)"
+            "DescriptionEn": "Ayane enters the battlefield aboard the Nimbostratus.\nNimbostratus additionally inherits $1 of Ayane's Attack and $2 of Critical Rate. (Duration:$3)\n(Only one tactical support vehicle can be fielded at any given time)"
         },
         {
             "GroupId": "CH0176Public01",
@@ -2694,6 +2740,12 @@
             "NameEn": "Understanding the battlefield",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
         },
+        {
+            "GroupId": "SM017601Public01",
+            "NameEn": "Rainstorm Missile",
+            "DescriptionEn": "Every $1, the Nimbostratus will activate its \"Rainstorm Missile\" skill, dealing $2 damage to one enemy. (This attack ignores $3 of the enemy Defense)"
+        },
+
         {
             "GroupId": "CH0092Ex01",
             "NameEn": "Stay cool ♧",
@@ -2941,7 +2993,12 @@
         {
             "GroupId": "CH0182Public01",
             "NameEn": "Passion Cannon",
-            "DescriptionEn": "Every $1, deal $2 damage to one enemy. While Rai-chan is Enhanced, this skill will activate every $3 attacks and deal $4 damage to one enemy."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0182Public02",
+            "NameEn": "Passion Cannon",
+            "DescriptionEn": "While Rai-chan is Enhanced, every $1 attacks deal $2 damage to one enemy."
         },
         {
             "GroupId": "CH0182Passive01",
@@ -2958,6 +3015,7 @@
             "NameEn": "Cheerleader's Fighting Spirit",
             "DescriptionEn": "When attacking weakened enemies, deal $1 of Attack as additional damage."
         },
+
 
         {
             "GroupId": "CH0181Ex01",
@@ -3435,12 +3493,22 @@
         {
             "GroupId": "CH0187Ex01",
             "NameEn": "System: Abi-Eshuh",
-            "DescriptionEn": "Switch to Abi-Eshuh mode; increase Attack by $1, Accuracy by $2, and Evasion by $3.\n(Exit the mode after using EX skill $4 times)\nAfter mode change, when using EX skill (5 cost) fire three shots; 1st and 2nd attack deal $5 damage to enemies within a straight line, the final attack deals $6 damage to the targeted enemy, and $7 to other enemies within a straight line. \nAll 3 attacks ignore $8 of enemy Defense."
+            "DescriptionEn": "Switch to Abi-Eshuh mode; increase Attack by $1, Accuracy by $2, and Evasion by $3.\n(Exit the mode after using EX skill $4 times)"
+        },
+        {
+            "GroupId": "CH0187Ex02",
+            "NameEn": "System: Abi-Eshuh",
+            "DescriptionEn": "After mode change, 1st and 2nd attack deal $1 damage to enemies within a straight line, the final attack deals $2 damage to the targeted enemy, and $3 to other enemies within a straight line.\nAll three attacks ignore $4 of enemy Defense."
         },
         {
             "GroupId": "CH0187Public01",
             "NameEn": "Tactical judgment",
-            "DescriptionEn": "Every $1, deal $2 damage to a single enemy.\nIn Abi-Eshuh mode, this attack ignores $3 of enemy Defense."
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy."
+        },
+        {
+            "GroupId": "CH0187Public02",
+            "NameEn": "Tactical judgment",
+            "DescriptionEn": "In Abi-Eshuh mode, every $1 deal $2 damage to a single enemy, this attack ignores $3 of enemy Defense."
         },
         {
             "GroupId": "CH0187Passive01",

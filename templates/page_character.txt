@@ -243,17 +243,17 @@
 See [[{{PAGENAME}}/audio]]
 
 =Cafe=
-{{CharacterCafeImage}}
 {{#dpl:
 | category        = Furniture
 | linksto         = {{PAGENAME}}
 | format          = ,,,
 | include         = {Furniture{{!}}CharacterCafeInteraction.dpl}
-| resultsheader   = \n===Cafe interaction===\n
+| resultsheader   = {{CharacterCafeImage}}\n===Cafe interaction===\n
 }}
 ===Gifts===
 {{CharacterGifts}}{% endraw %}
-{% raw %}{{CharacterNavbox}}{% endraw %}
+{% raw %}{{{% endraw %}{{character.club}}{% raw %}}}{% endraw %}
+{% raw %}{{{% endraw %}Kivotos|{{character.school}}{% raw %}}}{% endraw %}
 [[Category:Characters]]
 {%- if fragment_sources != None %}
 [[Category:Characters_with_shards_that_can_be_farmed_or_bought]]{% endif %}

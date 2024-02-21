@@ -13,6 +13,7 @@ from model import Item, Character
 from classes.model_stages import EventStage
 from model_event_schedule import EventScheduleLocation
 from classes.Furniture import Furniture, FurnitureGroup
+from classes.Emblem import Emblem
 from events.mission_desc import mission_desc
 from events.mode_Field import *
 from shared.functions import hashkey
@@ -20,6 +21,7 @@ from shared.MissingTranslations import MissingTranslations
 
 missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
 missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
+missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
 
 args = None
@@ -29,6 +31,7 @@ season_data = {'jp':None, 'gl':None}
 characters = {}
 items = {}
 furniture = {}
+emblems = {}
 
 stages = {}
 missions = {}
@@ -93,7 +96,7 @@ def wiki_itemcard(reward, *params):
 
 #TODO replace wiki_itemcard with this one
 def wiki_card(type, id, **params ):
-    global data, items, furniture
+    global data, items, furniture, emblems
     wikitext_params = ''
 
     match type:
@@ -112,6 +115,9 @@ def wiki_card(type, id, **params ):
         case 'Furniture':
             card_type = 'FurnitureCard'
             name = furniture[id].name_en
+        case 'Emblem':
+            card_type = 'TitleCard'
+            name = emblems[id].name
         case _:
             card_type = 'ItemCard'
             name = None
@@ -269,6 +275,7 @@ def generate():
     global args, data, stages, missions, season_data
     global characters, items, furniture
     global total_rewards, total_milestone_rewards
+    global missing_localization, missing_code_localization
 
     # if (args['event_season'], "Stage") in data.event_content_seasons:
     #     season = data.event_content_seasons[(args['event_season'], "Stage")]
@@ -304,7 +311,12 @@ def generate():
     season = season_jp #TODO work directly with season_jp or _gl
 
     localize_key = hashkey(season['Name'])
-    if localize_key in data.localization: season['LocalizeName'] = data.localization[localize_key]
+    if localize_key in data.localization: 
+        season['LocalizeName'] = data.localization[localize_key]
+        if 'En' not in data.localization[localize_key]: missing_localization.add_entry(data.localization[localize_key])
+    else: 
+        print(f"Missing localize key {localize_key}")
+        if localize_key == 2954736197: season['LocalizeName'] = data.localization[1435341545] #mini event fix, TODO figure out how its key is derived
 
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
@@ -584,6 +596,7 @@ def generate():
     season_jp['EventContentCloseTime'] = season_jp['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
     season_jp['EventContentOpenTime'] = season_jp['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season_jp['ExtensionTime'] = season_jp['ExtensionTime'].replace(' ','T')[:-3]+'+09'
+    season_jp['LocalizeName'] = season['LocalizeName']
     template = env.get_template('events/template_event_dates.txt')
     wikitext_event_dates = '\n==Schedule==\n' + template.render(title='Japanese Version', server='JP', season=season_jp)
 
@@ -592,6 +605,7 @@ def generate():
         season_gl['EventContentCloseTime'] = season_gl['EventContentCloseTime'].replace(' ','T')[:-3]+'+00'
         season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
         season_gl['ExtensionTime'] = season_gl['ExtensionTime'].replace(' ','T')[:-3]+'+00'
+        season_gl['LocalizeName'] = season['LocalizeName']
         #template = env.get_template('events/template_event.txt')
         wikitext_event_dates += template.render(title='Global Version', server='GL', season=season_gl)
 
@@ -661,6 +675,15 @@ def init_data():
             print(f'Failed to parse for item {item}: {err}')
             traceback.print_exc()
             continue
+
+    for emblem_id in data.emblem:
+        try:
+            emblem = Emblem.from_data(emblem_id, data, characters, missing_etc_localization, missing_localization)
+            emblems[emblem.id] = emblem
+        except Exception as err:
+            print(f'Failed to parse emblem {emblem_id}: {err}')
+            traceback.print_exc()
+
    
 
 
@@ -720,6 +743,7 @@ def main():
 
         missing_localization.write()
         missing_code_localization.write()
+        missing_etc_localization.write()
 
     except:
         parser.print_help()

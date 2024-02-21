@@ -1,7 +1,7 @@
 CLUBS = {
             'Countermeasure': 'Countermeasure Council',
             'GourmetClub': 'Gourmet Research Club',
-            'RemedialClass': 'Supplemental Classes Club',
+            'RemedialClass': 'Supplemental Lessons Club',
             'SisterHood': 'Sisterhood',
             'Kohshinjo68': 'Problem Solver 68',
             'CleanNClearing': 'Cleaning & Clearing',

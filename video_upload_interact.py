@@ -82,15 +82,15 @@ def generate():
                     interaction_list.append(characters[interaction.character_id].wiki_name)
 
         charnames_all = charnames_req + charnames_add + charnames_make + charnames_only
-        if args['character_wikiname'] is not None and not charnames_all.intersection(args['character_wikiname']):
+        if args['character_wikiname'] is not None and not set(charnames_all).intersection(args['character_wikiname']):
             continue
 
 
         if charnames_only:
             speculated_filenames.extend(charnames_only)
-        elif charnames_make:
+        if charnames_make:
             speculated_filenames.extend(['_'.join(combo) for r in range(1, len(charnames_make)+1) for combo in permutations(charnames_make, r)])
-        elif charnames_req:
+        if charnames_req:
             reqnames = ['_'.join(combo) for combo in permutations(charnames_req)]
             speculated_filenames.extend(reqnames)
             if charnames_add:
@@ -113,7 +113,7 @@ def generate():
                                     {{Media
                                     | Type = Interaction
                                     | Collection =
-                                    | Student = """+ ", ".join([x for x in charnames_all if x.replace(' ','_') in file])+"""
+                                    | Student = """+ ", ".join([x for x in set(charnames_all) if x.replace(' ','_') in file])+"""
                                     | Furniture = Cafe/"""+ furn.name_en.replace(' ','_') +"""
                                     | Notes = 
                                     }}
@@ -122,11 +122,13 @@ def generate():
 
             if file in processed_files:
                 print(f"WARNING - file {file} is getting processed again")
-            with open(os.path.join(args['outdir'], file+'.txt'), 'w', encoding="utf8") as f:           
-                f.write(wikitext)
-            processed_files.append(file)
 
-            if args['wiki'] != None: file_upload(wikitext, file)
+            else:
+                with open(os.path.join(args['outdir'], file+'.txt'), 'w', encoding="utf8") as f:           
+                    f.write(wikitext)
+                processed_files.append(file)
+
+                if args['wiki'] != None: file_upload(wikitext, file)
         
     print(f"Leftover files: {set(video_catalog).difference(processed_files)}")
 

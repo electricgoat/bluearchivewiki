@@ -4,8 +4,8 @@
             "CharacterId": 10055,
             "DialogCategory": "Formation",
             "VoiceClip": "Shigure_Formation_In_1",
-            "LocalizeJP": "私でいいの",
-            "LocalizeEN": "I'm fine"
+            "LocalizeJP": "うん？私でいいの？",
+            "LocalizeEN": "Yeah? Is it okay for me?"
         },
         {
             "CharacterId": 10055,
@@ -18,21 +18,21 @@
             "CharacterId": 10055,
             "DialogCategory": "Formation",
             "VoiceClip": "Shigure_Formation_Select",
-            "LocalizeJP": "こういうのが好きなんだ。",
-            "LocalizeEN": "I like this."
+            "LocalizeJP": "ふーん、こういうのが好きなんだ？",
+            "LocalizeEN": "Hmm, do you like this kind of thing?"
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shigure_Tactic_Defeat_1",
-            "LocalizeJP": "あれ、失敗。",
-            "LocalizeEN": "Oh, you failed."
+            "LocalizeJP": "あれ、失敗？",
+            "LocalizeEN": "Huh, a failure?"
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shigure_Tactic_Defeat_2",
-            "LocalizeJP": "ごめんね。",
+            "LocalizeJP": "あはは、ごめんね。",
             "LocalizeEN": "sorry."
         },
         {
@@ -53,8 +53,8 @@
             "CharacterId": 10055,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shigure_Tactic_Victory_1",
-            "LocalizeJP": "レッドウィンターの問題児にしては上出来じゃない。",
-            "LocalizeEN": "Not good for a Red Winter problem child."
+            "LocalizeJP": "レッドウィンターの問題児にしては上出来じゃない？",
+            "LocalizeEN": "Isn't that great for a troublemaker from Red Winter?"
         },
         {
             "CharacterId": 10055,
@@ -81,7 +81,7 @@
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_Covered_1",
-            "LocalizeJP": "ここよさそう。",
+            "LocalizeJP": "ここ、よさそう。",
             "LocalizeEN": "looks good here."
         },
         {
@@ -109,22 +109,22 @@
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_Defense_1",
-            "LocalizeJP": "聞かない。",
-            "LocalizeEN": "do not listen."
+            "LocalizeJP": "効かないよ。",
+            "LocalizeEN": "That doesn't work for me."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_In_1",
-            "LocalizeJP": "夫 始まったみたいだね。",
-            "LocalizeEN": "Husband It looks like it's started."
+            "LocalizeJP": "おっと、始まったみたいだね。",
+            "LocalizeEN": "Oh, it looks like it's started."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_In_2",
-            "LocalizeJP": "お茶を言ってみよっか。",
-            "LocalizeEN": "Shall I have some tea?"
+            "LocalizeJP": "あっ、じゃあいってみよっか。",
+            "LocalizeEN": "Ah, let's go then."
         },
         {
             "CharacterId": 10055,
@@ -144,7 +144,7 @@
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_Recovery_1",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "おお、ありがとう。",
             "LocalizeEN": "thank you."
         },
         {
@@ -179,22 +179,22 @@
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_TacticalAction_1",
-            "LocalizeJP": "言った。",
-            "LocalizeEN": "Said."
+            "LocalizeJP": "よっと",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_Victory_1",
-            "LocalizeJP": "お祝いということでいっぱい 分かった分かったって。",
-            "LocalizeEN": "It's all about celebration, I know, I know."
+            "LocalizeJP": "お祝いということで一杯。…分かった、分かったって。",
+            "LocalizeEN": "How about a drink to celebrate? ...I understand."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Battle",
             "VoiceClip": "Shigure_Battle_Victory_2",
-            "LocalizeJP": "頑張ったことだし いっぱい冗談だって",
-            "LocalizeEN": "I did my best, and I joked a lot"
+            "LocalizeJP": "頑張ったことだし 一杯。…冗談だって。",
+            "LocalizeEN": "I've done my best, so how about a drink? ...It's a joke."
         },
         {
             "CharacterId": 10055,
@@ -214,15 +214,15 @@
             "CharacterId": 10055,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shigure_ExSkill_2",
-            "LocalizeJP": "バレた なら仕方ない。",
+            "LocalizeJP": "バレたなら仕方ない。",
             "LocalizeEN": "It can't be helped if it's found out."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shigure_ExSkill_3",
-            "LocalizeJP": "このフラスコが気になる。",
-            "LocalizeEN": "I'm curious about this flask."
+            "LocalizeJP": "このフラスコが気になる？",
+            "LocalizeEN": "Curious about this flask?"
         },
         {
             "CharacterId": 10055,
@@ -249,21 +249,21 @@
             "CharacterId": 10055,
             "DialogCategory": "Growup",
             "VoiceClip": "Shigure_Growup_1",
-            "LocalizeJP": "ありがとう。先生 お礼に何かやっぱ 発酵させた方がいいかな。",
+            "LocalizeJP": "ありがとう先生。お礼に何かやっぱ 発酵させた方がいいかな。",
             "LocalizeEN": "thank you. Sensei I think it would be better to ferment something as a thank you."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Growup",
             "VoiceClip": "Shigure_Growup_2",
-            "LocalizeJP": "いつももらってばかりで悪いね。私も何か お返ししたいな。",
+            "LocalizeJP": "いつももらってばかりで悪いね。私も何かお返ししたいな。",
             "LocalizeEN": "It's bad that I always get it. I want something in return."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Growup",
             "VoiceClip": "Shigure_Growup_3",
-            "LocalizeJP": "こんなにいいの 嬉しいけど。",
+            "LocalizeJP": "こんなにいいの？嬉しいけど。",
             "LocalizeEN": "I'm glad it's this good."
         },
         {
@@ -291,15 +291,15 @@
             "CharacterId": 10055,
             "DialogCategory": "Relationship",
             "VoiceClip": "Shigure_Relationship_Up_3",
-            "LocalizeJP": "なんだかちょっといい気分 のどかには内緒だよ。",
-            "LocalizeEN": "I feel a little better."
+            "LocalizeJP": "なんだかちょっといい気分。ノドカには内緒だよ。",
+            "LocalizeEN": "I feel kind of good. Don't tell Nodoka."
         },
         {
             "CharacterId": 10055,
             "DialogCategory": "Relationship",
             "VoiceClip": "Shigure_Relationship_Up_4",
-            "LocalizeJP": "今度飲みながら話でもどうかな 水でも構わないよ。",
-            "LocalizeEN": "I don't mind if we talk while drinking next time."
+            "LocalizeJP": "今度飲みながら話でもどうかな？水でも構わないよ。",
+            "LocalizeEN": "How about we talk over drinks next time? Water is fine too."
         }
     ]
 }

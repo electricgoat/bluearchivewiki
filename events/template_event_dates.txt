@@ -3,9 +3,9 @@
 | Id = {{season['EventContentId']}}
 | Server = {{server}}
 | Category = Event
-| NameJP = JPNAME
-| NameEN = ENNAME
-| Image = 
+| NameJP = {{season['LocalizeName']['Jp']}}
+| NameEN = {{season['LocalizeName']['En']}}
+| Image = Event_Banner_{{season['OriginalEventContentId']}}_Jp.png
 | Start_date = {{season['EventContentOpenTime']}}
 | End_date = {{season['EventContentCloseTime']}}
 | Reward_exchange_start = {{season['EventContentOpenTime']}}

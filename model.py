@@ -313,7 +313,8 @@ class Skill(object):
             return {
                 slot: slot,
                 'Ex': 'EX',
-                'Extrapassive':'Sub'
+                'Extrapassive': 'Sub',
+                'Public': 'Normal'
             }[slot]
         
         def format_description(levels, text_en):
@@ -339,7 +340,7 @@ class Skill(object):
         if group[0]['AdditionalToolTipId'] != 0: 
             #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']}")
             for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
-                add_max_level = add_tooltip['ShowSkillSlot'].lower() == 'ex' and 5 or 10
+                add_max_level = (add_tooltip['ShowSkillSlot'].upper() == 'EX' or show_skill_slot == 'EX') and 5 or 10
                 additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
 
 

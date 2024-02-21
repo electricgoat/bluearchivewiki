@@ -39,21 +39,21 @@
             "CharacterId": 16008,
             "DialogCategory": "Tactic",
             "VoiceClip": "Fubuki_Tactic_In_1",
-            "LocalizeJP": "えぅ？どうして私がリーダー？",
+            "LocalizeJP": "え？どうして私がリーダー？",
             "LocalizeEN": "Me, leader? Why?"
         },
         {
             "CharacterId": 16008,
             "DialogCategory": "Tactic",
             "VoiceClip": "Fubuki_Tactic_In_2",
-            "LocalizeJP": "私が先頭に？マジで言ってる。",
+            "LocalizeJP": "え？私が先頭に？マジで言ってる。",
             "LocalizeEN": "Me at the front? Oh, you're serious."
         },
         {
             "CharacterId": 16008,
             "DialogCategory": "Tactic",
             "VoiceClip": "Fubuki_Tactic_Victory_1",
-            "LocalizeJP": "終わった。終わったよね？よっしゃ、帰ろう帰ろう。",
+            "LocalizeJP": "終わった？終わったよね？よっしゃ、帰ろ帰ろー。",
             "LocalizeEN": "It's over. It's over, isn't it? Let's head back."
         },
         {
@@ -74,7 +74,7 @@
             "CharacterId": 16008,
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_BuffSelf_1",
-            "LocalizeJP": "ここまでやる必要あるかな？",
+            "LocalizeJP": "はあ、ここまでやる必要あるかな？",
             "LocalizeEN": "Do we really need all this?"
         },
         {
@@ -82,7 +82,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_Covered_1",
             "LocalizeJP": "おっと。",
-            "LocalizeEN": "Don't mind me."
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16008,
@@ -103,7 +103,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_Damage_3",
             "LocalizeJP": "ああ、もう……",
-            "LocalizeEN": "Ah, come on..."
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16008,
@@ -144,7 +144,7 @@
             "CharacterId": 16008,
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_Recovery_1",
-            "LocalizeJP": "ありがとう！",
+            "LocalizeJP": "ああ、ありがとう。",
             "LocalizeEN": "Thank you."
         },
         {
@@ -165,7 +165,7 @@
             "CharacterId": 16008,
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_Shout_2",
-            "LocalizeJP": "一発で終わって。",
+            "LocalizeJP": "一発で終わって…。",
             "LocalizeEN": "Just be over in one shot."
         },
         {
@@ -179,14 +179,14 @@
             "CharacterId": 16008,
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_TacticalAction_1",
-            "LocalizeJP": "この区域のパトロールは終了ってことで、",
+            "LocalizeJP": "この区域のパトロールは終了ってことで。",
             "LocalizeEN": "Let's say we're done patrolling this area."
         },
         {
             "CharacterId": 16008,
             "DialogCategory": "Battle",
             "VoiceClip": "Fubuki_Battle_Victory_1",
-            "LocalizeJP": "働いた後のコーヒーとドーナツ、最高。",
+            "LocalizeJP": "働いた後のコーヒーとドーナッツ、最高。",
             "LocalizeEN": "Coffee and donuts after work are the best."
         },
         {
@@ -221,7 +221,7 @@
             "CharacterId": 16008,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_ExSkill_3",
-            "LocalizeJP": "ドーナツタイムってことで。",
+            "LocalizeJP": "ドーナッツタイムってことで。",
             "LocalizeEN": "It's donut time."
         },
         {
@@ -235,7 +235,7 @@
             "CharacterId": 16008,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_ExSkill_Level_2",
-            "LocalizeJP": "美味い。",
+            "LocalizeJP": "ハム、…、う～ん、ウマい。",
             "LocalizeEN": "Sweet."
         },
         {
@@ -270,21 +270,21 @@
             "CharacterId": 16008,
             "DialogCategory": "Growup",
             "VoiceClip": "Fubuki_Growup_4",
-            "LocalizeJP": "これ以上頑張るのは…んん、ドーナツとか余ってない？それさえあればなんとか。",
+            "LocalizeJP": "これ以上頑張るのは…うーん、ドーナッツとか余ってない？それさえあればなんとか。",
             "LocalizeEN": "If I have to work a little harder, well... am I short on donuts, now? If I had some I guess I could."
         },
         {
             "CharacterId": 16008,
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_Relationship_Up_1",
-            "LocalizeJP": "先生も私と一緒にサボる？",
+            "LocalizeJP": "へ、先生も私と一緒にサボる？",
             "LocalizeEN": "You want to slack off with me, Sensei?"
         },
         {
             "CharacterId": 16008,
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_Relationship_Up_2",
-            "LocalizeJP": "本当は休憩を邪魔されるのは嫌いなんだけど、先生なら別にいいや。",
+            "LocalizeJP": "本当は休憩を邪魔されるのは嫌いなんだけど…、ま、先生なら別にいいや。",
             "LocalizeEN": "I really don't like being interrupted during breaks. But if it's Sensei I guess I don't mind."
         },
         {
@@ -298,7 +298,7 @@
             "CharacterId": 16008,
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_Relationship_Up_4",
-            "LocalizeJP": "先生。その…えっと…とりあえずドーナツ食べる？",
+            "LocalizeJP": "先生。その…えっと…、あー、とりあえずドーナッツ食べる？",
             "LocalizeEN": "Sensei, um... well... anyway, do you want donuts?"
         }
     ]

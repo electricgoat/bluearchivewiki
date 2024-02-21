@@ -18,21 +18,21 @@
             "CharacterId": 10050,
             "DialogCategory": "Formation",
             "VoiceClip": "Kokona_Formation_Select",
-            "LocalizeJP": "どうかしましたか。",
+            "LocalizeJP": "あ、どうかしましたか？",
             "LocalizeEN": "Is something wrong?"
         },
         {
             "CharacterId": 10050,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Defeat_1",
-            "LocalizeJP": "次こそは。",
+            "LocalizeJP": "うわーん、次こそは。",
             "LocalizeEN": "Following what is."
         },
         {
             "CharacterId": 10050,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Defeat_2",
-            "LocalizeJP": "シュン姉さんに言いつけてやる！",
+            "LocalizeJP": "うわーん、シュン姉さんに言いつけてやる！",
             "LocalizeEN": ""
         },
         {
@@ -53,14 +53,14 @@
             "CharacterId": 10050,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Victory_1",
-            "LocalizeJP": "これくらい 楽勝です。",
+            "LocalizeJP": "ふふん、これくらい楽勝です。",
             "LocalizeEN": "It's such an easy win."
         },
         {
             "CharacterId": 10050,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Victory_2",
-            "LocalizeJP": "なんたってもう一人前ですから。",
+            "LocalizeJP": "なんたって、もう一人前ですから。",
             "LocalizeEN": "After all, I'm already the first person."
         },
         {
@@ -109,8 +109,8 @@
             "CharacterId": 10050,
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Defense_1",
-            "LocalizeJP": "それで全力ですか、未熟ですね。",
-            "LocalizeEN": "Are you doing everything you can, or are you inexperienced?"
+            "LocalizeJP": "それで全力ですか？未熟ですね。",
+            "LocalizeEN": "So are you doing your best? You are immature."
         },
         {
             "CharacterId": 10050,
@@ -151,7 +151,7 @@
             "CharacterId": 10050,
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Retire",
-            "LocalizeJP": "まだ大丈夫です。",
+            "LocalizeJP": "ま、まだ大丈夫です。",
             "LocalizeEN": "It's still okay."
         },
         {
@@ -165,14 +165,14 @@
             "CharacterId": 10050,
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Shout_2",
-            "LocalizeJP": "行きます。",
+            "LocalizeJP": "いきます。",
             "LocalizeEN": "going"
         },
         {
             "CharacterId": 10050,
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Shout_3",
-            "LocalizeJP": "逃しません。",
+            "LocalizeJP": "逃がしません。",
             "LocalizeEN": "I won't miss it."
         },
         {
@@ -193,7 +193,7 @@
             "CharacterId": 10050,
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Victory_2",
-            "LocalizeJP": "当然です これでも一人前の教訓ですから",
+            "LocalizeJP": "ふふん、当然です、これでも一人前の教官ですから。",
             "LocalizeEN": "Of course, this is a lesson for one person."
         },
         {
@@ -207,15 +207,15 @@
             "CharacterId": 10050,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_1",
-            "LocalizeJP": "さて、採点 しますよ。",
+            "LocalizeJP": "さて、採点しますよ。",
             "LocalizeEN": "Okay, I'll give you a score."
         },
         {
             "CharacterId": 10050,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_2",
-            "LocalizeJP": "今日の点数は",
-            "LocalizeEN": "today's score"
+            "LocalizeJP": "今日の点数はー。",
+            "LocalizeEN": "What will be your score today?"
         },
         {
             "CharacterId": 10050,
@@ -235,7 +235,7 @@
             "CharacterId": 10050,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_Level_2",
-            "LocalizeJP": "100点満点 花丸です。",
+            "LocalizeJP": "100点満点、花丸です。",
             "LocalizeEN": "It's Hanamaru with a perfect score of 100."
         },
         {
@@ -249,7 +249,7 @@
             "CharacterId": 10050,
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_1",
-            "LocalizeJP": "私はもう1人前ですが、同時に まだまだ成長期です。",
+            "LocalizeJP": "私はもう1人前ですが、同時にまだまだ成長期です。",
             "LocalizeEN": "I'm already a full-fledged person, but at the same time I'm still growing."
         },
         {
@@ -263,7 +263,7 @@
             "CharacterId": 10050,
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_3",
-            "LocalizeJP": "えっと その ありがとうございます",
+            "LocalizeJP": "えっと…その、ありがとうございます。",
             "LocalizeEN": "Um, thank you."
         },
         {

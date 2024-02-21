@@ -10,7 +10,7 @@ BlueArchiveData = collections.namedtuple(
     'skills', 'skills_localization','skill_additional_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
     'currencies','translated_currencies',
-    'items', #'translated_items',
+    'items',
     'equipment',
     'recipes', 'recipes_ingredients', 
     'favor_levels', 'favor_rewards', 
@@ -34,11 +34,6 @@ BlueArchiveData = collections.namedtuple(
     ]
 )
 
-# BlueArchiveTranslations = collections.namedtuple(
-#     'BlueArchiveTranslations',
-#     ['strategies']
-# )
-
 
 def load_data(path_primary, path_secondary, path_translation):
     return BlueArchiveData(
@@ -61,7 +56,6 @@ def load_data(path_primary, path_secondary, path_translation):
         translated_currencies=      load_currencies_translation(path_translation),
         items=                      load_generic(path_primary, 'ItemExcelTable.json'),
         equipment=                  load_generic(path_primary, 'EquipmentExcelTable.json'),
-        #translated_items=load_items_translation(path_translation),
         recipes=                    load_generic(path_primary, 'RecipeExcelTable.json'),
         recipes_ingredients=        load_generic(path_primary, 'RecipeIngredientExcelTable.json'),
         favor_levels=load_favor_levels(path_primary),
@@ -113,7 +107,7 @@ def load_data(path_primary, path_secondary, path_translation):
         raid_stage_season_reward=   load_generic(path_primary, 'RaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
         raid_ranking_reward=        load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         #world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
-        world_raid_stage=           load_file_grouped(os.path.join(path_primary, 'Excel', 'WorldRaidStageExcelTable.json'), 'WorldRaidBossGroupId'), #load_generic(path_primary, 'WorldRaidStageExcelTable.json'),
+        world_raid_stage=           load_file_grouped(os.path.join(path_primary, 'Excel', 'WorldRaidStageExcelTable.json'), 'WorldRaidBossGroupId'),
         world_raid_stage_reward=    load_world_raid_stage_reward(path_primary),
         world_raid_boss_group=      load_generic(path_primary, 'WorldRaidBossGroupExcelTable.json', key='WorldRaidBossGroupId'),
         eliminate_raid_stage=       load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidStageExcelTable.json'), 'RaidBossGroup'),
@@ -122,6 +116,8 @@ def load_data(path_primary, path_secondary, path_translation):
         eliminate_raid_ranking_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
         bgm=                        load_bgm(path_primary, path_translation),
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
+        #voice_common=               load_generic(path_primary, 'VoiceCommonExcelTable.json', key='VoiceEvent'),
+        #voice_logic_effect=         load_generic(path_primary, 'VoiceLogicEffectExcelTable.json', key='LogicEffectNameHash'),
         voice_spine=                load_generic(path_primary, 'VoiceSpineExcelTable.json', key='Id'),
         operator=                   load_generic(path_primary, 'OperatorExcelTable.json', key='UniqueId'),
         
@@ -141,11 +137,15 @@ def load_data(path_primary, path_secondary, path_translation):
 
 
 def load_generic(path, filename, key='Id'):
-    return load_file(os.path.join(path, 'Excel', filename), key)
+    #DB files take priority if they are present
+    file_path = os.path.join(path, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
+
+    return load_file(file_path, key)
 
 
-def load_generic_db(path, filename, key='Id'):
-    return load_file(os.path.join(path, 'DB', filename), key)
+# def load_generic_db(path, filename, key='Id'):
+#     return load_file(os.path.join(path, 'DB', filename), key)
 
 
 def load_file(file, key='Id'):
@@ -239,8 +239,6 @@ def load_favor_rewards(path):
 def load_currencies_translation(path):
     return load_file(os.path.join(path, 'Currencies.json'))
 
-# def load_items_translation(path):
-#     return load_file(os.path.join(path, 'Items.json'))
 
 def load_skills_translation(path):
     return load_file(os.path.join(path, 'Skills.json'), key='GroupId')
@@ -283,10 +281,14 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
     data = []
     data_aux = []
 
-    with open(os.path.join(path_primary, 'Excel', filename), encoding="utf8") as f:
+    file_path = os.path.join(path_primary, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path_primary, 'Excel', filename)
+    with open(file_path, encoding="utf8") as f:
         data_primary = json.load(f)['DataList']
 
-    with open(os.path.join(path_secondary, 'Excel', filename), encoding="utf8") as f:
+    file_path = os.path.join(path_secondary, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path_secondary, 'Excel', filename)
+    with open(file_path, encoding="utf8") as f:
         data_secondary = json.load(f)['DataList']
 
     for file in os.listdir(path_translation + '/audio/'):
