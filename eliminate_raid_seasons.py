@@ -35,6 +35,16 @@ SEASON_NOTES = {
     }
 }
 
+# Override per-season TOR armor type, this data has been altered in the client retroactively
+SEASON_TOR_DEF = {
+    'jp' : {
+        2:'HeavyArmor',
+        6:'Unarmed',
+    },
+    'gl' : {
+        2:'HeavyArmor',
+    }
+}
 
 
 def get_raid_boss_data(group):
@@ -93,10 +103,14 @@ def generate():
             boss_data = {}
             for group in boss_groups:
                 boss_data[group]= get_raid_boss_data(season[group])
-                for stage in boss_data[group]['stage']: 
-                    if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
-                        #print(f"TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']} {stage['IsOpen']}")
-                        season['challenge'] = stage['character']['ArmorType']
+
+                if season['SeasonId'] in SEASON_TOR_DEF[region]: season['challenge'] = SEASON_TOR_DEF[region][season['SeasonId']]
+                else:
+                    for stage in boss_data[group]['stage']: 
+                        if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
+                            #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
+                            season['challenge'] = stage['character']['ArmorType']
+                            break
 
 
 
