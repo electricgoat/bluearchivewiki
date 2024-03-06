@@ -18,28 +18,28 @@
             "CharacterId": 23000,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Airi_CommonSkill",
-            "LocalizeJP": "みんな！ファイトです！",
-            "LocalizeEN": "Everyone! Do your best!"
+            "LocalizeJP": "みんな、ファイトです！",
+            "LocalizeEN": "Good luck, everyone!"
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_ExSkill_1",
-            "LocalizeJP": "投げるの？！",
-            "LocalizeEN": "I have to throw it?!"
+            "LocalizeJP": "ふんふーん、ん？…え、投げるの？！",
+            "LocalizeEN": "Hmm, ...What, are you going to throw it? !"
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_ExSkill_2",
-            "LocalizeJP": "いただきま…う？えええ？！",
-            "LocalizeEN": "Thanks for the mea... uh? eeeeh!?"
+            "LocalizeJP": "いただきまー…う？え、ええ？！",
+            "LocalizeEN": "I'll have it...huh? Huh, yeah? !"
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "あーん、あ、そ、そんなぁ…。",
             "LocalizeEN": ""
         },
         {
@@ -53,7 +53,7 @@
             "CharacterId": 23000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ひ、いけぇ…。",
             "LocalizeEN": ""
         },
         {
@@ -74,29 +74,29 @@
             "CharacterId": 23000,
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_Growup_2",
-            "LocalizeJP": "もっと私に頼ってもいいんですよ。",
-            "LocalizeEN": "You can rely on me more."
+            "LocalizeJP": "えへへっ、もっと私に、頼ってもいいんですよ～。",
+            "LocalizeEN": "Heehee, you can rely on me a little more."
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_Growup_3",
-            "LocalizeJP": "強くなりました。",
+            "LocalizeJP": "じゃーん、強くなりました。",
             "LocalizeEN": "I got stronger."
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_Growup_4",
-            "LocalizeJP": "いつもありがとうございます。先生",
+            "LocalizeJP": "いつもありがとうございます。先生。ふふ。",
             "LocalizeEN": "I am always grateful for your help. Sensei."
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_Relationship_Up_1",
-            "LocalizeJP": "少し照れちゃいますね、先生。",
-            "LocalizeEN": "I'm a little embarrassed, Sensei."
+            "LocalizeJP": "えへへっ、少し\n照れちゃいますね、先生。",
+            "LocalizeEN": "Heehee, I'm a little embarrassed, Sensei."
         },
         {
             "CharacterId": 23000,
@@ -109,14 +109,14 @@
             "CharacterId": 23000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_Relationship_Up_3",
-            "LocalizeJP": "先生、今日も明日も明後日もずっと私と一緒にいてくれますよね？",
+            "LocalizeJP": "先生、今日も明日も明後日も、ずっと私と一緒にいてくれますよね？",
             "LocalizeEN": "Sensei, today, tomorrow, and the day after tomorrow, you will always be with me, right?"
         },
         {
             "CharacterId": 23000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_Relationship_Up_4",
-            "LocalizeJP": "スイーツもいいですけど、やっぱり先生と一緒にいる方が好きです",
+            "LocalizeJP": "スイーツもいいですけど、やっぱり先生と一緒にいる方が好きです。",
             "LocalizeEN": "Sweets are nice, but I still prefer being with Sensei."
         }
     ]

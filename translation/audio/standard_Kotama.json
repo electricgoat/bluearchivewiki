@@ -11,8 +11,8 @@
             "CharacterId": 26001,
             "DialogCategory": "Formation",
             "VoiceClip": "Kotama_Formation_In_2",
-            "LocalizeJP": "適切な選択だと考え、",
-            "LocalizeEN": "think it's the right choice"
+            "LocalizeJP": "適切な選択だと考えます。",
+            "LocalizeEN": "I think it's the right choice"
         },
         {
             "CharacterId": 26001,
@@ -25,29 +25,29 @@
             "CharacterId": 26001,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotama_Battle_In_2",
-            "LocalizeJP": "作戦開始 敵を探知します。",
-            "LocalizeEN": "Operation Start Detect the enemy."
+            "LocalizeJP": "作戦開始。敵を探知します。",
+            "LocalizeEN": "Operation start. Detecting the enemy."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kotama_CommonSkill",
-            "LocalizeJP": "あなたの狙いは全て把握しました。",
+            "LocalizeJP": "あなたの狙いは、全て把握しました。",
             "LocalizeEN": "I understand your aim."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotama_ExSkill_1",
-            "LocalizeJP": "防除 開始。",
-            "LocalizeEN": "Control started."
+            "LocalizeJP": "傍受開始。",
+            "LocalizeEN": "Interception started."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotama_ExSkill_2",
-            "LocalizeJP": "坊主を始め",
-            "LocalizeEN": "starting with the monk"
+            "LocalizeJP": "…し。傍受を始めます。",
+            "LocalizeEN": "…be quiet. Start intercepting."
         },
         {
             "CharacterId": 26001,
@@ -60,8 +60,8 @@
             "CharacterId": 26001,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotama_ExSkill_Level_1",
-            "LocalizeJP": "キャ。",
-            "LocalizeEN": "Ca."
+            "LocalizeJP": "キャッチ。",
+            "LocalizeEN": "Catch."
         },
         {
             "CharacterId": 26001,
@@ -74,64 +74,64 @@
             "CharacterId": 26001,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotama_ExSkill_Level_3",
-            "LocalizeJP": "エンカウント リンクします。",
+            "LocalizeJP": "エンカウント、…リンクします。",
             "LocalizeEN": "Encounter link."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotama_Growup_1",
-            "LocalizeJP": "この調和された力はまるで洗練された オーケストラのようですね",
+            "LocalizeJP": "この調和された力は…、まるで洗練されたオーケストラのようですね。",
             "LocalizeEN": "This harmonious force is like a sophisticated orchestra."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotama_Growup_2",
-            "LocalizeJP": "これで私はもっと強くなりました、試してもらっても構いません。",
+            "LocalizeJP": "これで私はもっと強くなりました。試してもらっても構いません。",
             "LocalizeEN": "Now I'm stronger, you can try it."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotama_Growup_3",
-            "LocalizeJP": "この滑らかな旋律 もっと聞きたい。",
+            "LocalizeJP": "この滑らかな旋律…、もっと聞きたいです。",
             "LocalizeEN": "I want to hear more of this smooth melody."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotama_Growup_4",
-            "LocalizeJP": "これでもっとよく聞こえます 先生の心拍の音まで。",
-            "LocalizeEN": "Now you can hear better even the sound of the teacher's heartbeat."
+            "LocalizeJP": "これでもっとよく聞こえます。…先生の心拍の音まで。",
+            "LocalizeEN": "Now I can hear better, even including the sound of Sensei's heartbeat."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotama_Relationship_Up_1",
-            "LocalizeJP": "心拍数上昇 血流 加速 体温上昇、原因は不明。",
+            "LocalizeJP": "心拍数上昇、血流加速、体温上昇、原因は…不明。",
             "LocalizeEN": "Increased heart rate, increased blood flow, increased body temperature, cause unknown."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotama_Relationship_Up_2",
-            "LocalizeJP": "今まで先生と交わした全ての会話は録音してあります もしかして聞きたいですか",
-            "LocalizeEN": "I've recorded all the conversations I've had with the teacher so far, do you want to hear them?"
+            "LocalizeJP": "今まで先生と交わした全ての会話は録音してあります。もしかして…、聞きたいですか？",
+            "LocalizeEN": "All conversations I have had with Sensei so far have been recorded. Maybe...do you want to hear it?"
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotama_Relationship_Up_3",
             "LocalizeJP": "先生の声は私にとって音楽と同じです。私の心を高揚させますから。",
-            "LocalizeEN": "A teacher's voice is like music to me. because it lifts my spirits."
+            "LocalizeEN": "Sensei's voice is like music to me because it lifts my spirits."
         },
         {
             "CharacterId": 26001,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotama_Relationship_Up_4",
-            "LocalizeJP": "革新しました 先生は私にとって特別です。",
-            "LocalizeEN": "Innovated The teacher is special to me."
+            "LocalizeJP": "…確信しました。先生は私にとって特別です。",
+            "LocalizeEN": "Confirmed. Sensei is special to me."
         }
     ]
 }

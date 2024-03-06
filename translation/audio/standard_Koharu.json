@@ -4,7 +4,7 @@
             "CharacterId": 10020,
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふーん…。",
             "LocalizeEN": ""
         },
         {
@@ -18,56 +18,56 @@
             "CharacterId": 10020,
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_Formation_Select",
-            "LocalizeJP": "何するつもり。",
-            "LocalizeEN": "what are you gonna do"
+            "LocalizeJP": "な！…何するつもり？",
+            "LocalizeEN": "What! ...What are you going to do?"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Defeat_1",
-            "LocalizeJP": "負けちゃった。",
+            "LocalizeJP": "う、うう…。負けちゃった。",
             "LocalizeEN": "I lost."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Defeat_2",
-            "LocalizeJP": "ごめんなさい。",
+            "LocalizeJP": "う…、ごめんなさい。",
             "LocalizeEN": "sorry."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_In_1",
-            "LocalizeJP": "これぐらいなら、",
+            "LocalizeJP": "こ、これぐらいなら。",
             "LocalizeEN": "If it's about this"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_In_2",
-            "LocalizeJP": "私にだってできるってば。",
+            "LocalizeJP": "わ、私にだってできるってば！",
             "LocalizeEN": "Even I can do it."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Victory_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "勝った！",
+            "LocalizeEN": "won!"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Victory_2",
-            "LocalizeJP": "見たこれが私の実力よ。",
-            "LocalizeEN": "You see, this is my strength."
+            "LocalizeJP": "見た？これが私の実力よ。",
+            "LocalizeEN": "saw? This is my ability."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "OK。",
             "LocalizeEN": ""
         },
         {
@@ -81,8 +81,8 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Covered_1",
-            "LocalizeJP": "生物 確保",
-            "LocalizeEN": "securing"
+            "LocalizeJP": "遮蔽物確保！",
+            "LocalizeEN": "We have secured cover!"
         },
         {
             "CharacterId": 10020,
@@ -95,7 +95,7 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Damage_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "痛い…。",
             "LocalizeEN": ""
         },
         {
@@ -109,7 +109,7 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Defense_1",
-            "LocalizeJP": "これぐらいなら、",
+            "LocalizeJP": "こ、これぐらいなら！",
             "LocalizeEN": "If it's about this"
         },
         {
@@ -123,8 +123,8 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_In_2",
-            "LocalizeJP": "出。",
-            "LocalizeEN": "Get out."
+            "LocalizeJP": "出発！",
+            "LocalizeEN": "departure!"
         },
         {
             "CharacterId": 10020,
@@ -137,21 +137,21 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Move_2",
-            "LocalizeJP": "私の活躍 のおかげよ。",
+            "LocalizeJP": "ほら、私の活躍のおかげよ。",
             "LocalizeEN": "Thanks to my efforts."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Recovery_1",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "まあ…、ありがとう。",
             "LocalizeEN": "thank you."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Retire",
-            "LocalizeJP": "まだ100%の実力を見せてないのに。",
+            "LocalizeJP": "うう…、まだ100%の実力を見せてないのに。",
             "LocalizeEN": "Even though I haven't shown my 100% ability yet."
         },
         {
@@ -186,29 +186,29 @@
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_TSA_1",
-            "LocalizeJP": "またまた 載ってたのとは違うけどしょうがない",
-            "LocalizeEN": "It's different from what was posted again, but it can't be helped"
+            "LocalizeJP": "元々乗ってたのとは違うけど、しょうがない。",
+            "LocalizeEN": "It's different from what I was originally riding, but I can't help it."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_TSA_2",
-            "LocalizeJP": "これも そんなに悪くないから行くわよ",
-            "LocalizeEN": "It's not that bad either, so let's go"
+            "LocalizeJP": "これもそんなに悪くないから…、行くわよ！",
+            "LocalizeEN": "It's not that bad either... so let's go!"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Victory_1",
-            "LocalizeJP": "これぐらい 大したことじゃないし。",
+            "LocalizeJP": "これぐらい…、大したことじゃないし。",
             "LocalizeEN": "It's not that big of a deal."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Victory_2",
-            "LocalizeJP": "これでいいのよね。",
-            "LocalizeEN": "This is fine."
+            "LocalizeJP": "これで…、いいのよね。",
+            "LocalizeEN": "This is good, right?"
         },
         {
             "CharacterId": 10020,
@@ -221,7 +221,7 @@
             "CharacterId": 10020,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "えーっと…、あれ？",
             "LocalizeEN": ""
         },
         {
@@ -242,78 +242,78 @@
             "CharacterId": 10020,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_1",
-            "LocalizeJP": "これは募集したやつだから。",
-            "LocalizeEN": "Because this is the one I recruited for."
+            "LocalizeJP": "こ、これは没収したやつだから！",
+            "LocalizeEN": "But,this is the one I confiscated!"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_2",
-            "LocalizeJP": "私のじゃないから誤解しないで。",
+            "LocalizeJP": "私のじゃないから、誤解しないで。",
             "LocalizeEN": "It's not mine, so don't get me wrong."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_3",
-            "LocalizeJP": "何で持ってるのかってうるさい。",
+            "LocalizeJP": "何で持ってるのかって…、う、うるさい。",
             "LocalizeEN": "What are you holding?"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_1",
-            "LocalizeJP": "ここまでしてくれなくてもいいのに。",
+            "LocalizeJP": "こ…、ここまでしてくれなくてもいいのに。",
             "LocalizeEN": "You don't have to go this far."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_2",
-            "LocalizeJP": "成長を見守ってるったなんて なんかやらしい。",
-            "LocalizeEN": "It's kind of disgusting to watch her grow."
+            "LocalizeJP": "成長を見守ってる、だなんて…、なんかやらしい。",
+            "LocalizeEN": "It's kind of naughty to know that I'm watching over her growth."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_3",
-            "LocalizeJP": "ほら、私も こんなに成長できるのよ。",
+            "LocalizeJP": "ほら、私もこんなに成長できるのよ。",
             "LocalizeEN": "See, I can grow like this too."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_4",
-            "LocalizeJP": "悪くない結果でしょ。",
+            "LocalizeJP": "ふふ、悪くない結果でしょ。",
             "LocalizeEN": "Not a bad result."
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_1",
-            "LocalizeJP": "私はまだまだできないことだらけだけど でもこれから努力するから",
+            "LocalizeJP": "私はまだまだできないことだらけだけど…、でも、これから努力するから。",
             "LocalizeEN": "There's still a lot I can't do, but I'll try from now on"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_2",
-            "LocalizeJP": "いつもそうやってからかってねま応援してくれてありがとう",
+            "LocalizeJP": "もう、いつもそうやってからかって。…でも、応援してくれてありがとう。",
             "LocalizeEN": "Thank you for always teasing me like that and supporting me"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_3",
-            "LocalizeJP": "エッチなのはダメだけどやっぱりダメ",
-            "LocalizeEN": "It's no good to be naughty, but it's no good after all"
+            "LocalizeJP": "エッチなのはダメ…。だけど、えっと…、や、やっぱりダメ！",
+            "LocalizeEN": "It's no good being naughty... But, uh... no, no!"
         },
         {
             "CharacterId": 10020,
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_4",
-            "LocalizeJP": "ただ、生徒だから先生と仲がいいだけで他の意味はないんだから。",
-            "LocalizeEN": "However, because I am a student, I am on good terms with my teacher and there is no other meaning."
+            "LocalizeJP": "ただ、生徒だから先生と仲がいいだけで、他の意味はないんだから。…うん。",
+            "LocalizeEN": "I'm in good terms with Sensei simply because I'm a student. It doesn't mean anything else."
         }
     ]
 }

@@ -11,7 +11,7 @@
             "CharacterId": 10048,
             "DialogCategory": "Formation",
             "VoiceClip": "Saori_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ああ。",
             "LocalizeEN": "Yes."
         },
         {
@@ -25,14 +25,14 @@
             "CharacterId": 10048,
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_Tactic_Defeat_1",
-            "LocalizeJP": "またこうなるの。",
-            "LocalizeEN": "It will be end like this again?"
+            "LocalizeJP": "また…、こうなるのか。",
+            "LocalizeEN": "Again...will this happen?"
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_Tactic_Defeat_2",
-            "LocalizeJP": "交代する。",
+            "LocalizeJP": "くっ、交代する。",
             "LocalizeEN": "take turns."
         },
         {
@@ -46,8 +46,8 @@
             "CharacterId": 10048,
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_Tactic_In_2",
-            "LocalizeJP": "了解。大将 始める。",
-            "LocalizeEN": "roger that. General start."
+            "LocalizeJP": "了解。対処を始める。",
+            "LocalizeEN": "roger that. Start dealing with it."
         },
         {
             "CharacterId": 10048,
@@ -81,7 +81,7 @@
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Covered_1",
-            "LocalizeJP": "遮蔽物 確保",
+            "LocalizeJP": "遮蔽物、確保。",
             "LocalizeEN": "Securing a shield"
         },
         {
@@ -109,14 +109,14 @@
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Defense_1",
-            "LocalizeJP": "の意味だ。",
-            "LocalizeEN": "Meaningless."
+            "LocalizeJP": "無意味だ。",
+            "LocalizeEN": "It's meaningless."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_In_1",
-            "LocalizeJP": "なるほど ここ",
+            "LocalizeJP": "なるほど、ここか。",
             "LocalizeEN": "I see, here."
         },
         {
@@ -130,7 +130,7 @@
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Move_1",
-            "LocalizeJP": "閉塞",
+            "LocalizeJP": "急ぐぞ。",
             "LocalizeEN": "Let's hurry."
         },
         {
@@ -144,14 +144,14 @@
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Recovery_1",
-            "LocalizeJP": "死へ感謝しよう。",
-            "LocalizeEN": "I appreciate the support."
+            "LocalizeJP": "支援、感謝しよう。",
+            "LocalizeEN": "Thank you for your support."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Retire",
-            "LocalizeJP": "またこうなるとは 爪が甘いな。",
+            "LocalizeJP": "またこうなるとは…、爪が甘いな。",
             "LocalizeEN": "To end like this again... I'm losing my edge."
         },
         {
@@ -186,8 +186,8 @@
             "CharacterId": 10048,
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_Battle_Victory_1",
-            "LocalizeJP": "簡単だったな、次の任務は",
-            "LocalizeEN": "That was easy, next mission."
+            "LocalizeJP": "簡単だったな。…次の任務は。",
+            "LocalizeEN": "That was easy. ...Next mission?"
         },
         {
             "CharacterId": 10048,
@@ -207,22 +207,22 @@
             "CharacterId": 10048,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_ExSkill_1",
-            "LocalizeJP": "ヴァニタス",
+            "LocalizeJP": "",
             "LocalizeEN": "Vanitas Vanitatum, et Omnia Vanitas."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_ExSkill_2",
-            "LocalizeJP": "バーニタス ヴァニタ 頭",
+            "LocalizeJP": "",
             "LocalizeEN": "Vanitas Vanitatum."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_ExSkill_3",
-            "LocalizeJP": "LUNA SEA 全てはただ虚しいだけだ。",
-            "LocalizeEN": "In vain, everything is in vain."
+            "LocalizeJP": "虚しい、全てはただ虚しいだけだ。",
+            "LocalizeEN": "It's Vain, everything is just Vain."
         },
         {
             "CharacterId": 10048,
@@ -242,7 +242,7 @@
             "CharacterId": 10048,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_ExSkill_Level_3",
-            "LocalizeJP": "そのことを面白い。",
+            "LocalizeJP": "そのことを思い知れ。",
             "LocalizeEN": "Interesting that."
         },
         {
@@ -263,42 +263,42 @@
             "CharacterId": 10048,
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_Growup_3",
-            "LocalizeJP": "もっと強くならないと強さがなければ何も守れない。",
+            "LocalizeJP": "もっと強くならないと…。強さがなければ、何も守れない。",
             "LocalizeEN": "If you don't become stronger... if you're not strong, you can't protect anything."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_Growup_4",
-            "LocalizeJP": "まだ足りないもっともっと強くならなければ",
+            "LocalizeJP": "まだ足りない。もっと…、もっと強くならなければ。",
             "LocalizeEN": "It's still not enough. I must- I must become stronger."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_Relationship_Up_1",
-            "LocalizeJP": "お前は私のことを信じているのか。",
+            "LocalizeJP": "お前は…、私のことを信じているのか。",
             "LocalizeEN": "Do you... believe in me?"
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_Relationship_Up_2",
-            "LocalizeJP": "その感謝はしている だが、私は嫌なんでもない忘れてくれ。",
-            "LocalizeEN": "I appreciate that, but I... no, it's nothing. Forget about it."
+            "LocalizeJP": "その…、感謝はしている。だが私は、…いや、なんでもない。忘れてくれ。",
+            "LocalizeEN": "Well...I'm grateful. But I...no, it's nothing. Forget it."
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_Relationship_Up_3",
-            "LocalizeJP": "私がお前に感謝をするとでも、",
-            "LocalizeEN": "Even if I thank you"
+            "LocalizeJP": "私がお前に…、感謝をするとでも？",
+            "LocalizeEN": "Do you think I'll thank you?"
         },
         {
             "CharacterId": 10048,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_Relationship_Up_4",
-            "LocalizeJP": "私を見捨てる気はないということか。",
+            "LocalizeJP": "私を見捨てる気はない…、ということか。",
             "LocalizeEN": "Does that mean you don't intend to abandon me?"
         }
     ]

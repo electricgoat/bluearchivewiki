@@ -18,14 +18,14 @@
             "CharacterId": 13007,
             "DialogCategory": "Formation",
             "VoiceClip": "Junko_Formation_Select",
-            "LocalizeJP": "話して。",
+            "LocalizeJP": "は、離して！",
             "LocalizeEN": "talk to me."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Tactic",
             "VoiceClip": "Junko_Tactic_Defeat_1",
-            "LocalizeJP": "悔しい。",
+            "LocalizeJP": "うえーん！悔しい。",
             "LocalizeEN": "regrettable."
         },
         {
@@ -46,15 +46,15 @@
             "CharacterId": 13007,
             "DialogCategory": "Tactic",
             "VoiceClip": "Junko_Tactic_In_2",
-            "LocalizeJP": "勝てば 美味しいものが食べられる。",
+            "LocalizeJP": "勝てば美味しいものが食べられる。",
             "LocalizeEN": "If you win, you can eat delicious food."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Tactic",
             "VoiceClip": "Junko_Tactic_Victory_1",
-            "LocalizeJP": "完璧な勝利でしょ。",
-            "LocalizeEN": "A perfect win."
+            "LocalizeJP": "どう？完璧な勝利でしょ。",
+            "LocalizeEN": "What do you think? It's a perfect victory."
         },
         {
             "CharacterId": 13007,
@@ -67,15 +67,15 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Buffed_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "うん、よし。",
+            "LocalizeEN": "Oh,yes."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_BuffSelf_1",
-            "LocalizeJP": "よ。",
-            "LocalizeEN": "world."
+            "LocalizeJP": "よーし。",
+            "LocalizeEN": "Yes."
         },
         {
             "CharacterId": 13007,
@@ -88,7 +88,7 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Damage_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "痛い。",
             "LocalizeEN": ""
         },
         {
@@ -102,14 +102,14 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Damage_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "いたっ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Defense_1",
-            "LocalizeJP": "この程度。",
+            "LocalizeJP": "この程度？",
             "LocalizeEN": "This degree."
         },
         {
@@ -130,7 +130,7 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Move_1",
-            "LocalizeJP": "お腹空いてきた。",
+            "LocalizeJP": "はぁ、お腹空いてきた。",
             "LocalizeEN": "I'm hungry."
         },
         {
@@ -144,7 +144,7 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Recovery_1",
-            "LocalizeJP": "サンキューこの恩は返すよ",
+            "LocalizeJP": "サンキュー、この恩は返すよ。",
             "LocalizeEN": "Thank you"
         },
         {
@@ -165,7 +165,7 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Shout_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "くらえ。",
             "LocalizeEN": ""
         },
         {
@@ -186,15 +186,15 @@
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Victory_1",
-            "LocalizeJP": "それじゃあ 食べてみ。",
-            "LocalizeEN": "Eat it then."
+            "LocalizeJP": "へへ、それじゃあ食べてみ…。え！な、なんで？",
+            "LocalizeEN": "Well then, let's eat it... Wow! W-why?"
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Battle",
             "VoiceClip": "Junko_Battle_Victory_2",
-            "LocalizeJP": "私の最後の",
-            "LocalizeEN": "my last"
+            "LocalizeJP": "じゃーん。私の最後の…。ええ！？",
+            "LocalizeEN": "Shazam. My last... What! ?"
         },
         {
             "CharacterId": 13007,
@@ -207,35 +207,35 @@
             "CharacterId": 13007,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Junko_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふふーん。え？ああん！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Junko_ExSkill_2",
-            "LocalizeJP": "お団子 お団子",
-            "LocalizeEN": "dumpling dumpling"
+            "LocalizeJP": "お団子お団子～。え！",
+            "LocalizeEN": "Dango Dango. What!"
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Junko_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "えへへ、わ！ああもう！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Junko_ExSkill_Level_1",
-            "LocalizeJP": "まだ 味見 もしてないのに。",
+            "LocalizeJP": "まだ味見もしてないのに。",
             "LocalizeEN": "I haven't tasted it yet."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Junko_ExSkill_Level_2",
-            "LocalizeJP": "この野郎。",
+            "LocalizeJP": "この野郎！",
             "LocalizeEN": "You bastard."
         },
         {
@@ -249,57 +249,57 @@
             "CharacterId": 13007,
             "DialogCategory": "Growup",
             "VoiceClip": "Junko_Growup_1",
-            "LocalizeJP": "小さくないから まだ成長期でこれから大きくなるの。",
+            "LocalizeJP": "ち、小さくないから。まだ成長期でこれから大きくなるの。",
             "LocalizeEN": "It's not small, so it's still growing and it's going to get bigger."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Growup",
             "VoiceClip": "Junko_Growup_2",
-            "LocalizeJP": "よくわからないけどちょっと強くなった気がする",
+            "LocalizeJP": "よくわからないけどちょっと強くなった気がする。",
             "LocalizeEN": "I don't know, but I feel a little stronger"
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Growup",
             "VoiceClip": "Junko_Growup_3",
-            "LocalizeJP": "いっぱい食べていっぱい 強くなってそれでいっぱい いろんなところに行こうね 先生",
+            "LocalizeJP": "いっぱい食べて、いっぱい強くなって。それでいっぱいいろんなところに行こうね、先生。",
             "LocalizeEN": "Eat a lot, get stronger, get stronger Let's go to various places, Sensei"
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Growup",
             "VoiceClip": "Junko_Growup_4",
-            "LocalizeJP": "まだまだ大丈夫 いくらでも食べられそう。",
+            "LocalizeJP": "まだまだ大丈夫。いくらでも食べられそう。",
             "LocalizeEN": "It's still okay I think I can eat as much as I want."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Relationship",
             "VoiceClip": "Junko_Relationship_Up_1",
-            "LocalizeJP": "食べ物を奢ってくれるからって別に好きになるとかじゃあ 本当だって",
+            "LocalizeJP": "食べ物を奢ってくれるからって別に好きになるとかじゃあ…。本当だって。",
             "LocalizeEN": "It's true that you'll fall in love with me just because you treat me to food"
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Relationship",
             "VoiceClip": "Junko_Relationship_Up_2",
-            "LocalizeJP": "また美味しいものをおごってくれるなんて 先生はいい人だね。",
-            "LocalizeEN": "The teacher is a good person to buy you something delicious again."
+            "LocalizeJP": "また美味しいものをおごってくれるなんて。先生はいい人だね。",
+            "LocalizeEN": "Sensei is buying delicious things again, what a great person."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Relationship",
             "VoiceClip": "Junko_Relationship_Up_3",
-            "LocalizeJP": "可愛いって言われるのも嫌いじゃないけど、何でもない。",
+            "LocalizeJP": "可愛いって言われるのも嫌いじゃないけど…。な、何でもない。",
             "LocalizeEN": "I don't mind being called cute, but it's nothing."
         },
         {
             "CharacterId": 13007,
             "DialogCategory": "Relationship",
             "VoiceClip": "Junko_Relationship_Up_4",
-            "LocalizeJP": "必要な時は 私を呼んでね、先生のことならいつでも手伝うから。",
-            "LocalizeEN": "Call me when you need it, I'll always help you with your teacher."
+            "LocalizeJP": "必要な時は私を呼んでね。先生のことならいつでも手伝うから。",
+            "LocalizeEN": "Call me when you need me. I'll always help you, Sensei."
         }
     ]
 }

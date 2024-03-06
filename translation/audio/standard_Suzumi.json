@@ -4,7 +4,7 @@
             "CharacterId": 16003,
             "DialogCategory": "Formation",
             "VoiceClip": "Suzumi_Formation_In_1",
-            "LocalizeJP": "次のパトロール任務ですか。",
+            "LocalizeJP": "次のパトロール任務ですか？",
             "LocalizeEN": "Your next patrol mission?"
         },
         {
@@ -25,14 +25,14 @@
             "CharacterId": 16003,
             "DialogCategory": "Tactic",
             "VoiceClip": "Suzumi_Tactic_Defeat_1",
-            "LocalizeJP": "油断しました。",
+            "LocalizeJP": "…！油断しました。",
             "LocalizeEN": "I let my guard down."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Tactic",
             "VoiceClip": "Suzumi_Tactic_Defeat_2",
-            "LocalizeJP": "退却を要請します。",
+            "LocalizeJP": "退却を…、要請します。",
             "LocalizeEN": "request a retreat."
         },
         {
@@ -46,7 +46,7 @@
             "CharacterId": 16003,
             "DialogCategory": "Tactic",
             "VoiceClip": "Suzumi_Tactic_In_2",
-            "LocalizeJP": "いつになったらこの活動も終わるのやら。",
+            "LocalizeJP": "ハァ…、いつになったらこの活動も終わるのやら。",
             "LocalizeEN": "When will this activity end?"
         },
         {
@@ -60,7 +60,7 @@
             "CharacterId": 16003,
             "DialogCategory": "Tactic",
             "VoiceClip": "Suzumi_Tactic_Victory_2",
-            "LocalizeJP": "この地域はもう安全です 皆さんお疲れ様でした。",
+            "LocalizeJP": "この地域はもう安全です。皆さんお疲れ様でした。",
             "LocalizeEN": "This area is now safe. Thank you all for your hard work."
         },
         {
@@ -74,14 +74,14 @@
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_BuffSelf_1",
-            "LocalizeJP": "行き",
+            "LocalizeJP": "行きます！",
             "LocalizeEN": "going"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_Covered_1",
-            "LocalizeJP": "隠れ。",
+            "LocalizeJP": "隠れます。",
             "LocalizeEN": "hidden."
         },
         {
@@ -95,7 +95,7 @@
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_Damage_2",
-            "LocalizeJP": "そんな。",
+            "LocalizeJP": "そんな…。",
             "LocalizeEN": "Such."
         },
         {
@@ -109,21 +109,21 @@
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_Defense_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "無駄です。",
+            "LocalizeEN": "It is a waste."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_In_1",
-            "LocalizeJP": "これより 作戦区域へ入ります。",
+            "LocalizeJP": "これより、作戦区域へ入ります。",
             "LocalizeEN": "I'm entering the operation area."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_In_2",
-            "LocalizeJP": "皆さん 警戒しつつ 注意を怠らないように突撃。",
+            "LocalizeJP": "皆さん、警戒しつつ 注意を怠らないように…、突撃。",
             "LocalizeEN": "Everyone, be vigilant and charge with caution."
         },
         {
@@ -151,7 +151,7 @@
             "CharacterId": 16003,
             "DialogCategory": "Battle",
             "VoiceClip": "Suzumi_Battle_Retire",
-            "LocalizeJP": "遅すぎた。",
+            "LocalizeJP": "遅すぎたか。",
             "LocalizeEN": "it was too late."
         },
         {
@@ -228,42 +228,42 @@
             "CharacterId": 16003,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Suzumi_ExSkill_Level_1",
-            "LocalizeJP": "今",
+            "LocalizeJP": "今です！",
             "LocalizeEN": "now"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Suzumi_ExSkill_Level_2",
-            "LocalizeJP": "閃光弾 投擲",
+            "LocalizeJP": "閃光弾、投擲。",
             "LocalizeEN": "flash shot throw"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Suzumi_ExSkill_Level_3",
-            "LocalizeJP": "前方へ 先行団",
-            "LocalizeEN": "to the front"
+            "LocalizeJP": "前方へ閃光弾を。",
+            "LocalizeEN": "Fire a flashbang in front."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Growup",
             "VoiceClip": "Suzumi_Growup_1",
-            "LocalizeJP": "これならパトロールの役に立てそうです。",
+            "LocalizeJP": "これなら…、パトロールの役に立てそうです。",
             "LocalizeEN": "This would be useful for patrols."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Growup",
             "VoiceClip": "Suzumi_Growup_2",
-            "LocalizeJP": "悪くないですね。",
+            "LocalizeJP": "ふむ、悪くないですね。",
             "LocalizeEN": "Not bad."
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Growup",
             "VoiceClip": "Suzumi_Growup_3",
-            "LocalizeJP": "いい感じ。",
+            "LocalizeJP": "いい感じです。",
             "LocalizeEN": "Good vibes."
         },
         {
@@ -277,28 +277,28 @@
             "CharacterId": 16003,
             "DialogCategory": "Relationship",
             "VoiceClip": "Suzumi_Relationship_Up_1",
-            "LocalizeJP": "いつも頼りになります ありがとうございます 先生",
+            "LocalizeJP": "いつも頼りになります。ありがとうございます、先生。",
             "LocalizeEN": "Thank you very much, teacher"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Relationship",
             "VoiceClip": "Suzumi_Relationship_Up_2",
-            "LocalizeJP": "先生と一緒のパトロールはいつもよりも短く感じます、何ででしょうか。",
-            "LocalizeEN": "The patrol with the teacher feels shorter than usual, what is it?"
+            "LocalizeJP": "先生と一緒のパトロールは、いつもよりも短く感じます。何ででしょうか。",
+            "LocalizeEN": "The patrol with the teacher feels shorter than usual. Why?"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Relationship",
             "VoiceClip": "Suzumi_Relationship_Up_3",
-            "LocalizeJP": "こういうのは 幸せと言うんでしょうか パトロールを終えた時の高揚感とはまた違いますね",
+            "LocalizeJP": "こういうのは幸せと言うんでしょうか。パトロールを終えた時の高揚感とはまた違いますね。",
             "LocalizeEN": "Is this what you call happiness?"
         },
         {
             "CharacterId": 16003,
             "DialogCategory": "Relationship",
             "VoiceClip": "Suzumi_Relationship_Up_4",
-            "LocalizeJP": "先生これからもずっと私と一緒にいてほしいです",
+            "LocalizeJP": "先生、これからもずっと私と一緒にいてほしいです。",
             "LocalizeEN": "Sensei, I want you to stay with me forever."
         }
     ]

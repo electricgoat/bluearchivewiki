@@ -4,15 +4,15 @@
             "CharacterId": 10015,
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_1",
-            "LocalizeJP": "アリスパーティーに合流します。",
-            "LocalizeEN": "Aris joins the party."
+            "LocalizeJP": "アリス、パーティーに合流します。",
+            "LocalizeEN": "I'll join the party."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_2",
-            "LocalizeJP": "私の役割はアタッカーなんですね。",
-            "LocalizeEN": "My role is attacker."
+            "LocalizeJP": "私の役割は…、アタッカーなんですね。",
+            "LocalizeEN": "My role is... as an attacker."
         },
         {
             "CharacterId": 10015,
@@ -53,29 +53,29 @@
             "CharacterId": 10015,
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Victory_1",
-            "LocalizeJP": "攻略完了、帰還します。",
+            "LocalizeJP": "攻略完了！帰還します。",
             "LocalizeEN": "Course complete, going back."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Victory_2",
-            "LocalizeJP": "敵の殲滅を確認しました。ミッションクリア。",
+            "LocalizeJP": "敵の殲滅を確認しました。ミッションクリアー。",
             "LocalizeEN": "Enemy annihilation confirmed. Mission cleared."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Buffed_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "バフがかかりました！",
+            "LocalizeEN": "Buffed!"
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_BuffSelf_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "バフをかけます！",
+            "LocalizeEN": "Buff it!"
         },
         {
             "CharacterId": 10015,
@@ -88,50 +88,50 @@
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Damage_2",
-            "LocalizeJP": "期待に異常発生。",
-            "LocalizeEN": "Unexpected anomaly. "
+            "LocalizeJP": "機体に異常発生…。",
+            "LocalizeEN": "An abnormality has occurred in the aircraft."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Damage_3",
-            "LocalizeJP": "システムリセット",
+            "LocalizeJP": "システムリセット。",
             "LocalizeEN": "System reset."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Defense_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "問題ありません。",
+            "LocalizeEN": "No problem."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_In_1",
-            "LocalizeJP": "アリスがここにいます アリスが手伝います。",
+            "LocalizeJP": "アリスがここにいます。アリスが手伝います。",
             "LocalizeEN": "Aris is here. Aris is here to help."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_In_2",
-            "LocalizeJP": "光が道へと導くでしょう。",
+            "LocalizeJP": "光が、道へと導くでしょう。",
             "LocalizeEN": "Light will lead the way."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "アリス。前進を続けます。",
+            "LocalizeEN": "Aris. Keep moving forward."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "目標を確認。いきます！",
+            "LocalizeEN": "Check your goals. To go!"
         },
         {
             "CharacterId": 10015,
@@ -144,7 +144,7 @@
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Retire",
-            "LocalizeJP": "システム停止。",
+            "LocalizeJP": "システム、…停止。",
             "LocalizeEN": "System stop."
         },
         {
@@ -165,15 +165,15 @@
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Shout_3",
-            "LocalizeJP": "攻撃のチャンスです。",
+            "LocalizeJP": "攻撃のチャンスです！",
             "LocalizeEN": "It's our chance to attack."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_TacticalAction_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "移動します。",
+            "LocalizeEN": "Move."
         },
         {
             "CharacterId": 10015,
@@ -207,8 +207,8 @@
             "CharacterId": 10015,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Arisu_CommonSkill",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "チャージします。",
+            "LocalizeEN": "I will charge it."
         },
         {
             "CharacterId": 10015,
@@ -228,7 +228,7 @@
             "CharacterId": 10015,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_3",
-            "LocalizeJP": "悪を打ち砕く正義の一撃",
+            "LocalizeJP": "悪を打ち砕く正義の一撃…。",
             "LocalizeEN": "Evil-crushing blow of justice"
         },
         {
@@ -242,7 +242,7 @@
             "CharacterId": 10015,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_2",
-            "LocalizeJP": "アリス 全力で行きます。",
+            "LocalizeJP": "アリス、全力で行きます。",
             "LocalizeEN": "I'm Aris. I'll do my best."
         },
         {
@@ -291,14 +291,14 @@
             "CharacterId": 10015,
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_2",
-            "LocalizeJP": "新しいゲームに初めて向き合う時…レベルを上げて、装備強化に成功した時…先生に会うたびにアリスはカテゴライズできない不思議な感覚を覚えます。",
+            "LocalizeJP": "新しいゲームに初めて向き合う時…レベルを上げて、装備強化に成功した時…、先生に会うたびにアリスはカテゴライズできない不思議な感覚を覚えます。",
             "LocalizeEN": "When I face a new game for the first time... when I level up or when I succeed in strengthening my gear... every time I meet Sensei, I feel a strange sensation that I cannot categorize."
         },
         {
             "CharacterId": 10015,
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_3",
-            "LocalizeJP": "先生と接触してからアリスの中に何かがプログラミングされました。数値に換算できないくらい大きなこの気持ちの名前は",
+            "LocalizeJP": "先生と接触してからアリスの中に何かがプログラミングされました。数値に換算できないくらい大きなこの気持ちの名前は…。",
             "LocalizeEN": "Something was programmed into Aris after she made contact with Sensei. A feeling so big that can't be put into numbers. What is this feeling called?"
         },
         {

@@ -18,7 +18,7 @@
             "CharacterId": 10038,
             "DialogCategory": "Formation",
             "VoiceClip": "Miyako_Formation_Select",
-            "LocalizeJP": "場所間違っていましたか？",
+            "LocalizeJP": "場所、間違っていましたか？",
             "LocalizeEN": "Were you in the wrong place?"
         },
         {
@@ -32,49 +32,49 @@
             "CharacterId": 10038,
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_Tactic_Defeat_2",
-            "LocalizeJP": "次また次もう一度挑戦しましょう",
+            "LocalizeJP": "次…、また次、もう一度挑戦しましょう。",
             "LocalizeEN": "Let's try again next time"
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_Tactic_In_1",
-            "LocalizeJP": "作戦区域に突入 展開します。",
+            "LocalizeJP": "作戦区域に突入、展開します。",
             "LocalizeEN": "Rush into the operation area Deploy."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_Tactic_In_2",
-            "LocalizeJP": "ここから どうすれば良いでしょうか。",
+            "LocalizeJP": "ここからどうすれば良いでしょうか。",
             "LocalizeEN": "Where do I go from here?"
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_Tactic_Victory_1",
-            "LocalizeJP": "皆さんお疲れ様でした。",
+            "LocalizeJP": "皆さん、お疲れ様でした。",
             "LocalizeEN": "You guys have been worked hard."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_Tactic_Victory_2",
-            "LocalizeJP": "勝利ですね 先生。",
+            "LocalizeJP": "勝利…ですね、先生。",
             "LocalizeEN": "Victory, sir."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Buffed_1",
-            "LocalizeJP": "はい、悪くないですね。",
+            "LocalizeJP": "…はい、悪くないですね。",
             "LocalizeEN": "Yes, not bad."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_BuffSelf_1",
-            "LocalizeJP": "突入 開始します。",
+            "LocalizeJP": "突入、開始します。",
             "LocalizeEN": "Start rushing."
         },
         {
@@ -116,7 +116,7 @@
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_In_1",
-            "LocalizeJP": "皆さん 警戒は怠らないように 先生 ご指示を",
+            "LocalizeJP": "皆さん、警戒は怠らないように。…先生、ご指示を。",
             "LocalizeEN": "Everyone, don't let your guard down."
         },
         {
@@ -130,28 +130,28 @@
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Move_1",
-            "LocalizeJP": "クリア 前進します。",
+            "LocalizeJP": "クリア。前進します。",
             "LocalizeEN": "Clear Go forward."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Move_2",
-            "LocalizeJP": "次の敵はどこですか",
-            "LocalizeEN": "where is the next enemy"
+            "LocalizeJP": "次の敵はどこですか。",
+            "LocalizeEN": "Where is the next enemy?"
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Recovery_1",
-            "LocalizeJP": "遠賀 ありがとうございます。",
-            "LocalizeEN": "Onga: Thank you."
+            "LocalizeJP": "援護、ありがとうございます。",
+            "LocalizeEN": "Thank you for your support."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Retire",
-            "LocalizeJP": "後は頼みます。",
+            "LocalizeJP": "後は…、頼みます。",
             "LocalizeEN": "I'll need your help later."
         },
         {
@@ -172,7 +172,7 @@
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Shout_3",
-            "LocalizeJP": "ファイヤー",
+            "LocalizeJP": "ファイア。",
             "LocalizeEN": "fire"
         },
         {
@@ -186,35 +186,35 @@
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_TSA_1",
-            "LocalizeJP": "毒の支援 機体 第1号 行きます。",
-            "LocalizeEN": "Venom Support Airframe No. 1 goes."
+            "LocalizeJP": "特務支援機体第1号、行きます。",
+            "LocalizeEN": "Special support aircraft number 1. to go."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_TSA_2",
-            "LocalizeJP": "先日、支援兵器の使用を許可します。",
-            "LocalizeEN": "The other day, I authorized the use of support weapons."
+            "LocalizeJP": "戦術支援兵器の使用を許可します。",
+            "LocalizeEN": "Authorizes the use of tactical support weapons."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Victory_1",
-            "LocalizeJP": "やりました。",
+            "LocalizeJP": "やりました！",
             "LocalizeEN": "Did it."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_Battle_Victory_2",
-            "LocalizeJP": "クリア",
+            "LocalizeJP": "クリア。",
             "LocalizeEN": "clear"
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Miyako_CommonSkill",
-            "LocalizeJP": "皆さん下がってください。",
+            "LocalizeJP": "皆さん、下がってください。",
             "LocalizeEN": "Everyone please step down."
         },
         {
@@ -228,35 +228,35 @@
             "CharacterId": 10038,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_ExSkill_2",
-            "LocalizeJP": "感度良好 突入 を開始します。",
+            "LocalizeJP": "感度良好。突入 を開始します。",
             "LocalizeEN": "Good sensitivity Inrush begins."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_ExSkill_3",
-            "LocalizeJP": "到着を確認すぐに侵入します。",
+            "LocalizeJP": "到着を確認。すぐに侵入します。",
             "LocalizeEN": "Confirm arrival and invade immediately."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_ExSkill_Level_1",
-            "LocalizeJP": "ドローン 稼働 援護をお願いします。",
+            "LocalizeJP": "ドローン稼働…、援護をお願いします。",
             "LocalizeEN": "Please support drone operation."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_ExSkill_Level_2",
-            "LocalizeJP": "衝撃に注意してください。",
-            "LocalizeEN": "Be careful of impact."
+            "LocalizeJP": "総員、衝撃に注意してください。",
+            "LocalizeEN": "Everyone, please be careful of impact."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_ExSkill_Level_3",
-            "LocalizeJP": "閃光弾 投下します。",
+            "LocalizeJP": "閃光弾、投下します。",
             "LocalizeEN": "Drops flash bullets."
         },
         {
@@ -270,28 +270,28 @@
             "CharacterId": 10038,
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_Growup_2",
-            "LocalizeJP": "これも 成長。",
+            "LocalizeJP": "これも…、成長。",
             "LocalizeEN": "It also grows."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_Growup_3",
-            "LocalizeJP": "成長というのはこんなにも気持ちの良いことだったんですね",
+            "LocalizeJP": "成長というのはこんなにも気持ちの良いことだったんですね。",
             "LocalizeEN": "Growing up feels so good"
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_Growup_4",
-            "LocalizeJP": "ご期待に添えるように もっと頑張ります。",
+            "LocalizeJP": "ご期待にそえるように、もっと頑張ります。",
             "LocalizeEN": "I will do my best to meet your expectations."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_Relationship_Up_1",
-            "LocalizeJP": "私とずっと一緒にいてくれますか？",
+            "LocalizeJP": "私と…、ずっと一緒にいてくれますか？",
             "LocalizeEN": "will you stay with me forever"
         },
         {
@@ -299,21 +299,21 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_Relationship_Up_2",
             "LocalizeJP": "先生の指示なら何でも従います。何でもです。",
-            "LocalizeEN": "Follow any teacher's instructions. anything."
+            "LocalizeEN": "I will follow any instructions given by the teacher. Anything."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_Relationship_Up_3",
-            "LocalizeJP": "もう少しそばにいてください。",
+            "LocalizeJP": "もう少し…、そばにいてください。",
             "LocalizeEN": "Please stay with me a little longer."
         },
         {
             "CharacterId": 10038,
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_Relationship_Up_4",
-            "LocalizeJP": "うさぎは寂しいと死んでしまう生き物だそうですラビット小隊も同じですきっと",
-            "LocalizeEN": "It seems that rabbits are creatures that die if they are lonely. The same goes for RABBIT Squad."
+            "LocalizeJP": "ウサギは寂しいと死んでしまう生き物だそうです。…RABBIT小隊も同じです。…きっと。",
+            "LocalizeEN": "It is said that rabbits are creatures that die when they are lonely. …The same goes for the RABBIT squad. …surely."
         }
     ]
 }

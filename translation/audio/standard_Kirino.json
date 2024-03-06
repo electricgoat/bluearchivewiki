@@ -25,8 +25,8 @@
             "CharacterId": 13012,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Defeat_1",
-            "LocalizeJP": "正義は敗北しません。",
-            "LocalizeEN": "Justice will never lose."
+            "LocalizeJP": "正義は敗北…、しません！…うう。",
+            "LocalizeEN": "Justice is defeated...I won't! …Ah."
         },
         {
             "CharacterId": 13012,
@@ -53,29 +53,29 @@
             "CharacterId": 13012,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_1",
-            "LocalizeJP": "市民の皆さん、キボトスは今日も安全です。",
+            "LocalizeJP": "市民の皆さん、キヴォトスは今日も安全です。",
             "LocalizeEN": "Citizens, Kivotos is safe today."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_2",
-            "LocalizeJP": "今日もパトロールにご協力してくださってありがとうございます。",
+            "LocalizeJP": "今日もパトロールにご協力してくださって、ありがとうございます。",
             "LocalizeEN": "Thank you for your cooperation with the patrol today."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Buffed_1",
-            "LocalizeJP": "感謝します。",
-            "LocalizeEN": "I appreciate that."
+            "LocalizeJP": "ご支援感謝します。",
+            "LocalizeEN": "Thank you for your support."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_BuffSelf_1",
-            "LocalizeJP": "魂胆が先陣を切ります。",
-            "LocalizeEN": "Courage will take the lead."
+            "LocalizeJP": "本官が先陣を切ります。",
+            "LocalizeEN": "I will take the lead."
         },
         {
             "CharacterId": 13012,
@@ -109,14 +109,14 @@
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Defense_1",
-            "LocalizeJP": "抵抗しても無駄です。",
+            "LocalizeJP": "抵抗しても無駄です！",
             "LocalizeEN": "Resistance is futile."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_In_1",
-            "LocalizeJP": "迅速に 制圧します。",
+            "LocalizeJP": "迅速に制圧します！",
             "LocalizeEN": "Suppress quickly."
         },
         {
@@ -144,14 +144,14 @@
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Recovery_1",
-            "LocalizeJP": "ありがとうございます。",
+            "LocalizeJP": "あ…、ありがとうございます。",
             "LocalizeEN": "Thank you."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Retire",
-            "LocalizeJP": "追加支援を要請します。",
+            "LocalizeJP": "追加支援を…、要請します。",
             "LocalizeEN": "Requesting additional assistance."
         },
         {
@@ -186,105 +186,105 @@
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TSA_1",
-            "LocalizeJP": "こうぴくん いちご 出動します",
-            "LocalizeEN": "Koupi-kun Ichigo will be dispatched"
+            "LocalizeJP": "ポーピ君1号、出動します。",
+            "LocalizeEN": "Popi-kun No. 1 is dispatched."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TSA_2",
-            "LocalizeJP": "警察です 後ろに下がってください",
+            "LocalizeJP": "警察です、後ろに下がってください！",
             "LocalizeEN": "I'm the police. Please step back."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_1",
-            "LocalizeJP": "任務完了しました。",
+            "LocalizeJP": "任務、完了しました。",
             "LocalizeEN": "Mission completed."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_2",
-            "LocalizeJP": "右、左…ここはもう安全です。",
+            "LocalizeJP": "右、左…、ふう…。ここはもう安全です。",
             "LocalizeEN": "Right, left... Phew, it's safe here now."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kirino_CommonSkill",
-            "LocalizeJP": "喰らえ。",
-            "LocalizeEN": "Eat this!"
+            "LocalizeJP": "くらえ。",
+            "LocalizeEN": "Damn it."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_1",
-            "LocalizeJP": "あなたには黙秘権があります。",
-            "LocalizeEN": "You have the right to remain silent."
+            "LocalizeJP": "あなたには黙秘権があります！…う、うわあ！",
+            "LocalizeEN": "You have the right to remain silent! ...Oh!"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_2",
-            "LocalizeJP": "このキボトスでの犯罪は許されなー",
-            "LocalizeEN": "I won't forgive crime in Kivoto-"
+            "LocalizeJP": "このキヴォトスでの犯罪は許されない…、わあ！",
+            "LocalizeEN": "This crime in Kivotos will not be tolerated... Oh!"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_3",
-            "LocalizeJP": "警告します、投稿しなければ",
-            "LocalizeEN": "I'm warning you. If you don't submit..."
+            "LocalizeJP": "警告します、投降しなければ…、うわあ！",
+            "LocalizeEN": "I warn you, if you don't surrender... Oh!"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_1",
-            "LocalizeJP": "どうしようどうしよう",
-            "LocalizeEN": "What to do? What to do?"
+            "LocalizeJP": "どうしよう、どうしよう…。えいや！",
+            "LocalizeEN": "What should I do, what should I do... Eiya!"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_2",
-            "LocalizeJP": "権力を投入します。",
-            "LocalizeEN": "inject power."
+            "LocalizeJP": "こ、公権力を投入します。",
+            "LocalizeEN": "I'm going to use public authority."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_3",
-            "LocalizeJP": "これでも食らっちゃってください。",
-            "LocalizeEN": "Please eat this!"
+            "LocalizeJP": "これでも、くらっちゃってください！",
+            "LocalizeEN": "Even with this, suck it!"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_1",
-            "LocalizeJP": "ずっと こうやって努力していればいつか警備部への発令をいただけるのでしょうか",
-            "LocalizeEN": "I wonder if I'll get a promotion to the Security Bureau if I keep working hard like this."
+            "LocalizeJP": "ずっとこうやって努力していれば、いつか警備部への発令をいただけるのでしょうか？",
+            "LocalizeEN": "If I keep trying like this, will I be able to get a job order from the security department someday?"
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_2",
-            "LocalizeJP": "キバトスの安全のために精進します。",
+            "LocalizeJP": "キヴォトスの安全のために、精進します。",
             "LocalizeEN": "I will devote myself to the safety of Kivotos."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_3",
-            "LocalizeJP": "今日はいい成果ですね。",
+            "LocalizeJP": "ふふ、今日はいい成果ですね。",
             "LocalizeEN": "I see good results today."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_4",
-            "LocalizeJP": "本官のために力を貸してくださってありがとうございます。",
+            "LocalizeJP": "本官のために力を貸してくださって、ありがとうございます。",
             "LocalizeEN": "Thank you for lending me your strength."
         },
         {
@@ -305,15 +305,15 @@
             "CharacterId": 13012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_3",
-            "LocalizeJP": "本官は全く これは業務に過ぎないのに勘違いをするところでした",
+            "LocalizeJP": "本官はまったく…、これは業務に過ぎないのに、勘違いをするところでした。",
             "LocalizeEN": "I know this is nothing more than a work relationship, but I was about to mistake it for something else..."
         },
         {
             "CharacterId": 13012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_4",
-            "LocalizeJP": "先生と生徒が恋愛をするというのは、キボトスでは犯罪ではありません…　言いたいことはそれだけです。",
-            "LocalizeEN": "Romantic relationships between students and teachers are not a crime in Kivotos... T-That's all I wanted to say."
+            "LocalizeJP": "先生と生徒が恋愛をするというのは、キヴォトスでは犯罪ではありません。…言いたいことはそれだけです。",
+            "LocalizeEN": "It is not a crime in Kivotos for a teacher and student to fall in love. ...That's all I want to say."
         }
     ]
 }

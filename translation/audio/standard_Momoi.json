@@ -11,7 +11,7 @@
             "CharacterId": 13011,
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_Formation_In_2",
-            "LocalizeJP": "私の番か。",
+            "LocalizeJP": "さあ、私の番か。",
             "LocalizeEN": "Is it my turn?"
         },
         {
@@ -25,7 +25,7 @@
             "CharacterId": 13011,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Defeat_1",
-            "LocalizeJP": "先生 諦めないで リトライしよう。",
+            "LocalizeJP": "先生、諦めないで。リトライしよう！",
             "LocalizeEN": "Teacher, don't give up. Let's try again."
         },
         {
@@ -33,7 +33,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Defeat_2",
             "LocalizeJP": "あーもう。クソゲーじゃん。",
-            "LocalizeEN": "Oh already. It's a fucking game."
+            "LocalizeEN": "Ah geez. This game sucks."
         },
         {
             "CharacterId": 13011,
@@ -53,21 +53,21 @@
             "CharacterId": 13011,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Victory_1",
-            "LocalizeJP": "これぐらいなら 難易度はEZって感じだね。",
+            "LocalizeJP": "これぐらいなら難易度はEZって感じだね。",
             "LocalizeEN": "At this level, the difficulty level is EZ."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Victory_2",
-            "LocalizeJP": "クリア",
+            "LocalizeJP": "クリアー！",
             "LocalizeEN": "Clear!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Damage_1",
-            "LocalizeJP": "痛い。",
+            "LocalizeJP": "…痛い！",
             "LocalizeEN": "How painful!"
         },
         {
@@ -88,7 +88,7 @@
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_In_1",
-            "LocalizeJP": "パッドでの操作だったら自信あるんだけど。",
+            "LocalizeJP": "うーん、…パッドでの操作だったら自信あるんだけど。",
             "LocalizeEN": "If it's a gamepad operation, I'm confident…"
         },
         {
@@ -123,8 +123,8 @@
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Shout_2",
-            "LocalizeJP": "喰らえ。",
-            "LocalizeEN": "Take this!"
+            "LocalizeJP": "くらえ。",
+            "LocalizeEN": "Take This!"
         },
         {
             "CharacterId": 13011,
@@ -137,133 +137,133 @@
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_TSA_1",
-            "LocalizeJP": "レトロこそ真の最先端なんだよ！",
+            "LocalizeJP": "レトロこそ、真の最先端なんだよ！",
             "LocalizeEN": "Retro is the true cutting edge!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_TSA_2",
-            "LocalizeJP": "今からこのゲームはロボットものになるよ。",
+            "LocalizeJP": "今からこのゲームはロボットものになるよ！",
             "LocalizeEN": "From now on, this game will be about robots."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Victory_1",
-            "LocalizeJP": "クリア、次のステージへ",
+            "LocalizeJP": "クリアー、次のステージへ。",
             "LocalizeEN": "Clear, go to the next stage!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Victory_2",
-            "LocalizeJP": "私たちの勝利",
+            "LocalizeJP": "私たちの勝利！",
             "LocalizeEN": "This is our victory!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Momoi_CommonSkill",
-            "LocalizeJP": "私もう怒ったんだから。",
+            "LocalizeJP": "私、もう怒ったんだから。",
             "LocalizeEN": "I'm already angry!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_1",
-            "LocalizeJP": "よしこのまま…え！ ぐー許せない！",
+            "LocalizeJP": "よしこのまま…、え、…うう、許せない！",
             "LocalizeEN": "Alright, if it stays like this... Huh! can not forgive!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_2",
-            "LocalizeJP": "へー おもしろ…死んだ！信じられない。",
+            "LocalizeJP": "へーおもしろ…、わ！死んだ！信じられない。",
             "LocalizeEN": "Huh, funny. I died! can't believe it!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_3",
-            "LocalizeJP": "私の勝ち！あ！負けたじゃん！もー！",
+            "LocalizeJP": "私の勝ち！え、負けたじゃん！もー！",
             "LocalizeEN": "I'm winning! Huh, I lost? Moo!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_1",
-            "LocalizeJP": "アイス奢らなきゃいけなくなったじゃん！ あなた達のせいだよ！",
+            "LocalizeJP": "アイス奢らなきゃいけなくなったじゃん！あなた達のせいだよ！",
             "LocalizeEN": "I had to buy her ice cream. It's all your fault."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_2",
-            "LocalizeJP": "悔しい。悔しい。",
+            "LocalizeJP": "悔しい…。悔しいー！",
             "LocalizeEN": "regrettable. regrettable."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_3",
-            "LocalizeJP": "私の怒りの弾丸を喰らえ。",
-            "LocalizeEN": "Take the bullets of my wrath."
+            "LocalizeJP": "私の怒りの弾丸をくらえ！",
+            "LocalizeEN": "Take the bullet of my anger!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_1",
-            "LocalizeJP": "経験値をもっと貰えるようにして。",
+            "LocalizeJP": "経験値をもっと貰えるようにして？",
             "LocalizeEN": "Please make it possible to get more experience points."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_2",
-            "LocalizeJP": "レベルアップっていつもときめく瞬間だよね。",
+            "LocalizeJP": "レベルアップっていつもときめく瞬間だよね！",
             "LocalizeEN": "Leveling up is always an exciting moment."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_3",
-            "LocalizeJP": "もっと強くなりたい。 そうすればみんなを守れるお姉ちゃんになれるから。",
+            "LocalizeJP": "もっと強くなりたい！そうすれば、みんなを守れるお姉ちゃんになれるから。",
             "LocalizeEN": "I want to become stronger. That way, I can become an older sister who can protect everyone."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_4",
-            "LocalizeJP": "これからの私の火力ハンパじゃないよ。",
+            "LocalizeJP": "これからの私の火力、ハンパじゃないよ。",
             "LocalizeEN": "It's not my firepower from now on."
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_1",
-            "LocalizeJP": "私の好感度を上げたいなら、新作のゲームをもっと買って？",
+            "LocalizeJP": "私の好感度を上げたいなら、新作のゲームをもーっと買って？",
             "LocalizeEN": "If you want to improve my favorability, buy more new games,"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_2",
-            "LocalizeJP": "なんて伏線！このまま行ったらどうなっちゃうんだろう。",
+            "LocalizeJP": "な、なんて伏線！このまま行ったらどうなっちゃうんだろう。",
             "LocalizeEN": "What a foreshadowing! What will happen if we continue like this?"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_3",
-            "LocalizeJP": "あれ？もしかして今 フラグ…違う！立ってない！",
+            "LocalizeJP": "あれ？もしかして今フラグ、…違う！立ってない！",
             "LocalizeEN": "What? Perhaps the flag is raised now... No! No flags up!"
         },
         {
             "CharacterId": 13011,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_4",
-            "LocalizeJP": "最高のゲームを作るためにはやっぱりいろんな経験が必要なの。恋愛経験も、ね。",
+            "LocalizeJP": "最高のゲームを作るためには、やっぱりいろんな経験が必要なの。…恋愛経験も、ね？",
             "LocalizeEN": "It takes a lot of experience to make the best games. Love experience too."
         }
     ]

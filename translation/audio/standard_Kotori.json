@@ -4,7 +4,7 @@
             "CharacterId": 16002,
             "DialogCategory": "Formation",
             "VoiceClip": "Kotori_Formation_In_1",
-            "LocalizeJP": "私の出番ですね。",
+            "LocalizeJP": "私の出番ですね！",
             "LocalizeEN": "It's my turn."
         },
         {
@@ -18,8 +18,8 @@
             "CharacterId": 16002,
             "DialogCategory": "Formation",
             "VoiceClip": "Kotori_Formation_Select",
-            "LocalizeJP": "姿勢はちょっと自信はないけど。",
-            "LocalizeEN": "I'm a little unsure of my posture."
+            "LocalizeJP": "実践はちょーっと自信はないけど！…えへへ。",
+            "LocalizeEN": "I don't have much confidence in the actual performance!"
         },
         {
             "CharacterId": 16002,
@@ -32,22 +32,22 @@
             "CharacterId": 16002,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Defeat_2",
-            "LocalizeJP": "ごめんなさい。",
+            "LocalizeJP": "ご、ご、ごめんなさい。",
             "LocalizeEN": "sorry."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_In_1",
-            "LocalizeJP": "敵がいますよ、見えてますか",
+            "LocalizeJP": "敵がいますよ？ああ、見えてますか。",
             "LocalizeEN": "I have an enemy, can you see it?"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_In_2",
-            "LocalizeJP": "敵を倒せば勝利です、当然のことでしたか。",
-            "LocalizeEN": "Defeating the enemy is victory, isn't it natural?"
+            "LocalizeJP": "敵を倒せば勝利です！…ああ。当然のことでしたか？",
+            "LocalizeEN": "Defeat the enemy to win! …ah. Is it obvious?"
         },
         {
             "CharacterId": 16002,
@@ -60,21 +60,21 @@
             "CharacterId": 16002,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Victory_2",
-            "LocalizeJP": "予想が外れました、私たちは強すぎます。",
+            "LocalizeJP": "予想が外れました、私たちは強すぎます！",
             "LocalizeEN": "Unexpected, we are too strong."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Buffed_1",
-            "LocalizeJP": "シーン ありがとうございます。",
-            "LocalizeEN": "Thank you for the scene."
+            "LocalizeJP": "支援、ありがとうございます。",
+            "LocalizeEN": "Thank you for your support."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_BuffSelf_1",
-            "LocalizeJP": "燃え上がります。",
+            "LocalizeJP": "おお、燃え上がります。",
             "LocalizeEN": "It will flare up."
         },
         {
@@ -102,56 +102,56 @@
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Defense_1",
-            "LocalizeJP": "無駄。",
-            "LocalizeEN": "waste."
+            "LocalizeJP": "ふふん。無駄です！",
+            "LocalizeEN": "Hehe. It's useless!"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_In_1",
-            "LocalizeJP": "説明通り 行動していただければきっと勝てます。",
+            "LocalizeJP": "ご説明通り行動していただければ、きっと勝てます！",
             "LocalizeEN": "If you act as instructed, you will surely win."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_In_2",
-            "LocalizeJP": "私たちの攻撃は的中、敵の攻撃は回避 そうしたら勝利します。",
+            "LocalizeJP": "私たちの攻撃は的中！敵の攻撃は回避！そうしたら勝利します。",
             "LocalizeEN": "Our attacks are on target, enemy attacks are dodged, and we win."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Move_1",
-            "LocalizeJP": "ここはもう安全です。",
+            "LocalizeJP": "ふう、ここはもう安全です。",
             "LocalizeEN": "It's safe here."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Move_2",
-            "LocalizeJP": "続けて前進します 全身。",
+            "LocalizeJP": "続けて前進します、前進！",
             "LocalizeEN": "Continue to move forward whole body."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Recovery_1",
-            "LocalizeJP": "この支援の価値について今から説明します。",
+            "LocalizeJP": "おお！…この支援の価値について今から説明します。",
             "LocalizeEN": "I will now explain the value of this support."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Retire",
-            "LocalizeJP": "言うことがありません。",
+            "LocalizeJP": "言うことが…ありません…。",
             "LocalizeEN": "I have nothing to say."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Shout_1",
-            "LocalizeJP": "行きます。",
+            "LocalizeJP": "いきます。",
             "LocalizeEN": "to go."
         },
         {
@@ -179,29 +179,29 @@
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_TSA_1",
-            "LocalizeJP": "容赦 という言葉はもうありません",
+            "LocalizeJP": "容赦という言葉はもうありません！",
             "LocalizeEN": "There is no more word for forgiveness"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_TSA_2",
-            "LocalizeJP": "覚悟しなさい これは私の怒りです",
+            "LocalizeJP": "覚悟しなさい！これは私の怒りです！",
             "LocalizeEN": "be prepared this is my anger"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Victory_1",
-            "LocalizeJP": "ちょっと先頭にしては はしゃぎすぎちゃいましたか。",
+            "LocalizeJP": "あ、熱！…ちょ、ちょっと戦闘にしては、はしゃぎすぎちゃいましたか。",
             "LocalizeEN": "Aren't you a little too excited for the lead?"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Victory_2",
-            "LocalizeJP": "びっくりした 電源が入ったままだったか。",
-            "LocalizeEN": "I was surprised Was the power left on?"
+            "LocalizeJP": "うわ、びっくりした…。電源が入ったままだったか…。てへ。",
+            "LocalizeEN": "Wow, I was surprised... The power was still on..."
         },
         {
             "CharacterId": 16002,
@@ -221,29 +221,29 @@
             "CharacterId": 16002,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_2",
-            "LocalizeJP": "工事を始めます。",
-            "LocalizeEN": "Start construction."
+            "LocalizeJP": "講義を始めます。",
+            "LocalizeEN": "Let's start the lecture."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_3",
-            "LocalizeJP": "言葉より有名な説明 というものがあります。",
+            "LocalizeJP": "言葉より有名な説明というものがあります。",
             "LocalizeEN": "There is an explanation that is better known than words."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_Level_1",
-            "LocalizeJP": "オーバークロック ファイヤー",
+            "LocalizeJP": "オーバークロック、ファイヤー！",
             "LocalizeEN": "overclocking fire"
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_Level_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "火力フル稼働！",
+            "LocalizeEN": "Firepower in full operation!"
         },
         {
             "CharacterId": 16002,
@@ -256,56 +256,56 @@
             "CharacterId": 16002,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_1",
-            "LocalizeJP": "どうしてだろう つゆ よりも 論理の力がもっと強化された気分。",
-            "LocalizeEN": "I don't know why, but I feel like my power of logic has been strengthened more than Tsuyu."
+            "LocalizeJP": "どうしてだろう。銃よりも、論理の力がもっと強化された気分。",
+            "LocalizeEN": "Why. I feel like the power of logic is stronger than guns."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_2",
-            "LocalizeJP": "ただ、長い話や 上長な論理よりももっと確かな実力が欲しいです。",
-            "LocalizeEN": "However, I would like to have a more solid ability than a long story or superior logic."
+            "LocalizeJP": "ただ長い話や冗長な論理よりも、もっと確かな実力が欲しいです。",
+            "LocalizeEN": "I want more solid ability than just long stories and redundant logic."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_3",
-            "LocalizeJP": "口だけ達者な人にはなりたくありません。先生と一緒なら大丈夫ですよね。",
+            "LocalizeJP": "口だけ達者な人にはなりたくありません。先生と一緒なら大丈夫ですよね",
             "LocalizeEN": "I don't want to be a talkative person. As long as you're with your teacher, you'll be fine."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_4",
-            "LocalizeJP": "分からないという苦痛に苦しむ人たちに私が役に立てるはずです。",
+            "LocalizeJP": "分からないという苦痛に苦しむ人たちに、私が役に立てるはずです。",
             "LocalizeEN": "I can help those who suffer the pain of not knowing."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_1",
-            "LocalizeJP": "説明をすればするほど世界は さらに理解しやすくなります。",
+            "LocalizeJP": "説明をすればするほど、世界はさらに理解しやすくなります。",
             "LocalizeEN": "The more you explain, the easier the world becomes to understand."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_2",
-            "LocalizeJP": "何か新しい知識を得る度にドキドキします そして 先生と一緒にいると新しい感情を見つけます",
+            "LocalizeJP": "何か新しい知識を得る度にドキドキします。そして…、先生と一緒にいると新しい感情を見つけます。",
             "LocalizeEN": "Every time I learn something new, my heart beats fast, and when I'm with my teacher, I find new emotions."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_3",
-            "LocalizeJP": "私もいつか先生になりたいです 私の講義を開くために ではなく、先生のように生徒たちの話を聞いてあげたいんです。",
+            "LocalizeJP": "私もいつか先生になりたいです。 私の講義を開くためにではなく、先生のように生徒たちの話を聞いてあげたいんです。",
             "LocalizeEN": "I want to be a teacher someday, not just to give lectures, but to listen to students like a teacher."
         },
         {
             "CharacterId": 16002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_4",
-            "LocalizeJP": "全てのことを説明できるはずなのに、私の心はごめんなさい 簡単には説明できません。",
+            "LocalizeJP": "全てのことを説明できるはずなのに、私の心は…、ごめんなさい。簡単には説明できません。",
             "LocalizeEN": "I should be able to explain everything, but my heart is sorry I can't explain it easily."
         }
     ]
