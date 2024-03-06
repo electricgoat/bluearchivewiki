@@ -1742,7 +1742,7 @@
         {
             "GroupId": "CH0084Ex01",
             "NameEn": "Hard boiled Hanetsuki shot",
-            "DescriptionEn": "Restore $1 Skill Cost for each \"Bad deed\" that Aru currently holds, and reset the number of \"Bad deeds\" to zero.<br>Deal $2 damage against one enemy. For surrounding enemies that have not been hit,  deal a further $3 damage (up to 11 times)."
+            "DescriptionEn": "Restore $1 Skill Cost for each \"Bad deed\" that Aru currently holds, and reset the number of \"Bad deeds\" to zero.<br>Deal $2 damage against one enemy. For surrounding enemies that have not been hit, deal a further $3 damage (up to 11 times)."
         },
         {
             "GroupId": "CH0084Public01",
@@ -4671,7 +4671,44 @@
             "GroupId": "CH0240ExtraPassive01",
             "NameEn": "Favorable trade",
             "DescriptionEn": "Normal attacks have a 30% chance to reduce Critical Resistance of the target by $1 for $2. (Cooldown: $3 seconds)"
+        },
+
+        {
+            "GroupId": "CH0196Ex01",
+            "NameEn": "I'm borrowing it for a bit!",
+            "DescriptionEn": "Akari enters the battlefield ridind School Lunch Promotion Vehicle. School Lunch Promotion Vehicle additionally inherits $1 of of Akari's HP. (Duration: $2)\n(School Lunch Promotion Vehicle does not attack enemies)\n(Only one tactical support vehicle can be fielded at any given time)"
+        },
+        {
+            "GroupId": "SM019601Public01",
+            "NameEn": "A special grenade, from the bottom of my heart!",
+            "DescriptionEn": "Akari, when riding the School Lunch Promotion Vehicle, activates \"A special grenade, from the bottom of my heart!\" skill every $1, dealing $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "SM019601Passive01",
+            "NameEn": "Is that how you feel today?",
+            "DescriptionEn": "When School Lunch Promotion Vehicle is present, increase the Attack Speed of other allies (except Akari herself) remaining within the circular area around the vehicle by $1, and add $2 Mystic Efficiency."
+        },
+        {
+            "GroupId": "CH0196Public01",
+            "NameEn": "How about this?",
+            "DescriptionEn": "Every $1, increase Defense of allies within a circular area centered on the ally with the lowest HP by $2 for $3. (Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0196Passive01",
+            "NameEn": "Lets' eat!",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0196WeaponPassive01",
+            "NameEn": "Lets' eat! +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0196ExtraPassive01",
+            "NameEn": "Want seconds?",
+            "DescriptionEn": "Increase Mystic Efficiency of all allies by $1."
         }
+        
         
 
     ]
