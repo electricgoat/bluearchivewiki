@@ -1,6 +1,7 @@
 import re
 from shared.functions import hashkey
 from shared.glossary import CLUBS
+from shared.tag_map import TAG_MAP
 
 item_types = {
         'MaterialItem':'Ooparts of any tier',
@@ -430,6 +431,8 @@ def localize_GetEquipmentWithTagCount(mission):
     desc_jp = '$1を$2個獲得する'
     desc_en = 'Acquire $2 $1'
 
+    for i, tag in enumerate(mission['CompleteConditionParameterTag']):
+        if tag in TAG_MAP.keys(): mission['CompleteConditionParameterTag'][i] = TAG_MAP[tag]
     
     if type(mission['CompleteConditionParameterTag']) is list and len(mission['CompleteConditionParameterTag'])==1: mission['CompleteConditionParameterTag'] = mission['CompleteConditionParameterTag'][0] 
 
@@ -598,7 +601,9 @@ def localize_Event_Mission_WorldRaid_DamageToBoss(mission, data, items, furnitur
     desc_en = 'Deal $1 damage to $2'
 
     #TODO actually properly localize those
-    boss_names = {10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)'}
+    boss_names = {81400: 'Wakamo (Swimsuit)', 81410: 'Wakamo (Hovercraft)',
+                  814000: 'Wakamo (Swimsuit)', 814100: 'Wakamo (Hovercraft)',
+                  10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)'}
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount']))
                                                           .replace('$2', boss_names[mission['CompleteConditionParameter'][1]])
@@ -616,7 +621,9 @@ def localize_Event_Mission_WorldRaid_TimeLimit(mission, data, items, furniture):
     desc_en = 'Defeat $1 on $2 within $3 seconds'
 
     #TODO actually properly localize those
-    boss_names = {301200: 'Wakamo (Swimsuit)', 302200: 'Wakamo (Hovercraft)'}
+    boss_names = {81400: 'Wakamo (Swimsuit)', 81410: 'Wakamo (Hovercraft)',
+                  814000: 'Wakamo (Swimsuit)', 814100: 'Wakamo (Hovercraft)',
+                  10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)', 301200: 'Wakamo (Swimsuit)', 302200: 'Wakamo (Hovercraft)'}
 
     difficulty = int(str(mission['CompleteConditionParameter'][1])[6:7])
     difficulty_names = ['','Normal','Hard','VeryHard']

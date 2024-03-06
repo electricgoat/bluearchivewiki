@@ -270,7 +270,7 @@ def total_reward_card(item):
         item['Card'] = ('{{ItemCard|'+data.etc_localization[ data.currencies[item['Id']]['LocalizeEtcId']]['NameEn']+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
     elif item['Type'] == 'Emblem':
         item['Name'] = (emblems[item['Id']].name)
-        item['Card'] = ('{{TitleCard|'+emblems[item['Id']].name+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|quantity='+str(item['Amount'])+'|text=}}')
+        item['Card'] = ('{{TitleCard|'+emblems[item['Id']].name+'|'+(icon_size[0] if item['IsCompletionReward'] else icon_size[1])+'|block|text=}}')
     else:
         item['Name'] = ("UNKNOWN REWARD TYPE")
         print (f"Unknown reward parcel type {item['Type']}")
@@ -286,38 +286,23 @@ def generate():
     global total_rewards, total_milestone_rewards
     global missing_localization, missing_code_localization
 
-    # if (args['event_season'], "Stage") in data.event_content_seasons:
-    #     season = data.event_content_seasons[(args['event_season'], "Stage")]
-    # elif (args['event_season'], "MiniEvent") in data.event_content_seasons:
-    #     season = data.event_content_seasons[(args['event_season'], "MiniEvent")]
-    # else:
-    #     exit(f"Season {args['event_season']} data not found. Is this a new event type?")
+    season = None
+    season_gl = None
 
-    try:
-        if (args['event_season'], "Stage") in season_data['jp'].event_content_season:
-            season_jp = season_data['jp'].event_content_season[(args['event_season'], "Stage")]
-            season = season_jp
-        elif (args['event_season'], "MiniEvent") in season_data['jp'].event_content_season:
-            season_jp = season_data['jp'].event_content_season[(args['event_season'], "MiniEvent")]
-        else:
-            raise Exception
-    except:
-        exit(f"JP season {args['event_season']} data not found. Is this a new event type?")
+    for eventmode in ["Stage", "MiniEvent" ,"MinigameRhythmEvent"]:
+        if (args['event_season'], eventmode) in season_data['jp'].event_content_season:
+            season_jp = season_data['jp'].event_content_season[(args['event_season'], eventmode)]
+            season = season_jp#TODO work directly with season_jp or _gl
 
+            break
+    if season is None: exit(f"JP season {args['event_season']} data not found. Is this a new event type?")
     
-    try:
-        if (args['event_season'], "Stage") in season_data['gl'].event_content_season:
-            season_gl = season_data['gl'].event_content_season[(args['event_season'], "Stage")]
-        elif (args['event_season'], "MiniEvent") in season_data['gl'].event_content_season:
-            season_gl = season_data['gl'].event_content_season[(args['event_season'], "MiniEvent")]
-        else:
-            season_gl = None
-            print(f"GL season {args['event_season']} data not found. Is this event not on global yet?")
-            #raise Exception
-    except:
-        exit(f"Error looking up GL season {args['event_season']} data.")
+    for eventmode in ["Stage", "MiniEvent" ,"MinigameRhythmEvent"]:
+        if (args['event_season'], eventmode) in season_data['gl'].event_content_season:
+            season_gl = season_data['gl'].event_content_season[(args['event_season'], eventmode)]
+            break
+    if season_gl is None: print(f"GL season {args['event_season']} data not found. Is this event not on global yet?")
 
-    season = season_jp #TODO work directly with season_jp or _gl
 
     localize_key = hashkey(season['Name'])
     if localize_key in data.localization: 
@@ -326,6 +311,24 @@ def generate():
     else: 
         print(f"Missing localize key {localize_key}")
         if localize_key == 2954736197: season['LocalizeName'] = data.localization[1435341545] #mini event fix, TODO figure out how its key is derived
+        elif localize_key == 1202895593: season['LocalizeName'] = data.localization[2677397330] #1st collab event
+
+    localize_title_key = hashkey(f"Event_Title_{season['OriginalEventContentId']}")
+    if localize_title_key in data.localization: 
+        season['LocalizeTitle'] = data.localization[localize_title_key]
+        if 'En' not in data.localization[localize_title_key]: missing_localization.add_entry(data.localization[localize_title_key])
+    else: 
+        print(f"Missing localize_title key {localize_title_key}")
+
+    if season['LocalizeName'].get('En') != season['LocalizeTitle'].get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{season['LocalizeName'].get('En')}\n Title:{season['LocalizeTitle'].get('En')}")
+
+    localize_description_key =  hashkey(f"Event_Description_{season['OriginalEventContentId']}")
+    if localize_description_key in data.localization: 
+        season['LocalizeDescription'] = data.localization[localize_description_key]
+        if 'En' not in data.localization[localize_description_key]: missing_localization.add_entry(data.localization[localize_description_key])
+    else: 
+        print(f"Missing localize_description key {localize_description_key}")
+
 
     content_types = [x['EventContentType'] for x in data.event_content_seasons.values() if x['EventContentId'] == args['event_season']]
     print(f"Event {args['event_season']} content types: {content_types}")
@@ -386,6 +389,13 @@ def generate():
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['wiki_itemcard'] = wiki_itemcard
     env.globals['len'] = len
+
+    # env.filters['damage_type'] = shared.functions.damage_type
+    # env.filters['armor_type'] = shared.functions.armor_type
+    # env.filters['thousands'] = shared.functions.format_thousands
+    # env.filters['nl2br'] = shared.functions.nl2br
+    # env.filters['nl2p'] = shared.functions.nl2p
+    env.filters['replace_glossary'] = shared.functions.replace_glossary
    
     
     #STAGES
@@ -606,6 +616,8 @@ def generate():
     season_jp['EventContentOpenTime'] = season_jp['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
     season_jp['ExtensionTime'] = season_jp['ExtensionTime'].replace(' ','T')[:-3]+'+09'
     season_jp['LocalizeName'] = season['LocalizeName']
+    season_jp['LocalizeTitle'] = season['LocalizeTitle']
+    season_jp['LocalizeDescription'] = season['LocalizeDescription']
     template = env.get_template('events/template_event_dates.txt')
     wikitext_event_dates = '\n==Schedule==\n' + template.render(title='Japanese Version', server='JP', season=season_jp)
 
@@ -615,6 +627,8 @@ def generate():
         season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
         season_gl['ExtensionTime'] = season_gl['ExtensionTime'].replace(' ','T')[:-3]+'+00'
         season_gl['LocalizeName'] = season['LocalizeName']
+        season_gl['LocalizeTitle'] = season['LocalizeTitle']
+        season_gl['LocalizeDescription'] = season['LocalizeDescription']
         #template = env.get_template('events/template_event.txt')
         wikitext_event_dates += template.render(title='Global Version', server='GL', season=season_gl)
 

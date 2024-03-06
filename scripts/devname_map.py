@@ -30,7 +30,7 @@ def generate():
 
         try:
             character = Character.from_data(chardata['Id'], data)
-            map[character.dev_name] = {'firstname': character.personal_name_en, 'lastname': character.family_name_en, 'variant': character.variant}
+            map[character.dev_name.replace('_default','')] = {'firstname': character.personal_name_en, 'lastname': character.family_name_en, 'variant': character.variant}
 
         except Exception as err:
             print(f'Failed to parse for DevName {chardata["DevName"]}: {err}')
@@ -38,7 +38,7 @@ def generate():
 
  
 
-    with open('devname_map.json', 'w', encoding="utf8") as f:
+    with open('./translation/devname_map.json', 'w', encoding="utf8") as f:
         f.write(json.dumps(map, sort_keys=False, indent=4))
         f.close()
     

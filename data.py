@@ -515,6 +515,9 @@ def load_localization(path_primary, path_secondary, path_translation):
 
     found = 0
     for key, line in data_primary.items():
+        if key in data_aux and key in data_secondary and data_aux[key]['En'] != data_secondary[key]['En']:
+            #print(f"Retaining official translation as EnGlobal:\n AUX :{data_aux[key]['En']}\n GLOB:{data_secondary[key]['En']}")
+            line['EnGlobal'] = data_secondary[key]['En']
         if key in data_aux:
             line['En'] = data_aux[key]['En']
             #if line['Jp'] != data_aux[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔aux Jp line {key}: {line['Jp']} | {data_aux[key]['Jp']}" )
