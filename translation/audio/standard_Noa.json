@@ -243,7 +243,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Noa_ExSkill_Level_3",
             "LocalizeJP": "隠れたところで、私の記録からは逃れられません。",
-            "LocalizeEN": "You can't escape my records in secret."
+            "LocalizeEN": "You can't escape my records even if you hide."
         },
         {
             "CharacterId": 10052,
@@ -264,7 +264,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Noa_Growup_3",
             "LocalizeJP": "先生の指導はとてもわかりやすいですね。",
-            "LocalizeEN": "The teacher's instructions are very easy to understand."
+            "LocalizeEN": "Sensei's instructions are very easy to understand."
         },
         {
             "CharacterId": 10052,
@@ -278,28 +278,28 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Noa_Relationship_Up_1",
             "LocalizeJP": "先生のお話はまるで暖かな夕焼けみたいですね。",
-            "LocalizeEN": "Your story is like a warm sunset."
+            "LocalizeEN": "Sensei's word are like a warm sunset."
         },
         {
             "CharacterId": 10052,
             "DialogCategory": "Relationship",
             "VoiceClip": "Noa_Relationship_Up_2",
             "LocalizeJP": "いつもご協力ありがとうございます、先生。",
-            "LocalizeEN": "Thank you for your cooperation, Sensei."
+            "LocalizeEN": "Thank you for your continued support, Sensei."
         },
         {
             "CharacterId": 10052,
             "DialogCategory": "Relationship",
             "VoiceClip": "Noa_Relationship_Up_3",
             "LocalizeJP": "少しばかり、記録が難しいです。良いという言葉だけじゃ、足りないのかも。",
-            "LocalizeEN": "It's a little bit difficult to record."
+            "LocalizeEN": "Recording is a bit difficult. To use the word \"good\" may not be sufficient."
         },
         {
             "CharacterId": 10052,
             "DialogCategory": "Relationship",
             "VoiceClip": "Noa_Relationship_Up_4",
             "LocalizeJP": "今のこの感情は、記録に残したく…、ありませんね。",
-            "LocalizeEN": "I don't want this feeling right now on the record."
+            "LocalizeEN": "I don't want this feeling right now to be recorded."
         }
     ]
 }
