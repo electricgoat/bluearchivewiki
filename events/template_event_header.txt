@@ -1,5 +1,13 @@
 [[File:Event {{season['LocalizeName']['En']}}.png|thumb|Event promo image]]
-{{season['LocalizeName']['En']}} is the '''00th''' [[Events|event]] in Blue Archive.
+
+{%- if 1<season['EventContentId']<1000 %}
+{{season['LocalizeTitle']['En']}} is the '''00th''' [[Events|event]] in Blue Archive.
+{{'{{'}}EventRerunLink{{'}}'}}
+{% elif 10000<season['EventContentId']<11000 %}
+This is a rerun version of the original [[{{'{{'}}BASEPAGENAME{{'}}'}}|{{season['LocalizeTitle']['En']}}]] event.
+{% elif 900000<season['EventContentId']<901000 %}
+This is a permanent version of the original [[{{'{{'}}BASEPAGENAME{{'}}'}}|{{season['LocalizeTitle']['En']}}]] event. Permanent versions are not time-limited, once made available, this version can be accessed indefinitely. Only the Story section is available in permanent events, allowing players to read the story and acquire the event-limited character (if any), no farming or challenge stages from previous runs of this event are accessible.
+{% endif -%}
 
 __TOC__
 =Event Notice=

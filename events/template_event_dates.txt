@@ -3,7 +3,7 @@
 | Id = {{season['EventContentId']}}
 | OriginalId = {{season['OriginalEventContentId']}}
 | Server = {{server}}
-| Category = Event
+| Category = {% if 900000<season['EventContentId']<901000 %}PermanentEvent{% else %}Event{% endif %}
 {% if server == 'JP' %}| NameJP = {{season['LocalizeTitle'].get('Jp')}}
 {% endif -%}
 | NameEN = {{server == 'JP' and season['LocalizeTitle'].get('En') or season['LocalizeTitle'].get('EnGlobal', season['LocalizeTitle'].get('En', ''))}}

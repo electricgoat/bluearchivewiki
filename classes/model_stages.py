@@ -5,7 +5,7 @@
 import collections
 import re
 import shared.functions
-from shared.functions import armor_type, damage_type, environment_type
+from shared.functions import armor_type, damage_type, environment_type, hashkey
 
 
 ignore_item_id = [
@@ -248,6 +248,10 @@ class EventStage(object):
         rewards = cls.get_rewards(stage, data)
         enter_cost =  cls.wiki_enter_cost(stage, data)
 
+        # TODO figure out hashing
+        # if hashkey(stage['Name']) in data.localization:
+        #     name_en = data.localization[hashkey(stage['Name'])].get('En', data.localization[hashkey(stage['Name'])].get('Jp', '') )
+        # else:
         name_en = f"{DIFFICULTY[stage['StageDifficulty']]} {stage['StageNumber']}"
 
         devname_characters = {x['DevName']:{'Id':x['Id'], 'BulletType':x['BulletType'],'ArmorType':x['ArmorType']} for x in data.characters.values()}

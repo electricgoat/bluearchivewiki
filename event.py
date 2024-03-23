@@ -98,54 +98,6 @@ def wiki_itemcard(reward, *params):
     return '{{'+card_type+'|'+(reward.name != None and reward.name or 'Unknown')+quantity+probability+'|text=|60px|block}}'
 
 
-# def wiki_card(type, id, **params ):
-#     global data, items, furniture, emblems
-#     wikitext_params = ''
-
-#     match type:
-#         case 'Item':
-#             card_type = 'ItemCard'
-#             name = items[id].name_en
-#         case 'Equipment':
-#             card_type = 'ItemCard'
-#             name = data.etc_localization[data.equipment[id]['LocalizeEtcId']]['NameEn']
-#         case 'Currency':
-#             card_type = 'ItemCard'
-#             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
-#         case 'Character':
-#             card_type = 'CharacterCard'
-#             name = characters[id].wiki_name
-#         case 'Furniture':
-#             card_type = 'FurnitureCard'
-#             name = furniture[id].name_en
-#         case 'Emblem':
-#             card_type = 'TitleCard'
-#             name = emblems[id].name
-#         case _:
-#             card_type = 'ItemCard'
-#             name = None
-#             print(f'Unrecognized item type {type}')
-    
-#     if 'probability' in params:
-#         wikitext_params += f"|probability={params['probability']:g}"
-
-#     if 'quantity' in params and params['quantity'] != None:
-#         wikitext_params += f"|quantity={params['quantity']}"
-
-#     if 'text' in params:
-#         text = params['text'] != None and params['text'] or ''
-#         wikitext_params += f"|text={text}"
-
-#     if 'size' in params:
-#         wikitext_params += f"|{params['size']}"
-
-#     if 'block' in params:
-#         wikitext_params += f"|block"
-
-#     if name == None: print (f"Unknown {type} item {id}")
-#     return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
-
-
 
 def parse_missions(season_id):
     global args, data, missions
