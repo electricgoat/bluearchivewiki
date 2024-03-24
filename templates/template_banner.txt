@@ -1,0 +1,13 @@
+{{'{{'}}Banner
+| Id = {{entry['LinkedRobbyBannerId']}}
+| Server = {{region.upper()}}
+| NameJP = 
+| NameEN = 
+| Image =  {{entry['Image']}}
+| Rateup_character = {{', '.join(entry['RateupCharacters'])}}
+| Limited = {% if entry['IsLimited'] %}yes{% else %}no{% endif %}
+| Start_date = {{entry['WikiSalePeriodFrom']}}
+| End_date = {{entry['WikiSalePeriodTo']}}
+| Notes = {{', '.join(entry['Notes'])}}
+{{'}}'}}
+

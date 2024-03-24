@@ -1,4 +1,6 @@
 import re
+import os
+import json
 from xxhash import xxh32_intdigest
 
 def colorize(text:str):
@@ -236,3 +238,16 @@ def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:di
 
 def hashkey(text:str)->int:
     return xxh32_intdigest(text)
+
+
+def load_json_file(path: str, file: str):
+    return json.loads(load_file(path, file))
+
+
+def load_file(path: str, file: str):
+    if os.path.exists(os.path.join(path, file)):
+        with open(os.path.join(path, file), encoding="utf8") as f:
+            data = f.read()
+            f.close()
+        return data
+    else: return "{}"

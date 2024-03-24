@@ -663,7 +663,9 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
 
 BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
-    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'event_content_season', 'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule']
+    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'event_content_season', 
+     'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule',
+     'shop_recruit']
 )
 
 def load_season_data(path):
@@ -675,4 +677,5 @@ def load_season_data(path):
         week_dungeon=           load_generic(path, 'WeekDungeonExcelTable.json', key='StageId'),
         week_dungeon_reward=    load_file_grouped(os.path.join(path, 'Excel', 'WeekDungeonRewardExcelTable.json'), 'GroupId'),
         week_dungeon_open_schedule= load_generic(path, 'WeekDungeonOpenScheduleExcelTable.json', key='WeekDay'),
+        shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
     )
