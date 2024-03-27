@@ -4283,7 +4283,7 @@
         {
             "GroupId": "CH9996ExtraPassive01",
             "NameEn": "Me too!",
-            "DescriptionEn": "Increase Attack of all allies  by $1."
+            "DescriptionEn": "Increase Attack of all allies by $1."
         },
 
         {
@@ -4707,9 +4707,65 @@
             "GroupId": "CH0196ExtraPassive01",
             "NameEn": "Want seconds?",
             "DescriptionEn": "Increase Mystic Efficiency of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0110Ex01",
+            "NameEn": "The festival has begun!",
+            "DescriptionEn": "Summon a fireworks launcher for $1. (up to $2 can be deployed at the same time)\nThe fireworks launcher additionally inherits $3 of Umika's HP."
+        },
+        {
+            "GroupId": "SM011001Public01",
+            "NameEn": "Launch... fireworks!",
+            "DescriptionEn": "When Umika orders the fireworks launcher to fire, it activates the \"Launch... fireworks!\" ability and deals $1 damage to one enemy.\nAfterwards, clear firing order.\n(Damage is calculated based on the fireworks launcher stats)"
+        },
+        {
+            "GroupId": "CH0110Public01",
+            "NameEn": "Ta~ ma~ ya~!",
+            "DescriptionEn": "Every $1 Normal attacks, increase Attack by $2 for $3.\nAdditionally, increase Attack of all allied fireworks launchers by $1 for $2. Order a launch."
+        },
+        {
+            "GroupId": "CH0110Passive01",
+            "NameEn": "Exciting show",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0110WeaponPassive01",
+            "NameEn": "Exciting show +",
+            "DescriptionEn": "Increase Attack by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0110ExtraPassive01",
+            "NameEn": "Thrill of the festival",
+            "DescriptionEn": "Every $1 Normal attacks, increase Attack by $2 for $3.\nAdditionally, decrease own EX skill cost by $4. (Reduction active until EX is activated $5 time)"
+        },
+
+        {
+            "GroupId": "CH0255Ex01",
+            "NameEn": "Inner discipline president's guidance",
+            "DescriptionEn": "Increase Attack of all allies within a circular area by $1 for $2.\n(Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0255Public01",
+            "NameEn": "Power nap instructions",
+            "DescriptionEn": "Every $1, heal an ally with the lowest HP for $2 of Healing.\nAdditionally, increase Critical Resistance by $3 for $4."
+        },
+        {
+            "GroupId": "CH0255Passive01",
+            "NameEn": "Guide's pride",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0255WeaponPassive01",
+            "NameEn": "Guide's pride +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0255ExtraPassive01",
+            "NameEn": "Customer service",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
         
         
-
     ]
 }

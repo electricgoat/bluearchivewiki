@@ -16,37 +16,33 @@ from data import load_data, load_season_data
 from model import Item, Furniture, Character
 #from classes.Gacha import GachaGroup, GachaElement
 
+EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha']
+REGION_TIMEZONE = {'jp':'+09', 'gl':'+00'}
+
 args = None
 data = None
 characters = {}
-season_data = {'jp':None, 'gl':None}
+regional_data = {'jp':None, 'gl':None}
 prodnotice_banners = {}
-
-EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha']
-
-known_rateups = [] #tracked for rerun detection
-
 
 
 def generate():
-    global args, data, season_data, characters
+    global args, data, regional_data, characters
     global known_rateups
-
-   
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     template = env.get_template('templates/template_banner.txt')
 
-    for region in season_data.keys():
+    for region in regional_data.keys():
         wikitext = ''
-        known_rateups = []
+        known_rateups = [] #tracked for rerun detection
         print (f"============ {region.upper()} seasons ============")
-        shop_recruit = list(sorted(season_data[region].shop_recruit.values(), key=lambda item: item['SalePeriodFrom']))
+        shop_recruit = list(sorted(regional_data[region].shop_recruit.values(), key=lambda item: item['SalePeriodFrom']))
         for banner in shop_recruit:
             if banner['CategoryType'] not in EXPORT_CAT:
                 continue
 
-            process_banner(banner)
+            process_banner(banner, region, known_rateups)
             wikitext += template.render(region=region, entry=banner)
 
         with open(os.path.join(args['outdir'], f'_banners_{region}.txt'), 'w', encoding="utf8") as f:
@@ -54,8 +50,7 @@ def generate():
 
 
 
-def process_banner(entry):
-    global known_rateups
+def process_banner(entry, region, known_rateups):
     global prodnotice_banners
     
     image = ''
@@ -79,8 +74,8 @@ def process_banner(entry):
     print (f"{str(entry['LinkedRobbyBannerId']).rjust(4, ' ')} {', '.join(rateup_characters).ljust(24, ' ')}: {entry['SalePeriodFrom']} ~ {entry['SalePeriodTo']} {', '.join(notes+notes_extra)}")
     known_rateups.extend(rateup_characters)
 
-    entry['WikiSalePeriodFrom'] = entry['SalePeriodFrom'].replace(' ','T')[:-3]+'+09'
-    entry['WikiSalePeriodTo'] = entry['SalePeriodTo'].replace(' ','T')[:-3]+'+09'
+    entry['WikiSalePeriodFrom'] = entry['SalePeriodFrom'].replace(' ','T')[:-3] + REGION_TIMEZONE[region]
+    entry['WikiSalePeriodTo'] = entry['SalePeriodTo'].replace(' ','T')[:-3] + REGION_TIMEZONE[region]
     entry['RateupCharacters'] = rateup_characters
     entry['Image'] = image 
     entry['Notes'] = notes
@@ -89,12 +84,12 @@ def process_banner(entry):
 
 
 def init_data():
-    global args, data, season_data, characters
+    global args, data, regional_data, characters
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
-    season_data['jp'] = load_season_data(args['data_primary'])
-    season_data['gl'] = load_season_data(args['data_secondary']) 
+    regional_data['jp'] = load_season_data(args['data_primary'])
+    regional_data['gl'] = load_season_data(args['data_secondary']) 
 
 
     for character in data.characters.values():
@@ -129,7 +124,7 @@ def main():
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
-    parser.add_argument('-jp_prodnotice',   metavar='DIR', default='../ba-cdn/data_jp/prodnotice', help='Local JP prodnotice directory')
+    parser.add_argument('-jp_prodnotice',   metavar='DIR', default='../ba-cdn/data_jp/prodnotice', help='Local JP prodnotice directory, optional, used to get banner image name')
     #parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), required=True, help='Wiki (bot) login and password')
 
     args = vars(parser.parse_args())

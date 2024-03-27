@@ -245,8 +245,16 @@ def load_skills_translation(path):
 
 
 def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key'):
-    data_primary = load_file(os.path.join(path_primary, 'Excel', filename), key)
-    data_secondary = load_file(os.path.join(path_secondary, 'Excel', filename), key)
+    file_path = os.path.join(path_primary, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path_primary, 'Excel', filename)
+    with open(file_path, encoding="utf8") as f:
+        data_primary = load_file(file_path, key)
+
+    file_path = os.path.join(path_secondary, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path_secondary, 'Excel', filename)
+    with open(file_path, encoding="utf8") as f:
+        data_secondary = load_file(file_path, key)
+
     data_aux = None
 
     index_list = list(data_primary.keys())
