@@ -1,6 +1,7 @@
 import os
 import traceback
 import argparse
+import re
 
 import wiki
 
@@ -43,14 +44,20 @@ def generate():
     #Memory lobbies tracklist
     memolobby_tracklist = sorted(set([x['BGMId'] for x in data.memory_lobby.values()]))
 
-    # Filter tracks with ID under 999 or those explicitly used in memorylobbies
-    def has_info(track_data):
-        return True if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM') else False
+    def wiki_file_name(track_id, track_data):
+        filename = f"Track_{track_id}"
         
+        if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM'):  
+            filename += re.sub(r'<[^>]+>.*?<\/[^>]+>', '', '_'+track_data['ArtistEn']+'_'+track_data['NameEn'])
+
+        return filename.replace(':','').replace(' ','_') + '.ogg'
+        
+
+    # Filter tracks with ID under 999 or those explicitly used in memorylobbies  
     filtered_data = {
         track_id: {
             **track_data,
-            'WikiFilename': f"Track_{track_id}{'_'+track_data['ArtistEn'] if has_info(track_data) else ''}{'_'+track_data['NameEn'] if has_info(track_data) else ''}.ogg".replace(' ', '_')
+            'WikiFilename': wiki_file_name(track_id, track_data)
         }
         for track_id, track_data in data.bgm.items()
         if track_id < 999 or track_id in memolobby_tracklist
@@ -65,7 +72,7 @@ def generate():
 
     wikitext = template.render(filtered_data=filtered_data)
 
-    with open(os.path.join(args['outdir'], f"soundtrack.txt"), 'w+', encoding="utf8") as f:
+    with open(os.path.join(args['outdir'], f"_soundtrack.txt"), 'w+', encoding="utf8") as f:
         f.write(wikitext)
 
     if wiki.site != None:
