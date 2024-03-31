@@ -50,7 +50,7 @@ def generate():
         if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM'):  
             filename += re.sub(r'<[^>]+>.*?<\/[^>]+>', '', '_'+track_data['ArtistEn']+'_'+track_data['NameEn'])
 
-        return filename.replace(':','').replace(' ','_') + '.ogg'
+        return re.sub(r'[:/\\]', '', filename).replace(' ','_') + '.ogg'
         
 
     # Filter tracks with ID under 999 or those explicitly used in memorylobbies  

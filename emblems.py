@@ -47,6 +47,10 @@ def generate():
     existing_names = []
 
     for emblem in emblems.values():
+        if emblem.category == 'Potential':
+            continue
+
+
         wikitext = template.render(emblem=emblem)
         
         name = emblem.name
@@ -55,6 +59,9 @@ def generate():
 
         if emblem.category == 'Boss': 
             name = f"{emblem.name}_({bossdiff(emblem.rarity)})"
+
+        if emblem.category == 'MultiFloorRaid': 
+            name = f"{emblem.name}_({emblem._rarity})"
 
 
         if name in existing_names: print(f"WARNING Filename {name} is used more than once")
@@ -97,7 +104,7 @@ def upload_asset(local_path, wiki_name, existing_files):
 
     full_path = os.path.join(args['assets_dir'], 'Assets', '_MX', 'AddressableAsset', f"{local_path}.png")
     if not os.path.exists(full_path): 
-        print(f"File not found: {full_path}")
+        #print(f"File not found: {full_path}")
         return False
     
     if wiki.page_exists(f"File:{wiki_name}"):
@@ -161,7 +168,7 @@ def main():
     parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
-    parser.add_argument('-assets_dir',     metavar='DIR', default='C:/Games/datamine/blue_archive/work_240221/', help='Directory with exported assets')
+    parser.add_argument('-assets_dir',     metavar='DIR', default='C:/Games/datamine/blue_archive/work_240327/', help='Directory with exported assets')
     parser.add_argument('-outdir',          metavar='DIR', default='./out/emblems', help='Output directory')
     
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')

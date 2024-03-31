@@ -9,6 +9,7 @@ BlueArchiveData = collections.namedtuple(
      'costumes',
     'skills', 'skills_localization','skill_additional_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
+    'character_potential', 'character_potential_stat',
     'currencies','translated_currencies',
     'items',
     'equipment',
@@ -27,6 +28,7 @@ BlueArchiveData = collections.namedtuple(
     'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
+    'multi_floor_raid_stage', 'multi_floor_raid_reward', 'multi_floor_raid_stat_change',
     'bgm','voice','voice_spine',
     'operator',
     'field_season', 'field_world_map_zone', 'field_quest', 'field_reward', 'field_evidence', 'field_keyword', 'field_date', 'field_interaction', 'field_content_stage', 'field_content_stage_reward',
@@ -47,11 +49,13 @@ def load_data(path_primary, path_secondary, path_translation):
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
         #skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
         skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
-        skill_additional_tooltip =  load_file_grouped(os.path.join(path_primary, 'DB', 'SkillAdditionalTooltipExcelTable.json'), key='GroupId'),
+        skill_additional_tooltip =  load_file_grouped(path_primary, 'SkillAdditionalTooltipExcelTable.json', key='GroupId'),
         translated_characters =     load_characters_translation(path_translation),
         translated_skills =         load_skills_translation(path_translation),
         weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
         gear =                      load_gear(path_primary),
+        character_potential=        load_file_grouped(path_primary, 'CharacterPotentialExcelTable.json', key='Id'),
+        character_potential_stat=   load_file_grouped(path_primary, 'CharacterPotentialStatExcelTable.json', key='PotentialStatGroupId'),
         currencies=                 load_generic(path_primary, 'CurrencyExcelTable.json', key='ID'),
         translated_currencies=      load_currencies_translation(path_translation),
         items=                      load_generic(path_primary, 'ItemExcelTable.json'),
@@ -76,44 +80,47 @@ def load_data(path_primary, path_secondary, path_translation):
         furniture_group=            load_generic(path_primary, 'FurnitureGroupExcelTable.json'),
         cafe_interaction=           load_generic(path_primary, 'CafeInteractionExcelTable.json', key='CharacterId'),
         campaign_stages=            load_generic(path_primary, 'CampaignStageExcelTable.json'),
-        campaign_stage_rewards=     load_campaign_stage_rewards(path_primary),
+        campaign_stage_rewards=     load_file_grouped(path_primary, 'CampaignStageRewardExcelTable.json', 'GroupId'),
         campaign_strategy_objects=  load_generic(path_primary, 'CampaignStrategyObjectExcelTable.json'),
         campaign_units=             load_generic(path_primary, 'CampaignUnitExcelTable.json'),
         event_content_seasons=      load_event_content_seasons(path_primary),
         event_content_stages=       load_generic(path_primary, 'EventContentStageExcelTable.json'),
-        event_content_stage_rewards=load_event_content_stage_rewards(path_primary),
+        event_content_stage_rewards=load_file_grouped(path_primary, 'EventContentStageRewardExcelTable.json', 'GroupId'),
         event_content_stage_total_rewards = load_generic(path_primary, 'EventContentStageTotalRewardExcelTable.json'),
         event_content_mission=      load_generic(path_primary, 'EventContentMissionExcelTable.json'),
-        event_content_character_bonus= load_event_content_character_bonus(path_primary),
-        event_content_currency=     load_event_content_currency(path_primary),
-        event_content_shop_info=    load_event_content_shop_info(path_primary),
-        event_content_shop=         load_event_content_shop(path_primary),
+        event_content_character_bonus= load_file_grouped(path_primary, 'EventContentCharacterBonusExcelTable.json', 'EventContentId'),
+        event_content_currency=     load_file_grouped(path_primary, 'EventContentCurrencyItemExcelTable.json', 'EventContentId'),
+        event_content_shop_info=    load_file_grouped(path_primary, 'EventContentShopInfoExcelTable.json', 'EventContentId'),
+        event_content_shop=         load_file_grouped(path_primary, 'EventContentShopExcelTable.json', 'EventContentId'),
         event_content_zone=         load_generic(path_primary, 'EventContentZoneExcelTable.json'),
         event_content_location_reward = load_generic(path_primary, 'EventContentLocationRewardExcelTable.json'),
-        event_content_box_gacha_manage= load_event_content_box_gacha_manage(path_primary),
-        event_content_box_gacha_shop= load_event_content_box_gacha_shop(path_primary),
-        event_content_fortune_gacha_shop= load_event_content_fortune_gacha_shop(path_primary),
+        event_content_box_gacha_manage= load_file_grouped(path_primary, 'EventContentBoxGachaManageExcelTable.json', 'EventContentId'),
+        event_content_box_gacha_shop= load_file_grouped(path_primary, 'EventContentBoxGachaShopExcelTable.json', 'EventContentId'),
+        event_content_fortune_gacha_shop= load_file_grouped(path_primary, 'EventContentFortuneGachaShopExcelTable.json', 'EventContentId'),
         event_content_card=         load_generic(path_primary, 'EventContentCardExcelTable.json', key='CardGroupId'),
-        event_content_card_shop=    load_event_content_card_shop(path_primary),
+        event_content_card_shop=    load_file_grouped(path_primary, 'EventContentCardShopExcelTable.json', 'EventContentId'),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
-        gacha_elements=             load_gacha_elements(path_primary),
-        gacha_elements_recursive=   load_gacha_elements_recursive(path_primary),
+        gacha_elements=             load_file_grouped(path_primary, 'GachaElementExcelTable.json', 'GachaGroupID'),
+        gacha_elements_recursive=   load_file_grouped(path_primary, 'GachaElementRecursiveExcelTable.json', 'GachaGroupID'),
         gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
         strategymaps=               load_strategymaps(path_primary),
         goods=                      load_generic(path_primary, 'GoodsExcelTable.json'),
         stages=                     load_stages(path_primary),
-        raid_stage=                 load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidStageExcelTable.json'), 'RaidBossGroup'),
-        raid_stage_reward=          load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidStageRewardExcelTable.json'), 'GroupId'),
+        raid_stage=                 load_file_grouped(path_primary, 'RaidStageExcelTable.json', 'RaidBossGroup'),
+        raid_stage_reward=          load_file_grouped(path_primary, 'RaidStageRewardExcelTable.json', 'GroupId'),
         raid_stage_season_reward=   load_generic(path_primary, 'RaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
-        raid_ranking_reward=        load_file_grouped(os.path.join(path_primary, 'Excel', 'RaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
+        raid_ranking_reward=        load_file_grouped(path_primary, 'RaidRankingRewardExcelTable.json', 'RankingRewardGroupId'),
         #world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
-        world_raid_stage=           load_file_grouped(os.path.join(path_primary, 'Excel', 'WorldRaidStageExcelTable.json'), 'WorldRaidBossGroupId'),
-        world_raid_stage_reward=    load_world_raid_stage_reward(path_primary),
+        world_raid_stage=           load_file_grouped(path_primary, 'WorldRaidStageExcelTable.json', 'WorldRaidBossGroupId'),
+        world_raid_stage_reward=    load_file_grouped(path_primary, 'WorldRaidStageRewardExcelTable.json', 'GroupId'),
         world_raid_boss_group=      load_generic(path_primary, 'WorldRaidBossGroupExcelTable.json', key='WorldRaidBossGroupId'),
-        eliminate_raid_stage=       load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidStageExcelTable.json'), 'RaidBossGroup'),
-        eliminate_raid_stage_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidStageRewardExcelTable.json'), 'GroupId'),
+        eliminate_raid_stage=       load_file_grouped(path_primary, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),
+        eliminate_raid_stage_reward=load_file_grouped(path_primary, 'EliminateRaidStageRewardExcelTable.json', 'GroupId'),
         eliminate_raid_stage_season_reward=load_generic(path_primary, 'EliminateRaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
-        eliminate_raid_ranking_reward=load_file_grouped(os.path.join(path_primary, 'Excel', 'EliminateRaidRankingRewardExcelTable.json'), 'RankingRewardGroupId'),
+        eliminate_raid_ranking_reward=load_file_grouped(path_primary, 'EliminateRaidRankingRewardExcelTable.json', 'RankingRewardGroupId'),
+        multi_floor_raid_stage=     load_file_grouped(path_primary, 'MultiFloorRaidStageExcelTable.json', 'BossGroupId'),
+        multi_floor_raid_reward=    load_generic(path_primary, 'MultiFloorRaidRewardExcelTable.json', key='RewardGroupId'),
+        multi_floor_raid_stat_change=load_generic(path_primary, 'MultiFloorRaidStatChangeExcelTable.json', key='StatChangeId'),
         bgm=                        load_bgm(path_primary, path_translation),
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
         #voice_common=               load_generic(path_primary, 'VoiceCommonExcelTable.json', key='VoiceEvent'),
@@ -123,17 +130,16 @@ def load_data(path_primary, path_secondary, path_translation):
         
         field_season =              load_generic(path_primary, 'FieldSeasonExcelTable.json', key='UniqueId'),
         field_world_map_zone =      load_generic(path_primary, 'FieldWorldMapZoneExcelTable.json', key='Id'),
-        field_quest =               load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldQuestExcelTable.json'), 'FieldSeasonId'),
-        field_reward =              load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldRewardExcelTable.json'), 'GroupId'),
+        field_quest =               load_file_grouped(path_primary, 'FieldQuestExcelTable.json', 'FieldSeasonId'),
+        field_reward =              load_file_grouped(path_primary, 'FieldRewardExcelTable.json', 'GroupId'),
         field_evidence =            load_generic(path_primary, 'FieldEvidenceExcelTable.json', key='UniqueId'),
         field_keyword =             load_generic(path_primary, 'FieldKeywordExcelTable.json', key='UniqueId'),
         field_date =                load_generic(path_primary, 'FieldDateExcelTable.json', key='UniqueId'),
         field_interaction =         load_generic(path_primary, 'FieldInteractionExcelTable.json', key='UniqueId'),
         field_content_stage =       load_generic(path_primary, 'FieldContentStageExcelTable.json'),
-        field_content_stage_reward= load_file_grouped(os.path.join(path_primary, 'Excel', 'FieldContentStageRewardExcelTable.json'), 'GroupId'),
+        field_content_stage_reward= load_file_grouped(path_primary, 'FieldContentStageRewardExcelTable.json', 'GroupId'),
         emblem=                     load_generic(path_primary, 'EmblemExcelTable.json', key='Id'),
     )
-
 
 
 def load_generic(path, filename, key='Id'):
@@ -142,10 +148,6 @@ def load_generic(path, filename, key='Id'):
     if not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
 
     return load_file(file_path, key)
-
-
-# def load_generic_db(path, filename, key='Id'):
-#     return load_file(os.path.join(path, 'DB', filename), key)
 
 
 def load_file(file, key='Id'):
@@ -165,15 +167,17 @@ def load_json(path, filename):
     return data['DataList']
 
 
-def load_file_grouped(file, key="Id"):
-    with open(file,encoding="utf8") as f:
+def load_file_grouped(path, filename, key='Id'):
+    #DB files take priority if they are present
+    file_path = os.path.join(path, 'DB', filename)
+    if not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
+    with open(file_path, encoding="utf8") as f:
         data = json.load(f)
     groups = collections.defaultdict(list)
     for item in data['DataList']:
         groups[item[key]].append(item)
 
     return dict(groups)
-
 
 
 # Even old JP script keeps getting tweaked, so clean out some formatting changes for better matching
@@ -396,10 +400,6 @@ def convert_boolean_strings(obj):
     return obj
 
 
-def load_campaign_stage_rewards(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'CampaignStageRewardExcelTable.json'), 'GroupId')
-
-
 def load_event_content_seasons(path):
     with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
@@ -411,19 +411,6 @@ def load_event_content_seasons(path):
         in data['DataList']
     }
   
-
-def load_event_content_stage_rewards(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentStageRewardExcelTable.json'), 'GroupId')
-
-def load_strategies_translations(path):
-    return load_file(os.path.join(path, 'Strategies.json'), key='Name')
-
-def load_gacha_elements(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'GachaElementExcelTable.json'), 'GachaGroupID')
-
-def load_gacha_elements_recursive(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'GachaElementRecursiveExcelTable.json'), 'GachaGroupID')
-
 
 def load_strategymaps(path_primary):
     data = {}
@@ -449,35 +436,6 @@ def load_stages(path_primary):
             data[file[:file.index('.')]] = json.load(f)
 
     return data
-
-
-    
-def load_event_content_character_bonus(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCharacterBonusExcelTable.json'), 'EventContentId')
-
-def load_event_content_currency(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCurrencyItemExcelTable.json'), 'EventContentId')
-
-def load_event_content_shop_info(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopInfoExcelTable.json'), 'EventContentId')
-
-def load_event_content_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentShopExcelTable.json'), 'EventContentId')
-
-def load_event_content_box_gacha_manage(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaManageExcelTable.json'), 'EventContentId')
-
-def load_event_content_box_gacha_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentBoxGachaShopExcelTable.json'), 'EventContentId')
-
-def load_event_content_fortune_gacha_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentFortuneGachaShopExcelTable.json'), 'EventContentId')
-
-def load_event_content_card_shop(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'EventContentCardShopExcelTable.json'), 'EventContentId')
-
-def load_world_raid_stage_reward(path):
-    return load_file_grouped(os.path.join(path, 'Excel', 'WorldRaidStageRewardExcelTable.json'), 'GroupId')
 
 
 def load_bgm(path_primary, path_translation):
@@ -681,9 +639,10 @@ def load_season_data(path):
         raid_season=            load_generic(path, 'RaidSeasonManageExcelTable.json', key='SeasonId'),
         world_raid_season=      load_generic(path, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
         eliminate_raid_season=  load_generic(path, 'EliminateRaidSeasonManageExcelTable.json', key='SeasonId'),
+        multi_floor_raid_season=load_generic(path, 'MultiFloorRaidSeasonManageExcelTable.json', key='SeasonId'),
         event_content_season=   load_event_content_seasons(path),
         week_dungeon=           load_generic(path, 'WeekDungeonExcelTable.json', key='StageId'),
-        week_dungeon_reward=    load_file_grouped(os.path.join(path, 'Excel', 'WeekDungeonRewardExcelTable.json'), 'GroupId'),
+        week_dungeon_reward=    load_file_grouped(path, 'WeekDungeonRewardExcelTable.json', key='GroupId'),
         week_dungeon_open_schedule= load_generic(path, 'WeekDungeonOpenScheduleExcelTable.json', key='WeekDay'),
         shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
     )

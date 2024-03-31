@@ -89,7 +89,7 @@ def item_sort_order(item):
 
 def replace_glossary(item:str = None):
     glossary = {
-        'Field':'Outdoor',
+        #'Field':'Outdoor',
         'Valkyrie Police School':'Valkyrie Police Academy',
         'Cherenka':'Cheryonka',
         '※ This item will disappear if not used by 14:00 on 8/19/2021.':'',
@@ -251,3 +251,71 @@ def load_file(path: str, file: str):
             f.close()
         return data
     else: return "{}"
+
+
+
+def replace_units(text):
+    
+    #text = re.sub('1回', 'once', text)
+    #text = re.sub('2回', 'twice', text)
+    #text = re.sub('3回', 'three times', text)
+    text = re.sub('回', '', text)
+    text = re.sub('つ', '', text)
+    text = re.sub('\]1秒\[', ']1 second[', text)
+    text = re.sub('秒', ' seconds', text)
+    text = re.sub('個', '', text)
+    text = re.sub('発分', ' hits', text)
+    return text
+
+
+def replace_statnames(stat_list):
+    list_out = []
+    if type(stat_list) == str: stat_list = [stat_list] 
+    
+    for item in stat_list:
+        item = re.sub('OppressionPower', 'CC Strength', item)
+        item = re.sub('OppressionResist', 'CC Resistance', item)        
+        
+        item = re.sub('_Base', '', item)
+        item = re.sub('Power', '', item)
+        item = re.sub('Max', '', item)
+        item = re.sub('Point', '', item)
+        item = re.sub('Rate', '', item)
+        item = re.sub('Normal', '', item)
+        item = re.sub('Heal', 'Healing', item)
+        item = re.sub('Speed', ' Speed', item)
+        item = re.sub('Damage', ' Damage', item)
+
+        list_out.append(item)     
+    #return([re.sub('_Base', '', item) for item in stat_list])
+    return (list_out)
+
+def statcalc_replace_statname(stat_name):
+    return {
+            'AttackPower': 'attack',
+            'DefensePower': 'defense',
+            'HealPower': 'healing',
+            'MaxHP': 'hp',
+
+            'CriticalDamageRate': 'crit_damage',
+            'CriticalPoint': 'crit_rate',
+            'AccuracyPoint': 'accuracy',
+            'DodgePoint': 'evasion',
+            'OppressionPower': 'cc_str',
+            '': 'cc_res',
+            '': 'crit_res',
+            '': 'critdamage_res',
+            'HealEffectivenessRate': 'healing_inc',
+            'StabilityPoint': 'stability',
+            'NormalAttackSpeed': '',
+            'BlockRate': '',
+            'MoveSpeed': 'move_speed',
+            'DefensePenetration': '',
+            'MaxBulletCount': '',
+            'ExtendBuffDuration':'',
+            'ExtendDebuffDuration':'',
+            'EnhanceExplosionRate':'',
+            'EnhancePierceRate':'',
+            'EnhanceMysticRate':'',
+            'WeaponRange':'weapon_range'
+        }[stat_name]

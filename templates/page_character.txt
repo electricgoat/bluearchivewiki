@@ -97,6 +97,26 @@
 | ordermethod     = title
 | include         = {CharacterAffectionTable}
 }}{% endraw %}
+
+{{'{{'}}CharacterPotentialTable
+{% for i in range(0, character.potential.max_level) -%}
+| AttackLv{{i}} = {{character.potential.groups['AttackPower'].levels[i]['StatBonusRate']}}
+{% for name, amount in character.potential.groups['AttackPower'].levels[i-1].materials -%}
+| AttackUpgradeLv{{i}}_{{loop.index}}_Name = {{name}} | AttackUpgradeLv{{i}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}
+
+| HpLv{{i}} = {{character.potential.groups['AttackPower'].levels[i]['StatBonusRate']}}
+{% for name, amount in character.potential.groups['MaxHP'].levels[i-1].materials -%}
+| HpUpgradeLv{{i}}_{{loop.index}}_Name = {{name}} | HpUpgradeLv{{i}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}
+
+| HealingLv{{i}} = {{character.potential.groups['AttackPower'].levels[i]['StatBonusRate']}}
+{% for name, amount in character.potential.groups['HealPower'].levels[i-1].materials -%}
+| HealingUpgradeLv{{i}}_{{loop.index}}_Name = {{name}} | HealingUpgradeLv{{i}}_{{loop.index}}_Amount = {{amount}}
+{% endfor -%}
+
+{% endfor -%}
+{{'}}'}}
 ===Skills===
 {%- set skill = character.ex_skill %}{% set show_materials = true %}
 {% include "templates/template_skilltable_ex.txt" %}

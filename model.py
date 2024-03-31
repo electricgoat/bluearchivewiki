@@ -4,14 +4,14 @@ import re
 #from googletrans import Translator
 
 from shared.tag_map import map_tags
-from shared.functions import replace_glossary
+from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname
 from shared.glossary import CLUBS
 
 missing_skill_localization = None
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self.school = school
@@ -35,6 +35,7 @@ class Character(object):
         self.weapon = weapon
         self.gear = gear
         self.favor = favor
+        self.potential = potential
         self.memory_lobby = memory_lobby
         self.momotalk = momotalk
         self.liked_gift_tags = liked_gift_tags
@@ -151,6 +152,7 @@ class Character(object):
             Weapon.from_data(character_id, costume, data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
             Favor.from_data(character_id, data),
+            Potential.from_data(character_id, data),
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
@@ -410,18 +412,6 @@ class Skill(object):
         )
 
 
-def replace_units(text):
-    
-    #text = re.sub('1回', 'once', text)
-    #text = re.sub('2回', 'twice', text)
-    #text = re.sub('3回', 'three times', text)
-    text = re.sub('回', '', text)
-    text = re.sub('つ', '', text)
-    text = re.sub('\]1秒\[', ']1 second[', text)
-    text = re.sub('秒', ' seconds', text)
-    text = re.sub('個', '', text)
-    text = re.sub('発分', ' hits', text)
-    return text
 
 def translate_skill(text_jp, skill_level, group_id, data):
     try: skill_desc = data.translated_skills[group_id]['DescriptionEn']
@@ -638,9 +628,11 @@ class GearTier(object):
 
 
 def _get_recipe_materials(recipe_id, data):
-    recipe = data.recipes[recipe_id]
-    if recipe['RecipeType'] != 'EquipmentTierUp':
+    if recipe_id not in data.recipes:
         return
+    recipe = data.recipes[recipe_id]
+    #if recipe['RecipeType'] != 'EquipmentTierUp':
+    #    return
 
     ingredients = data.recipes_ingredients[recipe['RecipeIngredientId']]
     ingredients = itertools.chain(
@@ -672,6 +664,34 @@ class Favor(object):
 
         return cls(
             levels
+        )
+    
+
+class Potential(object):
+    def __init__(self, groups):
+        self.groups = groups
+
+        self.stat_groups = ['AttackPower', 'MaxHP', 'HealPower']
+
+    @property
+    def max_level(self):
+        return len(self.groups['AttackPower']['levels'])
+    
+
+    @classmethod
+    def from_data(cls, character_id, data):
+
+        potential_groups = {x['PotentialStatBonusRateType']:x for x in data.character_potential[character_id]}
+        
+        for stat_group in potential_groups.values():
+            stat_group['levels'] = data.character_potential_stat[stat_group['PotentialStatGroupId']]
+            for level in stat_group['levels']:
+                level['materials'] = _get_recipe_materials(level['RecipeId'], data)
+                #print(recipe)
+
+        #print(potential_levels)
+        return cls(
+            potential_groups
         )
 
 
@@ -715,59 +735,6 @@ class Momotalk(object):
         return cls(
             levels
         )
-
-
-def replace_statnames(stat_list):
-    list_out = []
-    if type(stat_list) == str: stat_list = [stat_list] 
-    
-    for item in stat_list:
-        item = re.sub('OppressionPower', 'CC Strength', item)
-        item = re.sub('OppressionResist', 'CC Resistance', item)        
-        
-        item = re.sub('_Base', '', item)
-        item = re.sub('Power', '', item)
-        item = re.sub('Max', '', item)
-        item = re.sub('Point', '', item)
-        item = re.sub('Rate', '', item)
-        item = re.sub('Normal', '', item)
-        item = re.sub('Heal', 'Healing', item)
-        item = re.sub('Speed', ' Speed', item)
-        item = re.sub('Damage', ' Damage', item)
-
-        list_out.append(item)     
-    #return([re.sub('_Base', '', item) for item in stat_list])
-    return (list_out)
-
-def statcalc_replace_statname(stat_name):
-    return {
-            'AttackPower': 'attack',
-            'DefensePower': 'defense',
-            'HealPower': 'healing',
-            'MaxHP': 'hp',
-
-            'CriticalDamageRate': 'crit_damage',
-            'CriticalPoint': 'crit_rate',
-            'AccuracyPoint': 'accuracy',
-            'DodgePoint': 'evasion',
-            'OppressionPower': 'cc_str',
-            '': 'cc_res',
-            '': 'crit_res',
-            '': 'critdamage_res',
-            'HealEffectivenessRate': 'healing_inc',
-            'StabilityPoint': 'stability',
-            'NormalAttackSpeed': '',
-            'BlockRate': '',
-            'MoveSpeed': 'move_speed',
-            'DefensePenetration': '',
-            'MaxBulletCount': '',
-            'ExtendBuffDuration':'',
-            'ExtendDebuffDuration':'',
-            'EnhanceExplosionRate':'',
-            'EnhancePierceRate':'',
-            'EnhanceMysticRate':'',
-            'WeaponRange':'weapon_range'
-        }[stat_name]
 
 
 

@@ -81,13 +81,14 @@ def generate():
 
         filename = f"{character.wiki_name.replace(' ','_')}_dangle.webm"
         wikipath = f"File:{character.wiki_name.replace(' ','_')}_dangle.webm"       
-                
-        if wiki.page_exists(wikipath):
-            print(f'Updating {wikipath}')
-            wiki.publish(wikipath, wikitext, f'Adding cargo entries for dangle video')
-        elif os.path.exists(os.path.join(args['gallery_dir'], filename)):
-            print (f"Uploading {filename}")
-            wiki.upload(os.path.join(args['gallery_dir'], filename), filename, 'Dangle video upload', wikitext)
+
+        if wiki.site != None:  
+            if wiki.page_exists(wikipath):
+                print(f'Updating {wikipath}')
+                wiki.publish(wikipath, wikitext, f'Adding cargo entries for dangle video')
+            elif os.path.exists(os.path.join(args['gallery_dir'], filename)):
+                print (f"Uploading {filename}")
+                wiki.upload(os.path.join(args['gallery_dir'], filename), filename, 'Dangle video upload', wikitext)
 
 
 
