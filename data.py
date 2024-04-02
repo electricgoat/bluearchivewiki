@@ -629,7 +629,8 @@ def load_scenario_script_favor_part(path_primary, path_secondary, path_translati
 
 BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
-    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'event_content_season', 
+    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'multi_floor_raid_season',
+     'event_content_season', 
      'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule',
      'shop_recruit']
 )

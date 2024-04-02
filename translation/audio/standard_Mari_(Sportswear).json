@@ -19,28 +19,28 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Mari_(Sportswear)_Formation_Select",
             "LocalizeJP": "はい、何でしょうか。",
-            "LocalizeEN": "yes what is it"
+            "LocalizeEN": "Yes. What is it?"
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Tactic",
             "VoiceClip": "Mari_(Sportswear)_Tactic_Defeat_1",
             "LocalizeJP": "申し訳ございません、私の不手際で。",
-            "LocalizeEN": "Sorry for my clumsiness."
+            "LocalizeEN": "I'm very sorry. It was because of my clumsiness that..."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Tactic",
             "VoiceClip": "Mari_(Sportswear)_Tactic_Defeat_2",
             "LocalizeJP": "精進が足りなかったでしょうか。",
-            "LocalizeEN": "Was it not enough diligence?"
+            "LocalizeEN": "Was my devotion not enough?"
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Tactic",
             "VoiceClip": "Mari_(Sportswear)_Tactic_In_1",
             "LocalizeJP": "正々堂々、参ります。",
-            "LocalizeEN": "I will come to you fair and square."
+            "LocalizeEN": "Here we come in full swing.<!--Definition 1 of https://www.weblio.jp/content/%E6%AD%A3%E3%80%85%E5%A0%82%E3%80%85-->"
         },
         {
             "CharacterId": 10054,
@@ -54,28 +54,28 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Mari_(Sportswear)_Tactic_Victory_1",
             "LocalizeJP": "お疲れ様でした。素晴らしい成績です。",
-            "LocalizeEN": "good job for today. Great result."
+            "LocalizeEN": "Thank you for your hard work. We have achieved great results."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Tactic",
             "VoiceClip": "Mari_(Sportswear)_Tactic_Victory_2",
             "LocalizeJP": "皆さんが頑張ってくださったおかげです。",
-            "LocalizeEN": "Thanks to all of you for your hard work."
+            "LocalizeEN": "It was thanks to everyone's hard work."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Buffed_1",
-            "LocalizeJP": "応援してくださった分頑張りますね。",
-            "LocalizeEN": "I will do my best to support you."
+            "LocalizeJP": "応援してくださった分、頑張りますね。",
+            "LocalizeEN": "I will do my best in response to your support."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_BuffSelf_1",
             "LocalizeJP": "もう一歩、勇気を出して。",
-            "LocalizeEN": "Take another step and be brave."
+            "LocalizeEN": "I will take another step and be brave."
         },
         {
             "CharacterId": 10054,
@@ -110,14 +110,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Defense_1",
             "LocalizeJP": "き、効きませんよ。",
-            "LocalizeEN": "I won't listen"
+            "LocalizeEN": "That does not work."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_In_1",
-            "LocalizeJP": "スポーツマンシップに則って。",
-            "LocalizeEN": "Let's practice sportsmanship."
+            "LocalizeJP": "スポーツマンシップに則って参りましょう。",
+            "LocalizeEN": "Let's uphold sportsmanship while participating."
         },
         {
             "CharacterId": 10054,
@@ -138,21 +138,21 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Move_2",
             "LocalizeJP": "付いてきてください。",
-            "LocalizeEN": "please follow me."
+            "LocalizeEN": "Please follow me."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。励みになります。",
-            "LocalizeEN": "thank you. It's encouraging."
+            "LocalizeEN": "Thank you. It's encouraging."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Retire",
             "LocalizeJP": "申し訳ございません。",
-            "LocalizeEN": "I'm sorry."
+            "LocalizeEN": "I'm very sorry."
         },
         {
             "CharacterId": 10054,
@@ -187,14 +187,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Victory_1",
             "LocalizeJP": "はあ、なんとか終わりましたね。",
-            "LocalizeEN": "I managed to finish it."
+            "LocalizeEN": "Phew. It's finally over."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Battle",
             "VoiceClip": "Mari_(Sportswear)_Battle_Victory_2",
             "LocalizeJP": "ど、どうでしょうか。大丈夫でした？",
-            "LocalizeEN": "I don't know, it was fine."
+            "LocalizeEN": "How was it? Are you okay?"
         },
         {
             "CharacterId": 10054,
@@ -236,55 +236,55 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mari_(Sportswear)_ExSkill_Level_2",
             "LocalizeJP": "あ、はい！こちらです。",
-            "LocalizeEN": "Here it is."
+            "LocalizeEN": "Oh yeah. Here it is."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mari_(Sportswear)_ExSkill_Level_3",
             "LocalizeJP": "落とさないよう、気をつけてくださいね。",
-            "LocalizeEN": "I won't drop it Please be careful."
+            "LocalizeEN": "Please be careful and don't drop it."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Growup",
             "VoiceClip": "Mari_(Sportswear)_Growup_1",
             "LocalizeJP": "運動はあまり得意ではありませんが、もう少し頑張ってみますね。",
-            "LocalizeEN": "I'm not very good at sports, but I'll try my best"
+            "LocalizeEN": "I'm not very good at sports, but I'll do my best."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Growup",
             "VoiceClip": "Mari_(Sportswear)_Growup_2",
             "LocalizeJP": "普段から…、もう少し体育の授業を頑張れば良かったです。",
-            "LocalizeEN": "I should have put in a little more effort in physical education classes than usual."
+            "LocalizeEN": "I should have put in a little more effort in physical education classes than I did."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Growup",
             "VoiceClip": "Mari_(Sportswear)_Growup_3",
             "LocalizeJP": "ありがとうございます、先生。私頑張りますね。",
-            "LocalizeEN": "thank you Sensei. I'll do my best."
+            "LocalizeEN": "Thank you Sensei. I'll do my best."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Growup",
             "VoiceClip": "Mari_(Sportswear)_Growup_4",
             "LocalizeJP": "先生の応援があれば何でもできてしまうような気持ちになります。",
-            "LocalizeEN": "I feel like I can do anything with the support of Sensei."
+            "LocalizeEN": "I feel like I can do anything with Sensei's support."
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Relationship",
             "VoiceClip": "Mari_(Sportswear)_Relationship_Up_1",
             "LocalizeJP": "もしよろしければ、先生もご一緒に運動しませんか。",
-            "LocalizeEN": "If you don't mind, would you like to exercise with me?"
+            "LocalizeEN": "If you don't mind, Sensei, would you like to exercise with me?"
         },
         {
             "CharacterId": 10054,
             "DialogCategory": "Relationship",
             "VoiceClip": "Mari_(Sportswear)_Relationship_Up_2",
-            "LocalizeJP": "こんな風に期待されるのは初めてで少し緊張してしまいます。",
+            "LocalizeJP": "こんな風に期待されるのは初めてで、少し緊張してしまいます。",
             "LocalizeEN": "It's my first time to be expected like this and I'm a little nervous."
         },
         {
@@ -299,7 +299,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Mari_(Sportswear)_Relationship_Up_4",
             "LocalizeJP": "いつだって嘘偽りのない姿を先生にお見せしたいです。",
-            "LocalizeEN": "I always want to show my teacher that I'm not lying."
+            "LocalizeEN": "I always want to show Sensei my honest appearance."
         }
     ]
 }
