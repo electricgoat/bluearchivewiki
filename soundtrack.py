@@ -68,7 +68,7 @@ def generate():
 
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    template = env.get_template('./template_soundtrack.txt')
+    template = env.get_template('templates/template_soundtrack.txt')
 
     wikitext = template.render(filtered_data=filtered_data)
 
@@ -76,7 +76,7 @@ def generate():
         f.write(wikitext)
 
     if wiki.site != None:
-        wiki.update_section('Music', 'Tracklist', wikitext)
+        wiki.update_section('Music', 'In-game tracklist', wikitext)
 
 
 
