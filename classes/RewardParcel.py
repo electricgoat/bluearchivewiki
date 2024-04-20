@@ -30,14 +30,32 @@ IGNORE_ITEM_ID = {
 
 
 class RewardParcel(object):
-    def __init__(self, parcel_type, parcel_id, amount: list[int], parcel_prob: list[int], tag = None, wiki_card = None, data = None):
-        #self.id = id
+    def __init__(self, parcel_type, parcel_id, amount: int|list[int], parcel_prob: int|list[int], tag = None, wiki_card = None, data = None):
         self.parcel_type = parcel_type
         self.parcel_id = parcel_id
-        self.amount = amount
-        self.parcel_prob = parcel_prob
+        #self.amount = amount
+        #self.parcel_prob = parcel_prob
         self.tag = tag
 
+        if isinstance(amount, int):
+            self.amount = amount
+        elif isinstance(amount, list):
+            if len(amount) == 1: 
+                self.amount = amount[0]
+            else:
+                self.amount = amount[0]
+                print("Notice: RewardParcel 'amount' passed as a list, only first value will be used!")
+
+        if isinstance(parcel_prob, int):
+            self.parcel_prob = parcel_prob
+        elif isinstance(parcel_prob, list):
+            if len(parcel_prob) == 1: 
+                self.parcel_prob = parcel_prob[0]
+            else:
+                self.parcel_prob = parcel_prob[0]
+                print("Notice: RewardParcel 'parcel_prob' passed as a list, only first value will be used!")
+
+    
         self.wiki_card = wiki_card
         self._data = data
 
@@ -55,11 +73,11 @@ class RewardParcel(object):
                 gg = GachaGroup.from_id(self.parcel_id, self._data)
                 items_list += gg.contents
             case 'Item':
-                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount[0], self.amount[0], 1, 1)) 
+                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount, self.amount, 1, 1)) 
             case 'Currency':
-                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount[0], self.amount[0], 1, 1)) 
+                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount, self.amount, 1, 1)) 
             case 'Equipment':
-                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount[0], self.amount[0], 1, 1)) 
+                items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount, self.amount, 1, 1)) 
             case _:
                 print(f"Unknown parcel type {self.parcel_type}")
                 
@@ -104,7 +122,7 @@ class RewardParcel(object):
         if self.parcel_id in FAKE_ITEMS:
             
             probability = f"{'%g' % (self.parcel_prob[0]/100)}"
-            quantity = self.amount[0]
+            quantity = self.amount
             return("{{" + f"ItemCard|{FAKE_ITEMS[self.parcel_id]}{quantity>1 and f'|quantity={quantity}' or ''}{probability!=100 and f'|probability={probability > 5 and round(probability,1) or round(probability,2)}' or ''}|text=|60px|block" + "}}")
 
         elif len(self.amount) > 1 or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
@@ -132,8 +150,8 @@ class RewardParcel(object):
         return cls(
             item['RewardParcelType'],
             item['RewardParcelId'],
-            [item['RewardParcelAmount']],
-            [item['RewardParcelProbability']],
+            item['RewardParcelAmount'],
+            item['RewardParcelProbability'],
             data = data
         )
 

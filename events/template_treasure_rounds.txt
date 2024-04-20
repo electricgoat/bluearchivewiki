@@ -1,0 +1,18 @@
+<tabber>
+{% for round in rounds -%}
+Round {{round['TreasureRound']}}=
+{| class="wikitable" style="text-align:center"
+! colspan="2" | Item
+!Size
+!Count
+{%- for reward in round['rewards'] %}
+|-
+| [[File:{{reward.image}}.png|x100px]]
+| style="text-align:left" | {{reward.name_en}}
+| {{reward.width}}x{{reward.height}}
+| {{round['RewardAmount'][loop.index0]}}
+{%- endfor %}
+|}
+|-|
+{% endfor -%}
+</tabber>
