@@ -271,6 +271,7 @@ def generate():
         if 'En' not in data.localization[localize_title_key]: missing_localization.add_entry(data.localization[localize_title_key])
     else: 
         print(f"Missing localize_title key {localize_title_key}")
+        if localize_title_key == 4164572829: season['LocalizeTitle'] = data.localization[1011309388] #mini event fix, TODO figure out how its key is derived   
 
     if season['LocalizeName'].get('En') != season['LocalizeTitle'].get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{season['LocalizeName'].get('En')}\n Title:{season['LocalizeTitle'].get('En')}")
 
@@ -279,6 +280,7 @@ def generate():
         season['LocalizeDescription'] = data.localization[localize_description_key]
         if 'En' not in data.localization[localize_description_key]: missing_localization.add_entry(data.localization[localize_description_key])
     else: 
+        season['LocalizeDescription'] = None
         print(f"Missing localize_description key {localize_description_key}")
 
 
@@ -614,7 +616,7 @@ def generate():
 
 
 def init_data():
-    global args, data, season_data, characters, items, furniture
+    global args, data, season_data, characters, items, furniture, emblems
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
@@ -647,7 +649,7 @@ def init_data():
             item = Furniture.from_data(item['Id'], data)
             furniture[item.id] = item
         except Exception as err:
-            print(f'Failed to parse for item {item}: {err}')
+            print(f'Failed to parse for furniture {item}: {err}')
             traceback.print_exc()
             continue
 

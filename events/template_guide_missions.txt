@@ -7,8 +7,10 @@ __TOC__
 {% raw %}{{{% endraw %}Event 
 | Server = JP 
 | Category = Guide mission
-| NameJP = JPNAME
-| NameEN = EVENTNAME
+{% if server == 'JP' %}| NameJP = {{season['LocalizeTitle'].get('Jp')}}
+{% endif -%}
+| NameEN = {{server == 'JP' and season['LocalizeTitle'].get('En') or season['LocalizeTitle'].get('EnGlobal', season['LocalizeTitle'].get('En', ''))}}
+| Promo = GuideMission_{{season['LocalizeTitle'].get('En', season['EventContentId']|string ).replace(' ', '_')}}.png
 | Image = {{season['LobbyBannerImage'][season['LobbyBannerImage'].rfind('/')+1:]}}_jp.png
 | Start_date = {{season['StartDate']}}
 | End_date = {{season['EndDate']}}

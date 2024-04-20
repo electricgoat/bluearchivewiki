@@ -1,0 +1,38 @@
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible mw-collapsed limitwidth-1024"
+!Difficulty
+! class="condensed" |Rec. Level
+!Attack Type
+!Armor Type
+!Boss HP
+!ATK
+!DEF
+! class="condensed" |CRIT RES
+! class="condensed" |CRIT DMG RES
+! class="condensed" |Groggy Gauge
+!Clear reward
+
+{%- for stage in boss_data['stage'] %}
+|- {% if stage['protected'] %}class="protected"{% endif %}
+!{{stage['Difficulty']}}
+|{{stage.ground['LevelBoss']}}
+|class="bg-element bg-{{stage.character['BulletType']|damage_type|lower}}" |{{stage.character['BulletType']|damage_type}}
+|class="bg-element bg-{{stage.character['ArmorType']|armor_type|lower}}" |{{stage.character['ArmorType']|armor_type}}
+|{{stage.total_stats['MaxHP100']|thousands}}
+|{{stage.total_stats['AttackPower100']|thousands}} 
+|{{stage.total_stats['DefensePower100']|thousands}}
+|{{stage.total_stats['CriticalResistPoint']|thousands}}
+|{{stage.total_stats['CriticalDamageResistRate']|thousands}}
+|{{stage.total_stats['GroggyGauge']|thousands}}
+|{% for reward in stage.clear_rewards %}{{reward.wiki_items}}{% endfor %}
+
+{%- if boss_data['reward_subtotal'][stage['Difficulty']] %}
+|- class="protected"
+! colspan="2" | Total {{boss_data['reward_subtotal'][stage['Difficulty']]['bracket'][0]}}~{{boss_data['reward_subtotal'][stage['Difficulty']]['bracket'][1]}} reward:
+| colspan="10" style="padding-bottom: 0.5em;" | {% for reward in boss_data['reward_subtotal'][stage['Difficulty']]['rewards'] %}{{reward.format_wiki_items(block=True,size='60px',text='')}}{% endfor %}
+|- class="protected"
+| colspan="12" | 
+{% endif -%}
+
+{%- endfor %}
+{% raw %}|}{% endraw %}
+

@@ -25,6 +25,7 @@ def nl2p(text:str):
 
 def environment_type(environment):
     return {
+        environment: environment,
         'Street': 'Urban',
         'Outdoor': 'Outdoors',
         'Indoor': 'Indoors'

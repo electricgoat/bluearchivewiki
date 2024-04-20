@@ -119,7 +119,7 @@ def load_data(path_primary, path_secondary, path_translation):
         eliminate_raid_stage_season_reward=load_generic(path_primary, 'EliminateRaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
         eliminate_raid_ranking_reward=load_file_grouped(path_primary, 'EliminateRaidRankingRewardExcelTable.json', 'RankingRewardGroupId'),
         multi_floor_raid_stage=     load_file_grouped(path_primary, 'MultiFloorRaidStageExcelTable.json', 'BossGroupId'),
-        multi_floor_raid_reward=    load_generic(path_primary, 'MultiFloorRaidRewardExcelTable.json', key='RewardGroupId'),
+        multi_floor_raid_reward=    load_file_grouped(path_primary, 'MultiFloorRaidRewardExcelTable.json', key='RewardGroupId'),
         multi_floor_raid_stat_change=load_generic(path_primary, 'MultiFloorRaidStatChangeExcelTable.json', key='StatChangeId'),
         bgm=                        load_bgm(path_primary, path_translation),
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),

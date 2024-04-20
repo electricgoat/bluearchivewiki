@@ -101,120 +101,9 @@ map_descriptions = {
     'Event_Mission_Omikuji_Count_832': 2417672652,
     'Mission_Clear_Specific_Chaserdungeon': 1859421411,
     'Mission_Clear_Specific_Schooldungeon': 2400906688,
-    'Mission_Clear_Specific_Weekdungeon': 4187819492
+    'Mission_Clear_Specific_Weekdungeon': 4187819492,
+    'MISSION_CLEAR_SCHEDULE_IN_Abydos_1': 3289015374,
 }
-
-map_descriptions_all = {  #for reference only
-    'Mission_Get_Specific_Item_Count':1,
-    
-    'MISSION_CLEAR_SPECIFIC_CAMPAIGN_STAGE':1,
-    'MISSION_CLEAR_SPECIFIC_SCENARIO_MAIN_01':2597267329,
-    'MISSION_CLEAR_SPECIFIC_SCENARIO_MAIN_02':856660351,
-    'MISSION_CLEAR_SPECIFIC_SCENARIO_MAIN_03':1559463659,
-    'MISSION_CLEAR_SPECIFIC_SCENARIO_MAIN_04':1,
-
-    'Mission_Clear_Specific_Weekdungeon':1,
-    'Mission_Clear_Specific_Weekdungeon_Timelimit':999,
-    'Mission_Clear_Specific_Chaserdungeon':1,
-    'Mission_Clear_Specific_Chaserdungeon_Timelimit':999,
-
-    'MISSION_KILL_ENEMY_TAG_LARGE':1796370081,
-
-    'MISSION_KILL_ENEMY_TAG_REDHELMET':1,
-    'MISSION_KILL_ENEMY_TAG_ENEMYYUUKA':1,
-    'MISSION_KILL_ENEMY_TAG_SUKEBAN':3044899148,
-    'MISSION_KILL_ENEMY_TAG_KAITENRANGER_PINK':1,
-    'MISSION_KILL_ENEMY_TAG_HELMET':1,
-    'MISSION_KILL_ENEMY_TAG_ENEMYAKARI':1,
-    'MISSION_KILL_ENEMY_TAG_BLACKMARKET_DROID':1,
-    'MISSION_KILL_ENEMY_TAG_HELICOPTER':1,
-    'MISSION_KILL_ENEMY_TAG_SHIELD':1,
-    'MISSION_KILL_ENEMY_TAG_GOLIATH':1,
-    'MISSION_KILL_ENEMY_TAG_GEHENNA':1,
-    'MISSION_KILL_ENEMY_TAG_ENEMYIORI':1,
-    'MISSION_KILL_ENEMY_TAG_DROID':1,
-    'MISSION_CLEAR_CHARACTER_LEVEL_UP_COUNT':1,
-    'Mission_Clear_Weekdungeon':1,
-
-    'MISSION_KILL_ENEMY_TAG_ENEMYKOTORI':999,
-    'Mission_Clear_Specific_Schooldungeon_TimeLimit':999,
-    'MISSION_CLEAR_SCHEDULE_IN_StudyRoom':999,
-    
-    'MISSION_KILL_ENEMY_TAG_MEDIUM':1107780056,
-
-    'MISSION_CLEAR_SCHEDULE_IN_AVRoom':999,
-    
-    'MISSION_CLEAR_SCHEDULE_IN_Gym':999,
-
-    'MISSION_KILL_ENEMY_TAG_DRONE':999,
-
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Abydos':370693275,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Justice':3130787843,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Gehenna':1521286612,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Trinity':3264920614,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Millennium':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Hyakkiyako':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Shanhaijing':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_RedWinter':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_CleanNClearing':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Countermeasure':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Kohshinjo68':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_TheSeminar':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_Veritas':999,
-    'MISSION_CLEAR_SCHEDULE_CHARACTER_TAG_GameDev':999,
-
-    'MISSION_GET_ITEM_TAG_SECRETSTONE':999,
-    'MISSION_KILL_ENEMY_TAG_Kaitenranger':999,
-    
-    'MISSION_GET_FURNITURE_TAG_Furniture':999,
-    
-    'MISSION_GET_ITEM_TAG_FavorItem':999,
-    'MISSION_KILL_ENEMY_TAG_GASMASK_LIGHTARMOR':999,
-    'Mission_Battle_Win_With_Tag_Trinity':999,
-    'MISSION_KILL_ENEMY_TAG_SMALL':817850220,
-    'Mission_Battle_Win_With_Tag_Gehenna':999,
-    'Mission_Clear_Specific_Campaign_Stage_Timelimit':999,
-
-    'Mission_Battle_Win_With_Tag_Millennium':999,
-
-    'Mission_Battle_Win_With_Tag_Abydos':999,
-
-    'Mission_Battle_Win_With_Tag_Hyakkiyako':999,
-
-    'Mission_Battle_Win_With_Tag_RedWinter':999,
-
-    'Mission_Battle_Win_With_Tag_Shanhaijing':999,
-
-    'MISSION_GET_EQUIPMENT_TAG_PIECE':999,
-    'Mission_Get_Equipment_Tag_WeaponExpEquip':999,
-    'Mission_Get_Item_Tag_BookItem':999,
-    'Mission_Get_Item_Tag_CDItem':999,
-    'Mission_Get_Item_Tag_Favor':999,
-    'Mission_Battle_Win_With_Tag_Cover':999,
-    'Mission_Battle_Win_With_Tag_Uncover':999,
-    'Mission_Join_Arena':999,
-    'MISSION_KILL_ENEMY_TAG_Millennium_SCHOOL':999,
-    'MISSION_KILL_ENEMY_TAG_Gehenna_SCHOOL':999,
-    'MISSION_KILL_ENEMY_TAG_Trinity_SCHOOL':999,
-
-    'MISSION_CLEAR_SCHEDULE_IN_Gehenna_2':999,
-    'Mission_Battle_Win_With_Tag_GourmetClub':999,
-    'Mission_Battle_Win_With_Tag_CleanNClearing':999,
-    'MISSION_CLEAR_SCHEDULE_IN_Triniy_3':999,
-    'Mission_Battle_Win_With_Tag_Fuuki':999,
-    'Mission_Get_Item_Tag_ExpItem':999,
-    'Mission_Get_Item_Tag_ExpEquip':999,
-
-    'MISSION_KILL_ENEMY_TAG_GameDev':999,
-    'MISSION_KILL_ENEMY_TAG_Kohshinjo68':999,
-
-    'MISSION_KILL_ENEMY_TAG_Justice':999,
-    'MISSION_CLEAR_SCHEDULE_IN_SchaleResidence_ArcadeCenter':999,
-
-    'Mission_Battle_Win_With_Tag_Veritas':999,
-    'Mission_Battle_Win_With_Tag_GameDev':999,
-    'Mission_Battle_Win_With_Tag_Engineer':999,}
-
 
 
 
@@ -222,6 +111,16 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 
     localize_id = None    
     mission['AutoLocalized'] = False
+
+
+    key = hashkey(mission['Description'])
+    if key in data.localization:
+        #print (f"Key {key} found in localization data")
+        mission['DescriptionJp'] = description_cleanup(data.localization[key].get('Jp').replace('{0}', str(mission['CompleteConditionCount']))) 
+        mission['DescriptionEn'] = description_cleanup(data.localization[key].get('En', '').replace('{0}', str(mission['CompleteConditionCount']))) 
+        if 'En' not in data.localization[key]: print (f"Untranslated mission localize id {key}")
+        else: return
+
 
     #Matching by Description is a finer sieve than condition type, it's used because some conditions are used for differently-phrased missions
     if f"localize_{mission['Description']}" in globals():
@@ -231,10 +130,8 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 
 
     if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and mission['Description'] not in missing_descriptions:
-        key = hashkey(mission['Description'])
-        print(key)
         missing_descriptions.append(mission['Description'])
-        print (f"Missing localization mapping for {mission['Description']} of {mission}")
+        print (f"Missing localization mapping {key} for {mission['Description']} of {mission}")
         return False
 
     
@@ -251,7 +148,6 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 def localize_CompleteScheduleWithTagCount(mission):
     desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
     desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
-
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
 

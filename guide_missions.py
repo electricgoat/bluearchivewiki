@@ -14,6 +14,12 @@ from model import Character, Item
 from classes.Furniture import Furniture
 from events.mission_desc import mission_desc
 from shared.functions import hashkey
+from shared.MissingTranslations import MissingTranslations
+
+missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
+missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
+missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
+
 
 args = None
 data = None
@@ -73,7 +79,23 @@ def generate():
     season['CollectibleItemName'] = items[season["RequirementParcelId"]].name_en
     season['CollectibleItemCard'] = '{{ItemCard|'+season['CollectibleItemName']+'}}'#+'|quantity='+str(season['RequirementParcelAmount'])+'}}'
 
-    print(f"Title localize {hashkey(season['TitleLocalizeCode'])}")
+
+    localize_title_key = hashkey(season['TitleLocalizeCode'])
+    print(f"localize_title_key {localize_title_key}")
+    if localize_title_key in data.localization: 
+        season['LocalizeTitle'] = data.localization[localize_title_key]
+        if 'En' not in data.localization[localize_title_key]: missing_localization.add_entry(data.localization[localize_title_key])
+    else: 
+        print(f"Missing localize_title key {localize_title_key}")
+
+    # localize_description_key =  hashkey(season['InfomationLocalizeCode'])
+    # print(f"localize_description_key {localize_description_key}")
+    # if localize_description_key in data.localization: 
+    #     season['LocalizeDescription'] = data.localization[localize_description_key]
+    #     if 'En' not in data.localization[localize_description_key]: missing_localization.add_entry(data.localization[localize_description_key])
+    # else: 
+    #     season['LocalizeDescription'] = None
+    #     print(f"Missing localize_description key {localize_description_key}")
 
 
     for mission in data.guide_mission.values():
@@ -145,7 +167,7 @@ def generate():
 
 
     with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['id']}.txt"), 'w', encoding="utf8") as f:
-        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards, tab_count = len(set([x['TabNumber'] for x in missions.values()])) )
+        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards, tab_count = len(set([x['TabNumber'] for x in missions.values()])), server='JP' )
         f.write(wikitext)
 
 
@@ -171,9 +193,12 @@ def main():
     args['outdir'] = args['outdir'] == None and 'out' or args['outdir']
     print(args)
 
-
     try:
         generate()
+
+        missing_localization.write()
+        missing_code_localization.write()
+        missing_etc_localization.write()
     except:
         parser.print_help()
         traceback.print_exc()

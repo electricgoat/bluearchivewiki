@@ -29,6 +29,7 @@ RAIDS = {
     'EN0005':           Raid('Communio Sanctorum: Gregorius', 'Gregorius', 'Indoors'),
     'HoverCraft':       Raid('Wakamo: Hovercraft', 'Hovercraft', 'Outdoors'),
     'EN0006':           Raid('One Hundred Ghost Tales: Myouki Kurokage', 'Kurokage', 'Urban'),
+    'EN0008':           Raid('Celestial Pantheon: The Fury of Set', 'The Fury of Set', 'Outdoors'),
 }
 
 SEASON_IGNORE = {

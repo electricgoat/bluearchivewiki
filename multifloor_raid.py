@@ -2,7 +2,7 @@ import collections
 import os
 import re
 import traceback
-#import copy
+import copy
 import argparse
 from datetime import datetime
 
@@ -14,7 +14,7 @@ from model import Item, Character
 from classes.Furniture import Furniture, FurnitureGroup
 from classes.Emblem import Emblem
 from raid_seasons import RAIDS
-from eliminate_raid_seasons import SEASON_IGNORE, SEASON_NOTES
+from multifloor_raid_seasons import SEASON_IGNORE, SEASON_NOTES
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
@@ -32,8 +32,10 @@ emblems = {}
 
 season_data = {'jp':None, 'gl':None}
 
+BRACKETS = [[1,24], [25,49], [50,74], [75,99], [100,124]]
 
-class SeasonReward(object):
+
+class StageReward(object):
     def __init__(self, id, parcel_type, parcel_id, parcel_name, amount):
         self.id = id
         self.parcel_type = parcel_type
@@ -42,38 +44,45 @@ class SeasonReward(object):
         self.amount = amount
 
     @property
-    def items(self):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append({'parcel_type':self.parcel_type[i], 'parcel_id':self.parcel_id[i], 'parcel_name':self.parcel_name[i], 'amount':self.amount[i]}) 
-        return items_list
+    def item(self):
+        return {'parcel_type':self.parcel_type, 'parcel_id':self.parcel_id, 'parcel_name':self.parcel_name, 'amount':self.amount}
     
     @property
     def wiki_items(self):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append(wiki_card(self.parcel_type[i], self.parcel_id[i], quantity=self.amount[i], text='', block=True, size='60px' )) 
-        return items_list
+        return wiki_card(self.parcel_type, self.parcel_id, quantity=self.amount, text='' )
     
     def format_wiki_items(self, **params):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append(wiki_card(self.parcel_type[i], self.parcel_id[i], quantity=self.amount[i], **params )) 
-        return items_list
+        return wiki_card(self.parcel_type, self.parcel_id, quantity=self.amount, **params )
 
 
-    @classmethod
-    def from_data(cls, id: int, data): #note that this takes actual table such as data.eliminate_raid_stage_season_reward
-        item = data[id]
-        
-        return cls(
-            item['SeasonRewardId'],
-            item['SeasonRewardParcelType'],
-            item['SeasonRewardParcelUniqueId'],
-            item['SeasonRewardParcelUniqueName'],
-            item['SeasonRewardAmount'],
-        )
+
+def reward_sort_order(item):
+    sort_value = item.parcel_id
+    match item.parcel_type:
+        case 'Item':
+            sort_value += 200000
+        case 'Equipment':
+            sort_value += 100000
+        case 'Currency':
+            sort_value += 3000000
+        case 'Character':
+            sort_value += 900000
+        case 'Furniture':
+            sort_value += 800000
+        case _:
+            pass
     
+    match item.parcel_id:
+        case 23: #eligma
+            sort_value += 2200000
+        case 7 | 9 | 70 | 71: #raid coins
+            sort_value += 2100000
+        case _:
+            pass
+
+    return sort_value
+
+
 
 
 def wiki_card(type: str, id: int, **params):
@@ -81,71 +90,93 @@ def wiki_card(type: str, id: int, **params):
     return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
 
 
-
 def get_raid_boss_data(group):
     global args, data, season_data
 
     boss_data = {}
 
-    boss_data['stage'] = data.eliminate_raid_stage[group]
-    for stage in boss_data['stage']:
+    boss_data['stage'] = data.multi_floor_raid_stage[group]
+
+    unlock_req = 0
+    for i, stage in enumerate(boss_data['stage']): 
         #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-    
+        stage['total_stat_bonus'] = total_stat_bonus(stage['StatChangeId'], stage['RaidCharacterId'])
+        stage['total_stats'] = total_stats(data.characters_stats[stage['RaidCharacterId']], stage['total_stat_bonus'])
+        stage['clear_rewards'] = clear_rewards(stage['RewardGroupId'])
+
+        if i==0 or i==123:
+            stage['protected'] = True
+        if stage['StageOpenCondition'] != unlock_req:
+            stage['protected'] = True
+            boss_data['stage'][i-1]['protected'] = True
+
+        unlock_req = stage['StageOpenCondition']
+
+    boss_data['reward_subtotal'] = {}
+    for bracket in BRACKETS:
+        boss_data['reward_subtotal'][bracket[1]] = reward_subtotal(bracket, boss_data['stage'])
+        
     return boss_data
 
 
+def total_stat_bonus(stat_change_id:list, character_id:int):
+    global data
 
-def get_cumulative_rewads(season):
-    global args, data, season_data
-    season['rewards'] = []
+    total = {}
 
-    for i in range(len(season['SeasonRewardId'])):
-        rewards = SeasonReward.from_data(season['SeasonRewardId'][i], data.eliminate_raid_stage_season_reward)
-        season['rewards'].append(rewards)
+    for entry in [x for x in data.multi_floor_raid_stat_change.values() if x['StatChangeId'] in stat_change_id and character_id in x['ApplyCharacterId']]:
+        for i, stat_type in enumerate(entry["StatType"]):
+            if stat_type not in total:
+                total[stat_type] = {"StatAdd": 0, "StatMultiply": 0}
+            total[stat_type]["StatAdd"] += entry["StatAdd"][i]
+            total[stat_type]["StatMultiply"] += entry["StatMultiply"][i]
 
-    #print(season['rewards'])
-    return season['rewards']
+    return total
 
-    
 
-def total_cumulative_rewards(season):
-    global args, data
+def total_stats(character_stats, bonus_stats):
+    character_stats = copy.copy(character_stats)
+    for stat in character_stats:
+        statname = stat.replace('100','')
+        if statname in bonus_stats:
+            #print(f"{stat}: {character_stats[stat]} -> ",end='')
+            character_stats[stat] = round((character_stats[stat]+bonus_stats[statname]['StatAdd']) * (1 + bonus_stats[statname]['StatMultiply']/10000))
+            #print(character_stats[stat])
+
+    return character_stats
+
+
+def clear_rewards(reward_group_id):
+    global data
+    rewards = []
+
+    for reward in data.multi_floor_raid_reward[reward_group_id]:
+        rewards.append(StageReward(0, reward['ClearStageRewardParcelType'], reward['ClearStageRewardParcelUniqueID'], '', reward['ClearStageRewardAmount']))
+
+    return rewards
+
+
+def reward_subtotal(bracket, stages):
+    start,end = bracket
     total_rewards = {}
-    wiki_total_rewards = []
-    
-    for i in range(len(season['rewards'])):
-        for item in season['rewards'][i].items:
-            if (item['parcel_type'], item['parcel_id']) not in total_rewards:
-                total_rewards[(item['parcel_type'], item['parcel_id'])] = item
+
+    for stage in [x for x in stages if x['Difficulty'] in range(start,end)]:
+        for item in stage['clear_rewards']:
+            if (item.parcel_type, item.parcel_id) not in total_rewards:
+                total_rewards[(item.parcel_type, item.parcel_id)] = item
             else:
-                total_rewards[(item['parcel_type'], item['parcel_id'])]['amount'] += item['amount']
-    #print(total_rewards)
-
-    for item in sorted(total_rewards.values(), key=shared.functions.item_sort_order):
-        wiki_total_rewards.append(wiki_card(item['parcel_type'], item['parcel_id'], quantity=item['amount'], text='', block=True, size='60px' ))
-    #print(wiki_total_rewards)
-    return wiki_total_rewards
-
-
-def get_ranking_rewards(season): 
-    ranking_rewards = data.eliminate_raid_ranking_reward[season['RankingRewardGroupId']]
-    for entry in ranking_rewards:
-        reward = SeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], entry['RewardParcelUniqueName'], entry['RewardParcelAmount'])
-        entry['reward'] = reward
-        if entry['RankEnd'] == 0: entry['RankEnd'] = '∞'
-    return ranking_rewards
-
-
+                total_rewards[(item.parcel_type, item.parcel_id)].amount += item.amount
+    
+    return {'bracket':bracket, 'rewards': sorted(total_rewards.values(), key=reward_sort_order)}
 
 
 
 def generate():
     global args, data, season_data  
 
-    boss_groups = ['OpenRaidBossGroup01', 'OpenRaidBossGroup02', 'OpenRaidBossGroup03']
     boss_data = {}
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
@@ -156,28 +187,19 @@ def generate():
     
 
     region = 'jp'
-    for season in season_data[region].eliminate_raid_season.values():
+    for season in season_data[region].multi_floor_raid_season.values():
         print (f"Working on season {season['SeasonId']}")
         wikitext = ''
         
 
-        template = env.get_template('./raid/template_eliminate_raid_boss.txt')
-        for group in boss_groups:
-            boss_data[season[group]]= get_raid_boss_data(season[group])
-            wikitext += template.render(season_data=season, boss_data=boss_data[season[group]])
+        template = env.get_template('./raid/template_multifloor_raid_boss.txt')
 
-        wikitext = "==Boss Info==\n<tabber>\n" + wikitext + "\n</tabber>\n"
+        boss_data[season['OpenRaidBossGroupId']]= get_raid_boss_data(season['OpenRaidBossGroupId'])
+        wikitext += template.render(season_data=season, boss_data=boss_data[season['OpenRaidBossGroupId']])
 
-        template = env.get_template('./raid/template_ranking_rewards.txt')
-        wikitext += template.render(rewards=get_ranking_rewards(season))
+        wikitext = "==Boss Info==\n" + wikitext + "\n"
 
-
-        template = env.get_template('./raid/template_cumulative_score_rewards.txt')
-        get_cumulative_rewads(season)
-        wikitext += template.render(season=season, total_rewards=total_cumulative_rewards(season))
-
-
-        with open(os.path.join(args['outdir'], 'raids' ,f"eliminate_raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
+        with open(os.path.join(args['outdir'], 'raids' ,f"multifloor_raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
             f.write(wikitext)
  
 

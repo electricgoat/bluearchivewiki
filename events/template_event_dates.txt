@@ -14,7 +14,7 @@
 | Reward_exchange_start = {{season['EventContentOpenTime']}}
 | Reward_exchange_end = {{season['ExtensionTime']}}
 | Notes = 
-{% if server == 'JP' %}| Description = {{season['LocalizeDescription'].get('En', '') |replace_glossary}}
+{% if server == 'JP' and season['LocalizeDescription'] != None %}| Description = {{season['LocalizeDescription'].get('En', '') |replace_glossary}}
 {% endif -%}
 {% raw %}}}{% endraw %}
 
