@@ -374,7 +374,12 @@
         {
             "GroupId": "YoshimiPublic01",
             "NameEn": "Do you want to get hurt?!",
-            "DescriptionEn": "Every $1, attack all enemies within a circular area for $2 of Attack."
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "YoshimiGearPublic01",
+            "NameEn": "Do you want to get hurt?! +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area.\nReduce their CC Resistance by $3 for $4."
         },
         {
             "GroupId": "YoshimiPassive01",
@@ -2479,12 +2484,17 @@
         {
             "GroupId": "CH0145Ex01",
             "NameEn": "Observation of a timid person",
-            "DescriptionEn": "Apply the Weak Point Exposed debuff to one enemy for $1. When attacked, an enemy with this debuff takes additional damage equal to $2 of Miyu's Attack.<br>(This damage can not be critical, effect ends after $3)"
+            "DescriptionEn": "Apply the Weak Point Exposed debuff to one enemy for $1. When attacked, an enemy with this debuff takes additional damage equal to $2 of Miyu's Attack.\n(This damage can not be critical, effect ends after $3)"
         },
         {
             "GroupId": "CH0145Public01",
             "NameEn": "Attack from an unexpected angle",
             "DescriptionEn": "Every $1 Normal attacks, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0145GearPublic01",
+            "NameEn": "Attack from an unexpected angle +",
+            "DescriptionEn": "Every $1 Normal attacks, deal $2 damage to one enemy.\nAdditionally, apply Weak Point Exposed debuff for $3.\nWhen attacked, an enemy with this debuff takes additional damage equal to $4 of Miyu's Attack.\n(This damage can not be critical, effect ends after $5)"
         },
         {
             "GroupId": "CH0145Passive01",
@@ -2537,6 +2547,11 @@
             "GroupId": "CH0116Public01",
             "NameEn": "Beetle shield!",
             "DescriptionEn": "Every $1, increase Defense of one ally with the highest Defense by $2 for $3."
+        },
+        {
+            "GroupId": "CH0116GearPublic01",
+            "NameEn": "Beetle shield! +",
+            "DescriptionEn": "Every $1, increase Defense of one ally with the highest Defense by $2 for $3.\nAdditionally, reduce own skill cost. (active until EX skill is used $4 time)\nCost reduction changes depending on the number of times Normal skill is used:\n1st time: EX skill cost reduced by $5\n2nd time: EX skill cost reduced by $6\n3rd time: EX skill cost reduced by $7\n4th time or later: No reduction"
         },
         {
             "GroupId": "CH0116Passive01",
@@ -3640,6 +3655,11 @@
             "GroupId": "CH0107Public01",
             "NameEn": "Clear mind",
             "DescriptionEn": "Every $1, apply \"Serenity\" status and increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0107GearPublic01",
+            "NameEn": "Clear mind +",
+            "DescriptionEn": "At the beginning of combat, apply \"Serenity\" status and increase Attack by $1 for $2.\nAfterwards, every $3, apply \"Serenity\" status and increase Attack by $4 for $5. "
         },
         {
             "GroupId": "CH0107Passive01",
@@ -4764,6 +4784,84 @@
             "GroupId": "CH0255ExtraPassive01",
             "NameEn": "Customer service",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0250Ex01",
+            "NameEn": "Spitting bars",
+            "DescriptionEn": "Increase the Attack Speed of allies within a circular area around self by $1, and acquire $2 \"Sugar Rush\" for $3. (stacks up to a maximum of 2)"
+        },
+        {
+            "GroupId": "CH0250Public01",
+            "NameEn": "Bass tuning",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0250Passive01",
+            "NameEn": "Familiar stage",
+            "DescriptionEn": "Increase Attack Speed by $1."
+        },
+        {
+            "GroupId": "CH0250WeaponPassive01",
+            "NameEn": "Familiar stage +",
+            "DescriptionEn": "Increase Explosive Efficiency by $1. Increase Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0250ExtraPassive01",
+            "NameEn": "Sweet vocals",
+            "DescriptionEn": "For each \"Sugar Rush\" owned, when attacking, deal $1 of Attack as additional damage. (stacks up to a maximum of 2)"
+        },
+
+        {
+            "GroupId": "CH0220Ex01",
+            "NameEn": "Explosive climax",
+            "DescriptionEn": "Increase Attack and Attack Speed by $1 for $2.\nAdditionally, acquire $3 stacks of \"Sugar Rush\" (up to a maximum of 5)\n\"Sugar Rush\" decreases by $5 every $4."
+        },
+        {
+            "GroupId": "CH0220Public01",
+            "NameEn": "Visual maker",
+            "DescriptionEn": "Every $1 Normal attacks, deal $2 damage to one enemy.\nDamage is increased by $4 for every $3 \"Sugar Rush\" active on all allies (stacks up to a maximum of $5)"
+        },
+        {
+            "GroupId": "CH0220Passive01",
+            "NameEn": "Rock'n'roll",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0220WeaponPassive01",
+            "NameEn": "Rock'n'roll +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0220ExtraPassive01",
+            "NameEn": "Sweet harmonics",
+            "DescriptionEn": "Every $1 Normal skill activations, deal $2 additional damage."
+        },
+
+        {
+            "GroupId": "CH0251Ex01",
+            "NameEn": "Happy melody",
+            "DescriptionEn": "Increase own Explosive Efficiency by $1 and acquire a \"Sugar Rush\" for $2."
+        },
+        {
+            "GroupId": "CH0251Public01",
+            "NameEn": "Chocomint musical stairs",
+            "DescriptionEn": "Every $1 Normal attacks, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0251Passive01",
+            "NameEn": "Bigger and further",
+            "DescriptionEn": "Increase Firing Range by $1 and Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0251WeaponPassive01",
+            "NameEn": "Bigger and further +",
+            "DescriptionEn": "Increase Attack by $1. Increase Firing Range by $2 and Attack Speed by $3."
+        },
+        {
+            "GroupId": "CH0251ExtraPassive01",
+            "NameEn": "Pervasive feelings",
+            "DescriptionEn": "When possessing \"Sugar Rush\", attacks have a 10% chance to reduce Critical Damage Resistance by $1 for $2. (Cooldown: $3 seconds)"
         }
         
         

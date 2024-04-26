@@ -47,12 +47,12 @@ SEASON_TOR_DEF = {
 }
 
 
-def get_raid_boss_data(group):
+def get_raid_boss_data(group, region = 'jp'):
     global args, data, season_data
 
     boss_data = {}
 
-    boss_data['stage'] = data.eliminate_raid_stage[group]
+    boss_data['stage'] = season_data[region].eliminate_raid_stage[group]
     for stage in boss_data['stage']:
         #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
         stage['ground'] = data.ground[stage['GroundId']]
@@ -102,13 +102,13 @@ def generate():
 
             boss_data = {}
             for group in boss_groups:
-                boss_data[group]= get_raid_boss_data(season[group])
+                boss_data[group]= get_raid_boss_data(season[group], region)
 
                 if season['SeasonId'] in SEASON_TOR_DEF[region]: season['challenge'] = SEASON_TOR_DEF[region][season['SeasonId']]
                 else:
                     for stage in boss_data[group]['stage']: 
                         if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
-                            #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
+                            print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
                             season['challenge'] = stage['character']['ArmorType']
                             break
 

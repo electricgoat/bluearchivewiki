@@ -53,6 +53,9 @@ class StageReward(object):
     
     def format_wiki_items(self, **params):
         return wiki_card(self.parcel_type, self.parcel_id, quantity=self.amount, **params )
+    
+    def __repr__(self):
+        return str(self.__dict__)
 
 
 
@@ -163,13 +166,13 @@ def reward_subtotal(bracket, stages):
     start,end = bracket
     total_rewards = {}
 
-    for stage in [x for x in stages if x['Difficulty'] in range(start,end)]:
+    for stage in [x for x in stages if x['Difficulty'] in range(start,end+1)]:
         for item in stage['clear_rewards']:
             if (item.parcel_type, item.parcel_id) not in total_rewards:
-                total_rewards[(item.parcel_type, item.parcel_id)] = item
+                total_rewards[(item.parcel_type, item.parcel_id)] = copy.copy(item)
             else:
                 total_rewards[(item.parcel_type, item.parcel_id)].amount += item.amount
-    
+
     return {'bracket':bracket, 'rewards': sorted(total_rewards.values(), key=reward_sort_order)}
 
 

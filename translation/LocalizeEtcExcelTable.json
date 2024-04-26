@@ -8212,6 +8212,399 @@
             "NameEn": "Artifact Raffle Ticket 4",
             "DescriptionJp": "使用時、オーパーツ（4）の中から、一つを同じ確率で獲得することができる抽選ボックス。抽選ボックス獲得後、すぐに構成品を手に入れることができる。",
             "DescriptionEn": "When used, rewards one random T4 oopart."
+        },
+        {
+            "Key": 1212789143,
+            "NameJp": "カズサ（バンド）の神名文字",
+            "NameEn": "Kazusa's (Band) Eleph",
+            "DescriptionJp": "カズサ（バンド）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kazusa (Band)."
+        },
+        {
+            "Key": 619619822,
+            "NameJp": "ヨシミ（バンド）の神名文字",
+            "NameEn": "Yoshimni's (Band) Eleph",
+            "DescriptionJp": "ヨシミ（バンド）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Yoshimni (Band)."
+        },
+        {
+            "Key": 2169022377,
+            "NameJp": "アイリ（バンド）の神名文字",
+            "NameEn": "Airi's (Band) Eleph",
+            "DescriptionJp": "アイリ（バンド）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Airi (Band)."
+        },
+        {
+            "Key": 3549417253,
+            "NameJp": "カウントダウンカレンダー",
+            "NameEn": "Countdown Calendar",
+            "DescriptionJp": "決戦の日まで、一日一日過ぎていくカレンダー。時間は待ってくれない！",
+            "DescriptionEn": "A calendar that marks the time until the day of decisive battle. Time doesn't wait!"
+        },
+        {
+            "Key": 1553303194,
+            "NameJp": "エナジークッキー",
+            "NameEn": "Energy Cookie",
+            "DescriptionJp": "消耗した体力を回復させるためのクッキー。実際にお腹がいっぱいになることはない。",
+            "DescriptionEn": "A cookie to recover your depleted physical strength. Won't actually make you feel full."
+        },
+        {
+            "Key": 4287453305,
+            "NameJp": "やる気アップキャンディ",
+            "NameEn": "Motivational Candy",
+            "DescriptionJp": "落ちたモチベーションを上げてくれるキャンディー。味はバラエティに富んでいる。",
+            "DescriptionEn": "Candy to boost your motivation. There is a wide variety of flavors available."
+        },
+        {
+            "Key": 3117022162,
+            "NameJp": "イベントPt",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得することができる。",
+            "NameEn": "Event Points",
+            "DescriptionEn": "These points are earned each time you progress in an event. The more you earn, the greater the variety of rewards you can receive."
+        },
+
+        {
+            "Key": 578130730,
+            "NameKr": "새드 버니 보온병",
+            "DescriptionKr": "미유가 언제나 챙겨 다니는 컴팩트한 사이즈의 보온병. 슬픈 표정의 토끼가 그려진 파우치에 소중하게 담겨 있다.",
+            "NameJp": "サッドバニーポット",
+            "DescriptionJp": "ミユがいつも持ち歩いているコンパクトサイズのポット。悲しそうな表情のうさぎが描かれたポーチに大切に保管されている。",
+            "NameEn": "Sad Bunny Pot",
+            "DescriptionEn": "A compact-sized pot that Miyu always carries with her. It is carefully kept in a pouch with a sad-looking rabbit on it."
+        },
+        {
+            "Key": 3979908227,
+            "NameKr": "학생들의 감사장",
+            "DescriptionKr": "백귀야행의 학생들이 카호에게 증정한 감사장. 액자에 넣어 소중하게 보관하고 있다.",
+            "NameJp": "生徒たちからの感謝状",
+            "DescriptionJp": "百鬼夜行の生徒たちがカホに贈った感謝状。額に入れて大切に保管している。",
+            "NameEn": "Certificate of Student Appreciation",
+            "DescriptionEn": "A certificate of appreciation given to Kaho by the Hyakkiyako students. Framed and cherished by Kaho."
+        },
+        {
+            "Key": 3030262627,
+            "NameKr": "디저트 약탈자",
+            "DescriptionKr": "요시미 전용의 포크 숟가락. 유사 시 즉각 대처할 수 있도록 늘 품에 담아 두고 있다. 오랜 시간 사용했어도 명품이라고 한다.",
+            "NameJp": "スイーツ・ハンター",
+            "DescriptionJp": "ヨシミ専用のフォークスプーン。いざという時に即座に対応できるよう、常に懐に置いている。長い間使い続けられる名品のようだ。",
+            "NameEn": "Sweets・Hunter",
+            "DescriptionEn": "Yoshimi's spork. She always keeps it at hand for emergency use. Appears to be very durable and exquisitely made."
+        },
+        {
+            "Key": 2395802552,
+            "NameKr": "무시퀸 카드 프로텍터",
+            "DescriptionKr": "카드의 손상을 막기 위해 만들어진 프로텍터. 그중에서도 카에데가 처음으로 구매한 무시퀸 프로텍터의 일반판. 정식 대회에서는 프로텍터를 사용해야 출전이 가능한 경우가 많다고 한다.",
+            "NameJp": "ムシクイーンカードスリーブ",
+            "DescriptionJp": "カードの損傷を防ぐために作られたスリーブ。その中でもカエデが初めて購入したムシクイーンカードスリーブの通常版。正式な大会では、カードスリーブを使わないと出場できないことが多いという。",
+            "NameEn": "Mushiqueen Card Sleeves",
+            "DescriptionEn": "Sleeves meant to protect cards from damage. The Mushiqueen-branded card sleeves were Kaede's first purchase. In formal tournaments, players are often unable to participate unless they use card sleeves."
+        },
+
+        {
+            "Key": 1597029036,
+            "NameJp": "トリニティ原木の収納ケース",
+            "NameEn": "Trinity Wooden Storage Cabinet",
+            "DescriptionJp": "高級感のある原木素材が際立つ収納ケース。",
+            "DescriptionEn": "A storage cabinet made of luxurious raw wood material."
+        },
+        {
+            "Key": 505605553,
+            "NameJp": "トリニティ教室シリーズ",
+            "NameEn": "Trinity Classroom Set",
+            "DescriptionJp": "優雅さと高級感、実用性まで追求したトリニティ教室の姿を紹介します！",
+            "DescriptionEn": "Introducing the elegance, luxury, and practicality of the Trinity classroom series!"
+        },
+        {
+            "Key": 2556173092,
+            "NameJp": "トリニティ教室シリーズ",
+            "NameEn": "Trinity Classroom Furniture"
+        },
+        {
+            "Key": 2943766715,
+            "NameJp": "飾られたトリニティ原木の収納ケース",
+            "NameEn": "Decorated Trinity Wooden Storage Cabinet",
+            "DescriptionJp": "花瓶と本が置かれた収納ケース。香りと読書、賢い収納はトリニティの基本素養だ。",
+            "DescriptionEn": "Storage cabinet with a vase and books placed on top. Fragrance, literature, and clever storage are Trinity's basic qualities."
+        },
+        {
+            "Key": 705548867,
+            "NameJp": "ベーシックパターンカーペット",
+            "NameEn": "Basic Pattern Carpet",
+            "DescriptionJp": "シンプルさが際立つカーペット。どんな空間にでもマッチする。",
+            "DescriptionEn": "A carpet with a simple design that stands out. Matches any space."
+        },
+        {
+            "Key": 2353346596,
+            "NameJp": "クラシックパターンカーペット",
+            "NameEn": "Classic Pattern Carpet",
+            "DescriptionJp": "ユニークな柄のクラシックパターンカーペット。フォーマルな場面に最適だ。",
+            "DescriptionEn": "A classic pattern carpet with a unique design. Perfect for formal occasions."
+        },
+        {
+            "Key": 3884395110,
+            "NameJp": "トリニティ六角形カーペット",
+            "NameEn": "Trinity Hexagonal Carpet",
+            "DescriptionJp": "ふわふわとした感触の六角形のカーペット。",
+            "DescriptionEn": "A fluffy hexagonal carpet with a soft texture."
+        },
+        {
+            "Key": 4261680652,
+            "NameJp": "ブルーラインカーペット",
+            "NameEn": "Blue Line Carpet",
+            "DescriptionJp": "ほのかなブルーラインが刺繍されたブルーラインカーペット。空間にポイントを与えることができるアイテムだ。",
+            "DescriptionEn": "A blue line carpet with subtle embroidery. Adds a focal point to the space."
+        },
+        {
+            "Key": 1641849722,
+            "NameJp": "トリニティ教室の机",
+            "NameEn": "Trinity Classroom Desk",
+            "DescriptionJp": "トリニティ教室のクラシックな机セット。トリニティでよく見かけるものだが、素材から仕上げまで高級感が漂う。",
+            "DescriptionEn": "A classic desk set from the Trinity classroom. Commonly seen in Trinity, it exudes luxury from material choice to finish quality."
+        },
+        {
+            "Key": 1907064674,
+            "NameJp": "トリニティ教室の柱",
+            "NameEn": "Trinity Classroom Pillar",
+            "DescriptionJp": "高級感のある縦柄で洗練された印象を与えてくれる柱。",
+            "DescriptionEn": "A pillar that gives a refined impression with its luxurious vertical pattern."
+        },
+        {
+            "Key": 1193459121,
+            "NameJp": "トリニティ教室のパターン柱",
+            "NameEn": "Trinity Classroom Patterned Pillar",
+            "DescriptionJp": "繊細な柄が目を引く柱。高級感が漂う。",
+            "DescriptionEn": "A pillar with delicate patterns that catch the eye. Exudes luxury."
+        },
+        {
+            "Key": 2843641596,
+            "NameJp": "トリニティ教室のランプ付き柱",
+            "NameEn": "Trinity Classroom Lamp Pillar",
+            "DescriptionJp": "小さなランプが設置された柱。暖かい光が教室を照らす。",
+            "DescriptionEn": "A pillar with a small lamp installed. Warm light illuminates the classroom."
+        },
+        {
+            "Key": 1104421410,
+            "NameJp": "トリニティ教室の黒板",
+            "NameEn": "Trinity Classroom Blackboard",
+            "DescriptionJp": "生徒たちの落書きでいっぱいの黒板。チョークもマーカーも好きなものを選んで使える！",
+            "DescriptionEn": "A blackboard filled with students' doodles. Choose between chalk and markers!"
+        },
+        {
+            "Key": 2720605122,
+            "NameJp": "トリニティ教室の教卓",
+            "NameEn": "Trinity Classroom Lectern",
+            "DescriptionJp": "教科書と教具が置かれた教卓。上質な授業に相応しい上質な教卓だ。",
+            "DescriptionEn": "A lectern with textbooks and teaching aids placed. Suitable for high-quality lessons."
+        },
+        {
+            "Key": 462704385,
+            "NameJp": "ペロロ人形が置かれた机",
+            "NameEn": "Desk with Peroro Doll",
+            "DescriptionJp": "かわいいペロロ人形が置かれた机。人形を大事にしていることが伝わる。",
+            "DescriptionEn": "A desk with a cute Peroro doll placed on it. Shows care for the doll."
+        },
+        {
+            "Key": 1825412664,
+            "NameJp": "バッグがかかった机",
+            "NameEn": "Desk with Hanging Bag",
+            "DescriptionJp": "トリニティの校章が刻印された革製のバッグがぶら下がっている机。いたずらでも開けてはいけなさそうだ。",
+            "DescriptionEn": "Desk with a Trinity emblem leather bag hanging on it. Seems too precious to open even for mischief."
+        },
+        {
+            "Key": 2175237187,
+            "NameJp": "銃とバッグが置かれた机",
+            "NameEn": "Desk with Gun and Bag",
+            "DescriptionJp": "銃とバッグが置かれた机セット。どうしても必要なときに備えて、ガンスタンドではなくここに置いているようだ。",
+            "DescriptionEn": "A desk set with a gun and bag placed on it. The latter seems to be kept close rather than on a gun stand in case of an emergency."
+        },
+        {
+            "Key": 145892471,
+            "NameJp": "ペロロ様のバッグがかかった机",
+            "NameEn": "Desk with Peroro-sama's Bag",
+            "DescriptionJp": "ペロロ様のバッグがかかった机セット。なぜか満面の笑みが浮かぶ。",
+            "DescriptionEn": "A desk set with Peroro-sama bag hanging on it. Somehow, it's impossible not to smile while looking at it."
+        },
+        {
+            "Key": 769996537,
+            "NameJp": "トリニティ教室ウィンドウシングルパーテーション",
+            "NameEn": "Trinity Classroom Window Single Partition",
+            "DescriptionJp": "繊細な木製フレームが特徴的な拡張型パーテーション。仕切られた空間を圧迫感のない空間にしてくれる。",
+            "DescriptionEn": "An expandable partition with delicate wooden frames. Creates a spacious feel in partitioned spaces."
+        },
+        {
+            "Key": 2615783174,
+            "NameJp": "トリニティ教室ウィンドウダブルパーテーション",
+            "NameEn": "Trinity Classroom Window Double Partition",
+            "DescriptionJp": "繊細な木製フレームが特徴的な拡張型パーテーション。仕切られた空間に開放感を与えてくれる。",
+            "DescriptionEn": "An expandable partition with delicate wooden frames. Provides a sense of openness in partitioned spaces."
+        },
+        {
+            "Key": 3595322546,
+            "NameJp": "トリニティ教室シングルパーテーション",
+            "NameEn": "Trinity Classroom Single Partition",
+            "DescriptionJp": "古風な柄が印象的なパーテーション。実用性と優雅さを両立させている。",
+            "DescriptionEn": "An impressive partition with a traditional pattern. Balances practicality and elegance."
+        },
+        {
+            "Key": 1296837737,
+            "NameJp": "トリニティ教室ダブルパーテーション",
+            "NameEn": "Trinity Classroom Double Partition",
+            "DescriptionJp": "古風な柄が印象的な拡張型パーテーション。実用性と優雅さが二倍になった。",
+            "DescriptionEn": "An impressive expandable partition with a traditional pattern. Doubles the practicality and elegance."
+        },
+        {
+            "Key": 3537811115,
+            "NameJp": "花のあるサイドテーブル",
+            "NameEn": "Side Table with Flowers",
+            "DescriptionJp": "花瓶が置かれたサイドテーブル。日常に彩りを添えるアイテムだ。",
+            "DescriptionEn": "A side table with a vase placed on it. Adds color to everyday life."
+        },
+        {
+            "Key": 1542630626,
+            "NameJp": "ランプ付きサイドテーブル",
+            "NameEn": "Side Table with Lamp",
+            "DescriptionJp": "ランプが置かれたサイドテーブル。ほのぼのとした温かみのある光を放つ。",
+            "DescriptionEn": "A side table with a lamp placed on it. Emits a warm and cozy light."
+        },
+        {
+            "Key": 1440396050,
+            "NameJp": "トリニティベンチ",
+            "NameEn": "Trinity Bench",
+            "DescriptionJp": "背もたれのデザインが特徴的なベンチ。クッションがとてもふかふかだ。",
+            "DescriptionEn": "A bench with a distinctive backrest design. The cushion is very soft."
+        },
+        {
+            "Key": 1961210362,
+            "NameJp": "トリニティ教室の背景",
+            "NameEn": "Trinity Classroom Background",
+            "DescriptionJp": "優雅で上品なトリニティの雰囲気が感じられる教室の背景。",
+            "DescriptionEn": "The elegant and sophisticated atmosphere of Trinity can be felt in the classroom background."
+        },
+        {
+            "Key": 533124825,
+            "NameJp": "トリニティ教室の壁",
+            "NameEn": "Trinity Classroom Wall",
+            "DescriptionJp": "青緑色と古風な柄が特徴的なトリニティ壁紙。",
+            "DescriptionEn": "Trinity wallpaper characterized by turquoise color and traditional patterns."
+        },
+        {
+            "Key": 442009695,
+            "NameJp": "トリニティ教室の床",
+            "NameEn": "Trinity Classroom Floor",
+            "DescriptionJp": "落ち着いた色調と柄の床。上質な素材を使用している。",
+            "DescriptionEn": "A floor with calm colors and patterns. Made of high-quality materials."
+        },
+        {
+            "Key": 378787078,
+            "NameJp": "トリニティ大型の本棚",
+            "NameEn": "Trinity Large Bookshelf",
+            "DescriptionJp": "由緒あるトリニティの古書が並ぶ大きな本棚。ほとんどの生徒は1ページめくることに精一杯だ。",
+            "DescriptionEn": "A large bookshelf with historic Trinity books lined up. Most students struggle to turn even one page."
+        },
+        {
+            "Key": 3520003053,
+            "NameJp": "掛け時計",
+            "NameEn": "Wall Clock",
+            "DescriptionJp": "気品のある音で時間を知らせる掛け時計、遠くまで音が届く。",
+            "DescriptionEn": "A wall clock that tells the time with elegant sound, audible from afar."
+        },
+        {
+            "Key": 2434401866,
+            "NameJp": "トリニティ中型の本棚",
+            "NameEn": "Trinity Medium Bookshelf",
+            "DescriptionJp": "クラシックなキャンドルと様々な本を収納した中型の本棚。キャンドルを灯して読書に集中できる。",
+            "DescriptionEn": "A medium-sized bookshelf storing various books and classic candles. You can concentrate on reading by lighting the candles."
+        },
+        {
+            "Key": 1304652953,
+            "NameJp": "トリニティ教室の扉",
+            "NameEn": "Trinity Classroom Door",
+            "DescriptionJp": "トリニティ教室の扉。華やかな金箔の装飾と爽やかな青緑色の組み合わせが印象的だ。",
+            "DescriptionEn": "The door to the Trinity classroom. The impressive combination of glamorous gold foil decoration and refreshing turquoise color."
+        },
+        {
+            "Key": 3211915530,
+            "NameJp": "トリニティガンスタンド",
+            "NameEn": "Trinity Gun Stand",
+            "DescriptionJp": "トリニティ生徒たちの銃を保管する木製のガンスタンド。暗めの木材と対照的なカラフルな銃が印象的だ。",
+            "DescriptionEn": "A wooden gun stand for storing Trinity students' guns. The colorful guns contrast with the dark wood frame."
+        },
+        {
+            "Key": 2176946257,
+            "NameJp": "トリニティ教室の窓",
+            "NameEn": "Trinity Classroom Window",
+            "DescriptionJp": "優雅な青緑色のカーテンがかかった窓。いつもきれいに管理されている。",
+            "DescriptionEn": "A window with elegant turquoise curtains. Always kept clean."
+        },
+        {
+            "Key": 1794535042,
+            "NameJp": "ディープブルーベース",
+            "NameEn": "Deep Blue Base",
+            "DescriptionJp": "濃い青色のベース。バンドを支える頼もしいベースだが、時には主役に踊り出ることもある。",
+            "DescriptionEn": "A deep blue base. A reliable base that supports the band, but sometimes steals the spotlight."
+        },
+        {
+            "Key": 3965567884,
+            "NameJp": "ピンク色のエレクトリックギター",
+            "NameEn": "Pink Electric Guitar",
+            "DescriptionJp": "かわいいピンク色のエレクトリックギター。見た目とは裏腹に強烈なサウンドを奏でる。",
+            "DescriptionEn": "A cute pink electric guitar. Despite its appearance, it produces a powerful sound."
+        },
+        {
+            "Key": 757557126,
+            "NameJp": "ベーシック・エレクトリックキーボード",
+            "NameEn": "Basic Electric Keyboard",
+            "DescriptionJp": "基本に忠実なエレクトリックキーボード。演奏が始まると、しっかりとした基本に加え、華やかさも見せてくれる。",
+            "DescriptionEn": "An electric keyboard that is faithful to the basics. When it come to performance, it shines vrighter than you'd think."
+        },
+        {
+            "Key": 4027488153,
+            "NameJp": "セルフィーブース",
+            "NameEn": "Selfie Booth",
+            "DescriptionJp": "盛りの生徒たちの目を引くセルフィーブース。たくさんのデコレーションが用意されている。",
+            "DescriptionEn": "A selfie booth that catches the eyes of enthusiastic students. Many decorations are available."
+        },
+        {
+            "Key": 419270322,
+            "NameJp": "伝説の記録板",
+            "NameEn": "Legendary Record Board",
+            "DescriptionJp": "ある伝説的なバンドの記録が書かれたホワイトボード。名声やスイーツよりも大切なのは、一緒に過ごした思い出だ。",
+            "DescriptionEn": "A whiteboard with the records of a legendary band written on it. More important than fame and sweets are the memories we made together."
+        },
+        {
+            "Key": 1321248679,
+            "NameJp": "リコレクト・メモリー-ive aLIVE!",
+            "NameEn": "Recollection・-ive aLIVE!",
+            "DescriptionJp": "-ive aLIVE!の映像を再生できる機械",
+            "DescriptionEn": "Machine that plays -ive aLIVE! PV video."
+        },
+
+        {
+            "Key": 492111224,
+            "NameKr": "-ive aLIVE!",
+            "DescriptionKr": "-ive aLIVE! 칭호 획득 미션 클리어",
+            "NameJp": "-ive aLIVE!",
+            "DescriptionJp": "-ive aLIVE!称号獲得ミッションクリア",
+            "NameEn": "-ive aLIVE!",
+            "DescriptionEn": "Clear title acquisition mission of -ive aLIVE! event."
+        },
+        {
+            "Key": 125527268,
+            "NameKr": "The Fury of Set",
+            "DescriptionKr": "제약해제결전 세트의 분노(경장갑) 50단계 클리어",
+            "NameJp": "The Fury of Set",
+            "DescriptionJp": "制約解除決戦・セトの憤怒（軽装備）50段階クリア",
+            "NameEn": "The Fury of Set",
+            "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 50"
+        },
+        {
+            "Key": 1668539465,
+            "NameKr": "The Fury of Set",
+            "DescriptionKr": "제약해제결전 세트의 분노(경장갑) 100단계 클리어",
+            "NameJp": "The Fury of Set",
+            "DescriptionJp": "制約解除決戦・セトの憤怒（軽装備）100段階クリア",
+            "NameEn": "The Fury of Set",
+            "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 50"
         }
       
 

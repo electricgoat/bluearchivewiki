@@ -112,8 +112,8 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
     localize_id = None    
     mission['AutoLocalized'] = False
 
-
-    key = hashkey(mission['Description'])
+    
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
     if key in data.localization:
         #print (f"Key {key} found in localization data")
         mission['DescriptionJp'] = description_cleanup(data.localization[key].get('Jp').replace('{0}', str(mission['CompleteConditionCount']))) 
@@ -230,10 +230,10 @@ def localize_ClearEventStageTimeLimitFromSecond(mission):
     desc_en = 'Clear $2 $1 within $3 seconds'
 
     idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][0])[idlen:idlen+1])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
     difficulty_names = ['','Story','Quest','Challenge']
 
-    stage = str(mission['CompleteConditionParameter'][0])[idlen+2:idlen+4].lstrip('0')
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])

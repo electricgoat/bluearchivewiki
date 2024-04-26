@@ -1,13 +1,13 @@
 
 == Limit Break Raid list ==
 <tabber>
-JP={% raw %}{{{% endraw %}RaidTable |
+JP={% raw %}{{{% endraw %}MultiFloorRaidTable |
 {% for raid in season_data['jp'].multi_floor_raid_season.values() if not raid['ignore'] -%}
 {% raw %}{{{% endraw %}Raid |Type = Limit Break |Server = JP |Name = {{raid['raid_name']}} (Limit Break Raid) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Challenge = {{raid['challenge']|armor_type}} |Season = {{raid['SeasonId']}} |Start_date = {{raid['SeasonStartDate'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndDate'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
 {% endfor -%}
 {% raw %}}}{% endraw %}
 |-|
-Global={% raw %}{{{% endraw %}RaidTable |
+Global={% raw %}{{{% endraw %}MultiFloorRaidTable |
 {% for raid in season_data['gl'].multi_floor_raid_season.values() if not raid['ignore'] -%}
 {% raw %}{{{% endraw %}Raid |Type = Limit Break |Server = GL |Name = {{raid['raid_name']}} (Limit Break Raid) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Challenge = {{raid['challenge']|armor_type}} |Season = {{raid['SeasonId']}} |Start_date = {{raid['SeasonStartDate'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndDate'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
 {% endfor -%}
