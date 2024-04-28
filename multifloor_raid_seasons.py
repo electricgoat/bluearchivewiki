@@ -53,7 +53,7 @@ def generate():
 
     for region in ['jp', 'gl']:
         for season in season_data[region].multi_floor_raid_season.values():
-            boss = [season['OpenRaidBossGroupId']]
+            boss = season['OpenRaidBossGroupId'].split('_',2)
 
             if season['SeasonId'] in SEASON_IGNORE[region]:
                 #print(f"Flagged to ignore {region} season {season['SeasonId']}")

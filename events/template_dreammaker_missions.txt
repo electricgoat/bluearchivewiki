@@ -1,0 +1,20 @@
+===Minigame Achievement Missions===
+{% raw %}{{% endraw %}| class="wikitable"
+!No.	
+!Mission
+!Reward
+{% for mission in missions if mission['ViewFlag'] == True -%}
+|-
+| style="text-align: center" |{{mission['DisplayOrder']}}
+|{{mission['DescriptionEn']}}
+|{% for reward in mission['RewardItemCards'] -%}
+{{reward}}
+{%- endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable"
+! Total Achievement Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
+{% raw %}|}{% endraw %}

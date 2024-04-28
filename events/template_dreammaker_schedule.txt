@@ -1,0 +1,25 @@
+{| class="wikitable"
+|+ Schedule
+|-
+!Lesson
+!Outcome
+!Chance!! {{'{{'}}Icon|DreamMaker_Performance{{'}}'}} Performance !! {{'{{'}}Icon|DreamMaker_Sense{{'}}'}} Sense !! {{'{{'}}Icon|DreamMaker_Teamwork{{'}}'}} Teamwork !! {{'{{'}}Icon|DreamMaker_Condition{{'}}'}} Condition
+
+{%- for schedule in dream_schedule %}
+{%- set outer_loop = loop -%}
+{%- set results = dream_schedule_result|selectattr('DreamMakerScheduleGroup', 'equalto', schedule['DreamMakerScheduleGroupId'])|list %}
+
+{%- for result in results %}
+|-
+{% if loop.index0 == 0 %}! rowspan="{{results|length}}" | {{data.localization[schedule['LocalizeEtcId']].get('En')}}
+{% endif -%}
+| {{result['DreamMakerResult']}}
+| {{'%g'%(result['Prob'] / 100)}}%
+| {{'{{'}}Icon|{{result['RewardParameterOperationType'][result['RewardParameter'].index('Param01')]}}{{'}}'}} {{result['RewardParameterAmount'][result['RewardParameter'].index('Param01')]}} 
+| {{'{{'}}Icon|{{result['RewardParameterOperationType'][result['RewardParameter'].index('Param02')]}}{{'}}'}} {{result['RewardParameterAmount'][result['RewardParameter'].index('Param02')]}} 
+| {{'{{'}}Icon|{{result['RewardParameterOperationType'][result['RewardParameter'].index('Param03')]}}{{'}}'}} {{result['RewardParameterAmount'][result['RewardParameter'].index('Param03')]}} 
+| {{'{{'}}Icon|{{result['RewardParameterOperationType'][result['RewardParameter'].index('Param04')]}}{{'}}'}} {{result['RewardParameterAmount'][result['RewardParameter'].index('Param04')]}} 
+{%- endfor -%}
+
+{%- endfor %}
+|}

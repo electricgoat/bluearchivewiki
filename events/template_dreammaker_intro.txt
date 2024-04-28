@@ -1,0 +1,6 @@
+[[File:{{name.replace(' ','_')}}_logo.png|thumb|{{name}} minigame logo]]
+This minigame unlocks after clearing Story 10 of the event. Gameplay revolves around training the Sugar Rush band for their upcoming live performance by choosing various practice activities. Successfully completing the {{dream_info['DreamMakerDays']}}-day schedule rewards players with {{'{{'}}ItemCard|Airi's (Band) Eleph{{'}}'}} and other resources. 
+
+Players can complete the minigame multiple times, first round has increased completion rewards.
+
+Each action within the minigame costs {{'{{'}}ItemCard|Countdown Calendar|quantity=180{{'}}'}}, with {{dream_info['DreamMakerActionPoint']}} action points alloted for each day one full round costing a total of {{'{{'}}ItemCard|Countdown Calendar|quantity={{180 * dream_info['DreamMakerDays'] * dream_info['DreamMakerActionPoint']}}|text={{'}}'}}. Reaching both game endings will unlock the multiplier option that allows player to expend event currency and be granted rewards at selected multiplier level (x1~x{{dream_info['DreamMakerMultiplierMax']}}).

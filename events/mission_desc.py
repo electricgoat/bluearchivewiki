@@ -119,17 +119,17 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
         mission['DescriptionJp'] = description_cleanup(data.localization[key].get('Jp').replace('{0}', str(mission['CompleteConditionCount']))) 
         mission['DescriptionEn'] = description_cleanup(data.localization[key].get('En', '').replace('{0}', str(mission['CompleteConditionCount']))) 
         if 'En' not in data.localization[key]: print (f"Untranslated mission localize id {key}")
-        else: return
+        #else: return
 
 
     #Matching by Description is a finer sieve than condition type, it's used because some conditions are used for differently-phrased missions
     if f"localize_{mission['Description']}" in globals():
         globals()[f"localize_{mission['Description']}"](mission, data, items, furniture)
     elif f"localize_{mission['CompleteConditionType'].replace('Reset_','')}" in globals():
-        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission)
+        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission, data)
 
 
-    if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and mission['Description'] not in missing_descriptions:
+    if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and key not in data.localization :
         missing_descriptions.append(mission['Description'])
         print (f"Missing localization mapping {key} for {mission['Description']} of {mission}")
         return False
@@ -145,7 +145,37 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 
 
 
-def localize_CompleteScheduleWithTagCount(mission):
+def localize_DreamGetSpecificParameter(mission, data):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    params = {x['Id']:x for x in data.minigame_dream_parameter[mission['EventContentId']]}
+    condition_param = data.localization[params[mission['CompleteConditionParameter'][1]]['LocalizeEtcId']]
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('Jp'))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('En'))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_DreamGetSpecificScheduleCount(mission, data):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    params = {x['DreamMakerScheduleGroupId']:x for x in data.minigame_dream_schedule[mission['EventContentId']]}
+    condition_param = data.localization[params[mission['CompleteConditionParameter'][1]]['LocalizeEtcId']]
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('Jp'))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('En'))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_CompleteScheduleWithTagCount(mission, data):
     desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
     desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
@@ -155,7 +185,7 @@ def localize_CompleteScheduleWithTagCount(mission):
     return True
 
 
-def localize_ClearSchoolDungeonCount(mission):
+def localize_ClearSchoolDungeonCount(mission, data):
     desc_jp = ''
     desc_en = 'Participate in School Exchange $1 time(s)'
 
@@ -166,7 +196,7 @@ def localize_ClearSchoolDungeonCount(mission):
     return True
 
 
-def localize_ClearSpecificScenario(mission):
+def localize_ClearSpecificScenario(mission, data):
     desc_jp = 'メインストーリー第$1編$2章$3話をクリア'
     desc_en = 'Complete Volume $1, Chapter $2, Episode $3 of the main story'
 
@@ -183,7 +213,7 @@ def localize_ClearSpecificScenario(mission):
     return True
 
 
-def localize_ClearSpecificCampaignStageCount(mission):
+def localize_ClearSpecificCampaignStageCount(mission, data):
     desc_jp = 'エリア[[$1]] $2をクリア'
     desc_en = 'Clear $2 Mission [[$1]]'
 
@@ -203,7 +233,7 @@ def localize_ClearSpecificCampaignStageCount(mission):
     return True
 
 
-def localize_ClearCampaignStageTimeLimitFromSecond(mission):
+def localize_ClearCampaignStageTimeLimitFromSecond(mission, data):
     desc_jp = '任務ステージ[[$1]]$2を$3秒以内にクリア'
     desc_en = 'Clear $2 Mission [[$1]] within $3 seconds'
 
@@ -225,7 +255,7 @@ def localize_ClearCampaignStageTimeLimitFromSecond(mission):
     return True
 
 
-def localize_ClearEventStageTimeLimitFromSecond(mission):
+def localize_ClearEventStageTimeLimitFromSecond(mission, data):
     desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
     desc_en = 'Clear $2 $1 within $3 seconds'
 
@@ -248,7 +278,7 @@ def localize_ClearEventStageTimeLimitFromSecond(mission):
     return True
 
 
-def localize_EventCompleteCampaignStageMinimumTurn(mission):
+def localize_EventCompleteCampaignStageMinimumTurn(mission, data):
     desc_jp = '$2のステージ$1を$3ターン以内にクリア'
     desc_en = 'Clear $2 $1 within $3 turns'
 
@@ -271,7 +301,7 @@ def localize_EventCompleteCampaignStageMinimumTurn(mission):
     return True
 
 
-def localize_CompleteMission(mission):
+def localize_CompleteMission(mission, data):
     desc_jp = 'イベントのチャレンジミションを$1個以上クリア'
     desc_en = 'Complete $1 Achievement Missions'
 

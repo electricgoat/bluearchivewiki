@@ -1,0 +1,40 @@
+==Minigame Scenarios and Collection Photos==
+Various story scenarios and collection photos are unlocked by reaching certain breakpoints within the minigame. Stories can be reviewed in the Records part of the minigame menu. Unlocked photos are added to the Collection on main event menu and can be seen by clicking {{'{{'}}FurnitureCard|Legendary Record Board{{'}}'}} furniture in the cafe.
+
+{| class="wikitable"
+|+ Story scenarios
+|-
+!Id
+! {{'{{'}}Icon|DreamMaker_Performance{{'}}'}} Performance !! {{'{{'}}Icon|DreamMaker_Sense{{'}}'}} Sense !! {{'{{'}}Icon|DreamMaker_Teamwork{{'}}'}} Teamwork !! {{'{{'}}Icon|DreamMaker_Condition{{'}}'}} Condition
+
+{%- for scenario in dream_collection_scenario %}
+|-
+| {{scenario['Id']}}
+| {% if 'Param01' in scenario['Parameter'] %}{{scenario['ParameterAmount'][scenario['Parameter'].index('Param01')]}}{% endif %}
+| {% if 'Param02' in scenario['Parameter'] %}{{scenario['ParameterAmount'][scenario['Parameter'].index('Param02')]}}{% endif %}
+| {% if 'Param03' in scenario['Parameter'] %}{{scenario['ParameterAmount'][scenario['Parameter'].index('Param03')]}}{% endif %}
+| {% if 'Param04' in scenario['Parameter'] %}{{scenario['ParameterAmount'][scenario['Parameter'].index('Param04')]}}{% endif %}
+
+{%- endfor %}
+|}
+
+{| class="wikitable limitwidth-1024"
+|+ Collection CG
+|-
+!Item
+!Image
+! {{'{{'}}Icon|DreamMaker_Performance{{'}}'}} Performance !! {{'{{'}}Icon|DreamMaker_Sense{{'}}'}} Sense !! {{'{{'}}Icon|DreamMaker_Teamwork{{'}}'}} Teamwork !! {{'{{'}}Icon|DreamMaker_Condition{{'}}'}} Condition
+
+{%- for cg in event_collection %}
+|-
+| '''{{data.etc_localization[cg['LocalizeEtcId']].get('NameEn')}}'''
+
+{{data.etc_localization[cg['LocalizeEtcId']].get('DescriptionEn')}}
+| [[File:{{cg['FullResource'].rsplit('/',1)[-1]}}.png|80px|{{data.etc_localization[cg['LocalizeEtcId']].get('NameEn')}}]]
+| {% if 100 in cg['UnlockConditionParameter'] %}{{cg['UnlockConditionCount']}}{% endif %}
+| {% if 200 in cg['UnlockConditionParameter'] %}{{cg['UnlockConditionCount']}}{% endif %}
+| {% if 300 in cg['UnlockConditionParameter'] %}{{cg['UnlockConditionCount']}}{% endif %}
+| {% if 400 in cg['UnlockConditionParameter'] %}{{cg['UnlockConditionCount']}}{% endif %}
+
+{%- endfor %}
+|}
