@@ -18,21 +18,21 @@
             "CharacterId": 10017,
             "DialogCategory": "Formation",
             "VoiceClip": "Cherino_Formation_Select",
-            "LocalizeJP": "あれ？離せ！",
+            "LocalizeJP": "あ…、あれ？離せ！",
             "LocalizeEN": "Huh? Let go!"
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Defeat_1",
-            "LocalizeJP": "うわぁ、負けちゃった。",
+            "LocalizeJP": "う、うわぁ…、負けちゃった。",
             "LocalizeEN": "Eh? We lost."
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Defeat_2",
-            "LocalizeJP": "こんなの何かの間違いだ。",
+            "LocalizeJP": "こ…、こんなの何かの間違いだ。",
             "LocalizeEN": "This has to be a mistake."
         },
         {
@@ -46,7 +46,7 @@
             "CharacterId": 10017,
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_In_2",
-            "LocalizeJP": "みんなのもの、義務を果たす時が来たぞ。",
+            "LocalizeJP": "皆の者、義務を果たす時が来たぞ。",
             "LocalizeEN": "Everyone, it's time to fulfil your duty."
         },
         {
@@ -67,21 +67,21 @@
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Buffed_1",
-            "LocalizeJP": "悪くない サポートだな、カムラッド。",
+            "LocalizeJP": "悪くないサポートだな、カムラッド。",
             "LocalizeEN": "Not bad, comrade."
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_BuffSelf_1",
-            "LocalizeJP": "レッドウィンターの力見せてやる。",
+            "LocalizeJP": "レッドウィンターの力、見せてやる。",
             "LocalizeEN": "I'll show you the power of Red Winter."
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Covered_1",
-            "LocalizeJP": "反逆だ、隠れろ。",
+            "LocalizeJP": "反逆だ、隠れろ！",
             "LocalizeEN": "It's a rebellion, hide!"
         },
         {
@@ -137,7 +137,7 @@
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Move_2",
-            "LocalizeJP": "この勢いで全部やっつけるのだ。",
+            "LocalizeJP": "この勢いで、全部やっつけるのだ。",
             "LocalizeEN": "With this momentum, we will beat them all."
         },
         {
@@ -151,7 +151,7 @@
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Retire",
-            "LocalizeJP": "お家に帰りたい。",
+            "LocalizeJP": "うう、はあ、…お家に帰りたい。",
             "LocalizeEN": "I want to go home."
         },
         {
@@ -179,22 +179,22 @@
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_TacticalAction_1",
-            "LocalizeJP": "進め進め！",
+            "LocalizeJP": "進め進めー！",
             "LocalizeEN": "Advance! Advance!"
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Victory_1",
-            "LocalizeJP": "うむ、どうだ？書記長の力思い知ったか？…ん？わ！ひげが！",
+            "LocalizeJP": "うむ、どうだ？書記長の力、思い知ったか？……ん？わ！ひげが…！",
             "LocalizeEN": "How's that? Did you realize the power of the chief secretary? ...mm? Ah! My moustache!"
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Victory_2",
-            "LocalizeJP": "所詮この程度か？",
-            "LocalizeEN": "Was that all?"
+            "LocalizeJP": "所詮この程度か。はははは！……ん？わあ！",
+            "LocalizeEN": "Is this what it's all about? Hahahaha! ……what? Wow!"
         },
         {
             "CharacterId": 10017,
@@ -207,14 +207,14 @@
             "CharacterId": 10017,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_1",
-            "LocalizeJP": "さあ来い新鋭隊。あそこだ、打て！",
+            "LocalizeJP": "さあ来い新鋭隊。あそこだ、撃て！",
             "LocalizeEN": "Come, guards. There! Fire!"
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_2",
-            "LocalizeJP": "行け我が親衛隊！粛清対象はあそこだ！",
+            "LocalizeJP": "行け我が親衛隊！粛清対象は…、あそこだ！",
             "LocalizeEN": "Go, my guards! There! Purge them!"
         },
         {
@@ -249,7 +249,7 @@
             "CharacterId": 10017,
             "DialogCategory": "Growup",
             "VoiceClip": "Cherino_Growup_1",
-            "LocalizeJP": "この溢れている出る力…見ているか、カムラッド？",
+            "LocalizeJP": "この溢れでる力…、見ているか、カムラッド？",
             "LocalizeEN": "This overflowing power... are you seeing, comrade?"
         },
         {
@@ -277,21 +277,21 @@
             "CharacterId": 10017,
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_1",
-            "LocalizeJP": "おいらに恥をかかせたら粛清だからな。",
+            "LocalizeJP": "お、おいらに恥をかかせたら粛清だからな。",
             "LocalizeEN": "If you embarrass me, you will be purged, ok?"
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_2",
-            "LocalizeJP": "ありがとう、カムラッド。",
+            "LocalizeJP": "あ、ありがとう、カムラッド。",
             "LocalizeEN": "Thank you, comrade."
         },
         {
             "CharacterId": 10017,
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_3",
-            "LocalizeJP": "なんだよ。",
+            "LocalizeJP": "な、なんだよ。",
             "LocalizeEN": "What?"
         },
         {
