@@ -92,15 +92,17 @@ def generate():
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     #env.filters['colorize'] = shared.functions.colorize
     env.filters['html'] = Dialog.html
-    template = env.get_template('template_dialog.txt')
+    template = env.get_template('templates/template_dialog.txt')
 
 
-    for character in data.characters.values():      
+    for character in data.characters.values():
         normal_lines = []
         event_lines = []
         memorial_lines = []
 
         standard_lines = [] 
+
+        
         
 
 
@@ -225,6 +227,9 @@ def generate():
         for line in standard_lines:
             process_files(character, line, page_list)
 
+        
+        missing_sl_count = len([x for x in standard_lines if x.wiki_localization_en==''])
+        print (f"Missing standard lines translations count: {missing_sl_count}")
 
 
         with open(os.path.join(args['outdir'], f'{character.wiki_name}_dialog.txt'), 'w', encoding="utf8") as f:
@@ -235,6 +240,7 @@ def generate():
                 memorial_lines=memorial_lines, 
                 standard_lines=[x for x in standard_lines if x.dialog_category in STANDARD_LINE_TYPES],
                 event_standard_lines=[x for x in standard_lines if x.dialog_category in EVENT_STANDARD_LINE_TYPES],
+                missing_sl_count=missing_sl_count,
                 )
             f.write(wikitext)
             
@@ -302,9 +308,9 @@ def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog")
             continue
 
-        if voice_id and voice_id in character_dialog_event_by_voiceid:
+        #if voice_id and voice_id in character_dialog_event_by_voiceid:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog_event")
-            continue
+            #continue
 
         # Inject localization data linked through operator lines
         if voice_id and voice_id in operator_by_voiceid:

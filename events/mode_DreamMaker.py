@@ -189,6 +189,9 @@ def get_mode_dreammaker(season_id: int, ext_data, ext_characters, ext_items, ext
     wikitext['schedule'] = template.render(name=wikitext['title'], dream_info = data.minigame_dream_info[season_id][0], dream_schedule = data.minigame_dream_schedule[season_id], dream_schedule_result = data.minigame_dream_schedule_result[season_id], data=data)
     #print(wikitext['schedule'])
 
+    # TODO: Figure out replay scenarios name hasing
+    #scenario_replay = data.minigame_dream_replay_scenario[season_id]
+
     template = env.get_template('template_dreammaker_collection.txt')
     wikitext['collection'] = template.render(name=wikitext['title'], dream_collection_scenario = data.minigame_dream_collection_scenario[season_id], event_collection = data.event_content_collection[season_id], data=data)
     #print(wikitext['collection'])
