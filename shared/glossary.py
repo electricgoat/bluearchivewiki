@@ -9,7 +9,7 @@ CLUBS = {
             'MatsuriOffice': 'Festival Organization Committee',
             'Endanbou': 'Chinese alchemy study group',
             'Class227': 'Class No. 227',
-            'HoukagoDessert': 'After School Sweets Club',
+            'HoukagoDessert': 'After-School Sweets Club',
             'GameDev': 'Game Development Club',
             'Veritas': 'Veritas',
             'Engineer': 'Engineering Club',
@@ -39,5 +39,6 @@ CLUBS = {
             'LaborParty': 'Labor Party',
             'KnowledgeLiberationFront': 'Knowledge Liberation Front',
             'Hyakkayouran': 'Hyakkaryouran',
+            'ShinySparkleSociety': 'Shiny Sparkle Society',
             'EmptyClub': 'no club'
 }

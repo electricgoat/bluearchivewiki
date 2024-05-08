@@ -4047,7 +4047,7 @@
 
         {
             "GroupId": "CH0209Ex01",
-            "NameEn": "I'm going to douse you ♡",
+            "NameEn": "Wet all over ♡",
             "DescriptionEn": "Deal $1 damage to enemies within a fan-shaped area.\nIf the water gauge is 1 or more, EX skill card remains in hand. Subtract 1 water gauge charge."
         },
         {
@@ -4862,6 +4862,32 @@
             "GroupId": "CH0251ExtraPassive01",
             "NameEn": "Pervasive feelings",
             "DescriptionEn": "When possessing \"Sugar Rush\", attacks have a 10% chance to reduce Critical Damage Resistance by $1 for $2. (Cooldown: $3 seconds)"
+        },
+
+        {
+            "GroupId": "CH0136Ex01",
+            "NameEn": "Gehenna's celebrity!",
+            "DescriptionEn": "Change normal attacks to shots that deal $1 additional damage, increase Attack by $2 for $3.\nReload immediately after skill activation."
+        },
+        {
+            "GroupId": "CH0136Public01",
+            "NameEn": "Always sparkling!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0136Passive01",
+            "NameEn": "Sweetness of crepe",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0136WeaponPassive01",
+            "NameEn": "Sweetness of crepe +",
+            "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0136ExtraPassive01",
+            "NameEn": "Feeling☆excited?",
+            "DescriptionEn": "If normal attack are in a modified state, increase Accuracy by $1 and ignore the normal attack delay $2 times."
         }
         
         

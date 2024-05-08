@@ -588,10 +588,10 @@ def generate():
     wikitext_event_dates = '\n==Schedule==\n' + template.render(title='Japanese Version', server='JP', season=season_jp)
 
     if season_gl is not None:
-        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
-        season_gl['EventContentCloseTime'] = season_gl['EventContentCloseTime'].replace(' ','T')[:-3]+'+00'
-        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+00'
-        season_gl['ExtensionTime'] = season_gl['ExtensionTime'].replace(' ','T')[:-3]+'+00'
+        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
+        season_gl['EventContentCloseTime'] = season_gl['EventContentCloseTime'].replace(' ','T')[:-3]+'+09'
+        season_gl['EventContentOpenTime'] = season_gl['EventContentOpenTime'].replace(' ','T')[:-3]+'+09'
+        season_gl['ExtensionTime'] = season_gl['ExtensionTime'].replace(' ','T')[:-3]+'+09'
         season_gl['LocalizeName'] = season['LocalizeName']
         season_gl['LocalizeTitle'] = season['LocalizeTitle']
         season_gl['LocalizeDescription'] = season['LocalizeDescription']

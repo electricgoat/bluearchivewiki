@@ -48,14 +48,14 @@ SEASON_NOTES = {
         18:'Emergency raid 2',
         23:'Emergency raid 3',
         29:'Introduction of Insane Difficulty',
-        51:'Introduction of Torment Difficulty'
+        51:'Introduction of Torment Difficulty',
+        69:'Reward Insurance system added',
     },
     'gl' : {
         2:'Beta version, no ranking rewards',
         7:'Introduction of Extreme Difficulty',
         24:'Introduction of Insane Difficulty',
-        46:'Introduction of Torment Difficulty'
-
+        46:'Introduction of Torment Difficulty',
     }
 }
 

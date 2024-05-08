@@ -217,10 +217,10 @@ def localize_ClearSpecificCampaignStageCount(mission, data):
     desc_jp = 'エリア[[$1]] $2をクリア'
     desc_en = 'Clear $2 Mission [[$1]]'
 
-    difficulty = int(str(mission['CompleteConditionParameter'][0])[3:4])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
     difficulty_names = ['','Normal','Hard']
 
-    stage = str(mission['CompleteConditionParameter'][0])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
+    stage = str(mission['CompleteConditionParameter'][-1])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
@@ -237,10 +237,10 @@ def localize_ClearCampaignStageTimeLimitFromSecond(mission, data):
     desc_jp = '任務ステージ[[$1]]$2を$3秒以内にクリア'
     desc_en = 'Clear $2 Mission [[$1]] within $3 seconds'
 
-    difficulty = int(str(mission['CompleteConditionParameter'][0])[3:4])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
     difficulty_names = ['','Normal','Hard']
 
-    stage = str(mission['CompleteConditionParameter'][0])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
+    stage = str(mission['CompleteConditionParameter'][-1])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
@@ -283,10 +283,10 @@ def localize_EventCompleteCampaignStageMinimumTurn(mission, data):
     desc_en = 'Clear $2 $1 within $3 turns'
 
     idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][0])[idlen:idlen+1])
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
     difficulty_names = ['','Story','Quest','Challenge']
 
-    stage = str(mission['CompleteConditionParameter'][0])[idlen+2:idlen+4].lstrip('0')
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
 
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
                                                           .replace('$2', difficulty_names[difficulty])
