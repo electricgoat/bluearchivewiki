@@ -3685,7 +3685,12 @@
         {
             "GroupId": "CH0200Public01",
             "NameEn": "Meticulous care",
-            "DescriptionEn": "Every $1 normal attacks, add $2 to Mystic damage bonus against the enemies weak to it, and increase Attack by $3 for $4."
+            "DescriptionEn": "Every $1 normal attacks, increase Mystic Efficiency by $2, and increase Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0200GearPublic01",
+            "NameEn": "Meticulous care +",
+            "DescriptionEn": "Every $1 normal attacks, increase Mystic Efficiency by $2, and increase Attack by $3, and increade Critical Rate by $4 for $5."
         },
         {
             "GroupId": "CH0200Passive01",
@@ -4888,6 +4893,58 @@
             "GroupId": "CH0136ExtraPassive01",
             "NameEn": "Feeling☆excited?",
             "DescriptionEn": "If normal attack are in a modified state, increase Accuracy by $1 and ignore the normal attack delay $2 times."
+        },
+        
+        {
+            "GroupId": "CH0201Ex01",
+            "NameEn": "Virtual・Maid・Weapon!",
+            "DescriptionEn": "Reload immediately after skill activation.\nChange normal attacks to shots that deal $1 additional damage, increase Attack Speed by $2, normal attacks ignore delay $3 times. (Effective until Momoi reloads $4 time)"
+        },
+        {
+            "GroupId": "CH0201Public01",
+            "NameEn": "All's well that ends well!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0201Passive01",
+            "NameEn": "I'll go with red!",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0201WeaponPassive01",
+            "NameEn": "I'll go with red! +",
+            "DescriptionEn": "Increase Critical Rate by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0201ExtraPassive01",
+            "NameEn": "Beware of misfires!",
+            "DescriptionEn": "When using EX skill, no ammo is consumed by normal attacks over $1."
+        },
+
+        {
+            "GroupId": "CH0202Ex01",
+            "NameEn": "Virtual・Maid・Shot!",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0202Public01",
+            "NameEn": "Perfect cleaning",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0202Passive01",
+            "NameEn": "Guess I'll go green",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0202WeaponPassive01",
+            "NameEn": "Guess I'll go green +",
+            "DescriptionEn": "Increase Sonic Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0202ExtraPassive01",
+            "NameEn": "Score challenge",
+            "DescriptionEn": "When activating EX skill, increase the Critical Rate by $1 for $2."
         }
         
         

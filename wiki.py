@@ -85,6 +85,31 @@ def page_list(match, srwhat='title', srnamespace = '*'): #TODO namespaces lookup
 
 
 
+def category_members(cmtitle, cmnamespace = '*'):
+    global site
+    page_list = []
+
+    if not cmtitle.startswith('Category:'): cmtitle = 'Category:' + cmtitle
+
+    try: 
+        for r in site.query(list='categorymembers', cmtitle=cmtitle, cmtype='page|subcat|file', cmlimit=200, cmprop='title', cmnamespace = cmnamespace):
+            for page in r['categorymembers']:
+                page_list.append(page['title'].replace(' ', '_'))
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            category_members(cmtitle, cmnamespace)
+        # elif error.data['code'] == 'fileexists-no-change':
+        #     print (f"{error.data['info']}")
+        #     return True
+        else:
+            print (f"Unknown error {error}")
+
+    #print(f"Fetched {len(page_list)} pages that match {match}")
+    return page_list
+
+
+
 def update_template(page_name, template_name, wikitext):
     template_old = None
     template_new = None

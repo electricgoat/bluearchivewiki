@@ -64,7 +64,7 @@ def generate():
                 print(f"Unknown boss {boss[0]}")
                 continue
 
-            if ((datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 14):
+            if ((datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 28):
                 print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
                 season['ignore'] = True
                 continue
@@ -77,10 +77,7 @@ def generate():
             season['raid_name'] = RAIDS[boss[0]].name
             last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
 
-            if (len(boss)>1):
-                season['env'] = boss[1]
-            else:
-                season['env'] = RAIDS[boss[0]].environment
+            season['env'] = RAIDS[boss[0]].environment
 
             season['banner'] = f"MultiFloorRaid_Banner_{RAIDS[boss[0]].shortname.replace(' ','_')}.png"
 
@@ -94,11 +91,7 @@ def generate():
 
             boss_data['OpenRaidBossGroupId']= get_raid_boss_data(season['OpenRaidBossGroupId'])
 
-            for stage in boss_data['OpenRaidBossGroupId']['stage']: 
-                if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
-                    #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
-                    season['challenge'] = stage['character']['ArmorType']
-                    break
+            season['challenge'] = boss_data['OpenRaidBossGroupId']['stage'][0]['character']['ArmorType']
 
 
 

@@ -24,6 +24,7 @@ def generate():
     total_characters = 0
     total_momotalks = 0
     total_jims=0
+    memolobby_at_talk_no = [[],[],[],[],[],[],[],[],[],[],[]]
     # rank = 1
     # rental = 1
     for character in data.characters.values():
@@ -48,6 +49,7 @@ def generate():
 
         
         total_characters += 1
+        #print (character.momotalk.levels)
         for reward in character.momotalk.levels:
             total_momotalks += 1
             # if reward['FavorRank'] > 9:
@@ -55,11 +57,16 @@ def generate():
             for index,parcel in enumerate(reward['RewardParcelType']):
                 if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
                     total_jims += reward['RewardAmount'][index]
+            if 'MemoryLobby' in reward['RewardParcelType'] and '(' not in character.wiki_name: 
+                memolobby_at_talk_no[reward['OrderInGroup']].append(character.wiki_name)
+
 
     print(f"Total playable characters: {total_characters}")
     print(f"Total momotalks: {total_momotalks}")
     print(f"Total pyroxene rewards: {total_jims}")
-
+    print(f"Memolobbies unlock after talk no:")
+    for i in range(1,11):
+        print(f"{str(i).rjust(3)} - {len(memolobby_at_talk_no[i])} characters: {', '.join(memolobby_at_talk_no[i])}")
 
 
 def main():
