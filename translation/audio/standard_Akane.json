@@ -4,35 +4,35 @@
             "CharacterId": 13000,
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_In_1",
-            "LocalizeJP": "それでは、ご奉仕を始めましょうか。",
+            "LocalizeJP": "さあ、それではご奉仕を始めましょうか。",
             "LocalizeEN": "Shall I begin my service?"
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_In_2",
-            "LocalizeJP": "ご主人様に愛を、敵には鉄槌。それが C&Cのご奉仕なんです。",
+            "LocalizeJP": "ご主人様に愛を、敵には鉄槌を。それが、C&Cのご奉仕なんです。",
             "LocalizeEN": "Love for your master, iron hammer for your enemies. That's C&C's service."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_Select",
-            "LocalizeJP": "誠心誠意、お使えします。",
-            "LocalizeEN": "Sincerely at your command."
+            "LocalizeJP": "誠心誠意、お仕えします。",
+            "LocalizeEN": "I will serve you wholeheartedly."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Defeat_1",
-            "LocalizeJP": "あらこれは予想外ですね",
+            "LocalizeJP": "あら、これは予想外ですね…。",
             "LocalizeEN": "Oh, this is unexpected."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Defeat_2",
-            "LocalizeJP": "私がもっとうまくできていたら、",
+            "LocalizeJP": "私がもっと上手くできていたら…。",
             "LocalizeEN": "If I could only do better."
         },
         {
@@ -46,28 +46,28 @@
             "CharacterId": 13000,
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_In_2",
-            "LocalizeJP": "それでは始めましょうか。お掃除の時間です。",
+            "LocalizeJP": "さあ、それでは始めましょうか。お掃除の時間です。",
             "LocalizeEN": "Let's get started. It's time to clean up."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Victory_1",
-            "LocalizeJP": "優雅に勝利すること。それが私の責任であり、義務です。",
+            "LocalizeJP": "優雅に勝利すること、それが私の責任であり、義務です。",
             "LocalizeEN": "Winning gracefully is my responsibility and duty."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Victory_2",
-            "LocalizeJP": "さすが私のご主人様ですね。",
+            "LocalizeJP": "さすが、私のご主人様ですね。",
             "LocalizeEN": "As expected of my master."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Buffed_1",
-            "LocalizeJP": "あら！ありがとうございます。",
+            "LocalizeJP": "あら、ありがとうございます。",
             "LocalizeEN": "Oh! Thank you."
         },
         {
@@ -81,21 +81,21 @@
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Covered_1",
-            "LocalizeJP": "いい位置ですね。",
+            "LocalizeJP": "うふふ。いい位置ですね。",
             "LocalizeEN": "We're in a good position."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Damage_1",
-            "LocalizeJP": "これはちょっと",
+            "LocalizeJP": "うう…、これはちょっと。",
             "LocalizeEN": "This is a bit..."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Damage_2",
-            "LocalizeJP": "困りましたね。",
+            "LocalizeJP": "はあ、困りましたね。",
             "LocalizeEN": "This is troubling."
         },
         {
@@ -116,14 +116,14 @@
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_1",
-            "LocalizeJP": "お任せください。ご主人様とご一緒することこそ私のやりがいですから。",
+            "LocalizeJP": "お任せください。ご主人様とご一緒することこそ、私のやりがいですから。",
             "LocalizeEN": "Please leave it to me. Working alongside my master is my calling."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_2",
-            "LocalizeJP": "さあ、皆さん。綺麗に気持ちよく殲滅して差し上げます。",
+            "LocalizeJP": "さあ、皆さん。綺麗に、気持ちよく、殲滅して差し上げます。",
             "LocalizeEN": "Now, everyone, I will cleanly and comfortably exterminate you."
         },
         {
@@ -137,7 +137,7 @@
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Move_2",
-            "LocalizeJP": "次の掃除に向かいましょうか。",
+            "LocalizeJP": "次の掃除に向かいましょうか？",
             "LocalizeEN": "Shall we move on to the next cleaning?"
         },
         {
@@ -151,7 +151,7 @@
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Retire",
-            "LocalizeJP": "申し訳ございません ご主人様。今回のことは私の過失でした。",
+            "LocalizeJP": "申し訳ございません、ご主人様。今回のことは私の過失でした。",
             "LocalizeEN": "I'm sorry, master. I was at fault this time."
         },
         {
@@ -186,8 +186,8 @@
             "CharacterId": 13000,
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Victory_1",
-            "LocalizeJP": "ご主人様に勝利をプレゼントすることそれが私の責任であり、任務です。",
-            "LocalizeEN": "It is my responsibility and duty to present victory to my master."
+            "LocalizeJP": "ご主人様に勝利をプレゼントすること。それが私の責任であり、任務です。",
+            "LocalizeEN": "To gift my master with victory is my responsibility and my mission."
         },
         {
             "CharacterId": 13000,
@@ -200,28 +200,28 @@
             "CharacterId": 13000,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Akane_CommonSkill",
-            "LocalizeJP": "あら。そちらにいらっしゃいましたか",
+            "LocalizeJP": "あら。そちらにいらっしゃいましたか。",
             "LocalizeEN": "Oh my, there you are."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_1",
-            "LocalizeJP": "ご主人様の邪魔者排除する。",
+            "LocalizeJP": "ご主人様の邪魔者を…、排除する。",
             "LocalizeEN": "Eliminate those who disturb my master."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_2",
-            "LocalizeJP": "それでは掃除を始めましょうか。",
+            "LocalizeJP": "あら、それでは…、掃除を始めましょうか。",
             "LocalizeEN": "Shall we start cleaning?"
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_3",
-            "LocalizeJP": "ご覧になって 標的は消えますよ。",
+            "LocalizeJP": "ご覧になって、標的は…、消えますよ。",
             "LocalizeEN": "Look, the targets disappear."
         },
         {
@@ -235,7 +235,7 @@
             "CharacterId": 13000,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_2",
-            "LocalizeJP": "皆さんお掃除お願いしますね。",
+            "LocalizeJP": "皆さん。お掃除…、お願いしますね。",
             "LocalizeEN": "Everyone please, start cleaning."
         },
         {
@@ -249,7 +249,7 @@
             "CharacterId": 13000,
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_1",
-            "LocalizeJP": "これでより完璧なご奉仕が可能になりましたね。",
+            "LocalizeJP": "これでより完璧なご奉仕が…、可能になりましたね。",
             "LocalizeEN": "With this I can now offer an even better service."
         },
         {
@@ -263,42 +263,42 @@
             "CharacterId": 13000,
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_3",
-            "LocalizeJP": "ご期待ください、ご主人様。これからのアカネは一味違いますから",
+            "LocalizeJP": "ご期待ください、ご主人様。これからのアカネは一味違いますから。",
             "LocalizeEN": "From now on, Akane will be a little different. Please look forward to it, master."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_4",
-            "LocalizeJP": "これからのアカネはきっと、ご主人様100%満足させられることでしょう。",
+            "LocalizeJP": "これからのアカネはきっと、ご主人様を100%満足させられることでしょう。",
             "LocalizeEN": "From now on, Akane will surely be able to satisfy her master 100%."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_1",
-            "LocalizeJP": "Ｃ＆Ｃのアカネ、謹んでご主人様にご奉仕をささげます。",
+            "LocalizeJP": "C&Cのアカネ、謹んでご主人様にご奉仕をささげます。",
             "LocalizeEN": "Akane from C&C. I am honored to offer my services to my master."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_2",
-            "LocalizeJP": "あら、私を心配してくださるのですか？嬉しいです。",
+            "LocalizeJP": "あら、私を心配してくださるのですか？うふ。嬉しいです。",
             "LocalizeEN": "Oh my. Were you worried about me? It makes me happy."
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_3",
-            "LocalizeJP": "どうしてでしょう、笑いが止まりません。ご主人様がそばにいるからでしょうか？",
+            "LocalizeJP": "どうしてでしょう、笑いが止まりません。…ご主人様がそばにいるから、でしょうか？",
             "LocalizeEN": "I don't know why I can't stop smiling. Is it because my master is by my side?"
         },
         {
             "CharacterId": 13000,
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_4",
-            "LocalizeJP": "ご主人様が先生だからご奉仕しているわけではありません。ご主人様だから私はメイドになれました。",
+            "LocalizeJP": "ご主人様が先生だからご奉仕しているわけではありません。ご主人様だから、私はメイドになれました。",
             "LocalizeEN": "I don't serve you because you're my master. I'm a maid because you're my master."
         }
     ]
