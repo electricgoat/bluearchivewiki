@@ -23,6 +23,7 @@ scenario_data = None
 
 force_variant_link = {
     # 20011 : 19009025 #Serika Newyear
+    #10029 : 19009251, #Natsu (Band) NPC
 }
 
 block_variant_link = {
@@ -31,12 +32,19 @@ block_variant_link = {
     10003 : 19009006,
     10013 : 19009007,
     10009 : 19009008, #Izumi getting linked Izumi (Swimsuit) event
-    
+}
+
+# Directly appends voicegroup, for use with event voicegroups that aren't associated with a Character entry
+force_voice_group_link = {
+    10066 : [90001], #Arisu (Maid) : Shooting minigame 
+    26009 : [90002, 90003], #Yuzu (Maid) : Shooting minigame normal, box
+    10094 : [90004], #Momoi (Maid) : Shooting minigame 
+    10095 : [90005], #Midori (Maid) : Shooting minigame 
 }
 
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
             'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
-EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'Minigame' ] 
+EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'Minigame', 'MiniGame' ] 
 
 
 def list_character_variants(character):
@@ -188,12 +196,20 @@ def generate():
 
         
         sl = []
-        file_list = os.listdir(os.path.join(args['data_audio'], files_scandir))
+        file_list = [os.path.join(files_scandir, x.split('.')[0]) for x in os.listdir(os.path.join(args['data_audio'], files_scandir))]
+        append_files = [
+            item 
+            for voice_group in force_voice_group_link.get(character.id, []) 
+            for sublist in data.character_voice[voice_group] 
+            for item in sublist['Path']
+        ]
+
         for type in (STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES):
             #print(f"Gathering {type}-type standard lines")
-            sl = [os.path.join(files_scandir, x.split('.')[0]) for x in file_list if type in x.split('_')[1]]
-            if type in EVENT_STANDARD_LINE_TYPES and sl: print (f'Found {type}-type lines {sl}') 
-            standard_lines += get_standard_lines(character, sl, type)
+            sl = [x for x in file_list+append_files if type in x.rsplit('/')[-1].split('_')[1]]
+
+            if sl: print (f'Found {len(sl)} {type}-type standard lines') 
+            standard_lines += get_standard_lines(character, sl, type, maindir=character.model_prefab_name)
         #dump_missing_standard_translations(character, standard_lines)
 
 
@@ -205,7 +221,7 @@ def generate():
         for x in event_lines: all_used_files += x.used_files
         for x in standard_lines: all_used_files += x.used_files 
 
-        unused_files = list(set(all_used_files).symmetric_difference(set([x.split('.')[0] for x in file_list])))
+        unused_files = list(set(all_used_files).symmetric_difference(set([x.rsplit('/')[-1] for x in file_list+append_files])))
         if len(unused_files): print(f"WARNING - unused files: {unused_files}")
 
 
@@ -228,8 +244,9 @@ def generate():
             process_files(character, line, page_list)
 
         
-        missing_sl_count = len([x for x in standard_lines if x.wiki_localization_en==''])
-        print (f"Missing standard lines translations count: {missing_sl_count}")
+        missing_sl_jp_count = len([x for x in standard_lines if x.wiki_localization_jp==''])
+        missing_sl_en_count = len([x for x in standard_lines if x.wiki_localization_en==''])
+        print (f"Missing standard lines text counts JP: {missing_sl_jp_count}, EN: {missing_sl_en_count}")
 
 
         with open(os.path.join(args['outdir'], f'{character.wiki_name}_dialog.txt'), 'w', encoding="utf8") as f:
@@ -240,7 +257,8 @@ def generate():
                 memorial_lines=memorial_lines, 
                 standard_lines=[x for x in standard_lines if x.dialog_category in STANDARD_LINE_TYPES],
                 event_standard_lines=[x for x in standard_lines if x.dialog_category in EVENT_STANDARD_LINE_TYPES],
-                missing_sl_count=missing_sl_count,
+                missing_sl_jp_count=missing_sl_jp_count,
+                missing_sl_en_count=missing_sl_en_count,
                 )
             f.write(wikitext)
             
@@ -287,7 +305,7 @@ def scavenge(character):
 
 
 
-def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
+def get_standard_lines(character, files, dialog_category, maindir=None) -> list[Dialog]:
     global data
     dialog_data = data.character_dialog_standard
     lines = []
@@ -300,7 +318,13 @@ def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
 
     
     for file in files:
+        file_prefix = ''
         file_wikititle = character.wiki_name.replace(' ', '_') + '_' + file.rsplit("/", 1)[-1].split('_',1)[-1]
+        if maindir is not None and maindir != file.rsplit("/", 1)[-1].split('_',1)[0]: 
+            #print(f"This is not a maindir {maindir} file: {file}")
+            file_prefix = file.rsplit("/", 1)[-1].split('_',1)[0]
+            file_wikititle = character.wiki_name.replace(' ', '_') + '_' + file.rsplit("/", 1)[-1]
+
         voice_id = None
         if file in voice_by_path: voice_id = voice_by_path[file]['Id']
 
@@ -327,7 +351,7 @@ def get_standard_lines(character, files, dialog_category) -> list[Dialog]:
                     dialog_data[file_wikititle]['LocalizeEN'] = dialog_data[file_wikititle]['LocalizeEN'] or data.localization[localize_key].get('En')
 
 
-        dialog = Dialog.construct_standard(character, dialog_data, file, dialog_category = dialog_category)
+        dialog = Dialog.construct_standard(character, dialog_data, file, file_prefix, dialog_category = dialog_category)
         lines.append(dialog)
     
     return lines

@@ -75,6 +75,7 @@
 {% if event_standard_lines != [] %}
 {%- raw -%}
 ==Extra event lines==
+{{Audio section warning}}
 {| class="wikitable limitwidth-1024"
 |+
 ! rowspan="2" |Name
@@ -103,6 +104,7 @@
 {%- if standard_lines != [] %}
 {%- raw -%}
 =Tactics and growth=
+{{Audio section warning}}
 {| class="wikitable limitwidth-1024"
 |+
 ! rowspan="2" |Name
@@ -129,4 +131,7 @@
 {{CharacterAudioSeo}}
 {%- endraw %}
 [[Category:Characters audio]]
-{% if missing_sl_count >= 10 %}[[Category:Character audio missing translation]]{% endif -%}
+{% if missing_sl_jp_count >= 10 %}[[Category:Character audio missing transcription]]
+{% endif -%}
+{% if missing_sl_en_count >= 10 %}[[Category:Character audio missing translation]]
+{% endif -%}

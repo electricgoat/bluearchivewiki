@@ -333,7 +333,7 @@ def localize_Mission_Get_Specific_Item_Count(mission, data, items, furniture):
     return True
 
 
-def localize_GetItemWithTagCount(mission):
+def localize_GetItemWithTagCount(mission, data):
     desc_jp = '$1を$2個獲得する'
     desc_en = 'Acquire $2 $1'
 
@@ -351,7 +351,7 @@ def localize_GetItemWithTagCount(mission):
     return True
 
 
-def localize_GetEquipmentWithTagCount(mission):
+def localize_GetEquipmentWithTagCount(mission, data):
     global item_types
 
     desc_jp = '$1を$2個獲得する'
