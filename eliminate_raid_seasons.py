@@ -128,7 +128,7 @@ def generate():
         f.write(wikitext)
 
     if wiki.site != None:
-        wiki.update_section('Elimination Raid', 'Elimination Raid list', wikitext)
+        wiki.update_section('Grand Assault', 'Elimination Raid list', wikitext)
 
 
 

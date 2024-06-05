@@ -62,12 +62,12 @@ def page_exists(page, wikitext = None):
         
 
 
-def page_list(match, srwhat='title', srnamespace = '*'): #TODO namespaces lookup https://www.mediawiki.org/wiki/Manual:Namespace
+def page_list(match, srnamespace = '*'): #TODO namespaces lookup https://www.mediawiki.org/wiki/Manual:Namespace
     global site
     page_list = []
 
     try: 
-        for r in site.query(list='search', srwhat=srwhat, srsearch=match, srlimit=200, srprop='isfilematch', srnamespace = srnamespace):
+        for r in site.query(list='search', srsearch=match, srlimit=200, srprop='isfilematch', srnamespace = srnamespace):
             for page in r['search']:
                 page_list.append(page['title'].replace(' ', '_'))
     except ApiError as error:

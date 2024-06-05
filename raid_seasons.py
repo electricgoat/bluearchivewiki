@@ -140,7 +140,7 @@ def generate():
         f.write(wikitext)
 
     if wiki.site != None:
-        wiki.update_section('Raid', 'Raid list', wikitext)
+        wiki.update_section('Total Assault', 'Raid list', wikitext)
 
 
 

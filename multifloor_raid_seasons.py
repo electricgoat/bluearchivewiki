@@ -109,7 +109,7 @@ def generate():
         f.write(wikitext)
 
     if wiki.site != None:
-        wiki.update_section('Limit Break Raid', 'Limit Break Raid list', wikitext)
+        wiki.update_section('Limit Break Assault', 'Limit Break Raid list', wikitext)
 
 
 

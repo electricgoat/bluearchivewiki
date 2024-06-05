@@ -1,5 +1,5 @@
 CLUBS = {
-            'Countermeasure': 'Countermeasure Council',
+            'Countermeasure': 'Foreclosure Task Force',
             'GourmetClub': 'Gourmet Research Society',
             'RemedialClass': 'Supplemental Lessons Club',
             'SisterHood': 'Sisterhood',

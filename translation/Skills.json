@@ -4945,6 +4945,32 @@
             "GroupId": "CH0202ExtraPassive01",
             "NameEn": "Score challenge",
             "DescriptionEn": "When activating EX skill, increase the Critical Rate by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0189Ex01",
+            "NameEn": "Wave of anger",
+            "DescriptionEn": "Deal $1 damage to enemies in a circular area."
+        },
+        {
+            "GroupId": "CH0189Public01",
+            "NameEn": "Splash, splash!",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies a circular area."
+        },
+        {
+            "GroupId": "CH0189Passive01",
+            "NameEn": "Highly motivated",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0189WeaponPassive01",
+            "NameEn": "Highly motivated +",
+            "DescriptionEn": "Increase Attack by $1. Futrher increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0189ExtraPassive01",
+            "NameEn": "Ah, it's cold!",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
         
         
