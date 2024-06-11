@@ -47,7 +47,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_In_2",
             "LocalizeJP": "みんな、ハムスターは連れてきたか？行くのだ。",
-            "LocalizeEN": "Everyone brought hamsters or went."
+            "LocalizeEN": "Did everyone bring their hamsters? Let's go!"
         },
         {
             "CharacterId": 20002,
@@ -61,14 +61,14 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_Victory_2",
             "LocalizeJP": "うっはっはっは。当然の結果なのだ。",
-            "LocalizeEN": "It's a natural result."
+            "LocalizeEN": "Uhahaha! It's an inevitable result!."
         },
         {
             "CharacterId": 20002,
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Damage_1",
             "LocalizeJP": "なに？",
-            "LocalizeEN": "what?"
+            "LocalizeEN": "What?"
         },
         {
             "CharacterId": 20002,
@@ -124,7 +124,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Shout_2",
             "LocalizeJP": "くらえ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Take this."
         },
         {
             "CharacterId": 20002,
@@ -145,21 +145,21 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Victory_2",
             "LocalizeJP": "なんだ、ひ弱そうな敵ばかりじゃん？つまんないのだ。",
-            "LocalizeEN": "What, all the enemies look weak? It's boring."
+            "LocalizeEN": "What, all the enemies look weak? How boring."
         },
         {
             "CharacterId": 20002,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Saya_CommonSkill",
             "LocalizeJP": "実験記録001、観察開始。",
-            "LocalizeEN": "Experiment Record 001 Observation Start"
+            "LocalizeEN": "Experiment Record 001: starting observations."
         },
         {
             "CharacterId": 20002,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_1",
             "LocalizeJP": "さあそれではぼく様の傑作を試してみようか。",
-            "LocalizeEN": "Come on, let's try my masterpiece"
+            "LocalizeEN": "Now, let's test my masterpiece."
         },
         {
             "CharacterId": 20002,
@@ -173,7 +173,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_3",
             "LocalizeJP": "この瞬間を待っていたのだ。",
-            "LocalizeEN": "I was waiting for this moment."
+            "LocalizeEN": "I've been waiting for this moment."
         },
         {
             "CharacterId": 20002,
@@ -194,7 +194,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_Level_3",
             "LocalizeJP": "これ一つで身動きできなくなるぞ。",
-            "LocalizeEN": "I can't move with this one thing."
+            "LocalizeEN": "Just one of these will render you immobile."
         },
         {
             "CharacterId": 20002,
@@ -208,7 +208,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_2",
             "LocalizeJP": "グレードアップしたのだ。",
-            "LocalizeEN": "I upgraded."
+            "LocalizeEN": "I'm upgraded."
         },
         {
             "CharacterId": 20002,
@@ -222,14 +222,14 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_4",
             "LocalizeJP": "もっと、もーっと強くなりたい。",
-            "LocalizeEN": "I want to be strong again."
+            "LocalizeEN": "I want to be even stronger."
         },
         {
             "CharacterId": 20002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_1",
             "LocalizeJP": "偉大なぼく様と仲良くなるチャンスなんて、先生にとってすっごいお得なことなのだ。",
-            "LocalizeEN": "The chance to become friends with this great person like me is a great deal for you."
+            "LocalizeEN": "The chance to become friends with a great person like me is a great deal for you."
         },
         {
             "CharacterId": 20002,
@@ -243,14 +243,14 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_3",
             "LocalizeJP": "先生と一緒なら、どんな難題でも簡単に解決できそう。",
-            "LocalizeEN": "With Sensei, you can easily solve any problem."
+            "LocalizeEN": "With Sensei, I can easily solve any problem."
         },
         {
             "CharacterId": 20002,
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_4",
             "LocalizeJP": "もしかしてチーズすき？ 先生にもぼく様と同じものを好きでいて欲しいんだけど。",
-            "LocalizeEN": "Maybe you like cheese? I want Sensei to like the same things as me."
+            "LocalizeEN": "Do you like cheese by any chance? I want Sensei to like the same things as me."
         }
     ]
 }

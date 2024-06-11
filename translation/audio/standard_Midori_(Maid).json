@@ -2,87 +2,150 @@
     "DataList": [
         {
             "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_GeasGet_1",
+            "LocalizeJP": "ありがとうございます。最善を尽くします。",
+            "LocalizeEN": "Thank you. I will do my best."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Select_1",
+            "LocalizeJP": "私たちのゲームです、先生。イラストは私が描いてみました。",
+            "LocalizeEN": "This is our game, Sensei. I drew the illustrations."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Select_2",
+            "LocalizeJP": "ゲームで遊びますか、ご主人様？ご期待にそえられていたら嬉しいです。",
+            "LocalizeEN": "Would you like to play a game, Master? I hope it meets your expectations."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Select_3",
+            "LocalizeJP": "今まで私たちが作ったゲームの中では、一番障害が少なく作れました。…これも、今までの経験、でしょうか。",
+            "LocalizeEN": "Of all the games we've made so far, this one had the fewest problems. Perhaps this is also down to our past experiences."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Start_1",
+            "LocalizeJP": "始めます。…一つも逃しません。",
+            "LocalizeEN": "Let's get started, and don't miss a thing."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Midori_(Maid)_MiniGame_Start_2",
+            "LocalizeJP": "掃除対象はどこにいますか！？",
+            "LocalizeEN": "Where is the cleaning target!?"
+        },
+        {
+            "CharacterId": 10095,
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_(Maid)_Formation_In_1",
             "LocalizeJP": "はい、先生。…いえ。ご主人様、私の番ですね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Yes, Sensei... I mean, Master. It's my turn."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_(Maid)_Formation_In_2",
             "LocalizeJP": "分かりました。私でいいのですね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Understood. This is okay for me."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_(Maid)_Formation_Select",
             "LocalizeJP": "ふわぁっ！うう～…。危なかった…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Woah! Whew, that was a close call..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_Defeat_1",
             "LocalizeJP": "申し訳ございません、私の力不足で…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm sorry, it's beyond my ability..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_Defeat_2",
             "LocalizeJP": "次こそは…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Next time..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_In_1",
             "LocalizeJP": "先生、…ご主人様が見てくださってるから。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Sensei... I mean, Master is watching over."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_In_2",
             "LocalizeJP": "今だけは…、完璧なメイドになってみせます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Just for now... I'll become the perfect maid."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_Victory_1",
             "LocalizeJP": "勝ちました！よかったです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "We won! I'm so happy."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_(Maid)_Tactic_Victory_2",
             "LocalizeJP": "どうでしょう、私、うまくやれてましたか？",
-            "LocalizeEN": ""
+            "LocalizeEN": "What do you think? Did I do well?"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます！元気が出ますね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you! This gives me energy."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_BuffSelf_1",
             "LocalizeJP": "もう少し頑張ってみます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'll try a little harder."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Covered_1",
             "LocalizeJP": "隠れます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Covering."
         },
         {
             "CharacterId": 10095,
@@ -103,56 +166,56 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Damage_3",
             "LocalizeJP": "痛いです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "It hurts..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Defense_1",
             "LocalizeJP": "その程度、効きません！",
-            "LocalizeEN": ""
+            "LocalizeEN": "That won't work!"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_In_1",
             "LocalizeJP": "お掃除を始めます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let's start cleaning."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_In_2",
             "LocalizeJP": "とりあえず始めましょう。やることがたくさんです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let's get started. There's a lot to do."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Move_1",
             "LocalizeJP": "こちらのお掃除は完了いたしました。",
-            "LocalizeEN": ""
+            "LocalizeEN": "The cleaning here is now complete."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Move_2",
             "LocalizeJP": "それでは、次の位置に。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Now, onto the next position."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます、元気が出ました。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you, I feel better now."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Retire",
             "LocalizeJP": "まだです、まだ諦めるわけには…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Not yet, I can't give up just yet..."
         },
         {
             "CharacterId": 10095,
@@ -180,126 +243,126 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_TacticalAction_1",
             "LocalizeJP": "移動します。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Moving."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Victory_1",
             "LocalizeJP": "今日のお仕事はこれで終了です。…いかがでしたか、ご主人様。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Today's work is finished. How was it, Master?"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_(Maid)_Battle_Victory_2",
             "LocalizeJP": "やりました先生！　…もう、お姉ちゃん。",
-            "LocalizeEN": ""
+            "LocalizeEN": "We did it, Sensei! ...Oh, come on, sister..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Midori_(Maid)_CommonSkill",
             "LocalizeJP": "お掃除は丁寧に、…うん、できました！",
-            "LocalizeEN": ""
+            "LocalizeEN": "The cleaning was done carefully... Yep, it is done!"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_1",
             "LocalizeJP": "１、２、よし、クリア！",
-            "LocalizeEN": ""
+            "LocalizeEN": "One, two... All right, clear!"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_2",
             "LocalizeJP": "ここと、こっち。…やった！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Here, and here... I did it!"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_3",
             "LocalizeJP": "落ち着いて、一つずつ…、よし！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Stay calm and take it one step at a time... Okay!"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_Level_1",
             "LocalizeJP": "スコア更新！先生、見てくれました？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Score updated! Did you see that, Sensei?"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_Level_2",
             "LocalizeJP": "記録更新！…先生、どうでしょう！",
-            "LocalizeEN": ""
+            "LocalizeEN": "New record! What do you think, Sensei?"
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_(Maid)_ExSkill_Level_3",
             "LocalizeJP": "ランキングサイトに上げてみようかな…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Maybe I'll put it on a ranking site..."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_(Maid)_Growup_1",
             "LocalizeJP": "どうでしょう、ご主人様。私少しは成長できたのでしょうか。生徒として…、そしてメイドとして。",
-            "LocalizeEN": ""
+            "LocalizeEN": "What do you think, Master? Have I grown a little? As a student... and as a maid."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_(Maid)_Growup_2",
             "LocalizeJP": "努力の方向性はもちろん大事ですが…、ときには「努力をしている」という事実が、安心感を与えてくれるんです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "The direction of your efforts is of course important, but sometimes just the fact that you are making an effort can give you a sense of security."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_(Maid)_Growup_3",
             "LocalizeJP": "私は…、こうして元気をもらえる相手がいて、本当に良かったと思っています。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm really glad that I have someone who can give me energy like this."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_(Maid)_Growup_4",
             "LocalizeJP": "いつも見守ってくださりありがとうございます。これからもご主人様と一緒に、頑張っていきたいです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you for always watching over me. I hope to continue to work hard together with you."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_(Maid)_Relationship_Up_1",
             "LocalizeJP": "先生、ご主人様…、呼び方どっちがいいですか？私としては…、ご主人様、かなぁ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Sensei, Master... Which is better to call you? Personally, I guess I'd call you \"Master\"."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_(Maid)_Relationship_Up_2",
             "LocalizeJP": "私たちの距離、近づいたのでしょうか？…それなら、嬉しいです。ふふ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Has the distance between us gotten closer? If so, I'm glad. Hehe."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_(Maid)_Relationship_Up_3",
             "LocalizeJP": "素晴らしい主人に仕えられることこそ、メイドの喜びと言いますよね。先生は私にとってそんな存在です。",
-            "LocalizeEN": ""
+            "LocalizeEN": "They say that the joy of being a maid is to serve a wonderful master. You are such a person to me."
         },
         {
             "CharacterId": 10095,
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_(Maid)_Relationship_Up_4",
             "LocalizeJP": "ご―しゅじん様。…えへへ。呼んでみたかっただけです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Maaaster! ...Hehe. I just wanted to call you."
         }
     ]
 }

@@ -2,304 +2,367 @@
     "DataList": [
         {
             "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_GeasGet_1",
+            "LocalizeJP": "パワーアーップ！クリアに向けて！",
+            "LocalizeEN": "Power up! Towards clearing!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Select_1",
+            "LocalizeJP": "おお。そなたもゲームをプレイしに来たのか。新しいゲーマーは常に歓迎しておる。",
+            "LocalizeEN": "Oh, you came to play games too. New gamers are always welcome."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Select_2",
+            "LocalizeJP": "来たか、我が主よ。メイドのゲームとはなんなのか、楽しみだろう？",
+            "LocalizeEN": "Come, my lord. I'm sure you're looking forward to what the maid's game is."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Select_3",
+            "LocalizeJP": "いやあ、頑張って作ったからね！今回は大丈夫なはず。",
+            "LocalizeEN": "Well, I worked really hard on it! It should be fine this time."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Shout_1",
+            "LocalizeJP": "いくよ！",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Shout_2",
+            "LocalizeJP": "くらえ！",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Shout_3",
+            "LocalizeJP": "発射！",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Start_1",
+            "LocalizeJP": "さあ、お掃除を始めようか。全部綺麗に片づけてやるんだから。",
+            "LocalizeEN": "Now, let's start cleaning. We're going to tidy everything up nicely."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Momoi_(Maid)_MiniGame_Start_2",
+            "LocalizeJP": "目標は…、ハイスコア！…え？そんなシステムないって？",
+            "LocalizeEN": "The goal is... a high score! ...What? There's no such system?"
+        },
+        {
+            "CharacterId": 10094,
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_(Maid)_Formation_In_1",
             "LocalizeJP": "メイドの気分になってみようかな～！",
-            "LocalizeEN": ""
+            "LocalizeEN": "I wonder if I should try to feel like a maid!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_(Maid)_Formation_In_2",
             "LocalizeJP": "メイドみたいに、ぜーんぶ解決するよ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Just like a maid, I'll solve all your problems!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_(Maid)_Formation_Select",
             "LocalizeJP": "イエ～！見てる～先生？私が全部片づけてあげるね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Yay! Are you watching, Sensei? I'll clean it all up for you!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_Defeat_1",
             "LocalizeJP": "逃げないで…、箒を持って…、って。箒は関係ないかあ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Don't run away... Grab a broom... or, I guess the broom is irrelevant."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_Defeat_2",
             "LocalizeJP": "メイドは…、こんな目に合わないはずなのに…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "A maid... shouldn't have to go through this..."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_In_1",
             "LocalizeJP": "早く終わらせて、ゲームしに行こう？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let's finish this quickly and go play games, okay?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_In_2",
             "LocalizeJP": "問題ないよ～！私がいるんだもん。",
-            "LocalizeEN": ""
+            "LocalizeEN": "No problemo! I'm right here."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_Victory_1",
             "LocalizeJP": "お掃除完了～！まっ、こんなもんだね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Cleaning complete! Well, guess that's about it."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_(Maid)_Tactic_Victory_2",
             "LocalizeJP": "やればできる子！…なんだからさ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "She can do it if she tries! ...That's why!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Buffed_1",
             "LocalizeJP": "うん！ありがとう。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Mm! Thanks."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_BuffSelf_1",
             "LocalizeJP": "これがバフってやつだよ～！",
-            "LocalizeEN": ""
+            "LocalizeEN": "This is what we call a buff!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Covered_1",
             "LocalizeJP": "隠れるよ～！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Taking cover!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Damage_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ow!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Damage_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Aieee..."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Damage_3",
             "LocalizeJP": "その顔、覚えたからね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'll remember your face!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Defense_1",
             "LocalizeJP": "当たらないもん！",
-            "LocalizeEN": ""
+            "LocalizeEN": "You won't hit me!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_In_1",
             "LocalizeJP": "ゲームは実践のように！実践はゲームのように！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Games are like practice! Practice is like a game!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_In_2",
             "LocalizeJP": "メイドの気分になるには、こういう仕事も必要だよね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "To feel like a maid, you need a job like this!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Move_1",
             "LocalizeJP": "とりあえず、お仕事終わり～。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Anyway, work is done."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Move_2",
             "LocalizeJP": "掃除完了～。疲れた～。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Cleaning complete! I'm tired..."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Retire",
             "LocalizeJP": "うげ。めまいが…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ugh. I feel dizzy..."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Shout_1",
             "LocalizeJP": "いっくよー！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Here we go!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Shout_2",
             "LocalizeJP": "これはどうだ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "How about this!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Shout_3",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ya!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_TacticalAction_1",
             "LocalizeJP": "次はどこー！？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Where to next!?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Victory_1",
             "LocalizeJP": "ふっふふーん、見た先生？今日のメイドモモイ、最高だったでしょ？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Hehehe, did you see that, Sensei? Maid Momoi today was the best, right?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_(Maid)_Battle_Victory_2",
             "LocalizeJP": "ふっふふーこれが、…ってうわあ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Hehehe! This is... Wah!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Momoi_(Maid)_CommonSkill",
             "LocalizeJP": "掃除は嫌だ～。…うえ！？",
-            "LocalizeEN": ""
+            "LocalizeEN": "I hate cleaning... Ehh!?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_1",
             "LocalizeJP": "う～また外れた～。…ってあれ？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ugh, I missed again... What the?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_2",
             "LocalizeJP": "私、もう怒ったんだから～！…え？ラッキー！",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm already ticked off! ...Huh? Lucky!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_3",
             "LocalizeJP": "も～！当たれってばー！…って、なにこれ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "C'mon, hit something! ...What's this?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_Level_1",
             "LocalizeJP": "見つけた！レアアイテム！",
-            "LocalizeEN": ""
+            "LocalizeEN": "I found it! The rare item!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_Level_2",
             "LocalizeJP": "おお、この力は一体…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Oh, what kind of power is this...?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_(Maid)_ExSkill_Level_3",
             "LocalizeJP": "今の私は何も怖くない！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Now I'm not scared of anything!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_(Maid)_Growup_1",
             "LocalizeJP": "レベルアップー！メイドレベルもアップー。え？メイドレベルはまだ…、だって？先生、それどういう意味？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Level up! Maid level also increased. Eh? My Maid level is not enough...? Sensei, what does that mean?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_(Maid)_Growup_2",
             "LocalizeJP": "先生、へへ。私強くなったよ！え？じゃあ一緒に掃除しようって？それは…、ちょっと…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Hehe, Sensei! I've gotten stronger! Eh? You want us to clean up together? That's... a bit..."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_(Maid)_Growup_3",
             "LocalizeJP": "メイドモモイの成長、とくとご覧あれ。どう？先生！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Take a look at how Maid Momoi has grown. What do you think, Sensei?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_(Maid)_Growup_4",
             "LocalizeJP": "あーあ、仕方ないね、この最強メイドモモイ様が何でも解決してあげる！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Oh well, there's no other way, this strongest Maid Momoi-sama will solve anything!"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_(Maid)_Relationship_Up_1",
             "LocalizeJP": "せ、先生といるとやっぱり楽しいかも。これは本心だからね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I-I guess it's fun being with you after all, Sensei. I mean it honestly."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_(Maid)_Relationship_Up_2",
             "LocalizeJP": "聞いて、先生！メイドには報酬が大事なんだって！だからご褒美として…、私と遊ぼ？",
-            "LocalizeEN": ""
+            "LocalizeEN": "Listen, Sensei! Rewards are important to a maid! So as a reward... Shall we play together?"
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_(Maid)_Relationship_Up_3",
             "LocalizeJP": "メイドも人間だよ！休まないと壊れちゃう…。だから、今から先生は私と一緒に、休憩するの！えへへ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Maids are human too! If they don't rest, they'll break down... So, from now on, you're going to take a break with me! Ehehe."
         },
         {
             "CharacterId": 10094,
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_(Maid)_Relationship_Up_4",
             "LocalizeJP": "ゲームでメイドが出てくると、高確率で攻略対象になるじゃん？だから先生。私のことも…、攻略してみない？",
-            "LocalizeEN": ""
+            "LocalizeEN": "When maids appear in video games, there's a high chance they'll become a character whose affection can be won<ref group=\"note\">In visual novels, {{lj|攻略}} usually involves making the right choices when interacting with a character to raise his/her affection until the route for a romantic relationship is unlocked. Momoi is suggesting here that maids have a high chance of being such a character, in contrast to NPCs who do not have a romantic route.</ref>, right? So, Sensei, why don't you try... and win my affection too?"
         }
     ]
 }

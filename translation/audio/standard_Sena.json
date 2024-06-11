@@ -5,21 +5,21 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Sena_Formation_In_1",
             "LocalizeJP": "準備はできています。",
-            "LocalizeEN": "We are ready."
+            "LocalizeEN": "I'm ready."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Formation",
             "VoiceClip": "Sena_Formation_In_2",
-            "LocalizeJP": "待機中です。いつでも お呼びください。",
-            "LocalizeEN": "I'm waiting Please call me anytime"
+            "LocalizeJP": "待機中です。いつでもお呼びください。",
+            "LocalizeEN": "I'm on standby. Please call me anytime."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Sena_CommonSkill",
             "LocalizeJP": "お役に立ちましたら幸いです。",
-            "LocalizeEN": "I would appreciate it if you could help me."
+            "LocalizeEN": "I hope this helps."
         },
         {
             "CharacterId": 20012,
@@ -33,98 +33,98 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_1",
             "LocalizeJP": "状況の確認完了。",
-            "LocalizeEN": "Check Status Done."
+            "LocalizeEN": "Situation confirmed."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_2",
             "LocalizeJP": "了解しました。",
-            "LocalizeEN": "I got it."
+            "LocalizeEN": "Understood."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_3",
             "LocalizeJP": "確認しました。",
-            "LocalizeEN": "confirmed."
+            "LocalizeEN": "Confirmed."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_Level_1",
             "LocalizeJP": "出動します。",
-            "LocalizeEN": "I will be dispatched."
+            "LocalizeEN": "I'm heading out."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_Level_2",
             "LocalizeJP": "すぐに向かいます。",
-            "LocalizeEN": "I'll be right there."
+            "LocalizeEN": "I'm on my way now."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Sena_ExSkill_Level_3",
             "LocalizeJP": "現場に急行します。",
-            "LocalizeEN": "rush to the scene."
+            "LocalizeEN": "I'm rushing to the scene."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Growup",
             "VoiceClip": "Sena_Growup_1",
             "LocalizeJP": "ありがとうございます。この支援、無駄にはしません。",
-            "LocalizeEN": "Thank you. I won't let this support go to waste."
+            "LocalizeEN": "Thank you. I will not waste this support."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Growup",
             "VoiceClip": "Sena_Growup_2",
             "LocalizeJP": "能力が向上しました。",
-            "LocalizeEN": "Improved ability."
+            "LocalizeEN": "My abilities have improved."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Growup",
             "VoiceClip": "Sena_Growup_3",
             "LocalizeJP": "ありがとうございます。この力を使って、きちんと恩返しいたしますので。",
-            "LocalizeEN": "Thank you."
+            "LocalizeEN": "Thank you. I will use this power to properly repay you."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Growup",
             "VoiceClip": "Sena_Growup_4",
             "LocalizeJP": "助かります。おかげさまで、今後は一層やりやすくなるはずです。",
-            "LocalizeEN": "Thanks to you, it should be easier to do in the future"
+            "LocalizeEN": "That will be a great help. Thanks to you, my work should be easier to do from now on."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Sena_Relationship_Up_1",
             "LocalizeJP": "いつも気を使ってくださいますね。ありがとうございます。",
-            "LocalizeEN": "Thank you for always taking care of me"
+            "LocalizeEN": "You are always so considerate. Thank you."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Sena_Relationship_Up_2",
             "LocalizeJP": "こうして何かをいただくのは、慣れていないのですが…、はい。嬉しいです。",
-            "LocalizeEN": "I'm not used to receiving something like this, but yes, I'm happy."
+            "LocalizeEN": "I'm not used to receiving something like this... but yes, I'm happy."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Sena_Relationship_Up_3",
             "LocalizeJP": "これほどまでに私に頻繁に接してくるのは先生くらいです。…不思議な方ですね。",
-            "LocalizeEN": "The teacher is the only one who comes in contact with me so often.It's a strange person."
+            "LocalizeEN": "Sensei is the only one who approaches me this frequently. What a mysterious person."
         },
         {
             "CharacterId": 20012,
             "DialogCategory": "Relationship",
             "VoiceClip": "Sena_Relationship_Up_4",
             "LocalizeJP": "こうして接する機会が多いせいか、最近はよく先生のことを考えています。色々と。",
-            "LocalizeEN": "Perhaps because I have so many opportunities to come into contact with him, I've been thinking a lot about him recently."
+            "LocalizeEN": "Perhaps because I have had many opportunities for interactions lately, I find myself thinking about Sensei often, in various ways."
         }
     ]
 }

@@ -108,7 +108,7 @@ def generate():
                 else:
                     for stage in boss_data[group]['stage']: 
                         if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
-                            print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
+                            print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) {season['raid_name']} TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
                             season['challenge'] = stage['character']['ArmorType']
                             break
 
@@ -128,7 +128,7 @@ def generate():
         f.write(wikitext)
 
     if wiki.site != None:
-        wiki.update_section('Grand Assault', 'Elimination Raid list', wikitext)
+        wiki.update_section('Grand Assault', 'Grand Assault list', wikitext)
 
 
 

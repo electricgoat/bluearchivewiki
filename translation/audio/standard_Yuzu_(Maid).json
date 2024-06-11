@@ -2,6 +2,132 @@
     "DataList": [
         {
             "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
+            "LocalizeJP": "げ…、ゲームするからには、負けません。",
+            "LocalizeEN": "Well...if I'm going to play a game, I won't lose."
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_1",
+            "LocalizeJP": "お、おかえりなさいませ、先生。…そうです。私たちが作った、ゲームです！",
+            "LocalizeEN": "Welcome back, Sensei. ...That's right. It's the game we made!"
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_2",
+            "LocalizeJP": "おかえりなさい、先生。まだまだ改善点はたくさんありますが、プレイしていただけますか？",
+            "LocalizeEN": "Welcome back, Sensei. There are still many areas to improve, but would you like to play the game?"
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_3",
+            "LocalizeJP": "ゲームを作るのは難しいけど、楽しくもあります。",
+            "LocalizeEN": "Making games is hard, but it's also fun."
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": "Ha! Ya!"
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_2",
+            "LocalizeJP": "いきます！",
+            "LocalizeEN": "Go."
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": "Ya!"
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_1",
+            "LocalizeJP": "頑張って作ったので、楽しんでくださると嬉しいです。",
+            "LocalizeEN": "I worked hard on this, so I hope you enjoy it."
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
+            "LocalizeJP": "分かりました。…任せてください。",
+            "LocalizeEN": "I understand. … Leave it to me."
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
+            "DialogCategory": "MiniGame",
+            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 26009,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Yuzu_(Maid)_CommonSkill",
             "LocalizeJP": "う、受け取ってください。",
