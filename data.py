@@ -17,7 +17,7 @@ BlueArchiveData = collections.namedtuple(
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization', 'localization', 
     'character_dialog','character_dialog_event','character_dialog_standard','character_voice',
-    'scenario_script_favor','levelskill','logiceffectdata',
+    'levelskill','logiceffectdata',
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group', 'cafe_interaction', 
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
@@ -49,23 +49,22 @@ def load_data(path_primary, path_secondary, path_translation):
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
         costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
-        #skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
         skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
         skill_additional_tooltip =  load_file_grouped(path_primary, 'SkillAdditionalTooltipExcelTable.json', key='GroupId'),
-        translated_characters =     load_characters_translation(path_translation),
-        translated_skills =         load_skills_translation(path_translation),
+        translated_characters =     load_file(os.path.join(path_translation, 'LocalizeCharProfile.json'), key='CharacterId', load_multipart=False),
+        translated_skills =         load_file(os.path.join(path_translation, 'Skills.json'), key='GroupId', load_multipart=False),
         weapons =                   load_generic(path_primary, 'CharacterWeaponExcelTable.json', key='Id'),
         gear =                      load_gear(path_primary),
         character_potential=        load_file_grouped(path_primary, 'CharacterPotentialExcelTable.json', key='Id'),
         character_potential_stat=   load_file_grouped(path_primary, 'CharacterPotentialStatExcelTable.json', key='PotentialStatGroupId'),
         currencies=                 load_generic(path_primary, 'CurrencyExcelTable.json', key='ID'),
-        translated_currencies=      load_currencies_translation(path_translation),
+        translated_currencies=      load_file(os.path.join(path_translation, 'Currencies.json'), load_multipart=False),
         items=                      load_generic(path_primary, 'ItemExcelTable.json'),
         equipment=                  load_generic(path_primary, 'EquipmentExcelTable.json'),
         recipes=                    load_generic(path_primary, 'RecipeExcelTable.json'),
         recipes_ingredients=        load_generic(path_primary, 'RecipeIngredientExcelTable.json'),
-        favor_levels=load_favor_levels(path_primary),
-        favor_rewards=load_favor_rewards(path_primary),
+        favor_levels=               load_favor_levels(path_primary),
+        favor_rewards=              load_favor_rewards(path_primary),
         memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='CharacterId'),
         etc_localization=           load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeEtcExcelTable.json'),
         localization=               load_localization(path_primary, path_secondary, path_translation),
@@ -73,8 +72,7 @@ def load_data(path_primary, path_secondary, path_translation):
         character_dialog_event=     load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json', match_id='OriginalCharacterId', aux_prefix='event'),
         character_dialog_standard=  load_character_dialog_standard(path_translation),
         character_voice=            load_file_grouped(path_primary, 'CharacterVoiceExcelTable.json', key='CharacterVoiceGroupId'),
-        scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation),
-        levelskill = load_levelskill(path_primary),
+        levelskill =                load_levelskill(path_primary),
         logiceffectdata =           load_skill_logiceffectdata(path_primary),
         guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
         guide_mission_season =      load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
@@ -162,19 +160,33 @@ def load_data(path_primary, path_secondary, path_translation):
     )
 
 
-def load_generic(path, filename, key='Id'):
+def load_generic(path, filename:str, key='Id', load_db:bool=True, load_multipart:bool=False):
     #DB files take priority if they are present
     file_path = os.path.join(path, 'DB', filename)
-    if not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
+    if not load_db or not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
 
-    return load_file(file_path, key)
+    return load_file(file_path, key, load_multipart)
 
 
-def load_file(file, key='Id'):
-    if os.path.exists(file): 
-        with open(file,encoding="utf8") as f:
+def load_file(file, key='Id', load_multipart:bool=False):
+    multipart_file = file.rsplit('.',1)[0]+ '$.' + file.rsplit('.',1)[1]
+
+    if load_multipart and os.path.exists(multipart_file.replace('$', str(1))):
+        #print(f"Found multipart version of {file}")
+        data = []
+        i = 1
+        while os.path.exists(multipart_file.replace('$', str(i))):
+            with open(multipart_file.replace('$', str(i)), encoding="utf8") as f: data += json.load(f)['DataList']
+            i += 1
+        if key is not None: return {item[key]: item for item in data}
+        else: return data
+        
+    elif os.path.exists(file): 
+        with open(file, encoding="utf8") as f:
             data = json.load(f)
-        return {item[key]: item for item in data['DataList']}
+        if key is not None: return {item[key]: item for item in data['DataList']}
+        else: return data['DataList']
+    
     else:
         print(f'WARNING - file {file} is not present')
         return {}
@@ -222,10 +234,6 @@ def load_characters_skills(path):
     }
 
 
-def load_characters_translation(path):
-    return load_file(os.path.join(path, 'LocalizeCharProfile.json'), key='CharacterId')
-
-
 def load_gear(path):
     with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json'),encoding="utf8") as f:
         data = json.load(f)
@@ -259,14 +267,6 @@ def load_favor_rewards(path):
         in data['DataList']
     }
   
-
-def load_currencies_translation(path):
-    return load_file(os.path.join(path, 'Currencies.json'))
-
-
-def load_skills_translation(path):
-    return load_file(os.path.join(path, 'Skills.json'), key='GroupId')
-
 
 def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key'):
     file_path = os.path.join(path_primary, 'DB', filename)
@@ -474,7 +474,6 @@ def load_bgm(path_primary, path_translation):
     return data_primary
 
 
-# This merges multiple files from secondary path since they were all moved to a single DB table
 def load_localization(path_primary, path_secondary, path_translation):
     ds = {}
     da = {}
@@ -482,19 +481,9 @@ def load_localization(path_primary, path_secondary, path_translation):
     data_aux = []
 
     data_primary = load_file(os.path.join(path_primary, 'DB', 'LocalizeExcelTable.json'), key='Key')
+    data_secondary = load_file(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json'), key='Key')
+    #print(f'Loaded secondary script data from LocalizeExcelTable.json, {len(data_secondary)} entries')
 
-    if os.path.exists(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json')):
-        data_secondary = load_file(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json'), key='Key')
-        #print(f'Loaded secondary script data from LocalizeExcelTable.json, {len(data_secondary)} entries')
-    else:
-        with open(os.path.join(path_secondary, 'Excel', 'LocalizeScenarioExcelTable.json'), encoding="utf8") as f: data_secondary += json.load(f)['DataList']
-        with open(os.path.join(path_secondary, 'Excel', 'LocalizeCodeExcelTable.json'), encoding="utf8") as f: data_secondary += json.load(f)['DataList']
-        with open(os.path.join(path_secondary, 'Excel', 'LocalizePrefabExcelTable.json'), encoding="utf8") as f: data_secondary += json.load(f)['DataList']
-        with open(os.path.join(path_secondary, 'Excel', 'LocalizeOperatorExcelTable.json'), encoding="utf8") as f: data_secondary += json.load(f)['DataList']
-        with open(os.path.join(path_secondary, 'Excel', 'LocalizeInformationExcelTable.json'), encoding="utf8") as f: data_secondary += json.load(f)['DataList']
-        data_secondary = {item['Key']: item for item in data_secondary}
-
-    
     if os.path.exists(os.path.join(path_translation, 'LocalizeExcelTable.json')):
         print(f'Loading additional translations from {path_translation}/LocalizeExcelTable.json')
         data_aux = load_file(os.path.join(path_translation, 'LocalizeExcelTable.json'), key='Key')
@@ -520,14 +509,13 @@ def load_localization(path_primary, path_secondary, path_translation):
 #TODO switch to using new DB scenario_script everywhere
 BlueArchiveScenarioData = collections.namedtuple(
     'BlueArchiveScenarioData',
-    ['scenario_script', 'scenario_script_favor','scenario_character_name']
+    ['scenario_script', 'scenario_character_name']
 )
 
 
 def load_scenario_data(path_primary, path_secondary, path_translation):
     return BlueArchiveScenarioData(
         scenario_script=load_db_scenario_script(path_primary, path_secondary, path_translation),
-        scenario_script_favor=load_scenario_script_favor(path_primary, path_secondary, path_translation), #Deprecated
         scenario_character_name=load_combined_localization(path_primary, path_secondary, path_translation, 'ScenarioCharacterNameExcelTable.json', key='CharacterName')
     )
 
@@ -538,17 +526,11 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
     data = []
     data_aux = []
 
-    with open(os.path.join(path_primary, 'DB', 'ScenarioScriptExcelTable.json'), encoding="utf8") as f:
-        data_primary = json.load(f)['DataList']
-        #print(f'Loaded primary script data from ScenarioScriptExcelTable.json, {len(data_primary)} entries')
+    data_primary = load_file(os.path.join(path_primary, 'DB', 'ScenarioScriptExcelTable.json'), key=None, load_multipart=True)
+    #print(f'Loaded primary script data from ScenarioScriptExcelTable.json, {len(data_primary)} entries')
 
-    secondary_db_file = os.path.join(path_secondary, 'DB', 'ScenarioScriptExcelTable.json')
-    if os.path.exists(secondary_db_file): 
-        with open(secondary_db_file, encoding="utf8") as f:
-            data_secondary = json.load(f)['DataList']
-            #print(f'Loaded secondary script data from ScenarioScriptExcelTable.json, {len(data_primary)} entries')
-    else: 
-        data_secondary = load_multipart_file(path_secondary, 'ScenarioScriptFavor$ExcelTable.json', [1,2,3,4,5])
+    data_secondary = load_file(os.path.join(path_secondary, 'DB', 'ScenarioScriptExcelTable.json'), key=None, load_multipart=True)
+    #print(f'Loaded secondary script data from ScenarioScriptExcelTable.json, {len(data_secondary)} entries')
         
     for file in os.listdir(path_translation + '/scenario/'):
         if not file.endswith('.json'):
@@ -583,68 +565,13 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
     return data
 
 
-def load_multipart_file(path, filename, entries: list):
-    data = []
-    for i in entries: 
-        with open(os.path.join(path, 'Excel', filename.replace('$', str(i))), encoding="utf8") as f: data += json.load(f)['DataList']
-    return data
+# Deprecated game-native multipart file loading
+# def load_multipart_file(path, filename, entries: list):
+#     data = []
+#     for i in entries: 
+#         with open(os.path.join(path, 'Excel', filename.replace('$', str(i))), encoding="utf8") as f: data += json.load(f)['DataList']
+#     return data
     
-
-
-#Deprecated
-def load_scenario_script_favor(path_primary, path_secondary, path_translation):
-    data = []
-    #data['DataList'] = []
-
-    for i in range(1,3): data += load_scenario_script_favor_part(path_primary, path_secondary, path_translation, i)
-
-    return data
-
-#Deprecated
-def load_scenario_script_favor_part(path_primary, path_secondary, path_translation, part):
-    ds = {}
-    da = {}
-    data = []
-    data_aux = []
-
-    with open(os.path.join(path_primary, 'Excel', f'ScenarioScriptFavor{part}ExcelTable.json'), encoding="utf8") as f:
-        data_primary = json.load(f)['DataList']
-        #print(f'Loaded primary script data from ScenarioScriptFavor{part}ExcelTable.json, {len(data_primary)} entries')
-
-    with open(os.path.join(path_secondary, 'Excel', f'ScenarioScriptFavor{part}ExcelTable.json'), encoding="utf8") as f:
-        data_secondary = json.load(f)['DataList']
-        #print(f'Loaded secondary script data from ScenarioScriptFavor{part}ExcelTable.json, {len(data_primary)} entries')
-
-    for file in os.listdir(path_translation + '/scenario/'):
-        if not file.endswith('.json'):
-            continue
-
-        #print(f'Loading additional scenario translations from {path_translation}/scenario/{file}')
-        with open(os.path.join(path_translation + '/scenario/', file), encoding="utf8") as f:
-            data_aux += json.load(f)['DataList']
-
-    for line in data_secondary:
-        ds[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
-
-    for line in data_aux:
-        da[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
-
-    for line in data_primary:
-        try: 
-            line['ScriptKr'] = line_cleanup(line['ScriptKr'])
-            line['TextJp'] = line_cleanup(line['TextJp'])
-            if (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in da: line['TextEn'] = da[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
-            elif (line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True)) in ds: line['TextEn'] = ds[(line['GroupId'], line['ScriptKr'], line['TextJp'])]['TextEn']
-            elif 'TextEn' not in line: line['TextEn'] = ''
-
-        except KeyError:
-            #print (f"Localization not found {dp[(line['GroupId'], line['ScriptKr'], line['TextJp'])]}")
-            line['TextEn'] = ''
-            pass
-
-        data.append(line)
-
-    return data
 
 
 
