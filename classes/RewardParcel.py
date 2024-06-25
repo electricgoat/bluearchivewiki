@@ -110,7 +110,10 @@ class RewardParcel(object):
         if len(self.items) == 0: return ''
 
         wikitext = ''
-        wikitext += '<div class="itemgroup btag"><span class="tag' + ((len(self.items)<3 and len(self.amount)>2) and ' condensed' or '') + '">' + ", ".join([f"{self.amount[i]}×{'%g' % round(self.parcel_prob[i]/100, 2)}%" for i,_ in enumerate(self.amount)]) + '</span>'
+        if isinstance(self.amount, list): 
+            wikitext += '<div class="itemgroup btag"><span class="tag' + ((len(self.items)<3 and len(self.amount)>2) and ' condensed' or '') + '">' + ", ".join([f"{self.amount[i]}×{'%g' % round(self.parcel_prob[i]/100, 2)}%" for i,_ in enumerate(self.amount)]) + '</span>'
+        else: 
+            wikitext += '<div class="itemgroup btag"><span class="tag">'+ f"{self.amount}×{'%g' % round(self.parcel_prob/100, 2)}%"'</span>'
         wikitext += "".join(self.wikitext_items())
         wikitext += '</div>'
 
@@ -125,9 +128,10 @@ class RewardParcel(object):
             quantity = self.amount
             return("{{" + f"ItemCard|{FAKE_ITEMS[self.parcel_id]}{quantity>1 and f'|quantity={quantity}' or ''}{probability!=100 and f'|probability={probability > 5 and round(probability,1) or round(probability,2)}' or ''}|text=|60px|block" + "}}")
 
-        elif len(self.amount) > 1 or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
+        elif (isinstance(self.amount, list) and len(self.amount) > 1) or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
 
-        else: return "".join(self.wikitext_items(use_parcel_prob = True))
+        
+        else: return "".join(self.wikitext_items(use_parcel_prob = self.parcel_prob<10000 and True or False))
 
     
     def format_wiki_items(self, **params):
