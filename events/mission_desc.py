@@ -585,7 +585,9 @@ def description_cleanup(text):
 def get_item_type(text):
     global item_types
     
-    text = text in item_types and item_types[text] or text
+    if text in TAG_MAP.keys(): text = TAG_MAP[text]
+    if text in item_types: text = item_types[text]
+
     if re.search(r"^Token_S\d+$", text, re.MULTILINE): text = 'Event Tokens'
 
     return text
