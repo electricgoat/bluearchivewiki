@@ -21,7 +21,7 @@ CLUBS = {
             'RedwinterSecretary': 'Red Winter Secretariat',
             'Fuuki': 'Disciplinary Committee',
             'NinpoKenkyubu': 'Ninjutsu Research Department',
-            'anzenkyoku': 'Community Safety Bureau',
+            'anzenkyoku': 'Public Safety Bureau',
             'Justice': 'Justice Task Force',
             'TrinityVigilance': 'Vigilante Corps',
             'Onmyobu': 'Yin-Yang Club',

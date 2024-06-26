@@ -18,7 +18,7 @@ Each Omikuji (fortune slip) draw costs {{wiki_price}}. There is a soft modifier 
 {% endfor -%}
 |-
 | colspan="4" | Total '''{{tier.wiki_title}}''' probability: '''{{'%g'%(tier.total_prob / 100)}}%'''
-Pity modifier after {{shop_params['ProbModifyStartCount']}} rolls: '''{{'%g'%(tier.total_modifier / 100)}}%''', up to '''{{'%g'%(tier.total_mod_limit / 100)}}%''' probability
+Pity modifier after {{shop_params['ProbModifyStartCount']}} rolls: '''{{'%g'%(tier.total_modifier / 100)}}%''', towards '''{{'%g'%(tier.total_mod_limit / 100)}}%''' probability
 |}
 |-|
 {% endfor -%}

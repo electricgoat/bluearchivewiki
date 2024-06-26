@@ -277,6 +277,11 @@
             "DescriptionEn": "When out of bullets, Hina immediately reloads and increases Attack by $1. (Duration: $2)"
         },
         {
+            "GroupId": "HinaGearPublic01",
+            "NameEn": "Reload and Destroy +",
+            "DescriptionEn": "When out of bullets, Hina immediately reloads and increases Attack by $1. (Duration: $2)"
+        },
+        {
             "GroupId": "HinaPassive01",
             "NameEn": "Cool-headed Disciplinary committee",
             "DescriptionEn": "Increase Attack Speed by $1."
@@ -895,6 +900,11 @@
             "DescriptionEn": "When HP falls to $1, continuously regenerate $2 of Healing power for $3. (Can only be used $4 per battle)"
         },
         {
+            "GroupId": "HoshinoGearPublic01",
+            "NameEn": "Emergency Field Aid +",
+            "DescriptionEn": "When HP falls to $1, continuously regenerate $2 of Healing power and increase Critical Damage Resistance by $3 for $4. (Can only be used $5 per battle)"
+        },
+        {
             "GroupId": "HoshinoPassive01",
             "NameEn": "Countermeasures Council President",
             "DescriptionEn": "Increase Defense by $1."
@@ -947,7 +957,12 @@
         {
             "GroupId": "ChisePublic01",
             "NameEn": "I'm going to shoot~",
-            "DescriptionEn": "Every $1, deal damage equal to $2 of Chise's Attack to enemies in a circular area."
+            "DescriptionEn": "Every $1, deal $2 damage to enemies in a circular area."
+        },
+        {
+            "GroupId": "ChiseGearPublic01",
+            "NameEn": "I'm going to shoot~ +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies in a circular area."
         },
         {
             "GroupId": "ChisePassive01",
@@ -1129,7 +1144,7 @@
         {
             "GroupId": "AkaneEx01",
             "NameEn": "Elegant Removal",
-            "DescriptionEn": "Deal $1 damage to one enemy and lower their defense by $2 for $3."
+            "DescriptionEn": "Deal $1 damage to one enemy and lower their Defense by $2 for $3."
         },
         {
             "GroupId": "AkanePublic01",
@@ -4971,6 +4986,84 @@
             "GroupId": "CH0189ExtraPassive01",
             "NameEn": "Ah, it's cold!",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0260Ex01",
+            "NameEn": "Water safety ensured!",
+            "DescriptionEn": "Deal $1 damage to one enemy and lower their Defense by $2 for $3."
+        },
+        {
+            "GroupId": "CH0260Public01",
+            "NameEn": "Warm-up exercise",
+            "DescriptionEn": "Every $1, reduce damage taken by $2 for $3."
+        },
+        {
+            "GroupId": "CH0260Passive01",
+            "NameEn": "Lifeguard training",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0260WeaponPassive01",
+            "NameEn": "Lifeguard training +",
+            "DescriptionEn": "Increase debuff duration by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0260ExtraPassive01",
+            "NameEn": "Awkward smile",
+            "DescriptionEn": "Increase Attack of self and allied Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0261Ex01",
+            "NameEn": "Cool your head off",
+            "DescriptionEn": "Deal damage to enemies within 3 circular areas:\nSmall circle: Deal $1 damage\nMedium circle: Deal $2 damage\nLarge circle: Deal $3 damage\n(These attacks penetrate enemy shields)"
+        },
+        {
+            "GroupId": "CH0261Public01",
+            "NameEn": "Do I really have to do it~?",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nDeal $3 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0261Passive01",
+            "NameEn": "Slacking rules",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0261WeaponPassive01",
+            "NameEn": "Slacking rules +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0261ExtraPassive01",
+            "NameEn": "I have a favor to ask~",
+            "DescriptionEn": "Increases Explosive Efficiency of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0262Ex01",
+            "NameEn": "The Director will be watching!",
+            "DescriptionEn": "Deploy a cover;\nIncrease the Attack of allies within a circular range by $1 for $2. (Effect applies only while within range)\nThe cover additionally inherits $3 Kirino's HP."
+        },
+        {
+            "GroupId": "CH0262Public01",
+            "NameEn": "Emergency!",
+            "DescriptionEn": "Every $1, increase Attack of 6 allies (excluding Special students) by $2 for $3."
+        },
+        {
+            "GroupId": "CH0262Passive01",
+            "NameEn": "Real-life training",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0262WeaponPassive01",
+            "NameEn": "Real-life training +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0262ExtraPassive01",
+            "NameEn": "I'm rooting for you!",
+            "DescriptionEn": "Increases Attack of allies by $1."
         }
         
         
