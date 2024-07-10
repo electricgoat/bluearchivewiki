@@ -5064,6 +5064,32 @@
             "GroupId": "CH0262ExtraPassive01",
             "NameEn": "I'm rooting for you!",
             "DescriptionEn": "Increases Attack of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0216Ex01",
+            "NameEn": "Ballistic missile attack",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area, and $2 to other enemies."
+        },
+        {
+            "GroupId": "CH0216Public01",
+            "NameEn": "Hydro-strike",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0216Passive01",
+            "NameEn": "Aesthetics of ruination",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0216WeaponPassive01",
+            "NameEn": "Aesthetics of ruination +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0216ExtraPassive01",
+            "NameEn": "Demolition specialist",
+            "DescriptionEn": "When attacking large and extra-large enemies, deal $1 of Attack as additional damage."
         }
         
         

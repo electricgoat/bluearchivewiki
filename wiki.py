@@ -317,3 +317,8 @@ def move(name_old, name_new, summary='Consistent naming', noredirect=True):
             move(name_old, name_new, summary)
         else:
             print (f"Unknown moving error {error}")
+
+
+def redirect(name_from, name_to, summary='Generated redirect'):
+    wikitext = f"#REDIRECT [[{name_to}]]"
+    publish(name_from, wikitext, summary)
