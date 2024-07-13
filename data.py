@@ -1,5 +1,6 @@
 import collections
 import json
+import orjson
 import os
 import re
 
@@ -178,14 +179,14 @@ def load_file(file, key='Id', load_multipart:bool=False):
         data = []
         i = 1
         while os.path.exists(multipart_file.replace('$', str(i))):
-            with open(multipart_file.replace('$', str(i)), encoding="utf8") as f: data += json.load(f)['DataList']
+            with open(multipart_file.replace('$', str(i)), encoding="utf8") as f: data += orjson.loads(f.read())['DataList']
             i += 1
         if key is not None: return {item[key]: item for item in data}
         else: return data
         
     elif os.path.exists(file): 
         with open(file, encoding="utf8") as f:
-            data = json.load(f)
+            data = orjson.loads(f.read())
         if key is not None: return {item[key]: item for item in data['DataList']}
         else: return data['DataList']
     
@@ -196,7 +197,7 @@ def load_file(file, key='Id', load_multipart:bool=False):
 
 def load_json(path, filename):
     with open(os.path.join(path, 'Excel', filename),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
 
     return data['DataList']
 
@@ -206,7 +207,7 @@ def load_file_grouped(path, filename, key='Id'):
     file_path = os.path.join(path, 'DB', filename)
     if not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
     with open(file_path, encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
     groups = collections.defaultdict(list)
     for item in data['DataList']:
         groups[item[key]].append(item)
@@ -227,7 +228,7 @@ def line_cleanup(text, aggresive = False):
 
 def load_characters_skills(path):
     with open(os.path.join(path, 'Excel', 'CharacterSkillListExcelTable.json'),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
 
     return {
         (character_skill['CharacterSkillListGroupId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['FormIndex']): character_skill
@@ -238,7 +239,7 @@ def load_characters_skills(path):
 
 def load_gear(path):
     with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json'),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
         f.close()
 
     return {
@@ -249,7 +250,7 @@ def load_gear(path):
 
 def load_favor_levels(path):
     with open(os.path.join(path, 'Excel', 'FavorLevelRewardExcelTable.json'),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
         f.close()
 
     return {
@@ -260,7 +261,7 @@ def load_favor_levels(path):
 
 def load_favor_rewards(path):
     with open(os.path.join(path, 'Excel', 'AcademyFavorScheduleExcelTable.json'),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
         f.close()
 
     return {
@@ -271,39 +272,22 @@ def load_favor_rewards(path):
   
 
 def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key'):
-    file_path = os.path.join(path_primary, 'DB', filename)
-    if not os.path.exists(file_path): file_path = os.path.join(path_primary, 'Excel', filename)
-    with open(file_path, encoding="utf8") as f:
-        data_primary = load_file(file_path, key)
 
-    file_path = os.path.join(path_secondary, 'DB', filename)
-    if not os.path.exists(file_path): file_path = os.path.join(path_secondary, 'Excel', filename)
-    with open(file_path, encoding="utf8") as f:
-        data_secondary = load_file(file_path, key)
+    data_primary = load_generic(path_primary, filename, key, load_db=True, load_multipart=True)
+    data_secondary = load_generic(path_secondary, filename, key, load_db=True, load_multipart=True)
+    data_aux = load_file(os.path.join(path_translation, filename), key, load_multipart=False)
 
-    data_aux = None
+    combined_keys = set(data_primary.keys()).union(data_secondary.keys())
+    if data_aux:
+        combined_keys = combined_keys.union(data_aux.keys())
+        #print(f'Loading additional translations from {os.path.join(path_translation, filename)}')
 
-    index_list = list(data_primary.keys())
-    index_list.extend(x for x in list(data_secondary.keys()) if x not in index_list)
+    for index in combined_keys:
+        if data_aux and index in data_aux:
+            data_primary[index] = data_aux[index]
+        elif index in data_secondary:
+            data_primary[index] = data_secondary[index]
 
-    if os.path.exists(os.path.join(path_translation, filename)):
-        print(f'Loading additional translations from {path_translation}/{filename}')
-        data_aux = load_file(os.path.join(path_translation, filename), key)
-
-        index_list.extend(x for x in list(data_aux.keys()) if x not in index_list)
-
-    for index in index_list:
-        try: 
-            if data_aux != None and index in data_aux:
-                #print(f'Loading aux translation {index}')
-                data_primary[index] = data_aux[index] 
-            else :
-                #print(f'Loading secondary data translation {index}')
-                data_primary[index] = data_secondary[index] 
-        except KeyError:
-            #print (f'No secondary data for localize item {index}')
-            continue
-    
     return data_primary
 
 
@@ -318,12 +302,12 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
     file_path = os.path.join(path_primary, 'DB', filename)
     if not os.path.exists(file_path): file_path = os.path.join(path_primary, 'Excel', filename)
     with open(file_path, encoding="utf8") as f:
-        data_primary = json.load(f)['DataList']
+        data_primary = orjson.loads(f.read())['DataList']
 
     file_path = os.path.join(path_secondary, 'DB', filename)
     if not os.path.exists(file_path): file_path = os.path.join(path_secondary, 'Excel', filename)
     with open(file_path, encoding="utf8") as f:
-        data_secondary = json.load(f)['DataList']
+        data_secondary = orjson.loads(f.read())['DataList']
 
     for file in os.listdir(path_translation + '/audio/'):
         if not file.endswith('.json') or not file.startswith(aux_prefix):
@@ -331,7 +315,7 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
 
         #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
         with open(os.path.join(path_translation + '/audio/', file), encoding="utf8") as f:
-            data_aux += json.load(f)['DataList']
+            data_aux += orjson.loads(f.read())['DataList']
     
 
     for line in data_secondary:
@@ -363,7 +347,6 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
             line['LocalizeEN'] = line_cleanup(line['LocalizeEN'])
             data.append(line)
 
-
     return data
 
 
@@ -377,7 +360,7 @@ def load_character_dialog_standard(path_translation):
 
         #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
         with open(os.path.join(path_translation + '/audio/', file), encoding="utf8") as f:
-            data_aux += json.load(f)['DataList']
+            data_aux += orjson.loads(f.read())['DataList']
 
     for line in data_aux:
         data[line['VoiceClip']] = line 
@@ -392,7 +375,7 @@ def load_levelskill(path):
             continue
 
         with open(os.path.join(path + '/LevelSkill/', file), encoding="utf8") as f:
-            skill_info = json.load(f)
+            skill_info = orjson.loads(f.read())
 
             if (type(skill_info) is list): data[skill_info[0]['GroupName']] = skill_info[0] #pre-1.35
             elif (type(skill_info) is dict): data[skill_info['SkillDataKey']] = skill_info
@@ -403,7 +386,7 @@ def load_levelskill(path):
 
 def load_skill_logiceffectdata(path):
     with open(os.path.join(path, 'DB', 'LogicEffectData.json'), encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
 
     return {item['StringId']: convert_boolean_strings(item) for item in data}
 
@@ -424,7 +407,7 @@ def convert_boolean_strings(obj):
 
 def load_event_content_seasons(path):
     with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json'),encoding="utf8") as f:
-        data = json.load(f)
+        data = orjson.loads(f.read())
         f.close()
 
     return {
@@ -442,20 +425,23 @@ def load_strategymaps(path_primary):
             continue
         
         with open(os.path.join(path_primary, 'HexaMap', file), encoding="utf8") as f:
-            data[file[12:file.index('.')]] = json.load(f)
+            data[file[12:file.index('.')]] = orjson.loads(f.read())
 
     return data
 
 
 def load_stages(path_primary):
     data = {}
-    
-    for file in os.listdir(path_primary + '/Stage/'):
-        if not file.endswith('.json'):
+    stage_path = os.path.join(path_primary, 'Stage')
+
+    for file in os.listdir(stage_path):
+        if not file.endswith('.json') or "newleveltest" in file:
+            #print(f'Skipping {file} as it contains "newleveltest" in the name.')
             continue
-        
-        with open(os.path.join(path_primary, 'Stage', file), encoding="utf8") as f:
-            data[file[:file.index('.')]] = json.load(f)
+
+        file_path = os.path.join(stage_path, file)
+        with open(file_path, "rb") as f:
+            data[file[:file.index('.')]] = orjson.loads(f.read())
 
     return data
 
@@ -539,7 +525,7 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
             continue
         #print(f'Loading additional scenario translations from {path_translation}/scenario/{file}')
         with open(os.path.join(path_translation + '/scenario/', file), encoding="utf8") as f:
-            data_aux += json.load(f)['DataList']
+            data_aux += orjson.loads(f.read())['DataList']
 
     for line in data_secondary:
         ds[(line['GroupId'], line_cleanup(line['ScriptKr'], aggresive=True),  line_cleanup(line['TextJp'], aggresive=True))] = line 
@@ -571,7 +557,7 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
 # def load_multipart_file(path, filename, entries: list):
 #     data = []
 #     for i in entries: 
-#         with open(os.path.join(path, 'Excel', filename.replace('$', str(i))), encoding="utf8") as f: data += json.load(f)['DataList']
+#         with open(os.path.join(path, 'Excel', filename.replace('$', str(i))), encoding="utf8") as f: data += orjson.loads(f.read())['DataList']
 #     return data
     
 
