@@ -53,12 +53,14 @@ def get_raid_boss_data(group, region = 'jp'):
     boss_data = {}
 
     boss_data['stage'] = season_data[region].eliminate_raid_stage[group]
+    boss_data['armor'] = None
     for stage in boss_data['stage']:
         #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-    
+        if not boss_data['armor']: boss_data['armor'] = stage['RaidBossGroup'].split('_')[-1]
+        
     return boss_data
 
 
@@ -70,6 +72,7 @@ def generate():
     for region in ['jp', 'gl']:
         for season in season_data[region].eliminate_raid_season.values():
             boss = season['OpenRaidBossGroup01'].split('_',2)
+            season['armor'] = []
 
             if season['SeasonId'] in SEASON_IGNORE[region]:
                 #print(f"Flagged to ignore {region} season {season['SeasonId']}")
@@ -104,6 +107,7 @@ def generate():
             for group in boss_groups:
                 boss_data[group]= get_raid_boss_data(season[group], region)
 
+                season['armor'].append(shared.functions.armor_type(boss_data[group]['armor']))
                 if season['SeasonId'] in SEASON_TOR_DEF[region]: season['challenge'] = SEASON_TOR_DEF[region][season['SeasonId']]
                 else:
                     for stage in boss_data[group]['stage']: 
