@@ -705,7 +705,7 @@ class MemoryLobby(object):
     @classmethod
     def from_data(cls, character_id, data):
         try: lobby_data = data.memory_lobby[character_id]
-        except KeyError: return cls( None, None )
+        except KeyError: return cls( None, None, 1 )
 
         unlock_level = None
         for favor_reward in data.favor_rewards:

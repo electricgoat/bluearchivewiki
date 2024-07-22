@@ -40,5 +40,6 @@ CLUBS = {
             'KnowledgeLiberationFront': 'Knowledge Liberation Front',
             'Hyakkayouran': 'Hyakkaryouran',
             'ShinySparkleSociety': 'Shiny Sparkle Society',
+            'AbydosStudentCouncil': 'Abydos Student Council',
             'EmptyClub': 'no club'
 }

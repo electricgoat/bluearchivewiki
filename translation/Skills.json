@@ -5090,6 +5090,115 @@
             "GroupId": "CH0216ExtraPassive01",
             "NameEn": "Demolition specialist",
             "DescriptionEn": "When attacking large and extra-large enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0263Ex01",
+            "NameEn": "Enhanced firepower",
+            "DescriptionEn": "Summon a drone for $1. While the drone is active, normal attacks will deal $2 damage.\nIncrease Critical Damage by $3 and Critical Rate by $4 for $5.\nDeal $6 of max HP damage to self. (This effect can't make Shiroko＊Terror retreat from battle)"
+        },
+        {
+            "GroupId": "CH0263Public01",
+            "NameEn": "Grenade Toss・Revised",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nWhen EX skill is active, this skill changes to \"Summon Drone: Crossfire.\""
+        },
+        {
+            "GroupId": "CH0263Public02",
+            "NameEn": "Summon Drone: Crossfire",
+            "DescriptionEn": "When using EX skill, deal $1 damage to one enemy.\nWhen the EX skill drone disappears, this skill reverts to \"Grenade Toss・Revised\""
+        },
+        {
+            "GroupId": "CH0263Passive01",
+            "NameEn": "Precise Aiming",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0263WeaponPassive01",
+            "NameEn": "Precise Aiming +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0263ExtraPassive01",
+            "NameEn": "Time to catch your breath",
+            "DescriptionEn": "Increase Mystic Efficiency by $1.\nWhen Shiroko＊Terror's current HP is below $2, prevent retreating for $3. (Cooldown: $4)\nIf HP is not fully recovered during the retreat grace period, immediately retreat afterwards."
+        },
+
+        {
+            "GroupId": "CH0258_TankerEx01",
+            "NameEn": "Hardened defensive posture",
+            "DescriptionEn": "Move to the specified location, then raise a shield that acts as a cover, granting the cover state and increasing Attack by $1 for $2.\nThe cover has $3 of Hoshino's HP.\n(The armor type of the cover is the same as Hoshino (Combat))"
+        },
+        {
+            "GroupId": "CH0258_TankerPublic01",
+            "NameEn": "Plate swap",
+            "DescriptionEn": "Every $1, equip self with ballistic plate to reduce damage taken by $2.\n(Ballistic plate effect will be removed after taking $3 hits)"
+        },
+        {
+            "GroupId": "CH0258_TankerPassive01",
+            "NameEn": "Close-quarters battle system",
+            "DescriptionEn": "Increase Attack by $1 and HP by $2."
+        },
+        {
+            "GroupId": "CH0258_TankerWeaponPassive01",
+            "NameEn": "Close-quarters battle system +",
+            "DescriptionEn": "Increase Attack by $1 and HP by $2. Further increase Attack by $3 and HP by $4."
+        },
+        {
+            "GroupId": "CH0258_TankerExtraPassive01",
+            "NameEn": "Meta-tactics",
+            "DescriptionEn": "When attacking an enemy, there is a $1 chance of reducing target Defense by $2 for $3. (Cooldown: $4)"
+        },
+
+        {
+            "GroupId": "CH0258_AttackerEx01",
+            "NameEn": "Concentrated breakthrough",
+            "DescriptionEn": "Deal $1 damage to one enemy\nDeal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0258_AttackerPublic01",
+            "NameEn": "Rapid-fire pistol",
+            "DescriptionEn": "When the remaining fast loading ammo reaches 0, deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0258_AttackerPassive01",
+            "NameEn": "Expanded tactical awareness",
+            "DescriptionEn": "Increase Firing Range by $1 and Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0258_AttackerWeaponPassive01",
+            "NameEn": "Expanded tactical awareness +",
+            "DescriptionEn": "Increase Attack by $1. Increase Firing Range by $2 and Critical Damage by $3."
+        },
+        {
+            "GroupId": "CH0258_AttackerExtraPassive01",
+            "NameEn": "Suppression attack",
+            "DescriptionEn": "All attacks ignore $1 of the enemy Defense.\nIncrease own Attack by $2.\nWhen using an EX skill or Normal skill, reload instantly, the first normal attack deals $3 damage to enemies within a cone-shaped area."
+        },
+
+        {
+            "GroupId": "CH0267Ex01",
+            "NameEn": "Summer memories",
+            "DescriptionEn": "Recover HP of one ally by $1 of Healing."
+        },
+        {
+            "GroupId": "CH0267Public01",
+            "NameEn": "This flower for you",
+            "DescriptionEn": "Every $1, increase healing received for the ally with the lowest HP by $2 for $3."
+        },
+        {
+            "GroupId": "CH0267Passive01",
+            "NameEn": "Fresh sea breeze",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0267WeaponPassive01",
+            "NameEn": "Fresh sea breeze +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0267ExtraPassive01",
+            "NameEn": "Beach Princess",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
         }
         
         
