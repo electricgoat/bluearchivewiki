@@ -43,7 +43,7 @@ force_voice_group_link = {
 }
 
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
-            'Formation', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
+            'Formation', 'Formchange', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
 EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'Minigame', 'MiniGame' ] 
 
 
@@ -110,10 +110,8 @@ def generate():
 
         standard_lines = [] 
 
-        
-        
-
-
+        if character['Id'] == 10099: #Hoshino (Battle) Attacker form
+            continue
 
         if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
             continue
@@ -136,17 +134,19 @@ def generate():
             continue
 
         print (f"===== [{character.id}] {character.wiki_name} =====")
-
-        character.model_prefab_name = character.model_prefab_name.replace('_Original','').replace('_','')
-        files_scandir = f"Audio/VOC_JP/JP_{character.model_prefab_name}/"
         
         character_variation_ids, costume_variation_ids = list_character_variants(character)
     
-
         
-        normal_lines = get_dialog_lines(character, data.character_dialog , character.costume['CostumeUniqueId'])
+        normal_lines = get_dialog_lines(character, data.character_dialog, character.costume['CostumeUniqueId'])
 
-        memorial_lines = get_memorial_lines(character, data.character_dialog)
+        #extract character audio folder/codename from normal lines data
+        #this isn't pretty but deriving it from character.model_prefab_name has proven unreliable
+        character_code = normal_lines[0].voice[0].path[0].rsplit('/')[-2].replace('JP_','')
+        files_scandir = normal_lines[0].voice[0].path[0].rsplit('/',1)[0] + '/'
+
+        memorial_lines = get_memorial_lines(character, data.character_dialog, files_scandir, character_code)
+
         
         # Memorial lobby unlock text from affection level script
         memorial_unlock = []
@@ -171,7 +171,7 @@ def generate():
                     memorial_unlock.append(line)
             
             #Guess memorial lobby unlock audio if it had no text
-            if len(memorial_unlock)==0 and os.path.exists(os.path.join(args['data_audio'], files_scandir, f"{character.model_prefab_name}_MemorialLobby_0.ogg")):
+            if len(memorial_unlock)==0 and os.path.exists(os.path.join(args['data_audio'], files_scandir, f"{character_code}_MemorialLobby_0.ogg")):
                 line['CharacterId'] = character.id
                 line['CostumeUniqueId'] = character.costume['CostumeUniqueId']
                 line['DialogCategory'] = 'UILobbySpecial'
@@ -182,7 +182,7 @@ def generate():
 
                 memorial_unlock.append(line)
 
-            memorial_lines = get_memorial_lines(character, memorial_unlock) + memorial_lines
+            memorial_lines = get_memorial_lines(character, memorial_unlock, files_scandir, character_code) + memorial_lines
 
       
 
@@ -206,10 +206,10 @@ def generate():
 
         for type in (STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES):
             #print(f"Gathering {type}-type standard lines")
-            sl = [x for x in file_list+append_files if type in x.rsplit('/')[-1].split('_')[1]]
+            sl = [x for x in file_list+append_files if type in x.rsplit('/')[-1].split('_')[1] or ('_S2_' in x and type in x.rsplit('/')[-1].split('_')[2])]
 
             if sl: print (f'Found {len(sl)} {type}-type standard lines') 
-            standard_lines += get_standard_lines(character, sl, type, maindir=character.model_prefab_name)
+            standard_lines += get_standard_lines(character, sl, type, maindir=character_code)
         #dump_missing_standard_translations(character, standard_lines)
 
 
@@ -358,7 +358,7 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
 
 
 
-def get_memorial_lines(character, dialog_data) -> list[Dialog]:
+def get_memorial_lines(character, dialog_data, files_scandir, character_code) -> list[Dialog]:
     global data
     lines:list[Dialog] = []
     known_paths = [] #VoiceExcelTable contains duplicates
@@ -368,7 +368,7 @@ def get_memorial_lines(character, dialog_data) -> list[Dialog]:
             add_voice = []
 
             
-            speculated_path = f"Audio/VOC_JP/JP_{character.model_prefab_name}/{character.model_prefab_name}_MemorialLobby_{line['GroupId']}"
+            speculated_path = f"{files_scandir}{character_code}_MemorialLobby_{line['GroupId']}"
             #print(f"speculated path {speculated_path}")
             for voice in data.voice_spine.values():
                 for path in voice['Path']:

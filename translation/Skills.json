@@ -5095,7 +5095,7 @@
         {
             "GroupId": "CH0263Ex01",
             "NameEn": "Enhanced firepower",
-            "DescriptionEn": "Summon a drone for $1. While the drone is active, normal attacks will deal $2 damage.\nIncrease Critical Damage by $3 and Critical Rate by $4 for $5.\nDeal $6 of max HP damage to self. (This effect can't make Shiroko＊Terror retreat from battle)"
+            "DescriptionEn": "Summon a drone for $1. While the drone is active, normal attacks will deal $2 damage.\nIncrease Critical Rate by $3 and Critical Damage by $4 for $5.\nDeal $6 of max HP damage to self. (This effect can't make Shiroko＊Terror retreat from battle)"
         },
         {
             "GroupId": "CH0263Public01",
@@ -5199,6 +5199,58 @@
             "GroupId": "CH0267ExtraPassive01",
             "NameEn": "Beach Princess",
             "DescriptionEn": "Increase Attack Speed of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0266Ex01",
+            "NameEn": "Music, start!",
+            "DescriptionEn": "Deal $1 damage to targeted enemies within a sector-shaped area.\nInflict $2 continuous chill damage over $3, and deal $4 damage to other enemies."
+        },
+        {
+            "GroupId": "CH0266Public01",
+            "NameEn": "A brief respite",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0266Passive01",
+            "NameEn": "Perfect mission execution",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0266WeaponPassive01",
+            "NameEn": "Perfect mission execution +",
+            "DescriptionEn": "Increase Mystic Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0266ExtraPassive01",
+            "NameEn": "Honest student part-time job",
+            "DescriptionEn": "Normal attacks have a $1 chance of inflicting $2 continuous chill damage over $3. (Cooldown: $4)"
+        },
+
+        {
+            "GroupId": "CH0269Ex01",
+            "NameEn": "Aiming for first prize!",
+            "DescriptionEn": "Fire 5 bullets. The projectiles fly in a straight line, dealing $1 (total for 5 bullets) damage to the enemies they hit.\nWhen all 5 bullets hit the same enemy, deal $2 additional damage.\nIf EX Charge Gauge is 1 or more, immediately draw EX skill card and then subtract 1 EX Charge Gauge."
+        },
+        {
+            "GroupId": "CH0269Public01",
+            "NameEn": "Special handy fan",
+            "DescriptionEn": "Every $1 normal attacks, increase Critical Damage by $2 for $3."
+        },
+        {
+            "GroupId": "CH0269Passive01",
+            "NameEn": "Enjoy the summer!",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0269WeaponPassive01",
+            "NameEn": "Enjoy the summer! +",
+            "DescriptionEn": "Increase Piercing Efficiency by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0269ExtraPassive01",
+            "NameEn": "Vacation planning",
+            "DescriptionEn": "Every $1, charge the EX Charge Gauge by $2.\nEvery time the EX Charge Gauge is charged to $3, increase Critical Rate by $4 for $5.\n(The EX Charge Gauge can only hold up 1 full charge)"
         }
         
         

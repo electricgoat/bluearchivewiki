@@ -12,7 +12,7 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko_Formation_In_2",
             "LocalizeJP": "オッケー、参戦する。",
-            "LocalizeEN": "ok, join the race."
+            "LocalizeEN": "OK, I join the battle."
         },
         {
             "CharacterId": 10010,
@@ -26,49 +26,49 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_Defeat_1",
             "LocalizeJP": "ごめん、私の判断ミスだ。",
-            "LocalizeEN": "Sorry, my mistake."
+            "LocalizeEN": "Sorry, I made a wrong choice."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_Defeat_2",
-            "LocalizeJP": "少し力不足だったか。",
-            "LocalizeEN": "Were you a little underpowered?"
+            "LocalizeJP": "少し…力不足だったか。",
+            "LocalizeEN": "I was... a bit underpowered."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_In_1",
-            "LocalizeJP": "敵発見 指示を",
-            "LocalizeEN": "Enemy spotted, give instructions"
+            "LocalizeJP": "敵、発見。指示を。",
+            "LocalizeEN": "Enemy spotted, awaiting instructions."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_In_2",
             "LocalizeJP": "先生、出撃命令を",
-            "LocalizeEN": "Sensei, sortie order"
+            "LocalizeEN": "Sensei, I'm waiting for sortie order."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_Victory_1",
-            "LocalizeJP": "備えあれば憂いなし シンプルなルールだ。",
-            "LocalizeEN": "No worries if you are prepared Simple rules."
+            "LocalizeJP": "「備えあれば憂いなし」。シンプルなルールだ。",
+            "LocalizeEN": "Better safe than sorry. What a simple rule."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko_Tactic_Victory_2",
-            "LocalizeJP": "素晴らしい 式だった、先生。",
-            "LocalizeEN": "It was a wonderful ceremony, Sensei."
+            "LocalizeJP": "素晴らしい指揮だった、先生。",
+            "LocalizeEN": "Your command was great, Sensei."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Buffed_1",
             "LocalizeJP": "ありがとう。",
-            "LocalizeEN": "thank you."
+            "LocalizeEN": "Thank you."
         },
         {
             "CharacterId": 10010,
@@ -81,8 +81,8 @@
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Covered_1",
-            "LocalizeJP": "遮蔽物確",
-            "LocalizeEN": "sure to cover"
+            "LocalizeJP": "遮蔽物、確保。",
+            "LocalizeEN": "Cover, secured."
         },
         {
             "CharacterId": 10010,
@@ -116,42 +116,42 @@
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_In_1",
-            "LocalizeJP": "フォーメーション P で行くよ。",
-            "LocalizeEN": "I'm going with formation P."
+            "LocalizeJP": "フォーメーションPで行くよ。",
+            "LocalizeEN": "We're going with formation P."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_In_2",
-            "LocalizeJP": "人権を維持しながら前進する。",
-            "LocalizeEN": "Move forward while preserving human rights."
+            "LocalizeJP": "陣形を維持しながら前進する。",
+            "LocalizeEN": "Let's maintain formation, and move forward."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Move_1",
-            "LocalizeJP": "この辺に確か銀行が",
-            "LocalizeEN": "I'm sure there's a bank around here"
+            "LocalizeJP": "この辺に確か、銀行が…",
+            "LocalizeEN": "I'm sure there's a bank around here..."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Move_2",
             "LocalizeJP": "ライディングに持ってこいの場所だね。",
-            "LocalizeEN": "It's a great place to bring it for riding."
+            "LocalizeEN": "This is a good place for riding."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
-            "LocalizeEN": "thank you."
+            "LocalizeEN": "Thank you."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Retire",
-            "LocalizeJP": "ミスった。ごめん。",
+            "LocalizeJP": "…ミスった、ごめん。",
             "LocalizeEN": "Sorry, I made a mistake"
         },
         {
@@ -179,15 +179,15 @@
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_Supply",
-            "LocalizeJP": "呼吸確認した。",
-            "LocalizeEN": "I checked my breathing."
+            "LocalizeJP": "補給、確認した。",
+            "LocalizeEN": "Supply confirmed."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko_Battle_TacticalAction_1",
             "LocalizeJP": "移動。",
-            "LocalizeEN": "move."
+            "LocalizeEN": "Moving."
         },
         {
             "CharacterId": 10010,
@@ -207,29 +207,29 @@
             "CharacterId": 10010,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Shiroko_CommonSkill",
-            "LocalizeJP": "行くよ。",
-            "LocalizeEN": "Let's go."
+            "LocalizeJP": "行くよ！",
+            "LocalizeEN": "Here you go!"
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_ExSkill_1",
-            "LocalizeJP": "状態良好 行くよ。",
-            "LocalizeEN": "Good condition I'll go."
+            "LocalizeJP": "状態、良好。行くよ。",
+            "LocalizeEN": "Condition is good. Here you go."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_ExSkill_2",
-            "LocalizeJP": "ユニット 起動。",
-            "LocalizeEN": "unit startup."
+            "LocalizeJP": "ユニット起動。",
+            "LocalizeEN": "A unit startup."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_ExSkill_3",
-            "LocalizeJP": "ドローン作動 開始。",
-            "LocalizeEN": "Drone operation started."
+            "LocalizeJP": "ドローン、作動開始。",
+            "LocalizeEN": "Drone, engaging."
         },
         {
             "CharacterId": 10010,
@@ -242,7 +242,7 @@
             "CharacterId": 10010,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_ExSkill_Level_2",
-            "LocalizeJP": "ターゲット設定完了。",
+            "LocalizeJP": "ターゲット、設定完了。",
             "LocalizeEN": "Target setting completed."
         },
         {
@@ -250,7 +250,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_ExSkill_Level_3",
             "LocalizeJP": "支援攻撃。",
-            "LocalizeEN": "support attack."
+            "LocalizeEN": "Support attack."
         },
         {
             "CharacterId": 10010,
@@ -264,28 +264,28 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_Growup_2",
             "LocalizeJP": "ありがとう先生。",
-            "LocalizeEN": "Thanks Sensei."
+            "LocalizeEN": "Thank you, Sensei."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_Growup_3",
-            "LocalizeJP": "成長したみたい これも先生のおかげ",
-            "LocalizeEN": "I feel like I've grown, thanks to Sensei."
+            "LocalizeJP": "成長したみたい。これも、先生のおかげ。",
+            "LocalizeEN": "I feel like I've grown. This is also thanks to Sensei."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_Growup_4",
             "LocalizeJP": "成長してるのがわかる。",
-            "LocalizeEN": "I know you're growing."
+            "LocalizeEN": "I can feel I'm growing."
         },
         {
             "CharacterId": 10010,
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_Relationship_Up_1",
             "LocalizeJP": "おかしい...ドキドキが止まらない。",
-            "LocalizeEN": "It's strange...I can't stop pounding."
+            "LocalizeEN": "It's strange... My heart is pounding."
         },
         {
             "CharacterId": 10010,
@@ -305,7 +305,7 @@
             "CharacterId": 10010,
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_Relationship_Up_4",
-            "LocalizeJP": "先生にあったその瞬間から ここは私にとってもっと特別な場所になった",
+            "LocalizeJP": "先生に会ったその瞬間から、ここは私にとってもっと特別な場所になった。",
             "LocalizeEN": "From that moment I met Sensei, this place became more special to me."
         }
     ]

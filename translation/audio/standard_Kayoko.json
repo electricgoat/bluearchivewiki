@@ -19,28 +19,28 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_Formation_Select",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Hmm..."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Defeat_1",
             "LocalizeJP": "ごめん。…ちょっと油断した。",
-            "LocalizeEN": "sorry i got a little careless"
+            "LocalizeEN": "Sorry. ...I let my guard down."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Defeat_2",
             "LocalizeJP": "覚えときなよ。",
-            "LocalizeEN": "Don't remember"
+            "LocalizeEN": "I'll remember this."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_In_1",
             "LocalizeJP": "行こう。",
-            "LocalizeEN": "let's go."
+            "LocalizeEN": "Let's go."
         },
         {
             "CharacterId": 13005,
@@ -54,7 +54,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Victory_1",
             "LocalizeJP": "お疲れ、先生。",
-            "LocalizeEN": "Thank you, Sensei."
+            "LocalizeEN": "Good Work, Sensei."
         },
         {
             "CharacterId": 13005,
@@ -82,14 +82,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Covered_1",
             "LocalizeJP": "遮蔽物発見。",
-            "LocalizeEN": "covert object found"
+            "LocalizeEN": "Cover object found."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Damage_1",
             "LocalizeJP": "くそ…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Damn..."
         },
         {
             "CharacterId": 13005,
@@ -110,14 +110,14 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Defense_1",
             "LocalizeJP": "この程度？",
-            "LocalizeEN": "This degree."
+            "LocalizeEN": "That's it?"
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_In_1",
             "LocalizeJP": "落ち着いて。作戦通りにやればいい。",
-            "LocalizeEN": "Calm down and do what you plan to do."
+            "LocalizeEN": "Stay calm, just follow the plan."
         },
         {
             "CharacterId": 13005,
@@ -131,21 +131,21 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Move_1",
             "LocalizeJP": "だいたい片付いたみたいだね。",
-            "LocalizeEN": "It looks like it's sorted out."
+            "LocalizeEN": "It looks like it's almost sorted out."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Move_2",
             "LocalizeJP": "次の目標はあっちだね。移動しよう。",
-            "LocalizeEN": "That's my next target. let's move"
+            "LocalizeEN": "Looks like that's my next goal.\nLet's move"
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Recovery_1",
             "LocalizeJP": "ありがたくもらう。",
-            "LocalizeEN": "Thank you."
+            "LocalizeEN": "I appreciate it."
         },
         {
             "CharacterId": 13005,
@@ -166,70 +166,70 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Shout_2",
             "LocalizeJP": "行くよ。",
-            "LocalizeEN": "go."
+            "LocalizeEN": "Here i go."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Shout_3",
             "LocalizeJP": "くらって。",
-            "LocalizeEN": "Come on"
+            "LocalizeEN": "Come on."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TacticalAction_1",
             "LocalizeJP": "フォーメーション変更。",
-            "LocalizeEN": "formation change"
+            "LocalizeEN": "Formation change."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TSA_1",
             "LocalizeJP": "はあ…、こんなことまでさせるなんて。",
-            "LocalizeEN": "I can't believe you let me do this"
+            "LocalizeEN": "Sigh...I can't believe your letting me do something like this."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TSA_2",
             "LocalizeJP": "はあ…、仕方ない。",
-            "LocalizeEN": "it can not be helped"
+            "LocalizeEN": "Sigh...It can't be helped."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Victory_1",
             "LocalizeJP": "相手が悪かったね。",
-            "LocalizeEN": "Your opponent was bad."
+            "LocalizeEN": "You picked the wrong opponent."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Victory_2",
             "LocalizeJP": "ウォームアップにもならない。",
-            "LocalizeEN": "It doesn't even warm up."
+            "LocalizeEN": "This doesn't even count as a warm-up"
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kayoko_CommonSkill",
             "LocalizeJP": "覚悟して。",
-            "LocalizeEN": "Be prepared."
+            "LocalizeEN": "Get ready for this."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Sigh..."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_2",
             "LocalizeJP": "仕方ないか。",
-            "LocalizeEN": "I can't help it"
+            "LocalizeEN": "It can't be helped."
         },
         {
             "CharacterId": 13005,
@@ -250,7 +250,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_Level_2",
             "LocalizeJP": "これで戦況が変わるはず。",
-            "LocalizeEN": "This should change the game."
+            "LocalizeEN": "This should change the tide of battle."
         },
         {
             "CharacterId": 13005,
@@ -264,7 +264,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_1",
             "LocalizeJP": "あえて私を選ぶ なんて…、これが戦略的に正しい選択なら、いいんだけど。",
-            "LocalizeEN": "It would be nice if this was the right strategic choice to dare to choose me"
+            "LocalizeEN": "To deliberately choose me...\n\nIf this is the right choice strategically, Then, that's fine."
         },
         {
             "CharacterId": 13005,
@@ -285,14 +285,14 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_4",
             "LocalizeJP": "ありがとう先生。これからもよろしく。",
-            "LocalizeEN": "thank you. Thank you for your continued support."
+            "LocalizeEN": "Thank you Sensei,\n\nLooking forward to working with you."
         },
         {
             "CharacterId": 13005,
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_Relationship_Up_1",
             "LocalizeJP": "問題があったら、いつでも訪ねてくるといい。",
-            "LocalizeEN": "If you have any problems, you can always come visit me."
+            "LocalizeEN": "If you have any problems, you can always come to me."
         },
         {
             "CharacterId": 13005,

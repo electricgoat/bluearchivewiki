@@ -43,6 +43,7 @@ SEASON_TOR_DEF = {
     },
     'gl' : {
         2:'HeavyArmor',
+        6:'Unarmed'
     }
 }
 

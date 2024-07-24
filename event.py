@@ -292,9 +292,9 @@ def generate():
 
     if season['MainEventId'] != 0:
         print(f"This is a sub-event, using bonus character data from MainEventId {season['MainEventId']}")
-        bc = data.event_content_character_bonus[season['MainEventId']]
+        bc = data.event_content_character_bonus.get(season['MainEventId'], [])
     elif season['EventContentId'] in data.event_content_character_bonus:
-        bc = data.event_content_character_bonus[season['EventContentId']]
+        bc = data.event_content_character_bonus.get(season['EventContentId'], [])
     else:
         print('Warning - no bonus character data found!')
         bc = []
@@ -320,9 +320,9 @@ def generate():
 
     if season['MainEventId'] != 0:
         print(f"This is a sub-event, using currencies data from MainEventId {season['MainEventId']}")
-        cy = data.event_content_currency[season['MainEventId']]
+        cy = data.event_content_currency.get(season['MainEventId'], [])
     elif season['EventContentId'] in data.event_content_currency:
-        cy = data.event_content_currency[season['EventContentId']]
+        cy = data.event_content_currency.get(season['EventContentId'], [])
     else:
         print('Warning - no event currencies data found!')
         cy = []

@@ -882,9 +882,9 @@
         "variant": "Wounded"
     },
     "NP0125": {
-        "firstname": "Shiroko",
+        "firstname": "Shiroko＊Terror",
         "lastname": "",
-        "variant": "Terror, Wounded"
+        "variant": "Unknown, Wounded"
     },
     "NP0129": {
         "firstname": "Ein",
@@ -1122,9 +1122,9 @@
         "variant": "New Year"
     },
     "CH0199": {
-        "firstname": "Shiroko",
+        "firstname": "Shiroko＊Terror",
         "lastname": "",
-        "variant": "Terror"
+        "variant": "Unknown"
     },
     "CH0201": {
         "firstname": "Momoi",
@@ -1427,6 +1427,41 @@
         "lastname": "",
         "variant": null
     },
+    "CH0265": {
+        "firstname": "Akemi",
+        "lastname": "",
+        "variant": null
+    },
+    "CH0266": {
+        "firstname": "Saori",
+        "lastname": "",
+        "variant": "Swimsuit"
+    },
+    "CH0268": {
+        "firstname": "Misaki",
+        "lastname": "",
+        "variant": "Swimsuit"
+    },
+    "CH0269": {
+        "firstname": "Hiyori",
+        "lastname": "",
+        "variant": "Swimsuit"
+    },
+    "CH0277": {
+        "firstname": "Smirking Professor",
+        "lastname": "",
+        "variant": null
+    },
+    "NP0179": {
+        "firstname": "Hoshino",
+        "lastname": "",
+        "variant": "Combat, wounded"
+    },
+    "NP0186": {
+        "firstname": "Hoshino",
+        "lastname": "",
+        "variant": "Terror"
+    },
     "NP0187": {
         "firstname": "Yoshimi",
         "lastname": "",
@@ -1447,10 +1482,50 @@
         "lastname": "",
         "variant": "Band, no decorations"
     },
+    "NP0200": {
+        "firstname": "Hoshino",
+        "lastname": "",
+        "variant": "Combat, handgun, wounded"
+    },
+    "NP0201": {
+        "firstname": "Hoshino",
+        "lastname": "",
+        "variant": "Combat, shotgun, handgun, wounded"
+    },
+    "NP0202": {
+        "firstname": "Hoshino",
+        "lastname": "",
+        "variant": "Combat, shotgun, wounded"
+    },
+    "NP0203": {
+        "firstname": "DJ BoB",
+        "lastname": "",
+        "variant": null
+    },
+    "NP0230": {
+        "firstname": "Saori",
+        "lastname": "",
+        "variant": "Swimsuit, no jacket"
+    },
+    "NP0231": {
+        "firstname": "Shiroko＊Terror",
+        "lastname": "",
+        "variant": "Unknown, Robber"
+    },
+    "NP0232": {
+        "firstname": "Shiroko＊Terror",
+        "lastname": "",
+        "variant": "Robber"
+    },
     "CH0258": {
         "firstname": "Hoshino",
         "lastname": "",
-        "variant": "Combat gear"
+        "variant": "Combat"
+    },
+    "CH0267": {
+        "firstname": "Atsuko",
+        "lastname": "",
+        "variant": "Swimsuit"
     },
     "NP0172": {
         "firstname": "Shiroko",
@@ -1475,17 +1550,17 @@
     "NP0196": {
         "firstname": "Hoshino",
         "lastname": "",
-        "variant": "Combat gear, handgun"
+        "variant": "Combat, handgun"
     },
     "NP0197": {
         "firstname": "Hoshino",
         "lastname": "",
-        "variant": "Combat gear, shotgun, handgun"
+        "variant": "Combat, shotgun, handgun"
     },
     "NP0198": {
         "firstname": "Hoshino",
         "lastname": "",
-        "variant": "Combat gear, shotgun"
+        "variant": "Combat, shotgun"
     },
     "NP0176": {
         "firstname": "Nonomi",
@@ -1495,12 +1570,12 @@
     "NP0177": {
         "firstname": "Suou",
         "lastname": "",
-        "variant": "Combat gear"
+        "variant": "Combat"
     },
     "NP0178": {
         "firstname": "Suou",
         "lastname": "",
-        "variant": "Combat gear, wounded"
+        "variant": "Combat, wounded"
     }
 
 
