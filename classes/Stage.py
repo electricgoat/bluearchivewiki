@@ -10,10 +10,10 @@ ignore_item_id = [
 DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge', 'VeryHard_Ex': 'Extra Challenge'}
 
 STAR_GOALS = {
-    # ? - Defeat all enemies within {} minutes
     'Clear': 'Defeat all enemies',
     'AllAlive': 'All students survive',
     'AllyBaseDamage': 'No more than {0} damage to base',
+    'ClearTimeInSec': 'Clear within {0} seconds'
 }
 
 
@@ -72,43 +72,51 @@ class Stage(object):
                 return f"{{{{ItemCard|{data.etc_localization[data.items[stage['StageEnterCostId']]['LocalizeEtcId']]['NameEn']}|quantity={stage['StageEnterCostAmount']}|text=}}}}"
             case _:
                 return f"{{{{ItemCard|Unknown Id {stage['StageEnterCostId']}|quantity={stage['StageEnterCostAmount']}|text=}}}}"
+
+            
+    @classmethod
+    def get_rewards(cls, stage, data, wiki_card=None):
+        rewards = {}
+        table_name = cls.get_table_name_stage_rewards()
+        reward_parcels = getattr(data, table_name).get(stage['EventContentStageRewardId'], [])
+
+        for parcel in [x for x in reward_parcels if x['RewardProb'] > 0]:
+            reward = RewardParcel(
+                parcel['RewardParcelType'], 
+                parcel['RewardId'], 
+                [parcel['RewardAmount']], 
+                [parcel['RewardProb']],
+                parcel['RewardTag'],
+                data=data,
+                wiki_card=wiki_card
+            )
+
+            if reward.tag not in rewards:
+                rewards[reward.tag] = []
+            rewards[reward.tag].append(reward)
+
+        return dict(rewards)
+    
+    @classmethod
+    def get_table_name_stage_rewards(cls):
+        raise NotImplementedError("Subclasses should implement this method to return the correct table name.")
             
 
 
 
 class EventStage(Stage):
-    
+
     @classmethod
-    def get_rewards(cls, stage, data, wiki_card = None):
-        reward_parcels = []
-        rewards = {}
-
-        reward_parcels = data.event_content_stage_rewards[stage['EventContentStageRewardId']]
-
-        for parcel in [x for x in reward_parcels if x['RewardProb']>0]:
-            reward = RewardParcel(parcel['RewardParcelType'], 
-                                  parcel['RewardId'], 
-                                  [parcel['RewardAmount']], 
-                                  [parcel['RewardProb']],
-                                  parcel['RewardTag'],
-                                  data=data,
-                                  wiki_card=wiki_card
-                                  ) 
-
-            if reward.parcel_id in rewards and reward.tag == rewards[reward.parcel_id].tag:
-                rewards[reward.parcel_id].add_drop(reward.amount, reward.parcel_prob)
-            else:
-                rewards[reward.parcel_id] = reward
-
-        return dict(rewards)
+    def get_table_name_stage_rewards(cls):
+        return 'event_content_stage_rewards'
 
 
     @classmethod
-    def from_data(cls, stage_id, data, missing_localization = None, missing_etc_localization = None):
+    def from_data(cls, stage_id, data, wiki_card = None,  missing_localization = None, missing_etc_localization = None):
         grounds = []
         stage = data.event_content_stages[stage_id]
 
-        rewards = cls.get_rewards(stage, data)
+        rewards = cls.get_rewards(stage, data, wiki_card)
         enter_cost =  cls.wiki_enter_cost(stage, data)
 
         
@@ -166,7 +174,8 @@ class EventStage(Stage):
             # set([armor_type(x['EnemyArmorType']) for x in grounds])
             set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
             set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
-            stage_hint
+            stage_hint,
+            StarGoal(stage['StarGoal'], stage['StarGoalAmount'])
         )
     
 
@@ -174,28 +183,8 @@ class EventStage(Stage):
 class FieldStage(Stage):
 
     @classmethod
-    def get_rewards(cls, stage, data, wiki_card = None):
-        reward_parcels = []
-        rewards = {}
-
-        reward_parcels = data.field_content_stage_reward[stage['Id']]
-
-        for parcel in [x for x in reward_parcels if x['RewardProb']>0]:
-            reward = RewardParcel(parcel['RewardParcelType'], 
-                                  parcel['RewardId'], 
-                                  [parcel['RewardAmount']], 
-                                  [parcel['RewardProb']],
-                                  parcel['RewardTag'],
-                                  data=data,
-                                  wiki_card=wiki_card
-                                  ) 
-
-            if reward.parcel_id in rewards and reward.tag == rewards[reward.parcel_id].tag:
-                rewards[reward.parcel_id].add_drop(reward.amount, reward.parcel_prob)
-            else:
-                rewards[reward.parcel_id] = reward
-
-        return dict(rewards)
+    def get_table_name_stage_rewards(cls):
+        return 'field_content_stage_reward'
 
 
     @classmethod
@@ -228,8 +217,6 @@ class FieldStage(Stage):
                     spawn_templates[template] = devname_characters[template]
 
         
-
-
         return cls(
             stage['Id'],
             stage['Name'],
@@ -263,33 +250,11 @@ class FieldStage(Stage):
 
 
 class DefenseStage(Stage):
-    
+
     @classmethod
-    def get_rewards(cls, stage, data, wiki_card = None):
-        rewards = {}
-
-        reward_parcels = data.event_content_stage_rewards.get(stage['EventContentStageRewardId'], [])
-
-        for parcel in [x for x in reward_parcels if x['RewardProb']>0]:
-            reward = RewardParcel(parcel['RewardParcelType'], 
-                                  parcel['RewardId'], 
-                                  [parcel['RewardAmount']], 
-                                  [parcel['RewardProb']],
-                                  parcel['RewardTag'],
-                                  data=data,
-                                  wiki_card=wiki_card
-                                  ) 
-
-            if reward.tag not in rewards: rewards[reward.tag] = []
-            rewards[reward.tag].append(reward)
-
-            # if reward.parcel_id in [x for x in rewards[reward.tag]]:
-            #     rewards[reward.tag][reward.parcel_id].add_drop(reward.amount, reward.parcel_prob)
-            # else:
-            #     rewards[reward.tag][reward.parcel_id] = reward
-
-        return dict(rewards)
-
+    def get_table_name_stage_rewards(cls):
+        return 'event_content_stage_rewards'
+    
 
     @classmethod
     def from_data(cls, stage_id, data, wiki_card = None, missing_localization = None, missing_etc_localization = None):

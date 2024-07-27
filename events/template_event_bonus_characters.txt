@@ -1,15 +1,12 @@
 =Characters=
 {% raw %}{{% endraw %}| class="wikitable mw-collapsible limitwidth-1024" style="text-align: center;"
-! colspan="6" |Bonus Units
+! colspan="5" |Bonus Units
 |-
-! rowspan="2" |Event Item
-! rowspan="2" |Bonus Rate
-! rowspan="2" style="color:#f02e2e;" |Striker
-! rowspan="2" style="color:#274ff2;" |Special
-! colspan="2" |Max Bonus Rate
-|-
-!1 Team
-!2 Team
+!Event Item
+!Bonus Rate
+!style="color:#f02e2e;" |Striker
+!style="color:#274ff2;" |Special
+!style="font-stretch: condensed;" |Max Bonus Rate
 {% for item in bonus_values if bonus_values[item] != [] -%}
 |-
 | rowspan="{{len(bonus_values[item])}}" |{% raw %}{{{% endraw %}ItemCard|{{event_currencies[item]['Name']}}|80px|block{% raw %}}}{% endraw %}
@@ -20,7 +17,6 @@
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Striker' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|80px}}{% endraw %}{% endfor %}
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Special' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|80px}}{% endraw %}{% endfor %}
 {% if loop.index == 1 %}| rowspan="{{len(bonus_values[item])}}" |
-| rowspan="{{len(bonus_values[item])}}" |
 {% endif -%}
 {% endfor -%}{% endfor -%}
 {% raw %}|}{% endraw %}

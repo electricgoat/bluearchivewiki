@@ -10,8 +10,9 @@ from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
 from model import Item, Character
-from classes.model_stages import EventStage
-from model_event_schedule import EventScheduleLocation
+#from classes.model_stages import EventStage
+from classes.model_event_schedule import EventScheduleLocation
+from classes.Stage import EventStage
 from classes.Furniture import Furniture, FurnitureGroup
 from classes.Emblem import Emblem
 from events.mission_desc import mission_desc
@@ -20,7 +21,7 @@ from events.mode_Treasure import get_mode_treasure
 from events.mode_DreamMaker import get_mode_dreammaker
 from events.mode_FortuneGachaShop import get_mode_fortunegachashop
 from events.mode_Defense import get_mode_defense
-from shared.functions import hashkey, wiki_card
+from shared.functions import hashkey
 from shared.MissingTranslations import MissingTranslations
 
 missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
@@ -54,14 +55,20 @@ class Card(IntFlag):
 DIFFICULTY = {'Normal':'Story', 'Hard':'Quest', 'VeryHard':'Challenge'}
 
 
+def wiki_card(type: str, id: int, **params):
+    global data, characters, items, furniture, emblems
+    return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
+
+
 def parse_stages(season_id):
     global args, data, hexamaps
+    global missing_localization, missing_etc_localization
     stages = []
 
     for stage in data.event_content_stages.values():
         if stage['EventContentId'] != season_id:
             continue
-        stage = EventStage.from_data(stage['Id'], data)
+        stage = EventStage.from_data(stage['Id'], data, wiki_card=wiki_card, missing_localization=missing_localization, missing_etc_localization=missing_etc_localization)
         stages.append(stage)
                 
         if stage.content_type == 'EventContentMainStage':
@@ -364,8 +371,8 @@ def generate():
         stage_reward_types = {x: [] for x in difficulty_names.keys()}
 
         for stage in stages:
-            for reward_tag in stage.rewards:
-                if reward_tag not in stage_reward_types[stage.difficulty]:
+            for reward_tag in stage.rewards.keys():
+                if reward_tag not in stage_reward_types[stage.difficulty] and len([x.wikitext_items() for x in stage.rewards[reward_tag] if len(x.wikitext_items())])>0:
                     stage_reward_types[stage.difficulty].append(reward_tag)
     
         template = env.get_template('events/template_event_stages.txt')
@@ -432,7 +439,7 @@ def generate():
             for shop_item in shop['shop_content']:
                 good = data.goods[shop_item['GoodsId'][0]]
                 reward_quantity=good['ParcelAmount'][0]
-                shop_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], data, characters, items, furniture, emblems, quantity = reward_quantity > 1 and reward_quantity or None  )
+                shop_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None  )
                 shop_item['cost'] = good['ConsumeParcelAmount'][0]
                 shop_item['stock'] = shop_item['PurchaseCountLimit']>0 and shop_item['PurchaseCountLimit'] or '∞'
                 shop_item['subtotal'] = shop_item['PurchaseCountLimit']>0 and shop_item['cost']*shop_item['PurchaseCountLimit'] or ''
@@ -457,7 +464,7 @@ def generate():
             box['Items'] = [{'GroupId': x['GroupId'], 'GroupElementAmount': x['GroupElementAmount'], 'IsPrize': x['IsPrize'], 'GoodsId': x['GoodsId'], 'DisplayOrder': x['DisplayOrder']} for x in data.event_content_box_gacha_shop[args['event_season']] if x['Round'] == box['Round']]
 
             first_good = data.goods[box['Items'][0]['GoodsId'][0]]
-            box['wiki_price'] = wiki_card(first_good['ConsumeParcelType'][0], first_good['ConsumeParcelId'][0], data, characters, items, furniture, emblems, quantity = first_good['ConsumeParcelAmount'][0] )
+            box['wiki_price'] = wiki_card(first_good['ConsumeParcelType'][0], first_good['ConsumeParcelId'][0], quantity = first_good['ConsumeParcelAmount'][0] )
             box['total_stock'] = 0
             box['total_price'] = 0
             box['is_duplicate'] = False
@@ -465,7 +472,7 @@ def generate():
             for box_item in box['Items']:
                 good = data.goods[box_item['GoodsId'][0]]
                 reward_quantity=good['ParcelAmount'][0]
-                box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], data, characters, items, furniture, emblems, quantity = reward_quantity > 1 and reward_quantity or None )
+                box_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None )
                 box['total_stock'] += box_item['GroupElementAmount']
 
             box['total_price'] = box['total_stock'] * first_good['ConsumeParcelAmount'][0]
@@ -526,7 +533,7 @@ def generate():
             
 
             for index,type in enumerate(card['RewardParcelType']):
-                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], data, characters, items, furniture, emblems, quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
+                wiki_card_text = wiki_card(type, card['RewardParcelId'][index], quantity = card['RewardParcelAmount'][index], text = None, size = '60px', block = True )
                 card['wiki_items'].append(wiki_card_text)
 
 
@@ -538,7 +545,7 @@ def generate():
             
                 
         cost_good = data.goods[card_set[0]['CostGoodsId']]
-        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], data, characters, items, furniture, emblems, quantity = cost_good['ConsumeParcelAmount'][0])
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
 
 
         wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
