@@ -98,8 +98,7 @@ class RewardParcel(object):
 
             quantity = item.parcel_amount_min == item.parcel_amount_max and item.parcel_amount_max or f"{item.parcel_amount_min}~{item.parcel_amount_max}"
             probability = total_prob > 0 and item.prob / total_prob * 100 or 0
-            if use_parcel_prob: probability = self.parcel_prob[index] / 100
-            
+            if use_parcel_prob: probability = isinstance(self.parcel_prob, list) and self.parcel_prob[index] / 100 or self.parcel_prob / 100
             #items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity if quantity!=1 else None, text='', probability=probability if probability<100 else None, block=True, size='60px' )) 
             if probability>0: items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity, text='', probability=probability > 5 and round(probability,1) or round(probability,2) if probability<100 else None, block=True, size='48px' )) 
         return items_list
@@ -107,7 +106,7 @@ class RewardParcel(object):
 
     @property
     def wikitext_itemgroup(self) -> str:
-        if len(self.items) == 0: return ''
+        if len([x for x in self.items if x.prob>0 and x.id not in IGNORE_ITEM_ID]) == 0: return ''
 
         wikitext = ''
         if isinstance(self.amount, list): 
@@ -129,9 +128,7 @@ class RewardParcel(object):
             return("{{" + f"ItemCard|{FAKE_ITEMS[self.parcel_id]}{quantity>1 and f'|quantity={quantity}' or ''}{probability!=100 and f'|probability={probability > 5 and round(probability,1) or round(probability,2)}' or ''}|text=|60px|block" + "}}")
 
         elif (isinstance(self.amount, list) and len(self.amount) > 1) or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
-
-        
-        else: return "".join(self.wikitext_items(use_parcel_prob = self.parcel_prob<10000 and True or False))
+        else: return "".join(self.wikitext_items(use_parcel_prob = self.parcel_prob!=10000 and True or False))
 
     
     def format_wiki_items(self, **params):

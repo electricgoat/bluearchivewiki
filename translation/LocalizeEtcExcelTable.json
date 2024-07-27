@@ -7088,14 +7088,14 @@
         {
             "Key": 1126057941,
             "NameJp": "ホワイト石造植木鉢",
-            "NameEn": "White Stone Planter",
+            "NameEn": "Marble Planter",
             "DescriptionJp": "新鮮な植物が美しく配置された白い石造りの植木鉢。エレガントな雰囲気と爽やかさを同時に感じることができる。",
-            "DescriptionEn": "A white stone planter with beautifully arranged live plants. It exudes both an elegant atmosphere and freshness."
+            "DescriptionEn": "A marble planter with beautifully arranged live plants. It exudes both an elegant atmosphere and freshness."
         },
         {
             "Key": 2236454775,
             "NameJp": "クラシックライトテーブル",
-            "NameEn": "Classic Light Table",
+            "NameEn": "Classic Lamp Table",
             "DescriptionJp": "ほのかな光が印象的なクラシックなテーブル。置く場所ごとに爽やかな雰囲気を演出してくれる。",
             "DescriptionEn": "A classic table with subtle lighting that creates a refreshing atmosphere wherever it is placed."
         },
@@ -7165,9 +7165,9 @@
         {
             "Key": 1676310944,
             "NameJp": "フローラ午餐セット",
-            "NameEn": "Floral Lunch Set",
+            "NameEn": "Floral Luncheon Set",
             "DescriptionJp": "紫色の花瓶と優雅なデザインの椅子が印象的な午餐セット。来賓と楽しい会話を交わすことができる。",
-            "DescriptionEn": "An impressive lunch set with a purple vase and elegant chair design. Perfect for engaging in delightful conversations with guests."
+            "DescriptionEn": "An impressive luncheon set with a purple vase and elegant chair design. Perfect for engaging in delightful conversations with guests."
         },
         {
             "Key": 2629185716,
@@ -7186,9 +7186,9 @@
         {
             "Key": 163371450,
             "NameJp": "壁掛けクラシックキャンドル",
-            "NameEn": "Wall-mounted Classic Candle",
+            "NameEn": "Wall-Mounted Candelabra",
             "DescriptionJp": "ほのかな灯りが欲しい空間によく似合う壁掛けクラシックキャンドル。居心地の良い雰囲気を演出したいときにおすすめ。",
-            "DescriptionEn": "A wall-mounted classic candle that goes well with spaces demanding a soft golden light. Perfect when you want to create a cozy atmosphere."
+            "DescriptionEn": "A wall-mounted classic candelabra that goes well with spaces demanding a soft golden light. Perfect when you want to create a cozy atmosphere."
         },
         {
             "Key": 68751525,
@@ -7277,7 +7277,7 @@
         {
             "Key": 2882359462,
             "NameJp": "威厳の役員用デスク",
-            "NameEn": "Dignified Executive Desk",
+            "NameEn": "Stately Executive Desk",
             "DescriptionJp": "威厳が感じられる役員用デスク。いつもカリスマを失わない者にオススメだ！",
             "DescriptionEn": "An officer desk that exudes dignity. Recommended for those who never lose their charisma!"
         },
@@ -8029,9 +8029,9 @@
         {
             "Key": 2830564916,
             "NameJp": "お祭りに行ったら展示台",
-            "NameEn": "Festival Masks Display",
+            "NameEn": "Festival Mask Stall",
             "DescriptionJp": "楽しいお祭りに楽しさを与えてくれるお祭り仮面展示台。 様々な仮面をかぶってみることができる。",
-            "DescriptionEn": "A festival mask display stand that adds excitemenet to a festival. You can try wearing various masks."
+            "DescriptionEn": "A festival mask stall stand that adds excitemenet to a festival. You can try wearing various masks."
         },
         {
             "Key": 3787506718,
@@ -9231,6 +9231,78 @@
             "NameEn": "Beach Festival Chair",
             "DescriptionJp": "海辺のお祭りのための簡易椅子。健康のために正しい姿勢で座るようにしよう。",
             "DescriptionEn": "A simple chair for the beach festival. Sit with proper posture for health."
+        },
+        {
+            "Key": 3745893259,
+            "NameKr": "이벤트 미니게임 Normal 스테이지 01 힌트",
+            "DescriptionKr": "그룹을 지어 출현하는 적들을 주의하세요.\n적들이 모이면 한 번에 처치합시다.",
+            "NameJp": "イベント ミニゲーム Normalステージ 01ヒント",
+            "DescriptionJp": "群れを作って襲ってくる敵に注意してみましょう。\n敵が集まれば一度に倒してみましょう。",
+            "NameEn": "Event Minigame Normal Stage 01 Hint",
+            "DescriptionEn": "Beware of enemies appearing in groups.\nDefeat them all at once when they gather."
+        },
+        {
+            "Key": 3544666202,
+            "NameKr": "이벤트 미니게임 Normal 스테이지 02 힌트",
+            "DescriptionKr": "길에 따라 다른 형태로 공격해 오는 적들을 대비합시다.\n스위퍼들을 빠르게 처치한 후 아케미의 공격을 막으세요.",
+            "NameJp": "イベント ミニゲーム Normal ステージ 02 ヒント",
+            "DescriptionJp": "道に沿って異なる攻撃をしてくる敵に備えましょう。\nスイーパーたちを素早く倒した後、アケミの攻撃に備えましょう。",
+            "NameEn": "Event Minigame Normal Stage 02 Hint",
+            "DescriptionEn": "Prepare for enemies attacking differently along the path.\nQuickly defeat the Sweepers and then block Akemi's attack."
+        },
+        {
+            "Key": 2852164857,
+            "NameKr": "이벤트 미니게임 Normal 스테이지 03 힌트",
+            "DescriptionKr": "위, 아래 길에서 출현하는 적들의 공격을 허수아비와 탱커로 막으세요.\n중간 길에서 출현하는 적들의 습격을 대비합시다.",
+            "NameJp": "イベント ミニゲーム Normalステージ 03 ヒント",
+            "DescriptionJp": "上と下の道から攻撃してくる敵を、かかしとタンクの生徒で防いでみましょう。\n中間の道から襲ってくる敵の攻撃に備えましょう。",
+            "NameEn": "Event Minigame Normal Stage 03 Hint",
+            "DescriptionEn": "Block the attacks of enemies from the upper and lower paths with Scarecrows and Tanks.\nPrepare for the assault of enemies from the middle path."
+        },
+        {
+            "Key": 3825563284,
+            "NameKr": "이벤트 미니게임 Normal 스테이지 04 힌트",
+            "DescriptionKr": "힐러로 허수아비를 부활시켜 몰려오는 적들의 공격을 대비합시다.",
+            "NameJp": "イベントミニゲームNormalステージ04ヒント",
+            "DescriptionJp": "ヒーラーの生徒でかかしを復活して、襲ってくる敵に備えましょう。",
+            "NameEn": "Event Minigame Normal Stage 04 Hint",
+            "DescriptionEn": "Revive Scarecrows with Healers to prepare for the attacking enemies."
+        },
+        {
+            "Key": 2507742254,
+            "NameKr": "이벤트 미니게임 Challenge 스테이지 01 힌트",
+            "DescriptionKr": "길을 따라 몰려오는 적들을 처치합시다.\n단시간 내 많은 타수로 공격하는 딜러를 편성하여\n빠른 속도로 습격해오는 붉은 스위퍼를 대비하세요.",
+            "NameJp": "イベントミニゲーム Challengeステージ 01ヒント",
+            "DescriptionJp": "道に沿って攻撃をしてくる敵を倒しましょう。\n短時間で多くの打数で攻撃するアタッカーの生徒を編成し、\n速いスピードで襲ってくる赤いスイーパーに備えましょう。",
+            "NameEn": "Event Minigame Challenge Stage 01 Hint",
+            "DescriptionEn": "Defeat enemies swarming along the path.\nDeploy Dealers who attack multiple times in a short period to counter the fast-approaching Red Sweepers."
+        },
+        {
+            "Key": 2091083376,
+            "NameKr": "이벤트 미니게임 Challenge 스테이지 02 힌트",
+            "DescriptionKr": "길에 따라 다르게 대응하여 공격해 오는 적들을 대비합시다.\n허수아비로 아래 길의 적들의 공격을 막고,\n긴 사거리의 딜러로 길을 따라 몰려오는 윗길의 적들을 처치하세요.",
+            "NameJp": "イベントミニゲーム Challengeステージ02ヒント",
+            "DescriptionJp": "道ごとに異なる攻撃をしてくる敵に備えましょう。\n下の道はかかしを配置し、\n上の道は射程の長いアタッカーの生徒で敵を攻略してみましょう。",
+            "NameEn": "Event Minigame Challenge Stage 02 Hint",
+            "DescriptionEn": "Prepare for enemies attacking differently along each path.\nBlock the lower path enemies' attacks with Scarecrows, and defeat the upper path enemies with long-range Dealers."
+        },
+        {
+            "Key": 3327008846,
+            "NameKr": "이벤트 미니게임 Challenge 스테이지 03 힌트",
+            "DescriptionKr": "길에 따라 다르게 대응하여 공격해 오는 적들을 대비합시다.\n단시간 내 많은 타수로 공격하는 딜러를 편성하여\n빠른 속도로 습격해 오는 붉은 스위퍼를 대비하세요.",
+            "NameJp": "イベントミニゲーム Challengeステージ03ヒント",
+            "DescriptionJp": "道ごとに異なる攻撃をしてくる敵に備えましょう。\n短時間で多くの打数で攻撃するアタッカーの生徒を編成し、\n速いスピードで襲ってくる赤いスイーパーに備えましょう。",
+            "NameEn": "Event Minigame Challenge Stage 03 Hint",
+            "DescriptionEn": "Prepare for enemies attacking differently along each path.\nDeploy Dealers who attack multiple times in a short period to counter the fast-approaching Red Sweepers."
+        },
+        {
+            "Key": 1319806235,
+            "NameKr": "이벤트 미니게임 Challenge 스테이지 04 힌트",
+            "DescriptionKr": "길에 따라 다르게 대응하며 공격해오는 적들을 대비합시다.\n탱커로 윗길의 적들의 공격을 막고,\n긴 사거리의 딜러로 길을 따라 몰려오는 적들을 처치하세요.",
+            "NameJp": "イベントミニゲームChallengeステージ04ヒント",
+            "DescriptionJp": "道ごとに異なる攻撃をしてくる敵に備えましょう。\n上の道はタンクの生徒で、\n下と前の道は射程の長いアタッカーの生徒で敵を攻略してみましょう。",
+            "NameEn": "Event Minigame Challenge Stage 04 Hint",
+            "DescriptionEn": "Prepare for enemies attacking differently along each path.\nBlock the upper path enemies' attacks with Tanks, and defeat the enemies swarming the lower and front paths with long-range Dealers."
         }
 
     ]
