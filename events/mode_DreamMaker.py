@@ -3,11 +3,13 @@ import copy
 from jinja2 import Environment, FileSystemLoader
 
 import shared.functions
-from events.mission_desc import mission_desc
+#from events.mission_desc import mission_desc
+from events.minigame_missions import parse_minigame_missions
 from classes.RewardParcel import RewardParcel
 
 missing_localization = None
 missing_code_localization = None
+missing_etc_localization = None
 
 data = {}
 characters = {}
@@ -19,44 +21,8 @@ total_rewards = {}
 total_milestone_rewards = {}
 
 
-def parse_missions(season_id):
-    global data, characters, items, furniture, emblems
-
-    missions = data.minigame_mission[season_id]
-    missing_descriptions = []
-    global total_rewards
- 
-    for mission in missions:
-        
-        mission_desc(mission, data, missing_descriptions, items=items, furniture=furniture)
-
-        mission['RewardItemNames'] = []
-        mission['RewardItemCards'] = []
-    
-        for index, _ in enumerate(mission['MissionRewardParcelType']):
-            mission_reward_parcels(mission, index)
-            
-            if mission['Category'] in ["MiniGameEvent", 'MiniGameScore']:
-                if mission['MissionRewardParcelId'][index] not in total_rewards:
-                    total_rewards[mission['MissionRewardParcelId'][index]] = {}
-                    total_rewards[mission['MissionRewardParcelId'][index]]['Id'] = mission['MissionRewardParcelId'][index]
-                    total_rewards[mission['MissionRewardParcelId'][index]]['Amount'] = mission['MissionRewardAmount'][index]
-                    total_rewards[mission['MissionRewardParcelId'][index]]['Type'] = mission['MissionRewardParcelType'][index]
-                    total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = False
-                else:
-                    total_rewards[mission['MissionRewardParcelId'][index]]['Amount'] += mission['MissionRewardAmount'][index]
-                # if mission['TabNumber'] == 0:
-                #     total_rewards[mission['MissionRewardParcelId'][index]]['IsCompletionReward'] = True   
-        
-    for item in total_rewards.values():
-        total_reward_card(item)
-
-    return missions
-
-
-
 def parse_milestone_rewards(season_id):
-    global args, data
+    global data
     global total_milestone_rewards
 
     milestones = [x for x in data.event_content_stage_total_rewards.values() if x['EventContentId'] == season_id]
@@ -121,7 +87,7 @@ def mission_reward_parcels(mission, index):
 
 
 def total_reward_card(item):
-    global data, character, items, furniture, emblems
+    global data, characters, items, furniture, emblems
     icon_size = ['80px','60px']
 
     if item['Type'] == 'Item':
@@ -155,9 +121,9 @@ def wiki_card(type: str, id: int, **params):
     return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
 
 
-def get_mode_dreammaker(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization):
+def get_mode_dreammaker(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization, ext_missing_etc_localization):
     global data, characters, items, furniture, emblems
-    global missing_localization, missing_code_localization
+    global missing_localization, missing_code_localization, missing_etc_localization
     data = ext_data
     characters = ext_characters
     items = ext_items
@@ -165,6 +131,7 @@ def get_mode_dreammaker(season_id: int, ext_data, ext_characters, ext_items, ext
     emblems = ext_emblems
     missing_localization = ext_missing_localization
     missing_code_localization = ext_missing_code_localization
+    missing_etc_localization = ext_missing_etc_localization
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['len'] = len
@@ -196,9 +163,9 @@ def get_mode_dreammaker(season_id: int, ext_data, ext_characters, ext_items, ext
     wikitext['collection'] = template.render(name=wikitext['title'], dream_collection_scenario = data.minigame_dream_collection_scenario[season_id], event_collection = data.event_content_collection[season_id], data=data)
     #print(wikitext['collection'])
 
-    missions = parse_missions(season_id)
-    template = env.get_template('template_dreammaker_missions.txt')
-    wikitext['missions'] = template.render(missions=missions, total_rewards=dict(sorted(total_rewards.items())).values())
+    missions, missions_total_rewards  = parse_minigame_missions(season_id, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization, ext_missing_etc_localization)
+    template = env.get_template('template_minigame_missions.txt')
+    wikitext['missions'] = template.render(missions=missions, total_rewards=dict(sorted(missions_total_rewards.items())).values())
     #print(wikitext['missions'])
 
             

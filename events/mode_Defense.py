@@ -3,7 +3,8 @@ import copy
 from jinja2 import Environment, FileSystemLoader
 
 import shared.functions
-from events.mission_desc import mission_desc
+#from events.mission_desc import mission_desc
+from events.minigame_missions import parse_minigame_missions
 from classes.Stage import DefenseStage
 from classes.RewardParcel import RewardParcel
 
@@ -16,9 +17,6 @@ characters = {}
 items = {}
 furniture = {}
 emblems = {}
-
-total_rewards = {}
-total_milestone_rewards = {}
 
 
 def parse_stages(season_id):
@@ -65,7 +63,7 @@ def get_mode_defense(season_id: int, ext_data, ext_characters, ext_items, ext_fu
 
 
     title = 'Hi-Lo Ha-Lo Minigame'
-    wikitext = {'title':f"=={title}==", 'intro':'', 'banned':'', 'stages':'', 'collection':'', 'missions':''}
+    wikitext = {'title':f"=={title}==", 'intro':'', 'banned':'', 'stages':'', 'missions':''}
 
 
     template = env.get_template('template_defense_intro.txt')
@@ -96,7 +94,12 @@ def get_mode_defense(season_id: int, ext_data, ext_characters, ext_items, ext_fu
             #for stage in stages_filtered: print(stage.rewards)
             wikitext['stages'] += template.render(stage_type=DIFFICULTY_NAMES[difficulty], stages=stages_filtered, reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]))
     #print(wikitext['stages'])
+    
 
+    missions, missions_total_rewards  = parse_minigame_missions(season_id, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization, ext_missing_etc_localization)
+    template = env.get_template('template_minigame_missions.txt')
+    wikitext['missions'] = template.render(missions=missions, total_rewards=dict(sorted(missions_total_rewards.items())).values())
+    #print(wikitext['missions'])
 
 
 

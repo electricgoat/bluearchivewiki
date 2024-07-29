@@ -394,7 +394,7 @@ def generate():
     #DREAMMAKER
     wikitext_dreammaker = ''
     if (args['event_season'], "MinigameDreamMaker") in data.event_content_seasons:
-        wikitext_dreammaker = get_mode_dreammaker(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization)
+        wikitext_dreammaker = get_mode_dreammaker(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization, missing_etc_localization)
 
     #TOWER DEFENSE
     wikitext_defense = ''
