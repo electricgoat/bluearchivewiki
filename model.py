@@ -51,7 +51,8 @@ class Character(object):
         self.personal_name_en = personal_name_en
         self.variant = variant
 
-
+    def __repr__(self):
+        return f"CharacterObject {self.personal_name_en} ({self.variant})"
 
     @property
     def role(self):
@@ -791,18 +792,18 @@ class Item(object):
 
 
         for character_id in data.characters_cafe_tags:
-            if data.characters_cafe_tags[character_id]['FavorItemUniqueTags'][0] in item['Tags']:
-                characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
-                
-            tag_intersect = list(set(data.characters_cafe_tags[character_id]['FavorItemTags']) & set(item['Tags']))
-            if len(tag_intersect) >1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 
-                characters_favorite.append(data.translated_characters[character_id]['PersonalNameEn'])
-            if len(tag_intersect)==1 and data.translated_characters[character_id]['PersonalNameEn'] not in characters_favorite: 
-                characters_likes.append(data.translated_characters[character_id]['PersonalNameEn'])
+            character_wiki_name = data.translated_characters[character_id]['PersonalNameEn']
+            character_wiki_name += f" ({data.translated_characters[character_id]['VariantNameEn']})" if 'VariantNameEn' in data.translated_characters[character_id] and data.translated_characters[character_id]['VariantNameEn'] is not None else ''
+ 
+            tag_intersect = list(set(data.characters_cafe_tags[character_id]['FavorItemUniqueTags'] + data.characters_cafe_tags[character_id]['FavorItemTags']) & set(item['Tags']))
+            
+            if len(tag_intersect) >1 and character_wiki_name not in characters_favorite: 
+                characters_favorite.append(character_wiki_name)
+            if len(tag_intersect)==1 and character_wiki_name not in characters_likes: 
+                characters_likes.append(character_wiki_name)
 
         if (len(characters_favorite)): characters_favorite.sort()
         if (len(characters_likes)): characters_likes.sort()
-
 
         match item['ItemCategory']:
             case 'Material':
