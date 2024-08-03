@@ -67,7 +67,7 @@ def page_list(match, srnamespace = '*'): #TODO namespaces lookup https://www.med
     page_list = []
 
     try: 
-        for r in site.query(list='search', srsearch=match, srlimit=200, srprop='isfilematch', srnamespace = srnamespace):
+        for r in site.query(list='search', srsearch=match, srlimit=400, srprop='isfilematch', srnamespace = srnamespace):
             for page in r['search']:
                 page_list.append(page['title'].replace(' ', '_'))
     except ApiError as error:
