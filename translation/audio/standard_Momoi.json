@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_Formation_In_1",
             "LocalizeJP": "任せてよ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_Formation_In_2",
             "LocalizeJP": "さあ、私の番か。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Momoi_Formation_Select",
             "LocalizeJP": "わ！ちょ…これじゃゲームできないじゃん！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Defeat_1",
             "LocalizeJP": "先生、諦めないで。リトライしよう！",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Defeat_2",
             "LocalizeJP": "あーもう。クソゲーじゃん。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_In_1",
             "LocalizeJP": "早く終わらせて帰ろう。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_In_2",
             "LocalizeJP": "私のエイムを見せてあげる。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Victory_1",
             "LocalizeJP": "これぐらいなら難易度はEZって感じだね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Momoi_Tactic_Victory_2",
             "LocalizeJP": "クリアー！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Damage_1",
             "LocalizeJP": "…痛い！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Damage_2",
             "LocalizeJP": "助けてー！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Damage_3",
             "LocalizeJP": "許せない。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_In_1",
             "LocalizeJP": "うーん、…パッドでの操作だったら自信あるんだけど。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_In_2",
             "LocalizeJP": "勝利へのシナリオが見えた。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Recovery_1",
             "LocalizeJP": "体力ゲージはいつも注意深く確認しておかなきゃね。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Retire",
             "LocalizeJP": "攻略本、読んでおけば良かった。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Shout_1",
             "LocalizeJP": "",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Shout_2",
             "LocalizeJP": "くらえ。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Shout_3",
             "LocalizeJP": "行くよ。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_TSA_1",
             "LocalizeJP": "レトロこそ、真の最先端なんだよ！",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_TSA_2",
             "LocalizeJP": "今からこのゲームはロボットものになるよ！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Victory_1",
             "LocalizeJP": "クリアー、次のステージへ。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Momoi_Battle_Victory_2",
             "LocalizeJP": "私たちの勝利！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Momoi_CommonSkill",
             "LocalizeJP": "私、もう怒ったんだから。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_1",
             "LocalizeJP": "よしこのまま…、え、…うう、許せない！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_2",
             "LocalizeJP": "へーおもしろ…、わ！死んだ！信じられない。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_3",
             "LocalizeJP": "私の勝ち！え、負けたじゃん！もー！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_1",
             "LocalizeJP": "アイス奢らなきゃいけなくなったじゃん！あなた達のせいだよ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_2",
             "LocalizeJP": "悔しい…。悔しいー！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Momoi_ExSkill_Level_3",
             "LocalizeJP": "私の怒りの弾丸をくらえ！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_1",
             "LocalizeJP": "経験値をもっと貰えるようにして？",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_2",
             "LocalizeJP": "レベルアップっていつもときめく瞬間だよね！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_3",
             "LocalizeJP": "もっと強くなりたい！そうすれば、みんなを守れるお姉ちゃんになれるから。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Momoi_Growup_4",
             "LocalizeJP": "これからの私の火力、ハンパじゃないよ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_1",
             "LocalizeJP": "私の好感度を上げたいなら、新作のゲームをもーっと買って？",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_2",
             "LocalizeJP": "な、なんて伏線！このまま行ったらどうなっちゃうんだろう。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_3",
             "LocalizeJP": "あれ？もしかして今フラグ、…違う！立ってない！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13011,
+            "CharacterVoiceGroupId": 13011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Momoi_Relationship_Up_4",
             "LocalizeJP": "最高のゲームを作るためには、やっぱりいろんな経験が必要なの。…恋愛経験も、ね？",

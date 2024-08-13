@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kanna_(Swimsuit)_Formation_In_1",
             "LocalizeJP": "要救助者がいるのですか？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kanna_(Swimsuit)_Formation_In_2",
             "LocalizeJP": "分かりました。私が行きましょう。",
@@ -16,13 +20,17 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kanna_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "なにか…？",
+            "LocalizeJP": "……何か？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "皆の安全を守れなかった…。私の責任です。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "申し訳ありません。先生に…、合わせる顔がありません。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_In_1",
             "LocalizeJP": "作戦を開始します。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_In_2",
             "LocalizeJP": "安全を確保します。",
@@ -51,20 +65,26 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "大きな被害が出ずに済みました。",
+            "LocalizeJP": "大きな被害が出ずにすみました。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kanna_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "安全確保完了。お疲れさまでした。",
+            "LocalizeJP": "安全確保完了。お疲れ様でした。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Buffed_1",
             "LocalizeJP": "世話になった。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "心機一転…、いくぞ！",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "遮蔽する、支援を頼む。",
+            "LocalizeJP": "遮蔽する。支援を頼む！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Defense_1",
             "LocalizeJP": "効かない！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_In_1",
             "LocalizeJP": "私が先導しよう。ついてくるように。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_In_2",
             "LocalizeJP": "要救助者を確認。すぐ行く。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Move_1",
             "LocalizeJP": "位置を変更する。",
@@ -135,13 +173,17 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "次はこっちだな？",
+            "LocalizeJP": "次はこっちだな。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "くっ…。私の手落ちです。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_TacticalAction_1",
             "LocalizeJP": "移動する。",
@@ -184,27 +236,35 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "無事を確認できました…。しかし、油断は禁物です。",
+            "LocalizeJP": "無事を確認できました。しかし油断は禁物です。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kanna_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "これで、少しでも皆が安全に過ごせるのなら…。",
+            "LocalizeJP": "これで、少しでも皆が安全に過ごせるのなら……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kanna_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "いち、に！いち、に！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_1",
             "LocalizeJP": "規則に従うように！",
@@ -212,13 +272,17 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "そこ！動作やめ！",
+            "LocalizeJP": "そこ、動作やめ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_3",
             "LocalizeJP": "危険な行動は、慎むように。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "皆の安全のためだ。",
@@ -233,13 +299,17 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "秩序に則って行動するように。",
+            "LocalizeJP": "秩序に則って行動するように！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "準備運動をしっかりするように！",
@@ -247,34 +317,44 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_(Swimsuit)_Growup_1",
-            "LocalizeJP": "まだまだ至らないところの多い私ですが…、もっと精進します。",
+            "LocalizeJP": "まだまだ至らないところの多い私ですが……もっと精進します。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_(Swimsuit)_Growup_2",
-            "LocalizeJP": "ありがとう…、ございます。私のようなものには、過分なくらいです。",
+            "LocalizeJP": "ありがとう……ございます。私のような者には過分なくらいです。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_(Swimsuit)_Growup_3",
-            "LocalizeJP": "こんなに目をかけていただくなんて…。ありがとうございます、先生。",
+            "LocalizeJP": "こんなに目をかけていただくなんて……ありがとうございます、先生。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_(Swimsuit)_Growup_4",
-            "LocalizeJP": "いただいた信頼にこたえられるよう、最善を尽くします。",
+            "LocalizeJP": "いただいた信頼に応えられるよう、最善を尽くします。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_(Swimsuit)_Relationship_Up_1",
             "LocalizeJP": "皆が安心して夏を楽しめますように。",
@@ -282,23 +362,29 @@
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "準備運動をお忘れなく。私がお教えしますので、一緒にやりましょう。",
+            "LocalizeJP": "準備運動をお忘れなく。\n私がお教えしますので、一緒にやりましょう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "先生、私の目の届く範囲にいてください。……今の私はライフセーバーですから。",
+            "LocalizeJP": "先生、私の目の届く範囲にいてください。\n……今の私はライフセーバーですから。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10096,
+            "CharacterVoiceGroupId": 10096,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "ライフセーバーは常に冷静であらねばならないのですが…、先生がそばにいるとどうにも難しいですね。なぜでしょうか？",
+            "LocalizeJP": "ライフセーバーは常に冷静で在らねばならないのですが、\n先生がそばにいると、どうにも難しいですね。何故でしょうか……。",
             "LocalizeEN": ""
         }
     ]

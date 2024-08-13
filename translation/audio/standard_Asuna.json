@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Asuna_Formation_In_1",
             "LocalizeJP": "アスナだよ。先生、よろしく。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Asuna_Formation_In_2",
             "LocalizeJP": "やっぱり私が必要なんだね。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Asuna_Formation_Select",
             "LocalizeJP": "ヤッホー！任せてね。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_Defeat_1",
             "LocalizeJP": "予想と違ったな。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_Defeat_2",
             "LocalizeJP": "惜しかった。みんな、ごめん。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_In_1",
             "LocalizeJP": "コールサイン０１：アスナ、行くよ！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_In_2",
             "LocalizeJP": "さあ、それでは任務を始めてみようかなと。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_Victory_1",
             "LocalizeJP": "この空気、最高。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Asuna_Tactic_Victory_2",
             "LocalizeJP": "みんなお疲れ。すっごく良かったよ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Buffed_1",
             "LocalizeJP": "なんだかいい感じ。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_BuffSelf_1",
             "LocalizeJP": "いいねいいね",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Covered_1",
             "LocalizeJP": "ゾクゾクするね。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Damage_2",
             "LocalizeJP": "助けて。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Damage_3",
             "LocalizeJP": "許さない。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Defense_1",
             "LocalizeJP": "全然痛くないよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_In_1",
             "LocalizeJP": "全員、戦闘配置へ。派手に行ってみようか。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_In_2",
             "LocalizeJP": "C & C エージェントの力を見せてあげる。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Move_1",
             "LocalizeJP": "お掃除完了！次行こう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Move_2",
             "LocalizeJP": "オールクリア！綺麗になったね。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Recovery_1",
             "LocalizeJP": "最高！大好き！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Retire",
             "LocalizeJP": "ごめん。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Shout_3",
             "LocalizeJP": "行くよ。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_TacticalAction_1",
             "LocalizeJP": "さあ、次次。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Victory_1",
             "LocalizeJP": "よっしゃ！ちょっとウォーミングアップできたかな…あれ？",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Asuna_Battle_Victory_2",
             "LocalizeJP": "すごく良かった。あらら？見ちゃった？",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Asuna_CommonSkill",
             "LocalizeJP": "覚悟しなさい。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_1",
             "LocalizeJP": "アスナ、行くよ！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_2",
             "LocalizeJP": "全然当たらないよ。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_3",
             "LocalizeJP": "一か八か。やってみようかな。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_Level_1",
             "LocalizeJP": "誰にも私を止められない。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_Level_2",
             "LocalizeJP": "イッツ・ショータイム！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Asuna_ExSkill_Level_3",
             "LocalizeJP": "アスナ、ここに参上！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Asuna_Growup_1",
             "LocalizeJP": "これからが本番ね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Asuna_Growup_2",
             "LocalizeJP": "あれ？なんだか頭が良くなった気分。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Asuna_Growup_3",
             "LocalizeJP": "ご主人様の期待に、私は絶対なんとしてでも答えるから。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Asuna_Growup_4",
             "LocalizeJP": "ご主人様は私に何を望んでるの？今の私なら叶えてあげられるよ。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Asuna_Relationship_Up_1",
             "LocalizeJP": "ご主人様は私に興味津々なんだね。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Asuna_Relationship_Up_2",
             "LocalizeJP": "ご主人様が私のご奉仕を必要としてくれるならいつでもどこでも何でもするよ。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Asuna_Relationship_Up_3",
             "LocalizeJP": "ご主人様と一緒にいるの楽しい！これからも私と楽しく過ごそうね。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16001,
+            "CharacterVoiceGroupId": 16001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Asuna_Relationship_Up_4",
             "LocalizeJP": "ご主人様、心配しないで、私はずっとご主人様のそばを離れないから。",

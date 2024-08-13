@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_In_1",
             "LocalizeJP": "分かった。…今起きるから。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_In_2",
             "LocalizeJP": "ふわぁ…、それじゃ、また帰ってきてから寝るね。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_Select",
             "LocalizeJP": "ふむ、意外と快適？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Defeat_1",
             "LocalizeJP": "ご…ごめん、ちょっと居眠りしてた。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Defeat_2",
             "LocalizeJP": "眠ってたつもりだったけど、気絶してたんだね。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_In_1",
             "LocalizeJP": "ふわぁ…、あの子達は睡眠取らないのかな。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_In_2",
             "LocalizeJP": "うーん、出発。頑張って～…、え？私も行くの？",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Victory_1",
             "LocalizeJP": "お疲れ様～先生。もう寝てもいい？",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Victory_2",
             "LocalizeJP": "はぁ、終わった終わったよ～。おやすみなさ～い。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Buffed_1",
             "LocalizeJP": "私の出番だね。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_BuffSelf_1",
             "LocalizeJP": "うわぁ、力を感じる。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Damage_2",
             "LocalizeJP": "痛い。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Damage_3",
             "LocalizeJP": "いたっ。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Defense_1",
             "LocalizeJP": "邪魔だなあ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_In_1",
             "LocalizeJP": "私の後についてきて。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_In_2",
             "LocalizeJP": "私が前に立つね。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Move_1",
             "LocalizeJP": "ここはもう安全。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Move_2",
             "LocalizeJP": "早く終わらせて寝たい。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Recovery_1",
             "LocalizeJP": "あ～り～が～と～う。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Retire",
             "LocalizeJP": "眠い。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Shout_2",
             "LocalizeJP": "進め。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_TacticalAction_1",
             "LocalizeJP": "ちょっと位置 変わるね。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Victory_1",
             "LocalizeJP": "ふぅ…、役に立てて良かった。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Victory_2",
             "LocalizeJP": "ふぅ…、これで安心して眠れるね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Tsubaki_CommonSkill",
             "LocalizeJP": "キズ？寝て起きたら治るよ。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_1",
             "LocalizeJP": "よっと、じゃあ 行こっか。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_2",
             "LocalizeJP": "守らなきゃいけないものがあるの。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_3",
             "LocalizeJP": "さあ、修行の成果を見せるよ。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_1",
             "LocalizeJP": "誰も私の昼寝は…、いや、先生の邪魔はさせない",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_2",
             "LocalizeJP": "私が先頭に立つよ、行こう。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_3",
             "LocalizeJP": "痛くない、痛くない。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_1",
             "LocalizeJP": "ん？よく眠れたからか、なんだか 成長した気分だな。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_2",
             "LocalizeJP": "やっぱり先生といる時は元気が出る。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_3",
             "LocalizeJP": "今なら冬眠もできそう。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_4",
             "LocalizeJP": "夢を見るのもいいけど、これからは先生と夢を叶えたい",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_1",
             "LocalizeJP": "暖かい日差し、ふかふかの枕、柔らかい布団、そして 先生。いいね。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_2",
             "LocalizeJP": "世界で一番嫌いなもの、目覚まし時計…。でも先生の声は嫌いじゃないよ。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_3",
             "LocalizeJP": "私だって 一応本気を出す時はあるよ、戦う時と先生と一緒にいるとき。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 13009,
+            "CharacterVoiceGroupId": 13009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_4",
             "LocalizeJP": "幸せだけど怖い今この瞬間が夢のように目覚めてしまいそうで",

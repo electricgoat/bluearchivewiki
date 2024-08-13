@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_Formation_In_1",
-            "LocalizeJP": "ふふっ、素晴らしい選択ね。",
+            "LocalizeJP": "ふふふ。素晴らしい選択ね。",
             "LocalizeEN": "Haha, you made a great choice."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_Formation_In_2",
-            "LocalizeJP": "任せなさい。",
+            "LocalizeJP": "任せなさい！",
             "LocalizeEN": "Leave it to me."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_Formation_Select",
-            "LocalizeJP": "ふふっ、そんなに望むなら助けてあげてもいいわ。",
+            "LocalizeJP": "ふふ、そんなに望むなら助けてあげてもいいわ。",
             "LocalizeEN": "Heh, I don't mind helping if you want it so badly."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_Defeat_1",
             "LocalizeJP": "くっ…覚えてなさい！",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_Defeat_2",
             "LocalizeJP": "これで終わりだと思わないことね！",
@@ -37,27 +47,35 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_In_1",
-            "LocalizeJP": "企業と小隊を率いるのは私の専門よ。",
+            "LocalizeJP": "企業と小隊を率いるのは、私の専門よ。",
             "LocalizeEN": "Leading companies and platoons is my specialty."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_In_2",
-            "LocalizeJP": "リーダー！社長であるこの私にふさわしいポジションね。",
+            "LocalizeJP": "リーダー！社長であるこの私にふさわしいポジションね！",
             "LocalizeEN": "Leader! As president, that's a fitting position for me!"
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_Victory_1",
-            "LocalizeJP": "これくらい簡単よ。",
+            "LocalizeJP": "ふふ。これくらい簡単よ。",
             "LocalizeEN": "It's that easy."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_Tactic_Victory_2",
             "LocalizeJP": "どう、先生？格が違うってこういうこと。",
@@ -65,13 +83,17 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Buffed_1",
-            "LocalizeJP": "これが権力よ。",
+            "LocalizeJP": "これが権力よ！",
             "LocalizeEN": "This is authority."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_BuffSelf_1",
             "LocalizeJP": "行くわよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Covered_1",
             "LocalizeJP": "攻撃位置を確保。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Damage_3",
             "LocalizeJP": "これは…違う！",
@@ -107,13 +137,17 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Defense_1",
-            "LocalizeJP": "ふふっ、残念ね。",
+            "LocalizeJP": "ふふふ、残念ね。",
             "LocalizeEN": "Heh, too bad."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_In_1",
             "LocalizeJP": "さあ、我が職員たち。仕事の時間よ。",
@@ -121,20 +155,26 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_In_2",
-            "LocalizeJP": "依頼を始める。",
+            "LocalizeJP": "依頼を始める！",
             "LocalizeEN": "Request start."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Move_1",
-            "LocalizeJP": "ほら見たでしょ？依頼は確実に遂行するんだから。",
+            "LocalizeJP": "ほら、見たでしょう？依頼は確実に遂行するんだから。",
             "LocalizeEN": "See? I'll absolutely carry out the request."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Move_2",
             "LocalizeJP": "さあ、移動するわよ。",
@@ -142,13 +182,17 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Recovery_1",
-            "LocalizeJP": "これがVIPのもてなしってやつね。",
+            "LocalizeJP": "ふふ。これがVIPのもてなしってやつね。",
             "LocalizeEN": "This is VIP hospitality."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Retire",
             "LocalizeJP": "依頼は…必ず遂行しなきゃ。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_TacticalAction_1",
             "LocalizeJP": "移動するわ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_TSA_1",
             "LocalizeJP": "高いお金を払って契約した業務用トラックなんだから",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_TSA_2",
             "LocalizeJP": "さあ、作業始めるわよ",
@@ -198,34 +254,44 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Victory_1",
-            "LocalizeJP": "便利屋に任せておけば完璧なんだから。",
+            "LocalizeJP": "便利屋に任せておけば、完璧なんだから。",
             "LocalizeEN": "If you leave it to a Problem Solver, you get perfect results."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_Battle_Victory_2",
-            "LocalizeJP": "依頼解決よ。",
+            "LocalizeJP": "ふふっ！依頼解決よ！",
             "LocalizeEN": "Request fulfilled."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Aru_CommonSkill",
-            "LocalizeJP": "覚悟しなさい！",
+            "LocalizeJP": "覚悟しなさい？",
             "LocalizeEN": "Prepare yourself!"
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_1",
-            "LocalizeJP": "んー、ターゲット発見。",
+            "LocalizeJP": "ふーん、ターゲット発見。",
             "LocalizeEN": "Mm, target found."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_2",
             "LocalizeJP": "片手でも命中させられるわ。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_3",
             "LocalizeJP": "一撃で十分よ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_Level_1",
             "LocalizeJP": "ぶちのめすわ。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_Level_2",
             "LocalizeJP": "あはは！命中よ！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_ExSkill_Level_3",
             "LocalizeJP": "どう？かっこいいでしょ？",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_Growup_1",
             "LocalizeJP": "さすがは私ね。",
@@ -268,51 +344,65 @@
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_Growup_2",
-            "LocalizeJP": "ふふっ、よく見ておくことね。これからの私を。",
+            "LocalizeJP": "ふふふ。よく見ておくことね。これからの私を！",
             "LocalizeEN": "Hee hee, you can look out for my future."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_Growup_3",
-            "LocalizeJP": "私の真価をよく見ておきなさい。",
+            "LocalizeJP": "私の真価をよく見ておきなさい！",
             "LocalizeEN": "You're supposed to see my real value."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_Growup_4",
-            "LocalizeJP": "うふふふっ、また強くなったわ！",
+            "LocalizeJP": "ふふふふ。また強くなったわ。",
             "LocalizeEN": "Hahaha, I've grown even stronger!"
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_Relationship_Up_1",
-            "LocalizeJP": "ふふん、先生は運が良いわ。こう見えて私、結構大物なの。",
+            "LocalizeJP": "ふふ。先生は運がいいわ。\nこう見えて私、結構大物なの！",
             "LocalizeEN": "Hehe, you're lucky, Sensei. I'm a bigger shot than you think."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_Relationship_Up_2",
-            "LocalizeJP": "顧客とここまで近くなるのは…あ、ち、違う！先生は常連だから大丈夫！",
+            "LocalizeJP": "顧客とここまで近くなるのは……\nち、違う！先生は常連だから大丈夫！",
             "LocalizeEN": "Being this close to costumers is... N-no, That's not it! It's okay if it's you, Sensei, because you're a regular."
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_Relationship_Up_3",
-            "LocalizeJP": "先生の依頼なら、何でも…や、やってあげるわ。",
+            "LocalizeJP": "先生の依頼なら….\nなんでも…… や、やってあげるわ！",
             "LocalizeEN": "If it's a commission from Sensei, I-I will... I'll do anything!"
         },
         {
             "CharacterId": 10000,
+            "CharacterVoiceGroupId": 10000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_Relationship_Up_4",
-            "LocalizeJP": "ありがとう、先生。先生のおかげで本当に素敵な私になれたわ。",
+            "LocalizeJP": "ありがとう、先生。\n先生のおかげで、本当に素敵な私になれたわ。",
             "LocalizeEN": "Thank you, Sensei. Thanks to you, I truly became a splendid version of myself."
         }
     ]

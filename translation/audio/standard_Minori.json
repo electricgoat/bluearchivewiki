@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Minori_Formation_In_1",
             "LocalizeJP": "ふむ、今日の現場はどこだ？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Minori_Formation_In_2",
             "LocalizeJP": "最善をつくし、労働の価値を証明しよう！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Minori_CommonSkill",
             "LocalizeJP": "皆、頭上に気を付けろ！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_1",
             "LocalizeJP": "低品質なプリンを許すな！",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_2",
             "LocalizeJP": "レッドウィンター連邦学園の事務局は変革せよ！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_3",
             "LocalizeJP": "ストライキを開始する！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_Level_1",
             "LocalizeJP": "労働者の権利を！更なる補償を！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_Level_2",
             "LocalizeJP": "全キヴォトスの労働者よ！団結せよ！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Minori_ExSkill_Level_3",
             "LocalizeJP": "志を一つに、恐れる事はない！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Minori_Growup_1",
             "LocalizeJP": "努力と労働の対価として、成長があるのは当然のことだ。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Minori_Growup_2",
             "LocalizeJP": "先生の指導は、分かりやすくていい。感謝する！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Minori_Growup_3",
             "LocalizeJP": "革命を成功するために、啓蒙は必要不可欠だ！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Minori_Growup_4",
             "LocalizeJP": "これで次回の作業も、安全に進行できそうだ！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Minori_Relationship_Up_1",
             "LocalizeJP": "先生のおかげで、あたし達の部は、より確固たるものとなった！",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Minori_Relationship_Up_2",
             "LocalizeJP": "先生になら、いつでも背中を任されるな！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Minori_Relationship_Up_3",
             "LocalizeJP": "この気持ちは、その…革命的だなっ！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20026,
+            "CharacterVoiceGroupId": 20026,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Minori_Relationship_Up_4",
             "LocalizeJP": "独占だなんて、ブルジョワがやるような悪質な行為だが。先生が相手だと、少し、欲が出てしまうな。",

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_In_1",
             "LocalizeJP": "先生のためなら、いつでも力になりますよ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_In_2",
             "LocalizeJP": "はい、お任せください、先生。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_Select",
             "LocalizeJP": "えっと、その…",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_Defeat_1",
             "LocalizeJP": "もう一度、一からチェックをしないと。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_Defeat_2",
             "LocalizeJP": "私のミスです。すみません。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_In_1",
             "LocalizeJP": "始めましょう。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_In_2",
             "LocalizeJP": "ご心配なさらず、私がいますから。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_Victory_1",
             "LocalizeJP": "しっかりとした準備の賜物です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_Victory_2",
             "LocalizeJP": "先生の指揮のおかげです。ありがとうございます。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Buffed_1",
             "LocalizeJP": "期待に応えてみせます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_BuffSelf_1",
             "LocalizeJP": "ここからです。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Covered_1",
             "LocalizeJP": "隠れます。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Defense_1",
             "LocalizeJP": "無駄です。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_In_1",
             "LocalizeJP": "前線でもやるべきことは変わりません。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_In_2",
             "LocalizeJP": "この位置での支援は少し不思議な感じですね。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Move_1",
             "LocalizeJP": "行きましょう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Move_2",
             "LocalizeJP": "気を緩めないように進みましょう。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Recovery_1",
             "LocalizeJP": "支援ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Retire",
             "LocalizeJP": "すみません。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_TacticalAction_1",
             "LocalizeJP": "今、行きます。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Victory_1",
             "LocalizeJP": "皆さんお疲れ様でした。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Victory_2",
             "LocalizeJP": "引き続きこの調子で進んでいきましょう。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_CommonSkill",
             "LocalizeJP": "バイタル、問題ありません。進撃してください。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_1",
             "LocalizeJP": "まったく。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_2",
             "LocalizeJP": "発見しました。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_3",
             "LocalizeJP": "",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_Level_1",
             "LocalizeJP": "仕方ありませんね。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_Level_2",
             "LocalizeJP": "行きます。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_Level_3",
             "LocalizeJP": "お任せください。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_1",
             "LocalizeJP": "いつもありがとうございます、先生。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_2",
             "LocalizeJP": "先生からの期待に必ず応えてみせます。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_3",
             "LocalizeJP": "えっと、嬉しいのですが、今気を緩めるわけには。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_4",
             "LocalizeJP": "どうして、こんな私に、",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_1",
             "LocalizeJP": "衣服を変えると、やはり気持ちにも影響があるのでしょうか？少し困りましたね。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_2",
             "LocalizeJP": "もう少しだけ、このまま休んでいきませんか。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_3",
             "LocalizeJP": "あんまりだらけるわけにはいかないのですが、先生と一緒ですと、つい。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_4",
             "LocalizeJP": "先生はちゃんと休息は取られていますか？少しでいいですから、一緒に一休みしません？",

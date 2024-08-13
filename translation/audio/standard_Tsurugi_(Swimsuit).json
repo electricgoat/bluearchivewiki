@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsurugi_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "きひひひひっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsurugi_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "派手に遊ぶとするか。",
-            "LocalizeEN": "Do you want to play flashy?"
+            "LocalizeJP": "派手に遊ぶとするかぁ……！",
+            "LocalizeEN": "Let's play it flashy."
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsurugi_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "うぅぅあぁぁ……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,48 +47,62 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "きゃはははは！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "くひひひひひひ……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ききききっ……！くはははははは！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsurugi_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "作りたいよ。",
-            "LocalizeEN": "I want to make"
+            "LocalizeJP": "これだよ、これぇ……！",
+            "LocalizeEN": "I want to make it!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふひひひひ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "いやー 決めてろよ。",
-            "LocalizeEN": "No, decide."
+            "LocalizeEN": "Oh, make up your mind..."
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,48 +128,62 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "なんでこんなもんか。",
-            "LocalizeEN": "Why is this"
+            "LocalizeJP": "なんだぁ？こんなもんかぁ！？",
+            "LocalizeEN": "What? Is that all you got?"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "待ってろぉ！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "血の海を見る時間だ。",
-            "LocalizeEN": "It's time to see the sea of blood."
+            "LocalizeJP": "海……！血の海を見る時間だぁ！！",
+            "LocalizeEN": "It's time to see the sea of blood!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "まだいるのか。",
+            "LocalizeJP": "まだいるのか？",
             "LocalizeEN": "Are you still there?"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "またもっともっと。",
-            "LocalizeEN": "More and more."
+            "LocalizeJP": "もっと、もっと！もっとおぉ！！",
+            "LocalizeEN": "More, more... More!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ごくっ……っひゃっはー！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,129 +218,165 @@
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "逃がすかよ。",
-            "LocalizeEN": "do you want to escape"
+            "LocalizeJP": "逃すかよぉ！",
+            "LocalizeEN": "I won't let you get away!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "これで全部か。",
+            "LocalizeJP": "んー……？これで全部かぁ……！？",
             "LocalizeEN": "Is this all?"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsurugi_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "くひひひひひひ！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "きひゃひゃひゃひゃひゃあぁーーー！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "うふふふふふふ……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "すぐにできる！",
-            "LocalizeEN": "You can do it right away!"
+            "LocalizeJP": "そこにいたか……",
+            "LocalizeEN": "There you are!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "きひひひひひひ…！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "くらええぇぇ！！",
+            "LocalizeEN": "Take this!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "覚悟しろぉ！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsurugi_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "ハロー。",
-            "LocalizeEN": "Hello."
+            "LocalizeJP": "ハローぅ！？",
+            "LocalizeEN": "Heeellooo."
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsurugi_(Swimsuit)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "きゃはははははは！！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsurugi_(Swimsuit)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "うふふふふふ……！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsurugi_(Swimsuit)_Growup_3",
-            "LocalizeJP": "いいぞ。",
-            "LocalizeEN": "thumbs up."
+            "LocalizeJP": "良いぞ……！すごく良い！！！",
+            "LocalizeEN": "Good... Very good!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsurugi_(Swimsuit)_Growup_4",
-            "LocalizeJP": "これでこれくらい。",
-            "LocalizeEN": "That's it."
+            "LocalizeJP": "これだあ、これこれぇ！！",
+            "LocalizeEN": "That's it... That's it!"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsurugi_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "あ……うぁっ！？せ、先生……！？",
+            "LocalizeEN": "W-Waaah!? S-Sensei...?"
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsurugi_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "いつもありがとうございます。先生",
-            "LocalizeEN": "I am always grateful for your help. teacher"
+            "LocalizeJP": "い、いつもありがとうございます……先生……",
+            "LocalizeEN": "I-I am always grateful for your help, Sensei..."
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsurugi_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "こういうのはいつまでも言い慣れないですか ありがとうございます",
-            "LocalizeEN": "Thank you"
+            "LocalizeJP": "こういうのは、いつまでも言い慣れないの、ですが……あ、ありがとうございます……",
+            "LocalizeEN": "I guess... I'll never get used to saying these things... Th-Thank you..."
         },
         {
             "CharacterId": 16005,
+            "CharacterVoiceGroupId": 16005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsurugi_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "ここまでしてもらって、一体私はどうすれば。",
-            "LocalizeEN": "Now that you've made it this far, what should I do?"
+            "LocalizeJP": "こ、ここまでしてもらって、一体私はどうすれば……",
+            "LocalizeEN": "Now that we've made it this far... W-What should I do...?"
         }
     ]
 }

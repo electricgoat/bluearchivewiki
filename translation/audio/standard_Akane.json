@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_In_1",
             "LocalizeJP": "さあ、それではご奉仕を始めましょうか。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_In_2",
             "LocalizeJP": "ご主人様に愛を、敵には鉄槌を。それが、C&Cのご奉仕なんです。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_Select",
             "LocalizeJP": "誠心誠意、お仕えします。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Defeat_1",
             "LocalizeJP": "あら、これは予想外ですね…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Defeat_2",
             "LocalizeJP": "私がもっと上手くできていたら…。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_In_1",
             "LocalizeJP": "なるほど、見事なご判断です。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_In_2",
             "LocalizeJP": "さあ、それでは始めましょうか。お掃除の時間です。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Victory_1",
             "LocalizeJP": "優雅に勝利すること、それが私の責任であり、義務です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Victory_2",
             "LocalizeJP": "さすが、私のご主人様ですね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Buffed_1",
             "LocalizeJP": "あら、ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_BuffSelf_1",
             "LocalizeJP": "さて、行きますよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Covered_1",
             "LocalizeJP": "うふふ。いい位置ですね。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Damage_1",
             "LocalizeJP": "うう…、これはちょっと。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Damage_2",
             "LocalizeJP": "はあ、困りましたね。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Defense_1",
             "LocalizeJP": "",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_1",
             "LocalizeJP": "お任せください。ご主人様とご一緒することこそ、私のやりがいですから。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_2",
             "LocalizeJP": "さあ、皆さん。綺麗に、気持ちよく、殲滅して差し上げます。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Move_1",
             "LocalizeJP": "ここも綺麗になりましたね。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Move_2",
             "LocalizeJP": "次の掃除に向かいましょうか？",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Recovery_1",
             "LocalizeJP": "あら、気が利きますね。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Retire",
             "LocalizeJP": "申し訳ございません、ご主人様。今回のことは私の過失でした。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Shout_2",
             "LocalizeJP": "あらあら。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_TacticalAction_1",
             "LocalizeJP": "",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Victory_1",
             "LocalizeJP": "ご主人様に勝利をプレゼントすること。それが私の責任であり、任務です。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Victory_2",
             "LocalizeJP": "全てはご主人様のために。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Akane_CommonSkill",
             "LocalizeJP": "あら。そちらにいらっしゃいましたか。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_1",
             "LocalizeJP": "ご主人様の邪魔者を…、排除する。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_2",
             "LocalizeJP": "あら、それでは…、掃除を始めましょうか。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_3",
             "LocalizeJP": "ご覧になって、標的は…、消えますよ。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_1",
             "LocalizeJP": "優雅に排除いたします。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_2",
             "LocalizeJP": "皆さん。お掃除…、お願いしますね。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_3",
             "LocalizeJP": "丁寧にお願いいたしますね。さようなら。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_1",
             "LocalizeJP": "これでより完璧なご奉仕が…、可能になりましたね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_2",
             "LocalizeJP": "アカネはご主人様のご期待にお応えします。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_3",
             "LocalizeJP": "ご期待ください、ご主人様。これからのアカネは一味違いますから。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_4",
             "LocalizeJP": "これからのアカネはきっと、ご主人様を100%満足させられることでしょう。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_1",
             "LocalizeJP": "C&Cのアカネ、謹んでご主人様にご奉仕をささげます。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_2",
             "LocalizeJP": "あら、私を心配してくださるのですか？うふ。嬉しいです。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_3",
             "LocalizeJP": "どうしてでしょう、笑いが止まりません。…ご主人様がそばにいるから、でしょうか？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 13000,
+            "CharacterVoiceGroupId": 13000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_4",
             "LocalizeJP": "ご主人様が先生だからご奉仕しているわけではありません。ご主人様だから、私はメイドになれました。",

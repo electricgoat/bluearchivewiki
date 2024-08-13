@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hiyori_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "こ、こんな格好ですが、大丈夫でしょうか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hiyori_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "は、はい……！準備はできましたけど……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hiyori_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "え、えへへ……私が出ないとですね……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "やっぱり人生は辛いものなんですね……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "こ、ここまで来て戦闘だなんて……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "勝ちましたね……もちろん戦いは続くと思いますが……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hiyori_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "予想より早く終わりましたね……む、難しくはなかったので……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "えへへ、私なんかのために……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "か、隠れないと……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "よ、避けましたけど！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "と、とりあえず始めてみます……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "こんな私が、役に立つかどうかわかりませんが……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだあるんですか……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ぜ、前進！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "えへへ、ありがとうございます。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ま、待ってください！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "え、えへへ、勝ちましたけど……景品とかはないんですか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hiyori_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "早くお祭り会場に戻りましょう……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "あ、暑いときは、こうやって……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "こ、今度こそ……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "逃がしません……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "狙うは一等……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "残り5発！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "う、撃ちます！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "当たってください！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_(Swimsuit)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "わ、私にくださるんですか……？勘違いじゃないですよね？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_(Swimsuit)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "私に任せたい仕事があるんですね……えへへ、やっぱりそうですよね……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_(Swimsuit)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "えへへ、ありがとうございます……こういうのもいいですが、\nやっぱりかき氷の方がもっと元気が出そうです……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_(Swimsuit)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "い、いつもより楽しくて、なんだか慣れないです……。\n夏だからでしょうか……？それとも先生がいるから……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "わ、私を信じてくださるんですか……？本当に……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "そ、そんなに褒められても……私があげられるものはないですが……\nま、まさか私の水着を狙って！？……ち、違うんですか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "えっと、先生、焼きそばは好きですか……？\n一緒に食べに行きませんか？\nえへへ、すみません、お会計はお願いします……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10102,
+            "CharacterVoiceGroupId": 10102,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生に出会ってから少しはマシになりましたが……。\nそれでも人生は辛いものなんですね……",
             "LocalizeEN": ""
         }
     ]

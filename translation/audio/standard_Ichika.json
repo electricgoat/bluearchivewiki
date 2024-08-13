@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Ichika_Formation_In_1",
             "LocalizeJP": "了解っす。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Ichika_Formation_In_2",
             "LocalizeJP": "私っすか？",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Ichika_Formation_Select",
             "LocalizeJP": "あれ？出番、間違えたっすか？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_Defeat_1",
             "LocalizeJP": "ふん……",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_Defeat_2",
             "LocalizeJP": "なるほど、こういう感じだったんすねぇ……。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_In_1",
             "LocalizeJP": "いよいよ始まるっすね。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_In_2",
             "LocalizeJP": "いやー、やることが一杯っす。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_Victory_1",
             "LocalizeJP": "皆さん、お疲れ様っす。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ichika_Tactic_Victory_2",
             "LocalizeJP": "ふぅ、一段落ついたし、帰るっすよ～！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Buffed_1",
             "LocalizeJP": "助かったっす！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_BuffSelf_1",
             "LocalizeJP": "本気で行くっすよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Covered_1",
             "LocalizeJP": "おっと。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Damage_1",
             "LocalizeJP": "おお！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Damage_2",
             "LocalizeJP": "あれ…",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Damage_3",
             "LocalizeJP": "あはは…",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Defense_1",
             "LocalizeJP": "無駄っすよ～",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_In_1",
             "LocalizeJP": "私についてこーい！これでいいっすか？",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_In_2",
             "LocalizeJP": "さぁ、いくっすよ～！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Move_1",
             "LocalizeJP": "さっさと終わらせるっす。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Move_2",
             "LocalizeJP": "この調子で行くっすよ～。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Recovery_1",
             "LocalizeJP": "やっほ～！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Retire",
             "LocalizeJP": "ちっ……",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Shout_1",
             "LocalizeJP": "やっ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Shout_2",
             "LocalizeJP": "ふーん…",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Shout_3",
             "LocalizeJP": "よいしょっと！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_TacticalAction_1",
             "LocalizeJP": "",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Victory_1",
             "LocalizeJP": "皆さん、本当凄いっすね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ichika_Battle_Victory_2",
             "LocalizeJP": "いやー、何とかなるもんっすね～。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Ichika_CommonSkill",
             "LocalizeJP": "上手くいったんすかね？",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_1",
             "LocalizeJP": "あーあ、またっすか？",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_2",
             "LocalizeJP": "はっ、もう勘弁してほしいっす。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_3",
             "LocalizeJP": "今取り込み中っす。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_Level_1",
             "LocalizeJP": "じゃ、頼んだっすよ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_Level_2",
             "LocalizeJP": "今度奢るんで！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ichika_ExSkill_Level_3",
             "LocalizeJP": "後でいいっすか？今取り込み中で。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Ichika_Growup_1",
             "LocalizeJP": "あっ、くれるんすか？ありがとーっす、先生。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Ichika_Growup_2",
             "LocalizeJP": "そんなことしても、別に何も出ないっすよ？",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Ichika_Growup_3",
             "LocalizeJP": "あははっ、こんだけ貰っちゃったら、メチャクチャ頑張るしかないっすね。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Ichika_Growup_4",
             "LocalizeJP": "えーと、光栄っすけど……その、えへへ……。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ichika_Relationship_Up_1",
             "LocalizeJP": "その、困りました……何とお礼を言えば……。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ichika_Relationship_Up_2",
             "LocalizeJP": "こういう時って、素直に喜んでいいんです……よね？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ichika_Relationship_Up_3",
             "LocalizeJP": "このご恩はいつか必ず返すっす。どういう風に返すかは、その時までのお楽しみ、ってことで。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10077,
+            "CharacterVoiceGroupId": 10077,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ichika_Relationship_Up_4",
             "LocalizeJP": "何だか、こそばゆいというか、妙な感じがするっす。気のせい、っすかね？",

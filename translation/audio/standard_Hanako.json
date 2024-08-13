@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hanako_Formation_In_1",
             "LocalizeJP": "あら、私の出番ですか？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hanako_Formation_In_2",
             "LocalizeJP": "ふふ、私のことを求めてくれるなんて。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hanako_Formation_Select",
             "LocalizeJP": "あら。大胆ですね…？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_Defeat_1",
             "LocalizeJP": "もう…、足腰が立ちません。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_Defeat_2",
             "LocalizeJP": "少し、よそ見をしすぎました。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_In_1",
             "LocalizeJP": "さ、始めましょうか。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_In_2",
             "LocalizeJP": "全部…、先生の言う通りにしますよ、うふふ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_Victory_1",
             "LocalizeJP": "あは、こんな感じでいいでしょうか？",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hanako_Tactic_Victory_2",
             "LocalizeJP": "さすが先生！すっごいです！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Buffed_1",
             "LocalizeJP": "もっともっと頑張りますね。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_BuffSelf_1",
             "LocalizeJP": "もっと大胆になっても…、いいですか？",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Covered_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Damage_2",
             "LocalizeJP": "いったー。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Damage_3",
             "LocalizeJP": "今のは痛かったですね……。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Defense_1",
             "LocalizeJP": "うふふ、その程度ですか？",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_In_1",
             "LocalizeJP": "楽しんでいきましょう。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_In_2",
             "LocalizeJP": "期待しててくださいね。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Move_1",
             "LocalizeJP": "見つけましたよ。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Move_2",
             "LocalizeJP": "まだまだ行けますよ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Retire",
             "LocalizeJP": "こんな…はずでは。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_TacticalAction_1",
             "LocalizeJP": "よいしょ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Victory_1",
             "LocalizeJP": "楽しかったですね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanako_Battle_Victory_2",
             "LocalizeJP": "ふふ。いかがでしたか、先生？",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hanako_CommonSkill",
             "LocalizeJP": "行きますよー。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_1",
             "LocalizeJP": "さて…。…あら！ウフフ♡",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_2",
             "LocalizeJP": "行きます！あ！…フフフ♡",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_3",
             "LocalizeJP": "では…、ああん♡",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_Level_1",
             "LocalizeJP": "お役に立てると…、いいのですが！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_Level_2",
             "LocalizeJP": "喜んでいただけると…、嬉しいです。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanako_ExSkill_Level_3",
             "LocalizeJP": "ちゃんと…、受け止めてくださいね！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanako_Growup_1",
             "LocalizeJP": "また少し成長したと思いませんか。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanako_Growup_2",
             "LocalizeJP": "ありがとうございます、先生。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanako_Growup_3",
             "LocalizeJP": "今度きちんとお返しをしますね。はい、先生のお望みのもので…。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanako_Growup_4",
             "LocalizeJP": "ここまで大切にしてくださると、私…。そろそろ…、我慢できなくなってしまいますよ？",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanako_Relationship_Up_1",
             "LocalizeJP": "先生のこと…、信じてもよろしいのでしょうか？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanako_Relationship_Up_2",
             "LocalizeJP": "まだまだ行けますよね、先生？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanako_Relationship_Up_3",
             "LocalizeJP": "先生には…、ありのままの私を見ていただきたいです。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 23007,
+            "CharacterVoiceGroupId": 23007,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanako_Relationship_Up_4",
             "LocalizeJP": "先生は辛くて苦しい方が好きだったりしますか？",

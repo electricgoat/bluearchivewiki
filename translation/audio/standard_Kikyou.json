@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kikyou_Formation_In_1",
             "LocalizeJP": "私の力が必要？……だと思ってた。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kikyou_Formation_In_2",
             "LocalizeJP": "私を呼ぶと思ってた。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kikyou_Formation_Select",
             "LocalizeJP": "勝手にすれば。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Defeat_1",
             "LocalizeJP": "作戦失敗！？待って、どこで間違えたの？",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Defeat_2",
             "LocalizeJP": "屈辱……。このままじゃ、終われない。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_In_1",
             "LocalizeJP": "百花繚乱に代々伝わる兵法術、あんたたちに見せてあげる。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_In_2",
             "LocalizeJP": "先生、指揮を。私の作戦で支える。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Victory_1",
             "LocalizeJP": "あんたの指揮と私の作戦、敵うやつなんているはずない。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Victory_2",
             "LocalizeJP": "私の作戦に点数を付けるとしたら、10点満点中の百万点ってとこかな。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Buffed_1",
             "LocalizeJP": "今の支援、作戦に活かすね。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_BuffSelf_1",
             "LocalizeJP": "準備は終わってる。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Covered_1",
             "LocalizeJP": "これも戦略のうち。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Damage_1",
             "LocalizeJP": "うっ。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Damage_2",
             "LocalizeJP": "ぐふっ。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Damage_3",
             "LocalizeJP": "ぬっ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Defense_1",
             "LocalizeJP": "効かないよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_In_1",
             "LocalizeJP": "これは私が手掛けた作戦だから、先頭に立つよ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_In_2",
             "LocalizeJP": "百花繚乱な実力、その目に焼き付けて。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Move_1",
             "LocalizeJP": "準備完了。次へ移動する。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Move_2",
             "LocalizeJP": "作戦通り。心配はいらない。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。助かった。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Retire",
             "LocalizeJP": "退散なんて、ありえない……。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Shout_1",
             "LocalizeJP": "はっ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Shout_2",
             "LocalizeJP": "はぁっ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Shout_3",
             "LocalizeJP": "やっ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_TacticalAction_1",
             "LocalizeJP": "もっと有利な位置へ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Victory_1",
             "LocalizeJP": "百花繚乱の参謀に、勝利は当たり前。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Victory_2",
             "LocalizeJP": "勝つのは、当然のことだから。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kikyou_CommonSkill",
             "LocalizeJP": "参考にして。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_1",
             "LocalizeJP": "次の手は……。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_2",
             "LocalizeJP": "戦局を揺るがす一手を！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_3",
             "LocalizeJP": "なすべきは、ただ一つ。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_Level_1",
             "LocalizeJP": "そこ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_Level_2",
             "LocalizeJP": "手加減はいらない。全力でいくよ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_Level_3",
             "LocalizeJP": "百花繚乱の力、存分に味わうといい。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_1",
             "LocalizeJP": "こんな物を渡すなんて、いったい何が望みなの？だって、取引ってそういうものだよね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_2",
             "LocalizeJP": "何を企んでいるか知らないけど、くれるなら遠慮はしない。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_3",
             "LocalizeJP": "あれだけ言われてるのに、まだこんなものを……。あんたって本当に、変な人。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_4",
             "LocalizeJP": "あんたのおかげで、私は成長した。否定はしないよ。これは客観的な事実。だから、お礼くらいは言っておく。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_1",
             "LocalizeJP": "先生、距離、近いよ。嫌とは言ってない。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_2",
             "LocalizeJP": "あっ、先生。どこに行ってたの？私の目の届くところにいて。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_3",
             "LocalizeJP": "先生の厚意、確かに受け取った。次は私の番。覚悟しておいて。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10083,
+            "CharacterVoiceGroupId": 10083,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_4",
             "LocalizeJP": "私があんたを頼りにしているのは事実。だから約束して。あんたも私を頼るって。",

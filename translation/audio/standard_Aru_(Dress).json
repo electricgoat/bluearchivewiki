@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(Dress)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふふっ……なるほど。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(Dress)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "賢明な判断ね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(Dress)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "私に何か用……ひゃあっ！？\nふぅ……。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "この依頼、私にぴったりね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "心配は無用よ。私に任せなさい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私の手にかかれば、これくらい当然よ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(Dress)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "どう、満足してもらえたかしら？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "良い投資ね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私を倒せるとでも？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふーん、その程度かしら？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "さあ……はじめましょう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "皆、行くわよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ここは片付いたわね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだ残党がいるわ。次に向かうわよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "はあっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "もう終わり？思ったより簡単な依頼だったわね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(Dress)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふふ、期待以上、だったでしょう？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Aru_(Dress)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふふ……あっ、ちょっと！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "社長からの提案よ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "名前くらいは、聞いたことあるでしょう？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがたく受け取りなさい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "興味あるなら、連絡してちょうだい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "便利屋68、覚えておきなさい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(Dress)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "どう？悪くない提案でしょう？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(Dress)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "先見の明があるのね。\n……約束するわ、絶対、先生をガッカリさせないって。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(Dress)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ここまで期待されてるなんて……\n私も、もっと自分に磨きをかけないといけないわね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(Dress)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "安心して。\n私が強くなっても、先生を置いていったりはしないわよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(Dress)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふふっ……この先も、私に期待しててちょうだい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(Dress)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生には……どこまで打ち明けたらいいのかしら……\n困ってしまうわね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(Dress)_Relationship_Up_2",
-            "LocalizeJP": "言葉だけじゃ足りない気もするけど、感謝しているわ、先生。",
+            "LocalizeJP": "言葉だけじゃ、足りない気もするけど……\n……感謝しているわ、先生。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(Dress)_Relationship_Up_3",
-            "LocalizeJP": "こういうとき、何と言えばいいのかしら。私にもわからないことくらいあるわよ。",
+            "LocalizeJP": "こういうとき、なんと言えば良いのかしら……\n……私にも分からないことくらいあるわよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10089,
+            "CharacterVoiceGroupId": 10089,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(Dress)_Relationship_Up_4",
-            "LocalizeJP": "先生、その…いいえ、何でもないわ。",
+            "LocalizeJP": "先生、その……\nいえ、なんでもないわ。",
             "LocalizeEN": "S..Sensei! Umm!...No, it's nothing!"
         }
     ]

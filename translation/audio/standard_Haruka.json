@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruka_Formation_In_1",
             "LocalizeJP": "は…！私ですか？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruka_Formation_In_2",
             "LocalizeJP": "ほ、本当に私なんですか？",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruka_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_Defeat_1",
             "LocalizeJP": "ごめんなさいごめんなさいごめんなさい…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_Defeat_2",
             "LocalizeJP": "わ、私がちゃんとしなかったせいで…。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_In_1",
             "LocalizeJP": "はい、私が全て消しちゃいます。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_In_2",
             "LocalizeJP": "はい、殺します、全員。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_Victory_1",
             "LocalizeJP": "はあ…。言われた通り、全てやり遂げました。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruka_Tactic_Victory_2",
             "LocalizeJP": "い、一生懸命頑張りました。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Buffed_1",
             "LocalizeJP": "あ、ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Defense_1",
             "LocalizeJP": "い、痛くありません。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_In_1",
             "LocalizeJP": "で、では、全て消してしまいましょう。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_In_2",
             "LocalizeJP": "で、では、気をつけてやっつけに行きましょう。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Move_1",
             "LocalizeJP": "め、命令通り全部やっつけました…。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Move_2",
             "LocalizeJP": "ま、まだです…。まだやれます！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Recovery_1",
             "LocalizeJP": "わ、私にくれるんですか？",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Retire",
             "LocalizeJP": "うう…。だ、ダメなのに。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_TacticalAction_1",
             "LocalizeJP": "い、行きます。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_TSA_1",
             "LocalizeJP": "う、埋めちゃっていいんですよね？",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_TSA_2",
             "LocalizeJP": "ま、任せてください。全部片付けちゃいます。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Victory_1",
             "LocalizeJP": "ご希望でしたら、誰でも排除しますから。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruka_Battle_Victory_2",
             "LocalizeJP": "え、えっと、私大丈夫でした？",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Haruka_CommonSkill",
             "LocalizeJP": "あ、違う…、許さない。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_1",
             "LocalizeJP": "い、行きます。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_2",
             "LocalizeJP": "と、とりあえず撃ちます。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_3",
             "LocalizeJP": "ハルカ、行きます！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_Level_1",
             "LocalizeJP": "",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_Level_2",
             "LocalizeJP": "",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruka_ExSkill_Level_3",
             "LocalizeJP": "死んでください死んでください死んでください！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruka_Growup_1",
             "LocalizeJP": "わ、私なんかにはもったいないです。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruka_Growup_2",
             "LocalizeJP": "どうして私にここまで良くしてくれるんですか？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruka_Growup_3",
             "LocalizeJP": "お、恩返ししなきゃ。必ず、絶対に、何が何でも恩返ししますから。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruka_Growup_4",
             "LocalizeJP": "い、今の私ならご期待に応えられるかも。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruka_Relationship_Up_1",
             "LocalizeJP": "先生、本当にありがとうございます。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruka_Relationship_Up_2",
             "LocalizeJP": "先生には恩返ししたい気持ちでいっぱいです。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruka_Relationship_Up_3",
             "LocalizeJP": "先生、消したいものがあったら私に教えてください。ぜ、全部、消しますから。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 16000,
+            "CharacterVoiceGroupId": 16000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruka_Relationship_Up_4",
             "LocalizeJP": "あ、そ、その…ありがとうございます、先生。",

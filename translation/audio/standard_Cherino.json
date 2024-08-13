@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Cherino_Formation_In_1",
             "LocalizeJP": "ふむ、いい選択だ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Cherino_Formation_In_2",
             "LocalizeJP": "おいらの権威を示す時が来たか。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Cherino_Formation_Select",
             "LocalizeJP": "あ…、あれ？離せ！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Defeat_1",
             "LocalizeJP": "う、うわぁ…、負けちゃった。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Defeat_2",
             "LocalizeJP": "こ…、こんなの何かの間違いだ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_In_1",
             "LocalizeJP": "諸君、準備せよ。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_In_2",
             "LocalizeJP": "皆の者、義務を果たす時が来たぞ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Victory_1",
             "LocalizeJP": "これがレッドウィンターの力だ。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Cherino_Tactic_Victory_2",
             "LocalizeJP": "おいらの勇姿、ちゃんと見ていたか、カムラッド？",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Buffed_1",
             "LocalizeJP": "悪くないサポートだな、カムラッド。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_BuffSelf_1",
             "LocalizeJP": "レッドウィンターの力、見せてやる。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Covered_1",
             "LocalizeJP": "反逆だ、隠れろ！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Defense_1",
             "LocalizeJP": "ふふん、無駄だ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_In_1",
             "LocalizeJP": "出発だ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_In_2",
             "LocalizeJP": "さあ、行こう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Move_1",
             "LocalizeJP": "休んでいる暇などないぞ。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Move_2",
             "LocalizeJP": "この勢いで、全部やっつけるのだ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Recovery_1",
             "LocalizeJP": "よしよし。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Retire",
             "LocalizeJP": "うう、はあ、…お家に帰りたい。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_TacticalAction_1",
             "LocalizeJP": "進め進めー！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Victory_1",
             "LocalizeJP": "うむ、どうだ？書記長の力、思い知ったか？……ん？わ！ひげが…！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Cherino_Battle_Victory_2",
             "LocalizeJP": "所詮この程度か。はははは！……ん？わあ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Cherino_CommonSkill",
             "LocalizeJP": "粛清してやる。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_1",
             "LocalizeJP": "さあ来い新鋭隊。あそこだ、撃て！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_2",
             "LocalizeJP": "行け我が親衛隊！粛清対象は…、あそこだ！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_3",
             "LocalizeJP": "親衛隊、総員攻撃！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_Level_1",
             "LocalizeJP": "全部やっつけてしまえ。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_Level_2",
             "LocalizeJP": "よし、攻撃だ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Cherino_ExSkill_Level_3",
             "LocalizeJP": "粛清、粛清、粛清だ！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Cherino_Growup_1",
             "LocalizeJP": "この溢れでる力…、見ているか、カムラッド？",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Cherino_Growup_2",
             "LocalizeJP": "悪くない。悪くないぞ。おいらの成長に限界はない！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Cherino_Growup_3",
             "LocalizeJP": "これぞまさにレッドウィンターの力だ。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Cherino_Growup_4",
             "LocalizeJP": "やるではないか、カムラッド。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_1",
             "LocalizeJP": "お、おいらに恥をかかせたら粛清だからな。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_2",
             "LocalizeJP": "あ、ありがとう、カムラッド。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_3",
             "LocalizeJP": "な、なんだよ。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10017,
+            "CharacterVoiceGroupId": 10017,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Cherino_Relationship_Up_4",
             "LocalizeJP": "",

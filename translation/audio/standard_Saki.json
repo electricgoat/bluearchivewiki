@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Saki_Formation_In_1",
             "LocalizeJP": "準備ならもうできてる。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Saki_Formation_In_2",
             "LocalizeJP": "配置に就いた。準備完了。",
@@ -16,13 +20,17 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Saki_CommonSkill",
-            "LocalizeJP": "これは痛いぞ！",
+            "LocalizeJP": "これは痛いぞっ！",
             "LocalizeEN": "This is gonna hurt!"
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_1",
             "LocalizeJP": "RABBIT2、降下準備完了。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_2",
             "LocalizeJP": "ハーネスの準備完了。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_3",
             "LocalizeJP": "RABBIT2、現場に到着した。",
@@ -44,13 +56,17 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_Level_1",
-            "LocalizeJP": "掩護射撃、開始！",
+            "LocalizeJP": "援護射撃、開始！",
             "LocalizeEN": "Covering fire, starting!"
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_Level_2",
             "LocalizeJP": "火力支援を始める！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_ExSkill_Level_3",
             "LocalizeJP": "SRTの力、甘く見るなよ！",
@@ -65,13 +83,17 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_Growup_1",
-            "LocalizeJP": "これもたゆまぬ訓練の成果だ。",
+            "LocalizeJP": "これも、弛まぬ訓練の成果だ。",
             "LocalizeEN": "This is an outcome of diligent training."
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_Growup_2",
             "LocalizeJP": "強くなりたいなら、地道に教範を読むことだな。",
@@ -79,20 +101,26 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_Growup_3",
-            "LocalizeJP": "悔しいが…、やはり先生の教えはためになる。",
+            "LocalizeJP": "悔しいが……やはり、先生の教えはタメになる。",
             "LocalizeEN": "Frustrating, but Sensei's teaching is useful."
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_Growup_4",
-            "LocalizeJP": "先輩たちに追いつくために、もっともっと強くならないと。",
+            "LocalizeJP": "先輩たちに追いつくために……もっと、もっと強くならないと……！",
             "LocalizeEN": "To catch up with the seniors, I need to get stronger and stronger."
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_Relationship_Up_1",
             "LocalizeJP": "先生の命令なら従う。信じてるからな。",
@@ -100,23 +128,29 @@
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_Relationship_Up_2",
-            "LocalizeJP": "指揮官との結束を育むための交流…。まあ、それなら仕方ない。",
+            "LocalizeJP": "指揮官との結束を育むための交流……まあ、それなら仕方ない。",
             "LocalizeEN": "Communicating to grow solidarity with my commander... Well that's inevitable."
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_Relationship_Up_3",
-            "LocalizeJP": "先生、たまには私たちのことを頼ってもいいんだぞ。",
+            "LocalizeJP": "先生、たまには私たちのことを頼っても良いんだぞ。",
             "LocalizeEN": "Sensei, you can rely on us for a change."
         },
         {
             "CharacterId": 20014,
+            "CharacterVoiceGroupId": 20014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_Relationship_Up_4",
-            "LocalizeJP": "先生になら安心して背中を預けられる。",
+            "LocalizeJP": "先生になら、安心して背中を預けられる。",
             "LocalizeEN": "I can leave my back to Sensei without worry."
         }
     ]

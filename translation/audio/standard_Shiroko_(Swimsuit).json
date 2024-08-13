@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko_(Swimsuit)_Formation_In_1",
             "LocalizeJP": "何と、ここに釣りの道具が。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko_(Swimsuit)_Formation_In_2",
             "LocalizeJP": "ん。準備完了",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_CommonSkill",
             "LocalizeJP": "ん、これ要らない。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_1",
             "LocalizeJP": "ふ、ふんっ",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_2",
             "LocalizeJP": "んふ！来た！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_3",
             "LocalizeJP": "今！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "大物だ！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_Level_2",
             "LocalizeJP": "逃がさない！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "狙いは精確。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_(Swimsuit)_Growup_1",
             "LocalizeJP": "釣りは道具が命。ありがとう、先生。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_(Swimsuit)_Growup_2",
             "LocalizeJP": "これなら、もっと大きいのが釣れるかも。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_(Swimsuit)_Growup_3",
             "LocalizeJP": "お返しに、大物を釣ってくるね。期待してて。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko_(Swimsuit)_Growup_4",
             "LocalizeJP": "よし、今すぐ出発しよう。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_(Swimsuit)_Relationship_Up_1",
             "LocalizeJP": "またこんな…いや。\nありがとう、先生。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_(Swimsuit)_Relationship_Up_2",
             "LocalizeJP": "ありがとう、先生。\nところで、食べたい海産物とか、ある？",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_(Swimsuit)_Relationship_Up_3",
             "LocalizeJP": "先生のためなら、何でも捕ってくるよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20027,
+            "CharacterVoiceGroupId": 20027,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko_(Swimsuit)_Relationship_Up_4",
             "LocalizeJP": "たのしいかって？\nん、すごく。",

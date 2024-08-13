@@ -2,34 +2,44 @@
     "DataList": [
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kasumi_Formation_In_1",
-            "LocalizeJP": "ああ、作業だな。任せてくれ。",
-            "LocalizeEN": ""
+            "LocalizeJP": "ああ、作業だな！任せてくれ！",
+            "LocalizeEN": "Ah, It’s work.  Leave it to me."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kasumi_Formation_In_2",
-            "LocalizeJP": "素晴らしい選択じゃないか？ハーッハッハッハッハッ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "素晴らしい選択じゃないか！ハーハッハッハッハ！",
+            "LocalizeEN": "What a great choice, isn’t it?"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kasumi_Formation_Select",
-            "LocalizeJP": "よし、飛んでいくか",
-            "LocalizeEN": ""
+            "LocalizeJP": "よ～し！飛んでいくか！",
+            "LocalizeEN": "Okay, Will it fly away?"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_Defeat_1",
             "LocalizeJP": "些細些細、そういうこともあるというものだ",
-            "LocalizeEN": ""
+            "LocalizeEN": "It’s a small thing but that’s just how it is."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "掘り心地が良さそうな所じゃあないか！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "今回の現場をこことしよう！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_Victory_1",
-            "LocalizeJP": "グレートだ、このまま進めるぞ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "グレートだ！このまま進めるぞ！",
+            "LocalizeEN": "Great, Let’s continue like this!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kasumi_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ワンダフル！素晴らしい温泉開発だったな！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "なくても構わんが……感謝する！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これは頑丈そうだな！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "どうしたんだ？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "邪魔をするのだな……どうなっても知らないぞ？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ハーハッハッハッハ！いいぞ、やってみようじゃないか！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Move_1",
-            "LocalizeJP": "時間が限られているからなぁ、行くぞ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "時間は限られているからな！いくぞ！",
+            "LocalizeEN": "We have limited time, so let’s go!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Move_2",
-            "LocalizeJP": "さあ、次々！",
-            "LocalizeEN": ""
+            "LocalizeJP": "さ～、次次～！",
+            "LocalizeEN": "Come now, one after the other!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Recovery_1",
-            "LocalizeJP": "うお、感謝する！",
-            "LocalizeEN": ""
+            "LocalizeJP": "おっ！感謝する！",
+            "LocalizeEN": "Wow, I’m so grateful!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,129 +227,165 @@
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_TacticalAction_1",
-            "LocalizeJP": "ゴン、ゴン！",
-            "LocalizeEN": ""
+            "LocalizeJP": "ゴ～ゴ～！",
+            "LocalizeEN": "Ding, dong!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Victory_1",
-            "LocalizeJP": "へー、スッキリしたな！",
-            "LocalizeEN": ""
+            "LocalizeJP": "ふぅ！スッキリしたな！",
+            "LocalizeEN": "Hey, that’s refreshing!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kasumi_Battle_Victory_2",
             "LocalizeJP": "ワンダフル！素晴らしかったぞ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Wonderful, It was magnificent."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kasumi_CommonSkill",
-            "LocalizeJP": "サプライズ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "サプラ～イズ",
+            "LocalizeEN": "Surprise!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_1",
-            "LocalizeJP": "今回のポイントここだな！",
-            "LocalizeEN": ""
+            "LocalizeJP": "今回のポイントは……ここだな！",
+            "LocalizeEN": "This is the point, this is it."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_2",
-            "LocalizeJP": "よしよし、そこだ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "よし、よし……そこだ！",
+            "LocalizeEN": "Alright alright, there it is!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_3",
-            "LocalizeJP": "よし。さ、はじめるぞ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "よーし！さあ、始めるぞ！",
+            "LocalizeEN": "Alright, Let’s get started."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_Level_1",
-            "LocalizeJP": "ヒューン、バドーン! ハハハハ！",
+            "LocalizeJP": "ヒュ――ン　バゴォン！！ハーハッハッハッハ！",
             "LocalizeEN": "Boooom! Blaaaam! Hahahaha!<!--from https://www.youtube.com/watch?v=YpW2daad_N8-->"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_Level_2",
-            "LocalizeJP": "さあ、プレゼントだ！ハハハハハ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "さあ、プレゼントだ！！！ハーハッハッハッハ！",
+            "LocalizeEN": "Now, it’s a present!  Hahaha!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kasumi_ExSkill_Level_3",
-            "LocalizeJP": "いくぞいくぞ、と！ハハハハ！",
-            "LocalizeEN": ""
+            "LocalizeJP": "いくぞいくぞ～！とぉっ！ハーハッハッハッハ！",
+            "LocalizeEN": "Let’s go! Let’s go!  Hahaha!"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kasumi_Growup_1",
-            "LocalizeJP": "やあ、人生。時にわこうゆうこともあるのだな。",
-            "LocalizeEN": ""
+            "LocalizeJP": "いやぁ～人生、時にはこういう事もあるのだな！",
+            "LocalizeEN": "Yeah, that’s life!  Sometimes things are like this."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kasumi_Growup_2",
-            "LocalizeJP": "登記に先生、本当にいいのか？何が起きたら先生も共犯になるぞ。",
-            "LocalizeEN": ""
+            "LocalizeJP": "時に先生……本当に良いのか？何か起きたら先生も共犯になるぞ？",
+            "LocalizeEN": "Documenting sensei, is that a good idea? If something happens, you’ll be an accomplice."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kasumi_Growup_3",
-            "LocalizeJP": "おお！ちょうど探していたんだ、助かる！",
-            "LocalizeEN": ""
+            "LocalizeJP": "おお！ちょうど探していたんだ。助かる！",
+            "LocalizeEN": "Oh, I was just looking for that, that’s helpful."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kasumi_Growup_4",
-            "LocalizeJP": "ハーハハ!心配ごむよ!ここわ我々だけの秘密、と以降じゃないか?",
-            "LocalizeEN": ""
+            "LocalizeJP": "ハーハッハッハ！心配ご無用。\nここは我々だけの秘密、といこうじゃあないか。",
+            "LocalizeEN": "Hahaha!  I’m worried.  This is our secret, isn’t it?"
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kasumi_Relationship_Up_1",
-            "LocalizeJP": "私にここまでしてくれるだと？奇特な者もいたものだ。",
-            "LocalizeEN": ""
+            "LocalizeJP": "私にここまでしてくれるだと？\n奇特な者もいたものだ！",
+            "LocalizeEN": "You would do this much for me. There are some really extraordinary people out there."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kasumi_Relationship_Up_2",
-            "LocalizeJP": "先生はすごく面白いな。ん？褒めてるのだぞ？",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生は……すごく面白いな。\nうむ、褒めてるのだぞ？",
+            "LocalizeEN": "The teacher is very interesting, huh? I am praising you."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kasumi_Relationship_Up_3",
-            "LocalizeJP": "何か必要な物があれば何でも言ってくれ。そう、「何でも」だ。どんな物でも用意するさ。裏で、そっとな。",
-            "LocalizeEN": ""
+            "LocalizeJP": "何か必要なものがあれば何でも言ってくれ。\nそう、「何でも」だ。どんなものでも用意するさ。裏で、そっとな。",
+            "LocalizeEN": "If there is anything you need, just tell me. Yes anything, whatever it is, I’ll get it for you, behind the scenes, quietly."
         },
         {
             "CharacterId": 10078,
+            "CharacterVoiceGroupId": 10078,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kasumi_Relationship_Up_4",
-            "LocalizeJP": "ハーハッハッハッハ！感謝する、先生。",
-            "LocalizeEN": ""
+            "LocalizeJP": "ハーハッハッハッハ！感謝する、先生！！",
+            "LocalizeEN": "Hahahaha,  I really appreciate it Sensei."
         }
     ]
 }

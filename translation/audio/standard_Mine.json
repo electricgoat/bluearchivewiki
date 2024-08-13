@@ -2,41 +2,53 @@
     "DataList": [
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Mine_Formation_In_1",
             "LocalizeJP": "かしこまりました。参りましょう。",
-            "LocalizeEN": "I got it. Let's go."
+            "LocalizeEN": "Understood. Let's go."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Mine_Formation_In_2",
             "LocalizeJP": "救護騎士団の出番ですね。",
-            "LocalizeEN": "It's the rescue knights' turn."
+            "LocalizeEN": "It's time for the Remedial Knights to step in."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Mine_Formation_Select",
             "LocalizeJP": "な、何が起きているのでしょうか？",
-            "LocalizeEN": "what is going on?"
+            "LocalizeEN": "Wh-what's going on?"
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Defeat_1",
             "LocalizeJP": "まさか、このような。…申し訳ありません、私が力不足なばかりに。",
-            "LocalizeEN": "No way like this"
+            "LocalizeEN": "No way, something like this. ...I'm sorry, I'm just not strong enough."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Defeat_2",
             "LocalizeJP": "あまりご自身を責めないでください。きっと大丈夫ですから。",
-            "LocalizeEN": "Don't blame yourself too much, I'm sure you'll be fine"
+            "LocalizeEN": "Don't blame yourself too much, Everything will be fine. "
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_In_1",
             "LocalizeJP": "おまかせを、私が先頭に立ちます。",
@@ -44,41 +56,53 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_In_2",
             "LocalizeJP": "全ての人々に恵みを。",
-            "LocalizeEN": "Bless all people."
+            "LocalizeEN": "Blessing for all."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Victory_1",
             "LocalizeJP": "皆さん、お怪我はありませんか。",
-            "LocalizeEN": "Do you have any injuries?"
+            "LocalizeEN": "Everyone, Are you okay?"
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Victory_2",
             "LocalizeJP": "救護が必要な方を 誰一人逃さない。当然のことです。",
-            "LocalizeEN": "It goes without saying that we don't miss anyone in need of relief."
+            "LocalizeEN": "It goes without saying that we must not let anyone who needs aid slip away."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
-            "LocalizeEN": "thank you."
+            "LocalizeEN": "Thank you."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_BuffSelf_1",
             "LocalizeJP": "まだです。",
-            "LocalizeEN": "not yet."
+            "LocalizeEN": "Not yet."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Damage_2",
             "LocalizeJP": "そんな…！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Damage_3",
             "LocalizeJP": "この程度。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Defense_1",
             "LocalizeJP": "無力化します。",
@@ -107,27 +137,35 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_In_1",
             "LocalizeJP": "私が前に出ますので、背中をお願いします。",
-            "LocalizeEN": "I will step forward, so please have your back."
+            "LocalizeEN": "I'll step forward, so please stand behind me."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_In_2",
             "LocalizeJP": "救護騎士団、まいります。",
-            "LocalizeEN": "Remedial Knights are here."
+            "LocalizeEN": "The Remedial Knights are here."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Move_1",
             "LocalizeJP": "進みましょう。",
-            "LocalizeEN": "let's move on."
+            "LocalizeEN": "Let's move on."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Move_2",
             "LocalizeJP": "移動します。",
@@ -135,20 +173,26 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。楽になりました。",
-            "LocalizeEN": "thank you. It became easier."
+            "LocalizeEN": "Thank you. I feel much better now."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Retire",
             "LocalizeJP": "少々、苦しいですね…。",
-            "LocalizeEN": "It's a little painful."
+            "LocalizeEN": "It's a little painful..."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,27 +218,35 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_TacticalAction_1",
             "LocalizeJP": "次はどちらでしょうか。",
-            "LocalizeEN": "Which is next?"
+            "LocalizeEN": "Which one will be next?"
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Victory_1",
             "LocalizeJP": "無事に…、救護が完了しました。",
-            "LocalizeEN": "Rescue was successfully completed."
+            "LocalizeEN": "The rescue was successfully completed."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Victory_2",
             "LocalizeJP": "私たちの勝利です 。しかし、油断は禁物ですよ。",
-            "LocalizeEN": "It's our victory, but we must be vigilant."
+            "LocalizeEN": "It's our victory, but we must stay vigilant."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Mine_CommonSkill",
             "LocalizeJP": "全力で参ります。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_1",
             "LocalizeJP": "参ります。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_2",
             "LocalizeJP": "そちらですね。",
@@ -212,13 +272,17 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_3",
             "LocalizeJP": "下がってください。",
-            "LocalizeEN": "please go down"
+            "LocalizeEN": "Please stand back."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_1",
             "LocalizeJP": "戦場に救護の手を。",
@@ -226,27 +290,35 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_2",
             "LocalizeJP": "誇りと信念を、胸に刻み。",
-            "LocalizeEN": "Engrave your pride and New Year in your heart,"
+            "LocalizeEN": "Engrave your pride and conviction in your heart"
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_3",
             "LocalizeJP": "最後の、その瞬間まで。",
-            "LocalizeEN": "Until that last moment."
+            "LocalizeEN": "Until the very end, that very moment."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_1",
             "LocalizeJP": "私に…、どうしてここまで。",
-            "LocalizeEN": "why did i come here"
+            "LocalizeEN": "For me..., how did it come to this?"
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_2",
             "LocalizeJP": "ありがとうございます。先生。",
@@ -254,20 +326,26 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_3",
             "LocalizeJP": "ふふっ。私が救護を受けることになってしまいましたね。",
-            "LocalizeEN": "I ended up having to receive relief."
+            "LocalizeEN": "Hehe. I'm the one who ended up having to receive aid."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_4",
             "LocalizeJP": "よろしければ今度お茶でもいかがですか？何かお礼がしたいのです。",
-            "LocalizeEN": "If you don't mind, how about having some tea next time? I want to thank you for something."
+            "LocalizeEN": "If you don't mind, how about having some tea next time? I'd like to thank you somehow."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_1",
             "LocalizeJP": "あまり慣れない感情ですね。ふわふわとしていて胸が暖かくなるような…、くすぐったい気分です。",
@@ -275,24 +353,30 @@
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_2",
             "LocalizeJP": "お気づきでしょうか。先生が私を少しずつ変えているのだと。",
-            "LocalizeEN": "Have you noticed that my teacher is changing me little by little?"
+            "LocalizeEN": "Have you noticed? Sensei is changing me little by little."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_3",
             "LocalizeJP": "私が…、何かお力になれたら。",
-            "LocalizeEN": "if i can be of any help"
+            "LocalizeEN": "If I can be of any help, please let me know."
         },
         {
             "CharacterId": 10058,
+            "CharacterVoiceGroupId": 10058,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_4",
             "LocalizeJP": "先生はいつも返しきれないほどのものを私に与えるんですから、困ったお方です。本当に。フフッ。",
-            "LocalizeEN": "Sensei always gives me more than I can pay back, so I'm in trouble. Really."
+            "LocalizeEN": "Sensei always gives me more than I can pay back, You're a real pain. Seriously. Hehe."
         }
     ]
 }

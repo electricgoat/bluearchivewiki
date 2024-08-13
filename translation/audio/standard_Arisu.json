@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_1",
             "LocalizeJP": "アリス、パーティーに合流します。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_2",
             "LocalizeJP": "私の役割は…、アタッカーなんですね。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_Select",
             "LocalizeJP": "起動準備完了。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Defeat_1",
             "LocalizeJP": "必滅者よ、このまま諦めてはいけません。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Defeat_2",
             "LocalizeJP": "リブート。また挑戦します。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_In_1",
             "LocalizeJP": "前方に対象を確認。前進します。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_In_2",
             "LocalizeJP": "先生、指示を。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Victory_1",
             "LocalizeJP": "攻略完了！帰還します。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_Victory_2",
             "LocalizeJP": "敵の殲滅を確認しました。ミッションクリアー。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Buffed_1",
             "LocalizeJP": "バフがかかりました！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_BuffSelf_1",
             "LocalizeJP": "バフをかけます！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Damage_2",
             "LocalizeJP": "機体に異常発生…。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Damage_3",
             "LocalizeJP": "システムリセット。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Defense_1",
             "LocalizeJP": "問題ありません。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_In_1",
             "LocalizeJP": "アリスがここにいます。アリスが手伝います。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_In_2",
             "LocalizeJP": "光が、道へと導くでしょう。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_1",
             "LocalizeJP": "アリス。前進を続けます。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_2",
             "LocalizeJP": "目標を確認。いきます！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Recovery_1",
             "LocalizeJP": "HPポーションです。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Retire",
             "LocalizeJP": "システム、…停止。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Shout_2",
             "LocalizeJP": "行きます。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Shout_3",
             "LocalizeJP": "攻撃のチャンスです！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_TacticalAction_1",
             "LocalizeJP": "移動します。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_TSA_1",
             "LocalizeJP": "合体！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_TSA_2",
             "LocalizeJP": "召喚に応じろ、ゴーレムよ。主人の命令に従え！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Victory_1",
             "LocalizeJP": "仲間がいるから怖くありません。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Victory_2",
             "LocalizeJP": "勇気、それは最高の魔法です。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Arisu_CommonSkill",
             "LocalizeJP": "チャージします。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_1",
             "LocalizeJP": "魔力充電100%。行きます！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_2",
             "LocalizeJP": "ターゲット確認。出力臨界点突破！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_3",
             "LocalizeJP": "悪を打ち砕く正義の一撃…。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_1",
             "LocalizeJP": "光を！エナジーオーバーロード。リリース。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_2",
             "LocalizeJP": "アリス、全力で行きます。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_3",
             "LocalizeJP": "この光に意思を込めて、貫け！バランス崩壊！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_1",
             "LocalizeJP": "レベルアップ。経験値をたくさん獲得しました。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_2",
             "LocalizeJP": "みんなに出会って、ゲームと友情を学びました。先生はアリスに何を教えてくれますか？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_3",
             "LocalizeJP": "見てください、先生！アリスはもう笑うということを理解できました。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_4",
             "LocalizeJP": "先生、今のアリスはこの世界で最強の戦士です。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_1",
             "LocalizeJP": "アリスも先生の好感度を上げたいです。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_2",
             "LocalizeJP": "新しいゲームに初めて向き合う時…レベルを上げて、装備強化に成功した時…、先生に会うたびにアリスはカテゴライズできない不思議な感覚を覚えます。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_3",
             "LocalizeJP": "先生と接触してからアリスの中に何かがプログラミングされました。数値に換算できないくらい大きなこの気持ちの名前は…。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10015,
+            "CharacterVoiceGroupId": 10015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_4",
             "LocalizeJP": "先生に出会えてアリスは幸せです。",

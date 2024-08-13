@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Box_1",
             "LocalizeJP": "こ、これ…、すごいものかも！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Box_2",
             "LocalizeJP": "ほら、見たでしょ？私の実力！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Fail_1",
             "LocalizeJP": "あ、あっち行って…！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Fail_2",
             "LocalizeJP": "あうぅ…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Map",
             "LocalizeJP": "は、はいっ、次……！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Start",
             "LocalizeJP": "ふ、ふーん、ここね。も、もちろん知ってる場所だけど。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Facility",
             "LocalizeJP": "あ、遊んでなんか…！ちゃんと休憩するのも大事なんだから。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Item",
             "LocalizeJP": "ふふ。これで勝ったも同然。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_start_Re",
             "LocalizeJP": "こんなところでやめるわけないでしょ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Success",
             "LocalizeJP": "こ、これくらいで浮かれたりしないわよ。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Koharu_(Swimsuit)_Minigame_Victory",
             "LocalizeJP": "ふう…。危ないところだっ…、な、何でもない！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_In_1",
             "LocalizeJP": "私の力が必要なの？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_In_2",
             "LocalizeJP": "仕方ないわね！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_(Swimsuit)_Formation_Select",
             "LocalizeJP": "ちょっと、何よ！何する気！？",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "ごめんなさい、先生……。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "どうして！？こんなはずじゃ……。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_In_1",
             "LocalizeJP": "私についてきて！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_In_2",
             "LocalizeJP": "分かった！任せて！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Victory_1",
             "LocalizeJP": "勝った！これが私の実力なのよ！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_(Swimsuit)_Tactic_Victory_2",
             "LocalizeJP": "みんな、お疲れさま！",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "これが私の本気！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Covered_1",
             "LocalizeJP": "遮蔽！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "ひっ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "きゃっ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "ひぃっ！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Defense_1",
             "LocalizeJP": "効かないわよ！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_In_1",
             "LocalizeJP": "緊張しないように、頑張る！いける！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_In_2",
             "LocalizeJP": "平気よ！実力はこっちの方が上なんだから！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Move_1",
             "LocalizeJP": "次ー！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Move_2",
             "LocalizeJP": "まだ！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Recovery_1",
             "LocalizeJP": "ありがとう……。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "はうっ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "やぁ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "はあっ！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "やあっ！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_TacticalAction_1",
             "LocalizeJP": "ひあっ！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Victory_1",
             "LocalizeJP": "これぐらい当然よ！",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_(Swimsuit)_Battle_Victory_2",
             "LocalizeJP": "どこ見てるのよ！スケベ！",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Koharu_(Swimsuit)_CommonSkill",
             "LocalizeJP": "あ、あああっ。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_1",
             "LocalizeJP": "こんなことを！？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_2",
             "LocalizeJP": "ってこれは私のじゃ！？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_3",
             "LocalizeJP": "違うんだからー！",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "許さない！",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_2",
             "LocalizeJP": "くらえ！",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "うわああああ！",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_1",
             "LocalizeJP": "ありがとう……ございます、先生。",
@@ -331,6 +425,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_2",
             "LocalizeJP": "当たり前よね！だって私、エリートだし！……ありがとう。",
@@ -338,6 +434,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_3",
             "LocalizeJP": "こんなにたくさんもらっちゃって、いいの？",
@@ -345,6 +443,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_(Swimsuit)_Growup_4",
             "LocalizeJP": "先生が色々してくれた分、真面目にやるから。",
@@ -352,6 +452,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_1",
             "LocalizeJP": "また、海、一緒に行ってくれる？",
@@ -359,6 +461,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_2",
             "LocalizeJP": "変なの。先生のそばにいると、心が……。えっ、何？別に何も言ってないけど！？",
@@ -366,6 +470,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_3",
             "LocalizeJP": "こういう時間が、もっといっぱいあったらいいのに。",
@@ -373,6 +479,8 @@
         },
         {
             "CharacterId": 16013,
+            "CharacterVoiceGroupId": 16013,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_(Swimsuit)_Relationship_Up_4",
             "LocalizeJP": "次は、私が素敵なところに連れてってあげる！",

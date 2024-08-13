@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_In_1",
             "LocalizeJP": "はい、待ってマシタ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_In_2",
             "LocalizeJP": "…フフッ、分かりマシタ。行きマス！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_Select",
             "LocalizeJP": "…フフッ、私が必要デスよね。そうデスよね！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Defeat_1",
             "LocalizeJP": "やはりこういう時は、切腹しなきゃダメデスよネ…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Defeat_2",
             "LocalizeJP": "ワタシ、土下座だけはめっちゃ上手デス！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_In_1",
             "LocalizeJP": "センセイ、どんどん指示してクダサイ。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_In_2",
             "LocalizeJP": "いざ、尋常に勝負。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Victory_1",
             "LocalizeJP": "最高の判断デシタ。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Victory_2",
             "LocalizeJP": "さすがセンセイデス。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Buffed_1",
             "LocalizeJP": "ナイスな支援デス。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_BuffSelf_1",
             "LocalizeJP": "ワタシ、燃えてマス。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Damage_1",
             "LocalizeJP": "無念…。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Defense_1",
             "LocalizeJP": "くすぐったい攻撃デスね？",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_In_1",
             "LocalizeJP": "行きマスか、一緒に。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_In_2",
             "LocalizeJP": "始まりマシタね。行きまショウ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Move_1",
             "LocalizeJP": "次の相手はどこデスか？",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Move_2",
             "LocalizeJP": "止まらず前進デス。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Recovery_1",
             "LocalizeJP": "この恩は、全身全霊でお返しシマス。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Retire",
             "LocalizeJP": "クッ…。紙一重の差デシタか。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Shout_1",
             "LocalizeJP": "スキアリ！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Shout_3",
             "LocalizeJP": "発射！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_TacticalAction_1",
             "LocalizeJP": "移動シマス。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Victory_1",
             "LocalizeJP": "ヤッホー！例え天が許しても、フィーナが許しマセン！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Victory_2",
             "LocalizeJP": "ワオ！勝ちマシタ！本当に最高の戦闘デシタ！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Pina_CommonSkill",
             "LocalizeJP": "ふう、精神統一。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_1",
             "LocalizeJP": "ワタシ、本気で行きマス。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_2",
             "LocalizeJP": "覚悟した方がイイデスよ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_3",
             "LocalizeJP": "ワタシの銃が、熱く燃え上がってマス。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_1",
             "LocalizeJP": "警告はシマシタよ。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_2",
             "LocalizeJP": "炎のように乱射！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_3",
             "LocalizeJP": "撃ちまくります。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_1",
             "LocalizeJP": "センセイ、今日も熱く燃え上がりマスよ。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_2",
             "LocalizeJP": "胸の内側から熱く燃え上がる何か…。これは勇気デスか？そうジャナイなら…。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_3",
             "LocalizeJP": "センセイ。いや、シショウと呼んでもいいデスか？",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_4",
             "LocalizeJP": "今日のワタシは昨日のワタシよりさらに進化していマス。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_1",
             "LocalizeJP": "百鬼夜行の文化は面白いデス。美しくて 神秘的でドキドキシマス。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_2",
             "LocalizeJP": "センセイ、今後もご指導ご鞭撻のほどよろしくお願いシマス。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_3",
             "LocalizeJP": "センセイ。あなたに会えて幸せデス。昨日も今日も そして明日も。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16004,
+            "CharacterVoiceGroupId": 16004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_4",
             "LocalizeJP": "ここに来れて嬉しいデス。百鬼夜行の文化と友達と そしてセンセイに会えマシタから。",

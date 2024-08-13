@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Ako_Formation_In_1",
             "LocalizeJP": "お仕事ですね？はい、お任せください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Ako_Formation_In_2",
             "LocalizeJP": "シャーレとしての業務上の指示ということでしょうか？でしたら、仕方ありません。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Ako_CommonSkill",
             "LocalizeJP": "風紀委員会からの支給品です。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_1",
             "LocalizeJP": "判明している戦闘データを送ります。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_2",
             "LocalizeJP": "データはこれとこれと。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_3",
             "LocalizeJP": "風紀委員の情報収集能力お見せします。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_Level_1",
             "LocalizeJP": "分析完了、弱点は把握済みです。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_Level_2",
             "LocalizeJP": "後はお任せしますね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_Level_3",
             "LocalizeJP": "準備は万全ですから。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_1",
             "LocalizeJP": "先生からのご支援ありがたく頂戴しますね。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_2",
             "LocalizeJP": "成長していますね。自分でも、その…びっくりです。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_3",
             "LocalizeJP": "こういうことは気軽にすることではないでしょうに。何が狙いですか？何かして欲しいことでも？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_4",
             "LocalizeJP": "その…ありがとうございます、先生。 何ですか、その顔は？私だって何かをしてもらえば、感謝くらいします。まったく。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_1",
             "LocalizeJP": "あの？ちょっと距離が近くないですか？ いいえ、意識しているとかではなく。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_2",
             "LocalizeJP": "業務外での関係でもお望みなんですか ？そういうのは早いですよ…まだ…",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_3",
             "LocalizeJP": "これがどういう感情なのか、もう少し検討する時間をください。本当に少しでいいので。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20008,
+            "CharacterVoiceGroupId": 20008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_4",
             "LocalizeJP": "認めますよ、先生のことを嫌いだとは思っていません。で？それで？だったら何なんですか？",

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kirino_Formation_In_1",
             "LocalizeJP": "出動ですか？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kirino_Formation_In_2",
             "LocalizeJP": "準備完了です。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kirino_Formation_Select",
             "LocalizeJP": "ちょ、ちょ、ちょっと待ってください！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Defeat_1",
             "LocalizeJP": "正義は敗北…、しません！…うう。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Defeat_2",
             "LocalizeJP": "本官のミスです。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_In_1",
             "LocalizeJP": "市民の安全を最優先でいきましょう。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_In_2",
             "LocalizeJP": "犯罪者はどこですか",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_1",
             "LocalizeJP": "市民の皆さん、キヴォトスは今日も安全です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_2",
             "LocalizeJP": "今日もパトロールにご協力してくださって、ありがとうございます。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Buffed_1",
             "LocalizeJP": "ご支援感謝します。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_BuffSelf_1",
             "LocalizeJP": "本官が先陣を切ります。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Covered_1",
             "LocalizeJP": "隠れます。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Defense_1",
             "LocalizeJP": "抵抗しても無駄です！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_In_1",
             "LocalizeJP": "迅速に制圧します！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_In_2",
             "LocalizeJP": "犯罪者は許しません。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Move_1",
             "LocalizeJP": "ここはもう安全地帯になりました。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Move_2",
             "LocalizeJP": "次の区域へ移動しましょう。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Recovery_1",
             "LocalizeJP": "あ…、ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Retire",
             "LocalizeJP": "追加支援を…、要請します。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Shout_3",
             "LocalizeJP": "動くな。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TacticalAction_1",
             "LocalizeJP": "移動します。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TSA_1",
             "LocalizeJP": "ポーピ君1号、出動します。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TSA_2",
             "LocalizeJP": "警察です、後ろに下がってください！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_1",
             "LocalizeJP": "任務、完了しました。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_2",
             "LocalizeJP": "右、左…、ふう…。ここはもう安全です。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kirino_CommonSkill",
             "LocalizeJP": "くらえ。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_1",
             "LocalizeJP": "あなたには黙秘権があります！…う、うわあ！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_2",
             "LocalizeJP": "このキヴォトスでの犯罪は許されない…、わあ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_3",
             "LocalizeJP": "警告します、投降しなければ…、うわあ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_1",
             "LocalizeJP": "どうしよう、どうしよう…。えいや！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_2",
             "LocalizeJP": "こ、公権力を投入します。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_3",
             "LocalizeJP": "これでも、くらっちゃってください！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_1",
             "LocalizeJP": "ずっとこうやって努力していれば、いつか警備部への発令をいただけるのでしょうか？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_2",
             "LocalizeJP": "キヴォトスの安全のために、精進します。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_3",
             "LocalizeJP": "ふふ、今日はいい成果ですね。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_4",
             "LocalizeJP": "本官のために力を貸してくださって、ありがとうございます。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_1",
             "LocalizeJP": "さすが先生ですね。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_2",
             "LocalizeJP": "本官もいつか先生のような立派な大人になりたいです。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_3",
             "LocalizeJP": "本官はまったく…、これは業務に過ぎないのに、勘違いをするところでした。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 13012,
+            "CharacterVoiceGroupId": 13012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_4",
             "LocalizeJP": "先生と生徒が恋愛をするというのは、キヴォトスでは犯罪ではありません。…言いたいことはそれだけです。",

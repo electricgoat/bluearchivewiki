@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Moe_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "んで、今からどこを爆破するの～？",
+            "LocalizeJP": "んで、今からどこを爆破するの？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Moe_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "くひひ、待ってたよ～。",
+            "LocalizeJP": "くひひ……待ってたよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Moe_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "はぁ、はぁ…。本物のミサイルも大きくなったらいいのに…。",
+            "LocalizeJP": "はぁ、はぁ……\n本物のミサイルも大きくなったらいいのに……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "ああ、もっと補給があったなら…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "ごめん、ちょっと戦況を分析する。",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "うーん、久々に体を動かすかあ。",
+            "LocalizeJP": "んー！久々に体を動かすかぁ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "オペレーターを先頭に立たせるなんて、ひどいよねえ？",
+            "LocalizeJP": "オペレーターを先頭に立たせるなんて、ひどいよね～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "あれ、もう終わり？まだ爆弾残ってるのに？",
+            "LocalizeJP": "あれ？もう終わり？まだ爆弾残ってるのに？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Moe_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "くひひ…、この数で解決できないなら、もっともーっとたくさん用意すればいいってことだよねえ。",
+            "LocalizeJP": "くひひ……この数で解決できないなら\nもっとも～っとたくさん用意すればいいってことだよね？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "ああ、サンキュー。",
+            "LocalizeJP": "あ、サンキュー！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "援護をお願い。",
+            "LocalizeJP": "援護お願い。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "ま、待って。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "あまい、あますぎる。",
+            "LocalizeJP": "甘い……甘すぎる！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "くひひ。せっかくだし思いっきり撃ってみようか。",
+            "LocalizeJP": "くひひ……せっかくだし、思いっきり撃ってみようか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "はあ、この感覚…、たまんない。",
+            "LocalizeJP": "あぁ……この感覚、たまんない……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "こちら以上なし。",
+            "LocalizeJP": "こちら、異常なし。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "移動するよー。",
+            "LocalizeJP": "移動するよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "補給を確認。",
+            "LocalizeJP": "補給を確認！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "火力が…足りなかった？",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "クーリアー。",
+            "LocalizeJP": "クリア～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "いい！いい！最高過ぎる～。",
+            "LocalizeJP": "いい……いい……最高すぎる……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Moe_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "はぁ、はぁ、はち切れるー…。",
+            "LocalizeJP": "はぁ……はぁ……はち切れる……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Moe_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "水風船だからって、油断しちゃダメだよ。",
+            "LocalizeJP": "水風船だからって、油断しちゃダメだよ？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "目標の位置を確認、火力マックス！",
+            "LocalizeJP": "目標の位置を確認……火力MAX！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "こちらRABBIT3、攻撃を許可する。",
+            "LocalizeJP": "こちらRABBIT3。攻撃を許可する！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "ミサイル、ああ飛んでっちゃう！",
+            "LocalizeJP": "ミサイル……あぁっ……飛んでっちゃう！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "近い…、危険なくらい近いよ！",
+            "LocalizeJP": "近い……危険なくらい近いよ……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "α、マイク、フォックストロット！",
+            "LocalizeJP": "アルファ！マイク！フォックストロット！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Moe_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "素晴らしいよ…。",
+            "LocalizeJP": "素晴らしいよ……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Moe_(Swimsuit)_Growup_1",
-            "LocalizeJP": "なるほどなるほど、こことここを繋いだら…、おっきな爆発が…。",
+            "LocalizeJP": "なるほどなるほど……\nこことここを繋いだら、おっきな爆発が……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Moe_(Swimsuit)_Growup_2",
-            "LocalizeJP": "くひひ、これで思いっきり爆破できそう…。",
+            "LocalizeJP": "くひひ……これで思いっきり爆破できそう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Moe_(Swimsuit)_Growup_3",
-            "LocalizeJP": "大丈夫、完璧に理解したから～。",
+            "LocalizeJP": "大丈夫。完璧に理解したから～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Moe_(Swimsuit)_Growup_4",
-            "LocalizeJP": "はぁ、はぁ、燃える…、燃え盛っちゃう。",
+            "LocalizeJP": "はぁ、はぁ……燃える、燃え盛っちゃうぅ……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Moe_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "障害物があったらいつでも呼んで。綺麗に爆破してあげる！くひひ！",
+            "LocalizeJP": "障害物があったらいつでも呼んで。\n綺麗に爆破してあげる。くひひ……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Moe_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "いつか耐えきれないくらい追い詰められたら私を呼んで。どんな破滅でも付き合ってあげるからさ。",
+            "LocalizeJP": "いつか、耐えきれないくらい追い詰められたら、私を呼んで。\nどんな破滅でも付き合ってあげるからさ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Moe_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "先生を見ていると、破滅の境界があいまいになっちゃうんだよね…。困るなあ。",
+            "LocalizeJP": "先生を見てると\n破滅の境界が曖昧になっちゃうんだよねぇ。\n……困るなぁ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10097,
+            "CharacterVoiceGroupId": 10097,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Moe_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "ありがとう先生。おかげで人の心も爆弾みたいに爆発するって知っちゃったからさ。",
+            "LocalizeJP": "ありがと、先生。\nおかげで人の心も、爆弾みたいに爆発するって知っちゃったからさ。",
             "LocalizeEN": ""
         }
     ]

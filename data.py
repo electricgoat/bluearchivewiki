@@ -17,7 +17,7 @@ BlueArchiveData = collections.namedtuple(
     'recipes', 'recipes_ingredients', 
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization', 'localization', 
-    'character_dialog','character_dialog_event','character_dialog_standard','character_voice',
+    'character_dialog','character_dialog_event','character_dialog_standard','character_dialog_subtitle','character_voice','character_voice_subtitle',
     'levelskill','logiceffectdata',
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group', 'cafe_interaction', 
@@ -73,7 +73,9 @@ def load_data(path_primary, path_secondary, path_translation):
         character_dialog=           load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
         character_dialog_event=     load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json', match_id='OriginalCharacterId', aux_prefix='event'),
         character_dialog_standard=  load_character_dialog_standard(path_translation),
+        character_dialog_subtitle=  load_character_subtitle(path_primary, path_secondary, path_translation, 'CharacterDialogSubtitleExcelTable.json', match_id='CharacterId'),
         character_voice=            load_file_grouped(path_primary, 'CharacterVoiceExcelTable.json', key='CharacterVoiceGroupId'),
+        character_voice_subtitle=   load_character_subtitle(path_primary, path_secondary, path_translation, 'CharacterVoiceSubtitleExcelTable.json', match_id='CharacterVoiceGroupId'),
         levelskill =                load_levelskill(path_primary),
         logiceffectdata =           load_skill_logiceffectdata(path_primary),
         guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
@@ -304,23 +306,15 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
     data = []
     data_aux = []
 
-    file_path = os.path.join(path_primary, 'DB', filename)
-    if not os.path.exists(file_path): file_path = os.path.join(path_primary, 'Excel', filename)
-    with open(file_path, encoding="utf8") as f:
-        data_primary = orjson.loads(f.read())['DataList']
-
-    file_path = os.path.join(path_secondary, 'DB', filename)
-    if not os.path.exists(file_path): file_path = os.path.join(path_secondary, 'Excel', filename)
-    with open(file_path, encoding="utf8") as f:
-        data_secondary = orjson.loads(f.read())['DataList']
+    data_primary = load_generic(path_primary, filename, key=None)
+    data_secondary = load_generic(path_secondary, filename, key=None)
 
     for file in os.listdir(path_translation + '/audio/'):
         if not file.endswith('.json') or not file.startswith(aux_prefix):
             continue
 
         #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
-        with open(os.path.join(path_translation + '/audio/', file), encoding="utf8") as f:
-            data_aux += orjson.loads(f.read())['DataList']
+        data_aux += load_file(os.path.join(path_translation + '/audio/', file), key=None)
     
 
     for line in data_secondary:
@@ -340,6 +334,56 @@ def load_character_dialog(path_primary, path_secondary, path_translation, filena
 
         except KeyError:
             #print (f"Localization not found {dp[(line['CharacterId'], line['DialogCategory'], line['LocalizeJP'])]}")
+            line['LocalizeEN'] = ''
+            pass
+
+        data.append(line)
+
+    #Force aux lines into the list if they are missing there completely
+    for key, line in da.items():
+        if key not in dp: 
+            line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
+            line['LocalizeEN'] = line_cleanup(line['LocalizeEN'])
+            data.append(line)
+
+    return data
+
+
+def load_character_subtitle(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'standard'):
+    dp = {}
+    ds = {}
+    da = {}
+    data = []
+    data_aux = []
+
+    data_primary = load_generic(path_primary, filename, key=None)
+    data_secondary = load_generic(path_secondary, filename, key=None)
+
+    for file in os.listdir(path_translation + '/audio/'):
+        if not file.endswith('.json') or not file.startswith(aux_prefix):
+            continue
+
+        #print(f'Loading additional audio translations from {path_translation}/audio/{file}')
+        data_aux += load_file(os.path.join(path_translation + '/audio/', file), key=None)
+    data_aux = [x for x in data_aux if 'LocalizeCVGroup' in x and x['LocalizeCVGroup'] is not None] #ignore legacy non-subtitle entries
+
+    for line in data_secondary:
+        ds[(line[match_id], line['LocalizeCVGroup'])] = line 
+
+    for line in data_aux:
+        da[(line[match_id], line['LocalizeCVGroup'])] = line 
+
+    for line in data_primary:
+        dp[(line[match_id], line['LocalizeCVGroup'])] = line 
+        try: 
+            line['LocalizeJP'] = line_cleanup(line['LocalizeJP'])
+
+            if (line[match_id], line['LocalizeCVGroup']) in da: line['LocalizeEN'] = line_cleanup(da[(line[match_id], line['DialogCategory'])]['LocalizeEN'])
+            elif (line[match_id], line['LocalizeCVGroup']) in ds: line['LocalizeEN'] = line_cleanup(ds[(line[match_id], line['DialogCategory'])]['LocalizeEN'])
+            elif 'LocalizeEN' not in line: line['LocalizeEN'] = ''
+
+        except KeyError:
+            #print (f"Localization not found {dp[(line[match_id], line['LocalizeCVGroup'], line['LocalizeJP'])]}")
             line['LocalizeEN'] = ''
             pass
 

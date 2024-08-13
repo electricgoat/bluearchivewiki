@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_In_1",
             "LocalizeJP": "ひゃーっ！び、びっくりしたー……あ、今から出陣？了解～！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_In_2",
             "LocalizeJP": "ふふ……さあ、私の出番だねー！え、違う？合ってる？",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_Select",
             "LocalizeJP": "ドーモ、センセイ＝ドノ、ミチルです。さあご用命を！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Defeat_1",
             "LocalizeJP": "あーれーど、どうしてー！？な、なんでー！！",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Defeat_2",
             "LocalizeJP": "うわーん！爆発オチはいやー！！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_In_1",
             "LocalizeJP": "忍術研究部、始動！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_In_2",
             "LocalizeJP": "忍者の恐ろしさ、見せてあげるんだから……覚悟！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Victory_1",
             "LocalizeJP": "任務完了……ふっ、決まった……！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Victory_2",
             "LocalizeJP": "私たち忍術研究部にとって、これくらい朝飯前だよ！ちょろいちょろい！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Buffed_1",
             "LocalizeJP": "おぉ……何か強くなった気が……しないわけでもない！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_BuffSelf_1",
             "LocalizeJP": "よし、なんかいけそーな気がする！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Covered_1",
             "LocalizeJP": "隠れ身！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Damage_1",
             "LocalizeJP": "痛！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Damage_2",
             "LocalizeJP": "いったー！？",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Damage_3",
             "LocalizeJP": "はりゃぁ！？",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Defense_1",
             "LocalizeJP": "ははん！そんなの通じないよ！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_In_1",
             "LocalizeJP": "ふふーん！よーし、任務開始！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_In_2",
             "LocalizeJP": "うぅ……と、とりあえず始めよう！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Move_1",
             "LocalizeJP": "よし、次行こう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Move_2",
             "LocalizeJP": "もー、まだ続くの？",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Recovery_1",
             "LocalizeJP": "お助け感謝！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Retire",
             "LocalizeJP": "うわーん！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Shout_1",
             "LocalizeJP": "ほっ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Shout_2",
             "LocalizeJP": "てゃぁ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Shout_3",
             "LocalizeJP": "はぁっ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_TacticalAction_1",
             "LocalizeJP": "しゅばばばば！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Victory_1",
             "LocalizeJP": "どう？これぞ私たち忍術研究部の力なんだから！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Victory_2",
             "LocalizeJP": "うん、やっぱりミチル流忍術に死角なし！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Michiru_CommonSkill",
             "LocalizeJP": "とりあえず忍者グッズで精神力を回復……！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_1",
             "LocalizeJP": "ミ……ミチル流忍法！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_2",
             "LocalizeJP": "か、火遁の術……見せてあげる！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_3",
             "LocalizeJP": "忍術研究部の部長をなめるなー！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_1",
             "LocalizeJP": "うわぁ！あっつ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_2",
             "LocalizeJP": "忍法あっちちちちっ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_3",
             "LocalizeJP": "うぎゃぁ！あっつぅー！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_1",
             "LocalizeJP": "へ、これくれるの？私に？ふふ、やはり先生殿は見る目があるねー……なんちゃって。なはは！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_2",
             "LocalizeJP": "おー！これでますます強くー！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_3",
             "LocalizeJP": "えっとー、そのー……あ、ありが、とー……？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_4",
             "LocalizeJP": "ふふ、ついに私もここまできた！先生殿の期待に応えて、八面六臂の活躍を、ご覧に入れようぞー！",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_1",
             "LocalizeJP": "ひゃー！ちょ、近い、近いってー！距離感！ははぁ、心臓に悪い……",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_2",
             "LocalizeJP": "先生殿と一緒だと、なんだか、こんな私でも何でもできるんじゃないかって気持ちに……なにこれ、変なの",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_3",
             "LocalizeJP": "わっ、何この距離感！？からかってる？ドッキリ？べ、別に、いやってわけじゃないけどぉ？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16009,
+            "CharacterVoiceGroupId": 16009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_4",
             "LocalizeJP": "あ、近い……いや、いっそのことこっちから？そうだ、私の色仕掛けの術で……ってそんな恥ずかしいことできるかー！",

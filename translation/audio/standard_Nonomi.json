@@ -2,69 +2,89 @@
     "DataList": [
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Nonomi_Formation_In_1",
             "LocalizeJP": "はい、お任せください。",
-            "LocalizeEN": "yes please"
+            "LocalizeEN": "Yes, leave it to me."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Nonomi_Formation_In_2",
             "LocalizeJP": "ええ、先生をお手伝いします。",
-            "LocalizeEN": "The teacher will help you."
+            "LocalizeEN": "I will help you, Sensei."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Nonomi_Formation_Select",
             "LocalizeJP": "わあ、私を選んでくださるのですか？",
-            "LocalizeEN": "Wow, will you choose me?"
+            "LocalizeEN": "Wow, you are going to choose me?"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_Defeat_1",
             "LocalizeJP": "ちょっと無理みたい…。",
-            "LocalizeEN": "It seems a bit impossible."
+            "LocalizeEN": "It seems a bit impossible..."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_Defeat_2",
             "LocalizeJP": "惜しかったね…、次こそは絶対に。",
-            "LocalizeEN": "It was a pity, next time definitely."
+            "LocalizeEN": "That was close... Next time for sure."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_In_1",
             "LocalizeJP": "さあ皆さん、よろしくお願いします。",
-            "LocalizeEN": "Hello everyone."
+            "LocalizeEN": "Come on, everyone, please give your best wishes."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_In_2",
             "LocalizeJP": "うんうん、みんなで頑張りましょうね。",
-            "LocalizeEN": "Let's all do our best."
+            "LocalizeEN": "Yup yup! Let's all do our best."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_Victory_1",
             "LocalizeJP": "先生のおかげです。",
-            "LocalizeEN": "Thanks to my teacher."
+            "LocalizeEN": "It's all thanks to Sensei."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Nonomi_Tactic_Victory_2",
             "LocalizeJP": "最高の指揮でした。",
-            "LocalizeEN": "It was the best conducting."
+            "LocalizeEN": "Your conducting was the best."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
@@ -72,13 +92,17 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_BuffSelf_1",
             "LocalizeJP": "ではでは、いきましょうか。",
-            "LocalizeEN": "Well, let's go."
+            "LocalizeEN": "Well then, let's go."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Damage_1",
             "LocalizeJP": "うぅ…。",
@@ -86,13 +110,17 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Damage_2",
             "LocalizeJP": "おっとっと。",
-            "LocalizeEN": "Oops"
+            "LocalizeEN": "Oopsie."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,20 +128,26 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Defense_1",
             "LocalizeJP": "無駄ですよ～☆",
-            "LocalizeEN": "It's a waste☆"
+            "LocalizeEN": "It's no use!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_In_1",
             "LocalizeJP": "今日もファイト。",
-            "LocalizeEN": "Fight again today."
+            "LocalizeEN": "Let's fight today."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_In_2",
             "LocalizeJP": "最善を尽くします。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Move_1",
             "LocalizeJP": "次に行きましょう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Move_2",
             "LocalizeJP": "さあ、前進前進～。",
@@ -135,55 +173,71 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Recovery_1",
             "LocalizeJP": "わあ、最高。",
-            "LocalizeEN": "Best."
+            "LocalizeEN": "Wow, great!"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Retire",
             "LocalizeJP": "うう、ごめんなさい。",
-            "LocalizeEN": "sorry."
+            "LocalizeEN": "Ugh... I'm so sorry."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Shout_1",
             "LocalizeJP": "あ、髪が乱れちゃいました。",
-            "LocalizeEN": "My hair was a mess."
+            "LocalizeEN": "Oh, my hair got messed up."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Shout_2",
             "LocalizeJP": "うふ。では、真面目に行きますよ。",
-            "LocalizeEN": "Now let's get serious."
+            "LocalizeEN": "Now, let's get serious."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Shout_3",
             "LocalizeJP": "いいですよ。準備終わりました。",
-            "LocalizeEN": "OK. I'm ready."
+            "LocalizeEN": "OK. I'm ready to go."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_TacticalAction_1",
             "LocalizeJP": "よいしょ～☆",
-            "LocalizeEN": ""
+            "LocalizeEN": "Here we go!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Victory_1",
             "LocalizeJP": "ふふーん。最高の戦いでした。",
-            "LocalizeEN": "It was a great fight."
+            "LocalizeEN": "Hehee! It was a great fight!"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Nonomi_Battle_Victory_2",
             "LocalizeJP": "みんな、お疲れ様でした。",
@@ -191,83 +245,107 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Nonomi_CommonSkill",
             "LocalizeJP": "さてと～☆",
-            "LocalizeEN": "Well then."
+            "LocalizeEN": "Well now!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_1",
             "LocalizeJP": "うんうん、準備完了。",
-            "LocalizeEN": "Ready."
+            "LocalizeEN": "Yup, yup, I'm ready."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_2",
             "LocalizeJP": "ほら 私の番ですよ。",
-            "LocalizeEN": "Hara It's my turn."
+            "LocalizeEN": "Now it's my turn!"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_3",
             "LocalizeJP": "ノノミ～、行きまーす☆",
-            "LocalizeEN": "Nanami I'm going."
+            "LocalizeEN": "Nonomi, going all out!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_Level_1",
             "LocalizeJP": "お仕置きの時間ですよ☆",
-            "LocalizeEN": "It's skewer time."
+            "LocalizeEN": "It's punishment time!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_Level_2",
             "LocalizeJP": "全弾発射～☆",
-            "LocalizeEN": "Sendai launch"
+            "LocalizeEN": "Firing all bullets!☆"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Nonomi_ExSkill_Level_3",
             "LocalizeJP": "覚悟してくださいね？",
-            "LocalizeEN": "Please be prepared."
+            "LocalizeEN": "Please prepare yourself!"
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Nonomi_Growup_1",
             "LocalizeJP": "先生、いつも気にかけてくださって嬉しいです。",
-            "LocalizeEN": "Thank you for always taking care of me."
+            "LocalizeEN": "Thank you for always taking care of me, Sensei."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Nonomi_Growup_2",
             "LocalizeJP": "ふふ、一歩前進しました。",
-            "LocalizeEN": "One step forward."
+            "LocalizeEN": "Hehe, one step forward."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Nonomi_Growup_3",
             "LocalizeJP": "私、もっと頑張ります。",
-            "LocalizeEN": "I will do my best."
+            "LocalizeEN": "I will try my hardest."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Nonomi_Growup_4",
             "LocalizeJP": "今この瞬間には、成長してますから。",
-            "LocalizeEN": "I'm growing up in this moment"
+            "LocalizeEN": "I'm growing up at this very moment."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Nonomi_Relationship_Up_1",
             "LocalizeJP": "先生との距離がさらに近くなった気がします。",
@@ -275,24 +353,30 @@
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Nonomi_Relationship_Up_2",
             "LocalizeJP": "なんだか…、ドキドキします。",
-            "LocalizeEN": "I'm kind of excited."
+            "LocalizeEN": "I feel... kind of excited."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Nonomi_Relationship_Up_3",
             "LocalizeJP": "先生、見ていてください。私、一生懸命頑張りますから。",
-            "LocalizeEN": "Sensei, please watch. i will do my best"
+            "LocalizeEN": "Sensei, please watch me. I will do my best."
         },
         {
             "CharacterId": 13004,
+            "CharacterVoiceGroupId": 13004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Nonomi_Relationship_Up_4",
             "LocalizeJP": "はい、わかりました、先生。それでは……『アレ』、してあげましょうか。",
-            "LocalizeEN": "Yes, I understand, sir. Well then...shall we play ``Are<nowiki>''</nowiki> with you?"
+            "LocalizeEN": "Yes, I understand, Sensei. Well, then... Let's do the... \"thing\" together, shall we?"
         }
     ]
 }

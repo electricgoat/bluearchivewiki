@@ -3,7 +3,7 @@ import re
 
 
 class Dialog(object):
-    def __init__(self, character_id:int, character_costume_id:int, display_order:int, production_step:str, dialog_category:str, dialog_condition:str, anniversary:str, start_date:str, end_date:str, group_id:int, localize_kr:str, localize_jp:str, localize_en:str, voice_id:list[int], unlock_favor_rank:int, unlock_equip_weapon:bool, voice:list, character_wiki_name:str):
+    def __init__(self, character_id:int, character_costume_id:int, display_order:int, production_step:str, dialog_category:str, dialog_condition:str, anniversary:str, start_date:str, end_date:str, group_id:int, localize_kr:str, localize_jp:str, localize_en:str, localize_cvgroup:str, voice_id:list[int], unlock_favor_rank:int, unlock_equip_weapon:bool, voice:list, character_wiki_name:str):
         self.character_id = character_id
         self.character_costume_id = character_costume_id
         self.display_order = display_order
@@ -17,6 +17,7 @@ class Dialog(object):
         self.localize_kr = localize_kr
         self.localize_jp = localize_jp
         self.localize_en = localize_en
+        self.localize_cvgroup = localize_cvgroup
         self.voice_id:list = voice_id
         self.unlock_favor_rank:int = unlock_favor_rank
         self.unlock_equip_weapon:bool = unlock_equip_weapon
@@ -105,6 +106,7 @@ class Dialog(object):
             localize_kr = line.get('LocalizeKR', ''),
             localize_jp = line.get('LocalizeJP', ''),
             localize_en = line.get('LocalizeEN', ''),
+            localize_cvgroup = '',
             voice_id = line['VoiceId'],
             unlock_favor_rank = line.get('UnlockFavorRank', 0),
             unlock_equip_weapon = line.get('UnlockEquipWeapon', False),
@@ -132,6 +134,7 @@ class Dialog(object):
             localize_kr = voice.wiki_voice_clips[0] in localization and localization[voice.wiki_voice_clips[0]].get('LocalizeKR', '') or '',
             localize_jp = voice.wiki_voice_clips[0] in localization and localization[voice.wiki_voice_clips[0]].get('LocalizeJP', '') or '', 
             localize_en = voice.wiki_voice_clips[0] in localization and localization[voice.wiki_voice_clips[0]].get('LocalizeEN', '') or '',
+            localize_cvgroup = voice.wiki_voice_clips[0] in localization and localization[voice.wiki_voice_clips[0]].get('LocalizeCVGroup','') or '',
             voice_id = [],
             unlock_favor_rank = 0,
             unlock_equip_weapon = False,

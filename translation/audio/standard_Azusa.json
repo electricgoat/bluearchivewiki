@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Azusa_Formation_In_1",
             "LocalizeJP": "確認した。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Azusa_Formation_In_2",
             "LocalizeJP": "わかった。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Azusa_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_Defeat_1",
             "LocalizeJP": "戦略を間違えた。私のミスだ。ごめん。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_Defeat_2",
             "LocalizeJP": "力不足だった。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_In_1",
             "LocalizeJP": "敵と遭遇した。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_In_2",
             "LocalizeJP": "敵を発見、対処する。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_Victory_1",
             "LocalizeJP": "勝利。任務完了。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Azusa_Tactic_Victory_2",
             "LocalizeJP": "まだまだ大丈夫。他にもやることがあるなら任せて。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Buffed_1",
             "LocalizeJP": "ふむ。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_BuffSelf_1",
             "LocalizeJP": "覚悟しろ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Covered_1",
             "LocalizeJP": "遮蔽物を確保。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Damage_3",
             "LocalizeJP": "くそ、やられた。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Defense_1",
             "LocalizeJP": "無駄だ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_In_1",
             "LocalizeJP": "抗戦を開始する。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_In_2",
             "LocalizeJP": "戦闘に突入する。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Move_1",
             "LocalizeJP": "ターゲットを確認。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Move_2",
             "LocalizeJP": "ここはある程度片付いた。行こう。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Recovery_1",
             "LocalizeJP": "回復完了。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Retire",
             "LocalizeJP": "まさか、こんな…",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_TacticalAction_1",
             "LocalizeJP": "ポジションを移動する。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_TSA_1",
             "LocalizeJP": "戦術支援兵器到着。今から敵の殲滅作戦に入る。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_TSA_2",
             "LocalizeJP": "戦術支援兵器登場。タンクデサントを始める。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Victory_1",
             "LocalizeJP": "任務の遂行完了。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Azusa_Battle_Victory_2",
             "LocalizeJP": "まあ、当たり前の結果だ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Azusa_CommonSkill",
             "LocalizeJP": "ターゲット確認。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_1",
             "LocalizeJP": "ヴァニタスヴァニタートゥム、エトオムニアヴァニタス。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_2",
             "LocalizeJP": "ヴァニタスヴァニタートゥム",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_3",
             "LocalizeJP": "全てを無に帰し、徒労であると知れ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_Level_1",
             "LocalizeJP": "これで楽になるはず。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_Level_2",
             "LocalizeJP": "仕方ない。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Azusa_ExSkill_Level_3",
             "LocalizeJP": "これでもう大丈夫なはず。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Azusa_Growup_1",
             "LocalizeJP": "戦術遂行能力が上がった。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Azusa_Growup_2",
             "LocalizeJP": "強くなった。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Azusa_Growup_3",
             "LocalizeJP": "期待に応えられるようにする。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Azusa_Growup_4",
             "LocalizeJP": "成長した。ありがとう。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Azusa_Relationship_Up_1",
             "LocalizeJP": "こんな気持ち、想像してなかった。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Azusa_Relationship_Up_2",
             "LocalizeJP": "ううん、ありがとう。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Azusa_Relationship_Up_3",
             "LocalizeJP": "う、うん。気を使ってくれてありがとう。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10019,
+            "CharacterVoiceGroupId": 10019,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Azusa_Relationship_Up_4",
             "LocalizeJP": "ドキドキする。どうすればいいかわからない。",

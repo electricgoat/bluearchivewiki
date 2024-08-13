@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Iori_Formation_In_1",
             "LocalizeJP": "私に任せて。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Iori_Formation_In_2",
             "LocalizeJP": "それが命令なら。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Iori_Formation_Select",
             "LocalizeJP": "まぁ一応従うけど…しっかり頼むよ、先生。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_Defeat_1",
             "LocalizeJP": "諦めない…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_Defeat_2",
             "LocalizeJP": "ちっ、悔しい…。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_In_1",
             "LocalizeJP": "異議なし。出発する。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_In_2",
             "LocalizeJP": "殲滅させてやる！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_Victory_1",
             "LocalizeJP": "油断はしない。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_Victory_2",
             "LocalizeJP": "当たり前の結果だ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Buffed_1",
             "LocalizeJP": "サンキュー。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_BuffSelf_1",
             "LocalizeJP": "覚悟しろ！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Covered_1",
             "LocalizeJP": "準備完了。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Damage_1",
             "LocalizeJP": "くそ……",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Damage_2",
             "LocalizeJP": "負けたくない……！",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Damage_3",
             "LocalizeJP": "ありえない……！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Defense_1",
             "LocalizeJP": "",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_In_1",
             "LocalizeJP": "さあ、行くぞ！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_In_2",
             "LocalizeJP": "指示に従う。前進！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Move_1",
             "LocalizeJP": "さて、さっさと片付けよう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Move_2",
             "LocalizeJP": "次っ！",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Recovery_1",
             "LocalizeJP": "ありがたい。感謝する。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Retire",
             "LocalizeJP": "やられたか…くそっ！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Shout_2",
             "LocalizeJP": "遅い！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Shout_3",
             "LocalizeJP": "行くぞ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_TacticalAction_1",
             "LocalizeJP": "移動する。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Victory_1",
             "LocalizeJP": "これがゲヘナ風紀委員会の力だ。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Victory_2",
             "LocalizeJP": "私1人でも十分だった。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Iori_CommonSkill",
             "LocalizeJP": "くらえ！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_1",
             "LocalizeJP": "リロード完了。覚悟しろ！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_2",
             "LocalizeJP": "射程距離に入った、行くぞ！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_3",
             "LocalizeJP": "ゲヘナ風紀委員会のスナイパーを、舐めるな！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_Level_1",
             "LocalizeJP": "逃げても無駄だ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_Level_2",
             "LocalizeJP": "これでトドメだ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_Level_3",
             "LocalizeJP": "覚悟しろ、規則違反者どもめ！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_1",
             "LocalizeJP": "へぇー。確かに強くなった気分。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_2",
             "LocalizeJP": "これからも、大変な任務なら私に任せて。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_3",
             "LocalizeJP": "ベストを尽くして成果を得る…。当たり前のようだけど…叶うと本当にうれしい。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_4",
             "LocalizeJP": "ありがとう、先生。これからもよろしく。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_1",
             "LocalizeJP": "少しは頼れそうな先生になったかな…。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_2",
             "LocalizeJP": "ずっと、風紀委員会のことだけで頭がいっぱいだったけど…最近は少し、別のことに夢中になってる…。せ、先生じゃなくて！シャーレのことっ！",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_3",
             "LocalizeJP": "新しい任務が入った。一緒にそれを遂行して、……その、帰り道にちょっと、遊んでくるっていうのは、どう…？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10006,
+            "CharacterVoiceGroupId": 10006,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_4",
             "LocalizeJP": "きゅっ、急に近寄るなっ！なっなんでって…その…心の準備が必要だから！",

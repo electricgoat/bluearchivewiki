@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Atsuko_Formation_In_1",
             "LocalizeJP": "理解した。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Atsuko_Formation_In_2",
             "LocalizeJP": "確認完了。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Atsuko_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_Defeat_2",
             "LocalizeJP": "負けちゃった。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_In_1",
             "LocalizeJP": "攻撃開始。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_In_2",
             "LocalizeJP": "作戦開始。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_Victory_1",
             "LocalizeJP": "勝利。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Atsuko_Tactic_Victory_2",
             "LocalizeJP": "勝ったね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Buffed_1",
             "LocalizeJP": "支援を確認。ありがとう。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_BuffSelf_1",
             "LocalizeJP": "大丈夫。まだいける。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Covered_1",
             "LocalizeJP": "隠れてる。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Damage_3",
             "LocalizeJP": "私、狙われる価値があるんだ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Defense_1",
             "LocalizeJP": "無駄。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_In_1",
             "LocalizeJP": "",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_In_2",
             "LocalizeJP": "行こう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Move_1",
             "LocalizeJP": "移動する。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Move_2",
             "LocalizeJP": "前進。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Retire",
             "LocalizeJP": "ごめん。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_TacticalAction_1",
             "LocalizeJP": "そっちに行くね。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Victory_1",
             "LocalizeJP": "",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Atsuko_Battle_Victory_2",
             "LocalizeJP": "勝った。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Atsuko_CommonSkill",
             "LocalizeJP": "狙われてる。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_1",
             "LocalizeJP": "そっか。なるほど",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_2",
             "LocalizeJP": "これは私を。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_3",
             "LocalizeJP": "こうなってるんだね。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_Level_1",
             "LocalizeJP": "なら遠慮しない。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_Level_2",
             "LocalizeJP": "じゃあ、お願い。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_ExSkill_Level_3",
             "LocalizeJP": "これで役に立てるのなら、",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_Growup_1",
             "LocalizeJP": "私を大事にしてくれるその気持ちを、私も大切に思うね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_Growup_2",
             "LocalizeJP": "こんなことをしてもらえる価値なんて私にはないと思ってた。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_Growup_3",
             "LocalizeJP": "教えてくれたことはずっと覚えてるから。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_Growup_4",
             "LocalizeJP": "また一つ学べた。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_Relationship_Up_1",
             "LocalizeJP": "優しくしてくれるんだ。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_Relationship_Up_2",
             "LocalizeJP": "こうしてもらったものをいつか返せる日が来るのかな。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_Relationship_Up_3",
             "LocalizeJP": "こうしてもっと…あ！ううん、何でもない。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10042,
+            "CharacterVoiceGroupId": 10042,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_Relationship_Up_4",
             "LocalizeJP": "先生のおかげだよ。えっと、その…いろいろ。",

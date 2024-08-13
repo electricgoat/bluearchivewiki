@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_Formation_In_1",
-            "LocalizeJP": "今行く。",
+            "LocalizeJP": "今、行く。",
             "LocalizeEN": "I'm going now."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_Formation_In_2",
-            "LocalizeJP": "依頼なら…、やらなきゃね。",
+            "LocalizeJP": "依頼なら……やらなきゃね。",
             "LocalizeEN": "If it's a request, I have to do it."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふーん……。",
             "LocalizeEN": "Hmm..."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Defeat_1",
             "LocalizeJP": "ごめん。…ちょっと油断した。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Defeat_2",
             "LocalizeJP": "覚えときなよ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_In_1",
             "LocalizeJP": "行こう。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_In_2",
             "LocalizeJP": "それくらい、簡単なこと。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Victory_1",
             "LocalizeJP": "お疲れ、先生。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_Tactic_Victory_2",
             "LocalizeJP": "先生の選択が功を奏したね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Buffed_1",
             "LocalizeJP": "支援、受け取った。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_BuffSelf_1",
             "LocalizeJP": "本気で行くよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Covered_1",
             "LocalizeJP": "遮蔽物発見。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Damage_1",
             "LocalizeJP": "くそ…。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Defense_1",
             "LocalizeJP": "この程度？",
@@ -114,13 +146,17 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_In_1",
-            "LocalizeJP": "落ち着いて。作戦通りにやればいい。",
+            "LocalizeJP": "落ち着いて、作戦通りにやればいい。",
             "LocalizeEN": "Stay calm, just follow the plan."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_In_2",
             "LocalizeJP": "警戒を緩めないで。",
@@ -128,20 +164,26 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Move_1",
-            "LocalizeJP": "だいたい片付いたみたいだね。",
+            "LocalizeJP": "大体片付いたみたいだね。",
             "LocalizeEN": "It looks like it's almost sorted out."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Move_2",
-            "LocalizeJP": "次の目標はあっちだね。移動しよう。",
+            "LocalizeJP": "次の目標はあっちだね、移動しよう。",
             "LocalizeEN": "Looks like that's my next goal.\nLet's move"
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Recovery_1",
             "LocalizeJP": "ありがたくもらう。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Shout_2",
             "LocalizeJP": "行くよ。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Shout_3",
             "LocalizeJP": "くらって。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TacticalAction_1",
             "LocalizeJP": "フォーメーション変更。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TSA_1",
             "LocalizeJP": "はあ…、こんなことまでさせるなんて。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_TSA_2",
             "LocalizeJP": "はあ…、仕方ない。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Victory_1",
             "LocalizeJP": "相手が悪かったね。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_Battle_Victory_2",
             "LocalizeJP": "ウォームアップにもならない。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kayoko_CommonSkill",
             "LocalizeJP": "覚悟して。",
@@ -219,13 +281,17 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "はあ……。",
             "LocalizeEN": "Sigh..."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_2",
             "LocalizeJP": "仕方ないか。",
@@ -233,20 +299,26 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_Level_1",
-            "LocalizeJP": "この機を生かす。",
+            "LocalizeJP": "この機を活かす。",
             "LocalizeEN": "Take advantage of this opportunity."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_Level_2",
             "LocalizeJP": "これで戦況が変わるはず。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_ExSkill_Level_3",
             "LocalizeJP": "攻撃のタイミングを狙おう。",
@@ -261,34 +335,44 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_1",
-            "LocalizeJP": "あえて私を選ぶ なんて…、これが戦略的に正しい選択なら、いいんだけど。",
-            "LocalizeEN": "To deliberately choose me...\n\nIf this is the right choice strategically, Then, that's fine."
+            "LocalizeJP": "あえて私を選ぶなんて……\nこれが戦略的に正しい選択なら、いいんだけど。",
+            "LocalizeEN": "To deliberately choose me...\nIf this is the right choice strategically, Then, that's fine."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_2",
-            "LocalizeJP": "準備はこれでok、 次は私に任せて。",
+            "LocalizeJP": "準備はこれでOK。\n次は私に任せて。",
             "LocalizeEN": "Okay with the preparations, leave the rest to me."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_3",
-            "LocalizeJP": "期待に応えられるかどうかわからないけど。",
+            "LocalizeJP": "期待に応えられるかどうか分からないけど……。",
             "LocalizeEN": "I don't know if I can live up to expectations."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_Growup_4",
-            "LocalizeJP": "ありがとう先生。これからもよろしく。",
-            "LocalizeEN": "Thank you Sensei,\n\nLooking forward to working with you."
+            "LocalizeJP": "ありがとう、先生。\nこれからも……よろしく。",
+            "LocalizeEN": "Thank you Sensei,\nLooking forward to working with you."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_Relationship_Up_1",
             "LocalizeJP": "問題があったら、いつでも訪ねてくるといい。",
@@ -296,20 +380,26 @@
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_Relationship_Up_2",
-            "LocalizeJP": "便利屋は先生を歓迎するはず。…多分。",
+            "LocalizeJP": "便利屋は先生を歓迎するはず、多分。",
             "LocalizeEN": "Problem Solver should welcome Sensei... maybe."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_Relationship_Up_3",
-            "LocalizeJP": "先生の依頼ならいつでも歓迎だよ。",
+            "LocalizeJP": "先生の依頼なら、いつでも歓迎だよ。",
             "LocalizeEN": "Sensei's requests are always welcome."
         },
         {
             "CharacterId": 13005,
+            "CharacterVoiceGroupId": 13005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_Relationship_Up_4",
             "LocalizeJP": "先生と一緒に仕事ができてよかった。",

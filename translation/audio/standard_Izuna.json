@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_Formation_In_1",
             "LocalizeJP": "それが主殿のご命令であれば！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_Formation_In_2",
             "LocalizeJP": "イズナに何なりとご用命ください！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_Formation_Select",
             "LocalizeJP": "ニンニン！主殿、イズナは何をすればよいでしょうか？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_Defeat_1",
             "LocalizeJP": "ええっ！？任務失敗ですかぁ！？",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_Defeat_2",
             "LocalizeJP": "……ま、負けても忍者は泣きませんので！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_In_1",
             "LocalizeJP": "任務開始！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_In_2",
             "LocalizeJP": "イズナ流忍法！お見せします！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_Victory_1",
             "LocalizeJP": "任務成功！今日も忍びの者として、かんっぺきな働きができました。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_Victory_2",
             "LocalizeJP": "主殿に勝利を献上します！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Buffed_1",
             "LocalizeJP": "忍法、感謝の術！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_BuffSelf_1",
             "LocalizeJP": "忍法、身体強化の術！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Covered_1",
             "LocalizeJP": "隠れました！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Damage_1",
             "LocalizeJP": "いたっ！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Damage_2",
             "LocalizeJP": "きゃんっ！",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Damage_3",
             "LocalizeJP": "ひどいです。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Defense_1",
             "LocalizeJP": "イズナには通じません！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_In_1",
             "LocalizeJP": "イズナ、参ります！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_In_2",
             "LocalizeJP": "みなさん、イズナを信じてついてきてください！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Move_1",
             "LocalizeJP": "イズナ、移動します！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Move_2",
             "LocalizeJP": "次の作戦区域まで、忍者走りです！",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Retire",
             "LocalizeJP": "きゃんっ！め、目の前がぁ……ぐるぐるぅぅぅ～……。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Shout_1",
             "LocalizeJP": "やっ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Shout_2",
             "LocalizeJP": "はあっ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Shout_3",
             "LocalizeJP": "ニンニン！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_TacticalAction_1",
             "LocalizeJP": "サササッ！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Victory_1",
             "LocalizeJP": "イズナ流忍法の勝利です！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Victory_2",
             "LocalizeJP": "コンコン！勝利勝利♪",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Izuna_CommonSkill",
             "LocalizeJP": "行きます！手裏剣！えいっ！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_1",
             "LocalizeJP": "イズナ流忍法！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_2",
             "LocalizeJP": "忍術！お見せしましょう！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_3",
             "LocalizeJP": "やっ！空蝉の術！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_Level_1",
             "LocalizeJP": "緊急回避です！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_Level_2",
             "LocalizeJP": "これも忍術……みたいなものです！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_Level_3",
             "LocalizeJP": "躱してみせます！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_1",
             "LocalizeJP": "これでもっと難度の高い忍術が学べそうです！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_2",
             "LocalizeJP": "これもまた、主殿からのご恩のひとつですね！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_3",
             "LocalizeJP": "きっと！主殿の期待に応えられる忍者になってみせます！",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_4",
             "LocalizeJP": "以前よりもさらに高く！さらに速く！今のイズナは最強の忍者かもしれません、主殿！",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_1",
             "LocalizeJP": "主殿と一緒にいる時のこのドキドキは、使命感……でしょうか？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_2",
             "LocalizeJP": "主殿のお傍にいると……幸せな気分になります。これは……主君に仕える忍としての喜び……なのでしょうか……？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_3",
             "LocalizeJP": "なんなりとご命令ください！主殿の命を遂行するためにイズナはここにおりますので！",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10014,
+            "CharacterVoiceGroupId": 10014,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_4",
             "LocalizeJP": "イズナは、これまで主殿のような主君をずっと探していました。やっと……やっとお会いすることができました。今のイズナ、とっても幸せです。",

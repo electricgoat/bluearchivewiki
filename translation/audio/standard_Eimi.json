@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Eimi_Formation_In_1",
             "LocalizeJP": "新しい任務？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Eimi_Formation_In_2",
             "LocalizeJP": "いいよ、任せて。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Eimi_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Defeat_1",
             "LocalizeJP": "作戦失敗、再編成を。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Defeat_2",
             "LocalizeJP": "違う作戦に挑戦してみるのはどうかな。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_In_1",
             "LocalizeJP": "私の出番かな。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_In_2",
             "LocalizeJP": "みんなを制圧すればいいのか。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Victory_1",
             "LocalizeJP": "効率的な式だった、先生。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Victory_2",
             "LocalizeJP": "作戦終了。他に指示は？",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Buffed_1",
             "LocalizeJP": "支援、十分受け取った。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_BuffSelf_1",
             "LocalizeJP": "全力で行く。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Defense_1",
             "LocalizeJP": "無駄。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_In_1",
             "LocalizeJP": "戦闘開始。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_In_2",
             "LocalizeJP": "突入する。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Move_1",
             "LocalizeJP": "これで終わり？",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Move_2",
             "LocalizeJP": "次の敵はどこ？",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Recovery_1",
             "LocalizeJP": "ありがとう。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Retire",
             "LocalizeJP": "私はここまで。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Shout_2",
             "LocalizeJP": "照準。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Shout_3",
             "LocalizeJP": "打つ。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_TacticalAction_1",
             "LocalizeJP": "移動する。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Victory_1",
             "LocalizeJP": "結果が導き出せた？",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Victory_2",
             "LocalizeJP": "私たちの勝利。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Eimi_CommonSkill",
             "LocalizeJP": "敵発見！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_1",
             "LocalizeJP": "インタープリター起動。解析開始。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_2",
             "LocalizeJP": "コードを再解析。適用完了。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_3",
             "LocalizeJP": "パターン分析中。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_Level_1",
             "LocalizeJP": "ディフェンスモード転換",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_Level_2",
             "LocalizeJP": "苦しむのは慣れてる。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_Level_3",
             "LocalizeJP": "適用完了。もう大丈夫。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Eimi_Growup_1",
             "LocalizeJP": "これも戦闘に必要なことだよね。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Eimi_Growup_2",
             "LocalizeJP": "私にもっとたくさん教えて。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Eimi_Growup_3",
             "LocalizeJP": "どんな訓練をすればいいのかな。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Eimi_Growup_4",
             "LocalizeJP": "成長してる。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_1",
             "LocalizeJP": "先生になら私の背中を任せてもいい。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_2",
             "LocalizeJP": "私の銃に興味ある？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_3",
             "LocalizeJP": "先生の言うことは理解しやすいから 好き。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10001,
+            "CharacterVoiceGroupId": 10001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_4",
             "LocalizeJP": "先生を守ることが私の任務だから。",

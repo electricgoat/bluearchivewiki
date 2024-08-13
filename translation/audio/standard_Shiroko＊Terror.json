@@ -2,83 +2,107 @@
     "DataList": [
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko＊Terror_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "準備完了。手伝うね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko＊Terror_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、参戦する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Shiroko＊Terror_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "どうかしたの……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_Defeat_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "鈍ったかな……。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_Defeat_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "大丈夫……、また挑戦しよう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "敵を発見、指示をお願い。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "撃ってもいい？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、想定通り。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shiroko＊Terror_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生がいるんだもの。\n当然の結果。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_BuffSelf_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん……、一人でもできる。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,55 +128,71 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "くすぐったい。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、先頭に立つ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、付いてきて。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "次はどこ？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "自転車、持ってくればよかった……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Retire",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだ、足りないのに。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,55 +218,71 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "移動する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、もう安心して。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shiroko＊Terror_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "お疲れ様。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Shiroko＊Terror_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "これを出す時が来たね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これは……ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生？……ん、分かった。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "私に……？いいよ、任せて。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_1",
             "LocalizeJP": "",
@@ -226,76 +290,98 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_10",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_10",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、手に馴染む。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_11",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_11",
-            "LocalizeJP": "",
+            "LocalizeJP": "目標は前方。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_12",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_12",
-            "LocalizeJP": "",
+            "LocalizeJP": "火力支援、始める。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "本気でいくよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "手加減しない。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_4",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "また……、強くなった。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_5",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_5",
-            "LocalizeJP": "",
+            "LocalizeJP": "これも耐えられる。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_6",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_6",
-            "LocalizeJP": "",
+            "LocalizeJP": "体が軽くなった感じ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_7",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_7",
-            "LocalizeJP": "",
+            "LocalizeJP": "見せてあげる。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_8",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_8",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、もう少し頑張る。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_9",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shiroko＊Terror_ExSkill_Level_9",
             "LocalizeJP": "",
@@ -303,58 +389,74 @@
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko＊Terror_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私にくれるの？大切にするね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko＊Terror_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ん、大きくなったかも……。\n身長のことだよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko＊Terror_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "これは……\nん、たしかに受け取った。役に立てるよう努力する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Shiroko＊Terror_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう、先生。\nこれからも……よろしく。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko＊Terror_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生、肩……貸して。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko＊Terror_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生を手伝うことができて、良かった。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko＊Terror_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "えっと……どんな風に聞こえてしまうか分からないけど、\nその……先生と一緒にいると、なんだか落ち着く。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10100,
+            "CharacterVoiceGroupId": 10100,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shiroko＊Terror_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだ知らないこと、たくさんあるから……\nん、先生が色々教えて。",
             "LocalizeEN": ""
         }
     ]

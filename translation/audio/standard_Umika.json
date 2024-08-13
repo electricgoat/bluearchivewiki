@@ -2,97 +2,125 @@
     "DataList": [
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Umika_Formation_In_1",
             "LocalizeJP": "もしかして、どこかでお祭りが開催されるのでしょうか…！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Could it be that... there's a festival being held somewhere?"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Umika_Formation_In_2",
             "LocalizeJP": "最高のお祭りをご用意します。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm going to put together the best festival!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Umika_Formation_Select",
             "LocalizeJP": "うわっ！…もう先生、びっくりしたじゃないですか。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Uwa, Sensei...! That surprised me, you know?"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_Defeat_1",
             "LocalizeJP": "…私が、台無しにしてしまいました…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I... I ruined everything..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_Defeat_2",
             "LocalizeJP": "…すみません先生、私のせいで。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm sorry Sensei, it's my fault..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_In_1",
             "LocalizeJP": "私は、お祭りが始まる瞬間が一番楽しみなんです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "The best part about a festival is right when it starts!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_In_2",
             "LocalizeJP": "みんなが楽しむ姿は本当に素敵です。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I love it when everyone else is having fun!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_Victory_1",
             "LocalizeJP": "すごいお祭りでした。そう思いませんか？",
-            "LocalizeEN": ""
+            "LocalizeEN": "That was such an amazing festival! You think so, too, right?"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Umika_Tactic_Victory_2",
             "LocalizeJP": "終わりはどこか寂しくもありますが、また次のお祭りがありますから。",
-            "LocalizeEN": ""
+            "LocalizeEN": "There's always a pinch of loneliness at the end of a festival... but there's always another to look forward to!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Buffed_1",
             "LocalizeJP": "いつもありがとうございます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you as always!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_BuffSelf_1",
             "LocalizeJP": "私はこれからですよ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'm just getting started!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Covered_1",
             "LocalizeJP": "か、隠れますから。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I-I'm covered!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Damage_1",
             "LocalizeJP": "痛いです～。",
-            "LocalizeEN": ""
+            "LocalizeEN": "That hurt...!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,55 +137,71 @@
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Defense_1",
             "LocalizeJP": "きゃあ！ビックリしました。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Kya! That surprised me...!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_In_1",
             "LocalizeJP": "さあ皆さん、準備するものがいっぱいです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Alright everyone, there're lots of preparations to be made!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_In_2",
             "LocalizeJP": "一つずつ一つずつ。落ち着いてやっていきましょう。",
-            "LocalizeEN": ""
+            "LocalizeEN": "One step at a time. Let's do this levelheadedly!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Move_1",
             "LocalizeJP": "次の場所は…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Where to next..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Move_2",
             "LocalizeJP": "お祭りは続けますよ！",
-            "LocalizeEN": ""
+            "LocalizeEN": "The festival's not over yet!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Recovery_1",
             "LocalizeJP": "あ、ありがとうございます。",
-            "LocalizeEN": ""
+            "LocalizeEN": "T-Thank you!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Retire",
             "LocalizeJP": "うう、無理し過ぎちゃったみたいです…。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Uu... looks like I got overexcited..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,129 +227,165 @@
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_TacticalAction_1",
             "LocalizeJP": "あそこがよさそうです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "That seems like a good spot over there!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Victory_1",
             "LocalizeJP": "お神輿、パレード、食べ物、花火！お祭りはいつも最高ですね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Mikoshi, parades, food, fireworks...! Festivals are the greatest!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Umika_Battle_Victory_2",
             "LocalizeJP": "今回のお祭りもすごかったです。先生はいかがでしたか？",
-            "LocalizeEN": ""
+            "LocalizeEN": "The festival this time was great as always. What did you think, Sensei?"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Umika_CommonSkill",
             "LocalizeJP": "なら…、今ですね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "How about... now!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_1",
             "LocalizeJP": "点検点検、楽しいですね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Just a quick examination... how fun!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_2",
             "LocalizeJP": "うーん、ふむふむ。…いいですね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Hmm... mhm, mhm... looks good!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_3",
             "LocalizeJP": "どれどれ、…どうでしょう！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let's see here... isn't this great?"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_Level_1",
             "LocalizeJP": "さあ、ここです！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Over here!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_Level_2",
             "LocalizeJP": "この辺で花火を。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let's have some fireworks over here!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Umika_ExSkill_Level_3",
             "LocalizeJP": "ここがよさそうです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "It should be good here!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Umika_Growup_1",
             "LocalizeJP": "ふふふ、ありがとうございます先生。成長した分、もっと素敵なお祭りを準備できますよね！",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ehehe, thank you, Sensei! As I grow, I'll be able to plan even better festivals!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Umika_Growup_2",
             "LocalizeJP": "私はもっと成長できるはずです。お祭りのために、そして先生のために。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I should still have room for improvement. For festivals' sake, and for Sensei's."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Umika_Growup_3",
             "LocalizeJP": "なにか一歩進んだ感じがします。こういうのも…、いいですね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "It feels like I've taken a step forward. It's... a nice feeling."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Umika_Growup_4",
             "LocalizeJP": "どうですか、先生？私、成長できました？…それなら嬉しいです。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Well, Sensei? Did I improve? ...Really? I'm glad to hear that!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Umika_Relationship_Up_1",
             "LocalizeJP": "お祭り前日のときめきについて知ってますか？今まさにそんな気分です。うふふ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "You know how, the day before a festival starts, your heart beats with anticipation? That's... how I feel right now. Ehehe..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Umika_Relationship_Up_2",
             "LocalizeJP": "あの、先生？私は先生さえいらっしゃるなら、…あの、その。どんなお祭りでも準備できそうです！…うう、こんな言葉を言うつもりじゃなかったのに。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Um, Sensei? As long as I'm with you... um... well...! I... feel like I can organise any festival!\nOh... I... didn't mean to say that...!"
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Umika_Relationship_Up_3",
             "LocalizeJP": "たまに、こんなことを考えます。先生と一緒なら、毎日がお祭りみたいなんじゃないかなって。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Sometimes, I think about how, if I were with Sensei, every day would feel like a festival..."
         },
         {
             "CharacterId": 10090,
+            "CharacterVoiceGroupId": 10090,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Umika_Relationship_Up_4",
             "LocalizeJP": "あの、先生？色々伝えたい言葉はありますが、何より、その、ありがとうございます。本心です。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Um, Sensei? There's a lot I want to tell you, but... above all else... thank you so much. From the bottom of my heart."
         }
     ]
 }

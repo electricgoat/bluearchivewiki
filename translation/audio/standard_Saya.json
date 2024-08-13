@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Saya_Formation_In_1",
             "LocalizeJP": "ようやくぼく様の進化を発揮できる時が来たのだ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Saya_Formation_In_2",
             "LocalizeJP": "ふふ、ぼく様の活躍を期待してるといいのだ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Saya_Formation_Select",
             "LocalizeJP": "ちょっと待った、ぼく様に乱暴は許さないのだ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_Defeat_1",
             "LocalizeJP": "ご…、誤差が発生しただけなのだ。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_Defeat_2",
             "LocalizeJP": "こんな結果は許されないのだ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_In_1",
             "LocalizeJP": "新しい武器を実験する番だな。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_In_2",
             "LocalizeJP": "みんな、ハムスターは連れてきたか？行くのだ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_Victory_1",
             "LocalizeJP": "うっはっはっは。勝利！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saya_Tactic_Victory_2",
             "LocalizeJP": "うっはっはっは。当然の結果なのだ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Damage_1",
             "LocalizeJP": "なに？",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Damage_2",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Damage_3",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_In_1",
             "LocalizeJP": "実験を始めるのだ。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_In_2",
             "LocalizeJP": "行こう、ネズ助。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Recovery_1",
             "LocalizeJP": "その回復薬、気に入った。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Retire",
             "LocalizeJP": "ネズ助、お前だけでも。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Shout_1",
             "LocalizeJP": "",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Shout_2",
             "LocalizeJP": "くらえ。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Shout_3",
             "LocalizeJP": "",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Victory_1",
             "LocalizeJP": "予想通りの展開だったのだ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saya_Battle_Victory_2",
             "LocalizeJP": "なんだ、ひ弱そうな敵ばかりじゃん？つまんないのだ。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Saya_CommonSkill",
             "LocalizeJP": "実験記録001、観察開始。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_1",
             "LocalizeJP": "さあそれではぼく様の傑作を試してみようか。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_2",
             "LocalizeJP": "ふーふっふっふ、行ってらっしゃいなのだネズ助！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_3",
             "LocalizeJP": "この瞬間を待っていたのだ。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_Level_1",
             "LocalizeJP": "割れろ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_Level_2",
             "LocalizeJP": "広がれー！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saya_ExSkill_Level_3",
             "LocalizeJP": "これ一つで身動きできなくなるぞ。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_1",
             "LocalizeJP": "なんだこれ、ものすごい力を感じるのだ。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_2",
             "LocalizeJP": "グレードアップしたのだ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_3",
             "LocalizeJP": "ふーふっふっふ、もっと面白い実験ができそうだ。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Saya_Growup_4",
             "LocalizeJP": "もっと、もーっと強くなりたい。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_1",
             "LocalizeJP": "偉大なぼく様と仲良くなるチャンスなんて、先生にとってすっごいお得なことなのだ。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_2",
             "LocalizeJP": "ぼく様の研究は全て機密事項だけど、先生になら少しだけ見せてもいいのだ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_3",
             "LocalizeJP": "先生と一緒なら、どんな難題でも簡単に解決できそう。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 20002,
+            "CharacterVoiceGroupId": 20002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saya_Relationship_Up_4",
             "LocalizeJP": "もしかしてチーズすき？ 先生にもぼく様と同じものを好きでいて欲しいんだけど。",

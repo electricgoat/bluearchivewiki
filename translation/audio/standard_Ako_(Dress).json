@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Ako_(Dress)_Formation_In_1",
             "LocalizeJP": "ええ、行きましょうか。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Ako_(Dress)_Formation_In_2",
             "LocalizeJP": "私にお任せください。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Ako_(Dress)_Formation_Select",
             "LocalizeJP": "何か必要なものがありましたら、何なりとお申し付けください。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_Defeat_1",
             "LocalizeJP": "作戦、失敗ですって…！？一体、なにが…？",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_Defeat_2",
             "LocalizeJP": "うう、今回は失敗してしまいましたが…私は諦めません…！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_In_1",
             "LocalizeJP": "ええ、作戦を始めます。先生、指揮をお願いいたしますね。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_In_2",
             "LocalizeJP": "私が現場に直接出ましょう。先生はご支援をお願いいたします。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_Victory_1",
             "LocalizeJP": "おや、驚きました。先生の指揮が、まさかこれほどだったなんて。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Ako_(Dress)_Tactic_Victory_2",
             "LocalizeJP": "ええ、完璧な連携でした。うふふ、私も現場に出た甲斐がありました。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Buffed_1",
             "LocalizeJP": "ご支援ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_BuffSelf_1",
             "LocalizeJP": "さあ、活躍をお見せしましょう。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Covered_1",
             "LocalizeJP": "ふう、隠れましたよ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Defense_1",
             "LocalizeJP": "無駄です。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_In_1",
             "LocalizeJP": "うふふ、私の活躍をどうぞ目に焼き付けてくださいね。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_In_2",
             "LocalizeJP": "さあ、作戦遂行しますよ。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Move_1",
             "LocalizeJP": "さあ、行きましょうか？",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Move_2",
             "LocalizeJP": "次の会場へ…。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Recovery_1",
             "LocalizeJP": "あ…ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Retire",
             "LocalizeJP": "わ、私が至らなかったせいで…、申し訳ありません。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Shout_1",
             "LocalizeJP": "撃ちます。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_TacticalAction_1",
             "LocalizeJP": "次のポイントへ移動します。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Victory_1",
             "LocalizeJP": "うふふ、行政官に相応しい活躍でしたね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Ako_(Dress)_Battle_Victory_2",
             "LocalizeJP": "どうでしょう。私、頑張りましたよ。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Ako_(Dress)_CommonSkill",
             "LocalizeJP": "逃がしません。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_1",
             "LocalizeJP": "くっ、やはり、そうだったのですね。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_2",
             "LocalizeJP": "みなさん、ポジションについてください。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_3",
             "LocalizeJP": "危険因子を排除いたします。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_Level_1",
             "LocalizeJP": "包囲網にスキなどありません。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_Level_2",
             "LocalizeJP": "みなさん、確実に対処していきますよ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_(Dress)_ExSkill_Level_3",
             "LocalizeJP": "風紀委員会から逃れられると思っていたんですか？",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_(Dress)_Growup_1",
             "LocalizeJP": "変わらぬご支援、ありがとうございます。うふふ。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_(Dress)_Growup_2",
             "LocalizeJP": "また一歩、成長できました。頼りがいのある存在になれているのなら、本望です。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_(Dress)_Growup_3",
             "LocalizeJP": "あ…、ありがとうございます、先生。一応…、いつも感謝しているんですよ？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_(Dress)_Growup_4",
             "LocalizeJP": "また一歩前進です。成長した分、より完璧な先生の補佐をお約束いたします。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_(Dress)_Relationship_Up_1",
             "LocalizeJP": "また…ですか？…もう、その程度で慌てたりしませんからね？見ていてください！",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_(Dress)_Relationship_Up_2",
             "LocalizeJP": "あ…、い、いえ、別に同様などしていませんよ？全く。いつもより距離が近くても、全然…なんともないですから！",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_(Dress)_Relationship_Up_3",
             "LocalizeJP": "いつも気づいたらすっと人の懐に入っているんですよ、あなたという人は…。うう、ずるいです…、本当に…ずるいですよ…。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10087,
+            "CharacterVoiceGroupId": 10087,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_(Dress)_Relationship_Up_4",
             "LocalizeJP": "以前お伝えした通り…、別に先生のことを嫌っているわけではありません。あの言葉は、嘘偽りのない本心なんですよ？",

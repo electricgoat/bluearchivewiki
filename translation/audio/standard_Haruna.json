@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruna_Formation_In_1",
             "LocalizeJP": "私の出番ですわね。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruna_Formation_In_2",
             "LocalizeJP": "よろしくってよ！お任せください。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Haruna_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_Defeat_1",
             "LocalizeJP": "美食の道とはこんなにも厳しいものなのですのね。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_Defeat_2",
             "LocalizeJP": "困りましたわね。ここでこんな困難に遭遇するだなんて、",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_In_1",
             "LocalizeJP": "少しだけはしゃいでみましょうか。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_In_2",
             "LocalizeJP": "お相手して差し上げますわ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_Victory_1",
             "LocalizeJP": "うふふっ、祝勝のパーティーを開こうと思うのですが、御一緒しませんこと？",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Haruna_Tactic_Victory_2",
             "LocalizeJP": "あら、勝利ですわね。うふふっ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Buffed_1",
             "LocalizeJP": "あら？ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_BuffSelf_1",
             "LocalizeJP": "これはいかが？",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Covered_1",
             "LocalizeJP": "御免あそばせ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Defense_1",
             "LocalizeJP": "うふっ、無駄ですわ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_In_1",
             "LocalizeJP": "皆様、ご健闘をお祈りいたしますわ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_In_2",
             "LocalizeJP": "あらまぁ、お出ましですわね。盛大にお出迎えして差し上げましょう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Move_1",
             "LocalizeJP": "参りますわよ。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Move_2",
             "LocalizeJP": "前進いたしますわ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Recovery_1",
             "LocalizeJP": "恐縮ですわ。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Retire",
             "LocalizeJP": "お恥ずかしい…姿を…",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Shout_3",
             "LocalizeJP": "参ります。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_TacticalAction_1",
             "LocalizeJP": "ふぅん…",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Victory_1",
             "LocalizeJP": "ん～！このお味たまりませんわ。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Haruna_Battle_Victory_2",
             "LocalizeJP": "～～！勝利後のたい焼きは格別ですわね。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Haruna_CommonSkill",
             "LocalizeJP": "そちらですの？",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_1",
             "LocalizeJP": "うふふっ、参ります！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_2",
             "LocalizeJP": "優雅に参りましょうか！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_3",
             "LocalizeJP": "さぁ、準備はよろしくって？",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_Level_1",
             "LocalizeJP": "お覚悟はできていらっしゃるのかしら？",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_Level_2",
             "LocalizeJP": "スコヴィル値1000万級の激辛ですわ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Haruna_ExSkill_Level_3",
             "LocalizeJP": "突き抜ける優雅さで！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruna_Growup_1",
             "LocalizeJP": "あら、これは新しいお味ですわね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruna_Growup_2",
             "LocalizeJP": "あら……わたくしのためにここまでして下さるなんて。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruna_Growup_3",
             "LocalizeJP": "たまにはこういうのも悪くありませんわね。先生、私の成長きちんと見守っていてくださいね。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Haruna_Growup_4",
             "LocalizeJP": "ふふ……感謝いたしますわ。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruna_Relationship_Up_1",
             "LocalizeJP": "もう少し一緒にいていただきたいです。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruna_Relationship_Up_2",
             "LocalizeJP": "美味しいものをいただきたいですわね。できればご一緒に。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruna_Relationship_Up_3",
             "LocalizeJP": "先生と一緒でしたら、夢に見た至高の味を…見つけられるかもしれませんわね。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10002,
+            "CharacterVoiceGroupId": 10002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Haruna_Relationship_Up_4",
             "LocalizeJP": "先生とのお食事はいつも特別ですの。味とは関係なく……ですわ。",

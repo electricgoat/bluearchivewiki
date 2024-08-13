@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_Formation_In_1",
             "LocalizeJP": "分かりました。私が行きます。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_Formation_In_2",
             "LocalizeJP": "あ…はい。ベストを尽くします。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_Formation_Select",
             "LocalizeJP": "うーん…、あれ？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Defeat_1",
             "LocalizeJP": "う…、悔しい。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Defeat_2",
             "LocalizeJP": "申し訳ありません、私の力不足でした。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_In_1",
             "LocalizeJP": "引き受けたからにはしっかりとやります。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_In_2",
             "LocalizeJP": "落ち着いて…、前に進みましょう。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Victory_1",
             "LocalizeJP": "皆さん、お疲れ様でした。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Victory_2",
             "LocalizeJP": "クリアー。素晴らしいです！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Covered_1",
             "LocalizeJP": "ここに隠れます。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Damage_3",
             "LocalizeJP": "痛い…。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Defense_1",
             "LocalizeJP": "スレスレでした。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_In_1",
             "LocalizeJP": "パーティープレイの基本はチームワークですよ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_In_2",
             "LocalizeJP": "うーん、こういうのはお姉ちゃんの方が上手なんだけど。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Move_1",
             "LocalizeJP": "前進！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Move_2",
             "LocalizeJP": "早く帰ってゲームしたい。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Recovery_1",
             "LocalizeJP": "支援、感謝します。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Retire",
             "LocalizeJP": "うーん、もう少し落ち着いてできてれば…。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_TacticalAction_1",
             "LocalizeJP": "移動します。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_TSA_1",
             "LocalizeJP": "ここからは…、容赦しないから。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_TSA_2",
             "LocalizeJP": "覚悟して…。本気で行くよ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Victory_1",
             "LocalizeJP": "クリアー。次のステージに移動しましょう。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Victory_2",
             "LocalizeJP": "私たちの勝利です。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_1",
             "LocalizeJP": "はあ、負けた。…仕方ないね。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_2",
             "LocalizeJP": "少し悔しい。…さて、やってみようか。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_3",
             "LocalizeJP": "ふう…。約束は約束だから。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_1",
             "LocalizeJP": "恨みはないけど、覚悟して。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_2",
             "LocalizeJP": "ドットを打つように緻密に。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_3",
             "LocalizeJP": "連続射撃、行きます。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_1",
             "LocalizeJP": "絵も上手になりたいし…、もっと先生のお役にも立ちたいです。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_2",
             "LocalizeJP": "努力が報われるのは本当に嬉しいことです。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_3",
             "LocalizeJP": "もっと大人になりたいです。そしたらもっとみんなや…、先生の力になってあげられるはずだから。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_4",
             "LocalizeJP": "ありがとうございます、先生。これからも…、ベストを尽くします。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_1",
             "LocalizeJP": "先生はいつも優しいですね。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_2",
             "LocalizeJP": "これからもゲーム開発部といい思い出を作っていきましょう。…そして私とも…。な、何でもありません！",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_3",
             "LocalizeJP": "ゲームを作ったら、先生へ一番にお見せしたいです。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_4",
             "LocalizeJP": "たまには…、お姉ちゃんと一緒にではなく、私だけで先生を独占したいですね。あの…、て、手を繋いでもいいですか！",

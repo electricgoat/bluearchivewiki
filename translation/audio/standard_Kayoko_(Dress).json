@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_(Dress)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私の番だね。準備する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_(Dress)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "分かった。確実に遂行する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kayoko_(Dress)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生……？何……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "なるほど、分かったよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "これで全部ね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "どう？気に入ってくれた？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kayoko_(Dress)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "悪くない成果だね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "良い判断だね。ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "隠れる。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "無駄。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "やるからには、しっかりやるよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "大丈夫、準備はできてる。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "クリア。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "次。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふうっ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "お疲れ、みんな。あと、先生も。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kayoko_(Dress)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "良い指揮だったよ、先生。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kayoko_(Dress)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "見逃さない。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "想定通り。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "まぁ、こんなものかな。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "この程度？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これで終わり。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "見つけた。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "これも依頼だから。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_(Dress)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう、先生。\nやってもらった分、返さないとね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_(Dress)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "なんで私に、ここまで……\nいや、なんでもない。ありがとう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_(Dress)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "これじゃ、どっちが助けられてるか分からないね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kayoko_(Dress)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "……たしかに、受け取った。\n後悔はさせないから。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_(Dress)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがとう、先生。\nすごく良いね、これ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_(Dress)_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "大切にするよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_(Dress)_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生とこうしてると、このドレスもそんなに悪くない気がしてくる。不思議。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10088,
+            "CharacterVoiceGroupId": 10088,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kayoko_(Dress)_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "なんかちょっと……普段よりもらったときの感じが違う。\n格好のせいかな。",
             "LocalizeEN": ""
         }
     ]

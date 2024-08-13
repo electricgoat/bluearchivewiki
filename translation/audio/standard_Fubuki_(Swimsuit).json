@@ -2,108 +2,138 @@
     "DataList": [
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "美味しいから分けてあげるよ～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "美味しいから分けてあげるよ～",
+            "LocalizeEN": "I'll split it since it's so delicious~."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "うーんめんどくさい…。よし、これなら…。",
-            "LocalizeEN": ""
+            "LocalizeJP": "うぅ、めんどくさい……\n……よし、これなら！",
+            "LocalizeEN": "Hmph such a pain... Alright maybe this will work..."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "休みた～い…。あ、そうだ…。",
-            "LocalizeEN": ""
+            "LocalizeJP": "休みた～い……\nあ、そうだ！",
+            "LocalizeEN": "I wanna rest. Ah, that's right."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "何かいい方法は…。よし、これで完了。",
+            "LocalizeJP": "何かいい方法は……\n……よし！これで完了！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "終わったら、ドーナッツでも食べよっかな～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "終わったら、ドーナッツでも食べよっかな～",
+            "LocalizeEN": "Once we're finished, let's eat some donuts~."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "当たっても知らないからねー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "当たっても知らないからね～",
+            "LocalizeEN": "I dunno if I even hit it."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fubuki_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "まあ、別にこれでいいよね～。",
-            "LocalizeEN": ""
+            "LocalizeJP": "まぁ、別にこれでいいよね～",
+            "LocalizeEN": "Well, this should work right~."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Fubuki_(Swimsuit)_Growup_1",
-            "LocalizeJP": "えー？あんま頑張りたくないんだけど…。まあ、一応ありがたくもらうね。",
+            "LocalizeJP": "えぇ……あんま頑張りたくないんだけど……\nまぁ、一応ありがたく貰うね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Fubuki_(Swimsuit)_Growup_2",
-            "LocalizeJP": "え？本当にいいの？私そこまでやる気ないんだけど…。",
-            "LocalizeEN": ""
+            "LocalizeJP": "え？ほんとにいいの？\n私、そこまでやる気ないんだけど……",
+            "LocalizeEN": "Eh? Is it really okay? Even though I don't have that sort of motivation..."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Fubuki_(Swimsuit)_Growup_3",
-            "LocalizeJP": "その、ここまでしてくれなくても、先生がプールに入るときくらい、ちゃんと見守ってあげるからさ。",
+            "LocalizeJP": "その……ここまでしてくれなくても、\n先生がプールに入る時くらい、ちゃんと見守ってあげるからさ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Fubuki_(Swimsuit)_Growup_4",
-            "LocalizeJP": "気は進まないけど…、もらった分は仕事しなきゃだよね。…できれば、ドーナッツもくれたら嬉しいんだけど。",
+            "LocalizeJP": "気は進まないけど……もらった分は仕事しなきゃだよねぇ……\nできれば、ドーナッツもくれたら嬉しいんだけど……",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "サボってないよ～、ちゃんと仕事中。…目は動かしてるからさー。",
-            "LocalizeEN": ""
+            "LocalizeJP": "サボってないよ～ちゃんと仕事中。\n目は動かしてるからさ。",
+            "LocalizeEN": "I'm not slacking off~ I'm in the middle of work. 'cause my eyes are still moving."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "先生もプール気持ちいー？ほら、隣に座って一休みしよ。",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生もプール気持ちいい？\nほら、隣に座って一休みしよ。",
+            "LocalizeEN": "Does the pool feel good Sensei? Here, sit by me and we can rest."
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "どうせサボるなら…、先生といっしょにサボっていたいよね。へへ。",
+            "LocalizeJP": "どうせサボるなら……\n先生と一緒にサボっていたいよね、ふふ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20037,
+            "CharacterVoiceGroupId": 20037,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fubuki_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "ちょうどいいサイズの浮き輪…、流れるプール…。うーん、極楽。先生も一緒にどう？",
-            "LocalizeEN": ""
+            "LocalizeJP": "ちょうどいいサイズの浮き輪。流れるプール……う～ん極楽……先生も一緒にどう？",
+            "LocalizeEN": "A nicely sized floaty, flowing water in the pool... Mhmm this is paradise. How about we enjoy it together, sensei?"
         }
     ]
 }

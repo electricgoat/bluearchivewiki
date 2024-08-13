@@ -55,38 +55,38 @@ class Gallery(object):
 
     
     def wikitext(self, include_cargo = False):
-        if self.exclude_files == None:
-            self.exclude_files = compare_images(self.files)
-            if Gallery.flatlist(self.exclude_files): print(f"Excluding from {self.character_wikiname}: {Gallery.flatlist(self.exclude_files)}")
-
-        if len(self.files.keys()) == 1:
-            wikitext = self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description, include_cargo)
-        else:
-            #S2 is a second set of usually same faces for a sprite variant (no mask/hat etc), 
-            #display as a separate gallery within same section, or merge if first section has few images
-            first_gallery_size = len(list(self.files_exportable.values())[0])
-
-            if first_gallery_size > 2: 
-                wikitext = self.generate_gallery_wikitext(list(self.files_exportable.values())[0], Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description, include_cargo) + self.generate_gallery_wikitext(list(self.files_exportable.values())[1], [], None, None, include_cargo) #append second gallery
-            else: 
-                wikitext = self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files), self.character_wikiname, self.description, include_cargo) #make gallery merged
-        
-        return wikitext
-
-
-    def generate_gallery_wikitext(self, files: list, exclude_files: list, title, description = None, include_cargo = False):
-        wikitext = ""
-
-        if title is not None: wikitext += f"=={title}==\n"
-        if description is not None and description != '': wikitext += description+"\n"
+        wikitext = f"=={self.character_wikiname}==\n"
+        if self.description: wikitext += self.description+"\n"
         if include_cargo: 
             wikitext += "{{Sprite\n"
             for field, value in self.cargo_template.items():
                 wikitext += f"|{field} = {value}\n"
             wikitext += "}}\n"
 
-        if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
+        if self.exclude_files == None:
+            self.exclude_files = compare_images(self.files)
+            if Gallery.flatlist(self.exclude_files): print(f"Excluding from {self.character_wikiname}: {Gallery.flatlist(self.exclude_files)}")
 
+        if len(self.files.keys()) == 1:
+            wikitext += self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files))
+        else:
+            #S2 is a second set of usually same faces for a sprite variant (no mask/hat etc), 
+            #display as a separate gallery within same section, or merge if first section has few images
+            first_gallery_size = len(list(self.files_exportable.values())[0])
+
+            if first_gallery_size > 2: 
+                wikitext += self.generate_gallery_wikitext(list(self.files_exportable.values())[0], Gallery.flatlist(self.exclude_files)) + self.generate_gallery_wikitext(list(self.files_exportable.values())[1], []) #append second gallery
+            else: 
+                wikitext += self.generate_gallery_wikitext(Gallery.flatlist(self.files_exportable), Gallery.flatlist(self.exclude_files)) #make gallery merged
+        
+        return wikitext
+
+
+    def generate_gallery_wikitext(self, files: list, exclude_files: list):
+        wikitext = ""
+
+        if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
+        
         wikitext += "<gallery>\n" + "\n".join(files) + "\n</gallery>\n"
 
         return wikitext
@@ -273,7 +273,8 @@ def generate():
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
                 'CharacterName': gallery.character_name,
                 'CharacterVariant': gallery.variant,
-                'SpriteNames': ','.join([x.split(')',1)[-1].split('_',1)[-1].replace('.png', '') for x in Gallery.flatlist(gallery.files_exportable)])
+                'SpriteNames': ','.join([x.split(')',1)[-1].split('_',1)[-1].replace('.png', '') for x in Gallery.flatlist(gallery.files_exportable)]),
+                'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
 
 

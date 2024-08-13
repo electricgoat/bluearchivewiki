@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_Formation_In_1",
             "LocalizeJP": "遠慮は要りません。私にお任せください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_Formation_In_2",
             "LocalizeJP": "お待ちしておりました。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_Defeat_1",
             "LocalizeJP": "申し訳ございません。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_Defeat_2",
             "LocalizeJP": "少し休憩しましょう。そしてまた挑戦するのです。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_In_1",
             "LocalizeJP": "敵を発見。戦闘準備。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_In_2",
             "LocalizeJP": "出発します。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_Victory_1",
             "LocalizeJP": "お見事です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_Tactic_Victory_2",
             "LocalizeJP": "任務、遂行完了。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Buffed_1",
             "LocalizeJP": "支援、感謝します。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Covered_1",
             "LocalizeJP": "狙撃ポイント、確保しました。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Damage_3",
             "LocalizeJP": "なかなか。ですね。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Defense_1",
             "LocalizeJP": "ふふふ、未熟ですね。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_In_1",
             "LocalizeJP": "装填完了。これより敵を殲滅します。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_In_2",
             "LocalizeJP": "心は熱く、頭は冷静に。参ります。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Move_1",
             "LocalizeJP": "もっと、運動をした方が良いのかもしれませんね。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Move_2",
             "LocalizeJP": "クリア。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Recovery_1",
             "LocalizeJP": "美味しいですが、量が少し足りな…、ん、何でもありません。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Retire",
             "LocalizeJP": "覚悟が…足りなかったのでしょうか…",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Shout_1",
             "LocalizeJP": "発射！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Shout_2",
             "LocalizeJP": "行きます。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_TacticalAction_1",
             "LocalizeJP": "狙撃ポイントを変更します。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_TSA_1",
             "LocalizeJP": "行きます、インクィジターゼロ！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_TSA_2",
             "LocalizeJP": "お祈りの時間は残してあげましょう。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Victory_1",
             "LocalizeJP": "お疲れ様でした。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Victory_2",
             "LocalizeJP": "まだまだです。もっと精進します。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hasumi_CommonSkill",
             "LocalizeJP": "参ります。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_1",
             "LocalizeJP": "攻撃します。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_2",
             "LocalizeJP": "ターゲット発見。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_3",
             "LocalizeJP": "目標補足。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_1",
             "LocalizeJP": "逃しません。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_2",
             "LocalizeJP": "撃ち抜く！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_3",
             "LocalizeJP": "行きます。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_1",
             "LocalizeJP": "お気遣いありがとうございます、先生。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_2",
             "LocalizeJP": "強くなるにつれて、きちんと必要とされる人になれているのか、いつも悩んでおります。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_3",
             "LocalizeJP": "私にここまでのことを…、恐縮です。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_4",
             "LocalizeJP": "ありがとうございます。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_1",
             "LocalizeJP": "どうしてでしょうか…先生と一緒にいるといつもより緊張してしまいます。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_2",
             "LocalizeJP": "もし今この瞬間が夢だとしても、私一生の宝物にします。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_3",
             "LocalizeJP": "いつもそばにおりますから。私が必要な時はいつでもおっしゃってください。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 13003,
+            "CharacterVoiceGroupId": 13003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_4",
             "LocalizeJP": "いつも感謝しております。私も頑張らないとですね。",

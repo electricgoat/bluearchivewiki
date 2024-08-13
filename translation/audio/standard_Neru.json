@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Neru_Formation_In_1",
             "LocalizeJP": "はぁー、やるんだな。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Neru_Formation_In_2",
             "LocalizeJP": "面倒だけど、仕方ねえ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Neru_Formation_Select",
             "LocalizeJP": "あぁん？うざいんだよ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_Defeat_1",
             "LocalizeJP": "負けた？ちげーよ、まだ勝ってねえだけだ。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_Defeat_2",
             "LocalizeJP": "大丈夫だ、次は ぶっ壊して粉々にしてやっからよ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_In_1",
             "LocalizeJP": "へぇ、ここが今回の戦場か。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_In_2",
             "LocalizeJP": "逃げねえのは褒めてやる。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_Victory_1",
             "LocalizeJP": "こういう戦いはあたしの得意分野 だからな。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Neru_Tactic_Victory_2",
             "LocalizeJP": "はっ、先生思ったよりやるね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Buffed_1",
             "LocalizeJP": "別にいらねえってのに。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_BuffSelf_1",
             "LocalizeJP": "イライラさせやがって。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Covered_1",
             "LocalizeJP": "よし、行くぞ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Damage_1",
             "LocalizeJP": "くそっ",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Damage_2",
             "LocalizeJP": "めんどくせーな。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Defense_1",
             "LocalizeJP": "そんなもんかよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_In_1",
             "LocalizeJP": "てめえら ぶっ壊しに行くぞ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_In_2",
             "LocalizeJP": "コールサイン ダブルオー、掃除を始める。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Move_1",
             "LocalizeJP": "大方片付いたな、次。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Move_2",
             "LocalizeJP": "ちったぁ暴れ甲斐があるじゃねえか。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Recovery_1",
             "LocalizeJP": "へえ、なかなかセンスあるじゃねえか。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Retire",
             "LocalizeJP": "みっとも…ねえ。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Shout_2",
             "LocalizeJP": "はっ！行くぞ。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Shout_3",
             "LocalizeJP": "オラオラァ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_TacticalAction_1",
             "LocalizeJP": "はっ！そっちか！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Victory_1",
             "LocalizeJP": "てめえらの最大のミスはあたしの行く手を塞いだってことだ。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Neru_Battle_Victory_2",
             "LocalizeJP": "清掃完了だ。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Neru_CommonSkill",
             "LocalizeJP": "あ？殺されてぇのか。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_1",
             "LocalizeJP": "あぁん？ぶっ殺すぞ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_2",
             "LocalizeJP": "ふざけてんのか。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_3",
             "LocalizeJP": "なめんな。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_Level_1",
             "LocalizeJP": "オラオラオラオラァ！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_Level_2",
             "LocalizeJP": "戦う相手を間違えたな。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Neru_ExSkill_Level_3",
             "LocalizeJP": "ゴミは掃除しなきゃな。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Neru_Growup_1",
             "LocalizeJP": "ははっ、先生いい選択だな、期待してろよ。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Neru_Growup_2",
             "LocalizeJP": "へえ、いい感じじゃねえか。何でも任せろ。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Neru_Growup_3",
             "LocalizeJP": "いやー、ウキウキするな。始めようぜ先生。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Neru_Growup_4",
             "LocalizeJP": "先生、自信を持て あたしがそばにいるからよ。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Neru_Relationship_Up_1",
             "LocalizeJP": "うわぁ、あんまり近づくな。ぶっ殺すぞ、ぶっ殺すっての！",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Neru_Relationship_Up_2",
             "LocalizeJP": "あのさ、先生が来てくれて悪くない気分だよ。あぁ、今のあたし、何言ってんだ。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Neru_Relationship_Up_3",
             "LocalizeJP": "なんでだろう、先生に会うと変な気分になるんだよな。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10008,
+            "CharacterVoiceGroupId": 10008,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Neru_Relationship_Up_4",
             "LocalizeJP": "ありがとな先生、先生がいてくれてよかった。",

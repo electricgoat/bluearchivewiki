@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Toki_Formation_In_1",
             "LocalizeJP": "それでは、始めます。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Toki_Formation_In_2",
             "LocalizeJP": "立ちふさがる全てを排除しましょう。それが私の仕事です。 ",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Toki_Formation_Select",
             "LocalizeJP": "なるほど…、これが例の…。 ",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Defeat_1",
             "LocalizeJP": "敗因は、一体……。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Defeat_2",
             "LocalizeJP": "申し訳ありません、先生。 ",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_In_1",
             "LocalizeJP": "できることをするまでです。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_In_2",
             "LocalizeJP": "指示をどうぞ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Victory_1",
             "LocalizeJP": "勝利しました。 ヤッホー。 いかがでしょうか?",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Victory_2",
             "LocalizeJP": "任務完了です。…ご満足いただけましたか?",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Buffed_1",
             "LocalizeJP": "助かりました。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_BuffSelf_1",
             "LocalizeJP": "勝利への一歩。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Covered_1",
             "LocalizeJP": "ブロックします。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Defense_1",
             "LocalizeJP": "それで終わりですか？",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_In_1",
             "LocalizeJP": "命令を遂行します。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_In_2",
             "LocalizeJP": "仰せのままに。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Move_1",
             "LocalizeJP": "移動します。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Move_2",
             "LocalizeJP": "次の地域はどこですか?",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Retire",
             "LocalizeJP": "くっ…、そんな。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_TacticalAction_1",
             "LocalizeJP": "次へ参ります。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Victory_1",
             "LocalizeJP": "先生、見てますか？ピース、ピース。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Victory_2",
             "LocalizeJP": "次へ進みましょう。VV。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Toki_CommonSkill",
             "LocalizeJP": "行きます。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_CommonSkill_2",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Toki_CommonSkill_2",
             "LocalizeJP": "",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_1",
             "LocalizeJP": "アビ・エシュフ、移行。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_2",
             "LocalizeJP": "座標を送信します。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_3",
             "LocalizeJP": "パワードスーツ、起動。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_4",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_4",
             "LocalizeJP": "これが私の、全力！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_5",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_5",
             "LocalizeJP": "目標確認。 ロックオン！ ",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_6",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_6",
             "LocalizeJP": "アビ・エシュフ、殲滅モード！ ",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_1",
             "LocalizeJP": "装着完了。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_2",
             "LocalizeJP": "戦闘を開始します。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_3",
             "LocalizeJP": "全力で参ります。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_4",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_4",
             "LocalizeJP": "",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_5",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_5",
             "LocalizeJP": "発射！",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_6",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_6",
             "LocalizeJP": "ファイヤー!",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_1",
             "LocalizeJP": "まだ完全、とは言えませんが、より一層完璧に近づきました。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_2",
             "LocalizeJP": "これで、より先生の補佐が捗ります。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_3",
             "LocalizeJP": "ありがとうございます、先生。期待に応えられるよう、尽力します。",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_4",
             "LocalizeJP": "私を信じてくださったこと、感謝します。C&Cの名に恥じぬよう、努めます。",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_1",
             "LocalizeJP": "先生との絆がさらに深まりましたね。\nええ、ですから、先生はもっと私のことを見てくださいね。",
@@ -331,6 +425,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_2",
             "LocalizeJP": "絆とは、人と人の間に結ばれる特別な関係と言われています。つまり、先生が私の特別な方になった、ということです。",
@@ -338,6 +434,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_3",
             "LocalizeJP": "こう見えても、私の中で様々な感情が渦巻いているのです。ですから先生、同じだけの感情を返してくださいね。",
@@ -345,6 +443,8 @@
         },
         {
             "CharacterId": 10062,
+            "CharacterVoiceGroupId": 10062,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_4",
             "LocalizeJP": "互いに思いを分け合うというのは、こういうこと……ですね。\n黙らないでください、恥ずかしいではないですか。",

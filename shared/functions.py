@@ -13,7 +13,7 @@ def colorize(text:str):
     else: return ''
 
 def nl2br(text:str):
-    if len(text): return text.replace('\n','<br>')
+    if len(text): return text.replace('\n\n','<br>').replace('\n','<br>')
     else: return ''
 
 

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Saki_(Swimsuit)_Formation_In_1",
             "LocalizeJP": "今回の任務は水中戦か。うまくできるだろうか…。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Saki_(Swimsuit)_Formation_In_2",
             "LocalizeJP": "山岳戦も海上戦も、私達SRTに死角はない！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Saki_(Swimsuit)_Formation_Select",
             "LocalizeJP": "ちょ、危険だから作戦中は近づくな！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "へ、平気だ。退却も立派な戦術だからな。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "何が問題だったんだ？…計画は完璧だったのに。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_In_1",
             "LocalizeJP": "ここは私が先導する！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_In_2",
             "LocalizeJP": "捜索開始。奇襲に注意し、前進する。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_Victory_1",
             "LocalizeJP": "ああ、作戦通りの勝利だな！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saki_(Swimsuit)_Tactic_Victory_2",
             "LocalizeJP": "やはり、教範は嘘をつかない！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Buffed_1",
             "LocalizeJP": "おお、力がみなぎる。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Defense_1",
             "LocalizeJP": "こっちは防弾だからな！",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_In_1",
             "LocalizeJP": "戦闘開始！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_In_2",
             "LocalizeJP": "抗戦開始！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Move_1",
             "LocalizeJP": "次、行くぞ！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Move_2",
             "LocalizeJP": "目標に向かって前進！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Recovery_1",
             "LocalizeJP": "助かる。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "私の、ミスのせいで、…チームの足手まといに。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_TacticalAction_1",
             "LocalizeJP": "クリアー！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Victory_1",
             "LocalizeJP": "敵を知り、己を知れば、百戦危うからず。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saki_(Swimsuit)_Battle_Victory_2",
             "LocalizeJP": "この程度、SRT特殊隊員にとっては朝飯前だ！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Saki_(Swimsuit)_CommonSkill",
             "LocalizeJP": "構えろ、撃て！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_1",
             "LocalizeJP": "（ふふ、ああ…、いい景色だ。）",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_2",
             "LocalizeJP": "（水中作戦は私に任せてくれ。）",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_3",
             "LocalizeJP": "（これだからダイビングはやめられない。）",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "フォックストロット、投下。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_Level_2",
             "LocalizeJP": "あっちだ。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saki_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "こいつは痛いぞ。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_(Swimsuit)_Growup_1",
             "LocalizeJP": "例え場所が変わったとしても、訓練をないがしろにはできないからな。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_(Swimsuit)_Growup_2",
             "LocalizeJP": "今日流した汗が、明日の勝利につながると信じている。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_(Swimsuit)_Growup_3",
             "LocalizeJP": "別に自慢ではないが…、私ちょっと強くなったかも。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Saki_(Swimsuit)_Growup_4",
             "LocalizeJP": "（これで少しは…、先輩たちに近づいたかな。）",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_(Swimsuit)_Relationship_Up_1",
             "LocalizeJP": "まあ先生なら、どんな命令を出されてもいいか。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_(Swimsuit)_Relationship_Up_2",
             "LocalizeJP": "無様な姿は見せたくない。…先生の前では特に。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_(Swimsuit)_Relationship_Up_3",
             "LocalizeJP": "これは…、その、いつも助けてくれるお礼というか。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10072,
+            "CharacterVoiceGroupId": 10072,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saki_(Swimsuit)_Relationship_Up_4",
             "LocalizeJP": "困ったことがあればいつでも呼んでくれ。SRTのことじゃなくても…、な。",

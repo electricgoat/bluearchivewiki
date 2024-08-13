@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_Formation_In_1",
             "LocalizeJP": "はぁ…しょうがない。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_Formation_In_2",
             "LocalizeJP": "準備はできてる。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_Formation_Select",
             "LocalizeJP": "いいわ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_Defeat_1",
             "LocalizeJP": "油断したの？",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_Defeat_2",
             "LocalizeJP": "私らしくないミスを…。ごめん、先生。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_In_1",
             "LocalizeJP": "めんどくさいけど。まぁ、やらなきゃいけないことだから。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_In_2",
             "LocalizeJP": "先生の指示に従う。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_Victory_1",
             "LocalizeJP": "これくらいの任務、別に何ともない。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_Tactic_Victory_2",
             "LocalizeJP": "簡単な仕事だったけど。まぁお疲れ様、先生。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Buffed_1",
             "LocalizeJP": "支援を確認した。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_BuffSelf_1",
             "LocalizeJP": "覚悟して。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Damage_1",
             "LocalizeJP": "まったく…。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Damage_2",
             "LocalizeJP": "良くないなぁ。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Defense_1",
             "LocalizeJP": "無駄。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_In_1",
             "LocalizeJP": "戦闘突入。極力早く侵入する。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_In_2",
             "LocalizeJP": "さあ、行こう。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Move_1",
             "LocalizeJP": "はぁ…めんどくさい。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Move_2",
             "LocalizeJP": "もう…やってもやっても終わらない。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Recovery_1",
             "LocalizeJP": "よし、回復した。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Retire",
             "LocalizeJP": "全く…どこで間違えたのか。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Shout_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Supply",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Supply",
             "LocalizeJP": "補給確認。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_TacticalAction_1",
             "LocalizeJP": "移動する。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_TSA_1",
             "LocalizeJP": "風紀委員会の6号戦車。この威力を今こそ試す時。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_TSA_2",
             "LocalizeJP": "これで戦況はこっちに傾いた。もう諦めて。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Victory_1",
             "LocalizeJP": "ええ。当然の結果ってわけ。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_Battle_Victory_2",
             "LocalizeJP": "勝利よ。次は何をしたらいい？",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hina_CommonSkill",
             "LocalizeJP": "行こう。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_1",
             "LocalizeJP": "実力行使で行く。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_2",
             "LocalizeJP": "こいつの出番。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_3",
             "LocalizeJP": "ターゲットは確認した。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_Level_1",
             "LocalizeJP": "どれくらい耐えられるか見ものね。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_Level_2",
             "LocalizeJP": "逃げることはできない。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_ExSkill_Level_3",
             "LocalizeJP": "逃さない。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_Growup_1",
             "LocalizeJP": "より強くなった。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_Growup_2",
             "LocalizeJP": "まだ成長できるんだ。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_Growup_3",
             "LocalizeJP": "この力は先生のために使う。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_Growup_4",
             "LocalizeJP": "気にしてくれてありがとう。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_Relationship_Up_1",
             "LocalizeJP": "こんな私でもいいの？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_Relationship_Up_2",
             "LocalizeJP": "一緒にいてくれて、ありがとう…先生。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_Relationship_Up_3",
             "LocalizeJP": "こんな時はどうすればいいのかよくわからなくて…ごめん。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10004,
+            "CharacterVoiceGroupId": 10004,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_Relationship_Up_4",
             "LocalizeJP": "このぬくもり…先生の温かさが伝わってきてるのかな…。",

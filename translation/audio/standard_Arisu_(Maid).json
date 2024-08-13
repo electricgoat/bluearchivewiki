@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_GeasGet_1",
             "LocalizeJP": "先生、スコア更新を目指しましょう。アリスが隣で応援してます！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Select_1",
             "LocalizeJP": "パンパカパーン。先生がアリスたちのゲームを遊びに来ました！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Select_2",
             "LocalizeJP": "ようこそ、先生。ゲームを開始するにはアリスの隣に座ってください！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Select_3",
             "LocalizeJP": "ここはアリスが作った部分です！はい！アリスの自信作です！",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Shout_1",
             "LocalizeJP": "",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Shout_2",
             "LocalizeJP": "アリス、攻撃します！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Shout_3",
             "LocalizeJP": "",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Start_1",
             "LocalizeJP": "パンパカパーン。アリス、行きます！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Arisu_(Maid)_MiniGame_Start_2",
             "LocalizeJP": "はい。メイド勇者、出撃します！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_In_1",
             "LocalizeJP": "メイドのアリスです。よろしくお願いします！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_In_2",
             "LocalizeJP": "今日のアリスの役割は…、光属性の単体アタッカーです！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_Select",
             "LocalizeJP": "うーん、この新スキン…、まだ慣れません……。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_Defeat_1",
             "LocalizeJP": "メイドレベルが足りませんでした…。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_Defeat_2",
             "LocalizeJP": "アリスは諦めません…。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_In_1",
             "LocalizeJP": "クエスト開始、アリス、行きます！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_In_2",
             "LocalizeJP": "アリスはメイド勇者になります！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_Victory_1",
             "LocalizeJP": "やりました。先生、褒めてください！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_Victory_2",
             "LocalizeJP": "お掃除クエスト、完了です！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Buffed_1",
             "LocalizeJP": "バフをもらいました！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_BuffSelf_1",
             "LocalizeJP": "パワーアップです。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Covered_1",
             "LocalizeJP": "アリス、隠れます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Damage_2",
             "LocalizeJP": "イタタ。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Damage_3",
             "LocalizeJP": "痛いです。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Defense_1",
             "LocalizeJP": "回避します。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_In_1",
             "LocalizeJP": "メイドパワーでお掃除していきます。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_In_2",
             "LocalizeJP": "ジョブチェンジしても、アリスに変わりはありません。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Move_1",
             "LocalizeJP": "アリス、お掃除を続けます。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Move_2",
             "LocalizeJP": "移動します！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Recovery_1",
             "LocalizeJP": "HPが回復しました！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Retire",
             "LocalizeJP": "HPバーが赤いです！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Shout_2",
             "LocalizeJP": "狙撃、開始します！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_TacticalAction_1",
             "LocalizeJP": "目標に向かいます。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Victory_1",
             "LocalizeJP": "作戦成功。流石です、先生！",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Victory_2",
             "LocalizeJP": "ミッションコンプリート。アリスの好きなセリフです！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Arisu_(Maid)_CommonSkill",
             "LocalizeJP": "キュッキュッ…。よし！",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_1",
             "LocalizeJP": "お掃除お掃除～。…あ！準備完了です！",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_2",
             "LocalizeJP": "お掃除タイム～。…ん？いけます！",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_3",
             "LocalizeJP": "よいしょ、よいしょ。…あれ？頑張ります！",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_Level_1",
             "LocalizeJP": "ターゲット、ロックオン。…光よ！",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_Level_2",
             "LocalizeJP": "アリスの目からは逃げられません！",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_Level_3",
             "LocalizeJP": "揺るがぬ意志で、…光よ！",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_1",
             "LocalizeJP": "メイドレベル、アーップ！アリスのステータスが上昇しました。",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_2",
             "LocalizeJP": "メイドとしても、勇者としても、アリスにレベルキャップはありません！",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_3",
             "LocalizeJP": "メイド勇者になるには、どうしたらいいのか考えました。メイドと勇者のレベルを両方上げればいいのです。先生、手伝ってください！",
@@ -331,6 +425,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_4",
             "LocalizeJP": "先生といっしょなら、立派なメイド勇者になれるはずです。これからもずっとアリスのそばにいてください！",
@@ -338,6 +434,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_1",
             "LocalizeJP": "先生！メイド服は似合ってますか？",
@@ -345,6 +443,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_2",
             "LocalizeJP": "…えへへ。先生といっしょにいられて、アリスは嬉しいです。もっとナデナデしてください！",
@@ -352,6 +452,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_3",
             "LocalizeJP": "今日のアリスはメイドです！…なので、先生の肩を叩きます！トントン。",
@@ -359,6 +461,8 @@
         },
         {
             "CharacterId": 10066,
+            "CharacterVoiceGroupId": 10066,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_4",
             "LocalizeJP": "アリスの親愛度が上昇しました！…もう少し、甘えてもいいですか？",

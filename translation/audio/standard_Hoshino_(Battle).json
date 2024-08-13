@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hoshino_(Battle)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "気合入れていくよ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hoshino_(Battle)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "面倒くさいけど……ま、ちゃんとやるからさ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hoshino_(Battle)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "うへ～待機するのも、地味に疲れるね～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Formation_In_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Formation_In_2",
             "LocalizeJP": "",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Formation_Select",
             "LocalizeJP": "",
@@ -44,13 +56,17 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Formchange",
             "DialogCategory": "Formchange",
             "VoiceClip": "Hoshino_(Battle)_Formchange",
-            "LocalizeJP": "",
+            "LocalizeJP": "前衛は私に任せて。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Formchange",
             "LocalizeJP": "",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_In_1",
             "LocalizeJP": "",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_In_2",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Victory_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Victory_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -114,41 +146,53 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私についてきて。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "はじめよっか～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "当然の結果かな。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hoshino_(Battle)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "終わった～んじゃ、休もっか。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "丈夫になったかも～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -177,48 +227,62 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "止めちゃうよ～？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "覚悟して。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "援護は任せた。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "まだあるのか～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "私が先に進むから、心配しないで～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ありがと～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Retire",
             "LocalizeJP": "",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -247,27 +317,35 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "位置変えるよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これくらいへっちゃらだよ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hoshino_(Battle)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "もう安心していいよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Buffed_1",
             "LocalizeJP": "",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Covered_1",
             "LocalizeJP": "",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Damage_1",
             "LocalizeJP": "",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Damage_2",
             "LocalizeJP": "",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Damage_3",
             "LocalizeJP": "",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Defense_1",
             "LocalizeJP": "",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_In_1",
             "LocalizeJP": "",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_In_2",
             "LocalizeJP": "",
@@ -331,6 +425,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Move_1",
             "LocalizeJP": "",
@@ -338,6 +434,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Move_2",
             "LocalizeJP": "",
@@ -345,6 +443,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Recovery_1",
             "LocalizeJP": "",
@@ -352,6 +452,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Retire",
             "LocalizeJP": "",
@@ -359,6 +461,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Shout_1",
             "LocalizeJP": "",
@@ -366,6 +470,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Shout_2",
             "LocalizeJP": "",
@@ -373,6 +479,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Shout_3",
             "LocalizeJP": "",
@@ -380,6 +488,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_TacticalAction_1",
             "LocalizeJP": "",
@@ -387,6 +497,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Victory_1",
             "LocalizeJP": "",
@@ -394,6 +506,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_Battle_Victory_2",
             "LocalizeJP": "",
@@ -401,13 +515,17 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hoshino_(Battle)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "立て直してこ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_CommonSkill",
             "LocalizeJP": "",
@@ -415,48 +533,62 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "今度はおじさんの番だよ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "通じないよ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "呼んだー？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "みんな、下がって！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "私が行く！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "それだけ？おじさんガッカリしちゃったな～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_1",
             "LocalizeJP": "",
@@ -464,6 +596,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_2",
             "LocalizeJP": "",
@@ -471,6 +605,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_3",
             "LocalizeJP": "",
@@ -478,6 +614,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_1",
             "LocalizeJP": "",
@@ -485,6 +623,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_2",
             "LocalizeJP": "",
@@ -492,6 +632,8 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": null,
             "DialogCategory": "S2",
             "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_3",
             "LocalizeJP": "",
@@ -499,58 +641,74 @@
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hoshino_(Battle)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "お？おじさんにくれるの？\nありがとね～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hoshino_(Battle)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "うん、たしかに受け取ったよ。\n……じゃあ、悪い子たちを片付けに行こうか。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hoshino_(Battle)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "いやーまたもらっちゃったよ。\nそんで、次はどこで戦えばいい？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hoshino_(Battle)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "うへぇ～こういうの照れるけど……\nありがと先生。先生のために、おじさん戦うね。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hoshino_(Battle)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "またこんなの……おじさん、照れちゃうよ～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hoshino_(Battle)_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "万が一、先生が危険な目にあったら、そのときは……\n……いや、そんなことはさせない。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hoshino_(Battle)_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "うへ～先生とパトロール……次はいつかな～\n今から楽しみだね～",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10098,
+            "CharacterVoiceGroupId": 10098,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hoshino_(Battle)_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "私がこんな姿でも、先生は信じてくれるんだね。\nうへぇ～なんか恥ずかし～\n……あと、嬉しい。",
             "LocalizeEN": ""
         }
     ]

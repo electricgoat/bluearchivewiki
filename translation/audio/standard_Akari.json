@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Akari_Formation_In_1",
             "LocalizeJP": "はい、任せてください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Akari_Formation_In_2",
             "LocalizeJP": "うふふ、行ってみましょうか。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Akari_Formation_Select",
             "LocalizeJP": "",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_Defeat_1",
             "LocalizeJP": "ちょっと頭にきますね。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_Defeat_2",
             "LocalizeJP": "次回はほんの少しだけ、グロテスクにやりましょう。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_In_1",
             "LocalizeJP": "先生の期待にお応えしますね。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_In_2",
             "LocalizeJP": "ふふ、ぶっ壊してみましょうか。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_Victory_1",
             "LocalizeJP": "完璧な勝利ですね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akari_Tactic_Victory_2",
             "LocalizeJP": "それじゃあ食べに行きますか？何をって…、な・ん・で・も。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_BuffSelf_1",
             "LocalizeJP": "さてと。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Covered_1",
             "LocalizeJP": "これは頑丈そうですね。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Defense_1",
             "LocalizeJP": "無駄ですよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_In_1",
             "LocalizeJP": "戦闘を始めましょうか。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_In_2",
             "LocalizeJP": "一生懸命やらないとお仕置きですよ、敵も味方も。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Move_1",
             "LocalizeJP": "こちらに面白いものがありそうですね。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Move_2",
             "LocalizeJP": "楽しみですね。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Recovery_1",
             "LocalizeJP": "ふーん、ちょっと物足りませんね。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Retire",
             "LocalizeJP": "許しません。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Shout_2",
             "LocalizeJP": "行きます。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_TacticalAction_1",
             "LocalizeJP": "",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Victory_1",
             "LocalizeJP": "勝利の秘訣はただ一つ、偏食をしないことですよ。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Victory_2",
             "LocalizeJP": "勝利って甘い味がしますね。もっと食べたいです。もっともーっとたくさん。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Akari_Battle_Victory_3",
             "LocalizeJP": "素晴らしい勝利ですね。このままもう1回…あれ？あはは、ご飯を食べてからにしましょうか。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Akari_CommonSkill",
             "LocalizeJP": "覚悟しなさい。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_1",
             "LocalizeJP": "装填完了。照準合わせます。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_2",
             "LocalizeJP": "スペシャルな一発行きます。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_3",
             "LocalizeJP": "少ーしだけ怒ってますよ。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_Level_1",
             "LocalizeJP": "ウェルダンでお願いします。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_Level_2",
             "LocalizeJP": "熱いうちに召し上がれ。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akari_ExSkill_Level_3",
             "LocalizeJP": "ほっかほっかの榴弾、行きます。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Akari_Growup_1",
             "LocalizeJP": "先生は私にとっても期待してくれてるんですね。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Akari_Growup_2",
             "LocalizeJP": "強くなるのはいいことです。もっと色んなことができるようになるって意味ですから。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Akari_Growup_3",
             "LocalizeJP": "食べれば食べるほど強くなる。女子高生の基本的な心得です。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Akari_Growup_4",
             "LocalizeJP": "あら？私もまだ成長期なんですよ。背も心も全てが大きくなってますから。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akari_Relationship_Up_1",
             "LocalizeJP": "一度も食べ過ぎちゃダメ…とか思ったことなかったのに、先生と一緒にいると…、うふふ。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akari_Relationship_Up_2",
             "LocalizeJP": "うふふ、先生と一緒にいる時のこの緊張感、嫌いじゃないです。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akari_Relationship_Up_3",
             "LocalizeJP": "どうしようかな、先生と一緒にいると少ーし危険な気持ちになりますね。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 13002,
+            "CharacterVoiceGroupId": 13002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akari_Relationship_Up_4",
             "LocalizeJP": "先生のご配慮感謝します。私が必要な時はいつでも言ってください。",

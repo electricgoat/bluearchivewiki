@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hanae_Formation_In_1",
             "LocalizeJP": "治療なら私に任せてください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hanae_Formation_In_2",
             "LocalizeJP": "私が手伝います。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanae_Battle_In_1",
             "LocalizeJP": "さあ、私も到着しましたよ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanae_Battle_In_2",
             "LocalizeJP": "ドキドキしますね。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanae_Battle_TSA_1",
             "LocalizeJP": "プップー！救急車が来ました。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hanae_Battle_TSA_2",
             "LocalizeJP": "具合の悪い方々に良いお知らせです。救護騎士団が到着しました！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hanae_CommonSkill",
             "LocalizeJP": "痛いの痛いの飛んでいけ！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_1",
             "LocalizeJP": "うわっ、駄目！捕まえた。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_2",
             "LocalizeJP": "危ない！ご安心ください。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_3",
             "LocalizeJP": "うわ！キャッチ！これで安全です。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_Level_1",
             "LocalizeJP": "投薬を始めます。少し効きすぎたかも？",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_Level_2",
             "LocalizeJP": "治療を開始します。うわ！入れすぎちゃった。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hanae_ExSkill_Level_3",
             "LocalizeJP": "これで痛みがなくなるはず！た、多分。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanae_Growup_1",
             "LocalizeJP": "いつも元気いっぱいの私ですけど、今はいつも以上に元気が満ち溢れてます。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanae_Growup_2",
             "LocalizeJP": "具合の悪い方が1人もいなくなったらいいですね。私と先生で実現させていきましょう。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanae_Growup_3",
             "LocalizeJP": "もっと努力します、先生のために。そして先輩たちにとって自慢の後輩になるために。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hanae_Growup_4",
             "LocalizeJP": "ミスをすることもありますが、落ち込んだりしません。先生が助けてくださいますから。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanae_Relationship_Up_1",
             "LocalizeJP": "先生のおかげで私は幸せになれます。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanae_Relationship_Up_2",
             "LocalizeJP": "私も先生に頂いた幸せを他の人たちに分けてあげられるよう頑張ります。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanae_Relationship_Up_3",
             "LocalizeJP": "痛みに打ち勝つのは治療ではなく、愛なんですね！先生が教えてくれたんです。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 23002,
+            "CharacterVoiceGroupId": 23002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hanae_Relationship_Up_4",
             "LocalizeJP": "えへへ、先生のほっぺた、ツン！",

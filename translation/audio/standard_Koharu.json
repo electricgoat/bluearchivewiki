@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_Formation_In_1",
             "LocalizeJP": "ふーん…。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_Formation_In_2",
             "LocalizeJP": "仕方ないなあ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Koharu_Formation_Select",
             "LocalizeJP": "な！…何するつもり？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Defeat_1",
             "LocalizeJP": "う、うう…。負けちゃった。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Defeat_2",
             "LocalizeJP": "う…、ごめんなさい。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_In_1",
             "LocalizeJP": "こ、これぐらいなら。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_In_2",
             "LocalizeJP": "わ、私にだってできるってば！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Victory_1",
             "LocalizeJP": "勝った！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Koharu_Tactic_Victory_2",
             "LocalizeJP": "見た？これが私の実力よ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Buffed_1",
             "LocalizeJP": "OK。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_BuffSelf_1",
             "LocalizeJP": "行くわよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Covered_1",
             "LocalizeJP": "遮蔽物確保！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Damage_2",
             "LocalizeJP": "痛い…。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Defense_1",
             "LocalizeJP": "こ、これぐらいなら！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_In_1",
             "LocalizeJP": "さあ、行くわよ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_In_2",
             "LocalizeJP": "出発！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Move_1",
             "LocalizeJP": "楽勝だったわね。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Move_2",
             "LocalizeJP": "ほら、私の活躍のおかげよ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Recovery_1",
             "LocalizeJP": "まあ…、ありがとう。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Retire",
             "LocalizeJP": "うう…、まだ100%の実力を見せてないのに。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_TacticalAction_1",
             "LocalizeJP": "今行くわ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_TSA_1",
             "LocalizeJP": "元々乗ってたのとは違うけど、しょうがない。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_TSA_2",
             "LocalizeJP": "これもそんなに悪くないから…、行くわよ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Victory_1",
             "LocalizeJP": "これぐらい…、大したことじゃないし。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Koharu_Battle_Victory_2",
             "LocalizeJP": "これで…、いいのよね。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Koharu_CommonSkill",
             "LocalizeJP": "待ってて。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_1",
             "LocalizeJP": "えーっと…、あれ？",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_2",
             "LocalizeJP": "",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_3",
             "LocalizeJP": "",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_1",
             "LocalizeJP": "こ、これは没収したやつだから！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_2",
             "LocalizeJP": "私のじゃないから、誤解しないで。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Koharu_ExSkill_Level_3",
             "LocalizeJP": "何で持ってるのかって…、う、うるさい。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_1",
             "LocalizeJP": "こ…、ここまでしてくれなくてもいいのに。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_2",
             "LocalizeJP": "成長を見守ってる、だなんて…、なんかやらしい。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_3",
             "LocalizeJP": "ほら、私もこんなに成長できるのよ。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Koharu_Growup_4",
             "LocalizeJP": "ふふ、悪くない結果でしょ。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_1",
             "LocalizeJP": "私はまだまだできないことだらけだけど…、でも、これから努力するから。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_2",
             "LocalizeJP": "もう、いつもそうやってからかって。…でも、応援してくれてありがとう。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_3",
             "LocalizeJP": "エッチなのはダメ…。だけど、えっと…、や、やっぱりダメ！",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 10020,
+            "CharacterVoiceGroupId": 10020,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Koharu_Relationship_Up_4",
             "LocalizeJP": "ただ、生徒だから先生と仲がいいだけで、他の意味はないんだから。…うん。",

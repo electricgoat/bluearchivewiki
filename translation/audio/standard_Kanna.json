@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kanna_Formation_In_1",
             "LocalizeJP": "公安局の出番ですか？",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kanna_Formation_In_2",
             "LocalizeJP": "ご命令とあらば。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kanna_CommonSkill",
             "LocalizeJP": "容疑者確保",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_1",
             "LocalizeJP": "…さあ、尋問を始めよう。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_2",
             "LocalizeJP": "私を騙そうとしても無駄だ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_3",
             "LocalizeJP": "狂犬の名は、一度は聞いたことがあるだろう？",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_Level_1",
             "LocalizeJP": "ヴァルキューレ公安局だ。止まれ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_Level_2",
             "LocalizeJP": "動くな、動いたら犯人とみなす。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_Level_3",
             "LocalizeJP": "間に合ったか。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_1",
             "LocalizeJP": "なるほど…、そんな方法が。いい勉強になりました。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_2",
             "LocalizeJP": "今日の訓練はこれで十分でしょう。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_3",
             "LocalizeJP": "市民のために、日々精進します。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_4",
             "LocalizeJP": "局長といえど、鍛錬を怠っては部下の模範になれません。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_1",
             "LocalizeJP": "世の大人がみな、先生のような方であれば、私たちが仕事をすることもないのに。……独り言です。気にしないでください。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_2",
             "LocalizeJP": "いくら私でも、先生を尋問して情報を引き出すのは不可能でしょうね。フッ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_3",
             "LocalizeJP": "先生と生徒の恋愛？な、何をおっしゃって…！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20023,
+            "CharacterVoiceGroupId": 20023,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_4",
             "LocalizeJP": "…たまには、シャーレを頼るとします。",

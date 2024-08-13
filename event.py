@@ -358,7 +358,7 @@ def generate():
     # env.filters['damage_type'] = shared.functions.damage_type
     # env.filters['armor_type'] = shared.functions.armor_type
     # env.filters['thousands'] = shared.functions.format_thousands
-    # env.filters['nl2br'] = shared.functions.nl2br
+    env.filters['nl2br'] = shared.functions.nl2br
     # env.filters['nl2p'] = shared.functions.nl2p
     env.filters['replace_glossary'] = shared.functions.replace_glossary
    

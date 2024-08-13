@@ -2,34 +2,44 @@
     "DataList": [
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Shun_(Kid)_Formation_In_1",
-            "LocalizeJP": "面倒を見ることには慣れていますので。",
+            "LocalizeJP": "面倒を見ることには慣れていますので！",
             "LocalizeEN": "I'm used to taking care of you,"
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Shun_(Kid)_Formation_In_2",
-            "LocalizeJP": "準備はもうできていますよ。",
-            "LocalizeEN": "You are ready."
+            "LocalizeJP": "準備はもうできていますよ！",
+            "LocalizeEN": "We're ready now."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Shun_(Kid)_Formation_Select",
-            "LocalizeJP": "わあ、すごい。高いです。",
-            "LocalizeEN": "Wow, that's amazing. It is high."
+            "LocalizeJP": "わあっ、すごい！高いですー！",
+            "LocalizeEN": "Wah, so cool. So high up."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_Defeat_1",
             "LocalizeJP": "うう…、すみません。",
-            "LocalizeEN": "excuse me."
+            "LocalizeEN": "Uu..... excuse me."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_Defeat_2",
             "LocalizeJP": "私の…、ミスです。",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_In_1",
-            "LocalizeJP": "さて、どこに隠れているのでしょうか。",
+            "LocalizeJP": "さて、どこに隠れているのでしょうか～？",
             "LocalizeEN": "so where are you hiding"
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_In_2",
-            "LocalizeJP": "鬼ごっこなら任せてください。",
+            "LocalizeJP": "鬼ごっこなら任せてください！",
             "LocalizeEN": "If it's a game of tag, leave it to me."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_Victory_1",
-            "LocalizeJP": "よくできました、のスタンプを押してあげます。ポン！",
+            "LocalizeJP": "「よくできました」のスタンプを押してあげます、ぽんっ！",
             "LocalizeEN": "I'll give you a \"Good job\" stamp. Pon!"
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Shun_(Kid)_Tactic_Victory_2",
-            "LocalizeJP": "銃を使った後は、手洗いも忘れちゃだめですよ。",
+            "LocalizeJP": "銃を使った後は、手洗いも忘れちゃダメですよ！",
             "LocalizeEN": "Don't forget to wash your hands after using a gun."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Buffed_1",
-            "LocalizeJP": "ありがとうございます。",
+            "LocalizeJP": "ありがとうございます！",
             "LocalizeEN": "thank you."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_BuffSelf_1",
             "LocalizeJP": "体がぐんと軽くなりました。",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Covered_1",
-            "LocalizeJP": "隠れます。",
-            "LocalizeEN": "hidden."
+            "LocalizeJP": "隠れます！",
+            "LocalizeEN": "I'm hiding."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,13 +119,17 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Damage_2",
             "LocalizeJP": "イター。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ouch."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Damage_3",
             "LocalizeJP": "うー。私だって怒るんですからね。",
@@ -107,55 +137,71 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Defense_1",
-            "LocalizeJP": "うふふ。このサイズもときには便利ですね。",
+            "LocalizeJP": "ふふっ、このサイズも時には便利ですね！",
             "LocalizeEN": "Hehehe. This size also comes in handy at times."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_In_1",
-            "LocalizeJP": "うふふ、遠足の時間ですね。",
+            "LocalizeJP": "ふふ、遠足の時間ですね。",
             "LocalizeEN": "It's time for an excursion."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_In_2",
-            "LocalizeJP": "さあ、出発しましょう。",
+            "LocalizeJP": "さあ、出発しましょう！",
             "LocalizeEN": "Let's go."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Move_1",
-            "LocalizeJP": "移動しましょう。",
+            "LocalizeJP": "移動しましょう！",
             "LocalizeEN": "let's move."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Move_2",
-            "LocalizeJP": "えっと…、この道で合ってますかね？",
+            "LocalizeJP": "えっと、この道で合ってますかね……？",
             "LocalizeEN": "Um, do you agree with me on this road?"
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Recovery_1",
-            "LocalizeJP": "ありがとうございます。",
+            "LocalizeJP": "ありがとうございます！",
             "LocalizeEN": "thank you."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Retire",
             "LocalizeJP": "もう少し、体が大きければ。",
-            "LocalizeEN": "If you're a little taller,"
+            "LocalizeEN": "If only I was a little taller."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Shout_1",
             "LocalizeJP": "まずは一発。",
@@ -163,13 +209,17 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Shout_2",
             "LocalizeJP": "行きます。",
-            "LocalizeEN": "to go."
+            "LocalizeEN": "Here I go."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_TacticalAction_1",
-            "LocalizeJP": "ここはもう大丈夫そうですね。",
+            "LocalizeJP": "ここはもう大丈夫そうですね！",
             "LocalizeEN": "Everything seems to be okay here."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Victory_1",
-            "LocalizeJP": "みんないい子ばかりですね。",
+            "LocalizeJP": "みんな、良い子ばかりですね！",
             "LocalizeEN": "They are all good kids."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Shun_(Kid)_Battle_Victory_2",
-            "LocalizeJP": "また一緒に遊びましょうね。",
+            "LocalizeJP": "また一緒に遊びましょうね！",
             "LocalizeEN": "Let's play together again."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Shun_(Kid)_CommonSkill",
-            "LocalizeJP": "よいしょ。",
+            "LocalizeJP": "よいしょっ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "んっ、しょっ……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_2",
-            "LocalizeJP": "お、重いです。",
-            "LocalizeEN": "Heavy."
+            "LocalizeJP": "お、重いです……。",
+            "LocalizeEN": "H-heavy."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_3",
-            "LocalizeJP": "あ、落としちゃいそうです。",
+            "LocalizeJP": "お、落としちゃいそうです……！",
             "LocalizeEN": "It looks like I'm going to drop it."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_Level_1",
-            "LocalizeJP": "うわっ、び、びっくりしました。",
-            "LocalizeEN": "surprised."
+            "LocalizeJP": "わっ！び、びっくりしました……！",
+            "LocalizeEN": "Uwah, th-that startled me."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "わっ、うわわっ……！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Shun_(Kid)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "バ、バーン！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Shun_(Kid)_Growup_1",
-            "LocalizeJP": "あれ、背が少し伸びたような。",
-            "LocalizeEN": "Well, I feel like I've grown a little taller."
+            "LocalizeJP": "あれ……背が少し伸びたような……？",
+            "LocalizeEN": "Huh, I feel like I've grown a little taller."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Shun_(Kid)_Growup_2",
-            "LocalizeJP": "うふふ、ありがとうございます。先生。",
+            "LocalizeJP": "ふふ。ありがとうございます、先生。",
             "LocalizeEN": "thank you. Sensei．"
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Shun_(Kid)_Growup_3",
-            "LocalizeJP": "また一つ新しいことを知りました。",
-            "LocalizeEN": "I also learned something new."
+            "LocalizeJP": "またひとつ、新しいことを知りました！",
+            "LocalizeEN": "Once again I have learned something new."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Shun_(Kid)_Growup_4",
-            "LocalizeJP": "こういう成長ならいつでも歓迎です。",
+            "LocalizeJP": "こういう成長ならいつでも歓迎です！",
             "LocalizeEN": "Such growth is always welcome."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shun_(Kid)_Relationship_Up_1",
-            "LocalizeJP": "この体だったら…、いくら甘えても変に思われないですよね。ふふ。",
+            "LocalizeJP": "この体だったら……いくら甘えても、変に思われないですよね？えへへ……。",
             "LocalizeEN": "If I had this body...no matter how much I spoiled them, they wouldn't think it was weird."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shun_(Kid)_Relationship_Up_2",
-            "LocalizeJP": "今はこんな体ですが…、よろしくお願いします。",
+            "LocalizeJP": "今はこんな体ですが……よろしくお願いします！",
             "LocalizeEN": "My body is like this now Thank you in advance."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shun_(Kid)_Relationship_Up_3",
-            "LocalizeJP": "ウフフ、また一緒に遊びましょうね、先生。",
+            "LocalizeJP": "ふふっ、また一緒に遊びましょうね、先生！",
             "LocalizeEN": "Let's play together again, Sensei."
         },
         {
             "CharacterId": 10025,
+            "CharacterVoiceGroupId": 10025,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Shun_(Kid)_Relationship_Up_4",
-            "LocalizeJP": "あっ、もう帰られてしまうんですか。…もう少し遊びません？",
+            "LocalizeJP": "あ、もう帰られてしまうんですか？\nも、もう少し遊びません……？",
             "LocalizeEN": "Oh, are you going to go home already? ...Would you like to play some more?"
         }
     ]

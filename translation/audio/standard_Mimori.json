@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_In_1",
             "LocalizeJP": "私ですか？はい、先生のご要望でしたら喜んで。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_In_2",
             "LocalizeJP": "はい、先生のお手伝いですね。お任せください。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_Select",
             "LocalizeJP": "うふふ、先生、何か私にできることはありますか？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Defeat_1",
             "LocalizeJP": "今の私では力不足だったのでしょうか。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Defeat_2",
             "LocalizeJP": "こんなことでは、いつまでも理想の大和撫子になんて…。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_In_1",
             "LocalizeJP": "修行の成果、お見せしますね。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_In_2",
             "LocalizeJP": "先生のお役に立てるよう、全力を尽くします。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Victory_1",
             "LocalizeJP": "先生のお役に立つことができてよかったです。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Victory_2",
             "LocalizeJP": "私、お役に立てましたでしょうか？…ふふ、でしたら良かったです。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Buffed_1",
             "LocalizeJP": "ふふ、ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_BuffSelf_1",
             "LocalizeJP": "ここが 頑張りどころですね。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Covered_1",
             "LocalizeJP": "ここなら 安全ですね。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Damage_2",
             "LocalizeJP": "ま、負けません。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Damage_3",
             "LocalizeJP": "これぐらいなんてこと。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Defense_1",
             "LocalizeJP": "ふぅ、なんとかなりました。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_In_1",
             "LocalizeJP": "今だけは、私が前を歩かせていただきますね。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_In_2",
             "LocalizeJP": "事前に危険を排除することもまた 内助の功というもの。では、始めましょうか。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Move_1",
             "LocalizeJP": "皆さん大丈夫ですか？はい。では次行きましょう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Move_2",
             "LocalizeJP": "大丈夫、まだ戦います。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Retire",
             "LocalizeJP": "私がここで、一人倒れるわけには、",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Shout_1",
             "LocalizeJP": "これ 受け取ってください。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Shout_3",
             "LocalizeJP": "次の動きに備えましょう。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_TacticalAction_1",
             "LocalizeJP": "移動しますね。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Victory_1",
             "LocalizeJP": "いかがですか先生？ 私、頑張りました。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Victory_2",
             "LocalizeJP": "ふふ、先生、褒めていただけますか？",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Mimori_CommonSkill",
             "LocalizeJP": "お弁当を用意していますよ。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_1",
             "LocalizeJP": "さあ皆さん集まってください。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_2",
             "LocalizeJP": "休憩にしましょうか。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_3",
             "LocalizeJP": "そうだ、とっておきのものがあるんです。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_Level_1",
             "LocalizeJP": "ふふ、これで全員でしょうか。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_Level_2",
             "LocalizeJP": "たくさん準備しましたよ。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_Level_3",
             "LocalizeJP": "皆さん。しっかり食べて、頑張ってくださいね。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_1",
             "LocalizeJP": "なるほど…、こういう形の修行もあるのですね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_2",
             "LocalizeJP": "争い事は得意ではありませんが、先生のために強くなりたいです。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_3",
             "LocalizeJP": "まだ弱い私でも…いえ、今はまだ弱いからこそ、これから先もっと強くなれますよね。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_4",
             "LocalizeJP": "修行の道のりはまだまだ険しいですが、もっと精進します。私自身のためにも、先生のためにも。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_1",
             "LocalizeJP": "私たちの絆、もっともっと深くなっていくのですね 先生。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_2",
             "LocalizeJP": "これでより先生のおそばに…あ、いえ、何でもありません。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_3",
             "LocalizeJP": "この胸の奥から湧き上がる感情をどう表現すればいいのかわかりません。 ただ、これだけは言えます。私、先生のおそばにいられて良かったです。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10034,
+            "CharacterVoiceGroupId": 10034,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_4",
             "LocalizeJP": "私のことをこんなにも大切に思ってくださっているだなんて、ありがとうございます、先生。もう少しだけこうして手を繋いだままでもいいですか？",

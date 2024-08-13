@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": null,
             "DialogCategory": "EventLocation",
             "VoiceClip": "Hibiki_(Cheerleader)_EventLocation_1",
             "LocalizeJP": "…こんなに広い観客席で応援するのは、ちょっと気が重いかも…。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": null,
             "DialogCategory": "EventLocation",
             "VoiceClip": "Hibiki_(Cheerleader)_EventLocation_2",
             "LocalizeJP": "ウタハ先輩、ごめん…。ちょっと休憩室で休んできてもいいかな…。これ以上は精神的にも体力的にも厳しい…。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": null,
             "DialogCategory": "EventLocation",
             "VoiceClip": "Hibiki_(Cheerleader)_EventLocation_Act_1",
             "LocalizeJP": "ふ、フレーフレー、ミレニアム…！いけいけ、勝て勝て、ミレニアム……！",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": null,
             "DialogCategory": "EventLocation",
             "VoiceClip": "Hibiki_(Cheerleader)_EventLocation_Act_2",
             "LocalizeJP": "完全に疲れた。チアリーディングって、こんなに大変だったんだ…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hibiki_(Cheerleader)_Formation_In_1",
             "LocalizeJP": "うん、先生のためなら。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hibiki_(Cheerleader)_Formation_In_2",
             "LocalizeJP": "応援が必要なの？",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hibiki_(Cheerleader)_Formation_Select",
             "LocalizeJP": "フレー、フレー…",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_Defeat_1",
             "LocalizeJP": "ううん…、どこで間違えたのかな…。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_Defeat_2",
             "LocalizeJP": "ごめん、先生。もう一回挑戦してもいい？",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_In_1",
             "LocalizeJP": "ファイト、だよ…、先生。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_In_2",
             "LocalizeJP": "うん、とりあえず、頑張ってみる。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_Victory_1",
             "LocalizeJP": "はぁ、終わったね。どう？良い感じだった…？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hibiki_(Cheerleader)_Tactic_Victory_2",
             "LocalizeJP": "コスプレ姿で色々するのも悪くないね。先生と一緒だからかな。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Buffed_1",
             "LocalizeJP": "んっ、私に…？",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_BuffSelf_1",
             "LocalizeJP": "もう少し頑張ってみるよ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Covered_1",
             "LocalizeJP": "ちょっと待って。衣装が乱れた。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Damage_2",
             "LocalizeJP": "イタタ。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Defense_1",
             "LocalizeJP": "うん、無駄だよ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_In_1",
             "LocalizeJP": "やっぱりこの姿で人前に出るのは慣れない。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_In_2",
             "LocalizeJP": "私そういうタイプじゃないんだけど…、仕方ない。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Move_1",
             "LocalizeJP": "次はどこ？",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Move_2",
             "LocalizeJP": "みんな…ありがとう！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Recovery_1",
             "LocalizeJP": "あ、ありがとう。丁度必要だった。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Retire",
             "LocalizeJP": "疲れた。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Shout_1",
             "LocalizeJP": "座標算出。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Shout_2",
             "LocalizeJP": "方位確認。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Shout_3",
             "LocalizeJP": "装填、発射。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_TacticalAction_1",
             "LocalizeJP": "行くよ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Victory_1",
             "LocalizeJP": "応援の効果…、どう？",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hibiki_(Cheerleader)_Battle_Victory_2",
             "LocalizeJP": "私の真心、伝わった？",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_CommonSkill",
             "LocalizeJP": "い、一応…チアリーダー…、だから。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_1",
             "LocalizeJP": "頑張れ、頑張れ……うぅ…恥ずかしい……。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_2",
             "LocalizeJP": "フレー、フレー…うぅ……。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_3",
             "LocalizeJP": "行け、ファイト…、これで合ってる…？",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_Level_1",
             "LocalizeJP": "いっそ、こっちの方が良さそう。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_Level_2",
             "LocalizeJP": "いつも通りにしよう。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_(Cheerleader)_ExSkill_Level_3",
             "LocalizeJP": "こ、これはどう？",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_(Cheerleader)_Growup_1",
             "LocalizeJP": "不思議な気分。でも、悪くはない。もっとお願いしようかな、先生。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_(Cheerleader)_Growup_2",
             "LocalizeJP": "先生的には、どう？気に入ってくれたら、いいんだけど……。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_(Cheerleader)_Growup_3",
             "LocalizeJP": "センスが良いって……？これ、私が作ったもの、だよ……。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_(Cheerleader)_Growup_4",
             "LocalizeJP": "どんな格好であれ、最高を目指すよ。そう、マイスターだから。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_(Cheerleader)_Relationship_Up_1",
             "LocalizeJP": "元々そういうつもりじゃなかったけど…先生が望むなら、もうちょっと、この格好でいるね。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_(Cheerleader)_Relationship_Up_2",
             "LocalizeJP": "私のことが必要だったら、いつでも言って。いつもこの格好で、っていうのはあれだけど…",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_(Cheerleader)_Relationship_Up_3",
             "LocalizeJP": "いつもと様子が違う…そうかな？まあ、でも、こういう格好だし…。",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 16010,
+            "CharacterVoiceGroupId": 16010,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_(Cheerleader)_Relationship_Up_4",
             "LocalizeJP": "なんだか、応援する立場なのに、むしろ私が応援されてるような…ううん、嬉しい。これからもよろしくね、先生。",

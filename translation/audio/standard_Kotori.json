@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kotori_Formation_In_1",
             "LocalizeJP": "私の出番ですね！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kotori_Formation_In_2",
             "LocalizeJP": "大活躍の予定、期待しててくださいね。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kotori_Formation_Select",
             "LocalizeJP": "実践はちょーっと自信はないけど！…えへへ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Defeat_1",
             "LocalizeJP": "理論上、完璧な作戦だったのに。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Defeat_2",
             "LocalizeJP": "ご、ご、ごめんなさい。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_In_1",
             "LocalizeJP": "敵がいますよ？ああ、見えてますか。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_In_2",
             "LocalizeJP": "敵を倒せば勝利です！…ああ。当然のことでしたか？",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Victory_1",
             "LocalizeJP": "私たちの勝利ですね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kotori_Tactic_Victory_2",
             "LocalizeJP": "予想が外れました、私たちは強すぎます！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Buffed_1",
             "LocalizeJP": "支援、ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_BuffSelf_1",
             "LocalizeJP": "おお、燃え上がります。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Damage_1",
             "LocalizeJP": "",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Damage_2",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Damage_3",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Defense_1",
             "LocalizeJP": "ふふん。無駄です！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_In_1",
             "LocalizeJP": "ご説明通り行動していただければ、きっと勝てます！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_In_2",
             "LocalizeJP": "私たちの攻撃は的中！敵の攻撃は回避！そうしたら勝利します。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Move_1",
             "LocalizeJP": "ふう、ここはもう安全です。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Move_2",
             "LocalizeJP": "続けて前進します、前進！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Recovery_1",
             "LocalizeJP": "おお！…この支援の価値について今から説明します。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Retire",
             "LocalizeJP": "言うことが…ありません…。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Shout_1",
             "LocalizeJP": "いきます。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Shout_2",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Shout_3",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_TacticalAction_1",
             "LocalizeJP": "移動します。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_TSA_1",
             "LocalizeJP": "容赦という言葉はもうありません！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_TSA_2",
             "LocalizeJP": "覚悟しなさい！これは私の怒りです！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Victory_1",
             "LocalizeJP": "あ、熱！…ちょ、ちょっと戦闘にしては、はしゃぎすぎちゃいましたか。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kotori_Battle_Victory_2",
             "LocalizeJP": "うわ、びっくりした…。電源が入ったままだったか…。てへ。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kotori_CommonSkill",
             "LocalizeJP": "これは痛いですよ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_1",
             "LocalizeJP": "私の実力をお見せしましょう。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_2",
             "LocalizeJP": "講義を始めます。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_3",
             "LocalizeJP": "言葉より雄弁な説明というものがあります。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_Level_1",
             "LocalizeJP": "オーバークロック、ファイヤー！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_Level_2",
             "LocalizeJP": "火力フル稼働！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kotori_ExSkill_Level_3",
             "LocalizeJP": "道を開きます。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_1",
             "LocalizeJP": "どうしてだろう。銃よりも、論理の力がもっと強化された気分。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_2",
             "LocalizeJP": "ただ長い話や冗長な論理よりも、もっと確かな実力が欲しいです。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_3",
             "LocalizeJP": "口だけ達者な人にはなりたくありません。先生と一緒なら大丈夫ですよね",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kotori_Growup_4",
             "LocalizeJP": "分からないという苦痛に苦しむ人たちに、私が役に立てるはずです。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_1",
             "LocalizeJP": "説明をすればするほど、世界はさらに理解しやすくなります。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_2",
             "LocalizeJP": "何か新しい知識を得る度にドキドキします。そして…、先生と一緒にいると新しい感情を見つけます。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_3",
             "LocalizeJP": "私もいつか先生になりたいです。 私の講義を開くためにではなく、先生のように生徒たちの話を聞いてあげたいんです。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 16002,
+            "CharacterVoiceGroupId": 16002,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kotori_Relationship_Up_4",
             "LocalizeJP": "全てのことを説明できるはずなのに、私の心は…、ごめんなさい。簡単には説明できません。",

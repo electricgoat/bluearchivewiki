@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kokona_Formation_In_1",
             "LocalizeJP": "悪くない選択ですね。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kokona_Formation_In_2",
             "LocalizeJP": "ココナにお任せください。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kokona_Formation_Select",
             "LocalizeJP": "あ、どうかしましたか？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Defeat_1",
             "LocalizeJP": "うわーん、次こそは。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Defeat_2",
             "LocalizeJP": "うわーん、シュン姉さんに言いつけてやる！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_In_1",
             "LocalizeJP": "さあ、授業の時間です。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_In_2",
             "LocalizeJP": "教官としての真髄、お見せしましょう。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Victory_1",
             "LocalizeJP": "ふふん、これくらい楽勝です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kokona_Tactic_Victory_2",
             "LocalizeJP": "なんたって、もう一人前ですから。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Buffed_1",
             "LocalizeJP": "ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_BuffSelf_1",
             "LocalizeJP": "ココナの本気、見せてあげます。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Covered_1",
             "LocalizeJP": "隠れます。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Damage_1",
             "LocalizeJP": "痛っ。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Damage_2",
             "LocalizeJP": "あーん。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Damage_3",
             "LocalizeJP": "痛いです。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Defense_1",
             "LocalizeJP": "それで全力ですか？未熟ですね。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_In_1",
             "LocalizeJP": "張り切っていきましょう。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_In_2",
             "LocalizeJP": "私についてきてください。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Move_1",
             "LocalizeJP": "次の場所へ行きましょう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Move_2",
             "LocalizeJP": "この先には何があるのでしょう。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Retire",
             "LocalizeJP": "ま、まだ大丈夫です。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Shout_1",
             "LocalizeJP": "えいっ。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Shout_2",
             "LocalizeJP": "いきます。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Shout_3",
             "LocalizeJP": "逃がしません。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_TacticalAction_1",
             "LocalizeJP": "移動しましょう。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Victory_1",
             "LocalizeJP": "いい感じですね。次もよろしくお願いします。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kokona_Battle_Victory_2",
             "LocalizeJP": "ふふん、当然です、これでも一人前の教官ですから。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kokona_CommonSkill",
             "LocalizeJP": "飴ならたくさんありますよ。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_1",
             "LocalizeJP": "さて、採点しますよ。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_2",
             "LocalizeJP": "今日の点数はー。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_3",
             "LocalizeJP": "テストを返しますよ。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_Level_1",
             "LocalizeJP": "よくできました。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_Level_2",
             "LocalizeJP": "100点満点、花丸です。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kokona_ExSkill_Level_3",
             "LocalizeJP": "次もこの調子で。",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_1",
             "LocalizeJP": "私はもう1人前ですが、同時にまだまだ成長期です。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_2",
             "LocalizeJP": "少しはシュン姉さんみたいになれたでしょうか。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_3",
             "LocalizeJP": "えっと…その、ありがとうございます。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kokona_Growup_4",
             "LocalizeJP": "「人生は学びの連続」と聞いたことがあります。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kokona_Relationship_Up_1",
             "LocalizeJP": "私は子供じゃありません、何度も言ってるじゃないですか。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kokona_Relationship_Up_2",
             "LocalizeJP": "私もいつか先生みたいに、何でもないです。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kokona_Relationship_Up_3",
             "LocalizeJP": "不思議です、先生と一緒にいるとなんだか胸がポカポカして。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10050,
+            "CharacterVoiceGroupId": 10050,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kokona_Relationship_Up_4",
             "LocalizeJP": "私は教官ですが、教官にも先生は必要なんです。",

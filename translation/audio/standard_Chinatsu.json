@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_Formation_In_1",
             "LocalizeJP": "医療支援はお任せください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_Formation_In_2",
             "LocalizeJP": "出撃の時間ですね。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_Battle_In_1",
             "LocalizeJP": "チナツ、参戦します。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_Battle_In_2",
             "LocalizeJP": "助けが必要な時は私を呼んでください。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Chinatsu_CommonSkill",
             "LocalizeJP": "バイタル正常。進んでください。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_1",
             "LocalizeJP": "痛いですか？ではこちらを。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_2",
             "LocalizeJP": "助けが必要なら私にお任せください。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_3",
             "LocalizeJP": "薬品ではありません、未来です。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_Level_1",
             "LocalizeJP": "ここからはあなたの意志にかかってます。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_Level_2",
             "LocalizeJP": "諦めないでください。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_ExSkill_Level_3",
             "LocalizeJP": "私の薬があなたを救うでしょ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_Growup_1",
             "LocalizeJP": "成長しました。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_Growup_2",
             "LocalizeJP": "最善を尽くして精進いたします。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_Growup_3",
             "LocalizeJP": "これからはもっと先生のお役に立てそうです。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_Growup_4",
             "LocalizeJP": "より強くなりましたね。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_Relationship_Up_1",
             "LocalizeJP": "先生と一緒にいると心拍数に異常が見られます。私は医療担当なのに困りますね。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_Relationship_Up_2",
             "LocalizeJP": "先生は変わっていますね。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_Relationship_Up_3",
             "LocalizeJP": "顔が熱い気がします。風邪ではないようなのですが。おかしいですね。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 26000,
+            "CharacterVoiceGroupId": 26000,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_Relationship_Up_4",
             "LocalizeJP": "先生は本当に手がかかる人ですね。そういうところも嫌いではないですけど。",

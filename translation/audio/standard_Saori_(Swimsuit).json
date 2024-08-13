@@ -2,27 +2,35 @@
     "DataList": [
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Saori_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "何をすればいい？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Saori_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "業務を全うする。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Saori_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "次はどんな業務だ？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_Defeat_1",
             "LocalizeJP": "",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_Defeat_2",
             "LocalizeJP": "",
@@ -37,41 +47,53 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "現場に到着した。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "準備完了。行くぞ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ステージの時間には間に合いそうだ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Saori_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "業務、完了だ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "支援、感謝する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_BuffSelf_1",
             "LocalizeJP": "",
@@ -79,13 +101,17 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "遮蔽する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,48 +137,62 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "甘い。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "前方に立つ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "みなの夏のために。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "移動する。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "次はどこだ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "感謝しよう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Retire",
             "LocalizeJP": "",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,128 +227,164 @@
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "次。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "任務完了。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Saori_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "……そろそろ練習に行きたいのだが。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Saori_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "今日の業務も、丁寧にいこう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "私にできること、私がしたいことは……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "何かが、見える……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "胸が、高鳴る……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "これを……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "もう一曲……！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Saori_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "今だ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_(Swimsuit)_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "……これで業務が円滑に進む。礼を言おう。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_(Swimsuit)_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "これを……本当に受け取っていいのか……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_(Swimsuit)_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "次の給料が入ったら、この恩は必ず……\n……むっ、い、要らない……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Saori_(Swimsuit)_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "計り知れないほど、たくさんの恩が先生にあるというのに、\n今の私には、感謝の言葉を返すしかできないのが……もどかしいな。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生の変わらぬ支援に、感謝を。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "その……もしよければ……\n先生のために演奏を……あ、いや、なんでもない。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "私は常に、先生を応援している。\n……それだけ、覚えていてくれ。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 10101,
+            "CharacterVoiceGroupId": 10101,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Saori_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "働いて給料をもらうのは簡単だ。\nしかし先生の信頼に応えるのは……とても難しく感じる。",
             "LocalizeEN": ""
         }
     ]

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(New_Year)_Formation_In_1",
             "LocalizeJP": "見る目あるじゃない。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(New_Year)_Formation_In_2",
             "LocalizeJP": "その依頼受けてあげるわ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Aru_(New_Year)_Formation_Select",
             "LocalizeJP": "この着物、高いんだから！扱いには気をつけなさいよ。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_Defeat_1",
             "LocalizeJP": "この服、高かったのに。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_Defeat_2",
             "LocalizeJP": "今日はこんなところで勘弁してあげるわ。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_In_1",
             "LocalizeJP": "私のようなリーダーにふさわしい仕事ね。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_In_2",
             "LocalizeJP": "その信頼に応えてあげるわ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_Victory_1",
             "LocalizeJP": "当然の結果ね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Aru_(New_Year)_Tactic_Victory_2",
             "LocalizeJP": "どう？これが格の違いってやつよ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Buffed_1",
             "LocalizeJP": "助かるわ。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_BuffSelf_1",
             "LocalizeJP": "さあ、行くわよ。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Covered_1",
             "LocalizeJP": "安全を確保したわ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Damage_2",
             "LocalizeJP": "何なのよ。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Damage_3",
             "LocalizeJP": "ここで引いてたまるもんですか！",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Defense_1",
             "LocalizeJP": "無駄よ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_In_1",
             "LocalizeJP": "勇猛精進。さあ、始めるわよ。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_In_2",
             "LocalizeJP": "さあ、今年も仕事始めと行きましょうか。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Move_1",
             "LocalizeJP": "ほら！グズグズしてる時間はないわよ",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Move_2",
             "LocalizeJP": "次行くわよ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Recovery_1",
             "LocalizeJP": "感謝するわ。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Retire",
             "LocalizeJP": "こんなのおみくじに書いてなかったのに。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_TacticalAction_1",
             "LocalizeJP": "移動するわ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Victory_1",
             "LocalizeJP": "今年の運勢は見るまでもなく大吉みたいね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Aru_(New_Year)_Battle_Victory_2",
             "LocalizeJP": "今年も立ち上がりから完璧ね。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Aru_(New_Year)_CommonSkill",
             "LocalizeJP": "",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_1",
             "LocalizeJP": "見てなさい、私の実力。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_2",
             "LocalizeJP": "しっかりと見てなさい。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_3",
             "LocalizeJP": "これぐらい朝飯前。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_Level_1",
             "LocalizeJP": "",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_Level_2",
             "LocalizeJP": "うぁ、ちょっ！チェスト！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Aru_(New_Year)_ExSkill_Level_3",
             "LocalizeJP": "",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(New_Year)_Growup_1",
             "LocalizeJP": "さすがは私。まだまだ成長の余地があるということね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(New_Year)_Growup_2",
             "LocalizeJP": "私の進化がますます発揮されつつあるわね。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(New_Year)_Growup_3",
             "LocalizeJP": "私のすごさようやくわかったかしら。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Aru_(New_Year)_Growup_4",
             "LocalizeJP": "こうしてどんどん強くなる私のことをもっともっと頼ってもいいのよ、先生。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(New_Year)_Relationship_Up_1",
             "LocalizeJP": "先生と私なかなかいいパートナーだと思わない？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(New_Year)_Relationship_Up_2",
             "LocalizeJP": "喜びなさい。これからもずっと一緒にいてあげるわ。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(New_Year)_Relationship_Up_3",
             "LocalizeJP": "先生は私にとってもう単なる依頼人じゃなくて…そ、その…そう！VIPなのよ！",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10031,
+            "CharacterVoiceGroupId": 10031,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Aru_(New_Year)_Relationship_Up_4",
             "LocalizeJP": "いつの間にか先生とこんなところまで来ていたなんて。今年はもちろん、来年もよろしく頼むわね、先生。",

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Ayane_Formation_In_1",
             "LocalizeJP": "後方支援はお任せください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Ayane_Formation_In_2",
             "LocalizeJP": "私が支援を担当します。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Ayane_CommonSkill",
             "LocalizeJP": "お願いします。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_1",
             "LocalizeJP": "状況を把握しました。行きます。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_2",
             "LocalizeJP": "支援のタイミング逃しません。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_3",
             "LocalizeJP": "今です。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_Level_1",
             "LocalizeJP": "後方支援、到着しました。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_Level_2",
             "LocalizeJP": "タイミングばっちりですね。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ayane_ExSkill_Level_3",
             "LocalizeJP": "間に合ったみたいですね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Ayane_Growup_1",
             "LocalizeJP": "お気遣いありがとうございます、先生。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Ayane_Growup_2",
             "LocalizeJP": "これで皆さんのことをもっとサポートできますね。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Ayane_Growup_3",
             "LocalizeJP": "えっと、私、これ以上成長してもいいのでしょうか？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Ayane_Growup_4",
             "LocalizeJP": "はい、先生のご期待に応えてみせます。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ayane_Relationship_Up_1",
             "LocalizeJP": "先生とこうして親しくなれるのは大変嬉しいのですが、周りの皆さんから変に思われたらどうしましょう。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ayane_Relationship_Up_2",
             "LocalizeJP": "いつもこうして先生にお世話になってばかりで。どう恩返しすればいいのか悩んでしまいます。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ayane_Relationship_Up_3",
             "LocalizeJP": "まだ先生から学べていないことがたくさんあるので、もう少し一緒にいたいです。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 23005,
+            "CharacterVoiceGroupId": 23005,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ayane_Relationship_Up_4",
             "LocalizeJP": "今こうしていられるのは 私にはもったいないくらいの時間だなと思う時があります。あはは、何でもありません。",

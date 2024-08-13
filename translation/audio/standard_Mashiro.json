@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Mashiro_Formation_In_1",
             "LocalizeJP": "ベストを尽くします。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Mashiro_Formation_In_2",
             "LocalizeJP": "ご期待に応えてみせます。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mashiro_Battle_In_1",
             "LocalizeJP": "みんな所定の位置に。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mashiro_Battle_In_2",
             "LocalizeJP": "戦闘を始めます。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mashiro_Battle_TSA_1",
             "LocalizeJP": "正義を実現する時です。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mashiro_Battle_TSA_2",
             "LocalizeJP": "インクィジターゼロ、起動。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Mashiro_CommonSkill",
             "LocalizeJP": "残り一人。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_1",
             "LocalizeJP": "弾丸装填、照準よし、射撃開始。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_2",
             "LocalizeJP": "目標を確認、排除します。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_3",
             "LocalizeJP": "ターゲット捕捉、距離は十分です。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_Level_1",
             "LocalizeJP": "ファイア。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_Level_2",
             "LocalizeJP": "命中です。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mashiro_ExSkill_Level_3",
             "LocalizeJP": "ヒット。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Mashiro_Growup_1",
             "LocalizeJP": "支援、感謝します。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Mashiro_Growup_2",
             "LocalizeJP": "強大な力が感じられますね。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Mashiro_Growup_3",
             "LocalizeJP": "ふう、戦意が燃え上がります。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Mashiro_Growup_4",
             "LocalizeJP": "正義のために頑張ります。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mashiro_Relationship_Up_1",
             "LocalizeJP": "先生の持つ正義はきっとかっこいい 正義なのでしょう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mashiro_Relationship_Up_2",
             "LocalizeJP": "もしも先生が悪の行いをしたら、その時は。…いやそんなはずありません、先生は正義そのものですから。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mashiro_Relationship_Up_3",
             "LocalizeJP": "先生と一緒に過ごす時間は、なんだかいつも短く感じます。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 20003,
+            "CharacterVoiceGroupId": 20003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mashiro_Relationship_Up_4",
             "LocalizeJP": "好きです、本当に。…も、もちろん正義のことです。",

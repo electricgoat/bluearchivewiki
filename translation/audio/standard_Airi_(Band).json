@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Airi_(Band)_Minigame_Awesome",
             "LocalizeJP": "この感覚…。覚えました。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Airi_(Band)_Minigame_Daily_end",
             "LocalizeJP": "お疲れ様です。明日も頑張りましょう！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Airi_(Band)_Minigame_Failed",
             "LocalizeJP": "大丈夫です。まだ時間はあります。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Airi_(Band)_Minigame_MissionDaily_end",
             "LocalizeJP": "本日のチェックはこれで終わりですね。おつかれさまでした。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Airi_(Band)_Minigame_Success",
             "LocalizeJP": "いい感じでしたね。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Airi_(Band)_Formation_In_1",
             "LocalizeJP": "れ、練習たくさんしましたから。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Airi_(Band)_Formation_In_2",
             "LocalizeJP": "大丈夫、大丈夫。いけるよアイリ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Airi_(Band)_Formation_Select",
             "LocalizeJP": "うん？……ふへへ。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_Defeat_1",
             "LocalizeJP": "そ、そんなぁ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_Defeat_2",
             "LocalizeJP": "も、もう一回。もう一回やればいけます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_In_1",
             "LocalizeJP": "先生が任せてくださったお仕事だから、必ず。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_In_2",
             "LocalizeJP": "こ、こんなに多いんですか…！？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_Victory_1",
             "LocalizeJP": "やりました先生。できましたよ。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Airi_(Band)_Tactic_Victory_2",
             "LocalizeJP": "これからも任せてください。先生。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Buffed_1",
             "LocalizeJP": "もっと頑張れそうです。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_BuffSelf_1",
             "LocalizeJP": "よーし。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Covered_1",
             "LocalizeJP": "ここに…。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Defense_1",
             "LocalizeJP": "効きません。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_In_1",
             "LocalizeJP": "練習の成果、お見せします。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_In_2",
             "LocalizeJP": "素敵な公演になるはず。",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Move_1",
             "LocalizeJP": "次の小節へ。",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Move_2",
             "LocalizeJP": "まだ演奏は終わっていません。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Recovery_1",
             "LocalizeJP": "あ、ありがとうございます。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Retire",
             "LocalizeJP": "ごめんね…。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_TacticalAction_1",
             "LocalizeJP": "",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Victory_1",
             "LocalizeJP": "お祝いの曲でも演奏しましょうか。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Airi_(Band)_Battle_Victory_2",
             "LocalizeJP": "素敵な公演でした。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Airi_(Band)_CommonSkill",
             "LocalizeJP": "ちょっと待ってくださいね～。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_1",
             "LocalizeJP": "",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_2",
             "LocalizeJP": "うん…。みんな楽しそう。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_3",
             "LocalizeJP": "うん…。やってよかった。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_Level_1",
             "LocalizeJP": "私も…。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_Level_2",
             "LocalizeJP": "いい感じ。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Airi_(Band)_ExSkill_Level_3",
             "LocalizeJP": "これです。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_(Band)_Growup_1",
             "LocalizeJP": "上達しました。やったぁー！",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_(Band)_Growup_2",
             "LocalizeJP": "初心者、卒業できたかな。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_(Band)_Growup_3",
             "LocalizeJP": "何でもできそうな気がします。",
@@ -303,6 +389,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Airi_(Band)_Growup_4",
             "LocalizeJP": "テンションがどんどん上がっていきます。",
@@ -310,6 +398,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_(Band)_Relationship_Up_1",
             "LocalizeJP": "先生はいつも見守ってくださるんですね。ありがとうございます。",
@@ -317,6 +407,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_(Band)_Relationship_Up_2",
             "LocalizeJP": "今のこの感じ、いつか音楽で表現したいです。",
@@ -324,6 +416,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_(Band)_Relationship_Up_3",
             "LocalizeJP": "そ、その、やってみたい楽器とかありますか？…私が教えましょうか。",
@@ -331,6 +425,8 @@
         },
         {
             "CharacterId": 16015,
+            "CharacterVoiceGroupId": 16015,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Airi_(Band)_Relationship_Up_4",
             "LocalizeJP": "え、えっと…、お、お時間よろしければ…、一緒にスイーツカフェでも。",

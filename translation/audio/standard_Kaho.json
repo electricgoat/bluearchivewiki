@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Kaho_Formation_In_1",
             "LocalizeJP": "はい、なんなりと。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kaho_Formation_In_2",
             "LocalizeJP": "桑上カホ、参ります。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kaho_Formation_Select",
             "LocalizeJP": "ん？何か御用でしょうか？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Defeat_1",
             "LocalizeJP": "くっ…。作戦、失敗です。私のせいで、申し訳ありません。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Defeat_2",
             "LocalizeJP": "私がいたらないばかりに、百鬼夜行の名を汚してしまいました。…申し訳ございません。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_In_1",
             "LocalizeJP": "百鬼夜行の名にかけて。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_In_2",
             "LocalizeJP": "陰陽部の副部長として、成し遂げてみせましょう。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Victory_1",
             "LocalizeJP": "お役に立てましたでしょうか。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Victory_2",
             "LocalizeJP": "ふう…、皆さんがご無事で何よりです。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Buffed_1",
             "LocalizeJP": "ご支援ありがとうございます。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_BuffSelf_1",
             "LocalizeJP": "より一層、励むとしましょう。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Covered_1",
             "LocalizeJP": "呼吸を整えて…。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Defense_1",
             "LocalizeJP": "効きませんよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_In_1",
             "LocalizeJP": "皆さん、付いてきてください。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_In_2",
             "LocalizeJP": "ケガの無いよう、注意してまいりましょう。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Move_1",
             "LocalizeJP": "さあ、次に行きましょうか。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Move_2",
             "LocalizeJP": "皆さん、行きますよ。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Recovery_1",
             "LocalizeJP": "助かりました。ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Retire",
             "LocalizeJP": "ここで倒れるわけには…！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Shout_2",
             "LocalizeJP": "撃ちます！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_TacticalAction_1",
             "LocalizeJP": "まいりましょう。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Victory_1",
             "LocalizeJP": "うふふ。これが陰陽部の底力です。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Victory_2",
             "LocalizeJP": "うふふ。少しでも百鬼夜行の宣伝になったのならよいのですが。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kaho_CommonSkill",
             "LocalizeJP": "心を落ち着けて、まいりましょう。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_1",
             "LocalizeJP": "わっ、空から…、これは？",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_2",
             "LocalizeJP": "これは、伝説の…！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_3",
             "LocalizeJP": "これは…、チセちゃん……！？",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_Level_1",
             "LocalizeJP": "落とすわけにはいきません！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_Level_2",
             "LocalizeJP": "すべて回収します！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_Level_3",
             "LocalizeJP": "チセちゃん！待って！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_1",
             "LocalizeJP": "ありがとうございます。先生、おかげさまで成長することができました。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_2",
             "LocalizeJP": "成長を実感できるのはなかなか嬉しいものですね。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_3",
             "LocalizeJP": "先生のおかげでまた強くなれました。この力でもっと皆さんのお役に立ちたいです。",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_4",
             "LocalizeJP": "さらに成長できたみたいです。こんな私でもお力になれるのなら嬉しい限りです。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_1",
             "LocalizeJP": "こんなに胸が高鳴るなんて…、その、初めての感覚です。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_2",
             "LocalizeJP": "共に過ごす時間が長くなればなるほど、心の距離も縮まるのですね。なるほど。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_3",
             "LocalizeJP": "少し体が熱くなってきて、これは…、いえ、もしかして。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10065,
+            "CharacterVoiceGroupId": 10065,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_4",
             "LocalizeJP": "誰かに見守られる立場というのは初めてです。こんなにも嬉しいものなのですね。",

@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_In_1",
             "LocalizeJP": "オッケー。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_In_2",
             "LocalizeJP": "準備完了～！",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_Select",
             "LocalizeJP": "ハムハムんんんーー",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Defeat_1",
             "LocalizeJP": "お腹が空いてたから負けちゃった…。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Defeat_2",
             "LocalizeJP": "罰としてご飯抜き！？",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_In_1",
             "LocalizeJP": "早く終わらせて、ご飯食べに行こう？",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_In_2",
             "LocalizeJP": "わあ、この辺に美味しくて有名なお店があった気がする！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Victory_1",
             "LocalizeJP": "先生、勝ったよ～。美味しいものおごってくれるよね？",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Victory_2",
             "LocalizeJP": "わっ…もうご飯の時間だよ。急いで急いで！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Buffed_1",
             "LocalizeJP": "元気出てきた。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_BuffSelf_1",
             "LocalizeJP": "よいしょっと。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Damage_1",
             "LocalizeJP": "これは美味しくない。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Damage_2",
             "LocalizeJP": "痛い！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Damage_3",
             "LocalizeJP": "お腹空いたー。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Defense_1",
             "LocalizeJP": "痛くないわよ。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_In_1",
             "LocalizeJP": "攻撃！敵のおやつを全部奪うわよ！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_In_2",
             "LocalizeJP": "おやつを食べるために、早く終わらせよう！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Move_1",
             "LocalizeJP": "これで終わり？ご飯はいつ？",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Move_2",
             "LocalizeJP": "あの子達を片付けたら、ご飯食べに行っていい？",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Recovery_1",
             "LocalizeJP": "サンキュー！でも、お腹空いてきちゃった……。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Retire",
             "LocalizeJP": "ごめん、もう限界……。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Shout_1",
             "LocalizeJP": "やぁ！",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Shout_2",
             "LocalizeJP": "はぁ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Shout_3",
             "LocalizeJP": "くらえっ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_TacticalAction_1",
             "LocalizeJP": "あっちに行くね～。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Victory_1",
             "LocalizeJP": "はむっ、うんっ！よしっ！",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Victory_2",
             "LocalizeJP": "はむっ。暴れた後のハンバーガーってやっぱり最高！",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Izumi_CommonSkill",
             "LocalizeJP": "やぁ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_1",
             "LocalizeJP": "出てきて！デラックスチョコハンバーガー！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_2",
             "LocalizeJP": "よっ、こういう時のために、用意してたの！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_3",
             "LocalizeJP": "じゃーん、おやつ登場。",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_1",
             "LocalizeJP": "んっ、んっ、元気が出る！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_2",
             "LocalizeJP": "ハムハム、うおぉー！？",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_3",
             "LocalizeJP": "ハムハム、ん！んー！エネルギー充填！覚悟しなさい！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_1",
             "LocalizeJP": "ありがとう、先生！少しはお腹が満たされた気分！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_2",
             "LocalizeJP": "どうしてこんな大事な食べ物をいつも私にくれるの？",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_3",
             "LocalizeJP": "ごちそうさまでした～！",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_4",
             "LocalizeJP": "よ～し！美味しいものいっぱい食べて力を付けよう！",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_1",
             "LocalizeJP": "一緒にグルメ巡りに行こ？",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_2",
             "LocalizeJP": "何を食べてもどこで食べても楽しい！先生と一緒だからかな？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_3",
             "LocalizeJP": "今度は何を食べようか？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10009,
+            "CharacterVoiceGroupId": 10009,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_4",
             "LocalizeJP": "うわ！",

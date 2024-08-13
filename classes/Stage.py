@@ -143,7 +143,7 @@ class EventStage(Stage):
 
         stage_hint = ''
         if stage['StageHint'] > 0 and stage['StageHint'] in data.etc_localization:
-            stage_hint = data.etc_localization[stage['StageHint']].get('DescriptionEn', data.etc_localization[stage['StageHint']].get('DescriptionJp')).replace('\n','<br>')
+            stage_hint = data.etc_localization[stage['StageHint']].get('DescriptionEn', data.etc_localization[stage['StageHint']].get('DescriptionJp'))
             if 'DescriptionEn' not in data.etc_localization[stage['StageHint']] and missing_etc_localization is not None: missing_etc_localization.add_entry(data.etc_localization[stage['StageHint']])
 
 

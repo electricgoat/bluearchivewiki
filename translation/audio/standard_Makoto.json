@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Makoto_CommonSkill",
             "LocalizeJP": "我が演説を聞くがよい！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_1",
             "LocalizeJP": "キシシ、撃て！……あれ、ぎゃ、逆？",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_2",
             "LocalizeJP": "キシシ、全弾発射！……うん？は…反対！？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_3",
             "LocalizeJP": "いけ！いけいけーキャハハハ！……うん？こっちじゃない！？",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_Level_1",
             "LocalizeJP": "",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_Level_2",
             "LocalizeJP": "そ、そんなぁー！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Makoto_ExSkill_Level_3",
             "LocalizeJP": "う、うわぁ！ま、間違えたー！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Makoto_Growup_1",
             "LocalizeJP": "成程、指導者の極致に達したこの私にも、まだ成長の余地があったとはな…。キキキキ！",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Makoto_Growup_2",
             "LocalizeJP": "先生からご支援いただけるとはな。…ならば遠慮なく…、キシシ！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Makoto_Growup_3",
             "LocalizeJP": "ほう、先生は随分と期待してくれているのだな。…いいだろう。答えてやろうじゃないか。クククク！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Makoto_Growup_4",
             "LocalizeJP": "優秀な人材にはそれ相応の報酬があってしかるべき。キキキ、当然のことだな。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Makoto_Relationship_Up_1",
             "LocalizeJP": "最近、先生との会話が楽しくなってきた気がするぞ。…キヒヒ、先生もそう感じているのではないか？",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Makoto_Relationship_Up_2",
             "LocalizeJP": "ああ先生、そこにいたのか。ちょうど暇ができたところだ。少しの間歓談といこうじゃないか。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Makoto_Relationship_Up_3",
             "LocalizeJP": "多忙な日々から離れ、ゆったり過ごす時間も悪くないな。…キヒヒヒ、気に入った。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Makoto_Relationship_Up_4",
             "LocalizeJP": "クククク！この私をもっと頼っていいぞ先生。私は万魔殿のリーダー。天下の羽沼マコト様なのだからなあ！",

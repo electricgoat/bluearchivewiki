@@ -280,7 +280,13 @@ def scavenge(character):
     assert(wiki.site != None)
     SCRAPE_SECTIONS = ['Tactics and growth', 'Extra event lines']
 
+    CVGROUPS = ['CommonSkill', 'CommonSkill_2', 'ExSkill_1', 'ExSkill_2', 'ExSkill_3', 'ExSkill_4', 'ExSkill_5', 'ExSkill_6', 'ExSkill_Level_1', 'ExSkill_Level_2', 'ExSkill_Level_3', 'ExSkill_Level_4', 'ExSkill_Level_5', 'ExSkill_Level_6', 'ExSkill_Level_7', 'ExSkill_Level_8', 'ExSkill_Level_9', 'ExSkill_Level_10', 'ExSkill_Level_11', 'ExSkill_Level_12', 'Growup_1', 'Growup_2', 'Growup_3', 'Growup_4', 'Relationship_Up_1', 'Relationship_Up_2', 'Relationship_Up_3', 'Relationship_Up_4', 'Formation_In_1', 'Formation_In_2', 'Formation_Select', 'Tactic_In_1', 'Tactic_In_2', 'Tactic_Victory_1', 'Tactic_Victory_2', 'Battle_Buffed_1', 'Battle_Covered_1', 'Battle_Defense_1', 'Battle_In_1', 'Battle_In_2', 'Battle_Move_1', 'Battle_Move_2', 'Battle_Recovery_1',  'Battle_TacticalAction_1', 'Battle_Victory_1', 'Battle_Victory_2', 'Battle_Victory_3', 'Formchange', #localized in subtitles
+    'Tactic_Defeat_1', 'Tactic_Defeat_2', 'Battle_BuffSelf_1', 'Battle_Damage_1', 'Battle_Damage_2', 'Battle_Damage_3', 'Battle_Damage_4','Battle_Damage_5', 'Battle_Damage_6', 'Battle_Retire', 'Battle_Shout_1', 'Battle_Shout_2', 'Battle_Shout_3', 'Battle_Shout_4', 'Battle_Shout_5', 'Battle_Shout_6', 'Battle_TSA_1', 'Battle_TSA_2', 'Battle_Supply', 'Battle_Entrance_1', 'Battle_Entrance_2', 'Battle_Entrance_3', 'CommonTSASkill'] #unlocalized
+
+
     print (f'Scavenging standard lines for [{character.id}] {character.wiki_name}')
+
+    character_voice_group = character.costume['CharacterVoiceGroupId']
     
     parsed_section = None
     standard_lines =[]
@@ -299,7 +305,23 @@ def scavenge(character):
                 line_jp = line[2].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[2] is not None else ''
                 line_en = line[3].replace('</p><p>','\n').replace('<p>','').replace('</p>','').replace('<br>','\n') if line[3] is not None else ''
 
-                standard_lines.append({"CharacterId":character.id, "DialogCategory":category, "VoiceClip": clip_name, "LocalizeJP":line_jp, "LocalizeEN":line_en})
+
+                cvgroup = 'CVGroup_'+line[0]
+                if line[0].startswith('S2_'): cvgroup  = 'CVGroup_'+line[0].replace('S2_', 'Formchange2_')
+                if line[0] not in CVGROUPS: 
+                    if not line[0].startswith('MiniGame') and not line[0].startswith('Minigame') and not line[0].startswith('Event'): print(f"{line[0]} is not in the known cvgroups list, verify it's correct")
+                    cvgroup = None
+                
+
+                standard_lines.append({
+                    "CharacterId":character.id, 
+                    "CharacterVoiceGroupId":character_voice_group, 
+                    "LocalizeCVGroup":cvgroup,
+                    "DialogCategory":category, 
+                    "VoiceClip": clip_name, 
+                    "LocalizeJP":line_jp, 
+                    "LocalizeEN":line_en
+                    })
 
     if standard_lines: write_file(args['translation'] + '/audio/standard_' + character.wiki_name.replace(' ', '_') + '.json', standard_lines)
 
@@ -316,6 +338,11 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
     character_dialog_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog if len(x['VoiceId'])}
     character_dialog_event_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog_event if len(x['VoiceId'])}
 
+    character_voice_group = character.costume['CharacterVoiceGroupId']
+    character_voice = data.character_voice[character_voice_group]
+    character_voice_by_path = {x['Path'][0]:x for x in character_voice if len(x['Path'])}
+    character_voice_subtitle_by_cvgroup = {x['LocalizeCVGroup']:x for x in data.character_voice_subtitle if x['CharacterVoiceGroupId']==character_voice_group}
+    
     
     for file in files:
         file_prefix = ''
@@ -335,6 +362,19 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
         #if voice_id and voice_id in character_dialog_event_by_voiceid:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog_event")
             #continue
+
+
+        # Get localization data from character_voice_subtitle
+        if file in character_voice_by_path and character_voice_by_path[file]['LocalizeCVGroup'] in character_voice_subtitle_by_cvgroup:
+            #print(f"File {file} is CharacterVoiceUniqueId {character_voice_by_path[file]['CharacterVoiceUniqueId']}, CVGroup {character_voice_by_path[file]['LocalizeCVGroup']}")
+            subtitle_data = character_voice_subtitle_by_cvgroup[character_voice_by_path[file]['LocalizeCVGroup']]
+            if file_wikititle not in dialog_data: dialog_data[file_wikititle] = {}
+
+            dialog_data[file_wikititle]['LocalizeCVGroup'] = dialog_data[file_wikititle].get('LocalizeCVGroup', subtitle_data['LocalizeCVGroup'])
+            #dialog_data[file_wikititle]['LocalizeKR'] = dialog_data[file_wikititle]['LocalizeKR'] or subtitle_data.get('LocalizeKR', '')
+            dialog_data[file_wikititle]['LocalizeJP'] = subtitle_data.get('LocalizeJP', False) or dialog_data[file_wikititle].get('LocalizeJP') #prioritize ingame subtitle data over wiki transcriptions
+            dialog_data[file_wikititle]['LocalizeEN'] = subtitle_data.get('LocalizeEN', False) or dialog_data[file_wikititle].get('LocalizeEN')
+
 
         # Inject localization data linked through operator lines
         if voice_id and voice_id in operator_by_voiceid:

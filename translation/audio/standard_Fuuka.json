@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Fuuka_Formation_In_1",
             "LocalizeJP": "はい。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Fuuka_Formation_In_2",
             "LocalizeJP": "準備完了です。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Fuuka_Battle_In_1",
             "LocalizeJP": "給食部の支援、始めます。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Fuuka_Battle_In_2",
             "LocalizeJP": "準備できました。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Fuuka_Battle_TSA_1",
             "LocalizeJP": "大変お待たせしました。給食部の配送者が到着しましたよ！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Fuuka_Battle_TSA_2",
             "LocalizeJP": "お待たせしました。給食部の到着です！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Fuuka_CommonSkill",
             "LocalizeJP": "食事の効果ですね。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_1",
             "LocalizeJP": "よーし。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_2",
             "LocalizeJP": "うん、完璧！",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_3",
             "LocalizeJP": "これは素敵な出来！",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_Level_1",
             "LocalizeJP": "栄養満点の料理です！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_Level_2",
             "LocalizeJP": "食事の時間ですよ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Fuuka_ExSkill_Level_3",
             "LocalizeJP": "美味しく召し上がれ！",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Fuuka_Growup_1",
             "LocalizeJP": "ありがとうございます、先生。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Fuuka_Growup_2",
             "LocalizeJP": "料理の実力もさらに上がったのでしょうか。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Fuuka_Growup_3",
             "LocalizeJP": "これでもう少しお役に立てるように。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Fuuka_Growup_4",
             "LocalizeJP": "え！私でいいのですか？",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fuuka_Relationship_Up_1",
             "LocalizeJP": "先生に美味しい料理を作って差し上げたいです。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fuuka_Relationship_Up_2",
             "LocalizeJP": "食事はちゃんと取れてますか、先生？",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fuuka_Relationship_Up_3",
             "LocalizeJP": "どんな料理がお好きなのか気になります。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 23001,
+            "CharacterVoiceGroupId": 23001,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Fuuka_Relationship_Up_4",
             "LocalizeJP": "先生に…その、朝ごはんを作って差し上げたいのですが、",

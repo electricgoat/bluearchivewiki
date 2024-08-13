@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hare_Formation_In_1",
             "LocalizeJP": "私の実力を証明してみせる機会だね。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hare_Formation_In_2",
             "LocalizeJP": "任せて。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_Battle_In_1",
             "LocalizeJP": "さあ、思いっきりかき回してみようか。",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_Battle_In_2",
             "LocalizeJP": "まずはデータを集めてみようか。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_Battle_TSA_1",
             "LocalizeJP": "テックレベル7、搭乗完了。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Battle_TSA_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_Battle_TSA_2",
             "LocalizeJP": "これで終わらせよう。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hare_CommonSkill",
             "LocalizeJP": "これは痛いよ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_1",
             "LocalizeJP": "電磁パルス稼働開始。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_2",
             "LocalizeJP": "EMPドローン稼働。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_3",
             "LocalizeJP": "第一段階エミッター作動開始。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_Level_1",
             "LocalizeJP": "装備を停止する。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_Level_2",
             "LocalizeJP": "予想通りか。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_ExSkill_Level_3",
             "LocalizeJP": "みんな後ろに下がって。",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_Growup_1",
             "LocalizeJP": "ふーん。これは目を見張る結果だね。",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_Growup_2",
             "LocalizeJP": "もっと多くのデータが必要だね。",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_Growup_3",
             "LocalizeJP": "この込み上げる力も数値化できるのかな。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_Growup_4",
             "LocalizeJP": "未知の知識を探求するのはいつだって楽しいことだね。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_Relationship_Up_1",
             "LocalizeJP": "この研究が終わったら、次は先生のことを研究してみたいな。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_Relationship_Up_2",
             "LocalizeJP": "人の心も顕微鏡で覗き込んで見ることができたらいいのに。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_Relationship_Up_3",
             "LocalizeJP": "先生に惹かれるこの心はどんな力学で証明できるんだろう？",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 23003,
+            "CharacterVoiceGroupId": 23003,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_Relationship_Up_4",
             "LocalizeJP": "私の能力で時間を巻き戻るのかって？さあ？でも私はこの瞬間を永遠に楽しみたいけど。",

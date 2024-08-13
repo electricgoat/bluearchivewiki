@@ -2,107 +2,137 @@
     "DataList": [
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Serika_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "受け取りなさーい！",
+            "LocalizeJP": "受け取りなさい！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "はー、楽し…、えっ、うわあ！",
+            "LocalizeJP": "ふぅ、楽し……わ、わぁ！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "せんせーい…、えっ、うわあ！",
+            "LocalizeJP": "先生～！ひゃっ！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "意外と悪くないか…、もー！",
+            "LocalizeJP": "意外と悪くないか……もおおおー！？！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "逃しちゃった！気をつけて！",
+            "LocalizeJP": "逃しちゃった、気を付けて！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "飛んでくわよ！",
+            "LocalizeJP": "飛んでくわよ！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "避けて―！",
+            "LocalizeJP": "よけて～～～！！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(Swimsuit)_Growup_1",
-            "LocalizeJP": "…その、遊ぶのはいいんだけど、本当にこれでいいんだよね？",
+            "LocalizeJP": "その…遊ぶのは良いんだけど……\n本当にこれで良いんだよね……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(Swimsuit)_Growup_2",
-            "LocalizeJP": "いいねいいね～。今回は遠慮しないんだからね！",
+            "LocalizeJP": "いいね、いいね～！\n今回は遠慮しないんだからね！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(Swimsuit)_Growup_3",
-            "LocalizeJP": "やっぱ先生も遊びたいんだよね、言わなくても分かってるって！",
+            "LocalizeJP": "やっぱ先生も遊びたいんだよね？\n言わなくても分かってるって！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(Swimsuit)_Growup_4",
-            "LocalizeJP": "水鉄砲大会でも開くつもり？…わかった！私が全部やっつけてあげる！",
+            "LocalizeJP": "水鉄砲大会でも開くつもり？\n分かった！私が全部やっつけてあげる！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "…うん。今、すごく楽しいよ。先生。",
+            "LocalizeJP": "……うん、今すごく楽しいよ先生。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "全力で楽しんでやるんだから。何かあったら先生が止めてよね。",
+            "LocalizeJP": "全力で楽しんでやるんだから！\nなにかあったら先生が止めてよね！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "この感じ、なんだか初めてかも。",
+            "LocalizeJP": "この感じ……なんだか初めてかも。",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 20036,
+            "CharacterVoiceGroupId": 20036,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "せ、先生。あの、その…。一緒に水泳でもする…？",
+            "LocalizeJP": "せ、先生。あの……その……\nい、一緒に……水泳でもする……？",
             "LocalizeEN": ""
         }
     ]

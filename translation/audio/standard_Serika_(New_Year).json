@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Serika_(New_Year)_Formation_In_1",
             "LocalizeJP": "私の助けが必要？しょうがないなあ。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Serika_(New_Year)_Formation_In_2",
             "LocalizeJP": "バイト中なんだけど…。まぁ、ちょっとくらい手伝ってあげるわよ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Serika_(New_Year)_Formation_Select",
             "LocalizeJP": "何よ…、何のつもり？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_Defeat_1",
             "LocalizeJP": "どこで…、間違えちゃったのかな。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_Defeat_2",
             "LocalizeJP": "私のせいだ…、ごめん。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_In_1",
             "LocalizeJP": "引き受けた以上、ベストは尽くすわ。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_In_2",
             "LocalizeJP": "巫女さんパワー！…冗談よ。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_Victory_1",
             "LocalizeJP": "みんな大丈夫？怪我とかしてない？…そう。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Serika_(New_Year)_Tactic_Victory_2",
             "LocalizeJP": "ふ、フフン。こんなもんよ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Buffed_1",
             "LocalizeJP": "ふふ、ありがとう。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_BuffSelf_1",
             "LocalizeJP": "さあ、行こうか。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Covered_1",
             "LocalizeJP": "隠れたわ。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Defense_1",
             "LocalizeJP": "効かないよ。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_In_1",
             "LocalizeJP": "千里の道も一歩から。",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_In_2",
             "LocalizeJP": "さ、始めるわよ。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Move_1",
             "LocalizeJP": "この調子で行くわよ。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Move_2",
             "LocalizeJP": "ここはOK。…じゃあ、次。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Recovery_1",
             "LocalizeJP": "ナイスタイミング、ありがとう！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Retire",
             "LocalizeJP": "まだ、倒れちゃダメ…、なのに。",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Shout_3",
             "LocalizeJP": "",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_TacticalAction_1",
             "LocalizeJP": "位置を変えるわ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Victory_1",
             "LocalizeJP": "うん。こんなものね。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Serika_(New_Year)_Battle_Victory_2",
             "LocalizeJP": "「勝利の巫女」って言葉、あるのかな？",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Serika_(New_Year)_CommonSkill",
             "LocalizeJP": "どいたどいたー！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_1",
             "LocalizeJP": "ふんふん～、って、あー！なんなのよ！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_2",
             "LocalizeJP": "うん。こんなもんかな。…ってあー！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_3",
             "LocalizeJP": "うん、いい感じ。ってあー！どうしてー！？",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_Level_1",
             "LocalizeJP": "許さないんだから。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_Level_2",
             "LocalizeJP": "ただじゃおかないんだから。",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Serika_(New_Year)_ExSkill_Level_3",
             "LocalizeJP": "こんの～！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(New_Year)_Growup_1",
             "LocalizeJP": "べ、別に嬉しくなんか。…まあ、ちょっとだけ…。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(New_Year)_Growup_2",
             "LocalizeJP": "これで…、もっと役に。…な、なんでもない。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(New_Year)_Growup_3",
             "LocalizeJP": "（もっと強くなって、先生やみんなの力になりたい。）",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Serika_(New_Year)_Growup_4",
             "LocalizeJP": "これからも頑張るから私のこと見守っててよね 、先生。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(New_Year)_Relationship_Up_1",
             "LocalizeJP": "…なんだか、先生との距離がその。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(New_Year)_Relationship_Up_2",
             "LocalizeJP": "（な、何これ、ドキドキする。なんで、どうして。）",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(New_Year)_Relationship_Up_3",
             "LocalizeJP": "どうしていつも、そんなに優しくしてくれるの？",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 20011,
+            "CharacterVoiceGroupId": 20011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Serika_(New_Year)_Relationship_Up_4",
             "LocalizeJP": "先生が見守っててくれるから、私は頑張れるの。だからその…、ずっとそばにいてね、先生。",

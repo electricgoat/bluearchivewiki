@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_(Sportswear)_Formation_In_1",
             "LocalizeJP": "お任せください。",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_(Sportswear)_Formation_In_2",
             "LocalizeJP": "お待ちしておりました。先生、ご指示を。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_(Sportswear)_Formation_Select",
             "LocalizeJP": "先…生…？",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_Defeat_1",
             "LocalizeJP": "申し訳ございません。不手際があったようです。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_Defeat_2",
             "LocalizeJP": "これでは選手失格ですね。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_In_1",
             "LocalizeJP": "試合開始です。",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_In_2",
             "LocalizeJP": "最善を尽くします。",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_Victory_1",
             "LocalizeJP": "素晴らしい作戦でした、先生。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hasumi_(Sportswear)_Tactic_Victory_2",
             "LocalizeJP": "たまにはこういう格好も動きやすくていいですね。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Buffed_1",
             "LocalizeJP": "声援、感謝します。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_BuffSelf_1",
             "LocalizeJP": "もう少し頑張ってみます。",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Covered_1",
             "LocalizeJP": "隠れます。",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Defense_1",
             "LocalizeJP": "残念です。もっと頑張ってください。",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_In_1",
             "LocalizeJP": "それではまず走ってみましょうか？",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_In_2",
             "LocalizeJP": "正々堂々と参ります。",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Move_1",
             "LocalizeJP": "急ぎましょう。",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Move_2",
             "LocalizeJP": "まだ終わっていません。",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Recovery_1",
             "LocalizeJP": "ありがとうございます。",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Retire",
             "LocalizeJP": "そんな…",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Shout_1",
             "LocalizeJP": "",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Shout_2",
             "LocalizeJP": "",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Shout_3",
             "LocalizeJP": "発射します。",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_TacticalAction_1",
             "LocalizeJP": "次へ行きましょう。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Victory_1",
             "LocalizeJP": "素晴らしい試合でした。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_(Sportswear)_Battle_Victory_2",
             "LocalizeJP": "これくらいは達成できないといけませんね。",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hasumi_(Sportswear)_CommonSkill",
             "LocalizeJP": "集中します。",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_1",
             "LocalizeJP": "美味しそう。",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_2",
             "LocalizeJP": "",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_3",
             "LocalizeJP": "耐え難い誘惑です。",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_Level_1",
             "LocalizeJP": "集中…！集中…！",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_Level_2",
             "LocalizeJP": "こんな時こそ深呼吸を…",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_(Sportswear)_ExSkill_Level_3",
             "LocalizeJP": "しっかりしなさい、ハスミ！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_(Sportswear)_Growup_1",
             "LocalizeJP": "期待してくださった分、結果でお返しいたしますね。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_(Sportswear)_Growup_2",
             "LocalizeJP": "ありがとうございます。このご恩はいつか必ず、",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_(Sportswear)_Growup_3",
             "LocalizeJP": "これも試合のサポートでしょうか？",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_(Sportswear)_Growup_4",
             "LocalizeJP": "こんなに期待していただいたのですから、全力を尽くすしかないですね。",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_(Sportswear)_Relationship_Up_1",
             "LocalizeJP": "お側にいてくださるだけでも心強いです。",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_(Sportswear)_Relationship_Up_2",
             "LocalizeJP": "先生さえよろしければ、もう少し一緒に。",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_(Sportswear)_Relationship_Up_3",
             "LocalizeJP": "たまには先生も欲しいものをおっしゃってくださいね。",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 16011,
+            "CharacterVoiceGroupId": 16011,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_(Sportswear)_Relationship_Up_4",
             "LocalizeJP": "ありがとうございます。こんな風に励ましていただいたのは久しぶりです。",

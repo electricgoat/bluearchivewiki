@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kirino_(Swimsuit)_CommonSkill",
             "LocalizeJP": "う、受け取ってください！",
@@ -9,27 +11,35 @@
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "どれどれ…、そこ！止まってください！",
+            "LocalizeJP": "どれどれ……\nそこ！止まってください！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "危なさそうな人は…、あ！そこ！",
+            "LocalizeJP": "危なさそうな人は……\nあっ！そこ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "ん？…あ！危ない！",
+            "LocalizeJP": "ふむ……\nあっ！危ない！？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "本官が出動します！",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_Level_2",
             "LocalizeJP": "ライフセーバーが来ましたよ！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "危険な遊びはやめてください！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_(Swimsuit)_Growup_1",
             "LocalizeJP": "本官、さらに精進します！",
@@ -58,51 +74,65 @@
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_(Swimsuit)_Growup_2",
-            "LocalizeJP": "水泳の腕がちょっと上がったような気がします！…か、勘違いじゃないですよね？",
+            "LocalizeJP": "水泳の腕がちょっと上がったような気がします！\nか、勘違いじゃないですよね？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_(Swimsuit)_Growup_3",
-            "LocalizeJP": "１に安全、２も安全。先生の安全も本官が守りますよ。",
+            "LocalizeJP": "一に安全、二も安全！\n先生の安全も本官が守りますよ！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_(Swimsuit)_Growup_4",
-            "LocalizeJP": "まだまだ未熟者ですが、先生の期待に応えられるようなライフセーバーになってみせます。",
+            "LocalizeJP": "まだまだ未熟者ですが……先生の期待に応えられるようなライフセーバーになってみせます！",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "先生、水泳は得意ですか？本官が教えましょうか！？",
+            "LocalizeJP": "先生、水泳は得意ですか？\n本官が教えましょうか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "その、もうすぐ休憩時間なのですが…、ほ、本官と一緒にウォータースライダーに乗りませんか。",
+            "LocalizeJP": "その……もうすぐ休憩時間なのですが……\nほ、本官と一緒にウォータースライダーに……乗りませんか？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "えっと、一緒に泳ぎませんか。",
+            "LocalizeJP": "えっと、一緒に泳ぎませんか……？",
             "LocalizeEN": ""
         },
         {
             "CharacterId": 26012,
+            "CharacterVoiceGroupId": 26012,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "その、…本官はいつも先生を見守っています。だから先生も…、本官のことを…。",
+            "LocalizeJP": "その……本官はいつも先生を見守っています。\nだから先生も……本官のことを……",
             "LocalizeEN": ""
         }
     ]

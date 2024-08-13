@@ -2,6 +2,8 @@
     "DataList": [
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_In_1",
             "LocalizeJP": "いいよ！あたしの出番だな！",
@@ -9,6 +11,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_In_2",
             "LocalizeJP": "ああ、任せてくれ。",
@@ -16,6 +20,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_Select",
             "LocalizeJP": "ま、待て師匠！まだ、心の準備が…",
@@ -23,6 +29,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Defeat_1",
             "LocalizeJP": "え、油断した？ごめん、全部私のせい。",
@@ -30,6 +38,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Defeat_2",
             "LocalizeJP": "悪い、私のせいで、次は必ず勝つから。",
@@ -37,6 +47,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_In_1",
             "LocalizeJP": "百花繚乱の実力、とくとご覧あれ！",
@@ -44,6 +56,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_In_2",
             "LocalizeJP": "さっと終わらせてくるよ！",
@@ -51,6 +65,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Victory_1",
             "LocalizeJP": "はは！先生の指揮あってこその勝利だな。",
@@ -58,6 +74,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Victory_2",
             "LocalizeJP": "作戦終了！みんな素晴らしい連携だったよ。",
@@ -65,6 +83,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Buffed_1",
             "LocalizeJP": "ちょうどいいところに。",
@@ -72,6 +92,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_BuffSelf_1",
             "LocalizeJP": "ここからが正念場だ！",
@@ -79,6 +101,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Covered_1",
             "LocalizeJP": "遮蔽完了！",
@@ -86,6 +110,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Damage_1",
             "LocalizeJP": "",
@@ -93,6 +119,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Damage_2",
             "LocalizeJP": "",
@@ -100,6 +128,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Damage_3",
             "LocalizeJP": "",
@@ -107,6 +137,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Defense_1",
             "LocalizeJP": "効かないよ！",
@@ -114,6 +146,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_In_1",
             "LocalizeJP": "先頭はあたし！さ、着いておいで！",
@@ -121,6 +155,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_In_2",
             "LocalizeJP": "はっ！百花繚乱の底力、見せてやる！",
@@ -128,6 +164,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Move_1",
             "LocalizeJP": "次！",
@@ -135,6 +173,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Move_2",
             "LocalizeJP": "隊列を守って！行くよ！",
@@ -142,6 +182,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Recovery_1",
             "LocalizeJP": "お、ありがとう！",
@@ -149,6 +191,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Retire",
             "LocalizeJP": "くっ、くっ、くっそぉぉ…",
@@ -156,6 +200,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Shout_1",
             "LocalizeJP": "はっ！",
@@ -163,6 +209,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Shout_2",
             "LocalizeJP": "はぁっ！",
@@ -170,6 +218,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Shout_3",
             "LocalizeJP": "ひゃっ！",
@@ -177,6 +227,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_TacticalAction_1",
             "LocalizeJP": "場所移動するよ。",
@@ -184,6 +236,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Victory_1",
             "LocalizeJP": "切り込み隊長の名は伊達じゃないんだよ。",
@@ -191,6 +245,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Victory_2",
             "LocalizeJP": "我が行く道、勝利あるのみ！",
@@ -198,6 +254,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Renge_CommonSkill",
             "LocalizeJP": "よし、気合入れていくよ！",
@@ -205,6 +263,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_1",
             "LocalizeJP": "あたしが百花繚乱の切り込み隊長だ！",
@@ -212,6 +272,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_2",
             "LocalizeJP": "じゃ、こっちも本気で相手するよ！",
@@ -219,6 +281,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_3",
             "LocalizeJP": "まだ、終わっちゃいない！",
@@ -226,6 +290,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_1",
             "LocalizeJP": "耐えてみな。",
@@ -233,6 +299,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_2",
             "LocalizeJP": "さあ、一発逆転だ！",
@@ -240,6 +308,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_3",
             "LocalizeJP": "どうだい？ これが百花繚乱の射撃術だよ！",
@@ -247,6 +317,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_1",
             "LocalizeJP": "先生のおかげで、あたしは成長した。ああ、全部師匠のおかげだよ。ありがとう。",
@@ -254,6 +326,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_2",
             "LocalizeJP": "こういう教え方もあるんだ。あたしには思いつきもしなかったよ。先生、あ、いや、師匠はやっぱすごいな。",
@@ -261,6 +335,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_3",
             "LocalizeJP": "すごい！なんか、力が湧いてくるっていうか……うん、すごい！とにかく、すごいんだよ！",
@@ -268,6 +344,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_4",
             "LocalizeJP": "要するに、先生はあたしに期待してくれてるんだろ？ハハ、任せときな！全力で応えるよ！",
@@ -275,6 +353,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_1",
             "LocalizeJP": "いや、確かに青春活動を一緒にしたいとは言ったけど、こんなことまでしていいのかな？",
@@ -282,6 +362,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_2",
             "LocalizeJP": "え、これ大丈夫？大丈夫なやつ？先生と距離が近い。どうしよう？",
@@ -289,6 +371,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_3",
             "LocalizeJP": "先生と一緒にいると、なんだか、こそばゆくて。ごめん、グラウンドを走ってくる！",
@@ -296,6 +380,8 @@
         },
         {
             "CharacterId": 10082,
+            "CharacterVoiceGroupId": 10082,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_4",
             "LocalizeJP": "あ、その、いいや、体調は大丈夫だよ、ただ、その、師匠って私のことを大切にしてくれてるんだなって、そ、そう思っただけ。",
