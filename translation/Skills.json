@@ -5251,8 +5251,60 @@
             "GroupId": "CH0269ExtraPassive01",
             "NameEn": "Vacation planning",
             "DescriptionEn": "Every $1, charge the EX Charge Gauge by $2.\nEvery time the EX Charge Gauge is charged to $3, increase Critical Rate by $4 for $5.\n(The EX Charge Gauge can only hold up 1 full charge)"
+        },
+
+        {
+            "GroupId": "CH0270Ex01",
+            "NameEn": "W-whaaaaat?!",
+            "DescriptionEn": "Deal $1 damage to one enemy and inflict $2 continuous Poison damage over $3."
+        },
+        {
+            "GroupId": "CH0270Public01",
+            "NameEn": "Tactical insulation measures!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nIf the targeted enemy is poisoned, increase own Attack Speed by $3 for $4."
+        },
+        {
+            "GroupId": "CH0270Passive01",
+            "NameEn": "Till the last breath!",
+            "DescriptionEn": "Increase Firing Range by $1 and Attack by $2."
+        },
+        {
+            "GroupId": "CH0270WeaponPassive01",
+            "NameEn": "Till the last breath! +",
+            "DescriptionEn": "Increase Attack by $1. Increase Firing Range by $2 and Attack by $3."
+        },
+        {
+            "GroupId": "CH0270ExtraPassive01",
+            "NameEn": "Deep operation!",
+            "DescriptionEn": "Normal attacks deal $1 additional damage to targets with Poison effect."
+        },
+
+        {
+            "GroupId": "CH0271Ex01",
+            "NameEn": "Korobushka",
+            "DescriptionEn": "Move up to 5 allies and enemies within a circular range to the specified location, then apply an effect depending on the target.\nAllies: Apply a shield of $1 Healing for $2 and grant 1 Flyer for $3 (stacks up to a maximum of 1)\nEnemies: Decrease Defense by $4 for $5."
+        },
+        {
+            "GroupId": "CH0271Public01",
+            "NameEn": "Katyusha",
+            "DescriptionEn": "Every $1, buff the ally with the highest Attack depending on the number of Flyers held by the entire team (Duration: $2)\n0 Flyers: Increase Attack by $3\n1 Flyer: Increase Attack by $4\n2 Flyers: Increase Attack by $5\n3 Flyers: Increase Attack by $6\n4 Flyers or more: Increase Attack by $7"
+        },
+        {
+            "GroupId": "CH0271Passive01",
+            "NameEn": "Kalinka",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0271WeaponPassive01",
+            "NameEn": "Kalinka +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0271ExtraPassive01",
+            "NameEn": "Troika",
+            "DescriptionEn": "Increase Attack of Mystic type allies by $1."
         }
         
-        
+
     ]
 }

@@ -121,7 +121,7 @@ class EventStage(Stage):
 
         
         if hashkey(stage['Name']) in data.localization:
-            name_en = data.localization[hashkey(stage['Name'])].get("En", data.localization[hashkey(name_en)].get("Jp")) 
+            name_en = data.localization[hashkey(stage['Name'])].get("En", data.localization[hashkey(stage['Name'])].get("Jp")) 
             if 'En' not in data.localization[hashkey(stage['Name'])] and missing_localization is not None: missing_localization.add_entry(data.localization[hashkey(stage['Name'])])
         else: name_en= f"{DIFFICULTY[stage['StageDifficulty']]} {stage['StageNumber']}"
 
