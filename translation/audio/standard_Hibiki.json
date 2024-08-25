@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hibiki_CommonSkill",
-            "LocalizeJP": "支援射撃、開始。",
+            "LocalizeJP": "支援射撃開始。",
             "LocalizeEN": "Support fire, start."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_1",
-            "LocalizeJP": "敵の位置を確認、発砲準備完了。",
+            "LocalizeJP": "敵の位置を確認……発砲準備完了。",
             "LocalizeEN": "Enemy position confirmed, ready to fire."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_2",
-            "LocalizeJP": "力がみなぎってる……、行こう！",
+            "LocalizeJP": "力が漲ってる……\n行こう！",
             "LocalizeEN": "My power grows... Let's go."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_3",
-            "LocalizeJP": "今、装填してるのは…怒り。",
+            "LocalizeJP": "今装填してるのは……\n怒り。",
             "LocalizeEN": "Fury... loading now."
         },
         {
@@ -96,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_Level_1",
-            "LocalizeJP": "それなりに大変なことになるかも？",
+            "LocalizeJP": "それなりに……大変なことになるかも?",
             "LocalizeEN": "This might turn big."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_Level_2",
-            "LocalizeJP": "ターゲットへ直撃、成功。",
+            "LocalizeJP": "ターゲットへ直撃……成功。",
             "LocalizeEN": "Successful direct hit to target."
         },
         {
@@ -114,7 +114,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hibiki_ExSkill_Level_3",
-            "LocalizeJP": "先生の敵は…、許さない。",
+            "LocalizeJP": "先生の敵は……\n許さない。",
             "LocalizeEN": "Sensei's enemies will not be tolerated."
         },
         {
@@ -123,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_Growup_1",
-            "LocalizeJP": "完成はない、それを追求する過程があるだけ。マイスターなら誰もがそう。",
+            "LocalizeJP": "完成はない。それを追求する過程があるだけ。\nマイスターなら、誰もがそう。",
             "LocalizeEN": "There's no perfection, there's just the process of pursuing it. It's the same for any Meister."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_Growup_2",
-            "LocalizeJP": "要約すると…私、強くなった！",
+            "LocalizeJP": "要約すると、私、強くなった。",
             "LocalizeEN": "In summary, I have become stronger."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_Growup_3",
-            "LocalizeJP": "先生と一緒なら意欲がわく。もっと…もっとたくさん教えて！",
+            "LocalizeJP": "先生と一緒なら、意欲が湧く。\nもっと……もっとたくさん教えて。",
             "LocalizeEN": "When I'm with Sensei I feel motivated. Teach me more and more!"
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hibiki_Growup_4",
-            "LocalizeJP": "戦闘が好きなわけではないけど…私も、先生の力になりたい。",
+            "LocalizeJP": "戦闘が好きなわけではないけど、\n私も、先生の力になりたい。",
             "LocalizeEN": "I don't like fights, but I also want to help Sensei."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_Relationship_Up_1",
-            "LocalizeJP": "もし今、私の先生に対する心を検査したら、きっと、陽性だと思う。",
+            "LocalizeJP": "もし今私の先生に対する心を検査したら\n……きっと、陽性だと思う。",
             "LocalizeEN": "If I were to examine my feelings towards Sensei now, I'm sure they'd be positive."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_Relationship_Up_2",
-            "LocalizeJP": "これからの私はどこでなにをするんだろう。誰もわからないと思うけど、私はわかってる。先生と、一緒に行く。",
+            "LocalizeJP": "これからの私はどこで、何をするんだろう?\n誰も分からないと思うけど、私は分かってる。\n先生と一緒に行く。",
             "LocalizeEN": "I don't think anyone knows where and what they'll be in the future. But I know. I'm going with Sensei."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_Relationship_Up_3",
-            "LocalizeJP": "不思議だね。記憶機能に、問題でもあるのかな？言いたいことがたくさんあったのに、先生の顔を見ると思い出せなくなるの……。",
+            "LocalizeJP": "不思議だね。記憶機能に問題でもあるのかな?\n言いたいことがたくさんあったのに。\n先生の顔を見ると、思い出せなくなるの。",
             "LocalizeEN": "It's strange. Maybe it's a problem with my memory function. There were so many things I wanted to tell you, but since I saw your face I cannot think of anything..."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hibiki_Relationship_Up_4",
-            "LocalizeJP": "運命なんて信じてない。でも、先生に出会ったその瞬間から…運命に感謝するようになったの。",
+            "LocalizeJP": "運命なんて信じてない。\nでも、先生に出会ったその瞬間から……\n運命に感謝するようになったの。",
             "LocalizeEN": "I don't believe in fate, but from the moment I met Sensei... I'm grateful for my fate."
         }
     ]

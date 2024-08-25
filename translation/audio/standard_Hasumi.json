@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_Formation_In_1",
-            "LocalizeJP": "遠慮は要りません。私にお任せください。",
+            "LocalizeJP": "遠慮は要りません。\n私にお任せください。",
             "LocalizeEN": "Please don't refrain yourself. Leave it to me."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hasumi_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふむ……",
             "LocalizeEN": ""
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Defense_1",
-            "LocalizeJP": "ふふふ、未熟ですね。",
+            "LocalizeJP": "ふふっ、未熟ですね。",
             "LocalizeEN": "How unskilled."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_In_1",
-            "LocalizeJP": "装填完了。これより敵を殲滅します。",
+            "LocalizeJP": "装填完了。\nこれより敵を殲滅します。",
             "LocalizeEN": "Reload. Proceeding to eliminate the enemy."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_In_2",
-            "LocalizeJP": "心は熱く、頭は冷静に。参ります。",
+            "LocalizeJP": "心は熱く、頭は冷静に。\n参ります！",
             "LocalizeEN": "The heart is passionate and the head is calm. Here I go."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Move_1",
-            "LocalizeJP": "もっと、運動をした方が良いのかもしれませんね。",
+            "LocalizeJP": "もっと、運動をしたほうがいいのかもしれませんね……。",
             "LocalizeEN": "Maybe you should exercise more."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hasumi_Battle_Recovery_1",
-            "LocalizeJP": "美味しいですが、量が少し足りな…、ん、何でもありません。",
+            "LocalizeJP": "美味しいですが量が少し足りな……\nな、なんでもありません。",
             "LocalizeEN": "It's delicious, but the quantity is lackin... I-I mean, it's nothing."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_1",
-            "LocalizeJP": "逃しません。",
+            "LocalizeJP": "逃がしません。",
             "LocalizeEN": "You aren't getting away."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_2",
-            "LocalizeJP": "撃ち抜く！",
+            "LocalizeJP": "撃ち抜く…… ！",
             "LocalizeEN": "I'll shoot you through!"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hasumi_ExSkill_Level_3",
-            "LocalizeJP": "行きます。",
+            "LocalizeJP": "行きます！",
             "LocalizeEN": "Here it goes."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_1",
-            "LocalizeJP": "お気遣いありがとうございます、先生。",
+            "LocalizeJP": "お気づかいありがとうございます、先生。",
             "LocalizeEN": "Thank you for your concern, Sensei."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_2",
-            "LocalizeJP": "強くなるにつれて、きちんと必要とされる人になれているのか、いつも悩んでおります。",
+            "LocalizeJP": "強くなるにつれて、きちんと必要とされる人になれているのか……。いつも悩んでおります。",
             "LocalizeEN": "As I grow stronger, I always wonder whether I'm truly becoming someone others can rely on."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hasumi_Growup_3",
-            "LocalizeJP": "私にここまでのことを…、恐縮です。",
+            "LocalizeJP": "私にここまでのことを……。恐縮です。",
             "LocalizeEN": "You would go so far for me?... I'm humbled."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_1",
-            "LocalizeJP": "どうしてでしょうか…先生と一緒にいるといつもより緊張してしまいます。",
+            "LocalizeJP": "どうしてでしょうか。\n先生と一緒にいると、いつもより緊張してしまいます。",
             "LocalizeEN": "I wonder why? When I'm with Sensei I get more nervous than usual."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_2",
-            "LocalizeJP": "もし今この瞬間が夢だとしても、私一生の宝物にします。",
+            "LocalizeJP": "もし今この瞬間が、夢だとしても……\n私、一生の宝物にします。",
             "LocalizeEN": "Even if this moment were a dream, I will treasure it for the rest of my life."
         },
         {
@@ -393,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hasumi_Relationship_Up_3",
-            "LocalizeJP": "いつもそばにおりますから。私が必要な時はいつでもおっしゃってください。",
+            "LocalizeJP": "いつも、そばにおりますから……\n私が必要な時は、いつでも仰ってください。",
             "LocalizeEN": "I'll always be by your side, so feel free to ask whenever you need me."
         },
         {

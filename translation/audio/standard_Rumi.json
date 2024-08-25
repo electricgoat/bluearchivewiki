@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Rumi_Formation_In_2",
-            "LocalizeJP": "あたしの手伝いは必要？任せて。",
+            "LocalizeJP": "あたしの手伝いが必要？任せて。",
             "LocalizeEN": "Need my help? Leave it to me."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Rumi_Formation_Select",
-            "LocalizeJP": "うお、危ないな…、優しく触ってね。",
+            "LocalizeJP": "うわっ……！危ないな。優しく触ってね。",
             "LocalizeEN": "Whoa, that was close... hold me more gently okay?"
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Rumi_Tactic_In_1",
-            "LocalizeJP": "じゃ、始めよっか。しっかりついてきて。",
+            "LocalizeJP": "じゃ、はじめよっか。\nしっかりついてきて。",
             "LocalizeEN": "Okay, let's get started. Stick to me close."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Rumi_Tactic_In_2",
-            "LocalizeJP": "敵か。交渉が出来たら良かったんだけど。",
+            "LocalizeJP": "敵か……。\n交渉ができたら良かったんだけど。",
             "LocalizeEN": "Enemies, huh. Wish we could have just negotiated."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Buffed_1",
-            "LocalizeJP": "お、ありがとう。",
+            "LocalizeJP": "お、ありがと。",
             "LocalizeEN": "Oh! Thanks."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Defense_1",
-            "LocalizeJP": "精々頑張りな。",
+            "LocalizeJP": "せいぜい頑張りな？",
             "LocalizeEN": "Do the best you can."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_In_1",
-            "LocalizeJP": "ホイホイ、呼ばれましたよっと。で、何食べたい？",
+            "LocalizeJP": "はいはい、呼ばれましたよっと。\nんで、何食べたい？",
             "LocalizeEN": "Yeah sure, I'll be right with you. So, what do you wanna eat?"
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_In_2",
-            "LocalizeJP": "腹が減っては戦は出来ぬ、…これ本当だからね。",
+            "LocalizeJP": "腹が減っては戦はできぬ、これ本当だからね？",
             "LocalizeEN": "\"You can't fight on an empty stomach\", is one true saying."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Move_1",
-            "LocalizeJP": "あっち行こっか。",
+            "LocalizeJP": "あっちいこっか。",
             "LocalizeEN": "I'll go over there."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Recovery_1",
-            "LocalizeJP": "いやあ助かった。",
+            "LocalizeJP": "や～助かった！",
             "LocalizeEN": "Oh, nice save!"
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Victory_1",
-            "LocalizeJP": "ま、こんなもんかなあ。みんな、お疲れ。",
+            "LocalizeJP": "ま、こんなもんかな。\n皆、お疲れ～。",
             "LocalizeEN": "Well, that's that... Good job, everyone."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Rumi_Battle_Victory_2",
-            "LocalizeJP": "みんな、おつかれ～。お腹空いてる人～？",
+            "LocalizeJP": "皆お疲れ。\nお腹空いてる人～?",
             "LocalizeEN": "Good job, everyone... Raise hands if you're hungry!"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Rumi_CommonSkill",
-            "LocalizeJP": "装填、発射っ！",
+            "LocalizeJP": "装填、発射！",
             "LocalizeEN": "Load, fire!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_1",
-            "LocalizeJP": "よいしょっと。…はい、召し上がれ！",
+            "LocalizeJP": "よいしょ、っと……！\nはい！\n召し上がれ！",
             "LocalizeEN": "Hoowee. A'right, eat up!"
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_2",
-            "LocalizeJP": "それじゃ、…はっ！これでどうかな？",
+            "LocalizeJP": "それじゃ……！\nはっ！\nこれでどうかな？",
             "LocalizeEN": "Now then, ha! How about that?"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_3",
-            "LocalizeJP": "おかわりは、まだまだあるよ！",
+            "LocalizeJP": "お代わりは！\nまだまだ\nあるよ～",
             "LocalizeEN": "Lots of servings still!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_Level_1",
-            "LocalizeJP": "はい、出来上がり。…それ！",
+            "LocalizeJP": "はい、出来上がり……\nそれっ！",
             "LocalizeEN": "Order's ready, here!"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_Level_2",
-            "LocalizeJP": "よし、出来た。たーんとお食べ！",
+            "LocalizeJP": "よし、できた……。\nたーんとお食べ！",
             "LocalizeEN": "Okay, done. Everyone eat!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rumi_ExSkill_Level_3",
-            "LocalizeJP": "お腹空いちゃった？好きなだけ食べて！",
+            "LocalizeJP": "お腹空いちゃった？\n好きなだけ食べて！",
             "LocalizeEN": "Got hungry? Eat all you can!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Rumi_Growup_1",
-            "LocalizeJP": "あれ？あたし強くなっちゃった？",
+            "LocalizeJP": "あれ、あたし強くなっちゃった？",
             "LocalizeEN": "Hmm? Did I just, get stronger?"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Rumi_Growup_2",
-            "LocalizeJP": "この感覚…。うん、悪くないね、先生のおかげかな？",
+            "LocalizeJP": "この感覚……うん、悪くないね。先生のおかげかな。",
             "LocalizeEN": "This feeling... yeah, it's not bad. Is it all because of Sensei?"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Rumi_Growup_3",
-            "LocalizeJP": "ありがとう、先生。今度玄武紹介に来てくれる？ごちそうするからさ。",
+            "LocalizeJP": "ありがとう、先生。今度、玄武商会に来てくれる？\nご馳走するからさ。",
             "LocalizeEN": "Thank you, Sensei. Won't you come to Genbu Company soon? I'll be sure to treat you."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Rumi_Growup_4",
-            "LocalizeJP": "強くなったから、ご飯をこれからもっとたくさん作れるんじゃ…。先生、お腹空いてない？",
+            "LocalizeJP": "強くなったから、ご飯をこれからもっとたくさん作れるんじゃ……？\n先生、お腹空いてない？",
             "LocalizeEN": "If I've gotten stronger, that  should mean I could make even more dishes. Sensei, aren't you starving?"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rumi_Relationship_Up_1",
-            "LocalizeJP": "あたしはみんなの料理人で、厨房長で、商会長だけど。たまに…、たった一人だけの特別な何かになりたいと…、思うことがあるんだ。",
+            "LocalizeJP": "私は皆の料理人で、厨房長で、商会長だけど……。\nたまに……たった一人だけの……特別な何かになりたいと、思うことがあるんだ。",
             "LocalizeEN": "I may be everyone's cook, head chef, and chairwoman... but sometimes, becoming someone's special someone... is something I've been thinking about."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rumi_Relationship_Up_2",
-            "LocalizeJP": "ああ…、ごめん、先生。こんな気持ちはその、慣れてなくてさ。…というか、初めて、で。",
+            "LocalizeJP": "ん……ごめん、先生。こんな気持ちは、その……慣れてなくてさ。\nというか、はじめて……で……。",
             "LocalizeEN": "Ah... Sorry, Sensei. I'm kinda not, used to handling these feelings. I mean, it's the first time, so."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rumi_Relationship_Up_3",
-            "LocalizeJP": "今日、先生を招待したいんだけど、どう？商会長としてじゃなく、一生徒の…、ルミとして。",
+            "LocalizeJP": "今日…… 先生を招待したいんだけど。どう？\n商会長としてじゃなく、一生徒の、ルミとして。",
             "LocalizeEN": "Today, I'd like to invite you out with me Sensei, so, what do you say? I'm asking not as the chairwoman, but as just a student... just me, Rumi."
         },
         {
@@ -384,8 +384,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rumi_Relationship_Up_4",
-            "LocalizeJP": "責任と言うのは大変で、重たくて。時に、手放したくもなる。ふっ、ありがとう先生。今の話、聞いてくれて。",
-            "LocalizeEN": "Responsibility can be a serious and... burdensome thing.\nAt times, you just can't help but wanting to let go. \n\nHm, thank you, Sensei, for listening to my talk."
+            "LocalizeJP": "責任というのは大変で、重たくて、時に……手放したくもなる。\n……ありがとう、先生。今の話、聞いてくれて。",
+            "LocalizeEN": "Responsibility can be a serious and... burdensome thing.\nAt times, you just can't help but wanting to let go. \nHm, thank you, Sensei, for listening to my talk."
         }
     ]
 }

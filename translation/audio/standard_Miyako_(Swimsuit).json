@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Miyako_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "ご用でしょうか？",
+            "LocalizeJP": "……ご、ご用でしょうか？",
             "LocalizeEN": "Ah... C-Can I help you?"
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "作戦を開始します！",
+            "LocalizeJP": "作戦を開始します。",
             "LocalizeEN": "Starting the operation!"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "現場は把握しています。突入します！",
+            "LocalizeJP": "現場は把握しています。突入します。",
             "LocalizeEN": "We know the site. Going in!"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Miyako_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "水着であろうとどんな服装であろうと、作戦遂行に支障はありません。",
+            "LocalizeJP": "水着であろうと、どんな服装であろうと、作戦遂行に支障はありません。",
             "LocalizeEN": "No matter what I wear, swimsuit or otherwise, it will not interfere with my ability to carry out the mission."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "敵を発見。対応します！",
+            "LocalizeJP": "敵を発見、対応します！",
             "LocalizeEN": "Enemy detected. Responding!"
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "クリア！",
+            "LocalizeJP": "クリア。",
             "LocalizeEN": "Clear!"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "次！",
+            "LocalizeJP": "次。",
             "LocalizeEN": "Next!"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Miyako_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "すべて先生のおかげです。",
+            "LocalizeJP": "すべて、先生のおかげです。",
             "LocalizeEN": "All thanks to you, Sensei."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Miyako_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "UVカットも任務の一環です。",
+            "LocalizeJP": "UVカットも……任務の一環です。",
             "LocalizeEN": "UV protection is also part of the mission."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "コードネーム：ビーチスポーツを開始します。",
+            "LocalizeJP": "コードネーム「ビーチスポーツ」を開始します。",
             "LocalizeEN": "Commencing Codename: Beach Sports."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Miyako_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "タンゴ・ダウン。",
+            "LocalizeJP": "タンゴ、ダウン。",
             "LocalizeEN": "Tango Down."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_(Swimsuit)_Growup_1",
-            "LocalizeJP": "支援、感謝します。必ずやご期待に応えてみせます。",
+            "LocalizeJP": "支援、感謝します。\n必ずやご期待に応えてみせます。",
             "LocalizeEN": "Thank you for your support. We will certainly meet your expectations."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_(Swimsuit)_Growup_2",
-            "LocalizeJP": "その……普段といただく物が違うような。潜入任務中だからですか？",
+            "LocalizeJP": "その……普段といただくものが違うような……\n……潜入任務中だから、ですか？",
             "LocalizeEN": "That... seems to be different from what we usually receive. Is it because we are on an undercover mission?"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_(Swimsuit)_Growup_3",
-            "LocalizeJP": "先生にいただいた物、ひとつも無駄にはいたしません。",
+            "LocalizeJP": "先生にいただいたもの、\n一つも無駄にはいたしません。",
             "LocalizeEN": "I will not waste a single thing that you have given me."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Miyako_(Swimsuit)_Growup_4",
-            "LocalizeJP": "確かに受け取りました。ありがとうございます。",
+            "LocalizeJP": "確かに受け取りました。\nありがとうございます。",
             "LocalizeEN": "Certainly received it. Thank you very much."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "よ、よろしいのですか？こんなに気を配っていただいて。嫌というわけではありません。",
+            "LocalizeJP": "よ、よろしいのですか？こんなに気を配っていただいて……\nい、嫌というわけではありません。",
             "LocalizeEN": "A-Are you sure? You have been so attentive to me... I-It's not that I don't like it."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "ありがとうございます、先生。大切にします。",
+            "LocalizeJP": "ありがとうございます、先生。\n大切にします。",
             "LocalizeEN": "Thank you very much, Sensei. I will take good care of it."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "お礼に、私にできることはないでしょうか。何でもいいのですが。",
+            "LocalizeJP": "お礼に、私にできることはないでしょうか？\nなんでもいいのですが……。",
             "LocalizeEN": "Is there anything I can do to thank you? Anything is fine."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "その、せっかくですし、もし先生さえよければ……。",
+            "LocalizeJP": "その……せっかくですし、\nもし先生さえよければ……。",
             "LocalizeEN": "Well, since we're here... If it's all right with you, Sensei, we can..."
         }
     ]

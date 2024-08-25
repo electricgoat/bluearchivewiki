@@ -6,8 +6,8 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_In_1",
-            "LocalizeJP": "分かった。…今起きるから。",
-            "LocalizeEN": "Do you get it. 'Cause I'm waking up now"
+            "LocalizeJP": "分かった……今起きるから。",
+            "LocalizeEN": "Alright, I'll get up already."
         },
         {
             "CharacterId": 13009,
@@ -15,8 +15,8 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_In_2",
-            "LocalizeJP": "ふわぁ…、それじゃ、また帰ってきてから寝るね。",
-            "LocalizeEN": "Then come back and sleep."
+            "LocalizeJP": "ふぁ～、それじゃまた帰ってきてから寝るね。",
+            "LocalizeEN": "Fuwah...alright, I'll sleep once we get back."
         },
         {
             "CharacterId": 13009,
@@ -24,8 +24,8 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Tsubaki_Formation_Select",
-            "LocalizeJP": "ふむ、意外と快適？",
-            "LocalizeEN": "Hmm, is this place surprisingly comfortable?"
+            "LocalizeJP": "ふむ。\n意外と快適？",
+            "LocalizeEN": "Hmm, this is surprisingly cozy?"
         },
         {
             "CharacterId": 13009,
@@ -34,7 +34,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Defeat_1",
             "LocalizeJP": "ご…ごめん、ちょっと居眠りしてた。",
-            "LocalizeEN": "sorry i fell asleep"
+            "LocalizeEN": "S...sorry, I dozed off."
         },
         {
             "CharacterId": 13009,
@@ -43,7 +43,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Defeat_2",
             "LocalizeJP": "眠ってたつもりだったけど、気絶してたんだね。",
-            "LocalizeEN": "I thought I was asleep, but I passed out."
+            "LocalizeEN": "I thought I was falling asleep, but I was passing out."
         },
         {
             "CharacterId": 13009,
@@ -51,8 +51,8 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_In_1",
-            "LocalizeJP": "ふわぁ…、あの子達は睡眠取らないのかな。",
-            "LocalizeEN": "I wonder if those kids don't get any sleep."
+            "LocalizeJP": "ふぁ～……\nあの子たちは睡眠とらないのかな。",
+            "LocalizeEN": "Fuwah...I wonder if they just don't get enough sleep?"
         },
         {
             "CharacterId": 13009,
@@ -60,8 +60,8 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_In_2",
-            "LocalizeJP": "うーん、出発。頑張って～…、え？私も行くの？",
-            "LocalizeEN": "Well, off we go. Good luck... Huh? Do I have to go too?"
+            "LocalizeJP": "んー、しゅっぱーつ……頑張って……\nえ？私も行くの？",
+            "LocalizeEN": "Alright, off you go. Do your best~...eh? I'm going too?"
         },
         {
             "CharacterId": 13009,
@@ -69,8 +69,8 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Victory_1",
-            "LocalizeJP": "お疲れ様～先生。もう寝てもいい？",
-            "LocalizeEN": "Thank you for your hard work, Sensei. Can I sleep now?"
+            "LocalizeJP": "お疲れ様、先生。\nもう寝てもいい？",
+            "LocalizeEN": "Good work, Sensei. Can I go to sleep now?"
         },
         {
             "CharacterId": 13009,
@@ -78,8 +78,8 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tsubaki_Tactic_Victory_2",
-            "LocalizeJP": "はぁ、終わった終わったよ～。おやすみなさ～い。",
-            "LocalizeEN": "it's over it's over good night"
+            "LocalizeJP": "ふぁ～……終わった。終わったよ～\nおやすみなさ～い♬",
+            "LocalizeEN": "Ah, it's done, it's over~. Good night~."
         },
         {
             "CharacterId": 13009,
@@ -88,7 +88,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Buffed_1",
             "LocalizeJP": "私の出番だね。",
-            "LocalizeEN": "It's my turn."
+            "LocalizeEN": "Looks like I'm up."
         },
         {
             "CharacterId": 13009,
@@ -97,7 +97,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_BuffSelf_1",
             "LocalizeJP": "うわぁ、力を感じる。",
-            "LocalizeEN": "feel the power."
+            "LocalizeEN": "Uwah, I feel powerful."
         },
         {
             "CharacterId": 13009,
@@ -115,7 +115,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Damage_2",
             "LocalizeJP": "痛い。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ouch."
         },
         {
             "CharacterId": 13009,
@@ -124,7 +124,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Damage_3",
             "LocalizeJP": "いたっ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ow."
         },
         {
             "CharacterId": 13009,
@@ -132,8 +132,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Defense_1",
-            "LocalizeJP": "邪魔だなあ。",
-            "LocalizeEN": "You're in the way."
+            "LocalizeJP": "……邪魔だなあ。",
+            "LocalizeEN": "What a nuisance."
         },
         {
             "CharacterId": 13009,
@@ -141,8 +141,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_In_1",
-            "LocalizeJP": "私の後についてきて。",
-            "LocalizeEN": "follow me"
+            "LocalizeJP": "私の後に付いてきて。",
+            "LocalizeEN": "Follow behind me."
         },
         {
             "CharacterId": 13009,
@@ -151,7 +151,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_In_2",
             "LocalizeJP": "私が前に立つね。",
-            "LocalizeEN": "I'll stand in front"
+            "LocalizeEN": "I'll stand up front."
         },
         {
             "CharacterId": 13009,
@@ -160,7 +160,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Move_1",
             "LocalizeJP": "ここはもう安全。",
-            "LocalizeEN": "It's safe here."
+            "LocalizeEN": "It's safe here now."
         },
         {
             "CharacterId": 13009,
@@ -168,8 +168,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Move_2",
-            "LocalizeJP": "早く終わらせて寝たい。",
-            "LocalizeEN": "I want to finish it early and go to sleep."
+            "LocalizeJP": "早く終わらせて寝たい～",
+            "LocalizeEN": "I wanna finish this up and sleep."
         },
         {
             "CharacterId": 13009,
@@ -177,8 +177,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Recovery_1",
-            "LocalizeJP": "あ～り～が～と～う。",
-            "LocalizeEN": "thank you."
+            "LocalizeJP": "あ～り～が～と～～",
+            "LocalizeEN": "Thank you~."
         },
         {
             "CharacterId": 13009,
@@ -187,7 +187,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Retire",
             "LocalizeJP": "眠い。",
-            "LocalizeEN": "sleepy."
+            "LocalizeEN": "I'm sleepy."
         },
         {
             "CharacterId": 13009,
@@ -205,7 +205,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Shout_2",
             "LocalizeJP": "進め。",
-            "LocalizeEN": "go ahead."
+            "LocalizeEN": "Advance."
         },
         {
             "CharacterId": 13009,
@@ -222,8 +222,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_TacticalAction_1",
-            "LocalizeJP": "ちょっと位置 変わるね。",
-            "LocalizeEN": "The position will change a little."
+            "LocalizeJP": "ちょっと位置変わるね。",
+            "LocalizeEN": "Changing up my position."
         },
         {
             "CharacterId": 13009,
@@ -231,8 +231,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Victory_1",
-            "LocalizeJP": "ふぅ…、役に立てて良かった。",
-            "LocalizeEN": "I'm glad it was helpful."
+            "LocalizeJP": "ふぅ……はぁ～～\n役に立ててよかった。",
+            "LocalizeEN": "Phew...I'm glad I could be helpful."
         },
         {
             "CharacterId": 13009,
@@ -240,8 +240,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tsubaki_Battle_Victory_2",
-            "LocalizeJP": "ふぅ…、これで安心して眠れるね。",
-            "LocalizeEN": "You can sleep in peace now."
+            "LocalizeJP": "ふぅ……はぁ～～\nこれで安心して眠れるね。",
+            "LocalizeEN": "Phew...now I can sleep in peace."
         },
         {
             "CharacterId": 13009,
@@ -249,8 +249,8 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Tsubaki_CommonSkill",
-            "LocalizeJP": "キズ？寝て起きたら治るよ。",
-            "LocalizeEN": "The wound will heal when you sleep and wake up."
+            "LocalizeJP": "傷？寝て起きたら治るよ。",
+            "LocalizeEN": "My wounds? They'll be fine once I sleep them off."
         },
         {
             "CharacterId": 13009,
@@ -258,8 +258,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_1",
-            "LocalizeJP": "よっと、じゃあ 行こっか。",
-            "LocalizeEN": "Okay, let's go then."
+            "LocalizeJP": "よっと……じゃあ行こっか～。",
+            "LocalizeEN": "Hup, now let's get going."
         },
         {
             "CharacterId": 13009,
@@ -267,8 +267,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_2",
-            "LocalizeJP": "守らなきゃいけないものがあるの。",
-            "LocalizeEN": "Is there something you must protect?"
+            "LocalizeJP": "守らなきゃいけないものがあるの！",
+            "LocalizeEN": "I have something I need to protect."
         },
         {
             "CharacterId": 13009,
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_3",
-            "LocalizeJP": "さあ、修行の成果を見せるよ。",
+            "LocalizeJP": "さあ～、修行の成果を見せるよ！",
             "LocalizeEN": "Now, let me show you the results of my training."
         },
         {
@@ -285,8 +285,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_1",
-            "LocalizeJP": "誰も私の昼寝は…、いや、先生の邪魔はさせない",
-            "LocalizeEN": "no one will disturb my napping no Sensei."
+            "LocalizeJP": "誰も私の昼寝は……\nいや、先生の邪魔はさせない。",
+            "LocalizeEN": "I won't let you get in the way of my afternoon nap...I mean, in Sensei's way."
         },
         {
             "CharacterId": 13009,
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_2",
-            "LocalizeJP": "私が先頭に立つよ、行こう。",
+            "LocalizeJP": "私が先頭に立つよ。\n行こう！",
             "LocalizeEN": "I'll take the lead. Let's go."
         },
         {
@@ -303,8 +303,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tsubaki_ExSkill_Level_3",
-            "LocalizeJP": "痛くない、痛くない。",
-            "LocalizeEN": "It doesn't hurt It doesn't hurt"
+            "LocalizeJP": "痛くな～い\n痛くな～い",
+            "LocalizeEN": "It doesn't hurt, it doesn't hurt."
         },
         {
             "CharacterId": 13009,
@@ -312,8 +312,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_1",
-            "LocalizeJP": "ん？よく眠れたからか、なんだか 成長した気分だな。",
-            "LocalizeEN": "Maybe it's because I slept well, I feel like I've grown up"
+            "LocalizeJP": "うん？よく眠れたからか、\nなんだか成長、した気分だなぁ。",
+            "LocalizeEN": "Hmm? Maybe it's because I sleep so well, but I feel like I've gotten stronger."
         },
         {
             "CharacterId": 13009,
@@ -321,8 +321,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_2",
-            "LocalizeJP": "やっぱり先生といる時は元気が出る。",
-            "LocalizeEN": "After all, when I'm with Sensei, I feel better."
+            "LocalizeJP": "やっぱり……先生といる時は……\n元気が出る。",
+            "LocalizeEN": "I always feel energized with you around, Sensei."
         },
         {
             "CharacterId": 13009,
@@ -330,8 +330,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_3",
-            "LocalizeJP": "今なら冬眠もできそう。",
-            "LocalizeEN": "I think I can hibernate now."
+            "LocalizeJP": "今なら……冬眠もできそう。",
+            "LocalizeEN": "Now, I feel like I could even hibernate."
         },
         {
             "CharacterId": 13009,
@@ -339,8 +339,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Tsubaki_Growup_4",
-            "LocalizeJP": "夢を見るのもいいけど、これからは先生と夢を叶えたい",
-            "LocalizeEN": "It's fine to dream, but from now on, I want to make my dreams come true with Sensei."
+            "LocalizeJP": "夢を見るのもいいけど……\nこれからは先生と、夢を叶えたい。",
+            "LocalizeEN": "Dreams are good and all, but I want to make those dreams with you come true, Sensei."
         },
         {
             "CharacterId": 13009,
@@ -348,8 +348,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_1",
-            "LocalizeJP": "暖かい日差し、ふかふかの枕、柔らかい布団、そして 先生。いいね。",
-            "LocalizeEN": "Warm sunshine, fluffy pillows, soft duvets, and Sensei. nice."
+            "LocalizeJP": "暖かい日差し、フカフカの枕、柔らかい布団。\nそして……先生。\n……いいね。",
+            "LocalizeEN": "Warm sunshine, fluffy pillows, a soft futon, and Sensei. Nice."
         },
         {
             "CharacterId": 13009,
@@ -357,8 +357,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_2",
-            "LocalizeJP": "世界で一番嫌いなもの、目覚まし時計…。でも先生の声は嫌いじゃないよ。",
-            "LocalizeEN": "The thing I hate most in the world is the alarm clock... But I don't dislike Sensei voice."
+            "LocalizeJP": "世界で一番嫌いなもの？目覚まし時計。\nでも……先生の声は嫌いじゃないよ。",
+            "LocalizeEN": "The thing I hate most in the world is the alarm clock...but I wouldn't hate your voice, Sensei."
         },
         {
             "CharacterId": 13009,
@@ -366,8 +366,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_3",
-            "LocalizeJP": "私だって 一応本気を出す時はあるよ、戦う時と先生と一緒にいるとき。",
-            "LocalizeEN": "Even I have times when I go all out, when I'm fighting and when I'm with Sensei."
+            "LocalizeJP": "わ、私だって一応本気を出す時はあるよ……。\n戦う時と……先生と一緒にいる時。",
+            "LocalizeEN": "Even I have times where I go all out, like when I'm fighting or when I'm with you, Sensei."
         },
         {
             "CharacterId": 13009,
@@ -375,8 +375,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tsubaki_Relationship_Up_4",
-            "LocalizeJP": "幸せだけど怖い今この瞬間が夢のように目覚めてしまいそうで",
-            "LocalizeEN": "I'm happy but scared I feel like this moment will wake up like a dream"
+            "LocalizeJP": "幸せだけど怖い。\n今この瞬間が、夢のように目覚めてしまいそうで……。",
+            "LocalizeEN": "I'm happy, but I'm scared that this moment is just a dream that I'm gonna wake up from."
         }
     ]
 }

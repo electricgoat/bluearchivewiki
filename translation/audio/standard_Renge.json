@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_In_1",
-            "LocalizeJP": "いいよ！あたしの出番だな！",
+            "LocalizeJP": "いいよ！アタシの出番だな？",
             "LocalizeEN": "Sure! This is my moment!"
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_In_2",
-            "LocalizeJP": "ああ、任せてくれ。",
+            "LocalizeJP": "ああ、任せてくれ！",
             "LocalizeEN": "Leave it to me."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Renge_Formation_Select",
-            "LocalizeJP": "ま、待て師匠！まだ、心の準備が…",
+            "LocalizeJP": "ま、待って、師匠！まだ……心の準備が……！",
             "LocalizeEN": "W-wait, Master! I'm not ready yet..."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Victory_1",
-            "LocalizeJP": "はは！先生の指揮あってこその勝利だな。",
+            "LocalizeJP": "ははっ、先生の指揮あってこその勝利だな。",
             "LocalizeEN": "Haha! It's all thanks to Sensei's leadership that we won!"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Renge_Tactic_Victory_2",
-            "LocalizeJP": "作戦終了！みんな素晴らしい連携だったよ。",
+            "LocalizeJP": "作戦終了！\n皆、素晴らしい連携だったよ！",
             "LocalizeEN": "Mission accomplished! Everyone worked together beautifully."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Buffed_1",
-            "LocalizeJP": "ちょうどいいところに。",
+            "LocalizeJP": "ちょうどいいところに！",
             "LocalizeEN": "Just at the right time."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_In_1",
-            "LocalizeJP": "先頭はあたし！さ、着いておいで！",
+            "LocalizeJP": "先頭はアタシ！さ、ついておいで！",
             "LocalizeEN": "I'm going first! Now follow me!"
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_In_2",
-            "LocalizeJP": "はっ！百花繚乱の底力、見せてやる！",
+            "LocalizeJP": "はっ！百花繚乱の底力、みせてやる！",
             "LocalizeEN": "Ah! I'll show you the power of Hyakkaryouran!"
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Recovery_1",
-            "LocalizeJP": "お、ありがとう！",
+            "LocalizeJP": "おっ！ありがと！",
             "LocalizeEN": "Oh, thank you!"
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_TacticalAction_1",
-            "LocalizeJP": "場所移動するよ。",
+            "LocalizeJP": "場所移動するよ！",
             "LocalizeEN": "Let's move."
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Renge_Battle_Victory_1",
-            "LocalizeJP": "切り込み隊長の名は伊達じゃないんだよ。",
+            "LocalizeJP": "切り込み隊長の名は伊達じゃないんだよ！",
             "LocalizeEN": "The name of the Assault Squad Captain isn't just for show."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Renge_CommonSkill",
-            "LocalizeJP": "よし、気合入れていくよ！",
+            "LocalizeJP": "よし、気合い入れていくよ！",
             "LocalizeEN": "Alright, let's do this with all our might!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_1",
-            "LocalizeJP": "あたしが百花繚乱の切り込み隊長だ！",
+            "LocalizeJP": "アタシが、百花繚乱の切り込み隊長だ！",
             "LocalizeEN": "I am the captain of Hyakkaryouran's Assault Squad!"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_3",
-            "LocalizeJP": "まだ、終わっちゃいない！",
+            "LocalizeJP": "まだ！終わっちゃいない！",
             "LocalizeEN": "It's not over yet!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_1",
-            "LocalizeJP": "耐えてみな。",
+            "LocalizeJP": "はっ、耐えてみな！",
             "LocalizeEN": "Taste this!"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_2",
-            "LocalizeJP": "さあ、一発逆転だ！",
+            "LocalizeJP": "さぁ、一発逆転だ！",
             "LocalizeEN": "All right, let's turn this around!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Renge_ExSkill_Level_3",
-            "LocalizeJP": "どうだい？ これが百花繚乱の射撃術だよ！",
+            "LocalizeJP": "どうだい、これが百花繚乱の射撃術だよ！",
             "LocalizeEN": "What do you think of that? This is the shooting technique of Hyakkaryouran!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_1",
-            "LocalizeJP": "先生のおかげで、あたしは成長した。ああ、全部師匠のおかげだよ。ありがとう。",
+            "LocalizeJP": "先生のおかげでアタシは成長した。\nああ、全部師匠のおかげだよ。ありがとう。",
             "LocalizeEN": "Thanks to Sensei, I have grown. Ah, it's all because of Master. Thank you."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_2",
-            "LocalizeJP": "こういう教え方もあるんだ。あたしには思いつきもしなかったよ。先生、あ、いや、師匠はやっぱすごいな。",
+            "LocalizeJP": "こういう教え方もあるんだ……。\nアタシには思いつきもしなかったよ。先生……いや、師匠はやっぱ、すごいなぁ。",
             "LocalizeEN": "This is a way of teaching I would have never thought of. Sensei, or should I say, Master, you are truly amazing."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_3",
-            "LocalizeJP": "すごい！なんか、力が湧いてくるっていうか……うん、すごい！とにかく、すごいんだよ！",
+            "LocalizeJP": "すごい！なんか、力が湧いてくるっていうか。\nうん！凄い！とにかく、凄いんだよ！",
             "LocalizeEN": "Amazing! It's like I'm feeling a surge of power or something... Yeah, amazing! In any case, it is amazing!"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Renge_Growup_4",
-            "LocalizeJP": "要するに、先生はあたしに期待してくれてるんだろ？ハハ、任せときな！全力で応えるよ！",
+            "LocalizeJP": "要するに、先生はアタシに期待してくれてるんだろ？\nははっ！任せときな！全力で応えるよ！",
             "LocalizeEN": "In short, Sensei has high expectations of me, right? Haha, leave it to me! I'll give it my all!"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_1",
-            "LocalizeJP": "いや、確かに青春活動を一緒にしたいとは言ったけど、こんなことまでしていいのかな？",
+            "LocalizeJP": "いや、たしかに「青春活動」を一緒にしたい、とは言ったけど……\nこんなことまでして……いいの……かな！？",
             "LocalizeEN": "Well, I did say I wanted to do activities of youth with you, but is it really okay to go this far?"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_2",
-            "LocalizeJP": "え、これ大丈夫？大丈夫なやつ？先生と距離が近い。どうしよう？",
+            "LocalizeJP": "（えっ、これ、大丈夫？大丈夫なやつ？\n先生と距離が、近い……！うああっ！どうしよ！）",
             "LocalizeEN": "Oh, is this okay? Surely this is fine? I'm so close to Sensei. What should I do?"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_3",
-            "LocalizeJP": "先生と一緒にいると、なんだか、こそばゆくて。ごめん、グラウンドを走ってくる！",
+            "LocalizeJP": "ん―――！先生と一緒にいると、なんだかこそばゆくて……！\nうああっ！ごめん！！！グラウンド走ってくる！",
             "LocalizeEN": "When I'm with Sensei, I feel ticklish for some reason. Sorry, I'll go for a run on the grounds!"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Renge_Relationship_Up_4",
-            "LocalizeJP": "あ、その、いいや、体調は大丈夫だよ、ただ、その、師匠って私のことを大切にしてくれてるんだなって、そ、そう思っただけ。",
+            "LocalizeJP": "……あ……その。\n……いや、体調は大丈夫だよ！ただ、その……\n師匠ってアタシのこと、大切にしてくれてるんだなぁって……\nそ、そう思っただけ！",
             "LocalizeEN": "Ah, I'm fine. It's just that... Master really cares about me, I think."
         }
     ]

@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kirino_Formation_In_2",
-            "LocalizeJP": "準備完了です。",
+            "LocalizeJP": "準備完了です！",
             "LocalizeEN": "Ready."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_In_1",
-            "LocalizeJP": "市民の安全を最優先でいきましょう。",
+            "LocalizeJP": "市民の安全を最優先で行きましょう！",
             "LocalizeEN": "Let's put public safety first."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_In_2",
-            "LocalizeJP": "犯罪者はどこですか",
+            "LocalizeJP": "犯罪者はどこですか？",
             "LocalizeEN": "Where are the criminals?"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_1",
-            "LocalizeJP": "市民の皆さん、キヴォトスは今日も安全です。",
+            "LocalizeJP": "市民の皆さん、キヴォトスは今日も安全です！",
             "LocalizeEN": "Citizens, Kivotos is safe today."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kirino_Tactic_Victory_2",
-            "LocalizeJP": "今日もパトロールにご協力してくださって、ありがとうございます。",
+            "LocalizeJP": "今日もパトロールにご協力してくださってありがとうございます！",
             "LocalizeEN": "Thank you for your cooperation with the patrol today."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Buffed_1",
-            "LocalizeJP": "ご支援感謝します。",
+            "LocalizeJP": "ご支援、感謝します！",
             "LocalizeEN": "Thank you for your support."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Covered_1",
-            "LocalizeJP": "隠れます。",
+            "LocalizeJP": "隠れます！",
             "LocalizeEN": "Taking cover!"
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_In_2",
-            "LocalizeJP": "犯罪者は許しません。",
+            "LocalizeJP": "犯罪者は許しません！",
             "LocalizeEN": "Criminals do not forgive."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Move_1",
-            "LocalizeJP": "ここはもう安全地帯になりました。",
+            "LocalizeJP": "ここはもう安全地帯になりました！",
             "LocalizeEN": "This is now a safe zone."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Move_2",
-            "LocalizeJP": "次の区域へ移動しましょう。",
+            "LocalizeJP": "次の区域へ移動しましょう！",
             "LocalizeEN": "Let's move on to the next area."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Recovery_1",
-            "LocalizeJP": "あ…、ありがとうございます。",
+            "LocalizeJP": "あ……ありがとうございます。",
             "LocalizeEN": "Thank you."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_TacticalAction_1",
-            "LocalizeJP": "移動します。",
+            "LocalizeJP": "移動します！",
             "LocalizeEN": "Let's move."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_1",
-            "LocalizeJP": "任務、完了しました。",
+            "LocalizeJP": "任務、完了しました！",
             "LocalizeEN": "Mission completed."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kirino_Battle_Victory_2",
-            "LocalizeJP": "右、左…、ふう…。ここはもう安全です。",
+            "LocalizeJP": "右、左……ふぅ、\nここはもう安全です！",
             "LocalizeEN": "Right, left... Phew, it's safe here now."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kirino_CommonSkill",
-            "LocalizeJP": "くらえ。",
+            "LocalizeJP": "くらえ！",
             "LocalizeEN": "Damn it."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_1",
-            "LocalizeJP": "あなたには黙秘権があります！…う、うわあ！",
+            "LocalizeJP": "あなたには黙秘権があります……う、うわっ？",
             "LocalizeEN": "You have the right to remain silent! ...Oh!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_2",
-            "LocalizeJP": "このキヴォトスでの犯罪は許されない…、わあ！",
+            "LocalizeJP": "このキヴォトスでの犯罪は許されな……うわああっ！",
             "LocalizeEN": "This crime in Kivotos will not be tolerated... Oh!"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_3",
-            "LocalizeJP": "警告します、投降しなければ…、うわあ！",
+            "LocalizeJP": "警告します！投降しなければ……ああっ！",
             "LocalizeEN": "I warn you, if you don't surrender... Oh!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_1",
-            "LocalizeJP": "どうしよう、どうしよう…。えいや！",
+            "LocalizeJP": "どうしよう、どうしよう？……えいやっ！",
             "LocalizeEN": "What should I do, what should I do... Eiya!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_2",
-            "LocalizeJP": "こ、公権力を投入します。",
+            "LocalizeJP": "こ、公権力を投入します！",
             "LocalizeEN": "I'm going to use public authority."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kirino_ExSkill_Level_3",
-            "LocalizeJP": "これでも、くらっちゃってください！",
+            "LocalizeJP": "こ、こ、これでも食らっちゃってください！",
             "LocalizeEN": "Even with this, suck it!"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_1",
-            "LocalizeJP": "ずっとこうやって努力していれば、いつか警備部への発令をいただけるのでしょうか？",
+            "LocalizeJP": "ずっとこうやって努力していれば……いつか警備部への発令をいただけるのでしょうか?",
             "LocalizeEN": "If I keep trying like this, will I be able to get a job order from the security department someday?"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_2",
-            "LocalizeJP": "キヴォトスの安全のために、精進します。",
+            "LocalizeJP": "キヴォトスの安全のために、精進します！",
             "LocalizeEN": "I will devote myself to the safety of Kivotos."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_3",
-            "LocalizeJP": "ふふ、今日はいい成果ですね。",
+            "LocalizeJP": "ふふ、今日はいい成果ですね！",
             "LocalizeEN": "I see good results today."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kirino_Growup_4",
-            "LocalizeJP": "本官のために力を貸してくださって、ありがとうございます。",
+            "LocalizeJP": "本官のために力を貸してくださってありがとうございます。",
             "LocalizeEN": "Thank you for lending me your strength."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_1",
-            "LocalizeJP": "さすが先生ですね。",
+            "LocalizeJP": "さすが先生ですね！",
             "LocalizeEN": "I knew I could count on you, Sensei."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_2",
-            "LocalizeJP": "本官もいつか先生のような立派な大人になりたいです。",
+            "LocalizeJP": "本官もいつか……先生のような立派な大人になりたいです！",
             "LocalizeEN": "I also want to become a splendid adult like you one day, Sensei!"
         },
         {
@@ -393,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_3",
-            "LocalizeJP": "本官はまったく…、これは業務に過ぎないのに、勘違いをするところでした。",
+            "LocalizeJP": "本官はまったく……これは業務に過ぎないのに。勘違いをするところでした……。",
             "LocalizeEN": "I know this is nothing more than a work relationship, but I was about to mistake it for something else..."
         },
         {
@@ -402,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kirino_Relationship_Up_4",
-            "LocalizeJP": "先生と生徒が恋愛をするというのは、キヴォトスでは犯罪ではありません。…言いたいことはそれだけです。",
+            "LocalizeJP": "先生と生徒が恋愛をするというのは、キヴォトスでは犯罪ではありません！\nい、言いたいことはそれだけです……。",
             "LocalizeEN": "It is not a crime in Kivotos for a teacher and student to fall in love. ...That's all I want to say."
         }
     ]

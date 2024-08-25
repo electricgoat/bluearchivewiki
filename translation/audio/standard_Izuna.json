@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_Formation_Select",
-            "LocalizeJP": "ニンニン！主殿、イズナは何をすればよいでしょうか？",
+            "LocalizeJP": "にんにん！\n主殿、イズナは何をすれば良いでしょうか？",
             "LocalizeEN": "Nin nin! My lord, what are your orders?"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_In_2",
-            "LocalizeJP": "イズナ流忍法！お見せします！",
+            "LocalizeJP": "イズナ流忍法、お見せします！",
             "LocalizeEN": "I'll show you my Izuna-style ninja arts!"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_Tactic_Victory_1",
-            "LocalizeJP": "任務成功！今日も忍びの者として、かんっぺきな働きができました。",
+            "LocalizeJP": "任務成功！\n今日も忍の者として、完璧な働きができました！",
             "LocalizeEN": "Mission success! I was able to do a perfect job as a shinobi today as well."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Buffed_1",
-            "LocalizeJP": "忍法、感謝の術！",
+            "LocalizeJP": "忍法！感謝の術！",
             "LocalizeEN": "Ninja art, art of gratitude!"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_Battle_Victory_2",
-            "LocalizeJP": "コンコン！勝利勝利♪",
+            "LocalizeJP": "コンコンッ！\n勝利勝利っ！",
             "LocalizeEN": "Woof woof! Victory!"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Izuna_CommonSkill",
-            "LocalizeJP": "行きます！手裏剣！えいっ！",
+            "LocalizeJP": "行きます、手裏剣！えいっ！",
             "LocalizeEN": "Go, shuriken!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_1",
-            "LocalizeJP": "イズナ流忍法！",
+            "LocalizeJP": "イズナ流忍法っ！",
             "LocalizeEN": "Izuna-style ninja art!"
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_2",
-            "LocalizeJP": "忍術！お見せしましょう！",
+            "LocalizeJP": "忍術、お見せしましょう！",
             "LocalizeEN": "I'll show you my ninja art!"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_Level_2",
-            "LocalizeJP": "これも忍術……みたいなものです！",
+            "LocalizeJP": "これも忍術……！みたいなものです！",
             "LocalizeEN": "Ninja technique... this one also counts!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_ExSkill_Level_3",
-            "LocalizeJP": "躱してみせます！",
+            "LocalizeJP": "かわしてみせます！",
             "LocalizeEN": "See how I dodge this!"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_2",
-            "LocalizeJP": "これもまた、主殿からのご恩のひとつですね！",
+            "LocalizeJP": "これもまた、主殿からの御恩のひとつですね！",
             "LocalizeEN": "This is yet another of my lord's blessings!"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_3",
-            "LocalizeJP": "きっと！主殿の期待に応えられる忍者になってみせます！",
+            "LocalizeJP": "きっと、主殿の期待に応えられる忍者になってみせます！",
             "LocalizeEN": "I will become a ninja that can live up to my lord's expectations!"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_Growup_4",
-            "LocalizeJP": "以前よりもさらに高く！さらに速く！今のイズナは最強の忍者かもしれません、主殿！",
+            "LocalizeJP": "以前よりもさらに高く、さらに速く！\n今のイズナは最強の忍者かもしれません！主殿！！",
             "LocalizeEN": "Even taller than before, faster than before! Izuna is now perhaps the strongest ninja there is, my lord!"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_1",
-            "LocalizeJP": "主殿と一緒にいる時のこのドキドキは、使命感……でしょうか？",
+            "LocalizeJP": "主殿と一緒にいる時のこのドキドキは……\n使命感？でしょうか？",
             "LocalizeEN": "What is this sensation in my heart whenever I'm with my lord?... Maybe it's the sense of duty?"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_2",
-            "LocalizeJP": "主殿のお傍にいると……幸せな気分になります。これは……主君に仕える忍としての喜び……なのでしょうか……？",
+            "LocalizeJP": "主殿のお傍にいると、幸せな気分になります。\nこれは、主君に仕える忍びとしての喜び……なのでしょうか？",
             "LocalizeEN": "I get a warm feeling every time I'm next to my lord. Is this... the joy of a ninja that has the support of their master?"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_3",
-            "LocalizeJP": "なんなりとご命令ください！主殿の命を遂行するためにイズナはここにおりますので！",
+            "LocalizeJP": "何なりとご命令ください！\n主殿の命を遂行するために、イズナはここにおりますので！",
             "LocalizeEN": "You're wishes are my command! Izuna is here to fulfil your every order!"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_Relationship_Up_4",
-            "LocalizeJP": "イズナは、これまで主殿のような主君をずっと探していました。やっと……やっとお会いすることができました。今のイズナ、とっても幸せです。",
+            "LocalizeJP": "イズナは、これまで主殿のような主君をずっと探していました。\nやっと……やっとお会いすることが出来ました。\n今のイズナ、とっても幸せです。",
             "LocalizeEN": "Izuna had long searched for a lord such as you. I finally... finally got to meet you. Now Izuna is very happy."
         }
     ]

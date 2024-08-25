@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Kikyou_Formation_In_2",
-            "LocalizeJP": "私を呼ぶと思ってた。",
+            "LocalizeJP": "ふふっ、私を呼ぶと思ってた。",
             "LocalizeEN": "I thought you were calling me."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kikyou_Formation_Select",
-            "LocalizeJP": "勝手にすれば。",
+            "LocalizeJP": "……勝手にすれば？",
             "LocalizeEN": "Do whatever you want."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_In_1",
-            "LocalizeJP": "百花繚乱に代々伝わる兵法術、あんたたちに見せてあげる。",
+            "LocalizeJP": "百花繚乱に代々伝わる兵法術。\nあんた達に見せてあげる。",
             "LocalizeEN": "I'll show you the art of war that has been passed down in Hyakkaryouran for generations."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_In_2",
-            "LocalizeJP": "先生、指揮を。私の作戦で支える。",
+            "LocalizeJP": "先生、指揮を。\n私の作戦で支える。",
             "LocalizeEN": "Sensei, take command. I will support you with my strategy."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Victory_1",
-            "LocalizeJP": "あんたの指揮と私の作戦、敵うやつなんているはずない。",
+            "LocalizeJP": "あんたの指揮と私の作戦。\n適うヤツなんて、いるはずない。",
             "LocalizeEN": "With your leadership and my strategy, there's no way anyone can match us."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kikyou_Tactic_Victory_2",
-            "LocalizeJP": "私の作戦に点数を付けるとしたら、10点満点中の百万点ってとこかな。",
+            "LocalizeJP": "私の作戦に点数をつけるとしたら……\n10点満点中の100万点、ってとこかな？",
             "LocalizeEN": "If I were to give my plan a score, it would be 1000000 out of 10."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_In_1",
-            "LocalizeJP": "これは私が手掛けた作戦だから、先頭に立つよ。",
+            "LocalizeJP": "これは私が手がけた作戦だから……先頭に立つよ。",
             "LocalizeEN": "I will take the lead as this is an operation I planned."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_In_2",
-            "LocalizeJP": "百花繚乱な実力、その目に焼き付けて。",
+            "LocalizeJP": "百花繚乱の実力、その目に焼きつけて。",
             "LocalizeEN": "Sear into your eyes the prowess of Hyakkaryouran."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kikyou_Battle_Move_1",
-            "LocalizeJP": "準備完了。次へ移動する。",
+            "LocalizeJP": "準備完了、次へ移動する。",
             "LocalizeEN": "Ready. Moving on to the next position."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_2",
-            "LocalizeJP": "戦局を揺るがす一手を！",
+            "LocalizeJP": "戦局を揺るがす一手を。",
             "LocalizeEN": "A decisive move to shake up the battle!"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_3",
-            "LocalizeJP": "なすべきは、ただ一つ。",
+            "LocalizeJP": "成すべきは、ただ一つ。",
             "LocalizeEN": "There is only one thing to do."
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_Level_1",
-            "LocalizeJP": "そこ！",
+            "LocalizeJP": "――そこ。",
             "LocalizeEN": "There!"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kikyou_ExSkill_Level_2",
-            "LocalizeJP": "手加減はいらない。全力でいくよ！",
+            "LocalizeJP": "手加減はいらない。全力でいくよ。",
             "LocalizeEN": "I won't hold back. I'm going to give it my all!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_1",
-            "LocalizeJP": "こんな物を渡すなんて、いったい何が望みなの？だって、取引ってそういうものだよね。",
+            "LocalizeJP": "こんなものを渡すなんて……一体何が望みなの？\nだって、取引ってそういうものだよね。",
             "LocalizeEN": "What do you expect in return for giving me this? After all, that's what a transaction is, isn't it?"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_2",
-            "LocalizeJP": "何を企んでいるか知らないけど、くれるなら遠慮はしない。",
+            "LocalizeJP": "何を企んでいるか知らないけど……\nくれるなら遠慮はしない。",
             "LocalizeEN": "I don't know what you're scheming, but I won't refuse if you're offering."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_3",
-            "LocalizeJP": "あれだけ言われてるのに、まだこんなものを……。あんたって本当に、変な人。",
+            "LocalizeJP": "……あれだけ言われてるのに、まだこんなものを……。\nあんたって本当に……変な人。",
             "LocalizeEN": "Even after being told that, you're still doing this... You're truly a weird person."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kikyou_Growup_4",
-            "LocalizeJP": "あんたのおかげで、私は成長した。否定はしないよ。これは客観的な事実。だから、お礼くらいは言っておく。",
+            "LocalizeJP": "あんたのおかげで私は成長した。\n否定はしないよ、これは客観的な事実。\nだから……お礼くらいは、言っておく。ふん。",
             "LocalizeEN": "Thanks to you, I've grown. I'm not denying it. This is an objective fact. So, at the very least, I'll say thank you."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_1",
-            "LocalizeJP": "先生、距離、近いよ。嫌とは言ってない。",
+            "LocalizeJP": "……先生、距離、近いよ。\n……嫌とは言ってない。",
             "LocalizeEN": "Sensei, you're too close. I'm not saying I dislike it."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_2",
-            "LocalizeJP": "あっ、先生。どこに行ってたの？私の目の届くところにいて。",
+            "LocalizeJP": "あ、先生。\nどこに行ってたの？\n私の目の届くところにいて。",
             "LocalizeEN": "Ah, Sensei. Where have you been? Stay where I can see you."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_3",
-            "LocalizeJP": "先生の厚意、確かに受け取った。次は私の番。覚悟しておいて。",
+            "LocalizeJP": "先生の好意、確かに受け取った。\n次は私の番。覚悟しておいて。",
             "LocalizeEN": "I've received Sensei's kindness. Now it's my turn. Be prepared."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kikyou_Relationship_Up_4",
-            "LocalizeJP": "私があんたを頼りにしているのは事実。だから約束して。あんたも私を頼るって。",
+            "LocalizeJP": "私があんたを頼りにしているのは事実。\nだから約束して――あんたも私を頼る、って。",
             "LocalizeEN": "It's true that I rely on you. So promise me: you'll rely on me too."
         }
     ]

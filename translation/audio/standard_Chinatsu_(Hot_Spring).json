@@ -3,6 +3,24 @@
         {
             "CharacterId": 10030,
             "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chinatsu_(Hot_Spring)_EventLocation_Act_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chinatsu_(Hot_Spring)_EventLocation_Act_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10030,
+            "CharacterVoiceGroupId": 10030,
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_In_1",
@@ -15,7 +33,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_In_2",
-            "LocalizeJP": "はい、お任せください、先生。",
+            "LocalizeJP": "はい。お任せください、先生。",
             "LocalizeEN": "Ok. Please leave it to me, Sensei."
         },
         {
@@ -24,7 +42,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Formation_Select",
-            "LocalizeJP": "えっと、その…",
+            "LocalizeJP": "え、えっと、その……？",
             "LocalizeEN": "Uh... Um..."
         },
         {
@@ -78,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Tactic_Victory_2",
-            "LocalizeJP": "先生の指揮のおかげです。ありがとうございます。",
+            "LocalizeJP": "先生の指揮のおかげです、ありがとうございます。",
             "LocalizeEN": "It was thanks to Sensei's directions that we won. Thank you very much."
         },
         {
@@ -141,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Defense_1",
-            "LocalizeJP": "無駄です。",
+            "LocalizeJP": "無駄です！",
             "LocalizeEN": "It's useless."
         },
         {
@@ -150,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_In_1",
-            "LocalizeJP": "前線でもやるべきことは変わりません。",
+            "LocalizeJP": "前線でも、やるべきことは変わりません。",
             "LocalizeEN": "Even in the front lines, my tasks remains unchanged."
         },
         {
@@ -159,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_In_2",
-            "LocalizeJP": "この位置での支援は少し不思議な感じですね。",
+            "LocalizeJP": "この位置での支援は、少し不思議な感じですね。",
             "LocalizeEN": "Providing support in this position seems a little odd."
         },
         {
@@ -177,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Move_2",
-            "LocalizeJP": "気を緩めないように進みましょう。",
+            "LocalizeJP": "気を緩めないように、進みましょう。",
             "LocalizeEN": "Let us proceed without let our guard down."
         },
         {
@@ -186,7 +204,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Recovery_1",
-            "LocalizeJP": "支援ありがとうございます。",
+            "LocalizeJP": "支援、ありがとうございます。",
             "LocalizeEN": "Thank you for your support."
         },
         {
@@ -231,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_TacticalAction_1",
-            "LocalizeJP": "今、行きます。",
+            "LocalizeJP": "今行きます。",
             "LocalizeEN": "I'm moving out now."
         },
         {
@@ -240,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Victory_1",
-            "LocalizeJP": "皆さんお疲れ様でした。",
+            "LocalizeJP": "みなさん、お疲れ様でした。",
             "LocalizeEN": "Thank you for your hard work, everyone."
         },
         {
@@ -249,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Battle_Victory_2",
-            "LocalizeJP": "引き続きこの調子で進んでいきましょう。",
+            "LocalizeJP": "引き続き、この調子で進んでいきましょう。",
             "LocalizeEN": "Let's continue at this pace."
         },
         {
@@ -258,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_CommonSkill",
-            "LocalizeJP": "バイタル、問題ありません。進撃してください。",
+            "LocalizeJP": "バイタル、問題ありません！進撃してください！",
             "LocalizeEN": "Vitals are stable. Proceed with the battle."
         },
         {
@@ -267,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_1",
-            "LocalizeJP": "まったく。",
+            "LocalizeJP": "まったく……",
             "LocalizeEN": "Come on."
         },
         {
@@ -276,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_2",
-            "LocalizeJP": "発見しました。",
+            "LocalizeJP": "……発見しました。",
             "LocalizeEN": "Found you."
         },
         {
@@ -285,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chinatsu_(Hot_Spring)_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "はぁ……。",
             "LocalizeEN": ""
         },
         {
@@ -321,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_1",
-            "LocalizeJP": "いつもありがとうございます、先生。",
+            "LocalizeJP": "いつも、ありがとうございます。先生。",
             "LocalizeEN": "Thanks as always, Sensei."
         },
         {
@@ -330,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_2",
-            "LocalizeJP": "先生からの期待に必ず応えてみせます。",
+            "LocalizeJP": "先生からの期待に、必ず応えてみせます。",
             "LocalizeEN": "I will absolutely live up to your expectations, Sensei."
         },
         {
@@ -339,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_3",
-            "LocalizeJP": "えっと、嬉しいのですが、今気を緩めるわけには。",
+            "LocalizeJP": "えっと、嬉しいのですが、今気を緩めるわけには……。",
             "LocalizeEN": "Um, it makes me happy, but now is not the time to relax."
         },
         {
@@ -348,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Growup_4",
-            "LocalizeJP": "どうして、こんな私に、",
+            "LocalizeJP": "どうして、こんな私に……？",
             "LocalizeEN": "Why someone like me?"
         },
         {
@@ -357,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_1",
-            "LocalizeJP": "衣服を変えると、やはり気持ちにも影響があるのでしょうか？少し困りましたね。",
+            "LocalizeJP": "衣服を変えると、やはり気持ちにも影響があるのでしょうか。\n少し、困りましたね……。",
             "LocalizeEN": "Changing clothes does indeed change one's mood. This is a little troubling."
         },
         {
@@ -366,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_2",
-            "LocalizeJP": "もう少しだけ、このまま休んでいきませんか。",
+            "LocalizeJP": "もう少しだけ、このまま休んでいきませんか……？",
             "LocalizeEN": "Shall we rest a little longer, just like this?"
         },
         {
@@ -375,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_3",
-            "LocalizeJP": "あんまりだらけるわけにはいかないのですが、先生と一緒ですと、つい。",
+            "LocalizeJP": "あまりだらけるわけにはいかないのですが\n先生と一緒ですと、つい……",
             "LocalizeEN": "I can't relax too much, but when I'm with Sensei, without thinking..."
         },
         {
@@ -384,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chinatsu_(Hot_Spring)_Relationship_Up_4",
-            "LocalizeJP": "先生はちゃんと休息は取られていますか？少しでいいですから、一緒に一休みしません？",
+            "LocalizeJP": "先生はちゃんと、休息は取られていますか？\n少しで良いですから、一緒にひと休みしません？",
             "LocalizeEN": "Sensei, are you getting enough rest? Do you want to rest together with me? Even a little while is fine."
         }
     ]

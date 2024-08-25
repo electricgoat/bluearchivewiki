@@ -3,10 +3,28 @@
         {
             "CharacterId": 16007,
             "CharacterVoiceGroupId": 16007,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Tomoe_EventLocation_Act_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16007,
+            "CharacterVoiceGroupId": 16007,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Tomoe_EventLocation_Act_1_NoFX",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16007,
+            "CharacterVoiceGroupId": 16007,
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Tomoe_Formation_In_1",
-            "LocalizeJP": "これもまた、チェリノ会長のため。",
+            "LocalizeJP": "これもまた、チェリノ会長のため……！",
             "LocalizeEN": "This is also for President Cherino."
         },
         {
@@ -24,7 +42,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Tomoe_Formation_Select",
-            "LocalizeJP": "あら、何か問題でも…。",
+            "LocalizeJP": "あら？何か問題でも……？",
             "LocalizeEN": "oh no problem"
         },
         {
@@ -51,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tomoe_Tactic_In_1",
-            "LocalizeJP": "まだあちこちに会長への忠誠を誓わない不穏分子たちがいるようですね。",
+            "LocalizeJP": "まだあちこちに、会長への忠誠を誓わない不穏分子たちがいるようですね。",
             "LocalizeEN": "It seems that there are still dissidents here and there who have not pledged allegiance to the chairman."
         },
         {
@@ -69,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tomoe_Tactic_Victory_1",
-            "LocalizeJP": "フフフ、ご覧になっていますか、チェリノ会長。",
+            "LocalizeJP": "ふふ、ご覧になっていますか、チェリノ会長？",
             "LocalizeEN": "Fufufu, are you looking at this, Chairman Cherino?"
         },
         {
@@ -78,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Tomoe_Tactic_Victory_2",
-            "LocalizeJP": "レッドウィンターが進む先に、敗北などありません。",
+            "LocalizeJP": "レッドウィンターが進む先に、敗北などありません！",
             "LocalizeEN": "There is no defeat where Red Winter goes."
         },
         {
@@ -141,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_Defense_1",
-            "LocalizeJP": "フフ、危ないところでした。",
+            "LocalizeJP": "ふふ、危ないところでした。",
             "LocalizeEN": "It was dangerous."
         },
         {
@@ -150,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_In_1",
-            "LocalizeJP": "支援射撃でしたら、私にお任せください。",
+            "LocalizeJP": "支援射撃でしたら、私にお任せください！",
             "LocalizeEN": "If you need support fire, please leave it to me."
         },
         {
@@ -159,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_In_2",
-            "LocalizeJP": "恐れることはありません 、突撃。",
+            "LocalizeJP": "恐れることはありません……突撃！",
             "LocalizeEN": "Don't be afraid to charge."
         },
         {
@@ -168,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_Move_1",
-            "LocalizeJP": "次の場所に移動しましょうか。",
+            "LocalizeJP": "次の場所に移動しましょうか？",
             "LocalizeEN": "Shall we move on to the next place?"
         },
         {
@@ -177,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_Move_2",
-            "LocalizeJP": "勝利は目前です。",
+            "LocalizeJP": "勝利は目前です！",
             "LocalizeEN": "Victory is imminent."
         },
         {
@@ -231,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_TacticalAction_1",
-            "LocalizeJP": "移動します。",
+            "LocalizeJP": "移動します！",
             "LocalizeEN": "Move."
         },
         {
@@ -240,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_Victory_1",
-            "LocalizeJP": "皆さん、レッドウィンターの勝利です。",
+            "LocalizeJP": "みなさん、レッドウィンターの勝利です！",
             "LocalizeEN": "Ladies and Gentlemen, Red Winter wins."
         },
         {
@@ -249,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Tomoe_Battle_Victory_2",
-            "LocalizeJP": "さすがです、皆さんのことを信じておりました。",
+            "LocalizeJP": "さすがです、みなさんのことを信じておりました！",
             "LocalizeEN": "As expected, I believed in you."
         },
         {
@@ -258,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Tomoe_CommonSkill",
-            "LocalizeJP": "そこのあなた 集中してください。",
+            "LocalizeJP": "そこのあなた！集中してください！",
             "LocalizeEN": "You there Please concentrate."
         },
         {
@@ -267,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_1",
-            "LocalizeJP": "私は信じます、チェリノ会長の勝利を。",
+            "LocalizeJP": "私は信じます……チェリノ会長の勝利を！",
             "LocalizeEN": "I believe in President Cherino's victory."
         },
         {
@@ -276,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_2",
-            "LocalizeJP": "チェリノ会長による、チェリノ会長のための。",
+            "LocalizeJP": "チェリノ会長による、チェリノ会長のための！",
             "LocalizeEN": "By President Cellino, for President Cellino."
         },
         {
@@ -285,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_3",
-            "LocalizeJP": "レッドウィンター連邦学園よ、永遠に。",
+            "LocalizeJP": "レッドウィンター連邦学園よ……永遠に！",
             "LocalizeEN": "Red Winter Federation Academy, Forever."
         },
         {
@@ -294,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_Level_1",
-            "LocalizeJP": "皆さん、こちらに耳を傾けてください。",
+            "LocalizeJP": "みなさん、こちらに耳を傾けてください！",
             "LocalizeEN": "Ladies and gentlemen, please listen to me"
         },
         {
@@ -303,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_Level_2",
-            "LocalizeJP": "皆さん、勝利は目前に迫っています。",
+            "LocalizeJP": "みなさん、勝利は目前に迫っています！",
             "LocalizeEN": "Ladies and Gentlemen Victory is at hand."
         },
         {
@@ -312,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Tomoe_ExSkill_Level_3",
-            "LocalizeJP": "私たちの革命は必ずや 成功することでしょう。",
+            "LocalizeJP": "私たちの革命は……必ずや成功することでしょう！",
             "LocalizeEN": "Our revolution will surely succeed."
         },
         {
@@ -321,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Tomoe_Growup_1",
-            "LocalizeJP": "この力は革命のために大事に使わせていただきます。",
+            "LocalizeJP": "この力は革命のために、大事に使わせていただきます。",
             "LocalizeEN": "I will use this power carefully for the sake of the revolution."
         },
         {
@@ -330,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Tomoe_Growup_2",
-            "LocalizeJP": "チェリノ会長のために もっと頑張ります。",
+            "LocalizeJP": "チェリノ会長のために、もっと頑張ります！",
             "LocalizeEN": "I will do my best for Chairman Cherino."
         },
         {
@@ -339,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Tomoe_Growup_3",
-            "LocalizeJP": "これで不穏分子を、より効率よく制圧できますね。",
+            "LocalizeJP": "これで不穏分子を、より効率よく制圧できますね！",
             "LocalizeEN": "This will allow us to control disturbing elements more efficiently."
         },
         {
@@ -348,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Tomoe_Growup_4",
-            "LocalizeJP": "革命的と言っても過言ではないほどの支援、感謝いたします。",
+            "LocalizeJP": "革命的といっても過言ではないほどの支援、感謝いたします！",
             "LocalizeEN": "It would not be an exaggeration to say that the support was revolutionary."
         },
         {
@@ -357,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tomoe_Relationship_Up_1",
-            "LocalizeJP": "先生。あなたのこと…、信頼しているんですよ。",
+            "LocalizeJP": "先生。あなたのこと、信頼しているんですよ。",
             "LocalizeEN": "Sensei. I trust you..."
         },
         {
@@ -366,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tomoe_Relationship_Up_2",
-            "LocalizeJP": "先生の前ではなんだか嘘はつきにくいですね。",
+            "LocalizeJP": "先生の前では、なんだか嘘をつきにくいですね……。",
             "LocalizeEN": "It's kind of hard to tell a lie in front of a teacher."
         },
         {
@@ -375,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tomoe_Relationship_Up_3",
-            "LocalizeJP": "はぁ、なんだか顔が熱くて…。今日は暑いですね。",
+            "LocalizeJP": "ふう……なんだか顔が熱くて……。\n今日は暑いですね。",
             "LocalizeEN": "Fuu, my face feels kind of hot... It is hot today."
         },
         {
@@ -384,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tomoe_Relationship_Up_4",
-            "LocalizeJP": "先生を見るたびにどこか胸が切なくなるこの気持ちはもしかして……、革命の前兆でしょうか。",
+            "LocalizeJP": "先生を見るたびにどこか胸が切なくなるこの気持ちは、もしかして……\n革命の前兆、でしょうか？",
             "LocalizeEN": "Could this feeling of sadness that fills my heart every time I look at him be a sign of a revolution?"
         }
     ]

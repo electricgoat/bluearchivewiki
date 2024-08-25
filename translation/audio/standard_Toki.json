@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Toki_Formation_In_2",
-            "LocalizeJP": "立ちふさがる全てを排除しましょう。それが私の仕事です。 ",
+            "LocalizeJP": "立ち塞がるすべてを排除しましょう。\nそれが私の仕事です。",
             "LocalizeEN": "Let's clean up everything that stands in the way. That is my job."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Toki_Formation_Select",
-            "LocalizeJP": "なるほど…、これが例の…。 ",
+            "LocalizeJP": "なるほど……これが例の。",
             "LocalizeEN": "I see...This is that example's..."
         },
         {
@@ -42,8 +42,8 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Defeat_2",
-            "LocalizeJP": "申し訳ありません、先生。 ",
-            "LocalizeEN": "I'm sorry, Sensei "
+            "LocalizeJP": "申し訳ありません、先生。",
+            "LocalizeEN": "I'm sorry, Sensei"
         },
         {
             "CharacterId": 10062,
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Victory_1",
-            "LocalizeJP": "勝利しました。 ヤッホー。 いかがでしょうか?",
+            "LocalizeJP": "勝利しました。\nやっほー……いかがでしょうか。",
             "LocalizeEN": "I won. Yahoo. How was it?"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Toki_Tactic_Victory_2",
-            "LocalizeJP": "任務完了です。…ご満足いただけましたか?",
+            "LocalizeJP": "任務完了です。\nふふ、ご満足いただけましたか？",
             "LocalizeEN": "Mission complete. Are you satisfied?"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Move_2",
-            "LocalizeJP": "次の地域はどこですか?",
+            "LocalizeJP": "次の地域はどこですか？",
             "LocalizeEN": "Where is the next region?"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Toki_Battle_Victory_2",
-            "LocalizeJP": "次へ進みましょう。VV。",
+            "LocalizeJP": "次へ進みましょう、ヴィー、ヴィー。",
             "LocalizeEN": "Let's move on. V V."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Toki_CommonSkill",
-            "LocalizeJP": "行きます。",
+            "LocalizeJP": "いきます。",
             "LocalizeEN": "Going."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill_2",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Toki_CommonSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "やああああっ！",
             "LocalizeEN": ""
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_4",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_4",
-            "LocalizeJP": "これが私の、全力！",
+            "LocalizeJP": "これが私の、全力……！",
             "LocalizeEN": "This is my full power!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_5",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_5",
-            "LocalizeJP": "目標確認。 ロックオン！ ",
+            "LocalizeJP": "目標確認。ロックオン。",
             "LocalizeEN": "Confirming target. Lock on."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_6",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_6",
-            "LocalizeJP": "アビ・エシュフ、殲滅モード！ ",
+            "LocalizeJP": "アビ・エシュフ、殲滅モード。",
             "LocalizeEN": "Abi Eshuh, annihilation mode!"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_3",
-            "LocalizeJP": "全力で参ります。",
+            "LocalizeJP": "全力でまいります。",
             "LocalizeEN": "I will do my best."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_4",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "はああっ！",
             "LocalizeEN": ""
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_6",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Toki_ExSkill_Level_6",
-            "LocalizeJP": "ファイヤー!",
+            "LocalizeJP": "ファイヤー！",
             "LocalizeEN": "Fireー！"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_1",
-            "LocalizeJP": "まだ完全、とは言えませんが、より一層完璧に近づきました。",
+            "LocalizeJP": "まだ完全、とはいえませんが……より一層完璧に近づきました。",
             "LocalizeEN": "It's not perfect yet, but it's getting closer and closer."
         },
         {
@@ -402,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_3",
-            "LocalizeJP": "ありがとうございます、先生。期待に応えられるよう、尽力します。",
+            "LocalizeJP": "ありがとうございます、先生。\n期待に応えられるよう尽力します。",
             "LocalizeEN": "Thank you. Sensei, I will do my best to meet your expectations."
         },
         {
@@ -411,7 +411,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Toki_Growup_4",
-            "LocalizeJP": "私を信じてくださったこと、感謝します。C&Cの名に恥じぬよう、努めます。",
+            "LocalizeJP": "私を信じてくださったこと、感謝します。\nC&Cの名に恥じぬよう、努めます。",
             "LocalizeEN": "Thank you for believing in me. I will try to live up to the C&C name."
         },
         {
@@ -420,7 +420,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_1",
-            "LocalizeJP": "先生との絆がさらに深まりましたね。\nええ、ですから、先生はもっと私のことを見てくださいね。",
+            "LocalizeJP": "先生との絆が更に深まりましたね。\nええ……ですから、先生はもっと私の事を見てくださいね。",
             "LocalizeEN": "The bond between Sensei and I has deepened. Yes, so please look at me more, Sensei."
         },
         {
@@ -429,7 +429,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_2",
-            "LocalizeJP": "絆とは、人と人の間に結ばれる特別な関係と言われています。つまり、先生が私の特別な方になった、ということです。",
+            "LocalizeJP": "絆とは、人と人の間に結ばれる特別な関係と言われています。\nつまり、先生が私の特別な方になった、ということです。",
             "LocalizeEN": "\"Kizuna\" is said to be a special relationship between people. In other words, Sensei has become a special person to me."
         },
         {
@@ -438,7 +438,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_3",
-            "LocalizeJP": "こう見えても、私の中で様々な感情が渦巻いているのです。ですから先生、同じだけの感情を返してくださいね。",
+            "LocalizeJP": "……こう見えても、私の中で様々な感情が渦巻いているのです。\nですから先生……同じだけの感情を返してくださいね。",
             "LocalizeEN": "Even though I look like this, various feelings are swirling around inside me. So, Sensei, make sure to return these feelings to me."
         },
         {
@@ -447,8 +447,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Toki_Relationship_Up_4",
-            "LocalizeJP": "互いに思いを分け合うというのは、こういうこと……ですね。\n黙らないでください、恥ずかしいではないですか。",
-            "LocalizeEN": "This is what it means to share your thoughts with each other...\n\nPlease don't shut up, I'm embarrassed."
+            "LocalizeJP": "互いに思いを分け合うというのは、こういうこと、ですよね……。\n黙らないでください……恥ずかしいではないですか。",
+            "LocalizeEN": "This is what it means to share your thoughts with each other...\nPlease don't shut up, I'm embarrassed."
         }
     ]
 }

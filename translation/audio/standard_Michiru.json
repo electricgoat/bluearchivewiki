@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_In_1",
-            "LocalizeJP": "ひゃーっ！び、びっくりしたー……あ、今から出陣？了解～！",
+            "LocalizeJP": "うぎゃあっ？！び、びっくりした……\nあ、今から出陣？了解！",
             "LocalizeEN": "Ahh! I was surprised... Oh, are we going to fight now? Roger that!"
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_In_2",
-            "LocalizeJP": "ふふ……さあ、私の出番だねー！え、違う？合ってる？",
+            "LocalizeJP": "ふふっ……さあ、私の出番だね！\n……え、違う？合ってる？",
             "LocalizeEN": "Hehe... Now it's my turn! Eh, wait? Is that right?"
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Michiru_Formation_Select",
-            "LocalizeJP": "ドーモ、センセイ＝ドノ、ミチルです。さあご用命を！",
+            "LocalizeJP": "ドーモ、先生殿。ミチルです。\n……さあ、ご用命を！",
             "LocalizeEN": "Hello, my name is Michiru.\nNow, give us your orders~!"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_In_2",
-            "LocalizeJP": "忍者の恐ろしさ、見せてあげるんだから……覚悟！",
+            "LocalizeJP": "忍者の恐ろしさ、見せてあげるんだから！覚悟ぉ！",
             "LocalizeEN": "I'll show you how terrifying a ninja is... Be prepared!"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Victory_1",
-            "LocalizeJP": "任務完了……ふっ、決まった……！",
+            "LocalizeJP": "任務完了！\n……ふっ、決まった。",
             "LocalizeEN": "Mission complete."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Michiru_Tactic_Victory_2",
-            "LocalizeJP": "私たち忍術研究部にとって、これくらい朝飯前だよ！ちょろいちょろい！",
+            "LocalizeJP": "私たち忍術研究部にとって、これくらい朝飯前だよ！\nちょろいちょろい！",
             "LocalizeEN": "For us, the Ninjutsu Research Club, this is a piece of cake."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Buffed_1",
-            "LocalizeJP": "おぉ……何か強くなった気が……しないわけでもない！",
+            "LocalizeJP": "おおっ、何か強くなった気が……しないわけでもない！",
             "LocalizeEN": "It's not like I don't feel like I've become stronger."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Defense_1",
-            "LocalizeJP": "ははん！そんなの通じないよ！",
+            "LocalizeJP": "あはっ、そんなの通じないよ！",
             "LocalizeEN": "Haha! I don't get it."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_In_1",
-            "LocalizeJP": "ふふーん！よーし、任務開始！",
+            "LocalizeJP": "ふふ～ん！よーし、任務開始！",
             "LocalizeEN": "Huhu! well, welcome to me."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_In_2",
-            "LocalizeJP": "うぅ……と、とりあえず始めよう！",
+            "LocalizeJP": "うーん、と、とりあえず始めよう！",
             "LocalizeEN": "Let's get started."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Move_1",
-            "LocalizeJP": "よし、次行こう。",
+            "LocalizeJP": "よっし、次行こう！",
             "LocalizeEN": "Okay, let's go."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Move_2",
-            "LocalizeJP": "もー、まだ続くの？",
+            "LocalizeJP": "うー、まだ続くの……？",
             "LocalizeEN": "Really, still going on?"
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Recovery_1",
-            "LocalizeJP": "お助け感謝！",
+            "LocalizeJP": "お助け感謝ー！",
             "LocalizeEN": "thanks for your help!"
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_TacticalAction_1",
-            "LocalizeJP": "しゅばばばば！",
+            "LocalizeJP": "シュババババッ！",
             "LocalizeEN": "Shubabababa!"
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Victory_1",
-            "LocalizeJP": "どう？これぞ私たち忍術研究部の力なんだから！",
+            "LocalizeJP": "どう、これぞ私たち忍術研究部の力なんだから！",
             "LocalizeEN": "how is it? This is the power of our Ninjutsu Research Club!"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Michiru_Battle_Victory_2",
-            "LocalizeJP": "うん、やっぱりミチル流忍術に死角なし！",
+            "LocalizeJP": "うん、やっぱりミチル流忍術に死角無し！",
             "LocalizeEN": "Yes, Michiru-style ninjutsu has no blind spots!"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Michiru_CommonSkill",
-            "LocalizeJP": "とりあえず忍者グッズで精神力を回復……！",
+            "LocalizeJP": "とりあえず、忍者グッズで精神力を回復……。",
             "LocalizeEN": "For now, I'll restore my mental strength with ninja goods."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_1",
-            "LocalizeJP": "ミ……ミチル流忍法！",
+            "LocalizeJP": "ミ、ミチル流忍法っ！",
             "LocalizeEN": "Mi……Michiru-style Ninpo!"
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_2",
-            "LocalizeJP": "か、火遁の術……見せてあげる！",
+            "LocalizeJP": "か、火遁の術、見せてあげる！",
             "LocalizeEN": "I'll show you the Katon no Jutsu!"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_3",
-            "LocalizeJP": "忍術研究部の部長をなめるなー！",
+            "LocalizeJP": "忍術研究部の部長を、舐めるなぁっ！",
             "LocalizeEN": "Don't underestimate the head of the Ninjutsu Research Club!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_1",
-            "LocalizeJP": "うわぁ！あっつ！",
+            "LocalizeJP": "うわ、熱っ！？",
             "LocalizeEN": ""
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_2",
-            "LocalizeJP": "忍法あっちちちちっ！",
+            "LocalizeJP": "忍法あっちちちちっ！？",
             "LocalizeEN": "Ninpo……so hot!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Michiru_ExSkill_Level_3",
-            "LocalizeJP": "うぎゃぁ！あっつぅー！",
+            "LocalizeJP": "うぎゃあっ！！\nあっっっつ！？",
             "LocalizeEN": ""
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_1",
-            "LocalizeJP": "へ、これくれるの？私に？ふふ、やはり先生殿は見る目があるねー……なんちゃって。なはは！",
+            "LocalizeJP": "え、これくれるの？私に！？\nふふっ、やはり先生殿は見る目があるね……なんちゃって。にゃははっ。",
             "LocalizeEN": "Eh, can you give me this? to me? haha, Sensei-dono has a discerning eye... what the heck. Nahaha!"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_2",
-            "LocalizeJP": "おー！これでますます強くー！",
+            "LocalizeJP": "おおっ、これでますます強く……！！",
             "LocalizeEN": "oh! Now I can become stronger and stronger!"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_3",
-            "LocalizeJP": "えっとー、そのー……あ、ありが、とー……？",
+            "LocalizeJP": "えっと、そのー……あー、ありが、とう……？",
             "LocalizeEN": "Ah,Oh,it…Thank you?"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Michiru_Growup_4",
-            "LocalizeJP": "ふふ、ついに私もここまできた！先生殿の期待に応えて、八面六臂の活躍を、ご覧に入れようぞー！",
+            "LocalizeJP": "ふふっ、ついに私もここまで来た。\n先生殿の期待に応えて、八面六臂の活躍をご覧に入れようぞ！",
             "LocalizeEN": "Haha, I've finally made it this far! In order to live up to Senseiｰdono expectations, I'll show you all my strengths!"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_1",
-            "LocalizeJP": "ひゃー！ちょ、近い、近いってー！距離感！ははぁ、心臓に悪い……",
+            "LocalizeJP": "のあぁっ！？ちょっ、近い！近いって！\n距離感！あー、心臓に悪い……",
             "LocalizeEN": "Hey! it's close, it's close! A sense of distance! Haha, it's bad for my heart..."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_2",
-            "LocalizeJP": "先生殿と一緒だと、なんだか、こんな私でも何でもできるんじゃないかって気持ちに……なにこれ、変なの",
+            "LocalizeJP": "先生殿と一緒だと、何だか……\nこんな私でも、何でもできるんじゃないかって気持ちに……。\n……なにこれ、変なの。",
             "LocalizeEN": "When I'm with you, I feel like I can do anything even if I'm like this. ……What is this, this is a strange feeling"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_3",
-            "LocalizeJP": "わっ、何この距離感！？からかってる？ドッキリ？べ、別に、いやってわけじゃないけどぉ？",
+            "LocalizeJP": "な、何この距離感！？からかってる？ドッキリ！？\nべ、別に嫌ってわけじゃないけど……。",
             "LocalizeEN": "Wow, what a sense of distance! ? Are you kidding me? Surprise? It's not that I don't like it."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Michiru_Relationship_Up_4",
-            "LocalizeJP": "あ、近い……いや、いっそのことこっちから？そうだ、私の色仕掛けの術で……ってそんな恥ずかしいことできるかー！",
+            "LocalizeJP": "うっ、近い……いやいっそのこと、こっちから……？\nそうだ、私の色仕掛けの術で……\nって、そんな恥ずかしいことできるか！",
             "LocalizeEN": "Oh, it's close... No, should I approach from here? That's right, with my honey trap... I can't do such a shameful thing!"
         }
     ]

@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_In_1",
-            "LocalizeJP": "メイドのアリスです。よろしくお願いします！",
+            "LocalizeJP": "メイドのアリスです、\nよろしくお願いします！",
             "LocalizeEN": "I am Maid Arisu. Pleased to meet you!"
         },
         {
@@ -96,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_In_2",
-            "LocalizeJP": "今日のアリスの役割は…、光属性の単体アタッカーです！",
+            "LocalizeJP": "今日のアリスの役割は……光属性の単体アタッカーです！",
             "LocalizeEN": "Arisu's role today is... a single attacker of the Light attribute!"
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_(Maid)_Formation_Select",
-            "LocalizeJP": "うーん、この新スキン…、まだ慣れません……。",
+            "LocalizeJP": "うぅ……この新スキン、まだ慣れません……",
             "LocalizeEN": "Hmm, this new skin... I still can't get used to it..."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_In_1",
-            "LocalizeJP": "クエスト開始、アリス、行きます！",
+            "LocalizeJP": "クエスト開始！アリス、行きます！",
             "LocalizeEN": "Quest started. Go, Arisu!"
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_(Maid)_Tactic_Victory_1",
-            "LocalizeJP": "やりました。先生、褒めてください！",
+            "LocalizeJP": "やりました！先生、褒めてください！",
             "LocalizeEN": "I did it! Sensei, please praise me!"
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Buffed_1",
-            "LocalizeJP": "バフをもらいました！",
+            "LocalizeJP": "バフを貰いました！",
             "LocalizeEN": "I received a buff!"
         },
         {
@@ -222,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Defense_1",
-            "LocalizeJP": "回避します。",
+            "LocalizeJP": "回避します！",
             "LocalizeEN": "Dodging."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Move_2",
-            "LocalizeJP": "移動します！",
+            "LocalizeJP": "移動します。",
             "LocalizeEN": "Moving on!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Victory_1",
-            "LocalizeJP": "作戦成功。流石です、先生！",
+            "LocalizeJP": "作戦成功！流石です、先生！",
             "LocalizeEN": "Operation successful. Quite a feat, Sensei!"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_(Maid)_Battle_Victory_2",
-            "LocalizeJP": "ミッションコンプリート。アリスの好きなセリフです！",
+            "LocalizeJP": "ミッションコンプリート！\nアリスの好きなセリフです！",
             "LocalizeEN": "Mission complete. This is Arisu's favorite line!"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Arisu_(Maid)_CommonSkill",
-            "LocalizeJP": "キュッキュッ…。よし！",
+            "LocalizeJP": "きゅっ、きゅっ……よし！",
             "LocalizeEN": "Squeak, squeak... All right!"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_1",
-            "LocalizeJP": "お掃除お掃除～。…あ！準備完了です！",
+            "LocalizeJP": "お掃除、お掃除～♪\nあっ！\n準備完了です！",
             "LocalizeEN": "Cleaning, cleaning... Ah! I am ready!"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_2",
-            "LocalizeJP": "お掃除タイム～。…ん？いけます！",
+            "LocalizeJP": "お掃除タイム～♪\nんん？\n行けます！",
             "LocalizeEN": "It's cleaning time. Hm? I can do it!"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_3",
-            "LocalizeJP": "よいしょ、よいしょ。…あれ？頑張ります！",
+            "LocalizeJP": "よいしょ、よいしょ。\nあれ？\n頑張ります！",
             "LocalizeEN": "Good, good, good... Huh? I'll do my best!"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_Level_1",
-            "LocalizeJP": "ターゲット、ロックオン。…光よ！",
+            "LocalizeJP": "ターゲット、ロックオン……光よ！",
             "LocalizeEN": "Lock on target... Blinding Light!"
         },
         {
@@ -393,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_(Maid)_ExSkill_Level_3",
-            "LocalizeJP": "揺るがぬ意志で、…光よ！",
+            "LocalizeJP": "揺るがぬ意志で、光よ！",
             "LocalizeEN": "With an unwavering will... Blinding Light!"
         },
         {
@@ -402,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_1",
-            "LocalizeJP": "メイドレベル、アーップ！アリスのステータスが上昇しました。",
+            "LocalizeJP": "メイドレベルアーップ！\nアリスのステータスが上昇しました！",
             "LocalizeEN": "Maid Level Up! Arisu's status has increased."
         },
         {
@@ -420,7 +420,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_3",
-            "LocalizeJP": "メイド勇者になるには、どうしたらいいのか考えました。メイドと勇者のレベルを両方上げればいいのです。先生、手伝ってください！",
+            "LocalizeJP": "メイド勇者になるには、どうしたら良いのか考えました。\nメイドと勇者のレベルを両方上げれば良いのです！\n先生、手伝ってください！",
             "LocalizeEN": "I thought about how to become a maid hero. All I have to do is to raise the level of both Maid and Hero. Please help me, Sensei!"
         },
         {
@@ -429,7 +429,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_(Maid)_Growup_4",
-            "LocalizeJP": "先生といっしょなら、立派なメイド勇者になれるはずです。これからもずっとアリスのそばにいてください！",
+            "LocalizeJP": "先生と一緒なら、立派なメイド勇者になれるはずです。\nこれからも、ずっとアリスのそばに居てください！",
             "LocalizeEN": "Together with you, I am sure that I will become a great maid hero. Please stay by Arisu's side from now on!"
         },
         {
@@ -447,7 +447,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_2",
-            "LocalizeJP": "…えへへ。先生といっしょにいられて、アリスは嬉しいです。もっとナデナデしてください！",
+            "LocalizeJP": "えへへ、先生と一緒に居られてアリスは嬉しいです。\nもっとナデナデしてください！",
             "LocalizeEN": "Ehehe. Arisu is happy to be with Sensei. Please nudge me more!"
         },
         {
@@ -456,7 +456,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_3",
-            "LocalizeJP": "今日のアリスはメイドです！…なので、先生の肩を叩きます！トントン。",
+            "LocalizeJP": "今日のアリスはメイドです！\nなので、先生の肩を叩きます！トントン！",
             "LocalizeEN": "Today Arisu is a maid! So I'm going to tap Sensei on the shoulder! Thump-thump."
         },
         {
@@ -465,7 +465,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_(Maid)_Relationship_Up_4",
-            "LocalizeJP": "アリスの親愛度が上昇しました！…もう少し、甘えてもいいですか？",
+            "LocalizeJP": "アリスの親愛度が上昇しました！\nもう少し、甘えても良いですか……？",
             "LocalizeEN": "Arisu's affection level has increased! ...Can I spoil you a little more?"
         }
     ]

@@ -6,8 +6,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
-            "LocalizeJP": "げ…、ゲームするからには、負けません。",
-            "LocalizeEN": "Well...if I'm going to play a game, I won't lose."
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -15,8 +15,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_1",
-            "LocalizeJP": "お、おかえりなさいませ、先生。…そうです。私たちが作った、ゲームです！",
-            "LocalizeEN": "Welcome back, Sensei. ...That's right. It's the game we made!"
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -24,8 +24,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_2",
-            "LocalizeJP": "おかえりなさい、先生。まだまだ改善点はたくさんありますが、プレイしていただけますか？",
-            "LocalizeEN": "Welcome back, Sensei. There are still many areas to improve, but would you like to play the game?"
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -33,8 +33,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_3",
-            "LocalizeJP": "ゲームを作るのは難しいけど、楽しくもあります。",
-            "LocalizeEN": "Making games is hard, but it's also fun."
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -43,7 +43,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_1",
             "LocalizeJP": "",
-            "LocalizeEN": "Ha! Ya!"
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -51,8 +51,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_2",
-            "LocalizeJP": "いきます！",
-            "LocalizeEN": "Go."
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -61,7 +61,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_3",
             "LocalizeJP": "",
-            "LocalizeEN": "Ya!"
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -69,8 +69,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_1",
-            "LocalizeJP": "頑張って作ったので、楽しんでくださると嬉しいです。",
-            "LocalizeEN": "I worked hard on this, so I hope you enjoy it."
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -87,8 +87,8 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
-            "LocalizeJP": "分かりました。…任せてください。",
-            "LocalizeEN": "I understand. … Leave it to me."
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 26009,
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Yuzu_(Maid)_CommonSkill",
-            "LocalizeJP": "う、受け取ってください。",
+            "LocalizeJP": "う、受け取ってください！",
             "LocalizeEN": "Please take it."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_1",
-            "LocalizeJP": "隠れるのはまだ自信があるから。",
+            "LocalizeJP": "隠れるのは……\nまだ……自信があるから！",
             "LocalizeEN": "I still have the confidence to hide"
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_2",
-            "LocalizeJP": "み、見つからないように。",
+            "LocalizeJP": "見つからないように……！",
             "LocalizeEN": "so as not to be found."
         },
         {
@@ -195,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_3",
-            "LocalizeJP": "そこ！",
+            "LocalizeJP": "そこ……！",
             "LocalizeEN": ""
         },
         {
@@ -204,7 +204,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_Level_1",
-            "LocalizeJP": "ターゲット確認しました。",
+            "LocalizeJP": "ターゲット、確認しました！",
             "LocalizeEN": "Target confirmed."
         },
         {
@@ -213,7 +213,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_Level_2",
-            "LocalizeJP": "当たって…！",
+            "LocalizeJP": "当たって……！",
             "LocalizeEN": "Please hit that!"
         },
         {
@@ -222,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_(Maid)_ExSkill_Level_3",
-            "LocalizeJP": "う、動かないでください。",
+            "LocalizeJP": "う、動かないでください！",
             "LocalizeEN": "Please do not move."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_(Maid)_Growup_1",
-            "LocalizeJP": "せ、先生！？そ、その、うぅ…",
+            "LocalizeJP": "せ、先生！？えっと、その……あうう……",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_(Maid)_Growup_2",
-            "LocalizeJP": "いつもありがとうございます、先生がいてくださって本当に良かったです。",
+            "LocalizeJP": "いつも……ありがとうございます。\n 先生がいてくださって……本当に、よかったです。",
             "LocalizeEN": "Thank you as always, it was really nice to have you as a Sensei."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_(Maid)_Growup_3",
-            "LocalizeJP": "こうやって一歩踏み出せましたし、私自身も変わりたいです。",
+            "LocalizeJP": "こうやって、一歩……踏み出せましたし……\nわたし自身も、変わりたいです。",
             "LocalizeEN": "I was able to take a step like this, and I want to change myself."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_(Maid)_Growup_4",
-            "LocalizeJP": "今の私はメイドなので、先生のお役に立ちたいです。",
+            "LocalizeJP": "今のわたしは、メイド……なので……\n先生の、お役に立ちたいです。",
             "LocalizeEN": "I'm a maid now, so I want to help Sensei."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_(Maid)_Relationship_Up_1",
-            "LocalizeJP": "あの、先生。いえ、やっぱり何でもありません。",
+            "LocalizeJP": "あの、先生……\n い、いえ！やっぱり、なんでもありません……。",
             "LocalizeEN": "Um, Sensei. No, it's nothing after all."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_(Maid)_Relationship_Up_2",
-            "LocalizeJP": "先生がいてくださったから頑張ることができました、言葉だけでは伝えきれませんがその、ありがとうございます。",
+            "LocalizeJP": "先生がいてくださったから、頑張ることができました。\n 言葉だけでは、伝えきれませんが……その……ありがとうございます。",
             "LocalizeEN": "Thanks to Sensei, I was able to do my best. Words alone cannot express it, but thank you."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_(Maid)_Relationship_Up_3",
-            "LocalizeJP": "先生はその、メイドってどう思います？じゃあ…この格好は？",
+            "LocalizeJP": "先生は……その、メイドって、どう思います？\n……じゃあ、この格好は？",
             "LocalizeEN": "Sensei, what do you think of maids? So...how does this look?"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_(Maid)_Relationship_Up_4",
-            "LocalizeJP": "その、もう少し前向きな私になれたら先生に言いたいことがあります。えっ、今ですか？それは…。",
+            "LocalizeJP": "その……もう少し前向きなわたしになれたら、\n 先生に言いたいことがあります。\n えっ、今ですか！？そ、それは……！",
             "LocalizeEN": "If I could be a little more positive, I would like to say something to Sensei. eh, now? that is…."
         }
     ]

@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Iori_Formation_Select",
-            "LocalizeJP": "まぁ一応従うけど…しっかり頼むよ、先生。",
+            "LocalizeJP": "まあ、一応従うけど……。\nしっかり頼むよ、先生。",
             "LocalizeEN": "Well, I'll comply for now, but... I'm counting on you, Sensei."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_In_1",
-            "LocalizeJP": "異議なし。出発する。",
+            "LocalizeJP": "異議なし、出発する。",
             "LocalizeEN": "I've no objection. Let's go."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Iori_Tactic_In_2",
-            "LocalizeJP": "殲滅させてやる！",
+            "LocalizeJP": "殲滅させてやる。",
             "LocalizeEN": "I'll exterminate you!"
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Buffed_1",
-            "LocalizeJP": "サンキュー。",
+            "LocalizeJP": "サンキュ。",
             "LocalizeEN": "Thank you."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Covered_1",
-            "LocalizeJP": "準備完了。",
+            "LocalizeJP": "準備完了！",
             "LocalizeEN": "I'm ready."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふっ。",
             "LocalizeEN": ""
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_In_1",
-            "LocalizeJP": "さあ、行くぞ！",
+            "LocalizeJP": "さぁ、行くぞ！",
             "LocalizeEN": "Here we go!"
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_In_2",
-            "LocalizeJP": "指示に従う。前進！",
+            "LocalizeJP": "指示に従う、前進！",
             "LocalizeEN": "Follow my lead. Advance!"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Move_2",
-            "LocalizeJP": "次っ！",
+            "LocalizeJP": "次！",
             "LocalizeEN": "Next one!"
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Recovery_1",
-            "LocalizeJP": "ありがたい。感謝する。",
+            "LocalizeJP": "ありがたい、感謝する。",
             "LocalizeEN": "That helps. Thank you."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_TacticalAction_1",
-            "LocalizeJP": "移動する。",
+            "LocalizeJP": "移動する！",
             "LocalizeEN": "Moving ahead."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Iori_Battle_Victory_2",
-            "LocalizeJP": "私1人でも十分だった。",
+            "LocalizeJP": "私一人でも十分だった。",
             "LocalizeEN": "Me alone was more than enough."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Iori_CommonSkill",
-            "LocalizeJP": "くらえ！",
+            "LocalizeJP": "くらえ。",
             "LocalizeEN": "Take this!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_1",
-            "LocalizeJP": "リロード完了。覚悟しろ！",
+            "LocalizeJP": "リロード完了、覚悟しろ。",
             "LocalizeEN": "Reload. Prepare yourself!"
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_2",
-            "LocalizeJP": "射程距離に入った、行くぞ！",
+            "LocalizeJP": "射程距離に入った、行くぞ。",
             "LocalizeEN": "I'm in range. Let's go."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Iori_ExSkill_Level_3",
-            "LocalizeJP": "覚悟しろ、規則違反者どもめ！",
+            "LocalizeJP": "覚悟しろ！\n規則違反者共め！",
             "LocalizeEN": "Prepare yourselves, damned rule-breakers!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_1",
-            "LocalizeJP": "へぇー。確かに強くなった気分。",
+            "LocalizeJP": "へえ、確かに……強くなった気分。",
             "LocalizeEN": "Huh, I actually feel like I got stronger."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_3",
-            "LocalizeJP": "ベストを尽くして成果を得る…。当たり前のようだけど…叶うと本当にうれしい。",
+            "LocalizeJP": "ベストを尽くして、成果を得る。\n当たり前のようだけど……叶うと本当に嬉しい。",
             "LocalizeEN": "\"Do your best and get results\". It seems natural, but it still makes me happy when it comes true."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Iori_Growup_4",
-            "LocalizeJP": "ありがとう、先生。これからもよろしく。",
+            "LocalizeJP": "ありがとう、先生。\nこれからもよろしく。",
             "LocalizeEN": "Thank you, Sensei. Please keep looking after me."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_1",
-            "LocalizeJP": "少しは頼れそうな先生になったかな…。",
+            "LocalizeJP": "少しは頼れそうな先生になったかな。",
             "LocalizeEN": "I guess you've become a bit more reliable..."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_2",
-            "LocalizeJP": "ずっと、風紀委員会のことだけで頭がいっぱいだったけど…最近は少し、別のことに夢中になってる…。せ、先生じゃなくて！シャーレのことっ！",
+            "LocalizeJP": "ずっと風紀委員会のことだけで頭がいっぱいだったけど、\n最近は少し……別のことに夢中になってる。\nせ、先生じゃなくて、シャーレのこと！",
             "LocalizeEN": "I always have my hands full with matters from the Disciplinary Committee, but... I guess I've also had one more thing in mind lately... I-I meant Schale! I wasn't talking about you!"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_3",
-            "LocalizeJP": "新しい任務が入った。一緒にそれを遂行して、……その、帰り道にちょっと、遊んでくるっていうのは、どう…？",
+            "LocalizeJP": "新しい任務が入った。\n一緒にそれを遂行して……その……帰り道にちょっと遊んでくるっていうのは、どう？",
             "LocalizeEN": "We have a new mission. How about we take care of that and... maybe, go somewhere on the way back? How about it?"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Iori_Relationship_Up_4",
-            "LocalizeJP": "きゅっ、急に近寄るなっ！なっなんでって…その…心の準備が必要だから！",
+            "LocalizeJP": "きゅ、急に近寄るな！\nな、なんでってその……心の準備が必要だから！",
             "LocalizeEN": "Don't get so close all of a sudden!... Why not? I-I have to get ready first!"
         }
     ]

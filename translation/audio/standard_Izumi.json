@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_In_1",
-            "LocalizeJP": "オッケー。",
+            "LocalizeJP": "オッケー",
             "LocalizeEN": "OK."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_In_2",
-            "LocalizeJP": "準備完了～！",
+            "LocalizeJP": "準備完了～",
             "LocalizeEN": "Ready."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Izumi_Formation_Select",
-            "LocalizeJP": "ハムハムんんんーー",
+            "LocalizeJP": "(もぐもぐ むしゃむしゃ)",
             "LocalizeEN": ""
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_In_1",
-            "LocalizeJP": "早く終わらせて、ご飯食べに行こう？",
+            "LocalizeJP": "早く終わらせてご飯食べに行こう！",
             "LocalizeEN": "Let's get this over quick and go have something to eat?"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_In_2",
-            "LocalizeJP": "わあ、この辺に美味しくて有名なお店があった気がする！",
+            "LocalizeJP": "あ～、この辺に美味しくて有名なお店があった気がする～。",
             "LocalizeEN": "Oh right! Wasn't there a famous food store in this area?"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Victory_1",
-            "LocalizeJP": "先生、勝ったよ～。美味しいものおごってくれるよね？",
+            "LocalizeJP": "先生～勝ったよ～\n美味しいもの奢ってくれるよね～？",
             "LocalizeEN": "Sensei, we won! You'll get us something tasty now, right?"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izumi_Tactic_Victory_2",
-            "LocalizeJP": "わっ…もうご飯の時間だよ。急いで急いで！",
+            "LocalizeJP": "あっ！もうご飯の時間だよ？\n急いで急いで！",
             "LocalizeEN": "Ah... It's time to eat. Hurry, hurry!"
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Buffed_1",
-            "LocalizeJP": "元気出てきた。",
+            "LocalizeJP": "元気出てきた！",
             "LocalizeEN": "I'm feeling better."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Defense_1",
-            "LocalizeJP": "痛くないわよ。",
+            "LocalizeJP": "痛くないわよ？",
             "LocalizeEN": "It doesn't hurt."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_In_1",
-            "LocalizeJP": "攻撃！敵のおやつを全部奪うわよ！",
+            "LocalizeJP": "攻撃！\n敵のおやつを全部奪うわよ！",
             "LocalizeEN": "Attack! Take all the snacks from the enemy!"
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Move_2",
-            "LocalizeJP": "あの子達を片付けたら、ご飯食べに行っていい？",
+            "LocalizeJP": "あの子たちを片付けたら、ご飯食べに行っていい？",
             "LocalizeEN": "Once we take care of those kids, can we go get something to eat?"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Recovery_1",
-            "LocalizeJP": "サンキュー！でも、お腹空いてきちゃった……。",
+            "LocalizeJP": "サンキュー！でもお腹空いてきちゃったぁ……。",
             "LocalizeEN": "Thank you! But now I have an empty stomach..."
         },
         {
@@ -222,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_TacticalAction_1",
-            "LocalizeJP": "あっちに行くね～。",
+            "LocalizeJP": "あっちに行くね～",
             "LocalizeEN": "I'll go over there."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Victory_1",
-            "LocalizeJP": "はむっ、うんっ！よしっ！",
+            "LocalizeJP": "(もぐもぐ)うん、よし！",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izumi_Battle_Victory_2",
-            "LocalizeJP": "はむっ。暴れた後のハンバーガーってやっぱり最高！",
+            "LocalizeJP": "(もぐもぐ)\n暴れた後のハンバーガーってやっぱり最高！",
             "LocalizeEN": "Nom nom. A hamburger after a rampage is the best!"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Izumi_CommonSkill",
-            "LocalizeJP": "やぁ！",
+            "LocalizeJP": "やあっ！",
             "LocalizeEN": ""
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_1",
-            "LocalizeJP": "出てきて！デラックスチョコハンバーガー！",
+            "LocalizeJP": "出てきて！\nデラックスチョコハンバーガー！",
             "LocalizeEN": "Come out, deluxe chocolate hamburger!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_2",
-            "LocalizeJP": "よっ、こういう時のために、用意してたの！",
+            "LocalizeJP": "よっ！こういう時のために用意してたの！",
             "LocalizeEN": "I had this prepared for an opportunity like this."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_3",
-            "LocalizeJP": "じゃーん、おやつ登場。",
+            "LocalizeJP": "じゃーん！！おやつ登場！",
             "LocalizeEN": "Ta-da! My snack is here."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_1",
-            "LocalizeJP": "んっ、んっ、元気が出る！",
+            "LocalizeJP": "(ゴクゴク)\n元気が出る！",
             "LocalizeEN": "Nom, nom, I feel better!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_2",
-            "LocalizeJP": "ハムハム、うおぉー！？",
+            "LocalizeJP": "(もぐもぐ)\nうおおおお！！",
             "LocalizeEN": ""
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izumi_ExSkill_Level_3",
-            "LocalizeJP": "ハムハム、ん！んー！エネルギー充填！覚悟しなさい！",
+            "LocalizeJP": "(むしゃむしゃ)\nおおー！エネルギー充填！覚悟しなさい！",
             "LocalizeEN": "Nom nom... mm! I'm energised! Get ready!"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_1",
-            "LocalizeJP": "ありがとう、先生！少しはお腹が満たされた気分！",
+            "LocalizeJP": "ありがとう、先生！\n少しはお腹が満たされた気分。",
             "LocalizeEN": "Thank you, Sensei! I feel a little full now!"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_2",
-            "LocalizeJP": "どうしてこんな大事な食べ物をいつも私にくれるの？",
+            "LocalizeJP": "どうして、こんな大事な食べ物をいつも私にくれるの？",
             "LocalizeEN": "Why do you always give me these invaluable treats?"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Izumi_Growup_4",
-            "LocalizeJP": "よ～し！美味しいものいっぱい食べて力を付けよう！",
+            "LocalizeJP": "よ～し！\n美味しいものいっぱい食べて力をつけよう！",
             "LocalizeEN": "Let's eat lots of delicious food and gain strength."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_1",
-            "LocalizeJP": "一緒にグルメ巡りに行こ？",
+            "LocalizeJP": "一緒にグルメ巡りに行こう！",
             "LocalizeEN": "Let's go out on a gourmet tour together?."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_2",
-            "LocalizeJP": "何を食べてもどこで食べても楽しい！先生と一緒だからかな？",
+            "LocalizeJP": "何を食べても、どこで食べても、楽しい！\n先生と一緒だからかな？",
             "LocalizeEN": "Whatever I eat, wherever I eat it's always delicious! Is it because I'm with you, Sensei?"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izumi_Relationship_Up_4",
-            "LocalizeJP": "うわ！",
+            "LocalizeJP": "わぁ～",
             "LocalizeEN": ""
         }
     ]

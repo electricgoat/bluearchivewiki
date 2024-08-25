@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Karin_(Bunny_Girl)_Formation_In_1",
-            "LocalizeJP": "うん。いい選択だと思う。",
+            "LocalizeJP": "うん、良い選択だと思う。",
             "LocalizeEN": "Yes. I think it's a good choice."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Karin_(Bunny_Girl)_Formation_Select",
-            "LocalizeJP": "なるほど。",
+            "LocalizeJP": "なるほど……。",
             "LocalizeEN": "I see."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Karin_(Bunny_Girl)_Tactic_In_2",
-            "LocalizeJP": "問題ない、行こう。",
+            "LocalizeJP": "問題無い、行こう。",
             "LocalizeEN": "All clear. Let's go."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Karin_(Bunny_Girl)_Tactic_Victory_2",
-            "LocalizeJP": "お疲れ様、先生。さすがの指揮だった。",
+            "LocalizeJP": "お疲れ様、先生。\n流石の指揮だった。",
             "LocalizeEN": "You did a great job, Sensei. Your commands were amazing."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Karin_(Bunny_Girl)_Battle_Buffed_1",
-            "LocalizeJP": "助かる！これで…。",
+            "LocalizeJP": "助かる、これで……！",
             "LocalizeEN": "Saved! With this..."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Karin_(Bunny_Girl)_Battle_Defense_1",
-            "LocalizeJP": "当たらなければ意味はない。",
+            "LocalizeJP": "当たらなければ、意味は無いっ。",
             "LocalizeEN": "There's no point if it doesn't hit."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Karin_(Bunny_Girl)_Battle_In_1",
-            "LocalizeJP": "火力支援じゃなくて、前線に立つのはまだ少し不慣れだけど…。大丈夫、 任せて。",
+            "LocalizeJP": "火力支援じゃなくて、前線に立つのはまだ少し不慣れだけど……大丈夫、任せて。",
             "LocalizeEN": "I'm still not quite used to being on the front lines instead of providing fire support... But it's okay, leave it to me."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Karin_(Bunny_Girl)_Battle_In_2",
-            "LocalizeJP": "火力支援だけが能じゃないって証明してみせる。見てて、先生。",
+            "LocalizeJP": "火力支援だけが能じゃないって、証明してみせる。\n見てて、先生。",
             "LocalizeEN": "I'll prove that I'm capable of more than just fire support. Watch me, Sensei."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Karin_(Bunny_Girl)_Battle_Victory_2",
-            "LocalizeJP": "ミッションコンプリート。これも先生の指揮のおかげだ。",
+            "LocalizeJP": "ミッションコンプリート。\nこれも先生の指揮のおかげだ。",
             "LocalizeEN": "Mission complete. This is also thanks to Sensei's leadership."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_CommonSkill",
-            "LocalizeJP": "行くぞ。",
+            "LocalizeJP": "行くぞ！",
             "LocalizeEN": "Let's go."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_1",
-            "LocalizeJP": "特に異変は…。目標発見。",
+            "LocalizeJP": "特に異変は……\n……っ！目標発見！",
             "LocalizeEN": "No abnormalities... Target acquired."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_2",
-            "LocalizeJP": "今のところは…、いや、見つけた。",
+            "LocalizeJP": "今のところは……\n……いや、見つけた！",
             "LocalizeEN": "For now... no, I've found it."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_3",
-            "LocalizeJP": "目標…、捉えた。",
+            "LocalizeJP": "目標……\n捉えた！",
             "LocalizeEN": "Target... acquired."
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_Level_1",
-            "LocalizeJP": "逃さない。",
+            "LocalizeJP": "逃さない！",
             "LocalizeEN": "I won't let you get away."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふっ！",
             "LocalizeEN": ""
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Karin_(Bunny_Girl)_ExSkill_Level_3",
-            "LocalizeJP": "ファイア。",
+            "LocalizeJP": "ファイア！",
             "LocalizeEN": "Fire."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Karin_(Bunny_Girl)_Growup_1",
-            "LocalizeJP": "ありがとう、先生。この選択…、後悔はさせないから。",
+            "LocalizeJP": "ありがとう、先生。\nこの選択、後悔はさせないから。",
             "LocalizeEN": "Thank you, Sensei. I won't let you regret this choice."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Karin_(Bunny_Girl)_Growup_2",
-            "LocalizeJP": "期待には、結果で答えてみせる。",
+            "LocalizeJP": "期待には、結果で応えてみせる。",
             "LocalizeEN": "I will respond to your expectations with great results."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Karin_(Bunny_Girl)_Growup_3",
-            "LocalizeJP": "すごいな。…これでもっともっと戦えそうだ。",
+            "LocalizeJP": "すごいな……。\nこれで、もっともっと戦えそうだ。",
             "LocalizeEN": "Wow... I feel like I can fight even better with this."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Karin_(Bunny_Girl)_Growup_4",
-            "LocalizeJP": "先生には、いつもこうして助けられてばっかりだ。この恩は何かの形で必ず。",
+            "LocalizeJP": "先生には、いつもこうして助けられてばっかりだ。\nこの恩は、何かの形で必ず……。",
             "LocalizeEN": "I'm always being helped by Sensei like this. I will definitely repay this favor one way or the other."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Karin_(Bunny_Girl)_Relationship_Up_1",
-            "LocalizeJP": "この気持ちは…。あ、いや、何でもない。",
+            "LocalizeJP": "この気持ちは……。\nあ、いや……何でもない。",
             "LocalizeEN": "This feeling is... Oh, no, never mind."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Karin_(Bunny_Girl)_Relationship_Up_2",
-            "LocalizeJP": "先生にはいつも感謝してる。…本当だ。お世辞じゃない。",
+            "LocalizeJP": "先生には、いつも感謝してる。\n本当だ、お世辞じゃない。",
             "LocalizeEN": "I am always grateful to Sensei. ... It's true. I'm not just flattering you."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Karin_(Bunny_Girl)_Relationship_Up_3",
-            "LocalizeJP": "私は、言葉にするのが上手じゃないけど…、それでも、こうして先生に対して言ってるのは、全部本当のことだ。",
+            "LocalizeJP": "私は、言葉にするのが上手じゃないけど……\nそれでも、こうして先生に対して言ってるのは、全部本当のことだ。",
             "LocalizeEN": "I'm not good at putting my thoughts into words, but everything I'm saying to Sensei is true."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Karin_(Bunny_Girl)_Relationship_Up_4",
-            "LocalizeJP": "何かでお返しがしたいのだけど、今の私にはまず作戦を成功させることくらいしか。",
+            "LocalizeJP": "何かでお返しがしたいのだけど……。\n今の私には、まず作戦を成功させることくらいしか……。",
             "LocalizeEN": "I want to repay you somehow, but all I can do for now is make this operation a success."
         }
     ]

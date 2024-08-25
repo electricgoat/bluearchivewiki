@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Misaki_Formation_In_2",
-            "LocalizeJP": "命令、了解。",
+            "LocalizeJP": "命令？了解。",
             "LocalizeEN": "Order's received."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Misaki_Formation_Select",
-            "LocalizeJP": "何？",
+            "LocalizeJP": "……なに？",
             "LocalizeEN": "What?"
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Misaki_Tactic_In_1",
-            "LocalizeJP": "分かった。",
+            "LocalizeJP": "……わかった。",
             "LocalizeEN": "Got it."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Misaki_Tactic_In_2",
-            "LocalizeJP": "じゃあその通りにする。",
+            "LocalizeJP": "じゃあ、その通りにする。",
             "LocalizeEN": "Then do it that way."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Misaki_Tactic_Victory_1",
-            "LocalizeJP": "言われた通りにやった、 それだけ。",
+            "LocalizeJP": "言われたとおりにやった、それだけ。",
             "LocalizeEN": "I did what I was told, that's all."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_Buffed_1",
-            "LocalizeJP": "支援 確認。",
+            "LocalizeJP": "支援、確認。",
             "LocalizeEN": "Confirmation."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_In_1",
-            "LocalizeJP": "お望み通りに。",
+            "LocalizeJP": "お望みどおりに。",
             "LocalizeEN": "As you wish."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_In_2",
-            "LocalizeJP": "交戦、開始。",
+            "LocalizeJP": "……交戦、開始。",
             "LocalizeEN": "Engagement started."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_Move_1",
-            "LocalizeJP": "確保 完了。",
+            "LocalizeJP": "確保完了。",
             "LocalizeEN": "Secured."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ふっ。",
             "LocalizeEN": ""
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Misaki_Battle_Victory_2",
-            "LocalizeJP": "分かったよ、お望み通りに。",
+            "LocalizeJP": "勝ったよ、お望みどおりに",
             "LocalizeEN": "Understood, as you wish."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Misaki_CommonSkill",
-            "LocalizeJP": "少しは役に立つ。",
+            "LocalizeJP": "少しは役に立つ",
             "LocalizeEN": "It helps a little."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Misaki_ExSkill_1",
-            "LocalizeJP": "全部無意味。",
+            "LocalizeJP": "……全部無意味",
             "LocalizeEN": "All meaningless."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Misaki_ExSkill_2",
-            "LocalizeJP": "意味なんてない。",
+            "LocalizeJP": "意味なんて無い",
             "LocalizeEN": "It doesn't make any sense."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Misaki_ExSkill_3",
-            "LocalizeJP": "何もかも無駄。",
+            "LocalizeJP": "何もかも無駄",
             "LocalizeEN": "Everything is useless."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Misaki_ExSkill_Level_2",
-            "LocalizeJP": "最初からわかってたのに。",
+            "LocalizeJP": "最初から分かってたのに。",
             "LocalizeEN": "I knew it from the beginning."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Misaki_ExSkill_Level_3",
-            "LocalizeJP": "これでわかった。",
+            "LocalizeJP": "これでわかった？",
             "LocalizeEN": "That's it."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Misaki_Growup_1",
-            "LocalizeJP": "こんなことをする理由は何？",
+            "LocalizeJP": "……こんなことをする理由は何？",
             "LocalizeEN": "What is the reason for doing this?"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Misaki_Growup_2",
-            "LocalizeJP": "理解ができない、 これ何のために？",
+            "LocalizeJP": "理解ができない……これ、何のために？",
             "LocalizeEN": "I can't understand it. what is this for？"
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Misaki_Growup_3",
-            "LocalizeJP": "所詮 捨て駒でしょ、一体何を？",
+            "LocalizeJP": "所詮捨て駒でしょ、一体何を……。",
             "LocalizeEN": "After all, it's a throwaway piece, what the hell are you doing?"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Misaki_Growup_4",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "あ……ありが、とう。",
             "LocalizeEN": "Thank you."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Misaki_Relationship_Up_1",
-            "LocalizeJP": "なんだか興味があるみたいだけど、私のことは信じない方がいい。",
+            "LocalizeJP": "なんだか興味があるみたいだけど……私のことは信じないほうがいい。",
             "LocalizeEN": "You seems to be interested in me, but you shouldn't believe me."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Misaki_Relationship_Up_2",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "……うん、ありがとう。",
             "LocalizeEN": "thank you."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Misaki_Relationship_Up_3",
-            "LocalizeJP": "少し混乱してる。",
+            "LocalizeJP": "……少し、混乱してる。",
             "LocalizeEN": "I'm a little confused."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Misaki_Relationship_Up_4",
-            "LocalizeJP": "もともと 拒否権はないし、好意はありがたく受け取っておく。",
+            "LocalizeJP": "もともと拒否権はないし。好意はありがたく受け取っておく。",
             "LocalizeEN": "I don't have the right to refuse from the beginning, and I'm grateful to receive favors."
         }
     ]

@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Yuuka_Formation_In_2",
-            "LocalizeJP": "これ 報酬は出るんです？",
+            "LocalizeJP": "これ、報酬は出るんです？",
             "LocalizeEN": "Will I get a reward for this?"
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Yuuka_Formation_Select",
-            "LocalizeJP": "やっぱり先生は賢いですね。",
+            "LocalizeJP": "ふふーん。\nやっぱり先生は賢いですね。",
             "LocalizeEN": "Sensei is smart after all."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuuka_Tactic_In_1",
-            "LocalizeJP": "敵の位置を確認、先生 指揮をお願いします。",
+            "LocalizeJP": "敵の位置を確認。\n先生。指揮をお願いします！",
             "LocalizeEN": "Confirm the enemy's position, Sensei, please guide me."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuuka_Tactic_In_2",
-            "LocalizeJP": "敵の位置を確認。距離、至近、戦力、計算完了。",
+            "LocalizeJP": "敵の位置を確認。距離、至近。戦力、計算完了。",
             "LocalizeEN": "Checking enemy positions. Distance, proximity, strength, calculation complete."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuuka_Tactic_Victory_1",
-            "LocalizeJP": "スマートに勝利。",
+            "LocalizeJP": "スマートに勝利～。",
             "LocalizeEN": "Smart win!"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuuka_Tactic_Victory_2",
-            "LocalizeJP": "運が良かった？いいえ、計算通りです。",
+            "LocalizeJP": "運がよかった？いいえ。\n計算通りです。",
             "LocalizeEN": "Was I lucky? No, it was calculated."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Buffed_1",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "ありがと～",
             "LocalizeEN": "Thank you."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Covered_1",
-            "LocalizeJP": "隠れるわ、支援をお願い。",
+            "LocalizeJP": "隠れるわ、支援をお願い！",
             "LocalizeEN": "I'm taking cover, please help me."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_In_1",
-            "LocalizeJP": "計算は完璧、落ち着いていこう。",
+            "LocalizeJP": "計算は完璧。\n落ち着いて行こう！",
             "LocalizeEN": "The calculation is perfect. Let's stay calm."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_In_2",
-            "LocalizeJP": "私たちの勝率はかなり高い。自信を持っていこう。",
+            "LocalizeJP": "私たちの勝率はかなり高い。\n自信をもって行こう！",
             "LocalizeEN": "Our win rate is pretty high. Let's be confident."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Move_1",
-            "LocalizeJP": "まぁ、ここまでは計算通りね。",
+            "LocalizeJP": "ま、ここまでは計算通りね。",
             "LocalizeEN": "So far it's calculated."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Recovery_1",
-            "LocalizeJP": "うん、ちょうどいい量ね。",
+            "LocalizeJP": "うん。ちょうどいい量ね。",
             "LocalizeEN": "Just the right amount."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_TacticalAction_1",
-            "LocalizeJP": "行くわよ。",
+            "LocalizeJP": "行くわよ！",
             "LocalizeEN": "Let's go."
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Victory_1",
-            "LocalizeJP": "計算通り、完璧。",
+            "LocalizeJP": "計算通り。\n完璧～。",
             "LocalizeEN": "As calculated, perfect."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuuka_Battle_Victory_2",
-            "LocalizeJP": "数学は真実を導く。私たちの勝ちよ。",
+            "LocalizeJP": "数学は真実を導く。\n私たちの勝ちよ。",
             "LocalizeEN": "Mathematics leads to truth. our win."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Yuuka_CommonSkill",
-            "LocalizeJP": "まだ終わらないわよ。",
+            "LocalizeJP": "まだ終わらないわよ？",
             "LocalizeEN": "It's not over yet."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_ExSkill_1",
-            "LocalizeJP": "悲しみも怒りも、全て因数分解してやるわ。",
+            "LocalizeJP": "悲しみも、怒りも\nすべて因数分解してやるわ。",
             "LocalizeEN": "Sorrow and anger, I'll factor them all."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_ExSkill_2",
-            "LocalizeJP": "現在の状況と条件…、よし、これは勝ちね。",
+            "LocalizeJP": "現在の状況と条件……\nよし。これは勝ちね。",
             "LocalizeEN": "The current situation and conditions... OK, this is a win."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_ExSkill_3",
-            "LocalizeJP": "攻撃が私に命中する確率は、極めて低い！",
+            "LocalizeJP": "攻撃が私に命中する確率は……\n極めて低い！",
             "LocalizeEN": "The probability of an attack hitting me is extremely low!"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_ExSkill_Level_1",
-            "LocalizeJP": "単なる計算結果に過ぎないわ。",
+            "LocalizeJP": "単なる計算結果にすぎないわ。",
             "LocalizeEN": "It's just a calculated result."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuuka_ExSkill_Level_3",
-            "LocalizeJP": "勝利を証明するわ。",
+            "LocalizeJP": "勝利を、証明するわ。",
             "LocalizeEN": "I will prove victory."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_Growup_1",
-            "LocalizeJP": "成果を見せるチャンス、待ってました。",
+            "LocalizeJP": "成果を見せるチャンス。\n待ってました！",
             "LocalizeEN": "I was waiting for the chance to show my results."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_Growup_2",
-            "LocalizeJP": "数値で感じられる結果というのは、人をドキドキさせますね。",
+            "LocalizeJP": "数値で感じられる結果というのは\n人をドキドキさせますね。",
             "LocalizeEN": "The results that can be felt in numbers make people's hearts beat."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_Growup_3",
-            "LocalizeJP": "次の任務は黒字を期待してくださいね。",
+            "LocalizeJP": "次の任務は、黒字を期待してくださいね。",
             "LocalizeEN": "Please expect the next mission to be in the black."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuuka_Growup_4",
-            "LocalizeJP": "こんな表現はあまり好きじゃないけど、今の私 測定不能です。",
+            "LocalizeJP": "こんな表現はあまり好きじゃないけど……\n今の私！測定不能です！",
             "LocalizeEN": "I don't really like this expression, but I'm immeasurable now."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_Relationship_Up_1",
-            "LocalizeJP": "体力も時間もたくさん使っちゃった気がしますけど、先生といると得した気分です。",
+            "LocalizeJP": "体力も時間もたくさん使っちゃった気がしますけど……\n先生といると得した気分です。",
             "LocalizeEN": "I feel like I've used up a lot of energy and time, but I feel like I've gained a lot with Sensei."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_Relationship_Up_2",
-            "LocalizeJP": "計算ができません。今、この気持ちがですよ？",
+            "LocalizeJP": "計算ができません。\n今この気持ちがですよ。",
             "LocalizeEN": "I can't calculate how I feel right now."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_Relationship_Up_3",
-            "LocalizeJP": "いつも測定や計算だけを考えてたけど、今は、ただこの瞬間を感じていたい。",
+            "LocalizeJP": "いつも測定や、計算だけを考えてたけど\n今は、ただこの瞬間を感じていたい。",
             "LocalizeEN": "I used to think only about measurements and calculations, but now I just want to feel this moment."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuuka_Relationship_Up_4",
-            "LocalizeJP": "どうしてかな。説明できない感覚だけど嫌いじゃない。",
+            "LocalizeJP": "どうしてかな。\n説明できない感覚だけど……嫌いじゃない。",
             "LocalizeEN": "It's a feeling I can't explain, but I don't hate it."
         }
     ]

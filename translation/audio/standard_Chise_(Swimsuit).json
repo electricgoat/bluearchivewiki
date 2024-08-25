@@ -3,10 +3,64 @@
         {
             "CharacterId": 10047,
             "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10047,
+            "CharacterVoiceGroupId": 10047,
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Chise_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "日差しがぽかぽか。",
+            "LocalizeJP": "日差しがぽかぽか～",
             "LocalizeEN": "The sun is warm."
         },
         {
@@ -15,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Chise_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "準備オッケー。",
+            "LocalizeJP": "んーと………\n準備、OK？",
             "LocalizeEN": "I'm ready."
         },
         {
@@ -24,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Chise_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "泳ぎに行くの？",
+            "LocalizeJP": "泳ぎに、行くの？",
             "LocalizeEN": "We're going swimming?"
         },
         {
@@ -51,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chise_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "お散歩お散歩！え、違うの？",
+            "LocalizeJP": "お散歩お散歩～\n……え、違うの？",
             "LocalizeEN": "We're going on a walk! Eh? That's not it?"
         },
         {
@@ -60,7 +114,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chise_(Swimsuit)_Tactic_In_2",
-            "LocalizeJP": "キラキラを探して、前進！",
+            "LocalizeJP": "キラキラを探して、前進～",
             "LocalizeEN": "Forward! We're looking for shiny things."
         },
         {
@@ -69,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chise_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "これで終わり？じゃあ帰ろう、先生！",
+            "LocalizeJP": "これで終わり～？\nじゃあ帰ろ、先生～",
             "LocalizeEN": "Is it over? Let's go back, Sensei."
         },
         {
@@ -78,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Chise_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "私たちの勝ち？じゃあもう泳ぎに行ってもいい？",
+            "LocalizeJP": "私たちの、勝ち？\nじゃあもう、泳ぎに行ってもいい？",
             "LocalizeEN": "We won? Can we go swimming now?"
         },
         {
@@ -87,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "力が湧いてくる。",
+            "LocalizeJP": "力が湧いてくる～",
             "LocalizeEN": "My power is rising."
         },
         {
@@ -105,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "ここに隠れてていい？",
+            "LocalizeJP": "ここに隠れてて良い～？",
             "LocalizeEN": "Can I hide here."
         },
         {
@@ -141,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "なんかくすぐったい。",
+            "LocalizeJP": "なんか、くすぐったい",
             "LocalizeEN": "It tickles."
         },
         {
@@ -150,7 +204,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "邪魔なもの壊しちゃうね。",
+            "LocalizeJP": "邪魔なもの、壊しちゃうね～",
             "LocalizeEN": "I'll destroy the intruders, ok?"
         },
         {
@@ -159,7 +213,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "お散歩に出発。",
+            "LocalizeJP": "お散歩に、出発～",
             "LocalizeEN": "We're going on a walk."
         },
         {
@@ -168,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "次はどっち？",
+            "LocalizeJP": "次はどっち～？",
             "LocalizeEN": "Which one next?"
         },
         {
@@ -177,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "こっちに行ってみよう。",
+            "LocalizeJP": "こっちに行ってみよ～",
             "LocalizeEN": "Let's go over here."
         },
         {
@@ -186,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "あれ？ありがとう！",
+            "LocalizeJP": "あれ、ありがとう～",
             "LocalizeEN": "Uh? Thank you!"
         },
         {
@@ -231,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "こっちこっち。",
+            "LocalizeJP": "こっちこっち～",
             "LocalizeEN": "Here, here!."
         },
         {
@@ -240,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "見て見て先生、勝利のポーズ！",
+            "LocalizeJP": "見て見て、先生\n勝利のポーズ～",
             "LocalizeEN": "Look, look Sensei, victory pose!"
         },
         {
@@ -249,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Chise_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "夏バージョンの勝利のポーズ！どう？",
+            "LocalizeJP": "夏バージョンの、勝利のポーズ～\nどう？",
             "LocalizeEN": "Victory pose, summer version! How is it?"
         },
         {
@@ -258,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Chise_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "シュート。",
+            "LocalizeJP": "シュート～？",
             "LocalizeEN": "Shoot."
         },
         {
@@ -267,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "キラキラがたくさんだ。",
+            "LocalizeJP": "キラキラがたくさんだ～",
             "LocalizeEN": "Shiny things everywhere."
         },
         {
@@ -276,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "さあさあ、進んでいこう！",
+            "LocalizeJP": "さあさあ、進んでいこう～",
             "LocalizeEN": "Come on, let's move on."
         },
         {
@@ -285,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "夏の海フィーバーだね。",
+            "LocalizeJP": "夏の海、フィーバーだね～",
             "LocalizeEN": "Summer sea fever."
         },
         {
@@ -294,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "確かこの辺に…発見！",
+            "LocalizeJP": "たしかこの辺にー……発見\nバーン",
             "LocalizeEN": "I'm pretty sure I found it around here."
         },
         {
@@ -303,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "持ってたはずだけど…あ！あった。榴弾発射！",
+            "LocalizeJP": "持ってたはずだけど～……\nあ、あった。榴弾、発射～",
             "LocalizeEN": "I was sure I had them... Ah, here! Grenades off."
         },
         {
@@ -312,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "えっと…うん！とりあえず打ってみようか？",
+            "LocalizeJP": "んーと、えーっと……\nうん。とりあえず、撃ってみよっか",
             "LocalizeEN": "Eh?... I got it! I should fire, yes?"
         },
         {
@@ -321,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Chise_(Swimsuit)_Growup_1",
-            "LocalizeJP": "夏の日差しを浴びた時みたいな。",
+            "LocalizeJP": "夏の日差しを浴びた時みたいな……",
             "LocalizeEN": "It's like bathing in the summer sun."
         },
         {
@@ -330,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Chise_(Swimsuit)_Growup_2",
-            "LocalizeJP": "うん、強くなった！もしかして、先生も一緒に強くなってる？",
+            "LocalizeJP": "うん、強くなった～\nもしかして、先生も一緒に強くなってる？",
             "LocalizeEN": "I've gotten stronger! Maybe Sensei is getting stronger too?"
         },
         {
@@ -339,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Chise_(Swimsuit)_Growup_3",
-            "LocalizeJP": "ふわふわした雲みたいな気分。",
+            "LocalizeJP": "ふわふわした、雲みたいな気分～",
             "LocalizeEN": "It feels like a fluffy cloud."
         },
         {
@@ -348,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Chise_(Swimsuit)_Growup_4",
-            "LocalizeJP": "次は戦車に、その次はロケットになりたいな。",
+            "LocalizeJP": "次は戦車に……\nその次は、ロケットになりたいな",
             "LocalizeEN": "Next I want to be a tank and then a rocket."
         },
         {
@@ -357,7 +411,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "先生と一緒にぽかぽかになれて…幸せってこのことかも？",
+            "LocalizeJP": "先生と一緒にポカポカになれて……\n幸せって、このことかも？",
             "LocalizeEN": "Feeling warm next to Sensei... maybe this is happiness?"
         },
         {
@@ -366,7 +420,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "先生、聞いて聞いて。胸がどくんとくんって言ってる。",
+            "LocalizeJP": "先生、聞いて聞いて\n胸が、ドクンドクンって言ってる",
             "LocalizeEN": "Sensei, listen, listen, my heart is saying thump thump."
         },
         {
@@ -375,7 +429,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "先生と一緒にいるといろんな俳句が浮かんできて楽しい。",
+            "LocalizeJP": "先生と一緒にいると\n色んな俳句が浮かんできて、楽しい",
             "LocalizeEN": "When I'm with Sensei it's fun and various haiku come to mind."
         },
         {
@@ -384,7 +438,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "キラキラがいっぱいの夏だけど、一番キラキラなのはやっぱり…",
+            "LocalizeJP": "キラキラがいっぱいの夏だけど……\n一番キラキラなのは、やっぱり……",
             "LocalizeEN": "It's a summer with plenty of shiny things but, after all the number one shiniest thing is..."
         }
     ]

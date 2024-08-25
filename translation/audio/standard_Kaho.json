@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Kaho_Formation_Select",
-            "LocalizeJP": "ん？何か御用でしょうか？",
+            "LocalizeJP": "？何かご用でしょうか？",
             "LocalizeEN": ""
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Victory_1",
-            "LocalizeJP": "お役に立てましたでしょうか。",
+            "LocalizeJP": "お役に立てましたでしょうか？",
             "LocalizeEN": ""
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Kaho_Tactic_Victory_2",
-            "LocalizeJP": "ふう…、皆さんがご無事で何よりです。",
+            "LocalizeJP": "ふぅ……皆さんがご無事でなによりです。",
             "LocalizeEN": ""
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Buffed_1",
-            "LocalizeJP": "ご支援ありがとうございます。",
+            "LocalizeJP": "ご支援、ありがとうございます。",
             "LocalizeEN": ""
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Covered_1",
-            "LocalizeJP": "呼吸を整えて…。",
+            "LocalizeJP": "呼吸を整えて……",
             "LocalizeEN": ""
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_In_1",
-            "LocalizeJP": "皆さん、付いてきてください。",
+            "LocalizeJP": "皆さん、ついてきてください。",
             "LocalizeEN": ""
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_In_2",
-            "LocalizeJP": "ケガの無いよう、注意してまいりましょう。",
+            "LocalizeJP": "怪我のないよう、注意して参りましょう。",
             "LocalizeEN": ""
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Move_1",
-            "LocalizeJP": "さあ、次に行きましょうか。",
+            "LocalizeJP": "さぁ、次に行きましょうか？",
             "LocalizeEN": ""
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_TacticalAction_1",
-            "LocalizeJP": "まいりましょう。",
+            "LocalizeJP": "参りましょう。",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Victory_1",
-            "LocalizeJP": "うふふ。これが陰陽部の底力です。",
+            "LocalizeJP": "ふふっ、これが陰陽部の底力です。",
             "LocalizeEN": ""
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Kaho_Battle_Victory_2",
-            "LocalizeJP": "うふふ。少しでも百鬼夜行の宣伝になったのならよいのですが。",
+            "LocalizeJP": "ふふ、少しでも百鬼夜行の宣伝になったのなら良いのですが。",
             "LocalizeEN": ""
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kaho_CommonSkill",
-            "LocalizeJP": "心を落ち着けて、まいりましょう。",
+            "LocalizeJP": "心を落ち着けて……。\n参りましょう。",
             "LocalizeEN": ""
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_1",
-            "LocalizeJP": "わっ、空から…、これは？",
+            "LocalizeJP": "わっ！？空から……これは……？",
             "LocalizeEN": ""
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_2",
-            "LocalizeJP": "これは、伝説の…！",
+            "LocalizeJP": "これは……伝説の……！？",
             "LocalizeEN": ""
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_3",
-            "LocalizeJP": "これは…、チセちゃん……！？",
+            "LocalizeJP": "こ、これはっ！チセちゃんっ！？",
             "LocalizeEN": ""
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_Level_1",
-            "LocalizeJP": "落とすわけにはいきません！",
+            "LocalizeJP": "落とすわけには、いきません！",
             "LocalizeEN": ""
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kaho_ExSkill_Level_3",
-            "LocalizeJP": "チセちゃん！待って！",
+            "LocalizeJP": "チセちゃんっ！待って！！",
             "LocalizeEN": ""
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_1",
-            "LocalizeJP": "ありがとうございます。先生、おかげさまで成長することができました。",
+            "LocalizeJP": "ありがとうございます、先生。\nお陰さまで成長する事ができました。",
             "LocalizeEN": "Thank you very much. Sensei, I was able to grow thanks to you."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_2",
-            "LocalizeJP": "成長を実感できるのはなかなか嬉しいものですね。",
+            "LocalizeJP": "成長を実感できるのは、\nなかなか嬉しいものですね。",
             "LocalizeEN": "It's nice to be able to feel the growth."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_3",
-            "LocalizeJP": "先生のおかげでまた強くなれました。この力でもっと皆さんのお役に立ちたいです。",
+            "LocalizeJP": "先生のおかげで、また強くなれました。\nこの力でもっと、皆さんのお役に立ちたいです。",
             "LocalizeEN": "Thanks to you, I became stronger again. I want to use this power to help you even more."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Kaho_Growup_4",
-            "LocalizeJP": "さらに成長できたみたいです。こんな私でもお力になれるのなら嬉しい限りです。",
+            "LocalizeJP": "更に成長できたみたいです。\nこんな私でもお力になれるのなら、嬉しい限りです。",
             "LocalizeEN": "It seems like I've grown even more. I would be happy if I could be of help."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_1",
-            "LocalizeJP": "こんなに胸が高鳴るなんて…、その、初めての感覚です。",
+            "LocalizeJP": "こんなに胸が高鳴るなんて……その……\n初めての、感覚……です。",
             "LocalizeEN": "My heart is pounding so fast... It's the first time I've ever felt that feeling."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_2",
-            "LocalizeJP": "共に過ごす時間が長くなればなるほど、心の距離も縮まるのですね。なるほど。",
+            "LocalizeJP": "共に過ごす時間が長くなればなるほど、\n心の距離も縮まるのですね……\n……なるほど。",
             "LocalizeEN": "The more time we spend together, the more our hearts grow closer. I see."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_3",
-            "LocalizeJP": "少し体が熱くなってきて、これは…、いえ、もしかして。",
+            "LocalizeJP": "少し、身体が熱くなってきて……。\nこれは……いえ、もしかして…うっ。",
             "LocalizeEN": "My body is getting a little hotter, and I wonder if this might be the case."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kaho_Relationship_Up_4",
-            "LocalizeJP": "誰かに見守られる立場というのは初めてです。こんなにも嬉しいものなのですね。",
+            "LocalizeJP": "誰かに見守られる立場というのは、初めてです……\nこんなにも嬉しいものなのですね。",
             "LocalizeEN": "This is my first time being in a position where someone is watching over me. It makes me so happy."
         }
     ]

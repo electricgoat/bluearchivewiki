@@ -3,10 +3,64 @@
         {
             "CharacterId": 10046,
             "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10046,
+            "CharacterVoiceGroupId": 10046,
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "はい！主殿！イズナ、参ります！",
+            "LocalizeJP": "はい！主殿！\nイズナ、参ります！",
             "LocalizeEN": "Yes, my lord! Izuna is on her way!"
         },
         {
@@ -24,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Izuna_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "この夏も…イズナに何なりとご用命ください、主殿！ニンニン！",
+            "LocalizeJP": "この夏も、イズナに何なりとご用命ください主殿！ニンニン！",
             "LocalizeEN": "This summer, please command me as you wish, my lord! Nin nin!"
         },
         {
@@ -51,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_(Swimsuit)_Tactic_In_1",
-            "LocalizeJP": "イズナの活躍…見守っててくださいね、主殿！",
+            "LocalizeJP": "イズナの活躍、見守っててくださいね！主殿！",
             "LocalizeEN": "Please watch as Izuna does her part, my lord!"
         },
         {
@@ -69,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "任務、完了です！早く海に遊びに行きましょう！主殿！",
+            "LocalizeJP": "任務完了です！\n早く海に遊びに行きましょう！主殿！",
             "LocalizeEN": "Mission complete! Quick, let's go play at the beach, my lord!"
         },
         {
@@ -78,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Izuna_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "イズナ流忍術を持ってして、倒せない相手はいませんっ！…たぶん！",
+            "LocalizeJP": "イズナ流忍術をもってして、倒せない相手はいません！多分！",
             "LocalizeEN": "There's no opponent you can't defeat with Izuna-style ninja arts!... Maybe."
         },
         {
@@ -87,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Buffed_1",
-            "LocalizeJP": "忍法！感謝の術！夏バージョン！",
+            "LocalizeJP": "忍法、感謝の術！夏バージョン！",
             "LocalizeEN": "Ninja Art: Appreciation Technique! Summer Version!"
         },
         {
@@ -105,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Covered_1",
-            "LocalizeJP": "忍法！隠れ身の術。",
+            "LocalizeJP": "忍法！隠れ身の術！",
             "LocalizeEN": "Ninja Art: Concealment Technique."
         },
         {
@@ -141,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "無駄です！",
+            "LocalizeJP": "無駄ですっ！",
             "LocalizeEN": "It's useless!"
         },
         {
@@ -159,7 +213,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_In_2",
-            "LocalizeJP": "忍びのように素早く！任務開始です！",
+            "LocalizeJP": "忍のように素早く！任務、開始です！",
             "LocalizeEN": "Quick as a ninja! Mission start!"
         },
         {
@@ -168,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "次に行きましょう！主殿！",
+            "LocalizeJP": "次に行きましょう、主殿！",
             "LocalizeEN": "Let's go to the next, my lord!"
         },
         {
@@ -177,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "移動します！とうっ！",
+            "LocalizeJP": "移動します！とぅっ！",
             "LocalizeEN": "Moving ahead! Hiya!."
         },
         {
@@ -186,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Recovery_1",
-            "LocalizeJP": "わっ、ありがとうございます！",
+            "LocalizeJP": "あっ、ありがとうございます！",
             "LocalizeEN": "Uwa! Thank you!"
         },
         {
@@ -231,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_TacticalAction_1",
-            "LocalizeJP": "サササッ！",
+            "LocalizeJP": "サササッ……！",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "やりましたよ主殿！イズナ達の勝利ですね！",
+            "LocalizeJP": "やりましたよ主殿！\nイズナたちの勝利ですね！",
             "LocalizeEN": "We did it, my lord! It's our victory!"
         },
         {
@@ -249,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Izuna_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "えっへへ♪どうでしょう主殿！イズナ、たくさん頑張りました！",
+            "LocalizeJP": "えへへっ！どうでしょう主殿！\nイズナ、たくさん頑張りました！",
             "LocalizeEN": "Ehehe♪, what do you think, my lord? Izuna did her best!"
         },
         {
@@ -267,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "とうっ！イズナ！参ります！",
+            "LocalizeJP": "とぉっ！イズナ、参ります！",
             "LocalizeEN": "Hiya! Here I go!"
         },
         {
@@ -276,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "これもまたイズナ流忍法！",
+            "LocalizeJP": "これもまたイズナ流忍法っ！",
             "LocalizeEN": "This is also Izuna-style Ninjutsu!"
         },
         {
@@ -294,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_(Swimsuit)_ExSkill_Level_1",
-            "LocalizeJP": "超強力スーパーシュート！",
+            "LocalizeJP": "超強力スーパーシュートぉ！",
             "LocalizeEN": "Extreme Power Super Shot!"
         },
         {
@@ -312,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Izuna_(Swimsuit)_ExSkill_Level_3",
-            "LocalizeJP": "夏のイズナをお見せしましょう！",
+            "LocalizeJP": "夏のイズナを、お見せしましょう！",
             "LocalizeEN": "This is Summer Izuna!"
         },
         {
@@ -321,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_(Swimsuit)_Growup_1",
-            "LocalizeJP": "これを…イズナに？ありがとうございます！主殿！",
+            "LocalizeJP": "これを、イズナに……？\nありがとうございます、主殿！",
             "LocalizeEN": "This is... for Izuna? Thank you so much, my lord!"
         },
         {
@@ -330,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_(Swimsuit)_Growup_2",
-            "LocalizeJP": "イズナ、成長しました！というわけで…早速遊びましょう！主殿！",
+            "LocalizeJP": "イズナ、成長しました！\nというわけで、さっそく遊びましょう！主殿！",
             "LocalizeEN": "Izuna has grown stronger! That means... it's time to play, my lord!"
         },
         {
@@ -339,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_(Swimsuit)_Growup_3",
-            "LocalizeJP": "これで、暑さにも耐えられるはず…。というわけで、主殿！一緒に遊びましょう！",
+            "LocalizeJP": "これで、暑さにも耐えられるはず……！？\nというわけで主殿、一緒に遊びましょう！",
             "LocalizeEN": "With this I should be able to endure the heat... You know what that means, my lord! Let's play together!"
         },
         {
@@ -348,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Izuna_(Swimsuit)_Growup_4",
-            "LocalizeJP": "主殿のおかげで、イズナはここまで強くなれました。これからも主殿のために、頑張りますね！",
+            "LocalizeJP": "主殿のおかげで、イズナはここまで強くなれました！\nこれからも主殿のために頑張りますね！",
             "LocalizeEN": "With my lord's help Izuna became strong. I'll do my best for my lord's sake, now and forever!"
         },
         {
@@ -357,7 +411,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "この夏も、主殿と一緒にいられるなんて……。イズナ、すっごく幸せです！",
+            "LocalizeJP": "この夏も、主殿と一緒にいられるなんて……。\nイズナ、すっごく幸せです！",
             "LocalizeEN": "I get to spend another summer with my lord... Izuna is so happy!"
         },
         {
@@ -366,7 +420,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "主殿、主殿！あーるーじーどーの！えっへへ、何だかこうしてお呼びするだけで、楽しくなってしまいます！",
+            "LocalizeJP": "あるじ殿！主殿！あ～る～じ～殿！\nえへへっ！何だかこうしてお呼びするだけで、楽しくなってしまいます！",
             "LocalizeEN": "My lord! My lord! My loooord♪ Ehehe, it's so fun just calling you like this!"
         },
         {
@@ -375,7 +429,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "ん？どうかしましたか？いえいえ、たしかに良い天気ですが、主殿の護衛をしている間は暑さなど気になりません！",
+            "LocalizeJP": "……？どうかしましたか？\nいえいえ、確かに良い天気ですが、主殿の護衛をしている間は暑さなど気になりません！",
             "LocalizeEN": "Mm? What's the matter? Yes, it's a sunny day but, as long as I stand guard the heat means nothing to me!"
         },
         {
@@ -384,7 +438,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "（主殿を見ていると…、何だか顔が熱く…。どうしてでしょう……？）",
+            "LocalizeJP": "（主殿を見ていると、何だか顔が熱く……どうしてでしょう？）",
             "LocalizeEN": "(Whenever I see my lord, I... my face feels hot... I wonder why?)"
         }
     ]

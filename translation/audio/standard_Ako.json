@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Ako_CommonSkill",
-            "LocalizeJP": "風紀委員会からの支給品です。",
+            "LocalizeJP": "風紀委員会からの支給品です！",
             "LocalizeEN": "Supply item from the disciplinary committee."
         },
         {
@@ -42,7 +42,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_2",
-            "LocalizeJP": "データはこれとこれと。",
+            "LocalizeJP": "データはこれとこれと……",
             "LocalizeEN": "Data here and there."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_3",
-            "LocalizeJP": "風紀委員の情報収集能力お見せします。",
+            "LocalizeJP": "風紀委員の情報収集能力、お見せします。",
             "LocalizeEN": "I'll show you the information-gathering skills of a Prefect Team member."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_Level_2",
-            "LocalizeJP": "後はお任せしますね。",
+            "LocalizeJP": "あとはお任せしますね？",
             "LocalizeEN": "I'll leave the rest to you."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Ako_ExSkill_Level_3",
-            "LocalizeJP": "準備は万全ですから。",
+            "LocalizeJP": "ふふっ、準備は万全ですから。",
             "LocalizeEN": "I am fully prepared."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_1",
-            "LocalizeJP": "先生からのご支援ありがたく頂戴しますね。",
+            "LocalizeJP": "先生からのご支援、ありがたく頂戴しますね。",
             "LocalizeEN": "I accept Sensei's support, with my thanks."
         },
         {
@@ -96,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_2",
-            "LocalizeJP": "成長していますね。自分でも、その…びっくりです。",
+            "LocalizeJP": "成長……していますね。\n自分でもその、ビックリです。",
             "LocalizeEN": "I've grown so much. Even I'm surprised."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_3",
-            "LocalizeJP": "こういうことは気軽にすることではないでしょうに。何が狙いですか？何かして欲しいことでも？",
+            "LocalizeJP": "こういうことは、気軽にすることではないでしょうに……\n……何が狙いですか？何かしてほしいことでも？",
             "LocalizeEN": "This isn't the kind of thing you can just casually do for everyone, is it? What is your goal? You want me to do something for you?"
         },
         {
@@ -114,7 +114,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Ako_Growup_4",
-            "LocalizeJP": "その…ありがとうございます、先生。 何ですか、その顔は？私だって何かをしてもらえば、感謝くらいします。まったく。",
+            "LocalizeJP": "その……ありがとうございます。先生。\n……何ですか、その顔は。\n私だって何かをしてもらえば、感謝くらいします。まったく……",
             "LocalizeEN": "Em, thank you for that, Sensei. What's that face supposed to mean? Even I can thank someone who does something for me. Come on."
         },
         {
@@ -123,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_1",
-            "LocalizeJP": "あの？ちょっと距離が近くないですか？ いいえ、意識しているとかではなく。",
+            "LocalizeJP": "あの、ちょっと距離が近くないですか……？\nい、いえ、意識しているとかではなく……。",
             "LocalizeEN": "Eh? Since when were you so close? No, I wasn't being too conscious!"
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_2",
-            "LocalizeJP": "業務外での関係でもお望みなんですか ？そういうのは早いですよ…まだ…",
+            "LocalizeJP": "……業務外での関係でもお望みなんですか？\nそういうのは早いですよ……まだ",
             "LocalizeEN": "Do you want us to keep a relationship outside of work? It's too soon for something like that... yet..."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_3",
-            "LocalizeJP": "これがどういう感情なのか、もう少し検討する時間をください。本当に少しでいいので。",
+            "LocalizeJP": "これがどういう感情なのか……\nもう少し、検討する時間をください。\n本当に、少しで良いので。",
             "LocalizeEN": "Give me a little more time to reflect on my feelings. I just need a little time, I promise."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Ako_Relationship_Up_4",
-            "LocalizeJP": "認めますよ、先生のことを嫌いだとは思っていません。で？それで？だったら何なんですか？",
+            "LocalizeJP": "はぁ……ええ、認めますよ。\n先生のことを嫌いだとは思っていません。\nで、それで？だったら何なんですか？",
             "LocalizeEN": "You got me, Sensei, I don't dislike you. And? So what? What are you going to make of it?"
         }
     ]

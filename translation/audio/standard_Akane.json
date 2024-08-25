@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Akane_Formation_In_2",
-            "LocalizeJP": "ご主人様に愛を、敵には鉄槌を。それが、C&Cのご奉仕なんです。",
+            "LocalizeJP": "ご主人様に愛を、敵には鉄槌（てっつい）を。\nそれがC&Cのご奉仕なんです。",
             "LocalizeEN": "Love for your master, iron hammer for your enemies. That's C&C's service."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_In_1",
-            "LocalizeJP": "なるほど、見事なご判断です。",
+            "LocalizeJP": "なるほど。見事なご判断です。",
             "LocalizeEN": "I see, that's a splendid decision."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_In_2",
-            "LocalizeJP": "さあ、それでは始めましょうか。お掃除の時間です。",
+            "LocalizeJP": "さあ。それでは始めましょうか？\nお掃除の時間です。",
             "LocalizeEN": "Let's get started. It's time to clean up."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Akane_Tactic_Victory_1",
-            "LocalizeJP": "優雅に勝利すること、それが私の責任であり、義務です。",
+            "LocalizeJP": "優雅に勝利すること。\nそれが私の責任であり義務です。",
             "LocalizeEN": "Winning gracefully is my responsibility and duty."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Covered_1",
-            "LocalizeJP": "うふふ。いい位置ですね。",
+            "LocalizeJP": "うふふ、良い位置ですね。",
             "LocalizeEN": "We're in a good position."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "うふふ。",
             "LocalizeEN": ""
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_1",
-            "LocalizeJP": "お任せください。ご主人様とご一緒することこそ、私のやりがいですから。",
+            "LocalizeJP": "お任せください。\nご主人様とご一緒することこそ、私のやりがいですから。",
             "LocalizeEN": "Please leave it to me. Working alongside my master is my calling."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_In_2",
-            "LocalizeJP": "さあ、皆さん。綺麗に、気持ちよく、殲滅して差し上げます。",
+            "LocalizeJP": "さあ、みなさん。\nキレイに、気持ちよく、殲滅してさしあげます。",
             "LocalizeEN": "Now, everyone, I will cleanly and comfortably exterminate you."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Move_1",
-            "LocalizeJP": "ここも綺麗になりましたね。",
+            "LocalizeJP": "ふふ、ここも綺麗になりましたね。",
             "LocalizeEN": "This side is clean now."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "よいしょっ。",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Victory_1",
-            "LocalizeJP": "ご主人様に勝利をプレゼントすること。それが私の責任であり、任務です。",
+            "LocalizeJP": "ご主人様に勝利をプレゼントすること。\nそれが私の責任であり任務です。",
             "LocalizeEN": "To gift my master with victory is my responsibility and my mission."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Akane_Battle_Victory_2",
-            "LocalizeJP": "全てはご主人様のために。",
+            "LocalizeJP": "すべては、ご主人様のために。",
             "LocalizeEN": "All for my master."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_1",
-            "LocalizeJP": "ご主人様の邪魔者を…、排除する。",
+            "LocalizeJP": "ご主人様の邪魔者を排除する。",
             "LocalizeEN": "Eliminate those who disturb my master."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_2",
-            "LocalizeJP": "あら、それでは…、掃除を始めましょうか。",
+            "LocalizeJP": "あら、それでは掃除を始めましょうか？",
             "LocalizeEN": "Shall we start cleaning?"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_3",
-            "LocalizeJP": "ご覧になって、標的は…、消えますよ。",
+            "LocalizeJP": "ご覧になって。標的は…消えますよ。",
             "LocalizeEN": "Look, the targets disappear."
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_1",
-            "LocalizeJP": "優雅に排除いたします。",
+            "LocalizeJP": "優雅に、排除いたします。",
             "LocalizeEN": "I will gracefully dispose the enemy."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_2",
-            "LocalizeJP": "皆さん。お掃除…、お願いしますね。",
+            "LocalizeJP": "みなさん。お掃除、お願いしますね。",
             "LocalizeEN": "Everyone please, start cleaning."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Akane_ExSkill_Level_3",
-            "LocalizeJP": "丁寧にお願いいたしますね。さようなら。",
+            "LocalizeJP": "丁寧にお願いいたしますね。\nさようなら。",
             "LocalizeEN": "I kindly ask you to disappear."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_1",
-            "LocalizeJP": "これでより完璧なご奉仕が…、可能になりましたね。",
+            "LocalizeJP": "これでより、完璧なご奉仕が……\n可能になりましたね。",
             "LocalizeEN": "With this I can now offer an even better service."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_2",
-            "LocalizeJP": "アカネはご主人様のご期待にお応えします。",
+            "LocalizeJP": "アカネは、ご主人様のご期待にお応えします。",
             "LocalizeEN": "Akane will meet your expectations."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_3",
-            "LocalizeJP": "ご期待ください、ご主人様。これからのアカネは一味違いますから。",
+            "LocalizeJP": "ご期待くださいご主人様。\nこれからのアカネは、ひと味違いますから。",
             "LocalizeEN": "From now on, Akane will be a little different. Please look forward to it, master."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Akane_Growup_4",
-            "LocalizeJP": "これからのアカネはきっと、ご主人様を100%満足させられることでしょう。",
+            "LocalizeJP": "これからのアカネはきっと……\nご主人様を100%満足させられることでしょう。",
             "LocalizeEN": "From now on, Akane will surely be able to satisfy her master 100%."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_1",
-            "LocalizeJP": "C&Cのアカネ、謹んでご主人様にご奉仕をささげます。",
+            "LocalizeJP": "C&Cのアカネ。\n謹んでご主人様にご奉仕を捧げます。",
             "LocalizeEN": "Akane from C&C. I am honored to offer my services to my master."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_2",
-            "LocalizeJP": "あら、私を心配してくださるのですか？うふ。嬉しいです。",
+            "LocalizeJP": "あら……私を心配してくださるのですか？\nふふっ。嬉しいです。",
             "LocalizeEN": "Oh my. Were you worried about me? It makes me happy."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_3",
-            "LocalizeJP": "どうしてでしょう、笑いが止まりません。…ご主人様がそばにいるから、でしょうか？",
+            "LocalizeJP": "どうしてでしょう。笑いが止まりません。\nご主人様がそばにいるから、でしょうか？",
             "LocalizeEN": "I don't know why I can't stop smiling. Is it because my master is by my side?"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Akane_Relationship_Up_4",
-            "LocalizeJP": "ご主人様が先生だからご奉仕しているわけではありません。ご主人様だから、私はメイドになれました。",
+            "LocalizeJP": "ご主人様が先生だからご奉仕しているわけではありません。\nご主人様だから、私はメイドになれました。",
             "LocalizeEN": "I don't serve you because you're my master. I'm a maid because you're my master."
         }
     ]

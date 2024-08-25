@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_(Swimsuit)_Formation_In_1",
-            "LocalizeJP": "戦闘ね？了解。",
+            "LocalizeJP": "戦闘ね、了解。",
             "LocalizeEN": "To battle? Understood."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_(Swimsuit)_Formation_In_2",
-            "LocalizeJP": "準備ならもうできてる。",
+            "LocalizeJP": "……準備ならもうできてる。",
             "LocalizeEN": "Preparations are complete here."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hina_(Swimsuit)_Formation_Select",
-            "LocalizeJP": "何？どうすればいい？",
+            "LocalizeJP": "……なに、どうすればいい？",
             "LocalizeEN": "Hm? What should I do now?"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_(Swimsuit)_Tactic_Victory_1",
-            "LocalizeJP": "先生の指示もあったんだから、これくらいの勝利は当然。",
+            "LocalizeJP": "先生の指示もあったんだから、\nこれくらいの勝利は当然。",
             "LocalizeEN": "We had Sensei on our side. It's only natural we find our victory."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hina_(Swimsuit)_Tactic_Victory_2",
-            "LocalizeJP": "作戦成功。…でも少し簡単すぎ。トレーニングにしては物足りない。",
+            "LocalizeJP": "作戦成功……でも、少し簡単すぎ。\nトレーニングにしては物足りない……。",
             "LocalizeEN": "The operation was a success. It was a bit too easy to serve as training."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_Defense_1",
-            "LocalizeJP": "無駄！",
+            "LocalizeJP": "無駄。",
             "LocalizeEN": "Pointless."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_In_1",
-            "LocalizeJP": "これより夏合宿のトレーニングを始める。",
+            "LocalizeJP": "これより、夏合宿のトレーニングを始める。",
             "LocalizeEN": "The summer camp training starts now."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_Move_1",
-            "LocalizeJP": "暑い…めんどくさい！",
+            "LocalizeJP": "暑い、めんどくさい……。",
             "LocalizeEN": "It's hot and annoying."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_Move_2",
-            "LocalizeJP": "ああ…まだいるの？",
+            "LocalizeJP": "はあ……まだいるの？",
             "LocalizeEN": "There are still more of you?"
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_Victory_1",
-            "LocalizeJP": "作戦成功。その…、あんまりじっと見ないでほしい。",
+            "LocalizeJP": "作戦成功。\nその……あんまりじっと見ないでほしい。",
             "LocalizeEN": "Operation success. Ummm... don't stare at me so much."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hina_(Swimsuit)_Battle_Victory_2",
-            "LocalizeJP": "これくらいたいした事じゃない。…だから、そんなにこっち見ないで！",
+            "LocalizeJP": "これくらい大したことじゃない。\nだから……そんなにこっち見ないで。",
             "LocalizeEN": "This wasn't a big deal... so stop looking at me like that!"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hina_(Swimsuit)_CommonSkill",
-            "LocalizeJP": "そこ！",
+            "LocalizeJP": "そこっ。",
             "LocalizeEN": "There!"
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_(Swimsuit)_ExSkill_1",
-            "LocalizeJP": "この海の風紀も私が守らないと！",
+            "LocalizeJP": "この海の風紀も、私が守らないと。",
             "LocalizeEN": "It's up to me to maintain discipline on the beach!"
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_(Swimsuit)_ExSkill_2",
-            "LocalizeJP": "仕方ない…実力行使で！",
+            "LocalizeJP": "仕方ない、実力行使で。",
             "LocalizeEN": "It can't be helped... it'll be done by force!"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_(Swimsuit)_ExSkill_3",
-            "LocalizeJP": "私がやらないと…か。",
+            "LocalizeJP": "……私がやらないと、か。",
             "LocalizeEN": "So it's up to me..."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hina_(Swimsuit)_ExSkill_Level_2",
-            "LocalizeJP": "逃さない。",
+            "LocalizeJP": "逃がさない。",
             "LocalizeEN": "You won't escape."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_(Swimsuit)_Growup_2",
-            "LocalizeJP": "こんな格好だけど…、私の助けが必要なら、いつでも言って？",
+            "LocalizeJP": "こんな格好だけど……私の助けが必要なら、いつでも言って。",
             "LocalizeEN": "Call me whenever you need my help, even if I'm wearing this..."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_(Swimsuit)_Growup_3",
-            "LocalizeJP": "私はまだまだ強くなれる。先生のためにも強くなりたい。",
+            "LocalizeJP": "私はまだまだ強くなれる……先生のためにも、強くなりたい。",
             "LocalizeEN": "I can still be stronger. I want to be stronger for Sensei."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hina_(Swimsuit)_Growup_4",
-            "LocalizeJP": "いつもありがとう…。こんな私だけど…もう少し頼ってくれるとうれしい。",
+            "LocalizeJP": "いつもありがとう。\n……こんな私だけど、もう少し頼ってくれると嬉しい。",
             "LocalizeEN": "Thanks as always. You know I'd be glad if you relied on me a little more..."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_(Swimsuit)_Relationship_Up_1",
-            "LocalizeJP": "今年の夏も先生と一緒にいられるんだね。",
+            "LocalizeJP": "今年の夏も、先生と一緒にいられるんだね。",
             "LocalizeEN": "It looks like I'm spending another summer with Sensei."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "せっかくの夏なのに…私みたいなつまらない子と一緒でいいの？私と…いっしょがいい？そ…そう。",
+            "LocalizeJP": "せっかくの夏なのに、\n私みたいなつまらない子と一緒で良いの？\n……私と一緒「が」良い？そ、そう……。",
             "LocalizeEN": "Are you really fine spending time with a boring kid like me, even though it's summer? You... want to spend it with me?! I... I see."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_(Swimsuit)_Relationship_Up_3",
-            "LocalizeJP": "あ、あんまりくっつかないで！いくら私でもその…。この格好だと、さすがに恥ずかしい…！",
+            "LocalizeJP": "あ、あんまりくっつかないで……。\nいくら私でも、その……。\nこの格好だと、流石に恥ずかしい。",
             "LocalizeEN": "C-could you move away a little! I know it's just us but... it's a little embarrassing, dressed like this."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hina_(Swimsuit)_Relationship_Up_4",
-            "LocalizeJP": "先生の手、ひんやりしてて気持ちいい。外はこんなに日が照ってるし、その…もう少し。",
+            "LocalizeJP": "先生の手、ひんやりしてて気持ちいい……。\n外はこんなに日が照ってるし、その、もう少し……。",
             "LocalizeEN": "Sensei's hands are cool and comfortable. It's so sunny outside and, can I... just a little longer?"
         }
     ]

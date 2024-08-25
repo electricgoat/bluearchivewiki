@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_1",
-            "LocalizeJP": "アリス、パーティーに合流します。",
+            "LocalizeJP": "アリス、パーティに合流します。",
             "LocalizeEN": "I'll join the party."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Arisu_Formation_In_2",
-            "LocalizeJP": "私の役割は…、アタッカーなんですね。",
+            "LocalizeJP": "私の役割は…… アタッカーなんですね。",
             "LocalizeEN": "My role is... as an attacker."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_In_1",
-            "LocalizeJP": "前方に対象を確認。前進します。",
+            "LocalizeJP": "前方に対象を確認、前進します。",
             "LocalizeEN": "Target detected ahead. Charging forward."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Arisu_Tactic_In_2",
-            "LocalizeJP": "先生、指示を。",
+            "LocalizeJP": "先生！指示を！",
             "LocalizeEN": "Sensei, at your command."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Defense_1",
-            "LocalizeJP": "問題ありません。",
+            "LocalizeJP": "問題ありません",
             "LocalizeEN": "No problem."
         },
         {
@@ -141,8 +141,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_In_1",
-            "LocalizeJP": "アリスがここにいます。アリスが手伝います。",
-            "LocalizeEN": "Aris is here. Aris is here to help."
+            "LocalizeJP": "アリスがここにいます。\nアリスが手伝います。",
+            "LocalizeEN": "Arisu is here. Arisu is here to help."
         },
         {
             "CharacterId": 10015,
@@ -159,8 +159,8 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_1",
-            "LocalizeJP": "アリス。前進を続けます。",
-            "LocalizeEN": "Aris. Keep moving forward."
+            "LocalizeJP": "アリス、前進を続けます",
+            "LocalizeEN": "Arisu. Keep moving forward."
         },
         {
             "CharacterId": 10015,
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Move_2",
-            "LocalizeJP": "目標を確認。いきます！",
+            "LocalizeJP": "目標を確認、行きます！",
             "LocalizeEN": "Check your goals. To go!"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Recovery_1",
-            "LocalizeJP": "HPポーションです。",
+            "LocalizeJP": "HPポーションです！",
             "LocalizeEN": "HP Potion"
         },
         {
@@ -222,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_TacticalAction_1",
-            "LocalizeJP": "移動します。",
+            "LocalizeJP": "移動します",
             "LocalizeEN": "Move."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Victory_1",
-            "LocalizeJP": "仲間がいるから怖くありません。",
+            "LocalizeJP": "仲間がいるから、怖くありません。",
             "LocalizeEN": "I'm not afraid because I have friends."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Arisu_Battle_Victory_2",
-            "LocalizeJP": "勇気、それは最高の魔法です。",
+            "LocalizeJP": "勇気！それは最高の魔法です。",
             "LocalizeEN": "Courage is the ultimate magic."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Arisu_CommonSkill",
-            "LocalizeJP": "チャージします。",
+            "LocalizeJP": "チャージします！",
             "LocalizeEN": "I will charge it."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_1",
-            "LocalizeJP": "魔力充電100%。行きます！",
+            "LocalizeJP": "魔力充電…… 100%\n行きます！",
             "LocalizeEN": "Magic charge 100%. Here I go!"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_2",
-            "LocalizeJP": "ターゲット確認。出力臨界点突破！",
+            "LocalizeJP": "ターゲット確認。\n出力臨界点突破……！",
             "LocalizeEN": "Target confirmed. Exceeding output threshold."
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_3",
-            "LocalizeJP": "悪を打ち砕く正義の一撃…。",
+            "LocalizeJP": "悪を打ち砕く正義の一撃……",
             "LocalizeEN": "Evil-crushing blow of justice"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_1",
-            "LocalizeJP": "光を！エナジーオーバーロード。リリース。",
+            "LocalizeJP": "光よ！\nエナジーオーバーロード…… リリース。",
             "LocalizeEN": "I call upon the light! Energy Overload. Release."
         },
         {
@@ -312,8 +312,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_2",
-            "LocalizeJP": "アリス、全力で行きます。",
-            "LocalizeEN": "I'm Aris. I'll do my best."
+            "LocalizeJP": "アリス、全力で行きます！",
+            "LocalizeEN": "I'm Arisu. I'll do my best."
         },
         {
             "CharacterId": 10015,
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Arisu_ExSkill_Level_3",
-            "LocalizeJP": "この光に意思を込めて、貫け！バランス崩壊！",
+            "LocalizeJP": "この光に意志を込めて、貫け！\nバランス崩壊！！",
             "LocalizeEN": "I put my will into this light. Pierce forward, Balance Collapse!"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_1",
-            "LocalizeJP": "レベルアップ。経験値をたくさん獲得しました。",
+            "LocalizeJP": "レベルアップ！経験値をたくさん獲得しました！",
             "LocalizeEN": "Level up. I acquired a lot of experience points."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_2",
-            "LocalizeJP": "みんなに出会って、ゲームと友情を学びました。先生はアリスに何を教えてくれますか？",
+            "LocalizeJP": "みんなに出会って、ゲームと友情を学びました。\n先生はアリスに何を教えてくれますか？",
             "LocalizeEN": "I met everyone and learned about games and friendship. What will Sensei teach Aris?"
         },
         {
@@ -348,8 +348,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_3",
-            "LocalizeJP": "見てください、先生！アリスはもう笑うということを理解できました。",
-            "LocalizeEN": "Look, Sensei! Aris now understands all about smiling."
+            "LocalizeJP": "見てください。先生。\nアリスはもう、笑うという事を理解できました。",
+            "LocalizeEN": "Look, Sensei! Arisu now understands all about smiling."
         },
         {
             "CharacterId": 10015,
@@ -357,8 +357,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Arisu_Growup_4",
-            "LocalizeJP": "先生、今のアリスはこの世界で最強の戦士です。",
-            "LocalizeEN": "Sensei, Aris is now the strongest warrior in the world."
+            "LocalizeJP": "先生！今のアリスはこの世界で最強の戦士です！",
+            "LocalizeEN": "Sensei, Arisu is now the strongest warrior in the world."
         },
         {
             "CharacterId": 10015,
@@ -366,8 +366,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_1",
-            "LocalizeJP": "アリスも先生の好感度を上げたいです。",
-            "LocalizeEN": "Aris also wants to raise Sensei's relationship level."
+            "LocalizeJP": "アリスも、先生の好感度を上げたいです。",
+            "LocalizeEN": "Arisu also wants to raise Sensei's relationship level."
         },
         {
             "CharacterId": 10015,
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_2",
-            "LocalizeJP": "新しいゲームに初めて向き合う時…レベルを上げて、装備強化に成功した時…、先生に会うたびにアリスはカテゴライズできない不思議な感覚を覚えます。",
+            "LocalizeJP": "新しいゲームに初めて向き合うとき、レベルを上げて\n装備強化に成功した時。\n先生に会うたびに、アリスはカテゴライズできない不思議な感覚を覚えます。",
             "LocalizeEN": "When I face a new game for the first time... when I level up or when I succeed in strengthening my gear... every time I meet Sensei, I feel a strange sensation that I cannot categorize."
         },
         {
@@ -384,8 +384,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_3",
-            "LocalizeJP": "先生と接触してからアリスの中に何かがプログラミングされました。数値に換算できないくらい大きなこの気持ちの名前は…。",
-            "LocalizeEN": "Something was programmed into Aris after she made contact with Sensei. A feeling so big that can't be put into numbers. What is this feeling called?"
+            "LocalizeJP": "先生と接触してから、アリスの中に何かがプログラミングされました..\n数値に換算できないぐらい大きな、この気持ちの名前は……",
+            "LocalizeEN": "Something was programmed into Arisu after she made contact with Sensei. A feeling so big that can't be put into numbers. What is this feeling called?"
         },
         {
             "CharacterId": 10015,
@@ -393,8 +393,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Arisu_Relationship_Up_4",
-            "LocalizeJP": "先生に出会えてアリスは幸せです。",
-            "LocalizeEN": "Aris is happy to have met Sensei."
+            "LocalizeJP": "先生に出会えて……\nアリスは幸せです。",
+            "LocalizeEN": "Arisu is happy to have met Sensei."
         }
     ]
 }

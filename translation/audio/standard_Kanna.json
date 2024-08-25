@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Kanna_CommonSkill",
-            "LocalizeJP": "容疑者確保",
+            "LocalizeJP": "容疑者、確保。",
             "LocalizeEN": "Suspect secured."
         },
         {
@@ -33,7 +33,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_1",
-            "LocalizeJP": "…さあ、尋問を始めよう。",
+            "LocalizeJP": "さぁ、尋問をはじめよう。",
             "LocalizeEN": "Now, let's begin the interrogations."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_3",
-            "LocalizeJP": "狂犬の名は、一度は聞いたことがあるだろう？",
+            "LocalizeJP": "「狂犬」の名を、一度は聞いたことがあるだろう？",
             "LocalizeEN": "You've surely heard the name Mad Dog!"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_Level_1",
-            "LocalizeJP": "ヴァルキューレ公安局だ。止まれ。",
+            "LocalizeJP": "ヴァルキューレ公安局だ！止まれ！",
             "LocalizeEN": "Valkyrie Public Safety Bureau! Stop right there!"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Kanna_ExSkill_Level_2",
-            "LocalizeJP": "動くな、動いたら犯人とみなす。",
+            "LocalizeJP": "動くな！動いたら犯人と見なす！",
             "LocalizeEN": "Don't move! Move and you'll be a criminal!"
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_1",
-            "LocalizeJP": "なるほど…、そんな方法が。いい勉強になりました。",
+            "LocalizeJP": "なるほど、そんな方法が。いい勉強になりました。",
             "LocalizeEN": "I see...that's the way. It was a good study."
         },
         {
@@ -96,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Kanna_Growup_2",
-            "LocalizeJP": "今日の訓練はこれで十分でしょう。",
+            "LocalizeJP": "今日の訓練は……これで十分でしょう。",
             "LocalizeEN": "That should be enough for today's training."
         },
         {
@@ -123,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_1",
-            "LocalizeJP": "世の大人がみな、先生のような方であれば、私たちが仕事をすることもないのに。……独り言です。気にしないでください。",
+            "LocalizeJP": "世の大人が皆、先生のような方であれば、\n私たちが仕事をする事もないのに……。\n独り言です。気にしないでください。",
             "LocalizeEN": "If every adult in the world was like you Sensei, then we wouldn't have to do any work...Just talking to myself, don't mind me."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_2",
-            "LocalizeJP": "いくら私でも、先生を尋問して情報を引き出すのは不可能でしょうね。フッ。",
+            "LocalizeJP": "いくら私でも、先生を尋問して情報を引き出すのは\n不可能でしょうね。ふふ……。",
             "LocalizeEN": "Interrogating and gaining information from Sensei would be impossible, even for me, wouldn't it. Fufu."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_3",
-            "LocalizeJP": "先生と生徒の恋愛？な、何をおっしゃって…！",
+            "LocalizeJP": "先生と生徒の恋愛……？\nな、なにを仰って！",
             "LocalizeEN": "Love between Sensei and student? W-what are you talking about...!"
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Kanna_Relationship_Up_4",
-            "LocalizeJP": "…たまには、シャーレを頼るとします。",
+            "LocalizeJP": "たまには、シャーレを頼るとします。",
             "LocalizeEN": "Occasionally, I have relied on Schale."
         }
     ]

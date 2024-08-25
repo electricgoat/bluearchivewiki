@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Eimi_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "うーん……。",
             "LocalizeEN": ""
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Victory_1",
-            "LocalizeJP": "効率的な式だった、先生。",
+            "LocalizeJP": "効率的な指揮だった、先生。",
             "LocalizeEN": "Efficiently calculated, Sensei."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Eimi_Tactic_Victory_2",
-            "LocalizeJP": "作戦終了。他に指示は？",
+            "LocalizeJP": "作戦終了、他に指示は？",
             "LocalizeEN": "Operation clear. Any other instructions?"
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_In_1",
-            "LocalizeJP": "戦闘開始。",
+            "LocalizeJP": "戦闘、開始。",
             "LocalizeEN": "Combat start."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_In_2",
-            "LocalizeJP": "突入する。",
+            "LocalizeJP": "突入する……。",
             "LocalizeEN": "Breaking in."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Move_1",
-            "LocalizeJP": "これで終わり？",
+            "LocalizeJP": "これで……終わり？",
             "LocalizeEN": "Is that it?"
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Eimi_Battle_Recovery_1",
-            "LocalizeJP": "ありがとう。",
+            "LocalizeJP": "え……ありがとう。",
             "LocalizeEN": "Thank you."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Eimi_CommonSkill",
-            "LocalizeJP": "敵発見！",
+            "LocalizeJP": "敵、発見。",
             "LocalizeEN": "Enemy spotted!"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_1",
-            "LocalizeJP": "インタープリター起動。解析開始。",
+            "LocalizeJP": "インタプリタ起動。解析開始。",
             "LocalizeEN": "Launching interpreter. Parsing start."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_2",
-            "LocalizeJP": "コードを再解析。適用完了。",
+            "LocalizeJP": "コードを再解析……適用完了。",
             "LocalizeEN": "Reanalyze code. Applied."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Eimi_ExSkill_Level_1",
-            "LocalizeJP": "ディフェンスモード転換",
+            "LocalizeJP": "ディフェンスモード転換。",
             "LocalizeEN": "Switching to defense mode."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Eimi_Growup_1",
-            "LocalizeJP": "これも戦闘に必要なことだよね。",
+            "LocalizeJP": "これも戦闘に必要なことだよね?",
             "LocalizeEN": "I need this for combat as well, right?"
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_1",
-            "LocalizeJP": "先生になら私の背中を任せてもいい。",
+            "LocalizeJP": "先生になら、私の背中を任せてもいい。",
             "LocalizeEN": "I know I can leave my back to you, Sensei."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_2",
-            "LocalizeJP": "私の銃に興味ある？",
+            "LocalizeJP": "私の銃に興味ある?",
             "LocalizeEN": "You want to know about my gun?"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_3",
-            "LocalizeJP": "先生の言うことは理解しやすいから 好き。",
+            "LocalizeJP": "先生の言うことは、理解しやすいから好き。",
             "LocalizeEN": "It's easy to understand when you teach me, Sensei."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Eimi_Relationship_Up_4",
-            "LocalizeJP": "先生を守ることが私の任務だから。",
+            "LocalizeJP": "先生を守ることが、私の任務だから。",
             "LocalizeEN": "It's my duty to protect Sensei."
         }
     ]

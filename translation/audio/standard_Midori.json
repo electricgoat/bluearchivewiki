@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_Formation_In_2",
-            "LocalizeJP": "あ…はい。ベストを尽くします。",
+            "LocalizeJP": "あ、はい。ベストを尽くします。",
             "LocalizeEN": "Yes, I will do my best."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Midori_Formation_Select",
-            "LocalizeJP": "うーん…、あれ？",
+            "LocalizeJP": "うーん……あれ？",
             "LocalizeEN": "Hmm... Huh?"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_In_2",
-            "LocalizeJP": "落ち着いて…、前に進みましょう。",
+            "LocalizeJP": "落ち着いて、前に進みましょう。",
             "LocalizeEN": "Calm down and move forward."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Victory_1",
-            "LocalizeJP": "皆さん、お疲れ様でした。",
+            "LocalizeJP": "みなさんお疲れ様でした！",
             "LocalizeEN": "Everyone, thank you for your hard work."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Midori_Tactic_Victory_2",
-            "LocalizeJP": "クリアー。素晴らしいです！",
+            "LocalizeJP": "クリア、素晴らしいです。",
             "LocalizeEN": "Clear. Excellent!"
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Defense_1",
-            "LocalizeJP": "スレスレでした。",
+            "LocalizeJP": "すれすれでした……！",
             "LocalizeEN": "That barely missed me..."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_In_1",
-            "LocalizeJP": "パーティープレイの基本はチームワークですよ。",
+            "LocalizeJP": "パーティープレイの基本は、チームワークですよ。",
             "LocalizeEN": "Teamwork is the basis of party play."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Move_2",
-            "LocalizeJP": "早く帰ってゲームしたい。",
+            "LocalizeJP": "早く帰ってゲームしたい……。",
             "LocalizeEN": "I can't wait to go home and play games."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_TacticalAction_1",
-            "LocalizeJP": "移動します。",
+            "LocalizeJP": "移動します！",
             "LocalizeEN": "I'm moving."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Midori_Battle_Victory_1",
-            "LocalizeJP": "クリアー。次のステージに移動しましょう。",
+            "LocalizeJP": "クリア。次のステージに移動しましょう。",
             "LocalizeEN": "Clear. Let's move on to the next stage."
         },
         {
@@ -273,10 +273,19 @@
         {
             "CharacterId": 10016,
             "CharacterVoiceGroupId": 10016,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Midori_CommonSkill",
+            "LocalizeJP": "私が手伝います！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10016,
+            "CharacterVoiceGroupId": 10016,
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_1",
-            "LocalizeJP": "はあ、負けた。…仕方ないね。",
+            "LocalizeJP": "はあ……負けた。\n仕方ないね！",
             "LocalizeEN": "Ahh, I lost... It can't be helped."
         },
         {
@@ -285,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_2",
-            "LocalizeJP": "少し悔しい。…さて、やってみようか。",
+            "LocalizeJP": "少し……悔しい。\nさて、やってみよっか。",
             "LocalizeEN": "A little disappointing... Well, let's give it a try."
         },
         {
@@ -294,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_3",
-            "LocalizeJP": "ふう…。約束は約束だから。",
+            "LocalizeJP": "ふう……\n約束は約束だから。",
             "LocalizeEN": "A promise is a promise."
         },
         {
@@ -303,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_1",
-            "LocalizeJP": "恨みはないけど、覚悟して。",
+            "LocalizeJP": "恨みはないけど\n覚悟して。",
             "LocalizeEN": "No hard feelings, but be prepared."
         },
         {
@@ -312,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_2",
-            "LocalizeJP": "ドットを打つように緻密に。",
+            "LocalizeJP": "ドットを打つように緻密に……！",
             "LocalizeEN": "It's as precise as a dot...!"
         },
         {
@@ -321,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Midori_ExSkill_Level_3",
-            "LocalizeJP": "連続射撃、行きます。",
+            "LocalizeJP": "連続射撃！行きます！",
             "LocalizeEN": "Continuous fire, go."
         },
         {
@@ -330,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_1",
-            "LocalizeJP": "絵も上手になりたいし…、もっと先生のお役にも立ちたいです。",
+            "LocalizeJP": "絵も上手になりたいし、\nもっと先生のお役にも立ちたいです。",
             "LocalizeEN": "I want to be better at drawing... and I want to be more helpful to Sensei."
         },
         {
@@ -339,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_2",
-            "LocalizeJP": "努力が報われるのは本当に嬉しいことです。",
+            "LocalizeJP": "努力が報われるのは、\n本当に嬉しい事です。",
             "LocalizeEN": "It is really nice to see the hard work pay off."
         },
         {
@@ -348,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_3",
-            "LocalizeJP": "もっと大人になりたいです。そしたらもっとみんなや…、先生の力になってあげられるはずだから。",
+            "LocalizeJP": "もっと大人になりたいです。\nそしたらもっとみんなや、先生の……\n力になってあげられるはずだから。",
             "LocalizeEN": "I want to become more mature because then I will be able to help everyone and Sensei more."
         },
         {
@@ -357,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Midori_Growup_4",
-            "LocalizeJP": "ありがとうございます、先生。これからも…、ベストを尽くします。",
+            "LocalizeJP": "ありがとうございます、先生。\nこれからも……ベストを尽くします。",
             "LocalizeEN": "Thank you, Sensei. I will continue to do my best."
         },
         {
@@ -375,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_2",
-            "LocalizeJP": "これからもゲーム開発部といい思い出を作っていきましょう。…そして私とも…。な、何でもありません！",
+            "LocalizeJP": "これからもゲーム開発部といい思い出を作っていきましょう。\nそして……私とも……な、何でもありません！",
             "LocalizeEN": "Let's keep making good memories with the Game Development Department. And with me, too... I-It's nothing!"
         },
         {
@@ -384,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_3",
-            "LocalizeJP": "ゲームを作ったら、先生へ一番にお見せしたいです。",
+            "LocalizeJP": "ゲームを作ったら、先生へ一番に\nお見せしたいです。",
             "LocalizeEN": "When we create a game, I want to show it to you first, Sensei."
         },
         {
@@ -393,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Midori_Relationship_Up_4",
-            "LocalizeJP": "たまには…、お姉ちゃんと一緒にではなく、私だけで先生を独占したいですね。あの…、て、手を繋いでもいいですか！",
+            "LocalizeJP": "たまには……お姉ちゃんと一緒にではなく\n私だけで先生を独占したいですね。\nあの……て、手を繋いでもいいですか？",
             "LocalizeEN": "Sometimes... I want to keep Sensei to myself instead of together with my sister. Um... C-Could I hold your hand?"
         }
     ]

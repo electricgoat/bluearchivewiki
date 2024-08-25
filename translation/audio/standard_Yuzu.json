@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Yuzu_Formation_In_1",
-            "LocalizeJP": "せ、先生が必要としてくれるのであれば、私も。",
+            "LocalizeJP": "せ、先生が必要としてくれるのであれば……\nわたしも……",
             "LocalizeEN": "I-If Sensei needs me, I'll be there."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Yuzu_Formation_In_2",
-            "LocalizeJP": "な、仲良くなれるように頑張ります。多分。",
+            "LocalizeJP": "な、仲良くなれるように頑張ります……\nたぶん……",
             "LocalizeEN": "I'll do my best to get along with you, maybe."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Yuzu_Formation_Select",
-            "LocalizeJP": "私を、ですか？うう…。やってみます…",
+            "LocalizeJP": "わ、わたしをですか？\nうう……やってみます！",
             "LocalizeEN": "M-Me? Uhh... I'll try..."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuzu_Tactic_In_1",
-            "LocalizeJP": "ほ、他の人達と一緒に？…頑張ります。",
+            "LocalizeJP": "ほ、他の人達と一緒に……？！\nが、頑張ります！",
             "LocalizeEN": "W-With other people? ...I'll do my best."
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuzu_Tactic_In_2",
-            "LocalizeJP": "え…？ベストは尽くします…。",
+            "LocalizeJP": "ええっ？！\nベ、ベストは尽くします……。",
             "LocalizeEN": "Eh? ...I will do my best."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuzu_Tactic_Victory_1",
-            "LocalizeJP": "うう…、よかった。",
+            "LocalizeJP": "ふー。よかった。",
             "LocalizeEN": "Ugh... Thank goodness."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Yuzu_Tactic_Victory_2",
-            "LocalizeJP": "成功、嬉しいです。…こんな気分なんですね。",
+            "LocalizeJP": "成功……嬉しいです。こんな気分なんですね。",
             "LocalizeEN": "Success makes me happy... So that's how it feels."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Buffed_1",
-            "LocalizeJP": "あ…、ありがとうございます。",
+            "LocalizeJP": "あ、ありがとうございます！",
             "LocalizeEN": "Th-Thank you."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Covered_1",
-            "LocalizeJP": "ここに隠れて引きつけます。…今のうちに！",
+            "LocalizeJP": "こ、ここに隠れて引き付けます！今のうちに！",
             "LocalizeEN": "I'll hide here and distract them... while I still can!"
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Defense_1",
-            "LocalizeJP": "これくらいなら、だ、大丈夫です。",
+            "LocalizeJP": "これぐらいなら、だ、大丈夫です！",
             "LocalizeEN": "This much is... it's fine."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_In_1",
-            "LocalizeJP": "とりあえず、部長らしい姿を見せないと。",
+            "LocalizeJP": "と、とりあえず部長らしい姿を見せないと……。",
             "LocalizeEN": "For the time being, I have to show myself like a director."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_In_2",
-            "LocalizeJP": "落ち着いて、気をつけながら進みましょう。",
+            "LocalizeJP": "落ち着いて、気をつけながら、進みましょう。",
             "LocalizeEN": "Stay calm and proceed with caution."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Move_1",
-            "LocalizeJP": "なんとかやり遂げました…。つ、続けていきます。",
+            "LocalizeJP": "なんとかやり遂げました……つ、続けて行きます！",
             "LocalizeEN": "I managed to do it. I-I will continue."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Move_2",
-            "LocalizeJP": "危ないところでした…。",
+            "LocalizeJP": "危ないところでした……。",
             "LocalizeEN": "It was a close call..."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_TacticalAction_1",
-            "LocalizeJP": "い…行きます。",
+            "LocalizeJP": "い、行きます！",
             "LocalizeEN": "I-I'm going."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Victory_1",
-            "LocalizeJP": "ふう…、役に立って嬉しいです。",
+            "LocalizeJP": "ふー。役に立って…..嬉しいです。",
             "LocalizeEN": "Phew... I am happy to be of help."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Yuzu_Battle_Victory_2",
-            "LocalizeJP": "お疲れ様でした。へへ…。",
+            "LocalizeJP": "お、お疲れ様でした！\n……えへへ。",
             "LocalizeEN": "Good job for today. Hehe..."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Yuzu_CommonSkill",
-            "LocalizeJP": "頑張ります。",
+            "LocalizeJP": "が、頑張ります！",
             "LocalizeEN": "I will do my best."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_ExSkill_1",
-            "LocalizeJP": "行きます。",
+            "LocalizeJP": "行きます……。",
             "LocalizeEN": "Here I come."
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_ExSkill_2",
-            "LocalizeJP": "照準は定まりました…。",
+            "LocalizeJP": "照準は……定まりました。",
             "LocalizeEN": "The sights are set."
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_ExSkill_3",
-            "LocalizeJP": "これは…、面白いと思います。",
+            "LocalizeJP": "これは……面白いと思います。",
             "LocalizeEN": "I think this is... interesting."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_ExSkill_Level_2",
-            "LocalizeJP": "覚悟してください。",
+            "LocalizeJP": "覚悟してください！",
             "LocalizeEN": "Please be prepared."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Yuzu_ExSkill_Level_3",
-            "LocalizeJP": "これが…、創作の苦しみです。",
+            "LocalizeJP": "これが創作の苦しみです！",
             "LocalizeEN": "This is... the pain of creation."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_Growup_1",
-            "LocalizeJP": "先生のおかげで…、 少し安心しました。",
+            "LocalizeJP": "先生のおかげで……\n少し……安心しました。",
             "LocalizeEN": "Thanks to you, Sensei, I feel a little better."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_Growup_2",
-            "LocalizeJP": "もっと自信のある私になりたいです。",
+            "LocalizeJP": "もっと……自信のある\nわたしになりたいです。",
             "LocalizeEN": "I want to become a more confident me."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_Growup_3",
-            "LocalizeJP": "怖い時ですか？うーん…、先生がそばにいない時、でしょうか。",
+            "LocalizeJP": "怖い時ですか？うーん……\n先生がそばにいない時……でしょうか。",
             "LocalizeEN": "When do I feel scared? Well...  When Sensei is not around, I guess."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Yuzu_Growup_4",
-            "LocalizeJP": "わ、私はちっとも強くないですが…、頑張ります。みんなのことが、本当に、好きだから。",
+            "LocalizeJP": "わ、わたしはちっとも強くないですが……。\n頑張ります。みんなのことが、本当に好きだから。",
             "LocalizeEN": "I'm not the strongest by any means... but I'll do my best. Because I really, really like you guys."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_Relationship_Up_1",
-            "LocalizeJP": "迷惑かけてないですよね？それなら…、良かったです。",
+            "LocalizeJP": "め、迷惑かけてないですよね？\nそれなら……えへへ。よかったです。",
             "LocalizeEN": "I'm not bothering you, am I? If so... I'm glad."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_Relationship_Up_2",
-            "LocalizeJP": "よくわからないんです…。本当によくわからない気持ちなのですが…、嬉しい、です。",
+            "LocalizeJP": "よく分からないんです……\n本当によく分からない気持ちなのですが……嬉しい、です。",
             "LocalizeEN": "I don't understand... I really don't know how I feel... but I am happy."
         },
         {
@@ -393,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_Relationship_Up_3",
-            "LocalizeJP": "授業や指揮をしてくださる時、なんだか先生は…、あの、本当に、かっこいいというか。",
+            "LocalizeJP": "授業や指揮をしてくださる時……\nなんだか先生は……あのぉ……本当にカッコいいというか。",
             "LocalizeEN": "When you give us lessons and conduct us, Sensei, you are kind of... umm, you know, really, really cool."
         },
         {
@@ -402,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Yuzu_Relationship_Up_4",
-            "LocalizeJP": "わ、私も先生のこと、えっと、その、…恥ずかしい。",
+            "LocalizeJP": "わ、わたしも先生のこと……\nえっと、その……は、恥ずかしい！",
             "LocalizeEN": "Me talking with Sensei, that's... umm, well... It's embarrassing."
         }
     ]

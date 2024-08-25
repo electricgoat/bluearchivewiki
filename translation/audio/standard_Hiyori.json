@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hiyori_CommonSkill",
-            "LocalizeJP": "い、痛そうですね……",
+            "LocalizeJP": "い、痛そうですね……！",
             "LocalizeEN": "That looks painful..."
         },
         {
@@ -33,7 +33,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_1",
-            "LocalizeJP": "お、おぅわぁ！わ、私が行きます！",
+            "LocalizeJP": "あ、ああっ……！？\nわ、私が行きます！",
             "LocalizeEN": "Mmm... uwaa!! H-here I go!"
         },
         {
@@ -42,7 +42,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_2",
-            "LocalizeJP": "うぅぅ……えっ！？しょ、少々お待ちを！",
+            "LocalizeJP": "あ、えっ……！？\nしょ、少々お待ちを！",
             "LocalizeEN": "Mmm... E-eh!? Wait just a second!"
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_3",
-            "LocalizeJP": "み、皆さん……？はっ！？し、支援します！",
+            "LocalizeJP": "み、みなさん……！？\nし、支援します！",
             "LocalizeEN": "Where's everybody...? Ah! I'll provide support!"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_Level_1",
-            "LocalizeJP": "えへへ……私には、このくらいしか出来ないので……",
+            "LocalizeJP": "え、えへへ……私には、このくらいしかできないので……。",
             "LocalizeEN": "Ehehe... This is the best I can do..."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_Level_2",
-            "LocalizeJP": "で……ではまた、次の場所へ……",
+            "LocalizeJP": "で、ではまた、次の場所へ……。",
             "LocalizeEN": "L-later... I'll meet you on the next spot..."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hiyori_ExSkill_Level_3",
-            "LocalizeJP": "こういうのも……人生ですよね……",
+            "LocalizeJP": "こういうのも、人生ですよね……",
             "LocalizeEN": "This is life, isn't it?"
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_Growup_1",
-            "LocalizeJP": "へ？わ、私ですか！？つまり、もっと苦しめと……そういうことですか？",
+            "LocalizeJP": "え、わ、私ですか！？つまり、もっと苦しめと……？そういうことですか……！？",
             "LocalizeEN": "Eh? M-me!? You mean, I should keep suffering... is that it?"
         },
         {
@@ -96,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_Growup_2",
-            "LocalizeJP": "この先は、もっと苦しいんですよね……どんどん辛くなるんでしょうけど……仕方ないですね……えへへへ。",
+            "LocalizeJP": "この先は、もっと苦しいんですよね？どんどん辛くなるんでしょうけど……仕方ないですね……えへへ",
             "LocalizeEN": "From now on it's going to be more painful, right? It'll be harder to bear but... it can't be helped, right? Ehehe."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hiyori_Growup_3",
-            "LocalizeJP": "強くなればなるほど、今以上に苦しむんですよね……",
+            "LocalizeJP": "強くなればなるほど、今以上に苦しむんですよね……。",
             "LocalizeEN": "The stronger I become, the more I should suffer, right?..."
         },
         {
@@ -123,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_Relationship_Up_1",
-            "LocalizeJP": "あの…私、これ以上はきっと役に立てないと思いますが……。どうしたものですかね？",
+            "LocalizeJP": "あの、私、これ以上はきっと、役に立てないと思いますが……どうしたものですかね……。",
             "LocalizeEN": "Um, I don't think I can be of much help. ...What am I going to do?"
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_Relationship_Up_2",
-            "LocalizeJP": "あ、ありがとうございます…。えへへ…。",
+            "LocalizeJP": "あ、ありがとうございます…えへへ……。",
             "LocalizeEN": "Th-thank you!... ehehe."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_Relationship_Up_3",
-            "LocalizeJP": "こんなに私を追い詰めて。人生は苦しいものだって教えて下さってるんですか？そうですよね？そういうことですよね？",
+            "LocalizeJP": "こんなに私を追い詰めて……人生は苦しいものだって教えてくださってるんですか？そうですよね？そういうことですよね？",
             "LocalizeEN": "Why do you keep coming after me? You want to show me how hard life is, right? That's gotta be it."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hiyori_Relationship_Up_4",
-            "LocalizeJP": "上げては落として……また、つらい目に…。そういうことですよね？",
+            "LocalizeJP": "上げては落として、また辛い目に……そういうことですよね……。",
             "LocalizeEN": "You lift me up, to let me fall... again to hurt. That's right?"
         }
     ]

@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Mine_Formation_In_1",
-            "LocalizeJP": "かしこまりました。参りましょう。",
+            "LocalizeJP": "かしこまりました、参りましょう。",
             "LocalizeEN": "Understood. Let's go."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Mine_Formation_Select",
-            "LocalizeJP": "な、何が起きているのでしょうか？",
+            "LocalizeJP": "な、何が起きているのでしょうか！？",
             "LocalizeEN": "Wh-what's going on?"
         },
         {
@@ -43,7 +43,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Defeat_2",
             "LocalizeJP": "あまりご自身を責めないでください。きっと大丈夫ですから。",
-            "LocalizeEN": "Don't blame yourself too much, Everything will be fine. "
+            "LocalizeEN": "Don't blame yourself too much, Everything will be fine."
         },
         {
             "CharacterId": 10058,
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_In_1",
-            "LocalizeJP": "おまかせを、私が先頭に立ちます。",
+            "LocalizeJP": "お任せを。私が先頭に立ちます。",
             "LocalizeEN": "Leave it to me, I'll take the lead."
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Victory_1",
-            "LocalizeJP": "皆さん、お怪我はありませんか。",
+            "LocalizeJP": "皆さん、お怪我はありませんか？",
             "LocalizeEN": "Everyone, Are you okay?"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mine_Tactic_Victory_2",
-            "LocalizeJP": "救護が必要な方を 誰一人逃さない。当然のことです。",
+            "LocalizeJP": "「救護」が必要な方を\n誰一人、逃（の）がさない。当然のことです。",
             "LocalizeEN": "It goes without saying that we must not let anyone who needs aid slip away."
         },
         {
@@ -132,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Defense_1",
-            "LocalizeJP": "無力化します。",
+            "LocalizeJP": "無力化します！",
             "LocalizeEN": "Incapacitate."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_In_2",
-            "LocalizeJP": "救護騎士団、まいります。",
+            "LocalizeJP": "救護騎士団、参ります。",
             "LocalizeEN": "The Remedial Knights are here."
         },
         {
@@ -222,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_TacticalAction_1",
-            "LocalizeJP": "次はどちらでしょうか。",
+            "LocalizeJP": "次はどちらでしょうか？",
             "LocalizeEN": "Which one will be next?"
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Victory_1",
-            "LocalizeJP": "無事に…、救護が完了しました。",
+            "LocalizeJP": "無事に救護が完了しました。",
             "LocalizeEN": "The rescue was successfully completed."
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mine_Battle_Victory_2",
-            "LocalizeJP": "私たちの勝利です 。しかし、油断は禁物ですよ。",
+            "LocalizeJP": "私たちの勝利です。しかし、油断は禁物ですよ。",
             "LocalizeEN": "It's our victory, but we must stay vigilant."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Mine_CommonSkill",
-            "LocalizeJP": "全力で参ります。",
+            "LocalizeJP": "全力で参ります！",
             "LocalizeEN": "I will do my best."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_1",
-            "LocalizeJP": "参ります。",
+            "LocalizeJP": "参ります！",
             "LocalizeEN": "I shall go."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_3",
-            "LocalizeJP": "下がってください。",
+            "LocalizeJP": "下がってください！",
             "LocalizeEN": "Please stand back."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_1",
-            "LocalizeJP": "戦場に救護の手を。",
+            "LocalizeJP": "戦場に救護の手を！",
             "LocalizeEN": "A helping hand on the battlefield"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_2",
-            "LocalizeJP": "誇りと信念を、胸に刻み。",
+            "LocalizeJP": "誇りと信念を胸に刻み！",
             "LocalizeEN": "Engrave your pride and conviction in your heart"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mine_ExSkill_Level_3",
-            "LocalizeJP": "最後の、その瞬間まで。",
+            "LocalizeJP": "最後のその瞬間まで！",
             "LocalizeEN": "Until the very end, that very moment."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_1",
-            "LocalizeJP": "私に…、どうしてここまで。",
+            "LocalizeJP": "私に……どうしてここまで……？",
             "LocalizeEN": "For me..., how did it come to this?"
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_2",
-            "LocalizeJP": "ありがとうございます。先生。",
+            "LocalizeJP": "ありがとうございます、先生。",
             "LocalizeEN": "thank you. teacher"
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_3",
-            "LocalizeJP": "ふふっ。私が救護を受けることになってしまいましたね。",
+            "LocalizeJP": "ふふ、私が救護を受ける事になってしまいましたね。",
             "LocalizeEN": "Hehe. I'm the one who ended up having to receive aid."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Mine_Growup_4",
-            "LocalizeJP": "よろしければ今度お茶でもいかがですか？何かお礼がしたいのです。",
+            "LocalizeJP": "よろしければ、今度お茶でもいかがですか？\n何かお礼がしたいのです。",
             "LocalizeEN": "If you don't mind, how about having some tea next time? I'd like to thank you somehow."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_1",
-            "LocalizeJP": "あまり慣れない感情ですね。ふわふわとしていて胸が暖かくなるような…、くすぐったい気分です。",
+            "LocalizeJP": "あまり慣れない感情ですね……\nふわふわとしていて……胸が温かくなるような……\nくすぐったい気分です。",
             "LocalizeEN": "It's an unfamiliar feeling, isn't it? It's a fluffy, warm feeling that tickles my chest"
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_2",
-            "LocalizeJP": "お気づきでしょうか。先生が私を少しずつ変えているのだと。",
+            "LocalizeJP": "お気づきでしょうか？\n……先生が私を、少しずつ変えているのだと。",
             "LocalizeEN": "Have you noticed? Sensei is changing me little by little."
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_3",
-            "LocalizeJP": "私が…、何かお力になれたら。",
+            "LocalizeJP": "私が……何かお力になれたら……。",
             "LocalizeEN": "If I can be of any help, please let me know."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mine_Relationship_Up_4",
-            "LocalizeJP": "先生はいつも返しきれないほどのものを私に与えるんですから、困ったお方です。本当に。フフッ。",
+            "LocalizeJP": "先生は、いつも返しきれないほどのものを私に与えるんですから……\n困ったお方です、本当に……ふふっ。",
             "LocalizeEN": "Sensei always gives me more than I can pay back, You're a real pain. Seriously. Hehe."
         }
     ]

@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_In_1",
-            "LocalizeJP": "私ですか？はい、先生のご要望でしたら喜んで。",
+            "LocalizeJP": "私、ですか……？\nはい、先生のご要望でしたら、喜んで。",
             "LocalizeEN": "Is it me? Yes, if requested by Sensei, I would be happy to do so."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_In_2",
-            "LocalizeJP": "はい、先生のお手伝いですね。お任せください。",
+            "LocalizeJP": "はい、先生のお手伝いですね。\nお任せください。",
             "LocalizeEN": "Yes, it's a teacher's help. Please leave it to me."
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Mimori_Formation_Select",
-            "LocalizeJP": "うふふ、先生、何か私にできることはありますか？",
+            "LocalizeJP": "ふふっ、先生。\n何か私にできることはありますか？",
             "LocalizeEN": "sir, is there anything i can do for you?"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Victory_1",
-            "LocalizeJP": "先生のお役に立つことができてよかったです。",
+            "LocalizeJP": "先生のお役に立つことができて、よかったです。",
             "LocalizeEN": "I'm glad I was able to help Sensei."
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Mimori_Tactic_Victory_2",
-            "LocalizeJP": "私、お役に立てましたでしょうか？…ふふ、でしたら良かったです。",
+            "LocalizeJP": "私、お役に立てましたでしょうか？\nふふっ、でしたら良かったです。",
             "LocalizeEN": "Have I been of help? ...Hehe, that would have been nice."
         },
         {
@@ -87,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Buffed_1",
-            "LocalizeJP": "ふふ、ありがとうございます。",
+            "LocalizeJP": "ふふっ、ありがとうございます。",
             "LocalizeEN": "thank you."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Covered_1",
-            "LocalizeJP": "ここなら 安全ですね。",
+            "LocalizeJP": "ここなら安全ですね。",
             "LocalizeEN": "It's safe here."
         },
         {
@@ -141,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Defense_1",
-            "LocalizeJP": "ふぅ、なんとかなりました。",
+            "LocalizeJP": "ふう、何とかなりました！",
             "LocalizeEN": "I managed."
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_In_2",
-            "LocalizeJP": "事前に危険を排除することもまた 内助の功というもの。では、始めましょうか。",
+            "LocalizeJP": "事前に危険を排除することもまた、内助の功というもの。\nでは、始めましょうか。",
             "LocalizeEN": "Eliminating danger in advance is also part of thanks to the support. So let's get started."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Move_1",
-            "LocalizeJP": "皆さん大丈夫ですか？はい。では次行きましょう。",
+            "LocalizeJP": "皆さん、大丈夫ですか？はい、では次行きましょう。",
             "LocalizeEN": "Is everyone okay? Okay. Let's move on to the next one."
         },
         {
@@ -177,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Move_2",
-            "LocalizeJP": "大丈夫、まだ戦います。",
+            "LocalizeJP": "大丈夫、まだ戦えます……！",
             "LocalizeEN": "okay still fighting"
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Recovery_1",
-            "LocalizeJP": "ありがとうございます。",
+            "LocalizeJP": "あっ、ありがとうございます。",
             "LocalizeEN": "thank you."
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Victory_1",
-            "LocalizeJP": "いかがですか先生？ 私、頑張りました。",
+            "LocalizeJP": "いかがですか、先生？\n私、頑張りました。",
             "LocalizeEN": "What do you think, teacher? I did my best."
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Mimori_Battle_Victory_2",
-            "LocalizeJP": "ふふ、先生、褒めていただけますか？",
+            "LocalizeJP": "ふふ、先生。\n褒めていただけますか？",
             "LocalizeEN": "Heh, Sensei, could you give me a compliment?"
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Mimori_CommonSkill",
-            "LocalizeJP": "お弁当を用意していますよ。",
+            "LocalizeJP": "お弁当を用意していますよ！",
             "LocalizeEN": "I'm preparing a lunch box."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_1",
-            "LocalizeJP": "さあ皆さん集まってください。",
+            "LocalizeJP": "さあ皆さん、集まってくださ～い。",
             "LocalizeEN": "So everyone please gather."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_2",
-            "LocalizeJP": "休憩にしましょうか。",
+            "LocalizeJP": "休憩にしましょうか？",
             "LocalizeEN": "Shall we take a break?"
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_3",
-            "LocalizeJP": "そうだ、とっておきのものがあるんです。",
+            "LocalizeJP": "そうだ、とっておきのものがあるんです！",
             "LocalizeEN": "That's right, there's something special"
         },
         {
@@ -294,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_Level_1",
-            "LocalizeJP": "ふふ、これで全員でしょうか。",
+            "LocalizeJP": "ふふ、これで全員でしょうか？",
             "LocalizeEN": "Is this everyone?"
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Mimori_ExSkill_Level_3",
-            "LocalizeJP": "皆さん。しっかり食べて、頑張ってくださいね。",
+            "LocalizeJP": "皆さん、しっかり食べて頑張ってくださいね？",
             "LocalizeEN": "Everyone Please eat well and do your best."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_1",
-            "LocalizeJP": "なるほど…、こういう形の修行もあるのですね。",
+            "LocalizeJP": "あっ、なるほど……こういう形の修行もあるのですね。",
             "LocalizeEN": "I see, there is also this kind of training."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_2",
-            "LocalizeJP": "争い事は得意ではありませんが、先生のために強くなりたいです。",
+            "LocalizeJP": "争いごとは得意ではありませんが、先生のために強くなりたいです。",
             "LocalizeEN": "I'm not good at fighting, but I want to be strong for Sensei."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_3",
-            "LocalizeJP": "まだ弱い私でも…いえ、今はまだ弱いからこそ、これから先もっと強くなれますよね。",
+            "LocalizeJP": "まだ弱い私でも……\nいえ、今はまだ弱いからこそ。これから先、もっと強くなれますよね。",
             "LocalizeEN": "Even if I'm still weak, it's okay."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Mimori_Growup_4",
-            "LocalizeJP": "修行の道のりはまだまだ険しいですが、もっと精進します。私自身のためにも、先生のためにも。",
+            "LocalizeJP": "修行の道のりはまだまだ険しいですが……。\nもっと精進します。私自身のためにも、先生のためにも。",
             "LocalizeEN": "The road to training is still difficult, but I will continue to work harder. Both for myself and for Sensei."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_1",
-            "LocalizeJP": "私たちの絆、もっともっと深くなっていくのですね 先生。",
+            "LocalizeJP": "私たちの絆……もっともっと、深くなっていくのですね。先生。",
             "LocalizeEN": "Our bond is getting deeper and deeper, isn't it, Sensei?"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_2",
-            "LocalizeJP": "これでより先生のおそばに…あ、いえ、何でもありません。",
+            "LocalizeJP": "これで、より先生のお傍に……\nあっ、いえ、何でもありません……！",
             "LocalizeEN": "Now I can be closer to Sensei..Oh, no, it's nothing."
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_3",
-            "LocalizeJP": "この胸の奥から湧き上がる感情をどう表現すればいいのかわかりません。 ただ、これだけは言えます。私、先生のおそばにいられて良かったです。",
+            "LocalizeJP": "この胸の奥から沸き上がる感情を、どう表現すればいいのか分かりません。\nただ、これだけは言えます。\n……私、先生のお傍にいられてよかったです。",
             "LocalizeEN": "I don't know how to express the feelings that are rising from deep within my heart. However, I can tell you this. I'm glad I was able to be by your side."
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Mimori_Relationship_Up_4",
-            "LocalizeJP": "私のことをこんなにも大切に思ってくださっているだなんて、ありがとうございます、先生。もう少しだけこうして手を繋いだままでもいいですか？",
+            "LocalizeJP": "私のことを、こんなにも大切に思ってくださっているだなんて……。\nありがとうございます、先生。\n……もう少しだけ、こうして手を繋いだままでも良いですか？",
             "LocalizeEN": "Thank you for taking such great care of me. Teacher Is it okay if we hold hands like this for a little longer?"
         }
     ]

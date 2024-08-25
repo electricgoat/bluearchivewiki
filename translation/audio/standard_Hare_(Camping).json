@@ -6,7 +6,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hare_(Camping)_Formation_In_1",
-            "LocalizeJP": "先生の頼みなら…。",
+            "LocalizeJP": "先生の頼みなら……。",
             "LocalizeEN": "If it's Sensei's request..."
         },
         {
@@ -15,7 +15,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hare_(Camping)_Formation_In_2",
-            "LocalizeJP": "うう、外に出ないとダメなの？",
+            "LocalizeJP": "うう……外に出ないとダメなの……？",
             "LocalizeEN": "Ugh, do I have to go outside?"
         },
         {
@@ -24,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hare_(Camping)_Formation_Select",
-            "LocalizeJP": "（ごくごく）…はあ。生き返る。",
+            "LocalizeJP": "(ごく、ごく)ふう……\n生き返る……。",
             "LocalizeEN": "Ahh... I feel refreshed."
         },
         {
@@ -51,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hare_(Camping)_Tactic_In_1",
-            "LocalizeJP": "うん？…私が先頭なの…？",
+            "LocalizeJP": "……うん？私が先頭なの？",
             "LocalizeEN": "Huh? ...Am I at the front...?"
         },
         {
@@ -60,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hare_(Camping)_Tactic_In_2",
-            "LocalizeJP": "ここはどこ…、私は誰…？",
+            "LocalizeJP": "ここはどこ……私はだれ……",
             "LocalizeEN": "Where am I... Who am I...?"
         },
         {
@@ -69,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hare_(Camping)_Tactic_Victory_1",
-            "LocalizeJP": "もう帰ってもいい…よね。",
+            "LocalizeJP": "もう帰っても……いい……よね？",
             "LocalizeEN": "I should be able to go home now, right?"
         },
         {
@@ -78,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hare_(Camping)_Tactic_Victory_2",
-            "LocalizeJP": "疲れた…、もう動けない…。",
+            "LocalizeJP": "疲れた……もう動けない……。",
             "LocalizeEN": "I'm tired... I can't move anymore..."
         },
         {
@@ -105,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_Covered_1",
-            "LocalizeJP": "ファイアウォール、構築。",
+            "LocalizeJP": "ファイヤーウォール、構築。",
             "LocalizeEN": "Firewall, build."
         },
         {
@@ -150,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_In_1",
-            "LocalizeJP": "今からやるの…？",
+            "LocalizeJP": "今からやるの……？",
             "LocalizeEN": "Do I have to start doing it now?"
         },
         {
@@ -159,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_In_2",
-            "LocalizeJP": "カフェイン…、カフェインが足りない…。",
+            "LocalizeJP": "カフェイン……カフェインが足りない……。",
             "LocalizeEN": "Caffeine... I need more caffeine..."
         },
         {
@@ -168,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_Move_1",
-            "LocalizeJP": "じゃあ行くね。",
+            "LocalizeJP": "じゃあ、行くね……。",
             "LocalizeEN": "All right, I'm off."
         },
         {
@@ -186,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_Recovery_1",
-            "LocalizeJP": "あ、ありがとう。",
+            "LocalizeJP": "あっ……ありがとう。",
             "LocalizeEN": "Th-thank you."
         },
         {
@@ -231,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_TacticalAction_1",
-            "LocalizeJP": "え、もう行くの？",
+            "LocalizeJP": "……え？もう行くの？",
             "LocalizeEN": "Huh, are you leaving already?"
         },
         {
@@ -240,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_Victory_1",
-            "LocalizeJP": "あ、終わった？もう帰っていい？",
+            "LocalizeJP": "お、終わった？もう帰っていい？",
             "LocalizeEN": "Oh, are we done? Can I go home now?"
         },
         {
@@ -249,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hare_(Camping)_Battle_Victory_2",
-            "LocalizeJP": "お、おつかれ～…じゃあ、私はこれで…。",
+            "LocalizeJP": "お、お疲れ～……じゃあ、私はこれで……。",
             "LocalizeEN": "W-well done... Now, I'm going to leave..."
         },
         {
@@ -258,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hare_(Camping)_CommonSkill",
-            "LocalizeJP": "ふう、あったまる。",
+            "LocalizeJP": "ふう……温まる……。",
             "LocalizeEN": "Ah, that warms me up."
         },
         {
@@ -267,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_(Camping)_ExSkill_1",
-            "LocalizeJP": "うう、寒い…。",
+            "LocalizeJP": "うう、寒い……。",
             "LocalizeEN": "Brrr, it's cold..."
         },
         {
@@ -276,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_(Camping)_ExSkill_2",
-            "LocalizeJP": "こんな天気にキャンプって…。",
+            "LocalizeJP": "こんな天気にキャンプって……。",
             "LocalizeEN": "Camping in this weather..."
         },
         {
@@ -285,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_(Camping)_ExSkill_3",
-            "LocalizeJP": "焼けたかな？",
+            "LocalizeJP": "焼けたかな……？",
             "LocalizeEN": "Are they roasted?"
         },
         {
@@ -303,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_(Camping)_ExSkill_Level_2",
-            "LocalizeJP": "熱いから気を付けてね。",
+            "LocalizeJP": "熱いから、気をつけてね。",
             "LocalizeEN": "Be careful, it's hot."
         },
         {
@@ -312,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hare_(Camping)_ExSkill_Level_3",
-            "LocalizeJP": "ふぅー、はい、どうぞ。",
+            "LocalizeJP": "ふ―……はい、どうぞ。",
             "LocalizeEN": "Fuuu, enjoy."
         },
         {
@@ -321,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_(Camping)_Growup_1",
-            "LocalizeJP": "これは、フォーラムのハッカーもびっくりするかも。",
+            "LocalizeJP": "これは……フォーラムのハッカーもビックリするかも。",
             "LocalizeEN": "Even the hackers on the forum might be surprised by this."
         },
         {
@@ -330,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_(Camping)_Growup_2",
-            "LocalizeJP": "今の情報、野外環境で使えそう。",
+            "LocalizeJP": "いまの情報、野外環境で使えそう。",
             "LocalizeEN": "This information might be useful in an outdoor environment."
         },
         {
@@ -339,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_(Camping)_Growup_3",
-            "LocalizeJP": "ありがとう先生。次はもっといい姿を見せるね。",
+            "LocalizeJP": "ありがとう、先生。\n次はもっと良い姿を見せるね。",
             "LocalizeEN": "Thank you, Sensei. Next time, I'll show you a better performance."
         },
         {
@@ -348,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hare_(Camping)_Growup_4",
-            "LocalizeJP": "うん、面白い発想だね。勉強になったよ。",
+            "LocalizeJP": "うん、面白い発想だね。\n勉強になったよ。",
             "LocalizeEN": "Yeah, that's an interesting idea. I learned something new."
         },
         {
@@ -357,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_(Camping)_Relationship_Up_1",
-            "LocalizeJP": "真理の道はいくら歩いても果てが見えないね。人の心にちょっと似てるかも。",
+            "LocalizeJP": "真理の道は、いくら歩いても果てがみえないね。\n……人の心にちょっと似てるかも。",
             "LocalizeEN": "The path of truth seems endless, no matter how far you walk. It's a bit like the human heart, isn't it?"
         },
         {
@@ -366,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_(Camping)_Relationship_Up_2",
-            "LocalizeJP": "先生、次の休日一緒にゲームしない？",
+            "LocalizeJP": "先生、次の休日、一緒にゲームしない？",
             "LocalizeEN": "Sensei, do you want to play games together on the next break?"
         },
         {
@@ -375,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_(Camping)_Relationship_Up_3",
-            "LocalizeJP": "なんか、大きな山を見てると、先生の姿が浮かぶようになったかも。…変わらない景色みたいに、先生もずっとそこにいてくれるよね？",
+            "LocalizeJP": "なんか、大きな山を見てると先生の姿が浮かぶようになったかも。\n変わらない景色みたいに……先生もずっとそこにいてくれるよね？",
             "LocalizeEN": "When I look at a big mountain, I feel like I can see Sensei there. Just like an unchanging landscape, Sensei will always be there for me, right?"
         },
         {
@@ -384,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hare_(Camping)_Relationship_Up_4",
-            "LocalizeJP": "山登りは好きじゃないけど、先生と二人ならアリかも…。",
+            "LocalizeJP": "山登りは好きじゃないけど……\n先生と二人でなら、アリかも。",
             "LocalizeEN": "I don't like mountain climbing, but maybe I'd be up for it if it is just me and Sensei..."
         }
     ]
