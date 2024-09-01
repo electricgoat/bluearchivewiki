@@ -34,9 +34,13 @@ def reauthenticate():
         site.login(stored_auth[0], stored_auth[1])
         print(f'Logged in to wiki, token {site.token()}')
 
-    except Exception as err:
-        print(f'Wiki error: {err}')
-        traceback.print_exc()
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            reauthenticate()
+    # except Exception as err:
+    #     print(f'Wiki error: {err}')
+    #     traceback.print_exc()
 
 
 def page_exists(page, wikitext = None):

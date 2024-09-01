@@ -1,10 +1,14 @@
-{% raw %}{{{% endraw %}Character
+{{'{{'}}Character
 | Id = {{character.id}}
 | DevName = {{character.dev_name}}
-| Name = {{character.wiki_name}}
-| Portrait = Portrait_{{character.wiki_name.replace(' ', '_')}}
-| JPName = {{character.profile.full_name}}
-| JPReading = {{character.family_name_en}} {{character.personal_name_en}}
+| Wikiname = {{character.wiki_name}}
+| PersonalNameEn = {{character.personal_name_en}}
+| FamilyNameEn = {{character.family_name_en}}
+| PersonalNameJp = {{character.profile.personal_name_jp}}
+| PersonalNameRubyJp = {{character.profile.personal_name_ruby_jp}}
+| FamilyNameJp = {{character.profile.family_name_jp}}
+| FamilyNameRubyJp = {{character.profile.family_name_ruby_jp}}
+| Variant = {% if character.variant != None %}{{character.variant}}{% endif %}
 | School = {{character.school}}
 | Club = {{character.club}}
 | Age = {{character.profile.age}}
@@ -14,6 +18,8 @@
 | Designer = {{character.profile.designer}}
 | Illust = {{character.profile.illustrator}}
 | Voice = {{character.profile.voice}}
+{%- if character.main_combat_style_id>0 %}
+| MainCombatStyleId = {{character.main_combat_style_id}}{% endif %}
 | WeaponType = {{character.weapon_type}}
 | UsesCover = {{character.uses_cover}}
 | Rarity = {{character.rarity}}
@@ -30,7 +36,8 @@
 | EquipmentSlot3 = {{character.equipment[2]}}
 | CharacterPool = {{character.character_pool}}
 | ReleaseDate = {{character.profile.release_date_jp}}
-{% raw %}}}{% endraw %}{% raw %}{{{% endraw %}CharacterVariants|{{character.personal_name_en}}{% raw %}}}{% endraw %}__TOC__
+| ReleaseDateGL = {{character.profile.release_date_gl}}
+{{'}}'}}{{'{{'}}CharacterVariants|{{character.personal_name_en}}{{'}}'}}__TOC__
 
 =Background=
 {% raw %}{{{% endraw %}CharacterBackground
@@ -258,8 +265,8 @@
 
 {% raw %}=Resources=
 {{CharacterGalleryLink}}{% endraw %}
-{{'{{'}}SpriteGallery|{{character.personal_name_en}}{{'}}'}}
-{{'{{'}}CatHighlightsGallery|{{character.personal_name_en}}{{'}}'}}
+{{'{{'}}SpriteGallery|{{character.personal_name_en}}{% if character.variant != None %}|{{character.variant}}{% endif %}{{'}}'}}
+{{'{{'}}CatHighlightsGallery|{{character.personal_name_en}}{% if character.variant != None %}|{{character.variant}}{% endif %}{{'}}'}}
 {{'{{'}}MomoTalkLink{{'}}'}}
 
 {% raw %}==Voiceover==

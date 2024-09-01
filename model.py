@@ -11,7 +11,7 @@ missing_skill_localization = None
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self.school = school
@@ -24,6 +24,7 @@ class Character(object):
         self.equipment = equipment
         self.weapon_type = weapon_type
         self._uses_cover = uses_cover
+        self.main_combat_style_id = main_combat_style_id
         self.profile = profile
         self.normal_skill = normal_skill
         self.normal_gear_skill = normal_gear_skill
@@ -142,6 +143,7 @@ class Character(object):
             character['EquipmentSlot'],
             character['WeaponType'],
             character_ai['CanUseObstacleOfKneelMotion'] or character_ai['CanUseObstacleOfStandMotion'],
+            character['MainCombatStyleId'],
             Profile.from_data(character_id, data),
             Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['PublicSkillGroupId'][0], data, show_skill_slot='Normal'),
             (character_id, 0, 2, 0) in data.characters_skills and Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 2, 0)]['PublicSkillGroupId'][0], data, show_skill_slot='Gear Normal') or None,
@@ -163,8 +165,11 @@ class Character(object):
 
 
 class Profile(object):
-    def __init__(self, full_name, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, reading, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
-        self.full_name = full_name
+    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
+        self.family_name_jp = family_name_jp
+        self.family_name_ruby_jp = family_name_ruby_jp
+        self.personal_name_jp = personal_name_jp
+        self.personal_name_ruby_jp = personal_name_ruby_jp
         self.age = age
         self._birthday = birthday
         self.height = height
@@ -174,7 +179,6 @@ class Profile(object):
         self.voice = voice
         self.introduction_jp = introduction_jp
         self.introduction_en = introduction_en
-        self.reading = reading
         self.weapon_name = weapon_name
         self.weapon_desc = weapon_desc
         self.weapon_name_translated = weapon_name_translated
@@ -201,6 +205,14 @@ class Profile(object):
             'December'
         ][int(month) - 1]
         return f'{month} {day}'
+    
+    @property
+    def full_name(self):
+        return f'{self.family_name_jp} {self.personal_name_jp}'
+    
+    @property
+    def reading(self):
+        return f'{self.family_name_ruby_jp} {self.personal_name_jp}'
 
     @classmethod
     def from_data(cls, character_id, data):
@@ -226,7 +238,10 @@ class Profile(object):
         #weapon_desc_translated = None
 
         return cls(
-            f'{profile["FamilyNameJp"]} {profile["PersonalNameJp"]}',
+            profile["FamilyNameJp"],
+            profile["FamilyNameRubyJp"],
+            profile["PersonalNameJp"],
+            profile["PersonalNameRubyJp"],            
             localized_strings['CharacterAge'].replace('歳',''),
             profile['BirthDay'],
             localized_strings['CharHeight'],
@@ -236,7 +251,6 @@ class Profile(object):
             localized_strings['Voice'],
             '<p>' + profile['ProfileIntroductionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             '<p>' + localized_strings['ProfileIntroduction'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
-            f'{profile["FamilyNameRubyJp"]} {profile["PersonalNameJp"]}',
             profile['WeaponNameJp'],
             '<p>' + profile['WeaponDescJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             localized_strings['WeaponName'],
