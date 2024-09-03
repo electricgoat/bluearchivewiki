@@ -39,11 +39,13 @@ SEASON_NOTES = {
 SEASON_TOR_DEF = {
     'jp' : {
         2:'HeavyArmor',
+        4:'Special',
         6:'Unarmed',
     },
     'gl' : {
         2:'HeavyArmor',
-        6:'Unarmed'
+        4:'Special',
+        6:'Unarmed',
     }
 }
 
