@@ -11,7 +11,7 @@ missing_skill_localization = None
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self.school = school
@@ -51,6 +51,7 @@ class Character(object):
         self.family_name_en = family_name_en
         self.personal_name_en = personal_name_en
         self.variant = variant
+        self.wiki_name_jp = wiki_name_jp
 
     def __repr__(self):
         return f"CharacterObject {self.personal_name_en} ({self.variant})"
@@ -123,7 +124,8 @@ class Character(object):
         liked_gift_tags = character_id in data.characters_cafe_tags and data.characters_cafe_tags[character_id]['FavorItemTags'] or None
         portrait = costume['TextureDir'][costume['TextureDir'].rfind('/')+1:]
 
-        
+        wiki_name_jp = character['LocalizeEtcId'] in data.etc_localization and data.etc_localization[character['LocalizeEtcId']].get('NameJp', None) or None
+
         return cls(
             character['Id'],
             character['DevName'],
@@ -132,6 +134,7 @@ class Character(object):
             data.translated_characters[character_id]['FamilyNameEn'],
             data.translated_characters[character_id]['PersonalNameEn'],
             data.translated_characters[character_id]['VariantNameEn'],
+            wiki_name_jp,
             character['DefaultStarGrade'],
             character['School'] != 'RedWinter' and character['School'] or 'Red Winter',
             character['Club'],
