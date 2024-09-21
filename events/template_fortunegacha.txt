@@ -1,23 +1,19 @@
-==Omikuji==
-Each Omikuji (fortune slip) draw costs {{wiki_price}}. There is a soft modifier that increases Great Blessing chance after {{shop_params['ProbModifyStartCount']}} other draws, up to a seemingly guaranteed Grade {{shop_params['TargetGrade']}} reward in {{shop_params['ProbModifyStartCount']+10}} rolls.
+Each Omikuji (fortune slip) draw costs {{wiki_price}}. There is a soft modifier that increases Great Blessing chance after {{shop_params['ProbModifyStartCount']}} other draws, up to a seemingly guaranteed Great Blessing (grade {{shop_params['TargetGrade']}} reward) in {{shop_params['ProbModifyStartCount']+10}} total draws.
 <tabber>
 {% for tier in fortune_tiers -%}
-{{tier.wiki_title}} =
+{{tier.wiki_title}} {{'%g'%(tier.total_prob / 100)}}% =
 {| class="wikitable limitwidth-1024" style="text-align:center"
-!Image
-!Dish
+!Fortune
 !Chance
 !Reward
 {% for box in tier['entries'] -%}
 |-
-|[[File:{{box['icon']}}.png|100px|{{box['localization']['NameEn']}}]]
-|'''{{box['localization']['NameEn']}}'''
-{{box['localization']['DescriptionEn']|nl2br}}
+|{{box['localization']['DescriptionEn']|nl2br}}
 |'''{{'%g'%(box.Prob / 100)}}%'''
-|{% for reward_parcel in box['rewards'] %}{{reward_parcel.wikitext}}{% endfor %}
+|style="min-width: 150px;"|{% for reward_parcel in box['rewards'] %}{{reward_parcel.wikitext}}{% endfor %}
 {% endfor -%}
 |-
-| colspan="4" | Total '''{{tier.wiki_title}}''' probability: '''{{'%g'%(tier.total_prob / 100)}}%'''
+| colspan="3" | Total '''{{tier.wiki_title}}''' probability: '''{{'%g'%(tier.total_prob / 100)}}%'''
 Pity modifier after {{shop_params['ProbModifyStartCount']}} rolls: '''{{'%g'%(tier.total_modifier / 100)}}%''', towards '''{{'%g'%(tier.total_mod_limit / 100)}}%''' probability
 |}
 |-|

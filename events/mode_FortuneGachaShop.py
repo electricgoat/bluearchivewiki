@@ -8,6 +8,7 @@ from collections import namedtuple
 
 missing_localization = None
 missing_code_localization = None
+missing_etc_localization = None
 
 data = {}
 characters = {}
@@ -26,9 +27,9 @@ def wiki_card(type: str, id: int, **params):
     return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
 
 
-def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization):
+def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization, ext_missing_etc_localization):
     global data, characters, items, furniture, emblems
-    global missing_localization, missing_code_localization
+    global missing_localization, missing_code_localization, missing_etc_localization
     data = ext_data
     characters = ext_characters
     items = ext_items
@@ -36,6 +37,7 @@ def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_item
     emblems = ext_emblems
     missing_localization = ext_missing_localization
     missing_code_localization = ext_missing_code_localization
+    missing_etc_localization = ext_missing_etc_localization
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.globals['len'] = len
@@ -47,7 +49,13 @@ def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_item
     env.filters['nl2br'] = shared.functions.nl2br
     env.filters['nl2p'] = shared.functions.nl2p
 
-    FortuneTier = namedtuple('FortuneTier', ['wiki_title', 'total_prob', 'total_modifier', 'total_mod_limit', 'entries'])
+    class FortuneTier:
+        def __init__(self, wiki_title:str="", total_prob:int=0, total_modifier:int=0, total_mod_limit:int=0, entries:list=[]):
+            self.wiki_title = wiki_title
+            self.total_prob = total_prob
+            self.total_modifier = total_modifier
+            self.total_mod_limit = total_mod_limit
+            self.entries = entries
     
     title = 'Omikuji'
     template = env.get_template('template_fortunegacha.txt')
@@ -73,13 +81,17 @@ def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_item
     for box in fortune_gacha:
         tier = box['Grade']
         if tier not in fortune_tiers:
-            fortune_tiers[tier] = {'wiki_title':f"Grade {tier}", 'total_prob' : 0, 'total_modifier': 0, 'total_mod_limit': 0, 'entries': []}
+            fortune_tiers[tier] = FortuneTier(f"Grade {tier}", 0, 0, 0, [])
         
-        fortune_tiers[tier]['total_prob'] += box['Prob']
-        fortune_tiers[tier]['total_modifier'] += box['ProbModifyValue']
-        fortune_tiers[tier]['total_mod_limit'] += box['ProbModifyLimit']
+        fortune_tiers[tier].total_prob += box['Prob']
+        fortune_tiers[tier].total_modifier += box['ProbModifyValue']
+        fortune_tiers[tier].total_mod_limit += box['ProbModifyLimit']
 
         fortune_gacha_group = data.event_content_fortune_gacha[box['FortuneGachaGroupId']]
+
+        if data.etc_localization[fortune_gacha_group['LocalizeEtcId']].get('DescriptionEn', '') == '':
+            missing_etc_localization.add_entry(data.etc_localization[fortune_gacha_group['LocalizeEtcId']])
+
         box['localization'] = data.etc_localization[fortune_gacha_group['LocalizeEtcId']]
         box['icon'] = fortune_gacha_group['IconPath'].rsplit('/',1)[-1]
 
@@ -87,7 +99,7 @@ def get_mode_fortunegachashop(season_id: int, ext_data, ext_characters, ext_item
         for index,type in enumerate(box['RewardParcelType']):
             box['rewards'].append(RewardParcel(type, box['RewardParcelId'][index], box['RewardParcelAmount'][index], 10000, data=data, wiki_card=wiki_card))
 
-        fortune_tiers[tier]['entries'].append(box)
+        fortune_tiers[tier].entries.append(box)
 
 
     shop_params = data.event_content_fortune_gacha_modify[season_id][0]

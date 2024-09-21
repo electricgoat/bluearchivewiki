@@ -498,7 +498,7 @@ def generate():
     #OMIKUJI / FORTUNE SLIPS
     wikitext_fortunegacha = ''
     if (args['event_season'], "FortuneGachaShop") in data.event_content_seasons:
-        wikitext_fortunegacha = get_mode_fortunegachashop(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization)
+        wikitext_fortunegacha = get_mode_fortunegachashop(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization, missing_etc_localization)
 
 
     #CARDSHOP (4-card draw store) 
