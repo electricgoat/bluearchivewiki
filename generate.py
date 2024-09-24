@@ -37,6 +37,9 @@ def generate():
         if args['character_id'] is not None and character['Id'] not in args['character_id']:
             continue
 
+        if character['Id'] == 10099: #Hoshio (Battle) Attacker form
+            continue
+
         try:
             character = Character.from_data(character['Id'], data, missing_skill_localization)
             #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
