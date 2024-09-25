@@ -7310,8 +7310,8 @@
             "DescriptionKr": "노노미가 남몰래 작성 중인 노트. 언젠가 대책위원회의 멤버들과 함께하고 싶은 일들이 적혀 있다.",
             "NameJp": "秘密のウィッシュリスト",
             "DescriptionJp": "ノノミがこっそり記入していたノート。いつか対策委員会のメンバーたちと一緒にしたいことが書かれている。",
-            "NameEn": "Secret wishlist",
-            "DescriptionEn": "A notebook that Nonomi secretly filled in. It lists all the adventures she would like to have together with members of the task force someday."
+            "NameEn": "Secret bucket list",
+            "DescriptionEn": "A secret list of Nonomi's dreams. It's filled with adventures she would like to have together with members of the task force someday."
         },
         {
             "Key": 3530712502,
@@ -9492,7 +9492,132 @@
             "DescriptionJp": "玄龍門グループストーリー{0}話クリア",
             "NameEn": "Genryumon Advisor",
             "DescriptionEn": "Complete {0} chapters of the Genryumon Group story"
+        },
+
+        {
+            "Key": 162329831,
+            "NameJp": "玄龍門の玉座",
+            "NameEn": "Genryumon Throne",
+            "DescriptionJp": "玄龍門で代々使われてきた門主専用の玉座。外観は派手だが、座り心地は決して快適とは言えない。",
+            "DescriptionEn": "This throne has been used by the head priest of Genryumon for generations. Looks flashy, but it is by no means comfortable to sit on."
+        },
+        {
+            "Key": 815288722,
+            "NameJp": "レイジョの神名文字",
+            "NameEn": "Reijo's Eleph",
+            "DescriptionJp": "レイジョの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Reijo."
+        },
+        {
+            "Key": 1441156605,
+            "NameJp": "月影祭の商品券",
+            "NameEn": "Moonlight Festival Voucher",
+            "DescriptionJp": "月影祭でのみ使用できる期間限定の商品券。たくさん集めれば、「あるゲーム」に挑戦できるようだ。",
+            "DescriptionEn": "A limited-time voucher that can only be used during the Moonlight Festival. If you collect enough, you can challenge \"a certain game.\""
+        },
+        {
+            "Key": 2588141576,
+            "NameJp": "月影祭の月餅",
+            "NameEn": "Moonlight Festival Mooncake",
+            "DescriptionJp": "祭りの成功と豊饒を祈願する月影祭の月餅。普通の月餅よりも小さく、食べやすい一口サイズになっているのが特徴だ。",
+            "DescriptionEn": "A mooncake from the Moonlight Festival, offered to pray for the festival's success and abundance. It's smaller than regular mooncakes and comes in easy-to-eat bite-sized pieces."
+        },
+        {
+            "Key": 2506282920,
+            "NameJp": "錬丹術研究会の特製栄養剤",
+            "NameEn": "Alchemy Research Society Special Nutritional Supplement",
+            "DescriptionJp": "祭りの成功のために、錬丹術研究会が特別に調剤した栄養剤。気力を高める効果があるらしい。",
+            "DescriptionEn": "A special nutritional supplement prepared by the Alchemy Research Society for the success of the festival. It is said to boost vitality."
+        },
+        {
+            "Key": 647708360,
+            "NameJp": "月影祭の爆竹",
+            "NameEn": "Moonlight Festival Firecrackers",
+            "DescriptionJp": "祭りには欠かせない爆竹。安全に使えるよう十分考慮されて作られているが、万が一の事故には気をつけよう。",
+            "DescriptionEn": "Firecrackers that are essential for the festival. They are made with careful consideration for safety, but be mindful of accidents."
+        },
+        {
+            "Key": 4052244851,
+            "NameKr": "단정한 흰색 코사지",
+            "DescriptionKr": "시들지 않는 하얀 꽃처럼, 처음의 마음을 잊지 말자는 마음으로 구매했다는 코사지. 하지만 진실은……?",
+            "NameJp": "潔白なコサージュ",
+            "DescriptionJp": "枯れない白い花のように、初心を忘れない気持ちが込められたマリーのコサージュ。しかし、その裏には……？",
+            "NameEn": "Innocent Corsage",
+            "DescriptionEn": "Like a white unwithering flower, Mari's corsage is a constant reminder to never forget her intentions. But what lies behind it...?"
+        },
+        {
+            "Key": 3580703064,
+            "NameKr": "손때 묻은 다구 세트",
+            "DescriptionKr": "시즈코가 처음으로 사용했던 다구 세트. 낡았지만, 첫 차를 우려냈던 추억도 함께 묻어 있다.",
+            "NameJp": "思い出の茶器セット",
+            "DescriptionJp": "シズコが初めて揃えた茶器セット。年季が入っているが、初めてお茶を淹れた時の思い出も一緒に残っている。",
+            "NameEn": "Well-worn Tea Set",
+            "DescriptionEn": "This was Shizuko's first tea set. Although it is old, it also holds memories of the first time she brewed tea."
+        },
+        {
+            "Key": 2740802403,
+            "NameKr": "마이스터의 고글",
+            "DescriptionKr": "수많은 개조가 더해진 히비키 전용 고글. 기능뿐 아니라 외형적으로도 매우 마음에 든다고.",
+            "NameJp": "マイスターのゴーグル",
+            "DescriptionJp": "何度も改造されたヒビキ専用のゴーグル。機能だけでなく、見た目もお気に入りだという。",
+            "NameEn": "Meister's Goggles",
+            "DescriptionEn": "Hibiki's goggles have been modified many times. She likes them not only for their functionality but also for the appearance."
+        },
+        {
+            "Key": 1279061846,
+            "NameKr": "보들보들 담요",
+            "DescriptionKr": "게헨나 학원 마크가 새겨진 담요. 평소 다목적으로 활용하고 있다. 조금쯤은 이오리의 온기가 남아있을지도…….",
+            "NameJp": "ふわふわ毛布",
+            "DescriptionJp": "ゲヘナ学園のマークが刻まれた毛布。様々な用途に使われている。微かに、イオリのぬくもりが残っているかもしれない……。",
+            "NameEn": "Fluffy Blanket",
+            "DescriptionEn": "A blanket with the Gehenna Academy mark engraved on it. It has been used for various purposes. Iori's warmth may still be faintly felt on it..."
+        },
+        {
+            "Key": 1050181937,
+            "NameKr": "오욕내강",
+            "DescriptionKr": "오욕내강 칭호 획득 미션 클리어",
+            "NameJp": "五塵来降",
+            "DescriptionJp": "五塵来降の称号獲得ミッションクリア",
+            "NameEn": "Descent of the Five Senses",
+            "DescriptionEn": "Clear the event mission to obtain the Descent of the Five Senses title"
+        },
+        {
+            "Key": 3297442664,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "모든 적은 체력이 1% 미만이 되면 군중제어 게이지 생성 및 아군을 우선 공격합니다.\n군중제어 게이지를 가득 채우면 적이 처치됩니다.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "すべての敵はHPが1％未満でCCゲージを生成し、味方を優先的に攻撃します。\nCCゲージを満タンにすると敵が撃退されます。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "All enemies generate a crowd control (CC) gauge when their HP drops below 1% and prioritize attacking allies.\nWhen the CC gauge is full, the enemies will be defeated."
+        },
+        {
+            "Key": 2684865569,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "탱커를 편성하여 적의 공격을 견디세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "タンクの生徒で、敵の攻撃に耐えましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Deploy a tank to withstand the enemy’s attacks."
+        },
+        {
+            "Key": 3519883613,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "카이는 스킬을 사용해 적에게 중독 효과를 부여합니다.\n현룡문 임원들은 중독 효과가 있을 때 혼란 상태가 됩니다.\n해로운 효과 제거 스킬을 사용해 현룡문 임원들의 중독 효과를 해제하세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "カイはスキルを使って敵に中毒効果を与えます。\n玄龍門の幹部は中毒状態の時、混乱状態に陥ります。\n弱体状態を解除するスキルで、玄龍門の幹部の中毒状態を解除しましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "Kai uses a skill to inflict poison on enemies.\nWhen the Genryumon officers are poisoned, they fall into a state of confusion.\nUse a skill that removes harmful effects to dispel the poison from the Genryumon officers."
+        },
+        {
+            "Key": 313921055,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "적을 처치할 때마다 카이가 약해집니다.\n카이에게는 지속적으로 회복되는 보호막이 적용됩니다.\n한 방이 강한 공격으로 카이를 공격하세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "敵を倒すたびにカイが弱くなります。\nカイは持続回復するシールドを自身にかけています。\n一度に多くのダメージを与える攻撃で攻略しましょう。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "Kai weakens each time an enemy is defeated.\nKai has a shield that continuously regenerates.\nUse strong, single-hit attacks to defeat Kai."
         }
+        
 
     ]
 }

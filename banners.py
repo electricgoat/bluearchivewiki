@@ -210,7 +210,7 @@ def init_banners(region: str):
 
 
 
-def upload_banners():
+def upload_banners(args):
     for banner in banners.values():
         wikitext = f"[[Category:Pick-up banner images]]\r\n"
         for character in banner.featured_characters: wikitext += f"[[Category:{character.personal_name_en} images]]\r\n"
@@ -226,6 +226,9 @@ def upload_banners():
             continue
 
         assert len(banner.image_banner_jp.wikinames[0]), f"Banner wikiname must be set, currently {banner.image_banner_jp.wikinames[0]}"
+
+        if args['banner_id'] is not None and banner.linked_lobby_banner_id not in args['banner_id']:
+            continue
 
 
         if not wiki.page_exists(f"File:{banner.image_banner_jp.wikinames[0]}"):
@@ -277,6 +280,7 @@ def main():
     parser.add_argument('-bannerwatch',     metavar='DIR', default='../ba-nnerwatch', help='Path to ba-nnerwatch working dir')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
+    parser.add_argument('-banner_id', nargs="*", type=int, metavar='ID', help='Id(s) of a banner to export')
 
     args = vars(parser.parse_args())
     print(args)
@@ -288,7 +292,7 @@ def main():
 
         if args['wiki'] != None:
             wiki.init(args)
-            upload_banners()
+            upload_banners(args)
         else:
             list_banners()
 
