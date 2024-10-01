@@ -12,7 +12,7 @@
 ! class="condensed" |Stagger Gauge
 
 {%- for stage in boss_data['stage'] %}
-|- {% if not stage['IsOpen'] %} class="tbd" title="This difficulty is currently locked out" {% endif %}
+|-
 !{{stage['Difficulty']}}
 |{{stage.ground['LevelBoss']}}
 |class="bg-element bg-{{stage.character['BulletType']|damage_type|lower}}" |{{stage.character['BulletType']|damage_type}}

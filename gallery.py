@@ -52,6 +52,14 @@ class Gallery(object):
     @property
     def variant(self):
         return '(' in self.character_wikiname and self.character_wikiname[self.character_wikiname.find('(')+1:-1] or ''
+    
+
+    def __repr__(self):
+        return (f"Gallery(root_dir={self.root_dir!r}, dirname={self.dirname!r}, "
+                f"character_wikiname={self.character_wikiname!r}, is_diorama={self.is_diorama}, "
+                f"is_exported={self.is_exported}, description={self.description!r}, "
+                f"files={list(self.files.keys())}, exclude_files={self.exclude_files!r}, "
+                f"cargo_template={self.cargo_template!r})")
 
     
     def wikitext(self, include_cargo = False):
@@ -130,6 +138,20 @@ class Gallery(object):
             out += data[path]
         return out
 
+
+class Npc(object):
+    def __init__(self, wiki_name):
+        self.wiki_name = wiki_name.replace('_',' ').strip()
+
+    @property
+    def personal_name_en(self):
+        return self.wiki_name.split('(',1)[0].strip()
+    
+    @property
+    def variant(self):
+        if '(' in self.wiki_name and ')' in self.wiki_name:
+            return self.wiki_name.split('(', 1)[1].split(')', 1)[0].strip()
+        return None
 
 
 
@@ -226,6 +248,14 @@ def get_character_data():
             character_map[character.personal_name_en] = []
         character_map[character.personal_name_en].append(character)
 
+    if args['npc']:
+        for name in args['character_wikiname']:
+            npc = Npc(name)
+            if npc.personal_name_en not in character_map:
+                character_map[npc.personal_name_en] = []
+            character_map[npc.personal_name_en].append(npc)
+            
+
     # Sort character variant into groups, first entry in the one that gets Cargo data in the library
     for key in character_map:
         group = character_map[key]
@@ -263,8 +293,9 @@ def generate():
         if not export_galleries:
             print(f"No sprite export galleries found for {character_name}")
             continue
-
-        playable_variants = [x.wiki_name for x in character_map[character_name]]
+        
+        playable_variants = []
+        if not args['npc']: playable_variants = [x.wiki_name for x in character_map[character_name]]
  
         #prepare data for cargo template
         for gallery in export_galleries:
@@ -297,14 +328,15 @@ def generate():
                 upload_files(export_galleries)
                 redirect_files(export_galleries)
 
-                wikipath = character.wiki_name + '/gallery'
+                if not args['npc']:
+                    wikipath = character.wiki_name + '/gallery'
 
-                if args['wiki_section'] != None:
-                    #print(f"Updating section {args['wiki_section']} of {wikipath}")
-                    wiki.update_section(wikipath, args['wiki_section'], wikitext)
-                elif not wiki.page_exists(wikipath, wikitext):
-                    print(f'Publishing {wikipath}')
-                    wiki.publish(wikipath, wikitext, f'Generated character gallery page')
+                    if args['wiki_section'] != None:
+                        #print(f"Updating section {args['wiki_section']} of {wikipath}")
+                        wiki.update_section(wikipath, args['wiki_section'], wikitext)
+                    elif not wiki.page_exists(wikipath, wikitext):
+                        print(f'Publishing {wikipath}')
+                        wiki.publish(wikipath, wikitext, f'Generated character gallery page')
 
             
             with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:           
@@ -329,7 +361,7 @@ def main():
     
     #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
-
+    parser.add_argument('-npc', action='store_true', help='Upload and categorize images, but don\'t create gallery page')
 
     args = vars(parser.parse_args())
     print(args)
@@ -340,7 +372,7 @@ def main():
         args['wiki'] = None
 
     if args['character_wikiname']:
-        for name in args['character_wikiname']: name = name.replace('_',' ').strip()
+        args['character_wikiname'] = [name.replace('_', ' ').strip() for name in args['character_wikiname']]
 
     try:
         generate()

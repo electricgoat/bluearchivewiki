@@ -307,6 +307,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies in circular area centered on the enemy with the lowest HP."
         },
         {
+            "GroupId": "HibikiGearPublic01",
+            "NameEn": "Plenty of firepower +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies in 5 circular areas centered on the enemy with the lowest HP.\nIncrease damage by $3 in proportion to target's current HP (the lower the target HP, the greater the damage).\nEach time same target is hit, damage is reduced by $4, down to a minimum of $5 damage."
+        },
+        {
             "GroupId": "HibikiPassive01",
             "NameEn": "Might be dangerous",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -706,6 +711,11 @@
         {
             "GroupId": "ShizukoPublic01",
             "NameEn": "Don't interfere with Business!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy and lower their Attack by $3 for $4."
+        },
+        {
+            "GroupId": "ShizukoGearPublic01",
+            "NameEn": "Don't interfere with Business! +",
             "DescriptionEn": "Every $1, deal $2 damage to one enemy and lower their Attack by $3 for $4."
         },
         {
@@ -1689,6 +1699,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
         },
         {
+            "GroupId": "CH0072GearPublic01",
+            "NameEn": "Purifying baptism +",
+            "DescriptionEn": "Every $1, for enemies within 3 circular areas, reduce Defense by $2 for $3. Deal $4 damage."
+        },
+        {
             "GroupId": "CH0072Passive01",
             "NameEn": "Resolute mind",
             "DescriptionEn": "Increase Critical Rate by $1."
@@ -2043,7 +2058,12 @@
         {
             "GroupId": "CH0064Public01",
             "NameEn": "Swift and Skilful Resolution",
-            "DescriptionEn": "Every $1, deal $2 damage to a single enemy. Additionally, inflict $3 continuous chill damage. (Duration: $4)"
+            "DescriptionEn": "Every $1, deal $2 damage to a single enemy. Additionally, inflict $3 continuous Chill damage. (Duration: $4)"
+        },
+        {
+            "GroupId": "CH0064GearPublic01",
+            "NameEn": "Swift and Skilful Resolution +",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3. Deal $4 damage to a single enemy. Additionally, inflict $5 continuous Chill damage. (Duration: $6)"
         },
         {
             "GroupId": "CH0064Passive01",
@@ -5303,6 +5323,58 @@
             "GroupId": "CH0271ExtraPassive01",
             "NameEn": "Troika",
             "DescriptionEn": "Increase Attack of Mystic type allies by $1."
+        },
+
+        {
+            "GroupId": "CH0134Ex01",
+            "NameEn": "Technique: Grenade kick",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nApply a debuff strengthening the effect of existing continuous damage statuses (Chill, Poison) for $2.\nWhen a continuous damage status (Chill, Poison) is applied to ​​an enemy with the debuff, strengthen the effect:\nChill: Reduce the delay between chill damage ticks by $3.\nPoison: Deal $4 additional damage every 2 seconds on top of the poisoning effect damage, up to a maximum of $5."
+        },
+        {
+            "GroupId": "CH0134Public01",
+            "NameEn": "Stance: Rising dragon form",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0134Passive01",
+            "NameEn": "Qigong: Protein shake",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0134WeaponPassive01",
+            "NameEn": "Qigong: Protein shake +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0134ExtraPassive01",
+            "NameEn": "Mind: Weight training",
+            "DescriptionEn": "When using EX skill, increase Cost Recovery by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0139Ex01",
+            "NameEn": "Imperial Edict: Gather Knowledge",
+            "DescriptionEn": "For one ally, increase the EX Skill damage by $1 for $2."
+        },
+        {
+            "GroupId": "CH0139Public01",
+            "NameEn": "Imperial Edict: Ethics and Discipline",
+            "DescriptionEn": "Every $1, grant a shield of $2 Healing to the ally with the lowest HP for $3."
+        },
+        {
+            "GroupId": "CH0139Passive01",
+            "NameEn": "Order: Moderation",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0139WeaponPassive01",
+            "NameEn": "Order: Moderation +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0139ExtraPassive01",
+            "NameEn": "Imperial Proclamation",
+            "DescriptionEn": "Increase Cost Recovery of allies by $1."
         }
         
 
