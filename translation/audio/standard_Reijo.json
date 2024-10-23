@@ -1,0 +1,391 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reijo_Formation_In_1",
+            "LocalizeJP": "謹んでお受けいたします。",
+            "LocalizeEN": "I humbly accept"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reijo_Formation_In_2",
+            "LocalizeJP": "粉骨砕身。全力で取り組みます。",
+            "LocalizeEN": "With all that I have. I will give it my best"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reijo_Formation_Select",
+            "LocalizeJP": "流れる水のごとく。",
+            "LocalizeEN": "Just like flowing water"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_Defeat_1",
+            "LocalizeJP": "集合が...足りませんでした",
+            "LocalizeEN": "The training... wasn't enough"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_Defeat_2",
+            "LocalizeJP": "不甲斐ない",
+            "LocalizeEN": "I'm useless..!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_In_1",
+            "LocalizeJP": "カンフーの極意、お見せしましょう。",
+            "LocalizeEN": "Let me show you the secrets of Kung Fu"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_In_2",
+            "LocalizeJP": "さあ、参ります！",
+            "LocalizeEN": "Well, here I come!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_Victory_1",
+            "LocalizeJP": "最後まで、気を抜かずに。",
+            "LocalizeEN": "Don't lose focus, to the last minute"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reijo_Tactic_Victory_2",
+            "LocalizeJP": "一意専心……精進します。",
+            "LocalizeEN": "With my body and soul... I'll give it my all"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Buffed_1",
+            "LocalizeJP": "漲る力を感じます！",
+            "LocalizeEN": "I'm feeling power bursting from within!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_BuffSelf_1",
+            "LocalizeJP": "勝負はここからです！",
+            "LocalizeEN": "The fight is only starting!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Covered_1",
+            "LocalizeJP": "隠れます。",
+            "LocalizeEN": "I can hide"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Damage_2",
+            "LocalizeJP": "やりますね",
+            "LocalizeEN": "Not bad"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Defense_1",
+            "LocalizeJP": "ぬるい！",
+            "LocalizeEN": "Slow!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_In_1",
+            "LocalizeJP": "気を引き締めていきましょう。",
+            "LocalizeEN": "Harden your resolve and go"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_In_2",
+            "LocalizeJP": "己を信じて、進むのみです。",
+            "LocalizeEN": "Just believe in yourself, and march on"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Move_1",
+            "LocalizeJP": "次へ参ります！",
+            "LocalizeEN": "Moving on to the next one!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Move_2",
+            "LocalizeJP": "落ち着いて、動じずに。",
+            "LocalizeEN": "Be calm, be unfazed"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Recovery_1",
+            "LocalizeJP": "ありがとうございます！",
+            "LocalizeEN": "Thank you so much!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Retire",
+            "LocalizeJP": "この程度の事を。。",
+            "LocalizeEN": "Failing at something like this..."
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_TacticalAction_1",
+            "LocalizeJP": "場所を変えましょう！",
+            "LocalizeEN": "Let's change locations!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Victory_1",
+            "LocalizeJP": "鍛錬の成果、ですね。",
+            "LocalizeEN": "Fruits of training, isn't it"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reijo_Battle_Victory_2",
+            "LocalizeJP": "ふぅ、いい汗をかきました！",
+            "LocalizeEN": "Fuh, worked up a nice sweat!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Reijo_CommonSkill",
+            "LocalizeJP": "いやあっ！\n……自重します。",
+            "LocalizeEN": "Hiyah!!\n...I'll control myself"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_1",
+            "LocalizeJP": "ふっ！はっ！\n一撃必殺！",
+            "LocalizeEN": "Fuh! Hah! One hit kill!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_2",
+            "LocalizeJP": "ふっ！えいっ！\n一点必中！",
+            "LocalizeEN": "Fuh! Hey! Scoring the hit!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_3",
+            "LocalizeJP": "はっ！いやっ！\n鎧袖一触！",
+            "LocalizeEN": "Hah! Hiyah! One hit KO!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_Level_1",
+            "LocalizeJP": "くらえ！",
+            "LocalizeEN": "Eat this!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_Level_2",
+            "LocalizeJP": "どうだ！",
+            "LocalizeEN": "How's this!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reijo_ExSkill_Level_3",
+            "LocalizeJP": "抜本塞源！",
+            "LocalizeEN": "Tackling the problem at the roots!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reijo_Growup_1",
+            "LocalizeJP": "先生がいてくださったから……\n初心を忘れず、精進することができています。",
+            "LocalizeEN": "Because you were here... I am able to work hard without forgetting what I'm here for"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reijo_Growup_2",
+            "LocalizeJP": "マネージャーの仕事と鍛錬には、共通点があります。\n両方とも、己を信じる力が求められるのです。",
+            "LocalizeEN": "There are common ground between being a manager and training. Both asks you to believe in yourself"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reijo_Growup_3",
+            "LocalizeJP": "先生が見守ってくださったおかげで、\n今日も一歩前進、できたように思います。",
+            "LocalizeEN": "Thanks to you looking over me, I was able to take another step foward today"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reijo_Growup_4",
+            "LocalizeJP": "折れることなく真っすぐに。受け入れて柔軟に。\n肝心なのは、バランスです。",
+            "LocalizeEN": "Holding your ground without breaking. Taking in criticisms and being flexible. At the core, balance is key."
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reijo_Relationship_Up_1",
+            "LocalizeJP": "わ、私は、その……\n可愛らしい返事とかは、あまり得意ではなく……\nご、ご理解いただき、ありがとうございます、先生。",
+            "LocalizeEN": "I- I am, um... Not that good at giving sweet responses... A- Appreciate your understanding, Sensei"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reijo_Relationship_Up_2",
+            "LocalizeJP": "先生のそばにいると、私の心が波立つというか……\n……これ以上は、その、聞かないでください……。",
+            "LocalizeEN": "When I'm with you, it feels like there are roaring waves in my heart....\n...Ugh... Please... Don't ask anything deeper...."
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reijo_Relationship_Up_3",
+            "LocalizeJP": "こういうとき、先生のために\n何ができるのだろうと、考えてしまいます。\n……やはりここは、私と共にカンフーの修練を！",
+            "LocalizeEN": "At times like this, I wonder what I can do for you.\n...No doubt, you should have Kung Fu practice with me!"
+        },
+        {
+            "CharacterId": 10104,
+            "CharacterVoiceGroupId": 10104,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reijo_Relationship_Up_4",
+            "LocalizeJP": "護衛が必要でしたら、いつでもお申し付けください。\n全身全霊で先生をお守りします！\n……そんなに全力じゃなくて大丈夫……？で、ですが……。",
+            "LocalizeEN": "If you ever need a bodyguard, please order me to do so. I will protect you with my whole body and soul!\n.... There is no need to go that far...? B- but..."
+        }
+    ]
+}
