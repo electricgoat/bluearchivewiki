@@ -5375,6 +5375,84 @@
             "GroupId": "CH0139ExtraPassive01",
             "NameEn": "Imperial Proclamation",
             "DescriptionEn": "Increase Cost Recovery of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0273Ex01",
+            "NameEn": "Overflowing heart",
+            "DescriptionEn": "Heal one other ally for $1 of Healing, and heal self for $2.\nConvert $3 of excess healing beyond Max HP into additional overheal HP.\n(The maximum overheal HP is $4 of the target's maximum HP)\n(Overheal HP is reduced by $6 of the total amount of healing provided, including overheal, every $5.)\nGain $7 \"Fan Service\"."
+        },
+        {
+            "GroupId": "CH0273Public01",
+            "NameEn": "Blow a kiss",
+            "DescriptionEn": "Every $1, heal one other ally with the lowest HP for $2 of Healing."
+        },
+        {
+            "GroupId": "CH0273Passive01",
+            "NameEn": "Tireless effort",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0273WeaponPassive01",
+            "NameEn": "Tireless effort +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0273ExtraPassive01",
+            "NameEn": "Enjoy the moment",
+            "DescriptionEn": "Increase HP by $1.\nWhen $2 \"Fan Services\" are acquired, reduce the EX skill cost of all allies other than Mari by $3, and reset the \"Fan Service\" count. (Reduction active until EX is activated $4 time)"
+        },
+
+        {
+            "GroupId": "CH0274Ex01",
+            "NameEn": "Gap Moe",
+            "DescriptionEn": "Increase Critical Rate of self and allied Special students by $1, and increase Critical Damage by $2 for $3."
+        },
+        {
+            "GroupId": "CH0274Public01",
+            "NameEn": "You are the best",
+            "DescriptionEn": "Every $1, increase Attack by $2 and Attack Speed by $3 for $4."
+        },
+        {
+            "GroupId": "CH0274Passive01",
+            "NameEn": "I'm always watching over you",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0274WeaponPassive01",
+            "NameEn": "I'm always watching over you +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0274ExtraPassive01",
+            "NameEn": "Cheering everyone",
+            "DescriptionEn": "Increase Critical Damage for self and allied Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0275Ex01",
+            "NameEn": "Super Idol Landing",
+            "DescriptionEn": "Move to the specified location, increase Attack Speed by $1 for $2.\nGain $3 \"Penlights\" (\"Penlights\" can be stacked up to a maximum of $4)\nSummon a stage prop and move three other allies to the prop's location, and increase Attack Speed of targets that arrive at the prop by $5 for $6."
+        },
+        {
+            "GroupId": "CH0275Public01",
+            "NameEn": "I choose you",
+            "DescriptionEn": "Every $1, consume a multiple of $2 owned \"Penlights\", dealing damage to one enemy and reducing their Attack for $3\nNo \"Penlights\" consumed: Deal $4 damage, reduce target Attack by $5\n10 \"Penlights\" consumed: Deal $6 damage, reduce target Attack by $7\n20 \"Penlights\" consumed: Deal $8 damage, reduce target Attack by $9\n30 \"Penlights\" consumed: Deal $10 damage, reduce target Attack by $11"
+        },
+        {
+            "GroupId": "CH0275Passive01",
+            "NameEn": "Long Live",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0275WeaponPassive01",
+            "NameEn": "Long Live +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0275ExtraPassive01",
+            "NameEn": "Fans cheering",
+            "DescriptionEn": "Whenever other allies consume Cost, gain \"Penlights\" amount equal to the Cost used.\n(\"Penlights\" can be stacked up to a maximum of $1.)\nWhen 10 \"Penlights\" are acquired, increase Defense by $2 for $3. (effect does not stack)"
         }
         
 

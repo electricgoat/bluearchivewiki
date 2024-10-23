@@ -8604,7 +8604,7 @@
             "NameJp": "The Fury of Set",
             "DescriptionJp": "制約解除決戦・セトの憤怒（軽装備）100段階クリア",
             "NameEn": "The Fury of Set",
-            "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 50"
+            "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 100"
         },
         {
             "Key": 1612527987,
@@ -9616,8 +9616,452 @@
             "DescriptionJp": "敵を倒すたびにカイが弱くなります。\nカイは持続回復するシールドを自身にかけています。\n一度に多くのダメージを与える攻撃で攻略しましょう。",
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "Kai weakens each time an enemy is defeated.\nKai has a shield that continuously regenerates.\nUse strong, single-hit attacks to defeat Kai."
-        }
-        
+        },
 
+        {
+            "Key": 1961679229,
+            "NameJp": "百花繚乱の旗",
+            "NameEn": "Hyakkaryouran Flag",
+            "DescriptionJp": "百花繚乱の紋が刻まれた旗。竹製の簡素な作りだが、趣がある。",
+            "DescriptionEn": "A flag emblazoned with the Hyakkaryouran crest. Though simply made from bamboo, it has a charm."
+        },
+        {
+            "Key": 1028564388,
+            "NameJp": "百鬼夜行シリーズ",
+            "NameEn": "Hyakkiyako Set",
+            "DescriptionJp": "雅やかな雰囲気の百鬼夜行シリーズ。郷愁を感じるどこか懐かしい部屋でくつろごう！",
+            "DescriptionEn": "The elegant Hyakkiyako furniture series. Relax in a room that feels nostalgic and comforting!"
+        },
+        {
+            "Key": 2483653604,
+            "NameJp": "百鬼夜行シリーズ",
+            "NameEn": "Hyakkiyako Furniture"
+        },
+        {
+            "Key": 990950563,
+            "NameJp": "臙脂色の長椅子",
+            "NameEn": "Maroon Sofa",
+            "DescriptionJp": "落ち着いた色合いの長椅子。",
+            "DescriptionEn": "A long sofa in a calm, deep red color."
+        },
+        {
+            "Key": 3669935143,
+            "NameJp": "百鬼夜行教室の黒板",
+            "NameEn": "Hyakkiyako Classroom Blackboard",
+            "DescriptionJp": "百鬼夜行連合学院で使われる黒板。年季が入ってる。",
+            "DescriptionEn": "A blackboard used in the Hyakkiyako Academy. It shows its age."
+        },
+        {
+            "Key": 3110743603,
+            "NameJp": "古風な茣蓙",
+            "NameEn": "Old-Fashioned Straw Mat",
+            "DescriptionJp": "古風な模様が描かれた茣蓙筵。",
+            "DescriptionEn": "A straw mat with old-fashioned designs."
+        },
+        {
+            "Key": 3541065751,
+            "NameJp": "若草色の座椅子",
+            "NameEn": "Green Floor Chair",
+            "DescriptionJp": "若草色の椅子。座布団がついているためふかふか。ちょっと一息ついていこう。",
+            "DescriptionEn": "A chair in fresh green color. It's fluffy due to the attached cushion. Take a short break."
+        },
+        {
+            "Key": 1859310346,
+            "NameJp": "臙脂色の座椅子",
+            "NameEn": "Maroon Floor Chair",
+            "DescriptionJp": "臙脂色の椅子。肌触りの良い座布団が心を落ち着けてくれる。",
+            "DescriptionEn": "A maroon chair. The soft cushion provides a sense of calm."
+        },
+        {
+            "Key": 3865669887,
+            "NameJp": "百花繚乱の座敷机",
+            "NameEn": "Hyakkaryouran Floor Desk",
+            "DescriptionJp": "誰かが仕事をするとき使っている机。不思議と作業が捗るらしい。",
+            "DescriptionEn": "A desk used for work. For some reason, productivity seems to improve when using it."
+        },
+        {
+            "Key": 3470727126,
+            "NameJp": "行灯付き百花繚乱の座敷机",
+            "NameEn": "Floor Desk with Lantern",
+            "DescriptionJp": "夜も使えるよう、行灯が置かれている。読書をするにはちょうど良い明るさ。",
+            "DescriptionEn": "A lantern is placed on the desk for night use. It provides just the right amount of light for reading."
+        },
+        {
+            "Key": 733256030,
+            "NameJp": "きれいな座敷机",
+            "NameEn": "Clean Floor Desk",
+            "DescriptionJp": "すっきり片付けられている机。持ち主はかなりのきれい好きに違いない。",
+            "DescriptionEn": "A neatly organized desk. The owner must be quite tidy."
+        },
+        {
+            "Key": 3197939297,
+            "NameJp": "百花繚乱専用ガンスタンド",
+            "NameEn": "Hyakkaryouran Gun Stand",
+            "DescriptionJp": "銃器はここに。百花繚乱の部員専用ガンスタンド。",
+            "DescriptionEn": "This is where guns are stored. It's a gun stand exclusively for members of the Hyakkaryouran."
+        },
+        {
+            "Key": 481995828,
+            "NameJp": "昔ながらの行灯",
+            "NameEn": "Traditional Lantern",
+            "DescriptionJp": "伝統的な方法で点けた行灯。ほのかな光が場を優しく照らす。",
+            "DescriptionEn": "A lantern lit using traditional methods. Its soft glow gently illuminates the room."
+        },
+        {
+            "Key": 1783857271,
+            "NameJp": "盆栽仕立ての観葉植物",
+            "NameEn": "Potted Bonsai Plant",
+            "DescriptionJp": "盆栽風の観葉植物。これ1つあるだけで立派な景色に。",
+            "DescriptionEn": "A potted plant styled like bonsai. Just having one makes the scenery stand out."
+        },
+        {
+            "Key": 603135280,
+            "NameJp": "木製の棚",
+            "NameEn": "Wooden Shelf",
+            "DescriptionJp": "丈夫な木材で作られた棚。",
+            "DescriptionEn": "A shelf made from sturdy wood."
+        },
+        {
+            "Key": 2487250074,
+            "NameJp": "木製の大きな座卓",
+            "NameEn": "Large Wooden Floor Table",
+            "DescriptionJp": "百鬼夜行でよく使われる大きさの座卓。",
+            "DescriptionEn": "A large floor table commonly used during the Hyakkiyako."
+        },
+        {
+            "Key": 1266085824,
+            "NameJp": "きれいな座卓",
+            "NameEn": "Clean Floor Table",
+            "DescriptionJp": "何も置かれていない座卓。",
+            "DescriptionEn": "A floor table with nothing on it."
+        },
+        {
+            "Key": 3457569464,
+            "NameJp": "百花繚乱の掛け軸",
+            "NameEn": "Hyakkaryouran Hanging Scroll",
+            "DescriptionJp": "筆文字の掛け軸。なかなかの達筆で書かれている。",
+            "DescriptionEn": "A hanging scroll with calligraphy. The writing is quite skillful."
+        },
+        {
+            "Key": 1530001292,
+            "NameJp": "円形の窓",
+            "NameEn": "Round Window",
+            "DescriptionJp": "障子に穴を開けないよう気をつけて！",
+            "DescriptionEn": "Be careful not to tear the shoji screen!"
+        },
+        {
+            "Key": 2371110438,
+            "NameJp": "古風な木製の椅子",
+            "NameEn": "Old-Fashioned Wooden Chair",
+            "DescriptionJp": "百鬼夜行でよく使われている椅子。背もたれが固くて少し不評。",
+            "DescriptionEn": "A wooden chair commonly used in the Hyakkiyako. The stiff backrest is somewhat unpopular."
+        },
+        {
+            "Key": 2922028348,
+            "NameJp": "射撃練習用の的",
+            "NameEn": "Shooting Practice Target",
+            "DescriptionJp": "百花繚乱で使用する練習用の的。日頃の手入れで良好な状態を保っている。",
+            "DescriptionEn": "A practice target used in the Hyakkaryouran. Regular maintenance keeps it in good condition."
+        },
+        {
+            "Key": 3009942876,
+            "NameJp": "百花繚乱の竹垣根",
+            "NameEn": "Hyakkaryouran Bamboo Fence",
+            "DescriptionJp": "訓練場の周囲に設置されている垣根。見かけより丈夫。ぶつけても簡単に倒れないので安全。",
+            "DescriptionEn": "A bamboo fence surrounding the training grounds. It's sturdier than it looks, ensuring safety even when bumped into."
+        },
+        {
+            "Key": 1054127019,
+            "NameJp": "古風な本棚",
+            "NameEn": "Old-Fashioned Bookshelf",
+            "DescriptionJp": "昔ながらの本が並べられた本棚。",
+            "DescriptionEn": "A bookshelf lined with old-fashioned books."
+        },
+        {
+            "Key": 462791066,
+            "NameJp": "横長の座椅子",
+            "NameEn": "Wide Floor Chair",
+            "DescriptionJp": "二人で座ることができる座椅子。横になるのは難しいかもしれない。",
+            "DescriptionEn": "A floor chair for two people. It might be difficult to lie down on it."
+        },
+        {
+            "Key": 3589672781,
+            "NameJp": "少し散らかっている百花繚乱の座敷机",
+            "NameEn": "Slightly Messy Hyakkaryouran Floor Desk",
+            "DescriptionJp": "色んなものが置かれている机。誰かが熱心に取り組んでいた様子がうかがえる。",
+            "DescriptionEn": "A desk with various items placed on it. Someone seems to have been working hard."
+        },
+        {
+            "Key": 837651071,
+            "NameJp": "使用中の百花繚乱の座敷机",
+            "NameEn": "In-Use Hyakkaryouran Floor Desk",
+            "DescriptionJp": "ついさっきまで誰かが使っていた机。作業の途中だったみたい。",
+            "DescriptionEn": "A desk that was just in use moments ago. It seems like the work was still in progress."
+        },
+        {
+            "Key": 2049774326,
+            "NameJp": "桜の花瓶",
+            "NameEn": "Cherry Blossom Vase",
+            "DescriptionJp": "満開の桜の枝。花瓶に生けて飾っている。",
+            "DescriptionEn": "A vase with a branch of fully blooming cherry blossoms."
+        },
+        {
+            "Key": 761214408,
+            "NameJp": "古風な紋様の屏風",
+            "NameEn": "Old-Fashioned Patterned Folding Screen",
+            "DescriptionJp": "百鬼夜行の模様が描かれている屏風。",
+            "DescriptionEn": "A folding screen decorated with a Hyakkiyako pattern."
+        },
+        {
+            "Key": 301262175,
+            "NameJp": "羽織掛け",
+            "NameEn": "Haori Hanger",
+            "DescriptionJp": "羽織を掛けることができる。しわがつかないように設計されている。",
+            "DescriptionEn": "A hanger designed to hold a haori without causing wrinkles."
+        },
+        {
+            "Key": 2915428454,
+            "NameJp": "古風な紋様の仕切り",
+            "NameEn": "Old-Fashioned Patterned Partition",
+            "DescriptionJp": "古風な模様が刻まれた木製の仕切り。",
+            "DescriptionEn": "A wooden partition carved with traditional patterns."
+        },
+        {
+            "Key": 939100519,
+            "NameJp": "花瓶の棚",
+            "NameEn": "Vase Shelf",
+            "DescriptionJp": "十分な収納スペースに、かわいい花が飾られた二段の棚。",
+            "DescriptionEn": "A two-tier shelf with plenty of storage space and cute flowers for decoration."
+        },
+        {
+            "Key": 3254870620,
+            "NameJp": "石灯籠",
+            "NameEn": "Stone Lantern",
+            "DescriptionJp": "カフェ用に石を削って作った灯籠。庭園には必要不可欠。",
+            "DescriptionEn": "A stone lantern crafted for café use, essential for any garden."
+        },
+        {
+            "Key": 1237841699,
+            "NameJp": "間食用の座卓",
+            "NameEn": "Snack Floor Table",
+            "DescriptionJp": "お茶の時間にぴったりの座卓。甘いおやつを添えて一休み。",
+            "DescriptionEn": "A floor table perfect for tea time. Take a break with some sweet snacks."
+        },
+        {
+            "Key": 1309749344,
+            "NameJp": "食事用の座卓",
+            "NameEn": "Dining Floor Table",
+            "DescriptionJp": "食事をとるときは、正しい姿勢で座って、美味しく食べましょう。",
+            "DescriptionEn": "A floor table for dining. Sit with proper posture and enjoy your meal."
+        },
+        {
+            "Key": 728052114,
+            "NameJp": "古風な柱",
+            "NameEn": "Old-Fashioned Pillar",
+            "DescriptionJp": "百鬼夜行の伝統を感じる古風な柱。",
+            "DescriptionEn": "An old-fashioned pillar that embodies the tradition of Hyakkiyako."
+        },
+        {
+            "Key": 2172833764,
+            "NameJp": "古風な壁",
+            "NameEn": "Old-Fashioned Wall",
+            "DescriptionJp": "百鬼夜行の紋様が描かれた壁紙。",
+            "DescriptionEn": "Wallpaper adorned with a Hyakkiyako pattern."
+        },
+        {
+            "Key": 919193177,
+            "NameJp": "古風な畳",
+            "NameEn": "Old-Fashioned Tatami Mat",
+            "DescriptionJp": "古風な柄が印象的な畳。どこか懐かしい香りに、心が安らぐ。",
+            "DescriptionEn": "A tatami mat with an impressive traditional pattern. The nostalgic scent brings a sense of calm."
+        },
+        {
+            "Key": 2809299181,
+            "NameJp": "百鬼夜行の背景",
+            "NameEn": "Hyakkiyako Background",
+            "DescriptionJp": "桜舞う春の季節の背景。",
+            "DescriptionEn": "A background depicting a spring scene with cherry blossoms dancing in the wind."
+        },
+        {
+            "Key": 2302055106,
+            "NameJp": "来客用の座卓",
+            "NameEn": "Guest Floor Table",
+            "DescriptionJp": "訪問客のおもてなしに使用する大きな座卓。おやつと茶碗をたくさん乗せても余裕がある。",
+            "DescriptionEn": "A large floor table used to entertain guests. There's plenty of room for snacks and tea bowls."
+        },
+        {
+            "Key": 2351100983,
+            "NameJp": "小型庭園・青竹",
+            "NameEn": "Small Garden with Green Bamboo",
+            "DescriptionJp": "キレイに手入れされているカフェ用の小さな庭園。凛々しい青竹が印象的。",
+            "DescriptionEn": "A small garden for a café, meticulously maintained with striking green bamboo."
+        },
+        {
+            "Key": 2738518439,
+            "NameJp": "金魚鉢の棚",
+            "NameEn": "Goldfish Bowl Shelf",
+            "DescriptionJp": "金魚鉢が置かれた棚。隣の収納箱は誰のものだろう？",
+            "DescriptionEn": "A shelf with a goldfish bowl. I wonder whose storage box is next to it?"
+        },
+        {
+            "Key": 1750239439,
+            "NameJp": "茶卓",
+            "NameEn": "Tea Floor Table",
+            "DescriptionJp": "茶道の練習にぴったりの木製の座卓。",
+            "DescriptionEn": "A wooden floor table perfect for practicing the tea ceremony."
+        },
+        {
+            "Key": 2037238918,
+            "NameJp": "桜の見える露台",
+            "NameEn": "Terrace with Cherry Blossom View",
+            "DescriptionJp": "春のそよ風と、桜の香りの楽しむことができる露台。風流韻事とはこのこと。",
+            "DescriptionEn": "A terrace where you can enjoy the spring breeze and the scent of cherry blossoms. This is the essence of refined beauty."
+        },
+        {
+            "Key": 515353759,
+            "NameJp": "ライブステージ",
+            "NameEn": "Live Stage",
+            "DescriptionJp": "トリニティのアイドルユニット「アンティーク・セラフィム」のために建てられた、スペシャルステージ。3人の貴重な姿を見ることができる。",
+            "DescriptionEn": "A special stage built for Trinity's idol group, Antique Seraphim. You can witness the rare performance of its three members."
+        },
+        {
+            "Key": 2045066777,
+            "NameJp": "ライブチケット",
+            "NameEn": "Live Ticket",
+            "DescriptionJp": "多くのユニットが参加する学園祭ライブの入場チケット。ライブの後は、大切な参戦記録として取っておこう。",
+            "DescriptionEn": "Admission ticket to a live concert at the school festival where many groups will be participating. After the concert, keep it as an important record of your attendance."
+        },
+        {
+            "Key": 4126770671,
+            "NameJp": "カラフルペンライト",
+            "NameEn": "Colorful Penlight",
+            "DescriptionJp": "ライブの主役と共に輝く、カラーチェンジ可能なペンライト。広い会場でも、これがあればアイドルとファンは一つになれる。",
+            "DescriptionEn": "A color-changing penlight that shines alongside the star of the live show. Even in a large venue, this will bring the idols and fans together as one."
+        },
+        {
+            "Key": 1870900489,
+            "NameJp": "ぷちケーキ",
+            "NameEn": "Petit Cake",
+            "DescriptionJp": "学園祭の各所で配られるケーキ。一部の人にとっては学園祭に訪れる理由になるほど、味は絶品。",
+            "DescriptionEn": "Cakes are handed out at various locations throughout the festival grounds. For some people, the deliciousness is enough to be the reason they visit the school festival."
+        },
+        {
+            "Key": 2062917839,
+            "NameJp": "謎の物質",
+            "NameEn": "Mysterious Substance",
+            "DescriptionJp": "現地で収集した謎の物質。特定の「再分析」を行うと、全く異なる結果物が得られるらしい。",
+            "DescriptionEn": "A mysterious substance collected on-site. When a specific \"re-analysis\" is performed, it seems to produce a completely different result."
+        },
+        {
+            "Key": 1251018403,
+            "NameJp": "マリー（アイドル）の神名文字",
+            "NameEn": "Mari's (Idol) Eleph",
+            "DescriptionJp": "マリー（アイドル）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mari (Idol)."
+        },
+        {
+            "Key": 3182373347,
+            "NameJp": "サクラコ（アイドル）の神名文字",
+            "NameEn": "Sakurako's (Idol) Eleph",
+            "DescriptionJp": "サクラコ（アイドル）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Sakurako (Idol)."
+        },
+        {
+            "Key": 2303225485,
+            "NameJp": "ミネ（アイドル）の神名文字",
+            "NameEn": "Mine's (Idol) Eleph",
+            "DescriptionJp": "ミネ（アイドル）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mine (Idol)."
+        },
+        {
+            "Key": 1066310752,
+            "NameJp": "キサキの神名文字",
+            "NameEn": "Kisaki's Eleph",
+            "DescriptionJp": "キサキの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kisaki."
+        },
+        {
+            "Key": 3149702741,
+            "NameKr": "다섯 번째 예언자",
+            "DescriptionKr": "데카그라마톤 편 1장 17화 클리어",
+            "NameJp": "5番目の預言者",
+            "DescriptionJp": "デカグラマトン編1章17話クリア",
+            "NameEn": "",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 375103159,
+            "NameKr": "Serenade Promenade",
+            "DescriptionKr": "Serenade Promenade 칭호 획득 미션 클리어",
+            "NameJp": "Serenade Promenade",
+            "DescriptionJp": "Serenade Promenadeの称号獲得ミッションクリア",
+            "NameEn": "Serenade Promenade",
+            "DescriptionEn": "Clear the event mission to obtain the Serenade Promenade title"
+        },
+        {
+            "Key": 1129682653,
+            "NameKr": "CHOKMAH",
+            "DescriptionKr": "제약해제결전 호크마(특수장갑) 50단계 클리어",
+            "NameJp": "CHOKMAH",
+            "DescriptionJp": "制約解除決戦・コクマー（特殊装甲）50段階クリア",
+            "NameEn": "CHOKMAH",
+            "DescriptionEn": "Limit Break Assault - CHOKMAH (Special Armor) Clear stage 50"
+        },
+        {
+            "Key": 3444915211,
+            "NameKr": "CHOKMAH",
+            "DescriptionKr": "제약해제결전 호크마(특수장갑) 100단계 클리어",
+            "NameJp": "CHOKMAH",
+            "DescriptionJp": "制約解除決戦・コクマー（特殊装甲）100段階クリア",
+            "NameEn": "CHOKMAH",
+            "DescriptionEn": "Limit Break Assault - CHOKMAH (Special Armor) Clear stage 100"
+        },
+        {
+            "Key": 3486077912,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "사쿠라코와 미네가 서로를 쓰러트리지 못하도록 방해하세요.",
+            "NameJp": "イベントチャレンジステージ`1ヒント",
+            "DescriptionJp": "サクラコとミネが倒されないようにしましょう。",
+            "NameEn": "",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 3001581470,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "탱커 학생을 편성하여 적의 공격을 견디세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "タンクの生徒で、敵の攻撃に耐えましょう。",
+            "NameEn": "Event Challenge Stage 2 Hints",
+            "DescriptionEn": "Use Tank students to withstand enemy attacks."
+        },
+        {
+            "Key": 2610005946,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "헬멧단원들이 피해를 받으면 라브도 피해를 받습니다.\n\n아군이 EX스킬을 사용할 때마다 적의 회피 수치가 증가하며 허수아비의 체력을 모두 회복 시키면 초기화됩니다. \n\n모든 아군은 일정 시간 동안 이동하지 않으면 해로운 효과를 받습니다.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "ヘルメット団員がダメージを受けると、ラブもダメージを受けます。\n\n味方がEXスキルを使用するたび、敵の回避値が増加し、かかしのHPをすべて回復させると回避値は初期化されます。\n\n一定時間の間に移動しないとすべての味方が弱体状態の効果を受けます。",
+            "NameEn": "Event Challenge Stage 3 Hints",
+            "DescriptionEn": "When a Helmet Gang member takes damage, Rabu also takes damage.\n\nEach time an ally uses EX skill, the enemy's evasion value increases, and when the Scarecrow's HP is fully restored, the evasion value is reset.\nIf all allies do not move for a certain period of time, they will be affected by the weakened state."
+        },
+        {
+            "Key": 3941724285,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "4분 동안 스케반의 공격을 버티면 승리합니다.\n\n스케반은 오래 생존할수록 강해지며,\n아케미의 공격에 같이 피해를 입습니다.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "4分間、スケバン達の攻撃に耐えましょう。\n\n時間が経つとスケバン達はどんどん強くなりますが、\nアケミの攻撃を受けます。",
+            "NameEn": "Event Challenge Stage 4 Hints",
+            "DescriptionEn": "Endure the attacks of the delinquents for 4 minutes.\nAs time passes, the delinquents will get stronger, but they will be attacked by Akemi."
+        },
+        {
+            "Key": 494149653,
+            "NameKr": "이벤트 포인트",
+            "DescriptionKr": "이벤트를 진행할 때마다 획득할 수 있는 포인트. 많이 얻을수록 다양한 보상을 얻을 수 있다.",
+            "NameJp": "イベントPt",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得することができる。",
+            "NameEn": "Event Points",
+            "DescriptionEn": "These points are earned each time you progress in an event. The more you earn, the greater the variety of rewards you can receive."
+        }
+
+          
     ]
 }
