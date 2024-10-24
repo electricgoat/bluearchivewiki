@@ -10,7 +10,9 @@ import wiki
 
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from model import Item, Furniture, Character
+from model import Item, Character
+from classes.Furniture import Furniture
+from classes.Emblem import Emblem
 from raid_seasons import RAIDS, SEASON_IGNORE, SEASON_NOTES
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
@@ -21,11 +23,13 @@ data = None
 characters = {}
 items = {}
 furniture = {}
+emblems = {}
 
 season_data = {'jp':None, 'gl':None}
-skills_by_groupid = {}
-missing_skill_localization = MissingTranslations("translation/missing_LocalizeSkillExcelTable.json")
-missing_code_localization = MissingTranslations("translation/missing_LocalizeCodeExcelTable.json")
+missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
+missing_skill_localization = MissingTranslations("translation/missing/LocalizeSkillExcelTable.json")
+missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
+missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
 
 class SeasonReward(object):
@@ -70,15 +74,15 @@ class SeasonReward(object):
         )
     
 
-
 def wiki_card(type: str, id: int, **params):
-    global data, characters, items, furniture
-    return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, **params)
+    global data, characters, items, furniture, emblems
+    return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
 
 
 
 def get_raid_boss_data(group):
     global args, data, season_data
+    global missing_skill_localization
 
     boss_data = {}
 
@@ -88,7 +92,7 @@ def get_raid_boss_data(group):
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-        stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'])
+        stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization)
     
     return boss_data
 
@@ -136,29 +140,29 @@ def get_ranking_rewards(season):
 
 
 
-def get_boss_skills(skill_list_group_id):
-    global args, data, season_data, skills_by_groupid
-    global missing_skill_localization
+def get_boss_skills(skill_list_group_id, data, missing_skill_localization):
 
-    #SKILL_LISTS = ['NormalSkillGroupId', 'ExSkillGroupId', 'PublicSkillGroupId', 'PassiveSkillGroupId', 'LeaderSkillGroupId', 'ExtraPassiveSkillGroupId', 'HiddenPassiveSkillGroupId']
     SKILL_LISTS = {'NormalSkillGroupId':'Normal', 'ExSkillGroupId':'EX', 'PublicSkillGroupId':'Public', 'PassiveSkillGroupId':'Passive', 'LeaderSkillGroupId':'Leader', 'ExtraPassiveSkillGroupId':'Sub', 'HiddenPassiveSkillGroupId':'Hidden'}
 
-
     skill_list_group = data.characters_skills[(skill_list_group_id, 0, 0, False)]
+    
+    #skills appear to be referenced by GroupId rather than Id, so prepare a better data structure
+    skills_by_groupid = {item['GroupId']: item for item in data.skills.values()}
 
-    skill_data = []
-    for skill_group in SKILL_LISTS.keys():
-        for skill_id in skill_list_group[skill_group]:
-            skill_data.append(skills_by_groupid[skill_id])
-            skill_data[-1]['SkillType'] = SKILL_LISTS[skill_group]
-
+    skill_data = [
+        {
+            **skills_by_groupid[skill_id], 
+            'SkillType': SKILL_LISTS[skill_group],
+            'IconName': skills_by_groupid[skill_id]['IconName'][skills_by_groupid[skill_id]['IconName'].rfind('/') + 1:]
+        }
+        for skill_group in SKILL_LISTS.keys()
+        for skill_id in skill_list_group[skill_group]
+    ]
 
     for skill in skill_data:
-        skill['IconName'] = skill['IconName'][skill['IconName'].rfind('/')+1:]
-
-        if 'NameEn' not in data.skills_localization[skill['LocalizeSkillId']] and data.skills_localization[skill['LocalizeSkillId']]['NameJp']!="":
-            print(f"Missing skill localization {skill['LocalizeSkillId']}")
-            missing_skill_localization.add_entry(data.skills_localization[skill['LocalizeSkillId']])
+        loc_data = data.skills_localization[skill['LocalizeSkillId']]
+        if 'NameEn' not in loc_data and loc_data.get('NameJp', "") != "":
+            missing_skill_localization.add_entry(loc_data)
 
     return skill_data
 
@@ -193,8 +197,10 @@ def generate():
             boss_data[season[group][0]]= get_raid_boss_data(season[group][0])
             wikitext += template.render(season_data=season, boss_data=boss_data[season[group][0]])
  
+            template = env.get_template('./raid/template_boss_skilltable.txt')
+            skilltables = {stage['Difficulty']:template.render(stage=stage, skills_localization = data.skills_localization) for stage in boss_data[season[group][0]]['stage']}
             template = env.get_template('./raid/template_boss_skills.txt')
-            wikitext += template.render(boss_data=boss_data[season[group][0]], skills_localization = data.skills_localization)
+            wikitext += template.render(skilltables=skilltables)
 
 
         wikitext += "\n=Unit recommendations=\n"
@@ -226,7 +232,7 @@ def generate():
 
 
 def init_data():
-    global args, data, season_data, skills_by_groupid
+    global args, data, season_data
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     season_data['jp'] = load_season_data(args['data_primary'])
@@ -262,8 +268,13 @@ def init_data():
             traceback.print_exc()
             continue
 
-    #skills appear to be referenced by GroupId rather than Id, so prepare a better data structure
-    skills_by_groupid = {item['GroupId']: item for item in data.skills.values()} 
+    for emblem_id in data.emblem:
+        try:
+            emblem = Emblem.from_data(emblem_id, data, characters, missing_etc_localization, missing_localization)
+            emblems[emblem.id] = emblem
+        except Exception as err:
+            print(f'Failed to parse emblem {emblem_id}: {err}')
+            traceback.print_exc()
    
 
 def main():
@@ -288,8 +299,10 @@ def main():
     try:
         init_data()
         generate()
+        missing_localization.write()
         missing_skill_localization.write()
         missing_code_localization.write()
+        missing_etc_localization.write()
     except:
         parser.print_help()
         traceback.print_exc()

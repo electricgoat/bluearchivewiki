@@ -51,7 +51,7 @@ def load_data(path_primary, path_secondary, path_translation):
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
         costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
-        skills_localization=        load_generic(path_primary, 'LocalizeSkillExcelTable.json', key='Key'),
+        skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
         skill_additional_tooltip =  load_file_grouped(path_primary, 'SkillAdditionalTooltipExcelTable.json', key='GroupId'),
         translated_characters =     load_file(os.path.join(path_translation, 'LocalizeCharProfile.json'), key='CharacterId', load_multipart=False),
         translated_skills =         load_file(os.path.join(path_translation, 'Skills.json'), key='GroupId', load_multipart=False),

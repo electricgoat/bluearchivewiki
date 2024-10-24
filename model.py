@@ -351,7 +351,7 @@ class Skill(object):
                 range_text.append(start_variables[i] != end_variables[i] and f'{stripped_start[0]}~{end_variables[i]}' or f'{end_variables[i]}')
 
             for skill_value in range_text:
-                text_en = re.sub(r'\$[0-9]{1}', '{{SkillValue|' + skill_value + '}}', text_en, 1)
+                text_en = re.sub(r'\$\d+', '{{SkillValue|' + skill_value + '}}', text_en, 1)
 
             return text_en.replace("\n",'<br>')
         
@@ -449,8 +449,11 @@ def translate_skill(text_jp, skill_level, group_id, data):
     #replacement_count = len(re.findall(r'\$[0-9]{1}', skill_desc))
     #if len(variables) > 0 and len(variables) != replacement_count: print(f'Mismatched number of variables ({len(variables)}/{replacement_count}) in {text_jp} / {skill_desc}')
 
-    for i in range(len(variables)):
-        skill_desc = re.sub(f'\${i+1}', '{{SkillValue|' + variables[i] + '}}', skill_desc).replace("\n",'<br>')
+    skill_desc = re.sub(r'\$(\d+)', 
+        lambda m: '{{SkillValue|' + variables[int(m.group(1)) - 1] + '}}' if 1 <= int(m.group(1)) <= len(variables) else m.group(0), 
+        skill_desc
+    ).replace("\n", '<br>')
+
     return skill_desc
 
 

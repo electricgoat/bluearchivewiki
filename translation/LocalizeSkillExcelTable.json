@@ -204,9 +204,167 @@
             "NameEn": "Rising Sense of Intimidation",
             "DescriptionEn": "If Myouki's Intimidation effect erodes HP by [c][007eff]50%[-][/c] or more, target becomes Confused. \nConfusion ends when the Intimidation value becomes 0.",
             "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 1270176938,
+            "NameKr": "벼려진 의지",
+            "DescriptionKr": "엄폐물을 포함한 적 최대 9인에게 번갈아가며 화염탄 발사, 대상을 중심으로 원형 범위 내 적에게 각각 공격력 [c][007eff]288%[-][/c] 대미지",
+            "NameJp": "研ぎ澄まされた意志",
+            "DescriptionJp": "遮蔽物を含む最大で敵9人に対して、順番にそれぞれ火炎弾を発射、対象を中心とした円形範囲内の敵に対して、それぞれ攻撃力の[c][007eff]288%[-][/c]分のダメージ",
+            "NameEn": "Sharpened Will",
+            "DescriptionEn": "Launch a fireball at up to 9 enemies, including those behind cover, dealing [c][007eff]288%[-][/c] damage to each enemy in the circular area around the target."
+        },
+        {
+            "Key": 2121264501,
+            "NameKr": "벼려진 의지",
+            "DescriptionKr": "엄폐물을 포함한 적 최대 9인에게 번갈아가며 화염탄 발사, 대상을 중심으로 원형 범위 내 적에게 각각 공격력 [c][007eff]288%[-][/c] 대미지/\n화염탄을 중복해서 공격받은 엄폐물 이외의 적에게는 공격력 [c][007eff]900%[-][/c] 추가 대미지(최대 [c][007eff]1[-][/c]회)",
+            "NameJp": "研ぎ澄まされた意志",
+            "DescriptionJp": "遮蔽物を含む最大で敵9人に対して、順番にそれぞれ火炎弾を発射、対象を中心とした円形範囲内の敵に対して、それぞれ攻撃力の[c][007eff]288%[-][/c]分のダメージ/\n火炎弾を重複して攻撃を受けた敵には攻撃力の[c][007eff]900%[-][/c]分の追加ダメージ（最大[c][007eff]1[-][/c]回）",
+            "NameEn": "Sharpened Will",
+            "DescriptionEn": "Launch a fireball at up to 9 enemies, including those behind cover, dealing [c][007eff]288%[-][/c] damage to each enemy in the circular area around the target.\nEnemies hit by overlapping fireballs will additionally take [c][007eff]900%[-][/c] damage (maximum [c][007eff]1[-][/c] times)"
+        },
+        {
+            "Key": 293055446,
+            "NameKr": "연마된 지혜",
+            "DescriptionKr": "가장 먼 적 1인을 대상으로 직선 범위에 화염구 20발 발사/\n화염구에 적중된 대상에게 다음 효과 적용\n- 엄폐물: 공격력 [c][007eff]8%[-][/c] 대미지\n- 엄폐 상태인 대상: 공격력 [c][007eff]8%[-][/c] 대미지, 이동 불가([c][007eff]2초[-][/c]간)\n- 그 외 대상: 공격력 [c][007eff]8.5%[-][/c] 대미지, 공격력 [c][007eff]15%[-][/c] 화상 지속 대미지([c][007eff]40초[-][/c]간)",
+            "NameJp": "磨かれた知恵",
+            "DescriptionJp": "距離が最も遠い敵1人を対象に、直線範囲内に20発の火炎球を発射/\n火炎球が命中した敵に対して、次の効果が適用されます。\n-遮蔽物：攻撃力の[c][007eff]8%[-][/c]分のダメージ\n-遮蔽状態の対象：攻撃力の[c][007eff]8%[-][/c]分のダメージ、移動不可（[c][007eff]2秒[-][/c]間）\n-その他の敵：攻撃力の[c][007eff]8.5%[-][/c]分のダメージ、攻撃力の[c][007eff]15%[-][/c]分の火傷持続ダメージを付与（[c][007eff]40秒[-][/c]間）/\n火炎球は遮蔽物に命中した時、火炎は遮断されます。",
+            "NameEn": "Honed Wisdom",
+            "DescriptionEn": "Launch 20 fireballs in a straight line at the farthest enemy, applying the following effects:\n* Cover: Deal [c][007eff]8%[-][/c] damage.\n* Covered students: Deal [c][007eff]8%[-][/c] damage and immobilize for [c][007eff]2 seconds[-][/c].\n* Other targets: Deal [c][007eff]8.5%[-][/c] damage and apply [c][007eff]15%[-][/c] burn damage over [c][007eff]40 seconds[-][/c].\nThe fireballs disappear after hitting obstacles."
+        },
+        {
+            "Key": 2864338029,
+            "NameKr": "연마된 지혜",
+            "DescriptionKr": "가장 먼 적 1인을 대상으로 직선 범위에 화염구 20발 발사/\n화염구에 적중된 대상에게 다음 효과 적용\n- 엄폐물: 공격력 [c][007eff]8%[-][/c] 대미지\n- 엄폐 상태인 대상: 공격력 [c][007eff]8%[-][/c] 대미지, 이동 불가([c][007eff]2초[-][/c]간)\n- 그 외 대상: 공격력 [c][007eff]45%[-][/c] 대미지, 공격력 [c][007eff]120%[-][/c] 화상 지속 대미지([c][007eff]40초[-][/c]간)/\n화염구는 엄폐물에 적중하면 잠시 후 사라집니다.",
+            "NameJp": "磨かれた知恵",
+            "DescriptionJp": "距離が最も遠い敵1人を対象に、直線範囲内に20発の火炎球を発射/\n火炎球が命中した敵に対して、次の効果が適用されます。\n-遮蔽物：攻撃力の[c][007eff]8%[-][/c]分のダメージ\n-遮蔽状態の対象：攻撃力の[c][007eff]8%[-][/c]分のダメージ、移動不可（[c][007eff]2秒[-][/c]間）\n-その他の敵：攻撃力の[c][007eff]45%[-][/c]分のダメージ、攻撃力の[c][007eff]120%[-][/c]分の火傷持続ダメージを付与（[c][007eff]40秒[-][/c]間）/\n火炎球は遮蔽物に命中した時、火炎は遮断されます。",
+            "NameEn": "Honed Wisdom",
+            "DescriptionEn": "Launch 20 fireballs in a straight line at the farthest enemy, applying the following effects:\n* Cover: Deal [c][007eff]8%[-][/c] damage.\n* Covered students: Deal [c][007eff]8%[-][/c] damage and immobilize for [c][007eff]2 seconds[-][/c].\n* Other targets: Deal [c][007eff]45%[-][/c] damage and apply [c][007eff]120%[-][/c] burn damage over [c][007eff]40 seconds[-][/c].\nThe fireballs disappear after hitting obstacles."
+        },
+        {
+            "Key": 1114721381,
+            "NameKr": "연마된 지혜",
+            "DescriptionKr": "가장 먼 적 1인을 대상으로 직선 범위에 화염구 20발 발사/\n화염구에 적중된 대상에게 다음 효과 적용\n- 엄폐물: 공격력 [c][007eff]8%[-][/c] 대미지\n- 엄폐 상태인 대상: 공격력 [c][007eff]8%[-][/c] 대미지, 이동 불가([c][007eff]2초[-][/c]간)\n- 그 외 대상: 공격력 [c][007eff]45%[-][/c] 대미지, 공격력 [c][007eff]15%[-][/c] 화상 지속 대미지([c][007eff]40초[-][/c]간)/\n화염구는 엄폐물에 적중하면 잠시 후 사라집니다.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "磨かれた知恵",
+            "DescriptionJp": "距離が最も遠い敵1人を対象に、直線範囲内に20発の火炎球を発射/\n火炎球が命中した敵に対して、次の効果が適用されます。\n-遮蔽物：攻撃力の[c][007eff]8%[-][/c]分のダメージ\n-遮蔽状態の対象：攻撃力の[c][007eff]8%[-][/c]分のダメージ、移動不可（[c][007eff]2秒[-][/c]間）\n-その他の敵：攻撃力の[c][007eff]45%[-][/c]分のダメージ、攻撃力の[c][007eff]15%[-][/c]分の火傷持続ダメージを付与（[c][007eff]40秒[-][/c]間）/\n火炎球は遮蔽物に命中した時、火炎は遮断されます。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Honed Wisdom",
+            "DescriptionEn": "Launch 20 fireballs in a straight line at the farthest enemy, applying the following effects:\n* Cover: Deal [c][007eff]8%[-][/c] damage.\n* Covered students: Deal [c][007eff]8%[-][/c] damage and immobilize for [c][007eff]2 seconds[-][/c].\n* Other targets: Deal [c][007eff]45%[-][/c] damage and apply [c][007eff]15%[-][/c] burn damage over [c][007eff]40 seconds[-][/c].\nThe fireballs disappear after hitting obstacles.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2006646976,
+            "NameKr": "왕국의 수호자",
+            "DescriptionKr": "원형 범위 내의 적에게 공격력 [c][007eff]100%[-][/c] 대미지",
+            "NameJp": "王国の守護者",
+            "DescriptionJp": "円形範囲内の敵に対して、攻撃力の[c][007eff]100%[-][/c]分のダメージ",
+            "NameEn": "Guardian of the Kingdom",
+            "DescriptionEn": "Deal [c][007eff]100%[-][/c] damage to all enemies within a circular area."
+        },
+        {
+            "Key": 113056142,
+            "NameKr": "왕국의 수호자",
+            "DescriptionKr": "원형 범위 내의 적에게 공격력 [c][007eff]100%[-][/c] 대미지/\n공격력 [c][007eff]90%[-][/c] 화상 지속 대미지, 공격력 [c][007eff]183%[-][/c] 감전 지속 대미지([c][007eff]20초[-][/c]간)",
+            "NameJp": "王国の守護者",
+            "DescriptionJp": "円形範囲内の敵に対して、攻撃力の[c][007eff]100%[-][/c]分のダメージ/\n攻撃力の[c][007eff]90%[-][/c]分の火傷持続ダメージを付与、攻撃力の[c][007eff]183%[-][/c]感電持続ダメージを付与（[c][007eff]20秒[-][/c]間）",
+            "NameEn": "Guardian of the Kingdom",
+            "DescriptionEn": "Deal [c][007eff]100%[-][/c] damage to all enemies within a circular area.\nInflict [c][007eff]90%[-][/c] burn damage over time, and [c][007eff]183%[-][/c] electric shock damage over time (for [c][007eff]20 seconds[-][/c])"
+        },
+        {
+            "Key": 4028542298,
+            "NameKr": "새벽을 기다리는 헌신",
+            "DescriptionKr": "호크마가 모든 엄폐물을 파괴한 후 폭주 상태가 되며 일반 공격이 입에서 화염을 지속적으로 내뿜어 부채꼴 범위 내의 적에게 타격 시마다 공격력 [c][007eff]50%[-][/c] 대미지를 주도록 변경/\n화염은 엄폐물에 적중 시 공격력 [c][007eff]3%[-][/c] 대미지를 입힌 후 사라집니다.\n엄폐 상태인 대상이 화염에 공격받을 경우 이동 불가([c][007eff]1초[-][/c]간)/\n\n호크마가 폭주 상태일 때 다음 효과 적용\n- 반응로 게이지가 [c][007eff]0%[-][/c]가 되어도 복구 상태로 전환되지 않으며 반응로 게이지가 낮을 수록 게이지의 회복 속도 증가\n- 반응로 게이지가 [c][007eff]70%[-][/c] 미만이면 받는 대미지량 [c][007eff]100%[-][/c] 증가\n- 모든 불안정한 화염 효과를 제거하며 치명 저항 수치 [c][007eff]100%[-][/c] 감소\n- 스트라이커 적이 퇴각하면 반응로 게이지 대폭 증가",
+            "NameJp": "夜明けを待つ",
+            "DescriptionJp": "すべての遮蔽物を破壊し、暴走状態に移行。通常攻撃が口から火炎を持続的に放射し、扇形範囲内の敵に対して、1hit毎に攻撃力の[c][007eff]50%[-][/c]分のダメージを与えるように変更されます。/\n火炎は遮蔽物に命中した時、攻撃力の[c][007eff]3%[-][/c]分のダメージを与えた後、火炎は遮断されます。\n遮蔽状態の対象が火炎攻撃を受けた場合、移動不可（[c][007eff]1秒[-][/c]間）/\n\nコクマーが暴走状態の場合、次の効果を適用\n-リアクターゲージが[c][007eff]0%[-][/c]になっても復旧状態に切替されず、リアクターゲージが低いほどゲージの回復速度が増加\n-リアクターゲージが[c][007eff]70%[-][/c]未満の場合、被ダメージ量が[c][007eff]100%[-][/c]増加\n-すべての不安定な火炎効果を解除し、会心抵抗値が[c][007eff]100%[-][/c]減少\n-敵のストライカー生徒が退却した場合、リアクターゲージが大幅増加",
+            "NameEn": "Awaiting Dawn",
+            "DescriptionEn": "Enter rampage, destroying all cover. Normal attacks are changed to continuously emit flames from the mouth, dealing [c][007eff]50%[-][/c] damage per hit to enemies within a fan-shaped range.\nWhen the flames hit cover, they deal [c][007eff]3%[-][/c] damage, and are stopped. \nIf a shielded target is hit by a fire attack, it cannot move (for [c][007eff]1 second[-][/c])/\n\nIf Chokmah is in a rampage state, the following effects are applied\n* Even if the reactor gauge is [c][007eff]0%[-][/c], it will not switch to recovery state, and the lower the reactor gauge is, the faster the gauge recovers\n* If the reactor gauge is less than [c][007eff]70%[-][/c], the amount of damage taken increases by [c][007eff]100%[-][/c]\n* Remove all unstable fire effects and reduce Critical Resistance by [c][007eff]100%[-][/c]\n* If an enemy Striker student retreats, the reactor gauge increases significantly"
+        },
+        {
+            "Key": 3980173347,
+            "NameKr": "합일의 수레바퀴",
+            "DescriptionKr": "호크마가 해로운 효과로 인한 지속 대미지에 피해를 입으면 반응로 게이지가 감소하며 [c][007eff]0%[-][/c]가 되면 복구 상태로 전환([c][007eff]20초[-][/c]간)(쿨타임 [c][007eff]25초[-][/c])/\n반응로 게이지가 복구 상태로 전환될 때마다 다음 효과 적용\n- 치명 대미지 저항률 [c][007eff]50%[-][/c] 감산(최대 6중첩)\n- 치명 저항 수치 [c][007eff]100%[-][/c] 감소([c][007eff]20초[-][/c]간)\n- 불안정한 화염 효과 획득(최대 3중첩)",
+            "NameJp": "不離一体の歯車",
+            "DescriptionJp": "コクマーが弱体状態による持続ダメージを受けるとリアクターゲージが減少し、[c][007eff]0%[-][/c]になれば復旧状態へ切替（[c][007eff]20秒[-][/c]間）（クールタイム[c][007eff]25秒[-][/c]）/\nリアクターゲージが復旧状態に切替される度に次の効果を適用\n-会心ダメージ抵抗率が[c][007eff]5000[-][/c]減少（最大6重複）\n-会心抵抗値が[c][007eff]100%[-][/c]減少（[c][007eff]20秒[-][/c]間）\n-不安定な火炎効果を獲得（最大3重複）",
+            "NameEn": "Wheel of Unity",
+            "DescriptionEn": "When Chokmah takes damage from debuff effects, its reactor gauge decreases. If it reaches [c][007eff]0%[-][/c], it enters recovery mode for [c][007eff]20 seconds[-][/c] (cooldown: [c][007eff]25 seconds[-][/c]).\nThe following effect is applied each time the reactor gauge switches to recovery:\n* Critical Damage Resistance decreases by 5000 (maximum of 6 stacks)\n* Critical Resistance decreases by 100% (maximum of 3 stacks)\n* Gain Unstable Flame effect (maximum of 3 stacks)"
+        },
+        {
+            "Key": 1893667434,
+            "NameKr": "승천의 수레바퀴",
+            "DescriptionKr": "받는 대미지량 [c][007eff]50%[-][/c] 감소",
+            "NameJp": "寂滅の歯車",
+            "DescriptionJp": "被ダメージ量を[c][007eff]50%[-][/c]減少",
+            "NameEn": "Wheel of Ascension",
+            "DescriptionEn": "Reduce incoming damage by [c][007eff]50%[-][/c]."
+        },
+        {
+            "Key": 1616649841,
+            "NameKr": "승천의 수레바퀴",
+            "DescriptionKr": "받는 대미지량 [c][007eff]50%[-][/c] 감소/\n호크마의 반응로 게이지량 증가",
+            "NameJp": "寂滅の歯車",
+            "DescriptionJp": "被ダメージ量を[c][007eff]50%[-][/c]減少/\nコクマーのリアクターゲージ量を増加",
+            "NameEn": "Wheel of Ascension",
+            "DescriptionEn": "Reduce incoming damage by [c][007eff]50%[-][/c].\nIncrease Chokmah's reactor gauge capacity."
+        },
+        {
+            "Key": 2167520749,
+            "NameKr": "승천의 수레바퀴",
+            "DescriptionKr": "받는 대미지량 [c][007eff]80%[-][/c] 감소/\n호크마의 반응로 게이지량 증가/\n해로운 효과로 인한 지속 대미지에 피해를 입을 때마다 받는 대미지량 [c][007eff]10%[-][/c] 증가([c][007eff]10초[-][/c]간)(최대 5중첩)/\n호크마에 적용되는 모든 받는 피해 증가 효과는 합산 [c][007eff]160%[-][/c]를 초과할 수 없음",
+            "NameJp": "寂滅の歯車",
+            "DescriptionJp": "被ダメージ量を[c][007eff]80%[-][/c]減少/\nコクマーのリアクターゲージ量を増加/\n弱体状態による持続ダメージを受ける度に被ダメージ量が[c][007eff]10%[-][/c]増加（[c][007eff]10秒[-][/c]間）（最大5重複）/\nコクマーに適用されるすべての被ダメージ量の増加効果は合算[c][007eff]160%[-][/c]を超えることはできない",
+            "NameEn": "Wheel of Ascension",
+            "DescriptionEn": "Reduce incoming damage by [c][007eff]80%[-][/c].\nIncrease Chokmah's reactor gauge capacity.\nEach time Chokmah takes DoT damage, increase damage taken by [c][007eff]10%[-][/c] for [c][007eff]10 seconds[-][/c] (maximum of 5 stacks)\nThe combined damage taken increase of all effects cannot exceed [c][007eff]160%[-][/c]"
+        },
+        {
+            "Key": 967237320,
+            "NameKr": "지혜의 증거",
+            "DescriptionKr": "호크마의 열기에 의해 모든 적은 엄폐물에 엄폐가 불가하며 엄폐물을 대상으로 공격 및 스킬 사용 불가/\n단, 엄폐 상태를 부여하는 효과에는 영향을 미치지 않습니다.",
+            "NameJp": "知恵の証明",
+            "DescriptionJp": "コクマーの熱気によって、すべての敵は遮蔽物に隠れることができず、遮蔽物を対象に攻撃およびスキル使用不可\nただし、遮蔽状態を付与する効果には影響しません。",
+            "NameEn": "Proof of Wisdom",
+            "DescriptionEn": "Chokmah's heat prevents enemies from taking cover, nor can they target or use skills on cover. However, it does not prevent effects that grant cover."
+        },
+        {
+            "Key": 2060423553,
+            "NameKr": "현장대응: 발리스타 발사",
+            "DescriptionKr": "일정 시간마다 발리스타 통제기 작동(최대 [c][007eff]2[-][/c]회 작동 가능)\n작동된 발리스타 통제기는 EX 스킬로만 공격할 수 있으며, 체력이 1% 미만이면 발리스타 발사(대형 발리스타가 파괴된 상태면 발리스타가 발사되지 않음)\n추가로 스트라이커 적의 치명 확률이 최대치가 되며 코스트 회복력 [c][007eff]1000[-][/c] 증가([c][007eff]22초[-][/c]간)",
+            "NameJp": "制御装置：バリスタ発射",
+            "DescriptionJp": "一定時間毎に、バリスタ制御装置を作動（最大[c][007eff]2[-][/c]回作動可能）\n作動されたバリスタ制御装置はEXスキルでのみ攻撃可能で、HPが1%未満の場合はバリスタを発射（大型バリスタが破壊された状態なら、バリスタは発射されない）\nさらに敵のストライカー生徒の会心率が最大値になり、コスト回復力を[c][007eff]1000[-][/c]増加（[c][007eff]22秒[-][/c]間）",
+            "NameEn": "Control Device: Ballista Launch",
+            "DescriptionEn": "Activates the ballista control device at regular intervals (can be activated up to [c][007eff]2[-][/c] times)\nActivated ballista control device can only be attacked with EX skills, and fires a ballista if its HP is less than 1% (if the large ballista is destroyed, the ballista will not fire)\nFurthermore, enemy Striker students' Critical Rate is maxed, and Cost Recovery will be increased by [c][007eff]1000[-][/c] (for [c][007eff]22 seconds[-][/c])"
+        },
+        {
+            "Key": 820375476,
+            "NameKr": "현장대응: 발리스타",
+            "DescriptionKr": "발리스타 통제기에 의해 발리스타가 발사되면 호크마는 그로기 상태가 되며 다음 효과 적용\n- 그로기 상태가 유지되는 동안 받는 대미지량 [c][007eff]50%[-][/c] 증가(호크마가 폭주 상태일 경우 적용되지 않음)\n- 모든 불안정한 화염 효과를 제거하며 제거된 불안정한 화염 1개 당 받는 대미지량 [c][007eff]25%[-][/c] 추가 증가",
+            "NameJp": "制御装置：バリスタ",
+            "DescriptionJp": "バリスタ制御装置によってバリスタが発射されると、コクマーはグロッキー状態になり、次の効果が適用されます。\nグロッキー状態の間、被ダメージ量が[c][007eff]50%[-][/c]増加（コクマーが暴走状態の時は適用されない）、すべての不安定な火炎効果を解除し、解除された不安定な火炎1個毎に、被ダメージ量が[c][007eff]25%[-][/c]追加で増加",
+            "NameEn": "Control Device: Ballista",
+            "DescriptionEn": "When ballista is fired by the ballista control device, Chokmah enters a groggy state, and the following effects are applied:\n* The damage received while in a groggy state is increased by [c][007eff]50%[-][/c] (not applied when Chokmah is in a rampage state).\n* All Unstable Flame effects are removed, and for each Unstable Flame removed, the damage received is increased by an additional [c][007eff]25%[-][/c]."
+        },
+        {
+            "Key": 3959680911,
+            "NameKr": "빛을 비추는 지성",
+            "DescriptionKr": "모든 엄폐물을 파괴한 후 대형 발리스타를 향해 이동하는 강철바퀴 1개 소환([c][007eff]20초[-][/c]간)/\n강철바퀴가 대형 발리스타에 도달하면 대형 발리스타에게 대상의 최대 체력 [c][007eff]50%[-][/c] 대미지\n강철바퀴는 엄폐물에 부딪히면 이동을 멈춘 뒤 부딪힌 대상에게 타격 시마다 공격력 [c][007eff]9.6%[-][/c] 신비 타입 대미지\n엄폐 상태인 대상이 강철바퀴에 공격받을 경우 이동 불가([c][007eff]1.2초[-][/c]간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "光が照らす知性",
+            "DescriptionJp": "すべての遮蔽物を破壊し、大型バリスタに向かって移動する鋼鉄の車輪を1個召喚（[c][007eff]20秒[-][/c]間）/\n鋼鉄の車輪が大型バリスタに到達した時、大型バリスタの最大HP[c][007eff]50%[-][/c]分のダメージ\n鋼鉄の車輪は遮蔽物にぶつかると移動を止め、ぶつかった対象に対して1hitごとに攻撃力[c][007eff]9.6%[-][/c]分の神秘タイプのダメージ\n遮蔽状態の対象が鋼鉄の車輪で攻撃を受けた場合、移動不可（[c][007eff]1.2秒[-][/c]間）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Enlightened Intelligence",
+            "DescriptionEn": "Destroy all cover and summon 1 steel wheel that moves toward the large ballista for [c][007eff]20 seconds[-][/c].\nIf the steel wheel reaches the large ballista, it deals damage equal to [c][007eff]50%[-][/c] of the target's max HP.\nIf the steel wheel hits an obstacle, it stops moving and deals [c][007eff]9.6%[-][/c] Mystic-type damage with each hit to the target it collided with.\nIf a target in cover is hit by the steel wheel, they become immobile for [c][007eff]1.2 seconds[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2910754825,
+            "NameKr": "빛을 비추는 지성",
+            "DescriptionKr": "모든 엄폐물을 파괴한 후 대형 발리스타를 향해 이동하는 강철바퀴 2개 소환([c][007eff]20초[-][/c]간)/\n강철바퀴가 대형 발리스타에 도달하면 대형 발리스타에게 대상의 최대 체력 [c][007eff]100%[-][/c] 대미지\n강철바퀴는 엄폐물에 부딪히면 이동을 멈춘 뒤 부딪힌 대상에게 타격 시마다 공격력 [c][007eff]9.6%[-][/c] 신비 타입 대미지\n엄폐 상태인 대상이 강철바퀴에 공격받을 경우 이동 불가([c][007eff]1.2초[-][/c]간)",
+
+            "NameJp": "光が照らす知性",
+            "DescriptionJp": "すべての遮蔽物を破壊し、大型バリスタに向かって移動する鋼鉄の車輪を2個召喚（[c][007eff]20秒[-][/c]間）/\n鋼鉄の車輪が大型バリスタに到達した時、大型バリスタの最大HP[c][007eff]100%[-][/c]分のダメージ\n鋼鉄の車輪は遮蔽物にぶつかると移動を止め、ぶつかった対象に対して1hitごとに攻撃力[c][007eff]9.6%[-][/c]分の神秘タイプのダメージ\n遮蔽状態の対象が鋼鉄の車輪で攻撃を受けた場合、移動不可（[c][007eff]1.2秒[-][/c]間）",
+            "NameEn": "Enlightened Intelligence",
+            "DescriptionEn": "Destroy all cover and summon 2 steel wheels that move toward the large ballista for [c][007eff]20 seconds[-][/c].\nIf the steel wheel reaches the large ballista, it deals damage equal to [c][007eff]100%[-][/c] of the target's max HP.\nIf the steel wheel hits an obstacle, it stops moving and deals [c][007eff]9.6%[-][/c] Mystic-type damage with each hit to the target it collided with.\nIf a target in cover is hit by the steel wheel, they become immobile for [c][007eff]1.2 seconds[-][/c]."
         }
-
-
-        
+ 
     ]
 }

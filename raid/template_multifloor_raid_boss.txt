@@ -23,7 +23,7 @@
 |{{stage.total_stats['CriticalResistPoint']|thousands}}
 |{{stage.total_stats['CriticalDamageResistRate']|thousands}}
 |{{stage.total_stats['GroggyGauge']|thousands}}
-|{% for reward in stage.clear_rewards %}{{reward.wiki_items}}{% endfor %}
+| class="collapsed-opacity" |{% for reward in stage.clear_rewards %}{{reward.wiki_items}}{% endfor %}
 
 {%- if boss_data['reward_subtotal'][stage['Difficulty']] %}
 |- class="protected"

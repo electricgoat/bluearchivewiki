@@ -13,12 +13,15 @@ from data import load_data, load_season_data
 from model import Item, Character
 from classes.Furniture import Furniture, FurnitureGroup
 from classes.Emblem import Emblem
+
+from raid import get_boss_skills
 from raid_seasons import RAIDS
 from multifloor_raid_seasons import SEASON_IGNORE, SEASON_NOTES
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
 missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
+missing_skill_localization = MissingTranslations("translation/missing/LocalizeSkillExcelTable.json")
 missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
 missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
@@ -95,6 +98,7 @@ def wiki_card(type: str, id: int, **params):
 
 def get_raid_boss_data(group):
     global args, data, season_data
+    global missing_skill_localization
 
     boss_data = {}
 
@@ -102,13 +106,15 @@ def get_raid_boss_data(group):
 
     unlock_req = 0
     for i, stage in enumerate(boss_data['stage']): 
-        #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
+        #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['BossCharacterId']} {stage['Difficulty']}")
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
         stage['total_stat_bonus'] = total_stat_bonus(stage['StatChangeId'], stage['RaidCharacterId'])
         stage['total_stats'] = total_stats(data.characters_stats[stage['RaidCharacterId']], stage['total_stat_bonus'])
         stage['clear_rewards'] = clear_rewards(stage['RewardGroupId'])
+        stage['skill_list_group_id'] = data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId']
+        stage['character_skills'] = get_boss_skills(stage['skill_list_group_id'], data, missing_skill_localization)
 
         if i==0 or i==123:
             stage['protected'] = True
@@ -187,20 +193,45 @@ def generate():
     env.filters['damage_type'] = shared.functions.damage_type
     env.filters['armor_type'] = shared.functions.armor_type
     env.filters['thousands'] = shared.functions.format_thousands
+    env.filters['colorize'] = shared.functions.colorize
+    env.filters['nl2br'] = shared.functions.nl2br
     
 
     region = 'jp'
     for season in season_data[region].multi_floor_raid_season.values():
         print (f"Working on season {season['SeasonId']}")
-        wikitext = ''
-        
-
-        template = env.get_template('./raid/template_multifloor_raid_boss.txt')
 
         boss_data[season['OpenRaidBossGroupId']]= get_raid_boss_data(season['OpenRaidBossGroupId'])
-        wikitext += template.render(season_data=season, boss_data=boss_data[season['OpenRaidBossGroupId']])
 
-        wikitext = "==Boss Info==\n" + wikitext + "\n"
+        template = env.get_template('./raid/template_multifloor_raid_boss.txt')
+        wikitext_levels = template.render(season_data=season, boss_data=boss_data[season['OpenRaidBossGroupId']])
+
+
+        stages_to_export = {}
+        stages = boss_data[season['OpenRaidBossGroupId']]['stage']
+
+        bracket_start = bracket_end = stages[0]['Difficulty']
+        skillgroup_start = stages[0]['skill_list_group_id']
+
+        for stage in stages[1:]:
+            bracket_curr = stage['Difficulty']
+            skillgroup_curr = stage['skill_list_group_id']
+            if skillgroup_start == skillgroup_curr:
+                bracket_end = bracket_curr
+            else:
+                stages_to_export[f"{bracket_start}~{bracket_end}"] = stage
+                bracket_start = bracket_curr
+                skillgroup_start = skillgroup_curr
+
+        stages_to_export[f"{bracket_start}~{bracket_end}"] = stages[-1]
+
+        template = env.get_template('./raid/template_boss_skilltable.txt')
+        skilltables = {title:template.render(stage=stage, skills_localization = data.skills_localization) for title, stage in stages_to_export.items()}
+        template = env.get_template('./raid/template_boss_skills.txt')
+        wikitext_skills = template.render(skilltables=skilltables)
+
+
+        wikitext = "==Boss Info==\n" + wikitext_levels + "\n" + wikitext_skills
 
         with open(os.path.join(args['outdir'], 'raids' ,f"multifloor_raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
             f.write(wikitext)
@@ -278,6 +309,7 @@ def main():
         generate()
 
         missing_localization.write()
+        missing_skill_localization.write()
         missing_code_localization.write()
         missing_etc_localization.write()
     except:

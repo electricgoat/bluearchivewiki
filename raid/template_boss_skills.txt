@@ -1,23 +1,8 @@
 ===Skills===
 <tabber>
-{%- for stage in boss_data['stage'] %}
+{%- for title, table in skilltables.items() %}
 |-|
-{{stage['Difficulty']}}=
-{% raw %}{{% endraw %}| class="wikitable"
-!Icon
-!Skill Name
-!Type
-!Effect
-{%- for skill in stage['character_skills'] if skill['IconName']!='' %}
-|-
-|[[File:{{skill['IconName']}}.png|50px]]
-|{{skills_localization[skill['LocalizeSkillId']]['NameJp']}}
-{{skills_localization[skill['LocalizeSkillId']]['NameEn']}}
-|{{skill['SkillType']}}
-|{{skills_localization[skill['LocalizeSkillId']]['DescriptionJp']|colorize|nl2br}}
-
-{{skills_localization[skill['LocalizeSkillId']]['DescriptionEn']|colorize|nl2br}}
-{%- endfor %}
-{% raw %}|}{% endraw %}
+{{title}}=
+{{table}}
 {%- endfor %}
 </tabber>

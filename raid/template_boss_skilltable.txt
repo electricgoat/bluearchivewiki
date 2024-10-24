@@ -1,0 +1,14 @@
+{% raw %}{{% endraw %}| class="wikitable limitwidth-1024"
+!Icon
+!Skill Name
+!Type
+!Effect
+{%- for skill in stage['character_skills'] if skill['IconName']!='' %}
+|-
+| class="bg-element bg-normal" |[[File:{{skill['IconName']}}.png|50px]]
+|{{skills_localization[skill['LocalizeSkillId']]['NameJp']}}
+{{skills_localization[skill['LocalizeSkillId']]['NameEn']}}
+|{{skill['SkillType']}}
+|{{skills_localization[skill['LocalizeSkillId']].get('DescriptionEn', skills_localization[skill['LocalizeSkillId']]['DescriptionJp'])|colorize|nl2br}}
+{%- endfor %}
+{% raw %}|}{% endraw %}
