@@ -2,6 +2,7 @@ import traceback
 
 from pywikiapi import Site, ApiError
 import wikitextparser as wtp
+import re
 
 WIKI_API = 'https://bluearchive.wiki/w/api.php'
 
@@ -150,7 +151,7 @@ def update_template(page_name, template_name, wikitext):
 
 
 
-def update_section(page_name, section_name, wikitext):
+def update_section(page_name:str, section_name:str, wikitext:str, preserve_trailing_parts:bool = False):
     section_old = None
     section_new = None
     
@@ -188,6 +189,13 @@ def update_section(page_name, section_name, wikitext):
     if section_old == None:
         print (f'Unable to find old section data')
         return
+    
+    if preserve_trailing_parts:
+        new_trailing_parts = extract_trailing_parts(section_new)
+        for old_part in extract_trailing_parts(section_old):
+            if old_part not in new_trailing_parts:
+                section_new += '\n' + old_part
+        section_new += '\n'
 
     if section_new == section_old:
         print (f'...no changes in {section_name} section for {page_name}')
@@ -326,3 +334,9 @@ def move(name_old, name_new, summary='Consistent naming', noredirect=True):
 def redirect(name_from, name_to, summary='Generated redirect'):
     wikitext = f"#REDIRECT [[{name_to}]]"
     publish(name_from, wikitext, summary)
+
+
+def extract_trailing_parts(section):
+    #Match {{...}} or [[Category:...]]
+    trailing_pattern = re.compile(r'(\{\{[^}]+\}\}|\[\[Category:[^\]]+\]\])\s*$', re.MULTILINE)
+    return trailing_pattern.findall(section)

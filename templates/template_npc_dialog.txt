@@ -1,0 +1,27 @@
+{%- raw -%}{{Warning| Spoilers and non-canon content | Some of the voicelines listed on this page may contain story spoilers. Some of the lines may be unused or otherwise inaccessible in the game and therefore should not be seen as canonical.}}
+=NPC lines=
+{| class="wikitable limitwidth-1024"
+|+
+! rowspan="2" |Name
+! rowspan="2" style="width:300px" |
+! colspan="2" |Transcription
+|-
+! style="width:240px" |Japanese
+! style="width:240px" |English
+{%- endraw %}
+{% for file, line in file_list.items() -%}
+|-
+| {{line['wikitext_voice_title']}}
+| [[File:{{line['wikitext_voice_clips']}}]]
+| lang="ja" | {% if line['is_character_dialog'] %}{{character_dialog[line['voice_id']].get('LocalizeJP', '')|html}}{% endif %}
+| {% if line['is_character_dialog'] %}{{character_dialog[line['voice_id']].get('LocalizeEN', '')|html}}{% endif %}
+{% endfor -%}
+{% raw -%}
+|}
+{%- endraw %}
+
+{% raw -%}
+<references group="note"/>
+{{CharacterAudioSeo}}
+{%- endraw %}
+[[Category:NPC audio]]

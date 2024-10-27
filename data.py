@@ -299,7 +299,7 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
 
 
-def load_character_dialog(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'dialog'):
+def load_character_dialog(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'dialog')->list:
     dp = {}
     ds = {}
     da = {}

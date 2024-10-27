@@ -353,7 +353,7 @@ def generate():
 
                     if wiki.page_exists(wikipath):
                         print(f'Publishing {wikipath}')
-                        wiki.update_section(wikipath, args['wiki_section'] or "Images", wikitext)
+                        wiki.update_section(wikipath, args['wiki_section'] or "Images", wikitext, preserve_trailing_parts=True)
 
             
             with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:           
