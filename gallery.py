@@ -172,7 +172,7 @@ def generate_page_wikitext(export_galleries:list[Gallery], include_cargo = False
 
     #print(f"Export galleries: {[x.dirname for x in export_galleries]}")
 
-    wikitext = '=Sprites=\n'
+    wikitext = '{{CharacterTopNav}}\n=Sprites=\n'
     for gallery in export_galleries:
         wikitext +=  gallery.wikitext(include_cargo)
 
@@ -273,7 +273,8 @@ def get_character_data():
         
         vanilla_variant = [c for c in group if c.variant is None]
         rest = [c for c in group if c.variant is not None]
-        rest.sort(key=lambda c: datetime.strptime(c.profile.release_date_jp, "%Y/%m/%d"))
+        try: rest.sort(key=lambda c: datetime.strptime(c.profile.release_date_jp, "%Y/%m/%d"))
+        except: pass
         
         character_map[key] = vanilla_variant + rest
 

@@ -6,11 +6,12 @@
 | SkillType = {{skill.show_skill_slot}}
 | SkillDescriptionGeneral = {{skill.description_general|colorize}}
 {% for level in skill.levels -%}
+{%- if loop.index <= skill.max_level -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
 {% if show_materials %}{% set outer_loop = loop -%}
 {% for name, _, amount in level.materials -%}
 | SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Name = {{name}}
 | SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
-{% endfor -%}{% endif -%}
+{% endfor -%}{% endif -%}{% endif -%}
 {% endfor -%}
 {% raw %}}}{% endraw %}

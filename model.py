@@ -297,7 +297,7 @@ class SkillLevel(object):
 
 
 class Skill(object):
-    def __init__(self, name, name_translated, icon, levels, description_general, damage_type, skill_cost, effect_data, additional_tooltip = [], show_skill_slot = ''):
+    def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], show_skill_slot = ''):
         self.name = name
         self.icon = icon
         self.levels = levels
@@ -306,7 +306,7 @@ class Skill(object):
         # Extra information
         self.name_translated = name_translated
         self.description_general = description_general
-        #self.max_level = 10
+        self.max_level = max_level
         self.skill_cost = skill_cost
         self.effect_data = effect_data
         self.additional_tooltip = additional_tooltip
@@ -358,7 +358,7 @@ class Skill(object):
 
         additional_tooltip = []
         if group[0]['AdditionalToolTipId'] != 0: 
-            #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']}")
+            #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']} at max_level {max_level}")
             for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
                 add_max_level = (add_tooltip['ShowSkillSlot'].upper() == 'EX' or show_skill_slot == 'EX') and 5 or 10
                 additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
@@ -422,6 +422,7 @@ class Skill(object):
             group[0]['IconName'].rsplit('/', 1)[-1],
             levels,
             description_general,
+            max_level,
             group[0]['BulletType'],
             skill_cost,
             effect_data,
