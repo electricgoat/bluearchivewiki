@@ -67,12 +67,25 @@ def get_raid_boss_data(group, region = 'jp'):
     return boss_data
 
 
+def print_season(season, note: str = ''):
+    now = datetime.now() #does not account for timezone
+
+    opentime = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
+    closetime = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S")
+
+    if (opentime > now): note += 'future'
+    elif (closetime > now): note += 'current'
+
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.armor_type(season['challenge']).ljust(12)} {note}")
+
 
 def generate():
     global args, data, season_data
+    last_season_name = ''
     boss_groups = ['OpenRaidBossGroup01', 'OpenRaidBossGroup02', 'OpenRaidBossGroup03']
 
     for region in ['jp', 'gl']:
+        print (f"============ {region.upper()} eliminate raids ============")
         for season in season_data[region].eliminate_raid_season.values():
             boss = season['OpenRaidBossGroup01'].split('_',2)
             season['armor'] = []
@@ -86,13 +99,20 @@ def generate():
                 print(f"Unknown boss {season['OpenRaidBossGroup01']}")
                 continue
 
-            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 14):
+            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 60):
                 print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
                 season['ignore'] = True
-                continue
+                #continue
+
+            if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
+                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+                season['ignore'] = True
+                #continue
+
 
             season['raid_name'] = RAIDS[boss[0]].name
-
+            last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
+            
             if (len(boss)>1):
                 season['env'] = boss[1]
             else:
@@ -115,11 +135,11 @@ def generate():
                 else:
                     for stage in boss_data[group]['stage']: 
                         if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
-                            print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) {season['raid_name']} TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
+                            #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) {season['raid_name']} TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
                             season['challenge'] = stage['character']['ArmorType']
                             break
 
-
+            print_season(season)
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.filters['environment_type'] = shared.functions.environment_type

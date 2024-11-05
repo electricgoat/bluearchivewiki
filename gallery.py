@@ -226,7 +226,7 @@ def redirect_files(export_galleries:list[Gallery]):
         for path in gallery.exclude_files.keys():
             for file in [x for x in gallery.exclude_files[path] if f"File:{x}" not in page_list]:
                 print (f"Creating redirect from {file} to {gallery.exclude_files[path][file]}")
-                wiki.publish(f"File:{file}", f"#REDIRECT [[File:{gallery.exclude_files[path][file]}]]", "Identical sprite redirect")
+                wiki.publish(f"File:{file}", f"#REDIRECT [[File:{gallery.exclude_files[path][file]}]]\n[[Category:Character sprite redirects]]", "Identical sprite redirect")
 
 
 

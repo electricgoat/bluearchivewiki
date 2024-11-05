@@ -23,7 +23,7 @@ scenario_data = None
 
 force_variant_link = {
     # 20011 : 19009025 #Serika Newyear
-    #10029 : 19009251, #Natsu (Band) NPC
+    10029 : 19009251, #Natsu (Band) NPC
 }
 
 block_variant_link = {
@@ -202,6 +202,12 @@ def generate():
             for sublist in data.character_voice[voice_group] 
             for item in sublist['Path']
         ]
+
+        # for x in [data.costumes[x]['ModelPrefabName'] for x in character_variation_ids if x in data.costumes]:
+        #     append_scandir = f"Audio/VOC_JP/JP_{x}/"
+        #     if append_scandir != files_scandir and os.path.exists(os.path.join(args['data_audio'], append_scandir)):
+        #         print(f"Additionally gathering files from {append_scandir}")
+        #         append_files += [os.path.join(files_scandir, x.split('.')[0]) for x in os.listdir(os.path.join(args['data_audio'], append_scandir))]
 
         for type in (STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES):
             #print(f"Gathering {type}-type standard lines")
