@@ -252,7 +252,7 @@ def generate():
     season = None
     season_gl = None
 
-    for eventmode in ["Stage", "MiniEvent" ,"MinigameRhythmEvent"]:
+    for eventmode in ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent"]:
         if (args['event_season'], eventmode) in season_data['jp'].event_content_season:
             season_jp = season_data['jp'].event_content_season[(args['event_season'], eventmode)]
             season = season_jp#TODO work directly with season_jp or _gl
@@ -260,7 +260,7 @@ def generate():
             break
     if season is None: exit(f"JP season {args['event_season']} data not found. Is this a new event type?")
     
-    for eventmode in ["Stage", "MiniEvent" ,"MinigameRhythmEvent"]:
+    for eventmode in ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent"]:
         if (args['event_season'], eventmode) in season_data['gl'].event_content_season:
             season_gl = season_data['gl'].event_content_season[(args['event_season'], eventmode)]
             break

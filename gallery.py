@@ -18,6 +18,7 @@ character_map = {}
 wikiname_to_devname_map = {}
 galleries = []
 
+LEGACY_SPRNAME = ['First version', 'Original version', 'Beta version', 'Unreleased version']
 
 
 class Gallery(object):
@@ -323,15 +324,13 @@ def generate():
 
         for order, character in enumerate(character_map[character_name]):
             gallery_self = next(x for x in export_galleries if x.character_wikiname == character.wiki_name)
-            #gallery_alt = [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname in playable_variants ]
-            gallery_alt = []
-            for pv in playable_variants:
-                gallery_alt += [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname == pv]
-            gallery_npc = [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname not in playable_variants ]
+            gallery_alt = [x for pv in playable_variants for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname == pv]
+            gallery_npc =    [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname not in playable_variants and not any(text in x.character_wikiname for text in LEGACY_SPRNAME)]
+            gallery_legacy = [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname not in playable_variants and any(text in x.character_wikiname for text in LEGACY_SPRNAME)]
 
             #print(f"Processing character {character_name} № {order}; variant {character.wiki_name}")
             
-            export_galleries= [gallery_self] + gallery_alt + gallery_npc
+            export_galleries= [gallery_self] + gallery_alt + gallery_npc + gallery_legacy
             print(f"Sorted galleries for {character.wiki_name}: {[x.character_wikiname for x in export_galleries]}")
 
             wikitext = not args['npc'] and generate_page_wikitext(export_galleries, include_cargo = (order==0)) or generate_npc_wikitext(export_galleries, include_cargo = (order==0))
