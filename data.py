@@ -540,6 +540,10 @@ def load_localization(path_primary, path_secondary, path_translation):
             found += 1
 
     print(f"LocalizeExcelTable: Found {found}/{len(data_primary)} translations")
+
+    #Force aux lines into the list if they are missing there completely
+    data_primary = {**data_aux, **data_primary}
+
     return data_primary
 
 

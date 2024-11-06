@@ -1,0 +1,391 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mine_(Idol)_Formation_In_1",
+            "LocalizeJP": "この件は私にお任せください。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mine_(Idol)_Formation_In_2",
+            "LocalizeJP": "正確なパフォーマンスを、お約束いたします。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mine_(Idol)_Formation_Select",
+            "LocalizeJP": "ふふ、お呼びでしょうか？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_Defeat_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_Defeat_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_In_1",
+            "LocalizeJP": "心に残るひとときを、お届けしましょう。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_In_2",
+            "LocalizeJP": "ふふっ、ご期待ください。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_Victory_1",
+            "LocalizeJP": "いかがでしょうか？\n感想をお待ちしております。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_(Idol)_Tactic_Victory_2",
+            "LocalizeJP": "ふぅ……無事歌い切ることができました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Buffed_1",
+            "LocalizeJP": "助かりました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_BuffSelf_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Covered_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Damage_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Defense_1",
+            "LocalizeJP": "効きません！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_In_1",
+            "LocalizeJP": "私がリードいたしましょう。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_In_2",
+            "LocalizeJP": "私のリズムを聞いて下さい！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Move_1",
+            "LocalizeJP": "次の曲目へ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Move_2",
+            "LocalizeJP": "旋律に乗って！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Recovery_1",
+            "LocalizeJP": "感謝します。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Retire",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Shout_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Shout_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_TacticalAction_1",
+            "LocalizeJP": "はっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Victory_1",
+            "LocalizeJP": "素晴らしいステージでした。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_(Idol)_Battle_Victory_2",
+            "LocalizeJP": "会場にやわらかな旋律を！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mine_(Idol)_CommonSkill",
+            "LocalizeJP": "リズムに乗って！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_1",
+            "LocalizeJP": "私たちの歌声を届けます！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_2",
+            "LocalizeJP": "さあ、参りましょう！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_3",
+            "LocalizeJP": "ラストスパート、いきましょう！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_Level_1",
+            "LocalizeJP": "はああっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_Level_2",
+            "LocalizeJP": "参ります！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_(Idol)_ExSkill_Level_3",
+            "LocalizeJP": "皆様ご一緒に！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_(Idol)_Growup_1",
+            "LocalizeJP": "ご支援ありがとうございます、先生。\nたしかに、受け取りました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_(Idol)_Growup_2",
+            "LocalizeJP": "先生からの支援……感謝いたします。\nあまりこういう機会がないので、とても不思議な感覚です。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_(Idol)_Growup_3",
+            "LocalizeJP": "より良いステージをお届けできるよう、\n尽力いたしますね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_(Idol)_Growup_4",
+            "LocalizeJP": "これは……ふふ。\n今後に期待していてくださいね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_(Idol)_Relationship_Up_1",
+            "LocalizeJP": "その……先生との距離を感じてしまって。\nそういうつもりではないのでしたら……\nもう少し、近づいていただけますか？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_(Idol)_Relationship_Up_2",
+            "LocalizeJP": "普段と違う衣装なのに、何故だか心が落ち着くのです。\nどうしてでしょう……？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_(Idol)_Relationship_Up_3",
+            "LocalizeJP": "何かできることがありましたら、何なりと。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 16016,
+            "CharacterVoiceGroupId": 16016,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_(Idol)_Relationship_Up_4",
+            "LocalizeJP": "この胸の高鳴り……\nきっと本番が近いからなのだと、思います……。",
+            "LocalizeEN": ""
+        }
+    ]
+}

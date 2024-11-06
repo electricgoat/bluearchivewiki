@@ -1,0 +1,391 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_In_1",
+            "LocalizeJP": "ポジション、OKです！",
+            "LocalizeEN": "Position, OK!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_In_2",
+            "LocalizeJP": "この位置で大丈夫でしょうか？",
+            "LocalizeEN": "This position will work, I hope?"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_Select",
+            "LocalizeJP": "はい！準備はできておりますよ、先生。",
+            "LocalizeEN": "Preparations are complete, Sensei!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Defeat_1",
+            "LocalizeJP": "練習が、足りなかったのでしょうか……。",
+            "LocalizeEN": "It seems, I didn't practice enough..."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Defeat_2",
+            "LocalizeJP": "すみません、私のミスです……。",
+            "LocalizeEN": "I'm sorry, it was my mistake..."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_In_1",
+            "LocalizeJP": "私たちの歌を、皆さんに！",
+            "LocalizeEN": "Our song is for all of you!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_In_2",
+            "LocalizeJP": "安らぎが届きますように。",
+            "LocalizeEN": "I pray you may find peace of mind."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Victory_1",
+            "LocalizeJP": "素敵なライブになりましたね。",
+            "LocalizeEN": "What a wonderful concert that was!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Victory_2",
+            "LocalizeJP": "私のステージ……いかがでしたか？",
+            "LocalizeEN": "My performance... how was it?"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Buffed_1",
+            "LocalizeJP": "これを、私に……！？",
+            "LocalizeEN": "This is... for me...?"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_BuffSelf_1",
+            "LocalizeJP": "テンション、上げていきます！",
+            "LocalizeEN": "Here, raise your spirits!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Covered_1",
+            "LocalizeJP": "隠れます！",
+            "LocalizeEN": "I'm covered!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_1",
+            "LocalizeJP": "ひゃあ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_2",
+            "LocalizeJP": "いたっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_3",
+            "LocalizeJP": "ふっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Defense_1",
+            "LocalizeJP": "あうっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_In_1",
+            "LocalizeJP": "それでは……行ってきます！",
+            "LocalizeEN": "Now then... let's go!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_In_2",
+            "LocalizeJP": "私の歌を届けてきます！",
+            "LocalizeEN": "My song begins!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Move_1",
+            "LocalizeJP": "次のパートにいきましょう！",
+            "LocalizeEN": "On to the next part!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Move_2",
+            "LocalizeJP": "まだ歌は終わっておりません。",
+            "LocalizeEN": "The song is not yet over."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Recovery_1",
+            "LocalizeJP": "感謝します！",
+            "LocalizeEN": "My thanks!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Retire",
+            "LocalizeJP": "ま、まだ、歌を届けられていません……！",
+            "LocalizeEN": "It seems... my performance hasn't reached them...!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_1",
+            "LocalizeJP": "はっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_2",
+            "LocalizeJP": "ひやっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_3",
+            "LocalizeJP": "はっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_TacticalAction_1",
+            "LocalizeJP": "やっ！",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Victory_1",
+            "LocalizeJP": "また次のステージでお会いしましょう。",
+            "LocalizeEN": "Let's meet again, at the next performance!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Victory_2",
+            "LocalizeJP": "楽しい時間はあっという間でしたね。",
+            "LocalizeEN": "Times like this always pass so quickly, don't you think?"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mari_(Idol)_CommonSkill",
+            "LocalizeJP": "き、きらきら～……はわ……！？",
+            "LocalizeEN": "Ki-- kira kira! ...Hwa?!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_1",
+            "LocalizeJP": "本番は練習のように……！",
+            "LocalizeEN": "Just like we practiced...!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_2",
+            "LocalizeJP": "自分を信じて……！",
+            "LocalizeEN": "Trust in myself...!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_3",
+            "LocalizeJP": "私、やってみせますから！",
+            "LocalizeEN": "Let me show you!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_1",
+            "LocalizeJP": "この想い……受け取ってください！",
+            "LocalizeEN": "These emotions... I will convey them to you!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_2",
+            "LocalizeJP": "あなたに届きますように……！",
+            "LocalizeEN": "May this song reach you!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_3",
+            "LocalizeJP": "皆さんのお力になりたいんです！",
+            "LocalizeEN": "I want to be everyone's strength!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_1",
+            "LocalizeJP": "これは……先生がスポンサーになってくださっている、ということでしょうか？\nご期待に応えられるよう、頑張ります！",
+            "LocalizeEN": "This... does this mean that you're sponsoring me, Sensei?\nThen, I will do my best to meet your expectations!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_2",
+            "LocalizeJP": "お心遣い、感謝いたします。\n最高のパフォーマンスでお返しいたしますね！",
+            "LocalizeEN": "Thank you for your concerns. Let me reciprocate with an astounding performance!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_3",
+            "LocalizeJP": "不思議と、緊張がやわらぐような……\nきっと、先生のおかげですね。",
+            "LocalizeEN": "My unease, my nervousness, they seem to have faded...\nThis must be thanks to you, Sensei."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_4",
+            "LocalizeJP": "先生のおかげで、自信がどんどん湧いてきます。\n今なら、何でもできるような気がするんです。",
+            "LocalizeEN": "Thanks to you, Sensei, my confidence has grown.\nRight now, I feel like I can do anything!"
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_1",
+            "LocalizeJP": "先生も、私のことを好意的に受け止めてくださっているのでしょうか？\n……そうだと、良いのですが。",
+            "LocalizeEN": "Sensei, you... accept who I am, is that right?\nThat's... good to hear."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_2",
+            "LocalizeJP": "誰かのために歌うのがアイドルなら……\n私は……先生のアイドルになりたいです。",
+            "LocalizeEN": "If an idol sings for someone, then I... I want to be your idol, Sensei."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_3",
+            "LocalizeJP": "先生……\n私から、目を離さないでくださいね……？",
+            "LocalizeEN": "Sensei, please... keep your eyes on me."
+        },
+        {
+            "CharacterId": 10105,
+            "CharacterVoiceGroupId": 10105,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_4",
+            "LocalizeJP": "こんなことを思うのは、罪かもしれません……\nですが、今だけは……私を見ていてください、先生。",
+            "LocalizeEN": "Even if it may be a sin to think so...\n..Right now, please... watch me, Sensei."
+        }
+    ]
+}
