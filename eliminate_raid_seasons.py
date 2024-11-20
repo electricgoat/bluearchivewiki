@@ -28,10 +28,12 @@ SEASON_NOTES = {
         2:'Beta version',
         3:'Beta version',
         5:'Torment difficulty no longer based on original defense type',
+        13:'No longer requires all 3 clears for ranking rewards'
     },
     'gl' : {
         2:'Beta version',
         3:'Beta version',
+        13:'No longer requires all 3 clears for ranking rewards'
     }
 }
 
@@ -41,11 +43,13 @@ SEASON_TOR_DEF = {
         2:'HeavyArmor',
         4:'Special',
         6:'Unarmed',
+        11:'Special',
     },
     'gl' : {
         2:'HeavyArmor',
         4:'Special',
         6:'Unarmed',
+        11:'Special',
     }
 }
 

@@ -191,6 +191,7 @@ class FieldStage(Stage):
     def from_data(cls, stage_id, data, wiki_card = None):
         grounds = []
         stage = data.field_content_stage[stage_id]
+        stage['EventContentStageRewardId'] = stage.get('EventContentStageRewardId', stage['Id'])
 
         rewards = cls.get_rewards(stage, data, wiki_card)
         enter_cost =  cls.wiki_enter_cost(stage, data)

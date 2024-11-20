@@ -369,7 +369,7 @@ def localize_GetEquipmentWithTagCount(mission, data):
     return True
 
 
-def localize_ClearBattleWithTagCount(mission):
+def localize_ClearBattleWithTagCount(mission, data = None):
     global enemy_tags
 
     desc_jp = '-'
@@ -384,7 +384,7 @@ def localize_ClearBattleWithTagCount(mission):
     return True
 
 
-def localize_KillEnemyWithTagCount(mission):
+def localize_KillEnemyWithTagCount(mission, data = None):
     global enemy_tags
 
     desc_jp = '-'
@@ -405,7 +405,7 @@ def localize_KillEnemyWithTagCount(mission):
     return True
 
 
-def localize_ConquerSpecificStepTileAll(mission):
+def localize_ConquerSpecificStepTileAll(mission, data = None):
     desc_jp = 'エリア$1をすべて占領'
     desc_en = 'Occupy all of area $1'
     
@@ -416,7 +416,7 @@ def localize_ConquerSpecificStepTileAll(mission):
     return True
 
 
-def localize_UpgradeConquestBaseTileCount(mission):
+def localize_UpgradeConquestBaseTileCount(mission, data = None):
     desc_jp = 'Lv.{0}拠点を{1}個保有する'
     desc_en = 'Own {1} Lv. {0} base(s)'
     
@@ -427,7 +427,7 @@ def localize_UpgradeConquestBaseTileCount(mission):
     return True
 
 
-def localize_KillConquestBoss(mission):
+def localize_KillConquestBoss(mission, data = None):
     desc_jp = 'エリア{0}のボスを倒す'
     desc_en = 'Defeat the area {0} boss'
     
@@ -438,7 +438,7 @@ def localize_KillConquestBoss(mission):
     return True
 
 
-def localize_ClearEventConquestTileTimeLimitFromSecond(mission):
+def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data = None):
     desc_jp = '-'
     desc_en = 'Clear Challenge {0} within {1} second(s)'
 

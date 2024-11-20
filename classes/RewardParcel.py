@@ -60,7 +60,7 @@ class RewardParcel(object):
         self._data = data
 
     def __repr__(self):
-        return str(self.__dict__)
+        return str(f"RewardParcel({self.parcel_type} {self.parcel_id} {self.tag})")
 
 
     @property

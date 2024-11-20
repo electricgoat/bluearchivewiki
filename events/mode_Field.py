@@ -125,7 +125,7 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
     stages = parse_stages(season_id)
 
     for stage in stages:
-        for reward in stage.rewards.values():
+        for reward in [item for sublist in stage.rewards.values() for item in sublist]:
             if reward.tag not in stage_reward_types[stage.difficulty]:
                 stage_reward_types[stage.difficulty].append(reward.tag)
 

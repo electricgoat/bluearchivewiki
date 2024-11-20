@@ -210,7 +210,7 @@ def upload_files(export_galleries:list[Gallery]):
         comment = f"Sprite for {gallery.character_wikiname}"
 
         for path in gallery.files_exportable.keys():
-            for file in [x for x in gallery.files_exportable[path] if f"File:{x}" not in page_list and x not in gallery.exclude_files[path]]:
+            for file in [x for x in gallery.files_exportable[path] if (f"File:{x}" not in page_list or args['reupload']) and x not in gallery.exclude_files[path]]:
                 print (f"Uploading {file} from {os.path.join(path, file)}")
                 #path = os.path.join(args['gallery_dir'], gallery.dirname, file)
                 wiki.upload(os.path.join(path, file), file, comment, wiki_text)
@@ -379,6 +379,7 @@ def main():
     #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
     parser.add_argument('-npc', action='store_true', help='Upload and categorize images, but don\'t create gallery page')
+    parser.add_argument('-reupload', action='store_true', help='Try to reupload files')
 
     args = vars(parser.parse_args())
     print(args)

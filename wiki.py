@@ -16,21 +16,26 @@ def init(args):
     global stored_auth
 
     try:
-        site = Site(WIKI_API)
-        site.login(args['wiki'][0], args['wiki'][1])
-        print(f'Logged in to wiki, token {site.token()}')
         stored_auth = args['wiki']
+        site = Site(WIKI_API)
+        site.login(stored_auth[0], stored_auth[1])
+        print(f'Logged in to wiki, token {site.token()}')
 
-    except Exception as err:
-        print(f'Wiki error: {err}')
-        traceback.print_exc()
+    except ApiError as error:
+        if error.message == 'Login failed':
+            print (f"Login failed, retrying")
+            reauthenticate()
+        else:
+            print(f'Wiki API error: {error}')
+            traceback.print_exc()
+
 
 
 def reauthenticate():
     global site
     global stored_auth
 
-    print (f"Server reports bad CSRF token, reathenticating")
+    print (f"Reauthenticating with {stored_auth}")
     try:
         site.login(stored_auth[0], stored_auth[1])
         print(f'Logged in to wiki, token {site.token()}')
@@ -39,9 +44,10 @@ def reauthenticate():
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
             reauthenticate()
-    # except Exception as err:
-    #     print(f'Wiki error: {err}')
-    #     traceback.print_exc()
+        if error.message == 'Login failed':
+            print (f"Login failed, check credentials")
+            exit()
+
 
 
 def page_exists(page, wikitext = None):

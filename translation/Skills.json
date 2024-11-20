@@ -5453,6 +5453,58 @@
             "GroupId": "CH0275ExtraPassive01",
             "NameEn": "Fans cheering",
             "DescriptionEn": "Whenever other allies consume Cost, gain \"Penlights\" amount equal to the Cost used.\n(\"Penlights\" can be stacked up to a maximum of $1.)\nWhen 10 \"Penlights\" are acquired, increase Defense by $2 for $3. (effect does not stack)"
+        },
+
+        {
+            "GroupId": "CH0080Ex01",
+            "NameEn": "I feel stronger~",
+            "DescriptionEn": "Increase Defense Penetration by $1 for $2.\nDeal $3 damage to one enemy.\nAdditionally consume up to 3 Cost, increasing damage per cost point by 35%.\n(The effects of cost increase/decrease skills are applied only to the base skill cost)"
+        },
+        {
+            "GroupId": "CH0080Public01",
+            "NameEn": "Information gathering",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 for $3."
+        },
+        {
+            "GroupId": "CH0080Passive01",
+            "NameEn": "NK Ultra Project",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0080WeaponPassive01",
+            "NameEn": "NK Ultra Project +",
+            "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0080ExtraPassive01",
+            "NameEn": "Pandemonium allegiance",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0238Ex01",
+            "NameEn": "Is that really true?",
+            "DescriptionEn": "Deal $1 damage to one enemy (this attack can not be a critical hit)."
+        },
+        {
+            "GroupId": "CH0238Public01",
+            "NameEn": "Say cheese!",
+            "DescriptionEn": "Every $1, increase Sonic Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0238Passive01",
+            "NameEn": "Breaking news!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0238WeaponPassive01",
+            "NameEn": "Breaking news! +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0238ExtraPassive01",
+            "NameEn": "Yes! Got it!",
+            "DescriptionEn": "When EX skill is activated, increase EX skill damage by $1 for $2."
         }
         
 
