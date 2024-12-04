@@ -17,7 +17,6 @@
 !No.	
 !Mission
 !Reward
-!Remarks
 {% for mission in missions if mission['Category'] == "EventAchievement" and mission['ViewFlag'] == True -%}
 |-
 | style="text-align: center" |{{mission['DisplayOrder']}}
@@ -25,7 +24,6 @@
 |{% for reward in mission['RewardItemCards'] -%}
 {{reward}}
 {%- endfor %}
-|
 {% endfor -%}
 {% raw %}|}{% endraw %}
 

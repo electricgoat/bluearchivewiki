@@ -36,7 +36,7 @@ item_types = {
         'Tier9Piece': 'Tier 9 equipment blueprints',
     }
 
-enemy_tags = CLUBS | {
+enemy_tags = CLUBS | TAG_MAP | {
         #enemies
         'DecagrammatonSPO': 'Decagrammaton',
 }
@@ -126,7 +126,7 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
     if f"localize_{mission['Description']}" in globals():
         globals()[f"localize_{mission['Description']}"](mission, data, items, furniture)
     elif f"localize_{mission['CompleteConditionType'].replace('Reset_','')}" in globals():
-        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission, data)
+        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission, data, items, furniture)
 
 
     if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and key not in data.localization :
@@ -145,7 +145,7 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
 
 
 
-def localize_DreamGetSpecificParameter(mission, data):
+def localize_DreamGetSpecificParameter(mission, data, items = None, furniture = None):
     key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
     desc_jp = data.localization[key].get('Jp')
     desc_en = data.localization[key].get('En', '')
@@ -160,7 +160,7 @@ def localize_DreamGetSpecificParameter(mission, data):
     return True
 
 
-def localize_DreamGetSpecificScheduleCount(mission, data):
+def localize_DreamGetSpecificScheduleCount(mission, data, items = None, furniture = None):
     key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
     desc_jp = data.localization[key].get('Jp')
     desc_en = data.localization[key].get('En', '')
@@ -175,7 +175,7 @@ def localize_DreamGetSpecificScheduleCount(mission, data):
     return True
 
 
-def localize_CompleteScheduleWithTagCount(mission, data):
+def localize_CompleteScheduleWithTagCount(mission, data, items = None, furniture = None):
     desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
     desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
@@ -185,7 +185,7 @@ def localize_CompleteScheduleWithTagCount(mission, data):
     return True
 
 
-def localize_ClearSchoolDungeonCount(mission, data):
+def localize_ClearSchoolDungeonCount(mission, data, items = None, furniture = None):
     desc_jp = ''
     desc_en = 'Participate in School Exchange $1 time(s)'
 
@@ -196,7 +196,7 @@ def localize_ClearSchoolDungeonCount(mission, data):
     return True
 
 
-def localize_ClearSpecificScenario(mission, data):
+def localize_ClearSpecificScenario(mission, data, items = None, furniture = None):
     desc_jp = 'メインストーリー第$1編$2章$3話をクリア'
     desc_en = 'Complete Volume $1, Chapter $2, Episode $3 of the main story'
 
@@ -213,7 +213,7 @@ def localize_ClearSpecificScenario(mission, data):
     return True
 
 
-def localize_ClearSpecificCampaignStageCount(mission, data):
+def localize_ClearSpecificCampaignStageCount(mission, data, items = None, furniture = None):
     desc_jp = 'エリア[[$1]] $2をクリア'
     desc_en = 'Clear $2 Mission [[$1]]'
 
@@ -233,7 +233,7 @@ def localize_ClearSpecificCampaignStageCount(mission, data):
     return True
 
 
-def localize_ClearCampaignStageTimeLimitFromSecond(mission, data):
+def localize_ClearCampaignStageTimeLimitFromSecond(mission, data, items = None, furniture = None):
     desc_jp = '任務ステージ[[$1]]$2を$3秒以内にクリア'
     desc_en = 'Clear $2 Mission [[$1]] within $3 seconds'
 
@@ -255,7 +255,7 @@ def localize_ClearCampaignStageTimeLimitFromSecond(mission, data):
     return True
 
 
-def localize_ClearEventStageTimeLimitFromSecond(mission, data):
+def localize_ClearEventStageTimeLimitFromSecond(mission, data, items = None, furniture = None):
     desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
     desc_en = 'Clear $2 $1 within $3 seconds'
 
@@ -278,7 +278,7 @@ def localize_ClearEventStageTimeLimitFromSecond(mission, data):
     return True
 
 
-def localize_EventCompleteCampaignStageMinimumTurn(mission, data):
+def localize_EventCompleteCampaignStageMinimumTurn(mission, data, items = None, furniture = None):
     desc_jp = '$2のステージ$1を$3ターン以内にクリア'
     desc_en = 'Clear $2 $1 within $3 turns'
 
@@ -301,7 +301,7 @@ def localize_EventCompleteCampaignStageMinimumTurn(mission, data):
     return True
 
 
-def localize_CompleteMission(mission, data):
+def localize_CompleteMission(mission, data, items = None, furniture = None):
     desc_jp = 'イベントのチャレンジミションを$1個以上クリア'
     desc_en = 'Complete $1 Achievement Missions'
 
@@ -333,7 +333,7 @@ def localize_Mission_Get_Specific_Item_Count(mission, data, items, furniture):
     return True
 
 
-def localize_GetItemWithTagCount(mission, data):
+def localize_GetItemWithTagCount(mission, data, items=None, furniture=None):
     desc_jp = '$1を$2個獲得する'
     desc_en = 'Acquire $2 $1'
 
@@ -351,7 +351,7 @@ def localize_GetItemWithTagCount(mission, data):
     return True
 
 
-def localize_GetEquipmentWithTagCount(mission, data):
+def localize_GetEquipmentWithTagCount(mission, data, items=None, furniture=None):
     global item_types
 
     desc_jp = '$1を$2個獲得する'
@@ -369,7 +369,28 @@ def localize_GetEquipmentWithTagCount(mission, data):
     return True
 
 
-def localize_ClearBattleWithTagCount(mission, data = None):
+def localize_GetSpecificItemCount(mission, data, items=None, furniture=None):
+    global item_types
+    assert items is not None
+
+    desc_jp = '$1個獲得する'
+    desc_en = 'Acquire $1'
+
+    toget_jp = ''
+    toget_en = ''
+
+    for item_id in mission['CompleteConditionParameter']:
+        toget_jp += f"{items[item_id].name_jp}を{mission['CompleteConditionCount']}, "
+        toget_en += f"{mission['CompleteConditionCount']} {items[item_id].name_en}, "
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', toget_jp[0:-2]))
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', toget_en[0:-2]))
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_ClearBattleWithTagCount(mission, data = None, items=None, furniture=None):
     global enemy_tags
 
     desc_jp = '-'
@@ -384,7 +405,7 @@ def localize_ClearBattleWithTagCount(mission, data = None):
     return True
 
 
-def localize_KillEnemyWithTagCount(mission, data = None):
+def localize_KillEnemyWithTagCount(mission, data = None, items=None, furniture=None):
     global enemy_tags
 
     desc_jp = '-'
@@ -405,7 +426,7 @@ def localize_KillEnemyWithTagCount(mission, data = None):
     return True
 
 
-def localize_ConquerSpecificStepTileAll(mission, data = None):
+def localize_ConquerSpecificStepTileAll(mission, data = None, items=None, furniture=None):
     desc_jp = 'エリア$1をすべて占領'
     desc_en = 'Occupy all of area $1'
     
@@ -416,7 +437,7 @@ def localize_ConquerSpecificStepTileAll(mission, data = None):
     return True
 
 
-def localize_UpgradeConquestBaseTileCount(mission, data = None):
+def localize_UpgradeConquestBaseTileCount(mission, data = None, items=None, furniture=None):
     desc_jp = 'Lv.{0}拠点を{1}個保有する'
     desc_en = 'Own {1} Lv. {0} base(s)'
     
@@ -427,7 +448,7 @@ def localize_UpgradeConquestBaseTileCount(mission, data = None):
     return True
 
 
-def localize_KillConquestBoss(mission, data = None):
+def localize_KillConquestBoss(mission, data = None, items=None, furniture=None):
     desc_jp = 'エリア{0}のボスを倒す'
     desc_en = 'Defeat the area {0} boss'
     
@@ -438,7 +459,7 @@ def localize_KillConquestBoss(mission, data = None):
     return True
 
 
-def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data = None):
+def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data = None, items=None, furniture=None):
     desc_jp = '-'
     desc_en = 'Clear Challenge {0} within {1} second(s)'
 
