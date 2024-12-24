@@ -33,7 +33,7 @@
         {
             "GroupId": "SerinaPublic01",
             "NameEn": "Emergency care set B",
-            "DescriptionEn": "Every $1, heals one ally by $2."
+            "DescriptionEn": "Every $1, heal one ally by $2."
         },
         {
             "GroupId": "SerinaPassive01",
@@ -444,7 +444,12 @@
         {
             "GroupId": "MashiroPublic01",
             "NameEn": "Justice's Decision",
-            "DescriptionEn": "Every $1, target a circular area with $2 Attack."
+            "DescriptionEn": "Every $1, deal $2 damage to enemies with a circular area."
+        },
+        {
+            "GroupId": "MashiroGearPublic01",
+            "NameEn": "Justice's Decision +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies with a circular area.\nIncrease chance of additional damage being applied by the next EX skill by 12.5% ​​(effect stacks up to $3 times)\nIncrease Attack by $4 for $5."
         },
         {
             "GroupId": "MashiroPassive01",
@@ -767,6 +772,11 @@
             "GroupId": "KotoriPublic01",
             "NameEn": "Sorry!",
             "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area."
+        },
+        {
+            "GroupId": "KotoriGearPublic01",
+            "NameEn": "Sorry! +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a fan shaped area. (Number of hits doubled)"
         },
         {
             "GroupId": "KotoriPassive01",
@@ -3561,6 +3571,16 @@
             "DescriptionEn": "In Abi-Eshuh mode, every $1 deal $2 damage to a single enemy, this attack ignores $3 of enemy Defense."
         },
         {
+            "GroupId": "CH0187GearPublic01",
+            "NameEn": "Tactical judgment +",
+            "DescriptionEn": "When Abi-Eshuh mode is engaged, or every $1, deal $2 damage to a single enemy.\nAfterwards, immediately draw EX skill card next time EX skill is used."
+        },
+        {
+            "GroupId": "CH0187GearPublic02",
+            "NameEn": "Tactical judgment +",
+            "DescriptionEn": "When switching to Abi-Eshuh mode, deal $1 damage to a single enemy, this attack ignores $2 of enemy Defense.\nIncrease Explosive Efficiency by $3 for $4.\nAfterwards, skill activates every $5."
+        },
+        {
             "GroupId": "CH0187Passive01",
             "NameEn": "Call sign zero four",
             "DescriptionEn": "Increase Attack by $1."
@@ -5505,6 +5525,63 @@
             "GroupId": "CH0238ExtraPassive01",
             "NameEn": "Yes! Got it!",
             "DescriptionEn": "When EX skill is activated, increase EX skill damage by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0284Ex01",
+            "NameEn": "Peroro-sama in danger!",
+            "DescriptionEn": "Deal $1 damage to one enemy;\nReduce target Defense by $2 for $3;\nIf the enemy has Light armor, reduce their Defense by $4 for $5."
+        },
+        {
+            "GroupId": "CH0284Public01",
+            "NameEn": "Night Care",
+            "DescriptionEn": "Every $1, heal self for $2 of Healing."
+        },
+        {
+            "GroupId": "CH0284Passive01",
+            "NameEn": "Sweet Dreams",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0284WeaponPassive01",
+            "NameEn": "Sweet Dreams +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0284ExtraPassive01",
+            "NameEn": "Woke up tired",
+            "DescriptionEn": "When receiveing healing, increase Defense by $1 for $2. (stacks up to a maximum of 7 effects)"
+        },
+
+        {
+            "GroupId": "CH0285Ex01",
+            "NameEn": "Please be quiet after lights out",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4 hits)"
+        },
+        {
+            "GroupId": "CH0285Ex02",
+            "NameEn": "Shhh, lights out",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4 hits)"
+        },
+        {
+            "GroupId": "CH0285Public01",
+            "NameEn": "Favorite pillow",
+            "DescriptionEn": "After \"Please be quiet after lights out\" is used $1 times, increase Cost Recovery by $2 for $3.\nChange \"Please be quiet after lights out\" to \"Shh, lights out\" for one use of the EX skill."
+        },
+        {
+            "GroupId": "CH0285Passive01",
+            "NameEn": "Cool-headed secretary",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0285WeaponPassive01",
+            "NameEn": "Cool-headed secretary +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0285ExtraPassive01",
+            "NameEn": "Secretary's intuition",
+            "DescriptionEn": "Every $1 normal attacks, increase Penetration Efficiency by $2 for $3."
         }
         
 
