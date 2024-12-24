@@ -234,47 +234,40 @@ def line_cleanup(text, aggresive = False):
 
 
 def load_characters_skills(path):
-    with open(os.path.join(path, 'Excel', 'CharacterSkillListExcelTable.json'),encoding="utf8") as f:
-        data = orjson.loads(f.read())
+    data = load_generic(path, 'CharacterSkillListExcelTable.json', key=None, load_db=True)
 
     return {
         (character_skill['CharacterSkillListGroupId'], character_skill['MinimumGradeCharacterWeapon'], character_skill["MinimumTierCharacterGear"], character_skill['FormIndex']): character_skill
         for character_skill
-        in data['DataList']
+        in data
     }
 
 
 def load_gear(path):
-    with open(os.path.join(path, 'Excel', 'CharacterGearExcelTable.json'),encoding="utf8") as f:
-        data = orjson.loads(f.read())
-        f.close()
+    data = load_generic(path, 'CharacterGearExcelTable.json', key=None, load_db=True)
 
     return {
         (gear['CharacterId'], gear['Tier']): gear
         for gear
-        in data['DataList']
+        in data
     }
 
 def load_favor_levels(path):
-    with open(os.path.join(path, 'Excel', 'FavorLevelRewardExcelTable.json'),encoding="utf8") as f:
-        data = orjson.loads(f.read())
-        f.close()
+    data = load_generic(path, 'FavorLevelRewardExcelTable.json', key=None, load_db=True)
 
     return {
         (favor_level['CharacterId'], favor_level['FavorLevel']): favor_level
         for favor_level
-        in data['DataList']
+        in data
     }
 
 def load_favor_rewards(path):
-    with open(os.path.join(path, 'Excel', 'AcademyFavorScheduleExcelTable.json'),encoding="utf8") as f:
-        data = orjson.loads(f.read())
-        f.close()
+    data = load_generic(path, 'AcademyFavorScheduleExcelTable.json', key=None, load_db=True)
 
     return {
         (favor_rewards['CharacterId'], favor_rewards['FavorRank']): favor_rewards
         for favor_rewards
-        in data['DataList']
+        in data
     }
   
 
