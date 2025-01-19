@@ -2,13 +2,13 @@
 <tabber>
 JP={% raw %}{{{% endraw %}EliminateRaidTable |
 {% for raid in season_data['jp'].eliminate_raid_season.values() if not raid['ignore'] -%}
-{% raw %}{{{% endraw %}Raid |Type = Elimination |Server = JP |Name = {{raid['raid_name']}} (Grand Assault) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Armor = {{','.join(raid['armor'])}} |Challenge = {{raid['challenge']|armor_type}} |Season = {{raid['SeasonDisplay']}} |Start_date = {{raid['SeasonStartData'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndData'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
+{% raw %}{{{% endraw %}Raid |Type = Elimination |Server = JP |Name = {{raid['raid_name']}} (Grand Assault) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Armor = {{','.join(raid['armor'])}} |Challenge = {{raid['challenge']|armor_type}} |Challenge_difficulty = {{raid['challenge_difficulty']|difficulty_shorthand}} |Season = {{raid['SeasonDisplay']}} |Start_date = {{raid['SeasonStartData'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndData'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
 {% endfor -%}
 {% raw %}}}{% endraw %}
 |-|
 Global={% raw %}{{{% endraw %}EliminateRaidTable |
 {% for raid in season_data['gl'].eliminate_raid_season.values() if not raid['ignore'] -%}
-{% raw %}{{{% endraw %}Raid |Type = Elimination |Server = GL |Name = {{raid['raid_name']}} (Grand Assault) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Armor = {{','.join(raid['armor'])}} |Challenge = {{raid['challenge']|armor_type}} |Season = {{raid['SeasonDisplay']}} |Start_date = {{raid['SeasonStartData'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndData'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
+{% raw %}{{{% endraw %}Raid |Type = Elimination |Server = GL |Name = {{raid['raid_name']}} (Grand Assault) |Image = {{raid['banner']}} |Environment = {{raid['env']|environment_type}} |Armor = {{','.join(raid['armor'])}} |Challenge = {{raid['challenge']|armor_type}} |Challenge_difficulty = {{raid['challenge_difficulty']|difficulty_shorthand}} |Season = {{raid['SeasonDisplay']}} |Start_date = {{raid['SeasonStartData'].replace(' ','T')}}+09 |End_date = {{raid['SeasonEndData'].replace(' ','T')}}+09 |Notes = {{raid['notes']}}{% raw %}}}{% endraw %}
 {% endfor -%}
 {% raw %}}}{% endraw %}
 </tabber>

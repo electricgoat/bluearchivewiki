@@ -52,7 +52,18 @@ def armor_type(type):
     }[type]
 
 
-
+def difficulty_shorthand(type):
+    return {
+        type: type,
+        'Normal':   'N',
+        'Hard':     'H',
+        'VeryHard': 'VH',
+        'Hardcore': 'HC',
+        'Extreme':  'EXT',
+        'Insane':   'INS',
+        'Torment':  'TOR',
+        'Lunatic':  'LUN'
+    }[type]
 
 
 def format_thousands(number):

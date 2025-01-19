@@ -38,7 +38,7 @@ SEASON_NOTES = {
 }
 
 # Override per-season TOR armor type, this data has been altered in the client retroactively
-SEASON_TOR_DEF = {
+SEASON_CHALLENGE_DEF = {
     'jp' : {
         2:'HeavyArmor',
         4:'Special',
@@ -80,7 +80,7 @@ def print_season(season, note: str = ''):
     if (opentime > now): note += 'future'
     elif (closetime > now): note += 'current'
 
-    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.armor_type(season['challenge']).ljust(12)} {note}")
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {shared.functions.armor_type(season['challenge']).ljust(12)} {note}")
 
 
 def generate():
@@ -135,10 +135,15 @@ def generate():
                 boss_data[group]= get_raid_boss_data(season[group], region)
 
                 season['armor'].append(shared.functions.armor_type(boss_data[group]['armor']))
-                if season['SeasonId'] in SEASON_TOR_DEF[region]: season['challenge'] = SEASON_TOR_DEF[region][season['SeasonId']]
+
+                if 'Lunatic' in [x['Difficulty'] for x in boss_data[group]['stage']]: season['challenge_difficulty'] = 'Lunatic'
+                else: season['challenge_difficulty'] = 'Torment'
+                
+                if season['SeasonId'] in SEASON_CHALLENGE_DEF[region]: 
+                    season['challenge'] = SEASON_CHALLENGE_DEF[region][season['SeasonId']] 
                 else:
                     for stage in boss_data[group]['stage']: 
-                        if stage['Difficulty'] == 'Torment' and stage['IsOpen']:
+                        if stage['Difficulty'] == season['challenge_difficulty'] and stage['IsOpen']:
                             #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) {season['raid_name']} TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
                             season['challenge'] = stage['character']['ArmorType']
                             break
@@ -150,6 +155,7 @@ def generate():
     env.filters['damage_type'] = shared.functions.damage_type
     env.filters['armor_type'] = shared.functions.armor_type
     env.filters['thousands'] = shared.functions.format_thousands
+    env.filters['difficulty_shorthand'] = shared.functions.difficulty_shorthand
     template = env.get_template('./raid/template_eliminate_raid_seasons.txt')
 
     wikitext = template.render(season_data=season_data)

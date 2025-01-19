@@ -51,6 +51,7 @@ SEASON_NOTES = {
         29:'Introduction of Insane Difficulty',
         51:'Introduction of Torment Difficulty',
         69:'Reward Insurance system added',
+        78:'Introduction of Lunatic Difficulty',
     },
     'gl' : {
         2:'Beta version, no ranking rewards',
