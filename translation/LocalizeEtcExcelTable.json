@@ -10243,8 +10243,623 @@
             "DescriptionJp": "ユウカ（パジャマ）はHPが50％以上の時、味方にバフ効果を付与します。\n\nアバンギャルド君がスキル使用中、一定回数ダメージを受ける度に防御力が減少します。",
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "Yuuka (Pajama) grants a buff effect to allies when HP is over 50%.\n\nWhen Avant-Garde is using a skill, his defense decreases every time he receives damage a certain number of times."
+        },
+        {
+            "Key": 3724761947,
+            "NameJp": "セイアの神名文字",
+            "NameEn": "Seia's Eleph",
+            "DescriptionJp": "セイアの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Seia."
+        },
+        {
+            "Key": 1442883656,
+            "NameJp": "ネル（制服）の神名文字",
+            "NameEn": "Neru's (School Uniform) Eleph",
+            "DescriptionJp": "ネル（制服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Neru (School Uniform)."
+        },
+        {
+            "Key": 4240288146,
+            "NameJp": "アスナ（制服）の神名文字",
+            "NameEn": "Asuna's (School Uniform) Eleph",
+            "DescriptionJp": "アスナ（制服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Asuna (School Uniform)."
+        },
+        {
+            "Key": 1957791025,
+            "NameJp": "リオの神名文字",
+            "NameEn": "Rio's Eleph",
+            "DescriptionJp": "リオの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Rio."
+        },
+        {
+            "Key": 1986015217,
+            "NameJp": "カリン（制服）の神名文字",
+            "NameEn": "Karin's (School Uniform) Eleph",
+            "DescriptionJp": "カリン（制服）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Karin (School Uniform)."
+        },
+        {
+            "Key": 3308634141,
+            "NameJp": "イベントPt",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得することができる。",
+            "NameEn": "Event Points",
+            "DescriptionEn": "These points are earned each time you progress in an event. The more you earn, the greater the variety of rewards you can receive."
+        },
+        {
+            "Key": 3294588725,
+            "NameJp": "EXPO記念品",
+            "NameEn": "EXPO Souvenirs",
+            "DescriptionJp": "会場のあちこちで手に入るミレニアムエキスポの記念品。当然、会場限定だ。",
+            "DescriptionEn": "Millennium Expo souvenirs are available all around the venue. Of course, they are only obtainable during the event."
+        },
+        {
+            "Key": 123964663,
+            "NameJp": "誰かの忘れ物",
+            "NameEn": "Lost Items",
+            "DescriptionJp": "会場に落ちていた忘れ物。持ち主のためにも届けてあげよう。",
+            "DescriptionEn": "Items left behind at the venue. Let's return them to their owners."
+        },
+        {
+            "Key": 2401109475,
+            "NameJp": "バレンタインスタンプ",
+            "NameEn": "Valentine's Day Stamps",
+            "DescriptionJp": "バレンタインデーのお誘いに交換できるスタンプ。活発に行動したことを証明する。",
+            "DescriptionEn": "These stamps can be exchanged for Valentine's Day invitations, as a proof of your activity."
+        },
+        {
+            "Key": 2621462400,
+            "NameJp": "バレンタインデーのお誘い",
+            "NameEn": "Valentine's Day Invitation",
+            "DescriptionJp": "バレンタインデーに誰かがあなたを待っているという証。特別な日にはきっと特別な出会いがある。※イベント終了後、未使用のまま保持していた「バレンタインデーのお誘い」は60,000クレジットに変換されます",
+            "DescriptionEn": "Proof that someone is waiting for you. There will surely be a special encounter on a special day. ※Unused \"Valentine's Day Invitation\" will be converted to 200,000 credits after the event ends."
+        },
+        {
+            "Key": 4017761813,
+            "NameJp": "ゲーミングヘルメット",
+            "NameEn": "Gaming Helmet",
+            "DescriptionJp": "飲み物をセットできる帽子。 ストローを使えば、コントローラーを握ったまま喉を潤せる。",
+            "DescriptionEn": "A hat that can hold a drink. If you use the straw, you can quench your thirst while holding the controller."
+        },
+        {
+            "Key": 1764803558,
+            "NameJp": "ゲーミングヘルメットの設計図",
+            "NameEn": "Gaming Helmet Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 1423638540,
+            "NameJp": "スーパーグローブ",
+            "NameEn": "Super Gloves",
+            "DescriptionJp": "モーションセンサー付きのゲーム用グローブ。 決して使いやすいとは言えないが、世のゲーム開発者たちに大きな影響を与えた。",
+            "DescriptionEn": "Motion-sensing gaming gloves may not be the most user-friendly, but they have had a major impact on game developers."
+        },
+        {
+            "Key": 342248693,
+            "NameJp": "スーパーグローブの設計図",
+            "NameEn": "Super Gloves Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 129848510,
+            "NameJp": "ゲーミングスリッパ",
+            "NameEn": "Gaming Slippers",
+            "DescriptionJp": "赤、緑、青の三色に発光するスリッパ。 暗闇の中でも見つけやすいが、ゲームのスコアに貢献することはない。",
+            "DescriptionEn": "The slippers glow in red, green, and blue, making them easy to find in the dark but not contributing to your score in the game."
+        },
+        {
+            "Key": 3815728306,
+            "NameJp": "ゲーミングスリッパの設計図",
+            "NameEn": "Gaming Slippers Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 1597212943,
+            "NameJp": "メタルケース",
+            "NameEn": "Metal Case",
+            "DescriptionJp": "バッテリー内蔵の防弾合金製バックパック。 ライフルのフルオート射撃程度ならば防ぐことができ、電子機器の保管に最適。",
+            "DescriptionEn": "A bulletproof alloy backpack with a built-in battery. It can protect against full-auto rifle fire and is ideal for storing electronic devices."
+        },
+        {
+            "Key": 1295975926,
+            "NameJp": "メタルケースの設計図",
+            "NameEn": "Metal Case Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 2966784212,
+            "NameJp": "コインバッジ",
+            "NameEn": "Coin Badge",
+            "DescriptionJp": "ゲームセンターで使われているコインを模して作られたバッジ。 実物より大きいため、筐体には入らない。",
+            "DescriptionEn": "A badge made to resemble a coin used in game arcades. It is larger than the real thing and son't fit into the machine."
+        },
+        {
+            "Key": 719552829,
+            "NameJp": "コインバッジの設計図",
+            "NameEn": "Coin Badge Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 3421013348,
+            "NameJp": "電磁波カットヘアピン",
+            "NameEn": "EMI Blocking Hairpin",
+            "DescriptionJp": "電磁波をカットし、脳を活性化すると言われているヘアピン。本当かどうかは怪しい。",
+            "DescriptionEn": "A hairpin is said to block electromagnetic waves and activate the brain, but whether this is true or not is questionable."
+        },
+        {
+            "Key": 480952054,
+            "NameJp": "電磁波カットヘアピンの設計図",
+            "NameEn": "EMI Blocking Hairpin Blueprint",
+            "DescriptionJp": "装備を作ることができる図面。",
+            "DescriptionEn": "A blueprint for creating equipment."
+        },
+        {
+            "Key": 2678077767,
+            "NameJp": "ゲブラ（屋外戦）のブロンズトロフィー",
+            "NameEn": "Geburah Bronze Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゲブラ（屋外戦）の栄誉を讃えるブロンズトロフィー",
+            "DescriptionEn": "A bronze trophy from Geburah for Outdoor Warfare."
+        },
+        {
+            "Key": 4223761928,
+            "NameJp": "ゲブラ（屋外戦）のシルバートロフィー",
+            "NameEn": "Geburah Silver Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゲブラ（屋外戦）の栄誉を讃えるシルバートロフィー",
+            "DescriptionEn": "A silver trophy from Geburah for Outdoor Warfare."
+        },
+        {
+            "Key": 2877011567,
+            "NameJp": "ゲブラ（屋外戦）のゴールドトロフィー",
+            "NameEn": "Geburah Gold Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゲブラ（屋外戦）の栄誉を讃えるゴールドトロフィー",
+            "DescriptionEn": "A gold trophy from ゲブラ for Outdoor Warfare."
+        },
+        {
+            "Key": 4169427222,
+            "NameJp": "ゲブラ（屋外戦）のプラチナトロフィー",
+            "NameEn": "Geburah Platinum Trophy - Outdoor Warfare",
+            "DescriptionJp": "ゲブラ（屋外戦）の栄誉を讃えるプラチナトロフィー",
+            "DescriptionEn": "A platinum trophy from Geburah for Outdoor Warfare."
+        },
+
+        {
+            "Key": 2954572543,
+            "NameJp": "お洒落なラウンジベンチ",
+            "NameEn": "Stylish Lounge Bench",
+            "DescriptionJp": "曲線が特徴的なベンチ。ラウンジを訪れる生徒たちが一休みするのに最適。",
+            "DescriptionEn": "A bench characterized by its curves. Perfect for students visiting the lounge for a break."
+        },
+        {
+            "Key": 810452553,
+            "NameJp": "ミレニアムタワーラウンジシリーズ",
+            "NameEn": "Millennium Tower Lounge Set",
+            "DescriptionJp": "ミレニアムの雰囲気をそのまま感じられるラウンジシリーズ。ようこそ、先端技術を誇るサイエンススクールへ！",
+            "DescriptionEn": "A lounge furniture series that captures the essence of Millennium. Welcome to the science school boasting cutting-edge technology!"
+        },
+        {
+            "Key": 479854077,
+            "NameJp": "ミレニアムタワーラウンジセット",
+            "NameEn": "Millennium Tower Lounge Furniture"
+        },
+        {
+            "Key": 2960450097,
+            "NameJp": "大型のラウンジベンチ",
+            "NameEn": "Large Lounge Bench",
+            "DescriptionJp": "大人数が座れるベンチ。硬そうに見えて、意外にふかふか。",
+            "DescriptionEn": "A bench that can seat many people. Looks hard, but it is surprisingly soft."
+        },
+        {
+            "Key": 1313686834,
+            "NameJp": "八角形のカーペット・青",
+            "NameEn": "Octagonal Carpet・Blue",
+            "DescriptionJp": "柔らかな青色の八角形のカーペット。 部屋の雰囲気に調和をもたらすインテリアだ。",
+            "DescriptionEn": "A soft blue octagonal carpet. An interior item that brings harmony to the room."
+        },
+        {
+            "Key": 40718990,
+            "NameJp": "八角形のカーペット・紺",
+            "NameEn": "Octagonal Carpet・Navy",
+            "DescriptionJp": "濃い紺色の八角形のカーペット。 部屋の雰囲気に調和をもたらすインテリアだ。",
+            "DescriptionEn": "A dark navy octagonal carpet. An interior item that brings harmony to the room."
+        },
+        {
+            "Key": 1529615935,
+            "NameJp": "幾何学模様のカーペット",
+            "NameEn": "Geometric Pattern Carpet",
+            "DescriptionJp": "幾何学模様のカーペット。 多くのミレニアム生徒が、この模様からインスピレーションを得たらしい。",
+            "DescriptionEn": "A carpet with a geometric pattern. Many Millennium students seem to have drawn inspiration from this pattern."
+        },
+        {
+            "Key": 3557494881,
+            "NameJp": "ハニカムカーペット",
+            "NameEn": "Honeycomb Carpet",
+            "DescriptionJp": "六角形が隙間なく並べられたカーペット。他のものより頑丈そうだ。",
+            "DescriptionEn": "A carpet with hexagons arranged without gaps. It looks sturdier than others."
+        },
+        {
+            "Key": 1423836042,
+            "NameJp": "緑の縁取りのカーペット",
+            "NameEn": "Green Edged Carpet",
+            "DescriptionJp": "緑の縁取りで飾られたカーペット。ここで過ごす人をリラックスさせる効果があるかも？",
+            "DescriptionEn": "A carpet decorated with green edges. It might have a relaxing effect on those who spend time here."
+        },
+        {
+            "Key": 2850387743,
+            "NameJp": "大理石模様のカーペット",
+            "NameEn": "Marble Pattern Carpet",
+            "DescriptionJp": "高級な大理石の模様が刻まれたカーペット。 一見冷たそうだが、暖かく柔らかい。",
+            "DescriptionEn": "A carpet with a luxurious marble pattern. It looks cold at first glance but is warm and soft."
+        },
+        {
+            "Key": 3457434895,
+            "NameJp": "角が丸い大理石模様のカーペット",
+            "NameEn": "Rounded Marble Pattern Carpet",
+            "DescriptionJp": "高級な大理石の模様が刻まれたカーペット。 部屋をモダンな雰囲気にしたいときにおすすめ。",
+            "DescriptionEn": "A carpet with a luxurious marble pattern. Recommended when you want to give the room a modern feel."
+        },
+        {
+            "Key": 2824696329,
+            "NameJp": "壁掛けデジタル時計",
+            "NameEn": "Wall-mounted Digital Clock",
+            "DescriptionJp": "壁に掛けられるデジタル時計。室内の温度と湿度も確認できる優れもの。",
+            "DescriptionEn": "A wall-mounted digital clock. It can also check the room's temperature and humidity."
+        },
+        {
+            "Key": 1701209630,
+            "NameJp": "施設案内用ディスプレイ",
+            "NameEn": "Facility Guide Display",
+            "DescriptionJp": "施設の案内が表示されるスタンド型ディスプレイ。 これを見れば迷子にならない。",
+            "DescriptionEn": "A stand-type display showing facility guides. You won't get lost if you look at this."
+        },
+        {
+            "Key": 3617828029,
+            "NameJp": "イベント広報用ディスプレイ",
+            "NameEn": "Event Promotion Display",
+            "DescriptionJp": "ミレニアム内のイベント情報が表示されるディスプレイ。 サークルイベントの申し込みは、セミナーまで！",
+            "DescriptionEn": "A display showing event information within Millennium. Sign up for circle events at the seminar!"
+        },
+        {
+            "Key": 2047348994,
+            "NameJp": "ラウンジのディスプレイ",
+            "NameEn": "Lounge Display",
+            "DescriptionJp": "ラウンジを訪れる生徒に情報を提供するディスプレイ。 タッチスクリーンで操作できる。",
+            "DescriptionEn": "A display providing information to students visiting the lounge. Operable via touchscreen."
+        },
+        {
+            "Key": 1778905185,
+            "NameJp": "立ち入り禁止バー",
+            "NameEn": "No Entry Bar",
+            "DescriptionJp": "立ち入り禁止区画に設置される安全バー。 近道でも、乗り越えるのはやめよう。",
+            "DescriptionEn": "A safety bar installed in no-entry areas. Even if it's a shortcut, don't climb over it."
+        },
+        {
+            "Key": 2521181138,
+            "NameJp": "ガラスフェンス",
+            "NameEn": "Glass Fence",
+            "DescriptionJp": "ガラス張りのフェンス。見栄えは良いが、うっかり触ると跡が付いてしまう。",
+            "DescriptionEn": "A glass fence. It looks good, but if you touch it carelessly, it will leave marks."
+        },
+        {
+            "Key": 4008069522,
+            "NameJp": "壁掛けランプ",
+            "NameEn": "Wall-mounted Lamp",
+            "DescriptionJp": "壁に取り付けられるランプ。 青緑色の照明がミレニアム感を演出する。",
+            "DescriptionEn": "A lamp that can be attached to the wall. The blue-green light creates a Millennium feel."
+        },
+        {
+            "Key": 282620578,
+            "NameJp": "スタンドランプ",
+            "NameEn": "Stand Lamp",
+            "DescriptionJp": "円形のスタンドランプ。青緑色の照明が、部屋に澄んだ空気感をもたらす。",
+            "DescriptionEn": "A circular stand lamp. The blue-green light brings a clear atmosphere to the room."
+        },
+        {
+            "Key": 4092787851,
+            "NameJp": "四角形のラウンジパーティション",
+            "NameEn": "Square Lounge Partition",
+            "DescriptionJp": "ガラス張りのパーティション。 設置しても、狭くなる印象を与えない。",
+            "DescriptionEn": "A glass partition. Even when installed, it doesn't give the impression of narrowing the space."
+        },
+        {
+            "Key": 2481019026,
+            "NameJp": "三角形のラウンジパーティション",
+            "NameEn": "Triangular Lounge Partition",
+            "DescriptionJp": "ガラス張りのパーティション。 部屋のレイアウトに個性を出すことができる。",
+            "DescriptionEn": "A glass partition. It can add personality to the room layout."
+        },
+        {
+            "Key": 2174794892,
+            "NameJp": "観葉植物の植木鉢・A",
+            "NameEn": "Potted Plant A",
+            "DescriptionJp": "中くらいの観葉植物が植えられた鉢植え。 室内に爽やかさをもたらす。",
+            "DescriptionEn": "A medium-sized potted plant. It brings a refreshing feeling to the room."
+        },
+        {
+            "Key": 5077418,
+            "NameJp": "観葉植物の植木鉢・B",
+            "NameEn": "Potted Plant B",
+            "DescriptionJp": "丸い観葉植物の植えられた鉢植え。 部屋のかわいいワンポイントとしてオススメ。",
+            "DescriptionEn": "A round potted plant. Recommended as a cute accent for the room."
+        },
+        {
+            "Key": 533203456,
+            "NameJp": "観葉植物の植木鉢・C",
+            "NameEn": "Potted Plant C",
+            "DescriptionJp": "大きな観葉植物が植えられた鉢植え。 部屋に街路樹が生えたかのような存在感がある。",
+            "DescriptionEn": "A large potted plant. It has a presence as if a street tree has grown in the room."
+        },
+        {
+            "Key": 3136345532,
+            "NameJp": "植木鉢つきの六角形テーブル",
+            "NameEn": "Hexagonal Table with Potted Plant",
+            "DescriptionJp": "小さな植木鉢が置かれた、六角形のテーブル。 部屋の空気が良くなる気がする。",
+            "DescriptionEn": "A hexagonal table with a small potted plant. It feels like it improves the room's air quality."
+        },
+        {
+            "Key": 1840858735,
+            "NameJp": "タブレットと円形テーブル",
+            "NameEn": "Tablet and Round Table",
+            "DescriptionJp": "タブレットが置かれた円形のテーブル。 なんだか仕事がはかどりそうだ。",
+            "DescriptionEn": "A round table with a tablet. It seems like it would make work more efficient."
+        },
+        {
+            "Key": 1841568450,
+            "NameJp": "ランプつきの円形テーブル",
+            "NameEn": "Round Table with Lamp",
+            "DescriptionJp": "小さな照明が置かれた円形のテーブル。小さな照明が、ムードを演出する。",
+            "DescriptionEn": "A round table with a small lamp. The small lamp creates a mood."
+        },
+        {
+            "Key": 1418371049,
+            "NameJp": "ミレニアムの柱・A",
+            "NameEn": "Millennium Pillar A",
+            "DescriptionJp": "ミレニアムの柱。 上部の照明がポイント。",
+            "DescriptionEn": "A Millennium pillar. The lighting at the top is a key feature."
+        },
+        {
+            "Key": 2916391596,
+            "NameJp": "ミレニアムの柱・B",
+            "NameEn": "Millennium Pillar B",
+            "DescriptionJp": "ミレニアムの柱。 すっきりとしたデザインになっている。",
+            "DescriptionEn": "A Millennium pillar. It has a clean design."
+        },
+        {
+            "Key": 1495795501,
+            "NameJp": "ミレニアムの柱・C",
+            "NameEn": "Millennium Pillar C",
+            "DescriptionJp": "ミレニアムの柱。 縦長の照明が周囲を照らす。",
+            "DescriptionEn": "A Millennium pillar. The vertical lighting illuminates the surroundings."
+        },
+        {
+            "Key": 79128299,
+            "NameJp": "ミレニアムのロゴが刻まれた柱",
+            "NameEn": "Millennium Logo Engraved Pillar",
+            "DescriptionJp": "ミレニアムのロゴが刻まれた柱。工学的な設計もミレニアムらしい。",
+            "DescriptionEn": "A pillar engraved with the Millennium logo. The engineering design is also characteristic of Millennium."
+        },
+        {
+            "Key": 572400942,
+            "NameJp": "ミレニアムの半透明窓",
+            "NameEn": "Millennium Translucent Window",
+            "DescriptionJp": "ミレニアムのロゴが刻まれた半透明の窓。 紫外線カット率が高い。",
+            "DescriptionEn": "A translucent window engraved with the Millennium logo. It has a high UV cut rate."
+        },
+        {
+            "Key": 226696232,
+            "NameJp": "ミレニアムチェア・青緑",
+            "NameEn": "Millennium Chair・Blue-Green",
+            "DescriptionJp": "丸みのある椅子。青緑色が爽やかな印象を与える。",
+            "DescriptionEn": "A rounded chair. The blue-green color gives a refreshing impression."
+        },
+        {
+            "Key": 311177339,
+            "NameJp": "ミレニアムチェア・青",
+            "NameEn": "Millennium Chair・Blue",
+            "DescriptionJp": "丸みのある椅子。透き通った青色が特徴だ。",
+            "DescriptionEn": "A rounded chair. The transparent blue color is a feature."
+        },
+        {
+            "Key": 2121016063,
+            "NameJp": "ミレニアムチェア・紺",
+            "NameEn": "Millennium Chair・Navy",
+            "DescriptionJp": "丸みのある椅子。部屋を落ち着いた雰囲気にする紺色をしている。",
+            "DescriptionEn": "A rounded chair. The navy color gives the room a calm atmosphere."
+        },
+        {
+            "Key": 2511886108,
+            "NameJp": "ラウンジベンチ・A型",
+            "NameEn": "Lounge A-bench",
+            "DescriptionJp": "Aの形をしているベンチ。ふかふかのクッションを備え、座り心地が良い。",
+            "DescriptionEn": "A bench shaped like an A. It has fluffy cushions and is comfortable to sit on."
+        },
+        {
+            "Key": 397747254,
+            "NameJp": "八角形の大型ベンチ",
+            "NameEn": "Large Octagonal Bench",
+            "DescriptionJp": "木が植えられた、八角形のベンチ。大人数でのんびりと過ごせる。",
+            "DescriptionEn": "An octagonal bench with a tree planted in it. It can accommodate a large number of people to relax."
+        },
+        {
+            "Key": 3936566839,
+            "NameJp": "円形のディスプレイベンチ",
+            "NameEn": "Circular Display Bench",
+            "DescriptionJp": "上部に円形のディスプレイを設置したベンチ。休憩しながら広報映像を観ることができる。",
+            "DescriptionEn": "A bench with a circular display installed on top. You can watch promotional videos while taking a break."
+        },
+        {
+            "Key": 3627212448,
+            "NameJp": "ミレニアムワイドデスク",
+            "NameEn": "Millennium Wide Desk",
+            "DescriptionJp": "広々とした業務用デスク。日々余裕あるデスクワークを。",
+            "DescriptionEn": "A spacious business desk. For daily desk work with plenty of room."
+        },
+        {
+            "Key": 3880204055,
+            "NameJp": "ラウンジマップディスプレイ",
+            "NameEn": "Lounge Map Display",
+            "DescriptionJp": "ミレニアムタワーラウンジのマップが表示されるディスプレイ。気になる場所はここでチェック！",
+            "DescriptionEn": "A display showing the map of Millennium Tower Lounge. Check out the places you're interested in here!"
+        },
+        {
+            "Key": 3880204055,
+            "NameJp": "ラウンジマップディスプレイ",
+            "NameEn": "Lounge Map Display",
+            "DescriptionJp": "ミレニアムタワーラウンジのマップが表示されるディスプレイ。気になる場所はここでチェック！",
+            "DescriptionEn": "A display showing the map of the Millennium Tower Lounge. Check out the places of interest here!"
+        },
+        {
+            "Key": 3632885326,
+            "NameJp": "ガラス張りのエレベーター",
+            "NameEn": "Glass Elevator",
+            "DescriptionJp": "開放感のあるエレベーター。ミレニアムのロゴが刻まれている。",
+            "DescriptionEn": "An elevator with a sense of openness. It features the Millennium logo."
+        },
+        {
+            "Key": 2022344463,
+            "NameJp": "ミレニアムタワーラウンジのゲート",
+            "NameEn": "Millennium Tower Lounge Gate",
+            "DescriptionJp": "ミレニアムタワーラウンジに設置されているゲート。たまにハッキングを受け、人が通過する度に変な歌が流れるのだとか。",
+            "DescriptionEn": "A gate installed in the Millennium Tower Lounge. Occasionally hacked, it plays a strange song every time someone passes through."
+        },
+        {
+            "Key": 389601628,
+            "NameJp": "ミレニアム製マッサージチェア",
+            "NameEn": "Millennium Massage Chair",
+            "DescriptionJp": "全身を解きほぐすマッサージチェア。疲れた時はこれ一択。",
+            "DescriptionEn": "A massage chair that relaxes the whole body. The best choice when you're tired."
+        },
+        {
+            "Key": 917686991,
+            "NameJp": "格子調のパーティション",
+            "NameEn": "Lattice Partition",
+            "DescriptionJp": "縦格子のパーティション。モダンさと芸術性を両立している。",
+            "DescriptionEn": "A partition with vertical lattices. It combines modernity and artistry."
+        },
+        {
+            "Key": 826937419,
+            "NameJp": "長方形の植木鉢",
+            "NameEn": "Rectangular Planter",
+            "DescriptionJp": "観賞植物が植えられた長方形の植木鉢。室内に彩りを加えよう。",
+            "DescriptionEn": "A rectangular planter with ornamental plants. Add some color to your interior."
+        },
+        {
+            "Key": 1090148821,
+            "NameJp": "壁掛け型ミレニアムロゴ",
+            "NameEn": "Wall-mounted Millennium Logo",
+            "DescriptionJp": "ミレニアムのロゴ。壁に掛ければ、あなたの部屋もミレニアムに。",
+            "DescriptionEn": "The Millennium logo. Hang it on your wall to bring the Millennium vibe to your room."
+        },
+        {
+            "Key": 4832055,
+            "NameJp": "ミレニアムタワーラウンジの自動販売機",
+            "NameEn": "Millennium Tower Lounge Vending Machine",
+            "DescriptionJp": "ラウンジに設置されている大型の自販機。もちろん、冷蔵・温蔵システムも完備。",
+            "DescriptionEn": "A large vending machine installed in the lounge. Of course, it is equipped with both refrigeration and heating systems."
+        },
+        {
+            "Key": 3656122902,
+            "NameJp": "ミレニアムの格子窓",
+            "NameEn": "Millennium Lattice Window",
+            "DescriptionJp": "格子がついた窓。 気分転換に、外の景色を見よう。",
+            "DescriptionEn": "A window with lattices. Take a look outside for a change of pace."
+        },
+        {
+            "Key": 4277704352,
+            "NameJp": "ミレニアムタワーラウンジの壁",
+            "NameEn": "Millennium Tower Lounge Wall",
+            "DescriptionJp": "丈夫な素材で作られた壁。ミレニアム感ある配色がポイント。",
+            "DescriptionEn": "A wall made of durable materials. The Millennium-themed color scheme is a highlight."
+        },
+        {
+            "Key": 2148927862,
+            "NameJp": "ミレニアムタワーラウンジの床",
+            "NameEn": "Millennium Tower Lounge Floor",
+            "DescriptionJp": "滑らかな素材で作られた床。近未来的なデザインが特徴的だ。",
+            "DescriptionEn": "A floor made of smooth materials. It features a futuristic design."
+        },
+        {
+            "Key": 3462475894,
+            "NameJp": "ミレニアムタワーラウンジの背景",
+            "NameEn": "Millennium Tower Lounge Background",
+            "DescriptionJp": "ミレニアムを象徴するような、未来を連想させる青色が目を惹く背景。",
+            "DescriptionEn": "A background that symbolizes Millennium, with an eye-catching blue color that evokes the future."
+        },
+        {
+            "Key": 400761702,
+            "NameJp": "三位一体ベンチ",
+            "NameEn": "Triple Bench",
+            "DescriptionJp": "三つのベンチを、向かい合わせにした形状のベンチ。たまに忘れ物があるらしい。",
+            "DescriptionEn": "A bench with three benches facing each other. Occasionally, items are left behind."
+        },
+        {
+            "Key": 1946045865,
+            "NameJp": "ミレニアムホログラムマップ",
+            "NameEn": "Millennium Hologram Map",
+            "DescriptionJp": "ミレニアムサイエンススクールの全体図がホログラム投影される装置。交通状況をリアルタイムで把握できる。",
+            "DescriptionEn": "A device that projects a hologram of the Millennium Science School's layout. It allows real-time monitoring of traffic conditions."
+        },
+        {
+            "Key": 3778870744,
+            "NameJp": "ミレニアムタワーラウンジのエスカレーター",
+            "NameEn": "Millennium Tower Lounge Escalator",
+            "DescriptionJp": "他の階に移動できるエスカレーター。危ないので、決して歩かない、走らない。",
+            "DescriptionEn": "An escalator that allows movement to other floors. For safety, do not walk or run on it."
+        },
+        {
+            "Key": 2296647309,
+            "NameJp": "インフォメーションデスク",
+            "NameEn": "Information Desk",
+            "DescriptionJp": "ラウンジのインフォメーションデスク。受付はおらず、用件はタブレット端末に入力する。",
+            "DescriptionEn": "The lounge's information desk. There is no receptionist; enter your requests on the tablet terminal."
+        },
+        {
+            "Key": 2518968126,
+            "NameJp": "ラウンジのガイドドローン",
+            "NameEn": "Lounge Guide Drone",
+            "DescriptionJp": "ラウンジを案内する飛行ドローン。バッテリー残量が低下すると、よちよち歩きになる。",
+            "DescriptionEn": "A flying drone that guides visitors though the lounge. When the battery level is low, it starts to waddle."
+        },
+        {
+            "Key": 180301164,
+            "NameJp": "ラウンジのガイドロボット",
+            "NameEn": "Lounge Guide Robot",
+            "DescriptionJp": "ラウンジを案内するロボット。パネルに感情豊かな表情が映し出されるため、生徒たちの人気者だ。",
+            "DescriptionEn": "A robot that guides visitors though the lounge. It displays lively emotions on its panel, making it popular among students."
+        },
+        {
+            "Key": 142655698,
+            "NameJp": "ミレニアムのワイドウィンドウ",
+            "NameEn": "Millennium Wide Window",
+            "DescriptionJp": "窓の外を眺めると、ミレニアムの全景を一望できる。",
+            "DescriptionEn": "Looking out the window, you can get a panoramic view of Millennium."
+        },
+        {
+            "Key": 2073445367,
+            "NameJp": "2人用ミレニアムデスク",
+            "NameEn": "Two-person Millennium Desk",
+            "DescriptionJp": "二人用の机。集中力も2倍！……になるわけではない。",
+            "DescriptionEn": "A desk for two people. Double the concentration! ...Not really."
+        },
+        {
+            "Key": 4286106492,
+            "NameJp": "ミリタリーキャンプボードの設置物",
+            "NameEn": "Military Camp Board Installation",
+            "DescriptionJp": "巨大なボード。今はスタイリッシュなグラフィティが描かれている。",
+            "DescriptionEn": "A huge board. Currently, it features stylish graffiti."
+        },
+        {
+            "Key": 3819813867,
+            "NameJp": "原初のアバンギャルド",
+            "NameEn": "Original Avant-Guard",
+            "DescriptionJp": "リオが初めて作った模型。そのデザインには、彼女独自の哲学が込められている。",
+            "DescriptionEn": "The first model made by Rio. Its design embodies her unique philosophy."
         }
-      
+
 
     ]
 }

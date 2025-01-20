@@ -244,7 +244,7 @@
         {
             "GroupId": "HarunaEx01",
             "NameEn": "Piercing Elegance",
-            "DescriptionEn": "Attack a selected enemy with $1 of Haruna's Attack, bullet will penetrate target and damage subsequent targets at sequential $2 damage reduction per target. (Damage reduction caps at a low of $3)"
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line. Damage decreases by $2 each time shot pierces an enemy. (Damage reduction caps at a minimum of $3 damage)"
         },
         {
             "GroupId": "HarunaPublic01",
@@ -3573,7 +3573,7 @@
         {
             "GroupId": "CH0187GearPublic01",
             "NameEn": "Tactical judgment +",
-            "DescriptionEn": "When Abi-Eshuh mode is engaged, or every $1, deal $2 damage to a single enemy.\nAfterwards, immediately draw EX skill card next time EX skill is used."
+            "DescriptionEn": "When exiting Abi-Eshuh mode, or every $1, deal $2 damage to a single enemy.\nNext time any EX skill is used, draw Toki's EX skill card."
         },
         {
             "GroupId": "CH0187GearPublic02",
@@ -4030,12 +4030,12 @@
         {
             "GroupId": "CH0204Ex01",
             "NameEn": "Private cafe",
-            "DescriptionEn": "Move 4 other allies within a circular area to Ui's position, then add $1 to their Penetration Efficiency for $2."
+            "DescriptionEn": "Move 4 other allies within a circular area to Ui's position, then add $1 to their Piercing Efficiency for $2."
         },
         {
             "GroupId": "CH0204Public01",
             "NameEn": "Definitive clue",
-            "DescriptionEn": "When $1 Clues are obtained, add $2 Penetration Efficiency to all Striker allies for $3.\nConsume $4 Clues."
+            "DescriptionEn": "When $1 Clues are obtained, add $2 Piercing Efficiency to all Striker allies for $3.\nConsume $4 Clues."
         },
         {
             "GroupId": "CH0204Passive01",
@@ -4625,7 +4625,7 @@
         {
             "GroupId": "CH0079ExtraPassive01",
             "NameEn": "Invincible! The true leader of Gehenna!",
-            "DescriptionEn": "Increase Penetration Efficiency of all aliies by $1."
+            "DescriptionEn": "Increase Piercing Efficiency of all aliies by $1."
         },
 
         {
@@ -5581,7 +5581,142 @@
         {
             "GroupId": "CH0285ExtraPassive01",
             "NameEn": "Secretary's intuition",
-            "DescriptionEn": "Every $1 normal attacks, increase Penetration Efficiency by $2 for $3."
+            "DescriptionEn": "Every $1 normal attacks, increase Piercing Efficiency by $2 for $3."
+        },
+
+        {
+            "GroupId": "CH0070Ex01",
+            "NameEn": "Garden of Slumber",
+            "DescriptionEn": "Reduce EX skill cost of one other ally by up to $1 (reduction active until EX is activated $2 times)\nThe discount amount is rounded down to the nearest whole number.\nIncrease own Cost Recovery by $3 for $4."
+        },
+        {
+            "GroupId": "CH0070Public01",
+            "NameEn": "Wise Advice",
+            "DescriptionEn": "Every $1, increase Piercing Efficiency of self and one other ally by $2 for $3."
+        },
+        {
+            "GroupId": "CH0070Passive01",
+            "NameEn": "Peace of mind",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0070WeaponPassive01",
+            "NameEn": "Peace of mind +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0070ExtraPassive01",
+            "NameEn": "Wise Foresight",
+            "DescriptionEn": "When EX skill is used $1 times, grant a shield of $2 Healing to self and the target of 3rd EX for $3."
+        },
+
+        {
+            "GroupId": "CH0281Ex01",
+            "NameEn": "Over here, over here!",
+            "DescriptionEn": "Increase Attack of self and Special students by $1 for $2."
+        },
+        {
+            "GroupId": "CH0281Public01",
+            "NameEn": "Say cheese!",
+            "DescriptionEn": "Every $1, Heal all other allies within a circular area for $2 of Healing."
+        },
+        {
+            "GroupId": "CH0281Passive01",
+            "NameEn": "Good luck!",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0281WeaponPassive01",
+            "NameEn": "Good luck! +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0281ExtraPassive01",
+            "NameEn": "This way!",
+            "DescriptionEn": "Increases Attack of self and Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0282Ex01",
+            "NameEn": "Crisis response",
+            "DescriptionEn": "Deal $1 damage to one enemy. (damage is multiplied x$2 depending on target's current HP; the lower the target's HP, the greater the damage)\nWhen using an EX skill, if the target's HP is $3 or less, increase own Critical Damage rate by $4, increase Attack by $5, and increase Defense Penetration by $6 for $7."
+        },
+        {
+            "GroupId": "CH0282Public01",
+            "NameEn": "Rear support",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\n(damage is multiplied x$3 depending on target's current HP; the lower the target's HP, the greater the damage)"
+        },
+        {
+            "GroupId": "CH0282Passive01",
+            "NameEn": "Watchful eye",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0282WeaponPassive01",
+            "NameEn": "Watchful eye +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0282ExtraPassive01",
+            "NameEn": "Popular guide",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0280Ex01",
+            "NameEn": "Bring it on",
+            "DescriptionEn": "Put yourself and one enemy into a Duel state for $1.\nWhen attacking an enemy in a Duel state, increase damage multiplier by $2.\nImmediately draw one EX skill.\nWhile in Duel state, EX skill changes to \"I don't care if someone gets hurt\"."
+        },
+        {
+            "GroupId": "CH0280Ex02",
+            "NameEn": "I don't care if someone gets hurt",
+            "DescriptionEn": "Gain $1 \"Spirit\". (Spirit can be stacked up to a maximum of $2)\nDeal $3 damage to one enemy.\n(When the skill reverts to \"Bring it on\", reset \"Spirit\" count)"
+        },
+        {
+            "GroupId": "CH0280Public01",
+            "NameEn": "Let's play a bit",
+            "DescriptionEn": "Every $1, increase Piercing Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0280Passive01",
+            "NameEn": "Is it over already?",
+            "DescriptionEn": "Increase normal attack Firing Range by $1 and Attack by $2."
+        },
+        {
+            "GroupId": "CH0280WeaponPassive01",
+            "NameEn": "Is it over already? +",
+            "DescriptionEn": "Increase HP by $1. Increase normal attack Firing Range by $2 and Attack by $3."
+        },
+        {
+            "GroupId": "CH0280ExtraPassive01",
+            "NameEn": "I won't miss",
+            "DescriptionEn": "Increase outgoing damage by $1.\nEach time you gain \"Spirit\", increase damage multiplier of the skill \"I don't care if someone gets hurt\" by $2."
+        },
+
+        {
+            "GroupId": "CH0158Ex01",
+            "NameEn": "Big Sister",
+            "DescriptionEn": "Immediately draw an EX skill card, then duplicate an ally's EX skill card (the duplicated card can be used $1 time).\nIncrease the target's Attack by $2 for $3.\n(Duplicated card matches the card state of target's EX skill)\n(Cost of the duplicated card is the base cost of target's EX skill minus $4, minimum 0)"
+        },
+        {
+            "GroupId": "CH0158Public01",
+            "NameEn": "The only way",
+            "DescriptionEn": "Every $1, reduce Defense of one enemy by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0158Passive01",
+            "NameEn": "Starchaser",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0158WeaponPassive01",
+            "NameEn": "Starchaser +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0158ExtraPassive01",
+            "NameEn": "Avant-Guard",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
         
 
