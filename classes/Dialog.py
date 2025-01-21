@@ -117,8 +117,8 @@ class Dialog(object):
     
 
     @classmethod
-    def construct_standard(cls, character:Character, localization, file, file_prefix='', production_step='Release', dialog_category = 'Standard'):
-        voice = Voice.from_data({'Path':[file]}, character.wiki_name, file_prefix)
+    def construct_standard(cls, character:Character, localization, file, file_wikititle=None, file_prefix='', production_step='Release', dialog_category = 'Standard'):
+        voice = Voice.from_data({'Path':[file]}, character.wiki_name, file_prefix, [file_wikititle])
 
         return cls(
             character_id = character.id,
@@ -156,8 +156,6 @@ class Voice(object):
         self.unique_id = unique_id
         self.nation = nation
         self.path = path
-        #self.volume = volume
-
         self.titles = titles
         self.wiki_voice_clips = wiki_voice_clips
 
@@ -167,10 +165,14 @@ class Voice(object):
     
     
     @classmethod
-    def from_data(cls, data, character_wiki_name, file_prefix=''):
+    def from_data(cls, data, character_wiki_name, file_prefix='', preset_titles:list|None = None):
         titles = []
-        for filepath in data['Path']:
-            titles.append(filepath[filepath.rfind('/'):].split('_', 1)[1])
+
+        if preset_titles:
+            titles = preset_titles
+        else:
+            for filepath in data['Path']:
+                titles.append(filepath[filepath.rfind('/'):].split('_', 1)[1])
 
         wiki_voice_clips = []
         for title in titles:

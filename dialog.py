@@ -44,7 +44,7 @@ force_voice_group_link = {
 
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
             'Formation', 'Formchange', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
-EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'Minigame', 'MiniGame' ] 
+EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'EventMission', 'Minigame', 'MiniGame' ] 
 
 
 def list_character_variants(character):
@@ -170,7 +170,7 @@ def generate():
                     memorial_unlock.append(line)
             
             #Guess memorial lobby unlock audio if it had no text
-            if len(memorial_unlock)==0 and os.path.exists(os.path.join(args['data_audio'], files_scandir, f"{character_code}_MemorialLobby_0.ogg")):
+            if len(memorial_unlock)==0 and (os.path.exists(os.path.join(args['data_audio'], files_scandir, f"{character_code}_MemorialLobby_0.ogg")) or os.path.exists(os.path.join(args['data_audio'], files_scandir, f"{character_code}_MemorialLobby_0.ogg".lower()))):
                 line['CharacterId'] = character.id
                 line['CostumeUniqueId'] = character.costume['CostumeUniqueId']
                 line['DialogCategory'] = 'UILobbySpecial'
@@ -211,7 +211,7 @@ def generate():
 
         for type in (STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES):
             #print(f"Gathering {type}-type standard lines")
-            sl = [x for x in file_list+append_files if type in x.rsplit('/')[-1].split('_')[1] or ('_S2_' in x and type in x.rsplit('/')[-1].split('_')[2])]
+            sl = [x for x in file_list+append_files if type.lower() in x.rsplit('/')[-1].split('_')[1].lower() or ('_s2_' in x.lower() and type.lower() in x.rsplit('/')[-1].split('_')[2].lower())]
 
             if sl: print (f'Found {len(sl)} {type}-type standard lines') 
             standard_lines += get_standard_lines(character, sl, type, maindir=character_code)
@@ -226,9 +226,12 @@ def generate():
         for x in event_lines: all_used_files += x.used_files
         for x in standard_lines: all_used_files += x.used_files 
 
-        unused_files = list(set(all_used_files).symmetric_difference(set([x.rsplit('/')[-1] for x in file_list+append_files])))
+        unused_files = set([x.rsplit('/')[-1].lower() for x in file_list+append_files]).difference(set([x.lower() for x in all_used_files]))
         if len(unused_files): print(f"WARNING - unused files: {unused_files}")
 
+        missing_files = set([x.lower() for x in all_used_files]).difference(set([x.rsplit('/')[-1].lower() for x in file_list+append_files]))
+        if len(missing_files): print(f"WARNING - missing files: {missing_files}")
+        
 
 
         if wiki.site != None: page_list = wiki.page_list(f"File:{character.wiki_name}")
@@ -417,16 +420,33 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
     character_voice_group = character.costume['CharacterVoiceGroupId']
     character_voice = data.character_voice[character_voice_group]
     character_voice_by_path = {x['Path'][0]:x for x in character_voice if len(x['Path'])}
+    character_voice_by_filename_lower = {x['Path'][0].rsplit("/", 1)[-1].lower():x for x in character_voice if len(x['Path'])}
     character_voice_subtitle_by_cvgroup = {x['LocalizeCVGroup']:x for x in data.character_voice_subtitle if x['CharacterVoiceGroupId']==character_voice_group}
     
     
     for file in files:
         file_prefix = ''
-        file_wikititle = character.wiki_name.replace(' ', '_') + '_' + file.rsplit("/", 1)[-1].split('_',1)[-1]
-        if maindir is not None and maindir != file.rsplit("/", 1)[-1].split('_',1)[0]: 
+        
+        #Attempt to get proper filename capitalization from the character_voice data
+        filename_base = file.rsplit("/", 1)[-1]
+        if filename_base in character_voice_by_filename_lower:
+            filename_base = character_voice_by_filename_lower[filename_base]['Path'][0].rsplit("/", 1)[-1]
+        else:
+            #or capitalize the name by substituting types and capitalizing words
+            types = STANDARD_LINE_TYPES + EVENT_STANDARD_LINE_TYPES 
+            for index, lowertype in enumerate([x.lower() for x in types]):
+                filename_base = filename_base.replace(lowertype, types[index])
+
+            filename_base = re.sub(r"_(\w)", lambda x: f"_{x.group(1).upper()}", filename_base)
+        
+        
+        file_wikititle = character.wiki_name.replace(' ', '_') + '_' + filename_base.split('_',1)[-1]
+        
+        if maindir is not None and maindir.lower() != file.rsplit("/", 1)[-1].split('_',1)[0].lower(): 
             #print(f"This is not a maindir {maindir} file: {file}")
-            file_prefix = file.rsplit("/", 1)[-1].split('_',1)[0]
-            file_wikititle = character.wiki_name.replace(' ', '_') + '_' + file.rsplit("/", 1)[-1]
+            file_prefix = filename_base.split('_',1)[0]
+            file_wikititle = character.wiki_name.replace(' ', '_') + '_' + filename_base
+
 
         voice_id = None
         if file in voice_by_path: voice_id = voice_by_path[file]['Id']
@@ -467,7 +487,7 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
                     dialog_data[file_wikititle]['LocalizeEN'] = dialog_data[file_wikititle]['LocalizeEN'] or data.localization[localize_key].get('En')
 
 
-        dialog = Dialog.construct_standard(character, dialog_data, file, file_prefix, dialog_category = dialog_category)
+        dialog = Dialog.construct_standard(character, dialog_data, file, filename_base.split('_',1)[-1], file_prefix, dialog_category = dialog_category)
         lines.append(dialog)
     
     return lines
@@ -567,7 +587,10 @@ def process_files(character, dialog:Dialog, page_list:list):
             wikiname = f"File:{line.wiki_voice_clips[index]}.ogg"
             wikitext = f"[[Category:Character dialog]]\r\n[[Category:{character.wiki_name} dialog]]"
 
-            if not os.path.exists(os.path.join(args['data_audio'], f"{filepath}.ogg")):
+            localfilename = None
+            if os.path.exists(os.path.join(args['data_audio'], f"{filepath}.ogg")): localfilename = f"{filepath}.ogg"
+            elif os.path.exists(os.path.join(args['data_audio'], f"{filepath.lower()}.ogg")): localfilename = f"{filepath.lower()}.ogg"
+            if localfilename is None:
                 print(f"Local file not found at {os.path.join(args['data_audio'], f'{filepath}.ogg')}")
                 continue
             
@@ -585,8 +608,8 @@ def process_files(character, dialog:Dialog, page_list:list):
                 #no continue here because we will try and upload the new file on the chance it's data changed
             
             
-            print (f"Uploading {filepath}.ogg → {line.wiki_voice_clips[index]}.ogg")
-            wiki.upload(os.path.join(args['data_audio'], f"{filepath}.ogg"), 
+            print (f"Uploading {localfilename} → {line.wiki_voice_clips[index]}.ogg")
+            wiki.upload(os.path.join(args['data_audio'], localfilename), 
                         f"{line.wiki_voice_clips[index]}.ogg", 
                         'Character dialog upload', 
                         wikitext)
@@ -604,7 +627,10 @@ def process_files_npc(character_wikiname:str, file_list:dict):
         wikiname = f"File:{line['wikitext_voice_clips']}"
         wikitext = f"[[Category:NPC dialog]]\r\n[[Category:{character_wikiname} dialog]]"
 
-        if not os.path.exists(os.path.join(args['data_audio'], line['localpath'])):
+        localfilename = None
+        if os.path.exists(os.path.join(args['data_audio'], line['localpath'])): localfilename = line['localpath']
+        elif os.path.exists(os.path.join(args['data_audio'], line['localpath'].lower())): localfilename = line['localpath'].lower()
+        if localfilename is None:
             print(f"Local file not found at {os.path.join(args['data_audio'], line['localpath'])}")
             continue
         
@@ -622,8 +648,8 @@ def process_files_npc(character_wikiname:str, file_list:dict):
             #no continue here because we will try and upload the new file on the chance its data changed
         
         
-        print (f"Uploading {line['localpath']} → {line['wikitext_voice_clips']}")
-        wiki.upload(os.path.join(args['data_audio'], line['localpath']), 
+        print (f"Uploading {localfilename} → {line['wikitext_voice_clips']}")
+        wiki.upload(os.path.join(args['data_audio'], localfilename), 
                     line['wikitext_voice_clips'], 
                     'NPC dialog upload', 
                     wikitext)
