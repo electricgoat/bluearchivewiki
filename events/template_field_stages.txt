@@ -7,6 +7,8 @@
 ! rowspan="2" |Entry cost
 !style="font-stretch: condensed;" rowspan="2" |Environment
 !style="font-stretch: condensed;" rowspan="2" |Enemy armor
+{%- if 'ThreeStar' in reward_types %}
+! rowspan="2" |Star objectives{% endif %}
 ! colspan="{{rewardcols}}" |Rewards
 |-
 {%- if 'FirstClear' in reward_types %}
@@ -29,18 +31,20 @@
 |{{stage.wiki_enter_cost}}
 |{{stage.wiki_topography()}}
 | class="bg-element" |{% for armor_type in stage.armor_types %}<span class="{{armor_type.lower()}}">{{armor_type}}</span><br>{% endfor %}
-{%- if 'FirstClear' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'FirstClear' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {%- if 'ThreeStar' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'ThreeStar' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+| style="text-align: left;" | {{ '<br>'.join(stage.star_goal.wiki_list) }}{% endif %}
+{%- if 'FirstClear' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['FirstClear'] %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['ThreeStar'] %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {%- if 'Event' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'Event' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Event']  %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {%- if 'Default' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'Default' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Default'] %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {%- if 'Rare' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'Rare' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Rare'] %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {%- if 'Other' in reward_types %}
-|<div class="rewards">{% for reward_parcel in stage.rewards.values() if reward_parcel.tag == 'Other' %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Other'] %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
 {% endfor -%}
 {% raw %}|}{% endraw %}
 

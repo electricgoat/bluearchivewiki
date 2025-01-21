@@ -4378,12 +4378,54 @@
             "DescriptionEn": "A pew that fills ones' heart with piety when you sit on it. Suitable for morning and evening prayers."
         },
         {
+            "Key": 3559610234,
+            "NameJp": "T2装備設計図選択ボックス",
+            "DescriptionJp": "任意のT2装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T2 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T2 Equipment Blueprint of your choice."
+          },
+          {
+            "Key": 1953942393,
+            "NameJp": "T3装備設計図選択ボックス",
+            "DescriptionJp": "任意のT3装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T3 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T3 Equipment Blueprint of your choice."
+          },
+          {
+            "Key": 4218278101,
+            "NameJp": "T4装備設計図選択ボックス",
+            "DescriptionJp": "任意のT4装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T4 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T4 Equipment Blueprint of your choice."
+          },
+          {
+            "Key": 2905403304,
+            "NameJp": "T5装備設計図選択ボックス",
+            "DescriptionJp": "任意のT5装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T5 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T5 Equipment Blueprint of your choice."
+          },
+          {
+            "Key": 2344689302,
+            "NameJp": "T6装備設計図選択ボックス",
+            "DescriptionJp": "任意のT6装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T6 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T6 Equipment Blueprint of your choice."
+        },
+        {
             "Key": 1257788779,
             "NameJp": "T7装備設計図選択ボックス",
             "NameEn": "T7 Equipment Blueprint Choice Ticket",
             "DescriptionJp": "任意のT7装備の設計図を選択して交換することができる選択ボックス。",
-            "DescriptionEn": "A ticket that can be exchanged for an Equipment Blueprint of your choice."
+            "DescriptionEn": "A ticket that can be exchanged for a T7 Equipment Blueprint of your choice."
         },
+        {
+            "Key": 2507708460,
+            "NameJp": "T8装備設計図選択ボックス",
+            "DescriptionJp": "任意のT8装備の設計図を選択して交換することができる選択ボックス。",
+            "NameEn": "T8 Equipment Blueprint Choice Ticket",
+            "DescriptionEn": "A ticket that can be exchanged for a T8 Equipment Blueprint of your choice."
+          },
         {
             "Key": 4263715469,
             "NameJp": "オーパーツ（１）選択ボックス",
@@ -10912,7 +10954,36 @@
             "DescriptionJp": "4周年記念ログインボーナス！報酬",
             "NameEn": "4th ANNIVERSARY",
             "DescriptionEn": "4th Anniversary login bonus! Reward"
+        },
+        {
+            "Key": 4136494629,
+            "NameJp": "初級技術ノート選択ボックス",
+            "DescriptionJp": "任意の初級技術ノートを選択して交換することができる選択ボックス。",
+            "NameEn": "Beginner Tech Notes Choice Ticket",
+            "DescriptionEn": "A ticket that grants Beginner Tech Notes of your choice."
+        },
+        {
+            "Key": 982012638,
+            "NameJp": "中級技術ノート選択ボックス",
+            "DescriptionJp": "任意の中級技術ノートを選択して交換することができる選択ボックス。",
+            "NameEn": "Normal Tech Notes Choice Ticket",
+            "DescriptionEn": "A ticket that grants Normal Tech Notes of your choice."
+        },
+        {
+            "Key": 2813504783,
+            "NameJp": "上級技術ノート選択ボックス",
+            "DescriptionJp": "任意の上級技術ノートを選択して交換することができる選択ボックス。",
+            "NameEn": "Advanced Tech Notes Choice Ticket",
+            "DescriptionEn": "A ticket that grants Advanced Tech Notes of your choice."
+        },
+        {
+            "Key": 2495245764,
+            "NameJp": "最上級技術ノート選択ボックス",
+            "DescriptionJp": "任意の最上級技術ノートを選択して交換することができる選択ボックス。",
+            "NameEn": "Superior Tech Notes Choice Ticket",
+            "DescriptionEn": "A ticket that grants Superior Tech Notes of your choice."
         }
+      
 
 
     ]

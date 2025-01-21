@@ -1,10 +1,11 @@
+{% if quests.values() | selectattr('IsDaily', 'equalto', True) | list | length -%}
 ==Daily Quests==
 {% raw %}{{% endraw %}| class="wikitable limitwidth-1280"
 !Days
 !Quest Name
 !Quest Description
 ! style="width:240px" |Reward
-{% for quest in quests.values() if quest['IsDaily'] == True -%}
+{% for quest in quests.values() | selectattr('IsDaily', 'equalto', True) | list -%}
 |-
 | style="text-align: center" |{{quest['Days']|shortform_range}}
 |{{quest['QuestName']['Jp']}}
@@ -13,3 +14,26 @@
 |{% for reward_parcel in quest['Rewards'] %}{{reward_parcel.wikitext}}{% endfor %}
 {% endfor -%}
 {% raw %}|}{% endraw %}
+{% endif -%}
+
+{% if quests.values() | selectattr('IsDaily', 'equalto', False) | list | length -%}
+==Quests==
+{% raw %}{{% endraw %}| class="wikitable limitwidth-1280"
+!Quest Name
+!Quest Description
+! style="width:240px" |Reward
+{% for quest in quests.values() | selectattr('IsDaily', 'equalto', False) | list -%}
+|-
+|{{quest['QuestName']['Jp']}}
+{{quest['QuestName']['En']}}
+|{{quest['QuestDesc']['En']|nl2p}}
+|{% for reward_parcel in quest['Rewards'] %}{{reward_parcel.wikitext}}{% endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable"
+! Total Field Quest Rewards
+|-
+|<div class="rewards">{%- for reward in total_permanent_rewards -%}{{reward.wikitext}}{% endfor %}</div>
+{% raw %}|}{% endraw %}
+{% endif -%}

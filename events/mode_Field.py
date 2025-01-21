@@ -1,5 +1,6 @@
 import os
 import json
+import copy
 from jinja2 import Environment, FileSystemLoader
 
 import shared.functions
@@ -19,6 +20,7 @@ emblems = {}
 def wiki_card(type: str, id: int, **params):
     global data, characters, items, furniture, emblems
     return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
+
 
 
 def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization):
@@ -50,6 +52,7 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
     print(season)
 
     quests = {}
+    total_permanent_rewards = {}
     for entry in data.field_quest[season_id]: 
         rewards = []
 
@@ -70,17 +73,24 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
         else:
             quests[entry['QuestNamKey']]['Days'].append(entry['Opendate'])
 
+        if not entry['IsDaily']:
+            for reward in rewards:
+                if (reward.parcel_type, reward.parcel_id) not in total_permanent_rewards:
+                    total_permanent_rewards[(reward.parcel_type, reward.parcel_id)] = copy.copy(reward)
+                else:
+                    total_permanent_rewards[(reward.parcel_type, reward.parcel_id)].amount += reward.amount
+
+
     #sort by first day of quest appearance
     quests = dict(sorted(quests.items(), key=lambda x: x[1]['Opendate']))
 
 
     template = env.get_template('template_field_quest.txt')
-    wikitext['quest'] = template.render(quests=quests)
+    wikitext['quest'] = template.render(quests=quests, total_permanent_rewards=sorted(total_permanent_rewards.values(), key=lambda x: x.parcel_id))
 
-    #print(wikitext['quest'])
 
     evidence = {}
-    for entry in data.field_evidence.values():
+    for entry in [x for x in data.field_evidence.values() if x['SeasonId'] == season_id]:
         localize_key = shared.functions.hashkey(entry['NameLocalizeKey'])
         localize_desc_key = shared.functions.hashkey(entry['DescriptionLocalizeKey'])
         localize_detail_key = shared.functions.hashkey(entry['DetailLocalizeKey'])
@@ -136,7 +146,6 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
             #for stage in stages_filtered: print(stage.rewards)
             wikitext['stages'] += template.render(stage_type=difficulty_names[difficulty], stages=stages_filtered, reward_types=stage_reward_types[difficulty], rewardcols = len(stage_reward_types[difficulty]))
 
-    #print(wikitext['stages']
             
     return '\n'.join(wikitext.values())
 

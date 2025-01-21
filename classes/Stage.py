@@ -245,7 +245,8 @@ class FieldStage(Stage):
             # set([armor_type(x['EnemyArmorType']) for x in grounds])
             set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
             set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
-            stage_hint = '',
+            '',
+            StarGoal(stage['StarGoal'], stage['StarGoalAmount']),
         )
 
 
