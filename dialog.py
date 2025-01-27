@@ -412,7 +412,8 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
     lines = []
 
     operator_by_voiceid = {x['VoiceId'][0]:x for x in data.operator.values() if len(x['VoiceId'])}
-    voice_by_path = {x['Path'][0]:x for x in data.voice.values() if len(x['Path'])}
+    #voice_by_path = {x['Path'][0]:x for x in data.voice.values() if len(x['Path'])}
+    voice_by_path_lower = {x['Path'][0].lower():x for x in data.voice.values() if len(x['Path'])}
     
     character_dialog_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog if len(x['VoiceId'])}
     character_dialog_event_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog_event if len(x['VoiceId'])}
@@ -449,15 +450,15 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
 
 
         voice_id = None
-        if file in voice_by_path: voice_id = voice_by_path[file]['Id']
+        if file.lower() in voice_by_path_lower: voice_id = voice_by_path_lower[file.lower()]['Id']
 
         if voice_id and voice_id in character_dialog_by_voiceid:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog")
             continue
 
-        #if voice_id and voice_id in character_dialog_event_by_voiceid:
+        if voice_id and voice_id in character_dialog_event_by_voiceid:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog_event")
-            #continue
+            continue
 
 
         # Get localization data from character_voice_subtitle
