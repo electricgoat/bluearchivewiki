@@ -5717,6 +5717,32 @@
             "GroupId": "CH0158ExtraPassive01",
             "NameEn": "Avant-Guard",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0235Ex01",
+            "NameEn": "Just a little more...!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\n(This attack penetrates enemy shields)"
+        },
+        {
+            "GroupId": "CH0235Public01",
+            "NameEn": "The glimmer of art",
+            "DescriptionEn": "Every $1, increase Explosive Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0235Passive01",
+            "NameEn": "Lively holidays",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0235WeaponPassive01",
+            "NameEn": "Lively holidays +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0235ExtraPassive01",
+            "NameEn": "Sunrise glow",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
         
 

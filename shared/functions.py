@@ -331,3 +331,7 @@ def statcalc_replace_statname(stat_name):
             'EnhanceMysticRate':'',
             'WeaponRange':'weapon_range'
         }[stat_name]
+
+
+def format_ms_duration(ms:int):
+    return f"{ms // 60000}:{(ms // 1000) % 60:02}"

@@ -182,6 +182,7 @@ def generate():
     env.filters['damage_type'] = shared.functions.damage_type
     env.filters['armor_type'] = shared.functions.armor_type
     env.filters['thousands'] = shared.functions.format_thousands
+    env.filters['ms_duration'] = shared.functions.format_ms_duration
     env.filters['colorize'] = shared.functions.colorize
     env.filters['nl2br'] = shared.functions.nl2br
     
@@ -189,12 +190,14 @@ def generate():
     region = 'jp'
     for season in season_data[region].raid_season.values():
         print (f"Working on season {season['SeasonId']}")
-        wikitext = "\n==Boss Info==\n===Stats===\n"
-
+        wikitext = "\n==Boss Info==\n===Stats===\n"        
 
         template = env.get_template('./raid/template_raid_boss.txt')
         for group in boss_groups:
             boss_data[season[group][0]]= get_raid_boss_data(season[group][0])
+
+            durations = '/'.join(set([shared.functions.format_ms_duration(stage['BattleDuration']) for stage in boss_data[season[group][0]]['stage']]))
+            wikitext += f"Battle time for this boss is {durations}.\n"
             wikitext += template.render(season_data=season, boss_data=boss_data[season[group][0]])
  
             template = env.get_template('./raid/template_boss_skilltable.txt')

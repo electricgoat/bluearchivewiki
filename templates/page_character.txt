@@ -288,17 +288,7 @@
 See [[{{PAGENAME}}/audio]]
 
 =Cafe=
-{{#cargo_query:
-|tables=furniture
-|fields=_pageName=Page, Id, Icon, Rarity, NameEN, Collection, CharacterInteraction
-|where=CharacterInteraction HOLDS '{{PAGENAME}}'
-|order by=Rarity DESC, Id ASC
-|format=template
-|template=CharacterCafeInteraction
-|named args=yes
-|intro={{CharacterCafeImage}}
-<h3>Cafe interaction</h3>
-}}
+{{CharacterCafe}}
 ===Gifts===
 {{CharacterGifts}}{% endraw %}
 {% raw %}{{{% endraw %}{{character.club}}{% raw %}}}{% endraw %}

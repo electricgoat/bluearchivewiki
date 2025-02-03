@@ -252,7 +252,9 @@ def generate():
     season = None
     season_gl = None
 
-    for eventmode in ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent"]:
+    EVENT_TYPES = ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent", "SeasonalEvent"]
+
+    for eventmode in EVENT_TYPES:
         if (args['event_season'], eventmode) in season_data['jp'].event_content_season:
             season_jp = season_data['jp'].event_content_season[(args['event_season'], eventmode)]
             season = season_jp#TODO work directly with season_jp or _gl
@@ -260,7 +262,7 @@ def generate():
             break
     if season is None: exit(f"JP season {args['event_season']} data not found. Is this a new event type?")
     
-    for eventmode in ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent"]:
+    for eventmode in EVENT_TYPES:
         if (args['event_season'], eventmode) in season_data['gl'].event_content_season:
             season_gl = season_data['gl'].event_content_season[(args['event_season'], eventmode)]
             break
@@ -275,6 +277,7 @@ def generate():
         print(f"Missing localize key {localize_key}")
         if localize_key == 2954736197: season['LocalizeName'] = data.localization[1435341545] #mini event fix, TODO figure out how its key is derived
         elif localize_key == 1202895593: season['LocalizeName'] = data.localization[2677397330] #1st collab event
+        elif localize_key == 3197273807: season['LocalizeName'] = data.localization[2041289632] #2025 valentines event
 
     localize_title_key = hashkey(f"Event_Title_{season['OriginalEventContentId']}")
     if localize_title_key in data.localization: 
@@ -283,6 +286,7 @@ def generate():
     else: 
         print(f"Missing localize_title key {localize_title_key}")
         if localize_title_key == 4164572829: season['LocalizeTitle'] = data.localization[1011309388] #mini event fix, TODO figure out how its key is derived   
+        elif localize_title_key == 3349884597: season['LocalizeTitle'] = data.localization[2041289632] #2025 valentines event
 
     if season['LocalizeName'].get('En') != season['LocalizeTitle'].get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{season['LocalizeName'].get('En')}\n Title:{season['LocalizeTitle'].get('En')}")
 

@@ -5,63 +5,9 @@
             "CharacterVoiceGroupId": 20041,
             "LocalizeCVGroup": null,
             "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
             "VoiceClip": "Rio_EventMission_Day_End",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_Get_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_Get_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_Login_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 20041,
-            "CharacterVoiceGroupId": 20041,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "EventMission",
-            "VoiceClip": "Rio_EventMission_Login_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "今日はこれで終了よ。\n……流石、といったところかしら？",
+            "LocalizeEN": "That is all for today.\n...\"Way to go\".. Is that right?"
         },
         {
             "CharacterId": 20041,
@@ -69,8 +15,8 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Rio_CommonSkill",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "AMAS、ここを頼んだわ。",
+            "LocalizeEN": "AMAS, I'll leave this to you"
         },
         {
             "CharacterId": 20041,
@@ -78,8 +24,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "私は全てを見ているわ。",
+            "LocalizeEN": "I am watching everything"
         },
         {
             "CharacterId": 20041,
@@ -87,8 +33,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "例外なんてないの、あなたもそう。",
+            "LocalizeEN": "There is no exceptions. Not even you."
         },
         {
             "CharacterId": 20041,
@@ -96,8 +42,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "死角があるとでも？",
+            "LocalizeEN": "Is there visuals?"
         },
         {
             "CharacterId": 20041,
@@ -105,8 +51,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_Level_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "これが必要なのでしょう？",
+            "LocalizeEN": "You need this, correct?"
         },
         {
             "CharacterId": 20041,
@@ -114,8 +60,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_Level_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "これが、あなたの可能性よ。",
+            "LocalizeEN": "This is your potential"
         },
         {
             "CharacterId": 20041,
@@ -123,8 +69,8 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Rio_ExSkill_Level_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "受け取ってちょうだい。",
+            "LocalizeEN": "Please accept this"
         },
         {
             "CharacterId": 20041,
@@ -132,8 +78,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Rio_Growup_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "成長したのね。\n……まだ、何か？",
+            "LocalizeEN": "Seems like I've grown. Is there anything else?"
         },
         {
             "CharacterId": 20041,
@@ -141,8 +87,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Rio_Growup_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "成長の余地があるものにリソースを割く。\n合理的な選択ね、先生。",
+            "LocalizeEN": "Pouring resources to where there is margin for growth. Rational choice, Sensei"
         },
         {
             "CharacterId": 20041,
@@ -150,8 +96,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Rio_Growup_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "……そう、期待しているのね。\n任せなさい。\n結果で証明するわ。",
+            "LocalizeEN": "I see. You have expectations on me. Leave this to me. I'll show you results"
         },
         {
             "CharacterId": 20041,
@@ -159,8 +105,8 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Rio_Growup_4",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "その……感謝するわ、先生。\nこの言葉が正しいのかは、分からないのだけれど。",
+            "LocalizeEN": "Um... I'm thankful, Sensei. I'm not sure if this is the right thing to say"
         },
         {
             "CharacterId": 20041,
@@ -168,8 +114,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rio_Relationship_Up_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "あなたが隣にいると、脈が不規則になってしまうのだけれど。\n……どうしてかしら。",
+            "LocalizeEN": "When you are by my side, my pulse goes irregular. I wonder why that is"
         },
         {
             "CharacterId": 20041,
@@ -177,8 +123,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rio_Relationship_Up_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生は、私の人生に現れた唯一の変数といっても過言ではないわ。\n……とはいえ、あなたの言動には動揺してばかりね。",
+            "LocalizeEN": "Sensei, to say that you are the only variable that appeared in my life would be no exaggeration. That said, everything you do never fails to leave me restless."
         },
         {
             "CharacterId": 20041,
@@ -186,8 +132,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rio_Relationship_Up_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "未来を語っても意味はない。\n不確定要素しかないもの。\n……だというのに、あなたを見ていると……様々な可能性を考えてしまう。",
+            "LocalizeEN": "It is pointless to talk about the future. It's all a bundle of uncertainties. Is what I say, but when I look at you, I start to think of all sorts of possibilities"
         },
         {
             "CharacterId": 20041,
@@ -195,8 +141,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Rio_Relationship_Up_4",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生？\n……他の生徒を真似て呼んでみただけよ。\n……想像の何倍も、言葉にするのは難しいわね、これ。",
+            "LocalizeEN": "Sensei? I'm just practicing calling you like other students. Actually saying it is far more difficult than I imagine, it seems."
         }
     ]
 }
