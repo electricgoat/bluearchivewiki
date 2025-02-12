@@ -105,7 +105,7 @@ def enforce_naming(local_path, old_name, new_name, scope='image'):
     if not new_name_exists and old_name_exists:
         print(f"Enforcing consistent {scope} file naming")
         wiki.move(f"File:{old_name}", f"File:{new_name}", summary = f"Enforcing consistent {scope} file naming")
-    elif not new_name_exists:
+    elif not new_name_exists or args['force_upload']:
         print (f"!!! Uploading {local_path} as {new_name}")
         wiki.upload(local_path, new_name, f"{scope} image")
         
@@ -123,6 +123,7 @@ def main():
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), required=True, help='Wiki (bot) login and password')
     parser.add_argument('-character_id',    metavar='ID', help='Id of a single character to export')
+    parser.add_argument('-force_upload',  action='store_true', help='Try reuploading images even if one already exists.')
 
     args = vars(parser.parse_args())
     print(args)

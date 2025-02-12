@@ -129,7 +129,7 @@ def parse_missions(season_id):
         for index, _ in enumerate(mission['MissionRewardParcelType']):
             mission_reward_parcels(mission, index)
             
-            if mission['Category'] == "EventAchievement":
+            if mission['Category'] in ["Achievement", "EventAchievement"]:
                 if mission['MissionRewardParcelId'][index] not in total_rewards:
                     total_rewards[mission['MissionRewardParcelId'][index]] = {}
                     total_rewards[mission['MissionRewardParcelId'][index]]['Id'] = mission['MissionRewardParcelId'][index]
@@ -421,9 +421,42 @@ def generate():
 
     #SHOPS
     wikitext_shops = ''
+    shops = {}
     if (args['event_season'], "Shop") in data.event_content_seasons:
-        shops = {}
+        
         wikitext_shops = '==Exchange Shop==\n<div style="display: flex; flex-flow: row wrap; align-items: flex-start; gap: 4px;">\n'
+        template = env.get_template('events/template_shop.txt')
+
+        for shop in data.event_content_shop_info[args['event_season']]:
+            shop = shop
+            if shop['CostParcelType'][0] == 'Item':
+                shop['wiki_currency_name'] = items[shop['CostParcelId'][0]].name_en
+            elif shop['CostParcelType'][0] == 'Currency':
+                shop['wiki_currency_name'] = data.etc_localization[data.currencies[shop['CostParcelId'][0]]['LocalizeEtcId']]['NameEn']
+            else:
+                print(f"Unknown shop currency type for {shop}")
+
+            shop['wiki_currency'] = f"{{{{ItemCard|{shop['wiki_currency_name']}}}}}" 
+            shop['wiki_title'] = f"{{{{ItemCard|{shop['wiki_currency_name']}|48px}}}}"
+            shop['total_cost'] = 0
+            shop['shop_content'] = [x for x in data.event_content_shop[args['event_season']] if x['CategoryType'] == shop['CategoryType']]
+
+            for shop_item in shop['shop_content']:
+                good = data.goods[shop_item['GoodsId'][0]]
+                reward_quantity=good['ParcelAmount'][0]
+                shop_item['wiki_card'] = wiki_card(good['ParcelType'][0], good['ParcelId'][0], quantity = reward_quantity > 1 and reward_quantity or None  )
+                shop_item['cost'] = good['ConsumeParcelAmount'][0]
+                shop_item['stock'] = shop_item['PurchaseCountLimit']>0 and shop_item['PurchaseCountLimit'] or '∞'
+                shop_item['subtotal'] = shop_item['PurchaseCountLimit']>0 and shop_item['cost']*shop_item['PurchaseCountLimit'] or ''
+
+                if shop_item['PurchaseCountLimit']>0: shop['total_cost'] += shop_item['subtotal']
+
+            shops[shop['CategoryType']] = shop
+            wikitext_shops += template.render(shop=shop)
+        wikitext_shops += '</div>\n'
+
+    if (args['event_season'], "MiniShop") in data.event_content_seasons:
+        wikitext_shops = '==Mini Shop==\n<div style="display: flex; flex-flow: row wrap; align-items: flex-start; gap: 4px;">\n'
         template = env.get_template('events/template_shop.txt')
 
         for shop in data.event_content_shop_info[args['event_season']]:

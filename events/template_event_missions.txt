@@ -1,3 +1,4 @@
+{% if missions | selectattr('Category', 'equalto', 'Daily') | list | length -%}
 ==Daily Missions==
 {% raw %}{{% endraw %}| class="wikitable"
 !No.	
@@ -11,7 +12,9 @@
 {{reward}}
 {% endfor -%}{% endfor -%}
 {% raw %}|}{% endraw %}
+{% endif -%}
 
+{% if missions | selectattr('Category', 'equalto', 'EventAchievement') | list | length -%}
 ==Achievement Missions==
 {% raw %}{{% endraw %}| class="wikitable"
 !No.	
@@ -32,4 +35,27 @@
 |-
 |<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
 {% raw %}|}{% endraw %}
+{% endif -%}
 
+{% if missions | selectattr('Category', 'equalto', 'Achievement') | list | length -%}
+==Achievement Missions==
+{% raw %}{{% endraw %}| class="wikitable"
+!No.	
+!Mission
+!Reward
+{% for mission in missions if mission['Category'] == "Achievement" and mission['ViewFlag'] == True -%}
+|-
+| style="text-align: center" |{{mission['DisplayOrder']}}
+|{{mission['DescriptionEn']}}
+|{% for reward in mission['RewardItemCards'] -%}
+{{reward}}
+{%- endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable"
+! Total Achievement Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards -%}{{reward['Card']}}{% endfor %}</div>
+{% raw %}|}{% endraw %}
+{% endif -%}
