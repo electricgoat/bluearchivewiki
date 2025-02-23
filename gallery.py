@@ -320,7 +320,9 @@ def generate():
                 'SpriteNames': ','.join([x.split(')',1)[-1].split('_',1)[-1].replace('.png', '') for x in Gallery.flatlist(gallery.files_exportable)]),
                 'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
-
+        if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
+            #print(f"Spoiler sprite: {gallery.dirname}")
+            gallery.cargo_template['Spoiler'] = 'yes'
 
         for order, character in enumerate(character_map[character_name]):
             gallery_self = next(x for x in export_galleries if x.character_wikiname == character.wiki_name)
