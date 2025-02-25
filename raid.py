@@ -13,6 +13,7 @@ from data import load_data, load_season_data
 from model import Item, Character
 from classes.Furniture import Furniture
 from classes.Emblem import Emblem
+from classes.RaidSeasonReward import RaidSeasonReward
 from raid_seasons import RAIDS, SEASON_IGNORE, SEASON_NOTES
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
@@ -32,47 +33,6 @@ missing_code_localization = MissingTranslations("translation/missing/LocalizeCod
 missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
 
-class SeasonReward(object):
-    def __init__(self, id, parcel_type, parcel_id, parcel_name, amount):
-        self.id = id
-        self.parcel_type = parcel_type
-        self.parcel_id = parcel_id
-        self.parcel_name = parcel_name
-        self.amount = amount
-
-    @property
-    def items(self):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append({'parcel_type':self.parcel_type[i], 'parcel_id':self.parcel_id[i], 'parcel_name':self.parcel_name[i], 'amount':self.amount[i]}) 
-        return items_list
-    
-    @property
-    def wiki_items(self):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append(wiki_card(self.parcel_type[i], self.parcel_id[i], quantity=self.amount[i], text='', block=True, size='60px' )) 
-        return items_list
-    
-    def format_wiki_items(self, **params):
-        items_list = []
-        for i in range(len(self.parcel_type)):
-            items_list.append(wiki_card(self.parcel_type[i], self.parcel_id[i], quantity=self.amount[i], **params )) 
-        return items_list
-
-
-    @classmethod
-    def from_data(cls, id: int, data): #note that this takes actual table such as data.raid_stage_season_reward
-        item = data[id]
-        
-        return cls(
-            item['SeasonRewardId'],
-            item['SeasonRewardParcelType'],
-            item['SeasonRewardParcelUniqueId'],
-            item['SeasonRewardParcelUniqueName'],
-            item['SeasonRewardAmount'],
-        )
-    
 
 def wiki_card(type: str, id: int, **params):
     global data, characters, items, furniture, emblems
@@ -103,7 +63,7 @@ def get_cumulative_rewads(season):
     season['rewards'] = []
 
     for i in range(len(season['SeasonRewardId'])):
-        rewards = SeasonReward.from_data(season['SeasonRewardId'][i], data.raid_stage_season_reward)
+        rewards = RaidSeasonReward.from_data(season['SeasonRewardId'][i], data.raid_stage_season_reward, wiki_card)
         season['rewards'].append(rewards)
 
     #print(season['rewards'])
@@ -133,7 +93,7 @@ def total_cumulative_rewards(season):
 def get_ranking_rewards(season): 
     ranking_rewards = data.raid_ranking_reward[season['RankingRewardGroupId']]
     for entry in ranking_rewards:
-        reward = SeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], entry['RewardParcelUniqueName'], entry['RewardParcelAmount'])
+        reward = RaidSeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], entry['RewardParcelUniqueName'], entry['RewardParcelAmount'], wiki_card)
         entry['reward'] = reward
         if entry['RankEnd'] == 0: entry['RankEnd'] = '∞'
     return ranking_rewards
@@ -206,7 +166,7 @@ def generate():
             wikitext += template.render(skilltables=skilltables)
 
 
-        wikitext += "\n=Unit recommendations=\n"
+        wikitext += "=Unit recommendations=\n"
 
         template = env.get_template('./raid/template_ranking_rewards.txt')
         wikitext += template.render(rewards=get_ranking_rewards(season))

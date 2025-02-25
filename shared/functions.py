@@ -203,6 +203,11 @@ def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:di
             assert data is not None, "ItemCard card is called for, but no items dict has been "
             card_type = 'ItemCard'
             name = items[id].name_en
+
+            if items[id].icon == "Item_Icon_RecruitTicket_Normal_10" and items[id].expiration_datetime != "":
+                #print(f'Replacing timed ticket item Id {id}, expiration {items[id].expiration_datetime} with permanent ticket')
+                name = items[6999].name_en
+
         case 'Equipment':
             assert data is not None, "Equipment ItemCard card is called for, but no data dict has been "
             card_type = 'ItemCard'

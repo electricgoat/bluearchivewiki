@@ -761,7 +761,7 @@ class Momotalk(object):
 
 
 class Item(object):
-    def __init__(self, id, rarity, category, name_jp, name_en, desc_jp, desc_en, icon, splash_icon, tags, characters_favorite, characters_likes, collection, tier, recipe):
+    def __init__(self, id, rarity, category, name_jp, name_en, desc_jp, desc_en, icon, splash_icon, tags, characters_favorite, characters_likes, collection, tier, recipe, expiration_datetime: str = ""):
         self.id = id
         self.rarity = rarity
         self._category = category
@@ -777,6 +777,7 @@ class Item(object):
         self.collection = collection
         self.tier = tier
         self.recipe = recipe
+        self.expiration_datetime = expiration_datetime
 
 
     @property
@@ -852,7 +853,8 @@ class Item(object):
             characters_likes,
             collection,
             'Quality' in item and item['Quality'] or None,
-            None #recipe
+            None, #recipe
+            item.get('ExpirationDateTime', ""),
         )
 
 
