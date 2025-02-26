@@ -2668,7 +2668,7 @@
         {
             "GroupId": "CH0114ExtraPassive01",
             "NameEn": "I can' t go down, yet...!",
-            "DescriptionEn": "Recover $1 of Healing when affected by a CC state."
+            "DescriptionEn": "Recover $1 of Healing as HP when inflicted with Crowd Control."
         },
         {
             "GroupId": "CH0105Ex01",
@@ -5743,6 +5743,58 @@
             "GroupId": "CH0235ExtraPassive01",
             "NameEn": "Sunrise glow",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0082Ex01",
+            "NameEn": "Providing first aid",
+            "DescriptionEn": "Continuously heal allies within a circular area for $1 of Healing over $2."
+        },
+        {
+            "GroupId": "CH0082Public01",
+            "NameEn": "Duty of the Emergency Medicine Department's head",
+            "DescriptionEn": "Every $1, increases Healing by $2 and Attack Speed by $3 for $4."
+        },
+        {
+            "GroupId": "CH0082Passive01",
+            "NameEn": "Off-duty assistance",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0082WeaponPassive01",
+            "NameEn": "Off-duty assistance +",
+            "DescriptionEn": "Increase Healing by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0082ExtraPassive01",
+            "NameEn": "Full of curiosity",
+            "DescriptionEn": "Normal attack damage radius is increased by $1x, but attacks deal $2 damage."
+        },
+
+        {
+            "GroupId": "CH0286Ex01",
+            "NameEn": "The final touch!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nDeal $2 continuous Chill damage for $3.\nInflict Fear for $4."
+        },
+        {
+            "GroupId": "CH0286Public01",
+            "NameEn": "Earnest part-timer",
+            "DescriptionEn": "Every $1, increase Recovery Rate of self and one other ally with the lowest HP by $2 for $3."
+        },
+        {
+            "GroupId": "CH0286Passive01",
+            "NameEn": "Indomitable spirit",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0286WeaponPassive01",
+            "NameEn": "Indomitable spirit +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0286ExtraPassive01",
+            "NameEn": "Juri's tips!",
+            "DescriptionEn": "Recover $1 of Healing as HP when inflicted with Crowd Control."
         }
         
 
