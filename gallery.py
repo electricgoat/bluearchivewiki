@@ -18,7 +18,7 @@ character_map = {}
 wikiname_to_devname_map = {}
 galleries = []
 
-LEGACY_SPRNAME = ['First version', 'Original version', 'Beta version', 'Unreleased version']
+LEGACY_SPRNAME = ['First version', 'Original version', 'Beta version', 'Unreleased version', 'Unreleased', 'Pre-release design']
 
 
 class Gallery(object):

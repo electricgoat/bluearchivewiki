@@ -45,7 +45,7 @@
             "DescriptionJp": "クロカゲの分身を召喚します。分身は最も近い敵に突進した後に自爆し、円形範囲内の敵に対して攻撃力の[c][007eff]400%[-][/c]分のダメージを与え、威圧値が500増加します。",
             "SkillInvokeLocalizeJp": "",
             "NameEn": "Demon-summoning Wail",
-            "DescriptionEn": "Summons an incarnation of Kurokage. It charges at the nearest enemy and self-destructs, dealing [c][007eff]400%[-][/c] damage to enemies within a circular area and increasing Intimidation value by 500.",
+            "DescriptionEn": "Summons an incarnation of Kurokage. It charges at the nearest enemy and self-destructs, dealing [c][007eff]400%[-][/c] damage to enemies within a circular area and increasing Compulsion value by 500.",
             "SkillInvokeLocalizeEn": ""
         },
         {
@@ -69,7 +69,7 @@
             "DescriptionJp": "クロカゲが領域を燃やし、すべての対象に攻撃力の[c][007eff]250%[-][/c]分のダメージを与えながら引き寄せ、最後に押し出しながら攻撃力の[c][007eff]250%[-][/c]分のダメージを与えます。\n対象に猫鬼の威圧が残っている場合、威圧値が1秒毎に[c][007eff]300[-][/c]ずつ減少する代わりに現在の威圧値の[c][007eff]20%[-][/c]分のダメージを受けます。（最大[c][007eff]20秒[-][/c]）",
             "SkillInvokeLocalizeJp": "",
             "NameEn": "Spreading Gossip",
-            "DescriptionEn": "Kurokage burns the area, dealing [c][007eff]250%[-][/c] damage to all targets and drawing them in, then pushing them out while dealing [c][007eff]250%[-][/c] damage. \nIf the target has Myouki's Intimidation remaining, the Intimidation value will decrease by [c][007eff]300[-][/c] every second, but the target receives [c][007eff]20%[-][/c] of remaining Intimidation value as damage. (Duration: [c][007eff]20 seconds[-][/c])",
+            "DescriptionEn": "Kurokage burns the area, dealing [c][007eff]250%[-][/c] damage to all targets and drawing them in, then pushing them out while dealing [c][007eff]250%[-][/c] damage. \nIf the target has Myouki's Compulsion remaining, the Compulsion value will decrease by [c][007eff]300[-][/c] every second, but the target receives [c][007eff]20%[-][/c] of remaining Intimidation value as damage. (Duration: [c][007eff]20 seconds[-][/c])",
             "SkillInvokeLocalizeEn": ""
         },
         {
@@ -110,87 +110,15 @@
             "SkillInvokeLocalizeEn": ""
         },
         {
-            "Key": 3793078108,
+            "Key": 3600210741,
             "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량[-][/c] 수치 만큼 감소시킵니다.",
+            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우 (영역의 중심부는 묘귀의 위압을 더 많이 노출시킴)\n- 쿠로카게의 영역 내에 있을 경우\n- 분신의 자폭 공격에 당할 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/11[-][/c] 수치 만큼 감소시킵니다.",
             "SkillInvokeLocalizeKr": "",
             "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量[-][/c]分を減少させます。",
+            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合（中心部は猫鬼の威圧により強くさらされる）\n-クロカゲの領域内に居る場合\n-分身の自爆攻撃を受けた場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/11[-][/c]分を減少させます。",
             "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 3908389644,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/2[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/2[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/2 of overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 1094164483,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/3[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/3[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/3 of overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 860539192,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/4[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/4[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/4 of overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 712573112,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/5[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/5[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/5 of overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 3378579970,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/6[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/6[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/6 of overhealing amount[-][/c].",
-            "SkillInvokeLocalizeEn": ""
-        },
-        {
-            "Key": 525845510,
-            "NameKr": "묘귀의 위압",
-            "DescriptionKr": "쿠로카게와 전투 시 특정 공격에 의해 묘귀의 위압에 노출됩니다.\n- 바닥에 나타나는 쿠로카게의 눈 영역에 있을 경우\n- 쿠로카게의 영역 내에 있을 경우\n- 분신의 자폭 공격에 당할 경우\n묘귀의 위압은 체력을 점점 침식해서 들어오며 최대 체력만큼 회복시킬 수 없도록 방해합니다.회복 효과로 묘귀의 위압 효과를 감소시킬 수 있으며, [c][007eff]초과 회복량의 1/9[-][/c] 수치 만큼 감소시킵니다.",
-            "SkillInvokeLocalizeKr": "",
-            "NameJp": "猫鬼の威圧",
-            "DescriptionJp": "クロカゲとの戦闘時、特定の攻撃によって猫鬼の威圧にさらされます。\n-地面に現れるクロカゲの目の領域に居る場合\n-クロカゲの領域内に居る場合\n-分身の自爆攻撃を受けた場合\n猫鬼の威圧はHPをどんどん侵食して、最大HPまで回復させることができないように妨げます。回復効果で猫鬼の威圧効果を減少させることができ、[c][007eff]超過回復量の1/9[-][/c]分を減少させます。",
-            "SkillInvokeLocalizeJp": "",
-            "NameEn": "Myouki's Intimidation",
-            "DescriptionEn": "When fighting Kurokage, certain attacks apply Myouki's Intimidation: \n-Kurokage's Eyes areas on the ground.\n-Within Kurokage's territory.\n-Getting hit by a suicide bomb attack.\nMyouki's Intimidation will steadily erode HP and lower maximum HP. Healing reduces the Myouki's Intimidation effect by [c][007eff]1/9 of overhealing amount[-][/c].",
+            "NameEn": "Myouki's Compulsion",
+            "DescriptionEn": "When battling Kurokage, certain attacks will expose units to Myouki's Compulsion.\n- When trapped in Kurokage's gaze on the floor (center of the area is more exposed to the effect).\n- When within Kurokage's zone.\n- When taking damage from a self-destruct attack.\nMyouki's Compulsion will gradually erode units' HP and prevent it from being restored to max. Use Recovery skills to reduce Myouki's Compulsion by an amount equal to [c][007eff]1/11 of the excess recovery amount[-][/c].",
             "SkillInvokeLocalizeEn": ""
         },
         {
@@ -201,8 +129,8 @@
             "NameJp": "湧き上がる威圧感",
             "DescriptionJp": "猫鬼の威圧効果がHPを[c][007eff]50%[-][/c]以上を侵食した場合、対象は混乱状態に陥ります。\nこの混乱状態は威圧値が0になれば解除できます。",
             "SkillInvokeLocalizeJp": "",
-            "NameEn": "Rising Sense of Intimidation",
-            "DescriptionEn": "If Myouki's Intimidation effect erodes HP by [c][007eff]50%[-][/c] or more, target becomes Confused. \nConfusion ends when the Intimidation value becomes 0.",
+            "NameEn": "Overwhelming Compulsion",
+            "DescriptionEn": "If Myouki's Compulsion effect erodes HP by [c][007eff]50%[-][/c] or more, target becomes Confused. \nConfusion ends when the Compulsion value becomes 0.",
             "SkillInvokeLocalizeEn": ""
         },
         {

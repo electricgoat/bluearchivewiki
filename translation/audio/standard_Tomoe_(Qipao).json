@@ -3,6 +3,15 @@
         {
             "CharacterId": 20038,
             "CharacterVoiceGroupId": 20038,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Tomoe_(Qipao)_EventMission_Day_End",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 20038,
+            "CharacterVoiceGroupId": 20038,
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Tomoe_(Qipao)_CommonSkill",
@@ -87,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Tomoe_(Qipao)_Growup_3",
-            "LocalizeJP": "このままいけば……そのうち先生をレッドウィンターに引き入れることも……ふふ。",
+            "LocalizeJP": "このままいけば……\nそのうち先生をレッドウィンターに引き入れることも……ふふ。",
             "LocalizeEN": ""
         },
         {
@@ -132,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Tomoe_(Qipao)_Relationship_Up_4",
-            "LocalizeJP": "先生は……言葉をかわさずとも人を惹きつけることができるのですね。",
+            "LocalizeJP": "先生は……言葉をかわさずとも\n人を惹きつけることができるのですね。",
             "LocalizeEN": ""
         }
     ]

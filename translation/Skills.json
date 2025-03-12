@@ -1736,7 +1736,7 @@
         {
             "GroupId": "CH0083Public01",
             "NameEn": "Supply plan B",
-            "DescriptionEn": "Every $1, heal one ally for $2 of Healing."
+            "DescriptionEn": "Every $1, heal one ally with the lowest HP for $2 of Healing."
         },
         {
             "GroupId": "CH0083Passive01",
@@ -5795,6 +5795,37 @@
             "GroupId": "CH0286ExtraPassive01",
             "NameEn": "Juri's tips!",
             "DescriptionEn": "Recover $1 of Healing as HP when inflicted with Crowd Control."
+        },
+
+        {
+            "GroupId": "CH0197Ex01",
+            "NameEn": "Takoyaki for everyone!",
+            "DescriptionEn": "Heal allies within a circular area for $1 of Healing."
+        },
+        {
+            "GroupId": "SM019701Passive01",
+            "NameEn": "There's plenty!",
+            "DescriptionEn": "Increase Attack of allies within a circular area around Izumi (New Year) by $1 for $2.\n(Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0197Public01",
+            "NameEn": "It's kagami mochi!",
+            "DescriptionEn": "Every $1, throw a Kagami mochi to one ally, and increase their Critical Rate by $2 for $3. If there is another ally in the vicinity of the target who has not yet received it, the Kagami mochi will bounce in that direction and apply the effect again (up to a maximum of 6 times)."
+        },
+        {
+            "GroupId": "CH0197Passive01",
+            "NameEn": "Life is an adventure!",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0197WeaponPassive01",
+            "NameEn": "Life is an adventure! +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0197ExtraPassive01",
+            "NameEn": "Let's go together!",
+            "DescriptionEn": "Increase healing received by all allies by $1."
         }
         
 
