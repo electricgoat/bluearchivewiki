@@ -102,9 +102,6 @@ def get_ranking_rewards(season):
     return ranking_rewards
 
 
-
-
-
 def generate():
     global args, data, season_data  
 
@@ -123,22 +120,23 @@ def generate():
 
     region = 'jp'
     for season in season_data[region].eliminate_raid_season.values():
-        print (f"Working on season {season['SeasonId']}")
+        print(f"Working on season {season['SeasonId']}")
         wikitext = ''
         
 
         template = env.get_template('./raid/template_eliminate_raid_boss.txt')
         for group in boss_groups:
-            boss_data[season[group]]= get_raid_boss_data(season[group])
+            boss_data[season[group]] = get_raid_boss_data(season[group])
             wikitext += template.render(season_data=season, boss_data=boss_data[season[group]])
 
         wikitext = "==Boss Info==\n<tabber>\n" + wikitext + "\n</tabber>\n"
 
 
         template = env.get_template('./raid/template_boss_skilltable.txt')
-        skilltables = {stage['Difficulty']:template.render(stage=stage, skills_localization = data.skills_localization) for stage in boss_data[season[group]]['stage']}
+        skilltables = {stage['Difficulty']: template.render(stage=stage, skills_localization=data.skills_localization) for stage in boss_data[season[group]]['stage']}
+
         template = env.get_template('./raid/template_boss_skills.txt')
-        wikitext += template.render(skilltables=skilltables)
+        wikitext += template.render(skilltables=shared.functions.deduplicate_dict_values(skilltables))
 
         template = env.get_template('./raid/template_ranking_rewards.txt')
         wikitext += template.render(rewards=get_ranking_rewards(season))
@@ -149,9 +147,8 @@ def generate():
         wikitext += template.render(season=season, total_rewards=total_cumulative_rewards(season))
 
 
-        with open(os.path.join(args['outdir'], 'raids' ,f"eliminate_raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
+        with open(os.path.join(args['outdir'], 'raids', f"eliminate_raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
             f.write(wikitext)
- 
 
 
 

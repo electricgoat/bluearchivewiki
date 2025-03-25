@@ -726,7 +726,8 @@ class MemoryLobby(object):
 
     @classmethod
     def from_data(cls, character_id, data):
-        try: lobby_data = data.memory_lobby[character_id]
+        #TODO handle multiple loobies (anime specials etc)
+        try: lobby_data = [x for x in data.memory_lobby.values() if x['CharacterId'] == character_id][0]
         except KeyError: return cls( None, None, 1 )
 
         unlock_level = None

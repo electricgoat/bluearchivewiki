@@ -340,3 +340,31 @@ def statcalc_replace_statname(stat_name):
 
 def format_ms_duration(ms:int):
     return f"{ms // 60000}:{(ms // 1000) % 60:02}"
+
+
+def deduplicate_dict_values(datatables):
+    deduplicated_datatables = {}
+    previous_key = None
+    previous_value = None
+    start_key = None
+
+    for key, value in datatables.items():
+        if previous_value is not None and value == previous_value:
+            if start_key is None:
+                start_key = previous_key
+            merged_key = f"{start_key.split('~')[0]}~{key}"
+            previous_key = merged_key
+        else:
+            if start_key is not None:
+                deduplicated_datatables[previous_key] = previous_value
+                start_key = None
+            else:
+                if previous_key is not None:
+                    deduplicated_datatables[previous_key] = previous_value
+            previous_key = key
+        previous_value = value
+
+
+    deduplicated_datatables[previous_key] = previous_value
+
+    return deduplicated_datatables

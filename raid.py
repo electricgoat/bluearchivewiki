@@ -163,7 +163,7 @@ def generate():
             template = env.get_template('./raid/template_boss_skilltable.txt')
             skilltables = {stage['Difficulty']:template.render(stage=stage, skills_localization = data.skills_localization) for stage in boss_data[season[group][0]]['stage']}
             template = env.get_template('./raid/template_boss_skills.txt')
-            wikitext += template.render(skilltables=skilltables)
+            wikitext += template.render(skilltables=shared.functions.deduplicate_dict_values(skilltables))
 
 
         wikitext += "=Unit recommendations=\n"

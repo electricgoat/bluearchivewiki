@@ -67,7 +67,7 @@ def load_data(path_primary, path_secondary, path_translation):
         recipes_ingredients=        load_generic(path_primary, 'RecipeIngredientExcelTable.json'),
         favor_levels=               load_favor_levels(path_primary),
         favor_rewards=              load_favor_rewards(path_primary),
-        memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='CharacterId'),
+        memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='Id'),
         etc_localization=           load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeEtcExcelTable.json'),
         localization=               load_localization(path_primary, path_secondary, path_translation),
         character_dialog=           load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
