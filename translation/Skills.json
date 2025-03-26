@@ -475,7 +475,12 @@
         {
             "GroupId": "ChinatsuPublic01",
             "NameEn": "Reshaping the battle",
-            "DescriptionEn": "Every $1, increase Evasion of 1 ally with the lowest current HP by $2. (Duration $3)"
+            "DescriptionEn": "Every $1, increase Evasion of 1 ally with the lowest current HP by $2 for $3."
+        },
+        {
+            "GroupId": "ChinatsuGearPublic01",
+            "NameEn": "Reshaping the battle +",
+            "DescriptionEn": "Every $1, increase Evasion of 1 ally with the lowest current HP by $2 and continuously recover their HP by $3 of Healing, for $4."
         },
         {
             "GroupId": "ChinatsuPassive01",
@@ -2512,6 +2517,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to one enemy. Apply continuous Burn damage, dealing $3 damage every 4 seconds for $4."
         },
         {
+            "GroupId": "CH0144GearPublic01",
+            "NameEn": "Suppressive fire +",
+            "DescriptionEn": "Every $1, deal $2 damage to 3 enemies with the lowest HP. Apply continuous Burn damage, dealing $3 damage every 4 seconds for $4.\nIf those enemies are not bosses, inflict Stun for $5."
+        },
+        {
             "GroupId": "CH0144Passive01",
             "NameEn": "All set",
             "DescriptionEn": "Increase Attack by $1."
@@ -2949,7 +2959,12 @@
         {
             "GroupId": "CH0103Public01",
             "NameEn": "Leading the target",
-            "DescriptionEn": "Every $1, Increase Critical Damage by $2 for $3.<br>Deal $4 guaranteed critical damage hit to one enemy."
+            "DescriptionEn": "Every $1, Increase Critical Damage by $2 for $3.\nDeal $4 guaranteed critical damage hit to one enemy."
+        },
+        {
+            "GroupId": "CH0103GearPublic01",
+            "NameEn": "Leading the target +",
+            "DescriptionEn": "Every $1, Increase Critical Damage by $2 for $3.\nReduce own skill cost by $4 for $5 use of an EX skill. (Cost reduction effect only activates 3 times per battle)\nDeal $6 guaranteed critical damage hit to one enemy."
         },
         {
             "GroupId": "CH0103Passive01",
@@ -4192,6 +4207,11 @@
             "GroupId": "CH0126Public01",
             "NameEn": "Power of Knowledge",
             "DescriptionEn": "Every $1, increase Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0126GearPublic01",
+            "NameEn": "Power of Knowledge +",
+            "DescriptionEn": "Every $1, increase Attack by $2 and Critical Rate by $3 for $4."
         },
         {
             "GroupId": "CH0126Passive01",
@@ -5826,6 +5846,58 @@
             "GroupId": "CH0197ExtraPassive01",
             "NameEn": "Let's go together!",
             "DescriptionEn": "Increase healing received by all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0287Ex01",
+            "NameEn": "Catch and pitch",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally, apply Weak Point Exposed debuff for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Sumire (Part-Timer) Attack.\n(This damage can not be critical, effect ends after $4)"
+        },
+        {
+            "GroupId": "CH0287Public01",
+            "NameEn": "Specialty sports drink",
+            "DescriptionEn": "When allies deal $1 critical hits, increases the Critical Damage rate of four allies by $2 for $3. (Cooldown: $4)"
+        },
+        {
+            "GroupId": "CH0287Passive01",
+            "NameEn": "Afterburn effect",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0287WeaponPassive01",
+            "NameEn": "Afterburn effect +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0287ExtraPassive01",
+            "NameEn": "Full-time part-timer",
+            "DescriptionEn": "Increase Critical Damage of Penetration damage type allies by $1."
+        },
+
+        {
+            "GroupId": "CH0245Ex01",
+            "NameEn": "Millennium's number 4 batter!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0245Public01",
+            "NameEn": "Fine play",
+            "DescriptionEn": "When 4 enemies are defeated, increase Attack Speed by $1 for $2.\nAcquire $3 Out. (Cooldown $4)"
+        },
+        {
+            "GroupId": "CH0245Passive01",
+            "NameEn": "Tomorrow's slugger",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0245WeaponPassive01",
+            "NameEn": "Tomorrow's slugger +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0245ExtraPassive01",
+            "NameEn": "Three outs change",
+            "DescriptionEn": "Add $1 to Sonic Efficiency.\nWhen Out is acquired $2 times, reduce own skill cost by $3 for $4 use of an EX skill.\nReset Out count."
         }
         
 
