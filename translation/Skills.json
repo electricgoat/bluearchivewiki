@@ -5898,6 +5898,32 @@
             "GroupId": "CH0245ExtraPassive01",
             "NameEn": "Three outs change",
             "DescriptionEn": "Add $1 to Sonic Efficiency.\nWhen Out is acquired $2 times, reduce own skill cost by $3 for $4 use of an EX skill.\nReset Out count."
+        },
+
+        {
+            "GroupId": "CH0259Ex01",
+            "NameEn": "Leave no witnesses",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0259Public01",
+            "NameEn": "The dark side of beauty",
+            "DescriptionEn": "When 8 enemies are killed, acquire $1 Skill Cost and gain $2 \"Battle Sense\" effect. (Can only be used $3 times per battle)"
+        },
+        {
+            "GroupId": "CH0259Passive01",
+            "NameEn": "Thorns",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0259WeaponPassive01",
+            "NameEn": "Thorns +",
+            "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0259ExtraPassive01",
+            "NameEn": "Heightened senses",
+            "DescriptionEn": "Increase Attack Speed according to the number of \"Battle Sense\" acquired.\n1: Increase Attack Speed by $1.\n2: Increase Attack Speed by $2.\n3: Increase Attack Speed by $3."
         }
         
 

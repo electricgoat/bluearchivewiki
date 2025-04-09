@@ -569,6 +569,19 @@
             "NameEn": "Emergency Response: Radiator Operation",
             "DescriptionEn": "The radiator's output decreases at regular intervals, and the effects applied vary depending on the output. (Output is proportional to the radiator's current HP)\n- Output below [c][007eff]30%[-][/c]: No effect\n- Output between [c][007eff]30%[-][/c] and [c][007eff]70%[-][/c]: Recovers [c][007eff]2000[-][/c] HP for all allies except the radiator every [c][007eff]6 seconds[-][/c]\n- Output above [c][007eff]70%[-][/c]: Recovers [c][007eff]3200[-][/c] HP for all allies except the radiator every [c][007eff]6 seconds[-][/c]\nReduces damage taken by all allies except the radiator by [c][007eff]25%[-][/c]\nThe radiator can only be targeted by EX skills and cannot receive shield effects.",
             "SkillInvokeLocalizeEn": "False"
+        },
+
+        {
+            "Key": 3634787929,
+            "NameKr": "단지, 당신을 위해서",
+            "DescriptionKr": "와카모는 군중제어 효과는 받지 않지만 시간은 누적된다. \n단계별로 각각 [c][007eff]16초/18초/20초[-][/c] 만큼 누적 시 와카모가 즉시 그로기에 걸린다. (총 [c][007eff]3[-][/c]회)\n(시간은 군중제어 강화력이 높을수록 더 많이 적용된다.)\n그로기가 되면 아군 전체에 걸려있는 와카모의 각인이 제거된다.\n그로기가 된 이후 아래의 효과를 자신에게 모두 적용 (총 3단계)\n공격력: [c][007eff]25%/50%/75%[-][/c] 만큼 증가\n받는 대미지량: [c][007eff]100%/200%/300%[-][/c] 만큼 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "ただ、あなた様のため",
+            "DescriptionJp": "ワカモはCC状態の影響を受けませんが、CC状態の時間量のみが累積されます。\n段階別にそれぞれ[c][007eff]16秒/18秒/20秒[-][/c]分累積時、ワカモは直ちにグロッキー状態になる。（計[c][007eff]3[-][/c]回）\n（時間はCC強化力が高いほど、より多く適用される）\nグロッキー状態になれば味方全体に付与されているワカモの刻印が解除される。\nグロッキー状態になった後、以下の効果を自身にすべて適用。（計3段階）\n攻撃力：[c][007eff]25%/50%/75%[-][/c]増加\n被ダメージの量:[c][007eff]100%/200%/300%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Just For You",
+            "DescriptionEn": "Wakamo is not affected by Crowd Control.\nWhen the total duration of Crowd Control effects applied to her reaches [c][007eff]16/18/20 sec[-][/c], Wakamo becomes Groggy, up to [c][007eff]3[-][/c] times. (More duration is applied with higher Crowd Control enhancements.)\nWhen Groggy, Wakamo's Imprints are removed from allies. Groggy applies the following effects, depending on the stage.\nATK: Increased by [c][007eff]25%/50%/75%[-][/c].\nReceived Damage: Increased by [c][007eff]100%/200%/300%[-][/c].",
+            "SkillInvokeLocalizeEn": ""
         }
 
  
