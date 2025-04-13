@@ -342,6 +342,10 @@ def format_ms_duration(ms:int):
     return f"{ms // 60000}:{(ms // 1000) % 60:02}"
 
 
+def format_datetime (datetime:str):
+    return f"{datetime.replace(' ','T')[:-3]}+09"
+
+
 def deduplicate_dict_values(datatables):
     deduplicated_datatables = {}
     previous_key = None

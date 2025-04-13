@@ -33,6 +33,7 @@ BlueArchiveData = collections.namedtuple(
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
     'multi_floor_raid_stage', 'multi_floor_raid_reward', 'multi_floor_raid_stat_change',
+    'time_attack_dungeon', 'time_attack_dungeon_geas', 'time_attack_dungeon_reward',
     'bgm','voice','voice_spine',
     'operator',
     'field_season', 'field_world_map_zone', 'field_quest', 'field_reward', 'field_evidence', 'field_keyword', 'field_date', 'field_interaction', 'field_content_stage', 'field_content_stage_reward',
@@ -150,6 +151,9 @@ def load_data(path_primary, path_secondary, path_translation):
         multi_floor_raid_reward=    load_file_grouped(path_primary, 'MultiFloorRaidRewardExcelTable.json', key='RewardGroupId'),
         multi_floor_raid_stat_change=load_generic(path_primary, 'MultiFloorRaidStatChangeExcelTable.json', key='StatChangeId'),
         bgm=                        load_bgm(path_primary, path_translation),
+        time_attack_dungeon=        load_generic(path_primary, 'TimeAttackDungeonExcelTable.json', key='Id'),
+        time_attack_dungeon_geas=   load_generic(path_primary, 'TimeAttackDungeonGeasExcelTable.json', key='Id'),
+        time_attack_dungeon_reward= load_generic(path_primary, 'TimeAttackDungeonRewardExcelTable.json', key='Id'),
         voice=                      load_generic(path_primary, 'VoiceExcelTable.json', key='Id'),
         #voice_common=               load_generic(path_primary, 'VoiceCommonExcelTable.json', key='VoiceEvent'),
         #voice_logic_effect=         load_generic(path_primary, 'VoiceLogicEffectExcelTable.json', key='LogicEffectNameHash'),
@@ -170,7 +174,7 @@ def load_data(path_primary, path_secondary, path_translation):
     )
 
 
-def load_generic(path, filename:str, key='Id', load_db:bool=True, load_multipart:bool=False):
+def load_generic(path, filename:str, key:str|None='Id', load_db:bool=True, load_multipart:bool=False):
     #DB files take priority if they are present
     file_path = os.path.join(path, 'DB', filename)
     if not load_db or not os.path.exists(file_path): file_path = os.path.join(path, 'Excel', filename)
@@ -178,7 +182,7 @@ def load_generic(path, filename:str, key='Id', load_db:bool=True, load_multipart
     return load_file(file_path, key, load_multipart)
 
 
-def load_file(file, key='Id', load_multipart:bool=False):
+def load_file(file, key:str|None='Id', load_multipart:bool=False):
     multipart_file = file.rsplit('.',1)[0]+ '$.' + file.rsplit('.',1)[1]
 
     if load_multipart and os.path.exists(multipart_file.replace('$', str(1))):
@@ -614,6 +618,7 @@ BlueArchiveSeasonData = collections.namedtuple(
     ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
      'event_content_season', 
      'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule',
+     'time_attack_dungeon_season',
      'shop_recruit']
 )
 
@@ -628,5 +633,6 @@ def load_season_data(path):
         week_dungeon=           load_generic(path, 'WeekDungeonExcelTable.json', key='StageId'),
         week_dungeon_reward=    load_file_grouped(path, 'WeekDungeonRewardExcelTable.json', key='GroupId'),
         week_dungeon_open_schedule= load_generic(path, 'WeekDungeonOpenScheduleExcelTable.json', key='WeekDay'),
+        time_attack_dungeon_season= load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
         shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
     )
