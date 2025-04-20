@@ -16,7 +16,8 @@
 | Height = {{character.profile.height}}
 | Hobbies = {{character.profile.hobbies}}
 | Designer = {{character.profile.designer}}
-| Illust = {{character.profile.illustrator}}
+| Illustrator = {{character.profile.illustrator}}
+| LobbyIllustrator = {{character.profile.lobby_illustrator}}
 | Voice = {{character.profile.voice}}
 {%- if character.main_combat_style_id>0 %}
 | MainCombatStyleId = {{character.main_combat_style_id}}{% endif %}

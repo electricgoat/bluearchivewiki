@@ -168,7 +168,7 @@ class Character(object):
 
 
 class Profile(object):
-    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, age, birthday, height, hobbies, designer, illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
+    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, age, birthday, height, hobbies, designer, illustrator, lobby_illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
         self.family_name_jp = family_name_jp
         self.family_name_ruby_jp = family_name_ruby_jp
         self.personal_name_jp = personal_name_jp
@@ -179,6 +179,7 @@ class Profile(object):
         self.hobbies = hobbies
         self.designer = designer
         self.illustrator = illustrator
+        self.lobby_illustrator = lobby_illustrator
         self.voice = voice
         self.introduction_jp = introduction_jp
         self.introduction_en = introduction_en
@@ -222,10 +223,10 @@ class Profile(object):
         profile = data.characters_localization[character_id]
         localization = data.translated_characters[character_id]
 
-        field_list = ['FamilyName', 'PersonalName', 'CharacterAge', 'CharHeight', 'DesignerName', 'IllustratorName', 'Voice', 'Hobby', 'ProfileIntroduction', 'WeaponName', 'WeaponDesc' ]
+        field_list = ['FamilyName', 'PersonalName', 'CharacterAge', 'CharHeight', 'DesignerName', 'IllustratorName', 'LobbyIllustratorName', 'Voice', 'Hobby', 'ProfileIntroduction', 'WeaponName', 'WeaponDesc' ]
         localized_strings = {}
         for f in field_list:
-            localized_strings[f] = localization[f+'En'] if f+'En' in localization and localization[f+'En'] is not None else profile[f+'Jp']
+            localized_strings[f] = localization[f+'En'] if f+'En' in localization and localization[f+'En'] is not None else profile.get(f+'Jp', '')  
 
         release_date_jp = 'ReleaseDateJp' in localization and localization['ReleaseDateJp'] or ''
         release_date_gl = 'ReleaseDateGl' in localization and localization['ReleaseDateGl'] or ''
@@ -251,6 +252,7 @@ class Profile(object):
             localized_strings['Hobby'],
             localized_strings['DesignerName'],
             localized_strings['IllustratorName'],
+            localized_strings['LobbyIllustratorName'],
             localized_strings['Voice'],
             '<p>' + profile['ProfileIntroductionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             '<p>' + localized_strings['ProfileIntroduction'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
