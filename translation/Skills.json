@@ -5924,7 +5924,86 @@
             "GroupId": "CH0259ExtraPassive01",
             "NameEn": "Heightened senses",
             "DescriptionEn": "Increase Attack Speed according to the number of \"Battle Sense\" acquired.\n1: Increase Attack Speed by $1.\n2: Increase Attack Speed by $2.\n3: Increase Attack Speed by $3."
+        },
+
+        {
+            "GroupId": "CH0242Ex01",
+            "NameEn": "Ti~cket~ check",
+            "DescriptionEn": "Increase Sonic Efficiency of one other ally by $1 for $2.\nIf the target can consume additional EX skill Cost, reduce the additional consumption cost of EX skill by $3 for $4 use of EX skill."
+        },
+        {
+            "GroupId": "CH0242Public01",
+            "NameEn": "Let's~ dock~",
+            "DescriptionEn": "When $1 Departure Signals are acquired, all Departure Signals are consumed to add $2 Sonic Efficiency to all Striker allies for $3. (Cooldown: $4)"
+        },
+        {
+            "GroupId": "CH0242Passive01",
+            "NameEn": "Ready to leave~",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0242WeaponPassive01",
+            "NameEn": "Ready to leave~ +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0242ExtraPassive01",
+            "NameEn": "Great success~",
+            "DescriptionEn": "When any other ally uses an EX skill $1 times, upon activation of that skill, increase Attack Speed by $2 for $3.\nGain $4 Departure Signal. (Up to three Departure Signals can be stacked)"
+        },
+
+        {
+            "GroupId": "CH0243Ex01",
+            "NameEn": "Booster on!",
+            "DescriptionEn": "Deal $1 damage to targeted enemies, and $2 damage to other enemies within a linear area.\nAdditionally consume up to 2 Cost, increasing  damage dealt by 25% for every extra Cost paid.\n(Cost reduction effects will only affect the base skill cost)"
+        },
+        {
+            "GroupId": "CH0243Public01",
+            "NameEn": "Come here~!",
+            "DescriptionEn": "Every $1 normal attacks, increase Sonic Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0243Passive01",
+            "NameEn": "Express preparation",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0243WeaponPassive01",
+            "NameEn": "Express preparation +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0243ExtraPassive01",
+            "NameEn": "All aboard!",
+            "DescriptionEn": "All attacks are guaranteed to be critical hits.\nIncreases own Attack Speed by $1 and Critical Damage by $2."
+        },
+
+        {
+            "GroupId": "CH0288Ex01",
+            "NameEn": "I-, I have to go get it repaired…!",
+            "DescriptionEn": "Move to the specified location and deal $1 damage to any enemies in the way.\nAfter moving, increase own Attack by $2 and Attack Speed by $3 for $4."
+        },
+        {
+            "GroupId": "CH0288Public01",
+            "NameEn": "R-ready…",
+            "DescriptionEn": "Every $1, increase Defense by $2 for $3."
+        },
+        {
+            "GroupId": "CH0288Passive01",
+            "NameEn": "Hopelesssly overworked",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0288WeaponPassive01",
+            "NameEn": "Hopelesssly overworked +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0288ExtraPassive01",
+            "NameEn": "No expectations",
+            "DescriptionEn": "Every $1 Normal attacks, increase Defense by $2 for $3."
         }
+        
         
 
     ]

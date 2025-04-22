@@ -32,6 +32,8 @@ RAIDS = {
     'EN0008':           Raid('Celestial Pantheon: The Fury of Set', 'The Fury of Set', 'Outdoors'),
     'EN0009':           Raid('Decagrammaton: Chokmah', 'Chokmah', 'Outdoors'),
     'EN0010':           Raid('Decagrammaton: Geburah', 'Geburah', 'Outdoors'),
+    'EN0011':           Raid('Decagrammaton: Tiphareth', 'Tiphareth', 'Indoors'),
+
 }
 
 SEASON_IGNORE = {

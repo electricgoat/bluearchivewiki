@@ -41,5 +41,7 @@ CLUBS = {
             'Hyakkayouran': 'Hyakkaryouran',
             'ShinySparkleSociety': 'Shiny Sparkle Society',
             'AbydosStudentCouncil': 'Abydos Student Council',
+            'CentralControlCenter': 'Central Control Center',
+            'FreightLogisticsDepartment': 'Freight Logistics Department',
             'EmptyClub': 'no club'
 }

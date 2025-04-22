@@ -42,9 +42,11 @@ SEASON_CHALLENGE_DEF = {
     'jp' : {
         2:'HeavyArmor',
         4:'Special',
+        5:'HeavyArmor',
         6:'Unarmed',
         11:'Special',
         12:'HeavyArmor',
+        15:'HeavyArmor',
     },
     'gl' : {
         2:'HeavyArmor',

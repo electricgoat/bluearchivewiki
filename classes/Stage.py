@@ -135,7 +135,7 @@ class EventStage(Stage):
                 grounds.append(data.ground[entity['Id']])
 
         for ground in grounds:
-            stagefile = data.stages[ground['StageFileName'][0]]
+            stagefile = data.stages[ground['StageFileName'][0].lower()]
 
             for template in json_find_key(stagefile, 'SpawnTemplateId'):
                 if template != '' and template in devname_characters and template not in spawn_templates:

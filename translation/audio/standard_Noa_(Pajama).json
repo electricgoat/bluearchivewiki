@@ -1,0 +1,391 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_(Pajama)_Formation_In_1",
+            "LocalizeJP": "あら……急用でしょうか？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_(Pajama)_Formation_In_2",
+            "LocalizeJP": "夜のお散歩ですか？お供いたします。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_(Pajama)_Formation_Select",
+            "LocalizeJP": "あら……？\n大胆なんですね、ふふっ。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Defeat_1",
+            "LocalizeJP": "申し訳ございません、私が急いだばかりに……。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Defeat_2",
+            "LocalizeJP": "お気になさらず。次はうまく行きますから。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_In_1",
+            "LocalizeJP": "問題児の出現を確認。\n指揮は……お任せいたします。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_In_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_In_2",
+            "LocalizeJP": "ゆっくりついてきてくださいね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Victory_1",
+            "LocalizeJP": "先生はいつも記録の中の姿とお変わりありませんね。\nふふっ、本日もお疲れ様でした。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Victory_2",
+            "LocalizeJP": "はい、帰りましょうか。\n戻ったら、ぐっすり眠れるお茶を淹れますね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Buffed_1",
+            "LocalizeJP": "その方向でいきましょう。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_BuffSelf_1",
+            "LocalizeJP": "手応えがありました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Covered_1",
+            "LocalizeJP": "援護を、お願いします。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Damage_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Damage_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Damage_3",
+            "LocalizeJP": "少し、痛みますね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Defense_1",
+            "LocalizeJP": "効きませんよ？",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_In_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_In_1",
+            "LocalizeJP": "寝る前の軽い運動は、睡眠の質を向上させるといいます。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_In_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_In_2",
+            "LocalizeJP": "早く終わらせて寝ましょう。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Move_1",
+            "LocalizeJP": "こちらの整理は終わりました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Move_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Move_2",
+            "LocalizeJP": "ターゲットは向こうですね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Recovery_1",
+            "LocalizeJP": "ありがとうございます。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Retire",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Retire",
+            "LocalizeJP": "私、疲れているのでしょうか。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Shout_1",
+            "LocalizeJP": "えいっ。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Shout_2",
+            "LocalizeJP": "今度はこちらです。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Shout_3",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_TacticalAction_1",
+            "LocalizeJP": "次です。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Victory_1",
+            "LocalizeJP": "良い息抜きになりました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Victory_2",
+            "LocalizeJP": "今日の記録はここまで。お疲れ様でした。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_CommonSkill",
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Noa_(Pajama)_CommonSkill",
+            "LocalizeJP": "ふかふかですね……",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_1",
+            "LocalizeJP": "お静かに、と、お伝えしたと思うのですが……",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_2",
+            "LocalizeJP": "読後の余韻に浸るには……不向きな場所ですね。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_3",
+            "LocalizeJP": "ふふ、私も参加いたします。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_Level_1",
+            "LocalizeJP": "ふぅ、ようやく静かに。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_Level_2",
+            "LocalizeJP": "では、読書に戻らせていただきます。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_(Pajama)_ExSkill_Level_3",
+            "LocalizeJP": "ふふっ、スッキリしました。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Growup_1",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_(Pajama)_Growup_1",
+            "LocalizeJP": "未知との出会いはいつだって……\n驚きとワクワクをくれるんです。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Growup_2",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_(Pajama)_Growup_2",
+            "LocalizeJP": "今後もご指導ご鞭撻のほど、\nよろしくお願いいたしますね。先生。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Growup_3",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_(Pajama)_Growup_3",
+            "LocalizeJP": "ふふ、これも記録しなければ。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Growup_4",
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_(Pajama)_Growup_4",
+            "LocalizeJP": "はい、たしかに、受け取りました。\nありがとうございます。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_(Pajama)_Relationship_Up_1",
+            "LocalizeJP": "……もう、記録だけでは、満足できそうにありません。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_(Pajama)_Relationship_Up_2",
+            "LocalizeJP": "この瞬間が、このまま止まってしまえばいいのに。記録のように。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_(Pajama)_Relationship_Up_3",
+            "LocalizeJP": "私は先生のすべてを……記録に残したいんです。",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 10109,
+            "CharacterVoiceGroupId": 10109,
+            "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_(Pajama)_Relationship_Up_4",
+            "LocalizeJP": "この先も先生を記録し続けられるよう、\nずっとそこに、いてくださいね。",
+            "LocalizeEN": ""
+        }
+    ]
+}
