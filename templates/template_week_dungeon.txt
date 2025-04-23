@@ -1,14 +1,20 @@
-{| class="wikitable limitwidth-1024"
-|+
+{% raw %}{{% endraw %}| class="wikitable limitwidth-1024 stagetable"
+|+ {{dungeon_type}}
 !Stage
 !Level
+!Entry cost
+!style="font-stretch: condensed;" |Environment
+!style="font-stretch: condensed;" |Enemy armor
+!Star objectives
 !Rewards
 {% for stage in stages -%}
 |-
-| {{stage['Name']}}
-| style="text-align: center;" | {{stage['RecommandLevel']}}
-| {% for reward_parcel in stage['Rewards'].values() %}{{reward_parcel.wikitext}}{% endfor %}
+|{{stage.name_en}}
+|{{stage.rec_level}}
+|{{stage.wiki_enter_cost}}
+|{{stage.wiki_topography()}}
+| class="bg-element" |{% for armor_type in stage.armor_types %}<span class="{{armor_type.lower()}}">{{armor_type}}</span><br>{% endfor %}
+| style="text-align: left;" | {{ '<br>'.join(stage.star_goal.wiki_list) }}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Other'] %}{{reward_parcel.wikitext}}{% endfor %}</div>
 {% endfor -%}
-{% raw -%}
-|}
-{% endraw %}
+{% raw %}|}{% endraw %}

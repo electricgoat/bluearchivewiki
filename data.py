@@ -22,6 +22,7 @@ BlueArchiveData = collections.namedtuple(
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group', 'cafe_interaction', 
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
+    'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule',
     'event_content_seasons', 'event_content_stages', 'event_content_stage_rewards', 'event_content_stage_total_rewards', 'event_content_mission', 'event_content_character_bonus', 'event_content_currency', 'event_content_shop_info', 'event_content_shop', 'event_content_location_reward', 'event_content_zone', 'event_content_box_gacha_manage', 'event_content_box_gacha_shop', 'event_content_fortune_gacha', 'event_content_fortune_gacha_modify', 'event_content_fortune_gacha_shop', 'event_content_card', 'event_content_card_shop', 'event_content_treasure', 'event_content_treasure_round', 'event_content_treasure_reward', 'event_content_treasure_cell_reward', 'event_content_collection',
     'minigame_mission',
     'minigame_dream_collection_scenario', 'minigame_dream_daily_point', 'minigame_dream_ending', 'minigame_dream_ending_reward', 'minigame_dream_info', 'minigame_dream_parameter', 'minigame_dream_replay_scenario', 'minigame_dream_schedule', 'minigame_dream_schedule_result', 'minigame_dream_timeline', 'minigame_dream_voice',
@@ -89,6 +90,9 @@ def load_data(path_primary, path_secondary, path_translation):
         campaign_stage_rewards=     load_file_grouped(path_primary, 'CampaignStageRewardExcelTable.json', 'GroupId'),
         campaign_strategy_objects=  load_generic(path_primary, 'CampaignStrategyObjectExcelTable.json'),
         campaign_units=             load_generic(path_primary, 'CampaignUnitExcelTable.json'),
+        week_dungeon=               load_generic(path_primary, 'WeekDungeonExcelTable.json', key='StageId'),
+        week_dungeon_reward=        load_file_grouped(path_primary, 'WeekDungeonRewardExcelTable.json', key='GroupId'),
+        week_dungeon_open_schedule= load_generic(path_primary, 'WeekDungeonOpenScheduleExcelTable.json', key='WeekDay'),
         event_content_seasons=      load_event_content_seasons(path_primary),
         event_content_stages=       load_generic(path_primary, 'EventContentStageExcelTable.json'),
         event_content_stage_rewards=load_file_grouped(path_primary, 'EventContentStageRewardExcelTable.json', 'GroupId'),
@@ -617,7 +621,6 @@ BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
     ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
      'event_content_season', 
-     'week_dungeon', 'week_dungeon_reward', 'week_dungeon_open_schedule',
      'time_attack_dungeon_season',
      'shop_recruit']
 )
@@ -630,9 +633,6 @@ def load_season_data(path):
         eliminate_raid_stage=   load_file_grouped(path, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),
         multi_floor_raid_season=load_generic(path, 'MultiFloorRaidSeasonManageExcelTable.json', key='SeasonId'),
         event_content_season=   load_event_content_seasons(path),
-        week_dungeon=           load_generic(path, 'WeekDungeonExcelTable.json', key='StageId'),
-        week_dungeon_reward=    load_file_grouped(path, 'WeekDungeonRewardExcelTable.json', key='GroupId'),
-        week_dungeon_open_schedule= load_generic(path, 'WeekDungeonOpenScheduleExcelTable.json', key='WeekDay'),
         time_attack_dungeon_season= load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
         shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
     )
