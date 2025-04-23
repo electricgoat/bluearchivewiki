@@ -104,20 +104,50 @@ def get_boss_skills(skill_list_group_id, data, missing_skill_localization):
 
     SKILL_LISTS = {'NormalSkillGroupId':'Normal', 'ExSkillGroupId':'EX', 'PublicSkillGroupId':'Public', 'PassiveSkillGroupId':'Passive', 'LeaderSkillGroupId':'Leader', 'ExtraPassiveSkillGroupId':'Sub', 'HiddenPassiveSkillGroupId':'Hidden'}
 
-    skill_list_group = data.characters_skills[(skill_list_group_id, 0, 0, False)]
+    skill_list_group = data.characters_skills[(skill_list_group_id, 0, 0, 0)]
+    if data.characters_skills.get((skill_list_group_id, 0, 0, 1), False): #Collate FormIndex0 and FormIndex1 skills, todo figure out a better way
+        skill_list_group_fi1 = data.characters_skills[(skill_list_group_id, 0, 0, 1)]
+        # print(f"Found FormIndex 1 for {skill_list_group_id}")
+        # print (f"{skill_list_group['PassiveSkillGroupId']}")
+        # print (f"{skill_list_group_fi1['PassiveSkillGroupId']}")
+        for skill_group in SKILL_LISTS.keys():
+            for f1gid in skill_list_group_fi1[skill_group]:
+                if f1gid not in skill_list_group[skill_group]:
+                    skill_list_group[skill_group].append(f1gid)
+
     
     #skills appear to be referenced by GroupId rather than Id, so prepare a better data structure
     skills_by_groupid = {item['GroupId']: item for item in data.skills.values()}
 
-    skill_data = [
-        {
-            **skills_by_groupid[skill_id], 
-            'SkillType': SKILL_LISTS[skill_group],
-            'IconName': skills_by_groupid[skill_id]['IconName'][skills_by_groupid[skill_id]['IconName'].rfind('/') + 1:]
-        }
-        for skill_group in SKILL_LISTS.keys()
-        for skill_id in skill_list_group[skill_group]
-    ]
+    # skill_data = [
+    #     {
+    #         **skills_by_groupid[skill_id], 
+    #         'SkillType': SKILL_LISTS[skill_group],
+    #         'IconName': skills_by_groupid[skill_id]['IconName'][skills_by_groupid[skill_id]['IconName'].rfind('/') + 1:]
+    #     }
+    #     for skill_group in SKILL_LISTS.keys()
+    #     for skill_id in skill_list_group[skill_group]
+    # ]
+
+    skill_data = []
+    for skill_group in SKILL_LISTS.keys():
+        for skill_id in skill_list_group[skill_group]:
+            skill = skills_by_groupid[skill_id]
+            if skill['IsShowInfo']:
+                skill_data.append({
+                    **skill, 
+                    'SkillType': SKILL_LISTS[skill_group],
+                    'IconName': skill['IconName'][skill['IconName'].rfind('/') + 1:]
+                })
+            if skill['AdditionalToolTipId'] != 0: 
+                for add_tooltip in data.skill_additional_tooltip.get(skill['AdditionalToolTipId'], []):
+                    add_skill = skills_by_groupid[add_tooltip['AdditionalSkillGroupId']]
+                    skill_data.append({
+                        **add_skill, 
+                        'SkillType': SKILL_LISTS[skill_group] + ' tooltip',
+                        'IconName': add_skill['IconName'][add_skill['IconName'].rfind('/') + 1:]
+                    })
+
 
     for skill in skill_data:
         loc_data = data.skills_localization[skill['LocalizeSkillId']]
@@ -125,8 +155,6 @@ def get_boss_skills(skill_list_group_id, data, missing_skill_localization):
             missing_skill_localization.add_entry(loc_data)
 
     return skill_data
-
-
 
 
 

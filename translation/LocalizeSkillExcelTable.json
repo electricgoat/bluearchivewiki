@@ -215,7 +215,7 @@
             "NameJp": "不離一体の歯車",
             "DescriptionJp": "コクマーが弱体状態による持続ダメージを受けるとリアクターゲージが減少し、[c][007eff]0%[-][/c]になれば復旧状態へ切替（[c][007eff]20秒[-][/c]間）（クールタイム[c][007eff]25秒[-][/c]）/\nリアクターゲージが復旧状態に切替される度に次の効果を適用\n-会心ダメージ抵抗率が[c][007eff]5000[-][/c]減少（最大6重複）\n-会心抵抗値が[c][007eff]100%[-][/c]減少（[c][007eff]20秒[-][/c]間）\n-不安定な火炎効果を獲得（最大3重複）",
             "NameEn": "Wheel of Unity",
-            "DescriptionEn": "When Chokmah takes damage from debuff effects, its reactor gauge decreases. If it reaches [c][007eff]0%[-][/c], it enters recovery mode for [c][007eff]20 seconds[-][/c] (cooldown: [c][007eff]25 seconds[-][/c]).\nThe following effect is applied each time the reactor gauge switches to recovery:\n* Critical Damage Resistance decreases by 5000 (maximum of 6 stacks)\n* Critical Resistance decreases by 100% (maximum of 3 stacks)\n* Gain Unstable Flame effect (maximum of 3 stacks)"
+            "DescriptionEn": "When Chokmah takes damage from debuff effects, its reactor gauge decreases. If it reaches [c][007eff]0%[-][/c], it enters recovery mode for [c][007eff]20 seconds[-][/c] (Cooldown: [c][007eff]25 seconds[-][/c]).\nThe following effect is applied each time the reactor gauge switches to recovery:\n* Critical Damage Resistance decreases by 5000 (maximum of 6 stacks)\n* Critical Resistance decreases by 100% (maximum of 3 stacks)\n* Gain Unstable Flame effect (maximum of 3 stacks)"
         },
         {
             "Key": 1893667434,
@@ -581,6 +581,199 @@
             "SkillInvokeLocalizeJp": "",
             "NameEn": "Just For You",
             "DescriptionEn": "Wakamo is not affected by Crowd Control.\nWhen the total duration of Crowd Control effects applied to her reaches [c][007eff]16/18/20 sec[-][/c], Wakamo becomes Groggy, up to [c][007eff]3[-][/c] times. (More duration is applied with higher Crowd Control enhancements.)\nWhen Groggy, Wakamo's Imprints are removed from allies. Groggy applies the following effects, depending on the stage.\nATK: Increased by [c][007eff]25%/50%/75%[-][/c].\nReceived Damage: Increased by [c][007eff]100%/200%/300%[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+        {
+            "Key": 277873227,
+            "NameKr": "아름다움의 제물",
+            "DescriptionKr": "티페레트가 코어 3개 중 2개를 활성화시키고, 그 주변에 레이버를 4체 소환. 희생의 치유자 사용 전까지 받는 대미지량 [c][007eff]50%[-][/c] 감소. (레이버는 처치되면 티페레트 최대 체력의 [c][007eff]1%[-][/c]만큼 피해를 주고 그로기 게이지를 누적시킵니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "玲瓏の供物",
+            "DescriptionJp": "ティファレトがコア3つのうち2つを活性化させ、その周辺にレイバーを4体召喚。「捧げられし贄」を使用する前まで被ダメージ量[c][007eff]50%[-][/c]減少。（レイバーが倒されると、ティファレトの最大HPの[c][007eff]1%[-][/c]分のダメージを与え、グロッキーゲージを累積させます）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Offering of Beauty",
+            "DescriptionEn": "Tiphareth activates 2 out of 3 cores and summons 4 Laborers around them. Damage taken is reduced by [c][007eff]50%[-][/c] until the Sacrificial Healer skill is used. (When a Laborer is defeated, it deals damage equal to [c][007eff]1%[-][/c] of Tiphareth's max HP and accumulates Groggy Gauge.)",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2180621774,
+            "NameKr": "희생의 치유자",
+            "DescriptionKr": "티페레트가 활성화된 코어를 비활성화시키고, 소환한 레이버를 흡수. 흡수한 레이버마다, 티페레트가 최대 체력의 [c][007eff]1%[-][/c]만큼 회복.\n아름다움의 제물 스킬 사용 전까지 공격력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "捧げられし贄",
+            "DescriptionJp": "ティファレトが活性化したコアを無効化し、召喚したレイバーを回収。回収したレイバーの数ごとに、ティファレトの最大HPの[c][007eff]1%[-][/c]分の回復。\n「玲瓏の供物」を使用する前まで攻撃力を[c][007eff]100%[-][/c]増加。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Sacrificial Healer",
+            "DescriptionEn": "Tiphareth deactivates the activated cores and absorbs the summoned Laborers. For each absorbed Laborer, Tiphareth recovers [c][007eff]1%[-][/c] of max HP. Attack power increases by [c][007eff]100%[-][/c] until the Offering of Beauty skill is used.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 538675197,
+            "NameKr": "여섯 왕국의 힘",
+            "DescriptionKr": "티페레트가 역장을 6개 생성해 적 6인에게 각각 공격력 [c][007eff]200%[-][/c]의 대미지. 보호막이 없으면 받는 회복효과 강화율 [c][007eff]50%[-][/c] 감소. ([c][007eff]15초[-][/c]간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "六王国の力",
+            "DescriptionJp": "ティファレトが力場を6つ生成し、敵6人にそれぞれ攻撃力の[c][007eff]200%[-][/c]分のダメージ。シールドが無い場合、被回復率を[c][007eff]50%[-][/c]減少（[c][007eff]15秒[-][/c]間）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Power of the Six Kingdoms",
+            "DescriptionEn": "Tiphareth generates 6 force fields, dealing [c][007eff]200%[-][/c] damage to 6 enemies. If the target has no shield, recovery effect enhancement is reduced by [c][007eff]50%[-][/c] for [c][007eff]15 seconds[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 1813686770,
+            "NameKr": "생명을 품은 의지",
+            "DescriptionKr": "티페레트가 각성 상태에 돌입하여 공격력이 [c][007eff]100%[-][/c] 증가. \n아름다움의 제물 스킬이 모든 코어를 활성화하도록 변경.\n여섯 왕국의 힘 스킬이 공격력 [c][007eff]200%[-][/c]의 추가 피해를 주도록 강화.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "生命抱く意志",
+            "DescriptionJp": "ティファレトが覚醒状態に突入し、攻撃力を[c][007eff]100%[-][/c]増加。\n「玲瓏の供物」がすべてのコアを活性化するように変更。\n「六王国の力」が攻撃力の[c][007eff]200%[-][/c]分の追加ダメージを与えるように強化。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Will to Embrace Life",
+            "DescriptionEn": "Tiphareth enters an awakened state, increasing Attack by [c][007eff]100%[-][/c]. The Offering of Beauty skill is modified to activate all cores. The Power of the Six Kingdoms skill is enhanced to deal an additional [c][007eff]200%[-][/c] Attack as damage.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 1351937543,
+            "NameKr": "위대함에 대한 헌신",
+            "DescriptionKr": "비활성화 상태인 코어의 받는 대미지량이 [c][007eff]50%[-][/c] 감소.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "威光への献身",
+            "DescriptionJp": "非活性化状態のコアの被ダメージ量を[c][007eff]50%[-][/c]減少。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Devotion to Greatness",
+            "DescriptionEn": "Reduces the damage taken by inactive cores by [c][007eff]50%[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 43139917,
+            "NameKr": "넘어선 긍지",
+            "DescriptionKr": "코어는 자신을 포함한 각 코어의 스킬에 공격받을 수 있으며, 이때 본체에 그로기 게이지를 누적. 코어가 받은 피해를 티페레트에게 전이. (이 피해는 티페레트의 받는 대미지량 증가, 받는 대미지량 감소 효과를 무시합니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "越えし誇り",
+            "DescriptionJp": "コアは自身を含む各コアのスキルによって攻撃されることがあり、その際は、本体にグロッキーゲージを累積。また、コアの被ダメージをティファレトに転移。（このダメージはティファレトの被ダメージ量増加、被ダメージ量減少効果を無視する）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Surpassing Pride",
+            "DescriptionEn": "Cores can be attacked by skills, including their own, accumulating Groggy Gauge on the main body. Damage taken by the cores is transferred to Tiphareth. (This damage ignores Tiphareth's damage increase or reduction effects.)",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3631629694,
+            "NameKr": "명백히 드러난 자",
+            "DescriptionKr": "티페레트가 그로기 상태가 되면 받는 대미지량이 [c][007eff]100%[-][/c] 증가하고, 스트라이커 학생의 코스트 회복력이 [c][007eff]1000[-][/c] 증가. ([c][007eff]20초[-][/c]간)\n티페레트는 그로기 상태가 될 때마다, 전투 종료 시 까지 받는 대미지량이 [c][007eff]50%[-][/c] 증가.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "黎明に現れし者",
+            "DescriptionJp": "ティファレトがグロッキー状態になると、被ダメージ量が[c][007eff]100%[-][/c]増加し、ストライカー生徒のコスト回復力を[c][007eff]1000[-][/c]増加。（[c][007eff]20秒[-][/c]間）\nティファレトはグロッキー状態になる度に、戦闘終了時までに被ダメージ量が[c][007eff]50%[-][/c]増加。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "The One Revealed at Dawn",
+            "DescriptionEn": "When Tiphareth enters a Groggy state, damage taken increases by [c][007eff]100%[-][/c], and Striker students' Cost Recovery increases by [c][007eff]1000[-][/c] for [c][007eff]20 seconds[-][/c]. Each time Tiphareth enters a Groggy state, damage taken increases by [c][007eff]50%[-][/c] until the end of the battle.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3905780948,
+            "NameKr": "중심된 자리",
+            "DescriptionKr": "일반 공격이 적 최대 6인에게 번갈아 가며 각각 공격력 [c][007eff]100%[-][/c]의 대미지를 주고, 보호막이 없는 대상은 공격력 [c][007eff]100%[-][/c] 추가 대미지.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "正中の座",
+            "DescriptionJp": "通常攻撃が最大で敵6人に対して、順番にそれぞれ攻撃力の[c][007eff]100%[-][/c]分のダメージを与え、シールドが無い対象には攻撃力の[c][007eff]100%[-][/c]分の追加ダメージ。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Midline Seat",
+            "DescriptionEn": "Normal attacks deal [c][007eff]100%[-][/c] Attack damage to up to 6 enemies in sequence. Targets without shields take an additional [c][007eff]100%[-][/c] Attack damage.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2071383327,
+            "NameKr": "찰나를 꺼트리는 빛",
+            "DescriptionKr": "코어가 코어의 스킬에 피격당한 뒤, [c][007eff]20초[-][/c] 내에 다른 코어의 스킬에 피격당한 경우, 약점 노출 상태가 된다. ([c][007eff]20초[-][/c]간) 약점 노출 상태인 코어가 스트라이커 학생의 EX스킬에 피격당하면 그로기 상태로 전환.([c][007eff]20초간[-][/c]) 추가로 받는 대미지량이 [c][007eff]100%[-][/c] 증가. ([c][007eff]10초[-][/c]간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "刹那貫く光明",
+            "DescriptionJp": "コアがコアスキルに攻撃された後、[c][007eff]20秒[-][/c]以内に他のコアスキルに攻撃された場合、弱点露出状態となります。（[c][007eff]20秒[-][/c]間）弱点露出状態のコアがストライカー生徒のEXスキルに攻撃されるとグロッキー状態へ切替。（[c][007eff]20秒[-][/c]間）さらに被ダメージ量が[c][007eff]100%[-][/c]増加。（[c][007eff]10秒[-][/c]間）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Light Piercing the Moment",
+            "DescriptionEn": "If a core is hit by a core skill and then hit by another core skill within [c][007eff]20 seconds[-][/c], it enters an exposed state for [c][007eff]20 seconds[-][/c]. If a core in an exposed state is hit by a Striker student's EX skill, it transitions to a Groggy state for [c][007eff]20 seconds[-][/c]. Additionally, damage taken increases by [c][007eff]100%[-][/c] for [c][007eff]10 seconds[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3251095476,
+            "NameKr": "명백히 드러난 자",
+            "DescriptionKr": "티페레트가 그로기 상태가 되면 받는 대미지량이 [c][007eff]100%[-][/c] 증가하고, 스트라이커 학생의 코스트 회복력이 [c][007eff]1000[-][/c] 증가. ([c][007eff]20초[-][/c]간)\n티페레트는 그로기 상태가 될 때마다, 전투 종료 시 까지 받는 대미지량이 [c][007eff]50%[-][/c] 증가. \n서포트 드론을 8개체 소환. ([c][007eff]20초[-][/c]간)(전투 당 [c][007eff]1회[-][/c])\n서포트 드론마다 티페레트의 받는 대미지량을 [c][007eff]10%[-][/c] 감소.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "黎明に現れし者",
+            "DescriptionJp": "ティファレトがグロッキー状態になると、被ダメージ量が[c][007eff]100%[-][/c]増加し、ストライカー生徒のコスト回復力を[c][007eff]1000[-][/c]増加。（[c][007eff]20秒[-][/c]間）\nティファレトはグロッキー状態になる度に、戦闘終了時までに被ダメージ量が[c][007eff]50%[-][/c]増加。\nサポートドローンを8体召喚。（[c][007eff]20秒[-][/c]間）（戦闘中に[c][007eff]1回[-][/c]のみ）\nサポートドローンの数ごとに、ティファレトの被ダメージ量が[c][007eff]10%[-][/c]減少。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "The One Revealed at Dawn",
+            "DescriptionEn": "When Tiphareth enters a Groggy state, damage taken increases by [c][007eff]100%[-][/c], and Striker students' Cost Recovery increases by [c][007eff]1000[-][/c] for [c][007eff]20 seconds[-][/c]. Each time Tiphareth enters a Groggy state, damage taken increases by [c][007eff]50%[-][/c] until the end of the battle. Summons 8 support drones for [c][007eff]20 seconds[-][/c] (once per battle). Each support drone reduces Tiphareth's damage taken by [c][007eff]10%[-][/c].",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2581051694,
+            "NameKr": "중심된 자리",
+            "DescriptionKr": "일반 공격이 적 최대 6인에게 번갈아 가며 각각 공격력 [c][007eff]100%[-][/c]의 대미지를 주고, 보호막이 없는 대상은 공격력 [c][007eff]100%[-][/c] 추가 대미지.\n티페레트가 직접 가하는 모든 피해에 공격력 [c][007eff]100%[-][/c]의 추가 대미지. (쿨타임 [c][007eff]5초[-][/c])",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "正中の座",
+            "DescriptionJp": "通常攻撃が最大で敵6人に対して、順番にそれぞれ攻撃力の[c][007eff]100%[-][/c]分のダメージを与え、シールドが無い対象には攻撃力の[c][007eff]100%[-][/c]分の追加ダメージ。\nティファレトが直接与えるすべてのダメージに攻撃力の[c][007eff]100%[-][/c]分のの追加ダメージ。（クールタイム[c][007eff]5秒[-][/c]）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Midline Seat",
+            "DescriptionEn": "Normal attacks deal [c][007eff]100%[-][/c] attack power damage to up to 6 enemies in sequence. Targets without shields take an additional [c][007eff]100%[-][/c] attack power damage. All damage directly dealt by Tiphareth deals an additional [c][007eff]100%[-][/c] attack power damage (Cooldown: [c][007eff]5 seconds[-][/c]).",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 450642269,
+            "NameKr": "청색 코어 : 고난의 비의",
+            "DescriptionKr": "[c][336e9b]좌측 청색 코어[-][/c]가 자신 주변에 받는 대미지량이 [c][007eff]50%[-][/c] 감소하는 보호장을 전개. 가장 사거리가 짧은 스트라이커 학생에게 점착 폭탄을 발사하여 8초 뒤 범위 내 모든 대상에게 공격력 [c][007eff]600%[-][/c]의 대미지. (점착 폭탄에 맞은 대상이 보호장으로 들어오면 보호장이 해제되며, 점착 폭탄이 즉시 폭발합니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "青のコア：苦難の秘技",
+            "DescriptionJp": "[c][336e9b]左側、青のコア[-][/c]は、自身の回りに被ダメージ量を[c][007eff]50%[-][/c]減少するプロテクションフィールドを展開。射程が最も短いストライカー生徒に粘着爆弾を発射し、8秒後に範囲内のすべての対象に攻撃力の[c][007eff]600%[-][/c]分のダメージ。（粘着爆弾に当たった対象がプロテクションフィールドに入るとプロテクションフィールドが解除され、粘着爆弾は直ちに爆発します）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Blue Core: Secret Art of Hardship",
+            "DescriptionEn": "[c][336e9b]The left Blue Core[-][/c] deploys a protection field around itself that reduces damage taken by [c][007eff]50%[-][/c]. It fires a sticky bomb at the closest Striker student, which explodes after 8 seconds, dealing [c][007eff]600%[-][/c] damage to all targets in the area. (If a target hit by the sticky bomb enters the protection field, the field is deactivated, and the sticky bomb explodes immediately.)",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3355460818,
+            "NameKr": "적색 코어 : 번제",
+            "DescriptionKr": "[c][a0201f]정면 적색 코어[-][/c]가 가장 사거리가 짧은 스트라이커 학생을 8초간 조준. 이후, 분해 파동을 방출하여 적에게 보호막을 [c][007eff]50%[-][/c] 무시하는 공격력 [c][007eff]2800%[-][/c] 대미지, 아군에게는 [c][007eff]1400%[-][/c] 대미지.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "赤のコア：訪れし燔祭",
+            "DescriptionJp": "[c][a0201f]正面、赤のコア[-][/c]は、射程が最も短いストライカー生徒を8秒間照準。その後、マイクロウェーブを放出して敵のシールドを[c][007eff]50%[-][/c]無視する攻撃力の[c][007eff]2800%[-][/c]分のダメージ、味方には[c][007eff]1400%[-][/c]分のダメージ。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Red Core: The Coming Sacrifice",
+            "DescriptionEn": "[c][a0201f]The front Red Core[-][/c] targets the closest Striker student for 8 seconds. It then releases a microwave wave, dealing [c][007eff]2800%[-][/c] damage to enemies, ignoring [c][007eff]50%[-][/c] of their shields, and deealing [c][007eff]1400%[-][/c] damage to allies.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2074242949,
+            "NameKr": "황색 코어 : 비전의 조화",
+            "DescriptionKr": "[c][ac7028]우측 황색 코어[-][/c]가 미사일을 발사하여 적 6인에게 각각 공격력 [c][007eff]100%[-][/c]의 대미지. 대상이 보호막이 없는 경우, 폭발하여 공격력 [c][007eff]300%[-][/c]의 추가 대미지. (대상이 보호막이 있는 경우 황색 코어에게 반사되어 대미지를 주고 그로기 게이지를 누적시킵니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "黄のコア：調和せし情景",
+            "DescriptionJp": "[c][ac7028]右側、黄のコア[-][/c]は、ミサイルを発射し、敵6人にそれぞれ攻撃力の[c][007eff]100%[-][/c]分のダメージ。対象にシールドが無い場合、爆発して攻撃力の[c][007eff]300%[-][/c]分の追加ダメージ。（対象にシールドがある場合、黄のコアのほうへ反射されてダメージを与え、グロッキーゲージを累積させます)",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Yellow Core: Harmonious Vision",
+            "DescriptionEn": "[c][ac7028]The right Yellow Core[-][/c] fires missiles, dealing [c][007eff]100%[-][/c] damage to 6 enemies. If the target has no shield, the missile explodes, dealing an additional [c][007eff]300%[-][/c] damage. (If the target has a shield, the missile reflects back at the Yellow Core, dealing damage and accumulating Groggy Gauge.)",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 848656337,
+            "NameKr": "깨달은 왕들의 기도",
+            "DescriptionKr": "티페레트가 ATG 게이지를 소모하여 에너지를 10초간 충전하고, 이후 강력한 빔을 발사하여 999999 대미지. (이 공격은 불사를 해제합니다.) 빔을 발사하는 동안, 티페레트가 방화벽을 가동시켜 탈출을 방해. 스트라이커 학생이 기본 스킬을 사용할 수 없는 대신 이동 속도가 [c][007eff]30%[-][/c] 증가하고, 코스트 회복력 [c][007eff]1000[-][/c] 증가. (스킬이 종료되면 티페레트가 그로기 상태가 됩니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "悟りし王の祈り",
+            "DescriptionJp": "ティファレトがATGゲージを消耗してエネルギーを10秒間充電し、その後、強力なビームを発射して999999のダメージ。（この攻撃は不死身状態を解除します）ビームを発射している間、ティファレトが防壁を稼動させて脱出を妨害。ストライカー生徒がノーマルスキルを使用できなくなる代わりに、移動速度が[c][007eff]30%[-][/c]増加し、コスト回復力を[c][007eff]1000[-][/c]増加。（スキルが終了すると、ティファレトはグロッキー状態になります）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Prayer of the Enlightened Kings",
+            "DescriptionEn": "Tiphareth consumes the ATG gauge to charge energy for 10 seconds, then fires a powerful beam dealing 999999 damage. (This attack removes the invincible state)\nWhile firing the beam, Tiphareth activates a firewall to block escape. Striker students cannot use normal skills but gain [c][007eff]30%[-][/c] increased movement speed and [c][007eff]1000[-][/c] increased cost recovery. (When the skill ends, Tiphareth enters a Groggy state.)",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2836065005,
+            "NameKr": "의식의 새벽",
+            "DescriptionKr": "티페레트가 적 중앙을 향하여 폭발형 빔을 발사하여 적의 보호막을 제거하고, 공격력 [c][007eff]300%[-][/c]의 피해.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "儀式の夜明け",
+            "DescriptionJp": "ティファレトが敵の中央に向けて爆発型ビームを発射し、敵のシールドを解除し、攻撃力の[c][007eff]300%[-][/c]分のダメージ。",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Dawn of the Ritual",
+            "DescriptionEn": "Tiphareth fires an explosive beam at at the middle of enemies, removing their shields and dealing [c][007eff]300%[-][/c] damage.",
             "SkillInvokeLocalizeEn": ""
         }
 

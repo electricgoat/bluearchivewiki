@@ -226,7 +226,7 @@ def generate():
         stages_to_export[f"{bracket_start}~{bracket_end}"] = stages[-1]
 
         template = env.get_template('./raid/template_boss_skilltable.txt')
-        skilltables = {title:template.render(stage=stage, skills_localization = data.skills_localization) for title, stage in stages_to_export.items()}
+        skilltables = {title:template.render(stage=stage, skills_localization = data.skills_localization, skillbg = True) for title, stage in stages_to_export.items()}
         template = env.get_template('./raid/template_boss_skills.txt')
         wikitext_skills = template.render(skilltables=skilltables)
 
