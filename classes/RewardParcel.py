@@ -96,7 +96,7 @@ class RewardParcel(object):
             probability = total_prob > 0 and item.prob / total_prob * 100 or 0
             if use_parcel_prob: probability = isinstance(self.parcel_prob, list) and self.parcel_prob[index] / 100 or self.parcel_prob / 100
             #items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity if quantity!=1 else None, text='', probability=probability if probability<100 else None, block=True, size='60px' )) 
-            if probability>0: items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity, text='', probability=probability > 5 and round(probability,1) or round(probability,2) if probability<100 else int(probability), block=True, size='48px' )) 
+            if probability>0: items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity, text='', probability=probability > 5 and round(probability,1) or round(probability,2) if probability<100 else None, block=True, size='48px' )) 
         return items_list
     
 

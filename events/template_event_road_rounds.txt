@@ -1,0 +1,12 @@
+{| class="wikitable"
+|+Minigame rounds
+!Round
+!class="condensed"|Shortest possible road
+!Rewards
+{% for round in rounds -%}
+|-
+| style="text-align: center" |{{round['Round']}}{% if round['IsLoop'] %}+{% endif %}
+| style="text-align: center" |
+|{% for parcel in round['rewards']['reward_parcels'] %}{{parcel.wikitext}}{% endfor %}
+{% endfor -%}
+|}

@@ -21,6 +21,7 @@ from events.mode_Treasure import get_mode_treasure
 from events.mode_DreamMaker import get_mode_dreammaker
 from events.mode_FortuneGachaShop import get_mode_fortunegachashop
 from events.mode_Defense import get_mode_defense
+from events.mode_Road import get_mode_road
 from shared.functions import hashkey
 from shared.MissingTranslations import MissingTranslations
 
@@ -405,6 +406,11 @@ def generate():
     if (args['event_season'], "MiniGameDefense") in data.event_content_seasons:
         wikitext_defense = get_mode_defense(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization, missing_etc_localization)
 
+    #ROAD PUZZLE
+    wikitext_road = ''
+    if (args['event_season'], "MiniGameRoad") in data.event_content_seasons:
+        wikitext_road = get_mode_road(args['event_season'], data, characters, items, furniture, emblems, missing_localization, missing_code_localization, missing_etc_localization)
+
 
     #SCHEDULE
     wikitext_schedule_locations = ''
@@ -633,7 +639,7 @@ def generate():
     
     wikitext = wikitext_header + wikitext_event_dates + wikitext_bonus_characters + wikitext_stages + wikitext_hexamaps
     wikitext += wikitext_schedule_locations
-    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_field + wikitext_treasure + wikitext_dreammaker + wikitext_defense + wikitext_footer
+    wikitext += '\n=Mission Details & Rewards=\n' + wikitext_missions + wikitext_shops + wikitext_boxgacha + wikitext_milestones + wikitext_cardshop+ wikitext_fortunegacha + wikitext_field + wikitext_treasure + wikitext_dreammaker + wikitext_defense + wikitext_road + wikitext_footer
 
 
     with open(os.path.join(args['outdir'], 'events' ,f"event_{season['EventContentId']}.txt"), 'w', encoding="utf8") as f:
