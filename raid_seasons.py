@@ -64,6 +64,13 @@ SEASON_NOTES = {
     }
 }
 
+SEASON_BOSS_OVERRIDE = {
+    'jp' : {
+        5: ["ShiroKuro"],
+    },
+    'gl' : {
+    }
+}
 
 def environment_type(environment):
     return {
@@ -94,6 +101,10 @@ def generate():
     for region in ['jp', 'gl']:
         print (f"============ {region.upper()} raids ============")
         for season in season_data[region].raid_season.values():
+            if season['SeasonId'] in SEASON_BOSS_OVERRIDE[region]:
+                print(f"Overriding {region} season {season['SeasonId']}")
+                season['OpenRaidBossGroup'] = SEASON_BOSS_OVERRIDE[region][season['SeasonId']]
+
             boss = season['OpenRaidBossGroup'][0].split('_',1)
 
             if season['SeasonId'] in SEASON_IGNORE[region]:
