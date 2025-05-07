@@ -134,7 +134,7 @@ def load_data(path_primary, path_secondary, path_translation):
         minigame_defense_character_ban= load_file_grouped(path_primary, 'MiniGameDefenseCharacterBanExcelTable.json', 'EventContentId'),
         minigame_defense_fixed_stat=load_generic(path_primary, 'MiniGameDefenseFixedStatExcelTable.json', key='MinigameDefenseFixedStatId'),
         minigame_roadpuzzle_info=   load_generic(path_primary, 'MiniGameRoadPuzzleInfoExcelTable.json', key='EventContentId'),
-        minigame_roadpuzzle_railtile= load_generic(path_primary, 'MinigameRoadPuzzleRailTileExcelTable.json.json', key='GroupId'),
+        minigame_roadpuzzle_railtile= load_generic(path_primary, 'MinigameRoadPuzzleRailTileExcelTable.json', key='GroupId'),
         minigame_roadpuzzle_map=   load_file_grouped(path_primary, 'MinigameRoadPuzzleMapExcelTable.json', key='EventContentId'),
         minigame_roadpuzzle_roadround= load_generic(path_primary, 'MinigameRoadPuzzleRoadRoundExcelTable.json', key=None),
         minigame_roadpuzzle_reward= load_file_grouped(path_primary, 'MiniGameRoadPuzzleRewardExcelTable.json', key='EventContentId'),

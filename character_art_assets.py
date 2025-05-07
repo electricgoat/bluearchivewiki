@@ -82,6 +82,14 @@ def generate():
         copy_wikinamed(local_path, image_target)
         enforce_naming(local_path, image_internal, image_target, 'character unique weapon image')
 
+        #Emblem portrait
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/43_Emblem', f"Emblem_Icon_Favor_{character.dev_name}.png")
+        image_internal = f"Emblem_Icon_Favor_{character.dev_name}.png"
+        image_target = f"Emblem_Icon_Favor_{character.wiki_name.replace(' ', '_')}.png"
+        copy_wikinamed(local_path, image_target)
+        enforce_naming(local_path, image_internal, image_target, 'character emblem icon')
+
+
 
 
 def copy_wikinamed(local_path, wikiname):

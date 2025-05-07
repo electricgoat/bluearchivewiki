@@ -775,6 +775,43 @@
             "NameEn": "Dawn of the Ritual",
             "DescriptionEn": "Tiphareth fires an explosive beam at at the middle of enemies, removing their shields and dealing [c][007eff]300%[-][/c] damage.",
             "SkillInvokeLocalizeEn": ""
+        },
+
+        {
+            "Key": 4049043471,
+            "NameKr": "성자의 속삭임",
+            "DescriptionKr": "적 전체에게 공격력 [c][007eff]500%[-][/c] 확정 치명 대미지, 공격력 [c][007eff]70%[-][/c] 감소([c][007eff]120초[-][/c]간) (이 해로운 효과는 해로운 효과 제거 스킬에 의해 제거되지 않습니다.)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "聖者の囁き",
+            "DescriptionJp": "敵全体に対して攻撃力の[c][007eff]500%[-][/c]分の確定会心ダメージ、攻撃力を[c][007eff]70%[-][/c]減少（[c][007eff]120秒[-][/c]間）（この弱体状態効果は、弱体状態解除スキルによって解除されません）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Saint's Whispers",
+            "DescriptionEn": "",
+            "SkillInvokeLocalizeEn": "Deals [c][007eff]500%[-][/c] of ATK as guaranteed Crit DMG and decreases ATK by [c][007eff]70%[-][/c] ([c][007eff]120 sec[-][/c]). (This effect cannot be cleansed by debuff removal skills.)"
+        },
+        {
+            "Key": 4228737887,
+            "NameKr": "그레고리오 성가",
+            "DescriptionKr": "중앙의 오르간 파이프가 향한 방향에 따라 아군 전체 혹은 적군 전체에게 스킬을 사용하며, 스킬을 사용할 때마다 효과가 변경됩니다.\n- 첫 번째: 검은 파이프가 향한 팀 전체 받는 대미지량 [c][007eff]50%[-][/c] 증가([c][007eff]60초[-][/c]간)\n- 두 번째: 흰 파이프가 향한 팀 전체 해로운 효과 [c][007eff]1개[-][/c] 제거, 추가로 주는 EX 스킬 대미지량 [c][007eff]70%[-][/c] 가산([c][007eff]120초[-][/c]간)\n- 세 번째: 흰 파이프가 향한 팀 전체 받는 대미지량 [c][007eff]50%[-][/c] 증가([c][007eff]60초[-][/c]간)\n- 네 번째: 검은 파이프가 향한 팀 전체 해로운 효과 [c][007eff]1개[-][/c] 제거, 추가로 주는 EX 스킬 대미지량 [c][007eff]70%[-][/c] 가산([c][007eff]120초[-][/c]간)\n(이후 스킬 사용 시 첫 번째 부터 다시 반복)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "グレゴリオ聖歌",
+            "DescriptionJp": "中央のパイプオルガンが向いた方向によって味方全体、あるいは敵全体にスキルを使用し、スキルを使用する度にスキルの効果が変更されます。\n・1番目：黒いパイプが向いたチーム全体の被ダメージ量を[c][007eff]50%[-][/c]増加（[c][007eff]60秒[-][/c]間）\n・2番目：白いパイプが向いたチーム全体の弱体状態を[c][007eff]1つ[-][/c]解除、さらにEXスキルの与えるダメージ量を[c][007eff]70%[-][/c]加算（[c][007eff]120秒[-][/c]間）\n・3番目：白いパイプが向いたチーム全体の被ダメージ量を[c][007eff]50%[-][/c]増加（[c][007eff]60秒[-][/c]間）\n・4番目：黒いパイプが向いたチーム全体の弱体状態を[c][007eff]1つ[-][/c]解除、さらにEXスキルの与えるダメージ量を[c][007eff]70%[-][/c]加算（[c][007eff]120秒[-][/c]間）\n（この後、スキル使用時1番目から繰り返し）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "",
+            "DescriptionEn": "Gregorius Chant",
+            "SkillInvokeLocalizeEn": "Affects all allies or all enemies based on the direction of the center organ pipe. Effect changes on each use.\n1. Increases damage received by [c][007eff]50%[-][/c] for the side the black pipes are pointing toward ([c][007eff]60 sec[-][/c]).\n2. Removes [c][007eff]1[-][/c] debuff for the side the white pipes are pointing toward, and increases the damage dealt by EX skills by [c][007eff]70%[-][/c] (for [c][007eff]120秒[-][/c] seconds).\n3. Increases damage received by [c][007eff]50%[-][/c] for the side the white pipes are pointing toward ([c][007eff]60 sec[-][/c]).\n4. Removes [c][007eff]1[-][/c] debuff for the side the black pipes are pointing toward, and increases the damage dealt by EX skills by [c][007eff]70%[-][/c] (for [c][007eff]120秒[-][/c] seconds).\n(Repeat from first on subsequent skill use.)"
+        },
+        {
+            "Key": 2975191111,
+            "NameKr": "거룩하시도다",
+            "DescriptionKr": "그레고리오의 능력치를 변경하는 해로운 효과 적용 시 동일한 효과가 성가대에게도 복제됩니다./\n성가대가 받은 피해의 [c][007eff]100%[-][/c]를 그레고리오에게 전달합니다./\n전투 시작 직후 그레고리오와 성가대의 공격력 [c][007eff]30%[-][/c] 감소([c][007eff]30초[-][/c]간) /\n연주의 후반부에 모든 성가대는 그레고리오 옆으로 이동하여 합창합니다.\n이 때, 적과 아군이 점차 강화됩니다.\n- 모든 성가대는 치명 대미지 저항률 [c][007eff]100%[-][/c] 증가, 추가로 [c][007eff]10초[-][/c]마다 공격속도 [c][007eff]10%[-][/c] 증가(이 효과는 중첩 가능)/\n- 스페셜 적의 치명 확률이 최대치가 되며, 추가로 스페셜을 포함한 모든 적의 [c][007eff]10초[-][/c]마다 코스트 회복력 [c][007eff]300[-][/c] 증가(이 효과는 중첩 가능)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "サンクトゥス",
+            "DescriptionJp": "グレゴリオの能力値を変更する弱体状態が適用された場合、同じ効果が聖歌隊にも複製されます。/\n聖歌隊は被ダメージの[c][007eff]100%[-][/c]分をグレゴリオに与えます。/\n戦闘開始直後、グレゴリオと聖歌隊の攻撃力を[c][007eff]30%[-][/c]減少（[c][007eff]30秒[-][/c]間）/\n演奏の後半部に全ての聖歌隊はグレゴリオの横に移動し合唱します。\nこの時、敵と味方が徐々に強化されます。\n・全ての聖歌隊は会心ダメージ抵抗率を[c][007eff]100%[-][/c]増加、さらに[c][007eff]10秒[-][/c]毎に攻撃速度を[c][007eff]10%[-][/c]増加（この効果は重複可能）/\n・敵のスペシャル生徒の会心率が最大値になり、さらにスペシャルを含め全ての敵は[c][007eff]10秒[-][/c]毎に、コスト回復力を[c][007eff]300[-][/c]増加（この効果は重複可能）",
+            "SkillInvokeLocalizeJp": "",
+            "NameEn": "Holy",
+            "DescriptionEn": "When a debuff that changes Gregorius' stats is applied, the same effect is replicated on the choir.\n[c][007eff]100%[-][/c] of damage applied to choir is delivered to Gregorius.\nAs soon as the battle begins, the ATK of Gregorius and the choir decreases for [c][007eff]30%[-][/c] ([c][007eff]30 sec[-][/c]).\nIn the second half of the performance, the choirs move next to Gregorius to unite the chorus.\nBoth enemies and allies are enhanced at this time.\n- Critical Damage RES inreses [c][007eff]100%[-][/c]; ATK SPD increases by [c][007eff]10%[-][/c] every [c][007eff]10 sec[-][/c] for all choirs (stackable).\n- All Special students' Crit Rate is increased to the maximum value.\n- Cost Recovery increases by [c][007eff]300[-][/c] every [c][007eff]10 sec[-][/c] for all enemies including special enemies (stackable).",
+            "SkillInvokeLocalizeEn": ""
         }
 
  

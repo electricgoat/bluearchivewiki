@@ -5990,18 +5990,44 @@
         },
         {
             "GroupId": "CH0288Passive01",
-            "NameEn": "Hopelesssly overworked",
+            "NameEn": "Hopelessly overworked",
             "DescriptionEn": "Increase HP by $1."
         },
         {
             "GroupId": "CH0288WeaponPassive01",
-            "NameEn": "Hopelesssly overworked +",
+            "NameEn": "Hopelessly overworked +",
             "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
         },
         {
             "GroupId": "CH0288ExtraPassive01",
             "NameEn": "No expectations",
             "DescriptionEn": "Every $1 Normal attacks, increase Defense by $2 for $3."
+        },
+
+        {
+            "GroupId": "CH0257Ex01",
+            "NameEn": "Work Mode!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nWhen Tour Complete is held, damage multiplier is increased by 0.15.\n(damage is multiplied x$2 depending on target's current HP; the lower the target's HP, the greater the damage)"
+        },
+        {
+            "GroupId": "CH0257Public01",
+            "NameEn": "I'll guide you!",
+            "DescriptionEn": "When any other ally uses an EX skill $1 times, acquire Tour Complete for $2.\nIncrease Healing Received for one ally with the lowest HP by $3 for $4."
+        },
+        {
+            "GroupId": "CH0257Passive01",
+            "NameEn": "Ah, look over there!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0257WeaponPassive01",
+            "NameEn": "Ah, look over there! +",
+            "DescriptionEn": "Increase Defense Penetration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0257ExtraPassive01",
+            "NameEn": "Ready to blast!",
+            "DescriptionEn": "Increases Explosive Efficiency of allies by $1."
         }
         
         

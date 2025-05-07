@@ -7,7 +7,196 @@
             "DialogCategory": "EventMission",
             "VoiceClip": "Rio_EventMission_Day_End",
             "LocalizeJP": "今日はこれで終了よ。\n……流石、といったところかしら？",
-            "LocalizeEN": "That is all for today.\n...\"Way to go\".. Is that right?"
+            "LocalizeEN": "That's all for today. …\"Just as expected\", should i say?"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLogin",
+            "VoiceClip": "Rio_MiniEventLogin_1",
+            "LocalizeJP": "途中参加という\n形になるのかしら。\n……これからよろしく\n頼むわね、先生。",
+            "LocalizeEN": "Seems like I’ll be joining midway\n...I’m counting on you from now on, Sensei."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLogin",
+            "VoiceClip": "Rio_MiniEventLogin_2",
+            "LocalizeJP": "貴方は、時間を\n厳守できる人なのね。\nまさに合理的な行動よ。",
+            "LocalizeEN": "You're someone who can stick to schedule. Very rational move."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLogin",
+            "VoiceClip": "Rio_MiniEventLogin_3",
+            "LocalizeJP": "ここがヒマリの……\nいえ、\n私たちの基地なのね。",
+            "LocalizeEN": "So this is Himari's... No, our base."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLobby",
+            "VoiceClip": "Rio_MiniEventLobby_1",
+            "LocalizeJP": "……まだ、\n実感がわかないの。\n先生と……同じ作戦に\n身を置いていることが。",
+            "LocalizeEN": "...I still can't really believe it. I'm on the same operation as you are,"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLobby",
+            "VoiceClip": "Rio_MiniEventLobby_2",
+            "LocalizeJP": "……みんなには、\n気兼ねなく\n接してもらっているわ。\n嫌というわけでは、\nないのだけれど……\n少し戸惑っているのは、\n事実よ。",
+            "LocalizeEN": "..Everyone is treating me very well.\nI'm not complaining about it but... I must say I am quite perplexed"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLobby",
+            "VoiceClip": "Rio_MiniEventLobby_3",
+            "LocalizeJP": "工学の分野以外は……\nごめんなさい、\nそれほど詳しくないの。",
+            "LocalizeEN": "Aside from Engineering matters... Sorry, I'm not the most knowledgeable about it."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLobby",
+            "VoiceClip": "Rio_MiniEventLobby_4",
+            "LocalizeJP": "……なにかしら？\n……話しかけて\nみたかっただけ？\nそういう非合理的な\n行動は控えて頂戴、\n先生。\n……不愉快とまでは、\n言ってないわ。",
+            "LocalizeEN": "..What's the matter?\n...You just wanted to call me? Please refrain from doing such irrational behaviours, Sensei.\n...I didn't say i didn't like it."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventLobby",
+            "VoiceClip": "Rio_MiniEventLobby_5",
+            "LocalizeJP": "以前は、すべてを\n掌握しなければ\nならないと考えていたの。\nでも、今は……人間一人に\n掌握できる範疇の\n限界に気がつけたわ。\n……先生のおかげ、\nかしら。",
+            "LocalizeEN": "I once thought I had to be in control of everything. \n\nBut now I realize the limits of what a single person can manage. …Maybe that is thanks to you, Sensei"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Login_1",
+            "LocalizeJP": "ヒマリから\n引き継ぎがあったわ。\n現在、\n各地から「名も無き神」による\n謎の物質が\n見つかっている、と。",
+            "LocalizeEN": "Himari has told me a few things. At the moment, it seems like we are discovering mysterious substances linked to \"The nameless God\" everywhere"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Login_2",
+            "LocalizeJP": "サンプルがあれば、\n再補給も可能になるわ。",
+            "LocalizeEN": "If we had samples, maybe we could replenish them"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Login_3",
+            "LocalizeJP": "集めたサンプルを\n見せてちょうだい。",
+            "LocalizeEN": "Please show me the samples you've gathered"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_1",
+            "LocalizeJP": "協力、感謝するわ。",
+            "LocalizeEN": "I appreciate your cooperation"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_2",
+            "LocalizeJP": "「物質」の分析中よ。そこから\n副産物を生産しているの。",
+            "LocalizeEN": "The \"substances\" are being analyzed. We're producing byproducts from it."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_3",
+            "LocalizeJP": "この装置、\nかなり熱を放っているわね……\nエイミには少し\n厳しいんじゃないかしら。",
+            "LocalizeEN": "This device gets pretty warm...\nMaybe it would be a bit tough for Eimi"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_4",
+            "LocalizeJP": "装置の構造に不満はないの。\n意外？ふふ、私だって、\n優れたものは素直に認めるわ。\nああでも、デザインと\n細部にもう少し合理性を……",
+            "LocalizeEN": "I have no complaints about the structure of the device. \"That's surprising\"? Fufu, I can acknowledge good things when they are so.\nAhh, but, the design and details could use some more rationality"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_5",
+            "LocalizeJP": "……そんなことをしても、\n得られるものは\n何もないと思うわ。\n……私の表情の\n変化が見られる？\n……貴方が変わっていると\n言われる理由が、分かったわ。",
+            "LocalizeEN": "...You won't be getting anything from doing that.\n...You get to see my expression change?\n...I get why people call you strange now."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Buy_1",
+            "LocalizeJP": "今回の分析結果よ。",
+            "LocalizeEN": "Here's the results of the analysis this time"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Buy_2",
+            "LocalizeJP": "いらっしゃいませ、\nどちらになさいますか？\n……真似してみただけよ。\n今のは忘れなさい。",
+            "LocalizeEN": "Welcome, what can I get for you?\n...I was just trying to copy what I saw. Please forget that."
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Buy_3",
+            "LocalizeJP": "過去にあった\n「物々交換」も、\nこうだったのかしら。",
+            "LocalizeEN": "I wonder if this is how bartering was in the past"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Buy_4",
+            "LocalizeJP": "合理的な選択ね。",
+            "LocalizeEN": "Rational choice"
+        },
+        {
+            "CharacterId": 20041,
+            "CharacterVoiceGroupId": 20041,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "MiniEventShop",
+            "VoiceClip": "Rio_MiniEventShop_Buy_5",
+            "LocalizeJP": "最終選択は貴方に委ねるわ。",
+            "LocalizeEN": "I'll trust you to make the final decision"
         },
         {
             "CharacterId": 20041,

@@ -6,7 +6,7 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Hikari_Minigame_Complete",
-            "LocalizeJP": "",
+            "LocalizeJP": "よしよし、いい子いい子。",
             "LocalizeEN": ""
         },
         {
@@ -15,25 +15,7 @@
             "LocalizeCVGroup": null,
             "DialogCategory": "Minigame",
             "VoiceClip": "Hikari_Minigame_Train_Start",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 10117,
-            "CharacterVoiceGroupId": 10117,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "Minigame",
-            "VoiceClip": "Hikari_Minigame_Complete",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 10117,
-            "CharacterVoiceGroupId": 10117,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "Minigame",
-            "VoiceClip": "Hikari_Minigame_Train_Start",
-            "LocalizeJP": "",
+            "LocalizeJP": "シュッシュッポッポーッ。\nしゅっぱつしんこー！",
             "LocalizeEN": ""
         },
         {
@@ -42,7 +24,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Hikari_Formation_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "しゅつどー。",
             "LocalizeEN": ""
         },
         {
@@ -51,7 +33,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_In_2",
             "DialogCategory": "Formation",
             "VoiceClip": "Hikari_Formation_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ヒカリ、ごうりゅー。",
             "LocalizeEN": ""
         },
         {
@@ -60,7 +42,7 @@
             "LocalizeCVGroup": "CVGroup_Formation_Select",
             "DialogCategory": "Formation",
             "VoiceClip": "Hikari_Formation_Select",
-            "LocalizeJP": "",
+            "LocalizeJP": "ヒカリ選手の飛行モード移行ー\nブゥーン。",
             "LocalizeEN": ""
         },
         {
@@ -69,7 +51,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Defeat_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_Defeat_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "へるぷみー。",
             "LocalizeEN": ""
         },
         {
@@ -78,7 +60,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Defeat_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_Defeat_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "そんしょうおおきめー？",
             "LocalizeEN": ""
         },
         {
@@ -87,7 +69,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ぜんそくぜんしーん。",
             "LocalizeEN": ""
         },
         {
@@ -96,7 +78,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_In_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ヒーローさんじょー。",
             "LocalizeEN": ""
         },
         {
@@ -105,7 +87,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_1",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "びくとりー。称えるがよい。",
             "LocalizeEN": ""
         },
         {
@@ -114,7 +96,7 @@
             "LocalizeCVGroup": "CVGroup_Tactic_Victory_2",
             "DialogCategory": "Tactic",
             "VoiceClip": "Hikari_Tactic_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "しょーりのポーズ、ぶいぶいっ。",
             "LocalizeEN": ""
         },
         {
@@ -123,7 +105,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Buffed_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Buffed_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ぱわーちゃーじ。",
             "LocalizeEN": ""
         },
         {
@@ -132,7 +114,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_BuffSelf_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_BuffSelf_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "むてきもーど。",
             "LocalizeEN": ""
         },
         {
@@ -141,7 +123,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Covered_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Covered_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "危ない、危ない。",
             "LocalizeEN": ""
         },
         {
@@ -150,7 +132,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Damage_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Damage_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "うおー？",
             "LocalizeEN": ""
         },
         {
@@ -159,7 +141,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Damage_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Damage_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ははぁっ",
             "LocalizeEN": ""
         },
         {
@@ -168,7 +150,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Damage_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Damage_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ううぅっ...",
             "LocalizeEN": ""
         },
         {
@@ -177,7 +159,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Defense_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Defense_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ぺいっ。",
             "LocalizeEN": ""
         },
         {
@@ -186,7 +168,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_In_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "戦闘モード、いこー。",
             "LocalizeEN": ""
         },
         {
@@ -195,7 +177,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_In_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_In_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "ゴーゴー。",
             "LocalizeEN": ""
         },
         {
@@ -204,7 +186,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Move_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "全力だーっしゅ。",
             "LocalizeEN": ""
         },
         {
@@ -213,7 +195,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Move_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Move_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "バビューン！",
             "LocalizeEN": ""
         },
         {
@@ -222,7 +204,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Recovery_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Recovery_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "うおー。",
             "LocalizeEN": ""
         },
         {
@@ -231,7 +213,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Retire",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Retire",
-            "LocalizeJP": "",
+            "LocalizeJP": "きけんきけん。でんじゃらす！",
             "LocalizeEN": ""
         },
         {
@@ -240,7 +222,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Shout_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Shout_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "うぉー。",
             "LocalizeEN": ""
         },
         {
@@ -249,7 +231,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Shout_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Shout_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "くらえー。",
             "LocalizeEN": ""
         },
         {
@@ -258,7 +240,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Shout_3",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Shout_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ばんっ、ばーん。",
             "LocalizeEN": ""
         },
         {
@@ -267,7 +249,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_TacticalAction_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_TacticalAction_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "シュッシュッポッポーッ。",
             "LocalizeEN": ""
         },
         {
@@ -276,7 +258,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_1",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Victory_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "らくしょーぶいぶいっ。",
             "LocalizeEN": ""
         },
         {
@@ -285,7 +267,7 @@
             "LocalizeCVGroup": "CVGroup_Battle_Victory_2",
             "DialogCategory": "Battle",
             "VoiceClip": "Hikari_Battle_Victory_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "頑張ったよーほめてほめてっ。",
             "LocalizeEN": ""
         },
         {
@@ -294,7 +276,7 @@
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Hikari_CommonSkill",
-            "LocalizeJP": "",
+            "LocalizeJP": "ほいほーい。",
             "LocalizeEN": ""
         },
         {
@@ -303,7 +285,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "シュバババー。\nかっこいいでしょ？",
             "LocalizeEN": ""
         },
         {
@@ -312,7 +294,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "イエース\nパチパチ\nはい、どーぞ。",
             "LocalizeEN": ""
         },
         {
@@ -321,7 +303,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "失礼しまーす\nシュパパパ\nこんぷりーと！",
             "LocalizeEN": ""
         },
         {
@@ -330,7 +312,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_1",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_Level_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "必殺！高速にゅうきょう。",
             "LocalizeEN": ""
         },
         {
@@ -339,7 +321,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_2",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_Level_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "可愛くしてあげるねー。",
             "LocalizeEN": ""
         },
         {
@@ -348,7 +330,7 @@
             "LocalizeCVGroup": "CVGroup_ExSkill_Level_3",
             "DialogCategory": "ExSkill",
             "VoiceClip": "Hikari_ExSkill_Level_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "確認かんりょー。",
             "LocalizeEN": ""
         },
         {
@@ -357,7 +339,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_1",
             "DialogCategory": "Growup",
             "VoiceClip": "Hikari_Growup_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "ヒカリ、しんかちゅー。",
             "LocalizeEN": ""
         },
         {
@@ -366,7 +348,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_2",
             "DialogCategory": "Growup",
             "VoiceClip": "Hikari_Growup_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "うおぉー、せいちょーしている。",
             "LocalizeEN": ""
         },
         {
@@ -375,7 +357,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_3",
             "DialogCategory": "Growup",
             "VoiceClip": "Hikari_Growup_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "ヒカリが最強になったら、どうする？",
             "LocalizeEN": ""
         },
         {
@@ -384,7 +366,7 @@
             "LocalizeCVGroup": "CVGroup_Growup_4",
             "DialogCategory": "Growup",
             "VoiceClip": "Hikari_Growup_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "いまならなんでもできそー。",
             "LocalizeEN": ""
         },
         {
@@ -393,7 +375,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_1",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hikari_Relationship_Up_1",
-            "LocalizeJP": "",
+            "LocalizeJP": "先生、呼んだ―？あそぼー。",
             "LocalizeEN": ""
         },
         {
@@ -402,7 +384,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hikari_Relationship_Up_2",
-            "LocalizeJP": "",
+            "LocalizeJP": "やってほしいことあるー？",
             "LocalizeEN": ""
         },
         {
@@ -411,7 +393,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_3",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hikari_Relationship_Up_3",
-            "LocalizeJP": "",
+            "LocalizeJP": "これからもずっと遊んで―。",
             "LocalizeEN": ""
         },
         {
@@ -420,7 +402,7 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_4",
             "DialogCategory": "Relationship",
             "VoiceClip": "Hikari_Relationship_Up_4",
-            "LocalizeJP": "",
+            "LocalizeJP": "いつも遊んでくれてありがとー\n先生だーいすき。",
             "LocalizeEN": ""
         }
     ]
