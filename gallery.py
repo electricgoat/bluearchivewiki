@@ -186,16 +186,16 @@ def generate_page_wikitext(export_galleries:list[Gallery], include_cargo = False
     return wikitext
 
 
-def generate_npc_wikitext(export_galleries:list[Gallery], include_cargo = False):
-    global galleries
+# def generate_npc_wikitext(export_galleries:list[Gallery], include_cargo = False):
+#     global galleries
 
-    wikitext = '==Images==\n'
-    for gallery in export_galleries:
-        wikitext +=  gallery.wikitext(include_cargo, header_level=3)
+#     wikitext = '==Images==\n'
+#     for gallery in export_galleries:
+#         wikitext +=  gallery.wikitext(include_cargo, header_level=3)
 
-    wikitext += "\n{{CatHighlightsGallery|"+export_galleries[0].character_name+"}}"
+#     wikitext += "\n{{CatHighlightsGallery|"+export_galleries[0].character_name+"}}"
 
-    return wikitext
+#     return wikitext
 
 
 def upload_files(export_galleries:list[Gallery]):
@@ -335,27 +335,28 @@ def generate():
             export_galleries= [gallery_self] + gallery_alt + gallery_npc + gallery_legacy
             print(f"Sorted galleries for {character.wiki_name}: {[x.character_wikiname for x in export_galleries]}")
 
-            wikitext = not args['npc'] and generate_page_wikitext(export_galleries, include_cargo = (order==0)) or generate_npc_wikitext(export_galleries, include_cargo = (order==0))
+            #wikitext = not args['npc'] and generate_page_wikitext(export_galleries, include_cargo = (order==0)) or generate_npc_wikitext(export_galleries, include_cargo = (order==0))
+            wikitext = generate_page_wikitext(export_galleries, include_cargo = (order==0))
             
             if args['wiki'] != None and wiki.site != None: 
                 upload_files(export_galleries)
                 redirect_files(export_galleries)
 
-                if not args['npc']:
-                    wikipath = character.wiki_name + '/gallery'
+                # if not args['npc']:
+                wikipath = character.wiki_name + '/gallery'
 
-                    if args['wiki_section'] != None:
-                        #print(f"Updating section {args['wiki_section']} of {wikipath}")
-                        wiki.update_section(wikipath, args['wiki_section'], wikitext)
-                    elif not wiki.page_exists(wikipath, wikitext):
-                        print(f'Publishing {wikipath}')
-                        wiki.publish(wikipath, wikitext, f'Generated character gallery page')
-                else:
-                    wikipath = character.wiki_name
+                if args['wiki_section'] != None:
+                    #print(f"Updating section {args['wiki_section']} of {wikipath}")
+                    wiki.update_section(wikipath, args['wiki_section'], wikitext)
+                elif not wiki.page_exists(wikipath, wikitext):
+                    print(f'Publishing {wikipath}')
+                    wiki.publish(wikipath, wikitext, f'Generated character gallery page')
+                # else:
+                #     wikipath = character.wiki_name
 
-                    if wiki.page_exists(wikipath):
-                        print(f'Publishing {wikipath}')
-                        wiki.update_section(wikipath, args['wiki_section'] or "Images", wikitext, preserve_trailing_parts=True)
+                #     if wiki.page_exists(wikipath):
+                #         print(f'Publishing {wikipath}')
+                #         wiki.update_section(wikipath, args['wiki_section'] or "Images", wikitext, preserve_trailing_parts=True)
 
             
             with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:           

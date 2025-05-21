@@ -46,6 +46,7 @@ SEASON_CHALLENGE_DEF = {
         6:'Unarmed',
         11:'Special',
         12:'HeavyArmor',
+        13:'Special',
         15:'HeavyArmor',
     },
     'gl' : {
@@ -54,6 +55,8 @@ SEASON_CHALLENGE_DEF = {
         6:'Unarmed',
         11:'Special',
         12:'HeavyArmor',
+        13:'Special',
+        15:'HeavyArmor',
     }
 }
 

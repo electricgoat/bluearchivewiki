@@ -6028,6 +6028,58 @@
             "GroupId": "CH0257ExtraPassive01",
             "NameEn": "Ready to blast!",
             "DescriptionEn": "Increases Explosive Efficiency of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0222Ex01",
+            "NameEn": "Cherry blossom bloom",
+            "DescriptionEn": "Deal $1 damage to one enemy.\n(damage is multiplied by $2x in proportion to the target's current HP; the higher the target enemy's HP, the greater the damage)"
+        },
+        {
+            "GroupId": "CH0222Public01",
+            "NameEn": "Flowers upon brocade",
+            "DescriptionEn": "Every $1 normal attacks, increase Sonic Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0222Passive01",
+            "NameEn": "Twilight-piercing spell",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0222WeaponPassive01",
+            "NameEn": "Twilight-piercing spell +",
+            "DescriptionEn": "Increase Critical Damage by $1. Further increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0222ExtraPassive01",
+            "NameEn": "Frostbloom",
+            "DescriptionEn": "Increases Critical Rate of EX Skill by $1."
+        },
+
+        {
+            "GroupId": "CH0109Ex01",
+            "NameEn": "I didn't do anything, okay?",
+            "DescriptionEn": "Reduce Defense of enemies within a circular area by $1 for $2.\nDepending on the number of enemies within the area, deal damage to them:\n3 or fewer: Deal $3 damage\n4 to 6: Deal $4 damage\n7 or more: Deals $5 damage"
+        },
+        {
+            "GroupId": "CH0109Public01",
+            "NameEn": "Evil spirits, begone",
+            "DescriptionEn": "Every $1, reduce Critical Damage Resistance of enemies within a circular are by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0109Passive01",
+            "NameEn": "Doman・Seman",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0109WeaponPassive01",
+            "NameEn": "Doman・Seman +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0109ExtraPassive01",
+            "NameEn": "Swiftly, as heaven decrees",
+            "DescriptionEn": "Increase Cost Recovery of all allies by $1."
         }
         
         

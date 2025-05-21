@@ -1,7 +1,7 @@
 import re
 from shared.functions import hashkey
 from shared.glossary import CLUBS
-from shared.tag_map import TAG_MAP
+from shared.tag_map import TAG_MAP, map_tag, map_tags
 
 item_types = {
         'MaterialItem':'Ooparts of any tier',
@@ -178,8 +178,11 @@ def localize_DreamGetSpecificScheduleCount(mission, data, items = None, furnitur
 def localize_CompleteScheduleWithTagCount(mission, data, items = None, furniture = None):
     desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
     desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',mission['CompleteConditionParameterTag'])) 
+
+    tag = type(mission['CompleteConditionParameterTag']) is list and " or ".join(map_tags(mission['CompleteConditionParameterTag'])) or map_tag(mission['CompleteConditionParameterTag'])
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',tag)) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',tag)) 
 
     mission['AutoLocalized'] = True
     return True
@@ -396,7 +399,11 @@ def localize_ClearBattleWithTagCount(mission, data = None, items=None, furniture
     desc_jp = '-'
     desc_en = 'Clear any stage with a student from $1 $2 time(s)'
 
-    tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
+    if type(mission['CompleteConditionParameterTag']) is str:
+        tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
+    elif type(mission['CompleteConditionParameterTag']) is list:
+        tag = " or ".join([x in enemy_tags and enemy_tags[x] or x for x in mission['CompleteConditionParameterTag']])
+
     
     mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
     mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 

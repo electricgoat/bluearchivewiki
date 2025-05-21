@@ -64,7 +64,7 @@ def load_data(path_primary, path_secondary, path_translation):
         character_potential_stat=   load_file_grouped(path_primary, 'CharacterPotentialStatExcelTable.json', key='PotentialStatGroupId'),
         currencies=                 load_generic(path_primary, 'CurrencyExcelTable.json', key='ID'),
         translated_currencies=      load_file(os.path.join(path_translation, 'Currencies.json'), load_multipart=False),
-        items=                      load_generic(path_primary, 'ItemExcelTable.json'),
+        items=                      load_combined(path_primary, path_secondary, 'ItemExcelTable.json'),
         equipment=                  load_generic(path_primary, 'EquipmentExcelTable.json'),
         recipes=                    load_generic(path_primary, 'RecipeExcelTable.json'),
         recipes_ingredients=        load_generic(path_primary, 'RecipeIngredientExcelTable.json'),
@@ -72,7 +72,7 @@ def load_data(path_primary, path_secondary, path_translation):
         favor_rewards=              load_favor_rewards(path_primary),
         memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='Id'),
         etc_localization=           load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeEtcExcelTable.json'),
-        localization=               load_localization(path_primary, path_secondary, path_translation),
+        localization=               load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeExcelTable.json'),
         character_dialog=           load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogExcelTable.json'),
         character_dialog_event=     load_character_dialog(path_primary, path_secondary, path_translation, 'CharacterDialogEventExcelTable.json', match_id='OriginalCharacterId', aux_prefix='event'),
         character_dialog_standard=  load_character_dialog_standard(path_translation),
@@ -283,6 +283,20 @@ def load_favor_rewards(path):
         for favor_rewards
         in data
     }
+
+
+def load_combined(path_primary, path_secondary, filename:str, key:str|None='Id', load_db:bool=True, load_multipart:bool=False):
+
+    data_primary = load_generic(path_primary, filename, key, load_db=True, load_multipart=True)
+    data_secondary = load_generic(path_secondary, filename, key, load_db=True, load_multipart=True)
+
+    for index in data_secondary.keys():
+        if index not in data_primary:
+            #print(f"   ...{filename} {index} is only in secondary data")
+            data_primary[index] = data_secondary[index]
+            data_primary[index]['SecondaryOnly'] = True
+
+    return data_primary 
   
 
 def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key'):
@@ -303,7 +317,6 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
             data_primary[index] = data_secondary[index]
 
     return data_primary
-
 
 
 def load_character_dialog(path_primary, path_secondary, path_translation, filename, match_id = 'CharacterId', aux_prefix = 'dialog')->list:
@@ -518,40 +531,40 @@ def load_bgm(path_primary, path_translation):
     return data_primary
 
 
-def load_localization(path_primary, path_secondary, path_translation):
-    ds = {}
-    da = {}
-    data_secondary = []
-    data_aux = []
+# def load_localization(path_primary, path_secondary, path_translation):
+#     ds = {}
+#     da = {}
+#     data_secondary = []
+#     data_aux = []
 
-    data_primary = load_file(os.path.join(path_primary, 'DB', 'LocalizeExcelTable.json'), key='Key')
-    data_secondary = load_file(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json'), key='Key')
-    #print(f'Loaded secondary script data from LocalizeExcelTable.json, {len(data_secondary)} entries')
+#     data_primary = load_file(os.path.join(path_primary, 'DB', 'LocalizeExcelTable.json'), key='Key')
+#     data_secondary = load_file(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json'), key='Key')
+#     #print(f'Loaded secondary script data from LocalizeExcelTable.json, {len(data_secondary)} entries')
 
-    if os.path.exists(os.path.join(path_translation, 'LocalizeExcelTable.json')):
-        print(f'Loading additional translations from {path_translation}/LocalizeExcelTable.json')
-        data_aux = load_file(os.path.join(path_translation, 'LocalizeExcelTable.json'), key='Key')
+#     if os.path.exists(os.path.join(path_translation, 'LocalizeExcelTable.json')):
+#         print(f'Loading additional translations from {path_translation}/LocalizeExcelTable.json')
+#         data_aux = load_file(os.path.join(path_translation, 'LocalizeExcelTable.json'), key='Key')
 
-    found = 0
-    for key, line in data_primary.items():
-        if key in data_aux and key in data_secondary and data_aux[key]['En'] != data_secondary[key]['En']:
-            #print(f"Retaining official translation as EnGlobal:\n AUX :{data_aux[key]['En']}\n GLOB:{data_secondary[key]['En']}")
-            line['EnGlobal'] = data_secondary[key]['En']
-        if key in data_aux:
-            line['En'] = data_aux[key]['En']
-            #if line['Jp'] != data_aux[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔aux Jp line {key}: {line['Jp']} | {data_aux[key]['Jp']}" )
-            found += 1
-        elif key in data_secondary:
-            line['En'] = data_secondary[key]['En']
-            #if line['Jp'] != data_secondary[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔secondary Jp line {key}: {line['Jp']} | {data_secondary[key]['Jp']}" )
-            found += 1
+#     found = 0
+#     for key, line in data_primary.items():
+#         if key in data_aux and key in data_secondary and data_aux[key]['En'] != data_secondary[key]['En']:
+#             #print(f"Retaining official translation as EnGlobal:\n AUX :{data_aux[key]['En']}\n GLOB:{data_secondary[key]['En']}")
+#             line['EnGlobal'] = data_secondary[key]['En']
+#         if key in data_aux:
+#             line['En'] = data_aux[key]['En']
+#             #if line['Jp'] != data_aux[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔aux Jp line {key}: {line['Jp']} | {data_aux[key]['Jp']}" )
+#             found += 1
+#         elif key in data_secondary:
+#             line['En'] = data_secondary[key]['En']
+#             #if line['Jp'] != data_secondary[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔secondary Jp line {key}: {line['Jp']} | {data_secondary[key]['Jp']}" )
+#             found += 1
 
-    print(f"LocalizeExcelTable: Found {found}/{len(data_primary)} translations")
+#     print(f"LocalizeExcelTable: Found {found}/{len(data_primary)} translations")
 
-    #Force aux lines into the list if they are missing there completely
-    data_primary = {**data_aux, **data_primary}
+#     #Force aux lines into the list if they are missing there completely
+#     data_primary = {**data_aux, **data_primary}
 
-    return data_primary
+#     return data_primary
 
 
 #TODO switch to using new DB scenario_script everywhere
