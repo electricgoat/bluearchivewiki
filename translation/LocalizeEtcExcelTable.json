@@ -8134,7 +8134,7 @@
             "DescriptionKr": "제약해제결전 세트의 분노(특수장갑) 50단계 클리어",
             "NameJp": "The Fury of Set",
             "DescriptionJp": "制約解除決戦・セトの憤怒（特殊装甲）50段階クリア",
-            "NameEn": "The Fury of Set",
+            "NameEn": "The Fury of Set (Special Armor)",
             "DescriptionEn": "Limit Break Assault - The Fury of Set (Special Armor) Clear stage 50"
         },
         {
@@ -8143,7 +8143,7 @@
             "DescriptionKr": "제약해제결전 세트의 분노(특수장갑) 100단계 클리어",
             "NameJp": "The Fury of Set",
             "DescriptionJp": "制約解除決戦・セトの憤怒（特殊装甲）100段階クリア",
-            "NameEn": "The Fury of Set",
+            "NameEn": "The Fury of Set (Special Armor)",
             "DescriptionEn": "Limit Break Assault - The Fury of Set (Special Armor) Clear stage 100"
         },
         {
@@ -8626,7 +8626,7 @@
             "DescriptionKr": "제약해제결전 세트의 분노(경장갑) 50단계 클리어",
             "NameJp": "The Fury of Set",
             "DescriptionJp": "制約解除決戦・セトの憤怒（軽装備）50段階クリア",
-            "NameEn": "The Fury of Set",
+            "NameEn": "The Fury of Set (Light Armor)",
             "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 50"
         },
         {
@@ -8635,7 +8635,7 @@
             "DescriptionKr": "제약해제결전 세트의 분노(경장갑) 100단계 클리어",
             "NameJp": "The Fury of Set",
             "DescriptionJp": "制約解除決戦・セトの憤怒（軽装備）100段階クリア",
-            "NameEn": "The Fury of Set",
+            "NameEn": "The Fury of Set (Light Armor)",
             "DescriptionEn": "Limit Break Assault - The Fury of Set (Light Armor) Clear stage 100"
         },
         {
@@ -10028,7 +10028,7 @@
             "DescriptionKr": "제약해제결전 호크마(특수장갑) 50단계 클리어",
             "NameJp": "CHOKMAH",
             "DescriptionJp": "制約解除決戦・コクマー（特殊装甲）50段階クリア",
-            "NameEn": "CHOKMAH",
+            "NameEn": "CHOKMAH (Special Armor)",
             "DescriptionEn": "Limit Break Assault - CHOKMAH (Special Armor) Clear stage 50"
         },
         {
@@ -10037,7 +10037,7 @@
             "DescriptionKr": "제약해제결전 호크마(특수장갑) 100단계 클리어",
             "NameJp": "CHOKMAH",
             "DescriptionJp": "制約解除決戦・コクマー（特殊装甲）100段階クリア",
-            "NameEn": "CHOKMAH",
+            "NameEn": "CHOKMAH (Special Armor)",
             "DescriptionEn": "Limit Break Assault - CHOKMAH (Special Armor) Clear stage 100"
         },
         {
@@ -10193,7 +10193,7 @@
             "DescriptionKr": "제약해제결전 호크마(중장갑) 50단계 클리어",
             "NameJp": "CHOKMAH",
             "DescriptionJp": "制約解除決戦・コクマー（重装甲）50段階クリア",
-            "NameEn": "CHOKMAH",
+            "NameEn": "CHOKMAH (Heavy Armor)",
             "DescriptionEn": "Limit Break Assault - CHOKMAH (Heavy Armor) Clear stage 50"
         },
         {
@@ -10202,7 +10202,7 @@
             "DescriptionKr": "제약해제결전 호크마(중장갑) 100단계 클리어",
             "NameJp": "CHOKMAH",
             "DescriptionJp": "制約解除決戦・コクマー（重装甲）100段階クリア",
-            "NameEn": "CHOKMAH",
+            "NameEn": "CHOKMAH (Heavy Armor)",
             "DescriptionEn": "Limit Break Assault - CHOKMAH (Heavy Armor) Clear stage 100"
         },
         {
@@ -12081,7 +12081,7 @@
             "DescriptionKr": "제약해제결전 티페레트(탄력장갑) 50단계 클리어",
             "NameJp": "TIPHARETH",
             "DescriptionJp": "制約解除決戦・ティファレト（弾力装甲）50段階クリア",
-            "NameEn": "TIPHARETH",
+            "NameEn": "TIPHARETH (Elastic Armor)",
             "DescriptionEn": "Limit Break Assault - TIPHARETH (Elastic Armor) Clear stage 50"
         },
         {
@@ -12090,7 +12090,7 @@
             "DescriptionKr": "제약해제결전 티페레트(탄력장갑) 100단계 클리어",
             "NameJp": "TIPHARETH",
             "DescriptionJp": "制約解除決戦・ティファレト（弾力装甲）100段階クリア",
-            "NameEn": "TIPHARETH",
+            "NameEn": "TIPHARETH (Elastic Armor)",
             "DescriptionEn": "Limit Break Assault - TIPHARETH (Elastic Armor) Clear stage 100"
         },
 
@@ -12191,8 +12191,70 @@
             "DescriptionJp": "獲得時、伝説の記録板に交換されるチケット。既に保有している場合、代わりに秘伝ノート1個を獲得します。",
             "NameEn": "Legendary Record Board Exchange Ticket",
             "DescriptionEn": "A ticket that will be exchanged for a Legendary Recording Board when acquired. If you already have it, you will receive 1 Secret Tech Notes instead."
-        }
+        },
 
+        {
+            "Key": 3048997368,
+            "NameKr": " 아방가르드군 이로운 효과 적용 시, 적 방어력 감소",
+            "DescriptionKr": "적 방어력이 증가하는 대신, 아방가르드군에게 이로운 효과 적용 시 적 방어력이 감소합니다. (최대 5개까지 적용)",
+            "NameJp": "アバンギャルド君にバフ効果を適用時、敵の防御力減少",
+            "DescriptionJp": "敵の防御力が増加する代わりに、アバンギャルド君にバフ効果を適用すると敵の防御力が減少します。（最大で5つまで適用）",
+            "NameEn": "Enemy Defense decreases when buffing Avant-Garde",
+            "DescriptionEn": "Enemy Defense increases, but when a buff effect is applied to Avant-Garde, enemy defense decreases. (Up to 5 stacks)"
+        },
+        {
+            "Key": 4021057143,
+            "NameKr": "아방가르드군, 백귀야행 주는 대미지 증가",
+            "DescriptionKr": "아방가르드군과 백귀야행 소속 학생의 주는 대미지량이 증가합니다.",
+            "NameJp": "アバンギャルド君、百鬼夜行の与えるダメージ量増加",
+            "DescriptionJp": "アバンギャルド君と百鬼夜行所属生徒の与えるダメージ量が増加します。",
+            "NameEn": "Increase damage dealt by Avant-Garde and Hyakkiyako",
+            "DescriptionEn": "Damage dealt by Avant-Garde and Hyakkiyako students is increased."
+        },
+
+        {
+            "Key": 4022999365,
+            "NameJp": "ナツ（バンド）の神名文字",
+            "NameEn": "Natsu's (Band) Eleph",
+            "DescriptionJp": "ナツ（バンド）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Natsu (Band)."
+        },
+        {
+            "Key": 4134461920,
+            "NameKr": "예로니무스 시가전 격파! 2025",
+            "DescriptionKr": "예로니무스(시가전) 대결전의 모든 방어 타입을 Hard 난이도 이상으로 처치",
+            "NameJp": "ヒエロニムス（市街地戦）撃破！2025",
+            "DescriptionJp": "大決戦ヒエロニムス（市街地戦）の全ての防御タイプを難易度Hard以上で倒す",
+            "NameEn": "Hieronymus (Urban) defeated! 2025",
+            "DescriptionEn": "Defeat all defense types of Hieronymus (Urban) [[Grand Assault]] at Hard difficulty or higher."
+        },
+        {
+            "Key": 2283080105,
+            "NameKr": "예로니무스 시가전 격파! 2025",
+            "DescriptionKr": "예로니무스(시가전) 대결전의 모든 방어 타입을 Hardcore 난이도 이상으로 처치",
+            "NameJp": "ヒエロニムス（市街地戦）撃破！2025",
+            "DescriptionJp": "大決戦ヒエロニムス（市街地戦）の全ての防御タイプを難易度Hardcore以上で倒す",
+            "NameEn": "Hieronymus (Urban) defeated! 2025",
+            "DescriptionEn": "Defeat all defense types of Hieronymus (Urban) [[Grand Assault]] at Hardcore difficulty or higher."
+        },
+        {
+            "Key": 2538492176,
+            "NameKr": "예로니무스 시가전 격파! 2025",
+            "DescriptionKr": "예로니무스(시가전) 대결전의 모든 방어 타입을 Extreme 난이도 이상으로 처치",
+            "NameJp": "ヒエロニムス（市街地戦）撃破！2025",
+            "DescriptionJp": "大決戦ヒエロニムス（市街地戦）の全ての防御タイプを難易度Extreme以上で倒す",
+            "NameEn": "Hieronymus (Urban) defeated! 2025",
+            "DescriptionEn": "Defeat all defense types of Hieronymus (Urban) [[Grand Assault]] at Extreme difficulty or higher."
+        },
+        {
+            "Key": 2235275596,
+            "NameKr": "예로니무스 시가전 격파! 2025",
+            "DescriptionKr": "예로니무스(시가전) 대결전의 모든 방어 타입을 Insane 난이도 이상으로 처치",
+            "NameJp": "ヒエロニムス（市街地戦）撃破！2025",
+            "DescriptionJp": "大決戦ヒエロニムス（市街地戦）の全ての防御タイプを難易度Insane以上で倒す",
+            "NameEn": "Hieronymus (Urban) defeated! 2025",
+            "DescriptionEn": "Defeat all defense types of Hieronymus (Urban) [[Grand Assault]] at Insane difficulty or higher."
+        }
 
     ]
 }

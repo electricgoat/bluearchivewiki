@@ -6064,7 +6064,7 @@
         {
             "GroupId": "CH0109Public01",
             "NameEn": "Evil spirits, begone",
-            "DescriptionEn": "Every $1, reduce Critical Damage Resistance of enemies within a circular are by $2 for $3.\nDeal $4 damage."
+            "DescriptionEn": "Every $1, reduce Critical Damage Resistance of enemies within a circular area by $2 for $3.\nDeal $4 damage."
         },
         {
             "GroupId": "CH0109Passive01",
@@ -6080,6 +6080,32 @@
             "GroupId": "CH0109ExtraPassive01",
             "NameEn": "Swiftly, as heaven decrees",
             "DescriptionEn": "Increase Cost Recovery of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0221Ex01",
+            "NameEn": "Great Rhythm",
+            "DescriptionEn": "Heal allies within a circular area around self for $2 Healing every $1 for $3.\nAcquire $4 Sugar Rush for $5. (Stacks up to a maximum of 2)"
+        },
+        {
+            "GroupId": "CH0221Public01",
+            "NameEn": "Planning & Management",
+            "DescriptionEn": "Every $1 basic attacks, increase Healing by $2 for $3."
+        },
+        {
+            "GroupId": "CH0221Passive01",
+            "NameEn": "Sweet・Stroke",
+            "DescriptionEn": "Increase normal attack Firing Range by $1 and Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0221WeaponPassive01",
+            "NameEn": "Sweet・Stroke +",
+            "DescriptionEn": "Increase Healing by $1. Increase normal attack Firing Range by $2 and Attack Speed by $3."
+        },
+        {
+            "GroupId": "CH0221ExtraPassive01",
+            "NameEn": "The Spirit of Rock",
+            "DescriptionEn": "When allies accumulate 6 Sugar Rush, acquire 1 Rhythm Up. (Stacks up to a maximum of 4)\nWhen attacking, there is a $1 chance of reducing the Attack of the target for $2. (Cooldown: $3)\nThe amount of enemy Attack reduction depends on the number of Rhythm Ups you have\n0: Reduce Attack by $4\n1: Reduce Attack by $5\n2: Reduce Attack by $6\n3: Reduce Attack by $7\n4: Reduce Attack by $8"
         }
         
         
