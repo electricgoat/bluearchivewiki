@@ -227,6 +227,11 @@
             "DescriptionEn": "After defeating an enemy immediately reload and increase Critical Damage by $1 for $2."
         },
         {
+            "GroupId": "HasumiGearPublic01",
+            "NameEn": "A composed mind +",
+            "DescriptionEn": "After defeating an enemy immediately reload and increase Critical Damage by $1 for $2."
+        },
+        {
             "GroupId": "HasumiPassive01",
             "NameEn": "Target in sights",
             "DescriptionEn": "Increase Critical Damage by $1."
@@ -1359,7 +1364,12 @@
         {
             "GroupId": "MidoriPublic01",
             "NameEn": "Brushup Sense",
-            "DescriptionEn": "Every $1, heal 1 ally with the lowest HP for $2 of Midori's Healing."
+            "DescriptionEn": "Every $1, heal 1 other ally with the lowest HP for $2 of Midori's Healing."
+        },
+        {
+            "GroupId": "MidoriGearPublic01",
+            "NameEn": "Brushup Sense +",
+            "DescriptionEn": "Every $1, heal 1 other ally with the lowest HP for $2 of Midori's Healing. If Momoi is in the same squad, additionally heal Momoi for $3 of Healing and increase her Attack by $4 for $5."
         },
         {
             "GroupId": "MidoriPassive01",
@@ -2769,6 +2779,11 @@
             "GroupId": "CH0175Public01",
             "NameEn": "Just for you",
             "DescriptionEn": "Every $1, increase Attack power while also increasing damage taken. Triggers up to 3 times.<br>Attack increase is $2.<br>Damage taken increase is $3."
+        },
+        {
+            "GroupId": "CH0175GearPublic01",
+            "NameEn": "Just for you +",
+            "DescriptionEn": "Every $1, increase Attack power while also increasing damage taken. Triggers up to 3 times.<br>Attack increase is $2.<br>Damage taken increase is $3.\nWhen 3rd stage is reached, all attacks become guaranteed critical hits and CC Strength is increased by $4."
         },
         {
             "GroupId": "CH0175Passive01",
@@ -4475,6 +4490,11 @@
             "DescriptionEn": "Every $1, obtain Passion status, increasing Attack by $2 for $3."
         },
         {
+            "GroupId": "CH0224GearPublic01",
+            "NameEn": "Burning passion +",
+            "DescriptionEn": "Every $1, obtain Passion status, increasing Attack by $2 for $3.\nEX skills in Passion state ignore $4 of enemy Defense."
+        },
+        {
             "GroupId": "CH0224Passive01",
             "NameEn": "Hyakkaryouran oni instructor",
             "DescriptionEn": "Increase Attack by $1."
@@ -6106,8 +6126,90 @@
             "GroupId": "CH0221ExtraPassive01",
             "NameEn": "The Spirit of Rock",
             "DescriptionEn": "When allies accumulate 6 Sugar Rush, acquire 1 Rhythm Up. (Stacks up to a maximum of 4)\nWhen attacking, there is a $1 chance of reducing the Attack of the target for $2. (Cooldown: $3)\nThe amount of enemy Attack reduction depends on the number of Rhythm Ups you have\n0: Reduce Attack by $4\n1: Reduce Attack by $5\n2: Reduce Attack by $6\n3: Reduce Attack by $7\n4: Reduce Attack by $8"
+        },
+
+        {
+            "GroupId": "CH0301Ex01",
+            "NameEn": "The summer sea is dangerous~!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0301Public01",
+            "NameEn": "Those are the ultimate summer sweets!",
+            "DescriptionEn": "Every $1, increase Piercing Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0301Passive01",
+            "NameEn": "Kadenokouji swimming style",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0301WeaponPassive01",
+            "NameEn": "Kadenokouji swimming style +",
+            "DescriptionEn": "Increase Piercing Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0301ExtraPassive01",
+            "NameEn": "Promising junior",
+            "DescriptionEn": "Increase Attack by $1.\nEvery time Yukari uses an EX skill $2 times, increase Cost Recovery by $3 for $4."
+        },
+
+        {
+            "GroupId": "CH0302Ex01",
+            "NameEn": "Summer sea shooting technique",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nIf you have one or more Water Pressure, consume one Water Pressure and deal $2 additional damage."
+        },
+        {
+            "GroupId": "CH0302Public01",
+            "NameEn": "Summer passion flow",
+            "DescriptionEn": "At the start of battle and every $1 thereafter, the damage dealt by EX skills is increased by $2 and Critical Damage is increased by $3 for $4.\nGain 2 Water Pressure (up to a maximum of 3 Water Pressure can be stacked)"
+        },
+        {
+            "GroupId": "CH0302Passive01",
+            "NameEn": "Young oni instructor",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0302WeaponPassive01",
+            "NameEn": "Young oni instructor +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0302ExtraPassive01",
+            "NameEn": "March to victory",
+            "DescriptionEn": "When the EX skill is activated, increase Sonic Efficiency by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0300Ex01",
+            "NameEn": "Summer sea nap method",
+            "DescriptionEn": "A hammock with Kikyou (Swimsuit) appears for $2. The hammock has $1 of Kikyou's (Swimsuit) maximum HP."
+        },
+        {
+            "GroupId": "SM030001Passive01",
+            "NameEn": "Naps are part of the strategy",
+            "DescriptionEn": "While the hammock is deployed, for all allies (excluding self) within a circular range centered on the hammock increase Critical Rate by $1 and Critical Damage by $2.\n(Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0300Public01",
+            "NameEn": "Strategist's rest",
+            "DescriptionEn": "If the hammock is not destroyed and remains for 24 seconds, the Critical Damage of allies within the range of the EX skill is increased by $1 for $2."
+        },
+        {
+            "GroupId": "CH0300Passive01",
+            "NameEn": "Last stand",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0300WeaponPassive01",
+            "NameEn": "Last stand +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0300ExtraPassive01",
+            "NameEn": "Conserving energy",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
-        
         
 
     ]

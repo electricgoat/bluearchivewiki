@@ -17,7 +17,7 @@ from model import Item, Furniture, Character
 #from classes.Gacha import GachaGroup, GachaElement
 
 EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha']
-REGION_TIMEZONE = {'jp':'+09', 'gl':'+00'}
+REGION_TIMEZONE = {'jp':'+09', 'gl':'+09'}
 
 args = None
 data = None

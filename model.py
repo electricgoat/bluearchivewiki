@@ -220,7 +220,7 @@ class Profile(object):
 
     @classmethod
     def from_data(cls, character_id, data):
-        profile = data.characters_localization[character_id]
+        profile = data.characters_localization.get(character_id, {})
         localization = data.translated_characters[character_id]
 
         field_list = ['FamilyName', 'PersonalName', 'CharacterAge', 'CharHeight', 'DesignerName', 'IllustratorName', 'LobbyIllustratorName', 'Voice', 'Hobby', 'ProfileIntroduction', 'WeaponName', 'WeaponDesc' ]
@@ -231,7 +231,8 @@ class Profile(object):
         release_date_jp = 'ReleaseDateJp' in localization and localization['ReleaseDateJp'] or ''
         release_date_gl = 'ReleaseDateGl' in localization and localization['ReleaseDateGl'] or ''
 
-        if profile['DesignerNameJp'] not in localized_strings['DesignerName'] or profile['IllustratorNameJp'] not in localized_strings['IllustratorName']:  print (f"Possible mistranslation {localization['PersonalNameEn'].ljust(10)}: {(profile['DesignerNameJp']+'/'+localized_strings['DesignerName']).ljust(45)} {profile['IllustratorNameJp']}/{localized_strings['IllustratorName']}")
+        if profile.get('DesignerNameJp', "") not in localized_strings['DesignerName'] or profile.get('IllustratorNameJp', "") not in localized_strings['IllustratorName']:
+            print (f"Possible mistranslation {localization['PersonalNameEn'].ljust(10)}: {(profile.get('DesignerNameJp')+'/'+localized_strings['DesignerName']).ljust(45)} {profile.get('IllustratorNameJp')}/{localized_strings['IllustratorName']}")
 
         #translator = Translator()
         #
@@ -242,22 +243,22 @@ class Profile(object):
         #weapon_desc_translated = None
 
         return cls(
-            profile["FamilyNameJp"],
-            profile["FamilyNameRubyJp"],
-            profile["PersonalNameJp"],
-            profile["PersonalNameRubyJp"],            
+            profile.get("FamilyNameJp"),
+            profile.get("FamilyNameRubyJp"),
+            profile.get("PersonalNameJp"),
+            profile.get("PersonalNameRubyJp"),            
             localized_strings['CharacterAge'].replace('歳',''),
-            profile['BirthDay'],
+            profile.get('BirthDay'),
             localized_strings['CharHeight'],
             localized_strings['Hobby'],
             localized_strings['DesignerName'],
             localized_strings['IllustratorName'],
             localized_strings['LobbyIllustratorName'],
             localized_strings['Voice'],
-            '<p>' + profile['ProfileIntroductionJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            '<p>' + profile.get('ProfileIntroductionJp', "").replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             '<p>' + localized_strings['ProfileIntroduction'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
-            profile['WeaponNameJp'],
-            '<p>' + profile['WeaponDescJp'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            profile.get('WeaponNameJp'),
+            '<p>' + profile.get('WeaponDescJp', "").replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             localized_strings['WeaponName'],
             '<p>' + localized_strings['WeaponDesc'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             release_date_jp,
@@ -731,6 +732,7 @@ class MemoryLobby(object):
         #TODO handle multiple loobies (anime specials etc)
         try: lobby_data = [x for x in data.memory_lobby.values() if x['CharacterId'] == character_id][0]
         except KeyError: return cls( None, None, 1 )
+        except IndexError: return cls( None, None, 1 )
 
         unlock_level = None
         for favor_reward in data.favor_rewards:
@@ -805,6 +807,9 @@ class Item(object):
         item = data.items[item_id]
         name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
         desc_en = 'DescriptionEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['DescriptionEn'] or None
+
+        # if name_en == None:
+        #     print (f"No translation found for item {data.etc_localization[item['LocalizeEtcId']]['NameJp']}, id {item_id}, localizeEtcId {item['LocalizeEtcId']}")
 
         characters_favorite = []
         characters_likes = []
