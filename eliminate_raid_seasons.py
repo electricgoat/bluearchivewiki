@@ -49,6 +49,7 @@ SEASON_CHALLENGE_DEF = {
         12:'HeavyArmor',
         13:'Special',
         15:'HeavyArmor',
+        20:'HeavyArmor',
     },
     'gl' : {
         2:'HeavyArmor',

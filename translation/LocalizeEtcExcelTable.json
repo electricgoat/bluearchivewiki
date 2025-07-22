@@ -2180,7 +2180,7 @@
             "Key": 1096234198,
             "NameJp": "シュン（幼女）の神名文字",
             "DescriptionJp": "シュン（幼女）の神秘が詰まった神名文字。",
-            "NameEn": "Little Shun's Eleph",
+            "NameEn": "Shun's (Kid) Eleph",
             "DescriptionEn": "The mystical Eleph of Shun (Kid)."
         },
         {
@@ -12408,6 +12408,521 @@
             "DescriptionJp": "敵の戦車は空き地に向かって動き出し、空き地に着くと強力な攻撃を放ちます。\n敵の戦車はEXスキルのダメージに強い抵抗力がありますが、被弾するほど戦車の性能が低下します。\nこれらの特性を利用して、敵の戦車が空き地に到着する前に倒しましょう。",
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "The enemy tank will start moving toward the open area and unleash a powerful attack upon arrival. The tank is highly resistant to EX skill damage, but its performance drops each time it is hit. Use these traits to defeat the tank before it reaches the open area."
+        },
+
+        {
+            "Key": 2238627204,
+            "NameKr": "<총, 귀여움, 청춘>",
+            "DescriptionKr": "총과 귀여움, 그리고 청춘. 키보토스 대중문화의 기원을 거슬러 올라가 그 근원을 분석한 올해 최고의 베스트셀러.",
+            "NameJp": "『銃 可愛い 青春』",
+            "DescriptionJp": "銃と可愛さ、そして青春。\nキヴォトスの大衆文化、その根源への原点回帰を果たす今年度のベストセラー。",
+            "NameTh": "หนังสือ [ปืน ความน่ารักและวัยรุ่น]",
+            "DescriptionTh": "เรื่องราวเกี่ยวกับปืน ความน่ารักและวัยรุ่น\nผลงานขายดีแห่งปีที่ถูกวิเคราะห์ว่าเป็นต้นกำเนิด\nของยุควัฒนธรรมร่วมสมัยในคิโวทอส",
+            "NameTw": "《槍、可愛、青春》",
+            "DescriptionTw": "槍、可愛、青春。追溯奇普托斯大眾文化的起源 ，分析其根源的今天最佳暢銷之作",
+            "NameEn": "Guns, Charm, and Zeal",
+            "DescriptionEn": "Guns, charm, and zeal! The bestselling book of the year investigates and analyzes the origins and roots of Kivotos pop culture.\n\n※ This item is a reference to the real book \"Guns, Germs and Steel\" by Jared Diamond."
+        },
+
+                {
+            "Key": 2136597526,
+            "NameKr": "SR 무기 공격력 증가",
+            "DescriptionKr": "SR 무기를 사용하는 아군 학생의 공격력이 증가합니다.",
+            "NameJp": "SR武器攻撃力増加",
+            "DescriptionJp": "SR武器を使用する味方の学生の攻撃力が増加します。",
+            "NameEn": "SR weapon attack increases",
+            "DescriptionEn": "Attack of students using SR weapons is increased."
+        },
+        {
+            "Key": 2565616182,
+            "NameKr": "마지막 박스캣 받는 대미지 감소",
+            "DescriptionKr": "마지막 박스캣의 받는 대미지가 감소합니다.",
+            "NameJp": "ネロの被ダメージ量減少",
+            "DescriptionJp": "最後のネロの被ダメージ量が減少します。",
+            "NameEn": "Boxcat takes less damage",
+            "DescriptionEn": "The amount of damage taken by Boxcat is progressively reduced."
+        },
+                {
+            "Key": 3583659844,
+            "NameKr": "여름 하늘의 프로미스",
+            "DescriptionKr": "여름 하늘의 프로미스 칭호 획득 미션 클리어",
+            "NameJp": "夏空のやくそく",
+            "DescriptionJp": "夏空のやくそくの称号獲得ミッションクリア",
+            "NameEn": "Summer Sky's Promise",
+            "DescriptionEn": "Clear the event mission to obtain the title \"Summer Sky's Promise\""
+        },
+        {
+            "Key": 2386997570,
+            "NameKr": "TIPHARETH",
+            "DescriptionKr": "제약해제결전 티페레트(중장갑) 50단계 클리어",
+            "NameJp": "TIPHARETH",
+            "DescriptionJp": "制約解除決戦・ティファレト（重装甲）50段階クリア",
+            "NameEn": "TIPHARETH (Heavy Armor)",
+            "DescriptionEn": "Limit Break Assault - TIPHARETH (Heavy Armor) Clear stage 50"
+        },
+        {
+            "Key": 2406388815,
+            "NameKr": "TIPHARETH",
+            "DescriptionKr": "제약해제결전 티페레트(중장갑) 100단계 클리어",
+            "NameJp": "TIPHARETH",
+            "DescriptionJp": "制約解除決戦・ティファレト（重装甲）100段階クリア",
+            "NameEn": "TIPHARETH (Heavy Armor)",
+            "DescriptionEn": "Limit Break Assault - TIPHARETH (Heavy Armor) Clear stage 100"
+        },
+        {
+            "Key": 2335462366,
+            "NameKr": "Starry Night",
+            "DescriptionKr": "2025-08-20 10:59:59까지 판매하는 시논의 배틀패스 성장CH+ 구매",
+            "NameJp": "Starry Night",
+            "DescriptionJp": "2025-08-20 10:59:59まで販売する\nシノンのバトルパス成長CH+購入",
+            "NameEn": "Starry Night",
+            "DescriptionEn": "On sale until 2025-08-20 10:59:59 \n Purchase Shinon's Battle Pass CH+"
+        },
+                {
+            "Key": 1875343788,
+            "NameJp": "正義実現委員会の腕章",
+            "NameEn": "Justice Task Force Armband",
+            "DescriptionJp": "委員会のメンバーであれば誰もが手にする腕章。軽い布で作られているが、その重みは決して軽くない。",
+            "DescriptionEn": "An armband given to every task force member. It's made of light fabric, but the weight of responsibility is never light."
+        },
+        {
+            "Key": 1798844252,
+            "NameJp": "特上角砂糖",
+            "NameEn": "Premium Sugar Cubes",
+            "DescriptionJp": "紅茶の苦味を和らげる甘い角砂糖。お好みで、いくつでもどうぞ。",
+            "DescriptionEn": "Sweet sugar cubes that soften bitterness of tea. Take as many as you like."
+        },
+        {
+            "Key": 1149484945,
+            "NameJp": "トリニティスペシャルケーキ",
+            "NameEn": "Trinity Special Cake",
+            "DescriptionJp": "高級感あふれるデザート。素敵なティータイムに甘いお菓子は欠かせない。",
+            "DescriptionEn": "A luxurious dessert. Sweet treats are essential for a wonderful tea time."
+        },
+        {
+            "Key": 2333653715,
+            "NameJp": "山海経茶園の銘茶",
+            "NameEn": "Shanhaijing Tea Garden's Fine Tea",
+            "DescriptionJp": "山海経で仕入れた最高級紅茶の茶葉。湿気や日光を避けて保管すること。",
+            "DescriptionEn": "The finest black tea leaves sourced from Shanhaijing. Keep away from moisture and sunlight."
+        },
+        {
+            "Key": 2697672518,
+            "NameJp": "プライベートビーチのパンフレット",
+            "NameEn": "Private Beach Pamphlet",
+            "DescriptionJp": "プライベートビーチのガイドパンフレット。周辺施設が簡略に描かれている。",
+            "DescriptionEn": "A guide pamphlet for the private beach. Outlines the surrounding facilities."
+        },
+                {
+            "Key": 3014647056,
+            "NameJp": "手作りロールケーキ",
+            "NameEn": "Handmade Roll Cake",
+            "DescriptionJp": "有名パティシエールが自ら作ったロールケーキ。なぜか「オホホ」と上品に笑いながら食べたくなってしまう。",
+            "DescriptionEn": "A roll cake made by a famous pastry chef. Somehow it makes you want to eat it while elegantly laughing, \"Ohoho.\""
+        },
+                {
+            "Key": 803823678,
+            "NameJp": "ミカ（水着）の神名文字",
+            "NameEn": "Mika's (Swimsuit) Eleph",
+            "DescriptionJp": "ミカ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Mika (Swimsuit)."
+        },
+        {
+            "Key": 359001447,
+            "NameJp": "セイア（水着）の神名文字",
+            "NameEn": "Seia's (Swimsuit) Eleph",
+            "DescriptionJp": "セイア（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Seia (Swimsuit)"
+        },
+        {
+            "Key": 3014736981,
+            "NameJp": "ハスミ（水着）の神名文字",
+            "NameEn": "Hasumi's (Swimsuit) Eleph",
+            "DescriptionJp": "ハスミ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Hasumi (Swimsuit)"
+        },
+        {
+            "Key": 1900193082,
+            "NameJp": "ナギサ（水着）の神名文字",
+            "NameEn": "Nagisa's (Swimsuit) Eleph",
+            "DescriptionJp": "ナギサ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Nagisa (Swimsuit)"
+        },
+        {
+            "Key": 615679456,
+            "NameJp": "イチカ（水着）の神名文字",
+            "NameEn": "Ichika's (Swimsuit) Eleph",
+            "DescriptionJp": "イチカ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Ichika (Swimsuit)"
+        },
+                {
+            "Key": 3368418938,
+            "NameJp": "マホガニーのガラスキャビネット",
+            "NameEn": "Mahogany Glass Cabinet",
+            "DescriptionJp": "クラシックな雰囲気の高級収納棚。鍵付きで、誰でも開けられるわけではない。",
+            "DescriptionEn": "A luxurious storage cabinet with a classic atmosphere. It has a lock, so not just anyone can open it."
+        },
+        {
+            "Key": 1297438922,
+            "NameJp": "マホガニーの三段書棚",
+            "NameEn": "Mahogany Three-Tier Bookshelf",
+            "DescriptionJp": "職人手による高級本棚。本棚そのものとしても貴重だが、中にある書物の価値はさらに高い。",
+            "DescriptionEn": "A high-class bookshelf crafted by artisans. The bookshelf itself is valuable, but the books inside are even more so."
+        },
+        {
+            "Key": 1775678266,
+            "NameJp": "ティーパーティー陳列棚",
+            "NameEn": "Tea Party Display Shelf",
+            "DescriptionJp": "お茶に添える砂糖やミルク、ジャムやクリームがたっぷり入っている。",
+            "DescriptionEn": "Filled with sugar, milk, jam, and cream to accompany tea."
+        },
+        {
+            "Key": 2663523493,
+            "NameJp": "ティーパーティー来賓室の壁",
+            "NameEn": "Tea Party Guest Room Wall",
+            "DescriptionJp": "金箔が施されたクラシックな壁紙。品格と威厳ある部屋作りをしたいときに。",
+            "DescriptionEn": "Classic wallpaper decorated with gold leaf. Perfect for creating a room with dignity and elegance."
+        },
+        {
+            "Key": 2590292756,
+            "NameJp": "ヴェルサイユ模様のタイル",
+            "NameEn": "Versailles Pattern Tile",
+            "DescriptionJp": "複雑な形のタイル。大小さまざまなピースが組み合わさり、美しい幾何学模様を描いている。",
+            "DescriptionEn": "Tiles of complex shapes. Various large and small pieces combine to form beautiful geometric patterns."
+        },
+        {
+            "Key": 522474381,
+            "NameJp": "トリニティティーパーティーの背景",
+            "NameEn": "Trinity Tea Party Background",
+            "DescriptionJp": "様々な色が美しく調和した背景。その絶妙な色のバランスが非常に美しい。",
+            "DescriptionEn": "A background where various colors are beautifully harmonized. The exquisite color balance is truly beautiful."
+        },
+             {
+            "Key": 3862637757,
+            "NameJp": "四角紋章柄のカーペット",
+            "NameEn": "Square Crest Pattern Carpet",
+            "DescriptionJp": "複雑な模様が刻まれたカーペット。歴史的価値があるのかも……？",
+            "DescriptionEn": "A carpet engraved with intricate patterns. It might even have historical value..."
+        },
+        {
+            "Key": 2143457359,
+            "NameJp": "ティーパーティーシリーズ",
+            "NameEn": "Tea Party Set",
+            "DescriptionJp": "気品と教養に満ちたティーパーティーシリーズ。一杯、いかがですか？",
+            "DescriptionEn": "The Tea Party Series is full of elegance and refinement. Would you care for a cup?"
+        },
+        {
+            "Key": 1757225398,
+            "NameJp": "ティーパーティーシリーズ",
+            "NameEn": "Tea Party Furniture"
+        },
+        {
+            "Key": 958075206,
+            "NameJp": "幾何学模様のカーペット",
+            "NameEn": "Tea Party Geometric Pattern Carpet",
+            "DescriptionJp": "幾何学模様が繰り返されて対称性をなすカーペット。クラシックで趣のある雰囲気を演出する。",
+            "DescriptionEn": "A carpet with repeating geometric patterns forming symmetry. It creates a classic and tasteful atmosphere."
+        },
+        {
+            "Key": 1954169509,
+            "NameJp": "スタトゥアーリオ大理石模様のカーペット",
+            "NameEn": "Statuario Marble Pattern Carpet",
+            "DescriptionJp": "高級大理石の模様を模したカーペット。実物と区別がつかないほど精巧に作られている。",
+            "DescriptionEn": "A carpet imitating the pattern of luxury marble. It's crafted so precisely that it's hard to distinguish from the real thing."
+        },
+        {
+            "Key": 1260208394,
+            "NameJp": "多角形の植木鉢",
+            "NameEn": "Polygonal Flower Pot",
+            "DescriptionJp": "丁寧に育てられたバラの植木鉢。管理が難しいにもかかわらず、ティーパーティーではいつも生花を植えている。",
+            "DescriptionEn": "A flower pot with carefully grown roses. Despite the difficulty of maintenance, fresh flowers are always planted for the tea party."
+        },
+        {
+            "Key": 1350455159,
+            "NameJp": "長方形の花壇",
+            "NameEn": "Rectangular Flower Bed",
+            "DescriptionJp": "白バラが華やかに咲き誇る花壇。その花言葉は「純潔」「純粋」。",
+            "DescriptionEn": "A flower bed where white roses bloom beautifully. Their meaning is 'purity' and 'innocence.'"
+        },
+        {
+            "Key": 2467071271,
+            "NameJp": "白いテーブルクロスを敷いた長方形テーブル",
+            "NameEn": "Rectangular Table with White Tablecloth",
+            "DescriptionJp": "清潔感のあるテーブルクロスが敷かれたテーブル。こぼしても大丈夫だが、しみが目立つので慎重に……。",
+            "DescriptionEn": "A table covered with a clean white tablecloth. Spills are okay, but stains will stand out, so be careful..."
+        },
+        {
+            "Key": 1829879645,
+            "NameJp": "小型ティーテーブル",
+            "NameEn": "Small Tea Table",
+            "DescriptionJp": "一人用の小さく質素なティーテーブル。たまにはゆったり過ごすのもいいだろう。",
+            "DescriptionEn": "A small, simple tea table for one. Sometimes it's nice to relax alone."
+        },
+        {
+            "Key": 3761215951,
+            "NameJp": "ティータイム用ティーカート",
+            "NameEn": "Tea Time Tea Cart",
+            "DescriptionJp": "茶器や菓子類が揃ったティーカート。いつでもどこでも、優雅なティータイムを。",
+            "DescriptionEn": "A tea cart stocked with tea sets and sweets. Enjoy an elegant tea time anytime, anywhere."
+        },
+        {
+            "Key": 2783808256,
+            "NameJp": "フロアスタンド",
+            "NameEn": "Floor Lamp",
+            "DescriptionJp": "温かみのある光を放つクラシカルなランプ。目に優しく、読書にぴったり。",
+            "DescriptionEn": "A classic lamp that emits a warm light. Gentle on the eyes and perfect for reading."
+        },
+        {
+            "Key": 1681173970,
+            "NameJp": "書記用立ち机",
+            "NameEn": "Secretary Podium",
+            "DescriptionJp": "書見台付きの立ち机。公的な場でよく使用される。",
+            "DescriptionEn": "A standing desk with a reading stand. Often used in official settings."
+        },
+        {
+            "Key": 344479674,
+            "NameJp": "クラシックなブックワゴン",
+            "NameEn": "Classic Book Wagon",
+            "DescriptionJp": "本を運ぶためのワゴン。電子書籍よりも紙の本を好むトリニティでは、司書たちがこれを押して忙しなく走り回っている。",
+            "DescriptionEn": "A wagon for carrying books. At Trinity, where paper books are preferred over e-books, librarians busily push these around."
+        },
+        {
+            "Key": 766960606,
+            "NameJp": "フルール・ド・リスの壁掛け時計",
+            "NameEn": "Fleur-de-lis Wall Clock",
+            "DescriptionJp": "フルール・ド・リスを模した壁掛け時計。定期的にゼンマイを巻く必要がある。",
+            "DescriptionEn": "A wall clock modeled after a fleur-de-lis. Needs to be wound regularly."
+        },
+        {
+            "Key": 1994333090,
+            "NameJp": "トリニティ式木造フェンス",
+            "NameEn": "Trinity Wooden Fence",
+            "DescriptionJp": "整っていて優美な木製フェンス。抑制されたデザインから漂う美学は、かえって華やかにさえ映る。",
+            "DescriptionEn": "A neat and elegant wooden fence. Its restrained design gives off an aesthetic that appears even more splendid."
+        },
+        {
+            "Key": 1889524945,
+            "NameJp": "ティーパーティー大型壁掛け額縁",
+            "NameEn": "Tea Party Large Wall Frame",
+            "DescriptionJp": "印象派の技法で描かれた絵画を収めた額縁。作者の意図を容易に読み取れない芸術作品。",
+            "DescriptionEn": "A frame containing a painting done in the Impressionist style. It's an artwork whose meaning is not easily understood."
+        },
+        {
+            "Key": 746719294,
+            "NameJp": "ティーパーティー小型壁掛け額縁",
+            "NameEn": "Tea Party Small Wall Frame",
+            "DescriptionJp": "審美的な芸術画を収めた壁掛け額縁。大胆な発想と、それに劣らぬ荒々しい筆致が印象的。",
+            "DescriptionEn": "A wall frame holding an aesthetic artwork. Its bold concept and equally bold brushwork are impressive."
+        },
+        {
+            "Key": 2670847271,
+            "NameJp": "シュルレアリスム石膏像",
+            "NameEn": "Surrealist Plaster Statue",
+            "DescriptionJp": "常識を超えるオブジェ。大胆な創造性が、現代アートへ一石を投じる。",
+            "DescriptionEn": "An object that transcends common sense. Its bold creativity makes a statement in modern art."
+        },
+        {
+            "Key": 1363506225,
+            "NameJp": "黄銅の花模様ランプ",
+            "NameEn": "Brass Floral Pattern Lamp",
+            "DescriptionJp": "クラシックな花模様が施されたランプ。トリニティではランプ一つとっても手を抜かない。",
+            "DescriptionEn": "A lamp decorated with classic floral patterns. At Trinity, even a single lamp is crafted with care."
+        },
+        {
+            "Key": 2071964902,
+            "NameJp": "トリニティ多人数用ソファ",
+            "NameEn": "Trinity Large Sofa",
+            "DescriptionJp": "高級生地で作られた多人数用ソファ。造形の完成度を重視しており、座り心地はやや硬め。",
+            "DescriptionEn": "A large sofa made from high-quality fabric. Its design is highly refined, though the seat is a bit firm."
+        },
+        {
+            "Key": 408630369,
+            "NameJp": "来客用ティーテーブル",
+            "NameEn": "Guest Tea Table",
+            "DescriptionJp": "質素ながらも品のあるテーブル。紅茶の香りが会話を華やかに飾る。",
+            "DescriptionEn": "A simple yet elegant table. The aroma of tea adds a touch of elegance to conversations."
+        },
+        {
+            "Key": 1519664668,
+            "NameJp": "チェステーブル",
+            "NameEn": "Chess Table",
+            "DescriptionJp": "チェス盤が備えられたテーブル。座るだけで賢く見える効果あり。",
+            "DescriptionEn": "A table equipped with a chessboard. Just sitting at it makes you look smarter."
+        },
+        {
+            "Key": 949584604,
+            "NameJp": "倒れたチェステーブル",
+            "NameEn": "Overturned Chess Table",
+            "DescriptionJp": "倒れてチェスの駒が床に散らばったテーブル。誰かが拾わなければならない。",
+            "DescriptionEn": "A table that's been overturned, scattering chess pieces on the floor. Someone needs to pick them up."
+        },
+        {
+            "Key": 3520494384,
+            "NameJp": "ホールケーキが置かれた晩餐テーブル",
+            "NameEn": "Banquet Table with Whole Cake",
+            "DescriptionJp": "豪華なホールケーキが置かれたテーブル。特別な日、あるいは特別にしたい日のために。",
+            "DescriptionEn": "A table with a luxurious whole cake. For special days, or days you want to make special."
+        },
+        {
+            "Key": 650862141,
+            "NameJp": "黄金色の午後のティーテーブル",
+            "NameEn": "Golden Afternoon Tea Table",
+            "DescriptionJp": "様々な菓子と紅茶が置かれたティーテーブル。一息ついて楽しい会話を交わそう。",
+            "DescriptionEn": "A tea table with various sweets and tea. Take a break and enjoy a pleasant conversation."
+        },
+        {
+            "Key": 2194319883,
+            "NameJp": "夕方のティーテーブル",
+            "NameEn": "Evening Tea Table",
+            "DescriptionJp": "甘いお菓子がたっぷり並んだティーテーブル。疲れた一日の締めくくりには、糖分と紅茶が一番。",
+            "DescriptionEn": "A tea table lined with plenty of sweets. After a tiring day, nothing beats sugar and tea."
+        },
+        {
+            "Key": 2290878817,
+            "NameJp": "簡素な朝のティーテーブル",
+            "NameEn": "Simple Morning Tea Table",
+            "DescriptionJp": "サンドイッチと軽めの菓子が並んだ朝用ティーテーブル。忙しい朝でも、一杯の紅茶を。",
+            "DescriptionEn": "A morning tea table with sandwiches and light sweets. Even on a busy morning, enjoy a cup of tea."
+        },
+        {
+            "Key": 3645596728,
+            "NameJp": "グラモフォン",
+            "NameEn": "Gramophone",
+            "DescriptionJp": "LPレコードを再生する蓄音機。最新オーディオでは味わえない情緒がある。",
+            "DescriptionEn": "A phonograph that plays LP records. It has a charm you can't get from modern audio equipment."
+        },
+        {
+            "Key": 1321590477,
+            "NameJp": "トリニティ式塀",
+            "NameEn": "Trinity Fence",
+            "DescriptionJp": "古代建築様式に着想を得た洗練された塀。アーチ構造が安定感を演出する。",
+            "DescriptionEn": "A refined fence inspired by ancient architectural styles. The arch structure gives a sense of stability."
+        },
+        {
+            "Key": 3967034572,
+            "NameJp": "トリニティ式アーチ型ポータル",
+            "NameEn": "Trinity Arch Portal",
+            "DescriptionJp": "古代建築様式に着想を得た洗練されたアーチ型の門。通るたびに荘厳な気分になる。",
+            "DescriptionEn": "A refined arch-shaped gate inspired by ancient architecture. Passing through it gives a majestic feeling."
+        },
+        {
+            "Key": 151202876,
+            "NameJp": "トリニティ式曲線柱",
+            "NameEn": "Trinity Curved Pillar",
+            "DescriptionJp": "トリニティ校庭のあちこちに建てられた柱。白地に金の装飾で、上品かつ華やか。",
+            "DescriptionEn": "Pillars built throughout the Trinity campus. White with gold decorations, they are both elegant and splendid."
+        },
+                {
+            "Key": 1741842915,
+            "NameJp": "ティーパーティー対話ブース",
+            "NameEn": "Tea Party Conversation Booth",
+            "DescriptionJp": "半個室の2人用席。厚手のカーテンが音を吸収し、内緒話にぴったりだ。",
+            "DescriptionEn": "A semi-private booth for two. The thick curtains absorb sound, making it perfect for secret conversations."
+        },
+        {
+            "Key": 213262815,
+            "NameJp": "トリニティ式開閉式暖炉",
+            "NameEn": "Trinity-Style Openable Fireplace",
+            "DescriptionJp": "開閉式の構造を持つ暖炉。実用性はないが、美しいデザインと情緒が多くの人を惹きつける。",
+            "DescriptionEn": "A fireplace with an openable design. While not practical, its beautiful design and atmosphere attract many people."
+        },
+        {
+            "Key": 2182437926,
+            "NameJp": "ティーパーティー庭園の噴水",
+            "NameEn": "Tea Party Garden Fountain",
+            "DescriptionJp": "様々な植物で飾られた石造の噴水。時折シマエナガが水を飲みに訪れることも。",
+            "DescriptionEn": "A stone fountain decorated with various plants. Occasionally, long-tailed tits come to drink from it."
+        },
+        {
+            "Key": 228833108,
+            "NameJp": "トリニティ式水晶回廊",
+            "NameEn": "Trinity-Style Crystal Corridor",
+            "DescriptionJp": "ガラスで装飾された美しい通路。その下を歩いているだけで目を楽しませてくれる。",
+            "DescriptionEn": "A beautiful corridor decorated with glass. Just walking beneath it is a visual delight."
+        },
+        {
+            "Key": 2386486699,
+            "NameJp": "ティーパーティー茶葉展示棚",
+            "NameEn": "Tea Party Tea Leaf Display Shelf",
+            "DescriptionJp": "キヴォトスの各地から集めた銘茶を展示した棚。劣化を防ぐため、厳重に密閉・保管されている。",
+            "DescriptionEn": "A shelf displaying fine teas collected from all over Kivotos. They are strictly sealed and stored to prevent deterioration."
+        },
+        {
+            "Key": 1659229955,
+            "NameJp": "ティーパーティー中二階",
+            "NameEn": "Tea Party Mezzanine",
+            "DescriptionJp": "室内全景を見渡せるメゾネット構造。洗練されたインテリアに対し、前衛的な芸術作品のアンバランスが印象的。",
+            "DescriptionEn": "A mezzanine structure with a view of the entire interior. The contrast between the refined decor and avant-garde art is striking."
+        },
+        {
+            "Key": 3450502975,
+            "NameJp": "トリニティ縦長窓",
+            "NameEn": "Trinity Tall Window",
+            "DescriptionJp": "機能性よりも美学を重視した窓。ほこりが溜まりやすい構造なので、毎日の掃除が欠かせない。",
+            "DescriptionEn": "A window designed with aesthetics in mind rather than functionality. Its structure tends to collect dust, so daily cleaning is essential."
+        },
+        {
+            "Key": 649074038,
+            "NameJp": "ティーパーティー大型ギャラリー",
+            "NameEn": "Tea Party Large Gallery",
+            "DescriptionJp": "トリニティの風景が一望できるギャラリー。この景色を堪能できるのも一種の特権だ。",
+            "DescriptionEn": "A gallery with a panoramic view of Trinity's scenery. Enjoying this view is a privilege in itself."
+        },
+        {
+            "Key": 2836643506,
+            "NameJp": "ティーパーティー小型ギャラリー",
+            "NameEn": "Tea Party Small Gallery",
+            "DescriptionJp": "トリニティの景色が映るギャラリー。眺めていると、胸がすっと晴れるような気持ちに。",
+            "DescriptionEn": "A gallery reflecting the scenery of Trinity. Gazing at it brings a refreshing feeling."
+        },
+        {
+            "Key": 987535338,
+            "NameJp": "セイアのオープンカー",
+            "NameEn": "Seia's Convertible",
+            "DescriptionJp": "セイアのオープンカー。見た目からして乗り手を選ぶマシンだ。",
+            "DescriptionEn": "Seia's convertible car. Its appearance alone suggests it's a vehicle for the select few."
+        },
+        {
+            "Key": 180297253,
+            "NameJp": "スイングチェア",
+            "NameEn": "Swing Chair",
+            "DescriptionJp": "ナギサが愛用するスイングチェア。自然な揺れが独特の心地よさを与えてくれる。",
+            "DescriptionEn": "A swing chair favored by Nagisa. Its natural swaying provides a unique comfort."
+        },
+        {
+            "Key": 2017199336,
+            "NameJp": "ビーチのブランコ",
+            "NameEn": "Beach Swing",
+            "DescriptionJp": "ビーチに設置されたブランコ。気持ちを整理したい時は、揺られてみるのも悪くない。",
+            "DescriptionEn": "A swing set up on the beach. When you want to clear your mind, swinging on it isn't a bad idea."
+        },
+        {
+            "Key": 1666961861,
+            "NameJp": "スイカ割りセット",
+            "NameEn": "Watermelon Splitting Set",
+            "DescriptionJp": "普通のスイカを使ったシンプルな遊び。でも、そういうものほど楽しい。",
+            "DescriptionEn": "A simple game using an ordinary watermelon. Sometimes, the simplest things are the most fun."
+        },
+        {
+            "Key": 3298242563,
+            "NameJp": "ラグジュアリービーチベッド",
+            "NameEn": "Luxury Beach Bed",
+            "DescriptionJp": "ビーチに設置されたラグジュアリーなベッド。柔らかくてふかふか、まさに贅沢の極み。",
+            "DescriptionEn": "A luxurious bed set up on the beach. Soft and fluffy—truly the height of luxury."
+        },
+        {
+            "Key": 272875268,
+            "NameJp": "ティーパーティーアルバム収納棚",
+            "NameEn": "Tea Party Album Storage Shelf",
+            "DescriptionJp": "アルバムなどを収納できる収納棚。各棚にはアルバムだけでなく、プライベートビーチでの思い出もたっぷり詰まっている。",
+            "DescriptionEn": "A storage shelf for albums and more. Each shelf is filled not only with albums but also with memories from the private beach."
+        },
+        {
+            "Key": 1528021271,
+            "NameJp": "リコレクト・メモリー6th",
+            "NameEn": "Recollection・6th memory",
+            "DescriptionJp": "6th PVの映像を再生できる機械",
+            "DescriptionEn": "Machine that plays 6th PV video."
         }
 
 

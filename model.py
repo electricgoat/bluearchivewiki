@@ -4,7 +4,7 @@ import re
 #from googletrans import Translator
 
 from shared.tag_map import map_tags
-from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname
+from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname, damage_type as damage_type_glossary
 from shared.glossary import CLUBS
 
 missing_skill_localization = None
@@ -155,7 +155,7 @@ class Character(object):
             Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 2, 0, 0)]['PassiveSkillGroupId'][0], data, show_skill_slot='Weapon Passive'),
             Skill.from_data(data.characters_skills[(costume['CharacterSkillListGroupId'], 0, 0, 0)]['ExtraPassiveSkillGroupId'][0], data, show_skill_slot='Sub'),
             Stats.from_data(character_id, data),
-            Weapon.from_data(character_id, costume, data),
+            Weapon.from_data(character_id, costume, character['BulletType'], data),
             (character_id, 1) in data.gear and Gear.from_data(character_id, data) or None,
             Favor.from_data(character_id, data),
             Potential.from_data(character_id, data),
@@ -516,7 +516,7 @@ class Stats(object):
 
 
 class Weapon(object):
-    def __init__(self, id, image_path, attack_power, attack_power_100, max_hp, max_hp_100, heal_power, heal_power_100, stat_type, stat_value, rank2_desc, rank3_desc):
+    def __init__(self, id, image_path, attack_power, attack_power_100, max_hp, max_hp_100, heal_power, heal_power_100, stat_type, stat_value, rank2_desc, rank3_desc, rank4_desc):
         self.id = id
         self.image_path = image_path
         self.attack_power = attack_power
@@ -529,11 +529,11 @@ class Weapon(object):
         self.stat_value = stat_value
         self.rank2_desc = rank2_desc
         self.rank3_desc = rank3_desc
-
+        self.rank4_desc = rank4_desc
 
 
     @classmethod
-    def from_data(cls, character_id, costume, data):
+    def from_data(cls, character_id, costume, bullet_type, data):
         weapon = data.weapons[character_id]
         stats = data.characters_stats[character_id]
 
@@ -569,6 +569,8 @@ class Weapon(object):
         rank3_desc = f"{{{{Icon|{affinity_type(affinity_change_type)}|size=20}}}} {affinity_type(affinity_change_type)} area affinity {{{{Affinity|{offset_affinity(old_affinity_letter,weapon['StatValue'][2])}}}}} {offset_affinity(old_affinity_letter,weapon['StatValue'][2])}"
         #{{Icon|Urban|size=20}} Urban area affinity {{Affinity|SS}} SS
 
+        rank4_desc = f"Increase {damage_type_glossary(bullet_type)} Efficiency by 10%."
+
 
         return cls(
             weapon['Id'],
@@ -582,7 +584,8 @@ class Weapon(object):
             weapon['StatType'],
             weapon['StatValue'],
             rank2_desc,
-            rank3_desc
+            rank3_desc,
+            rank4_desc,
         )
 
 

@@ -6209,6 +6209,84 @@
             "GroupId": "CH0300ExtraPassive01",
             "NameEn": "Conserving energy",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0295Ex01",
+            "NameEn": "Beach of Romance",
+            "DescriptionEn": "Increase damage dealt by EX skills of one other ally by $1 for $2."
+        },
+        {
+            "GroupId": "CH0295Public01",
+            "NameEn": "Snapshot of a moment",
+            "DescriptionEn": "Every $1 normal attacks, heal one other ally with the lowest HP for $1 of Healing.\nHeal self for $2 of Healing power."
+        },
+        {
+            "GroupId": "CH0295Passive01",
+            "NameEn": "Refresh",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0295WeaponPassive01",
+            "NameEn": "Refresh +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0295ExtraPassive01",
+            "NameEn": "City・Pop・Star",
+            "DescriptionEn": "When EX skill is activated, increase Attack Speed by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0291Ex01",
+            "NameEn": "Surefire Piercing Shot",
+            "DescriptionEn": "Deal $1 damage to enemies in cone-shaped area."
+        },
+        {
+            "GroupId": "CH0291Public01",
+            "NameEn": "This is zero calories",
+            "DescriptionEn": "Every $1, increase Critical Damage by $1, and increase Critical Rate by $2 for each Cut Watermelon held. (Duration: $3)."
+        },
+        {
+            "GroupId": "CH0291Passive01",
+            "NameEn": "Consistent throughout",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0291WeaponPassive01",
+            "NameEn": "Consistent throughout +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0291ExtraPassive01",
+            "NameEn": "Treat yourself",
+            "DescriptionEn": "Every 4 times Hasumi's EX skill deals damage to a target, acquire 1 Cut Watermelon for $2. (Can hold up to $3 Cut Watermelons and the effects stack).\nEach Cut Watermelon increases Critical Damage by $4."
+        },
+
+        {
+            "GroupId": "CH0292Ex01",
+            "NameEn": "Hidden claws",
+            "DescriptionEn": "Decrease Critical Damage Resistance of one enemy by $1 for $2.\nDeal $3 damage.\nConcentrate fire on the specified enemy for $4."
+        },
+        {
+            "GroupId": "CH0292Public01",
+            "NameEn": "Suppressive fire",
+            "DescriptionEn": "Every $1, Decrease Critical Resistance by $2 and Critical Damage Resistance by $3 for one enemy. (Duration: $4)\nAdditionally, deal $5 damage."
+        },
+        {
+            "GroupId": "CH0292Passive01",
+            "NameEn": "Exemplary shooting stance",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0292WeaponPassive01",
+            "NameEn": "Exemplary shooting stance +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0292ExtraPassive01",
+            "NameEn": "Justice Actualization Committee mediator",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
         }
         
 

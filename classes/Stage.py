@@ -141,12 +141,15 @@ class EventStage(Stage):
                 grounds.append(data.ground[entity['Id']])
 
         for ground in grounds:
-            stagefile = data.stages[ground['StageFileName'][0].lower()]
+            try:
+                stagefile = data.stages[ground['StageFileName'][0].lower()]
 
-            for template in json_find_key(stagefile, 'SpawnTemplateId'):
-                if template != '' and template in devname_characters and template not in spawn_templates:
-                    spawn_templates[template] = devname_characters[template]
-
+                for template in json_find_key(stagefile, 'SpawnTemplateId'):
+                    if template != '' and template in devname_characters and template not in spawn_templates:
+                        spawn_templates[template] = devname_characters[template]
+            except KeyError as e:
+                print(f"Warning: Stage file {ground['StageFileName'][0]} not found in stages data. Skipping spawn template extraction for this ground. Error: {e}")
+                continue
         stage_hint = ''
         if stage['StageHint'] > 0 and stage['StageHint'] in data.etc_localization:
             stage_hint = data.etc_localization[stage['StageHint']].get('DescriptionEn', data.etc_localization[stage['StageHint']].get('DescriptionJp'))

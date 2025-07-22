@@ -55,12 +55,14 @@ SEASON_NOTES = {
         51:'Introduction of Torment Difficulty',
         69:'Reward Insurance system added',
         78:'Introduction of Lunatic Difficulty',
+        83: 'Revised phase 2 of the fight'
     },
     'gl' : {
         2:'Beta version, no ranking rewards',
         7:'Introduction of Extreme Difficulty',
         24:'Introduction of Insane Difficulty',
         46:'Introduction of Torment Difficulty',
+        73:'Introduction of Lunatic Difficulty',
     }
 }
 
