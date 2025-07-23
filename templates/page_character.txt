@@ -143,6 +143,20 @@
 </div>
 {%- endif -%}
 
+{%- if character.ex_skill.select_ex_tooltip != [] %}
+<div class="skill-additional">
+{%- for add_skill in character.ex_skill.select_ex_tooltip %}
+    {%- set skill = add_skill %}
+    {%- set show_materials = false %}
+    {%- if skill.show_skill_slot == 'EX' %}
+{% include "templates/template_skilltable_ex.txt" %}
+    {%- else %}
+{% include "templates/template_skilltable.txt" %}
+    {%- endif %}
+{%- endfor %}
+</div>
+{%- endif -%}
+
 
 {%- set skill = character.normal_skill %}{% set show_materials = true %}
 {% include "templates/template_skilltable.txt" %}

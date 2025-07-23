@@ -6287,6 +6287,73 @@
             "GroupId": "CH0292ExtraPassive01",
             "NameEn": "Justice Actualization Committee mediator",
             "DescriptionEn": "Increase Attack Speed of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0293Ex01",
+            "NameEn": "Teatime in Wartime",
+            "DescriptionEn": "Grant one ally Cost Over effect for $1.\nIncrease Critical Damage by $2 for $3.\n(Cost Over: When the maximum number of students is deployed and no one has retreated, up to 5 Cost can be consumed in excess of the Cost currently held. The excess will be counted as a negative Cost.)"
+        },
+        {
+            "GroupId": "CH0293Public01",
+            "NameEn": "Crush, Tear, Curl",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0293Passive01",
+            "NameEn": "Work & Seaside Balance",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0293WeaponPassive01",
+            "NameEn": "Work & Seaside Balance +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0293ExtraPassive01",
+            "NameEn": "Lazy Ladies",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0294SelectEx01",
+            "NameEn": "Memories with you",
+            "DescriptionEn": "(This is a Select EX skill, effect depends on the target selected)"
+        },
+        {
+            "GroupId": "CH0294Ex01",
+            "NameEn": "Quiet Pledge",
+            "DescriptionEn": "Immediately draw an EX skill card, then switch to rapid-fire stance for $1.\nWhen rapid-fire stance ends, the EX skill card is moved to the bottom of the deck, and the cost change effect is reset."
+        },
+        {
+            "GroupId": "CH0294Ex02",
+            "NameEn": "Star Trails",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nWhen in rapid-fire stance, always immediately redraw EX skill card, but the base cost of \"Star Trails\" changes depending on the number of uses:\n1st and 2nd time: $2 Cost\n3rd and 4th times: $3 Cost\n5th time onwards: $4 Cost"
+        },
+        {
+            "GroupId": "CH0294Ex03",
+            "NameEn": "Heart at ease",
+            "DescriptionEn": "Cancel rapid-fire stance. Move the EX skill card to the bottom of the deck and reset the base cost change effect."
+        },
+        {
+            "GroupId": "CH0294Public01",
+            "NameEn": "Cute girl spotted ☆",
+            "DescriptionEn": "Every $1, increase Sonic Efficiency by $2 for $3."
+        },
+        {
+            "GroupId": "CH0294Passive01",
+            "NameEn": "Pax Vobiscum",
+            "DescriptionEn": "Increases normal attack Firing Range by $1 and Attack by $2."
+        },
+        {
+            "GroupId": "CH0294WeaponPassive01",
+            "NameEn": "Pax Vobiscum +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increases normal attack Firing Range by $2 and Attack by $3."
+        },
+        {
+            "GroupId": "CH0294ExtraPassive01",
+            "NameEn": "Sursum Corda",
+            "DescriptionEn": "All attacks are guaranteed to be critical hits.\nIncrease Sonic Efficiency by $1."
         }
         
 

@@ -300,7 +300,7 @@ class SkillLevel(object):
 
 
 class Skill(object):
-    def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], show_skill_slot = ''):
+    def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], select_ex_tooltip = [], show_skill_slot = ''):
         self.name = name
         self.icon = icon
         self.levels = levels
@@ -313,6 +313,7 @@ class Skill(object):
         self.skill_cost = skill_cost
         self.effect_data = effect_data
         self.additional_tooltip = additional_tooltip
+        self.select_ex_tooltip = select_ex_tooltip
         self.show_skill_slot = show_skill_slot
 
     @property
@@ -365,6 +366,21 @@ class Skill(object):
             for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
                 add_max_level = (add_tooltip['ShowSkillSlot'].upper() == 'EX' or show_skill_slot == 'EX') and 5 or 10
                 additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
+
+
+        select_ex_tooltip = []
+        selectable_ex_skill_groups_added = []
+        if group[0]['SelectExSkillToolTipId'] != 0: 
+            #print(f"group_id {group_id} has a Select EX tooltips group: {group[0]['SelectExSkillToolTipId']} at max_level {max_level}")
+            for add_tooltip in data.skill_select_ex_tooltip[group[0]['SelectExSkillToolTipId']]:
+                selectable_ex_skill_groups_added += [add_tooltip['SelectableExSkillGroupId']]
+                select_ex_tooltip.append(Skill.from_data(add_tooltip['SelectableExSkillGroupId'], data, max_level=5, show_skill_slot='EX'))
+            
+            for skill in data.skills.values():
+                if skill['Level']==1 and skill['GroupId'].startswith(selectable_ex_skill_groups_added[0][:-1]) and skill['GroupId'] not in selectable_ex_skill_groups_added:
+                    #print(f'Adding missing Select EX tooltip for {skill["GroupId"]}')
+                    select_ex_tooltip.append(Skill.from_data('CH0294Ex03', data, max_level=5, show_skill_slot='EX'))
+                
 
 
         levels = [SkillLevel.from_data(level, group_id, data) for level in sorted(group, key=operator.itemgetter('Level'))]
@@ -430,6 +446,7 @@ class Skill(object):
             skill_cost,
             effect_data,
             additional_tooltip,
+            select_ex_tooltip,
             skill_type(show_skill_slot),
         )
 

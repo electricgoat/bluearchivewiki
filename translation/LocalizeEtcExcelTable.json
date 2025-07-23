@@ -12923,8 +12923,77 @@
             "NameEn": "Recollection・6th memory",
             "DescriptionJp": "6th PVの映像を再生できる機械",
             "DescriptionEn": "Machine that plays 6th PV video."
+        },
+         {
+            "Key": 1789843585,
+            "NameJp": "T2装備設計図抽選ボックス",
+            "NameEn": "T2 Equipment Blueprint Choice Box",
+            "DescriptionJp": "使用時、T2装備設計図の中から、一つを同じ確率で獲得することができる抽選ボックス。使用後すぐに設計図を手に入れることができる。",
+            "DescriptionEn": "A selection box that grants one T2 equipment blueprint at random when used. You receive the blueprint immediately after use."
+        },
+        {
+            "Key": 2515115490,
+            "NameJp": "T3装備設計図抽選ボックス",
+            "NameEn": "T3 Equipment Blueprint Choice Box",
+            "DescriptionJp": "使用時、T3装備設計図の中から、一つを同じ確率で獲得することができる抽選ボックス。使用後すぐに設計図を手に入れることができる。",
+            "DescriptionEn": "A selection box that grants one T3 equipment blueprint at random when used. You receive the blueprint immediately after use."
+        },
+        {
+            "Key": 1607651858,
+            "NameJp": "T4装備設計図抽選ボックス",
+            "NameEn": "T4 Equipment Blueprint Choice Box",
+            "DescriptionJp": "使用時、T4装備設計図の中から、一つを同じ確率で獲得することができる抽選ボックス。使用後すぐに設計図を手に入れることができる。",
+            "DescriptionEn": "A selection box that grants one T4 equipment blueprint at random when used. You receive the blueprint immediately after use."
+        },
+        {
+            "Key": 3672304176,
+            "NameJp": "T5装備設計図抽選ボックス",
+            "NameEn": "T5 Equipment Blueprint Choice Box",
+            "DescriptionJp": "使用時、T5装備設計図の中から、一つを同じ確率で獲得することができる抽選ボックス。使用後すぐに設計図を手に入れることができる。",
+            "DescriptionEn": "A selection box that grants one T5 equipment blueprint at random when used. You receive the blueprint immediately after use."
+        },
+        {
+            "Key": 2746650022,
+            "NameJp": "T6装備設計図抽選ボックス",
+            "NameEn": "T6 Equipment Blueprint Choice Box",
+            "DescriptionJp": "使用時、T6装備設計図の中から、一つを同じ確率で獲得することができる抽選ボックス。使用後すぐに設計図を手に入れることができる。",
+            "DescriptionEn": "A selection box that grants one T6 equipment blueprint at random when used. You receive the blueprint immediately after use."
+        },
+        {
+            "Key": 3649668660,
+            "NameJp": "ティーパーティーシリーズ選択ボックス",
+            "NameEn": "Tea Party Furniture Choice Box",
+            "DescriptionJp": "ティーパーティーシリーズの中から、任意の家具を選択して交換することができる選択ボックス。",
+            "DescriptionEn": "A selection box that allows you to choose and exchange for any furniture from the Tea Party Series."
+        },
+        {
+            "Key": 3695525735,
+            "NameJp": "ティーパーティーシリーズ抽選ボックス",
+            "NameEn": "Tea Party Furniture Raffle Box",
+            "DescriptionJp": "使用時、ティーパーティーシリーズの家具の中から、一つを同じ確率で獲得することができる抽選ボックス。",
+            "DescriptionEn": "A lottery box that grants one random piece of furniture from the Tea Party Series when used."
+        },
+        {
+            "Key": 1965759201,
+            "NameJp": "★3生徒セレクトチケット",
+            "NameEn": "★3 Student Select Ticket",
+            "DescriptionJp": "★3生徒を1人選んで受け入れる事ができるチケット。<br>既に保有している生徒を受け入れた場合、代わりに生徒の神名文字を100個獲得します。※2026年7月1日の10時59分までに使用しない場合、このチケットは消失してしまいます",
+            "DescriptionEn": "A ticket that allows you to select and recruit one ★3 student. If you select a student you already own, you will receive 100 of that student's Eleph instead. *If not used by July 1, 2026, 10:59, this ticket will expire."
+        },
+        {
+            "Key": 4076953393,
+            "NameJp": "1回アーカイブ募集チケット",
+            "NameEn": "Archive 1-Recruitment Ticket",
+            "DescriptionJp": "1回アーカイブ募集を行うチケットです。",
+            "DescriptionEn": "A ticket for 1 recruitment from the archive character pool."
+        },
+        {
+            "Key": 513560780,
+            "NameJp": "10回アーカイブ募集チケット",
+            "NameEn": "Archive 10-Recruitment Ticket",
+            "DescriptionJp": "10回アーカイブ募集を行うチケットです。",
+            "DescriptionEn": "A ticket for 10 recruitments from the archive character pool."
         }
-
 
 
     ]

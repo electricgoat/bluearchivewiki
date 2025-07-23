@@ -99,9 +99,9 @@ map_descriptions = {
     'Event_Mission_TBG_Complete_Thema4_Hidden': 3584453321,
     'Event_Mission_Complete_Campaign_Stage': 538150987,
     'Event_Mission_Omikuji_Count_832': 2417672652,
-    'Mission_Clear_Specific_Chaserdungeon': 1859421411,
-    'Mission_Clear_Specific_Schooldungeon': 2400906688,
-    'Mission_Clear_Specific_Weekdungeon': 4187819492,
+    #'Mission_Clear_Specific_Chaserdungeon': 1859421411,
+    #'Mission_Clear_Specific_Schooldungeon': 2400906688,
+    #'Mission_Clear_Specific_Weekdungeon': 4187819492,
     'MISSION_CLEAR_SCHEDULE_IN_Abydos_1': 3289015374,
 }
 
@@ -143,6 +143,71 @@ def mission_desc(mission, data, missing_descriptions = [], items = None, furnitu
         if 'En' in data.localize_code[localize_id]:
             mission['DescriptionEn'] = description_cleanup(data.localize_code[localize_id]['En'].replace('{0}', str(mission['CompleteConditionCount']))) 
 
+
+def localize_ClearSpecificChaserDungeonCount(mission, data, items = None, furniture = None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    CHASER_DUNGEON_NAMES = ['', 'Overpass', 'Desert Railroad', 'Classroom']
+    stage_id = str(mission['CompleteConditionParameter'][0])
+    #print(f"Stage ID: {stage_id}")
+    stage_name = f"{CHASER_DUNGEON_NAMES[int(stage_id[1:3])]} {chr(ord('A') + int(stage_id[4:]) - 1)}"
+    #print(f"Stage name: {stage_name}")
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_ClearSpecificFindGiftAndBloodDungeonCount(mission, data, items = None, furniture = None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    WEEK_DUNGEON_NAMES = {11:'Base Defense', 21:'Item Retrieval'}
+    stage_id = str(mission['CompleteConditionParameter'][0])
+    #print(f"Stage ID: {stage_id}")
+    stage_name = f"{WEEK_DUNGEON_NAMES.get(int(stage_id[1:3]),'')} {chr(ord('A') + int(stage_id[4:]) - 1)}"
+    #print(f"Stage name: {stage_name}")
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_ClearSpecificSchoolDungeonCount(mission, data, items = None, furniture = None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    SCHOOL_DUNGEON_NAMES = {1:'Trinity', 2:'Gehenna', 3:'Millennium'}
+    stage_id = str(mission['CompleteConditionParameter'][0])
+    #print(f"Stage ID: {stage_id}")
+    stage_name = f"{SCHOOL_DUNGEON_NAMES.get(int(stage_id[1:3]),'')} {chr(ord('A') + int(stage_id[4:]) - 1)}"
+    #print(f"Stage name: {stage_name}")
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+def localize_Achieve_EquipmentAtSpecificTierUpCount(mission, data, items = None, furniture = None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(', '.join(str(x) for x in mission['CompleteConditionParameter']))).replace('{1}', str(mission['CompleteConditionCount']))) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(', '.join(str(x) for x in mission['CompleteConditionParameter']))).replace('{1}', str(mission['CompleteConditionCount']))) 
+
+    mission['AutoLocalized'] = True
+    return True
 
 
 def localize_DreamGetSpecificParameter(mission, data, items = None, furniture = None):
@@ -217,8 +282,8 @@ def localize_ClearSpecificScenario(mission, data, items = None, furniture = None
 
 
 def localize_ClearSpecificCampaignStageCount(mission, data, items = None, furniture = None):
-    desc_jp = 'エリア[[$1]] $2をクリア'
-    desc_en = 'Clear $2 Mission [[$1]]'
+    desc_jp = 'エリア[[Missions/$1|$1]] $2をクリア'
+    desc_en = 'Clear $2 Mission [[Missions/$1|$1]]'
 
     difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
     difficulty_names = ['','Normal','Hard']
@@ -237,8 +302,8 @@ def localize_ClearSpecificCampaignStageCount(mission, data, items = None, furnit
 
 
 def localize_ClearCampaignStageTimeLimitFromSecond(mission, data, items = None, furniture = None):
-    desc_jp = '任務ステージ[[$1]]$2を$3秒以内にクリア'
-    desc_en = 'Clear $2 Mission [[$1]] within $3 seconds'
+    desc_jp = '任務ステージ[[Missions/$1|$1]]$2を$3秒以内にクリア'
+    desc_en = 'Clear $2 Mission [[Missions/$1|$1]] within $3 seconds'
 
     difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
     difficulty_names = ['','Normal','Hard']
