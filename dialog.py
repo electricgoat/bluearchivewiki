@@ -597,6 +597,11 @@ def process_files(character, dialog:Dialog, page_list:list):
             
             if wikiname in page_list: 
                 print(f"File:{line.wiki_voice_clips[index]}.ogg is already in known pages list")
+                if args['force_upload']:
+                    wiki.upload(os.path.join(args['data_audio'], localfilename), 
+                        f"{line.wiki_voice_clips[index]}.ogg", 
+                        'Character dialog upload', 
+                        wikitext)
                 if args['update_files'] and not wiki.page_exists(wikiname, wikitext): 
                     wiki.publish(wikiname, wikitext, 'Updated audio categories')
                     print('... updated file categories.')
@@ -708,6 +713,7 @@ def main():
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
     parser.add_argument('-wiki_section',    metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-update_files',    action='store_true', help='Check audio file wikitext and update it')
+    parser.add_argument('-force_upload',  action='store_true', help='Try reuploading files even if one already exists.')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
     args = vars(parser.parse_args())

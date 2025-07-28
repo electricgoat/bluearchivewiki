@@ -28,6 +28,7 @@ BlueArchiveData = collections.namedtuple(
     'minigame_dream_collection_scenario', 'minigame_dream_daily_point', 'minigame_dream_ending', 'minigame_dream_ending_reward', 'minigame_dream_info', 'minigame_dream_parameter', 'minigame_dream_replay_scenario', 'minigame_dream_schedule', 'minigame_dream_schedule_result', 'minigame_dream_timeline', 'minigame_dream_voice',
     'minigame_defense_info', 'minigame_defense_stage', 'minigame_defense_character_ban', 'minigame_defense_fixed_stat', 
     'minigame_roadpuzzle_info', 'minigame_roadpuzzle_railtile', 'minigame_roadpuzzle_map', 'minigame_roadpuzzle_roadround', 'minigame_roadpuzzle_reward',
+    'minigame_ccg_card', 'minigame_ccg_character', 'minigame_ccg_enemy', 'minigame_ccg_info', 'minigame_ccg_reward_card', 'minigame_ccg_reward_card_rate', 'minigame_ccg_reward_item', 'minigame_ccg_skill', 
     'ground', 
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
@@ -139,6 +140,14 @@ def load_data(path_primary, path_secondary, path_translation):
         minigame_roadpuzzle_map=   load_file_grouped(path_primary, 'MinigameRoadPuzzleMapExcelTable.json', key='EventContentId'),
         minigame_roadpuzzle_roadround= load_generic(path_primary, 'MinigameRoadPuzzleRoadRoundExcelTable.json', key=None),
         minigame_roadpuzzle_reward= load_file_grouped(path_primary, 'MiniGameRoadPuzzleRewardExcelTable.json', key='EventContentId'),
+        minigame_ccg_card =         load_generic(path_primary, 'MinigameCCGCardExcelTable.json', key='Id'),
+        minigame_ccg_character =    load_generic(path_primary, 'MinigameCCGCharacterExcelTable.json', key='Id'),
+        minigame_ccg_enemy =        load_generic(path_primary, 'MinigameCCGEnemyExcelTable.json', key='Id'),
+        minigame_ccg_info =         load_generic(path_primary, 'MinigameCCGInfoExcelTable.json', key='EventContentId'),
+        minigame_ccg_reward_card =  load_generic(path_primary, 'MinigameCCGRewardCardExcelTable.json', key='Id'),
+        minigame_ccg_reward_card_rate =    load_generic(path_primary, 'MinigameCCGRewardCardRateExcelTable.json', key=None),
+        minigame_ccg_reward_item =  load_generic(path_primary, 'MinigameCCGRewardItemExcelTable.json', key='Id'),
+        minigame_ccg_skill =        load_generic(path_primary, 'MinigameCCGSkillExcelTable.json', key='Id'),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
         gacha_elements=             load_file_grouped(path_primary, 'GachaElementExcelTable.json', 'GachaGroupID'),
         gacha_elements_recursive=   load_file_grouped(path_primary, 'GachaElementRecursiveExcelTable.json', 'GachaGroupID'),
@@ -313,6 +322,8 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
     for index in combined_keys:
         if data_aux and index in data_aux:
+            if index in data_primary and 'Jp' in data_primary[index] and data_aux[index]['Jp'] != data_primary[index]['Jp']:
+                print(f"Warning - overwriting Jp text {index}:\n{data_primary[index]['Jp']}\n{data_aux[index]['Jp']}")
             data_primary[index] = data_aux[index]
         elif index in data_secondary:
             data_primary[index] = data_secondary[index]

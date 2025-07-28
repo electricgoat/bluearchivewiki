@@ -1,0 +1,41 @@
+{% for card in cards -%}
+
+{% raw %}{{{% endraw %}CCG_Card
+| Id = {{ card['Id'] }}
+| Image = {% if card['Type'] == 'Equipment' %}CCG_Card_BgGear{% else %}{{card['UIImagePath'].rsplit('/',1)[-1]}}{% endif %}.png
+{%- if card['Type'] == 'Equipment' -%}
+| SplashImage = {{card['UIImagePath'].rsplit('/',1)[-1]}}.png
+{%- endif %}
+| Frame = {% if card['ImagePath'].rsplit('/',1)[-1].startswith('Enemy') %}Enemy{% else %}Ally{% endif %}
+| Type = {{card['Type']}}
+| Cost = {%if card['ActiveSkilleCostVisible'] %}{{card['ActiveSkillCost']}}{% endif %}
+| Health = {{card['MaxHealth']}}
+| Width = 200px
+| DescriptionWidth = 380px
+| NameJp = {{localization.get(card['Name'],localize_placeholder)['Jp']}}
+| NameEn = {{localization.get(card['Name'],localize_placeholder)['En']}}
+
+{%- if card['ActiveSkillId'] %}
+| SkillNameJp = {{localization.get(skills[card['ActiveSkillId']]['Name'],localize_placeholder).get('Jp')}}
+| SkillNameEn = {{localization.get(skills[card['ActiveSkillId']]['Name'],localize_placeholder).get('En')}}
+| SkillDescriptionJp = {{localization.get(skills[card['ActiveSkillId']]['Description'],localize_placeholder).get('Jp','').replace('\n\n\n','<br>').replace('\n','<br>') |flavor_text|format_param|format_char|format_tag|format_skill|format_card|colorize_values}}
+| SkillDescriptionEn = {{localization.get(skills[card['ActiveSkillId']]['Description'],localize_placeholder).get('En','').replace('\n\n\n','<br>').replace('\n','<br>') |flavor_text|format_param|format_char|format_tag|format_skill|format_card|colorize_values}}
+{% if skills[card['ActiveSkillId']]['SkillIcon'] != '' -%}
+| SkillIcon = {{skills[card['ActiveSkillId']]['SkillIcon']}}
+{% endif -%}
+| SkillCooldown = {{card['ActiveSkillCooldown']}}
+{% endif -%}
+
+{%- for psid in card['PassiveSkillId'] -%}
+| PassiveSkill{{loop.index}}NameJp = {{localization.get(skills[psid]['Name'],localize_placeholder).get('Jp')}}
+| PassiveSkill{{loop.index}}NameEn = {{localization.get(skills[psid]['Name'],localize_placeholder).get('En')}}
+| PassiveSkill{{loop.index}}DescriptionJp = {{localization.get(skills[psid]['Description'],localize_placeholder).get('Jp','').replace('\n\n\n','<br>').replace('\n','<br>') |flavor_text|format_param|format_char|format_tag|format_skill|format_card|colorize_values}}
+| PassiveSkill{{loop.index}}DescriptionEn = {{localization.get(skills[psid]['Description'],localize_placeholder).get('En','').replace('\n\n\n','<br>').replace('\n','<br>') |flavor_text|format_param|format_char|format_tag|format_skill|format_card|colorize_values}}
+{% if skills[psid]['SkillIcon'] != '' -%}
+| PassiveSkill{{loop.index}}Icon = {{skills[psid]['SkillIcon']}}
+{% endif -%}
+{% endfor -%}
+
+| Tags = {{card['Tags'] |format_tags}}
+{% raw %}}}{% endraw %}
+{% endfor -%}

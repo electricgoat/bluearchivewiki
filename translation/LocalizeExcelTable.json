@@ -441,7 +441,7 @@
         {
             "Key": 3732203121,
             "Kr": "손끝의 선율을 느끼며 피아노 연습을 하자!\n\n조금은 건반이 손에 붙은 느낌이야. 후훗, 연주라는 게 이렇게나 즐거운 일이었구나. 오랜만에 느끼는 감각이야.",
-            "Jp": "旋律を感じながらピアノの練習をしよう。\n\n少しだけ、鍵盤が手についた気分。ふふっ、演奏ってこんなに楽しかったんだ。こんな感覚、久しぶり。",
+            "Jp": "旋律を感じながらピアノの練習をしよう。\n\n少しだけど、鍵盤が手についた気分。ふふっ、演奏ってこんなに楽しかったんだ。こんな感覚、久しぶり。",
             "En": "Let's practice the piano, feeling the melody in our fingertips!\n\nIt feels like the keys are sticking to my hands a bit. Hehe, playing is such a enjoyable activity. It's a sensation I haven't felt in a long time."
         },
         {
@@ -951,7 +951,7 @@
         {
             "Key": 2932450416,
             "Kr": "체리노가 마코토에게 직접 보낸 서한. 지도자로서의 가져야 할 올바른 자세와 각 학원의 무궁한 발전을 바라는 내용이 쓰여있다.",
-            "Jp": "チェリノがマコトに送った手紙。指導者としての心構えや、ゲヘナ学園の発展を祈念するといったメッセージが書かれている.",
+            "Jp": "チェリノがマコトに送った手紙。指導者としての心構えや、ゲヘナ学園の発展を祈念するといったメッセージが書かれている。",
             "En": "A letter sent by Cherino to Makoto directly. It contains messages about the proper attitude as a leader and the infinite development of each academy."
         },
         {
@@ -963,7 +963,7 @@
         {
             "Key": 652268410,
             "Kr": "선도부의 업무가 기록된 서류 더미. 보기만 해도 머리가 아파져 오는 문자와 숫자로 가득 차 있다. 부딪쳐서 넘어트리지 않도록 주의하자!",
-            "Jp": "風紀委員会の業務が記録された、書類の山。見るだけで頭が痛くなってくる文字と数字でいっぱいだ. ぶつかって倒しでもしたら大惨事！注意しよう！",
+            "Jp": "風紀委員会の業務が記録された、書類の山。見るだけで頭が痛くなってくる文字と数字でいっぱいだ。ぶつかって倒しでもしたら大惨事！注意しよう！",
             "En": "A stack of documents recording the tasks of the Disciplinary Committee. It is filled with headache-inducing characters and numbers. Be careful not to knock it over!"
         },
         {
@@ -975,13 +975,13 @@
         {
             "Key": 4077140834,
             "Kr": "누군가가 잃어버린 듯한 식권. 주인은 알 수 없지만, 식권 위에 쓰여 있는 <기대된다!>라는 말에서 자그마한 안타까움이 느껴진다.",
-            "Jp": "誰かが失くした食券。元の持ち主は不明だが、食券の上に書いてある「楽しみ！」の文字が、なんだか切ない.",
+            "Jp": "誰かが失くした食券。元の持ち主は不明だが、食券の上に書いてある「楽しみ！」の文字が、なんだか切ない。",
             "En": "A meal ticket that seems to have been lost by someone. The owner is unknown, but a small tinge of sadness is felt from the words written on the ticket: 'Looking forward to it!'"
         },
         {
             "Key": 3849298482,
             "Kr": "구겨져서 아무렇게나 버려져 있는 가정통신문. 내용 대부분이 마코토의 위업에 대해 기록된 내용뿐이라, 특별히 쓸모는 없다.",
-            "Jp": "しわくちゃになって捨てられている掲示物。内容の大半はマコトの偉業についてのものなので、特に使い道はない.",
+            "Jp": "しわくちゃになって捨てられている掲示物。内容の大半はマコトの偉業についてのものなので、特に使い道はない。",
             "En": "A crumpled and carelessly discarded information bulletin. It mostly contains records about Makoto's achievements, making it particularly useless."
         },
         {
@@ -2254,6 +2254,3266 @@
             "Kr": "제약해제결전 {0}단계 클리어",
             "Jp": "制約解除決戦を{0}段階クリア",
             "En": "Clear the Limit Break Assault at Difficulty {0}"
+        },
+
+            {
+            "Key": 104391141,
+            "Kr": "전속 전진",
+            "Jp": "全速前進",
+            "En": "Full Speed Ahead"
+        },
+        {
+            "Key": 3836785110,
+            "Kr": "카드를 [c]{param;DrawCardNum}[/c]장 뽑는다.\n\n\n[c][75b4c0][i]\"우물쭈물 거릴 시간이 없어, 선생님! 어서 가자!\"[/i][-][/c]",
+            "Jp": "カードを[c]{param;DrawCardNum}[/c]枚引く。\n\n\n[c][75b4c0][i]「もたもたしてる時間はないの！ 早くいこ！」[/i][-][/c]",
+            "En": "Draw [c]{param;DrawCardNum}[/c] cards.\n\n\n[c][75b4c0][i]\"No time to dawdle, Sensei! Let’s go!\"[/i][-][/c]"
+        },
+        {
+            "Key": 3283003062,
+            "Kr": "난공불락",
+            "Jp": "難攻不落",
+            "En": "Impregnable"
+        },
+        {
+            "Key": 51114751,
+            "Kr": "모든 아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다.\n\n\n[c][75b4c0][i]경고: 훼손 시 안전을 보장할 수 없음[/i][-][/c]",
+            "Jp": "すべての味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。\n\n\n[c][75b4c0][i]警告：破損した際、安全は保障できない。[/i][-][/c]",
+            "En": "Grants a shield of [c]{param;BasePower}[/c] to all allied Strikers.\n\n\n[c][75b4c0][i]Warning: Safety not guaranteed if damaged.[/i][-][/c]"
+        },
+        {
+            "Key": 2602698645,
+            "Kr": "느긋한 휴식",
+            "Jp": "ゆったりとした休暇",
+            "En": "Relaxing Break"
+        },
+        {
+            "Key": 460683044,
+            "Kr": "무작위 아군 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]자외선 대책은 완벽하다.[/i][-][/c]",
+            "Jp": "ランダムで味方ストライカーのHPを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]紫外線対策は完璧だ。[/i][-][/c]",
+            "En": "Restore [c]{param;BasePower}[/c] HP to a random allied Striker.\n\n\n[c][75b4c0][i]UV protection? Perfectly covered.[/i][-][/c]"
+        },
+        {
+            "Key": 3798935935,
+            "Kr": "수중 산책",
+            "Jp": "水中散歩",
+            "En": "Underwater Stroll"
+        },
+        {
+            "Key": 2786309527,
+            "Kr": "손패의 무작위 카드 [c]1[/c]장의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"시스터후드에서는 물고문을 자행한다는 소문은 역시…!\"\n- 음모론에 심취한 도서부장, 코제키 우이[/i][-][/c]",
+            "Jp": "ランダムで手札[c]1[/c]枚のコストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]「シスターフッドで水責めを行っているという噂はやはり……！」\n-陰謀論にハマっている図書委員長、古関ウイ[/i][-][/c]",
+            "En": "Set the cost of a random card in your hand to [c]0[/c].\n\n\n[c][75b4c0][i]\"So the rumors about water torture in the Sisterhood were true…!\"\n- Ui Koseki, Conspiracy-Enthusiast Library President[/i][-][/c]"
+        },
+        {
+            "Key": 4157887751,
+            "Kr": "100점 만점의 미소",
+            "Jp": "100点満点のスマイル",
+            "En": "100-percent Smile"
+        },
+        {
+            "Key": 3277306309,
+            "Kr": "코스트를 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]\"선생님께만 특별히 보내드리는 검다?\"[/i][-][/c]",
+            "Jp": "コストを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]「先生にだけ、特別っすよ？」[/i][-][/c]",
+            "En": "Recover [c]{param;BasePower}[/c] cost.\n\n\n[c][75b4c0][i]\"A special gift just for you, Sensei!\"[/i][-][/c]"
+        },
+        {
+            "Key": 3366530095,
+            "Kr": "오늘도 단련중!",
+            "Jp": "今日も鍛錬中！",
+            "En": "Training as Usual!"
+        },
+        {
+            "Key": 824148601,
+            "Kr": "아군 스페셜의 재사용 대기시간이 [c]{param;CoolDownNum}[/c] 감소한다.\n\n\n[c][75b4c0][i]\"건강한 신체에! 건강한 정신이 깃든다!\"\n- 마츠리운영관리부의 부장, 카와와 시즈코[/i][-][/c]",
+            "Jp": "味方スペシャルのクールタイムが[c]{param;CoolDownNum}[/c]減少する。\n\n\n[c][75b4c0][i]「健康な身体には、健全な精神が宿る！」\n-お祭り運営委員会の委員長、河和シズコ[/i][-][/c]",
+            "En": "Reduces cooldown of allied Specials by [c]{param;CoolDownNum}[/c].\n\n\n[c][75b4c0][i]\"A healthy mind in a healthy body!\"\n- Kawawa Shizuko, Festival Operations Chief[/i][-][/c]"
+        },
+        {
+            "Key": 821453749,
+            "Kr": "문화 충격",
+            "Jp": "カルチャーショック",
+            "En": "Culture Shock"
+        },
+        {
+            "Key": 1661864707,
+            "Kr": "아군 스트라이커의 EX스킬 위력이 [c]2[/c] 증가한다.\n\n\n[c][75b4c0][i]\"호, 홍차에 시럽도 모자라, 커피까지 섞는다고요?!\"\n\"야만이다…! 바깥세상의 야만…!\"[/i][-][/c]",
+            "Jp": "味方ストライカーのEXスキルの威力が[c]2[/c]増加する。\n\n\n[c][75b4c0][i]「こ、紅茶にシロップを……？しかも、コーヒーまで！？」\n「なんて野蛮な……外の世界は野蛮すぎます……！」[/i][-][/c]",
+            "En": "Increases allied Striker EX Skill power by [c]2[/c].\n\n\n[c][75b4c0][i]\"S-Syrup in tea…?! And coffee too?!\"\n\"Barbaric…! The outside world is barbaric!\"[/i][-][/c]"
+        },
+        {
+            "Key": 777568371,
+            "Kr": "작열하는 더위",
+            "Jp": "灼熱の暑さ",
+            "En": "Scorching Heat"
+        },
+        {
+            "Key": 3693334331,
+            "Kr": "무작위 적에게 [c]{param;Min}~{param;Max}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]\"여름철에는 충분한 수분 섭취와 휴식을!\"\n- 선생님으로부터 한마디[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;Min}～{param;Max}[/c]ダメージを与える。\n\n\n[c][75b4c0][i]「水分補給とこまめな休憩を忘れずに！」\n-先生から一言[/i][-][/c]",
+            "En": "Deals [c]{param;Min}~{param;Max}[/c] damage to a random enemy.\n\n\n[c][75b4c0][i]\"Stay hydrated and take breaks during summer!\"\n- A word from Sensei[/i][-][/c]"
+        },
+        {
+            "Key": 4135782680,
+            "Kr": "백화요란식 제압술",
+            "Jp": "百花繚乱式制圧術",
+            "En": "Hyakkaryouran Subjugation Technique"
+        },
+        {
+            "Key": 3696462035,
+            "Kr": "원하는 후열의 적을 전열과 교대한다.\n\n\n[c][75b4c0][i]자그마치 3개의 실뜨기 기술이 합쳐진 콤비네이션.[/i][-][/c]",
+            "Jp": "任意の後列の敵を前列と交代する。\n\n\n[c][75b4c0][i]なんと、3つの編み技が合わさったコンビネーション。[/i][-][/c]",
+            "En": "Swap a chosen backline enemy with a frontline enemy.\n\n\n[c][75b4c0][i]A combination of no less than three string tricks.[/i][-][/c]"
+        },
+        {
+            "Key": 3372051878,
+            "Kr": "내 마음대로 서빙",
+            "Jp": "きまぐれサービング",
+            "En": "Whimsical Serving"
+        },
+        {
+            "Key": 633044372,
+            "Kr": "무작위 카드를 일회용으로 [c]{param;SpawnCardNum}[/c]장 생성한다.\n\n\n[c][75b4c0][i]\"응- 음식- 가져갈게-\"[/i][-][/c]",
+            "Jp": "ランダムでカードを使い捨てとして[c]{param;SpawnCardNum}[/c]枚生成する。\n\n\n[c][75b4c0][i]「うん、食べ物ー持ってくねー」[/i][-][/c]",
+            "En": "Generate [c]{param;SpawnCardNum}[/c] random one-time-use cards.\n\n\n[c][75b4c0][i]\"Okay— I’ll bring the food over—\"[/i][-][/c]"
+        },
+        {
+            "Key": 2543547378,
+            "Kr": "아. 샷. 추.",
+            "Jp": "流行の裏メニュー",
+            "En": "Trendy Secret Menu"
+        },
+        {
+            "Key": 2857739209,
+            "Kr": "손패의 무작위 카드를 [c]1[/c]장 버린다. 이후 그 카드의 코스트만큼 무작위 적에게 피해를 준다.\n\n\n[c][75b4c0][i]달콤한 아이스티에, 에스프레소 샷을 추가해서 완성☆[/i][-][/c]",
+            "Jp": "ランダムで手札にあるカードを[c]1[/c]枚捨てる。その後、対象カードのコスト分、ランダムな敵にダメージを与える。\n\n\n[c][75b4c0][i]甘いアイスティーに、エスプレッソを入れて完成☆[/i][-][/c]",
+            "En": "Discard [c]1[/c] random card from your hand. Then deal damage to a random enemy equal to its cost.\n\n\n[c][75b4c0][i]Add an espresso shot to sweet iced tea for perfection☆[/i][-][/c]"
+        },
+        {
+            "Key": 1477519845,
+            "Kr": "신체검사",
+            "Jp": "ボディーチェック",
+            "En": "Body Check"
+        },
+        {
+            "Key": 3026057865,
+            "Kr": "탁 트인 시야",
+            "Jp": "広々とした視野",
+            "En": "Wide Field of View"
+        },
+        {
+            "Key": 3304241717,
+            "Kr": "보복의 시간",
+            "Jp": "報復の時間",
+            "En": "Time of Retribution"
+        },
+        {
+            "Key": 1793203303,
+            "Kr": "특별한 응원",
+            "Jp": "特別な応援",
+            "En": "Special Cheer"
+        },
+        {
+            "Key": 3916257348,
+            "Kr": "아이스박스",
+            "Jp": "アイスボックス",
+            "En": "Ice Box"
+        },
+        {
+            "Key": 2004896654,
+            "Kr": "급식 시간",
+            "Jp": "給食の時間",
+            "En": "Lunch Time"
+        },
+        {
+            "Key": 4181044538,
+            "Kr": "유상의 추억",
+            "Jp": "代償の記憶",
+            "En": "Compensated Memories"
+        },
+        {
+            "Key": 1206606622,
+            "Kr": "사격 준비",
+            "Jp": "射撃準備",
+            "En": "Shooting Preparation"
+        },
+        {
+            "Key": 1350894367,
+            "Kr": "신속 사격",
+            "Jp": "迅速射撃",
+            "En": "Rapid Shooting"
+        },
+        {
+            "Key": 3096072650,
+            "Kr": "로켓 런처",
+            "Jp": "ロケットランチャー",
+            "En": "Rocket Launcher"
+        },
+        {
+            "Key": 1652126846,
+            "Kr": "코코넛 떨구기",
+            "Jp": "ココナッツ落とし",
+            "En": "Coconut Drop"
+        },
+        {
+            "Key": 2357526963,
+            "Kr": "다트 던지기",
+            "Jp": "ダーツ投げ",
+            "En": "Dart Throw"
+        },
+        {
+            "Key": 232953633,
+            "Kr": "크루세이더 쨩 바캉스 모드!",
+            "Jp": "クルセイダーちゃんバカンスモード！",
+            "En": "Crusader-chan Vacation Mode!"
+        },
+        {
+            "Key": 4044509331,
+            "Kr": "애프터눈 티타임",
+            "Jp": "アフタヌーンティータイム",
+            "En": "Afternoon Tea Time"
+        },
+        {
+            "Key": 346703016,
+            "Kr": "상투스 분파 제식 오토바이",
+            "Jp": "サンクトゥス分派制式採用バイク",
+            "En": "Sanctus Faction Standard Motorcycle"
+        },
+        {
+            "Key": 3263370832,
+            "Kr": "선도부원의 진심",
+            "Jp": "風紀委員の真心",
+            "En": "Prefect's Sincerity"
+        },
+        {
+            "Key": 1725411275,
+            "Kr": "선도부장의 진심",
+            "Jp": "風紀委員長の真心",
+            "En": "Prefect Leader's Sincerity"
+        },
+        {
+            "Key": 2330241209,
+            "Kr": "총기 손질",
+            "Jp": "銃の手入れ",
+            "En": "Gun Maintenance"
+        },
+        {
+            "Key": 3749492501,
+            "Kr": "리미트 해제",
+            "Jp": "リミット解除",
+            "En": "Limit Release"
+        },
+        {
+            "Key": 33185938,
+            "Kr": "여가시간",
+            "Jp": "趣味の時間",
+            "En": "Leisure Time"
+        },
+        {
+            "Key": 2592363899,
+            "Kr": "범의 꼬리를 밟다",
+            "Jp": "虎の尾を踏む",
+            "En": "Treading on the Tiger's Tail"
+        },
+        {
+            "Key": 624950473,
+            "Kr": "거대화 레이저 빔",
+            "Jp": "巨大化レーザービーム",
+            "En": "Giant Laser Beam"
+        },
+        {
+            "Key": 3687045711,
+            "Kr": "티파티의 비밀 가방",
+            "Jp": "ティーパーティーの秘密バッグ",
+            "En": "Tea Party's Secret Bag"
+        },
+        {
+            "Key": 3653776194,
+            "Kr": "요가 시간",
+            "Jp": "ヨガの時間",
+            "En": "Yoga Time"
+        },
+        {
+            "Key": 3169917431,
+            "Kr": "뜨거운 관중석",
+            "Jp": "熱気に満ちた観客席",
+            "En": "Heated Audience Seats"
+        },
+        {
+            "Key": 3675160355,
+            "Kr": "숨겨진 가희",
+            "Jp": "隠された歌姫",
+            "En": "Hidden Diva"
+        },
+        {
+            "Key": 1265454238,
+            "Kr": "제멋대로 하이웨이",
+            "Jp": "ストーリーテラーのシナリオ",
+            "En": "Storyteller's Scenario"
+        },
+        {
+            "Key": 1167151495,
+            "Kr": "신중한 조준",
+            "Jp": "狙い定めて",
+            "En": "Careful Aim"
+        },
+        {
+            "Key": 3172293805,
+            "Kr": "모래성",
+            "Jp": "砂のお城",
+            "En": "Sand Castle"
+        },
+        {
+            "Key": 2110625695,
+            "Kr": "완벽한 자외선 대책",
+            "Jp": "完璧な紫外線対策",
+            "En": "Perfect UV Protection"
+        },
+        {
+            "Key": 2431222597,
+            "Kr": "위시리스트",
+            "Jp": "ウィッシュリスト",
+            "En": "Wishlist"
+        },
+        {
+            "Key": 3530649325,
+            "Kr": "냉철한 분석",
+            "Jp": "冷徹な分析",
+            "En": "Cold Analysis"
+        },
+        {
+            "Key": 3027640607,
+            "Kr": "긴급 대응",
+            "Jp": "緊急対応",
+            "En": "Emergency Response"
+        },
+        {
+            "Key": 10222894,
+            "Kr": "해변의 인어공주",
+            "Jp": "浜辺の人魚姫",
+            "En": "Mermaid Princess of the Beach"
+        },
+        {
+            "Key": 648618518,
+            "Kr": "매출 정산",
+            "Jp": "売上精算",
+            "En": "Sales Settlement"
+        },
+        {
+            "Key": 133256566,
+            "Kr": "장전된 물총",
+            "Jp": "装填済の水鉄砲",
+            "En": "Loaded Water Gun"
+        },
+        {
+            "Key": 1288704335,
+            "Kr": "탱탱한 배구공",
+            "Jp": "バレーボール",
+            "En": "Volleyball"
+        },
+        {
+            "Key": 3092331521,
+            "Kr": "슬링 드라이 백",
+            "Jp": "スリングドライバック",
+            "En": "Sling Dry Bag"
+        },
+        {
+            "Key": 2354840606,
+            "Kr": "한정판 치세님 부채",
+            "Jp": "限定版・和楽姫のうちわ",
+            "En": "Limited Edition Waraku Fan"
+        },
+        {
+            "Key": 3365772426,
+            "Kr": "구명조끼",
+            "Jp": "ライフジャケット",
+            "En": "Life Jacket"
+        },
+        {
+            "Key": 638300970,
+            "Kr": "미니 선풍기",
+            "Jp": "小型扇風機",
+            "En": "Mini Fan"
+        },
+        {
+            "Key": 1438209388,
+            "Kr": "아쿠아 샌들",
+            "Jp": "アクアサンダル",
+            "En": "Aqua Sandals"
+        },
+        {
+            "Key": 1762354961,
+            "Kr": "다이버 워치",
+            "Jp": "ダイバーウォッチ",
+            "En": "Diver's Watch"
+        },
+        {
+            "Key": 2569970400,
+            "Kr": "선도부 비품용 튜브",
+            "Jp": "風紀委員会の備品浮き輪",
+            "En": "Prefect Team's Equipment Tube"
+        },
+        {
+            "Key": 1708038225,
+            "Kr": "정의실현부 완장",
+            "Jp": "正義実現委員会の腕章",
+            "En": "Justice Committee Armband"
+        },
+        {
+            "Key": 57513562,
+            "Kr": "전차용 티포트",
+            "Jp": "戦車用ティーポット",
+            "En": "Tank Teapot"
+        },
+        {
+            "Key": 1843429870,
+            "Kr": "모모프렌즈 슬리퍼",
+            "Jp": "モモフレンズスリッパ",
+            "En": "Momo Friends Slippers"
+        },
+        {
+            "Key": 1128215328,
+            "Kr": "트래킹 등산화",
+            "Jp": "登山ブーツ",
+            "En": "Hiking Boots"
+        },
+        {
+            "Key": 942525995,
+            "Kr": "출장 백야당!",
+            "Jp": "出張百夜堂！",
+            "En": "Momoyodou on the Move!"
+        },
+        {
+            "Key": 1962749461,
+            "Kr": "해수욕장",
+            "Jp": "海水浴場",
+            "En": "Beach"
+        },
+        {
+            "Key": 4156783092,
+            "Kr": "프라이빗 비치",
+            "Jp": "プライベートビーチ",
+            "En": "Private Beach"
+        },
+        {
+            "Key": 3605839151,
+            "Kr": "여름 군옥수수",
+            "Jp": "夏の焼きトウモロコシ",
+            "En": "Summer Grilled Corn"
+        },
+        {
+            "Key": 2619081819,
+            "Kr": "제철 왕수박",
+            "Jp": "旬のスイカ",
+            "En": "Seasonal Watermelon"
+        },
+        {
+            "Key": 3230444941,
+            "Kr": "미라클 4999",
+            "Jp": "ミラクル4999",
+            "En": "Miracle 4999"
+        },
+        {
+            "Key": 2070773964,
+            "Kr": "민트초코 파르페",
+            "Jp": "チョコミントパフェ",
+            "En": "Choco Mint Parfait"
+        },
+        {
+            "Key": 2633587228,
+            "Kr": "신속한 행동 (1단계)",
+            "Jp": "迅速行動（1段階）",
+            "En": "Swift Action (Stage 1)"
+        },
+        {
+            "Key": 2261531228,
+            "Kr": "[c]게임 시작 시:[/c] 무작위 손패의 카드 [c]1[/c]장의 코스트가 [c]1[/c] 감소한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]手札カード[c]1[/c]枚のコストがランダムで[c]1[/c]減少する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] The cost of [c]1[/c] random card in your hand is reduced by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 854006614,
+            "Kr": "신속한 행동 (2단계)",
+            "Jp": "迅速行動（2段階）",
+            "En": "Swift Action (Stage 2)"
+        },
+        {
+            "Key": 2750629691,
+            "Kr": "[c]게임 시작 시:[/c] 손패의 모든 카드의 코스트가 [c]1[/c] 감소한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]手札にあるすべてのカードのコストが[c]1[/c]減少する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] The cost of all cards in your hand is reduced by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 1457701368,
+            "Kr": "신속한 행동 (3단계)",
+            "Jp": "迅速行動（3段階）",
+            "En": "Swift Action (Stage 3)"
+        },
+        {
+            "Key": 2781381932,
+            "Kr": "[c]게임 시작 시:[/c] 손패의 모든 카드의 코스트가 [c]2[/c] 감소한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]手札にあるすべてのカードのコストが[c]2[/c]減少する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] The cost of all cards in your hand is reduced by [c]2[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 2177207236,
+            "Kr": "전투간 휴식 (1단계)",
+            "Jp": "休息（1段階）",
+            "En": "Rest (Stage 1)"
+        },
+        {
+            "Key": 3667043685,
+            "Kr": "[c]게임 시작 시:[/c] 아군 스트라이커가 한 명만 있을 경우, 체력을 [c]1[/c] 회복한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]味方ストライカーが一人のみの場合、HPを[c]1[/c]回復する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] If there is only one allied Striker, restore [c]1[/c] HP.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 1110227567,
+            "Kr": "전투간 휴식 (2단계)",
+            "Jp": "休息（2段階）",
+            "En": "Rest (Stage 2)"
+        },
+        {
+            "Key": 4116673745,
+            "Kr": "[c]게임 시작 시:[/c] 무작위 아군의 체력을 [c]1[/c] 회복한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]ランダムで味方のHPを[c]1[/c]回復する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] Restore [c]1[/c] HP to a random ally.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 2450401062,
+            "Kr": "전투간 휴식 (3단계)",
+            "Jp": "休息（3段階）",
+            "En": "Rest (Stage 3)"
+        },
+        {
+            "Key": 82084542,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군의 체력을 [c]1[/c] 회복한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方のHPを[c]1[/c]回復する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] Restore [c]1[/c] HP to all allies.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 2120197678,
+            "Kr": "피해량 증가 (1단계)",
+            "Jp": "ダメージ量増加（1段階）",
+            "En": "Damage Increase (Stage 1)"
+        },
+        {
+            "Key": 155405693,
+            "Kr": "[c]게임 시작 시:[/c] 아군 스트라이커가 한 명만 있을 경우, [c]이치카(수영복)[/c]의 EX스킬 위력이 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]味方ストライカーが一人のみの場合、[c]イチカ（水着）[/c]のEXスキルの威力が[c]1[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] If there is only one allied Striker, [c]Ichika (Swimsuit)[/c]'s EX Skill power increases by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 2668033445,
+            "Kr": "피해량 증가 (2단계)",
+            "Jp": "ダメージ量増加（2段階）",
+            "En": "Damage Increase (Stage 2)"
+        },
+        {
+            "Key": 3332843979,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 EX스킬 위력이 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ（水着）[/c]のEXスキルの威力が[c]1[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s EX Skill power increases by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 218800429,
+            "Kr": "피해량 증가 (3단계)",
+            "Jp": "ダメージ量増加（3段階）",
+            "En": "Damage Increase (Stage 3)"
+        },
+        {
+            "Key": 3361127780,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커의 EX스킬 위력이 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]すべての味方ストライカーのEXスキルの威力が[c]1[/c]増加する。\n\n[c](最も高い段階の効果のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] All allied Strikers' EX Skill power increases by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 1689815039,
+            "Kr": "체력 향상 (1단계)",
+            "Jp": "HPアップ（1段階）",
+            "En": "HP Up (Stage 1)"
+        },
+        {
+            "Key": 4284844248,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 최대 체력이 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ(水着)[/c]の最大HPが[c]1[/c]増える。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s max HP increases by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 1499895252,
+            "Kr": "체력 향상 (2단계)",
+            "Jp": "HPアップ（2段階）",
+            "En": "HP Up (Stage 2)"
+        },
+        {
+            "Key": 1280013977,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 최대 체력이 [c]2[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ(水着)[/c]の最大HPが[c]2[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s max HP increases by [c]2[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 4089447898,
+            "Kr": "체력 향상 (3단계)",
+            "Jp": "HPアップ（3段階）",
+            "En": "HP Up (Stage 3)"
+        },
+        {
+            "Key": 341334797,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 최대 체력이 [c]3[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ(水着)[/c]の最大HPが[c]3[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s max HP increases by [c]3[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 30317841,
+            "Kr": "단단한 장갑 (1단계)",
+            "Jp": "強化装甲（1段階）",
+            "En": "Reinforced Armor (Stage 1)"
+        },
+        {
+            "Key": 974344215,
+            "Kr": "[c]게임 시작 시:[/c] 무작위 아군에게 보호막을 [c]1[/c] 부여한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]ランダムな味方にシールドを[c]1[/c]付与する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] Grant [c]1[/c] shield to a random ally.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 718767086,
+            "Kr": "단단한 장갑 (2단계)",
+            "Jp": "強化装甲（2段階）",
+            "En": "Reinforced Armor (Stage 2)"
+        },
+        {
+            "Key": 3784890771,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군에게 보호막을 [c]1[/c] 부여한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方にシールドを[c]1[/c]付与する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] Grant [c]1[/c] shield to all allies.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 3042448636,
+            "Kr": "단단한 장갑 (3단계)",
+            "Jp": "強化装甲（3段階）",
+            "En": "Reinforced Armor (Stage 3)"
+        },
+        {
+            "Key": 966476981,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군에게 보호막을 [c]2[/c] 부여한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方にシールドを[c]2[/c]付与する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] Grant [c]2[/c] shield to all allies.\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 4109864483,
+            "Kr": "회복량 증가 (1단계)",
+            "Jp": "回復量増加（1段階）",
+            "En": "Healing Increase (Stage 1)"
+        },
+        {
+            "Key": 57712828,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 서브스킬 위력이 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ（水着）[/c]のサブスキルの威力が[c]1[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s sub skill power increases by [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 3548367414,
+            "Kr": "회복량 증가 (2단계)",
+            "Jp": "回復量増加（2段階）",
+            "En": "Healing Increase (Stage 2)"
+        },
+        {
+            "Key": 1419555515,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 서브스킬 위력이 [c]1[/c] 증가한다. 아군 스트라이커가 한 명만 있을 경우, [c]이치카(수영복)[/c]의 서브스킬 위력이 추가로 [c]1[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ（水着）[/c]のサブスキルの威力が[c]1[/c]増加する。味方ストライカーが一人のみの場合、[c]イチカ（水着）[/c]のサブスキルの威力がさらに[c]1[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s sub skill power increases by [c]1[/c]. If there is only one allied Striker, [c]Ichika (Swimsuit)[/c]'s sub skill power increases by an additional [c]1[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 2290646474,
+            "Kr": "회복량 증가 (3단계)",
+            "Jp": "回復量増加（3段階）",
+            "En": "Healing Increase (Stage 3)"
+        },
+        {
+            "Key": 1004644526,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 서브스킬 위력이 [c]2[/c] 증가한다.\n\n[c](가장 높은 단계의 효과만 적용)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ（水着）[/c]のサブスキルの威力が[c]2[/c]増加する。\n\n[c](最も効果の高い段階のみ適用)[/c]",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s sub skill power increases by [c]2[/c].\n\n[c](Only the highest stage effect applies)[/c]"
+        },
+        {
+            "Key": 1879323911,
+            "Kr": "전술 권한 개방: 속사",
+            "Jp": "戦術解放：速射",
+            "En": "Tactical Authorization: Rapid Fire"
+        },
+        {
+            "Key": 3091531862,
+            "Kr": "[c]게임 시작 시:[/c] [c]이치카(수영복)[/c]의 EX스킬 코스트가 [c]1[/c] 감소한다.",
+            "Jp": "[c]ゲーム開始時：[/c][c]イチカ(水着)[/c]のEXスキルのコストが[c]1[/c]減少する。",
+            "En": "[c]At the start of the game:[/c] [c]Ichika (Swimsuit)[/c]'s EX Skill cost is reduced by [c]1[/c]."
+        },
+        {
+            "Key": 2153272129,
+            "Kr": "전술 권한 개방: 증강",
+            "Jp": "戦術解放：増強",
+            "En": "Tactical Authorization: Enhancement"
+        },
+        {
+            "Key": 761533955,
+            "Kr": "[c]내 Phase 시작 시:[/c] 코스트를 [c]1[/c] 추가로 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]コストを追加で[c]1[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] Recover an additional [c]1[/c] cost."
+        },
+        {
+            "Key": 246440458,
+            "Kr": "특수 효과 적용 중",
+            "Jp": "特殊効果適用中",
+            "En": "Special Effect Active"
+        },
+        {
+            "Key": 3938095106,
+            "Kr": "이번 전투에서는 특수한 효과가 적용됩니다.",
+            "Jp": "今回の戦闘では特殊な効果が適用されます。",
+            "En": "A special effect is applied in this battle."
+        },
+        {
+            "Key": 2530813826,
+            "Kr": "전황 탐색",
+            "Jp": "戦況調査",
+            "En": "Battle Situation Investigation"
+        },
+        {
+            "Key": 4029059944,
+            "Kr": "자신의 순서가 오길 기다리며, 전황을 살핀다.",
+            "Jp": "自身のターンを待ちながら、戦況を探る。",
+            "En": "Wait for your turn and observe the battle situation."
+        },
+        {
+            "Key": 2628288773,
+            "Kr": "레드 드래곤",
+            "Jp": "レッドドラゴン",
+            "En": "Red Dragon"
+        },
+        {
+            "Key": 3055775567,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]어쩌다 보니 여기에 있게 된 학생. 기대하는 선후배의 시선이 따갑다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]なんとなく活動を続けている少女。先輩と後輩から一目置かれている。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]A girl who just happened to be here. Respected by both her seniors and juniors.[/i][-][/c]"
+        },
+        {
+            "Key": 171978473,
+            "Kr": "정의실현부의 모범",
+            "Jp": "正義実現委員会の模範",
+            "En": "Model of the Justice Committee"
+        },
+        {
+            "Key": 4028810052,
+            "Kr": "[c]내 Phase 시작 시:[/c] 체력이 [c]{param;ConditionNum}[/c] 이하라면, 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]HPが[c]{param;ConditionNum}[/c]以下であれば、HPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] If HP is [c]{param;ConditionNum}[/c] or less, recover [c]{param;BasePower}[/c] HP."
+        },
+        {
+            "Key": 4204748870,
+            "Kr": "임페일먼트",
+            "Jp": "インペイルメント",
+            "En": "Impalement"
+        },
+        {
+            "Key": 2496996975,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]부장을 대신해 대부분 행정을 맡고 있는 정의실현부의 실세. 누구보다 그 자신에게 가장 엄격하다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]委員長に代わって大半の行政を担当している正義実現委員会の副委員長。誰よりも自分に厳しい。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]The vice-chair of the Justice Actualization Committee, handling most administrative on behalf of the chairperson. She is stricter with herself than anyone else.[/i][-][/c]"
+        },
+        {
+            "Key": 1558694801,
+            "Kr": "철저한 준비",
+            "Jp": "準備万端",
+            "En": "Thorough Preparation"
+        },
+        {
+            "Key": 3233074764,
+            "Kr": "[c]장비 카드를 낸 후:[/c] 이번 Phase에 자신의 스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]装備カードを出した後：[/c]今回のフェーズで自身のスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]After playing an equipment card:[/c] Your skill power increases by [c]1[/c] this phase."
+        },
+        {
+            "Key": 3198063168,
+            "Kr": "호스트의 권위",
+            "Jp": "ホストの権威",
+            "En": "Host's Authority"
+        },
+        {
+            "Key": 1780167426,
+            "Kr": "모든 후열의 적에게 피해를 준다. 이후 무작위 아군 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]베일에 싸인 트리니티 사교계의 정점, 티파티의 호스트. 그 정체는 과로에 고생하는 한 사람의 소녀이다.[/i][-][/c]",
+            "Jp": "後列のすべての敵にダメージを与える。その後、ランダムで味方ストライカーと交代する。\n\n\n[c][75b4c0][i]ベールに包まれたトリニティの頂点、ティーパーティーのホスト。その正体は、多忙を極める一人の少女である。[/i][-][/c]",
+            "En": "Deals damage to all enemies in the back row. Then switches with a random allied Striker.\n\n\n[c][75b4c0][i]The host of the Tea Party, the pinnacle of Trinity shrouded in mystery, is in fact a very overworked young girl.[/i][-][/c]"
+        },
+        {
+            "Key": 2156622973,
+            "Kr": "화력 지원",
+            "Jp": "火力支援",
+            "En": "Firepower Support"
+        },
+        {
+            "Key": 1320965963,
+            "Kr": "[c]다른 {tag;TeaParty} 스트라이커의 EX스킬 발동 후:[/c] 무작위 적에게 피해를 [c]{param;BasePower}[/c] 준다. [c](자신을 포함한 아군 {tag;TeaParty} 학생의 수만큼 반복)[/c]\n[c]{char;848004}[/c] 또는 [c]{char;848005}[/c]가 아군으로 있다면, 한 명 당 이 스킬로 주는 피해가 [c]{param;BonusNum}[/c] 씩 증가한다.",
+            "Jp": "[c]他{tag;TeaParty}ストライカーのEXスキル発動後：[/c]ランダムな敵にダメージを[c]{param;BasePower}[/c]与える。（自身を含む味方の[c]{tag;TeaParty}[/c]生徒の数だけ繰り返し）\n[c]{char;848004}[/c]または[c]{char;848005}[/c]が味方であれば、1人当たりのスキルによるダメージが[c]{param;BonusNum}[/c]ずつ増加する。",
+            "En": "[c]After another {tag;TeaParty} Striker's EX Skill activation:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy. (Repeats for the number of allied {tag;TeaParty} students, including self)\nIf [c]{char;848004}[/c] or [c]{char;848005}[/c] are allies, damage increases by [c]{param;BonusNum}[/c] per character."
+        },
+        {
+            "Key": 2465712760,
+            "Kr": "불타는 별",
+            "Jp": "燃える流星",
+            "En": "Burning Meteor"
+        },
+        {
+            "Key": 3576040056,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]트리니티 종합학원의 순수한 공주님. 순수는 무엇보다 쉽게 상처 입히고, 상처받는다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]トリニティ総合学園所属の純粋なお姫様。純粋さ故に、誰よりも傷つきやすく、他人を傷つけやすい。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]A pure-hearted princess that attends Trinity General Academy. Because of her purity, she is easily hurt and prone to hurting others more than anyone else.[/i][-][/c]"
+        },
+        {
+            "Key": 613525159,
+            "Kr": "타고난 고귀함",
+            "Jp": "生来の気高さ",
+            "En": "Innate Nobility"
+        },
+        {
+            "Key": 312404380,
+            "Kr": "[c]전열로 교대 시:[/c] 무작위 후열의 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]前列に交代時：[/c]ランダムで後列の敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]When switching to the front row:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy in the back row."
+        },
+        {
+            "Key": 769145241,
+            "Kr": "식스 센스",
+            "Jp": "シックスセンス",
+            "En": "Sixth Sense"
+        },
+        {
+            "Key": 3291019510,
+            "Kr": "다른 아군 스트라이커의 EX스킬 위력이 [c]1[/c] 증가하고, 그 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]자유라는 단어를 체현한 듯한 존재. 티파티 호스트를 맡았을 모습은 그다지 상상되지 않는다.[/i][-][/c]",
+            "Jp": "他味方ストライカーのEXスキルの威力が[c]1[/c]増加し、当該ストライカーと交代する。\n\n\n[c][75b4c0][i]自由という言葉を体現したような存在。ティーパーティーのホストを務める姿は容易には想像できない。[/i][-][/c]",
+            "En": "Increases another allied Striker's EX Skill power by [c]1[/c] and switches with that Striker.\n\n\n[c][75b4c0][i]A being who seems to embody the word 'freedom.' It's hard to imagine her as the Tea Party host.[/i][-][/c]"
+        },
+        {
+            "Key": 910186523,
+            "Kr": "코만도",
+            "Jp": "コマンド",
+            "En": "Commando"
+        },
+        {
+            "Key": 1066641449,
+            "Kr": "[c]다른 {tag;TeaParty} 스트라이커의 EX스킬 발동 후:[/c] 아군 전열 스트라이커의 EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]他{tag;TeaParty}ストライカーのEXスキル発動後：[/c]前列の味方ストライカーのEXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]After another {tag;TeaParty} Striker's EX Skill activation:[/c] Increases the EX Skill power of allied front-row Strikers by [c]1[/c]."
+        },
+        {
+            "Key": 1539742302,
+            "Kr": "게릴라",
+            "Jp": "ゲリラ",
+            "En": "Guerrilla"
+        },
+        {
+            "Key": 3210250803,
+            "Kr": "전열의 적에게 피해를 준다. 이후 카드를 [c]{param;DrawCardNum}[/c]장 뽑는다.\n\n\n[c][75b4c0][i]\"그 아이, 친구들과는 잘 어울리고 있나? 자주 웃고 있나? 그런가… 다행이다.\"\n- 블랙마켓의 용병, 익명[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、カードを[c]{param;DrawCardNum}[/c]枚引く。\n\n\n[c][75b4c0][i]「あの子はちゃんと笑えているだろうか？友人もできたのだろうか？……よかった」\n-ブラックマーケットの傭兵、匿名[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then draws [c]{param;DrawCardNum}[/c] cards.\n\n\n[c][75b4c0][i]\"Is that child getting along with friends? Smiling often? ...That's good.\" - Anonymous Black Market Mercenary[/i][-][/c]"
+        },
+        {
+            "Key": 3001647827,
+            "Kr": "협동 전술의 스페셜리스트",
+            "Jp": "協同戦術のスペシャリスト",
+            "En": "Specialist in Cooperative Tactics"
+        },
+        {
+            "Key": 3848622176,
+            "Kr": "[c]다른 {tag;MakeUpWork} 학생의 EX스킬 또는 SP스킬 발동 후:[/c] 카드를 [c]{param;DrawCardNum}[/c]장 뽑는다.",
+            "Jp": "[c]他{tag;MakeUpWork}生徒のEXスキルまたはSPスキル発動後：[/c]カードを[c]{param;DrawCardNum}[/c]枚引く。",
+            "En": "[c]After another {tag;MakeUpWork} student's EX Skill or SP Skill activation:[/c] Draw [c]{param;DrawCardNum}[/c] cards."
+        },
+        {
+            "Key": 643844334,
+            "Kr": "■■■■",
+            "Jp": "■■■■",
+            "En": "■■■■"
+        },
+        {
+            "Key": 231076403,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]무엇이든 될 수 있었기에, 아무것도 되지 않기로 한 소녀.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]何にでもなれるからこそ、何にもならないことを選んだ少女。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]A girl who chose to be nothing, precisely because she could be anything.[/i][-][/c]"
+        },
+        {
+            "Key": 2509451863,
+            "Kr": "음란한 책사",
+            "Jp": "淫らな策士",
+            "En": "Lewd Tactician"
+        },
+        {
+            "Key": 351059869,
+            "Kr": "[c]내 Phase 시작 시:[/c] 손패의 무작위 카드 [c]{param;CardNum}[/c]장의 코스트가 [c]1[/c] 감소한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]ランダムで手札のカード[c]{param;CardNum}[/c]枚のコストが[c]1[/c]減少する。",
+            "En": "[c]At the start of your phase:[/c] The cost of [c]{param;CardNum}[/c] random cards in your hand is reduced by [c]1[/c]."
+        },
+        {
+            "Key": 1412957469,
+            "Kr": "블러드 앤 건 파우더",
+            "Jp": "ブラッド＆ガンパウダー",
+            "En": "Blood & Gunpowder"
+        },
+        {
+            "Key": 2651504191,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]츠루기를 상대로 승산을 논하는 사람은 바보밖에 없다. 피할 수 있다 생각하는 사람은 그보다 더한 바보다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]ツルギに勝利できると思う者は愚かである。逃げ切れると思う者は、さらに愚かである。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]Anyone who thinks they can beat Tsurugi is a fool. Anyone who thinks they can escape her is an even bigger fool.[/i][-][/c]"
+        },
+        {
+            "Key": 3595383347,
+            "Kr": "핏빛 청춘",
+            "Jp": "血染めの青春",
+            "En": "Bloodstained Youth"
+        },
+        {
+            "Key": 2237998232,
+            "Kr": "[c]전열에 있을 때, 적이 피해를 받은 후 퇴각할 시:[/c] 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]前列にいる時、敵がダメージを受けた後、退却時に：[/c]HPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]When in the front row, after an enemy takes damage and retreats:[/c] Recover [c]{param;BasePower}[/c] HP."
+        },
+        {
+            "Key": 1699632679,
+            "Kr": "달리는 저격수",
+            "Jp": "走る狙撃手",
+            "En": "Running Sniper"
+        },
+        {
+            "Key": 2674858929,
+            "Kr": "전열의 적에게 피해를 준다. 이후 무작위 적에게 [c]{param;BonusAttackPower}[/c] 고정피해를 준다. [c]({param;AttackCount}회 반복)[/c]\n\n\n[c][75b4c0][i]선도부의 에이스 저격수. 불평불만을 말하면서도 누구보다 앞서가는 그 행동력은, 어쩌면 부장과 가장 닮았는지도.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、ランダムな敵に[c]{param;BonusAttackPower}[/c]の固定ダメージを与える。（[c]{param;AttackCount}[/c]回繰り返し）\n\n\n[c][75b4c0][i]風紀委員会の冷酷なスペシャリスト。文句を言いつつも誰よりも先頭に立つ彼女の行動力は、ひょっとすると委員長に一番近いのかもしれない。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then deals [c]{param;BonusAttackPower}[/c] fixed damage to a random enemy. ([c]{param;AttackCount}[/c] times)\n\n\n[c][75b4c0][i]The ace sniper of the Prefect Team. She complains, but always takes charge, and her drive makes her the closest thing to a committee chairman.[/i][-][/c]"
+        },
+        {
+            "Key": 523497518,
+            "Kr": "강골",
+            "Jp": "気骨の精神",
+            "En": "Indomitable Spirit"
+        },
+        {
+            "Key": 3746791027,
+            "Kr": "[c]피해를 받은 후:[/c] EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]ダメージを受けた時：[/c]EXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]After taking damage:[/c] EX Skill power increases by [c]1[/c]."
+        },
+        {
+            "Key": 3417920923,
+            "Kr": "무자비한 선도",
+            "Jp": "無慈悲な風紀指導",
+            "En": "Merciless Discipline"
+        },
+        {
+            "Key": 2135599211,
+            "Kr": "모든 적에게 피해를 준다. [c]({param;AttackCount}회 반복)[/c]\n\n\n[c][75b4c0][i]히나 없는 게헨나를 상상하기 어렵듯이, 게헨나 아닌 히나 역시 상상하기 어렵다.[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。（[c]{param;AttackCount}[/c]回繰り返し）\n\n\n[c][75b4c0][i]ヒナのいないゲヘナを想像できないように、ゲヘナではないヒナも想像できない。[/i][-][/c]",
+            "En": "Deals damage to all enemies. ([c]{param;AttackCount}[/c] times)\n\n\n[c][75b4c0][i]Just as it's hard to imagine Gehenna without Hina, it's hard to imagine Hina outside Gehenna.[/i][-][/c]"
+        },
+        {
+            "Key": 212149688,
+            "Kr": "만인이 두려워하는 파괴자",
+            "Jp": "恐怖の破壊者",
+            "En": "The Fearsome Destroyer"
+        },
+        {
+            "Key": 3485857018,
+            "Kr": "[c]전열에 있을 때, 적이 피해를 받은 후 퇴각할 시:[/c] 모든 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]前列にいる時、敵がダメージを受けた後、退却時に：[/c]すべての敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]When in the front row, after an enemy takes damage and retreats:[/c] Deals [c]{param;BasePower}[/c] damage to all enemies."
+        },
+        {
+            "Key": 3527625411,
+            "Kr": "성실한 대응",
+            "Jp": "誠実な対応",
+            "En": "Sincere Response"
+        },
+        {
+            "Key": 1997750136,
+            "Kr": "무작위 아군 스트라이커의 체력을 회복한다.\n\n\n[c][75b4c0][i]트리니티 종합학원에서는 항상 누군가 일을 만들고, 수습한다. 주로 후자 담당.[/i][-][/c]",
+            "Jp": "ランダムで味方ストライカーのHPを回復する。\n\n\n[c][75b4c0][i]トリニティ総合学園では常に誰かが問題を起こし、誰かが後始末をする。私が担当するのは主に後者。[/i][-][/c]",
+            "En": "Recovers HP of a random allied Striker.\n\n\n[c][75b4c0][i]At Trinity, someone always causes trouble and someone else cleans up. I'm usually the latter.[/i][-][/c]"
+        },
+        {
+            "Key": 2016158511,
+            "Kr": "넘치는 의욕",
+            "Jp": "やる気満々",
+            "En": "Overflowing Motivation"
+        },
+        {
+            "Key": 3069105627,
+            "Kr": "[c]다른 아군 스트라이커의 EX스킬 발동 후:[/c] 후열의 무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]他味方ストライカーのEXスキル発動後：[/c]ランダムで後列の敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]After another allied Striker's EX Skill activation:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy in the back row."
+        },
+        {
+            "Key": 4116459499,
+            "Kr": "역할 교체",
+            "Jp": "役割交替",
+            "En": "Role Switch"
+        },
+        {
+            "Key": 1184747526,
+            "Kr": "무작위 아군 스트라이커와 교대한다. 이후 체력이 가장 높은 적에게 [c]{param;SubPower}[/c] 고정피해를 준다.\n\n\n[c][75b4c0][i]인상이 무섭다는 소리를 들은 이후로, 밤마다 거울을 보며 웃는 연습을 하고 있다.[/i][-][/c]",
+            "Jp": "ランダムで味方ストライカーと交代する。その後、HPが最も高い敵に[c]{param;SubPower}[/c]の固定ダメージを与える。\n\n\n[c][75b4c0][i]顔が怖いと言われて以来、毎晩鏡の前で笑顔の練習をしている。[/i][-][/c]",
+            "En": "Switches with a random allied Striker. Then deals [c]{param;SubPower}[/c] fixed damage to the enemy with the highest HP.\n\n\n[c][75b4c0][i]After being told she looks scary, she practices smiling in the mirror every night.[/i][-][/c]"
+        },
+        {
+            "Key": 2490871187,
+            "Kr": "노련한 보조",
+            "Jp": "手慣れたサポート",
+            "En": "Seasoned Support"
+        },
+        {
+            "Key": 1931885401,
+            "Kr": "[c]내 Phase 시작 시:[/c] 무작위 아군 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]ランダムで味方ストライカーのHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] Recovers [c]{param;BasePower}[/c] HP of a random allied Striker."
+        },
+        {
+            "Key": 3217393232,
+            "Kr": "리틀 저스티스",
+            "Jp": "リトルジャスティス",
+            "En": "Little Justice"
+        },
+        {
+            "Key": 3182341508,
+            "Kr": "무작위 적에게 피해를 준다.\n\n\n[c][75b4c0][i]쉬고 싶을 때도, 놀고 싶을 때도 있지만, 의젓하게 순찰을 나서는 소녀.[/i][-][/c]",
+            "Jp": "ランダムな敵にダメージを与える。\n\n\n[c][75b4c0][i]休みたいときも、遊びたいときも、責任をもってパトロールをする少女。[/i][-][/c]",
+            "En": "Deals damage to a random enemy.\n\n\n[c][75b4c0][i]A girl who goes on patrol diligently, even when she wants to rest or play.[/i][-][/c]"
+        },
+        {
+            "Key": 530114861,
+            "Kr": "근면 성실",
+            "Jp": "勤勉努力",
+            "En": "Diligence"
+        },
+        {
+            "Key": 2216886365,
+            "Kr": "[c]적이 피해를 받은 후 퇴각할 시:[/c] 아군 전열 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]敵がダメージを受けた後、退却時：[/c]前列の味方ストライカーのHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]After an enemy takes damage and retreats:[/c] Recovers [c]{param;BasePower}[/c] HP of an allied front-row Striker."
+        },
+        {
+            "Key": 3335745312,
+            "Kr": "닌페로입니다! 닌닌!",
+            "Jp": "ニンペロです！ニンニン！",
+            "En": "It's Ninpero! Nin-nin!"
+        },
+        {
+            "Key": 1621612816,
+            "Kr": "[c][75b4c0][i]위기의 순간! 닌페로의 등장이외다![/i][-][/c]",
+            "Jp": "[c][75b4c0][i]危機の瞬間！ニンペロさんの登場である！[/i][-][/c]",
+            "En": "[c][75b4c0][i]A moment of crisis! Ninpero appears![/i][-][/c]"
+        },
+        {
+            "Key": 1040197214,
+            "Kr": "뭔가 짜증 나는 얼굴",
+            "Jp": "なんか腹立つ顔……",
+            "En": "Somehow an Annoying Face"
+        },
+        {
+            "Key": 2965092129,
+            "Kr": "[c][75b4c0][i]이게 중독성 있다는 평가도 있지만….[/i][-][/c]",
+            "Jp": "[c][75b4c0][i]中毒性があるという評価もあるようだが……。[/i][-][/c]",
+            "En": "[c][75b4c0][i]Some say this is addictive...[/i][-][/c]"
+        },
+        {
+            "Key": 2860342543,
+            "Kr": "돌격 전술",
+            "Jp": "突撃戦術",
+            "En": "Assault Tactics"
+        },
+        {
+            "Key": 1962256730,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]찌는 듯한 더위에도, 헬멧은 벗지 않는다! 그런 자신에 살짝 취해 있다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]どんなに蒸し暑くても、ヘルメットだけは外さない！そんな自分にちょっと酔っている。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]No matter how hot it gets, she never takes off her helmet! She's a little proud of that.[/i][-][/c]"
+        },
+        {
+            "Key": 996490709,
+            "Kr": "헬멧단 전술",
+            "Jp": "ヘルメット団の戦術",
+            "En": "Helmet Squad Tactics"
+        },
+        {
+            "Key": 1544184084,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]헬멧 사이에 냉팩을 넣어두었다. 이것이 간부의 요령.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]ヘルメットにこっそり保冷剤を入れる。これが幹部の知恵だ。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]Secretly puts a cold pack in her helmet. That's the trick of a squad leader.[/i][-][/c]"
+        },
+        {
+            "Key": 2694705232,
+            "Kr": "패거리 전술",
+            "Jp": "集団戦術",
+            "En": "Group Tactics"
+        },
+        {
+            "Key": 3706527418,
+            "Kr": "[c]다른 아군 스트라이커의 EX스킬 발동 후:[/c] 무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]他味方ストライカーのEXスキル発動後：[/c]ランダムな敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]After another allied Striker's EX Skill activation:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy."
+        },
+        {
+            "Key": 2127205669,
+            "Kr": "앞장서는 리더",
+            "Jp": "先頭に立つリーダー",
+            "En": "Leading Leader"
+        },
+        {
+            "Key": 3384273229,
+            "Kr": "전열의 적에게 피해를 준다. 이후, 후열의 모든 아군에게 보호막을 [c]{param;ShieldPower}[/c] 부여한다.\n\n\n[c][75b4c0][i]\"과연… 이 녀석의 처우는 정의실현부에 넘겨야겠네.\"\n- 게헨나의 선도부장, 소라사키 히나[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、後列のすべての味方にシールドを[c]{param;ShieldPower}[/c]付与する。\n\n\n[c][75b4c0][i]「なるほど……後は正義実現委員会に任せるわ」\n-ゲヘナの風紀委員長、空崎ヒナ[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then grants [c]{param;ShieldPower}[/c] shield to all allies in the back row.\n\n\n[c][75b4c0][i]\"I see... I'll leave the rest to the Justice Committee.\" - Hina, Prefect Team Leader of Gehenna[/i][-][/c]"
+        },
+        {
+            "Key": 1018715138,
+            "Kr": "퐁당퐁당 헬멧단의 리더",
+            "Jp": "ジャブジャブヘルメット団のリーダー",
+            "En": "Splash Helmet Squad Leader"
+        },
+        {
+            "Key": 3606491034,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신이 혼자 남았다면, 새로운 [c]{char;848015}[/c]이 합류한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身が一人残った場合、新しい[c]{char;848015}[/c]が合流する。",
+            "En": "[c]At the start of your phase:[/c] If you are left alone, a new [c]{char;848015}[/c] joins."
+        },
+        {
+            "Key": 677263657,
+            "Kr": "보상 이전에 성과를 먼저 보이세요",
+            "Jp": "働かざる者食うべからず！",
+            "En": "No work, no reward!"
+        },
+        {
+            "Key": 4174554070,
+            "Kr": "빈 스트라이커 공간에 체력이 [c]1[/c]인 무작위 오토마타를 [c]{param;SpawnNum}[/c]개 소환하고, 보호막을 [c]{param;SubPower}[/c] 부여한다. 이후 다른 아군 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]\"요즘 애들은 헝그리 정신이 없어. 일하게 해주면 고마운 줄 알아야지. 나 때는 1시간 일찍 출근해서 화분에 물을 주고….\"[/i][-][/c]",
+            "Jp": "空いたストライカーのスペースにHPが[c]1[/c]のランダムなオートマタを[c]{param;SpawnNum}[/c]個召喚し、シールドを[c]{param;SubPower}[/c]付与する。その後、他味方ストライカーと交代する。\n\n\n[c][75b4c0][i]「これだから最近の若者は！働かせてもらっていることに感謝しなさい。私が若い頃は始業時間より1時間早く出社して花壇に水を――」[/i][-][/c]",
+            "En": "Summon [c]{param;SpawnNum}[/c] random Automata with [c]1[/c] HP in empty Striker spaces and grant them [c]{param;SubPower}[/c] shield. Then switch with another allied Striker.\n\n\n[c][75b4c0][i]\"Kids these days lack hunger. They should be grateful for the chance to work. Back in my day, I arrived an hour early to water the flowerbeds...\"[/i][-][/c]"
+        },
+        {
+            "Key": 829044618,
+            "Kr": "임금은 법정 최저에 포괄입니다",
+            "Jp": "手当込みの最低賃金",
+            "En": "Minimum wage including allowances"
+        },
+        {
+            "Key": 2742386328,
+            "Kr": "[c]내 Phase 종료 시:[/c] 다른 모든 아군 스트라이커에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]他のすべての味方ストライカーに[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]At the end of your phase:[/c] Deals [c]{param;BasePower}[/c] damage to all other allied Strikers."
+        },
+        {
+            "Key": 593934017,
+            "Kr": "의욕 넘치는 사격",
+            "Jp": "意欲に満ちた射撃",
+            "En": "Motivated Shooting"
+        },
+        {
+            "Key": 4174554610,
+            "Kr": "무작위 적에게 피해를 준다.\n\n\n[c][75b4c0][i]야심 차게 시작한 용병 일이지만, 사회의 쓴맛을 보고 좌절 중인 신참 용병.[/i][-][/c]",
+            "Jp": "ランダムな敵にダメージを与える。\n\n\n[c][75b4c0][i]野心に燃えて傭兵業を始めたものの、現実の壁にぶつかり挫折している新米[/i][-][/c]",
+            "En": "Deals damage to a random enemy.\n\n\n[c][75b4c0][i]A rookie mercenary who started out ambitious, but is now disillusioned by the harsh realities of society.[/i][-][/c]"
+        },
+        {
+            "Key": 3368125977,
+            "Kr": "패기 넘치는 대응",
+            "Jp": "覇気に満ちた対応",
+            "En": "Confident Response"
+        },
+        {
+            "Key": 3631717719,
+            "Kr": "[c]피해를 받은 후:[/c] 무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]ダメージを受けた後：[/c]ランダムな敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]After taking damage:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy."
+        },
+        {
+            "Key": 264258694,
+            "Kr": "노련한 사격",
+            "Jp": "手慣れた射撃",
+            "En": "Skilled Shooting"
+        },
+        {
+            "Key": 1175820112,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]여러 블랙을 경험한 끝에, 여기 정도면 나쁘지 않다는 결론을 내린 고참 용병.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]多くの不条理を経験した末に、居場所を見つけて落ち着き始めた古参傭兵[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]A veteran mercenary who, after many hardships, has finally found a place to settle down.[/i][-][/c]"
+        },
+        {
+            "Key": 2596036105,
+            "Kr": "프로페셔널한 대응",
+            "Jp": "プロフェッショナルな対応",
+            "En": "Professional Response"
+        },
+        {
+            "Key": 4195242012,
+            "Kr": "[c]피해를 받은 후:[/c] [c]{char;848018}[/c]에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]ダメージを受けた後：[/c][c]{char;848018}[/c]にシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]After taking damage:[/c] Grants [c]{param;BasePower}[/c] shield to [c]{char;848018}[/c]."
+        },
+        {
+            "Key": 2168937218,
+            "Kr": "인피니트 초밥 스톰 토네이도",
+            "Jp": "インフィニット寿司ストームトルネード",
+            "En": "Infinite Sushi Storm Tornado"
+        },
+        {
+            "Key": 3578644684,
+            "Kr": "[c]{skill;8480219}[/c]의 효과가 발동되어야 EX스킬을 사용할 수 있다.\n\n모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]무한히 회전하는 레일은 이윽고 정의의 미래로 이어진다![/i][-][/c]",
+            "Jp": "[c]{skill;8480219}[/c]の効果発動後、EXスキルを使用できる。\n\nすべての敵にダメージを与える。\n\n\n[c][75b4c0][i]回り続けるレールはやがて、正義の未来へと繋がる！[/i][-][/c]",
+            "En": "[c]{skill;8480219}[/c] must be activated to use EX Skill.\n\nDeals damage to all enemies.\n\n\n[c][75b4c0][i]The ever-turning rails will eventually lead to the future of justice![/i][-][/c]"
+        },
+        {
+            "Key": 4135014754,
+            "Kr": "마지막에는 정의가 승리하는 법!",
+            "Jp": "最後は正義が勝つ！",
+            "En": "In the end, justice always wins!"
+        },
+        {
+            "Key": 1408075034,
+            "Kr": "[c]게임 시작 시:[/c] 이 스트라이커는 EX스킬을 사용할 수 없다. 자신이 혼자 남게 되었다면, 이후 EX스킬을 사용할 수 있다.",
+            "Jp": "[c]ゲーム開始時：[/c]このストライカーはEXスキルが使用できない。自身が一人残った場合、EXスキルを使用できる。",
+            "En": "[c]At the start of the game:[/c] This Striker cannot use EX Skills. If left alone, can use EX Skills."
+        },
+        {
+            "Key": 1430083513,
+            "Kr": "카이텐 포즈! 냉철의 블랙!",
+            "Jp": "カイテンポーズ！冷徹なブラック！",
+            "En": "Kaiten Pose! Cool-headed Black!"
+        },
+        {
+            "Key": 1025653715,
+            "Kr": "다른 모든 아군의 체력을 회복하고, 다른 모든 아군의 EX스킬 위력이 [c]3[/c] 증가한다. 이후 자신은 퇴각한다.\n\n\n[c][75b4c0][i]과묵하고 미스테리한 팀의 정신적 지주, 라는 프로필과 달리 생각보다 말이 많다.[/i][-][/c]",
+            "Jp": "他のすべての味方のHPを回復し、他のすべての味方のEXスキルの威力が[c]3[/c]増加する。その後、自身は退却する。\n\n\n[c][75b4c0][i]口数が少なく、ミステリアスなチームの心の支え……とプロフィールにはあったが、わりとおしゃべり。[/i][-][/c]",
+            "En": "Recovers HP of all other allies and increases their EX Skill power by [c]3[/c]. Then retreats.\n\n\n[c][75b4c0][i]Despite the reputation of being a quiet, mysterious team anchor, she actually talks quite a lot.[/i][-][/c]"
+        },
+        {
+            "Key": 2050694444,
+            "Kr": "근로시간 관리로 인해 조기퇴근 합니다",
+            "Jp": "勤怠調整のため早退します",
+            "En": "Leaving early due to work hour adjustment"
+        },
+        {
+            "Key": 3669633875,
+            "Kr": "다른 모든 아군의 체력을 회복하고, 다른 모든 아군의 EX스킬 위력이 [c]3[/c] 증가한다. 이후 자신은 퇴각한다.\n\n\n[c][75b4c0][i](이슈 발생 시 노티 주시면 익일 확인하겠습니다.)[/i][-][/c]",
+            "Jp": "他のすべての味方のHPを回復し、他のすべての味方のEXスキルの威力が[c]3[/c]増加する。その後、自身は退却する。\n\n\n[c][75b4c0][i]（問題が発生したらお知らせください。翌日確認します）[/i][-][/c]",
+            "En": "Recovers HP of all other allies and increases their EX Skill power by [c]3[/c]. Then retreats.\n\n\n[c][75b4c0][i](If any issues occur, please notify me and I'll check the next day.)[/i][-][/c]"
+        },
+        {
+            "Key": 3698212563,
+            "Kr": "카이텐 포즈! 순정의 핑크!",
+            "Jp": "カイテンポーズ！純情のピンク！",
+            "En": "Kaiten Pose! Pure-hearted Pink!"
+        },
+        {
+            "Key": 1126956015,
+            "Kr": "다른 모든 아군의 체력을 회복하고, 다른 모든 아군의 EX스킬 위력이 [c]3[/c] 증가한다. 이후 자신은 퇴각한다.\n\n\n[c][75b4c0][i]친구들을 내버려둘 수 없어서 함께 하고 있지만, 정작 본인만 진지한 듯하여 좀 섭섭하다.[/i][-][/c]",
+            "Jp": "他のすべての味方のHPを回復し、他のすべての味方のEXスキルの威力が[c]3[/c]増加する。その後、自身は退却する。\n\n\n[c][75b4c0][i]友達を放っておけず一緒に行動しているが、自分だけが真剣にやっている気がしている。[/i][-][/c]",
+            "En": "Recovers HP of all other allies and increases their EX Skill power by [c]3[/c]. Then retreats.\n\n\n[c][75b4c0][i]She can't leave her friends behind, but feels she's the only one taking things seriously.[/i][-][/c]"
+        },
+        {
+            "Key": 1792401426,
+            "Kr": "카이텐 포즈! 열혈의 레드!",
+            "Jp": "カイテンポーズ！熱血のレッド！",
+            "En": "Kaiten Pose! Hot-blooded Red!"
+        },
+        {
+            "Key": 4158848476,
+            "Kr": "다른 모든 아군의 체력을 회복하고, 다른 모든 아군의 EX스킬 위력이 [c]3[/c] 증가한다. 이후 자신은 퇴각한다.\n\n\n[c][75b4c0][i]오늘도 키보토스의 정의를 위해, 악과 싸운다! …라고 주장하는 현상수배범. 그 마음에 거짓은 없다, 아마도.[/i][-][/c]",
+            "Jp": "他のすべての味方のHPを回復し、他のすべての味方のEXスキルの威力が[c]3[/c]増加する。その後、自身は退却する。\n\n\n[c][75b4c0][i]今日もキヴォトスの正義のために、悪と戦う！……と主張する指名手配犯。その志に偽りはない、多分。[/i][-][/c]",
+            "En": "Recovers HP of all other allies and increases their EX Skill power by [c]3[/c]. Then retreats.\n\n\n[c][75b4c0][i]Claims to fight evil for Kivotos' justice every day! ...as a wanted criminal. Her intentions are probably genuine.[/i][-][/c]"
+        },
+        {
+            "Key": 2042376938,
+            "Kr": "카이텐 포즈! 열정의 옐로!",
+            "Jp": "カイテンポーズ！気合のイエロー！",
+            "En": "Kaiten Pose! Passionate Yellow!"
+        },
+        {
+            "Key": 2396972796,
+            "Kr": "다른 모든 아군의 체력을 회복하고, 다른 모든 아군의 EX스킬 위력이 [c]3[/c] 증가한다. 이후 자신은 퇴각한다.\n\n\n[c][75b4c0][i]즐거운 여가 생활을 구가하는 중. 의외로 평소에는 착실한 모범생.[/i][-][/c]",
+            "Jp": "他のすべての味方のHPを回復し、他のすべての味方のEXスキルの威力が[c]3[/c]増加する。その後、自身は退却する。\n\n\n[c][75b4c0][i]楽しい余暇を謳歌している。意外と普段は真面目な優等生。[/i][-][/c]",
+            "En": "Recovers HP of all other allies and increases their EX Skill power by [c]3[/c]. Then retreats.\n\n\n[c][75b4c0][i]Enjoys her leisure time. Surprisingly, she's usually a diligent honor student.[/i][-][/c]"
+        },
+        {
+            "Key": 3597520622,
+            "Kr": "텅텅!",
+            "Jp": "ガラガラ！",
+            "En": "Empty!"
+        },
+        {
+            "Key": 2332449769,
+            "Kr": "[c][75b4c0][i]안에는 아무것도 없다.[/i][-][/c]",
+            "Jp": "[c][75b4c0][i]中には何もない。[/i][-][/c]",
+            "En": "[c][75b4c0][i]There's nothing inside.[/i][-][/c]"
+        },
+        {
+            "Key": 1585532255,
+            "Kr": "퉁퉁!",
+            "Jp": "ドンドン！",
+            "En": "Thump thump!"
+        },
+        {
+            "Key": 359109910,
+            "Kr": "[c]내 Phase 시작 시:[/c] [c]{char;848027}[/c]을 제외한 모든 아군이 퇴각했다면, 자신도 퇴각한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c][c]{char;848027}[/c]を除くすべての味方が退却した場合、自身も退却する。",
+            "En": "[c]At the start of your phase:[/c] If all allies except [c]{char;848027}[/c] have retreated, you retreat as well."
+        },
+        {
+            "Key": 3511001476,
+            "Kr": "위풍당당한 자태",
+            "Jp": "威風堂々たる姿",
+            "En": "Majestic Appearance"
+        },
+        {
+            "Key": 1129966233,
+            "Kr": "자신에게 피해를 준다. 이후 자신이 잃은 체력만큼 보호막을 얻는다.\n\n\n[c][75b4c0][i]바보.[/i][-][/c]",
+            "Jp": "自身にダメージを与える。その後、自身が失ったHP分のシールドを獲得する。\n\n\n[c][75b4c0][i]バカ。[/i][-][/c]",
+            "En": "Deals damage to self. Then gains shield equal to HP lost.\n\n\n[c][75b4c0][i]Idiot.[/i][-][/c]"
+        },
+        {
+            "Key": 529834080,
+            "Kr": "민폐입니다",
+            "Jp": "迷惑です",
+            "En": "It's a nuisance"
+        },
+        {
+            "Key": 2304976140,
+            "Kr": "[c]내 Phase 종료 시:[/c] 자신이 잃은 체력만큼 적 전열에 피해를 준다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]自身が失ったHP分のダメージを敵の前列に与える。",
+            "En": "[c]At the end of your phase:[/c] Deals damage to the enemy front row equal to HP lost."
+        },
+        {
+            "Key": 4109112100,
+            "Kr": "콰앙!!",
+            "Jp": "ドカン！！",
+            "En": "Boom!!"
+        },
+        {
+            "Key": 4015010782,
+            "Kr": "모든 적에게 피해를 준다. 자신은 퇴각한다.\n\n\n[c][75b4c0][i]\"다이너마이트에 '너무 많이'라는 말은 붙지 않는다고?\"\n- 온천개발부의 부장, 키누가와 카스미[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。自身は退却する。\n\n\n[c][75b4c0][i]「爆破に「過剰」という言葉はない！」\n-温泉開発部の部長、鬼怒川カスミ[/i][-][/c]",
+            "En": "Deals damage to all enemies. Retreats.\n\n\n[c][75b4c0][i]\"There's no such thing as 'too much' when it comes to dynamite!\" - Kinugawa Kasumi, Head of the Hot Spring Development Department[/i][-][/c]"
+        },
+        {
+            "Key": 3340405362,
+            "Kr": "타들어 가는 밧줄",
+            "Jp": "燃え盛る綱",
+            "En": "Burning Rope"
+        },
+        {
+            "Key": 2518778292,
+            "Kr": "[c]내 Phase 시작 시:[/c] EX스킬 위력이 [c]1[/c] 증가한다.\n\n[c]자신이 피해를 입어 퇴각 시:[/c] EX스킬 위력만큼 다른 아군 스트라이커에게 피해를 준다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]EXスキルの威力が[c]1[/c]増加する。\n\n[c]自身がダメージを受けて退却時：[/c]EXスキルの威力分、他味方ストライカーにダメージを与える。",
+            "En": "[c]At the start of your phase:[/c] EX Skill power increases by [c]1[/c].\n\n[c]When you retreat due to damage:[/c] Deals damage to other allied Strikers equal to EX Skill power."
+        },
+        {
+            "Key": 565365154,
+            "Kr": "내가 나서는 수밖에",
+            "Jp": "私が出るしか",
+            "En": "I have no choice but to step up"
+        },
+        {
+            "Key": 214409855,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"뭐야, 저 녀석들, 약해 보이는데?\"[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「何だ、あいつら弱そうだな？」[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"What? Those guys look weak!\"[/i][-][/c]"
+        },
+        {
+            "Key": 1913179731,
+            "Kr": "어쩐지 좋은 분위기",
+            "Jp": "なんとなくいい感じ",
+            "En": "Somehow a good vibe"
+        },
+        {
+            "Key": 1713796781,
+            "Kr": "[c]내 Phase 종료 시:[/c] 전열 아군의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]前列の味方のHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the end of your phase:[/c] Recovers [c]{param;BasePower}[/c] HP of allied front row."
+        },
+        {
+            "Key": 3074728713,
+            "Kr": "나서야 한다면 내가",
+            "Jp": "やるのなら私が",
+            "En": "If someone has to do it, I'll do it"
+        },
+        {
+            "Key": 2648436727,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"그냥 내가 해치워버려도 상관없지?\"[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「やっちまっても構わないよな？」[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"It's fine if I just take care of them, right?\"[/i][-][/c]"
+        },
+        {
+            "Key": 2756961291,
+            "Kr": "왠지 될 거 같은 느낌",
+            "Jp": "なんかいけそうな感じ",
+            "En": "Feels like it'll work out"
+        },
+        {
+            "Key": 3441096829,
+            "Kr": "[c]내 Phase 시작 시:[/c] 이번 Phase 동안 전열 아군의 EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]今回のフェーズの間、前列の味方のEXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the start of your phase:[/c] Allied front row EX Skill power increases by [c]1[/c] this phase."
+        },
+        {
+            "Key": 3765696709,
+            "Kr": "내가 활약할 시점인가",
+            "Jp": "私が活躍する番だ",
+            "En": "Is it my time to shine?"
+        },
+        {
+            "Key": 3403442927,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"아아~ 이런 곳에서 드러내고 싶지 않았는데!\"[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「あぁ～こんなところで表に出したくなかったのによ！」[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"Ah~ I didn't want to show off here!\"[/i][-][/c]"
+        },
+        {
+            "Key": 1189260455,
+            "Kr": "적당한 타이밍의 맞장구",
+            "Jp": "タイミング完璧のサポート",
+            "En": "Perfectly timed support"
+        },
+        {
+            "Key": 1427289709,
+            "Kr": "[c]내 Phase 종료 시:[/c] 다른 무작위 아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]ランダムで他味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the end of your phase:[/c] Grants [c]{param;BasePower}[/c] shield to another random allied Striker."
+        },
+        {
+            "Key": 1906458844,
+            "Kr": "언니 몰래 가져온 중기관총",
+            "Jp": "内緒で持ってきたヘビーマシンガン",
+            "En": "Heavy machine gun brought secretly from my sister"
+        },
+        {
+            "Key": 1117978599,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"불량배 중에는 스케반이라 자칭하는 무리가 있습니다! 도대체 어떤 차이인지, 본관은 잘….\"\n- 발키리 경찰학교의 생활안전국, 나카츠카사 키리노[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「不良の中にはスケバンを名乗るものもいます！一体どういう違いがあるのか、本官にはちょっと……」\n-ヴァルキューレ警察学校、生活安全局、中務キリノ[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"Some delinquents call themselves Sukeban! I don't really know the difference myself...\" - Nakatsukasa Kirino , Valkyrie Police Academy, Public Safety Bureau[/i][-][/c]"
+        },
+        {
+            "Key": 2452800856,
+            "Kr": "안전 시공",
+            "Jp": "安全施工",
+            "En": "Safe Construction"
+        },
+        {
+            "Key": 62152871,
+            "Kr": "[c]내 Phase 종료 시:[/c] 아군 [c]{char;848029}[/c] 카드에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]味方の[c]{char;848029}[/c]カードにシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the end of your phase:[/c] Grants [c]{param;BasePower}[/c] shield to allied [c]{char;848029}[/c] card."
+        },
+        {
+            "Key": 4256775519,
+            "Kr": "황산천, 발파!",
+            "Jp": "硫酸泉、発破！",
+            "En": "Sulfur Spring, Blast!"
+        },
+        {
+            "Key": 2277020639,
+            "Kr": "후열의 적에게 피해를 준다. 이후 [c]{char;848029}[/c] 카드를 [c]1[/c]개 소환한다.\n\n\n[c][75b4c0][i]온천개발부의 두 번째 모토는 폭파 만능주의다.[/i][-][/c]",
+            "Jp": "後列の敵にダメージを与える。その後、[c]{char;848029}[/c]カードを[c]1[/c]枚召喚する。\n\n\n[c][75b4c0][i]温泉開発部の第二のモットーは、「爆破こそ万能である」だ。[/i][-][/c]",
+            "En": "Deals damage to enemies in the back row. Then summons [c]1[/c] [c]{char;848029}[/c] card.\n\n\n[c][75b4c0][i]The second motto of the Hot Spring Development Club is 'Explosion solves everything.'[/i][-][/c]"
+        },
+        {
+            "Key": 1827505386,
+            "Kr": "폭파 해체",
+            "Jp": "爆破解体",
+            "En": "Demolition Blast"
+        },
+        {
+            "Key": 2286455285,
+            "Kr": "[c]내 Phase 종료 시:[/c] 모든 [c]{char;848029}[/c]에게 보호막을 무시하고 피해를 [c]{param;BasePower}[/c] 준다. 이후 모든 [c]{char;848029}[/c] 카드의 EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]すべての[c]{char;848029}[/c]にシールドを無視するダメージを[c]{param;BasePower}[/c]与える。その後、すべての[c]{char;848029}[/c]カードのEXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the end of your phase:[/c] Deals [c]{param;BasePower}[/c] damage to all [c]{char;848029}[/c], ignoring shield. Then increases EX Skill power of all [c]{char;848029}[/c] cards by [c]1[/c]."
+        },
+        {
+            "Key": 1485474042,
+            "Kr": "비정한 시식평",
+            "Jp": "容赦なき食レポ",
+            "En": "Merciless Food Review"
+        },
+        {
+            "Key": 4139891424,
+            "Kr": "무작위 적에게 [c]{param;Min}~{param;Max}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]충동적이고 예측할 수 없으며, 행동 과정에 발생하는 어떤 희생도 감수하는 요주의 인물.'\n- 선도부장의 메모[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;Min}～{param;Max}[/c]ダメージを与える。\n\n\n[c][75b4c0][i]行動が読めず、どんな犠牲でも甘んじて受け入れる、要注意人物。\n-風紀委員長のメモ[/i][-][/c]",
+            "En": "Deals [c]{param;Min}~{param;Max}[/c] damage to a random enemy.\n\n\n[c][75b4c0][i]An unpredictable person who accepts any sacrifice in the course of action. - Prefect Team Leader's Memo[/i][-][/c]"
+        },
+        {
+            "Key": 4089208226,
+            "Kr": "EAT or DIE",
+            "Jp": "EAT OR DIE",
+            "En": "EAT OR DIE"
+        },
+        {
+            "Key": 1540816638,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신에게 [c]{param;Min}~{param;Max}[/c] 피해를 주고, 체력을 [c]{param;Min}~{param;Max}[/c] 회복한다. 자신의 체력이 감소했을 경우, 다른 모든 스트라이커에게 그만큼 피해를 준다. 자신의 체력이 증가했을 경우, 다른 모든 스트라이커의 체력을 그만큼 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身に[c]{param;Min}～{param;Max}[/c]ダメージを与え、HPを[c]{param;Min}～{param;Max}[/c]回復する。自身のHPが減少した場合、他のすべてのストライカーに減少値分のダメージを与える。自身のHPが増加した場合、他のすべてのストライカーのHPを増加分回復する。",
+            "En": "[c]At the start of your phase:[/c] Deals [c]{param;Min}~{param;Max}[/c] damage to self and recovers [c]{param;Min}~{param;Max}[/c] HP. If HP decreased, deals that amount of damage to all other Strikers. If HP increased, recovers that amount for all other Strikers."
+        },
+        {
+            "Key": 3741886068,
+            "Kr": "보기에도 괴로운 식성",
+            "Jp": "独特な食のセンス",
+            "En": "A Painful Appetite Even to Watch"
+        },
+        {
+            "Key": 2549347011,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]지옥으로 가는 길은 선의로 포장되어 있다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]地獄への道は善意で舗装されている。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]The road to hell is paved with good intentions.[/i][-][/c]"
+        },
+        {
+            "Key": 1460733428,
+            "Kr": "디럭스 초코 햄버거(새우젓 첨가)",
+            "Jp": "デラックスチョコハンバーガー！（塩辛入り）",
+            "En": "Deluxe Choco Hamburger (with salted shrimp)"
+        },
+        {
+            "Key": 2455668066,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 [c]{param;ConditionNum}[/c] 이하라면, 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPが[c]{param;ConditionNum}[/c]以下であれば、HPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is [c]{param;ConditionNum}[/c] or less, recover [c]{param;BasePower}[/c] HP."
+        },
+        {
+            "Key": 767160069,
+            "Kr": "확 먹어버릴까요☆",
+            "Jp": "パクッと食べちゃいましょうか★",
+            "En": "Shall I just eat it up☆"
+        },
+        {
+            "Key": 2252755850,
+            "Kr": "모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]그 어느 때에도 여유를 잃지 않는 학생. 일각에서는 하루나보다 위험하다는 평이 있기도…?[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。\n\n\n[c][75b4c0][i]どんな時でも余裕を失わない生徒。一部では、ハルナより危険という説も……。[/i][-][/c]",
+            "En": "Deals damage to all enemies.\n\n\n[c][75b4c0][i]A student who never loses composure. Some say she is even more dangerous than Haruna...[/i][-][/c]"
+        },
+        {
+            "Key": 2359935596,
+            "Kr": "대식가이자 미식가",
+            "Jp": "大食いの美食家",
+            "En": "Big Eater and Gourmet"
+        },
+        {
+            "Key": 1185238083,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 가득 차 있지 않다면, EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPがMAXでなければ、EXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is not full, EX Skill power increases by [c]1[/c]."
+        },
+        {
+            "Key": 4248787753,
+            "Kr": "미식은 나누면 두 배!",
+            "Jp": "美食は分け合えば尚良し！",
+            "En": "Gourmet is Better Shared!"
+        },
+        {
+            "Key": 4196376057,
+            "Kr": "전열의 적에게 피해를 준다. 이후 자신과 체력이 가장 낮은 다른 아군의 체력을 [c]{param;SubPower}[/c] 회복한다.\n\n\n[c][75b4c0][i]이러니저러니, 항상 미식연구회와 함께하는 그녀도 충분히 괴짜다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、自身とHPが最も低い他味方のHPを[c]{param;SubPower}[/c]回復する。\n\n\n[c][75b4c0][i]何はともあれ、いつも美食研究会と行動を共にする彼女も十分変わり者である。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then recovers [c]{param;SubPower}[/c] HP for self and the ally with the lowest HP.\n\n\n[c][75b4c0][i]Whatever the case, she's quite the oddball, always with the Gourmet Research Club.[/i][-][/c]"
+        },
+        {
+            "Key": 1607380193,
+            "Kr": "또 나만 못 먹는 건 아니지?!",
+            "Jp": "また私だけ食べられないの！？",
+            "En": "I'm not the only one who can't eat again, right?!"
+        },
+        {
+            "Key": 3067817325,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 가장 낮다면 전열로 이동한다. 이후 자신의 체력이 [c]{param;ConditionNum}[/c] 이하일 경우 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPが最も低い場合は前列に移動する。その後、自身のHPが[c]{param;ConditionNum}[/c]以下の場合、シールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is the lowest, move to the front row. Then, if your HP is [c]{param;ConditionNum}[/c] or less, grant [c]{param;BasePower}[/c] shield."
+        },
+        {
+            "Key": 2534024763,
+            "Kr": "초상권은 언론 탄압입니다!",
+            "Jp": "肖像権は言論弾圧です！",
+            "En": "Portrait rights are media suppression!"
+        },
+        {
+            "Key": 2944040695,
+            "Kr": "전열의 적에게 피해를 준다. 이후 후열의 모든 적에게 [c]{param;SubPower}[/c] 고정피해를 준다.\n\n\n[c][75b4c0][i]\"모든 학생에게는 진실을 알 권리가 있다!\"\n오늘도 신념과 긍지를 품고 진실을 쫓는 열혈 저널리스트. 진위는 둘째치고.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、後列のすべての敵に[c]{param;SubPower}[/c]固定ダメージを与える。\n\n\n[c][75b4c0][i]「すべての生徒には真実を知る権利がある！」\n今日も信念と誇りを持って真実に迫る熱血なジャーナリスト。真偽はさておき……。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then deals [c]{param;SubPower}[/c] fixed damage to all enemies in the back row.\n\n\n[c][75b4c0][i]\"Every student has the right to know!\" A passionate journalist chasing her scoop with conviction and pride. Whether it's true or not is another matter.[/i][-][/c]"
+        },
+        {
+            "Key": 2946859309,
+            "Kr": "파파라치가 아니라 저널리즘!",
+            "Jp": "パパラッチじゃなくてジャーナリズムです！",
+            "En": "It's journalism, not paparazzi!"
+        },
+        {
+            "Key": 3688516337,
+            "Kr": "[c]내 Phase 시작 시:[/c] 가장 체력이 낮은 적 스트라이커를 전열로 불러낸다. 이후 자신이 후열에 있다면 전열로 이동한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]HPが最も低い敵ストライカーを前列に呼び出す。その後、自身が後列にいる場合は、前列に移動する。",
+            "En": "[c]At the start of your phase:[/c] Calls the enemy Striker with the lowest HP to the front row. Then, if you are in the back row, move to the front row."
+        },
+        {
+            "Key": 908588153,
+            "Kr": "현장에 있는 아나운서 나와주세요!",
+            "Jp": "現場にいるアナウンサー、応答してください！",
+            "En": "Announcer on the scene, please respond!"
+        },
+        {
+            "Key": 2292202966,
+            "Kr": "전열의 적에게 피해를 준다. 이후 무작위 아군 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]\"매스 미디어는 엔터테인먼트다!\"\n오늘도 키보토스 학생들에게 오락거리를 제공하기 위해 분주한 저널리스트. 진위는 둘째치고.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、ランダムな味方ストライカーと交代する。\n\n\n[c][75b4c0][i]「マスメディアは、エンターテイメントだ!」\n今日もキヴォトスの生徒たちに娯楽を与えようと、各地を奔走するジャーナリスト。真偽はさておき……。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then switches with a random allied Striker.\n\n\n[c][75b4c0][i]\"Mass media is entertainment!\" A busy journalist providing fun for Kivotos students. Whether it's true or not is another matter.[/i][-][/c]"
+        },
+        {
+            "Key": 3396303798,
+            "Kr": "레디, 액션!",
+            "Jp": "レディ、アクション！",
+            "En": "Ready, Action!"
+        },
+        {
+            "Key": 4249224260,
+            "Kr": "[c]내 Phase 시작 시:[/c] 이번 Phase 동안 전열 스트라이커의 EX스킬 위력이 [c]2[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]今回のフェーズの間、前列のストライカーのEXスキルの威力が[c]2[/c]増加する。",
+            "En": "[c]At the start of your phase:[/c] EX Skill power of front row Strikers increases by [c]2[/c] this phase."
+        },
+        {
+            "Key": 551860412,
+            "Kr": "스플릿",
+            "Jp": "スプリット",
+            "En": "Split"
+        },
+        {
+            "Key": 1953962774,
+            "Kr": "후열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]오디세이아 해양학원의 문제아 집단, <골든 플리스 호>의 학생들.[/i][-][/c]",
+            "Jp": "後列の敵にダメージを与える。\n\n\n[c][75b4c0][i]オデュッセイア海洋高等学校の問題児集団、「ゴールデンフリース号」の生徒たち。[/i][-][/c]",
+            "En": "Deals damage to enemies in the back row.\n\n\n[c][75b4c0][i]The troublemakers of Odyssey Marine Academy, students of the Golden Fleece.[/i][-][/c]"
+        },
+        {
+            "Key": 3993713454,
+            "Kr": "타이트 플레이어",
+            "Jp": "タイトプレイヤー",
+            "En": "Tight Player"
+        },
+        {
+            "Key": 1830076469,
+            "Kr": "[c]다른 아군 스트라이커가 피해를 받은 후:[/c] 후열에 있는 스트라이커에게 공격받았다면, 공격받은 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]他味方ストライカーがダメージを受けた後：[/c]後列にいるストライカーに攻撃された場合、攻撃されたストライカーのHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]After another allied Striker takes damage:[/c] If attacked in the back row, recover [c]{param;BasePower}[/c] HP of the attacked Striker."
+        },
+        {
+            "Key": 2590465333,
+            "Kr": "히트",
+            "Jp": "ヒット",
+            "En": "Hit"
+        },
+        {
+            "Key": 3320968227,
+            "Kr": "모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]바다에 빠지기라도 한 듯이 온몸이 축축하게 젖어 있다.[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。\n\n\n[c][75b4c0][i]海に落ちたかのように全身がびしょびしょだ。[/i][-][/c]",
+            "En": "Deals damage to all enemies.\n\n\n[c][75b4c0][i]Soaked all over as if she fell into the sea.[/i][-][/c]"
+        },
+        {
+            "Key": 4162277739,
+            "Kr": "올인",
+            "Jp": "オールイン",
+            "En": "All In"
+        },
+        {
+            "Key": 2788686513,
+            "Kr": "[c]내 Phase 시작 시:[/c] 이 카드가 필드에 홀로 남았다면 EX스킬 위력이 [c]3[/c] 증가한다. [c](게임당 1번)[/c]",
+            "Jp": "[c]自分のフェーズ開始時：[/c]このカードがフィールドに1枚残った場合、EXスキルの威力が[c]3[/c]増加する。[c]（ゲーム当たり1回）[/c]",
+            "En": "[c]At the start of your phase:[/c] If this card is the only one left on the field, EX Skill power increases by [c]3[/c]. [c](Once per game)[/c]"
+        },
+        {
+            "Key": 781823158,
+            "Kr": "레드 오어 블랙",
+            "Jp": "レッド・オア・ブラック",
+            "En": "Red or Black"
+        },
+        {
+            "Key": 887567173,
+            "Kr": "무작위 적에게 피해를 준다. 대상이 후열의 적일 경우, [c]{param;Multiply}[/c]배의 피해를 준다.\n\n\n[c][75b4c0][i]아무렇지 않은 척하고 있지만, 사실은 바니걸 차림이 좀 부끄럽다.[/i][-][/c]",
+            "Jp": "ランダムな敵にダメージを与える。対象が後列の敵である場合、[c]{param;Multiply}[/c]倍のダメージを与える。\n\n\n[c][75b4c0][i]平気なふりをしているが、本当はバニーガール姿がちょっと恥ずかしい模様。[/i][-][/c]",
+            "En": "Deals damage to a random enemy. If the target is in the back row, deals [c]{param;Multiply}[/c] times the damage.\n\n\n[c][75b4c0][i]Pretends not to mind, but is actually embarrassed by the bunny girl outfit.[/i][-][/c]"
+        },
+        {
+            "Key": 583049865,
+            "Kr": "뭉치면 산다",
+            "Jp": "協力すれば生還できる",
+            "En": "Survive Together"
+        },
+        {
+            "Key": 2774820117,
+            "Kr": "[c]내 Phase 시작 시:[/c] 아군 스트라이커 공간이 가득 차 있으면 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]味方ストライカーのスペースがいっぱいになっている場合、HPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] If all allied Striker spaces are full, recover [c]{param;BasePower}[/c] HP."
+        },
+        {
+            "Key": 271899060,
+            "Kr": "큰맘 먹고 지른 기관단총",
+            "Jp": "奮発して買ったサブマシンガン",
+            "En": "Splurged on a Submachine Gun"
+        },
+        {
+            "Key": 426220014,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"얼레? 쟤 저번에 봉사 시간 채운다고, 등굣길 교통 봉사하던 애 아니야? 다들 성실하게도 산다니까.\"\n- 발키리 경찰학교의 생활안전국, 네무가키 후부키[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「あれ？あの子、この前ボランティアで交通整理してた子じゃない？みんな真面目だよね～」\n-ヴァルキューレ警察学校、生活安全局、合歓垣フブキ[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"Huh? Isn't that the kid who did traffic volunteer work last time? Everyone's so diligent.\" - Nemugaki Fubuki, Valkyrie Police Academy, Public Safety Bureau[/i][-][/c]"
+        },
+        {
+            "Key": 342252245,
+            "Kr": "숫자의 우위",
+            "Jp": "数の優位",
+            "En": "Strength in Numbers"
+        },
+        {
+            "Key": 1132320876,
+            "Kr": "[c]내 Phase 종료 시:[/c] 아군 스트라이커 공간이 가득 차 있으면 자신에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]味方ストライカーのスペースがいっぱいになっている場合、自身にシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the end of your phase:[/c] If all allied Striker spaces are full, grant yourself [c]{param;BasePower}[/c] shield."
+        },
+        {
+            "Key": 964395038,
+            "Kr": "나설 차례에요, 엘리자베스",
+            "Jp": "出番ですわ、エリザベス",
+            "En": "It's Your Turn, Elizabeth"
+        },
+        {
+            "Key": 3384243049,
+            "Kr": "모든 스트라이커에게 피해를 준다.\n\n\n[c][75b4c0][i]키보토스 전역에 퍼진 불량배 집단, 스케반의 전설.\n아우들을 위해 희생한 영웅담은 그 어떤 스케반도 눈물 없이 들을 수 없다고.[/i][-][/c]",
+            "Jp": "すべてのストライカーにダメージを与える。\n\n\n[c][75b4c0][i]キヴォトス全土で活動する不良集団、スケバンの伝説。\n妹たちのために自身を犠牲にした英雄譚は、スケバンであれば号泣必須らしい。[/i][-][/c]",
+            "En": "Deals damage to all Strikers.\n\n\n[c][75b4c0][i]The legend of the Sukeban delinquents spreads across Kivotos. The tales of sacrifice for their juniors bring tears to any Sukeban.[/i][-][/c]"
+        },
+        {
+            "Key": 837445366,
+            "Kr": "살아 있는 전설",
+            "Jp": "生ける伝説",
+            "En": "Living Legend"
+        },
+        {
+            "Key": 3391762953,
+            "Kr": "[c]게임 시작 시:[/c] 다른 [c]{tag;Sukeban}[/c] 스트라이커의 EX스킬 위력과 체력이 [c]2[/c] 증가한다.\n\n[c]내 Phase 시작 시:[/c] 자신이 혼자 남았다면, 자신의 EX스킬 위력과 체력이 [c]5[/c] 증가한다. [c](게임당 1번)[/c]",
+            "Jp": "[c]ゲーム開始時：[/c]他[c]{tag;Sukeban}[/c]ストライカーのEXスキルの威力とHPが[c]2[/c]増加する。\n\n[c]自分のフェーズ開始時：[/c]自身が一人残った場合、自身のEXスキルの威力とHPが[c]5[/c]増加する。[c]（ゲーム当たり1回）[/c]",
+            "En": "[c]At the start of the game:[/c] Other [c]{tag;Sukeban}[/c] Strikers' EX Skill power and HP increase by [c]2[/c].\n\n[c]At the start of your phase:[/c] If you are alone, your EX Skill power and HP increase by [c]5[/c]. [c](Once per game)[/c]"
+        },
+        {
+            "Key": 746221815,
+            "Kr": "번아웃!",
+            "Jp": "バーンアウト！",
+            "En": "Burnout!"
+        },
+        {
+            "Key": 2934588240,
+            "Kr": "후열의 모든 적에게 피해를 주고, [c]교대 불가[/c]를 부여한다.\n\n\n[c][75b4c0][i]근본은 착하고 상냥한 학생. 선도 때문에 상처받지 않으면 좋겠는데. 여차하면 그 녀석이 지키겠지만….'\n- 선도부장의 메모[/i][-][/c]",
+            "Jp": "後列のすべての敵にダメージを与え、[c]交代不可[/c]を与える。\n\n\n[c][75b4c0][i]根は優しい子。風紀の取り締まりで傷つかなければいいのだけど。まあ、あの子がいるから心配する必要はないのかも。\n-風紀委員長のメモ[/i][-][/c]",
+            "En": "Deals damage to all enemies in the back row and applies [c]Cannot Switch[/c].\n\n\n[c][75b4c0][i]A kind and gentle student at heart. Hopefully discipline won't hurt her, but if anything happens, that kid will protect her. - Prefect Team Leader's Memo[/i][-][/c]"
+        },
+        {
+            "Key": 3307598507,
+            "Kr": "믿음직한 작업반장",
+            "Jp": "頼もしい作業班長",
+            "En": "Reliable Foreman"
+        },
+        {
+            "Key": 1523348638,
+            "Kr": "[c]내 Phase 종료 시:[/c] 체력이 가장 낮은 다른 아군 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]HPが最も低い他味方ストライカーのHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the end of your phase:[/c] Recovers [c]{param;BasePower}[/c] HP of the allied Striker with the lowest HP."
+        },
+        {
+            "Key": 1847249705,
+            "Kr": "탄산천, 발파!",
+            "Jp": "炭酸泉、発破！",
+            "En": "Carbonated Spring, Blast!"
+        },
+        {
+            "Key": 2430113912,
+            "Kr": "전열의 적에게 피해를 준다. 이후 [c]{char;848029}[/c] 카드를 [c]1[/c]개 소환한다.\n\n\n[c][75b4c0][i]온천개발부의 첫 번째 모토는 안전제일이다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、[c]{char;848029}[/c]カードを[c]1[/c]枚召喚する。\n\n\n[c][75b4c0][i]温泉開発部の第一のモットーは、「安全第一」だ。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then summons [c]1[/c] [c]{char;848029}[/c] card.\n\n\n[c][75b4c0][i]The first motto of the Hot Spring Development Club is 'Safety First.'[/i][-][/c]"
+        },
+        {
+            "Key": 3665578463,
+            "Kr": "스핀",
+            "Jp": "スピン",
+            "En": "Spin"
+        },
+        {
+            "Key": 4268305663,
+            "Kr": "[c]내 Phase 종료 시:[/c] 다른 [c]{tag;Odyssey}[/c] 스트라이커의 최대 체력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]他の[c]{tag;Odyssey}[/c]ストライカーの最大HPが[c]1[/c]増加する。",
+            "En": "[c]At the end of your phase:[/c] Increases max HP of another [c]{tag;Odyssey}[/c] Striker by [c]1[/c]."
+        },
+        {
+            "Key": 881584348,
+            "Kr": "부의 재분배",
+            "Jp": "富の再分配",
+            "En": "Redistribution of Wealth"
+        },
+        {
+            "Key": 794917716,
+            "Kr": "전열의 적에게 피해를 준다. 피해를 준 만큼 자신의 체력을 회복한다.\n\n\n[c][75b4c0][i]\"이 상황, 다소 나에게 불리한 것이 아닌가?\"[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。与えたダメージ分自身のHPを回復する。\n\n\n[c][75b4c0][i]この状況、ちょっと私に不利なんじゃない？[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Recovers HP equal to damage dealt.\n\n\n[c][75b4c0][i]\"Isn't this situation a bit unfavorable for me?\"[/i][-][/c]"
+        },
+        {
+            "Key": 164400142,
+            "Kr": "부유세 징수",
+            "Jp": "富裕税徴収",
+            "En": "Wealth Tax Collection"
+        },
+        {
+            "Key": 4091615803,
+            "Kr": "상대의 손패 [c]{param;CardNum}[/c] 장의 코스트만큼 모든 아군 스트라이커에게 보호막을 부여한다. 이후 그 카드의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"욕심은 서로를 해칠 뿐이야! 그러니까 전부 나한테 양보해 줘!\"[/i][-][/c]",
+            "Jp": "相手の手札[c]{param;CardNum}[/c]枚のコストの分、味方ストライカーにシールドを与える。その後、対象カードのコストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]「欲はお互いを傷つけるだけだ！だから全部私に譲ってくれ！」[/i][-][/c]",
+            "En": "Grants shield to all allied Strikers equal to the cost of [c]{param;CardNum}[/c] cards in the opponent's hand. Then, those cards' cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]\"Greed only hurts everyone! So just give it all to me!\"[/i][-][/c]"
+        },
+        {
+            "Key": 3189134695,
+            "Kr": "부르주아는 각성하라",
+            "Jp": "目覚めよ、ブルジョア",
+            "En": "Awaken, Bourgeois"
+        },
+        {
+            "Key": 3270348989,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"공짜 케이크가 쌓여 있다는 말을 듣고, 어제부터 굶었단 말이야!\"[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「タダでケーキをもらえるって聞いて、昨日から何も食べてないんだ！」[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"I heard there was free cake, so I haven't eaten since yesterday!\"[/i][-][/c]"
+        },
+        {
+            "Key": 1667105032,
+            "Kr": "편의점 폐기 수거 요령",
+            "Jp": "コンビニ廃棄弁当回収のコツ",
+            "En": "Convenience Store Bento Disposal Tips"
+        },
+        {
+            "Key": 2498549575,
+            "Kr": "[c]내 Phase 종료 시:[/c] 상대의 손패 [c]{param;CardNum}[/c] 장의 코스트만큼 자신의 EX스킬 위력이 증가한다. 이후 그 카드의 코스트가 [c]0[/c]이 된다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]相手の手札[c]{param;CardNum}[/c]枚のコスト分、自身のEXスキルの威力が増加する。その後、対象カードのコストが[c]0[/c]になる。",
+            "En": "[c]At the end of your phase:[/c] Increases your EX Skill power by the cost of [c]{param;CardNum}[/c] cards in the opponent's hand. Then, those cards' cost becomes [c]0[/c]."
+        },
+        {
+            "Key": 1957039152,
+            "Kr": "두꺼운 껍질",
+            "Jp": "厚い皮",
+            "En": "Thick Shell"
+        },
+        {
+            "Key": 3983448958,
+            "Kr": "자신에게 보호막을 부여한다.\n\n\n[c][75b4c0][i]\"좀 전에 바니걸 차림의 분들께서, 야자수를 마구 흔들면서 살았다고 외치던데... 무슨 이벤트인 걸까요?\"\n- 야자나무의 주인, 키리후지 나기사[/i][-][/c]",
+            "Jp": "自身にシールドを付与する。\n\n\n[c][75b4c0][i]「先ほど、バニーガール姿をした方々がヤシの木を揺らしながら“生きている！”と叫んでいましたが……なんの催しでしょうか？」\n-ヤシの木の所有者、桐藤ナギサ[/i][-][/c]",
+            "En": "Grants shield to self.\n\n\n[c][75b4c0][i]\"Earlier, some people in bunny girl outfits were shaking the palm trees and shouting 'It's alive!'... What kind of event is this?\" - Kirifuji Nagisa, Palm Tree Owner[/i][-][/c]"
+        },
+        {
+            "Key": 180816913,
+            "Kr": "열매 떨구기",
+            "Jp": "フルーツ落とし",
+            "En": "Fruit Drop"
+        },
+        {
+            "Key": 3876182863,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커에게 보호막을 [c]{param;ShieldPower}[/c] 부여한다.\n\n[c]내 Phase 시작 시:[/c] 자신의 체력이 가득 차 있지 않다면, [c]{char;848052}[/c] 카드를 [c]3[/c]개 소환하고 퇴각한다. 자신의 체력이 가득 차 있다면, 모든 적 스트라이커에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方ストライカーにシールドを[c]{param;ShieldPower}[/c]付与する。\n\n[c]自分のフェーズ開始時：[/c]自身のHPがMAXではない時、[c]{char;848052}[/c]カードを[c]3[/c]枚召喚して退却する。自身のHPがMAXの時は、すべての敵ストライカーに[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]At the start of the game:[/c] Grants [c]{param;ShieldPower}[/c] shield to all allied Strikers.\n\n[c]At the start of your phase:[/c] If your HP is not full, summon [c]3[/c] [c]{char;848052}[/c] cards and retreat. If your HP is full, deal [c]{param;BasePower}[/c] damage to all enemy Strikers."
+        },
+        {
+            "Key": 3761160361,
+            "Kr": "두꺼운 껍질",
+            "Jp": "厚い皮",
+            "En": "Thick Shell"
+        },
+        {
+            "Key": 2456262865,
+            "Kr": "모든 아군에게 보호막을 부여한다.\n\n\n[c][75b4c0][i]※사유지의 나무 열매를 따는 행위는 불법입니다.[/i][-][/c]",
+            "Jp": "すべての味方にシールドを付与する。\n\n\n[c][75b4c0][i]※私有地の木の実を取る行為は違法です。[/i][-][/c]",
+            "En": "Grants shield to all allies.\n\n\n[c][75b4c0][i]*Picking fruit from private property is illegal.[/i][-][/c]"
+        },
+        {
+            "Key": 158692531,
+            "Kr": "껍질 깨기",
+            "Jp": "皮剥き",
+            "En": "Shell Cracking"
+        },
+        {
+            "Key": 2920098346,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 가득 차 있지 않다면, 모든 적 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다. 이후 자신은 퇴각한다. 자신의 체력이 가득 차 있다면, 모든 적 스트라이커에게 [c]{param;SubPower}[/c] 피해를 준다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPがMAXではない時、すべての敵ストライカーのHPを[c]{param;BasePower}[/c]回復する。その後、自身は退却する。自身のHPがMAXの時、すべての敵ストライカーに[c]{param;SubPower}[/c]ダメージを与える。",
+            "En": "[c]At the start of your phase:[/c] If your HP is not full, recover [c]{param;BasePower}[/c] HP for all enemy Strikers, then retreat. If your HP is full, deal [c]{param;SubPower}[/c] damage to all enemy Strikers."
+        },
+        {
+            "Key": 2019844545,
+            "Kr": "아쿠아볼",
+            "Jp": "アクアボール",
+            "En": "Aqua Ball"
+        },
+        {
+            "Key": 1996631264,
+            "Kr": "모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"녀석은, 녀석은 하나가 아니야!\"\n- 미개봉 영화, <신 페로로지라> 발췌 대사[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。\n\n\n[c][75b4c0][i]「あれが最後の一匹とは思えない……」\n-未公開映画、『シン・ペロロジラ』より抜粋したセリフ[/i][-][/c]",
+            "En": "Deals damage to all enemies.\n\n\n[c][75b4c0][i]\"That can't be the last one!\" - Line from unreleased movie, 'Shin Perorozilla'[/i][-][/c]"
+        },
+        {
+            "Key": 755706087,
+            "Kr": "정체불명의 괴수",
+            "Jp": "正体不明の怪獣",
+            "En": "Mysterious Monster"
+        },
+        {
+            "Key": 2315266529,
+            "Kr": "[c]내 Phase 시작 시:[/c] 전열에 있다면 퇴각한다. 후열에 있다면 무작위 적 스트라이커에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]前列にいる場合、退却する。後列にいる場合、ランダムな敵ストライカーに[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]At the start of your phase:[/c] If in the front row, retreat. If in the back row, deal [c]{param;BasePower}[/c] damage to a random enemy Striker."
+        },
+        {
+            "Key": 52926009,
+            "Kr": "백열안광",
+            "Jp": "白熱眼光",
+            "En": "Incandescent Gaze"
+        },
+        {
+            "Key": 1862988659,
+            "Kr": "전열의 적에게 피해를 준다. 이후 아군 [c]{char;848053}[/c] 카드의 수만큼 후열의 모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"'그것'을 불러낸 것은 우리의 염원과 망집, 그 사이 어딘가에 떠도는 광기의 편린이었다.\"\n- 페로로지라 굿즈 소개 페이지[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、味方[c]{char;848053}[/c]カードの枚数分、後列のすべての敵にダメージを与える。\n\n\n[c][75b4c0][i]「それを呼び出したのは、私たちの願望と妄執――そして、そこに漂う狂気だった」\n-ペロロジラのグッズ紹介ページ[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then deals damage to all enemies in the back row equal to the number of allied [c]{char;848053}[/c] cards.\n\n\n[c][75b4c0][i]\"What summoned it was our desires and obsessions - and the madness that permeates the air.\" - Perorozilla Merch Introduction Page[/i][-][/c]"
+        },
+        {
+            "Key": 3389440167,
+            "Kr": "미니언 소환",
+            "Jp": "ペロロミニオン召喚",
+            "En": "Summon Peroro Minion"
+        },
+        {
+            "Key": 4093879807,
+            "Kr": "[c]내 Phase 종료 시:[/c] 혼자 남아있지 않다면 보호막을 [c]{param;BasePower}[/c] 부여한다. 혼자 남아있다면 [c]{char;848053}[/c] 카드를 [c]1[/c]개 소환한다. 이후 자신에게 [c]{param;SubPower}[/c] 피해를 준다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]1人ではない時は、シールドを[c]{param;BasePower}[/c]付与する。1人の時は、[c]{char;848053}[/c]カードを[c]1[/c]枚召喚する。その後、自身に[c]{param;SubPower}[/c]ダメージを与える。",
+            "En": "[c]At the end of your phase:[/c] If not alone, grant [c]{param;BasePower}[/c] shield. If alone, summon [c]1[/c] [c]{char;848053}[/c] card, then deal [c]{param;SubPower}[/c] damage to self."
+        },
+        {
+            "Key": 2659644045,
+            "Kr": "크루세이더 에이스",
+            "Jp": "クルセイダーエース",
+            "En": "Crusader Ace"
+        },
+        {
+            "Key": 3617530377,
+            "Kr": "[c]재사용 대기시간: 3턴[/c]\n\n전열의 적에게 피해를 준다. 이후 SP스킬 위력이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]남들 옆에 서기 위해 쉬지 않고 달리기로 한 소녀.[/i][-][/c]",
+            "Jp": "[c]クールタイム：3ターン[/c]\n\n前列の敵にダメージを与える。その後、SPスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]みんなに並ぶために、休まず走ることにした少女。[/i][-][/c]",
+            "En": "[c]Cooldown: 3 turns[/c]\n\nDeals damage to the enemy in the front row. Then increases SP Skill power by [c]1[/c].\n\n\n[c][75b4c0][i]A girl who decided to never stop running so she could catch up with everyone else.[/i][-][/c]"
+        },
+        {
+            "Key": 2726215774,
+            "Kr": "평범한 학생",
+            "Jp": "平凡な生徒",
+            "En": "Ordinary Student"
+        },
+        {
+            "Key": 3142724350,
+            "Kr": "[c]다른 아군 {tag;Trinity} 학생의 EX스킬 또는 SP스킬 발동 후:[/c] 재사용 대기시간이 [c]{param;CoolDownNum}[/c] 감소한다.",
+            "Jp": "[c]他味方{tag;Trinity}生徒のEXスキルまたはSPスキル発動後：[/c]クールタイムが[c]{param;CoolDownNum}[/c]減少する。",
+            "En": "[c]After another allied {tag;Trinity} student's EX Skill or SP Skill activation:[/c] Cooldown decreases by [c]{param;CoolDownNum}[/c]."
+        },
+        {
+            "Key": 1710741139,
+            "Kr": "저스티스 블랙",
+            "Jp": "ジャスティス・ブラック",
+            "En": "Justice Black"
+        },
+        {
+            "Key": 3289231970,
+            "Kr": "[c]재사용 대기시간: 3턴[/c]\n\n아군 전열 스트라이커의 체력을 회복한다.\n\n\n[c][75b4c0][i]\"스스로 생각하는 것보다, 그 아이는 훨씬 대단하답니다.\"\n- 정의실현부의 부부장, 하네카와 하스미[/i][-][/c]",
+            "Jp": "[c]クールタイム：3ターン[/c]\n\n前列の味方ストライカーのHPを回復する。\n\n\n[c][75b4c0][i]「あの子は自分で思っている以上に、すごい生徒なんですよ」\n-正義実現委員会の副委員長、羽川ハスミ[/i][-][/c]",
+            "En": "[c]Cooldown: 3 turns[/c]\n\nRecovers HP of allied front row Striker.\n\n\n[c][75b4c0][i]\"That child is much more amazing than she thinks.\" - Hanekawa Hasumi, Justice Committee Vice-chair[/i][-][/c]"
+        },
+        {
+            "Key": 3818064019,
+            "Kr": "정의실현부의 (자칭) 엘리트",
+            "Jp": "正義実現委員会のエリート（自称）",
+            "En": "Self-Proclaimed Elite of the Justice Committee"
+        },
+        {
+            "Key": 3414707332,
+            "Kr": "[c]다른 아군 스페셜의 SP스킬 발동 후:[/c] 재사용 대기시간이 [c]{param;CoolDownNum}[/c] 감소한다.",
+            "Jp": "[c]他味方スペシャルのSPスキル発動後：[/c]クールタイムが[c]{param;CoolDownNum}[/c]減少する。",
+            "En": "[c]After another allied Special's SP Skill activation:[/c] Cooldown decreases by [c]{param;CoolDownNum}[/c]."
+        },
+        {
+            "Key": 698416065,
+            "Kr": "정의의 현현",
+            "Jp": "正義の顕現",
+            "En": "Manifestation of Justice"
+        },
+        {
+            "Key": 2250816044,
+            "Kr": "[c]재사용 대기시간: 3턴[/c]\n\n아군 전열 스트라이커의 EX스킬 위력이 [c]1[/c] 증가한다. 그 스트라이커가 [c]{tag;Justice}[/c]라면 EX스킬 위력이 [c]2[/c] 증가한다.\n\n\n[c][75b4c0][i]우수한 사격술로 정의실현부에 수석 입부한 천재 저격수. 정의실현부 내에서도 유별나게 강경한 성격으로, 최근 이상과 현실 사이에서 방황하고 있다.[/i][-][/c]",
+            "Jp": "[c]クールタイム：3ターン[/c]\n\n前列の味方ストライカーのEXスキルの威力が[c]1[/c]増加する。対象ストライカーが[c]{tag;Justice}[/c]である場合、EXスキルの威力が[c]2[/c]増加する。\n\n\n[c][75b4c0][i]優れた射撃術を持ち、正義実現委員会を首席で入部した天才スナイパー。委員会の中でも、特に生真面目な性格。近ごろは理想と現実の間をさまよっている。[/i][-][/c]",
+            "En": "[c]Cooldown: 3 turns[/c]\n\nIncreases EX Skill power of allied front row Striker by [c]1[/c]. If that Striker is {tag;Justice}, increases by [c]2[/c].\n\n\n[c][75b4c0][i]A genius sniper who joined the Justice Committee as top recruit. Known for her strict personality, she now struggles to reconcile ideals and reality.[/i][-][/c]"
+        },
+        {
+            "Key": 982799853,
+            "Kr": "정의실현부의 특등사수",
+            "Jp": "正義実現委員会の一流スナイパー",
+            "En": "Top Sniper of the Justice Committee"
+        },
+        {
+            "Key": 1536770335,
+            "Kr": "[c]다른 아군 스트라이커의 EX스킬 발동 후:[/c] 무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "[c]他味方ストライカーのEXスキル発動後：[/c]ランダムな敵に[c]{param;BasePower}[/c]ダメージを与える。",
+            "En": "[c]After another allied Striker's EX Skill activation:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy."
+        },
+        {
+            "Key": 2639861030,
+            "Kr": "사업의 귀재",
+            "Jp": "ビジネスの鬼才",
+            "En": "Business Genius"
+        },
+        {
+            "Key": 2704960902,
+            "Kr": "[c]재사용 대기시간: 2턴[/c]\n\n손패의 무작위 카드를 [c]{param;SpawnCardNum}[/c]장 복사하여 코스트가 [c]0[/c]인 일회용 카드로 생성한다. 내 Phase 종료 시, 그 카드는 버려진다.\n\n\n[c][75b4c0][i]어설픈 연기력과, 그걸 뛰어넘는 사업 감각을 가진 백야당의 당주. 그 마수는 백귀야행을 넘어, 키보토스 전역을 향해 뻗어 나가고 있다.[/i][-][/c]",
+            "Jp": "[c]クールタイム：2ターン[/c]\n\nランダムな手札のカードを[c]{param;SpawnCardNum}[/c]枚コピーし、コスト[c]0[/c]の使い捨てカードを生成する。自分のフェーズ終了時、対象カードは捨てられる。\n\n\n[c][75b4c0][i]商魂たくましい百夜堂の敏腕オーナー。その勢いは百鬼夜行にとどまらず、キヴォトス全域にまで広がっている。[/i][-][/c]",
+            "En": "[c]Cooldown: 2 turns[/c]\n\nCopies [c]{param;SpawnCardNum}[/c] random cards from your hand as disposable cards with cost [c]0[/c]. At the end of your phase, those cards are discarded.\n\n\n[c][75b4c0][i]The owner of Momoyodou, with clumsy acting but outstanding business sense. Her reach extends beyond Hyakkiyako to all of Kivotos.[/i][-][/c]"
+        },
+        {
+            "Key": 2621537295,
+            "Kr": "해변가 프리미엄",
+            "Jp": "観光地価格",
+            "En": "Beachside Premium"
+        },
+        {
+            "Key": 608246101,
+            "Kr": "[c]내 Phase 시작 시:[/c] 손패의 무작위 카드 [c]{param;CardNum}[/c]장의 코스트가 [c]1[/c] 감소한다. 내 Phase 종료 시, 그 카드는 버려진다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]ランダムで手札にあるカード[c]{param;CardNum}[/c]枚のコストが[c]1[/c]減少する。自分のフェーズ終了時、対象カードは捨てられる。",
+            "En": "[c]At the start of your phase:[/c] Reduces the cost of [c]{param;CardNum}[/c] random cards in your hand by [c]1[/c]. At the end of your phase, those cards are discarded."
+        },
+        {
+            "Key": 3166000865,
+            "Kr": "이즈나류 때찌때찌의 술!",
+            "Jp": "イズナ流忍法！ペンペンの術！",
+            "En": "Izuna Style Ninpo! Penpen Technique!"
+        },
+        {
+            "Key": 2240303745,
+            "Kr": "[c]재사용 대기시간: 2턴[/c]\n\n무작위 적에게 피해를 준다. [c](자신을 포함한 아군 {tag;Hyakkiyako} 학생 및 {char;848014} 카드의 수만큼 반복)[/c]\n\n\n[c][75b4c0][i]꿈꾸는 닌자 소녀. 종종 인법처럼 보이는 일을 해내지만, 초현상이 아닌 신체 능력에 의한 착시이다.[/i][-][/c]",
+            "Jp": "[c]クールタイム：2ターン[/c]\n\nランダムな敵にダメージを与える。[c]（自身を含む味方{tag;Hyakkiyako}生徒および{char;848014}カードの枚数分、繰り返す）[/c]\n\n\n[c][75b4c0][i]夢見る忍者少女。しばしば忍術を披露するが、それらはすべて優れた身体能力で実現している。[/i][-][/c]",
+            "En": "[c]Cooldown: 2 turns[/c]\n\nDeals damage to a random enemy. (Repeat equal to the number of allied {tag;Hyakkiyako} students and {char;848014} cards, including self)\n\n\n[c][75b4c0][i]A ninja girl who dreams big. Sometimes she performs feats that look like ninjutsu, but it's all due to her physical abilities.[/i][-][/c]"
+        },
+        {
+            "Key": 1809674508,
+            "Kr": "인법! 긴급 분신술!",
+            "Jp": "忍法！緊急分身の術！",
+            "En": "Ninpo! Emergency Clone Technique!"
+        },
+        {
+            "Key": 1862786830,
+            "Kr": "[c]내 Phase 시작 시:[/c] 아군 스트라이커가 한 명뿐이라면, 적과 수가 같아지도록 [c]{char;848058}[/c] 카드를 소환한다. [c](게임당 1번)[/c]\n\n※ 아군 스트라이커가 모두 퇴각해, 보조 스트라이커만 남으면 전투에서 패배한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]味方ストライカーが1人残った場合、敵と同数になるよう[c]{char;848058}[/c]カードを召喚する。[c]（1ゲームにつき1回）[/c]\n\n※味方ストライカーが全員退却し、サポートのストライカーのみの場合、敗北となる。",
+            "En": "[c]At the start of your phase:[/c] If only one allied Striker remains, summon [c]{char;848058}[/c] cards to match the number of enemies. (Once per game)\n\n※If all allied Strikers retreat and only support Strikers remain, you lose the battle."
+        },
+        {
+            "Key": 3832551836,
+            "Kr": "예쁘게 꾸민 라이플",
+            "Jp": "デコライフル",
+            "En": "Decorated Rifle"
+        },
+        {
+            "Key": 4086389314,
+            "Kr": "[c]재사용 대기시간: 2턴[/c]\n\n전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]\"주요 범행은, 땡땡이, 쓰레기 무단 투기, 복도 주행… 요컨대 잡범이군요.\"\n- 발키리 경찰학교의 공안국장, 오가타 칸나[/i][-][/c]",
+            "Jp": "[c]クールタイム：2ターン[/c]\n\n前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]「主な罪状は、サボり、ゴミの不法投棄、廊下を走る……要するに、校則違反です」\n-ヴァルキューレ警察学校、公安局長、尾刃カンナ[/i][-][/c]",
+            "En": "[c]Cooldown: 2 turns[/c]\n\nDeals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]\"The main charges are skipping class, littering, running in the halls... basically, violating school rules.\" - Ogata Kanna, Valkyrie Police Academy, Public Safety Bureau Director[/i][-][/c]"
+        },
+        {
+            "Key": 2228612408,
+            "Kr": "물대포 발사!",
+            "Jp": "水鉄砲発射！",
+            "En": "Water Gun Blast!"
+        },
+        {
+            "Key": 820538695,
+            "Kr": "[c]재사용 대기시간: 3턴[/c]\n\n[c]{skill;8481079}[/c]의 효과가 발동되어야 EX스킬을 사용할 수 있다.\n\n체력이 가장 높은 적에게 피해를 준다. [c](상대 손패의 카드 수만큼 반복)[/c]\n\n\n[c][75b4c0][i]소중한 총과 옷을 무자비하게 적신다. 총에 맞는 것보다 기분 나쁘다![/i][-][/c]",
+            "Jp": "[c]クールタイム：3ターン[/c]\n\n[c]{skill;8481079}[/c]の効果が発動し、EXスキルを使用することができる。HPが最も高い敵にダメージを与える。[c]（相手の手札のカードの枚数分、繰り返す）[/c]\n\n\n[c][75b4c0][i]大切な銃と服が濡れてしまうと、撃たれた時よりダメージが大きい！[/i][-][/c]",
+            "En": "[c]Cooldown: 3 turns[/c]\n\n[c]{skill;8481079}[/c] must be activated to use EX Skill.\n\nDeals damage to the enemy with the highest HP. (Repeats for the number of cards in the opponent's hand)\n\n\n[c][75b4c0][i]Getting your precious gun and clothes soaked feels worse than getting shot![/i][-][/c]"
+        },
+        {
+            "Key": 1721633386,
+            "Kr": "물총 충전",
+            "Jp": "水鉄砲リロード",
+            "En": "Water Gun Reload"
+        },
+        {
+            "Key": 3259127937,
+            "Kr": "[c]내 Phase 종료 시:[/c] 물을 끌어올린다. [c]{skill;8481071}[/c]를 사용하면 효과는 사라진다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]水を引き上げる。[c]{skill;8481071}[/c]を使用する場合、効果は消える。",
+            "En": "[c]At the end of your phase:[/c] Draw up water. Effect disappears when [c]{skill;8481071}[/c] is used."
+        },
+        {
+            "Key": 3975373056,
+            "Kr": "탐사! 시추! 발파!",
+            "Jp": "探査！試錐！発破！",
+            "En": "Exploration! Drilling! Blasting!"
+        },
+        {
+            "Key": 1443818886,
+            "Kr": "[c]재사용 대기시간: 3턴[/c]\n\n모든 스트라이커에게 피해를 준다.\n\n\n[c][75b4c0][i]목표를 위해서는 어떤 수단도 마다하지 않는 실행력과, 불행하게도 아주 많은 수단을 보유한 인물.'\n- 선도부장의 메모[/i][-][/c]",
+            "Jp": "[c]クールタイム：3ターン[/c]\n\nすべてのストライカーにダメージを与える。\n\n\n[c][75b4c0][i]目標のためであれば手段を選ばない。不幸にも、その手段を非常に多く持つ人物である。\n-風紀委員長のメモ[/i][-][/c]",
+            "En": "[c]Cooldown: 3 turns[/c]\n\nDeals damage to all Strikers.\n\n\n[c][75b4c0][i]A person who will use any means to achieve their goals—and unfortunately, has many means at their disposal. - Prefect Team Leader's Memo[/i][-][/c]"
+        },
+        {
+            "Key": 841612857,
+            "Kr": "의욕 충만",
+            "Jp": "意気揚々",
+            "En": "Full of Motivation"
+        },
+        {
+            "Key": 930796571,
+            "Kr": "플레이어가 회복하는 코스트가 항상 [c]{param;BasePower}[/c] 이 된다.",
+            "Jp": "プレイヤーが回復するコストが常に[c]{param;BasePower}[/c]となる。",
+            "En": "The cost recovered by the player is always [c]{param;BasePower}[/c]."
+        },
+        {
+            "Key": 565728547,
+            "Kr": "Oxygen Destroyer",
+            "Jp": "酸素破壊剤",
+            "En": "Oxygen Destroyer"
+        },
+        {
+            "Key": 611831870,
+            "Kr": "[c]게임 시작 시:[/c] [c]{char;848054}[/c]의 최대 체력이 [c]10[/c] 증가한다.",
+            "Jp": "[c]ゲーム開始時：[/c][c]{char;848054}[/c]の最大HPが[c]10[/c]増加する。",
+            "En": "[c]At the start of the game:[/c] [c]{char;848054}[/c]'s max HP increases by [c]10[/c]."
+        },
+        {
+            "Key": 173010194,
+            "Kr": "정의는 쓰러지지 않는다!",
+            "Jp": "正義は倒れない！",
+            "En": "Justice Never Falls!"
+        },
+        {
+            "Key": 2369259268,
+            "Kr": "[c]내 Phase 종료 시:[/c] 모든 아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]すべての味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the end of your phase:[/c] Grants [c]{param;BasePower}[/c] shield to all allied Strikers."
+        },
+        {
+            "Key": 2452800856,
+            "Kr": "안전 시공",
+            "Jp": "安全施工",
+            "En": "Safe Construction"
+        },
+        {
+            "Key": 62152871,
+            "Kr": "[c]내 Phase 종료 시:[/c] 아군 [c]{char;848029}[/c] 카드에게 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]味方の[c]{char;848029}[/c]カードにシールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the end of your phase:[/c] Grants [c]{param;BasePower}[/c] shield to allied [c]{char;848029}[/c] card."
+        },
+        {
+            "Key": 4256775519,
+            "Kr": "황산천, 발파!",
+            "Jp": "硫酸泉、発破！",
+            "En": "Sulfur Spring, Blast!"
+        },
+        {
+            "Key": 2277020639,
+            "Kr": "후열의 적에게 피해를 준다. 이후 [c]{char;848029}[/c] 카드를 [c]1[/c]개 소환한다.\n\n\n[c][75b4c0][i]온천개발부의 두 번째 모토는 폭파 만능주의다.[/i][-][/c]",
+            "Jp": "後列の敵にダメージを与える。その後、[c]{char;848029}[/c]カードを[c]1[/c]枚召喚する。\n\n\n[c][75b4c0][i]温泉開発部の第二のモットーは、「爆破こそ万能である」だ。[/i][-][/c]",
+            "En": "Deals damage to enemies in the back row. Then summons [c]1[/c] [c]{char;848029}[/c] card.\n\n\n[c][75b4c0][i]The second motto of the Hot Spring Development Club is 'Explosion solves everything.'[/i][-][/c]"
+        },
+        {
+            "Key": 1827505386,
+            "Kr": "폭파 해체",
+            "Jp": "爆破解体",
+            "En": "Demolition Blast"
+        },
+        {
+            "Key": 2286455285,
+            "Kr": "[c]내 Phase 종료 시:[/c] 모든 [c]{char;848029}[/c]에게 보호막을 무시하고 피해를 [c]{param;BasePower}[/c] 준다. 이후 모든 [c]{char;848029}[/c] 카드의 EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]すべての[c]{char;848029}[/c]にシールドを無視するダメージを[c]{param;BasePower}[/c]与える。その後、すべての[c]{char;848029}[/c]カードのEXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the end of your phase:[/c] Deals [c]{param;BasePower}[/c] damage to all [c]{char;848029}[/c], ignoring shield. Then increases EX Skill power of all [c]{char;848029}[/c] cards by [c]1[/c]."
+        },
+        {
+            "Key": 1485474042,
+            "Kr": "비정한 시식평",
+            "Jp": "容赦なき食レポ",
+            "En": "Merciless Food Review"
+        },
+        {
+            "Key": 4139891424,
+            "Kr": "무작위 적에게 [c]{param;Min}~{param;Max}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]충동적이고 예측할 수 없으며, 행동 과정에 발생하는 어떤 희생도 감수하는 요주의 인물.'\n- 선도부장의 메모[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;Min}～{param;Max}[/c]ダメージを与える。\n\n\n[c][75b4c0][i]行動が読めず、どんな犠牲でも甘んじて受け入れる、要注意人物。\n-風紀委員長のメモ[/i][-][/c]",
+            "En": "Deals [c]{param;Min}~{param;Max}[/c] damage to a random enemy.\n\n\n[c][75b4c0][i]An unpredictable person who accepts any sacrifice in the course of action. - Prefect Team Leader's Memo[/i][-][/c]"
+        },
+        {
+            "Key": 4089208226,
+            "Kr": "EAT or DIE",
+            "Jp": "EAT OR DIE",
+            "En": "EAT OR DIE"
+        },
+        {
+            "Key": 1540816638,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신에게 [c]{param;Min}~{param;Max}[/c] 피해를 주고, 체력을 [c]{param;Min}~{param;Max}[/c] 회복한다. 자신의 체력이 감소했을 경우, 다른 모든 스트라이커에게 그만큼 피해를 준다. 자신의 체력이 증가했을 경우, 다른 모든 스트라이커의 체력을 그만큼 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身に[c]{param;Min}～{param;Max}[/c]ダメージを与え、HPを[c]{param;Min}～{param;Max}[/c]回復する。自身のHPが減少した場合、他のすべてのストライカーに減少値分のダメージを与える。自身のHPが増加した場合、他のすべてのストライカーのHPを増加分回復する。",
+            "En": "[c]At the start of your phase:[/c] Deals [c]{param;Min}~{param;Max}[/c] damage to self and recovers [c]{param;Min}~{param;Max}[/c] HP. If HP decreased, deals that amount of damage to all other Strikers. If HP increased, recovers that amount for all other Strikers."
+        },
+        {
+            "Key": 3741886068,
+            "Kr": "보기에도 괴로운 식성",
+            "Jp": "独特な食のセンス",
+            "En": "A Painful Appetite Even to Watch"
+        },
+        {
+            "Key": 2549347011,
+            "Kr": "전열의 적에게 피해를 준다.\n\n\n[c][75b4c0][i]지옥으로 가는 길은 선의로 포장되어 있다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。\n\n\n[c][75b4c0][i]地獄への道は善意で舗装されている。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row.\n\n\n[c][75b4c0][i]The road to hell is paved with good intentions.[/i][-][/c]"
+        },
+        {
+            "Key": 1460733428,
+            "Kr": "디럭스 초코 햄버거(새우젓 첨가)",
+            "Jp": "デラックスチョコハンバーガー！（塩辛入り）",
+            "En": "Deluxe Choco Hamburger (with salted shrimp)"
+        },
+        {
+            "Key": 2455668066,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 [c]{param;ConditionNum}[/c] 이하라면, 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPが[c]{param;ConditionNum}[/c]以下であれば、HPを[c]{param;BasePower}[/c]回復する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is [c]{param;ConditionNum}[/c] or less, recover [c]{param;BasePower}[/c] HP."
+        },
+        {
+            "Key": 767160069,
+            "Kr": "확 먹어버릴까요☆",
+            "Jp": "パクッと食べちゃいましょうか★",
+            "En": "Shall I just eat it up☆"
+        },
+        {
+            "Key": 2252755850,
+            "Kr": "모든 적에게 피해를 준다.\n\n\n[c][75b4c0][i]그 어느 때에도 여유를 잃지 않는 학생. 일각에서는 하루나보다 위험하다는 평이 있기도…?[/i][-][/c]",
+            "Jp": "すべての敵にダメージを与える。\n\n\n[c][75b4c0][i]どんな時でも余裕を失わない生徒。一部では、ハルナより危険という説も……。[/i][-][/c]",
+            "En": "Deals damage to all enemies.\n\n\n[c][75b4c0][i]A student who never loses composure. Some say she is even more dangerous than Haruna...[/i][-][/c]"
+        },
+        {
+            "Key": 2359935596,
+            "Kr": "대식가이자 미식가",
+            "Jp": "大食いの美食家",
+            "En": "Big Eater and Gourmet"
+        },
+        {
+            "Key": 1185238083,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 가득 차 있지 않다면, EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPがMAXでなければ、EXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is not full, EX Skill power increases by [c]1[/c]."
+        },
+        {
+            "Key": 4248787753,
+            "Kr": "미식은 나누면 두 배!",
+            "Jp": "美食は分け合えば尚良し！",
+            "En": "Gourmet is Better Shared!"
+        },
+        {
+            "Key": 4196376057,
+            "Kr": "전열의 적에게 피해를 준다. 이후 자신과 체력이 가장 낮은 다른 아군의 체력을 [c]{param;SubPower}[/c] 회복한다.\n\n\n[c][75b4c0][i]이러니저러니, 항상 미식연구회와 함께하는 그녀도 충분히 괴짜다.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、自身とHPが最も低い他味方のHPを[c]{param;SubPower}[/c]回復する。\n\n\n[c][75b4c0][i]何はともあれ、いつも美食研究会と行動を共にする彼女も十分変わり者である。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then recovers [c]{param;SubPower}[/c] HP for self and the ally with the lowest HP.\n\n\n[c][75b4c0][i]Whatever the case, she's quite the oddball, always with the Gourmet Research Club.[/i][-][/c]"
+        },
+        {
+            "Key": 1607380193,
+            "Kr": "또 나만 못 먹는 건 아니지?!",
+            "Jp": "また私だけ食べられないの！？",
+            "En": "I'm not the only one who can't eat again, right?!"
+        },
+        {
+            "Key": 3067817325,
+            "Kr": "[c]내 Phase 시작 시:[/c] 자신의 체력이 가장 낮다면 전열로 이동한다. 이후 자신의 체력이 [c]{param;ConditionNum}[/c] 이하일 경우 보호막을 [c]{param;BasePower}[/c] 부여한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]自身のHPが最も低い場合は前列に移動する。その後、自身のHPが[c]{param;ConditionNum}[/c]以下の場合、シールドを[c]{param;BasePower}[/c]付与する。",
+            "En": "[c]At the start of your phase:[/c] If your HP is the lowest, move to the front row. Then, if your HP is [c]{param;ConditionNum}[/c] or less, grant [c]{param;BasePower}[/c] shield."
+        },
+        {
+            "Key": 2534024763,
+            "Kr": "초상권은 언론 탄압입니다!",
+            "Jp": "肖像権は言論弾圧です！",
+            "En": "Portrait rights are media suppression!"
+        },
+        {
+            "Key": 2944040695,
+            "Kr": "전열의 적에게 피해를 준다. 이후 후열의 모든 적에게 [c]{param;SubPower}[/c] 고정피해를 준다.\n\n\n[c][75b4c0][i]\"모든 학생에게는 진실을 알 권리가 있다!\"\n오늘도 신념과 긍지를 품고 진실을 쫓는 열혈 저널리스트. 진위는 둘째치고.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、後列のすべての敵に[c]{param;SubPower}[/c]固定ダメージを与える。\n\n\n[c][75b4c0][i]「すべての生徒には真実を知る権利がある！」\n今日も信念と誇りを持って真実に迫る熱血なジャーナリスト。真偽はさておき……。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then deals [c]{param;SubPower}[/c] fixed damage to all enemies in the back row.\n\n\n[c][75b4c0][i]\"Every student has the right to know the truth!\" A passionate journalist chasing truth with conviction and pride. Whether it's true or not is another matter.[/i][-][/c]"
+        },
+        {
+            "Key": 2946859309,
+            "Kr": "파파라치가 아니라 저널리즘!",
+            "Jp": "パパラッチじゃなくてジャーナリズムです！",
+            "En": "It's journalism, not paparazzi!"
+        },
+        {
+            "Key": 3688516337,
+            "Kr": "[c]내 Phase 시작 시:[/c] 가장 체력이 낮은 적 스트라이커를 전열로 불러낸다. 이후 자신이 후열에 있다면 전열로 이동한다.",
+            "Jp": "[c]自分のフェーズ開始時：[/c]HPが最も低い敵ストライカーを前列に呼び出す。その後、自身が後列にいる場合は、前列に移動する。",
+            "En": "[c]At the start of your phase:[/c] Calls the enemy Striker with the lowest HP to the front row. Then, if you are in the back row, move to the front row."
+        },
+        {
+            "Key": 908588153,
+            "Kr": "현장에 있는 아나운서 나와주세요!",
+            "Jp": "現場にいるアナウンサー、応答してください！",
+            "En": "Announcer on the scene, please respond!"
+        },
+        {
+            "Key": 2292202966,
+            "Kr": "전열의 적에게 피해를 준다. 이후 무작위 아군 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]\"매스 미디어는 엔터테인먼트다!\"\n오늘도 키보토스 학생들에게 오락거리를 제공하기 위해 분주한 저널리스트. 진위는 둘째치고.[/i][-][/c]",
+            "Jp": "前列の敵にダメージを与える。その後、ランダムな味方ストライカーと交代する。\n\n\n[c][75b4c0][i]「マスメディアは、エンターテイメントだ!」\n今日もキヴォトスの生徒たちに娯楽を与えようと、各地を奔走するジャーナリスト。真偽はさておき……。[/i][-][/c]",
+            "En": "Deals damage to the enemy in the front row. Then switches with a random allied Striker.\n\n\n[c][75b4c0][i]\"Mass media is entertainment!\" A busy journalist providing fun for Kivotos students. Whether it's true or not is another matter.[/i][-][/c]"
+        },
+        {
+            "Key": 947340015,
+            "Kr": "이치카(수영복)",
+            "Jp": "イチカ（水着）",
+            "En": "Ichika (Swimsuit)"
+        },
+        {
+            "Key": 3686545112,
+            "Kr": "하스미(수영복)",
+            "Jp": "ハスミ（水着）",
+            "En": "Hasumi (Swimsuit)"
+        },
+        {
+            "Key": 2367310152,
+            "Kr": "나기사(수영복)",
+            "Jp": "ナギサ（水着）",
+            "En": "Nagisa (Swimsuit)"
+        },
+        {
+            "Key": 1668584266,
+            "Kr": "미카(수영복)",
+            "Jp": "ミカ（水着）",
+            "En": "Mika (Swimsuit)"
+        },
+        {
+            "Key": 1101450662,
+            "Kr": "세이아(수영복)",
+            "Jp": "セイア（水着）",
+            "En": "Seia (Swimsuit)"
+        },
+        {
+            "Key": 2839188255,
+            "Kr": "아즈사(수영복)",
+            "Jp": "アズサ（水着）",
+            "En": "Azusa (Swimsuit)"
+        },
+        {
+            "Key": 4067891375,
+            "Kr": "하나코(수영복)",
+            "Jp": "ハナコ（水着）",
+            "En": "Hanako (Swimsuit)"
+        },
+        {
+            "Key": 1527890741,
+            "Kr": "츠루기(수영복)",
+            "Jp": "ツルギ（水着）",
+            "En": "Tsurugi (Swimsuit)"
+        },
+        {
+            "Key": 2042754328,
+            "Kr": "이오리(수영복)",
+            "Jp": "イオリ（水着）",
+            "En": "Iori (Swimsuit)"
+        },
+        {
+            "Key": 2902014958,
+            "Kr": "히나(수영복)",
+            "Jp": "ヒナ（水着）",
+            "En": "Hina (Swimsuit)"
+        },
+        {
+            "Key": 4277210329,
+            "Kr": "미숙한 티파티 임원",
+            "Jp": "新人のティーパーティー役員",
+            "En": "Inexperienced Tea Party Officer"
+        },
+        {
+            "Key": 1880821809,
+            "Kr": "노련한 티파티 임원",
+            "Jp": "熟練のティーパーティー役員",
+            "En": "Veteran Tea Party Officer"
+        },
+        {
+            "Key": 2131471126,
+            "Kr": "정의실현부 학생",
+            "Jp": "正義実現委員会部員",
+            "En": "Justice Committee Member"
+        },
+        {
+            "Key": 2699424961,
+            "Kr": "닌페로 인형",
+            "Jp": "ニンペロさん人形",
+            "En": "Ninpero Doll"
+        },
+        {
+            "Key": 2687327809,
+            "Kr": "히후미(수영복)",
+            "Jp": "ヒフミ（水着）",
+            "En": "Hifumi (Swimsuit)"
+        },
+        {
+            "Key": 4122743079,
+            "Kr": "코하루(수영복)",
+            "Jp": "コハル（水着）",
+            "En": "Koharu (Swimsuit)"
+        },
+        {
+            "Key": 2338080597,
+            "Kr": "마시로(수영복)",
+            "Jp": "マシロ（水着）",
+            "En": "Mashiro (Swimsuit)"
+        },
+        {
+            "Key": 266592584,
+            "Kr": "시즈코(수영복)",
+            "Jp": "シズコ（水着）",
+            "En": "Shizuko (Swimsuit)"
+        },
+        {
+            "Key": 3697020039,
+            "Kr": "이즈나(수영복)",
+            "Jp": "イズナ（水着）",
+            "En": "Izuna (Swimsuit)"
+        },
+        {
+            "Key": 181467347,
+            "Kr": "헬멧단 단원",
+            "Jp": "ヘルメット団",
+            "En": "Helmet Gang Member"
+        },
+        {
+            "Key": 721462139,
+            "Kr": "헬멧단 간부",
+            "Jp": "ヘルメット団幹部",
+            "En": "Helmet Gang Executive"
+        },
+        {
+            "Key": 2757053295,
+            "Kr": "라브",
+            "Jp": "ラブ",
+            "En": "Rabu"
+        },
+        {
+            "Key": 260855606,
+            "Kr": "악덕 사장",
+            "Jp": "悪徳社長",
+            "En": "Corrupt President"
+        },
+        {
+            "Key": 1154704932,
+            "Kr": "오토마타 001",
+            "Jp": "オートマタ001",
+            "En": "Automata 001"
+        },
+        {
+            "Key": 2937159869,
+            "Kr": "오토마타 00S",
+            "Jp": "オートマタ00S",
+            "En": "Automata 00S"
+        },
+        {
+            "Key": 1385494626,
+            "Kr": "KAITEN FX Mk.0",
+            "Jp": "KAITEN FX Mk.0",
+            "En": "KAITEN FX Mk.0"
+        },
+        {
+            "Key": 2669412532,
+            "Kr": "카이텐 블랙",
+            "Jp": "カイテンブラック",
+            "En": "Kaiten Black"
+        },
+        {
+            "Key": 2560382120,
+            "Kr": "카이텐 그린",
+            "Jp": "カイテングリーン",
+            "En": "Kaiten Green"
+        },
+        {
+            "Key": 2207659231,
+            "Kr": "카이텐 핑크",
+            "Jp": "カイテンピンク",
+            "En": "Kaiten Pink"
+        },
+        {
+            "Key": 158688047,
+            "Kr": "카이텐 레드",
+            "Jp": "カイテンレッド",
+            "En": "Kaiten Red"
+        },
+        {
+            "Key": 3357562683,
+            "Kr": "카이텐 옐로",
+            "Jp": "カイテンイエロー",
+            "En": "Kaiten Yellow"
+        },
+        {
+            "Key": 2272474862,
+            "Kr": "정체불명의 드럼통",
+            "Jp": "正体不明のドラム缶",
+            "En": "Mysterious Drum"
+        },
+        {
+            "Key": 1354382919,
+            "Kr": "위대한 의장님의 동상",
+            "Jp": "偉大な議長の銅像",
+            "En": "Great Chairman's Statue"
+        },
+        {
+            "Key": 2994864252,
+            "Kr": "폭약 더미",
+            "Jp": "大量の爆発物",
+            "En": "Pile of Explosives"
+        },
+        {
+            "Key": 992686674,
+            "Kr": "험상궂은 수영복 불량배",
+            "Jp": "荒々しいスケバン（水着）",
+            "En": "Rough Sukeban (Swimsuit)"
+        },
+        {
+            "Key": 900860528,
+            "Kr": "적대적인 수영복 불량배",
+            "Jp": "敵意のあるスケバン（水着）",
+            "En": "Hostile Sukeban (Swimsuit)"
+        },
+        {
+            "Key": 1827455696,
+            "Kr": "껄끄러운 수영복 불량배",
+            "Jp": "手強いスケバン（水着）",
+            "En": "Formidable Sukeban (Swimsuit)"
+        },
+        {
+            "Key": 2011932607,
+            "Kr": "악랄한 스케반",
+            "Jp": "あくどいスケバン",
+            "En": "Vicious Sukeban"
+        },
+        {
+            "Key": 2704680601,
+            "Kr": "고집 센 스케반",
+            "Jp": "頑固なスケバン",
+            "En": "Stubborn Sukeban"
+        },
+        {
+            "Key": 2732936653,
+            "Kr": "아케미",
+            "Jp": "アケミ",
+            "En": "Akemi"
+        },
+        {
+            "Key": 1354855279,
+            "Kr": "메구(수영복)",
+            "Jp": "メグ（水着）",
+            "En": "Megu (Swimsuit)"
+        },
+        {
+            "Key": 1601251590,
+            "Kr": "온천개발부 선봉대",
+            "Jp": "温泉開発部・先発隊",
+            "En": "Hot Spring Development Club Vanguard"
+        },
+        {
+            "Key": 895828950,
+            "Kr": "온천개발부 후발대",
+            "Jp": "温泉開発部・後発隊",
+            "En": "Hot Spring Development Club Rearguard"
+        },
+        {
+            "Key": 1776324414,
+            "Kr": "하루나",
+            "Jp": "ハルナ",
+            "En": "Haruna"
+        },
+        {
+            "Key": 670927902,
+            "Kr": "이즈미",
+            "Jp": "イズミ",
+            "En": "Izumi"
+        },
+        {
+            "Key": 1298369370,
+            "Kr": "아카리",
+            "Jp": "アカリ",
+            "En": "Akari"
+        },
+        {
+            "Key": 808877197,
+            "Kr": "준코",
+            "Jp": "ジュンコ",
+            "En": "Junko"
+        },
+        {
+            "Key": 3732470589,
+            "Kr": "시논",
+            "Jp": "シノン",
+            "En": "Shinon"
+        },
+        {
+            "Key": 2994470625,
+            "Kr": "마이",
+            "Jp": "マイ",
+            "En": "Mai"
+        },
+                {
+            "Key": 273320091,
+            "Kr": "떠밀려온 바니걸 가드",
+            "Jp": "漂流したバニーガール・ガード",
+            "En": "Washed-up Bunny Girl Guard"
+        },
+        {
+            "Key": 2736208563,
+            "Kr": "끌려온 바니걸 가드",
+            "Jp": "連れてこられたバニーガール・ガード",
+            "En": "Dragged-in Bunny Girl Guard"
+        },
+        {
+            "Key": 4076906660,
+            "Kr": "조난당한 바니걸 가드",
+            "Jp": "遭難したバニーガール・ガード",
+            "En": "Stranded Bunny Girl Guard"
+        },
+        {
+            "Key": 3668749449,
+            "Kr": "누추한 히피",
+            "Jp": "薄汚れたヒッピー",
+            "En": "Shabby Hippie"
+        },
+        {
+            "Key": 4058107428,
+            "Kr": "허름한 히피",
+            "Jp": "ボロボロなヒッピー",
+            "En": "Tattered Hippie"
+        },
+        {
+            "Key": 2433870580,
+            "Kr": "배고픈 히피",
+            "Jp": "空腹のヒッピー",
+            "En": "Hungry Hippie"
+        },
+        {
+            "Key": 4143090887,
+            "Kr": "야자나무",
+            "Jp": "ヤシの木",
+            "En": "Palm Tree"
+        },
+        {
+            "Key": 16643669,
+            "Kr": "야자열매",
+            "Jp": "ヤシの実",
+            "En": "Coconut"
+        },
+        {
+            "Key": 317457217,
+            "Kr": "소형 페로로지라",
+            "Jp": "小型ペロロジラ",
+            "En": "Small Perorozilla"
+        },
+        {
+            "Key": 1157707707,
+            "Kr": "대형 페로로지라",
+            "Jp": "大型ペロロジラ",
+            "En": "Large Perorozilla"
+        },
+        {
+            "Key": 3464423676,
+            "Kr": "불량한 스케반",
+            "Jp": "素行不良のスケバン",
+            "En": "Delinquent Sukeban"
+        },
+        {
+            "Key": 2125901738,
+            "Kr": "물대포 터렛",
+            "Jp": "水鉄砲ターレット",
+            "En": "Water Gun Turret"
+        },
+        {
+            "Key": 3744682987,
+            "Kr": "카스미(수영복)",
+            "Jp": "カスミ（水着）",
+            "En": "Kasumi (Swimsuit)"
+        },
+        {
+            "Key": 4167769719,
+            "Kr": "특수 효과(탈수)",
+            "Jp": "特殊効果（脱水）",
+            "En": "Special Effect (Dehydration)"
+        },
+        {
+            "Key": 2157901518,
+            "Kr": "특수 효과(무더위)",
+            "Jp": "特殊効果（高温多湿）",
+            "En": "Special Effect (Hot and Humid)"
+        },
+        {
+            "Key": 3705123166,
+            "Kr": "특수 효과(마코토 님의 위엄)",
+            "Jp": "特殊効果（マコト様の威厳）",
+            "En": "Special Effect (Makoto-sama's Dignity)"
+        },
+        {
+            "Key": 3449308855,
+            "Kr": "특수 효과(위대한 마코토 님의 위엄)",
+            "Jp": "特殊効果（偉大なるマコト様の威厳）",
+            "En": "Special Effect (Great Makoto-sama's Dignity)"
+        },
+        {
+            "Key": 1461666436,
+            "Kr": "특수 효과(의욕 충만)",
+            "Jp": "特殊効果（意気揚々）",
+            "En": "Special Effect (Full of Motivation)"
+        },
+        {
+            "Key": 2548406262,
+            "Kr": "특수 효과(Oxygen Destroyer)",
+            "Jp": "特殊効果（酸素破壊剤）",
+            "En": "Special Effect (Oxygen Destroyer)"
+        },
+        {
+            "Key": 3104090813,
+            "Kr": "특수 효과(정의는 쓰러지지 않는다!)",
+            "Jp": "特殊効果（正義は倒れない！）",
+            "En": "Special Effect (Justice Never Falls!)"
+        },
+        {
+            "Key": 4035941301,
+            "Kr": "미숙한 티파티 임원(보조)",
+            "Jp": "新人のティーパーティー役員（サポート）",
+            "En": "Inexperienced Tea Party Officer (Support)"
+        },
+        {
+            "Key": 2448332524,
+            "Kr": "노련한 티파티 임원(보조)",
+            "Jp": "熟練のティーパーティー役員（サポート）",
+            "En": "Veteran Tea Party Officer (Support)"
+        },
+        {
+            "Key": 963180152,
+            "Kr": "정의실현부 학생(보조)",
+            "Jp": "正義実現委員会部員（サポート）",
+            "En": "Justice Committee Member (Support)"
+        },
+        {
+            "Key": 262031164,
+            "Kr": "닌페로 인형(보조)",
+            "Jp": "ニンペロさん人形（サポート）",
+            "En": "Ninpero Doll (Support)"
+        },
+        {
+            "Key": 4015386375,
+            "Kr": "온천가의 카리스마",
+            "Jp": "温泉街のカリスマ",
+            "En": "Hot Spring Town Charisma"
+        },
+        {
+            "Key": 4169220226,
+            "Kr": "[c]내 Phase 종료 시:[/c] 적의 빈 스트라이커 공간에 [c]{char;848029}[/c] 카드를 [c]1[/c]개 소환한다.",
+            "Jp": "[c]自分のフェーズ終了時：[/c]敵のストライカーの空スペースに[c]{char;848029}[/c]カードを[c]1[/c]枚召喚する。",
+            "En": "[c]At the end of your phase:[/c] Summon [c]1[/c] [c]{char;848029}[/c] card to an empty enemy Striker space."
+        },
+        {
+            "Key": 3163973746,
+            "Kr": "탈수",
+            "Jp": "脱水",
+            "En": "Dehydration"
+        },
+        {
+            "Key": 2773974068,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커의 EX스킬 위력이 [c]2[/c] 증가한다.",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方ストライカーのEXスキルの威力が[c]2[/c]増加する。",
+            "En": "[c]At the start of the game:[/c] All allied Strikers' EX Skill power increases by [c]2[/c]."
+        },
+        {
+            "Key": 3874466801,
+            "Kr": "무더위",
+            "Jp": "高温多湿",
+            "En": "Hot and Humid"
+        },
+        {
+            "Key": 4044198689,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커의 EX스킬 위력이 [c]1[/c] 증가한다.",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方ストライカーのEXスキルの威力が[c]1[/c]増加する。",
+            "En": "[c]At the start of the game:[/c] All allied Strikers' EX Skill power increases by [c]1[/c]."
+        },
+        {
+            "Key": 4042709423,
+            "Kr": "마코토 님의 위엄",
+            "Jp": "マコト様の威厳",
+            "En": "Makoto-sama's Dignity"
+        },
+        {
+            "Key": 2024521566,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커의 최대 체력이 [c]2[/c] 증가한다.",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方ストライカーの最大HPが[c]2[/c]増加する。",
+            "En": "[c]At the start of the game:[/c] All allied Strikers' max HP increases by [c]2[/c]."
+        },
+        {
+            "Key": 4031344854,
+            "Kr": "위대한 마코토 님의 위엄",
+            "Jp": "偉大なるマコト様の威厳",
+            "En": "Great Makoto-sama's Dignity"
+        },
+        {
+            "Key": 1870803014,
+            "Kr": "[c]게임 시작 시:[/c] 모든 아군 스트라이커의 최대 체력이 [c]5[/c] 증가한다.",
+            "Jp": "[c]ゲーム開始時：[/c]すべての味方ストライカーの最大HPが[c]5[/c]増加する。",
+            "En": "[c]At the start of the game:[/c] All allied Strikers' max HP increases by [c]5[/c]."
+        },
+        {
+            "Key": 1179284497,
+            "Kr": "카드를 [c]{param;DrawCardNum}[/c]장 뽑는다. 이후 손패의 무작위 카드 [c]{param;DrawCardNum}[/c]장을 버린다.\n\n\n[c][75b4c0][i]우리는 모습이 있는 까닭에 그것을 두려워한다.[/i][-][/c]",
+            "Jp": "カードを[c]{param;DrawCardNum}[/c]枚引く。その後、ランダムで手札にあるカード[c]{param;DrawCardNum}[/c]枚を捨てる。\n\n\n[c][75b4c0][i]我々は、姿がある故に、それを恐れる。[/i][-][/c]",
+            "En": "Draw [c]{param;DrawCardNum}[/c] cards. Then discard [c]{param;DrawCardNum}[/c] random cards from your hand.\n\n\n[c][75b4c0][i]We fear it because it has form.[/i][-][/c]"
+        },
+        {
+            "Key": 1836275032,
+            "Kr": "카드를 [c]1[/c]장 뽑는다. 이후 아군 [c]{tag;MakeUpWork}[/c] 학생의 수만큼 무작위 카드의 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"뭐… 가끔은, 아주 가끔은… 이런 것도 꽤.\"\n- 어둠의 아이, 코제키 우이[/i][-][/c]",
+            "Jp": "カードを[c]1[/c]枚引く。その後、味方[c]{tag;MakeUpWork}[/c]生徒の数だけ、ランダムなカードのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「まあ……たまには、こういうのも悪くないですね。」\n-太陽が苦手な生徒、古関ウイ[/i][-][/c]",
+            "En": "Draw [c]1[/c] card. Then, for each allied [c]{tag;MakeUpWork}[/c] student, reduce the cost of a random card by [c]1[/c].\n\n\n[c][75b4c0][i]\"Well... sometimes, just sometimes... this isn't so bad.\" - Ui Kozeki, Child of Darkness[/i][-][/c]"
+        },
+        {
+            "Key": 806052023,
+            "Kr": "주변에 도움을 요청하여, [c]{param;SpawnNum}[/c]명의 보조 [c]{tag;TeaParty}[/c] 스트라이커를 불러온다.\n\n※ 아군 스트라이커가 모두 퇴각해, 보조 스트라이커만 남으면 전투에서 패배한다.\n\n\n[c][75b4c0][i]\"세이아 쨩, 꼼꼼히 발라줘야 해?\"\n\"꼼꼼히… 라.\"[/i][-][/c]",
+            "Jp": "周囲に助けを求め、[c]{param;SpawnNum}[/c]名のサポート[c]{tag;TeaParty}[/c]ストライカーを呼び出す。\n\n※味方ストライカーが全員退却し、サポートのストライカーのみの場合敗北する。\n\n\n[c][75b4c0][i]「セイアちゃん、しっかり塗ってよね？」\n「しっかり……か」[/i][-][/c]",
+            "En": "Call for help and summon [c]{param;SpawnNum}[/c] support [c]{tag;TeaParty}[/c] Strikers.\n\n*If all allied Strikers retreat and only support Strikers remain, you lose the battle.\n\n\n[c][75b4c0][i]\"Seia-chan, you have to apply it thoroughly!\" \"Thoroughly... huh.\"[/i][-][/c]"
+        },
+        {
+            "Key": 815061249,
+            "Kr": "후열의 아군 스트라이커 EX스킬 위력이 [c]1[/c] 증가하고, 전열과 교대한다.\n\n\n[c][75b4c0][i]\"이걸로 10년은 더 싸울 수 있다.\"\n- 연방수사동아리 샬레, 익명[/i][-][/c]",
+            "Jp": "後列の味方ストライカーのEXスキルの威力が[c]1[/c]増加し、前列と交代する。\n\n\n[c][75b4c0][i]「これであと10年は戦える……！」\n-連邦捜査部シャーレ、匿名[/i][-][/c]",
+            "En": "Increases EX Skill power of allied back row Striker by [c]1[/c] and switches with the front row.\n\n\n[c][75b4c0][i]\"With this, I can fight for another 10 years.\" - Anonymous, Federal Investigation Club Schale[/i][-][/c]"
+        },
+        {
+            "Key": 815643320,
+            "Kr": "[c]{card;848902}[/c]카드를 [c]{param;SpawnCardNum}[/c]장 생성한다.\n\n\n[c][75b4c0][i]\"왜 수박만 가져온 거야? 응? 나기 쨩? 세이아 쨩?\"[/i][-][/c]",
+            "Jp": "[c]{card;848902}[/c]カードを[c]{param;SpawnCardNum}[/c]枚生成する。\n\n\n[c][75b4c0][i]「なんでスイカだけなの？ねえ、ナギちゃん？セイアちゃん？」[/i][-][/c]",
+            "En": "Generate [c]{param;SpawnCardNum}[/c] [c]{card;848902}[/c] cards.\n\n\n[c][75b4c0][i]\"Why did you only bring watermelon? Hey, Nagi-chan? Seia-chan?\"[/i][-][/c]"
+        },
+        {
+            "Key": 2031556786,
+            "Kr": "무작위 [c]{tag;Supply}[/c] 카드를 [c]{param;SpawnCardNum}[/c]장 생성한다.\n\n\n[c][75b4c0][i]게헨나 급식실은 수시로 메뉴를 바꾸는 걸로 유명하고, 종종 폭발하는 것으로 더 유명하다.[/i][-][/c]",
+            "Jp": "ランダムで[c]{tag;Supply}[/c]カードを[c]{param;SpawnCardNum}[/c]枚生成する。\n\n\n[c][75b4c0][i]ゲヘナの学生食堂は随時メニューが変わることで有名だ。たびたび爆発事故が起きることはもっと有名だ。[/i][-][/c]",
+            "En": "Generate [c]{param;SpawnCardNum}[/c] random [c]{tag;Supply}[/c] cards.\n\n\n[c][75b4c0][i]Gehenna's cafeteria is famous for constantly changing its menu—and even more famous for frequent explosions.[/i][-][/c]"
+        },
+        {
+            "Key": 1644799027,
+            "Kr": "손패에 특별한(?) 카드를 일회용으로 [c]{param;SpawnCardNum}[/c]장 생성한다. 그 카드의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"도촬이라니~ 매스컴이란 이름이 울겠어?\"\n- 크로노스 스쿨 보도부의 편집장, 카자마키 마이 [/i][-][/c]",
+            "Jp": "手札に特別な（？）カードを使い捨てで[c]{param;SpawnCardNum}[/c]枚生成する。対象カードのコストは[c]0[/c]になる。\n\n\n[c][75b4c0][i]「盗撮だなんて！これはジャーナリズムですよ？」\n-クロノススクール、報道部の編集長、風巻マイ[/i][-][/c]",
+            "En": "Generate [c]{param;SpawnCardNum}[/c] special (?) disposable cards in your hand. Their cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]\"How dare you call me a paparazzi? This is real journalism!\" - Mai Kazamaki, Chronos School News Editor[/i][-][/c]"
+        },
+        {
+            "Key": 4101646287,
+            "Kr": "덱의 맨 위에 [c]{card;848220}[/c] 카드를 [c]{param;SpawnCardNum}[/c]장 넣는다. 이후 카드를 [c]{param;DrawCardNum}[/c]장 뽑는다.\n\n\n[c][75b4c0][i]인질극은 키보토스에서 일상다반사이기에, 각 학교에서는 그러한 상황에 대비하여 훈련한다.[/i][-][/c]",
+            "Jp": "デッキの一番上に[c]{card;848220}[/c]カードを[c]{param;SpawnCardNum}[/c]枚入れる。その後、カードを[c]{param;DrawCardNum}[/c]枚引く。\n\n\n[c][75b4c0][i]人質事件はキヴォトスでよくあることだ。よって、各学校では事件に備えた訓練を行っている。[/i][-][/c]",
+            "En": "Place [c]{param;SpawnCardNum}[/c] [c]{card;848220}[/c] cards on top of your deck. Then draw [c]{param;DrawCardNum}[/c] cards.\n\n\n[c][75b4c0][i]Hostage situations are common in Kivotos, so every school trains for them.[/i][-][/c]"
+        },
+
+        {
+            "Key": 2180099568,
+            "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다. 이후 카드를 [c]{param;DrawCount}[/c]장 뽑는다.\n\n\n[c][75b4c0][i]키보토스에서는 어느 쪽을 맞춰도 사건은 해결된다.[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。その後、カードを[c]{param;DrawCount}[/c]枚引く。\n\n\n[c][75b4c0][i]キヴォトスでは、どちらを当てても事件は解決する。[/i][-][/c]",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy. Then draw [c]{param;DrawCount}[/c] cards.\n\n\n[c][75b4c0][i]In Kivotos, no matter which side you hit, the case is solved.[/i][-][/c]"
+        },
+        {
+            "Key": 751809694,
+            "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy."
+        },
+        {
+            "Key": 2597863102,
+            "Kr": "손패에 있을 때, 카드를 낼 때마다 피해량이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]언제 어디서나 편리한 소녀의 친구.[/i][-][/c]",
+            "Jp": "手札にあるとき、カードを出すたびにダメージ量が[c]1[/c]増える。\n\n\n[c][75b4c0][i]いつでもどこでも、便利なお友達。[/i][-][/c]",
+            "En": "While in your hand, damage increases by [c]1[/c] each time you play a card.\n\n\n[c][75b4c0][i]A convenient friend for girls, anytime, anywhere.[/i][-][/c]"
+        },
+        {
+            "Key": 1839598266,
+            "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.",
+            "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy."
+        },
+        {
+            "Key": 1084081170,
+            "Kr": "손패에 있을 때, 카드를 뽑을 때마다 피해량이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]\"헤헤, 방심하고 있잖아. 한 방 먹여주자고!\"[/i][-][/c]",
+            "Jp": "手札にあるとき、カードを引くたびにダメージ量が[c]1[/c]増える。\n\n\n[c][75b4c0][i]「へへっ、油断してるな。一発食らわせてやるぜ！」[/i][-][/c]",
+            "En": "While in your hand, damage increases by [c]1[/c] each time you draw a card.\n\n\n[c][75b4c0][i]\"Hehe, you're off guard. Let's hit them hard!\"[/i][-][/c]"
+        },
+        {
+            "Key": 3783454783,
+            "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다. 전열의 적에게 피해를 주면 이 카드가 일회용으로 손패에 복사되어 추가된다.\n\n\n[c][75b4c0][i]\"이야~ 축제하면 백귀야행 아닙니까? 그러니 시찰을 조금~ 땡땡이가 아니라고요?\"\n- 백귀야행 연합학원의 음양부장, 아마치 니야[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。前列の敵にダメージを与えると、このカードが使い捨てとして手札にコピーされる。\n\n\n[c][75b4c0][i]「いやぁ～お祭りと言えば、百鬼夜行じゃないですか？これはあくまで視察ですよ？けっして、サボりではありませんからね？」\n-百鬼夜行連合学院、陰陽部の部長、天地ニヤ[/i][-][/c]",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy. If you damage a front row enemy, this card is copied to your hand as a disposable card.\n\n\n[c][75b4c0][i]\"Festivals mean Hyakkiyako, right? So this is just an inspection~ Not skipping out, I swear!\" - Niyah Amachi, Hyakkiyako Union Academy Onmyo Club Leader[/i][-][/c]"
+        },
+        {
+            "Key": 2433453841,
+            "Kr": "아군 스페셜의 재사용 대기시간이 [c]{param;CoolDownNum}[/c] 감소한다. 그 학생이 [c]{tag;MakeUpWork}[/c]면, 재사용 대기시간이 전부 감소한다.\n\n\n[c][75b4c0][i]바다와 수영복, 해변, 그리고 예쁘게 꾸민 전차.[/i][-][/c]",
+            "Jp": "味方スペシャルのクールタイムが[c]{param;CoolDownNum}[/c]減少する。対象生徒が[c]{tag;MakeUpWork}[/c]であれば、クールタイムがすべて減少する。\n\n\n[c][75b4c0][i]海と水着、ビーチ、そして可愛くデコレーションした戦車。[/i][-][/c]",
+            "En": "Reduces cooldown of an allied Special by [c]{param;CoolDownNum}[/c]. If the student is {tag;MakeUpWork}, cooldown is fully reduced.\n\n\n[c][75b4c0][i]The sea, swimsuits, beach, and a cutely decorated tank.[/i][-][/c]"
+        },
+        {
+            "Key": 1154569838,
+            "Kr": "현재 손패의 모든 카드의 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"잠시, 교전을 멈추도록 하죠. 귀중한 티타임이니까요.\"\n- 티파티의 호스트, 키리후지 나기사[/i][-][/c]",
+            "Jp": "現在の手札のすべてのカードのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「しばし交戦を止めましょう。ティータイムのお時間です。」\n-ティーパーティーのホスト、桐藤ナギサ[/i][-][/c]",
+            "En": "Reduces the cost of all cards in your hand by [c]1[/c].\n\n\n[c][75b4c0][i]\"Let's stop fighting for a while. It's time for tea.\" - Kirifuji Nagisa, Tea Party Host[/i][-][/c]"
+        },
+        {
+            "Key": 1929745470,
+            "Kr": "아군 스트라이커가 장착한 장비의 내구도를 [c]{param;EquipRecoverNum}[/c] 회복한다.\n\n\n[c][75b4c0][i]\"원래는 더 실용적인 디자인이었을 텐데… 뭐, 다들 기왕이면 귀여운 쪽이 좋다는 거겠죠.\"\n- 상투스 분파의 수장, 유리조노 세이아[/i][-][/c]",
+            "Jp": "味方ストライカーが装着した装備の耐久度を[c]{param;EquipRecoverNum}[/c]回復する。\n\n\n[c][75b4c0][i]「元来、より実用的なデザインのはずだったが……まあ、折角であれば、可愛いほうが良いということだろう。」\n-サンクトゥス分派のリーダー、百合園セイア[/i][-][/c]",
+            "En": "Recovers durability of equipment equipped by allied Striker by [c]{param;EquipRecoverNum}[/c].\n\n\n[c][75b4c0][i]\"It was supposed to be more practical... but I guess everyone prefers cute designs.\" - Yurizono Seia, Sanctus Faction Leader[/i][-][/c]"
+        },
+        {
+            "Key": 3770542764,
+            "Kr": "카드를 [c]{param;DrawCardNum}[/c]장 뽑는다. 그 카드가 장비 카드라면 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"와핫핫핫! 이거야 원, 무서워 죽겠네~\"[/i][-][/c]",
+            "Jp": "カードを[c]{param;DrawCardNum}[/c]枚引く。対象カードが装備カードであれば、コストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「ハーハッハッハッハ！これはこれは、怖いじゃないか。」[/i][-][/c]",
+            "En": "Draw [c]{param;DrawCardNum}[/c] cards. If the card is equipment, its cost is reduced by [c]1[/c].\n\n\n[c][75b4c0][i]\"Wahahaha! This is scary!\"[/i][-][/c]"
+        },
+        {
+            "Key": 977128452,
+            "Kr": "카드를 [c]{param;DrawCardNum}[/c]장 뽑는다. 그 카드가 장비 카드라면 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"히, 히, 히에에에엑?!\"[/i][-][/c]",
+            "Jp": "カードを[c]{param;DrawCardNum}[/c]枚引く。対象カードが装備カードであれば、コストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]「ひ、ひ、ひえええぇっ！？」[/i][-][/c]",
+            "En": "Draw [c]{param;DrawCardNum}[/c] cards. If the card is equipment, its cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]\"E-e-eeek?!\"[/i][-][/c]"
+        },
+        {
+            "Key": 1231517689,
+            "Kr": "무작위 장비 카드를 일회용으로 [c]{param;SpawnCardNum}[/c]장 생성한다.\n\n\n[c][75b4c0][i]\"좋아, 강중유까지 전부 닦아냈어.\"[/i][-][/c]",
+            "Jp": "ランダムな装備カードを使い捨てで[c]{param;SpawnCardNum}[/c]枚生成する。\n\n\n[c][75b4c0][i]「よし、銃器の手入れは完璧だ。」[/i][-][/c]",
+            "En": "Generate [c]{param;SpawnCardNum}[/c] random disposable equipment cards.\n\n\n[c][75b4c0][i]\"Ok, firearm maintence done.\"[/i][-][/c]"
+        },
+        {
+            "Key": 3225642553,
+            "Kr": "아군 전열 스트라이커의 최대 체력이 [c]10[/c] 증가하고, EX스킬 위력이 [c]10[/c] 증가한다. 이후 다른 아군 스트라이커들은 전부 퇴각한다.\n\n\n[c][75b4c0][i]하하, 이것 참… '큰 일'이네요.[/i][-][/c]",
+            "Jp": "前列の味方ストライカーの最大HPが[c]10[/c]増加し、EXスキルの威力が[c]10[/c]増加する。その後、他味方ストライカーは全員退却する。\n\n\n[c][75b4c0][i]「はは、これは……大変っすね。」[/i][-][/c]",
+            "En": "Increases max HP and EX Skill power of allied front row Striker by [c]10[/c]. All other allied Strikers retreat.\n\n\n[c][75b4c0][i]Haha, this is... a big deal.[/i][-][/c]"
+        },
+        {
+            "Key": 2400133517,
+            "Kr": "손패의 무작위 장비 카드 [c]1[/c]장의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]일만 하고 놀지 않으면 바보가 된다.[/i][-][/c]",
+            "Jp": "ランダムで手札の装備カード[c]1[/c]枚のコストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]仕事ばかりして遊ばないと、バカになる。[/i][-][/c]",
+            "En": "Sets the cost of [c]1[/c] random equipment card in your hand to [c]0[/c].\n\n\n[c][75b4c0][i]All work and no play makes you stupid.[/i][-][/c]"
+        },
+        {
+            "Key": 2508948111,
+            "Kr": "전열 스트라이커에게 피해를 [c]{param;BasePower}[/c] 준다. 이후 그 스트라이커의 EX스킬 위력이 [c]2[/c] 증가한다.\n\n\n[c][75b4c0][i]\"야, 이 바ㅂ…! 저 사람은 건드리면…! …앗.\"\n- 실려가기 직전 마지막 단말마, 익명의 헬멧단[/i][-][/c]",
+            "Jp": "前列ストライカーにダメージを[c]{param;BasePower}[/c]与える。その後、対象ストライカーのEXスキルの威力が[c]2[/c]増加する。\n\n\n[c][75b4c0][i]「ば、バカ……！あいつには手出すなって……！ぐあっ……。」\n-搬送される前、最後の言葉。匿名のヘルメット団[/i][-][/c]",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a front row Striker. Then increases their EX Skill power by [c]2[/c].\n\n\n[c][75b4c0][i]\"Hey, you idiot...! Don't mess with them...! Guh...\" - Last words before being carried away, Anonymous Helmet Gang[/i][-][/c]"
+        },
+        {
+            "Key": 3756842642,
+            "Kr": "선택한 아군 스트라이커가 장착한 장비를 모두 파괴한다. 이후 파괴한 장비의 수만큼 그 스트라이커의 체력을 회복하고, EX스킬 위력이 증가한다.\n\n\n[c][75b4c0][i]밀레니엄에서 분실했다는 어느 시제품의 후속 기기. 이번에도 안정화에는 실패했다고 한다.[/i][-][/c]",
+            "Jp": "選択した味方ストライカーが装着した装備をすべて破壊する。その後、破壊した装備の数の分、対象ストライカーのHPを回復し、EXスキルの威力が増加する。\n\n\n[c][75b4c0][i]ミレニアムで紛失したというある試作品の次世代機。今回も安定化には失敗したという。[/i][-][/c]",
+            "En": "Destroys all equipment equipped by the selected allied Striker. Then, for each destroyed equipment, recovers HP and increases EX Skill power.\n\n\n[c][75b4c0][i]A next-generation prototype device lost at Millennium. Stabilization failed again.[/i][-][/c]"
+        },
+        {
+            "Key": 4042037111,
+            "Kr": "아군 [c]{tag;TeaParty}[/c] 스트라이커 수만큼, 손패에 무작위 일회용 [c]{tag;TeaParty}[/c] 사건 카드를 생성한다.\n\n\n[c][75b4c0][i]\"안에는 무엇이 들었는지? …그건 그때의 즐거움으로 남겨두죠.\"\n- 트리니티 종합학원의 티파티, 유리조노 세이아[/i][-][/c]",
+            "Jp": "味方[c]{tag;TeaParty}[/c]ストライカーの数の分、手札にランダムな使い捨て[c]{tag;TeaParty}[/c]事件カードを生成する。\n\n\n[c][75b4c0][i]「中身かい？……それは、後のお楽しみと言っておこうか」\n-トリニティ総合学園のティーパーティー、百合園セイア[/i][-][/c]",
+            "En": "Generates random disposable [c]{tag;TeaParty}[/c] event cards in your hand equal to the number of allied [c]{tag;TeaParty}[/c] Strikers.\n\n\n[c][75b4c0][i]\"What's inside? ...Let's leave that as a surprise for later.\" - Yurizono Seia, Trinity Tea Party[/i][-][/c]"
+        },
+        {
+            "Key": 832482173,
+            "Kr": "모든 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.",
+            "Jp": "すべてのストライカーのHPを[c]{param;BasePower}[/c]回復する。",
+            "En": "Recovers [c]{param;BasePower}[/c] HP for all Strikers."
+        },
+        {
+            "Key": 1551025955,
+            "Kr": "손패에 있을 때, [c]{tag;Trinity}[/c] 학생의 EX스킬 또는 SP스킬 발동 시마다, 회복량이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]\"둘이서만 재밌는 거 하고~ 부럽다~ 다음, 다음엔 또 언제야?\"\n\"두 번 다시 안 할 겁니다.\"[/i][-][/c]",
+            "Jp": "手札にあるとき、[c]{tag;Trinity}[/c]生徒のEXスキルまたはSPスキルの発動のたびに、回復量が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]「二人で面白そうなことをしてていいなぁ～ねぇ、次はいつやるの？」\n「二度としません」[/i][-][/c]",
+            "En": "While in your hand, increases recovery amount by [c]1[/c] each time a {tag;Trinity} student's EX Skill or SP Skill is activated.\n\n\n[c][75b4c0][i]\"You two are having fun together~ I'm jealous~ When's the next time?\" \"Never again.\"[/i][-][/c]"
+        },
+        {
+            "Key": 1634702664,
+            "Kr": "전열 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다. 이후 무작위 스트라이커와 교대한다.\n\n\n[c][75b4c0][i]\"…나기 쨩, 즐거워?\"\n\"…? 네.\"\n\"…다행이네.\"[/i][-][/c]",
+            "Jp": "前列のストライカーのHPを[c]{param;BasePower}[/c]回復する。その後、ランダムなストライカーと交代する。\n\n\n[c][75b4c0][i]「……ナギちゃん、楽しい？」\n「……？はい」\n「……よかった」[/i][-][/c]",
+            "En": "Recovers [c]{param;BasePower}[/c] HP for a front row Striker. Then switches with a random Striker.\n\n\n[c][75b4c0][i]\"...Nagi-chan, are you having fun?\" \"...? Yes.\" \"...That's good.\"[/i][-][/c]"
+        },
+        {
+            "Key": 3564159048,
+            "Kr": "카드를 [c]{param;DrawCardNum}[/c]장 뽑는다. 아군 스트라이커 중 [c]{tag;TeaParty}[/c] 학생이 [c]{param;ConditionNum}[/c]명 이상 있다면, 카드를 추가로 [c]{param;DrawNumAdd}[/c]장 뽑는다.\n\n\n[c][75b4c0][i]\"세이아 쨩, 취향 촌스러★\"[/i][-][/c]",
+            "Jp": "カードを[c]{param;DrawCardNum}[/c]枚引く。味方ストライカーのうち[c]{tag;TeaParty}[/c]生徒が[c]{param;ConditionNum}[/c]人以上いる場合、カードを追加で[c]{param;DrawNumAdd}[/c]枚引く。\n\n\n[c][75b4c0][i]「セイアちゃんのセンスって、ちょいダサだね☆」[/i][-][/c]",
+            "En": "Draw [c]{param;DrawCardNum}[/c] cards. If there are [c]{param;ConditionNum}[/c] or more allied [c]{tag;TeaParty}[/c] students, draw an additional [c]{param;DrawNumAdd}[/c] cards.\n\n\n[c][75b4c0][i]\"Seia-chan, your taste is kinda tacky☆\"[/i][-][/c]"
+        },
+        {
+            "Key": 626037564,
+            "Kr": "아군 [c]{tag;TeaParty}[/c] 스트라이커 수만큼 코스트를 회복한다.",
+            "Jp": "味方[c]{tag;TeaParty}[/c]ストライカーの人数分、コストを回復する。",
+            "En": "Recovers cost equal to the number of allied [c]{tag;TeaParty}[/c] Strikers."
+        },
+        {
+            "Key": 1836174918,
+            "Kr": "손패에 있을 때, [c]{tag;TeaParty}[/c] 카드를 낼 때마다 이 카드의 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"티파티 베스트 드라이버인 제 실력에 의심이라도?\"\n\"티파티 중에 운전하는 사람은 세이아 씨뿐이잖아요!\"[/i][-][/c]",
+            "Jp": "手札にあるとき、[c]{tag;TeaParty}[/c]カードを出すたびに、このカードのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「ティーパーティー屈指のドライバーである、この私を疑っているのかい？」\n「ティーパーティーで運転するのはセイアさんだけじゃありませんか！」[/i][-][/c]",
+            "En": "While in your hand, this card's cost decreases by [c]1[/c] each time you play a [c]{tag;TeaParty}[/c] card.\n\n\n[c][75b4c0][i]\"Are you doubting my skills as the best Tea Party driver?\" \"You're the only one who drives in the Tea Party, Seia!\"[/i][-][/c]"
+        },
+        {
+            "Key": 1218390534,
+            "Kr": "아군 전열 스트라이커의 EX스킬 위력이 [c]{param;BasePower}[/c] 증가한다.",
+            "Jp": "前列の味方ストライカーのEXスキルの威力が[c]{param;BasePower}[/c]増加する。",
+            "En": "Increases EX Skill power of allied front row Striker by [c]{param;BasePower}[/c]."
+        },
+        {
+            "Key": 4244436954,
+            "Kr": "손패에 있을 때, [c]{tag;Justice}[/c] 학생의 EX스킬 또는 SP스킬 발동 시마다, 위력이 추가로 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]정의실현부에는 부부장의 우아한 사격술을 선망하고 입부한 학생이 많다. 그래서 저격수 지원자는 많지만, 대부분 고된 훈련에 포기하고 만다.[/i][-][/c]",
+            "Jp": "手札にあるとき、[c]{tag;Justice}[/c]生徒のEXスキルまたはSPスキルの発動のたびに、威力がさらに[c]1[/c]増加する。\n\n\n[c][75b4c0][i]正義実現委員会の副委員長の優雅な射撃術に憧れ、入部して狙撃手に志願する生徒は後を絶たない。だが、その多くが厳しい訓練を前に挫折してしまう。[/i][-][/c]",
+            "En": "While in your hand, each time a [c]{tag;Justice}[/c] student's EX Skill or SP Skill is activated, power increases by [c]1[/c].\n\n\n[c][75b4c0][i]Many students join the Justice Committee admiring the vice leader's elegant marksmanship. Many aspire to be snipers, but most give up during the tough training.[/i][-][/c]"
+        },
+        {
+            "Key": 1856381988,
+            "Kr": "아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다. 그 스트라이커가 [c]{tag;Justice}[/c]라면 EX스킬 위력도 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]\"모래성을 만들라고 했잖아. 포트리스, 즉 어떤 공격에도 무너지지 않는 성벽을 만들었지.\"\n- 보충수업부, 시라스 아즈사[/i][-][/c]",
+            "Jp": "味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。対象ストライカーが[c]{tag;Justice}[/c]である場合、EXスキルの威力も[c]1[/c]増加する。\n\n\n[c][75b4c0][i]「「注文は『砂のお城』だった。お城、つまりはフォートレス。どんな攻撃を受けても対応できるようにした。」\n-補習授業部、白洲アズサ[/i][-][/c]",
+            "En": "Grants [c]{param;BasePower}[/c] shield to an allied Striker. If that Striker is [c]{tag;Justice}[/c], EX Skill power also increases by [c]1[/c].\n\n\n[c][75b4c0][i]\"You asked for a sandcastle. So I made a fortress, a wall that won't fall to any attack.\" - Make-up Class Club, Azusa Shirasu[/i][-][/c]"
+        },
+        {
+            "Key": 167897384,
+            "Kr": "아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다. 그 스트라이커가 [c]{tag;TeaParty}[/c]라면 EX스킬 위력도 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]\"…이라고 분명히 들었습니다만….\"[/i][-][/c]",
+            "Jp": "味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。対象ストライカーが[c]{tag;TeaParty}[/c]である場合、EXスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]「……と、聞きましたが。」[/i][-][/c]",
+            "En": "Grants [c]{param;BasePower}[/c] shield to an allied Striker. If that Striker is [c]{tag;TeaParty}[/c], EX Skill power also increases by [c]1[/c].\n\n\n[c][75b4c0][i]\"...That's what I heard, at least...\"[/i][-][/c]"
+        },
+        {
+            "Key": 3927623307,
+            "Kr": "아군 [c]{tag;Justice}[/c] 학생의 수만큼 장비 카드를 일회용으로 생성한다. 그 장비의 코스트가 [c]0[/c]이 된다.",
+            "Jp": "味方[c]{tag;Justice}[/c]生徒の数の分、装備カードを使い捨てで生成する。その装備のコストが[c]0[/c]になる。",
+            "En": "Generates disposable equipment cards equal to the number of allied [c]{tag;Justice}[/c] students. Their cost becomes [c]0[/c]."
+        },
+        {
+            "Key": 3707754626,
+            "Kr": "손패에 있을 때, [c]{tag;Justice}[/c] 학생의 EX스킬 또는 SP스킬 발동 시마다, 이 카드의 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]작고 소중한 추억, 내일을 향한 원동력.[/i][-][/c]",
+            "Jp": "手札にあるとき、[c]{tag;Justice}[/c]生徒のEXスキルまたはSPスキルの発動のたびに、このカードのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]小さくて大切な思い出、明日への原動力。[/i][-][/c]",
+            "En": "While in your hand, each time a [c]{tag;Justice}[/c] student's EX Skill or SP Skill is activated, this card's cost decreases by [c]1[/c].\n\n\n[c][75b4c0][i]Small and precious memories, the driving force for tomorrow.[/i][-][/c]"
+        },
+        {
+            "Key": 2582097626,
+            "Kr": "선택한 아군 스트라이커가 [c]{tag;Trinity}[/c] 학생이라면 보호막을 [c]{param;ShieldPower}[/c] 부여한다. 대상이 [c]{tag;Gehenna}[/c] 학생이라면 EX스킬 위력이 [c]1[/c] 증가하고 체력을 [c]{param;HealPower}[/c] 회복한다.\n\n\n[c][75b4c0][i]저런 차림으로 부끄럽지도 않은 걸까요?'[/i][-][/c]",
+            "Jp": "選択した味方ストライカーが[c]{tag;Trinity}[/c]生徒である場合、シールドを[c]{param;ShieldPower}[/c]付与する。対象が[c]{tag;Gehenna}[/c]の生徒である場合、EXスキルの威力が[c]1[/c]増加し、HPを[c]{param;HealPower}[/c]回復する。\n\n\n[c][75b4c0][i]「あんな格好、恥ずかしくないんですか？」[/i][-][/c]",
+            "En": "If the selected allied Striker is a [c]{tag;Trinity}[/c] student, grant [c]{param;ShieldPower}[/c] shield. If the target is a [c]{tag;Gehenna}[/c] student, increase EX Skill power by [c]1[/c] and recover [c]{param;HealPower}[/c] HP.\n\n\n[c][75b4c0][i]\"Aren't you embarrassed to dress like that?\"[/i][-][/c]"
+        },
+        {
+            "Key": 3573593350,
+            "Kr": "주변에 도움을 요청하여, [c]{param;SpawnCharacterNum}[/c]명의 보조 [c]{tag;Justice}[/c] 스트라이커를 불러온다.\n\n※ 아군 스트라이커가 모두 퇴각해, 보조 스트라이커만 남으면 전투에서 패배한다.\n\n\n[c][75b4c0][i]여러 키보토스의 학원 중에서도, 트리니티 종합학원이 관리하는 자치구는 특히나 치안이 좋다고 알려져 있다.[/i][-][/c]",
+            "Jp": "周囲に助けを求め、[c]{param;SpawnCharacterNum}[/c]名のサポートの[c]{tag;Justice}[/c]ストライカーを呼び出す。\n\n※味方ストライカーが全員退却し、サポートのストライカーのみの場合敗北する。\n\n\n[c][75b4c0][i]キヴォトスの学園の中で、トリニティ総合学園が管理する自治区は、特に治安が良いとされている。[/i][-][/c]",
+            "En": "Call for help and summon [c]{param;SpawnCharacterNum}[/c] support [c]{tag;Justice}[/c] Strikers.\n\n*If all allied Strikers retreat and only support Strikers remain, you lose the battle.\n\n\n[c][75b4c0][i]Among Kivotos academies, the district managed by Trinity General Academy is known for its excellent public safety.[/i][-][/c]"
+        },
+        {
+            "Key": 4207785339,
+            "Kr": "스트라이커에게 [c]{param;BasePower}[/c] 피해를 준다. 그 스트라이커가 [c]{tag;PrefectTeam}[/c]라면, EX스킬 위력이 [c]2[/c] 증가한다.\n\n\n[c][75b4c0][i]\"찍지 마! …왜 갑자기 히죽거리는 거야?! 찍지 말라니까?!\"[/i][-][/c]",
+            "Jp": "ストライカーに[c]{param;BasePower}[/c]ダメージを与える。対象ストライカーが[c]{tag;PrefectTeam}[/c]である場合、EXスキルの威力が[c]2[/c]増加する。\n\n\n[c][75b4c0][i]「撮るなっ……！何ニヤニヤしてるんだ！？撮るなって言っただろ！？」[/i][-][/c]",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a Striker. If that Striker is [c]{tag;PrefectTeam}[/c], EX Skill power increases by [c]2[/c].\n\n\n[c][75b4c0][i]\"Don't take pictures! ...Why are you grinning?! I said don't!\"[/i][-][/c]"
+        },
+        {
+            "Key": 938088059,
+            "Kr": "코스트를 [c]{param;BasePower}[/c] 회복한다. 이후 아군 [c]{tag;Hyakkiyako}[/c] 스페셜 학생의 수만큼 코스트를 추가로 회복한다.\n\n\n[c][75b4c0][i]\"흥흥흥~♪ 이번 달은 성수기였으니까~\"[/i][-][/c]",
+            "Jp": "コストを[c]{param;BasePower}[/c]回復する。その後、味方[c]{tag;Hyakkiyako}[/c]スペシャル生徒の数の分、コストを追加で回復する。\n\n\n[c][75b4c0][i]「フンフンフン～♪今月は繁忙期だったからね～」[/i][-][/c]",
+            "En": "Recovers [c]{param;BasePower}[/c] cost. Then, for each allied [c]{tag;Hyakkiyako}[/c] Special student, recover additional cost.\n\n\n[c][75b4c0][i]\"Hmm hmm hmm~♪ This month was the high season~\"[/i][-][/c]"
+        },
+        {
+            "Key": 866484903,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 844786943,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] 무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]물에 젖기 싫지만, 물총놀이는 하고 싶은 학생들을 위한 실탄 장전식 물총.[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]ランダムな敵に[c]{param;BasePower}[/c]ダメージを与える。\n\n\n[c][75b4c0][i]水に濡れるのは嫌だけど、水鉄砲遊びはしたい生徒のために用意された、実弾装填式水鉄砲。[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] Deals [c]{param;BasePower}[/c] damage to a random enemy.\n\n\n[c][75b4c0][i]A real-bullet water gun for students who want to play but hate getting wet.[/i][-][/c]"
+        },
+        {
+            "Key": 583076454,
+            "Kr": "[c]기본 내구도: 2[/c]\n",
+            "Jp": "[c]基本耐久度：2[/c]\n",
+            "En": "[c]Base Durability: 2[/c]\n"
+        },
+        {
+            "Key": 797126492,
+            "Kr": "[c]내 Phase 종료 시:[/c] 장착한 스트라이커에게 [c]{param;BasePower}[/c] 피해를 준다. 이후 그 스트라이커의 EX스킬 위력이 [c]2[/c] 증가한다.\n\n\n[c][75b4c0][i]\"뭘 어떻게 했길래, 공이 탱크에 깔리기라도 한 것처럼 찌그러진 거야…?\"\n- 인법연구부의 부장, 치도리 미치루[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ終了時：[/c]装着したストライカーに[c]{param;BasePower}[/c]ダメージを与える。その後、対象ストライカーのEXスキルの威力が[c]2[/c]増加する。\n\n\n[c][75b4c0][i]「い、一体何があったの？ボールがぐにゃっとなって……。」\n-忍術研究部の部長、千鳥ミチル[/i][-][/c]",
+            "En": "[c]At the end of your phase:[/c] Deals [c]{param;BasePower}[/c] damage to the equipped Striker. Then, their EX Skill power increases by [c]2[/c].\n\n\n[c][75b4c0][i]\"What happened to make the ball so squished, like it was run over by a tank...?\" - Chidori Michiru, Ninjutsu Research Club Leader[/i][-][/c]"
+        },
+        {
+            "Key": 1844616407,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 2677341484,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] EX스킬 위력이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]물에 빠트려도 총이 젖지 않는 방수성으로 인기를 끌고 있다.[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]EXスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]水に落としても濡れない防水性の高さから、人気を集めている。[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] EX Skill power increases by [c]1[/c].\n\n\n[c][75b4c0][i]Popular for its waterproofing—even if dropped in water, the gun doesn't get wet.[/i][-][/c]"
+        },
+        {
+            "Key": 1556821559,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 3877357079,
+            "Kr": "[c]내 Phase 종료 시:[/c] 장착한 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다.\n\n\n[c][75b4c0][i]<파도 사이로>\n<바람이 불어오니>\n<좀 쌀쌀하네>[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ終了時：[/c]装着したストライカーにシールドを[c]{param;BasePower}[/c]付与する。\n\n\n[c][75b4c0][i]「波の音」\n「風にまぎれて」\n「肌寒し」[/i][-][/c]",
+            "En": "[c]At the end of your phase:[/c] Grants [c]{param;BasePower}[/c] shield to the equipped Striker.\n\n\n[c][75b4c0][i]<The crashing of waves>\n<Blending with the blaze of wind >\n<It's a bit chilly>[/i][-][/c]"
+        },
+        {
+            "Key": 3230505087,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 1414061792,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] 보호막을 [c]{param;BasePower}[/c] 부여한다.\n\n\n[c][75b4c0][i]\"이거 어때? 방탄복 대용으로도 쓸 수 있대.\"\n\"방탄복은 너무 기합 넣은 것 같아서 부끄럽지 않아?\"[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]シールドを[c]{param;BasePower}[/c]付与する。\n\n\n[c][75b4c0][i]「これどう？防弾チョッキの代わりにも使えるんだって」\n「防弾チョッキって、大げさじゃないかなあ……」[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] Grants [c]{param;BasePower}[/c] shield.\n\n\n[c][75b4c0][i]\"How about this? They say you can use it instead of a bulletproof vest.\" \"Isn't a bulletproof vest a bit much?\"[/i][-][/c]"
+        },
+        {
+            "Key": 2337030578,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 359087032,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] 무작위 아군의 체력을 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]\"미안하지만, 이 선풍기는 1인용이라서.\"[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]ランダムな味方のHPを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]「悪いけど、この扇風機は一人用でね」[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] Recovers [c]{param;BasePower}[/c] HP for a random ally.\n\n\n[c][75b4c0][i]\"Sorry, this fan is for one person only.\"[/i][-][/c]"
+        },
+        {
+            "Key": 3042201857,
+            "Kr": "[c]기본 내구도: 2[/c]\n",
+            "Jp": "[c]基本耐久度：2[/c]\n",
+            "En": "[c]Base Durability: 2[/c]\n"
+        },
+        {
+            "Key": 1746028598,
+            "Kr": "[c]장착한 스트라이커가 전열로 교대 시:[/c] 코스트를 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]편안한 착용감 덕에, 의외로 시가지에서도 흔히 보이는 신발.[/i][-][/c]",
+            "Jp": "[c]装着したストライカーが前列に交代時：[/c]コストを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]快適な履き心地で、意外と街中でもよく見かけるシューズ。[/i][-][/c]",
+            "En": "[c]When equipped Striker switches to the front row:[/c] Recovers [c]{param;BasePower}[/c] cost.\n\n\n[c][75b4c0][i]Thanks to their comfort, these shoes are surprisingly common in the city.[/i][-][/c]"
+        },
+        {
+            "Key": 3707487749,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 762864177,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] 체력을 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]해양 스포츠 브랜드 <하르피아>는 그 이름처럼 오디세이아 해양학원을 중심으로 두터운 팬층을 보유하고 있다.[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]HPを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]マリンスポーツブランド「ハルピュイア」はその名の通り、オデッセイア海洋高等学校を中心に多くのファンを有している。[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] Recovers [c]{param;BasePower}[/c] HP.\n\n\n[c][75b4c0][i]The marine sports brand Harpyia has a strong fan base centered around Odyssey Marine Academy.[/i][-][/c]"
+        },
+        {
+            "Key": 228520307,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 3231137966,
+            "Kr": "[c]장착한 스트라이커의 EX스킬 발동 후:[/c] 장착한 스트라이커가 [c]{tag;PrefectTeam}[/c]라면, 체력이 가장 낮은 적에게 [c]{param;BasePower}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]\"혹시나 해서 말하지만… 모든 선도부원이 이런 튜브를 쓰는 건 아니니까.\"\n- 선도부의 저격수, 시로미 이오리[/i][-][/c]",
+            "Jp": "[c]装着したストライカーのEXスキル発動後：[/c]装着したストライカーが[c]{tag;PrefectTeam}[/c]である場合、HPが最も低い敵に[c]{param;BasePower}[/c]ダメージを与える。\n\n\n[c][75b4c0][i]「一応言っておくけど……風紀委員が全員こんな浮き輪を使ってるわけじゃないからな」\n-風紀委員会、銀鏡イオリ[/i][-][/c]",
+            "En": "[c]After equipped Striker's EX Skill activation:[/c] If equipped Striker is [c]{tag;PrefectTeam}[/c], deals [c]{param;BasePower}[/c] damage to the enemy with the lowest HP.\n\n\n[c][75b4c0][i]\"Just so you know... not all Prefect Team members use tubes like this.\" - Shiromi Iori, Prefect Team Sniper[/i][-][/c]"
+        },
+        {
+            "Key": 3605562961,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 1692944841,
+            "Kr": "[c]내 Phase 시작 시:[/c] 장착한 스트라이커가 전열에 있고 [c]{tag;Justice}[/c]라면, EX스킬의 위력이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]매년 많은 신입생이 정의실현부를 동경해 입부한다. 그중 극소수만이 남아 이 완장을 차게 된다.[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ開始時：[/c]装着したストライカーが前列にいて[c]{tag;Justice}[/c]である場合、EXスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]毎年多くの新入生が正義実現委員会に憧れて入部する。だが、この腕章を着けられる者はごく僅かだ。[/i][-][/c]",
+            "En": "[c]At the start of your phase:[/c] If the equipped Striker is in the front row and is [c]{tag;Justice}[/c], EX Skill power increases by [c]1[/c].\n\n\n[c][75b4c0][i]Every year, many new students join the Justice Actualization Committee, hoping to become part of it. Only a select few get to wear the armband.[/i][-][/c]"
+        },
+        {
+            "Key": 3507167664,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 633274597,
+            "Kr": "[c]다른 티파티 스트라이커의 EX스킬 발동 후:[/c] 장착한 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여하고, EX스킬 위력이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]티포트 없이 다니는 것은, 총 없이 다니는 것과 같다.\n- 트리니티의 오랜 격언[/i][-][/c]",
+            "Jp": "[c]他のティーパーティーのストライカーのEXスキル発動後：[/c]装着したストライカーにシールドを[c]{param;BasePower}[/c]付与し、EXスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]ティーポットを持たずに歩くのは、銃を持たずに歩くのと同じである。\n-トリニティの長年の格言[/i][-][/c]",
+            "En": "[c]After another Tea Party Striker's EX Skill activation:[/c] Grants [c]{param;BasePower}[/c] shield and increases EX Skill power by [c]1[/c] to the equipped Striker.\n\n\n[c][75b4c0][i]To go without a teapot is like walking without a gun. - Old Trinity proverb[/i][-][/c]"
+        },
+        {
+            "Key": 1687452173,
+            "Kr": "[c]기본 내구도: 3[/c]\n",
+            "Jp": "[c]基本耐久度：3[/c]\n",
+            "En": "[c]Base Durability: 3[/c]\n"
+        },
+        {
+            "Key": 691707837,
+            "Kr": "[c]장착한 스트라이커가 전열로 교대 시:[/c] 보호막을 [c]{param;BasePower}[/c] 부여한다.\n\n\n[c][75b4c0][i]\"핑키파카 님의 정체에 대해서는 의견이 분분해요. 오리너구리, 펭귄, 악어… 하지만 핑키파카 님은 그 누구에게도 답해주지 않아요. 아무 말도 하지 않기 때문이죠.\"[/i][-][/c]",
+            "Jp": "[c]装着したストライカーが前列に交代時：[/c]シールドを[c]{param;BasePower}[/c]付与する。\n\n\n[c][75b4c0][i]「ピンキーパカさんの正体については意見が分かれています。カモノハシ、ペンギン、ワニ等々……。でも、ピンキーパカさんは誰にも答えてくれません。なぜなら、何も言わないからです」[/i][-][/c]",
+            "En": "[c]When equipped Striker switches to the front row:[/c] Grants [c]{param;BasePower}[/c] shield.\n\n\n[c][75b4c0][i]There are many theories about Pinkypaka's identity: platypus, penguin, crocodile... But Pinkypaka never answers, because they never say a word.[/i][-][/c]"
+        },
+        {
+            "Key": 542885129,
+            "Kr": "[c]기본 내구도: 1[/c]\n",
+            "Jp": "[c]基本耐久度：1[/c]\n",
+            "En": "[c]Base Durability: 1[/c]\n"
+        },
+        {
+            "Key": 2722924470,
+            "Kr": "[c]내 Phase 시작 시:[/c] 이번 Phase에 장착한 스트라이커의 EX스킬 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]여름에는 산인가, 바다인가. 마침내 찾아낸 극적인 타협점.[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ開始時：[/c]今回のフェーズで装着したストライカーのEXスキルのコストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]夏は山か海か。ついに見つけた劇的な妥協点。[/i][-][/c]",
+            "En": "[c]At the start of your phase:[/c] This phase, the equipped Striker's EX Skill cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]Mountains or the sea in summer? A dramatic compromise finally found.[/i][-][/c]"
+        },
+         {
+            "Key": 3550950083,
+            "Kr": "[c]장소 카드는 한 개만 배치할 수 있다.[/c]\n",
+            "Jp": "[c]場所カードは1枚だけ配置できる。[/c]\n",
+            "En": "[c]Only one location card can be placed.[/c]\n"
+        },
+        {
+            "Key": 2537466761,
+            "Kr": "[c]내 Phase 시작 시:[/c] 무작위 아군 스페셜의 재사용 대기시간이 [c]{param;BasePower}[/c] 감소한다.\n\n\n[c][75b4c0][i]\"누님들! 어서 오십시오!\"\n\"피, 피나! 그, 그러니까, 그게 아니라~!\"[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ開始時：[/c]ランダムで味方スペシャルのクールタイムが[c]{param;BasePower}[/c]減少する。\n\n\n[c][75b4c0][i]「姐御！よくぞいらっしゃいマシタ！」\n「フィ、フィーナ！そ、そうじゃなくて～！」[/i][-][/c]",
+            "En": "[c]At the start of your phase:[/c] Random allied Special's cooldown is reduced by [c]{param;BasePower}[/c].\n\n\n[c][75b4c0][i]\"Ladies! Welcome!\" \"Pi-, Pina! That's not what I meant~!\"[/i][-][/c]"
+        },
+        {
+            "Key": 2119286064,
+            "Kr": "[c]장소 카드는 한 개만 배치할 수 있다.[/c]\n",
+            "Jp": "[c]場所カードは1枚だけ配置できる。[/c]\n",
+            "En": "[c]Only one location card can be placed.[/c]\n"
+        },
+        {
+            "Key": 1043163229,
+            "Kr": "[c]장비 카드를 낸 후:[/c] 카드를 [c]{param;DrawCardNum}[/c]장 뽑는다. [c](턴당 1번)[/c]\n\n\n[c][75b4c0][i]\"좋아! 다음 게임은 해변 노점 운영 게임이야!\"[/i][-][/c]",
+            "Jp": "[c]装備カードを出した後：[/c]カードを[c]{param;DrawCardNum}[/c]枚引く。[c]（1ターンあたり1回）[/c]\n\n\n[c][75b4c0][i]「いいわ！次はビーチで露店を運営するゲームよ！」[/i][-][/c]",
+            "En": "[c]After playing an equipment card:[/c] Draw [c]{param;DrawCardNum}[/c] cards. [c](Once per turn)[/c]\n\n\n[c][75b4c0][i]\"Alright! Next game is running a beach stall!\"[/i][-][/c]"
+        },
+        {
+            "Key": 3968420944,
+            "Kr": "[c]장소 카드는 한 개만 배치할 수 있다.[/c]\n",
+            "Jp": "[c]場所カードは1枚だけ配置できる。[/c]\n",
+            "En": "[c]Only one location card can be placed.[/c]\n"
+        },
+        {
+            "Key": 798421210,
+            "Kr": "[c]내 Phase 시작 시:[/c] 이번 Phase에 아군 스트라이커의 EX스킬 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"왜 내 침대를 해변에 갖다 놓은 거야? 응? 나기 쨩? 세이아 쨩?\"[/i][-][/c]",
+            "Jp": "[c]自分のフェーズ開始時：[/c]今回のフェーズで味方ストライカーのEXスキルのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「どうして私のベッドをビーチに置いたの？ねぇ、ナギちゃん？セイアちゃん？」[/i][-][/c]",
+            "En": "[c]At the start of your phase:[/c] This phase, allied Striker's EX Skill cost is reduced by [c]1[/c].\n\n\n[c][75b4c0][i]\"Why did you put my bed on the beach? Hey, Nagi-chan? Seia-chan?\"[/i][-][/c]"
+        },
+        {
+            "Key": 1785816915,
+            "Kr": "아군 스트라이커의 체력을 [c]{param;BasePower}[/c] 회복한다.\n\n\n[c][75b4c0][i]\"해변에서 먹는 군옥수수는 왜 맛있는가?\" 그 해답은 과연….\"\n\"그거, 아직도 신경 쓰고 있었어?\"[/i][-][/c]",
+            "Jp": "味方ストライカーのHPを[c]{param;BasePower}[/c]回復する。\n\n\n[c][75b4c0][i]「ビーチで食べる焼きトウモロコシはなぜ美味しいのか？……その回答は果たして……。」\n「それ、まだ気にしてるの？」[/i][-][/c]",
+            "En": "Recovers [c]{param;BasePower}[/c] HP for an allied Striker.\n\n\n[c][75b4c0][i]\"Why does grilled corn taste so good at the beach? Is there an answer...?\" \"You're still thinking about that?\"[/i][-][/c]"
+        },
+        {
+            "Key": 2886175233,
+            "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다.\n\n\n[c][75b4c0][i]※이후 정의실현부가 맛있게 먹었습니다.[/i][-][/c]",
+            "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。\n\n\n[c][75b4c0][i]※その後、正義実現委員会が美味しくいただきました。[/i][-][/c]",
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy.\n\n\n[c][75b4c0][i]※Afterwards, the Justice Actualization Committee enjoyed the delicious food.[/i][-][/c]"
+        },
+        {
+            "Key": 895436425,
+            "Kr": "아군 스트라이커의 EX스킬 위력이 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]전설의 케이크, 미라클 5000의 맛을 재현한다는 야심 찬 목적으로 만들어진 케이크. 하지만 미라클 5000은 쇼트케이크가 아니었기에 실패했다.[/i][-][/c]",
+            "Jp": "味方ストライカーのEXスキルの威力が[c]1[/c]増加する。\n\n\n[c][75b4c0][i]伝説のケーキ、ミラクル5000の味を再現するという野望に満ちた目的で作られたケーキ。しかし、ミラクル5000はショートケーキではなかったため失敗した。[/i][-][/c]",
+            "En": "Increases EX Skill power of an allied Striker by [c]1[/c].\n\n\n[c][75b4c0][i]A cake made with the ambitious goal of recreating the taste of the legendary Miracle 5000. But Miracle 5000 wasn't a shortcake, so it failed.[/i][-][/c]"
+        },
+        {
+            "Key": 1210753969,
+            "Kr": "아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다.\n\n\n[c][75b4c0][i]마니아 사이에서 큰 인기를 끄는 디저트. 가끔 무기로 쓰이기도 함.[/i][-][/c]",
+            "Jp": "味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。\n\n\n[c][75b4c0][i]マニアの間で大人気のスイーツ。たまに武器として使われることもある。[/i][-][/c]",
+            "En": "Grants [c]{param;BasePower}[/c] shield to an allied Striker.\n\n\n[c][75b4c0][i]A dessert very popular among enthusiasts. Sometimes used as a weapon.[/i][-][/c]"
         }
 
           
