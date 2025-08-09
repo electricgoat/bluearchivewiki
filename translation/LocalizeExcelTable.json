@@ -956,8 +956,8 @@
         },
         {
             "Key": 1955500566,
-            "Kr": "감옥에서 발견된 숟가락. 주로 음식을 먹거나, 감옥을 탈출할 때나, 멋진 영웅으로 변신할 때 쓰이고는 하는 물건이다.",
-            "Jp": "特別牢で見つかったスプーン。食べ物を食べたり、特別牢を脱出したり、スーパーヒーローに変身するときに使われる.",
+            "Kr": "감옥에서 발견된 숟가락. 주로 음식을 먹거나, 감옥에서 탈출할 때나, 멋진 영웅으로 변신할 때 쓰이고는 하는 물건이다.",
+            "Jp": "特別牢で見つかったスプーン。食べ物を食べたり、特別牢を脱出したり、スーパーヒーローに変身するときに使われる。",
             "En": "A spoon found in the prison. It is usually used to eat food or transform into a cool hero when escaping from prison."
         },
         {
@@ -969,7 +969,7 @@
         {
             "Key": 3128527829,
             "Kr": "세나가 정리해 놓은 환자 목록. 우선으로 치료가 필요한 대상부터 꾀병 환자까지 냉정하게 기록된 부분이 세나답다.",
-            "Jp": "セナが書いた患者リスト。最優先で治療にかかるべき対象から仮病の患者まで、冷静にまとめられていて、セナの几帳面な性格がうかがえる.",
+            "Jp": "セナが書いた患者リスト。最優先で治療にかかるべき対象から仮病の患者まで、冷静にまとめられていて、セナの几帳面な性格がうかがえる。",
             "En": "A list of patients organized by Sena. It records patients in need of urgent treatment, as well as those with feigned illnesses, in a cold and systematic manner typical of Sena."
         },
         {
@@ -987,7 +987,7 @@
         {
             "Key": 88965538,
             "Kr": "아직 사용하지 않은 응급의학부의 주사기. 바늘이 위험하니까, 섣불리 만지지 않도록 주의하자!",
-            "Jp": "まだ使用していない救急医学部の注射器。危ないので、下手に触らないよう気をつけよう!",
+            "Jp": "まだ使用していない救急医学部の注射器。危ないので、下手に触らないよう気をつけよう！",
             "En": "An unused syringe from the Emergency Medicine Department. The needle is dangerous, so be careful not to touch it hastily!"
         },
         {
@@ -1603,8 +1603,8 @@
         },
         {
             "Key": 637543182,
-            "Kr": "",
-            "Jp": "",
+            "Kr": "특수 조사 세피로트의 나무",
+            "Jp": "特殊調査セフィロトの樹",
             "En": "Special Investigation: The Tree of Sephiroth"
         },
         {
@@ -1682,7 +1682,7 @@
         {
             "Key": 2932948695,
             "Kr": "Code: BOX 밀레니엄에 다가오는 그림자~ 한 가지의 물음과 두 가지 대답 ~",
-            "Jp": "Code:BOX　ミレニアムに迫る影～一つの問いと二つの答え～",
+            "Jp": "Code:BOX ミレニアムに迫る影～一つの問いと二つの答え～",
             "En": "Code: BOX Shadow Looming Over Millennium ～One Question and Two Answers～"
         },
         {
@@ -2302,7 +2302,7 @@
             "Key": 2786309527,
             "Kr": "손패의 무작위 카드 [c]1[/c]장의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"시스터후드에서는 물고문을 자행한다는 소문은 역시…!\"\n- 음모론에 심취한 도서부장, 코제키 우이[/i][-][/c]",
             "Jp": "ランダムで手札[c]1[/c]枚のコストが[c]0[/c]になる。\n\n\n[c][75b4c0][i]「シスターフッドで水責めを行っているという噂はやはり……！」\n-陰謀論にハマっている図書委員長、古関ウイ[/i][-][/c]",
-            "En": "Set the cost of a random card in your hand to [c]0[/c].\n\n\n[c][75b4c0][i]\"So the rumors about water torture in the Sisterhood were true…!\"\n- Ui Koseki, Conspiracy-Enthusiast Library President[/i][-][/c]"
+            "En": "Set the cost of a random card in your hand to [c]0[/c].\n\n\n[c][75b4c0][i]\"So the rumors about water torture in the Sisterhood were true…!\"\n- Kozeki Ui, Conspiracy-Enthusiast Library President[/i][-][/c]"
         },
         {
             "Key": 4157887751,
@@ -3364,7 +3364,7 @@
             "Key": 3384273229,
             "Kr": "전열의 적에게 피해를 준다. 이후, 후열의 모든 아군에게 보호막을 [c]{param;ShieldPower}[/c] 부여한다.\n\n\n[c][75b4c0][i]\"과연… 이 녀석의 처우는 정의실현부에 넘겨야겠네.\"\n- 게헨나의 선도부장, 소라사키 히나[/i][-][/c]",
             "Jp": "前列の敵にダメージを与える。その後、後列のすべての味方にシールドを[c]{param;ShieldPower}[/c]付与する。\n\n\n[c][75b4c0][i]「なるほど……後は正義実現委員会に任せるわ」\n-ゲヘナの風紀委員長、空崎ヒナ[/i][-][/c]",
-            "En": "Deals damage to the enemy in the front row. Then grants [c]{param;ShieldPower}[/c] shield to all allies in the back row.\n\n\n[c][75b4c0][i]\"I see... I'll leave the rest to the Justice Committee.\" - Hina, Prefect Team Leader of Gehenna[/i][-][/c]"
+            "En": "Deals damage to the enemy in the front row. Then grants [c]{param;ShieldPower}[/c] shield to all allies in the back row.\n\n\n[c][75b4c0][i]\"I see... I'll leave the rest to the Justice Committee.\" - Sorasaki Hina, Prefect Team Leader of Gehenna[/i][-][/c]"
         },
         {
             "Key": 1018715138,
@@ -5062,7 +5062,7 @@
             "Key": 1836275032,
             "Kr": "카드를 [c]1[/c]장 뽑는다. 이후 아군 [c]{tag;MakeUpWork}[/c] 학생의 수만큼 무작위 카드의 코스트가 [c]1[/c] 감소한다.\n\n\n[c][75b4c0][i]\"뭐… 가끔은, 아주 가끔은… 이런 것도 꽤.\"\n- 어둠의 아이, 코제키 우이[/i][-][/c]",
             "Jp": "カードを[c]1[/c]枚引く。その後、味方[c]{tag;MakeUpWork}[/c]生徒の数だけ、ランダムなカードのコストが[c]1[/c]減少する。\n\n\n[c][75b4c0][i]「まあ……たまには、こういうのも悪くないですね。」\n-太陽が苦手な生徒、古関ウイ[/i][-][/c]",
-            "En": "Draw [c]1[/c] card. Then, for each allied [c]{tag;MakeUpWork}[/c] student, reduce the cost of a random card by [c]1[/c].\n\n\n[c][75b4c0][i]\"Well... sometimes, just sometimes... this isn't so bad.\" - Ui Kozeki, Child of Darkness[/i][-][/c]"
+            "En": "Draw [c]1[/c] card. Then, for each allied [c]{tag;MakeUpWork}[/c] student, reduce the cost of a random card by [c]1[/c].\n\n\n[c][75b4c0][i]\"Well... sometimes, just sometimes... this isn't so bad.\" - Kozeki Ui, Child of Darkness[/i][-][/c]"
         },
         {
             "Key": 806052023,
@@ -5092,7 +5092,7 @@
             "Key": 1644799027,
             "Kr": "손패에 특별한(?) 카드를 일회용으로 [c]{param;SpawnCardNum}[/c]장 생성한다. 그 카드의 코스트가 [c]0[/c]이 된다.\n\n\n[c][75b4c0][i]\"도촬이라니~ 매스컴이란 이름이 울겠어?\"\n- 크로노스 스쿨 보도부의 편집장, 카자마키 마이 [/i][-][/c]",
             "Jp": "手札に特別な（？）カードを使い捨てで[c]{param;SpawnCardNum}[/c]枚生成する。対象カードのコストは[c]0[/c]になる。\n\n\n[c][75b4c0][i]「盗撮だなんて！これはジャーナリズムですよ？」\n-クロノススクール、報道部の編集長、風巻マイ[/i][-][/c]",
-            "En": "Generate [c]{param;SpawnCardNum}[/c] special (?) disposable cards in your hand. Their cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]\"How dare you call me a paparazzi? This is real journalism!\" - Mai Kazamaki, Chronos School News Editor[/i][-][/c]"
+            "En": "Generate [c]{param;SpawnCardNum}[/c] special (?) disposable cards in your hand. Their cost becomes [c]0[/c].\n\n\n[c][75b4c0][i]\"How dare you call me a paparazzi? This is real journalism!\" - Kazamaki Mai, Kronos School News Editor[/i][-][/c]"
         },
         {
             "Key": 4101646287,
@@ -5135,7 +5135,7 @@
             "Key": 3783454783,
             "Kr": "무작위 적에게 [c]{param;BasePower}[/c] 피해를 준다. 전열의 적에게 피해를 주면 이 카드가 일회용으로 손패에 복사되어 추가된다.\n\n\n[c][75b4c0][i]\"이야~ 축제하면 백귀야행 아닙니까? 그러니 시찰을 조금~ 땡땡이가 아니라고요?\"\n- 백귀야행 연합학원의 음양부장, 아마치 니야[/i][-][/c]",
             "Jp": "ランダムな敵に[c]{param;BasePower}[/c]のダメージを与える。前列の敵にダメージを与えると、このカードが使い捨てとして手札にコピーされる。\n\n\n[c][75b4c0][i]「いやぁ～お祭りと言えば、百鬼夜行じゃないですか？これはあくまで視察ですよ？けっして、サボりではありませんからね？」\n-百鬼夜行連合学院、陰陽部の部長、天地ニヤ[/i][-][/c]",
-            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy. If you damage a front row enemy, this card is copied to your hand as a disposable card.\n\n\n[c][75b4c0][i]\"Festivals mean Hyakkiyako, right? So this is just an inspection~ Not skipping out, I swear!\" - Niyah Amachi, Hyakkiyako Union Academy Onmyo Club Leader[/i][-][/c]"
+            "En": "Deals [c]{param;BasePower}[/c] damage to a random enemy. If you damage a front row enemy, this card is copied to your hand as a disposable card.\n\n\n[c][75b4c0][i]\"Festivals mean Hyakkiyako, right? So this is just an inspection~ Not skipping out, I swear!\" - Amachi Niya, Allied Hyakkiyako Academy Yin-Yang Club Leader[/i][-][/c]"
         },
         {
             "Key": 2433453841,
@@ -5255,7 +5255,7 @@
             "Key": 1856381988,
             "Kr": "아군 스트라이커에게 보호막을 [c]{param;BasePower}[/c] 부여한다. 그 스트라이커가 [c]{tag;Justice}[/c]라면 EX스킬 위력도 [c]1[/c] 증가한다.\n\n\n[c][75b4c0][i]\"모래성을 만들라고 했잖아. 포트리스, 즉 어떤 공격에도 무너지지 않는 성벽을 만들었지.\"\n- 보충수업부, 시라스 아즈사[/i][-][/c]",
             "Jp": "味方ストライカーにシールドを[c]{param;BasePower}[/c]付与する。対象ストライカーが[c]{tag;Justice}[/c]である場合、EXスキルの威力も[c]1[/c]増加する。\n\n\n[c][75b4c0][i]「「注文は『砂のお城』だった。お城、つまりはフォートレス。どんな攻撃を受けても対応できるようにした。」\n-補習授業部、白洲アズサ[/i][-][/c]",
-            "En": "Grants [c]{param;BasePower}[/c] shield to an allied Striker. If that Striker is [c]{tag;Justice}[/c], EX Skill power also increases by [c]1[/c].\n\n\n[c][75b4c0][i]\"You asked for a sandcastle. So I made a fortress, a wall that won't fall to any attack.\" - Make-up Class Club, Azusa Shirasu[/i][-][/c]"
+            "En": "Grants [c]{param;BasePower}[/c] shield to an allied Striker. If that Striker is [c]{tag;Justice}[/c], EX Skill power also increases by [c]1[/c].\n\n\n[c][75b4c0][i]\"You asked for a sandcastle. So I made a fortress, a wall that won't fall to any attack.\" - Supplemental Lessons Club Club, Shirasu Azusa[/i][-][/c]"
         },
         {
             "Key": 167897384,

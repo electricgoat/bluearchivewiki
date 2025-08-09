@@ -348,7 +348,7 @@ def generate():
                 if args['wiki_section'] != None:
                     #print(f"Updating section {args['wiki_section']} of {wikipath}")
                     wiki.update_section(wikipath, args['wiki_section'], wikitext)
-                elif not wiki.page_exists(wikipath, wikitext):
+                elif not wiki.page_exists(wikipath, wikitext) and not args['nogallery']:
                     print(f'Publishing {wikipath}')
                     wiki.publish(wikipath, wikitext, f'Generated character gallery page')
                 # else:
@@ -381,7 +381,8 @@ def main():
     
     #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
-    parser.add_argument('-npc', action='store_true', help='Upload and categorize images, but don\'t create gallery page')
+    parser.add_argument('-npc', action='store_true', help='Treat as an NPC gallery')
+    parser.add_argument('-nogallery', action='store_true', help='Don\'t create gallery page')
     parser.add_argument('-reupload', action='store_true', help='Try to reupload files')
 
     args = vars(parser.parse_args())

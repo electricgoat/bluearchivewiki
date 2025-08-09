@@ -1,0 +1,17 @@
+==={{title.get('NameEn')}}===
+[[File:FurnitureTemplate_{{ '%02d' % furniture_template['FurnitureTemplateId'] }}.png|thumb|{{title.get('NameEn')}} Preset Layout]]
+{{title.get('NameEn')}} Cafe Preset Layout contains a total of {{template_item_count}} items with {{template_elements |length}} distinct furniture types.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+! colspan="2" |Layout contents
+|-
+!Element
+!Count
+{%- for element in template_elements %}
+|-
+| {% raw %}{{FurnitureCard|{% endraw %}{{furniture[element['furniture_id']].name_en}}{% raw %}}}{% endraw %}
+| {{element['count']}}
+{%- endfor %}
+|}
+{% raw %}{{clear}}{% endraw %}
+

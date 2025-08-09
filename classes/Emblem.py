@@ -92,7 +92,13 @@ class Emblem(object):
                     id:'Unknown, Boss',
                     5: 'Shiro & Kuro, Indoors',
                     8: 'Goz, Oudoors',
-                    11: 'Binah, Urban'
+                    11: 'Binah, Urban',
+                    14: 'HoveCraft, Outdoors',
+                    17: 'Perorodzilla, Outdoors',
+                    21: 'Kaitenger, Urban',
+                    23: 'Binah, Outdoors',
+                    26: 'Hieronymus, Urban',
+                    
                 }[id]
             text = bosstext(entry['UseAtLocalizeId'])
 

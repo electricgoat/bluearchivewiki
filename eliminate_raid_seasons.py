@@ -54,12 +54,14 @@ SEASON_CHALLENGE_DEF = {
     'gl' : {
         2:'HeavyArmor',
         4:'Special',
+        5:'HeavyArmor',
         6:'Unarmed',
         10:'LightArmor',
         11:'Special',
         12:'HeavyArmor',
         13:'Special',
         15:'HeavyArmor',
+        20:'HeavyArmor',
     }
 }
 
@@ -90,7 +92,7 @@ def print_season(season, note: str = ''):
     if (opentime > now): note += 'future'
     elif (closetime > now): note += 'current'
 
-    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {shared.functions.armor_type(season['challenge']).ljust(12)} {note}")
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {shared.functions.armor_type(season.get('challenge','???')).ljust(12)} {note}")
 
 
 def generate():

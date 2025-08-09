@@ -22,7 +22,7 @@ missing_localization = MissingTranslations("translation/missing/LocalizeExcelTab
 missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
 data = None
-args = None
+args = {}
 characters = {}
 items = {}
 emblems = {}
@@ -145,8 +145,6 @@ def init_data():
             print(f'Failed to parse for DevName {chardata["DevName"]}: {err}')
             traceback.print_exc()
 
-        # if args['character_id'] is not None and character['Id'] not in args['character_id']:
-        #     continue
     
     
     for emblem_id in data.emblem:
@@ -174,8 +172,6 @@ def main():
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
     
-    #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
-    #parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
 
 
     args = vars(parser.parse_args())

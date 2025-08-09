@@ -18,7 +18,7 @@ from shared.MissingTranslations import MissingTranslations
 
 missing_skill_localization = MissingTranslations("translation/missing/LocalizeSkillExcelTable.json")
 
-args = None
+args = {}
 
 
 def generate():
