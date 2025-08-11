@@ -20,7 +20,7 @@ class BannerImage:
     
     @property
     def is_wikinamed(self) -> bool:
-        return os.path.exists(os.path.join(self.src_dir, 'wikinamed', self.wikinames[0]))
+        return len(self.wikinames)>0 and os.path.exists(os.path.join(self.src_dir, 'wikinamed', self.wikinames[0]))
     
     @property
     def get_file(self) -> Path|None:
@@ -56,8 +56,8 @@ class Banner:
         self.video_id = banner_data.get('VideoId', [])
         self.linked_lobby_banner_id = banner_data.get('LinkedRobbyBannerId')
         self.info_character_id = banner_data.get('InfoCharacterId', [])
-        self.sale_period_from = self.parse_date(banner_data.get('SalePeriodFrom'))
-        self.sale_period_to = self.parse_date(banner_data.get('SalePeriodTo'))
+        self.sale_period_from = self.parse_date(banner_data.get('SalePeriodFrom') or "2021-02-04 16:00:00")
+        self.sale_period_to = self.parse_date(banner_data.get('SalePeriodTo') or "2099-12-31 03:59:59")
         self.recruit_coin_id = banner_data.get('RecruitCoinId')
         self.recruit_selection_shop_id = banner_data.get('RecruitSellectionShopId')
         self.purchase_cooltime_min = banner_data.get('PurchaseCooltimeMin', 0)
@@ -68,6 +68,7 @@ class Banner:
         self.direct_pay_invisible_token_id = banner_data.get('DirectPayInvisibleTokenId', 0)
         self.direct_pay_android_shop_cash_id = banner_data.get('DirectPayAndroidShopCashId', 0)
         self.direct_pay_apple_shop_cash_id = banner_data.get('DirectPayAppleShopCashId', 0)
+        self.selectable_gacha_group_id = banner_data.get('SelectAbleGachaGroupId', 0)
 
     def parse_date(self, date_str):
         if date_str:
@@ -84,9 +85,9 @@ class Banner:
 
 
 args = None
-data = None
+data = {}
 season_data = {'jp':None, 'gl':None}
-banners:dict[int:Banner] = {}
+banners:dict[int, Banner] = {}
 prodnotice_banners = []
 prodnotice_events = []
 
@@ -167,13 +168,13 @@ def init_data():
 
 
 def init_banners(region: str):
-    global season_data
+    global data, season_data
     global banners, characters, prodnotice_banners, prodnotice_events
 
     prodnotice_banners_by_llbid = {x['LinkedLobbyBannerId']:x for x in prodnotice_banners if 'LinkedLobbyBannerId' in x}
 
     for banner_data in sorted(season_data[region].shop_recruit.values(), key=lambda x: x['SalePeriodFrom']):
-        if banner_data['CategoryType'] not in ['PickupGacha', 'LimitedGacha', 'FesGacha']:
+        if banner_data['CategoryType'] not in ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha']:
             continue
         
         banner = Banner(banner_data)         
@@ -202,7 +203,11 @@ def init_banners(region: str):
             
             #banner.lobby_image_wikiname = f"{lobby_banner_basename}_{lobby_banner_prodnotice_name.split('_')[-2]}.png"
 
-        banner.image_banner_jp = BannerImage(notice is not None and notice.get('DownloadedImage') or None, args['bannerwatch'], [f"Banner_{region.capitalize()}_{x.wiki_name.replace(' ','_')}.png" for x in banner.featured_characters])    
+        banner.image_banner_jp = BannerImage(notice is not None and notice.get('DownloadedImage') or None, args['bannerwatch'], [f"Banner_{region.capitalize()}_{x.wiki_name.replace(' ','_')}.png" for x in banner.featured_characters])
+
+        if banner.selectable_gacha_group_id > 0:
+            select_group = data.gacha_select_pickup_group.get(banner.selectable_gacha_group_id, [])
+            banner.featured_characters = [characters[entry['CharacterId']] for entry in select_group]
         
 
 
@@ -260,7 +265,7 @@ def print_server(region: str):
         if (banner.sale_period_from > now): note = 'future'
         elif (banner.sale_period_to > now): note = 'current'
 
-        print (f"{str(banner.category_type).rjust(14, ' ')} {str(banner.linked_lobby_banner_id).ljust(4)} {str(banner.info_character_id).ljust(14)} {', '.join([x.wiki_name for x in banner.featured_characters]).ljust(32)}: {banner.sale_period_from} ~ {banner.sale_period_to} {note.ljust(8)} ", end ="")
+        print (f"{str(banner.category_type).rjust(17, ' ')} {str(banner.linked_lobby_banner_id).ljust(4)} {str(banner.info_character_id).ljust(14)} {', '.join([x.wiki_name for x in banner.featured_characters]).ljust(32)}: {banner.sale_period_from} ~ {banner.sale_period_to} {note.ljust(8)} ", end ="")
         if banner.rerun_original_id is None: 
             print (f"      {banner.image_banner_jp.is_wikinamed and 'wikinamed' or banner.image_banner_jp.get_file} {banner.rerun_original_id is None and banner.image_banner_jp.wikinames or ''}")
         else: print('rerun')

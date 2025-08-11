@@ -16,13 +16,13 @@ from data import load_data, load_season_data
 from model import Item, Furniture, Character
 #from classes.Gacha import GachaGroup, GachaElement
 
-EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha']
+EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha']
 REGION_TIMEZONE = {'jp':'+09', 'gl':'+09'}
 
 args = None
-data = None
+data = {}
 characters = {}
-regional_data = {'jp':None, 'gl':None}
+regional_data = {'jp':{}, 'gl':{}}
 prodnotice_banners = {}
 
 
@@ -61,12 +61,16 @@ def process_banner(entry, region, known_rateups):
     closetime = datetime.strptime(entry['SalePeriodTo'], "%Y-%m-%d %H:%M:%S")
 
     rateup_characters = [characters[x].wiki_name for x in entry['InfoCharacterId']]
-    if rateup_characters[0] in known_rateups: notes.append('rerun')
+    if len(rateup_characters)>0 and rateup_characters[0] in known_rateups: notes.append('rerun')
     
     if entry['LinkedRobbyBannerId'] in prodnotice_banners.keys(): image = prodnotice_banners[entry['LinkedRobbyBannerId']]['FileName'][0].rsplit('_',1)[0] + '.png'    
 
     if entry['CategoryType'] == 'FesGacha': notes.append('Anniversary')
     if entry['CategoryType'] == 'LimitedGacha': notes_extra.append('Limited')
+
+    if entry['CategoryType'] == 'SelectPickupGacha' and entry['SelectAbleGachaGroupId'] > 0:
+        select_group = data.gacha_select_pickup_group.get(entry['SelectAbleGachaGroupId'])
+        rateup_characters = [characters[entry['CharacterId']].wiki_name for entry in select_group]
 
     if (opentime > datetime.now()): notes_extra.append('future')
     elif (closetime > datetime.now()): notes_extra.append('current')

@@ -584,9 +584,12 @@ class Weapon(object):
         old_affinity_letter =  stats[affinity_change_type+'BattleAdaptation']
 
         rank3_desc = f"{{{{Icon|{affinity_type(affinity_change_type)}|size=20}}}} {affinity_type(affinity_change_type)} area affinity {{{{Affinity|{offset_affinity(old_affinity_letter,weapon['StatValue'][2])}}}}} {offset_affinity(old_affinity_letter,weapon['StatValue'][2])}"
-        #{{Icon|Urban|size=20}} Urban area affinity {{Affinity|SS}} SS
 
-        rank4_desc = f"Increase {damage_type_glossary(bullet_type)} Efficiency by 10%."
+        if data.characters[character_id]['SquadType'] == 'Main': #Striker
+            rank4_desc = f"Increase {damage_type_glossary(bullet_type)} Efficiency by 10%."
+        elif data.characters[character_id]['SquadType'] == 'Support': #Special
+            rank4_desc = f"Increase maximum Cost by 0.5."
+        else: rank4_desc = '' 
 
 
         return cls(

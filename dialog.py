@@ -156,7 +156,7 @@ def generate():
         if favor_rewards: 
             sdf = [x for x in scenario_data.scenario_script if x['GroupId'] == favor_rewards[0]['ScenarioSriptGroupId'] and x['TextJp']]
             for line in sdf:                  
-                if re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp'], 0).replace('\n','').find(first_memolobby_line) > -1 or first_memolobby_line.find(re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp'], 0).replace('\n','').replace('— ','').replace('― ','')) > -1: 
+                if re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp']).replace('\n','').find(first_memolobby_line) > -1 or first_memolobby_line.find(re.sub(r"\[ruby=\w+\]|\[/ruby]|\[wa:\d+\]", "", line['TextJp']).replace('\n','').replace('— ','').replace('― ','')) > -1: 
                     break
                 if line['TextJp'] and line['TextJp'].startswith('―'): 
                     line['CharacterId'] = character.id
