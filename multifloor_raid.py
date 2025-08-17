@@ -213,13 +213,13 @@ def generate():
         bracket_start = bracket_end = stages[0]['Difficulty']
         skillgroup_start = stages[0]['skill_list_group_id']
 
-        for stage in stages[1:]:
+        for index, stage in enumerate(stages):
             bracket_curr = stage['Difficulty']
             skillgroup_curr = stage['skill_list_group_id']
             if skillgroup_start == skillgroup_curr:
                 bracket_end = bracket_curr
             else:
-                stages_to_export[f"{bracket_start}~{bracket_end}"] = stage
+                stages_to_export[f"{bracket_start}~{bracket_end}"] = stages[index-1]
                 bracket_start = bracket_curr
                 skillgroup_start = skillgroup_curr
 
