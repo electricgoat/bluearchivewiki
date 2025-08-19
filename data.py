@@ -545,7 +545,9 @@ def load_bgm(path_primary, path_translation):
 
         for id in data_aux.keys():
             if id in data_primary: data_primary[id] |= (data_aux[id])
-            else: print(f'   ...track {id} is not listed in the BGMExcelTable.json')
+            else: 
+                #print(f'   ...track {id} is not listed in the BGMExcelTable.json')
+                data_primary[id] = data_aux[id]
     
     return data_primary
 

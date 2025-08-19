@@ -9,7 +9,7 @@ from jinja2 import Environment, FileSystemLoader
 from data import load_data
 
 
-args = None
+args = {}
 data = None
 
 
@@ -18,8 +18,9 @@ def upload_tracks(tracks):
 
     for track in tracks.values():
         print(f"=== Track {track['Id']} ===")
-        localpath = os.path.join(args['data_audio'], f"{track['Path'][0].lstrip('Audio/')}.ogg")
-        if not os.path.exists(localpath):
+        localpath = None
+        if track.get('Path'): localpath = os.path.join(args['data_audio'], f"{track['Path'][0].lstrip('Audio/')}.ogg")
+        if localpath and not os.path.exists(localpath):
             print(f'File not found: {localpath}')
             continue
 
@@ -36,6 +37,14 @@ def upload_tracks(tracks):
                 wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
 
 
+def wiki_file_name(track_id, track_data):
+    filename = f"Track_{track_id}"
+    
+    if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM'):  
+        filename += re.sub(r'<[^>]+>.*?<\/[^>]+>', '', '_'+track_data['ArtistEn']+'_'+track_data['NameEn'])
+
+    return re.sub(r'[:/\\]', '', filename).replace(' ','_') + '.ogg'
+        
 
 def generate():
     global args, data
@@ -44,22 +53,13 @@ def generate():
     #Memory lobbies tracklist
     memolobby_tracklist = sorted(set([x['BGMId'] for x in data.memory_lobby.values()]))
 
-    def wiki_file_name(track_id, track_data):
-        filename = f"Track_{track_id}"
-        
-        if 'ArtistEn' in track_data and 'NameEn' in track_data and len(track_data['ArtistEn']) and len(track_data['NameEn']) and not track_data['NameEn'].endswith('BGM'):  
-            filename += re.sub(r'<[^>]+>.*?<\/[^>]+>', '', '_'+track_data['ArtistEn']+'_'+track_data['NameEn'])
-
-        return re.sub(r'[:/\\]', '', filename).replace(' ','_') + '.ogg'
-        
-
     # Filter tracks with ID under 999 or those explicitly used in memorylobbies  
     filtered_data = {
         track_id: {
             **track_data,
             'WikiFilename': wiki_file_name(track_id, track_data)
         }
-        for track_id, track_data in data.bgm.items()
+        for track_id, track_data in sorted(data.bgm.items())
         if track_id < 999 or track_id in memolobby_tracklist
     }
 
