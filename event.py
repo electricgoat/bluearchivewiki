@@ -32,7 +32,7 @@ missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcE
 
 
 args = None
-data = None
+data = {}
 season_data = {'jp':None, 'gl':None}
 
 characters = {}
@@ -291,6 +291,9 @@ def generate():
         elif localize_title_key == 3349884597: season['LocalizeTitle'] = data.localization[2041289632] #2025 valentines event
 
     if season['LocalizeName'].get('En') != season['LocalizeTitle'].get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{season['LocalizeName'].get('En')}\n Title:{season['LocalizeTitle'].get('En')}")
+
+    if season['LocalizeName'].get('EnGlobal') is not None and season['LocalizeName'].get('En') != season['LocalizeName'].get('EnGlobal'):
+        print(f"Wiki and Global event name translation mismatched:\n Wiki  :{season['LocalizeName'].get('En')}\n Global:{season['LocalizeName'].get('EnGlobal')}")
 
     localize_description_key =  hashkey(f"Event_Description_{season['OriginalEventContentId']}")
     if localize_description_key in data.localization: 
@@ -621,7 +624,7 @@ def generate():
         season_gl['LocalizeName'] = season['LocalizeName']
         season_gl['LocalizeTitle'] = season['LocalizeTitle']
         season_gl['LocalizeDescription'] = season['LocalizeDescription']
-        #template = env.get_template('events/template_event.txt')
+        #template = env.get_template('events/template_event_dates.txt')
         wikitext_event_dates += template.render(title='Global Version', server='GL', season=season_gl)
 
 

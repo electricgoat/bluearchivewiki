@@ -328,6 +328,10 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
             if index in data_primary and 'Jp' in data_primary[index] and data_aux[index]['Jp'] != data_primary[index]['Jp']:
                 print(f"Warning - overwriting Jp text {index}:\n{data_primary[index]['Jp']}\n{data_aux[index]['Jp']}")
             data_primary[index] = data_aux[index]
+            if index in data_secondary and data_secondary[index].get('En') is not None and data_aux[index]['En'] != data_secondary[index]['En']:
+                #print(f"Warning - superseding official En text {index}, secondary kept as EnGlobal:\n{data_aux[index]['En']}")\n{data_secondary[index]['En']}
+                data_primary[index]['EnGlobal'] = data_secondary[index]['En']
+
         elif index in data_secondary:
             data_primary[index] = data_secondary[index]
 
@@ -545,41 +549,6 @@ def load_bgm(path_primary, path_translation):
     
     return data_primary
 
-
-# def load_localization(path_primary, path_secondary, path_translation):
-#     ds = {}
-#     da = {}
-#     data_secondary = []
-#     data_aux = []
-
-#     data_primary = load_file(os.path.join(path_primary, 'DB', 'LocalizeExcelTable.json'), key='Key')
-#     data_secondary = load_file(os.path.join(path_secondary, 'DB', 'LocalizeExcelTable.json'), key='Key')
-#     #print(f'Loaded secondary script data from LocalizeExcelTable.json, {len(data_secondary)} entries')
-
-#     if os.path.exists(os.path.join(path_translation, 'LocalizeExcelTable.json')):
-#         print(f'Loading additional translations from {path_translation}/LocalizeExcelTable.json')
-#         data_aux = load_file(os.path.join(path_translation, 'LocalizeExcelTable.json'), key='Key')
-
-#     found = 0
-#     for key, line in data_primary.items():
-#         if key in data_aux and key in data_secondary and data_aux[key]['En'] != data_secondary[key]['En']:
-#             #print(f"Retaining official translation as EnGlobal:\n AUX :{data_aux[key]['En']}\n GLOB:{data_secondary[key]['En']}")
-#             line['EnGlobal'] = data_secondary[key]['En']
-#         if key in data_aux:
-#             line['En'] = data_aux[key]['En']
-#             #if line['Jp'] != data_aux[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔aux Jp line {key}: {line['Jp']} | {data_aux[key]['Jp']}" )
-#             found += 1
-#         elif key in data_secondary:
-#             line['En'] = data_secondary[key]['En']
-#             #if line['Jp'] != data_secondary[key]['Jp']: print(f"LocalizeExcelTable: Unmatched primary↔secondary Jp line {key}: {line['Jp']} | {data_secondary[key]['Jp']}" )
-#             found += 1
-
-#     print(f"LocalizeExcelTable: Found {found}/{len(data_primary)} translations")
-
-#     #Force aux lines into the list if they are missing there completely
-#     data_primary = {**data_aux, **data_primary}
-
-#     return data_primary
 
 
 #TODO switch to using new DB scenario_script everywhere
