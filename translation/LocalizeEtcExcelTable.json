@@ -11121,7 +11121,7 @@
             "DescriptionKr": "초거대 팬쨩은 해로운 효과로 인한 지속 대미지를 입을 때마다 추가적으로 피해를 입습니다. 오한의 경우, 더 큰 추가 피해를 입습니다.\n\n게헨나 선도부원 (SG)이 초거대 팬쨩을 타격할수록 초거대 팬쨩의 받는 대미지가 일정 시간 동안 증가합니다.",
             "NameJp": "イベントチャレンジステージ1ヒント",
             "DescriptionJp": "超巨大パンちゃんは弱体状態による持続ダメージを受ける度に追加ダメージを受けます。悪寒の場合、さらに大きなダメージを受けます。\n\nゲヘナ風紀委員（SG）が超巨大パンちゃんを攻撃するほど、超巨大パンちゃんの被ダメージ量が一定時間増加します。",
-            "NameEn": "Event Challenge Stage 1 Hints",
+            "NameEn": "Event Challenge Stage 1 Hint",
             "DescriptionEn": "Colossal Pan-chan takes additional damage whenever it receives continuous damage from a debuff. If it is chilled, it takes even more damage.\n\nThe more Gehenna Disciplinary Committee members (SG) attack Colossal Pan-chan, the more damage Colossal Pan-chan takes for a certain period of time."
         },
         {
@@ -11130,7 +11130,7 @@
             "DescriptionKr": "세나(사복)의 범위 공격을 주의하세요.",
             "NameJp": "イベントチャレンジステージ2ヒント",
             "DescriptionJp": "セナ（私服）の範囲攻撃に注意してください。",
-            "NameEn": "Event Challenge Stage 2 Hints",
+            "NameEn": "Event Challenge Stage 2 Hint",
             "DescriptionEn": "Be careful of Sena's (Casual) AoE attacks."
         },
         {
@@ -11139,7 +11139,7 @@
             "DescriptionKr": "초거대 팬쨩은 피해를 받을 때마다 추가 피해를 받습니다.\n\n타격 횟수가 많은 학생을 편성하세요.",
             "NameJp": "イベントチャレンジステージ3ヒント",
             "DescriptionJp": "超巨大パンちゃんはダメージを受ける度に追加ダメージを受けます。\n\n打撃数の多い生徒を編成してみましょう。",
-            "NameEn": "Event Challenge Stage 3 Hints",
+            "NameEn": "Event Challenge Stage 3 Hint",
             "DescriptionEn": "Colossal Pan-chan takes additional damage every time it gets hit.\n\nOrganize a team of students with high attack speed."
         },
         {
@@ -11148,7 +11148,7 @@
             "DescriptionKr": "모든 적의 치명 저항과 치명 대미지 저항이 크게 증가합니다.\n아군 스페셜 학생이 적에게 주는 피해가 증가합니다.\n\n각 부장을 쓰러뜨리면 소속 동아리에 추가로 대미지를 줍니다.\n이를 활용해 각 동아리의 소동을 잠재웁시다.",
             "NameJp": "イベントチャレンジステージ4ヒント",
             "DescriptionJp": "敵の会心抵抗値と会心ダメージ抵抗率が大幅に増加します。\n味方スペシャル生徒の与えるダメージ量が増加します。\n\n各部長は倒れると所属している部活に追加ダメージを与えます。\nこれらを活用し、各部活の騒ぎを抑えましょう。",
-            "NameEn": "Event Challenge Stage 4 Hints",
+            "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "Enemy Critical Resistance and Critical Damage Resistance are greatly increased.\nAllied Special students deal increased damage.\n\nEach club president deals additional damage to the club they belong to when they are defeated.\nTake advantage of these to calm down the commotion in each club."
         },
         {
@@ -11955,105 +11955,73 @@
         },
         {
             "Key": 2247345776,
-            "NameKr": "기초 기술 노트\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
-            "NameJp": "初級技術ノート\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
-            "NameTh": "ตำราสกิลขั้นต่ำ\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "บันทึกลับรวมกลยุทธ์ของไวลด์ฮันต์",
-            "NameTw": "基礎技術筆記\n(狂獵)",
-            "DescriptionTw": "歸納狂獵學園戰術核心的秘法筆記。",
+            "NameKr": "기초 기술 노트\n(하이랜더)",
+            "DescriptionKr": "하이랜더 철도 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "初級技術ノート\n（ハイランダー）",
+            "DescriptionJp": "ハイランダー鉄道学園の戦術の極意がまとめられているノート。",
             "NameEn": "Beginner Tech Notes (Highlander)",
             "DescriptionEn": "Notes summarizing the core tactical secrets of Highlander Railway Academy."
         },
         {
             "Key": 1213952904,
-            "NameKr": "일반 기술 노트\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
-            "NameJp": "中級技術ノート\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
-            "NameTh": "ตำราสกิลขั้นกลาง\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "บันทึกลับรวมกลยุทธ์ของไวลด์ฮันต์",
-            "NameTw": "一般技術筆記\n(狂獵)",
-            "DescriptionTw": "歸納狂獵學園戰術核心的秘法筆記。",
+            "NameKr": "일반 기술 노트\n(하이랜더)",
+            "DescriptionKr": "하이랜더 철도 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "中級技術ノート\n（ハイランダー）",
+            "DescriptionJp": "ハイランダー鉄道学園の戦術の極意がまとめられているノート。",
             "NameEn": "Normal Tech Notes (Highlander)",
             "DescriptionEn": "Notes summarizing the core tactical secrets of Highlander Railway Academy."
         },
         {
             "Key": 1401662238,
-            "NameKr": "상급 기술 노트\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
-            "NameJp": "上級技術ノート\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
-            "NameTh": "ตำราสกิลขั้นสูง\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "บันทึกลับรวมกลยุทธ์ของไวลด์ฮันต์",
-            "NameTw": "高級技術筆記\n(狂獵)",
-            "DescriptionTw": "歸納狂獵學園戰術核心的秘法筆記。",
+            "NameKr": "상급 기술 노트\n(하이랜더)",
+            "DescriptionKr": "하이랜더 철도 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "上級技術ノート\n（ハイランダー）",
+            "DescriptionJp": "ハイランダー鉄道学園の戦術の極意がまとめられているノート。",
             "NameEn": "Advanced Tech Notes (Highlander)",
             "DescriptionEn": "Notes summarizing the core tactical secrets of Highlander Railway Academy."
         },
         {
             "Key": 2655042482,
-            "NameKr": "최상급 기술 노트\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
-            "NameJp": "最上級技術ノート\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
-            "NameTh": "ตำราสกิลขั้นสูงสุด\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "บันทึกลับรวมกลยุทธ์ของไวลด์ฮันต์",
-            "NameTw": "最高級技術筆記\n(狂獵)",
-            "DescriptionTw": "歸納狂獵學園戰術核心的秘法筆記。",
+            "NameKr": "최상급 기술 노트\n(하이랜더)",
+            "DescriptionKr": "하이랜더 철도 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "最上級技術ノート\n（ハイランダー）",
+            "DescriptionJp": "ハイランダー鉄道学園の戦術の極意がまとめられているノート。",
             "NameEn": "Superior Tech Notes (Highlander)",
             "DescriptionEn": "Notes summarizing the core tactical secrets of Highlander Railway Academy."
         },
         {
             "Key": 2153503951,
-            "NameKr": "기초 전술 교육 BD\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
-            "NameJp": "初級戦術教育BD\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
-            "NameTh": "BD เรียนสกิลขั้นต่ำ\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "BD สื่อการสอนที่บันทึก\nกลยุทธ์ของนักเรียนไวลด์ฮันต์",
-            "NameTw": "基礎戰術教育BD\n(狂獵)",
-            "DescriptionTw": "把狂獵學生的戰術活動記錄成影片的教育用BD。",
+            "NameKr": "기초 전술 교육 BD\n(하이랜더)",
+            "DescriptionKr": "하이랜더 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "初級戦術教育BD\n（ハイランダー）",
+            "DescriptionJp": "ハイランダーの生徒の戦術活動を映像として記録した教育用BD。",
             "NameEn": "Beginner Tactical Training Blu-ray (Highlander)",
             "DescriptionEn": "A training Blu-ray containing video documentation of the Highlander Railway Academy students' tactical activities."
         },
         {
             "Key": 1274767643,
-            "NameKr": "일반 전술 교육 BD\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
-            "NameJp": "中級戦術教育BD\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
-            "NameTh": "BD เรียนสกิลขั้นกลาง\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "BD สื่อการสอนที่บันทึก\nกลยุทธ์ของนักเรียนไวลด์ฮันต์",
-            "NameTw": "一般戰術教育BD\n(狂獵)",
-            "DescriptionTw": "把狂獵學生的戰術活動記錄成影片的教育用BD。",
+            "NameKr": "일반 전술 교육 BD\n(하이랜더)",
+            "DescriptionKr": "하이랜더 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "中級戦術教育BD\n（ハイランダー）",
+            "DescriptionJp": "ハイランダーの生徒の戦術活動を映像として記録した教育用BD。",
             "NameEn": "Normal Tactical Training Blu-ray (Highlander)",
             "DescriptionEn": "A training Blu-ray containing video documentation of the Highlander Railway Academy students' tactical activities."
         },
         {
             "Key": 1825214644,
-            "NameKr": "상급 전술 교육 BD\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
-            "NameJp": "上級戦術教育BD\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
-            "NameTh": "BD เรียนสกิลขั้นสูง\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "BD สื่อการสอนที่บันทึก\nกลยุทธ์ของนักเรียนไวลด์ฮันต์",
-            "NameTw": "高級戰術教育BD\n(狂獵)",
-            "DescriptionTw": "把狂獵學生的戰術活動記錄成影片的教育用BD。",
+            "NameKr": "상급 전술 교육 BD\n(하이랜더)",
+            "DescriptionKr": "하이랜더 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "上級戦術教育BD\n（ハイランダー）",
+            "DescriptionJp": "ハイランダーの生徒の戦術活動を映像として記録した教育用BD。",
             "NameEn": "Advanced Tactical Training Blu-ray (Highlander)",
             "DescriptionEn": "A training Blu-ray containing video documentation of the Highlander Railway Academy students' tactical activities."
         },
         {
             "Key": 2515460678,
-            "NameKr": "최상급 전술 교육 BD\n(와일드헌트)",
-            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
-            "NameJp": "最上級戦術教育BD\n（ワイルドハント）",
-            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
-            "NameTh": "BD เรียนสกิลขั้นสูงสุด\n(ไวลด์ฮันต์)",
-            "DescriptionTh": "BD สื่อการสอนที่บันทึก\nกลยุทธ์ของนักเรียนไวลด์ฮันต์",
-            "NameTw": "最高級戰術教育BD\n(狂獵)",
-            "DescriptionTw": "把狂獵學生的戰術活動記錄成影片的教育用BD。",
+            "NameKr": "최상급 전술 교육 BD\n(하이랜더)",
+            "DescriptionKr": "하이랜더 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "最上級戦術教育BD\n（ハイランダー）",
+            "DescriptionJp": "ハイランダーの生徒の戦術活動を映像として記録した教育用BD。",
             "NameEn": "Superior Tactical Training Blu-ray (Highlander)",
             "DescriptionEn": "A training Blu-ray containing video documentation of the Highlander Railway Academy students' tactical activities."
         },
@@ -12093,7 +12061,6 @@
             "NameEn": "TIPHARETH (Elastic Armor)",
             "DescriptionEn": "Limit Break Assault - TIPHARETH (Elastic Armor) Clear stage 100"
         },
-
         {
             "Key": 3274122658,
             "NameKr": "이벤트 챌린지 스테이지 1 힌트",
@@ -12130,7 +12097,6 @@
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "If an allied student is hit by a charging biker gang member, the student takes heavy damage.\nHowever, if the charging biker gang member collides with an obstacle, they take heavy damage instead.\nSet up obstacles and use movement skills to guide the enemy's charge into the obstacles."
         },
-
         {
             "Key": 2194407810,
             "NameJp": "フィーナ（ガイド）の神名文字",
@@ -12138,7 +12104,6 @@
             "DescriptionJp": "フィーナ（ガイド）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Pina (Guide)."
         },
-
         {
             "Key": 4102229084,
             "NameJp": "ナグサの神名文字",
@@ -12152,7 +12117,7 @@
             "NameEn": "Niya's Eleph",
             "DescriptionJp": "ニヤの神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Niya."
-        },   
+        },
         {
             "Key": 4119717887,
             "NameJp": "陰陽部室の座卓",
@@ -12192,7 +12157,6 @@
             "NameEn": "Legendary Record Board Exchange Ticket",
             "DescriptionEn": "A ticket that will be exchanged for a Legendary Recording Board when acquired. If you already have it, you will receive 1 Secret Tech Notes instead."
         },
-
         {
             "Key": 3048997368,
             "NameKr": " 아방가르드군 이로운 효과 적용 시, 적 방어력 감소",
@@ -12211,7 +12175,6 @@
             "NameEn": "Increase damage dealt by Avant-Garde and Hyakkiyako",
             "DescriptionEn": "Damage dealt by Avant-Garde and Hyakkiyako students is increased."
         },
-
         {
             "Key": 4022999365,
             "NameJp": "ナツ（バンド）の神名文字",
@@ -12255,8 +12218,7 @@
             "NameEn": "Hieronymus (Urban) defeated! 2025",
             "DescriptionEn": "Defeat all defense types of Hieronymus (Urban) [[Grand Assault]] at Insane difficulty or higher."
         },
-
-                {
+        {
             "Key": 2283985350,
             "NameJp": "ユカリ（水着）の神名文字",
             "NameEn": "Yukari's (Swimsuit) Eleph",
@@ -12277,7 +12239,7 @@
             "DescriptionJp": "キキョウ（水着）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Kikyou (Swimsuit)."
         },
-                {
+        {
             "Key": 1541034600,
             "NameKr": "해로운 효과 적용 시, 보호막 해제",
             "DescriptionKr": "아군 학생이 적에게 해로운 효과 적용 시, 적의 보호막이 해제됩니다.",
@@ -12286,7 +12248,7 @@
             "NameEn": "Remove shield when debuffed",
             "DescriptionEn": "When an ally student inflicts a debuff on an enemy, the enemy's shield will be removed."
         },
-                {
+        {
             "Key": 2430538849,
             "NameJp": "木彫り人形（ユカリ）",
             "NameEn": "Wooden Doll (Yukari)",
@@ -12328,7 +12290,7 @@
             "DescriptionJp": "海に行かずとも夏を楽しめる空気注入式のプール。「こども用」とタグに書いてある。",
             "DescriptionEn": "An inflatable pool that lets you enjoy summer without going to the beach. The tag says \"for children.\""
         },
-                {
+        {
             "Key": 2870052181,
             "NameKr": "휴대용 게임기",
             "DescriptionKr": "미도리가 언니와 처음으로 구입한 휴대용 게임기.\n싸웠던 기억, 화해했던 기억, 아이스크림 승부를 했던 기억 등, 모든 것이 담긴 추억의 게임기다. ",
@@ -12409,7 +12371,6 @@
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "The enemy tank will start moving toward the open area and unleash a powerful attack upon arrival. The tank is highly resistant to EX skill damage, but its performance drops each time it is hit. Use these traits to defeat the tank before it reaches the open area."
         },
-
         {
             "Key": 2238627204,
             "NameKr": "<총, 귀여움, 청춘>",
@@ -12423,8 +12384,7 @@
             "NameEn": "Guns, Charm, and Zeal",
             "DescriptionEn": "Guns, charm, and zeal! The bestselling book of the year investigates and analyzes the origins and roots of Kivotos pop culture.\n\n※ This item is a reference to the real book \"Guns, Germs and Steel\" by Jared Diamond."
         },
-
-                {
+        {
             "Key": 2136597526,
             "NameKr": "SR 무기 공격력 증가",
             "DescriptionKr": "SR 무기를 사용하는 아군 학생의 공격력이 증가합니다.",
@@ -12442,7 +12402,7 @@
             "NameEn": "Boxcat takes less damage",
             "DescriptionEn": "The amount of damage taken by Boxcat is progressively reduced."
         },
-                {
+        {
             "Key": 3583659844,
             "NameKr": "여름 하늘의 프로미스",
             "DescriptionKr": "여름 하늘의 프로미스 칭호 획득 미션 클리어",
@@ -12478,7 +12438,7 @@
             "NameEn": "Starry Night",
             "DescriptionEn": "On sale until 2025-08-20 10:59:59 \n Purchase Shinon's Battle Pass CH+"
         },
-                {
+        {
             "Key": 1875343788,
             "NameJp": "正義実現委員会の腕章",
             "NameEn": "Justice Task Force Armband",
@@ -12513,14 +12473,14 @@
             "DescriptionJp": "プライベートビーチのガイドパンフレット。周辺施設が簡略に描かれている。",
             "DescriptionEn": "A guide pamphlet for the private beach. Outlines the surrounding facilities."
         },
-                {
+        {
             "Key": 3014647056,
             "NameJp": "手作りロールケーキ",
             "NameEn": "Handmade Roll Cake",
             "DescriptionJp": "有名パティシエールが自ら作ったロールケーキ。なぜか「オホホ」と上品に笑いながら食べたくなってしまう。",
             "DescriptionEn": "A roll cake made by a famous pastry chef. Somehow it makes you want to eat it while elegantly laughing, \"Ohoho.\""
         },
-                {
+        {
             "Key": 803823678,
             "NameJp": "ミカ（水着）の神名文字",
             "NameEn": "Mika's (Swimsuit) Eleph",
@@ -12555,7 +12515,7 @@
             "DescriptionJp": "イチカ（水着）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Ichika (Swimsuit)"
         },
-                {
+        {
             "Key": 3368418938,
             "NameJp": "マホガニーのガラスキャビネット",
             "NameEn": "Mahogany Glass Cabinet",
@@ -12597,7 +12557,7 @@
             "DescriptionJp": "様々な色が美しく調和した背景。その絶妙な色のバランスが非常に美しい。",
             "DescriptionEn": "A background where various colors are beautifully harmonized. The exquisite color balance is truly beautiful."
         },
-             {
+        {
             "Key": 3862637757,
             "NameJp": "四角紋章柄のカーペット",
             "NameEn": "Square Crest Pattern Carpet",
@@ -12812,7 +12772,7 @@
             "DescriptionJp": "トリニティ校庭のあちこちに建てられた柱。白地に金の装飾で、上品かつ華やか。",
             "DescriptionEn": "Pillars built throughout the Trinity campus. White with gold decorations, they are both elegant and splendid."
         },
-                {
+        {
             "Key": 1741842915,
             "NameJp": "ティーパーティー対話ブース",
             "NameEn": "Tea Party Conversation Booth",
@@ -12924,7 +12884,7 @@
             "DescriptionJp": "6th PVの映像を再生できる機械",
             "DescriptionEn": "Machine that plays 6th PV video."
         },
-         {
+        {
             "Key": 1789843585,
             "NameJp": "T2装備設計図抽選ボックス",
             "NameEn": "T2 Equipment Blueprint Choice Box",
@@ -13011,7 +12971,297 @@
             "DescriptionJp": "ティーパーティーグループストーリー{0}話クリア",
             "NameEn": "Tea Party Advisor",
             "DescriptionEn": "Clear Episode {0} of Tea Party group story"
+        },
+        {
+            "Key": 1702197794,
+            "NameKr": "이동속도 증가, 피격 시 넉백",
+            "DescriptionKr": "적의 이동속도가 증가하고, 피격 시 뒤로 밀려납니다.",
+            "NameJp": "移動速度増加、被弾時ノックバック",
+            "DescriptionJp": "敵の移動速度が増加し、攻撃を受けた時、後ろにノックバックされます。",
+            "NameEn": "Increased movement speed, knockback when hit",
+            "DescriptionEn": "Enemies move faster and are knocked back when hit."
+        },
+        {
+            "Key": 744492531,
+            "NameKr": "사망 시, 주변에 대미지",
+            "DescriptionKr": "적 사망 시, 주변 학생에게 큰 대미지를 줍니다.",
+            "NameJp": "敵を倒した時、周囲の生徒にダメージ",
+            "DescriptionJp": "敵を倒した時、周辺の生徒に大きなダメージを与えます。",
+            "NameEn": "When defeating an enemy, damage is dealt to surrounding students.",
+            "DescriptionEn": "When an enemy is defeated, it deals great damage to nearby students."
+        },
+        {
+            "Key": 2284559543,
+            "NameKr": "우리는 오컬트 연구회!",
+            "DescriptionKr": "우리는 오컬트 연구회! 칭호 획득 미션 클리어",
+            "NameJp": "我らオカルト研究会！",
+            "DescriptionJp": "我らオカルト研究会！の称号獲得ミッションクリア",
+            "NameEn": "We are the Occult Research Society!",
+            "DescriptionEn": "Clear the event mission to obtain the title \"We are the Occult Research Society!\""
+        },
+        {
+            "Key": 2325711709,
+            "NameJp": "怪しげな大釜",
+            "NameEn": "Mysterious Cauldron",
+            "DescriptionJp": "怪しい液体がぐつぐつと煮えている大釜。食べてみたら……意外と美味しいかも？",
+            "DescriptionEn": "A cauldron filled with mysterious liquid. Try it and see if it tastes delicious."
+        },
+        {
+            "Key": 2818960363,
+            "NameJp": "魔法の絨毯＆サーキュレーター",
+            "NameEn": "Magic Carpet & Circulator",
+            "DescriptionJp": "素敵な魔法の絨毯とサーキュレーターのセット。じっと立っているだけで魔法の効果を感じられる。",
+            "DescriptionEn": "A wonderful magic carpet and air circulator set. Just stand still and feel the magical effect."
+        },
+        {
+            "Key": 2701404947,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "사감대원들이 에리를 노리고 몰려옵니다. 에리를 지키고, 몰려오는 사감대원들을 쓰러트리세요.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "寮監隊員はエリを狙って襲ってきます。エリを守り、襲ってくる寮監隊員を倒しましょう。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "The dorm supervisors will attack Eri. Protect Eri and defeat the attacking dorm supervisors."
+        },
+        {
+            "Key": 2506986276,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "카노에는 방어력이 매우 높고, 자신의 해로운 효과를 제거하는 Ex 스킬을 사용합니다.\n타이밍에 맞춰 방어력 감소 효과를 활용해 보세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "カノエの防御力は非常に高く、自身に弱体状態を解除するEXスキルを使用します。\nタイミングに合わせて、防御力減少スキルを活用してみましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Kanoe's defense is very high, and she uses an EX skill that removes weakened states. \n Try using defense-reducing skills at the right time."
+        },
+        {
+            "Key": 4114458166,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "적들의 방어 타입을 잘 확인하고, 상성이 Weak인 적들을 노려보세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "敵の防御タイプを確認し、相性がWeakの敵を狙ってみましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "Check the enemy's defense type and target enemy weaknesses."
+        },
+        {
+            "Key": 444658513,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "적들은 학생들에게 강력한 해로운 효과를 부여합니다.\n해로운 효과 제거 스킬을 활용하여 적들을 쓰러트리세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "敵は生徒に強力な弱体状態を付与します。\n弱体状態を解除するスキルを活用し、敵を倒しましょう。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "Enemies will inflict powerful debuffs on students.\nUse skills that remove debuffs to defeat enemies."
+        },
+        {
+            "Key": 1611315163,
+            "NameJp": "エリのタロットカード",
+            "NameEn": "Eri's Tarot Cards",
+            "DescriptionJp": "エリが未来を占うときに使うタロットカード。よく当たると評判。",
+            "DescriptionEn": "Tarot cards used by Eri to divine the future. Said to be highly accurate."
+        },
+        {
+            "Key": 554659675,
+            "NameJp": "カノエのホットチョコ",
+            "NameEn": "Kanoe's Hot Chocolate",
+            "DescriptionJp": "カノエお手製のホットチョコ。怪しげな見た目だが味は美味しい。",
+            "DescriptionEn": "Hot chocolate homemade by Kanoe. It looks a bit suspicious, but tastes delicious."
+        },
+        {
+            "Key": 1684697,
+            "NameJp": "ツムギの楽譜",
+            "NameEn": "Tsumugi's Sheet Music",
+            "DescriptionJp": "ツムギが自作の曲を書き留めた楽譜。情熱的なバラードからデスメタルまで、ジャンルは幅広い。",
+            "DescriptionEn": "Sheet music where Tsumugi has written down her original songs. The range spans from passionate ballads to death metal."
+        },
+        {
+            "Key": 3093289216,
+            "NameJp": "レナの糸巻き",
+            "NameEn": "Rena's Spool",
+            "DescriptionJp": "レナが衣装を作る時に使う糸巻き。そこには様々な可能性が詰まっている。",
+            "DescriptionEn": "A spool of thread Rena uses when making costumes. It holds countless possibilities within."
+        },
+        {
+            "Key": 3010326559,
+            "NameJp": "サイコロ1確定券",
+            "NameEn": "Dice Roll 1 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。1の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 1 will consume the coupon."
+        },
+        {
+            "Key": 2838550242,
+            "NameJp": "サイコロ2確定券",
+            "NameEn": "Dice Roll 2 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。2の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 2 will consume the coupon."
+        },
+        {
+            "Key": 4072410674,
+            "NameJp": "サイコロ3確定券",
+            "NameEn": "Dice Roll 3 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。3の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 3 will consume the coupon."
+        },
+        {
+            "Key": 3527361837,
+            "NameJp": "サイコロ4確定券",
+            "NameEn": "Dice Roll 4 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。4の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 4 will consume the coupon."
+        },
+        {
+            "Key": 3173671747,
+            "NameJp": "サイコロ5確定券",
+            "NameEn": "Dice Roll 5 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。5の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 5 will consume the coupon."
+        },
+        {
+            "Key": 2940286403,
+            "NameJp": "サイコロ6確定券",
+            "NameEn": "Dice Roll 6 Ticket",
+            "DescriptionJp": "サイコロの出目を確定してくれるクーポン。6の目を選択すると、クーポンが消費されます。",
+            "DescriptionEn": "A coupon that guarantees a chosen dice roll. Selecting 6 will consume the coupon."
+        },
+        {
+            "Key": 3349246399,
+            "NameKr": "기초 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "初級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Beginner Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 1281166809,
+            "NameKr": "일반 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "中級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Normal Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 2607413523,
+            "NameKr": "상급 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "上級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Advanced Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 4170429995,
+            "NameKr": "최상급 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "最上級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Superior Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 1626173846,
+            "NameKr": "기초 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "初級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Beginner Tech Note (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 2133400529,
+            "NameKr": "일반 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "中級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Normal Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 2363049478,
+            "NameKr": "상급 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "上級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Advanced Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 3197942796,
+            "NameKr": "최상급 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "最上級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Superior Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 2853101100,
+            "NameKr": "기초 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "初級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Beginner Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 1042489897,
+            "NameKr": "일반 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "中級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Normal Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 145053104,
+            "NameKr": "상급 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "上級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Advanced Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 735383478,
+            "NameKr": "최상급 전술 교육 BD\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학생들의 전술 활동을 영상으로 기록한 교육용 BD",
+            "NameJp": "最上級戦術教育BD\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハントの生徒の戦術活動を映像として記録した教育用BD。",
+            "NameEn": "Superior Tactical Training Blu-ray (Wildhunt)",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Wildhunt students' tactical activities."
+        },
+        {
+            "Key": 641889282,
+            "NameKr": "기초 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "初級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Beginner Tech Note (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 2469556226,
+            "NameKr": "일반 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "中級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Normal Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 81940370,
+            "NameKr": "상급 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "上級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Advanced Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
+        },
+        {
+            "Key": 2464762332,
+            "NameKr": "최상급 기술 노트\n(와일드헌트)",
+            "DescriptionKr": "와일드헌트 학원의 전술 핵심이 요약된 비법 노트.",
+            "NameJp": "最上級技術ノート\n（ワイルドハント）",
+            "DescriptionJp": "ワイルドハント芸術学院の戦術の極意がまとめられているノート。",
+            "NameEn": "Superior Tech Notes (Wildhunt)",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Wildhunt Academy."
         }
-
     ]
 }

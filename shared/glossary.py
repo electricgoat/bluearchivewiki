@@ -43,5 +43,12 @@ CLUBS = {
             'AbydosStudentCouncil': 'Abydos Student Council',
             'CentralControlCenter': 'Central Control Center',
             'FreightLogisticsDepartment': 'Freight Logistics Department',
+            'OccultClub': 'Occult Research Society',
+            'PrefectBrigade': 'Prefect Brigade',
             'EmptyClub': 'no club'
+}
+
+SCHOOLS = {
+    'RedWinter': 'Red Winter',
+    'WildHunt': 'Wildhunt'
 }

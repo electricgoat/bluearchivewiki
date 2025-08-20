@@ -3,11 +3,20 @@
         {
             "CharacterId": 26013,
             "CharacterVoiceGroupId": 26013,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Atsuko_(Swimsuit)_EventMission_Day_End",
+            "LocalizeJP": "",
+            "LocalizeEN": "That does it for today... Let us rest, Sensei"
+        },
+        {
+            "CharacterId": 26013,
+            "CharacterVoiceGroupId": 26013,
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_CommonSkill",
             "LocalizeJP": "ふふ、いい香り。",
-            "LocalizeEN": ""
+            "LocalizeEN": "What a pleasant smell"
         },
         {
             "CharacterId": 26013,
@@ -16,7 +25,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_1",
             "LocalizeJP": "先生、笑って。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Smile, Sensei"
         },
         {
             "CharacterId": 26013,
@@ -25,7 +34,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_2",
             "LocalizeJP": "写真、撮ってあげる。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'll take a photo of you"
         },
         {
             "CharacterId": 26013,
@@ -34,7 +43,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_3",
             "LocalizeJP": "一枚、撮らせて。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Let me take a pic"
         },
         {
             "CharacterId": 26013,
@@ -43,7 +52,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_Level_1",
             "LocalizeJP": "ここ、いい写真が撮れそう。",
-            "LocalizeEN": ""
+            "LocalizeEN": "This seems like a nice place to take a picture"
         },
         {
             "CharacterId": 26013,
@@ -52,7 +61,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_Level_2",
             "LocalizeJP": "……はい、チーズ。",
-            "LocalizeEN": ""
+            "LocalizeEN": "...Okay, say cheese."
         },
         {
             "CharacterId": 26013,
@@ -61,7 +70,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Atsuko_(Swimsuit)_ExSkill_Level_3",
             "LocalizeJP": "はい、撮るね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Okay, I'll take it"
         },
         {
             "CharacterId": 26013,
@@ -70,7 +79,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_(Swimsuit)_Growup_1",
             "LocalizeJP": "くれるの……？\n大切にするね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "You're giving this to me..? I'll treasure it."
         },
         {
             "CharacterId": 26013,
@@ -79,7 +88,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_(Swimsuit)_Growup_2",
             "LocalizeJP": "学んでいくって、楽しいね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Learning as we go is quite fun"
         },
         {
             "CharacterId": 26013,
@@ -88,7 +97,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_(Swimsuit)_Growup_3",
             "LocalizeJP": "こんなに……\nもしかして私、期待されてるのかな……？",
-            "LocalizeEN": ""
+            "LocalizeEN": "So much... Perhaps you're expecting something from me..?"
         },
         {
             "CharacterId": 26013,
@@ -97,7 +106,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Atsuko_(Swimsuit)_Growup_4",
             "LocalizeJP": "ありがとう、先生。\nいつも新しい景色、みせてくれて。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you, Sensei. For always showing me new sights to see"
         },
         {
             "CharacterId": 26013,
@@ -106,7 +115,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_(Swimsuit)_Relationship_Up_1",
             "LocalizeJP": "先生の隣にいるね。\n……なんとなく、そうしたいの。",
-            "LocalizeEN": ""
+            "LocalizeEN": "I'll be your side.... I just felt like doing so."
         },
         {
             "CharacterId": 26013,
@@ -114,8 +123,8 @@
             "LocalizeCVGroup": "CVGroup_Relationship_Up_2",
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_(Swimsuit)_Relationship_Up_2",
-            "LocalizeJP": "先生には、いつももらってばかり。\n私からもいろいろ、したいのに……",
-            "LocalizeEN": ""
+            "LocalizeJP": "先生には、いつももらってばかり。\n私からもいろいろ、したいのに……。",
+            "LocalizeEN": "I'm always on the receiving end. I'd love to do a lot of things for you too..."
         },
         {
             "CharacterId": 26013,
@@ -124,7 +133,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_(Swimsuit)_Relationship_Up_3",
             "LocalizeJP": "ふふ、ありがとう。\n記念に写真、撮っておくね。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Thank you. Let's take a picture to remember this."
         },
         {
             "CharacterId": 26013,
@@ -133,7 +142,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Atsuko_(Swimsuit)_Relationship_Up_4",
             "LocalizeJP": "あっ、こういうときは……ちゃんとお礼を、だったね。\nはい、こちらこそ、よろしくお願いします。",
-            "LocalizeEN": ""
+            "LocalizeEN": "Ah, at times like this... I should must thank you properly. Yes, it's my pleasure as well."
         }
     ]
 }

@@ -5,7 +5,7 @@ import re
 
 from shared.tag_map import map_tags
 from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname, damage_type as damage_type_glossary
-from shared.glossary import CLUBS
+from shared.glossary import CLUBS, SCHOOLS
 
 missing_skill_localization = None
 
@@ -14,7 +14,7 @@ class Character(object):
     def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
-        self.school = school
+        self._school = school
         self._club = club
         self._role = role
         self.position = position
@@ -69,6 +69,10 @@ class Character(object):
     @property
     def club(self):
         return CLUBS[self._club] if self._club in CLUBS else self._club
+    
+    @property
+    def school(self):
+        return SCHOOLS[self._school] if self._school in SCHOOLS else self._school
 
     @property
     def full_name_en(self):
@@ -136,7 +140,7 @@ class Character(object):
             data.translated_characters[character_id]['VariantNameEn'],
             wiki_name_jp,
             character['DefaultStarGrade'],
-            character['School'] != 'RedWinter' and character['School'] or 'Red Winter',
+            character['School'],
             character['Club'],
             character['TacticRole'],
             character['TacticRange'],

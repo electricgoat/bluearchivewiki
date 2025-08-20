@@ -6337,7 +6337,7 @@
         },
         {
             "GroupId": "CH0294Public01",
-            "NameEn": "Cute girl spotted ☆",
+            "NameEn": "Cutie spotted ☆",
             "DescriptionEn": "Every $1, increase Sonic Efficiency by $2 for $3."
         },
         {
@@ -6354,7 +6354,60 @@
             "GroupId": "CH0294ExtraPassive01",
             "NameEn": "Sursum Corda",
             "DescriptionEn": "All attacks are guaranteed to be critical hits.\nIncrease Sonic Efficiency by $1."
+        },
+
+        {
+            "GroupId": "CH0304Ex01",
+            "NameEn": "Flash Arcana",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nIf you have two \"Magical Charges\", increase damage multiplier of this attack by 0.5. Afterwards, reset \"Magical Charge\" count."
+        },
+        {
+            "GroupId": "CH0304Public01",
+            "NameEn": "Spellbook Guidance",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0304Passive01",
+            "NameEn": "Good Omen",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0304WeaponPassive01",
+            "NameEn": "Good Omen +",
+            "DescriptionEn": "Increase Sonic Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0304ExtraPassive01",
+            "NameEn": "Aiming to Become a Master",
+            "DescriptionEn": "Increases Sonic Efficiency by $1.\nWhen defeating an enemy with an unenhanced EX skill, gain 1 \"Magical Charge\".\n(up to 2 \"Magical Charges\" can be stacked)"
+        },
+
+        {
+            "GroupId": "CH0306Ex01",
+            "NameEn": "It's delicious...",
+            "DescriptionEn": "Continuously recover one ally HP by $1 of Healing for $2.\nRemove $3 debuff."
+        },
+        {
+            "GroupId": "CH0306Public01",
+            "NameEn": "I put my heart into it...",
+            "DescriptionEn": "Every $1, reduce Critical Resistance of enemies within a circular area by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0306Passive01",
+            "NameEn": "This is my friend",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0306WeaponPassive01",
+            "NameEn": "This is my friend +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0306ExtraPassive01",
+            "NameEn": "Ward from a past life",
+            "DescriptionEn": "Increase Cost Recovery by $1.\nFor every $2 Striker ally with Heavy Armor in the same unit, increase Cost Recovery by an additional $3.\n(excluding self, up to a maximum of three)"
         }
+        
         
 
     ]

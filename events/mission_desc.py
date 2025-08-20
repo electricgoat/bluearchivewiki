@@ -544,6 +544,30 @@ def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data = None, ite
     return True
 
 
+def localize_ClearSpecificDefenseStage(mission, data = None, items=None, furniture=None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    idlen = len(str(mission['EventContentId']))+1
+    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
+    difficulty_names = ['','Story','Normal','Challenge']
+
+    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage)
+                                                          .replace('{1}', difficulty_names[difficulty])
+                                                          .replace('{2}', str(mission['CompleteConditionCount']))
+                                                    ) 
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage)
+                                                          .replace('{1}', difficulty_names[difficulty])
+                                                          .replace('{2}', str(mission['CompleteConditionCount']))
+                                                    )
+
+    mission['AutoLocalized'] = True
+    return True
+
+
 def localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture):
     desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
     desc_en = 'Clear $2 $1 within $3 seconds'
