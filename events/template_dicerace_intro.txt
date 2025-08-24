@@ -1,0 +1,8 @@
+[[File:Event {{season_id}} Dice Race Track.png|thumb|Dice Race track. Top-right marked tile is the starting point, reaching that point or passing it will complete 1 lap]]
+Dice Race is a minigame where players will use {{die_cost}} to roll dice and have a student move along the track according to the number rolled. Depending on where character ends up, players can earn various rewards such as credits, Eligma, and EXP materials. The track consists of {{nodes|length}} tiles and is ran counterclockwise.
+
+Finishing a lap around the track additionally grants one-time '''Lap Completion Reward'''.
+
+{% if event_info['IsUsingFixedDice'] %}This version of Dice Race has a Dice Fixed Ticket mechanic. Obtaining {{'{{'}}ItemCard|Dice Fixed Ticket{{'}}'}} randomly grants one of the six possible fixed die tickets that allow player to roll a die with that specific number for free.
+
+{% endif -%}

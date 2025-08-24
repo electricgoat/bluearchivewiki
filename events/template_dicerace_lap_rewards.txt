@@ -1,0 +1,14 @@
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+{% for lap_reward in lap_reward_data -%}
+|-
+!Lap {{lap_reward['RequiredLapFinishCount']}}
+| style="text-align: center" |{% for parcel in lap_reward['parcels'] %}{{parcel.wikitext}}{% endfor %}
+{% endfor -%}
+|{% raw %}}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+! Total Lap Completion Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards.values() -%}{{reward.wikitext}}{% endfor %}</div>
+{% raw %}|}{% endraw %}
+
