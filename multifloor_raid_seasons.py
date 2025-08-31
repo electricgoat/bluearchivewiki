@@ -27,6 +27,7 @@ SEASON_NOTES = {
     'jp' : {
     },
     'gl' : {
+        12: 'Non-standard duration of 3 weeks due to reducing gap between JP and GL',
     }
 }
 

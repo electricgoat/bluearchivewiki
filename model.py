@@ -7,11 +7,15 @@ from shared.tag_map import map_tags
 from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname, damage_type as damage_type_glossary
 from shared.glossary import CLUBS, SCHOOLS
 
+#TODO actually query the archive/starndard banners
+ARCHIVE_POOL = [
+    "Aru", "Eimi", "Haruna", "Hifumi", "Hina", "Iori", "Maki", "Neru", "Izumi", "Shun", "Sumire", "Tsurugi", "Hibiki", "Karin", "Saya", "Hoshino", "Shiroko", "Mashiro", "Izuna", "Arisu", "Midori", "Cherino", "Yuzu", "Azusa", "Koharu", "Hifumi (Swimsuit)", "Shiroko (Riding)", "Shun (Kid)", "Saya (Casual)", "Asuna (Bunny Girl)", "Natsu", "Ako", "Cherino (Hot Spring)", "Chinatsu (Hot Spring)", "Nodoka (Hot Spring)", "Serika (New Year)", "Sena", "Chihiro"
+]
 missing_skill_localization = None
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, wiki_name, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self._school = school
@@ -40,7 +44,7 @@ class Character(object):
         self.memory_lobby = memory_lobby
         self.momotalk = momotalk
         self.liked_gift_tags = liked_gift_tags
-        self.character_pool = character_pool
+        self._character_pool = character_pool
 
         self.costume = costume
 
@@ -51,6 +55,7 @@ class Character(object):
         self.family_name_en = family_name_en
         self.personal_name_en = personal_name_en
         self.variant = variant
+        self._wiki_name = wiki_name
         self.wiki_name_jp = wiki_name_jp
 
     def __repr__(self):
@@ -82,6 +87,8 @@ class Character(object):
 
     @property
     def wiki_name(self):
+        if self._wiki_name is not None and self._wiki_name != '':
+            return self._wiki_name
         out = self.personal_name_en
         if self.variant: out += ' '+f'({self.variant})'
         return out
@@ -115,6 +122,12 @@ class Character(object):
     @property
     def uses_cover(self):
         return 'Yes' if self._uses_cover else 'No'
+    
+    @property
+    def character_pool(self):
+        if self._character_pool == 'regular' and self.wiki_name in ARCHIVE_POOL:
+            return 'archive'
+        return self._character_pool
 
     @classmethod
     def from_data(cls, character_id, data, ext_missing_skill_localization = None):
@@ -138,6 +151,7 @@ class Character(object):
             data.translated_characters[character_id]['FamilyNameEn'],
             data.translated_characters[character_id]['PersonalNameEn'],
             data.translated_characters[character_id]['VariantNameEn'],
+            data.translated_characters[character_id].get('Wikiname', None) or None,
             wiki_name_jp,
             character['DefaultStarGrade'],
             character['School'],
@@ -166,7 +180,7 @@ class Character(object):
             MemoryLobby.from_data(character_id, data),
             Momotalk.from_data(character_id, data),
             liked_gift_tags,
-            data.translated_characters[character_id]['CharacterPool'] if 'CharacterPool' in data.translated_characters[character_id] and data.translated_characters[character_id]['CharacterPool'] is not None else 'regular',
+            data.translated_characters[character_id].get('CharacterPool', 'regular') or 'regular',
             costume
         )
 
