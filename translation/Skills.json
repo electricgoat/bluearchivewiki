@@ -6406,6 +6406,32 @@
             "GroupId": "CH0306ExtraPassive01",
             "NameEn": "Ward from a past life",
             "DescriptionEn": "Increase Cost Recovery by $1.\nFor every $2 Striker ally with Heavy Armor in the same unit, increase Cost Recovery by an additional $3.\n(excluding self, up to a maximum of three)"
+        },
+
+        {
+            "GroupId": "CH0268Ex01",
+            "NameEn": "Something that matters",
+            "DescriptionEn": "Deal damage to enemies within a circular area, depending on the number of debuffs on target.\n1 or less: Deal $1 damage.\n2 to 3: Deal $2 damage.\n4 or more: Deal $3 damage."
+        },
+        {
+            "GroupId": "CH0268Public01",
+            "NameEn": "I'll watch over you, for a little while",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0268Passive01",
+            "NameEn": "New habits",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0268WeaponPassive01",
+            "NameEn": "New habits +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0268ExtraPassive01",
+            "NameEn": "Interest",
+            "DescriptionEn": "Increases Explosive Efficiency of allies by $1."
         }
         
         
