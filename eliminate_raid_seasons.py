@@ -14,9 +14,9 @@ from raid_seasons import RAIDS
 import shared.functions
 
 
-args = None
-data = None
-season_data = {'jp':None, 'gl':None}
+args = {}
+data = {}
+season_data = {'jp':{}, 'gl':{}}
 
 SEASON_IGNORE = {
     'jp' : [1],
@@ -41,26 +41,28 @@ SEASON_NOTES = {
 SEASON_CHALLENGE_DEF = {
     'jp' : {
         2:'HeavyArmor',
-        4:'Special',
+        4:'Unarmed',
         5:'HeavyArmor',
         6:'Unarmed',
         10:'LightArmor',
-        11:'Special',
+        11:'Unarmed',
         12:'HeavyArmor',
-        13:'Special',
+        13:'Unarmed',
         15:'HeavyArmor',
+        19:'Unarmed',
         20:'HeavyArmor',
     },
     'gl' : {
         2:'HeavyArmor',
-        4:'Special',
+        4:'Unarmed',
         5:'HeavyArmor',
         6:'Unarmed',
         10:'LightArmor',
-        11:'Special',
+        11:'Unarmed',
         12:'HeavyArmor',
-        13:'Special',
+        13:'Unarmed',
         15:'HeavyArmor',
+        19:'Unarmed',
         20:'HeavyArmor',
     }
 }
@@ -92,7 +94,7 @@ def print_season(season, note: str = ''):
     if (opentime > now): note += 'future'
     elif (closetime > now): note += 'current'
 
-    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {shared.functions.armor_type(season.get('challenge','???')).ljust(12)} {note}")
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {', '.join([shared.functions.difficulty_shorthand(x) for x in season['difficulty']]).ljust(16)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {note}")
 
 
 def generate():
@@ -105,6 +107,7 @@ def generate():
         for season in season_data[region].eliminate_raid_season.values():
             boss = season['OpenRaidBossGroup01'].split('_',2)
             season['armor'] = []
+            season['difficulty'] = []
 
             if season['SeasonId'] in SEASON_IGNORE[region]:
                 #print(f"Flagged to ignore {region} season {season['SeasonId']}")
@@ -143,23 +146,28 @@ def generate():
                 season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
 
             boss_data = {}
+            difficulties_range = []
             for group in boss_groups:
                 boss_data[group]= get_raid_boss_data(season[group], region)
 
                 season['armor'].append(shared.functions.armor_type(boss_data[group]['armor']))
 
-                if 'Lunatic' in [x['Difficulty'] for x in boss_data[group]['stage']]: season['challenge_difficulty'] = 'Lunatic'
-                else: season['challenge_difficulty'] = 'Torment'
-                
-                if season['SeasonId'] in SEASON_CHALLENGE_DEF[region]: 
-                    season['challenge'] = SEASON_CHALLENGE_DEF[region][season['SeasonId']] 
-                else:
-                    for stage in boss_data[group]['stage']: 
-                        if stage['Difficulty'] == season['challenge_difficulty'] and stage['IsOpen']:
-                            #print(f"{region} {season['SeasonId']}({season['SeasonDisplay']}) {season['raid_name']} TOR stage is {stage['Id']} {stage['Difficulty']} {stage['character']['ArmorType']}")
-                            season['challenge'] = stage['character']['ArmorType']
-                            break
+                stage_difficulties = [x['Difficulty'] for x in boss_data[group]['stage'] if x['IsOpen']]
+                if len(stage_difficulties) > len(difficulties_range): difficulties_range = stage_difficulties
+                season['difficulty'].append(stage_difficulties[-1])
+            
+            if len(difficulties_range) == 6: difficulties_range.append('Torment')
+            season['challenge_difficulty'] = difficulties_range[-1]
+            
+            if season['SeasonId'] in SEASON_CHALLENGE_DEF[region]:
+                #print(f"Overriding {region} season {season['SeasonId']} challenge armor to {SEASON_CHALLENGE_DEF[region][season['SeasonId']]}")
+                for i, group in enumerate(boss_groups):
+                    if boss_data[group]['armor'] == SEASON_CHALLENGE_DEF[region][season['SeasonId']]: 
+                        season['difficulty'][i] = season['challenge_difficulty']
+                    else:
+                        season['difficulty'][i] = difficulties_range[-2]
 
+            season['difficulty_shorthand'] = [shared.functions.difficulty_shorthand(x) for x in season['difficulty']]
             print_season(season)
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
