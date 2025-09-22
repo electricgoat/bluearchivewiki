@@ -13,7 +13,7 @@ from model import Character
 #import shared.functions
 from shared.CompareImages import compare_images
 
-args = None
+args = {}
 character_map = {}
 wikiname_to_devname_map = {}
 galleries = []
@@ -256,9 +256,9 @@ def get_character_data():
         #     continue
     
     for character in characters:
-        if character.personal_name_en not in character_map:
-            character_map[character.personal_name_en] = []
-        character_map[character.personal_name_en].append(character)
+        if character.wiki_name.split(' (')[0] not in character_map:
+            character_map[character.wiki_name.split(' (')[0]] = []
+        character_map[character.wiki_name.split(' (')[0]].append(character)
 
     if args['npc']:
         for name in args['character_wikiname']:

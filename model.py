@@ -15,7 +15,7 @@ missing_skill_localization = None
 
 
 class Character(object):
-    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, variant, wiki_name, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
+    def __init__(self, id, dev_name, model_prefab_name, portrait, family_name_en, personal_name_en, family_name_reading_en, personal_name_reading_en, variant, wiki_name, wiki_name_jp, rarity, school, club, role, position, damage_type, armor_type, combat_class, equipment, weapon_type, uses_cover, main_combat_style_id, profile, normal_skill, normal_gear_skill, ex_skill, passive_skill, passive_weapon_skill, sub_skill, stats, weapon, gear, favor, potential, memory_lobby, momotalk, liked_gift_tags, character_pool, costume):
         self.id = id
         self.rarity = rarity
         self._school = school
@@ -54,6 +54,8 @@ class Character(object):
         self.portrait = portrait
         self.family_name_en = family_name_en
         self.personal_name_en = personal_name_en
+        self._family_name_reading_en = family_name_reading_en
+        self._personal_name_reading_en = personal_name_reading_en
         self.variant = variant
         self._wiki_name = wiki_name
         self.wiki_name_jp = wiki_name_jp
@@ -84,6 +86,16 @@ class Character(object):
         full_name = f'{self.family_name_en} {self.personal_name_en}'.strip()
         if self.variant: full_name += ' '+f'({self.variant})'
         return full_name
+    
+    @property
+    def family_name_reading_en(self):
+        if self._family_name_reading_en: return self._family_name_reading_en
+        return self.family_name_en
+
+    @property
+    def personal_name_reading_en(self):
+        if self._personal_name_reading_en: return self._personal_name_reading_en
+        return self.personal_name_en
 
     @property
     def wiki_name(self):
@@ -150,8 +162,10 @@ class Character(object):
             portrait,
             data.translated_characters[character_id]['FamilyNameEn'],
             data.translated_characters[character_id]['PersonalNameEn'],
+            data.translated_characters[character_id].get('FamilyNameReadingEn'),
+            data.translated_characters[character_id].get('PersonalNameReadingEn'),
             data.translated_characters[character_id]['VariantNameEn'],
-            data.translated_characters[character_id].get('Wikiname', None) or None,
+            data.translated_characters[character_id].get('Wikiname'),
             wiki_name_jp,
             character['DefaultStarGrade'],
             character['School'],
@@ -210,6 +224,7 @@ class Profile(object):
 
     @property
     def birthday(self):
+        if self._birthday is None: return ''
         if len(self._birthday) < 2: return self._birthday
         month, day = self._birthday.split('/')
         month = [
@@ -246,8 +261,8 @@ class Profile(object):
         for f in field_list:
             localized_strings[f] = localization[f+'En'] if f+'En' in localization and localization[f+'En'] is not None else profile.get(f+'Jp', '')  
 
-        release_date_jp = 'ReleaseDateJp' in localization and localization['ReleaseDateJp'] or ''
-        release_date_gl = 'ReleaseDateGl' in localization and localization['ReleaseDateGl'] or ''
+        release_date_jp = localization.get('ReleaseDateJp') or ''
+        release_date_gl = localization.get('ReleaseDateGl') or ''
 
         if profile.get('DesignerNameJp', "") not in localized_strings['DesignerName'] or profile.get('IllustratorNameJp', "") not in localized_strings['IllustratorName']:
             print (f"Possible mistranslation {localization['PersonalNameEn'].ljust(10)}: {(profile.get('DesignerNameJp')+'/'+localized_strings['DesignerName']).ljust(45)} {profile.get('IllustratorNameJp')}/{localized_strings['IllustratorName']}")
