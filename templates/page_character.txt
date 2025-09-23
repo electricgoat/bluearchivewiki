@@ -48,6 +48,7 @@
 
 =How to Obtain=
 {% if character.character_pool == "regular" %}*Regular Gacha pool
+{% elif character.character_pool == "archive" %}*[[Recruitment_(Gacha)#Archive_Recruitment|Archive Recruitment]]
 {% endif -%}{% raw %}{{CharacterBanners}}{{CharacterMissionRewards}}{% endraw %}
 {%- if fragment_sources != None %}{{fragment_sources}}{% endif %}
 
