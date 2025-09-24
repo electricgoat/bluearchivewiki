@@ -67,7 +67,7 @@ def generate():
         if name in existing_names: print(f"WARNING Filename {name} is used more than once")
         existing_names.append(name)
 
-        with open(os.path.join(args['outdir'], f"{name}.txt"), 'w', encoding="utf8") as f:            
+        with open(os.path.join(args['outdir'], f"{name.replace('?','')}.txt"), 'w', encoding="utf8") as f:            
             f.write(wikitext)
 
 

@@ -497,14 +497,15 @@ def convert_boolean_strings(obj):
 
 
 def load_event_content_seasons(path):
-    with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json'),encoding="utf8") as f:
-        data = orjson.loads(f.read())
-        f.close()
+    # with open(os.path.join(path, 'Excel', 'EventContentSeasonExcelTable.json'),encoding="utf8") as f:
+    #     data = orjson.loads(f.read())
+    #     f.close()
+    data = load_generic(path, 'EventContentSeasonExcelTable.json', key=None)
 
     return {
         (season['EventContentId'], season['EventContentType']): season
         for season
-        in data['DataList']
+        in data
     }
   
 
