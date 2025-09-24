@@ -28,12 +28,15 @@ SEASON_NOTES = {
         2:'Beta version',
         3:'Beta version',
         5:'Torment difficulty no longer based on original defense type',
-        13:'No longer requires all 3 clears for ranking rewards'
+        13:'No longer requires all 3 clears for ranking rewards',
+        30:'Torment difficulty now on two defense types',
     },
     'gl' : {
         2:'Beta version',
         3:'Beta version',
-        13:'No longer requires all 3 clears for ranking rewards'
+        5:'Torment difficulty no longer based on original defense type',
+        13:'No longer requires all 3 clears for ranking rewards',
+        30:'Torment difficulty now on two defense types',
     }
 }
 

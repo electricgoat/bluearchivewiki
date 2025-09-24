@@ -1394,7 +1394,12 @@
         {
             "GroupId": "MomoiPublic01",
             "NameEn": "Strict Deadlines",
-            "DescriptionEn": "Every $1, increase Accuracy by $2. (Duration: $3)"
+            "DescriptionEn": "Every $1, increase Accuracy by $2 for $3."
+        },
+        {
+            "GroupId": "MomoiGearPublic01",
+            "NameEn": "Strict Deadlines +",
+            "DescriptionEn": "Every $1, increase Accuracy by $2 for $3.\nIf Midori is in the same team, add $4 Piercing Efficiency to Midori and increase Attack by $5 for $6."
         },
         {
             "GroupId": "MomoiPassive01",
@@ -3659,8 +3664,13 @@
         },
         {
             "GroupId": "CH0198Public01",
-            "NameEn": "Did you think it was just you!?",
+            "NameEn": "One? Or Two?!",
             "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 2 nearby enemies.\nReload immediately after skill activation."
+        },
+        {
+            "GroupId": "CH0198GearPublic01",
+            "NameEn": "One? Or Two?! +",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 3 nearby enemies.\nReload immediately after skill activation.\nWhen you defeat a cumulative 6 enemies with normal skills, reduce your own EX skill cost by $3 for $4 use of EX skill."
         },
         {
             "GroupId": "CH0198Passive01",
@@ -4282,6 +4292,11 @@
             "DescriptionEn": "Every $1, deal $2 damage to 6 enemies.\nDecrease their Defense by $3 for $4."
         },
         {
+            "GroupId": "CH0193GearPublic01",
+            "NameEn": "Gourmet approach +",
+            "DescriptionEn": "Every $1, deal $2 damage to 6 enemies.\nDecrease their Defense by $3 for $4.\nWhen hitting 5 or more enemies, adds a continuous recovery effect of $5 Healing for $6 to the next EX skill."
+        },
+        {
             "GroupId": "CH0193Passive01",
             "NameEn": "Healing sweets",
             "DescriptionEn": "Increase Healing by $1."
@@ -4842,7 +4857,12 @@
         {
             "GroupId": "CH0110Public01",
             "NameEn": "Ta~ ma~ ya~!",
-            "DescriptionEn": "Every $1 Normal attacks, increase Attack by $2 for $3.\nAdditionally, increase Attack of all allied fireworks launchers by $1 for $2. Order a launch."
+            "DescriptionEn": "Every $1 Normal attacks, increase Attack by $2 for $3.\nAdditionally, increase Attack of all allied fireworks launchers by $4 for $5. Order a launch."
+        },
+        {
+            "GroupId": "CH0110GearPublic01",
+            "NameEn": "Ta~ ma~ ya~! +",
+            "DescriptionEn": "Every $1 Normal attacks, increase Attack by $2 for $3.\nAdditionally, for all allied fireworks launchers increase Attack by $4 and increase Mystic Efficiency by $5 for $6. Order a launch.\nEvery third activation of normal skill, order a launch for all allied firework launchers."
         },
         {
             "GroupId": "CH0110Passive01",
@@ -5876,7 +5896,7 @@
         {
             "GroupId": "CH0287Public01",
             "NameEn": "Specialty sports drink",
-            "DescriptionEn": "When allies deal $1 critical hits, increases the Critical Damage rate of four allies by $2 for $3. (Cooldown: $4)"
+            "DescriptionEn": "When allies deal $1 critical hits, increase the Critical Damage rate of four allies by $2 for $3. (Cooldown: $4)"
         },
         {
             "GroupId": "CH0287Passive01",
@@ -6432,6 +6452,84 @@
             "GroupId": "CH0268ExtraPassive01",
             "NameEn": "Interest",
             "DescriptionEn": "Increases Explosive Efficiency of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0317Ex01",
+            "NameEn": "This is the last one…!",
+            "DescriptionEn": "Increase the Attack Speed of three closest allies (excluding self) by $1 for $2.\nIncrease your own Attack Speed by $3 for $4.\nIf you have two \"Operation Plans,\" consume all of your Operation Plans to enhance this skill and increase the Attack Speed multiplier by x0.3."
+        },
+        {
+            "GroupId": "CH0317Public01",
+            "NameEn": "Have you read this…?",
+            "DescriptionEn": "Every $1, increase Attack Speed by $2 for $3."
+        },
+        {
+            "GroupId": "CH0317Passive01",
+            "NameEn": "Literary style",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0317WeaponPassive01",
+            "NameEn": "Literary style +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0317ExtraPassive01",
+            "NameEn": "Criminal Text",
+            "DescriptionEn": "When using EX skill, increase Attack by $1 for $2.\nIf using an unenhanced EX skill, gain 1 Operation Plan (stacks up to 2)."
+        },
+
+        {
+            "GroupId": "CH0318Ex01",
+            "NameEn": "Bullet delivery",
+            "DescriptionEn": "Reduce Defense of one enemy by $1 for $2.\nDeal $3 damage."
+        },
+        {
+            "GroupId": "CH0318Public01",
+            "NameEn": "Delivery completed!",
+            "DescriptionEn": "Every $1, increase Attack of allies within a circular area by $2 for $3."
+        },
+        {
+            "GroupId": "CH0318Passive01",
+            "NameEn": "The art of negotiation",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0318WeaponPassive01",
+            "NameEn": "The art of negotiation +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0318ExtraPassive01",
+            "NameEn": "Negotiations breakdown",
+            "DescriptionEn": "When attacking weakened enemies, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0319Ex01",
+            "NameEn": "Let's eat together!",
+            "DescriptionEn": "Increase Attack Speed of one ally by $1 for $2."
+        },
+        {
+            "GroupId": "CH0319Public01",
+            "NameEn": "Umm, this isn't it!",
+            "DescriptionEn": "When allies deal $1 critical hits, reduce the Defense of one enemy by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0319Passive01",
+            "NameEn": "Should I carve it?",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0319WeaponPassive01",
+            "NameEn": "Should I carve it? +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0319ExtraPassive01",
+            "NameEn": "Liberation of form",
+            "DescriptionEn": "Increase Critical Damage of all allies by $1."
         }
         
         

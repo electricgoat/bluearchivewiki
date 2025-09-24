@@ -13339,6 +13339,514 @@
             "DescriptionJp": "様々な用途に使えるアリウスの生徒手帳。",
             "NameEn": "Arius Student Handbook",
             "DescriptionEn": "Arius' student handbook, can be used for a variety of purposes."
+        },
+
+        {
+            "Key": 799458096,
+            "NameKr": "하모니카",
+            "DescriptionKr": "흘러간 시간들의 앙상블 편 1장 7화 클리어",
+            "NameJp": "ハーモニカ",
+            "DescriptionJp": "過ぎ去りし刻のオラトリオ編1章7話クリア",
+            "NameEn": "Harmonica",
+            "DescriptionEn": "Clear Chapter 1, Episode 7 of Oratory of the Past"
+        },
+
+                {
+            "Key": 2421885010,
+            "NameJp": "文芸書架",
+            "NameEn": "Literature Bookshelf",
+            "DescriptionJp": "文学書が収納されている書架。手に取るのに大きな勇気を要する本も多数並んでいる。",
+            "DescriptionEn": "A bookshelf filled with literary works. Many of the books require great courage to pick up."
+        },
+        {
+            "Key": 421036472,
+            "NameJp": "ワイルドハントキャンパスシリーズ",
+            "NameEn": "Wildhunt Campus Set",
+            "DescriptionJp": "芸術とインスピレーション溢れるワイルドハントのキャンパス。美しさとは何か、答えを探しにいきましょう。",
+            "DescriptionEn": "The Wildhunt campus, overflowing with art and inspiration. Let's search for the answer to what beauty truly is."
+        },
+        {
+            "Key": 1257590389,
+            "NameJp": "ワイルドハントキャンパスシリーズ",
+            "NameEn": "Wildhunt Campus Furniture"
+        },
+        {
+            "Key": 3112497970,
+            "NameJp": "芸術論書架",
+            "NameEn": "Art Theory Bookshelf",
+            "DescriptionJp": "概念的な芸術論について記された、学術書が収納されている書架。しかし、これを取りに来る生徒の顔は明るくないらしい。",
+            "DescriptionEn": "A bookshelf containing academic books on conceptual art theory. Students who come to take these books rarely look cheerful."
+        },
+        {
+            "Key": 301797795,
+            "NameJp": "抽象パターンのカーペット",
+            "NameEn": "Abstract Pattern Carpet",
+            "DescriptionJp": "抽象的な模様が目立つカーペット。難解さと規則性が絶妙なバランスを保っている。",
+            "DescriptionEn": "A carpet with striking abstract patterns. Its complexity and regularity are in perfect balance."
+        },
+        {
+            "Key": 3001079672,
+            "NameJp": "木材パターンのカーペット",
+            "NameEn": "Wood Pattern Carpet",
+            "DescriptionJp": "遠くから見ると、まるで木で作られたように見えるカーペット。しかし、触ってみると柔らかい絨毯である。",
+            "DescriptionEn": "A carpet that looks like it's made of wood from a distance, but feels soft to the touch."
+        },
+        {
+            "Key": 1888234954,
+            "NameJp": "モザイクパターンのカーペット",
+            "NameEn": "Mosaic Pattern Carpet",
+            "DescriptionJp": "古風な模様が目立つカーペット。古代遺跡のモザイクタイル模様を再解釈したものだ。",
+            "DescriptionEn": "A carpet with prominent old-fashioned patterns. It reinterprets the mosaic tile designs of ancient ruins."
+        },
+        {
+            "Key": 837929111,
+            "NameJp": "画材運搬用の台車",
+            "NameEn": "Art Supply Cart",
+            "DescriptionJp": "キャンバスをはじめとする画材を運ぶのに使われる台車。寮監隊の目を盗み、乗り込んで疾走する生徒もいるとか。",
+            "DescriptionEn": "A cart used to transport art supplies such as canvases. Some students sneak rides and dash around, evading the dorm supervisors."
+        },
+        {
+            "Key": 1277060067,
+            "NameJp": "ベルベット・チェア",
+            "NameEn": "Velvet・Chair",
+            "DescriptionJp": "ベルベットのクッションが重ねられた木製のチェア。座るだけで権威が生まれるような気がする。",
+            "DescriptionEn": "A wooden chair with stacked velvet cushions. Just sitting on it makes you feel a sense of authority."
+        },
+        {
+            "Key": 3983877079,
+            "NameJp": "受賞作の展示台",
+            "NameEn": "Award-Winning Display Stand",
+            "DescriptionJp": "某美術コンクールで大賞を受賞した作品。無数の賛美と妬みがここに集まる。",
+            "DescriptionEn": "A stand displaying a piece that won the grand prize at an art competition. Countless praise and envy gather here."
+        },
+        {
+            "Key": 1713694610,
+            "NameJp": "抽象彫刻の展示台",
+            "NameEn": "Abstract Sculpture Stand",
+            "DescriptionJp": "作者不詳の彫像。芸術性が認められ、長い間その場に鎮座している。",
+            "DescriptionEn": "A sculpture of unknown origin. Its artistic value is recognized, and it has been on display for a long time."
+        },
+        {
+            "Key": 2472213385,
+            "NameJp": "怪しい古書の展示台",
+            "NameEn": "Suspicious Old Book Stand",
+            "DescriptionJp": "奇怪な雰囲気を漂わせる古書が載っている展示台。まだ貸し出されたことはない。",
+            "DescriptionEn": "A stand displaying an old book with a strange aura. It has never been checked out."
+        },
+        {
+            "Key": 1815109606,
+            "NameJp": "禁書の展示台",
+            "NameEn": "Forbidden Book Stand",
+            "DescriptionJp": "禁書が載っている展示台。禁止されたものが公然と展示されている皮肉も、また芸術である。",
+            "DescriptionEn": "A stand displaying a forbidden book. The irony of displaying something prohibited in public is itself a form of art."
+        },
+        {
+            "Key": 2101259221,
+            "NameJp": "ワイルドハントの木造フェンス",
+            "NameEn": "Wildhunt Wooden Fence",
+            "DescriptionJp": "ワイルドハントの古い木造フェンス。時の重みがひしひしと感じられる。",
+            "DescriptionEn": "An old wooden fence from Wildhunt. You can feel the weight of time in it."
+        },
+        {
+            "Key": 2452935603,
+            "NameJp": "ミニマリズムの照明",
+            "NameEn": "Minimalist Lighting",
+            "DescriptionJp": "シンプルなデザインの照明。ただただ機能重視である。",
+            "DescriptionEn": "Lighting with a simple design. Purely focused on function."
+        },
+        {
+            "Key": 865351516,
+            "NameJp": "監視係のライト",
+            "NameEn": "Supervisor's Light",
+            "DescriptionJp": "壁面に設置されたライト。深夜のパトロールをする寮監隊の生徒たちにとっては嬉しい道しるべだ。",
+            "DescriptionEn": "A light installed on the wall. It's a welcome guide for dorm supervisors patrolling late at night."
+        },
+        {
+            "Key": 2695482073,
+            "NameJp": "大型グリーンライトデスク",
+            "NameEn": "Large Green Light Desk",
+            "DescriptionJp": "緑色の灯が置かれた大型のデスク。隣に知らない生徒が座ることも日常茶飯事だ。",
+            "DescriptionEn": "A large desk with a green lamp. It's common for strangers to sit next to you here."
+        },
+        {
+            "Key": 504418052,
+            "NameJp": "中型グリーンライトデスク",
+            "NameEn": "Medium Green Light Desk",
+            "DescriptionJp": "緑色の灯が置かれた中型のデスク。このような節制された場所でも、破壊的な芸術魂が芽生える。",
+            "DescriptionEn": "A medium-sized desk with a green lamp. Even in such a disciplined place, a destructive artistic spirit can emerge."
+        },
+        {
+            "Key": 3172216333,
+            "NameJp": "脱出防止用の大型窓",
+            "NameEn": "Large Escape-Proof Window",
+            "DescriptionJp": "格子のついた大型の窓。単に防犯だけが目的ではないようだ。",
+            "DescriptionEn": "A large window with bars. Its purpose seems to be more than just security."
+        },
+        {
+            "Key": 486717077,
+            "NameJp": "脱出防止用の中型窓",
+            "NameEn": "Medium Escape-Proof Window",
+            "DescriptionJp": "格子のついた中型の窓。脱出と侵入、両方を防ぐのに効果的だ。",
+            "DescriptionEn": "A medium-sized window with bars. Effective for preventing both escape and intrusion."
+        },
+        {
+            "Key": 947632910,
+            "NameJp": "ワイルドハント掲示板",
+            "NameEn": "Wildhunt Bulletin Board",
+            "DescriptionJp": "各種お知らせと広報が載っている掲示板。許可なしの掲示物も多いらしい。",
+            "DescriptionEn": "A bulletin board with various notices and announcements. Many postings are apparently unauthorized."
+        },
+        {
+            "Key": 2660814915,
+            "NameJp": "不眠の塔",
+            "NameEn": "Tower of Sleeplessness",
+            "DescriptionJp": "エナジードリンクの空き缶が無造作に積まれている。眠れない夜の証。",
+            "DescriptionEn": "A pile of empty energy drink cans. Proof of sleepless nights."
+        },
+        {
+            "Key": 1446702624,
+            "NameJp": "銀河の続き",
+            "NameEn": "Continuation of the Galaxy",
+            "DescriptionJp": "作者不詳の彫像。作品の名前だけが言い伝えられているが、その意味に対する解釈はまちまちだ。",
+            "DescriptionEn": "A sculpture of unknown origin. Only its name has been passed down, and its meaning is open to interpretation."
+        },
+        {
+            "Key": 3190754330,
+            "NameJp": "剥製された音律",
+            "NameEn": "Stuffed Melody",
+            "DescriptionJp": "某有名彫刻家の作品。傑作だという意見と、駄作だという意見が常に対立している。",
+            "DescriptionEn": "A work by a famous sculptor. Opinions are divided between calling it a masterpiece or a failure."
+        },
+        {
+            "Key": 1146153010,
+            "NameJp": "絵画の作業セット",
+            "NameEn": "Painting Work Set",
+            "DescriptionJp": "キャンバス、イーゼル、絵の具、椅子。絵を描くには十分すぎる構成だ。",
+            "DescriptionEn": "A set with canvas, easel, paints, and a chair. More than enough for painting."
+        },
+        {
+            "Key": 2919564883,
+            "NameJp": "ワイルドハントの木造仕切り",
+            "NameEn": "Wildhunt Wooden Partition",
+            "DescriptionJp": "ワイルドハントの古い木造の仕切り。大きなスペースを分割するのに使用される。",
+            "DescriptionEn": "An old wooden partition from Wildhunt. Used to divide large spaces."
+        },
+        {
+            "Key": 1281426105,
+            "NameJp": "ワイルドハントの木造柱",
+            "NameEn": "Wildhunt Wooden Pillar",
+            "DescriptionJp": "ワイルドハントの古い木柱。天井の重みを、頑丈な木材が支えている。",
+            "DescriptionEn": "An old wooden pillar from Wildhunt. The sturdy wood supports the weight of the ceiling."
+        },
+        {
+            "Key": 1692593705,
+            "NameJp": "ワイルドハントの木造ゲート",
+            "NameEn": "Wildhunt Wooden Gate",
+            "DescriptionJp": "ワイルドハントの古い木造ゲート。木粉が落ちてくるため、下を通る人は自然と身なりを整えることになるのだとか。",
+            "DescriptionEn": "An old wooden gate from Wildhunt. Sawdust falls from above, so people naturally fix their appearance when passing under it."
+        },
+        {
+            "Key": 3076282914,
+            "NameJp": "ワイルドハントのガラス仕切り",
+            "NameEn": "Wildhunt Glass Partition",
+            "DescriptionJp": "ワイルドハントの古いガラス仕切り。表面が荒いが、それがまた味になっている。",
+            "DescriptionEn": "An old glass partition from Wildhunt. Its rough surface gives it a unique charm."
+        },
+        {
+            "Key": 4055705513,
+            "NameJp": "簡易ラック",
+            "NameEn": "Simple Rack",
+            "DescriptionJp": "あらゆる絵の具が載っている棚。持ち主不明の物も多数混ざっている。",
+            "DescriptionEn": "A rack holding all kinds of paints. Many items of unknown ownership are mixed in."
+        },
+        {
+            "Key": 1538604811,
+            "NameJp": "絵画用の棚",
+            "NameEn": "Painting Shelf",
+            "DescriptionJp": "絵の具が綺麗に並んでいる棚。しかし、その綺麗さは長続きしない。",
+            "DescriptionEn": "A shelf with neatly arranged paints. However, the neatness doesn't last long."
+        },
+        {
+            "Key": 3295668707,
+            "NameJp": "芸術家の寝床",
+            "NameEn": "Artist's Bed",
+            "DescriptionJp": "作業室の隅に置かれたソファ。熟睡には向いてないが、徹夜明けなら安らかに眠れる。",
+            "DescriptionEn": "A sofa placed in the corner of the studio. Not ideal for deep sleep, but perfect after an all-nighter."
+        },
+        {
+            "Key": 1553171869,
+            "NameJp": "階段式の壇上",
+            "NameEn": "Stepped Platform",
+            "DescriptionJp": "演説に使われる階段式の壇上。ここに登っている間は、人々の上に立つことができる。",
+            "DescriptionEn": "A stepped platform used for speeches. While standing here, you can stand above everyone else."
+        },
+        {
+            "Key": 2800446403,
+            "NameJp": "混沌の大型グリーンライトデスク",
+            "NameEn": "Chaotic Large Green Light Desk",
+            "DescriptionJp": "散らかっている大型のデスク。勉学の痕跡だと言われているが、果たしてその真相は。",
+            "DescriptionEn": "A large, messy desk. Said to be the result of studying, but who knows the truth."
+        },
+        {
+            "Key": 4066808432,
+            "NameJp": "混沌の中型グリーンライトデスク",
+            "NameEn": "Chaotic Medium Green Light Desk",
+            "DescriptionJp": "散らかっている中型のデスク。寮監隊が到着したときには、すでに事態が終わっている。",
+            "DescriptionEn": "A messy medium-sized desk. By the time the dorm supervisors arrive, the situation is already over."
+        },
+        {
+            "Key": 4137013604,
+            "NameJp": "装飾用の木造の壁",
+            "NameEn": "Decorative Wooden Wall",
+            "DescriptionJp": "ワイルドハントの雰囲気とよく似合う壁。青い壁紙が空間を引き立てるポイントになっている。",
+            "DescriptionEn": "A wall that matches the Wildhunt atmosphere. The blue wallpaper is a highlight of the space."
+        },
+        {
+            "Key": 2042621021,
+            "NameJp": "チェック柄の石造り床",
+            "NameEn": "Checkered Stone Floor",
+            "DescriptionJp": "チェック柄の石造り床。無数の人がこの上を歩き回っても、色褪せることはない。",
+            "DescriptionEn": "A checkered stone floor. No matter how many people walk on it, it never fades."
+        },
+        {
+            "Key": 461885748,
+            "NameJp": "水墨の背景",
+            "NameEn": "Ink Wash Background",
+            "DescriptionJp": "黒と白が調和している背景。まるで水墨画のような節制された美しさが目立つ。",
+            "DescriptionEn": "A background where black and white are in harmony. Its restrained beauty is reminiscent of ink wash paintings."
+        },
+        {
+            "Key": 885678970,
+            "NameJp": "超大型の本棚",
+            "NameEn": "Extra-Large Bookshelf",
+            "DescriptionJp": "あらゆる種類の本が収納されている超大型の本棚。はしごなしでてっぺんの本を取るのは難しい。",
+            "DescriptionEn": "An extra-large bookshelf holding all kinds of books. It's hard to reach the top without a ladder."
+        },
+        {
+            "Key": 388379301,
+            "NameJp": "書架用はしご",
+            "NameEn": "Bookshelf Ladder",
+            "DescriptionJp": "書架用のはしご。登ってみたいという欲求が掻き立てられる。",
+            "DescriptionEn": "A ladder for bookshelves. It stirs the desire to climb."
+        },
+        {
+            "Key": 2107674786,
+            "NameJp": "展示用の本棚",
+            "NameEn": "Display Bookshelf",
+            "DescriptionJp": "骨董品や装飾品を載せるための本棚。多くの生徒がこの前をうろうろしている。",
+            "DescriptionEn": "A bookshelf for displaying antiques and ornaments. Many students wander around in front of it."
+        },
+        {
+            "Key": 1976657339,
+            "NameJp": "狂乱の絵画作業セット",
+            "NameEn": "Frenzied Painting Work Set",
+            "DescriptionJp": "作業中の画家の席。インスピレーションあるいは狂気が感じられる。",
+            "DescriptionEn": "A painter's seat in the middle of work. You can feel inspiration—or madness."
+        },
+        {
+            "Key": 51435562,
+            "NameJp": "芸術家の頭の中",
+            "NameEn": "Inside the Artist's Mind",
+            "DescriptionJp": "物が無造作に置かれているテーブル。混沌としているが、誰かはここでも芸術を見出すのだとか。",
+            "DescriptionEn": "A table with things placed haphazardly. It's chaotic, but some find art even here."
+        },
+        {
+            "Key": 3731052108,
+            "NameJp": "ワイルドハント旗章",
+            "NameEn": "Wildhunt Banner",
+            "DescriptionJp": "ワイルドハントのエンブレムが織り込まれている旗章。",
+            "DescriptionEn": "A banner woven with the Wildhunt emblem."
+        },
+        {
+            "Key": 2911873771,
+            "NameJp": "ワイルドハントテラススペース",
+            "NameEn": "Wildhunt Terrace Space",
+            "DescriptionJp": "いつでも演奏会ができるよう、楽器が備え付けられているテラス。",
+            "DescriptionEn": "A terrace equipped with instruments so concerts can be held at any time."
+        },
+        {
+            "Key": 2229322849,
+            "NameJp": "芸術情報館の連絡通路",
+            "NameEn": "Art Information Hall Passage",
+            "DescriptionJp": "ワイルドハントの図書館である芸術情報館と繋がっている連絡通路。出入りする生徒でいつも賑わう。",
+            "DescriptionEn": "A passage connecting to the Art Information Hall, Wildhunt's library. It's always bustling with students coming and going."
+        },
+        {
+            "Key": 3162765576,
+            "NameJp": "ワイルドハント螺旋階段",
+            "NameEn": "Wildhunt Spiral Staircase",
+            "DescriptionJp": "上の階に上がることができる螺旋階段。足場の幅が狭いから走らないようにしよう。",
+            "DescriptionEn": "A spiral staircase leading to the upper floor. The steps are narrow, so don't run."
+        },
+        {
+            "Key": 3334773599,
+            "NameJp": "タイプライターデスク",
+            "NameEn": "Typewriter Desk",
+            "DescriptionJp": "タイプライターでの執筆作業用に作られた机。他の用途に使うのは難しいが、それはどうでもいいらしい。",
+            "DescriptionEn": "A desk made for writing with a typewriter. It's hard to use for anything else, but that doesn't seem to matter."
+        },
+        {
+            "Key": 3798522794,
+            "NameJp": "芸術家の初作品",
+            "NameEn": "Artist's First Work",
+            "DescriptionJp": "あるメディアアーティストの初作品。本人は恥ずかしく思うが、込められた情熱は立派である。",
+            "DescriptionEn": "The first work of a media artist. The artist is embarrassed, but the passion within is impressive."
+        },
+        {
+            "Key": 935541676,
+            "NameJp": "彫刻の作業台",
+            "NameEn": "Sculpture Workbench",
+            "DescriptionJp": "彫刻品を載せる作業台。外見は粗雑だが、繊細な芸術を生み出すには不足がない。",
+            "DescriptionEn": "A workbench for sculptures. It looks rough, but it's perfectly suited for creating delicate art."
+        },
+                {
+            "Key": 4073457417,
+            "NameJp": "ミヨの神名文字",
+            "NameEn": "Miyo's Eleph",
+            "DescriptionJp": "ミヨの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Miyo."
+        },
+        {
+            "Key": 4187055741,
+            "NameJp": "フユの神名文字",
+            "NameEn": "Fuyu's Eleph",
+            "DescriptionJp": "フユの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Fuyu."
+        },
+        {
+            "Key": 3646564332,
+            "NameJp": "リツの神名文字",
+            "NameEn": "Ritsu's Eleph",
+            "DescriptionJp": "リツの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Ritsu."
+        },
+        {
+            "Key": 1979335525,
+            "NameJp": "ショップカード",
+            "NameEn": "Shop Card",
+            "DescriptionJp": "ワイルドハント美術館のお土産ショップで購入できるカード。ゲーム用としても使えるらしい。美しいデザインをしている。",
+            "DescriptionEn": "A card available at the Wildhunt Art Museum's souvenir shop. It can apparently be used for games as well. The design is beautiful."
+        },
+        {
+            "Key": 1516051971,
+            "NameJp": "絵の具",
+            "NameEn": "Ink",
+            "DescriptionJp": "発色が良く、多くの生徒が利用するブランドの絵の具。貧しい芸術家は絵の具を食べて空腹に耐えてきたと言い伝えられているらしいが、絶対に真似しないように。",
+            "DescriptionEn": "A brand of ink with vivid colors, used by many students. It's said that poor artists once ate paint to stave off hunger, but please do not try this at home."
+        },
+        {
+            "Key": 2738957566,
+            "NameJp": "大理石キューブ",
+            "NameEn": "Marble Cube",
+            "DescriptionJp": "彫刻用に使われる大理石キューブ。真っ白な表面にあなたの夢を刻んでみよう。",
+            "DescriptionEn": "A marble cube used for sculpture. Try carving your dreams into its pure white surface."
+        },
+        {
+            "Key": 2117511996,
+            "NameJp": "ブックバンド",
+            "NameEn": "Book Band",
+            "DescriptionJp": "本を束ねて運ぶ用のレザーバンド。あなたの本の好みをさらっと見せてみよう。",
+            "DescriptionEn": "A leather band for bundling and carrying books. Casually show off your taste in books."
+        },
+        {
+            "Key": 3425901162,
+            "NameKr": "와일드헌트 캠퍼스",
+            "DescriptionKr": "(X)",
+            "NameJp": "ワイルドハントキャンパス",
+            "DescriptionJp": "（X）",
+            "NameEn": "Wild Hunt Campus",
+            "DescriptionEn": ""
+        },
+                {
+            "Key": 1552509032,
+            "NameKr": "아리우스 바실리카",
+            "DescriptionKr": "흘러간 시간들의 앙상블 편 2장 5화 클리어",
+            "NameJp": "アリウス・バシリカ",
+            "DescriptionJp": "過ぎ去りし刻のオラトリオ編2章5話クリア",
+            "NameEn": "Arius・Basilica",
+            "DescriptionEn": "Clear Chapter 2, Episode 5 of Oratory of the Past"
+        },
+        {
+            "Key": 2923013887,
+            "NameKr": "누구를 위한 예술인가",
+            "DescriptionKr": "누구를 위한 예술인가 칭호 획득 미션 클리어",
+            "NameJp": "誰が為の芸術",
+            "DescriptionJp": "誰が為の芸術の称号獲得ミッションクリア",
+            "NameEn": "Art for Whom?",
+            "DescriptionEn": "Clear the event mission to obtain the title \"Art for Whom?\""
+        },
+        {
+            "Key": 1268479381,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "후유가 달려가면서 다양한 색의 스위퍼들을 보여줍니다.\n후유가 미요 앞에 도착한 후 가장 많이 등장한 색의 스위퍼를 공격하세요.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "フユが走っている間、様々な色のスイーパーが登場します。\nフユがミヨの前にたどり着いた時点で、最も多く登場した色のスイーパーを攻撃しましょう。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "While Fuyu is running, sweepers of various colors will appear.\nWhen Fuyu reaches Miyo, attack the sweeper of the color that has appeared most frequently."
+        },
+        {
+            "Key": 4163494881,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "적의 방어 타입을 노려서 전투를 진행해보세요",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "敵の防御タイプに有利な攻撃タイプをあわせて戦闘を進めましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Match your attack type with the enemy's defense type to advance in battle."
+        },
+        {
+            "Key": 1154737800,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "AMAS의 체력을 25% 이상 유지하면서, AMAS들에게 이로운 효과를 통해 강화시켜 적과 전투를 진행시키세요.\n\n폭탄이 파괴되면, 주변 적에게 대미지를 크게 입힙니다. 집중 공격을 활용해보세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "AMASのHPを25%以上維持しつつ、AMASたちにバフ効果を与えて強化し、敵との戦闘を進めましょう。\n\n爆弾が破壊されると、周辺の敵に大きなダメージを与えます。集中砲火状態を活用してみましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "Maintain the AMAS's HP above 25% and buff it to strengthen it as you fight the enemy.\nWhen a bomb is destroyed, it deals great damage to nearby enemies. Make use of concentrated fire."
+        },
+        {
+            "Key": 184757931,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "아키라의 체력은 매 초마다 감소하지만, 아키라의 체력이 50% 이상일 경우 아군에게 강력한 이로운 효과가 부여됩니다.\n아키라의 스킬에 피격된 적은 받는 대미지가 증가합니다.\n\n적 방패병은 방패를 들었을 때 체력을 회복합니다. 군중 제어 효과를 통해 이를 방해하세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "アキラのHPは1秒毎に減少していきますが、アキラのHPが50%以上の場合、味方に強力なバフ効果が付与されます。\nアキラのスキルで攻撃された敵は、被ダメージ量が増加します。\n盾を持っている敵は盾を構えている時、HPを回復します。CC効果を活用して敵に盾を使用できないようにしましょう。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "Akira's HP constantly decreases, but when Akira's HP is above 50%, powerful buff effects are applied to allies.\nEnemies attacked by Akira's skills will receive increased damage.\nEnemies with shields will recover HP when they hold up their shields. Make use of CC effects to prevent enemies from using shields."
+        },
+        {
+            "Key": 1286967671,
+            "NameKr": "케이스에 담긴 낡은 게임기",
+            "DescriptionKr": "모모이가 동생과 같이 처음으로 구입한 휴대용 게임기.\n모모이의 '게임 물들이기 작전'은, 그렇게 성공적으로 완수된 것 같다……",
+            "NameJp": "大切に保管されている古いゲーム機",
+            "DescriptionJp": "モモイが妹と一緒に初めて購入したゲーム機。\n「ミドリゲーマー化計画」は、無事に成功したようだ……。",
+            "NameEn": "Encased Old Game Console",
+            "DescriptionEn": "This is the first game console Momoi and her sister purchased together.\nThe \"Midori Gamer Plan\" seems to have been a success..."
+        },
+        {
+            "Key": 2108207432,
+            "NameKr": "오래된 축제 인형",
+            "DescriptionKr": "우미카가 처음으로 갔던 축제에서 산 인형.\n한 쌍으로 되어 있다.",
+            "NameJp": "古いお祭り人形",
+            "DescriptionJp": "ウミカが初めて参加したお祭りで購入した人形。\nペアになっている。",
+            "NameEn": "Old Festival Doll",
+            "DescriptionEn": "These dolls were purchased at the first festival Umika attended.\nThey come as a pair."
+        },
+        {
+            "Key": 2538736248,
+            "NameKr": "승부 동전",
+            "DescriptionKr": "코유키가 손수 구멍을 뚫은 동전.\n오락기를 공짜로 쓰기 위한 용도였지만, 보안 기술의 발전으로 인해 현재는 무용지물이 되었다.",
+            "NameJp": "勝負メダル",
+            "DescriptionJp": "コユキが穴をあけたメダル。\nゲームを無料で遊ぶために作られたが、技術の発展により現在は無用の長物となっている。当然、違法！",
+            "NameEn": "Competition Medal",
+            "DescriptionEn": "The token that Koyuki drilled a hole in.\nIt was made so that games could be played for free, but technological advances have made it useless. Naturally, it's illegal!"
+        },
+        {
+            "Key": 2177848562,
+            "NameKr": "나비 모양 날개 장식",
+            "DescriptionKr": "하루나의 날개 장식.\n상황과 기분, 의미에 따라 그때그때 다른 날개 장식을 착용한다는 것 같다.",
+            "NameJp": "蝶の形をした羽飾り",
+            "DescriptionJp": "ハルナの羽飾り。\n状況と気分、込められた意味によってその都度違う羽飾りをつけるのだとか。",
+            "NameEn": "Butterfly Wing Ornament",
+            "DescriptionEn": "Haruna's wing ornament.\nApparently, she wears different ornaments to match the occasion, mood, and the meaning she indends to convey."
         }
+
     ]
 }
