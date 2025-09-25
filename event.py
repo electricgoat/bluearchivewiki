@@ -605,8 +605,13 @@ def generate():
         cost_good = data.goods[card_set[0]['CostGoodsId']]
         wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
 
+        if len(cost_good['ConsumeExtraAmount'])>1 and cost_good['ConsumeExtraAmount'][0] != cost_good['ConsumeExtraAmount'][1]:
+            pricing_structure = f"Revealing the first card will cost {wiki_price}, and the price will increase by {cost_good['ConsumeExtraAmount'][1]-cost_good['ConsumeExtraAmount'][0]} for any subsequent card after it ({cost_good['ConsumeExtraAmount'][0]}, {cost_good['ConsumeExtraAmount'][1]}, {cost_good['ConsumeExtraAmount'][2]}, and finally {cost_good['ConsumeExtraAmount'][3]}); player can reset the hand at any point instead of revealing the next card, resetting the cost."
+        else:
+            pricing_structure = f"Revealing each card will cost {wiki_price}; player can reset the hand at any point instead of revealing the next card."
 
-        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'] )
+
+        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'], pricing_structure=pricing_structure )
 
 
     template = env.get_template('events/template_event_header.txt')
