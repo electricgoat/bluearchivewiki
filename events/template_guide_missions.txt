@@ -4,17 +4,9 @@ EVENTNAME is the {{season['Id']-1}}th [[Events/Guide missions|Guide Mission]] Ev
 __TOC__
 =Event Summary=
 ==Schedule==
-{% raw %}{{{% endraw %}Event 
-| Server = JP 
-| Category = Guide mission
-{% if server == 'JP' %}| NameJP = {{season['LocalizeTitle'].get('Jp')}}
-{% endif -%}
-| NameEN = {{server == 'JP' and season['LocalizeTitle'].get('En') or season['LocalizeTitle'].get('EnGlobal', season['LocalizeTitle'].get('En', ''))}}
-| Promo = GuideMission_{{season['LocalizeTitle'].get('En', season['EventContentId']|string ).replace(' ', '_')}}.png
-| Image = {{season['LobbyBannerImage'][season['LobbyBannerImage'].rfind('/')+1:]}}_jp.png
-| Start_date = {{season['StartDate']}}
-| End_date = {{season['EndDate']}}
-{% raw %}}}{% endraw %}
+{% for region in ['jp', 'gl'] -%}
+{{schedule[region]}}
+{% endfor %}
 
 ==Details==
 In this event, players can collect the event item {{season['CollectibleItemCard']}} to earn 1200 pyroxenes. Players can also earn various rewards such as training materials by clearing the missions.

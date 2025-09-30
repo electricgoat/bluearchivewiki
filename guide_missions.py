@@ -9,7 +9,7 @@ import argparse
 
 from jinja2 import Environment, FileSystemLoader
 
-from data import load_data
+from data import load_data, load_season_data
 from model import Character, Item
 from classes.Furniture import Furniture
 from events.mission_desc import mission_desc
@@ -21,9 +21,12 @@ missing_code_localization = MissingTranslations("translation/missing/LocalizeCod
 missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
 
-args = None
-data = None
+args = {}
+data = {}
+regional_data = {'jp':{}, 'gl':{}}
 characters = {}
+items = {}
+furniture = {}
 missions = None
 missing_descriptions = []
 
@@ -31,62 +34,37 @@ missing_descriptions = []
 
 def generate():
     global args
-    global data 
-    global characters
-    items = {}
-    furniture = {}
+    global data, regional_data
+    global characters, items, furniture
+
     total_rewards = {'Item':{},'Furniture':{},'Equipment':{},'Currency':{},'Character':{}}
 
-    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
-
-    for character in data.characters.values():
-        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
-            continue
-
-        try:
-            char = Character.from_data(character['Id'], data)
-            characters[char.id] = char
-        except Exception as err:
-            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
-            traceback.print_exc()
-
-    for item in data.items.values():
-        try:
-            item = Item.from_data(item['Id'], data)
-            items[item.id] = item
-        except Exception as err:
-            print(f'Failed to parse for item {item}: {err}')
-            traceback.print_exc()
-            continue
-
-    for item in data.furniture.values():
-        try:
-            item = Furniture.from_data(item['Id'], data)
-            furniture[item.id] = item
-        except Exception as err:
-            print(f'Failed to parse for item {item}: {err}')
-            traceback.print_exc()
-            continue
-    
-
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    template = env.get_template('events/template_guide_missions.txt')
+    template = env.get_template('events/template_guide_mission_dates.txt')
 
-    missions = copy.copy(data.guide_mission)
-    season = data.guide_mission_season[args['id']]
-    season['StartDate'] = f"{season['StartDate'][0:10]}T{season['StartDate'][11:16]}+09"
-    season['EndDate'] = f"{season['EndDate'][0:10]}T{season['EndDate'][11:16]}+09"
-    season['CollectibleItemName'] = items[season["RequirementParcelId"]].name_en
-    season['CollectibleItemCard'] = '{{ItemCard|'+season['CollectibleItemName']+'}}'#+'|quantity='+str(season['RequirementParcelAmount'])+'}}'
+    schedule = {'jp':'', 'gl':''}
 
+    for region in ['gl','jp']:
+        season = regional_data[region].guide_mission_season.get(args['id'])
+        if season == None:
+            print(f"Season id {args['id']} not found in {region} data")
+            continue
 
-    localize_title_key = hashkey(season['TitleLocalizeCode'])
-    print(f"localize_title_key {localize_title_key}")
-    if localize_title_key in data.localization: 
-        season['LocalizeTitle'] = data.localization[localize_title_key]
-        if 'En' not in data.localization[localize_title_key]: missing_localization.add_entry(data.localization[localize_title_key])
-    else: 
-        print(f"Missing localize_title key {localize_title_key}")
+        season['StartDate'] = f"{season['StartDate'][0:10]}T{season['StartDate'][11:16]}+09"
+        season['EndDate'] = f"{season['EndDate'][0:10]}T{season['EndDate'][11:16]}+09"
+        season['CollectibleItemName'] = items[season["RequirementParcelId"]].name_en
+        season['CollectibleItemCard'] = '{{ItemCard|'+season['CollectibleItemName']+'}}'#+'|quantity='+str(season['RequirementParcelAmount'])+'}}'
+
+        localize_title_key = hashkey(season['TitleLocalizeCode'])
+        #print(f"localize_title_key {localize_title_key}")
+        if localize_title_key in data.localization: 
+            season['LocalizeTitle'] = data.localization[localize_title_key]
+            if 'En' not in data.localization[localize_title_key]: missing_localization.add_entry(data.localization[localize_title_key])
+        else: 
+            print(f"Missing localize_title key {localize_title_key}")
+        
+        schedule[region] = template.render(season=season, server=region.upper(), title='Japanese Version' if region=='jp' else 'Global Version' ) 
+
 
     # localize_description_key =  hashkey(season['InfomationLocalizeCode'])
     # print(f"localize_description_key {localize_description_key}")
@@ -97,6 +75,9 @@ def generate():
     #     season['LocalizeDescription'] = None
     #     print(f"Missing localize_description key {localize_description_key}")
 
+
+
+    missions = copy.copy(data.guide_mission)
 
     for mission in data.guide_mission.values():
         if mission['SeasonId'] != args['id']:
@@ -165,13 +146,54 @@ def generate():
         item['Name'] = (characters[item['Id']].wiki_name)
         item['Card'] = ('{{CharacterCard|'+characters[item['Id']].wiki_name+'}}')
 
+    template = env.get_template('events/template_guide_missions.txt')
 
     with open(os.path.join(args['outdir'], 'events', f"guide_mission_season_{args['id']}.txt"), 'w', encoding="utf8") as f:
-        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards, tab_count = len(set([x['TabNumber'] for x in missions.values()])), server='JP' )
+        wikitext = template.render(season=season, missions=missions.values(), total_rewards=total_rewards, tab_count = len(set([x['TabNumber'] for x in missions.values()])), schedule=schedule )
         f.write(wikitext)
 
 
+def init_data():
+    global args
+    global data, regional_data
+    global characters, items, furniture
 
+    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+
+    regional_data['jp'] = load_season_data(args['data_primary'])
+    regional_data['gl'] = load_season_data(args['data_secondary'])
+
+    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+
+    for character in data.characters.values():
+        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+            continue
+
+        try:
+            char = Character.from_data(character['Id'], data)
+            characters[char.id] = char
+        except Exception as err:
+            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
+            traceback.print_exc()
+
+    for item in data.items.values():
+        try:
+            item = Item.from_data(item['Id'], data)
+            items[item.id] = item
+        except Exception as err:
+            print(f'Failed to parse for item {item}: {err}')
+            traceback.print_exc()
+            continue
+
+    for item in data.furniture.values():
+        try:
+            item = Furniture.from_data(item['Id'], data)
+            furniture[item.id] = item
+        except Exception as err:
+            print(f'Failed to parse for item {item}: {err}')
+            traceback.print_exc()
+            continue
+    
 
 def main():
     global args
@@ -194,6 +216,7 @@ def main():
     print(args)
 
     try:
+        init_data()
         generate()
 
         missing_localization.write()

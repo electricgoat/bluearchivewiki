@@ -629,7 +629,7 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
 BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
     ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
-     'event_content_season', 
+     'event_content_season', 'guide_mission_season',
      'time_attack_dungeon_season',
      'shop_recruit']
 )
@@ -642,6 +642,7 @@ def load_season_data(path):
         eliminate_raid_stage=   load_file_grouped(path, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),
         multi_floor_raid_season=load_generic(path, 'MultiFloorRaidSeasonManageExcelTable.json', key='SeasonId'),
         event_content_season=   load_event_content_seasons(path),
+        guide_mission_season=   load_generic(path, 'GuideMissionSeasonExcelTable.json'),
         time_attack_dungeon_season= load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
         shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
     )
