@@ -1,13 +1,17 @@
 {{'{{'}}Banner
-| Id = {{entry['LinkedRobbyBannerId']}}
+| Id = {{banner.linked_lobby_banner_id}}
 | Server = {{region.upper()}}
-| NameJP = 
-| NameEN = 
-| Image = {{entry['Image']}}
-| Rateup_character = {{', '.join(entry['RateupCharacters'])}}
-| Limited = {% if entry['IsLimited'] %}yes{% else %}no{% endif %}
-| Start_date = {{entry['WikiSalePeriodFrom']}}
-| End_date = {{entry['WikiSalePeriodTo']}}
-| Notes = {{', '.join(entry['Notes'])}}
+{% if region=='jp' -%}
+| NameJP = {{banner.name_jp}}
+| NameEN = {{banner.name_en}}
+{% else -%}
+| NameEN = {{banner.get_name_global}}
+{% endif -%}
+| Image = {{banner.image_lobby_banner and banner.image_lobby_banner.wikinames[0] or ''}}
+| Rateup_character = {{', '.join(banner.wiki_featured_characters)}}
+| Limited = {% if banner.is_limited %}yes{% else %}no{% endif %}
+| Start_date = {{banner.wiki_sale_period_from}}
+| End_date = {{banner.wiki_sale_period_to}}
+| Notes = {{' '.join(banner.wiki_notes)}}
 {{'}}'}}
 
