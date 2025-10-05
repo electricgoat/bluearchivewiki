@@ -1,6 +1,9 @@
 {{'{{'}}Banner
 | Id = {{banner.linked_lobby_banner_id}}
 | Server = {{region.upper()}}
+| Code = {{banner.bannercode}}
+| Type = {{banner.category_type}}
+| CrossregionId = {{banner.crossregion_id}}
 {% if region=='jp' -%}
 | NameJP = {{banner.name_jp}}
 | NameEN = {{banner.name_en}}
@@ -9,7 +12,7 @@
 {% endif -%}
 | Image = {{banner.image_lobby_banner and banner.image_lobby_banner.wikinames[0] or ''}}
 | Rateup_character = {{', '.join(banner.wiki_featured_characters)}}
-| Limited = {% if banner.is_limited %}yes{% else %}no{% endif %}
+| Rerun = {% if banner.is_rerun %}yes{% else %}no{% endif %}
 | Start_date = {{banner.wiki_sale_period_from}}
 | End_date = {{banner.wiki_sale_period_to}}
 | Notes = {{' '.join(banner.wiki_notes)}}

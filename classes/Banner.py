@@ -43,7 +43,9 @@ class Banner:
     image_lobby_banner:BannerImage|None = None
 
     rerun_original_id:int|None = None
+    rerun_cnt:int = 0
     prodnotice_data = None
+    crossregion_id = 0
 
     def __init__(self, banner_data):
         self.id = banner_data.get('Id')
@@ -109,12 +111,12 @@ class Banner:
     @property
     def wiki_notes(self):
         notes = []
-        if self.category_type == 'FesGacha': 
-            notes.append('anniversary')
+        # if self.category_type == 'FesGacha': 
+        #     notes.append('anniversary')
         # if self.category_type == 'LimitedGacha': 
         #     notes.append('Limited')
-        if self.rerun_original_id is not None: 
-            notes.append('rerun')
+        # if self.rerun_original_id is not None: 
+        #     notes.append('rerun')
         # if (self.sale_period_from and self.sale_period_from > datetime.now()): 
         #     notes.append('future')
         # elif (self.sale_period_to and self.sale_period_to > datetime.now()): 
@@ -129,10 +131,22 @@ class Banner:
     
     @property
     def get_name_global(self):
-        if self.is_rerun and self.name_en_global_rerun is not '':
+        if self.is_rerun and self.name_en_global_rerun != '':
             return self.name_en_global_rerun
         return self.name_en_global if self.name_en_global else self.name_en if self.name_en else ''
-
+    
+    @property
+    def bannercode(self):
+        code = ','.join([x.wiki_name.replace(' ','_') for x in self.featured_characters]) + '_' 
+        if not self.is_rerun:
+            code += 'release'
+        else:
+            code += f'rerun{self.rerun_cnt}'
+        return code
+    
+    @property
+    def uid(self):
+        return self.region.upper() + '_' + self.bannercode
     
     def __repr__(self):
         return f"<Banner ID={self.id}, Category={self.category_type}, Active={self.is_active}>"

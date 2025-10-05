@@ -151,7 +151,8 @@ def init_banners(region: str):
 			continue
 		
 		banner = Banner(banner_data)    
-		
+		banner.region = region
+
 		if region == 'jp': 
 			banner.prodnotice_data = known_lobby_banners_jp.get(banner.linked_lobby_banner_id)
 		elif region == 'gl': 
@@ -301,14 +302,17 @@ def print_list(banners, region: str, tail: int = 20):
 		if (banner.sale_period_from > now): note = 'future'
 		elif (banner.sale_period_to > now): note = 'current'
 
-		print (f"{str(banner.category_type).rjust(17, ' ')} {str(banner.linked_lobby_banner_id).ljust(4)} {str(banner.info_character_id).ljust(14)} {', '.join([x.wiki_name for x in banner.featured_characters]).ljust(32)}: {banner.sale_period_from} ~ {banner.sale_period_to} {note.ljust(8)} ", end ="")
-		if banner.rerun_original_id is None: 
+		print (f"{str(banner.category_type).rjust(17, ' ')} {str(banner.linked_lobby_banner_id).ljust(4)} {str(banner.info_character_id).ljust(14)} {', '.join([x.wiki_name for x in banner.featured_characters]).ljust(32)}: {banner.sale_period_from} ~ {banner.sale_period_to} {note.ljust(8)} ", end="")
+		#if banner.rerun_original_id is None: 
 			#print (f"      {banner.image_banner.is_wikinamed and 'wikinamed' or banner.image_banner.get_file} {banner.rerun_original_id is None and banner.image_banner.wikinames or ''}", end ="")
-			pass
-		else: print('rerun', end ="")
+			#pass
+		#else: print('rerun', end="")
+
+		print(f"{banner.rerun_original_id and 'rerun' or '     '} ", end="")
 
 		#if banner.image_lobby_banner is not None: print(f"{banner.image_lobby_banner.get_file} {banner.image_lobby_banner.wikinames}", end ="")
 		#print(f" {banner.name_jp} | {banner.name_en}", end ="")
+		#print(f" {banner.uid}", end="")
 		print('')
 
 
@@ -326,6 +330,44 @@ def write_banner_names(banners:dict[int,Banner], outdir:str):
 
 		} for banner in banners.values()}, f, ensure_ascii=False, indent=4)
 	print(f"Saved banner names to {outpath}")
+
+
+def bannercode_dict(banners:dict[int,Banner]):
+	output = {}
+	banners_list = list(banners.values())
+
+	for index, banner in enumerate(banners_list):
+		if banner.is_rerun:
+			rerun_cnt = 1
+			for i in range(0, index):
+				if banners_list[i].is_rerun and banners_list[i].rerun_original_id == banner.rerun_original_id:
+					rerun_cnt += 1
+			banner.rerun_cnt = rerun_cnt	
+		output[banner.bannercode] = banner
+
+	return output
+
+
+def collate_banners(banners_jp:dict[str,Banner], banners_gl:dict[str,Banner]):
+	output = {}
+
+	for bannercode, banner_jp in banners_jp.items():
+		output[bannercode] = {}
+		output[bannercode]['jp'] = banner_jp
+		output[bannercode]['gl'] = bannercode in banners_gl and banners_gl[bannercode] or None
+		
+		if bannercode in banners_gl:
+			banner_jp.crossregion_id = banners_gl[bannercode].linked_lobby_banner_id
+			banners_gl[bannercode].crossregion_id = banner_jp.linked_lobby_banner_id
+
+		# if bannercode not in banners_gl:
+		# 	print(f"Warning: JP bannercode {bannercode} is not in GL list")
+
+	for bannercode, banner_gl in banners_gl.items():
+		if bannercode not in output:
+			print(f"Warning: GL bannercode {bannercode} is not in JP list")
+
+	return output
 
 
 def main():
@@ -349,6 +391,8 @@ def main():
 		init_data()
 		banners:dict[int, Banner] = init_banners('jp')
 		banners_gl:dict[int, Banner] = init_banners('gl')
+
+		collate_banners(bannercode_dict(banners), bannercode_dict(banners_gl))
 
 		if args['wiki'] != None:
 			wiki.init(args)
