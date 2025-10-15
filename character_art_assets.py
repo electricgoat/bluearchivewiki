@@ -14,7 +14,7 @@ import wiki
 from data import load_data
 from model import Character
 
-args = None
+args = {}
 
 
 
@@ -42,53 +42,73 @@ def generate():
         
         #character collection portrait
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['CollectionTexturePath']}.png" )
-        image_internal = local_path.rsplit('/',1)[-1]
-        image_target = f"{character.wiki_name.replace(' ', '_')}.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character portrait')
+        if (os.path.exists(local_path)):
+            image_internal = local_path.rsplit('/',1)[-1]
+            image_target = f"{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character portrait')
+        else:
+            print(f"WARNING: Character {character.wiki_name} collection portrait not found at {local_path}")
 
         #character portrait
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}.png" )
-        image_internal = local_path.rsplit('/',1)[-1]
-        image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character portrait')
+        if (os.path.exists(local_path)):
+            image_internal = local_path.rsplit('/',1)[-1]
+            image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character portrait')
+        else:
+            print(f"WARNING: Character {character.wiki_name} portrait not found at {local_path}")
 
         #character portrait small
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png" )
-        image_internal = local_path.rsplit('/',1)[-1]
-        image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}_Small.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character small portrait')
+        if (os.path.exists(local_path)):
+            image_internal = local_path.rsplit('/',1)[-1]
+            image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}_Small.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character small portrait')
+        else:
+            print(f"WARNING: Character {character.wiki_name} small portrait not found at {local_path}")
 
         #Memorial lobby image
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"{character.memory_lobby.image}.png")
-        image_internal = f"{character.memory_lobby.image}.png"
-        image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character memorial lobby')
+        if (os.path.exists(local_path)):
+            image_internal = f"{character.memory_lobby.image}.png"
+            image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character memorial lobby')
+        else:
+            print(f"WARNING: Character {character.wiki_name} memorial lobby image not found at {local_path}")
 
         #Memorial lobby image small
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"{character.memory_lobby.image}_Small.png")
-        image_internal = f"{character.memory_lobby.image}_Small.png"
-        image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}_Small.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character memorial lobby small')
+        if (os.path.exists(local_path)):
+            image_internal = f"{character.memory_lobby.image}_Small.png"
+            image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}_Small.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character memorial lobby small')
+        else:
+            print(f"WARNING: Character {character.wiki_name} memorial lobby small image not found at {local_path}")
 
         #Weapon
         local_path = os.path.join(args['data_assets'] ,f"Assets/_MX/AddressableAsset/UIs/01_Common/04_Weapon/Weapon_Icon_{character.weapon.image_path}.png")
-        image_internal = f"Weapon_Icon_{character.weapon.image_path}.png"
-        image_target = f"Weapon_Icon_{character.wiki_name.replace(' ', '_')}.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character unique weapon image')
+        if (os.path.exists(local_path)):
+            image_internal = f"Weapon_Icon_{character.weapon.image_path}.png"
+            image_target = f"Weapon_Icon_{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character unique weapon image')
+        else:
+            print(f"WARNING: Character {character.wiki_name} unique weapon image not found at {local_path}")
 
         #Emblem portrait
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/43_Emblem', f"Emblem_Icon_Favor_{character.dev_name}.png")
-        image_internal = f"Emblem_Icon_Favor_{character.dev_name}.png"
-        image_target = f"Emblem_Icon_Favor_{character.wiki_name.replace(' ', '_')}.png"
-        copy_wikinamed(local_path, image_target)
-        enforce_naming(local_path, image_internal, image_target, 'character emblem icon')
-
+        if (os.path.exists(local_path)):
+            image_internal = f"Emblem_Icon_Favor_{character.dev_name}.png"
+            image_target = f"Emblem_Icon_Favor_{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path, image_target)
+            enforce_naming(local_path, image_internal, image_target, 'character emblem icon')
+        else:
+            print(f"WARNING: Character {character.wiki_name} emblem icon not found at {local_path}")
 
 
 
