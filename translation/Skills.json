@@ -2314,7 +2314,8 @@
         {
             "GroupId": "CH0101Ex01",
             "NameEn": "You there, don't move!",
-            "DescriptionEn": "Move to chosen location, deploy a shield with HP equal to $1 of Healing for $2, and deal $3 damage to enemies in a circular area. Taunt enemies in a circular area for $4."
+            "DescriptionEn": "Move to chosen location, deploy a shield with HP equal to $1 of Healing for $2, and deal $3 damage to enemies in a circular area.",
+            "AddOnLevel3": " Taunt enemies in a circular area for $4."
         },
         {
             "GroupId": "CH0101Public01",
@@ -6488,7 +6489,7 @@
         {
             "GroupId": "CH0318Public01",
             "NameEn": "Delivery completed!",
-            "DescriptionEn": "Every $1, increase Attack of allies within a circular area by $2 for $3."
+            "DescriptionEn": "Every $1, increase Attack Speed of allies within a circular area by $2 for $3."
         },
         {
             "GroupId": "CH0318Passive01",
