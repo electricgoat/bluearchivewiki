@@ -70,10 +70,10 @@ def generate():
                 season['ignore'] = True
                 continue
 
-            # if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
-            #     print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
-            #     season['ignore'] = True
-            #     #continue
+            if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
+                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+                season['ignore'] = True
+                #continue
 
             season['raid_name'] = RAIDS[boss[0]].name
             last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
