@@ -56,12 +56,12 @@ def generate():
             image_internal = local_path.rsplit('/',1)[-1]
             image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}.png"
             copy_wikinamed(local_path, image_target)
-            enforce_naming(local_path, image_internal, image_target, 'character portrait')
+            enforce_naming(local_path, image_internal, image_target, 'character portrait', "[[Category:Student portraits]]")
         else:
             print(f"WARNING: Character {character.wiki_name} portrait not found at {local_path}")
 
         #character portrait small
-        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png" )
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png", "[[Category:Student portraits]]")
         if (os.path.exists(local_path)):
             image_internal = local_path.rsplit('/',1)[-1]
             image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}_Small.png"
@@ -96,7 +96,7 @@ def generate():
             image_internal = f"Weapon_Icon_{character.weapon.image_path}.png"
             image_target = f"Weapon_Icon_{character.wiki_name.replace(' ', '_')}.png"
             copy_wikinamed(local_path, image_target)
-            enforce_naming(local_path, image_internal, image_target, 'character unique weapon image')
+            enforce_naming(local_path, image_internal, image_target, 'character unique weapon')
         else:
             print(f"WARNING: Character {character.wiki_name} unique weapon image not found at {local_path}")
 
@@ -120,7 +120,7 @@ def copy_wikinamed(local_path, wikiname):
         os.link(local_path, target_path) #hardlinks
         
 
-def enforce_naming(local_path, old_name, new_name, scope='image'):
+def enforce_naming(local_path, old_name, new_name, scope='image', text=''):
     global args 
 
     #localpath = os.path.join(args['data_assets'], local_name)
@@ -135,7 +135,7 @@ def enforce_naming(local_path, old_name, new_name, scope='image'):
         wiki.move(f"File:{old_name}", f"File:{new_name}", summary = f"Enforcing consistent {scope} file naming")
     elif not new_name_exists or args['force_upload']:
         print (f"!!! Uploading {local_path} as {new_name}")
-        wiki.upload(local_path, new_name, f"{scope} image")
+        wiki.upload(local_path, new_name, f"{scope} image", text)
         
 
 
