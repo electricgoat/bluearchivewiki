@@ -6531,6 +6531,109 @@
             "GroupId": "CH0319ExtraPassive01",
             "NameEn": "Liberation of form",
             "DescriptionEn": "Increase Critical Damage of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0325Ex01",
+            "NameEn": "It's basic magic!",
+            "DescriptionEn": "Increase Attack of allied Strikers and their summoned allies by $1, and add $2 to Base Proficiency for $3.\n(Base Proficiency: Increase damage dealt by normal attacks, Normal Skills, and Sub Skills)"
+        },
+        {
+            "GroupId": "CH0325Public01",
+            "NameEn": "Magical Flashbang",
+            "DescriptionEn": "Every $1, reduce one enemy's Evasion by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0325Passive01",
+            "NameEn": "Magical Suppressive Fire",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0325WeaponPassive01",
+            "NameEn": "Magical Suppressive Fire +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0325ExtraPassive01",
+            "NameEn": "The power to help someone",
+            "DescriptionEn": "When using EX skill, increase Cost Recovery by $1 for $2."
+        },
+
+        {
+            "GroupId": "CH0326Ex01",
+            "NameEn": "Thermite Pink, here we go!",
+            "DescriptionEn": "Reisa (Magical) deploys to the field as Thermite Pink for $4. Thermite Pink additionally inherits Reisa's stats: $1 of Reisa (Magical) maximum HP, $2 of Attack, and $3 of Healing."
+        },
+        {
+            "GroupId": "SM032601Public01",
+            "NameEn": "Thermite Punch!",
+            "DescriptionEn": "Thermite Pink will activate her \"Thermite Punch!\" skill every $1, dealing $2 damage to one enemy and recovering HP by $3 of her Healing. (Calculated using Thermite Pink's stats)"
+        },
+        {
+            "GroupId": "SM032601Passive01",
+            "NameEn": "Everyone, let's go!",
+            "DescriptionEn": "While Thermite Pink is deployed, increase Attack of all allies (excluding herself) within a circular area around her by $1.\nRecover HP by $3 of Healing every $2. (Calculated using Thermite Pink's stats)\n(All effect apply only while within range)"
+        },
+        {
+            "GroupId": "SM032601ExtraPassive01",
+            "NameEn": "Everyone, lend me your strength!",
+            "DescriptionEn": "Every time Thermite Pink uses her \"Thermite Punch!\" skill, Reisa (Magical) gains 1 \"Sugar Magical Power\" (up to a maximum of 5).\nWhen she has accumulated 5 \"Sugar Magical Power\", Reisa (Magical)'s Skill Cost is reduced by $1 for $2 use of the EX Skill."
+        },
+        {
+            "GroupId": "CH0326Public01",
+            "NameEn": "Sugar Magical Crush!",
+            "DescriptionEn": "When using an EX Skill while holding $1 \"Sugar Magical Power\", all \"Sugar Magical Power\" is consumed to enhance the EX Skill, granting an additional effect of increasing Critical Damage by $2 to the targets of \"Everyone, let's go!\". (Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0326Passive01",
+            "NameEn": "Magical Heal TCCC!",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0326WeaponPassive01",
+            "NameEn": "Magical Heal TCCC! +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0326ExtraPassive01",
+            "NameEn": "Firepower is magical!",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0166SelectEx01",
+            "NameEn": "Well then, of course!",
+            "DescriptionEn": "(This is a Select EX skill, effect depends on the target selected)"
+        },
+        {
+            "GroupId": "CH0166Ex01",
+            "NameEn": "Me alone is enough!",
+            "DescriptionEn": "Deal $1 damage to one enemy. If there is an enemy near the target, bounces in their direction and deals $2 damage (up to 2 times).\nApply Stun for $3."
+        },
+        {
+            "GroupId": "CH0166Ex02",
+            "NameEn": "Helmet Gang, charge!",
+            "DescriptionEn": "Summons one Helmet Gang member for $1. Depending on the type of weapon, the Helmet Gang member's HP and Attack will be increased by a percentage of Rabu's stats. (Up to 3 members)\n\nSG: $2 of Rabu's maximum HP, $3 of Attack\nAR: $4 of Rabu's maximum HP, $5 of Attack\nSR: $6 of Rabu's maximum HP, $7 of Attack"
+        },
+        {
+            "GroupId": "CH0166Public01",
+            "NameEn": "Everyone, let's go!!",
+            "DescriptionEn": "Every $1, increase Attack of the Striker allies by $2 for $3.\nAdditionally, if there are two or more Helmet Gang members summoned by the Striker, increase Attack Speed of the Helmet Gang members summoned by the Striker by $4 for $5."
+        },
+        {
+            "GroupId": "CH0166Passive01",
+            "NameEn": "Oh, I'm so pissed!!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0166WeaponPassive01",
+            "NameEn": "Oh, I'm so pissed!! +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0166ExtraPassive01",
+            "NameEn": "We're having yakiniku tonight!",
+            "DescriptionEn": "When using an EX Skill, increase Critical Damage for yourself and the summoned Helmet Gang members based on the number of Helmet Gang currently summoned. (Duration: $1).\n\n1 or none: Increase Critical Damage by $2\n2: Increase Critical Damage by $3\n3: Increase Critical Damage by $4"
         }
         
         

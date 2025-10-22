@@ -4280,13 +4280,14 @@
             "CharHeightEn": null,
             "DesignerNameEn": null,
             "IllustratorNameEn": null,
+            "LobbyIllustratorNameEn": "koo3473",
             "VoiceEn": "Sakura Kaoru",
             "HobbyEn": "Meditation, reading",
             "ProfileIntroductionEn": "A student of the Hyakkiyako Academy and a member of the Hyakkaryouran Conflict Resolution Council. Originally the vice president of Hyakkaryouran, Nagusa inherited the leadership position after the previous president, Ayame, disappeared. Nagusa is timid, has low self-esteem, and is indecisive, but she has shown the strength of character to overcome fears and move forward for the sake of those she cares about.",
-            "WeaponNameEn": "White Lotus",
+            "WeaponNameEn": "Hundred Lotus",
             "WeaponDescEn": "An old rifle that gives off a mysterious aura.\n\nThis weapon has been passed down from generation to generation since the great prophet Kuzunoha, and wielding it is  proof of being the rightful successor of Hyakkaryouran. Countless scratches and repair marks tell the story of hopes and aspirations woven into its history.",
             "ReleaseDateJp": "2025/05/21",
-            "ReleaseDateGl": ""
+            "ReleaseDateGl": "2025/10/21"
         },
         {
             "CharacterId": 20046,
@@ -4298,13 +4299,14 @@
             "CharHeightEn": null,
             "DesignerNameEn": "にぎりうさぎ (''Nigiri&nbsp;Usagi'')",
             "IllustratorNameEn": "にぎりうさぎ (''Nigiri&nbsp;Usagi'')",
+            "LobbyIllustratorNameEn": "kokosando",
             "VoiceEn": "Ueda Kana",
             "HobbyEn": "Doting on juniors, conspiracies",
             "ProfileIntroductionEn": "President of Yin-Yang Club at the Hyakkiyako Academy. Outsiders may know Niya as the Student Council President, but she is better known as the Non-Working President as due to the structure of Hyakkiyako Academy she is usually tied in much more complicated matters… or so she claims; the dislike of work is her second nature. Niya always seems to casually cause havoc, but behind it all, there may be an ulterior motive that she does not reveal to others.",
             "WeaponNameEn": "Forked Tongue",
             "WeaponDescEn": "The gun Niya always carries with her. However, it seems that almost no one has ever witnessed her fire it.",
             "ReleaseDateJp": "2025/05/21",
-            "ReleaseDateGl": ""
+            "ReleaseDateGl": "2025/10/21"
         },
 
         {
@@ -4592,8 +4594,64 @@
             "WeaponDescEn": "The submachine gun that Ritsu always carries.\n\nOften employed to blast holes in stone by pulling the trigger.",
             "ReleaseDateJp": "2025/10/08",
             "ReleaseDateGl": null
-        }
+        },
 
+
+        {
+            "CharacterId": 20051,
+            "CharacterPool": "limited",
+            "FamilyNameEn": "Uzawa",
+            "PersonalNameEn": "Reisa",
+            "VariantNameEn": "Magical",
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": null,
+            "LobbyIllustratorNameEn": null,
+            "VoiceEn": "Nemoto Miyari",
+            "HobbyEn": "Duel proposals, self-introductions",
+            "ProfileIntroductionEn": "A student of Trinity General School who has donned a magical girl costume to carry out an undercover mission for Vigilante Corps.\n\nReisa appears very excited, perhaps because she has loved magical girl stories since childhood.",
+            "WeaponNameEn": "Shooting☆Star",
+            "WeaponDescEn": "Reisa's prized shotgun.\n\nShe claims it's a magic wand because it has sound, lights, and firepower.",
+            "ReleaseDateJp": "2025/10/22",
+            "ReleaseDateGl": null
+        },
+        {
+            "CharacterId": 10129,
+            "CharacterPool": "limited",
+            "FamilyNameEn": "Morizuki",
+            "PersonalNameEn": "Suzumi",
+            "VariantNameEn": "Magical",
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": null,
+            "VoiceEn": "Shamoto Haruka",
+            "HobbyEn": "Patrolling, strolling",
+            "ProfileIntroductionEn": "A student of Trinity General School who had to wear a magical girl costume on an undercover mission for Vigilante Corps. Suzumi knows little about magical girl stories and doesn't fully understand the costume's significance. Though uncomfortable in the spotlight, she resolves to carry on her usual earnestness.",
+            "WeaponNameEn": "Safety",
+            "WeaponDescEn": "Suzumi's assault rifle.\n\nLavishly decorated for undercover missions, it remains a precious partner for Suzumi.",
+            "ReleaseDateJp": "2025/10/22",
+            "ReleaseDateGl": null
+        },
+        {
+            "CharacterId": 16018,
+            "CharacterPool": "event",
+            "FamilyNameEn": "Komakaze",
+            "PersonalNameEn": "Rabu",
+            "VariantNameEn": null,
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": "CHILD",
+            "IllustratorNameEn": "CHILD",
+            "VoiceEn": "Suzuki Hina",
+            "HobbyEn": "Polishing helmets, rummaging under vending machines",
+            "ProfileIntroductionEn": "The captain of the Splash Helmet Gang.\n\nShe is trusted by her subordinates and has a big sister personality. However, she doesn't seem to have much luck.",
+            "WeaponNameEn": "Pinch Hitter",
+            "WeaponDescEn": "Rabu's shotgun.\n\nAlthough often used as a bat, it's kept well-maintained.",
+            "ReleaseDateJp": "2025/10/22",
+            "ReleaseDateGl": null
+        }
 
     ]
 }

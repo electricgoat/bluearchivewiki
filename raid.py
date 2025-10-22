@@ -93,7 +93,7 @@ def total_cumulative_rewards(season):
 def get_ranking_rewards(season): 
     ranking_rewards = data.raid_ranking_reward[season['RankingRewardGroupId']]
     for entry in ranking_rewards:
-        reward = RaidSeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], entry['RewardParcelUniqueName'], entry['RewardParcelAmount'], wiki_card)
+        reward = RaidSeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], "", entry['RewardParcelAmount'], wiki_card)
         entry['reward'] = reward
         if entry['RankEnd'] == 0: entry['RankEnd'] = '∞'
     return ranking_rewards

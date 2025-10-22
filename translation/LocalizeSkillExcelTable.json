@@ -1003,6 +1003,254 @@
             "NameEn": "Burning Perorodzilla",
             "DescriptionEn": "Increases Perorodzilla and Peroro minions' Mystic Effectiveness by [c][007eff]200%[-][/c].",
             "SkillInvokeLocalizeEn": ""
+        },
+
+                {
+            "Key": 1996187408,
+            "NameKr": "힘에 의한 정화(적)",
+            "DescriptionKr": "예소드가 [c][007eff]적색[-][/c] 빛을 내며 오른손을 들어 주먹으로 지면을 타격하여 모든 적에게 공격력 [c][007eff]1500%[-][/c] 대미지\n만약 타격 시점에 지면에 [c][007eff]청색[-][/c] 지대가 형성되어 있다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]15%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "浄化の手（赤）",
+            "DescriptionJp": "イェソドが[c][007eff]赤[-][/c]の光を放ち、右手を上げて床を叩きつけ、すべての敵に対して攻撃力の[c][007eff]1500%[-][/c]分のダメージ。\n床を叩きつける時、床全体に[c][007eff]青[-][/c]のエリアが生成されていた場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]15%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Purifying Hand (Red)",
+            "DescriptionEn": "Yesod emits [c][007eff]red[-][/c] light, raises his right hand, and strikes the ground with his fist, dealing [c][007eff]1500%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, a [c][007eff]blue[-][/c] area exists on the ground, this skill is nullified, and instead:\n- All enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]15%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill is used",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3663303598,
+            "NameKr": "힘에 의한 정화(청)",
+            "DescriptionKr": "예소드가 [c][007eff]청색[-][/c] 빛을 내며 왼손을 들어 손바닥으로 지면을 타격하여 모든 적에게 공격력 [c][007eff]1500%[-][/c] 대미지\n만약 타격 시점에 지면에 [c][007eff]적색[-][/c] 지대가 형성되어 있다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]15%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "浄化の手（青）",
+            "DescriptionJp": "イェソドが[c][007eff]青[-][/c]の光を放ち、左手を上げて床を叩きつけ、すべての敵に対して攻撃力の[c][007eff]1500%[-][/c]分のダメージ。\n床を叩きつける時、床全体に[c][007eff]赤[-][/c]のエリアが生成されていた場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]15%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Purifying Hand (Blue)",
+            "DescriptionEn": "Yesod emits [c][007eff]blue[-][/c] light, raises his left hand, and slams his palm onto the ground, dealing [c][007eff]1500%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, a [c][007eff]red[-][/c] area exists on the ground, this skill is nullified, and instead:\n- All enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]15%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill is used",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3772217190,
+            "NameKr": "다시 구축한 기초",
+            "DescriptionKr": "예소드가 가슴의 흡입기에서 배출한 잔해로 주변을 타격하여 모든 적에게 공격력 [c][007eff]1500%[-][/c] 대미지\n만약 타격 시점에 지면에 어떠한 지대도 형성되어 있지 않다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]15%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "新たなる礎",
+            "DescriptionJp": "イェソドが胸の吸入器から排出した残骸で周辺を攻撃し、すべての敵に対して攻撃力の[c][007eff]1500%[-][/c]分のダメージ\nもし攻撃時点で床全体にエリアが生成されていない場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]15%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Reconstructed Foundation",
+            "DescriptionEn": "Yesod attacks the surroundings using debris expelled from the intake device on his chest, dealing [c][007eff]1500%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, no area exists on the ground, this skill is nullified, and instead:\n- All enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]15%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill is used",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3301408861,
+            "NameKr": "다시 구축한 기초",
+            "DescriptionKr": "예소드가 가슴의 흡입기에서 잔해를 배출하여 주변을 타격하여 모든 적에게 공격력 [c][007eff]3000%[-][/c] 대미지\n만약 타격 시점에 지면에 어떠한 지대도 형성되어 있지 않다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]30%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "新たなる礎",
+            "DescriptionJp": "イェソドが胸の吸入器から排出した残骸で周辺を攻撃し、すべての敵に対して攻撃力の[c][007eff]3000%[-][/c]分のダメージ\nもし攻撃時点で床全体にエリアが生成されていない場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]30%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Reconstructed Foundation",
+            "DescriptionEn": "Yesod attacks the surroundings using debris expelled from the intake device on his chest, dealing [c][007eff]3000%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, no area exists on the ground, this skill is nullified, and instead:\n- All enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]30%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill use.",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+        {
+            "Key": 2773586851,
+            "NameKr": "위대한 의지의 심판",
+            "DescriptionKr": "예소드가 오른손으로 진로를 막고 있을 때, ATG가 가득 찰 경우 예소드가 왼손으로 지면을 타격하여 모든 적에게 공격력 [c][007eff]200%[-][/c] 대미지",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "大いなる意志の裁き",
+            "DescriptionJp": "イェソドが右手で進路を塞いでいる際、ATGの値がMAXの場合、イェソドが左手で床を叩きすべての敵に対して、攻撃力の[c][007eff]200%[-][/c]分のダメージ",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Judgment of the Great Will",
+            "DescriptionEn": "While Yesod is blocking the path with his right hand, if the ATG gauge reaches MAX, he strikes the ground with his left hand, dealing [c][007eff]200%[-][/c] Attack damage to all enemies.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2366320942,
+            "NameKr": "무너지지 않을 토대",
+            "DescriptionKr": "예소드와 예소드의 오른손은 그로기 게이지가 오르지 않으며 받는 대미지량이 [c][007eff]99%[-][/c] 감소\n예소드는 Ex 스킬 시전 시 [c][007eff]청색[-][/c] 등불 [c][007eff]3개[-][/c], [c][007eff]적색[-][/c] 등불 [c][007eff]3개[-][/c]를 소환\n등불을 파괴할 경우 예소드에게 예소드 최대 체력의 [c][007eff]0.1%[-][/c]만큼 대미지, 파괴한 대상에게 [c][007eff]2초[-][/c]간 지속되는 [c][007eff]등불 파괴 표식[-][/c] [c][007eff]1개[-][/c] 부여\n- 1명의 적이 [c][007eff]등불 파괴 표식[-][/c]을 [c][007eff]2개[-][/c] 이상 보유하는 순간 모든 적에게 해제되지 않는 기절, [c][007eff]10초[-][/c] 후에 모든 적에게 999999 감전 지속 대미지 부여",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "不動の地盤",
+            "DescriptionJp": "イェソドとイェソドの右手はグロッギーゲージが上昇せず、被ダメージ量が[c][007eff]99%[-][/c]減少します。\nイェソドはEXスキルを使用する際、[c][007eff]青き[-][/c]灯火を[c][007eff]3つ[-][/c]、[c][007eff]赤き[-][/c]灯火を[c][007eff]3つ[-][/c]召喚\n灯火を破壊した場合、イェソドに対して、イェソドの最大HPの[c][007eff]0.1%[-][/c]分のダメージ、破壊した対象に対して、[c][007eff]2秒[-][/c]間持続する[c][007eff]「灯破壊の標識」[-][/c]を[c][007eff]1個[-][/c]付与します。\n-1人の敵が[c][007eff]「灯火破壊の標識」[-][/c]を[c][007eff]2個[-][/c]以上保有した瞬間、すべての敵に解除されない気絶状態を付与、[c][007eff]10秒[-][/c]後、すべての敵に対して、999999の感電持続ダメージを付与",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Unshakable Ground",
+            "DescriptionEn": "Yesod and his right hand do not gain Groggy Gauge and take [c][007eff]99%[-][/c] reduced damage.\nWhen Yesod casts an EX Skill, he summons [c][007eff]3[-][/c] [c][007eff]blue[-][/c] lanterns and [c][007eff]3[-][/c] [c][007eff]red[-][/c] lanterns.\nWhen a lantern is destroyed: Yesod takes damage equal to [c][007eff]0.1%[-][/c] of his max HP, and the destroyer gains [c][007eff]1[-][/c] [c][007eff]Lantern Destruction Mark[-][/c] lasting [c][007eff]2 seconds[-][/c].\n- When any enemy has [c][007eff]2[-][/c] or more Lantern Destruction Marks, all enemies become stunned (cannot be removed), and after [c][007eff]10 seconds[-][/c], all enemies take 999999 Shock continuous damage.",
+            "SkillInvokeLocalizeEn": ""
+        },
+                {
+            "Key": 2684712354,
+            "NameKr": "무너지지 않을 토대",
+            "DescriptionKr": "예소드와 예소드의 오른손은 그로기 게이지가 오르지 않으며 받는 대미지량이 [c][007eff]99%[-][/c] 감소, 치명 대미지 저항률 [c][007eff]25000[-][/c] 증가\n예소드는 Ex 스킬 시전 시 [c][007eff]청색[-][/c] 등불 [c][007eff]3개[-][/c], [c][007eff]적색[-][/c] 등불 [c][007eff]3개[-][/c]를 소환\n등불을 파괴할 경우 예소드에게 예소드 최대 체력의 [c][007eff]0.1%[-][/c]만큼 대미지, 파괴한 대상에게 [c][007eff]2초[-][/c]간 지속되는 [c][007eff]등불 파괴 표식[-][/c] [c][007eff]1개[-][/c] 부여\n- 1명의 적이 [c][007eff]등불 파괴 표식[-][/c]을 [c][007eff]2개[-][/c] 이상 보유하는 순간 모든 적에게 해제되지 않는 기절, [c][007eff]10초[-][/c] 후에 모든 적에게 999999 감전 지속 대미지 부여",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "不動の地盤",
+            "DescriptionJp": "イェソドとイェソドの右手はグロッギーゲージが上昇せず、被ダメージ量が[c][007eff]99%[-][/c]減少、会心ダメージ抵抗率が[c][007eff]25000[-][/c]増加します。\nイェソドはEXスキルを使用する際、[c][007eff]青き[-][/c]灯火を[c][007eff]3つ[-][/c]、[c][007eff]赤き[-][/c]灯火を[c][007eff]3つ[-][/c]召喚\n灯火を破壊した場合、イェソドに対して、イェソドの最大HPの[c][007eff]0.1%[-][/c]分のダメージ、破壊した対象に対して、[c][007eff]2秒[-][/c]間持続する[c][007eff]「灯破壊の標識」[-][/c]を[c][007eff]1個[-][/c]付与します。\n-1人の敵が[c][007eff]「灯火破壊の標識」[-][/c]を[c][007eff]2個[-][/c]以上保有した瞬間、すべての敵に解除されない気絶状態を付与、[c][007eff]10秒[-][/c]後、すべての敵に対して、999999の感電持続ダメージを付与",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Unshakable Ground",
+            "DescriptionEn": "Yesod and his right hand do not gain Groggy Gauge, take [c][007eff]99%[-][/c] reduced damage, and critical damage resistance is increased by [c][007eff]25000[-][/c]. \nWhen Yesod casts an EX Skill, he summons [c][007eff]3[-][/c] [c][007eff]blue[-][/c] lanterns and [c][007eff]3[-][/c] [c][007eff]red[-][/c] lanterns.\nWhen a lantern is destroyed: Yesod takes damage equal to [c][007eff]0.1%[-][/c] of his max HP, and the destroyer gains [c][007eff]1[-][/c] [c][007eff]Lantern Destruction Mark[-][/c] lasting [c][007eff]2 seconds[-][/c].\n- When any enemy has [c][007eff]2[-][/c] or more Lantern Destruction Marks, all enemies become stunned (cannot be removed), and after [c][007eff]10 seconds[-][/c], all enemies take 999999 Shock continuous damage.",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+        {
+            "Key": 2039962385,
+            "NameKr": "계시",
+            "DescriptionKr": "아군 스트라이커, 택티컬 서포트의 탑승물, 소환물의 진동 특효 [c][007eff]200%[-][/c] 가산\n예소드와의 전투에서는 분석 단계가 존재하며, 1단계 당 공격력 [c][007eff]20%[-][/c] 증가, 치명타율 [c][007eff]20%[-][/c] 증가, 주는 Ex 스킬 대미지량 [c][007eff][c]25%[-][/c] 가산, 치명 대미지 [c][007eff]25%[-][/c] 증가 효과를 모든 아군 스트라이커, 택티컬 서포트의 탑승물, 소환물에게 부여 (최대 5단계)\n단, 해당 효과는 분석 단계가 5단계에 도달하거나, 예소드의 스킬을 막아낼 경우 도달 단계 만큼 적용\n분석 단계는 예소드의 Ex스킬을 막아내지 못하거나 예소드가 다음 Ex스킬을 시전할 경우 초기화 되고, 이로운 효과가 제거되며 예소드의 오른손과 전투할 때는 단계에 의한 효과를 받지 못함.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "啓示",
+            "DescriptionJp": "ストライカー生徒、タクティカルサポートの搭乗物、召喚物の振動特効を [c][007eff]200%[-][/c]加算\nイェソドとの戦闘には「分析段階」が存在します。段階ごとにストライカー生徒、タクティカルサポートの搭乗物、召喚物に以下の効果が適用されます。\n攻撃力を[c][007eff]40%[-][/c]増加、会心率を[c][007eff]50%[-][/c]増加、EXスキルの与えるダメージ量を[c][007eff][c]50%[-][/c]加算、会心ダメージ率を[c][007eff]50%[-][/c]増加（最大5段階）\n効果発動は分析段階が5段階に達するか、イェソドのスキルを防いだ場合、到達段階の分適用\n分析段階はイェソドのEXスキルを防げなかったか、イェソドが次のEXスキルを使用する際に初期化され、バフ効果が解除され、イェソドの右手と戦闘する際は段階による効果が適用されません。",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Revelation",
+            "DescriptionEn": "Adds [c][007eff]200%[-][/c] Sonic Efficiency for allied Strikers, Tactical Support vehicles, and summons.\nThe battle with Yesod includes an \"Analysis Phase\". For each phase level, all allied Strikers, Tactical Support vehicles, and summons gain:\nIncrease Attack by [c][007eff]20%[-][/c], Crit Rate by [c][007eff]20%[-][/c], EX Skill Damage by [c][007eff]25%[-][/c], and Crit Damage by [c][007eff]25%[-][/c] (max 5 phases).\nThis effect is activated when the Analysis Phase reaches 5 or when Yesod's skill is successfully blocked, applying bonuses up to the achieved phase.\nThe Analysis Phase resets if Yesod's EX Skill is not blocked or he uses another EX Skill, removing buffs. The effect due to stages is also not applied when fighting Yesod's Right Hand.\n\n''Note that ingame text for both versions of this skill is the same in Japanese.''",
+            "SkillInvokeLocalizeEn": ""
+        },
+              {
+            "Key": 1762546744,
+            "NameKr": "계시",
+            "DescriptionKr": "아군 스트라이커, 택티컬 서포트의 탑승물, 소환물의 진동 특효 [c][007eff]200%[-][/c] 가산\n예소드와의 전투에서는 분석 단계가 존재하며, 1단계 당 공격력 [c][007eff]40%[-][/c] 증가, 치명타율 [c][007eff]20%[-][/c] 증가, 주는 Ex 스킬 대미지량 [c][007eff][c]50%[-][/c] 가산, 치명 대미지 [c][007eff]50%[-][/c] 증가 효과를 모든 아군 스트라이커, 택티컬 서포트의 탑승물, 소환물에게 부여 (최대 5단계)\n단, 해당 효과는 분석 단계가 5단계에 도달하거나, 예소드의 스킬을 막아낼 경우 도달 단계 만큼 적용\n분석 단계는 예소드의 Ex스킬을 막아내지 못하거나 예소드가 다음 Ex스킬을 시전할 경우 초기화 되고, 이로운 효과가 제거되며 예소드의 오른손과 전투할 때는 단계에 의한 효과를 받지 못함.",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "啓示",
+            "DescriptionJp": "ストライカー生徒、タクティカルサポートの搭乗物、召喚物の振動特効を [c][007eff]200%[-][/c]加算\nイェソドとの戦闘には「分析段階」が存在します。段階ごとにストライカー生徒、タクティカルサポートの搭乗物、召喚物に以下の効果が適用されます。\n攻撃力を[c][007eff]40%[-][/c]増加、会心率を[c][007eff]50%[-][/c]増加、EXスキルの与えるダメージ量を[c][007eff][c]50%[-][/c]加算、会心ダメージ率を[c][007eff]50%[-][/c]増加（最大5段階）\n効果発動は分析段階が5段階に達するか、イェソドのスキルを防いだ場合、到達段階の分適用\n分析段階はイェソドのEXスキルを防げなかったか、イェソドが次のEXスキルを使用する際に初期化され、バフ効果が解除され、イェソドの右手と戦闘する際は段階による効果が適用されません。",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Revelation",
+            "DescriptionEn": "Adds [c][007eff]200%[-][/c] Sonic Efficiency for allied Strikers, Tactical Support vehicles, and summons.\nThe battle with Yesod includes an \"Analysis Phase\". For each phase level, all allied Strikers, Tactical Support vehicles, and summons gain:\nIncrease Attack by [c][007eff]40%[-][/c], Crit Rate by [c][007eff]50%[-][/c], EX Skill Damage by [c][007eff]50%[-][/c], and Crit Damage by [c][007eff]50%[-][/c] (max 5 phases).\nThis effect is activated when the Analysis Phase reaches 5 or when Yesod's skill is successfully blocked, applying bonuses up to the achieved phase.\nThe Analysis Phase resets if Yesod's EX Skill is not blocked or he uses another EX Skill, removing buffs. The effect due to stages is also not applied when fighting Yesod's Right Hand.",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+
+        {
+            "Key": 2872121469,
+            "NameKr": "푸르게 빛나는 등불",
+            "DescriptionKr": "[c][007eff]청색[-][/c] 등불을 파괴할 경우 분석 단계가 [c][007eff]1단계[-][/c] 상승하며 주변의 모든 적에게 공격력 [c][007eff]30%[-][/c] 대미지\n파괴한 대상에게 Ex 스킬 코스트 최대 [c][007eff]50%[-][/c] 감소 (EX 스킬 사용 1회까지)(단, 감소치는 소수점 이하 절삭), 편성한 학생 중 퇴각하지 않은 학생 1명당 스킬 코스트 [c][007eff]0.6[-][/c] 획득 (단, 택티컬 서포트 탑승물에 의한 파괴 제외)\n등불 파괴로 형성된 지대에 따라 아래의 상황이 발생\n- [c][007eff]적색[-][/c] 지대가 형성된 경우 : [c][007eff]적색[-][/c] 지대 제거 \n- 지대가 형성되지 않은 경우 : 모든 적에게 공격력 [c][007eff]15%[-][/c] 지속 대미지를 입히는 [c][007eff]청색[-][/c] 지대 형성\n- [c][007eff]청색[-][/c] 지대가 형성된 경우 : 모든 적에게 공격력 [c][007eff]100%[-][/c] 추가 지속 대미지 (10초간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "青き灯火",
+            "DescriptionJp": "[c][007eff]青き[-][/c]灯火を破壊した場合、分析段階が[c][007eff]1段階[-][/c]上昇し、周辺のすべての敵に対して攻撃力の[c][007eff]30%[-][/c]分のダメージ。\n破壊した対象のEXスキルコストを最大[c][007eff]50%[-][/c]減少（EXスキルの使用1回分)（ただし減少値は小数点以下切り捨て）編成した生徒のうち、退却していない生徒1人毎にスキルコストを[c][007eff]0.6[-][/c]獲得（ただし、タクティカルサポートの搭乗物による破壊は例外)\n灯火の破壊によって生成されたエリアに、以下の状況が発生\n-[c][007eff]赤[-][/c]のエリアが生成された場合：[c][007eff]赤[-][/c]のエリアを解除\n-エリアが生成されていない場合：すべての敵に対して、攻撃力の[c][007eff]15%[-][/c]分の持続ダメージを与える[c][007eff]青[-][/c]のエリアを生成\n-[c][007eff]青[-][/c]のエリアが生成された場合：すべての敵に対して、攻撃力の[c][007eff]100%[-][/c]分の追加持続ダメージ（10秒間）",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Blue Lantern",
+            "DescriptionEn": "When a [c][007eff]blue[-][/c] lantern is destroyed, the Analysis Phase increases by [c][007eff]1[-][/c], and all nearby enemies take [c][007eff]30%[-][/c] Attack damage.\nDecrease EX Skill Cost by up to [c][007eff]50%[-][/c] (for 1 EX Skill use; discount is rounded down to the next whole number), and gain [c][007eff]0.6[-][/c] Cost per active student not retreated (excluding Tactical Support vehicles).\nDepending on the area formed upon destruction:\n- If a [c][007eff]red[-][/c] area exists: remove the [c][007eff]red[-][/c] area\n- If no area exists: create a [c][007eff]blue[-][/c] area that inflicts Continuous damage of [c][007eff]15%[-][/c] Attack to all enemies\n- If a [c][007eff]blue[-][/c] area exists: deal an additional [c][007eff]100%[-][/c] Attack continuous damage for 10 seconds to all enemies",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 4085667492,
+            "NameKr": "노을을 머금은 나뭇가지",
+            "DescriptionKr": "[c][007eff]적색[-][/c] 등불을 파괴할 경우 분석 단계가 [c][007eff]1단계[-][/c] 상승하며 주변의 모든 적에게 공격력 [c][007eff]30%[-][/c] 대미지\n파괴한 대상에게 Ex 스킬 코스트 최대 [c][007eff]50%[-][/c] 감소 (EX 스킬 사용 1회까지)(단, 감소치는 소수점 이하 절삭), 편성한 학생 중 퇴각하지 않은 학생 1명당 스킬 코스트 [c][007eff]0.6[-][/c] 획득 (단, 택티컬 서포트 탑승물에 의한 파괴 제외)\n등불 파괴로 형성된 지대에 따라 아래의 상황이 발생\n- [c][007eff]적색[-][/c] 지대가 형성된 경우 : 모든 적에게 공격력 [c][007eff]100%[-][/c] 추가 지속 대미지 (10초간)\n- 지대가 형성되지 않은 경우 : 모든 적에게 공격력 [c][007eff]15%[-][/c] 지속 대미지를 입히는 [c][007eff]적색[-][/c] 지대 형성\n- [c][007eff]청색[-][/c] 지대가 형성된 경우 : [c][007eff]청색[-][/c] 지대 제거",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "赤き灯火",
+            "DescriptionJp": "[c][007eff]赤き[-][/c]灯火を破壊した場合、分析段階が[c][007eff]1段階[-][/c]上昇し、周辺のすべての敵に対して攻撃力の[c][007eff]30%[-][/c]分のダメージ\n破壊した対象のEXスキルコストを最大[c][007eff]50%[-][/c]減少（EXスキルの使用1回分）（ただし減少値は小数点以下切り捨て）編成した生徒のうち、退却していない生徒1人毎にスキルコストを[c][007eff]0.6[-][/c]獲得（ただし、タクティカルサポートの搭乗物による破壊は例外）\n灯火の破壊によって生成されたエリアに、以下の状況が発生\n-[c][007eff]赤[-][/c]のエリアが生成された場合：すべての敵に対して、攻撃力の[c][007eff]100%[-][/c]分の追加持続ダメージ（10秒間）\n-エリアが生成されていない場合：すべての敵に対して、攻撃力の[c][007eff]15%[-][/c]分の持続ダメージを与える[c][007eff]赤[-][/c]のエリアを生成\n-[c][007eff]青[-][/c]のエリアが生成された場合：[c][007eff]青[-][/c]のエリアを解除",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Red Lantern",
+            "DescriptionEn": "When a [c][007eff]red[-][/c] lantern is destroyed, the Analysis Phase increases by [c][007eff]1[-][/c], and all nearby enemies take [c][007eff]30%[-][/c] Attack damage.\nDecreases EX Skill Cost by up to [c][007eff]50%[-][/c] (for 1 EX Skill use; discount is rounded down to the next whole number), and gain [c][007eff]0.6[-][/c] Cost per active student not retreated (excluding Tactical Support vehicles).\nDepending on the area formed upon destruction:\n- If a [c][007eff]red[-][/c] area exists: deal an additional [c][007eff]100%[-][/c] Attack continuous damage for 10 seconds to all enemies\n- If no area exists: create a [c][007eff]red[-][/c] area that inflicts Continuous damage of [c][007eff]15%[-][/c] Attack to all enemies\n- If a [c][007eff]blue[-][/c] area exists: remove the [c][007eff]blue[-][/c] area",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2016677634,
+            "NameKr": "힘의 기둥",
+            "DescriptionKr": "학생으로부터 좌측에 소환되는 기둥\n좌측 기둥은 불사 상태로 일반 공격및 기본 스킬의 타깃이 되지 않으며 적의 공격에 의해 피해를 입지 않음\n좌측 기둥은 [c][007eff]4초[-][/c]마다 자신의 체력을 일정량 회복하며 체력이 [c][007eff]99%[-][/c]이상 일 경우 모든 적에게 공격력 [c][007eff]100%[-][/c] 대미지, [c][007eff]10초[-][/c]간 코스트 회복력 [c][007eff]400[-][/c] 감소\n좌측 기둥은 군중제어 효과는 받지 않지만 시간은 누적되며 [c][007eff]3초[-][/c] 누적 시 자신에게 대미지\n- [c][007eff]3초[-][/c] 누적 시점에 기둥의 체력이 [c][007eff]50%[-][/c] 이상일 경우 [c][007eff]40초[-][/c]간 지원 드론의 주는 대미지량 [c][007eff]10%[-][/c] 가산 (최대 4중첩)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "力の柱",
+            "DescriptionJp": "フィールドの左側に召喚される柱\n力の柱は不死身状態で、通常攻撃およびノーマルスキルのターゲットにならず、敵の攻撃によってダメージを受けません。\n力の柱は[c][007eff]4秒[-][/c]毎に、自身のHPを一定量回復し、HPが[c][007eff]99%[-][/c]以上の場合、すべての敵に対して攻撃力の[c][007eff]100%[-][/c]分のダメージ、[c][007eff]10秒[-][/c]間コスト回復力を[c][007eff]400[-][/c]減少\n力の柱はCC状態の影響は受けませんが、CC状態の時間量は累積され[c][007eff]3秒[-][/c]累積時、自身にダメージ\n-[c][007eff]3秒[-][/c]分累積時、柱のHPが[c][007eff]50%[-][/c]以上の場合、[c][007eff]40秒[-][/c]間、支援ドローンの与えるダメージ量を[c][007eff]10%[-][/c]加算（最大4重複）",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Pillar of Strength",
+            "DescriptionEn": "A pillar summoned to the left side of the field.\nThe Pillar of Strength is immortal, cannot be targeted by normal attacks or Normal Skills, and will not take damage from enemy attacks.\nEvery [c][007eff]4 seconds[-][/c], it will recover a portion of its HP, and if its HP is [c][007eff]99%[-][/c] or higher, deal [c][007eff]100%[-][/c] Attack damage to all enemies and reduce Cost Recovery by [c][007eff]400[-][/c] for [c][007eff]10 seconds[-][/c].\nThe pillar is immune to crowd control but accumulates CC time. The pillar is not affected by crowd control effects, but the time accumulates and when [c][007eff]3 seconds[-][/c] accumulates, it deals damage to itself.\nWhen it accumulates [c][007eff]3 seconds [-][/c], if the pillar's HP is [c][007eff]50% [-][/c] or higher, the damage dealt by support drones will be increased by [c][007eff]10%[-][/c] for [c][007eff]40 seconds [-][/c] (maximum of 4 stacks)",
+            "SkillInvokeLocalizeEn": ""
+        },
+                {
+            "Key": 2720451846,
+            "NameKr": "힘의 기둥",
+            "DescriptionKr": "학생으로부터 좌측에 소환되는 기둥\n좌측 기둥은 불사 상태로  일반 공격 및 기본 스킬의 타깃이 되지 않으며 적의 공격에 의해 피해를 입지 않음\n좌측 기둥은 [c][007eff]4초[-][/c]마다 자신의 체력을 일정량 회복하며 체력이 [c][007eff]99%[-][/c]이상 일 경우 모든 적에게 공격력 [c][007eff]100%[-][/c] 대미지, [c][007eff]10초[-][/c]간 코스트 회복력 [c][007eff]400[-][/c] 감소\n좌측 기둥은 군중제어 효과는 받지 않지만 시간은 누적되며 [c][007eff]5초[-][/c] 누적 시 자신에게 대미지\n- [c][007eff]5초[-][/c] 누적 시점에서 기둥의 체력이 [c][007eff]50%[-][/c] 이상일 경우 [c][007eff]40초[-][/c]간 지원 드론의 주는 대미지량 [c][007eff]10%[-][/c] 가산 (최대 4중첩)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "力の柱",
+            "DescriptionJp": "フィールドの左側に召喚される柱\n力の柱は不死身状態で、通常攻撃およびノーマルスキルのターゲットにならず、敵の攻撃によってダメージを受けません。\n力の柱は[c][007eff]4秒[-][/c]毎に、自身のHPを一定量回復し、HPが[c][007eff]99%[-][/c]以上の場合、すべての敵に対して攻撃力の[c][007eff]100%[-][/c]分のダメージ、[c][007eff]10秒[-][/c]間コスト回復力を[c][007eff]400[-][/c]減少\n力の柱はCC状態の影響は受けませんが、CC状態の時間量は累積され[c][007eff]5秒[-][/c]累積時、自身にダメージ\n-[c][007eff]5秒[-][/c]分累積時、柱のHPが[c][007eff]50%[-][/c]以上の場合、[c][007eff]40秒[-][/c]間、支援ドローンの与えるダメージ量を[c][007eff]10%[-][/c]加算（最大4重複）",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Pillar of Strength",
+            "DescriptionEn": "A pillar summoned to the left side of the field.\nThe Pillar of Strength is immortal, cannot be targeted by normal attacks or Normal Skills, and will not take damage from enemy attacks.\nEvery [c][007eff]4 seconds[-][/c], it will recover a portion of its HP, and if its HP is [c][007eff]99%[-][/c] or higher, deal [c][007eff]100%[-][/c] Attack damage to all enemies and reduce Cost Recovery by [c][007eff]400[-][/c] for [c][007eff]10 seconds[-][/c].\nThe pillar is immune to crowd control but accumulates CC time. When it accumulates [c][007eff]5 seconds [-][/c], if the pillar's HP is [c][007eff]50% [-][/c] or higher, the damage dealt by support drones will be increased by [c][007eff]10%[-][/c] for [c][007eff]40 seconds [-][/c] (maximum of 4 stacks)",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+
+        {
+            "Key": 3977569703,
+            "NameKr": "기초의 기둥",
+            "DescriptionKr": "학생으로부터 우측에 소환되는 기둥\n우측 기둥을 파괴할 경우 예소드의 오른손의 받는 대미지량 [c][007eff]1000%[-][/c] 증가 (최대 2중첩)\n우측 기둥의 받는 Ex 스킬 대미지량 [c][007eff]900%[-][/c] 가산",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "礎の柱",
+            "DescriptionJp": "フィールドの右側に召喚される柱\n礎の柱を破壊した場合、イェソドの右手の被ダメージ量が[c][007eff]1000%[-][/c]増加（最大2重複）\n礎の柱のEXスキルの被ダメージ量を[c][007eff]900%[-][/c]加算",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Pillar of Foundation",
+            "DescriptionEn": "A pillar summoned to the right side of the field.\nDestroying the right pillar increases the damage taken by Yesod's right hand by [c][007eff]1000%[-][/c] (max 2 stacks).\nThe right pillar also takes [c][007eff]900%[-][/c] increased damage from EX Skills.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3448455875,
+            "NameKr": "기초의 기둥",
+            "DescriptionKr": "학생으로부터 우측에 소환되는 기둥\n우측 기둥을 파괴할 경우 예소드의 오른손의 받는 대미지량 [c][007eff]1000%[-][/c] 증가 (최대 2중첩)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "礎の柱",
+            "DescriptionJp": "フィールドの右側に召喚される柱\n礎の柱を破壊した場合、イェソドの右手の被ダメージ量が[c][007eff]1000%[-][/c]増加（最大2重複）",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Pillar of Foundation",
+            "DescriptionEn": "A pillar summoned to the right side of the field.\nDestroying the right pillar increases the damage taken by Yesod's right hand by [c][007eff]1000%[-][/c] (max 2 stacks).",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 1016827640,
+            "NameKr": "지원 드론: 공명",
+            "DescriptionKr": "예소드의 오른손과 전투 시 학생을 지원하는 지원 드론이 소환\n지원 드론은 모든 스킬의 타깃이 되지 않으며 지원 드론의 대미지는 치명 공격이 발생하지 않음\n지원 드론은 HP바 옆에 표시된 학생의 Ex 스킬, 기본 스킬로 받은 이로운 효과들을 실시간으로 전이 받음\n- 단, 지원 드론이 소환되기 이전에 받은 효과들은 전이되지 않음\n지원 드론의 공격력은 매우 높으며 상시 공격력 [c][007eff]100%[-][/c] 증가, [c][007eff]집중 공격[-][/c]이 걸린 대상에게 공격력 [c][007eff]100%[-][/c] 추가 대미지",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "支援ドローン：共鳴",
+            "DescriptionJp": "イェソドの右手と戦闘時、生徒を支援する支援ドローンを召喚\n支援ドローンはすべてのスキルのターゲットにならず、支援ドローンのダメージは会心が発動しません。\n支援ドローンのHPバーの横に表示される生徒のEXスキル、ノーマルスキルで受けたバフ効果は、リアルタイムで転移されます。-ただし、支援ドローンが召喚される前に受けた効果は転移されません。\n支援ドローンの攻撃力が[c][007eff]100%[-][/c]増加、[c][007eff]集中砲火状態[-][/c]になった対象には攻撃力の[c][007eff]100%[-][/c]分の追加ダメージ",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Support Drone: Resonance",
+            "DescriptionEn": "When fighting Yesod's Right Hand, a support drone is summoned to assist the student.\nSupport drones cannot be targeted by any skills, and their damage does not trigger critical hits.\nBuff effects received from students' EX skills and normal skills, which are displayed next to the support drone's HP bar, are transferred in real time. However, effects received before the support drone was summoned are not transferred.\nSupport drone attack power is increased by [c][007eff]100%[-][/c], and targets with [c][007eff]concentrated fire[-][/c] effect take additional damage equal to [c][007eff]100%[-][/c] Attack power.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2037934155,
+            "NameKr": "힘에 의한 정화(적)",
+            "DescriptionKr": "예소드가 [c][007eff]적색[-][/c] 빛을 내며 오른손을 들어 주먹으로 지면을 타격하여 모든 적에게 공격력 [c][007eff]3000%[-][/c] 대미지\n만약 타격 시점에 지면에 [c][007eff]청색[-][/c] 지대가 형성되어 있다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]30%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "浄化の手（赤）",
+            "DescriptionJp": "イェソドが[c][007eff]赤[-][/c]の光を放ち、右手を上げて床を叩きつけ、すべての敵に対して攻撃力の[c][007eff]3000%[-][/c]分のダメージ。\n床を叩きつける時、床全体に[c][007eff]青[-][/c]のエリアが生成されていた場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]30%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Purifying Hand (Red)",
+            "DescriptionEn": "Yesod emits [c][007eff]red[-][/c] light, raises his right hand, and strikes the ground with his fist, dealing [c][007eff]3000%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, a [c][007eff]blue[-][/c] area exists on the ground, this skill is nullified, and instead :\n- all enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]30%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill use.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 330257692,
+            "NameKr": "힘에 의한 정화(청)",
+            "DescriptionKr": "예소드가 [c][007eff]청색[-][/c] 빛을 내며 왼손을 들어 손바닥으로 지면을 타격하여 모든 적에게 공격력 [c][007eff]3000%[-][/c] 대미지\n만약 타격 시점에 지면에 [c][007eff]적색[-][/c] 지대가 형성되어 있다면 해당 스킬을 막아내며 모든 적 스트라이커에게\n- 기존 대미지 대신 공격력 [c][007eff]30%[-][/c] 지속 대미지 (20초간)\n- 예소드의 다음 Ex 스킬 사용 전까지 코스트 회복력 [c][007eff]100%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "浄化の手（青）",
+            "DescriptionJp": "イェソドが[c][007eff]青[-][/c]の光を放ち、左手を上げて床を叩きつけ、すべての敵に対して攻撃力の[c][007eff]3000%[-][/c]分のダメージ。\n床を叩きつける時、床全体に[c][007eff]赤[-][/c]のエリアが生成されていた場合、該当スキルを防ぎ、すべての敵ストライカー生徒、タクティカルサポートの搭乗物、召喚物に対して\n-既存ダメージの代わりに攻撃力の[c][007eff]30%[-][/c]分の持続ダメージ（20秒間）\n-イェソドの次のEXスキルの使用前まで、コスト回復力が[c][007eff]100%[-][/c]増加",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Purifying Hand (Blue)",
+            "DescriptionEn": "Yesod emits [c][007eff]blue[-][/c] light, raises his left hand, and slams his palm onto the ground, dealing [c][007eff]3000%[-][/c] Attack damage to all enemies.\nIf, at the moment of impact, a [c][007eff]red[-][/c] area exists on the ground, this skill is nullified, and instead:\n- All enemy Strikers, Tactical Support vehicles, and summons take continuous damage of [c][007eff]30%[-][/c] Attack (for 20 seconds) instead of the original damage\n- Yesod's Cost Recovery Rate increases by [c][007eff]100%[-][/c] until his next EX Skill use.",
+            "SkillInvokeLocalizeEn": ""
+        },
+
+        {
+            "Key": 566370604,
+            "NameKr": "예언을 부를 표식",
+            "DescriptionKr": "소환 되는 등불 중 무작위로 해당 표식이 있는 등불이 생성\n예언을 부를 표식이 있는 등불을 파괴할 경우 분석 단계가 [c][007eff]1단계[-][/c] 상승하고 이후부터 분석 단계가 상승하지 않음\n예소드가 Ex 스킬을 시전하거나 예소드의 Ex 스킬을 막아내지 못 했을 경우 해당 효과는 사라짐",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "預言を喚起せし徴",
+            "DescriptionJp": "召喚される灯火の中には、ランダムで預言を喚起せし徴が付与された灯火が生成されます。\n「預言を喚起せし徴」がある灯火を破壊した場合、分析段階が1段階上昇し、以降は分析段階が上昇しません。\nイェソドのEXスキルを防げなかったか、イェソドが次のEXスキルを使用する際に該当効果は消えます。",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Mark of Prophecy",
+            "DescriptionEn": "Among the summoned lanterns, one will randomly appear with this mark.\nDestroying a lantern with the [c][007eff]Mark of Prophecy[-][/c] increases the Analysis Phase by [c][007eff]1[-][/c] and prevents further Analysis Phase increases thereafter.\nIf Yesod casts an EX Skill or the player fails to block it, this effect disappears.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 1300016116,
+            "NameKr": "종말을 부를 표식",
+            "DescriptionKr": "소환 되는 등불 중 무작위로 해당 표식이 있는 등불이 생성\n종말을 부를 표식이 있는 등불을 파괴할 경우 분석 단계를 [c][007eff]1단계[-][/c]로 변화시킴",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "終焉を喚起せし徴",
+            "DescriptionJp": "召喚される灯火の中には、ランダムで終焉を喚起せし徴が付与された灯火が生成されます。\n「終焉を喚起せし徴」がある灯火を破壊した場合、分析段階を[c][007eff]1段階[-][/c]に変化させます。",
+            "SkillInvokeLocalizeJp": "False",
+            "NameEn": "Mark of Apocalypse",
+            "DescriptionEn": "Among the summoned lanterns, one will randomly appear with this mark.\nDestroying a lantern with the [c][007eff]Mark of Apocalypse[-][/c] changes the Analysis Phase to [c][007eff]1[-][/c].",
+            "SkillInvokeLocalizeEn": ""
         }
 
  

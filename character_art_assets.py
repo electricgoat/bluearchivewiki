@@ -61,12 +61,12 @@ def generate():
             print(f"WARNING: Character {character.wiki_name} portrait not found at {local_path}")
 
         #character portrait small
-        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png", "[[Category:Student portraits]]")
+        local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset', f"{character.costume['TextureDir']}_Small.png")
         if (os.path.exists(local_path)):
             image_internal = local_path.rsplit('/',1)[-1]
             image_target = f"Portrait_{character.wiki_name.replace(' ', '_')}_Small.png"
             copy_wikinamed(local_path, image_target)
-            enforce_naming(local_path, image_internal, image_target, 'character small portrait')
+            enforce_naming(local_path, image_internal, image_target, 'character small portrait', "[[Category:Student portraits]]")
         else:
             print(f"WARNING: Character {character.wiki_name} small portrait not found at {local_path}")
 

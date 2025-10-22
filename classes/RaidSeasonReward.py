@@ -14,7 +14,7 @@ class RaidSeasonReward(object):
     def items(self):
         items_list = []
         for i in range(len(self.parcel_type)):
-            items_list.append({'parcel_type':self.parcel_type[i], 'parcel_id':self.parcel_id[i], 'parcel_name':self.parcel_name[i], 'amount':self.amount[i]}) 
+            items_list.append({'parcel_type':self.parcel_type[i], 'parcel_id':self.parcel_id[i], 'amount':self.amount[i]}) 
         return items_list
     
     @property
@@ -39,7 +39,7 @@ class RaidSeasonReward(object):
             item['SeasonRewardId'],
             item['SeasonRewardParcelType'],
             item['SeasonRewardParcelUniqueId'],
-            item['SeasonRewardParcelUniqueName'],
+            "",
             item['SeasonRewardAmount'],
             wiki_card,
         )

@@ -31,7 +31,7 @@ UNIQUE_LOBBY_IMAGE_BANNER_ID = {
 		]
 }
 
-EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', ] #'SelectPickupGacha'
+EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha']
 
 
 args = {}
