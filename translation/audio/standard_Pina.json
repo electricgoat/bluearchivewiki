@@ -7,7 +7,7 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_In_1",
             "LocalizeJP": "ハイ！待ってマシた！",
-            "LocalizeEN": "Yes, I've been waiting"
+            "LocalizeEN": "Yup! Thank you for waiting!"
         },
         {
             "CharacterId": 16004,
@@ -16,7 +16,7 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_In_2",
             "LocalizeJP": "ふふっ、分かりました。行きマス！",
-            "LocalizeEN": "I understand to go."
+            "LocalizeEN": "Heehee. Got it! I'm on my way!"
         },
         {
             "CharacterId": 16004,
@@ -25,7 +25,7 @@
             "DialogCategory": "Formation",
             "VoiceClip": "Pina_Formation_Select",
             "LocalizeJP": "ふふっ、ワタシが必要デスよね？そうデスよね？",
-            "LocalizeEN": "you need me right"
+            "LocalizeEN": "Heehee. You need me, right? Right?"
         },
         {
             "CharacterId": 16004,
@@ -34,7 +34,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Defeat_1",
             "LocalizeJP": "やはりこういう時は、切腹しなきゃダメデスよネ…。",
-            "LocalizeEN": "After all, you have to commit seppuku at times like this."
+            "LocalizeEN": "At... at times like this, you have to commit seppuku, don't you?"
         },
         {
             "CharacterId": 16004,
@@ -43,7 +43,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Defeat_2",
             "LocalizeJP": "ワタシ、土下座だけはめっちゃ上手デス！",
-            "LocalizeEN": "I'm really good at kneeling alone."
+            "LocalizeEN": "I'm really good at performing *dogeza! *(prostration/gesture for extreme apology/deep respect)"
         },
         {
             "CharacterId": 16004,
@@ -52,7 +52,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_In_1",
             "LocalizeJP": "センセイ！どんどん指示してクダサイ！",
-            "LocalizeEN": "Teacher, please give me more instructions."
+            "LocalizeEN": "Sensei! Give us your orders!"
         },
         {
             "CharacterId": 16004,
@@ -61,7 +61,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_In_2",
             "LocalizeJP": "イザ、尋常に、勝負！",
-            "LocalizeEN": "Come on, let's fight like crazy."
+            "LocalizeEN": "Now, fair and square, a showdown!"
         },
         {
             "CharacterId": 16004,
@@ -70,7 +70,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Victory_1",
             "LocalizeJP": "最高の判断デシタ！",
-            "LocalizeEN": "It was the best decision."
+            "LocalizeEN": "That was the best call."
         },
         {
             "CharacterId": 16004,
@@ -79,7 +79,7 @@
             "DialogCategory": "Tactic",
             "VoiceClip": "Pina_Tactic_Victory_2",
             "LocalizeJP": "さすがセンセイ、デス！",
-            "LocalizeEN": "As expected of the teacher."
+            "LocalizeEN": "As expected of Sensei!"
         },
         {
             "CharacterId": 16004,
@@ -88,7 +88,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Buffed_1",
             "LocalizeJP": "Niceな支援デス！",
-            "LocalizeEN": "That's nice support."
+            "LocalizeEN": "It's a nice assist!"
         },
         {
             "CharacterId": 16004,
@@ -97,7 +97,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_BuffSelf_1",
             "LocalizeJP": "ワタシ、燃えてマス。",
-            "LocalizeEN": "I'm burning"
+            "LocalizeEN": "I'm on fire!"
         },
         {
             "CharacterId": 16004,
@@ -106,7 +106,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Damage_1",
             "LocalizeJP": "無念…。",
-            "LocalizeEN": "Regret..."
+            "LocalizeEN": "This is regrettable..."
         },
         {
             "CharacterId": 16004,
@@ -115,7 +115,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Damage_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "It hurts!"
         },
         {
             "CharacterId": 16004,
@@ -133,7 +133,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Defense_1",
             "LocalizeJP": "くすぐったい攻撃デスね！",
-            "LocalizeEN": "It's a tickling attack."
+            "LocalizeEN": "What a ticklish attack!"
         },
         {
             "CharacterId": 16004,
@@ -142,7 +142,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_In_1",
             "LocalizeJP": "行きマスか？一緒に！",
-            "LocalizeEN": "Shall we go together?"
+            "LocalizeEN": "Shall we go? Together!"
         },
         {
             "CharacterId": 16004,
@@ -151,7 +151,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_In_2",
             "LocalizeJP": "始まりマシタね。行きマショウ！",
-            "LocalizeEN": "It was beginning. let's go."
+            "LocalizeEN": "It has begun. Let's go!"
         },
         {
             "CharacterId": 16004,
@@ -160,7 +160,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Move_1",
             "LocalizeJP": "次の相手はどこデスか？",
-            "LocalizeEN": "where is the next opponent"
+            "LocalizeEN": "Where's our next enemy?"
         },
         {
             "CharacterId": 16004,
@@ -169,7 +169,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Move_2",
             "LocalizeJP": "止まらず前進、デス！",
-            "LocalizeEN": "The whole body without stopping."
+            "LocalizeEN": "Don't stop. Keep moving forward!"
         },
         {
             "CharacterId": 16004,
@@ -178,7 +178,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Recovery_1",
             "LocalizeJP": "この恩は！全身全霊でお返ししマス！",
-            "LocalizeEN": "I will repay this kindness with all my heart and soul."
+            "LocalizeEN": "This kindness! I'll do my best to repay you!"
         },
         {
             "CharacterId": 16004,
@@ -187,7 +187,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Retire",
             "LocalizeJP": "クッ…。紙一重の差デシタか。",
-            "LocalizeEN": "Was it a piece of paper?"
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 16004,
@@ -196,7 +196,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Shout_1",
             "LocalizeJP": "スキアリ！",
-            "LocalizeEN": "Just a chance!"
+            "LocalizeEN": "An opening!"
         },
         {
             "CharacterId": 16004,
@@ -214,7 +214,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Shout_3",
             "LocalizeJP": "発射！",
-            "LocalizeEN": "Fire."
+            "LocalizeEN": "Firing!"
         },
         {
             "CharacterId": 16004,
@@ -223,7 +223,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_TacticalAction_1",
             "LocalizeJP": "移動しマス！",
-            "LocalizeEN": "Move."
+            "LocalizeEN": "Moving!"
         },
         {
             "CharacterId": 16004,
@@ -232,7 +232,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Victory_1",
             "LocalizeJP": "yoo-hoo！\nたとえ天が許しても！\nフィーナが許しマセン！",
-            "LocalizeEN": "Yahoo Even if you forgive me, Nina won't."
+            "LocalizeEN": "Yahoo! Even if Heaven forgives you, Pina won't!"
         },
         {
             "CharacterId": 16004,
@@ -241,7 +241,7 @@
             "DialogCategory": "Battle",
             "VoiceClip": "Pina_Battle_Victory_2",
             "LocalizeJP": "Wao！勝ちました！\n本当に、最高の戦闘デシタ！",
-            "LocalizeEN": "Won. It was a really great fight."
+            "LocalizeEN": "Yay! I won! Best battle ever!"
         },
         {
             "CharacterId": 16004,
@@ -250,7 +250,7 @@
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Pina_CommonSkill",
             "LocalizeJP": "ふっっ！精神統一しマス！",
-            "LocalizeEN": "unify the mind."
+            "LocalizeEN": "Ooh! Focus!"
         },
         {
             "CharacterId": 16004,
@@ -259,7 +259,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_1",
             "LocalizeJP": "ワタシ、本気で行きマス！",
-            "LocalizeEN": "I'm going for real."
+            "LocalizeEN": "I'm being serious now!"
         },
         {
             "CharacterId": 16004,
@@ -268,7 +268,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_2",
             "LocalizeJP": "覚悟した方がいいデスよ！",
-            "LocalizeEN": "Better be prepared."
+            "LocalizeEN": "Brace yourselves!"
         },
         {
             "CharacterId": 16004,
@@ -286,7 +286,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_1",
             "LocalizeJP": "警告はしマシタよ！",
-            "LocalizeEN": "I warned you."
+            "LocalizeEN": "I warned you!"
         },
         {
             "CharacterId": 16004,
@@ -295,7 +295,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_2",
             "LocalizeJP": "炎のように乱射！",
-            "LocalizeEN": "Shoot like flames!"
+            "LocalizeEN": "Let's light 'em up!"
         },
         {
             "CharacterId": 16004,
@@ -304,7 +304,7 @@
             "DialogCategory": "ExSkill",
             "VoiceClip": "Pina_ExSkill_Level_3",
             "LocalizeJP": "撃ちまくりマス！",
-            "LocalizeEN": "I shoot."
+            "LocalizeEN": "Shoot like there's no tomorrow!"
         },
         {
             "CharacterId": 16004,
@@ -313,7 +313,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_1",
             "LocalizeJP": "センセイ！今日も熱く燃え上がりマスよ！",
-            "LocalizeEN": "Teacher, it's burning hot again today."
+            "LocalizeEN": "Sensei, it's burning hot today, too! "
         },
         {
             "CharacterId": 16004,
@@ -322,7 +322,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_2",
             "LocalizeJP": "胸の内側から熱く燃え上がる何か…。\nこれは、勇気デスか？\nそうじゃナイなら……。",
-            "LocalizeEN": "Something burning hot from the inside of my chest Is this courage?"
+            "LocalizeEN": "There's a burning hot feeling from deep in my chest... is this courage? But if it isn't, then..."
         },
         {
             "CharacterId": 16004,
@@ -331,7 +331,7 @@
             "DialogCategory": "Growup",
             "VoiceClip": "Pina_Growup_3",
             "LocalizeJP": "センセイ、いや、師匠と呼んでもいいデスか？！",
-            "LocalizeEN": "Sensei No, can I call you Master?"
+            "LocalizeEN": "Sensei... no, can I call you Master?! "
         },
         {
             "CharacterId": 16004,
@@ -349,7 +349,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_1",
             "LocalizeJP": "百鬼夜行の文化は面白いデス。\n美しくて、神秘的で、ドキドキしマス。",
-            "LocalizeEN": "The Hyakki Yakou culture is interesting, beautiful, mysterious and thrilling."
+            "LocalizeEN": "The culture of Hyakkiyako fascinates me. It is beautiful, mysterious and thrilling."
         },
         {
             "CharacterId": 16004,
@@ -358,7 +358,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_2",
             "LocalizeJP": "センセイ！\n今後もご指導ご鞭撻のほど、よろしくお願いしマス！",
-            "LocalizeEN": "Professor, I look forward to your continued guidance and encouragement."
+            "LocalizeEN": "Sensei, I look forward to your continued guidance and encouragement."
         },
         {
             "CharacterId": 16004,
@@ -376,7 +376,7 @@
             "DialogCategory": "Relationship",
             "VoiceClip": "Pina_Relationship_Up_4",
             "LocalizeJP": "ここに来れて嬉しいデス。\n百鬼夜行の文化と、友達と\nそして……センセイに会えマシタから。",
-            "LocalizeEN": "I am happy to be here. Because I was able to meet the Hyakki Yakou culture, my friends, and my teacher."
+            "LocalizeEN": "I'm happy to be here. I got to experience the culture of Hyakkiyakou, to be with my friends, and... I got to meet Sensei."
         }
     ]
 }

@@ -46,7 +46,7 @@ CLUBS = {
             'OccultClub': 'Occult Research Society',
             'PrefectBrigade': 'Prefect Brigade',
             'FreeTradeCartel': 'Free Trade Cartel',
-            'NicomediasTroop': 'Nicomedia Troop',
+            'NicomediasTroop': 'Nicomedia\'s Troop',
             'EmptyClub': 'no club'
 }
 

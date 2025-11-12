@@ -3,6 +3,15 @@
         {
             "CharacterId": 23000,
             "CharacterVoiceGroupId": 23000,
+            "LocalizeCVGroup": null,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Airi_EventMission_Login_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 23000,
+            "CharacterVoiceGroupId": 23000,
             "LocalizeCVGroup": "CVGroup_Formation_In_1",
             "DialogCategory": "Formation",
             "VoiceClip": "Airi_Formation_In_1",
@@ -17,6 +26,15 @@
             "VoiceClip": "Airi_Formation_In_2",
             "LocalizeJP": "今日も頑張ります。",
             "LocalizeEN": "I'll do my best today too."
+        },
+        {
+            "CharacterId": 23000,
+            "CharacterVoiceGroupId": 23000,
+            "LocalizeCVGroup": "CVGroup_Formation_Select",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Airi_Formation_Select",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
         },
         {
             "CharacterId": 23000,

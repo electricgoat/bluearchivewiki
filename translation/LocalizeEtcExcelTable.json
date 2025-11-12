@@ -14034,6 +14034,79 @@
             "DescriptionJp": "テルミットホワイトは「まほリバ」シリーズの主人公です！元々は少しおっちょこちょいで平凡な女の子でしたが、ある日エラの襲撃で危機に瀕したとき！魔法の国からやってきたマスコット、スタナグちゃんに出会うんです！怖くて身体が震えても、正義感にあふれたホワイトはマジカルナショナルガードとしての契約を結んで、魔法少女になりました！そして、ホワイトに助けられたピンクも魔法少女になって、二人は世界を救う正義の魔法少女、「ヘヴィキャリバーズ」になるんです！2期2話ではホワイトが「ドラゴンスキン」と遭遇したときの話があるのですが――",
             "NameEn": "Messenger of Peace! Leave It to White!",
             "DescriptionEn": "Thermite White is the main character of the MohoRiba series! She was once a clumsy, ordinary girl until one fateful day when Era attacked and she met Stanag-chan, a mascot from the magical kingdom! Although she was scared and trembling, White, filled with a sense of justice, signed a contract with the Magical National Guard and became a magical girl! Pink, who was saved by White, also became a magical girl, and the two became \"Heavy Calibers\", magical girls of justice who save the world! In Season 2 Episode 2, there is a story about White's encounter with Dragon Skin―"
+        },
+
+        {
+            "Key": 1537962880,
+            "NameKr": "예소드",
+            "DescriptionKr": "(X)",
+            "NameJp": "イェソド",
+            "DescriptionJp": "(X)",
+            "NameEn": "Yesod",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 2094934198,
+            "NameKr": "예소드의 오른손 (첫번째)",
+            "DescriptionKr": "(X)",
+            "NameJp": "イェソドの右手（1回目）",
+            "DescriptionJp": "(X)",
+            "NameEn": "Yesod's Right Hand (1st Phase)",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 425531375,
+            "NameKr": "예소드의 오른손 (두번째)",
+            "DescriptionKr": "(X)",
+            "NameJp": "イェソドの右手（2回目）",
+            "DescriptionJp": "(X)",
+            "NameEn": "Yesod's Right Hand (2nd Phase)",
+            "DescriptionEn": ""
+        },
+
+        {
+            "Key": 2963837983,
+            "NameKr": "허수아비 추가 회복, 허수아비 최대 HP 증가",
+            "DescriptionKr": "신비 타입 학생이 허수아비를 회복시킬 경우 허수아비는 추가로 체력을 회복합니다.\n허수아비의 최대체력이 증가합니다.",
+            "NameJp": "かかし追加回復、かかしの最大HP増加",
+            "DescriptionJp": "神秘タイプの生徒がかかしを回復させた場合、かかしは追加でHPを回復します。\nかかしの最大HPが増加します。",
+            "NameEn": "Scarecrow Additional Recovery, Scarecrow Max HP Increase",
+            "DescriptionEn": "When a Mystic-type student heals the scarecrow, it additionally restores HP.\nThe scarecrow maximum HP is increased."
+        },
+        {
+            "Key": 866787253,
+            "NameKr": "적 체력 감소 시, 다른 적 회복",
+            "DescriptionKr": "적의 체력이 75%, 50%, 25% 이하가 될 시, 해당 적을 제외한 모든 적이 체력을 회복합니다.\n적 처치 시 모든 아군이 체력을 회복하고 코스트 회복력이 증가합니다.",
+            "NameJp": "敵のHPが減少した時、他の敵のHP回復",
+            "DescriptionJp": "敵のHPが75%、50%、25%以下になった時、その敵を除くすべての敵がHPを回復します。\n敵を倒した時、すべての味方がHPを回復し、コスト回復力が増加します。",
+            "NameEn": "Enemy HP Decrease: Other Enemies Recover HP",
+            "DescriptionEn": "When an enemy HP falls below 75%, 50%, or 25%, all other enemies recover HP.\nWhen an enemy is defeated, all allies recover HP and their Cost Recovery increases."
+        },
+        {
+            "Key": 1300743634,
+            "NameKr": "적 처치 시 방어력 감소, 받는 대미지 증가",
+            "DescriptionKr": "적의 방어력이 크게 증가합니다.\n적 처치 시 적의 방어력이 감소하고 받는 대미지량이 증가합니다.",
+            "NameJp": "敵を倒した時、防御力減少、被ダメージ量増加",
+            "DescriptionJp": "敵の防御力が大幅に増加します。\n敵を倒した時、敵の防御力が減少し、被ダメージ量が増加します。",
+            "NameEn": "When Defeating an Enemy, Defense Decrease and Damage Taken Increase",
+            "DescriptionEn": "Enemy Defense is greatly increased.\nWhen an enemy is defeated, for other enemies Defense decreases and they take more damage."
+        },
+        {
+            "Key": 1851317887,
+            "NameJp": "スバルの神名文字",
+            "NameEn": "Subaru's Eleph",
+            "DescriptionJp": "スバルの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Subaru."
+        },
+
+        {
+            "Key": 2237694286,
+            "NameKr": "사라지지 않는 것들을 위한 에클레시아",
+            "DescriptionKr": "흘러간 시간들의 앙상블 편 3장 10화 클리어",
+            "NameJp": "遺された未来のためのエクレシア",
+            "DescriptionJp": "過ぎ去りし刻のオラトリオ編3章10話クリア",
+            "NameEn": "Ekklesia for the Future That Remains",
+            "DescriptionEn": "Clear Chapter 3, Episode 10 of Oratorio of the Bygone Era"
         }
 
     ]

@@ -6634,6 +6634,32 @@
             "GroupId": "CH0166ExtraPassive01",
             "NameEn": "We're having yakiniku tonight!",
             "DescriptionEn": "When using an EX Skill, increase Critical Damage for yourself and the summoned Helmet Gang members based on the number of Helmet Gang currently summoned. (Duration: $1).\n\n1 or none: Increase Critical Damage by $2\n2: Increase Critical Damage by $3\n3: Increase Critical Damage by $4"
+        },
+
+        {
+            "GroupId": "CH0309Ex01",
+            "NameEn": "Overtime pay",
+            "DescriptionEn": "Reload immediately after activating the skill, then switch to full-auto fire, greatly shortening the delay between normal attacks; normal attacks change to attacks that deal $1 damage four times; increase Attack by $2 for $3.\nIf holding $4 Cartridge Clips, consume all of Cartridge Clips to further enhance this full-auto fire and change normal attacks to be guaranteed critical hits."
+        },
+        {
+            "GroupId": "CH0309Public01",
+            "NameEn": "Cartridge recovery",
+            "DescriptionEn": "At the end of unenhanced full-auto fire, gain $1 Cartridge Clip.\nWhen $2 Cartridge Clips are consumed, immediately increase Critical Damage by $3 for $4."
+        },
+        {
+            "GroupId": "CH0309Passive01",
+            "NameEn": "Everyone's senior",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0309WeaponPassive01",
+            "NameEn": "Everyone's senior +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0309ExtraPassive01",
+            "NameEn": "Harmonica",
+            "DescriptionEn": "Full-auto fire increases Attack by $1, ignores the normal attack delay for $2 shots, and replenishes ammo used by normal attacks."
         }
         
         

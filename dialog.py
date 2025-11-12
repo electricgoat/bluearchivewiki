@@ -16,9 +16,9 @@ from shared.functions import hashkey
 import wiki
 
 
-args = None
-data = None
-scenario_data = None
+args = {}
+#data = {}
+#scenario_data = {}
 
 
 force_variant_link = {
@@ -350,7 +350,7 @@ def generate_scandir():
             wiki.update_section(wikipath, args['wiki_section'], wikitext)
         elif not wiki.page_exists(wikipath, wikitext):
             print(f'Publishing {wikipath}')
-            wiki.publish(wikipath, wikitext, f'Generated NPC audio page')
+            #wiki.publish(wikipath, wikitext, f'Generated NPC audio page')
 
 
 
@@ -458,7 +458,8 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
 
         if voice_id and voice_id in character_dialog_event_by_voiceid:
             #print(f"Skipping voice id {voice_id} as standard line candidate - present in character_dialog_event")
-            continue
+            #continue
+            pass
 
 
         # Get localization data from character_voice_subtitle
