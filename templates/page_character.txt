@@ -2,8 +2,12 @@
 | Id = {{character.id}}
 | DevName = {{character.dev_name}}
 | Wikiname = {{character.wiki_name}}
-| PersonalNameEn = {{character.personal_name_reading_en}}
-| FamilyNameEn = {{character.family_name_reading_en}}
+| PersonalNameEn = {{character.personal_name_en}}
+{% if character.personal_name_en != character.personal_name_reading_en %}| PersonalNameReadingEn = {{character.personal_name_reading_en}}
+{% endif -%}
+| FamilyNameEn = {{character.family_name_en}}
+{% if character.family_name_en != character.family_name_reading_en %}| FamilyNameReadingEn = {{character.family_name_reading_en}}
+{% endif -%}
 | PersonalNameJp = {{character.profile.personal_name_jp}}
 | PersonalNameRubyJp = {{character.profile.personal_name_ruby_jp}}
 | FamilyNameJp = {{character.profile.family_name_jp}}
