@@ -6660,6 +6660,58 @@
             "GroupId": "CH0309ExtraPassive01",
             "NameEn": "Harmonica",
             "DescriptionEn": "Full-auto fire increases Attack by $1, ignores the normal attack delay for $2 shots, and replenishes ammo used by normal attacks."
+        },
+
+        {
+            "GroupId": "CH0229Ex01",
+            "NameEn": "Critic's remark",
+            "DescriptionEn": "Heal one other ally for $1 of Healing.\nHeal self for $2 of Healing.\nAcquire \"Favorable Review\" for $3."
+        },
+        {
+            "GroupId": "CH0229Public01",
+            "NameEn": "Girl's demeanor",
+            "DescriptionEn": "Heal other allies whose HP is $1 or less for $2 of Healing. (Cooldown: $3)\n(Healing amount is multiplied by x1-3 depending on target's current HP; the lower the target HP, the greater the healing amount)"
+        },
+        {
+            "GroupId": "CH0229Passive01",
+            "NameEn": "A million roses",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0229WeaponPassive01",
+            "NameEn": "A million roses +",
+            "DescriptionEn": "Increase HP by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0229ExtraPassive01",
+            "NameEn": "Gun on stage",
+            "DescriptionEn": "While \"Favorable Review\" is active, attacks deal $1 additional damage.\nAttacks have 30% chance to reduce Critical Hit Resistance by $2 for $3. (Cooldown: $4)"
+        },
+
+        {
+            "GroupId": "CH0228Ex01",
+            "NameEn": "Publishing, reprinting, distribution",
+            "DescriptionEn": "Move up to 4 enemies within circular area to the specified position, reduce their Movement Speed by $1 for $2, and obtain 1 \"Sale\" for each affected enemy (up to 4).\nAdditionally, $3 chance to inflict Stun status for $4."
+        },
+        {
+            "GroupId": "CH0228Public01",
+            "NameEn": "Sales increase",
+            "DescriptionEn": "Upon obtaining 4 \"Sales\", consume all of them to increase the Critical Damage of one ally with the highest Critical Damage by $1 for $2."
+        },
+        {
+            "GroupId": "CH0228Passive01",
+            "NameEn": "Management philosophy",
+            "DescriptionEn": "Increase CC Strength by $1."
+        },
+        {
+            "GroupId": "CH0228WeaponPassive01",
+            "NameEn": "Management philosophy +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase CC Strength by $2."
+        },
+        {
+            "GroupId": "CH0228ExtraPassive01",
+            "NameEn": "Contract renewal",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
         
         

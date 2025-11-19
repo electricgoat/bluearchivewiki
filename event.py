@@ -638,10 +638,10 @@ def generate():
         #template = env.get_template('events/template_event_dates.txt')
         wikitext_event_dates += template.render(title='Global Version', server='GL', season=season_gl)
 
-
+    
 
     template = env.get_template('events/template_event_bonus_characters.txt')
-    wikitext_bonus_characters = '==Details==\n' + template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
+    wikitext_bonus_characters = "==Details==\n{{EventStorySection}}\n" + template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
 
     template = env.get_template('events/template_event_missions.txt')
     wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=dict(sorted(total_rewards.items())).values())
