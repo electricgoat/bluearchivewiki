@@ -3,7 +3,8 @@ A set of 4 cards will be presented to the players. {{pricing_structure}}
 There are 4 rarities that can appear in the event card: SSR / Ultra Rare (Rainbow Border), Super Rare (Golden Border), Rare (Blue Border), and Normal (Gray Border). 
 *Each set of 4 cards has a minimum of one SR or better card.
 *All 4 cards are random and a set might not contain an UR card.
-*Regardless of rarity, each card will always contain {{shop_currency}} which is required to exchange items from the 3rd Shop.
+{% if shop_guaranteed_currency %}*Regardless of rarity, each card will always contain {{shop_guaranteed_currency}} which is required to exchange items from the 3rd Shop.
+{% endif -%}
 *Similar rarities will contain mostly the same rewards but at different quantities.
 
 <tabber>

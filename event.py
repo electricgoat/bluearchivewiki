@@ -610,8 +610,8 @@ def generate():
         else:
             pricing_structure = f"Revealing each card will cost {wiki_price}; player can reset the hand at any point instead of revealing the next card."
 
-
-        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_currency= shops['EventContent_2']['wiki_currency'], pricing_structure=pricing_structure )
+        shop_guaranteed_currency = shops.get('EventContent_2')
+        wikitext_cardshop += template.render(card_set=card_set, cardshop_data=cardshop_data, card_tiers=card_tiers, wiki_price=wiki_price, shop_guaranteed_currency= shop_guaranteed_currency and shop_guaranteed_currency['wiki_currency'] or None, pricing_structure=pricing_structure )
 
 
     template = env.get_template('events/template_event_header.txt')
