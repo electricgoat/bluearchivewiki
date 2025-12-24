@@ -1282,6 +1282,11 @@
             "DescriptionEn": "Every $1, increase Critical Rate by $2. (Cooldown: $3)<br>Increase energy charge level by 1. (Max 2 charges)"
         },
         {
+            "GroupId": "ArisGearPublic01",
+            "NameEn": "The Light! +",
+            "DescriptionEn": "At the start of battle, increase energy charge level by 1.\nAfter that, every $1, increase Critical Rate by $2, increase Critical Damage by $3 for $4, and increase energy charge level by 1. (Max 2 charges)"
+        },
+        {
             "GroupId": "ArisPassive01",
             "NameEn": "This is enhancement magic!",
             "DescriptionEn": "Increase Attack by $1."
@@ -1425,6 +1430,11 @@
             "GroupId": "YuzuPublic01",
             "NameEn": "Continuous combo!",
             "DescriptionEn": "Every $1, deal $2 damage to enemies a circular area centered on the highest attack power opponent."
+        },
+        {
+            "GroupId": "YuzuGearPublic01",
+            "NameEn": "Continuous combo! +",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies a circular area centered on the highest attack power opponent.\nWhen hitting an enemy, increase Critical Rate by $3 for $4."
         },
         {
             "GroupId": "YuzuPassive01",
@@ -2592,6 +2602,11 @@
             "GroupId": "CH0113Public01",
             "NameEn": "Behold, hell's ninja sword!",
             "DescriptionEn": "Every $1, increases Attack by $2 for $3."
+        },
+        {
+            "GroupId": "CH0113GearPublic01",
+            "NameEn": "Behold, hell's ninja sword! +",
+            "DescriptionEn": "Every $1, increases Attack by $2 for $3.\nAdditionally increase Attack by $4 for each Ninjutsu Research Club student in the same team (excluding self, up to a maximum of 3 students)"
         },
         {
             "GroupId": "CH0113Passive01",
@@ -6691,7 +6706,7 @@
         {
             "GroupId": "CH0228Ex01",
             "NameEn": "Publishing, reprinting, distribution",
-            "DescriptionEn": "Move up to 4 enemies within circular area to the specified position, reduce their Movement Speed by $1 for $2, and obtain 1 \"Sale\" for each affected enemy (up to 4).\nAdditionally, $3 chance to inflict Stun status for $4."
+            "DescriptionEn": "Move up to 5 enemies within circular area to the specified position, reduce their Movement Speed by $1 for $2, and obtain 1 \"Sale\" for each affected enemy (up to 4).\nAdditionally, $3 chance to inflict Stun status for $4."
         },
         {
             "GroupId": "CH0228Public01",
@@ -6712,6 +6727,58 @@
             "GroupId": "CH0228ExtraPassive01",
             "NameEn": "Contract renewal",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0297Ex01",
+            "NameEn": "A ninja never retreats!",
+            "DescriptionEn": "Move to the specified location, then deploy a shield that acts as a cover for $1.\nThe shield additionaly inherits $2 of Tsukuyo (Dress) Maximum HP.\nThe shield's Armor type is the same as Tsukuyo (Dress).\nIncrease Attack Speed by $3 for $4."
+        },
+        {
+            "GroupId": "CH0297Public01",
+            "NameEn": "I want to eat ramen...",
+            "DescriptionEn": "When HP is below $1, activate a shield effect of $2 Healing for $3.\n(Can only be used $4 time per battle)"
+        },
+        {
+            "GroupId": "CH0297Passive01",
+            "NameEn": "These are the results of model training...!",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0297WeaponPassive01",
+            "NameEn": "These are the results of model training...! +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0297ExtraPassive01",
+            "NameEn": "Relax, and focus...!",
+            "DescriptionEn": "While you have a shield, acquire Ninja Walking. Ninja Walking continuously recovers HP by $1 of Healing."
+        },
+
+        {
+            "GroupId": "CH0296Ex01",
+            "NameEn": "Girls' Ninja Scroll, Michiunyaaa!",
+            "DescriptionEn": "Heal one ally for $1 of Healing."
+        },
+        {
+            "GroupId": "CH0296Public01",
+            "NameEn": "Let me teach you the secrets!",
+            "DescriptionEn": "At the start of battle, increase Attack of all other allies by $1 for $2, reduce Skill Cost by $3 for $4 use of EX skill.\n(Can only be used $5 time per battle)"
+        },
+        {
+            "GroupId": "CH0296Passive01",
+            "NameEn": "This is also a ninja outfit!",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0296WeaponPassive01",
+            "NameEn": "This is also a ninja outfit! +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0296ExtraPassive01",
+            "NameEn": "Undercover-style secret technique!",
+            "DescriptionEn": "Increase Cost Recovery of all allies by $1."
         }
         
         
