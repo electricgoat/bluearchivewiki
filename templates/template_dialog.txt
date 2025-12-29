@@ -46,7 +46,7 @@
 {%- endif -%}
 
 
-{%- if event_lines != [] or event_standard_lines != [] -%}
+{%- if event_lines != [] or event_standard_lines != [] or ccg_lines != [] -%}
 
 =Event lines=
 {% if event_lines != [] %}
@@ -86,6 +86,30 @@
 ! style="width:240px" |English
 {%- endraw %}
 {% for line in event_standard_lines -%}
+|-
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| lang="ja" | {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
+{% endfor -%}
+{% raw -%}
+|}
+{% endraw %}
+{%- endif -%}
+
+{% if ccg_lines != [] %}
+{%- raw -%}
+==CCG lines==
+{| class="wikitable limitwidth-1024"
+|+
+! rowspan="2" |Name
+! rowspan="2" style="width:300px" |
+! colspan="2" |Transcription
+|-
+! style="width:240px" |Japanese
+! style="width:240px" |English
+{%- endraw %}
+{% for line in ccg_lines -%}
 |-
 | {{line.wikitext_voice_title}}
 | {{line.wikitext_voice_clips}}

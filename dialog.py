@@ -45,6 +45,7 @@ force_voice_group_link = {
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
             'Formation', 'Formchange', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
 EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'EventMission', 'Minigame', 'MiniGame' ] 
+EVENT_CCG_LINE_TYPES = [ 'Cardgame_Act' ] 
 
 
 def list_character_variants(character):
@@ -108,6 +109,7 @@ def generate():
         memorial_lines = []
 
         standard_lines = [] 
+        ccg_lines = []
 
         if character['Id'] == 10099: #Hoshino (Battle) Attacker form
             continue
@@ -194,7 +196,9 @@ def generate():
 
 
         
-        sl = []
+        sl = [] #standard lines
+        ccg = [] #ccg lines
+
         file_list = [os.path.join(files_scandir, x.split('.')[0]) for x in os.listdir(os.path.join(args['data_audio'], files_scandir))]
         append_files = [
             item 
@@ -217,7 +221,10 @@ def generate():
             standard_lines += get_standard_lines(character, sl, type, maindir=character_code)
         #dump_missing_standard_translations(character, standard_lines)
 
-
+        ccg = [x for x in file_list+append_files if EVENT_CCG_LINE_TYPES[0].lower() in x.rsplit('/')[-1].lower()]
+        if ccg: 
+            print (f'Found {len(ccg)} cardgame lines') 
+            ccg_lines += get_event_ccg_lines(character, ccg, EVENT_CCG_LINE_TYPES[0], maindir=character_code)
 
 
         all_used_files = []
@@ -225,6 +232,7 @@ def generate():
         for x in memorial_lines: all_used_files += x.used_files 
         for x in event_lines: all_used_files += x.used_files
         for x in standard_lines: all_used_files += x.used_files 
+        for x in ccg_lines: all_used_files += x.used_files
 
         unused_files = set([x.rsplit('/')[-1].lower() for x in file_list+append_files]).difference(set([x.lower() for x in all_used_files]))
         if len(unused_files): print(f"WARNING - unused files: {unused_files}")
@@ -251,6 +259,9 @@ def generate():
         for line in standard_lines:
             process_files(character, line, page_list)
 
+        for line in ccg_lines:
+            process_files(character, line, page_list)
+
         
         missing_sl_jp_count = len([x for x in standard_lines if x.wiki_localization_jp==''])
         missing_sl_en_count = len([x for x in standard_lines if x.wiki_localization_en==''])
@@ -265,6 +276,7 @@ def generate():
                 memorial_lines=memorial_lines, 
                 standard_lines=[x for x in standard_lines if x.dialog_category in STANDARD_LINE_TYPES],
                 event_standard_lines=[x for x in standard_lines if x.dialog_category in EVENT_STANDARD_LINE_TYPES],
+                ccg_lines=ccg_lines,
                 missing_sl_jp_count=missing_sl_jp_count,
                 missing_sl_en_count=missing_sl_en_count,
                 )
@@ -496,6 +508,84 @@ def get_standard_lines(character, files, dialog_category, maindir=None) -> list[
 
 
 
+def get_event_ccg_lines(character, files, dialog_category, maindir=None) -> list[Dialog]:
+    global data
+    dialog_data = {}
+    lines = []
+
+    voice_by_path_lower = {x['Path'][0].lower():x for x in data.voice.values() if len(x['Path'])}
+    
+    character_dialog_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog if len(x['VoiceId'])}
+    character_dialog_event_by_voiceid = {x['VoiceId'][0]:x for x in data.character_dialog_event if len(x['VoiceId'])}
+
+    voice = data.voice.values()
+    #voice_by_path = {x['Path'][0]:x for x in voice if len(x['Path'])}
+    voice_by_filename_lower = {x['Path'][0].rsplit("/", 1)[-1].lower():x for x in voice if len(x['Path'])}
+    
+    
+    for file in files:
+        file_prefix = ''
+        
+        #Attempt to get proper filename capitalization from the character_voice data
+        filename_base = file.rsplit("/", 1)[-1]
+        if filename_base in voice_by_filename_lower:
+            filename_base = voice_by_filename_lower[filename_base]['Path'][0].rsplit("/", 1)[-1]
+        else:
+            #or capitalize the name by substituting types and capitalizing words
+            types = EVENT_CCG_LINE_TYPES
+            for index, lowertype in enumerate([x.lower() for x in types]):
+                filename_base = filename_base.replace(lowertype, types[index])
+
+            filename_base = re.sub(r"_(\w)", lambda x: f"_{x.group(1).upper()}", filename_base)
+        
+        
+        file_wikititle = character.wiki_name.replace(' ', '_') + '_' + filename_base.split('_',1)[-1]
+        
+        if maindir is not None and maindir.lower() != file.rsplit("/", 1)[-1].split('_',1)[0].lower(): 
+            #print(f"This is not a maindir {maindir} file: {file}")
+            file_prefix = filename_base.split('_',1)[0]
+            file_wikititle = character.wiki_name.replace(' ', '_') + '_' + filename_base
+
+
+        voice_id = None
+        if file.lower() in voice_by_path_lower: voice_id = voice_by_path_lower[file.lower()]['Id']
+
+        if voice_id and voice_id in character_dialog_by_voiceid:
+            print(f"Skipping voice id {voice_id} as ccg line candidate - present in character_dialog")
+            continue
+
+        if voice_id and voice_id in character_dialog_event_by_voiceid:
+            print(f"Skipping voice id {voice_id} as ccg line candidate - present in character_dialog_event")
+            continue
+            #pass
+
+        if not voice_id:
+            print(f"Skipping file {file} as ccg line candidate - no voice id found")
+            continue
+
+        # Get localization data from minigame_ccg_open_dialog
+        ccg_open_dialog = next((x for x in data.minigame_ccg_open_dialog if voice_id == x['Voice']), None)
+        if not ccg_open_dialog:
+            continue
+
+        localize_key = ccg_open_dialog['Dialog']
+
+        if file_wikititle not in dialog_data: dialog_data[file_wikititle] = {}
+
+        dialog_data[file_wikititle]['LocalizeCVGroup'] = "Cardgame_Act"
+        #dialog_data[file_wikititle]['LocalizeKR'] = dialog_data[file_wikititle]['LocalizeKR'] or subtitle_data.get('LocalizeKR', '')
+        dialog_data[file_wikititle]['LocalizeJP'] = data.localization[localize_key].get('Jp') or dialog_data[file_wikititle].get('LocalizeJP') #prioritize ingame subtitle data over wiki transcriptions
+        dialog_data[file_wikititle]['LocalizeEN'] = data.localization[localize_key].get('En') or dialog_data[file_wikititle].get('LocalizeEN')
+
+
+        dialog = Dialog.construct_standard(character, dialog_data, file, filename_base.split('_',1)[-1], file_prefix, dialog_category = dialog_category)
+        lines.append(dialog)
+    
+    return lines
+
+
+
+
 def get_memorial_lines(character, dialog_data, files_scandir, character_code) -> list[Dialog]:
     global data
     lines:list[Dialog] = []
@@ -586,8 +676,8 @@ def process_files(character, dialog:Dialog, page_list:list):
 
     for line in dialog.voice:
         for index, filepath in enumerate(line.path):
-            wikiname = f"File:{line.wiki_voice_clips[index]}.ogg"
-            wikitext = f"[[Category:Character dialog]]\r\n[[Category:{character.wiki_name} dialog]]"
+            wikiname = f"File:{line.wiki_voice_clips[index]}.ogg"#.replace("Seia_(Swimsuit)", "Seia_(Swimsuit)_GL").replace("Seia (Swimsuit)", "Seia (Swimsuit) GL")
+            wikitext = f"[[Category:Character dialog]]\r\n[[Category:{character.wiki_name} dialog]]"#.replace("Seia_(Swimsuit)", "Seia_(Swimsuit)_GL").replace("Seia (Swimsuit)", "Seia (Swimsuit) GL")
 
             localfilename = None
             if os.path.exists(os.path.join(args['data_audio'], f"{filepath}.ogg")): localfilename = f"{filepath}.ogg"
@@ -615,9 +705,9 @@ def process_files(character, dialog:Dialog, page_list:list):
                 #no continue here because we will try and upload the new file on the chance it's data changed
             
             
-            print (f"Uploading {localfilename} → {line.wiki_voice_clips[index]}.ogg")
+            print (f"Uploading {localfilename} → {wikiname}")
             wiki.upload(os.path.join(args['data_audio'], localfilename), 
-                        f"{line.wiki_voice_clips[index]}.ogg", 
+                        wikiname, 
                         'Character dialog upload', 
                         wikitext)
             
