@@ -4,6 +4,7 @@ import re
 import traceback
 #import copy
 import argparse
+import json
 from datetime import datetime
 
 import wiki
@@ -13,62 +14,104 @@ from data import load_data, load_season_data
 from raid_seasons import RAIDS
 import shared.functions
 
-
-args = {}
-data = {}
-season_data = {'jp':{}, 'gl':{}}
+HISTORICAL_DATA_FILE = 'translation/eliminate_raid_seasons.json'
 
 SEASON_IGNORE = {
     'jp' : [1],
     'gl' : [1],
 }
 
-SEASON_NOTES = {
-    'jp' : {
-        2:'Beta version',
-        3:'Beta version',
-        5:'Torment difficulty no longer based on original defense type',
-        13:'No longer requires all 3 clears for ranking rewards',
-        30:'Torment difficulty now present on two defense types',
-    },
-    'gl' : {
-        2:'Beta version',
-        3:'Beta version',
-        5:'Torment difficulty no longer based on original defense type',
-        13:'No longer requires all 3 clears for ranking rewards',
-        30:'Torment difficulty now present on two defense types',
-    }
-}
 
-# Override per-season TOR armor type, this data has been altered in the client retroactively
-SEASON_CHALLENGE_DEF = {
-    'jp' : {
-        2:'HeavyArmor',
-        4:'Unarmed',
-        5:'HeavyArmor',
-        6:'Unarmed',
-        10:'LightArmor',
-        11:'Unarmed',
-        12:'HeavyArmor',
-        13:'Unarmed',
-        15:'HeavyArmor',
-        19:'Unarmed',
-        20:'HeavyArmor',
-    },
-    'gl' : {
-        2:'HeavyArmor',
-        4:'Unarmed',
-        5:'HeavyArmor',
-        6:'Unarmed',
-        10:'LightArmor',
-        11:'Unarmed',
-        12:'HeavyArmor',
-        13:'Unarmed',
-        15:'HeavyArmor',
-        19:'Unarmed',
-        20:'HeavyArmor',
-    }
-}
+args = {}
+data = {}
+season_data = {'jp':{}, 'gl':{}}
+historical_season_data = {'jp':{}, 'gl':{}}
+
+
+def load_historical_data():
+    global historical_season_data
+    
+    if not os.path.exists(HISTORICAL_DATA_FILE):
+        return
+    
+    try:
+        with open(HISTORICAL_DATA_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            historical_season_data['jp'] = {int(k): v for k, v in data.get('jp', {}).items()}
+            historical_season_data['gl'] = {int(k): v for k, v in data.get('gl', {}).items()}
+        #print(f"Loaded historical data for {len(historical_season_data['jp'])} JP and {len(historical_season_data['gl'])} GL seasons")
+    except Exception as e:
+        print(f"Error loading historical data: {e}")
+
+
+def save_historical_data():
+    try:
+        data = {
+            'jp': {str(k): v for k, v in historical_season_data['jp'].items()},
+            'gl': {str(k): v for k, v in historical_season_data['gl'].items()}
+        }
+        with open(HISTORICAL_DATA_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        # jp_count = len(historical_season_data['jp'])
+        # gl_count = len(historical_season_data['gl'])
+        # print(f"Saved historical data for {jp_count} JP and {gl_count} GL seasons to {HISTORICAL_DATA_FILE}")
+        # if jp_count > 0:
+        #     print(f"  JP seasons: {sorted(historical_season_data['jp'].keys())}")
+        # if gl_count > 0:
+        #     print(f"  GL seasons: {sorted(historical_season_data['gl'].keys())}")
+    except Exception as e:
+        print(f"Error saving historical data: {e}")
+        import traceback
+        traceback.print_exc()
+
+
+def get_season_historical_data(season_id, region):
+    if season_id in historical_season_data[region]:
+        return historical_season_data[region][season_id]
+    return None
+
+
+def record_season_data(season_id, region, armor_types, difficulties, challenge_difficulty, notes=''):
+    now = datetime.now()
+    season = season_data[region].eliminate_raid_season.get(season_id)
+    
+    if season:
+        start_time = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
+        if start_time >= now:
+            # Store bosses as list of [armor, difficulty] pairs
+            bosses = [[armor_types[i], difficulties[i]] for i in range(len(armor_types))]
+            
+            # Preserve existing notes if present, otherwise use current notes
+            existing_notes = historical_season_data[region].get(season_id, {}).get('notes', '')
+            final_notes = existing_notes if existing_notes else notes
+            
+            historical_season_data[region][season_id] = {
+                'bosses': bosses,
+                'challenge_difficulty': challenge_difficulty,
+                'notes': final_notes
+            }
+            #print(f"  Recorded {region} season {season_id} to historical data")
+
+
+def apply_historical_overrides(season, season_id, region, boss_data, boss_groups, difficulties_range):
+    hist_data = get_season_historical_data(season_id, region)
+    
+    if hist_data:
+        # Apply armor and difficulty overrides from historical data
+        if 'bosses' in hist_data:
+            for i in range(len(boss_groups)):
+                if i < len(hist_data['bosses']):
+                    season['armor'][i] = hist_data['bosses'][i][0]
+                    season['difficulty'][i] = hist_data['bosses'][i][1]
+        # Apply challenge difficulty override if present
+        if 'challenge_difficulty' in hist_data:
+            season['challenge_difficulty'] = hist_data['challenge_difficulty']
+        # Apply notes override if present
+        if hist_data.get('notes'):
+            season['notes'] = hist_data['notes']
+        return True
+    
+    return False
 
 
 def get_raid_boss_data(group, region = 'jp'):
@@ -143,10 +186,9 @@ def generate():
             season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname}.png"
 
             season['notes'] = ''
-            if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
             season_length = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S") - datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
             if (season_length.days + 1) != 7: 
-                season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
+                season['notes'] += f"Non-standard duration of {season_length.days + 1} days"
 
             boss_data = {}
             difficulties_range = []
@@ -162,15 +204,14 @@ def generate():
             if len(difficulties_range) == 6: difficulties_range.append('Torment')
             season['challenge_difficulty'] = difficulties_range[-1]
             
-            if season['SeasonId'] in SEASON_CHALLENGE_DEF[region]:
-                #print(f"Overriding {region} season {season['SeasonId']} challenge armor to {SEASON_CHALLENGE_DEF[region][season['SeasonId']]}")
-                for i, group in enumerate(boss_groups):
-                    if boss_data[group]['armor'] == SEASON_CHALLENGE_DEF[region][season['SeasonId']]: 
-                        season['difficulty'][i] = season['challenge_difficulty']
-                    else:
-                        season['difficulty'][i] = difficulties_range[-2]
+            # Apply historical data overrides
+            apply_historical_overrides(season, season['SeasonId'], region, boss_data, boss_groups, difficulties_range)
 
             season['difficulty_shorthand'] = [shared.functions.difficulty_shorthand(x) for x in season['difficulty']]
+            
+            # Record this season to historical data if it's current or future
+            record_season_data(season['SeasonId'], region, season['armor'], season['difficulty'], season['challenge_difficulty'], season['notes'])
+            
             print_season(season)
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
@@ -183,6 +224,7 @@ def generate():
 
     wikitext = template.render(season_data=season_data)
     
+    save_historical_data()
 
     with open(os.path.join(args['outdir'], 'raids' ,f"eliminate_raid_seasons.txt"), 'w+', encoding="utf8") as f:
         f.write(wikitext)
@@ -195,6 +237,7 @@ def generate():
 def init_data():
     global args, data, season_data
     
+    load_historical_data()
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     season_data['jp'] = load_season_data(args['data_primary'])
     season_data['gl'] = load_season_data(args['data_secondary'])

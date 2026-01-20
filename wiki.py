@@ -308,6 +308,7 @@ def upload(file, name, comment = 'File upload', text = ''):
 
 def move(name_old, name_new, summary='Consistent naming', noredirect=True):
     global site
+    assert site is not None
 
     print(f"Moving {name_old} → {name_new}")
     try:
