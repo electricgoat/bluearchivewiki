@@ -43,7 +43,7 @@ CLUBS = {
             'AbydosStudentCouncil': 'Abydos Student Council',
             'CentralControlCenter': 'CCC',
             'FreightLogisticsDepartment': 'Freight Logistics Department',
-            'OccultClub': 'Occult Research Society',
+            'OccultClub': 'Occult Investigation Society',
             'PrefectBrigade': 'Prefect Brigade',
             'FreeTradeCartel': 'Free Trade Cartel',
             'NicomediasTroop': 'Nicomedia\'s Troop',

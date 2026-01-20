@@ -6779,8 +6779,173 @@
             "GroupId": "CH0296ExtraPassive01",
             "NameEn": "Undercover-style secret technique!",
             "DescriptionEn": "Increase Cost Recovery of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0331Ex01",
+            "NameEn": "Cyber Power",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0331Public01",
+            "NameEn": "Parameter Adjustment",
+            "DescriptionEn": "Every $1, increase Critical Damage by $2 for $3."
+        },
+        {
+            "GroupId": "CH0331Passive01",
+            "NameEn": "Evolutionary Algorithm",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0331WeaponPassive01",
+            "NameEn": "Evolutionary Algorithm +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0331ExtraPassive01",
+            "NameEn": "Metaheuristics",
+            "DescriptionEn": "When attacking an enemy with Light armor, there is a $1 chance to increase the amount of Effective damage taken by $2 for $3. (Cooldown: $4)"
+        },
+
+        {
+            "GroupId": "CH0332Ex01",
+            "NameEn": "It's an All-Terrain Wheelchair",
+            "DescriptionEn": "Himari (Battle) deploys to the field riding an All-Terrain Wheelchair for $2. The All-Terrain Wheelchair additionaly inherits $1 of Himari's maximum HP.\nHeal allies within a circular area for $3 of Healing periodically (up to $4 times) (every $5).\n(Only one tactical support vehicle can be fielded at any given time)"
+        },
+        {
+            "GroupId": "SM033201Public01",
+            "NameEn": "Isn't that dangerous?",
+            "DescriptionEn": "When the All-Terrain Wheelchair appears, it will activate the skill Isn't that dangerous?, dealing $1 damage (calculated using the All-Terrain Wheelchair's stats) to the enemy with the highest maximum HP.\nIf the target has Heavy armor, increase the amount of Effective damage taken by $2 for $3."
+        },
+        {
+            "GroupId": "SM033201Passive01",
+            "NameEn": "Life Staff",
+            "DescriptionEn": "When an All-Terrain Wheelchair appears, and every $1 thereafter, it will grant $2 extra Penetration damage to one ally for $3 (priority will be given to the ally designated when using the skill \"It's an All-Terrain Wheelchair\")."
+        },
+        {
+            "GroupId": "CH0332Public01",
+            "NameEn": "I am omniscient and omnipotent",
+            "DescriptionEn": "When using an EX skill, increase Critical Damage of one ally by $1 fo $2 (priority is given to the ally specified when using the EX skill)."
+        },
+        {
+            "GroupId": "CH0332Passive01",
+            "NameEn": "A noble flower blooming among the snow and ice",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0332WeaponPassive01",
+            "NameEn": "A noble flower blooming among the snow and ice +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0332ExtraPassive01",
+            "NameEn": "The super genius delicate sickly beautiful hacker's brain",
+            "DescriptionEn": "Increase Cost Recovery of allies by $1."
+        },
+
+        {
+            "GroupId": "CH0333Ex01",
+            "NameEn": "Special Weapon: Dual Energy Pistols",
+            "DescriptionEn": "If the specified target is an enemy, deal $1 damage and Stun them for $2; if the target is an ally, heal them by $3 of Healing and remove $4 debuff.\nThe duration of stun is increased by $5 per energy charge level, and the number of debuffs removed is increased by $6.\nAfter firing, reset the energy charge level."
+        },
+        {
+            "GroupId": "CH0333Public01",
+            "NameEn": "Perfect Maid, Perfect Recon",
+            "DescriptionEn": "Every $1, increase Attack by $2 for $3.\nCharge energy by 1 level (up to a maximum of 2 levels)."
+        },
+        {
+            "GroupId": "CH0333Passive01",
+            "NameEn": "New hobby(?)",
+            "DescriptionEn": "Increase Attack by $1 and Healing by $2."
+        },
+        {
+            "GroupId": "CH0333WeaponPassive01",
+            "NameEn": "New hobby(?) +",
+            "DescriptionEn": "Increase Attack by $1 and Healing by $2. Further increase Attack by $3 and Healing by $4."
+        },
+        {
+            "GroupId": "CH0333ExtraPassive01",
+            "NameEn": "Act now, report later",
+            "DescriptionEn": "When attacking an enemy with Heavy armor, deal $1 of Attack as additional damage."
+        },
+
+        {
+            "GroupId": "CH0334SelectEx01",
+            "NameEn": "Hero of Light",
+            "DescriptionEn": "(This is a Select EX skill, effect depends on the target selected)"
+        },
+        {
+            "GroupId": "CH0334Ex01",
+            "NameEn": "Awakening: Supernova",
+            "DescriptionEn": "Deal $1 damage to one enemy, and $2 damage to other enemies within a straight line in the target direction.\nDamage amount increases $3- or $4-fold depending on the energy charge stage.\nAfter firing, reset the energy charge stage."
+        },
+        {
+            "GroupId": "CH0334Ex02",
+            "NameEn": "Awakening: Supernova",
+            "DescriptionEn": "Deal $1 damage to one enemy, and $2 damage to other enemies within a straight line in the target direction.\nDamage amount increases $3- or $4-fold depending on the energy charge stage.\nAfter firing, reset the energy charge stage."
+        },
+        {
+            "GroupId": "CH0334Ex03",
+            "NameEn": "Awakening: Supernova",
+            "DescriptionEn": "Deal $1 damage to one enemy, and $2 damage to other enemies within a straight line in the target direction.\nDamage amount increases $3- or $4-fold depending on the energy charge stage.\nAfter firing, reset the energy charge stage."
+        },
+        {
+            "GroupId": "CH0334Ex04",
+            "NameEn": "Sword of Light",
+            "DescriptionEn": "Immediately draw an EX skill card, then charge one level of energy (up to a maximum of 2 levels)."
+        },
+        {
+            "GroupId": "CH0334Ex05",
+            "NameEn": "Sword of Light",
+            "DescriptionEn": "Immediately draw an EX skill card, then charge one level of energy (up to a maximum of 2 levels)."
+        },
+        {
+            "GroupId": "CH0334Public01",
+            "NameEn": "The Magic of Courage",
+            "DescriptionEn": "Instantly reload when ammunition reaches 0.\nDeal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0334Passive01",
+            "NameEn": "A Heart to Never Give Up",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0334WeaponPassive01",
+            "NameEn": "A Heart to Never Give Up +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0334ExtraPassive01",
+            "NameEn": "Type: Abi-Eshuh",
+            "DescriptionEn": "Unleash full potential and change all damage dealt to EX damage type.\nIncrease damage dealt by $1, and increases damage dealt by EX skills by $2."
+        },
+
+        {
+            "GroupId": "CH0335Ex01",
+            "NameEn": "Here I am",
+            "DescriptionEn": "Place an amplifier that increases the Attack of allies within a circular area by $1 and grants them $2 Mystic Efficiency for $3. (Effect applies only while within range)"
+        },
+        {
+            "GroupId": "CH0335Public01",
+            "NameEn": "So, you've made me angry?!",
+            "DescriptionEn": "When the amplifier effect ends, deal $1 damage to one enemy, plus $2 of the amplifier's accumulated damage.\n(This damage can not be critical and is not affected by Kei's stats)"
+        },
+        {
+            "GroupId": "CH0335Passive01",
+            "NameEn": "I will resist!",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0335WeaponPassive01",
+            "NameEn": "I will resist! +",
+            "DescriptionEn": "Increase HP by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0335ExtraPassive01",
+            "NameEn": "Friends walking together",
+            "DescriptionEn": "When the amplifier starts, increase Critical Rate of allies within the amplifier's range by $1 for $2.\nWhen the amplifier ends, $3 of the damage dealt to enemies by allies other than Kei within the amplifier's range is accumulated (up to $4 of Kei's basic attack power).\n(The amount accumulated at the end of the operation is reset on each activation)"
         }
-        
+
         
 
     ]

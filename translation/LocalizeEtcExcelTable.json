@@ -14365,6 +14365,627 @@
             "DescriptionJp": "その物量は、ラーメンの限界に挑戦している。圧倒的なカロリーを誇るラーメン。こぼさないように最後の一滴まで頂くのが通というもの。装飾用の金箔は食用だ。",
             "NameEn": "Extra-Large! Luxurious Golden Ramen",
             "DescriptionEn": "Its sheer volume challenges the limits of ramen itself. A ramen boasting overwhelming calories. Connoisseurs are advised to eat every last drop without spilling anything. The decorative gold leaf is also edible."
+        },
+        {
+            "Key": 350413407,
+            "NameJp": "謎の物質A",
+            "NameEn": "Mysterious Substance A",
+            "DescriptionJp": "「名もなき神々の力」によって、物質の元素そのものが再構成された物質のサンプル。鋼鉄大陸はこれによって形作られているようだ。",
+            "DescriptionEn": "A sample of matter which has been reconstructed by the power of the Nameless Gods. The Steel Continent appears to have been formed from this."
+        },
+        {
+            "Key": 3272293667,
+            "NameJp": "謎の物質B",
+            "NameEn": "Mysterious Substance B",
+            "DescriptionJp": "「名もなき神々の力」を通じて、物質の元素そのものが再構成された物質のサンプル。分析して様々なものに加工しよう。",
+            "DescriptionEn": "A sample of matter which has been reconstructed by the power of the Nameless Gods. Analyze and process it into various things."
+        },
+        {
+            "Key": 367696138,
+            "NameJp": "アバンギャルドコインA",
+            "NameEn": "Avant Guard Coin A",
+            "DescriptionJp": "気分転換や士気をあげたり、緊張をほぐすために作られたコイン……らしい。※イベント終了後、このアイテムはクレジットに変換されず消失します",
+            "DescriptionEn": "A coin apparently created to help players change their mood, boost their morale, and relieve tension. \n※After the event ends, this item will disappear without being converted into credits."
+        },
+        {
+            "Key": 1379605282,
+            "NameJp": "アバンギャルドコインB",
+            "NameEn": "Avant Guard Coin B",
+            "DescriptionJp": "創造力や反射神経を養うために作られたコイン……らしい。※イベント終了後、このアイテムはクレジットに変換されず消失します",
+            "DescriptionEn": "A coin apparently created to foster creativity and quick reflexes. \n※After the event ends, this item will disappear without being converted into credits."
+        },
+        {
+            "Key": 2700469198,
+            "NameJp": "プライベートビーチのパンフレット",
+            "NameEn": "Private Beach brochure",
+            "DescriptionJp": "プライベートビーチのガイドパンフレット。周辺施設が簡略に描かれている。※イベント終了後、このアイテムはクレジットに変換されず消失します",
+            "DescriptionEn": "A guide pamphlet for the private beach. Outlines the surrounding facilities. \n※After the event ends, this item will disappear without being converted into credits."
+        },
+         {
+            "Key": 3899342975,
+            "NameJp": "サブ工具箱",
+            "NameEn": "Spare Tool Box",
+            "DescriptionJp": "予備の工具が入っている箱。小さな工具ほど失いやすい。",
+            "DescriptionEn": "A box containing spare tools. Smaller tools are more easily lost."
+        },
+        {
+            "Key": 2456785767,
+            "NameJp": "輸送船シリーズ",
+            "NameEn": "Carrier Set",
+            "DescriptionJp": "ミレニアムの技術の粋を感じることができる輸送船シリーズ。その真髄を余ることなく楽しもう。",
+            "DescriptionEn": "The Carrier series that allows you to experience the best of Millennium's technology. Enjoy it to the fullest."
+        },
+        {
+            "Key": 2270784512,
+            "NameJp": "輸送船シリーズ",
+            "NameEn": "Carrier Furniture"
+        },
+        {
+            "Key": 1319411039,
+            "NameJp": "予備物資コンテナ",
+            "NameEn": "Spare Supply Container",
+            "DescriptionJp": "予備の物資が入っているコンテナ。私物は入れないように。",
+            "DescriptionEn": "A container containing spare supplies. Please do not store personal items."
+        },
+        {
+            "Key": 3374132052,
+            "NameJp": "工具箱",
+            "NameEn": "Tool Box",
+            "DescriptionJp": "整備用の部品が入っている箱。予備の部品は欠かせない。",
+            "DescriptionEn": "A box containing parts for maintenance. Spare parts are essential."
+        },
+        {
+            "Key": 961513063,
+            "NameJp": "エネルギーシェルボックス（小）",
+            "NameEn": "Energy Shell Box (Small)",
+            "DescriptionJp": "予備のエネルギーシェルが入っているボックス。取り扱いには注意しよう。",
+            "DescriptionEn": "A box containing spare energy shells. Handle with care."
+        },
+        {
+            "Key": 3267432957,
+            "NameJp": "エネルギーシェルボックス（大）",
+            "NameEn": "Energy Shell Box (Large)",
+            "DescriptionJp": "予備のエネルギーシェルが入っているボックス。使用後は手順通りに廃棄しよう。",
+            "DescriptionEn": "A box containing spare energy shells. Dispose of properly after use."
+        },
+        {
+            "Key": 612545809,
+            "NameJp": "マルチボックスパターン1",
+            "NameEn": "Multi Box Pattern 1",
+            "DescriptionJp": "様々な用途に使える箱。部屋へ持ち込むのはやめよう。",
+            "DescriptionEn": "A versatile box for various uses. Please do not bring it into your room."
+        },
+        {
+            "Key": 1096463814,
+            "NameJp": "セクションタイル（中）",
+            "NameEn": "Section Tile (Medium)",
+            "DescriptionJp": "中間サイズの装備を整備できるセクション。",
+            "DescriptionEn": "A section where medium-sized equipment can be maintained."
+        },
+        {
+            "Key": 2294930409,
+            "NameJp": "セクションタイル（小）",
+            "NameEn": "Section Tile (Small)",
+            "DescriptionJp": "小さいサイズの装備を整備できるセクション。",
+            "DescriptionEn": "A section where small-sized equipment can be maintained."
+        },
+        {
+            "Key": 3059818104,
+            "NameJp": "セクションタイル（大）",
+            "NameEn": "Section Tile (Large)",
+            "DescriptionJp": "大きいサイズの装備を整備できるセクション。",
+            "DescriptionEn": "A section where large-sized equipment can be maintained."
+        },
+        {
+            "Key": 825169400,
+            "NameJp": "配線タイルパターン1",
+            "NameEn": "Wiring Tile Pattern 1",
+            "DescriptionJp": "通信機器やコード類が連結されている設備。引っかけないよう足元に気をつけよう。",
+            "DescriptionEn": "Equipment with communication devices and cords connected. Watch your feet so you don't get caught."
+        },
+        {
+            "Key": 3484643806,
+            "NameJp": "降下ポッドコントロールセクションタイル",
+            "NameEn": "Drop Pod Control Section Tile",
+            "DescriptionJp": "降下ポッドをサポートするためのコントロールセクション。",
+            "DescriptionEn": "A control section for supporting drop pods."
+        },
+        {
+            "Key": 455560807,
+            "NameJp": "配線タイルパターン2",
+            "NameEn": "Wiring Tile Pattern 2",
+            "DescriptionJp": "通信機器やコード類が連結されている設備。この上では走らないように。",
+            "DescriptionEn": "Equipment with communication devices and cords connected. Do not run on top of this."
+        },
+        {
+            "Key": 4105871549,
+            "NameJp": "自動出入口パターン1",
+            "NameEn": "Automatic Door Pattern 1",
+            "DescriptionJp": "自動で開閉する出入口。隠れることもできそうだ。",
+            "DescriptionEn": "An automatic door that opens and closes. It looks like you could hide here."
+        },
+        {
+            "Key": 1029726201,
+            "NameJp": "輸送船隔離フェンス",
+            "NameEn": "Carrier Isolation Fence",
+            "DescriptionJp": "危険な場所を隔離するためのフェンス。安全第一。",
+            "DescriptionEn": "A fence to isolate dangerous areas. Safety first."
+        },
+        {
+            "Key": 4056239762,
+            "NameJp": "冷却ガスチャンバー",
+            "NameEn": "Cooling Gas Chamber",
+            "DescriptionJp": "冷却用ガスを溜めたチャンバー。取り扱いには注意が必要だ。",
+            "DescriptionEn": "A chamber containing cooling gas. Handle with care."
+        },
+        {
+            "Key": 332281048,
+            "NameJp": "輸送船ディスプレイパターン1",
+            "NameEn": "Carrier Display Pattern 1",
+            "DescriptionJp": "内部の温度、湿度、気圧を表示しているディスプレイ。数値に異常があった場合は、すぐ報告すること。",
+            "DescriptionEn": "A display showing internal temperature, humidity, and pressure. Report immediately if values are abnormal."
+        },
+        {
+            "Key": 1442138295,
+            "NameJp": "輸送船の柱パターン1",
+            "NameEn": "Carrier Pillar Pattern 1",
+            "DescriptionJp": "輸送船を支える複合金属製の柱。耐久性は折り紙つきだ。",
+            "DescriptionEn": "A composite metal pillar supporting the carrier. Its durability is guaranteed."
+        },
+        {
+            "Key": 3389317877,
+            "NameJp": "輸送船内部の植木鉢（大）",
+            "NameEn": "Carrier Interior Potted Plant (Large)",
+            "DescriptionJp": "精神衛生のために設置している植木鉢。過度な水やりは禁物だ。",
+            "DescriptionEn": "A potted plant installed for mental health. Do not overwater."
+        },
+        {
+            "Key": 3513005138,
+            "NameJp": "輸送船内部の植木鉢（小）",
+            "NameEn": "Carrier Interior Potted Plant (Small)",
+            "DescriptionJp": "精神衛生のために設置している植木鉢。誰かが世話をする必要がある。",
+            "DescriptionEn": "A potted plant installed for mental health. Someone needs to take care of it."
+        },
+        {
+            "Key": 986785622,
+            "NameJp": "輸送船内部の植木鉢（中）",
+            "NameEn": "Carrier Interior Potted Plant (Medium)",
+            "DescriptionJp": "精神衛生のために設置している植木鉢。植物も生きている。",
+            "DescriptionEn": "A potted plant installed for mental health. Plants are living things too."
+        },
+        {
+            "Key": 1870488781,
+            "NameJp": "2階へ繋がる階段",
+            "NameEn": "Staircase To Second Floor",
+            "DescriptionJp": "2階に上がれそうな階段。",
+            "DescriptionEn": "Stairs that lead up to the second floor."
+        },
+        {
+            "Key": 3856882213,
+            "NameJp": "マルチボックスパターン2",
+            "NameEn": "Multi Box Pattern 2",
+            "DescriptionJp": "様々な用途に使える箱。物を失くさないようにしよう。",
+            "DescriptionEn": "A versatile box for various uses. Don't lose things."
+        },
+        {
+            "Key": 26582152,
+            "NameJp": "密閉式ロッカー",
+            "NameEn": "Sealed Locker",
+            "DescriptionJp": "私物を保管するロッカー。ちゃんと本来の用途として使おう。",
+            "DescriptionEn": "A locker for storing personal items. Please use it for its intended purpose."
+        },
+        {
+            "Key": 223149924,
+            "NameJp": "輸送船の床タイルパターン1",
+            "NameEn": "Carrier Floor Tile Pattern 1",
+            "DescriptionJp": "輸送船の床を支える複合金属製タイル。頑丈な造りになっている。",
+            "DescriptionEn": "A composite metal tile supporting the carrier's floor. It is built sturdy."
+        },
+        {
+            "Key": 4108305164,
+            "NameJp": "輸送船の床タイルパターン2",
+            "NameEn": "Carrier Floor Tile Pattern 2",
+            "DescriptionJp": "輸送船の床を支える複合金属製タイル。金属製なので触ると冷たい。",
+            "DescriptionEn": "A composite metal tile supporting the carrier's floor. Since it's made of metal, it's cold to the touch."
+        },
+        {
+            "Key": 3993558347,
+            "NameJp": "自動出入口パターン2",
+            "NameEn": "Automatic Door Pattern 2",
+            "DescriptionJp": "自動で開閉する出入口。自動で開く扉はやはり便利だ。",
+            "DescriptionEn": "An automatic door that opens and closes. Automatic doors are certainly convenient."
+        },
+        {
+            "Key": 772864396,
+            "NameJp": "輸送船ウインドウパターン1",
+            "NameEn": "Carrier Window Pattern 1",
+            "DescriptionJp": "外が見える窓。窓があるとやはり精神的にも落ち着くものだ。",
+            "DescriptionEn": "A window with a view outside. A window certainly provides mental peace."
+        },
+        {
+            "Key": 3582995696,
+            "NameJp": "輸送船ウインドウパターン2",
+            "NameEn": "Carrier Window Pattern 2",
+            "DescriptionJp": "外が見える窓。むやみに開けてはいけない。",
+            "DescriptionEn": "A window with a view outside. Do not open carelessly."
+        },
+        {
+            "Key": 2063050919,
+            "NameJp": "エイミのクローゼット",
+            "NameEn": "Eimi's Closet",
+            "DescriptionJp": "エイミのスーツを保管しているクローゼット。",
+            "DescriptionEn": "A closet storing Eimi's suit."
+        },
+        {
+            "Key": 3747286986,
+            "NameJp": "リオのクローゼット",
+            "NameEn": "Rio's Closet",
+            "DescriptionJp": "リオのスーツを保管しているクローゼット。",
+            "DescriptionEn": "A closet storing Rio's suit."
+        },
+        {
+            "Key": 2036297806,
+            "NameJp": "トキのクローゼット",
+            "NameEn": "Toki's Closet",
+            "DescriptionJp": "トキのスーツを保管しているクローゼット。",
+            "DescriptionEn": "A closet storing Toki's suit."
+        },
+        {
+            "Key": 1212580865,
+            "NameJp": "ヒマリのクローゼット",
+            "NameEn": "Himari's Closet",
+            "DescriptionJp": "ヒマリのスーツを保管しているクローゼット。",
+            "DescriptionEn": "A closet storing Himari's suit."
+        },
+        {
+            "Key": 2911548013,
+            "NameJp": "輸送船自動販売機",
+            "NameEn": "Carrier Vending Machine",
+            "DescriptionJp": "輸送船に設置されている自動販売機。飲み物の飲みすぎには注意しよう。",
+            "DescriptionEn": "A vending machine installed on the carrier. Be careful not to drink too much."
+        },
+        {
+            "Key": 255392210,
+            "NameJp": "格納庫内部のエレベーター",
+            "NameEn": "Hangar Interior Elevator",
+            "DescriptionJp": "格納庫に設置されている物資運送用のエレベーター。ブザーギリギリまで物を載せないように。",
+            "DescriptionEn": "An elevator for transporting supplies installed in the hangar. Do not load items up to the limit."
+        },
+        {
+            "Key": 1032844429,
+            "NameJp": "輸送船ディスプレイパターン2",
+            "NameEn": "Carrier Display Pattern 2",
+            "DescriptionJp": "内部の温度、湿度、気圧を表示しているディスプレイ。たまにお知らせも表示される。",
+            "DescriptionEn": "A display showing internal temperature, humidity, and pressure. Sometimes notifications are also displayed."
+        },
+        {
+            "Key": 3079045298,
+            "NameJp": "輸送船の壁",
+            "NameEn": "Carrier Wall",
+            "DescriptionJp": "輸送船を支える複合金属製の壁。落書き禁止。",
+            "DescriptionEn": "A composite metal wall supporting the carrier. Graffiti is prohibited."
+        },
+        {
+            "Key": 3615856686,
+            "NameJp": "格納庫の床タイル",
+            "NameEn": "Hangar Floor Tile",
+            "DescriptionJp": "格納庫の床用の複合金属製タイル。独特な雰囲気がある。",
+            "DescriptionEn": "A composite metal tile for the hangar floor. It has a unique atmosphere."
+        },
+        {
+            "Key": 3963808817,
+            "NameJp": "晴れの背景",
+            "NameEn": "Clear Sky Background",
+            "DescriptionJp": "晴れやかな空の背景。清々しい気持ちになれる。",
+            "DescriptionEn": "A background of a clear sky. It makes you feel refreshed."
+        },
+        {
+            "Key": 325325902,
+            "NameJp": "ネオアバンギャルド君",
+            "NameEn": "Neo Avant-Garde Buddy",
+            "DescriptionJp": "渾身の力作らしい。",
+            "DescriptionEn": "It appears to be the creator's masterpiece."
+        },
+        {
+            "Key": 1088284957,
+            "NameJp": "輸送船の操縦席",
+            "NameEn": "Carrier Control Seat",
+            "DescriptionJp": "輸送船の操縦席。マニュアルを熟読しよう。",
+            "DescriptionEn": "The control seat of the carrier. Read the manual carefully."
+        },
+        {
+            "Key": 193352975,
+            "NameJp": "輸送船ディスプレイパターン3",
+            "NameEn": "Carrier Display Pattern 3",
+            "DescriptionJp": "内部の温度、湿度、気圧を表示しているディスプレイ。警告文が出た時はちゃんと従うこと。",
+            "DescriptionEn": "A display showing internal temperature, humidity, and pressure. Follow instructions when warnings appear."
+        },
+        {
+            "Key": 2500628705,
+            "NameJp": "輸送船の給湯スペース",
+            "NameEn": "Carrier Hot Water Space",
+            "DescriptionJp": "輸送船の給湯スペース。水は貴重なので、お皿洗いはできるうちにしておくこと。",
+            "DescriptionEn": "The hot water space of the carrier. Water is precious, so do your dishes while you can."
+        },
+        {
+            "Key": 2317617371,
+            "NameJp": "整備用マニピュレーター",
+            "NameEn": "Maintenance Manipulator",
+            "DescriptionJp": "整備をサポートしてくれるアームがついている。",
+            "DescriptionEn": "It has an arm that supports maintenance work."
+        },
+        {
+            "Key": 3885610990,
+            "NameJp": "ワイドウィンドウ",
+            "NameEn": "Wide Window",
+            "DescriptionJp": "外が見える広い窓。素晴らしい風景が拝めるかもしれない。",
+            "DescriptionEn": "A large window with a view outside. You might see a wonderful view."
+        },
+        {
+            "Key": 4269512292,
+            "NameJp": "輸送船の柱パターン2",
+            "NameEn": "Carrier Pillar Pattern 2",
+            "DescriptionJp": "輸送船を支える複合金属製の柱。とても丈夫らしい。",
+            "DescriptionEn": "A composite metal pillar supporting the carrier. It appears to be very sturdy."
+        },
+        {
+            "Key": 2791410126,
+            "NameJp": "管理兼研究デスク",
+            "NameEn": "Management And Research Desk",
+            "DescriptionJp": "施設を管理するためのデスク。場合によっては研究でも使うらしい。",
+            "DescriptionEn": "A desk for managing the facility. It's apparently also used for research in some cases."
+        },
+        {
+            "Key": 1091415642,
+            "NameJp": "降下ポッド",
+            "NameEn": "Drop Pod",
+            "DescriptionJp": "迅速かつ正確に現場へ急行するための降下ポッド。絶叫アトラクションに乗った気分を楽しめる。",
+            "DescriptionEn": "A drop pod to quickly and accurately reach the site. You can enjoy the feeling of riding a thrill ride."
+        },
+        {
+            "Key": 2196376303,
+            "NameJp": "メンテナンスステーション",
+            "NameEn": "Maintenance Station",
+            "DescriptionJp": "機体の修理や武器の整備、弾薬の補給など。あらゆる状況に対応できる万能ステーション。",
+            "DescriptionEn": "For aircraft repairs, weapon maintenance, ammunition supply, and more. A versatile station that can handle any situation."
+        },
+        {
+            "Key": 3626758680,
+            "NameJp": "ゲーム開発部のスペース",
+            "NameEn": "Game Development Department Space",
+            "DescriptionJp": "ゲーム開発部が作った、みんなで集まって自由に過ごせるスペース。たまに遊んでいる姿が見られるらしい。",
+            "DescriptionEn": "A space created by the game development department where everyone can gather and spend time freely. It apparently sees people playing there sometimes."
+        },
+        {
+            "Key": 2736494103,
+            "NameJp": "ミニキッチン",
+            "NameEn": "Mini Kitchen",
+            "DescriptionJp": "お湯を沸かしたり、簡単な料理ができるキッチン。",
+            "DescriptionEn": "A kitchen where you can boil water and cook simple meals."
+        },
+        {
+            "Key": 1601800461,
+            "NameJp": "過ぎ去りし思い出",
+            "NameEn": "Faded Memories",
+            "DescriptionJp": "これはきっと誰かの思い出が残されたもの。そっとそのままにしておいてあげよう。",
+            "DescriptionEn": "This is surely something left behind by someone. Let's leave it as it is."
+        },
+        {
+            "Key": 3653637069,
+            "NameJp": "輸送船の窓",
+            "NameEn": "Carrier Window",
+            "DescriptionJp": "輸送船の窓。\n一面がガラス張りで、見上げられる夜空が美しい。",
+            "DescriptionEn": "A window of the carrier. One side is entirely glass and the night sky above is beautiful."
+        },
+        {
+            "Key": 3157185061,
+            "NameJp": "春告げの人形",
+            "NameEn": "Spring Festival Doll",
+            "DescriptionJp": "レッドウィンターの「春の訪れを祝うお祭り」で使われるという巨大人形。\n冬に別れを告げ、春が訪れる時だ。新しい季節を迎えよう。",
+            "DescriptionEn": "A large doll reportedly used in Red Winter's 'spring festival to celebrate the arrival of spring'. As winter bids farewell and spring arrives, let's welcome the new season."
+        },
+                {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2068822995,
+            "NameJp": "預言者のコア",
+            "NameEn": "Prophet Core",
+            "DescriptionJp": "預言者の情報が記されているコア。分析がうまくいけばその力を利用できるかもしれない。",
+            "DescriptionEn": "A core containing information about the Prophet. If analysis goes well, we may be able to harness its power."
+        },
+        {
+            "Key": 2234324627,
+            "NameJp": "分析USB",
+            "NameEn": "Analysis USB",
+            "DescriptionJp": "コアの分析データを保存したUSB。ごく一部しか分析できなかったが、その情報にはあらゆる可能性が秘められている。",
+            "DescriptionEn": "A USB containing the core's decoded data. Although only a small portion of it was analyzed, the information holds a great deal of potential."
+        },
+        {
+            "Key": 2234324627,
+            "NameJp": "分析USB",
+            "NameEn": "Analysis USB",
+            "DescriptionJp": "コアの分析データを保存したUSB。ごく一部しか分析できなかったが、その情報にはあらゆる可能性が秘められている。",
+            "DescriptionEn": "A USB containing the core's decoded data. Although only a small portion of it was analyzed, the information holds a great deal of potential."
+        },
+        {
+            "Key": 2234324627,
+            "NameJp": "分析USB",
+            "NameEn": "Analysis USB",
+            "DescriptionJp": "コアの分析データを保存したUSB。ごく一部しか分析できなかったが、その情報にはあらゆる可能性が秘められている。",
+            "DescriptionEn": "A USB containing the core's decoded data. Although only a small portion of it was analyzed, the information holds a great deal of potential."
+        },
+        {
+            "Key": 2234324627,
+            "NameJp": "分析USB",
+            "NameEn": "Analysis USB",
+            "DescriptionJp": "コアの分析データを保存したUSB。ごく一部しか分析できなかったが、その情報にはあらゆる可能性が秘められている。",
+            "DescriptionEn": "A USB containing the core's decoded data. Although only a small portion of it was analyzed, the information holds a great deal of potential."
+        },
+
+                {
+            "Key": 225743834,
+            "NameKr": "시로&쿠로 시가전 격파! 2026",
+            "DescriptionKr": "시로&쿠로(시가전) 대결전의 모든 방어 타입을 Hard 난이도 이상으로 처치",
+            "NameJp": "シロ&クロ（市街地戦）撃破！2026",
+            "DescriptionJp": "大決戦シロ&クロ（市街地戦）の全ての防御タイプを難易度Hard以上で倒す",
+            "NameEn": "Shiro & Kuro (Urban) defeated! 2026",
+            "DescriptionEn": "Defeat all defense types of Shiro & Kuro Indoor Warfare [[Grand Assault]] on Hard difficulty or higher."
+        },
+        {
+            "Key": 1764044865,
+            "NameKr": "시로&쿠로 시가전 격파! 2026",
+            "DescriptionKr": "시로&쿠로(시가전) 대결전의 모든 방어 타입을 Hardcore 난이도 이상으로 처치",
+            "NameJp": "シロ&クロ（市街地戦）撃破！2026",
+            "DescriptionJp": "大決戦シロ&クロ（市街地戦）の全ての防御タイプを難易度Hardcore以上で倒す",
+            "NameEn": "Shiro & Kuro (Urban) defeated! 2026",
+            "DescriptionEn": "Defeat all defense types of Shiro & Kuro Indoor Warfare [[Grand Assault]] on Hardcore difficulty or higher."
+        },
+        {
+            "Key": 1141948533,
+            "NameKr": "시로&쿠로 시가전 격파! 2026",
+            "DescriptionKr": "시로&쿠로(시가전) 대결전의 모든 방어 타입을 Extreme 난이도 이상으로 처치",
+            "NameJp": "シロ&クロ（市街地戦）撃破！2026",
+            "DescriptionJp": "大決戦シロ&クロ（市街地戦）の全ての防御タイプを難易度Extreme以上で倒す",
+            "NameEn": "Shiro & Kuro (Urban) defeated! 2026",
+            "DescriptionEn": "Defeat all defense types of Shiro & Kuro Indoor Warfare [[Grand Assault]] on Extreme difficulty or higher."
+        },
+        {
+            "Key": 3869564195,
+            "NameKr": "시로&쿠로 시가전 격파! 2026",
+            "DescriptionKr": "시로&쿠로(시가전) 대결전의 모든 방어 타입을 Insane 난이도 이상으로 처치",
+            "NameJp": "シロ&クロ（市街地戦）撃破！2026",
+            "DescriptionJp": "大決戦シロ&クロ（市街地戦）の全ての防御タイプを難易度Insane以上で倒す",
+            "NameEn": "Shiro & Kuro (Urban) defeated! 2026",
+            "DescriptionEn": "Defeat all defense types of Shiro & Kuro Indoor Warfare [[Grand Assault]] on Insane difficulty or higher."
+        },
+        {
+            "Key": 2043638299,
+            "NameKr": "5th ANNIVERSARY",
+            "DescriptionKr": "5주년 기념 로그인 보너스! 보상",
+            "NameJp": "5th ANNIVERSARY",
+            "DescriptionJp": "5周年記念ログインボーナス！報酬",
+            "NameEn": "5th ANNIVERSARY",
+            "DescriptionEn": "5th Anniversary Login Bonus! Rewards"
+        },
+        {
+            "Key": 2710356036,
+            "NameKr": "Enchanted",
+            "DescriptionKr": "시논의 배틀패스 시즌 2 성장CH+ 구매",
+            "NameJp": "Enchanted",
+            "DescriptionJp": "シノンのバトルパスシーズン2成長CH+購入",
+            "NameEn": "Enchanted",
+            "DescriptionEn": "Purchase Shinon's Battle Pass Season 2 Growth CH+"
+        },
+        {
+            "Key": 2794580162,
+            "NameJp": "ツクヨ（ドレス）の神名文字",
+            "NameEn": "Tsukuyo's (Dress) Eleph",
+            "DescriptionJp": "ツクヨ（ドレス）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Tsukuyo (Dress)."
+        },
+        {
+            "Key": 2128427848,
+            "NameJp": "リオ（臨戦）の神名文字",
+            "NameEn": "Rio's (Battle) Eleph",
+            "DescriptionJp": "リオ（臨戦）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Rio (Battle)."
+        },
+        {
+            "Key": 3827680617,
+            "NameJp": "アリス（臨戦）の神名文字",
+            "NameEn": "Arisu's (Battle) Eleph",
+            "DescriptionJp": "アリス（臨戦）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Arisu (Battle)."
+        },
+        {
+            "Key": 2972407314,
+            "NameJp": "ケイの神名文字",
+            "NameEn": "Kei's Eleph",
+            "DescriptionJp": "ケイの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kei."
+        },
+        {
+            "Key": 3797428018,
+            "NameJp": "トキ（臨戦）の神名文字",
+            "NameEn": "Toki's (Battle) Eleph",
+            "DescriptionJp": "トキ（臨戦）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Toki (Battle)."
+        },
+        {
+            "Key": 1315049350,
+            "NameJp": "ミチル（ドレス）の神名文字",
+            "NameEn": "Michiru's (Dress) Eleph",
+            "DescriptionJp": "ミチル（ドレス）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Michiru's (Dress)."
+        },
+        {
+            "Key": 1778162416,
+            "NameJp": "ヒマリ（臨戦）の神名文字",
+            "NameEn": "Himari's (Battle) Eleph",
+            "DescriptionJp": "ヒマリ（臨戦）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Himari (Battle)."
         }
+
     ]
 }
