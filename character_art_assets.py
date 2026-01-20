@@ -72,21 +72,33 @@ def generate():
 
         #Memorial lobby image
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"{character.memory_lobby.image}.png")
+        local_path_alt = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"Lobbyillust_Icon_{character.dev_name}_01.png")
         if (os.path.exists(local_path)):
             image_internal = f"{character.memory_lobby.image}.png"
             image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}.png"
             copy_wikinamed(local_path, image_target)
             enforce_naming(local_path, image_internal, image_target, 'character memorial lobby')
+        elif (os.path.exists(local_path_alt)):
+            image_internal = f"Lobbyillust_Icon_{character.dev_name}_01.png"
+            image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}.png"
+            copy_wikinamed(local_path_alt, image_target)
+            enforce_naming(local_path_alt, image_internal, image_target, 'character memorial lobby')
         else:
             print(f"WARNING: Character {character.wiki_name} memorial lobby image not found at {local_path}")
 
         #Memorial lobby image small
         local_path = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"{character.memory_lobby.image}_Small.png")
+        local_path_alt = os.path.join(args['data_assets'] ,'Assets/_MX/AddressableAsset/UIs/01_Common/08_Lobbyillust', f"Lobbyillust_Icon_{character.dev_name}_01_Small.png")
         if (os.path.exists(local_path)):
             image_internal = f"{character.memory_lobby.image}_Small.png"
             image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}_Small.png"
             copy_wikinamed(local_path, image_target)
             enforce_naming(local_path, image_internal, image_target, 'character memorial lobby small')
+        elif (os.path.exists(local_path_alt)):
+            image_internal = f"Lobbyillust_Icon_{character.dev_name}_01_Small.png"
+            image_target = f"Lobbyillust_{character.wiki_name.replace(' ', '_')}_Small.png"
+            copy_wikinamed(local_path_alt, image_target)
+            enforce_naming(local_path_alt, image_internal, image_target, 'character memorial lobby small')
         else:
             print(f"WARNING: Character {character.wiki_name} memorial lobby small image not found at {local_path}")
 
