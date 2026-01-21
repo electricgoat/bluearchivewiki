@@ -1,14 +1,24 @@
 {% raw %}{{% endraw %}| class="wikitable"
-!Difficulty
-! class="condensed" |Rec. Level
-!Attack Type
-!Armor Type
+! {%- if boss_data['stage'][0]['boss_characters'] %} rowspan="2" {% endif -%} |Difficulty
+! {%- if boss_data['stage'][0]['boss_characters'] %} rowspan="2" {% endif -%} class="condensed" |Rec. Level
+! {%- if boss_data['stage'][0]['boss_characters'] %} rowspan="2" {% endif -%} class="condensed" |Attack Type
+! {%- if boss_data['stage'][0]['boss_characters'] %} rowspan="2" {% endif -%} class="condensed" |Armor Type
+! {%- if boss_data['stage'][0]['boss_characters'] %} rowspan="2" {% endif -%} |Total HP
+{%- for boss_character in boss_data['stage'][0]['boss_characters'] %} 
+! colspan="7" |{{boss_character.localization['NameEn']}}
+{% endfor -%}
+{%- if boss_data['stage'][0]['boss_characters'] %}
+|-
+{%- endif -%}
+{%- for boss_character in boss_data['stage'][0]['boss_characters'] %} 
 !Boss HP
 !ATK
 !DEF
+!Accuracy
 ! class="condensed" |CRIT RES
 ! class="condensed" |CRIT DMG RES
 ! class="condensed" |Groggy Gauge
+{%- endfor -%}
 
 {%- for stage in boss_data['stage'] %}
 |-
@@ -17,11 +27,19 @@
 |class="bg-element bg-{{stage.character['BulletType']|damage_type|lower}}" |{{stage.character['BulletType']|damage_type}}
 |class="bg-element bg-{{stage.character['ArmorType']|armor_type|lower}}" |{{stage.character['ArmorType']|armor_type}}
 |{{stage.characters_stats['MaxHP100']|thousands}}
-|{{stage.characters_stats['AttackPower100']|thousands}}
-|{{stage.characters_stats['DefensePower100']|thousands}}
-|{{stage.characters_stats['CriticalResistPoint']|thousands}}
-|{{stage.characters_stats['CriticalDamageResistRate']|thousands}}
-|{{stage.characters_stats['GroggyGauge']|thousands}}
+
+
+{%- for boss_character in stage['boss_characters'] %}
+|{{stage.boss_characters_stats[loop.index-1]['MaxHP100']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['AttackPower100']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['DefensePower100']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['AccuracyPoint']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['CriticalResistPoint']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['CriticalDamageResistRate']|thousands}}
+|{{stage.boss_characters_stats[loop.index-1]['GroggyGauge']|thousands}}
+{%- endfor -%}
+
+
 {%- endfor %}
 {% raw %}|}{% endraw %}
 

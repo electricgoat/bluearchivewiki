@@ -34,6 +34,7 @@ BlueArchiveData = collections.namedtuple(
     'strategymaps','goods', 'stages',
     'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
+    'interactive_world_raid_stage', 'interactive_world_raid_status_preset', 'interactive_world_raid_boss_group', 'interactive_world_raid_condition', 'interactive_world_raid_skill_description',
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
     'multi_floor_raid_stage', 'multi_floor_raid_reward', 'multi_floor_raid_stat_change',
     'time_attack_dungeon', 'time_attack_dungeon_geas', 'time_attack_dungeon_reward',
@@ -170,6 +171,11 @@ def load_data(path_primary, path_secondary, path_translation):
         world_raid_stage=           load_file_grouped(path_primary, 'WorldRaidStageExcelTable.json', 'WorldRaidBossGroupId'),
         world_raid_stage_reward=    load_file_grouped(path_primary, 'WorldRaidStageRewardExcelTable.json', 'GroupId'),
         world_raid_boss_group=      load_generic(path_primary, 'WorldRaidBossGroupExcelTable.json', key='WorldRaidBossGroupId'),
+        interactive_world_raid_stage=           load_file_grouped(path_primary, 'InteractiveWorldRaidStageExcelTable.json', 'WorldRaidBossGroupId'),
+        interactive_world_raid_status_preset=   load_file_grouped(path_primary, 'InteractiveWorldRaidStatusPresetExcelTable.json', key='WorldRaidSeasonId'),
+        interactive_world_raid_boss_group=      load_generic(path_primary, 'InteractiveWorldRaidBossGroupExcelTable.json', key='WorldRaidBossGroupId'),
+        interactive_world_raid_condition=       load_file_grouped(path_primary, 'InteractiveWorldRaidConditionExcelTable.json', key='WorldRaidSeasonId'),
+        interactive_world_raid_skill_description=load_generic(path_primary, 'InteractiveWorldRaidSkillDescriptionExcelTable.json', key='Id'),
         eliminate_raid_stage=       load_file_grouped(path_primary, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),#moved out to season data, deprecated 
         eliminate_raid_stage_reward=load_file_grouped(path_primary, 'EliminateRaidStageRewardExcelTable.json', 'GroupId'),
         eliminate_raid_stage_season_reward=load_generic(path_primary, 'EliminateRaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
@@ -306,6 +312,7 @@ def load_combined(path_primary, path_secondary, filename:str, key:str|None='Id',
 
     data_primary = load_generic(path_primary, filename, key, load_db=True, load_multipart=True)
     data_secondary = load_generic(path_secondary, filename, key, load_db=True, load_multipart=True)
+    assert type(data_secondary) == dict, "Secondary data must be a dict for combining"
 
     for index in data_secondary.keys():
         if index not in data_primary:
@@ -321,9 +328,12 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
     data_primary = load_generic(path_primary, filename, key, load_db=True, load_multipart=True)
     data_secondary = load_generic(path_secondary, filename, key, load_db=True, load_multipart=True)
     data_aux = load_file(os.path.join(path_translation, filename), key, load_multipart=False)
+    assert type(data_primary) == dict, "Primary data must be a dict for combining"
+    assert type(data_secondary) == dict, "Secondary data must be a dict for combining"
 
     combined_keys = set(data_primary.keys()).union(data_secondary.keys())
     if data_aux:
+        assert type(data_aux) == dict, "Auxiliary data must be a dict for combining"
         combined_keys = combined_keys.union(data_aux.keys())
         #print(f'Loading additional translations from {os.path.join(path_translation, filename)}')
 
@@ -547,6 +557,7 @@ def load_bgm(path_primary, path_translation):
     if os.path.exists(os.path.join(path_translation, 'BGM.json')):
         print(f'Loading additional translations from {path_translation}/BGM.json')
         data_aux = load_file(os.path.join(path_translation, 'BGM.json'))
+        assert type(data_aux) == dict, "Auxiliary BGM data must be a dict for combining"
 
         for id in data_aux.keys():
             if id in data_primary: data_primary[id] |= (data_aux[id])
@@ -629,7 +640,7 @@ def load_db_scenario_script(path_primary, path_secondary, path_translation):
 
 BlueArchiveSeasonData = collections.namedtuple(
     'BlueArchiveSeasonData',
-    ['raid_season', 'world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
+    ['raid_season', 'world_raid_season', 'interactive_world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
      'event_content_season', 'guide_mission_season',
      'time_attack_dungeon_season',
      'shop_recruit']
@@ -637,13 +648,14 @@ BlueArchiveSeasonData = collections.namedtuple(
 
 def load_season_data(path):
     return BlueArchiveSeasonData(
-        raid_season=            load_generic(path, 'RaidSeasonManageExcelTable.json', key='SeasonId'),
-        world_raid_season=      load_generic(path, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
-        eliminate_raid_season=  load_generic(path, 'EliminateRaidSeasonManageExcelTable.json', key='SeasonId'),
-        eliminate_raid_stage=   load_file_grouped(path, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),
-        multi_floor_raid_season=load_generic(path, 'MultiFloorRaidSeasonManageExcelTable.json', key='SeasonId'),
-        event_content_season=   load_event_content_seasons(path),
-        guide_mission_season=   load_generic(path, 'GuideMissionSeasonExcelTable.json'),
-        time_attack_dungeon_season= load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
-        shop_recruit =          load_generic(path, 'ShopRecruitExcelTable.json'),
+        raid_season=                    load_generic(path, 'RaidSeasonManageExcelTable.json', key='SeasonId'),
+        world_raid_season=              load_generic(path, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
+        interactive_world_raid_season=  load_generic(path, 'InteractiveWorldRaidSeasonManageExcelTable.json', key='SeasonId'),
+        eliminate_raid_season=          load_generic(path, 'EliminateRaidSeasonManageExcelTable.json', key='SeasonId'),
+        eliminate_raid_stage=           load_file_grouped(path, 'EliminateRaidStageExcelTable.json', 'RaidBossGroup'),
+        multi_floor_raid_season=        load_generic(path, 'MultiFloorRaidSeasonManageExcelTable.json', key='SeasonId'),
+        event_content_season=           load_event_content_seasons(path),
+        guide_mission_season=           load_generic(path, 'GuideMissionSeasonExcelTable.json'),
+        time_attack_dungeon_season=     load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
+        shop_recruit =                  load_generic(path, 'ShopRecruitExcelTable.json'),
     )
