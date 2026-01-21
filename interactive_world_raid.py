@@ -14,13 +14,28 @@ from event import Card, wiki_itemcard
 import shared.functions
 
 ignore_item_id = [
-    500100, #bundle of one of: Novice Activity Report / Lesser Enhancement Stone / Booster Ticket / (1 random T1 oopart). All story stages seem to have it     
+    #500100, #bundle of one of: Novice Activity Report / Lesser Enhancement Stone / Booster Ticket / (1 random T1 oopart). All story stages seem to have it     
 ]
 
 noopen_item_id = [
-    100013, #R52 False Sanctuary Alliance Operation Event - Equipment Random Box
-
+    #100013, #R52 False Sanctuary Alliance Operation Event - Equipment Random Box
 ]
+
+rewrap_item_id = { #open-on-pickup gachagroups that we re-pack into relevant items to make output more readable
+        300889: 30000,
+        300890: 30001,
+        300891: 30002,
+        300892: 30003,
+        300893: 40000,
+        300894: 40001,
+        300895: 40002,
+        300896: 40003,
+        300897: 100023,
+        300898: 100024,
+        300899: 100025,
+        300900: 100026,
+        100045: 100014, #R88_R89_Steel Continent Conquest Event_Random Equipment Box
+    }
 
 args = None
 data = None
@@ -86,19 +101,26 @@ def get_equipment_rewards(reward, data):
 
 
 def get_item_rewards(reward, data):
-    global ignore_item_id
+    global ignore_item_id, noopen_item_id, rewrap_item_id
 
     item = data.items[reward['ClearStageRewardParcelUniqueID']]
     print(f"Processing item reward {item['Id']}")
 
     if item['Id'] in ignore_item_id: 
-        print(f"Ignoring item {item['Id']}, listed in ignore_item_id")
+        #print(f"Ignoring item {item['Id']}, listed in ignore_item_id")
         return
 
     if reward['ClearStageRewardProb'] == 0: 
         #print(f"Ignoring item {item['Id']}, drop probability is {reward['ClearStageRewardProb']}")
         return
-
+    
+    if item['Id'] in rewrap_item_id:
+        print(f"Rewrapping item {item['Id']} into {rewrap_item_id[item['Id']]}")
+        item = data.items[rewrap_item_id[item['Id']]]
+        name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']].get('NameEn') or None
+        yield Reward(name_en, 'Other', reward['ClearStageRewardProb'] / 100, reward['ClearStageRewardAmount'], 'Item')
+        return
+    
     name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']]['NameEn'] or None
     if item['ImmediateUse'] and item['Id'] not in noopen_item_id:
         print(f"Item {item['Id']} is ImmediateUse through {item['UsingResultParcelType']}")
@@ -108,19 +130,30 @@ def get_item_rewards(reward, data):
             return
         else:
             print(f"Do not know to process {item['UsingResultParcelType']}")
+    elif item['Id'] in noopen_item_id:
+        print(f"Item {item['Id']} is in noopen_item_id list, not processing as ImmediateUse")
 
     yield Reward(name_en, 'Other', reward['ClearStageRewardProb'] / 100, reward['ClearStageRewardAmount'], reward['ClearStageRewardParcelType'])
 
 def get_character_rewards(reward, data):
     #print (f"Character reward {reward}")
-    #item = data.characters[reward['ClearStageRewardParcelUniqueID']]
-    name_en = reward['ClearStageRewardParcelUniqueID'] in data.translated_characters and data.translated_characters[reward['ClearStageRewardParcelUniqueID']]['PersonalNameEn'] or f"Character {reward['ClearStageRewardParcelUniqueID']}"
+    character = characters[reward['ClearStageRewardParcelUniqueID']]
+    name_en = character.wiki_name
+    #name_en = reward['ClearStageRewardParcelUniqueID'] in data.translated_characters and data.translated_characters[reward['ClearStageRewardParcelUniqueID']]['PersonalNameEn'] or f"Character {reward['ClearStageRewardParcelUniqueID']}"
 
     yield Reward(name_en, 'Other', reward['ClearStageRewardProb'] / 100, reward['ClearStageRewardAmount'], reward['ClearStageRewardParcelType'])
 
 
 def get_gacha_rewards(stage_reward, data):
     gacha_group = GachaGroup('Gacha Group', 'GachaGroup', [Droprate(stage_reward['ClearStageRewardProb'] / 100, stage_reward['ClearStageRewardAmount'])],[])
+
+    id = stage_reward['ClearStageRewardParcelUniqueID']
+    if id in rewrap_item_id:
+        print(f"Rewrapping item {id} into {rewrap_item_id[id]}")
+        item = data.items[rewrap_item_id[id]]
+        name_en = 'NameEn' in data.etc_localization[item['LocalizeEtcId']] and data.etc_localization[item['LocalizeEtcId']].get('NameEn') or None
+        yield Reward(name_en, 'Other', stage_reward['ClearStageRewardProb'] / 100, stage_reward['ClearStageRewardAmount'], 'Item')
+        return
 
     for reward in _get_gacha_rewards(stage_reward['ClearStageRewardParcelUniqueID'], 100, data):
         #yield reward
@@ -259,8 +292,8 @@ def _get_event_rewards(stage, data, reward_group_param):
 
     rewards = data.world_raid_stage_reward[stage[reward_group_param]]
     for reward in rewards:
-        if reward['IsClearStageRewardHideInfo'] == True:
-            continue
+        # if reward['IsClearStageRewardHideInfo'] == True:
+        #     continue
 
         reward_type = reward['ClearStageRewardParcelType']
         #print (reward_type)
