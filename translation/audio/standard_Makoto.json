@@ -3,6 +3,24 @@
         {
             "CharacterId": 20033,
             "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Makoto_Formation_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Makoto_Formation_In_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 20033,
+            "CharacterVoiceGroupId": 20033,
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Makoto_CommonSkill",

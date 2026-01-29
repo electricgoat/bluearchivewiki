@@ -3,6 +3,24 @@
         {
             "CharacterId": 20040,
             "CharacterVoiceGroupId": 20040,
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Satsuki_Formation_In_1",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 20040,
+            "CharacterVoiceGroupId": 20040,
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Satsuki_Formation_In_2",
+            "LocalizeJP": "",
+            "LocalizeEN": ""
+        },
+        {
+            "CharacterId": 20040,
+            "CharacterVoiceGroupId": 20040,
             "LocalizeCVGroup": "CVGroup_CommonSkill",
             "DialogCategory": "CommonSkill",
             "VoiceClip": "Satsuki_CommonSkill",

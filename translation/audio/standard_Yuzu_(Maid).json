@@ -7,7 +7,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "W- When it comes to gaming.. I won't lose"
         },
         {
             "CharacterId": 26009,
@@ -16,7 +16,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "W- Welcome back, Sensei. Yes! This is a game we made!"
         },
         {
             "CharacterId": 26009,
@@ -25,7 +25,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Welcome back, Sensei. There's still quite a lot that needs to be polished but.. Would you give it a try?"
         },
         {
             "CharacterId": 26009,
@@ -34,7 +34,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_3",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Making games can be pretty hard... But it can be pretty fun too"
         },
         {
             "CharacterId": 26009,
@@ -52,7 +52,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "Here I go!"
         },
         {
             "CharacterId": 26009,
@@ -70,7 +70,7 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "We did our best making this so... I hope you'll have fun"
         },
         {
             "CharacterId": 26009,
@@ -79,88 +79,25 @@
             "DialogCategory": "MiniGame",
             "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "We did our best making this so... I hope you'll have fun"
         },
         {
             "CharacterId": 26009,
             "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_GeasGet_1",
+            "LocalizeCVGroup": "CVGroup_Formation_In_1",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuzu_(Maid)_Formation_In_1",
             "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "M- Me!? R- Really?"
         },
         {
             "CharacterId": 26009,
             "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_1",
+            "LocalizeCVGroup": "CVGroup_Formation_In_2",
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuzu_(Maid)_Formation_In_2",
             "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Select_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Shout_3",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_1",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
-        },
-        {
-            "CharacterId": 26009,
-            "CharacterVoiceGroupId": 26009,
-            "LocalizeCVGroup": null,
-            "DialogCategory": "MiniGame",
-            "VoiceClip": "Yuzu_(Maid)_MiniGame_Start_2",
-            "LocalizeJP": "",
-            "LocalizeEN": ""
+            "LocalizeEN": "I- If you're going to be by our side then... I'll..!"
         },
         {
             "CharacterId": 26009,

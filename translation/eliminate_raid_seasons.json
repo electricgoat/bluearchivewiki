@@ -1051,6 +1051,21 @@
       "notes": ""
     },
     "30": {
+      "bosses": [
+        [
+          "Light",
+          "Torment"
+        ],
+        [
+          "Elastic",
+          "Torment"
+        ],
+        [
+          "Special",
+          "Insane"
+        ]
+      ],
+      "challenge_difficulty": "Torment",
       "notes": "Torment difficulty now present on two defense types"
     }
   }
