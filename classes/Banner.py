@@ -137,7 +137,10 @@ class Banner:
     
     @property
     def bannercode(self):
-        code = ','.join([x.wiki_name.replace(' ','_') for x in self.featured_characters]) + '_' 
+        if self.category_type == 'SelectPickupGacha':
+            code = 'Archive_'
+        else:
+            code = ','.join([x.wiki_name.replace(' ','_') for x in self.featured_characters]) + '_' 
         if not self.is_rerun:
             code += 'release'
         else:

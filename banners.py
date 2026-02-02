@@ -31,7 +31,7 @@ UNIQUE_LOBBY_IMAGE_BANNER_ID = {
 		]
 }
 
-EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha']
+EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha', 'SelectPickupFesGacha']
 
 
 args = {}
@@ -159,7 +159,7 @@ def init_banners(region: str):
 			banner.prodnotice_data = None
  
 		banner.featured_characters = [characters[id] for id in banner.info_character_id]
-		if banner_data['CategoryType'] == 'SelectPickupGacha' and banner.selectable_gacha_group_id > 0:
+		if banner_data['CategoryType'] in ['SelectPickupGacha', 'SelectPickupFesGacha'] and banner.selectable_gacha_group_id > 0:
 			#print(f"This is a SelectPickupGacha banner")
 			select_group = data.gacha_select_pickup_group.get(banner.selectable_gacha_group_id, [])
 			banner.featured_characters = [characters[entry['CharacterId']] for entry in select_group]
