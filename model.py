@@ -88,6 +88,12 @@ class Character(object):
         return full_name
     
     @property
+    def full_name_reading_en(self):
+        full_name = f'{self.family_name_reading_en} {self.personal_name_reading_en}'.strip()
+        if self.variant: full_name += ' '+f'({self.variant})'
+        return full_name
+    
+    @property
     def family_name_reading_en(self):
         if self._family_name_reading_en: return self._family_name_reading_en
         return self.family_name_en
@@ -112,7 +118,8 @@ class Character(object):
             'Explosion': 'Explosive',
             'Pierce': 'Penetration',
             'Mystic': 'Mystic',
-            'Sonic': 'Sonic'
+            'Sonic': 'Sonic',
+            'Chemical': 'Chemical'
         }[self._damage_type]
 
     @property
@@ -121,7 +128,8 @@ class Character(object):
             'LightArmor': 'Light',
             'HeavyArmor': 'Heavy',
             'Unarmed': 'Special',
-            'ElasticArmor': 'Elastic'
+            'ElasticArmor': 'Elastic',
+            'CompositeArmor': 'Composite'
         }[self._armor_type]
 
     @property
@@ -169,7 +177,7 @@ class Character(object):
             wiki_name_jp,
             character['DefaultStarGrade'],
             character['School'],
-            character['Club'],
+            character.get('Club'),
             character['TacticRole'],
             character['TacticRange'],
             character['BulletType'],
@@ -200,11 +208,13 @@ class Character(object):
 
 
 class Profile(object):
-    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, age, birthday, height, hobbies, designer, illustrator, lobby_illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
+    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, club, school_year, age, birthday, height, hobbies, designer, illustrator, lobby_illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
         self.family_name_jp = family_name_jp
         self.family_name_ruby_jp = family_name_ruby_jp
         self.personal_name_jp = personal_name_jp
         self.personal_name_ruby_jp = personal_name_ruby_jp
+        self._club = club
+        self.school_year = school_year
         self.age = age
         self._birthday = birthday
         self.height = height
@@ -250,6 +260,10 @@ class Profile(object):
     @property
     def reading(self):
         return f'{self.family_name_ruby_jp} {self.personal_name_jp}'
+    
+    @property
+    def club(self):
+        return CLUBS[self._club] if self._club in CLUBS else self._club
 
     @classmethod
     def from_data(cls, character_id, data):
@@ -279,7 +293,9 @@ class Profile(object):
             profile.get("FamilyNameJp"),
             profile.get("FamilyNameRubyJp"),
             profile.get("PersonalNameJp"),
-            profile.get("PersonalNameRubyJp"),            
+            profile.get("PersonalNameRubyJp"),    
+            profile.get('Club'),
+            profile.get('SchoolYearJp'),        
             localized_strings['CharacterAge'].replace('歳',''),
             profile.get('BirthDay'),
             localized_strings['CharHeight'],
@@ -412,7 +428,8 @@ class Skill(object):
             for skill in data.skills.values():
                 if skill['Level']==1 and skill['GroupId'].startswith(selectable_ex_skill_groups_added[0][:-1]) and skill['GroupId'] not in selectable_ex_skill_groups_added:
                     #print(f'Adding missing Select EX tooltip for {skill["GroupId"]}')
-                    select_ex_tooltip.append(Skill.from_data('CH0294Ex03', data, max_level=5, show_skill_slot='EX'))
+                    select_ex_tooltip.append(Skill.from_data(skill["GroupId"], data, max_level=5, show_skill_slot='EX'))
+
                 
 
 
