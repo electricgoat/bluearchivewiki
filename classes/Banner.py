@@ -130,10 +130,58 @@ class Banner:
         return ','.join([x.wiki_name for x in self.featured_characters]) if self.featured_characters else 'None'
     
     @property
+    def get_name_jp(self):
+        match self.category_type:
+            case 'SelectPickupGacha':
+                return 'Archive Recruitment'
+            case 'SelectPickupLimitedGacha':
+                return 'Encore Recruitment'
+            case 'SelectPickupFesGacha':
+                return 'Anniversary Archive Recruitment'
+            case _:
+                return self.name_jp
+            
+    @property
+    def get_name_en(self):
+        match self.category_type:
+            case 'SelectPickupGacha':
+                return 'Archive Recruitment'
+            case 'SelectPickupLimitedGacha':
+                return 'Encore Recruitment'
+            case 'SelectPickupFesGacha':
+                return 'Anniversary Archive Recruitment'
+            case _:
+                return self.name_en
+            
+    @property
+    def get_name_en_global(self):
+        match self.category_type:
+            case 'SelectPickupGacha':
+                return 'Archive Recruitment'
+            case 'SelectPickupLimitedGacha':
+                return 'Encore Recruitment'
+            case 'SelectPickupFesGacha':
+                return 'Anniversary Archive Recruitment'
+            case _:
+                return self.name_en_global
+            
+    @property
+    def get_name_en_global_rerun(self):
+        match self.category_type:
+            case 'SelectPickupGacha':
+                return 'Archive Recruitment'
+            case 'SelectPickupLimitedGacha':
+                return 'Encore Recruitment'
+            case 'SelectPickupFesGacha':
+                return 'Anniversary Archive Recruitment'
+            case _:
+                return self.name_en_global_rerun
+    
+    @property
     def get_name_global(self):
-        if self.is_rerun and self.name_en_global_rerun != '':
-            return self.name_en_global_rerun
-        return self.name_en_global if self.name_en_global else self.name_en if self.name_en else ''
+        if self.is_rerun and self.get_name_en_global_rerun != '':
+            return self.get_name_en_global_rerun
+        return self.get_name_en_global if self.get_name_en_global else self.get_name_en if self.get_name_en else ''
     
     @property
     def bannercode(self):

@@ -5,8 +5,8 @@
 | Type = {{banner.category_type}}
 | CrossregionId = {{banner.crossregion_id}}
 {% if region=='jp' -%}
-| NameJP = {{banner.name_jp}}
-| NameEN = {{banner.name_en}}
+| NameJP = {{banner.get_name_jp}}
+| NameEN = {{banner.get_name_en}}
 {% else -%}
 | NameEN = {{banner.get_name_global}}
 {% endif -%}
