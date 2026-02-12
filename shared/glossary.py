@@ -10,7 +10,7 @@ CLUBS = {
             'Endanbou': 'Chinese alchemy study group',
             'Class227': 'Class No. 227',
             'HoukagoDessert': 'After-School Sweets Club',
-            'GameDev': 'Game Development Club',
+            'GameDev': 'Game Development Department',
             'Veritas': 'Veritas',
             'Engineer': 'Engineering Department',
             'KnightsHospitaller': 'Rescue Knights',

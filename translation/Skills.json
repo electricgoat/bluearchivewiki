@@ -5096,7 +5096,7 @@
         {
             "GroupId": "CH0189WeaponPassive01",
             "NameEn": "Highly motivated +",
-            "DescriptionEn": "Increase Attack by $1. Futrher increase Attack by $2."
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
         },
         {
             "GroupId": "CH0189ExtraPassive01",
@@ -6944,9 +6944,59 @@
             "GroupId": "CH0335ExtraPassive01",
             "NameEn": "Friends walking together",
             "DescriptionEn": "When the amplifier starts, increase Critical Rate of allies within the amplifier's range by $1 for $2.\nWhen the amplifier ends, $3 of the damage dealt to enemies by allies other than Kei within the amplifier's range is accumulated (up to $4 of Kei's basic attack power).\n(The amount accumulated at the end of the operation is reset on each activation)"
-        }
+        },
 
-        
+        {
+            "GroupId": "CH0336Ex01",
+            "NameEn": "Yu- Yuzu, deploying!",
+            "DescriptionEn": "Reduce the Skill Cost of one other ally by up to $1 for $2 uses of EX skills. (The discount amount is rounded down to the nearest whole number)\nWhen the affected target uses an EX skill, increase their Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0336Public01",
+            "NameEn": "Lock on target and switch!",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Hit Resistance by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0336Passive01",
+            "NameEn": "Extended maintenance",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0336WeaponPassive01",
+            "NameEn": "Extended maintenance +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0336ExtraPassive01",
+            "NameEn": "Once this fight is over...!",
+            "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0337Ex01",
+            "NameEn": "Designated field sniper",
+            "DescriptionEn": "Reload instantly upon activating the skill.\nAssume precision aim stance, enhancing normal attacks to deal $1 damage, and tag one enemy. (Precision aim stance is canceled after $2 seconds has passed or when a normal skill is used)\nEimi (Battle) will prioritize attacking tagged enemies."
+        },
+        {
+            "GroupId": "CH0337Public01",
+            "NameEn": "Sharpshooter",
+            "DescriptionEn": "After performing $1 normal attacks while in a precision aim stance, consume all remaining ammo and deal $2 guaranteed critical damage to one enemy."
+        },
+        {
+            "GroupId": "CH0337Passive01",
+            "NameEn": "Preemptive strike",
+            "DescriptionEn": "Increase Attack Speed by $1."
+        },
+        {
+            "GroupId": "CH0337WeaponPassive01",
+            "NameEn": "Preemptive strike +",
+            "DescriptionEn": "Increase Attack by $1. Increase Attack Speed by $2."
+        },
+        {
+            "GroupId": "CH0337ExtraPassive01",
+            "NameEn": "Frontline specialist",
+            "DescriptionEn": "When in precision aim stance, increase Explosive Efficiency by $1, increase normal attack range by $2; Attack Speed is fixed at $3, but the damage of normal attacks and Normal Skills is multiplied in proportion to the increase in Attack Speed by $4. (The maximum multiplier is reached when Attack Speed Increase is $5)"
+        }
 
     ]
 }

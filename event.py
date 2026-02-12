@@ -290,6 +290,7 @@ def generate():
         print(f"Missing localize_title key {localize_title_key}")
         if localize_title_key == 4164572829: season['LocalizeTitle'] = data.localization[1011309388] #mini event fix, TODO figure out how its key is derived   
         elif localize_title_key == 3349884597: season['LocalizeTitle'] = data.localization[2041289632] #2025 valentines event
+        else: season['LocalizeTitle'] = season['LocalizeName']
 
     if season['LocalizeName'].get('En') != season['LocalizeTitle'].get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{season['LocalizeName'].get('En')}\n Title:{season['LocalizeTitle'].get('En')}")
 
