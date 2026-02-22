@@ -7,9 +7,10 @@ from shared.tag_map import map_tags
 from shared.functions import replace_glossary, replace_units, replace_statnames, statcalc_replace_statname, damage_type as damage_type_glossary
 from shared.glossary import CLUBS, SCHOOLS
 
-#TODO actually query the archive/starndard banners
+#TODO actually query the archive/encore banners
 ARCHIVE_POOL = [
-    "Aru", "Eimi", "Haruna", "Hifumi", "Hina", "Iori", "Maki", "Neru", "Izumi", "Shun", "Sumire", "Tsurugi", "Hibiki", "Karin", "Saya", "Hoshino", "Shiroko", "Mashiro", "Izuna", "Arisu", "Midori", "Cherino", "Yuzu", "Azusa", "Koharu", "Hifumi (Swimsuit)", "Shiroko (Riding)", "Shun (Kid)", "Saya (Casual)", "Asuna (Bunny Girl)", "Natsu", "Ako", "Cherino (Hot Spring)", "Chinatsu (Hot Spring)", "Nodoka (Hot Spring)", "Serika (New Year)", "Sena", "Chihiro"
+    "Aru", "Eimi", "Haruna", "Hifumi", "Hina", "Iori", "Maki", "Neru", "Izumi", "Shun", "Sumire", "Tsurugi", "Hibiki", "Karin", "Saya", "Hoshino", "Shiroko", "Mashiro", "Izuna", "Arisu", "Midori", "Cherino", "Yuzu", "Azusa", "Koharu", "Hifumi (Swimsuit)", "Shiroko (Riding)", "Shun (Kid)", "Saya (Casual)", "Asuna (Bunny Girl)", "Natsu", "Ako", "Cherino (Hot Spring)", "Chinatsu (Hot Spring)", "Nodoka (Hot Spring)", "Serika (New Year)", "Sena", "Chihiro",
+    "Azusa (Swimsuit)", "Mashiro (Swimsuit)", "Hina (Swimsuit)", "Iori (Swimsuit)", "Neru (Bunny Girl)", "Karin (Bunny Girl)", "Aru (New Year)", "Mutsuki (New Year)", "Izuna (Swimsuit)", "Chise (Swimsuit)"
 ]
 missing_skill_localization = None
 
@@ -111,6 +112,14 @@ class Character(object):
         if self.variant: out += ' '+f'({self.variant})'
         return out
 
+    @property
+    def wiki_name_base(self):
+        if self._wiki_name is not None and self._wiki_name != '':
+            return self._wiki_name
+        out = self.personal_name_en
+        #if self.variant: out += ' '+f'({self.variant})'
+        return out
+
 
     @property
     def damage_type(self):
@@ -147,6 +156,8 @@ class Character(object):
     def character_pool(self):
         if self._character_pool == 'regular' and self.wiki_name in ARCHIVE_POOL:
             return 'archive'
+        if self._character_pool == 'limited' and self.wiki_name in ARCHIVE_POOL:
+            return 'encore'
         return self._character_pool
 
     @classmethod
@@ -794,18 +805,20 @@ class Potential(object):
 
 
 class MemoryLobby(object):
-    def __init__(self, image, bgm_id, unlock_level):
+    def __init__(self, image, bgm_id, unlock_level, lobby_id_list = []):
         self.image = image
         self.bgm_id = bgm_id
         self.unlock_level = unlock_level
+        self.lobby_id_list = lobby_id_list
 
 
     @classmethod
     def from_data(cls, character_id, data):
-        #TODO handle multiple loobies (anime specials etc)
-        try: lobby_data = [x for x in data.memory_lobby.values() if x['CharacterId'] == character_id][0]
-        except KeyError: return cls( None, None, 1 )
-        except IndexError: return cls( None, None, 1 )
+        lobby_id_list = [x['Id'] for x in data.memory_lobby.values() if x['CharacterId'] == character_id]
+        try: 
+            lobby_data = data.memory_lobby[lobby_id_list[0]]
+        except KeyError: return cls( None, None, 1, [] )
+        except IndexError: return cls( None, None, 1, [] )
 
         unlock_level = None
         for favor_reward in data.favor_rewards:
@@ -815,7 +828,8 @@ class MemoryLobby(object):
         return cls(
             lobby_data['RewardTextureName'][lobby_data['RewardTextureName'].rfind('/')+1:],
             lobby_data['BGMId'],
-            unlock_level
+            unlock_level,
+            lobby_id_list
         )
 
 

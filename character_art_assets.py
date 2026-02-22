@@ -122,6 +122,25 @@ def generate():
         else:
             print(f"WARNING: Character {character.wiki_name} emblem icon not found at {local_path}")
 
+        #Memorial lobby render
+        if len(character.memory_lobby.lobby_id_list):
+            local_path = os.path.join(args['data_assets'] ,'memorial_lobby_renders', f"{character.memory_lobby.lobby_id_list[0]}.png")
+            if (os.path.exists(local_path)):
+                #image_internal = f"{character.memory_lobby.lobby_id_list[0]}.png"
+                image_target = f"Memorial_Lobby_{character.wiki_name.replace(' ', '_')}.png"
+                copy_wikinamed(local_path, image_target)
+                upload_memolobby(local_path, image_target, 'character memorial lobby render', f"externally rendered image\n[[Category:Memorial lobby images]]\n[[Category:{character.wiki_name_base} images]]")
+
+        if len(character.memory_lobby.lobby_id_list) > 1:
+            print(f"Character {character.wiki_name} has multiple memorial lobbies")
+
+            local_path = os.path.join(args['data_assets'] ,'memorial_lobby_renders', f"{character.memory_lobby.lobby_id_list[1]}.png")
+            if (os.path.exists(local_path)):
+                #image_internal = f"{character.memory_lobby.lobby_id_list[0]}.png"
+                image_target = f"Memorial_Lobby_{character.wiki_name.replace(' ', '_')}_2.png"
+                copy_wikinamed(local_path, image_target)
+                upload_memolobby(local_path, image_target, 'character special memorial lobby render', f"externally rendered image\n[[Category:Memorial lobby images]]\n[[Category:Special memorial lobby images]]\n[[Category:{character.wiki_name_base} images]]")
+
 
 
 def copy_wikinamed(local_path, wikiname):
@@ -148,6 +167,21 @@ def enforce_naming(local_path, old_name, new_name, scope='image', text=''):
     elif not new_name_exists or args['force_upload']:
         print (f"!!! Uploading {local_path} as {new_name}")
         wiki.upload(local_path, new_name, f"{scope} image", text)
+
+
+def upload_memolobby(local_path, file_name, scope='image', text=''):
+    global args 
+
+    #localpath = os.path.join(args['data_assets'], local_name)
+    if not os.path.exists(local_path):
+        print(f'ERROR - Local file not found: {local_path}')
+        return False
+    
+    old_name_exists = wiki.page_exists(f"File:{file_name}")
+    old_name_exists_jpg = wiki.page_exists(f"File:{file_name.replace('.png', '.jpg')}")
+    if (not old_name_exists and not old_name_exists_jpg) or args['force_upload']:
+        print (f"!!! Uploading {local_path} as {file_name}")
+        wiki.upload(local_path, file_name, f"{scope} image", text)
         
 
 

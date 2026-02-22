@@ -14,7 +14,7 @@
 | FamilyNameRubyJp = {{character.profile.family_name_ruby_jp}}
 | Variant = {% if character.variant != None %}{{character.variant}}{% endif %}
 | School = {{character.school}}
-| Club = {{character.profile.club}}
+| Club = {{character.club}}
 | Age = {{character.profile.age}}
 | Birthday = {{character.profile.birthday}}
 | Height = {{character.profile.height}}
