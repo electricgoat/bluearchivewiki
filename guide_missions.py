@@ -6,6 +6,7 @@ import traceback
 #import json
 import copy
 import argparse
+from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -64,17 +65,6 @@ def generate():
             print(f"Missing localize_title key {localize_title_key}")
         
         schedule[region] = template.render(season=season, server=region.upper(), title='Japanese Version' if region=='jp' else 'Global Version' ) 
-
-
-    # localize_description_key =  hashkey(season['InfomationLocalizeCode'])
-    # print(f"localize_description_key {localize_description_key}")
-    # if localize_description_key in data.localization: 
-    #     season['LocalizeDescription'] = data.localization[localize_description_key]
-    #     if 'En' not in data.localization[localize_description_key]: missing_localization.add_entry(data.localization[localize_description_key])
-    # else: 
-    #     season['LocalizeDescription'] = None
-    #     print(f"Missing localize_description key {localize_description_key}")
-
 
 
     missions = copy.copy(data.guide_mission)
@@ -195,19 +185,50 @@ def init_data():
             continue
     
 
+def list_seasons():
+    print ("============ JP seasons ============")
+    print_seasons('jp')
+    print ("============ GL seasons ============")
+    print_seasons('gl')
+
+
+def print_seasons(region: str):
+    seasons = {}
+    now = datetime.now() #does not account for timezone
+
+    for evencontent in regional_data[region].guide_mission_season.values():
+        if evencontent['Id'] not in seasons: 
+            event_name = ''
+            # localize_key = hashkey(evencontent['Name'])
+            # if localize_key in data.localization: 
+            #     event_name = 'En' in data.localization[localize_key] and data.localization[localize_key]['En'] or data.localization[localize_key]['Jp']
+
+            seasons[evencontent['Id']] = {'Name': event_name, 'StartDate': evencontent['StartDate'], 'EndDate': evencontent['EndDate']} 
+            #print (data.localize_code[hashkey(evencontent['Name'])])
+
+    for season in seasons:
+        note = ''
+        opentime = datetime.strptime(seasons[season]['StartDate'], "%Y-%m-%d %H:%M:%S")
+        closetime = datetime.strptime(seasons[season]['EndDate'], "%Y-%m-%d %H:%M:%S")
+
+        if (opentime > now): note = 'future'
+        elif (closetime > now): note = 'current'
+
+        print (f"{str(season).rjust(6, ' ')}: {seasons[season]['StartDate']} ~ {seasons[season]['EndDate']} {note.ljust(8)} {seasons[season]['Name']}")
+
+
 def main():
     global args
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('id', metavar='ID_NUMBER', help='Guide mission id to export')
+    parser.add_argument('id', metavar='ID_NUMBER', nargs='?', default=None, help='Guide mission id to export')
     parser.add_argument('-data_primary', metavar='DIR', help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary', metavar='DIR', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation', metavar='DIR', help='Additional translations directory')
     parser.add_argument('-outdir', metavar='DIR', help='Output directory')
 
     args = vars(parser.parse_args())
-    args['id'] = int(args['id'])
 
     args['data_primary'] = args['data_primary'] == None and '../ba-data/jp' or args['data_primary']
     args['data_secondary'] = args['data_secondary'] == None and '../ba-data/global' or args['data_secondary']
@@ -217,7 +238,12 @@ def main():
 
     try:
         init_data()
-        generate()
+
+        if args['id'] is not None:
+            args['id'] = int(args['id'])
+            generate()
+        else:
+            list_seasons()
 
         missing_localization.write()
         missing_code_localization.write()
