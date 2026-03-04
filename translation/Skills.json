@@ -6996,6 +6996,32 @@
             "GroupId": "CH0337ExtraPassive01",
             "NameEn": "Frontline specialist",
             "DescriptionEn": "When in precision aim stance, increase Explosive Efficiency by $1, increase normal attack range by $2; Attack Speed is fixed at $3, but the damage of normal attacks and Normal Skills is multiplied in proportion to the increase in Attack Speed by $4. (The maximum multiplier is reached when Attack Speed Increase is $5)"
+        },
+
+        {
+            "GroupId": "CH0310Ex01",
+            "NameEn": "I didn't expect that!",
+            "DescriptionEn": "Remove $1 debuff from one ally.\nIncrease Critical Damage of Striker allies by $2 for $3.\nIf a debuff was removed with this skill, the Critical Damage increase effect of this skill is multiplied 3-fold."
+        },
+        {
+            "GroupId": "CH0310Public01",
+            "NameEn": "Boom!",
+            "DescriptionEn": "Every $1, deal $2 damage to enemies in a cone-shaped area.\nDeal $3 additional damage extra-large enemies."
+        },
+        {
+            "GroupId": "CH0310Passive01",
+            "NameEn": "The Art of an All-Nighter",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0310WeaponPassive01",
+            "NameEn": "The Art of an All-Nighter +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0310ExtraPassive01",
+            "NameEn": "The Power of Pajamas",
+            "DescriptionEn": "Increase Attack Speed of all allies by $1."
         }
 
     ]

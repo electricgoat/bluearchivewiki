@@ -15180,9 +15180,9 @@
         {
             "Key": 1649572559,
             "NameJp": "くしゃくしゃの封筒とメモ",
-            "NameEn": "Crumpled Envelope and Note",
+            "NameEn": "Crumpled Bag and Note",
             "DescriptionJp": "少しよれた封筒の中には市販のチョコが入っている。チョコに添えられた、メモの内容は……？",
-            "DescriptionEn": "Inside a slightly wrinkled envelope is store-bought chocolate. But what does the attached note to the chocolate say...?"
+            "DescriptionEn": "Inside a slightly crumpled paper bag is store-bought chocolate. But what does the attached note say...?"
         },
         {
             "Key": 3907944625,
@@ -15267,6 +15267,85 @@
             "NameEn": "Store-bought (?) Chocolate",
             "DescriptionJp": "お店で買ったと主張されているチョコ。\n\n時には真実が違っていても気づいていない振りをする必要がある。",
             "DescriptionEn": "Chocolate that is claimed to have been bought at a store.\n\nSometimes, even if the truth is different, you should pretend not to notice."
+        },
+        {
+            "Key": 2853338239,
+            "NameKr": "출입구 구역",
+            "DescriptionKr": "게임개발부실에 들어오면, 가장 먼저 손님들을 맞이해 주는 장소입니다. 놓인 신발의 개수는 때와 상황에 따라 달라집니다.",
+            "NameJp": "出入口",
+            "NameEn": "Entrance",
+            "DescriptionJp": "ゲーム開発部の部室の出入り口。置かれている靴の数は日によって異なる。",
+            "DescriptionEn": "The entrance to the Game Development Club's clubroom. The number of shoes there varies depending on the day."
+        },
+        {
+            "Key": 2194359054,
+            "NameKr": "휴식 공간",
+            "DescriptionKr": "오래 사용하여 방석이 낡고 해진 소파입니다. 겉모습은 볼품없어도 게임개발부의 안락한 휴식을 도와주는, 없어서는 안 될 가구입니다.",
+            "NameJp": "休憩コーナー",
+            "NameEn": "Rest Area",
+            "DescriptionJp": "使い込まれてクッションがへたってしまったソファ。生活感にあふれているが、ゲーム開発部にとって大切な癒しの家具。",
+            "DescriptionEn": "A sofa with cushions worn out through years of use. It may not look appealing, but it's an essential piece of furniture that helps the Game Development Department relax comfortably."
+        },
+        {
+            "Key": 2190051001,
+            "NameKr": "장식 선반 구역",
+            "DescriptionKr": "게임 개발에 필요한 노트북을 비롯하여 자주 읽는 매뉴얼, 먹다 만 에너지 드링크 캔까지 온갖 물건이 올려져 있는 다용도 선반입니다. 정기적으로 청소를 해도 금세 어질러지고 맙니다.",
+            "NameJp": "ディスプレイ棚",
+            "NameEn": "Display Shelves",
+            "DescriptionJp": "ゲーム開発に必要なノートパソコンやマニュアル、飲みかけのエナジードリンク缶などが並ぶ棚。こまめに掃除しても、すぐに散らかってしまう。",
+            "DescriptionEn": "The shelves are lined with laptops and manuals needed for game development, as well as half-empty cans of energy drinks. No matter how diligently you clean, it quickly becomes cluttered."
+        },
+        {
+            "Key": 2420465823,
+            "NameKr": "게임 공간",
+            "DescriptionKr": "게임개발부의 보물이자 창의력의 근원이라고 할 수 있는 레트로 게임기가 모여 있는 거치대입니다. 오래된 게임 카트리지는 먼지와 충격에 취약하므로 그 어느 곳보다 깨끗하게 관리되고 있습니다.",
+            "NameJp": "ゲームコーナー",
+            "NameEn": "Game Corner",
+            "DescriptionJp": "ゲーム開発部の宝物であり、創作の源でもあるレトロゲームがまとまっているスタンド。古いカートリッジはホコリや衝撃に弱いので、定期的に手入れされている模様。",
+            "DescriptionEn": "This stand houses the Game Development Department's treasured retro games, a source of inspiration for the team. Old cartridges are vulnerable to dust and shock, so they appear to be regularly cleaned."
+        },
+        {
+            "Key": 4038677162,
+            "NameKr": "두툼한 러그 지역",
+            "DescriptionKr": "층간 소음을 방지하기 위해 게임개발부 부실 한 가운데 설치된 두툼한 러그입니다. 격렬한 댄스 게임이나 액션 게임을 진행해도 포근히 충격을 흡수해 줍니다.",
+            "NameJp": "厚手ラグ",
+            "NameEn": "Thick Rug",
+            "DescriptionJp": "防音のために敷かれた厚手のラグ。ゲームに熱中して激しいアクションをとっても、しっかり衝撃を吸収してくれる。",
+            "DescriptionEn": "A thick rug is laid down for soundproofing, it dampens shocks even when you are absorbed in the game and making intense moves."
+        },
+        {
+            "Key": 2856573316,
+            "NameKr": "유즈의 캐비닛 공간",
+            "DescriptionKr": "게임개발부 부장, 유즈의 안락한 쉼터이자 도피처로 사용되는 캐비닛입니다. 밖에서 보기에는 좁아 보여도 하루 이상 버틸 수 있을 만한 오락 거리나 간식 등이 충분히 갖춰져 있습니다.",
+            "NameJp": "ユズのロッカー",
+            "NameEn": "Yuzu's Locker",
+            "DescriptionJp": "ゲーム開発部部長、ユズのくつろぎスペース兼避難所のロッカー。一見すると狭いが、中には1日以上こもっていられるほどの娯楽グッズやお菓子が詰まっている。",
+            "DescriptionEn": "Yuzu, the head of the Game Development Department, uses her locker as a place to relax and as a shelter. It may look small at first glance, but it's packed with enough entertainment items and snacks to keep her cooped up for more than a day."
+        },
+        {
+            "Key": 4243041319,
+            "NameKr": "인벤토리 철제 책장 공간",
+            "DescriptionKr": "자주 쓰지 않는 오락기와 전공 서적 등이 수납된 철제 책장입니다. 책장을 채운 박스 중에는 팬들도 그 존재를 모르는, <테일즈 사가 크로니클>의 한정 굿즈가 담긴 박스도 있습니다.",
+            "NameJp": "インベントリ用スチール書棚",
+            "NameEn": "Steel Inventory Shelving",
+            "DescriptionJp": "あまり使わないゲーム機や専門書が詰まっているスチール製の棚。『テイルズ・サガ・クロニクル』の限定グッズも入っているらしい。",
+            "DescriptionEn": "The steel shelves are filled with rarely used game consoles and technical books. Apparently, they also contain limited edition Tales Saga Chronicle merchandise."
+        },
+        {
+            "Key": 598899268,
+            "NameKr": "다육 화분 성장소",
+            "DescriptionKr": "화분이 놓여 있는 공간입니다. 정성과 애정을 담아 관리되고 있습니다.",
+            "NameJp": "多肉植物の鉢植え",
+            "NameEn": "Potted Succulents",
+            "DescriptionJp": "大切に育てられた鉢植えが並べられているコーナー。",
+            "DescriptionEn": "A corner where carefully cultivated potted plants are lined up."
+        },
+        {
+            "Key": 1519253525,
+            "NameJp": "コユキ（パジャマ）の神名文字",
+            "NameEn": "Koyuki's (Pajama) Eleph",
+            "DescriptionJp": "コユキ（パジャマ）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Koyuki (Pajama)."
         }
 
     ]
