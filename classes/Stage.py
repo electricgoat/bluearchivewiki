@@ -19,7 +19,7 @@ STAR_GOALS = {
 
 
 class Stage(object):
-    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint, star_goal = None):
+    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint, star_goal = None, avg_reward=None, avg_reward_per_ap=None):
         self.id = id
         self.name = name
         self.name_en = name_en
@@ -46,7 +46,8 @@ class Stage(object):
         self.armor_types = armor_types
         self.stage_hint = stage_hint
         self.star_goal = star_goal
-
+        self.avg_reward = avg_reward
+        self.avg_reward_per_ap = avg_reward_per_ap
     def __repr__ (self):
         return f"EventStage:{self.name}"
 
@@ -422,6 +423,113 @@ class WeekDungeonStage(Stage):
             rewards[reward.tag].append(reward)
 
         return dict(rewards)
+    
+
+class WeekDungeonFindGiftStage(Stage):
+
+    @classmethod
+    def get_table_name_stage_rewards(cls):
+        return 'ground_module_reward'
+
+
+    @classmethod
+    def from_data(cls, stage_id, data, wiki_card = None):
+        grounds = []
+        stage = data.week_dungeon[stage_id]
+
+        assert stage['WeekDungeonType'] == "FindGift", f"Expected WeekDungeonType to be 'FindGift' for WeekDungeonFindGiftStage, but got {stage['WeekDungeonType']} for stage {stage['StageId']}"
+        assert stage['GroundId'] > 0, f"FindGift stages should have a GroundId greater than 0, but stage {stage['StageId']} has GroundId {stage['GroundId']}"
+
+        grounds.append(data.ground[stage['GroundId']])
+
+        devname_characters = {x['DevName']:{'Id':x['Id'], 'BulletType':x['BulletType'],'ArmorType':x['ArmorType']} for x in data.characters.values()}
+        spawn_templates = dict()
+        reward_name = ''
+
+        for ground in grounds:
+            stagefile = data.stages[ground['StageFileName'][0]]
+
+            for template in json_find_key(stagefile, 'SpawnTemplateId'):
+                if template != '' and template in devname_characters and template not in spawn_templates:
+                    spawn_templates[template] = devname_characters[template]
+
+        for ground in grounds:
+            for reward in json_find_key(stagefile, 'UniqueName'):            
+                reward_name = reward
+                break
+
+
+        rewards = cls.get_rewards(stage, data, wiki_card, reward_group_id=hashkey(reward_name))
+        enter_cost =  cls.wiki_enter_cost(stage, data)
+
+        avg_reward_credits = sum([parcel.amount * parcel.parcel_prob/10000 for reward_list in rewards.values() for parcel in reward_list]) * 5
+        avg_reward = RewardParcel(
+                'Currency', 
+                1, 
+                int(avg_reward_credits), 
+                10000,
+                "Other",
+                wiki_card=wiki_card,
+                data=data,
+            )
+        avg_reward_per_ap = avg_reward_credits / stage['StageEnterCostAmount']
+
+        name_en = f"{chr(stage['Difficulty'] + 64)}"
+        #name_en = data.localization[shared.functions.hashkey(stage['Name'])].get('En') or data.localization[shared.functions.hashkey(stage['Name'])].get('Jp','Unknown')
+
+        return cls(
+            stage['StageId'],
+            name_en,
+            name_en,
+            0,
+            stage['Difficulty'],
+            stage['Difficulty'],
+            stage['Difficulty'],
+            0,
+            stage['PlayTimeLimitInSeconds'],
+            "",
+            "",
+            stage['StageRewardId'],
+            stage['StageTopography'],
+            stage['RecommandLevel'],
+            None,
+            grounds,
+            "WeekDungeonStage",
+            rewards,
+            enter_cost,
+            # set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
+            # set([armor_type(x['EnemyArmorType']) for x in grounds])
+            set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
+            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
+            '',
+            StarGoal(stage['StarGoal'], stage['StarGoalAmount']),
+            avg_reward=avg_reward,
+            avg_reward_per_ap=round(avg_reward_per_ap, 2)
+        )
+    
+    @classmethod
+    def get_rewards(cls, stage, data, wiki_card, reward_group_id):
+        rewards = {}
+        table_name = cls.get_table_name_stage_rewards()
+        reward_parcels = getattr(data, table_name).get(reward_group_id, [])
+
+        for parcel in [x for x in reward_parcels if x['RewardParcelProbability'] > 0]:
+            reward = RewardParcel(
+                parcel['RewardParcelType'], 
+                parcel['RewardParcelId'], 
+                [parcel['RewardParcelAmount']], 
+                [parcel['RewardParcelProbability']],
+                "Other",
+                wiki_card=wiki_card,
+                data=data,
+            )
+
+            if reward.tag not in rewards:
+                rewards[reward.tag] = []
+            rewards[reward.tag].append(reward)
+
+        return dict(rewards)
+    
 
 
 def json_find_key(json_input, lookup_key):

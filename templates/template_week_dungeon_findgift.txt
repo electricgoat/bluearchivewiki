@@ -1,0 +1,22 @@
+{% raw %}{{% endraw %}| class="wikitable limitwidth-1024 stagetable"
+|+ {{dungeon_type}}
+!Stage
+!Level
+!Entry cost
+!style="font-stretch: condensed;" |Environment
+!style="font-stretch: condensed;" |Enemy armor
+!Rewards
+!style="font-stretch: condensed;" |Average reward
+!style="font-stretch: condensed;" |Average {% raw %}{{{% endraw %}ItemCard|Credits|text={% raw %}}}{% endraw %}/AP
+{% for stage in stages -%}
+|-
+|{{stage.name_en}}
+|{{stage.rec_level}}
+|{{stage.wiki_enter_cost}}
+|{{stage.wiki_topography()}}
+| class="bg-element" |{% for armor_type in stage.armor_types %}<span class="{{armor_type.lower()}}">{{armor_type}}</span><br>{% endfor %}
+|<div class="rewards">{% for reward_parcel in stage.rewards['Other'] %}{{reward_parcel.wikitext}}{% endfor %}</div>
+|{{stage.avg_reward.wikitext}}
+|{{stage.avg_reward_per_ap}}
+{% endfor -%}
+{% raw %}|}{% endraw %}
