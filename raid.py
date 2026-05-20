@@ -18,9 +18,8 @@ from raid_seasons import RAIDS, SEASON_IGNORE, SEASON_NOTES
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
-args = None
+args = {}
 
-data = None
 characters = {}
 items = {}
 furniture = {}
@@ -43,6 +42,7 @@ def wiki_card(type: str, id: int, **params):
 def get_raid_boss_data(group):
     global args, data, season_data
     global missing_skill_localization
+    global missing_etc_localization
 
     boss_data = {}
 
@@ -53,6 +53,15 @@ def get_raid_boss_data(group):
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
         stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization)
+
+        stage['boss_characters'] = [data.characters[x] for x in stage['BossCharacterId']]
+        stage['boss_characters_stats'] = [data.characters_stats[x] for x in stage['BossCharacterId']]
+        stage['boss_characters_skills'] = [get_boss_skills(data.costumes[data.characters[x]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization) for x in stage['BossCharacterId']]
+
+        for boss_character in stage['boss_characters']:
+            boss_character['localization'] = data.etc_localization.get(boss_character['LocalizeEtcId'])
+            if 'NameEn' not in boss_character['localization'] and boss_character['localization'].get('NameJp', "") != "":
+                missing_etc_localization.add_entry(boss_character['localization'])
     
     return boss_data
 

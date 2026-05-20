@@ -7203,6 +7203,32 @@
             "GroupId": "CH0174ExtraPassive01",
             "NameEn": "Sniper's intuition",
             "DescriptionEn": "Increase Attack by $1.\nNormal attack and Normal Skill damage is multiplied $2-fold in proportion to the EX Skill damage buff. (the maximum value is applied when the EX Skill damage buff is $3)"
+        },
+
+        {
+            "GroupId": "CH0076Ex01",
+            "NameEn": "This one!",
+            "DescriptionEn": "Remove $1 debuffs from one ally, heal them for $2, and gain Keychains for each debuff removed. (Keychains stack up to a maximum of 3)"
+        },
+        {
+            "GroupId": "CH0076Public01",
+            "NameEn": "Here, a present",
+            "DescriptionEn": "Upon obtaining 3 Keychains, consume all of them to increase the Critical Damage of Striker allies by $1 for $2. (Cooldown: $3)"
+        },
+        {
+            "GroupId": "CH0076Passive01",
+            "NameEn": "Here's a bandage",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0076WeaponPassive01",
+            "NameEn": "Here's a bandage +",
+            "DescriptionEn": "Increase Healing  by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0076ExtraPassive01",
+            "NameEn": "A sparkling☆ vibe?",
+            "DescriptionEn": "Increase the Critical Damage of Attacker allies by $1."
         }
 
 

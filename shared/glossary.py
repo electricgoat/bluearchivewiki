@@ -39,7 +39,7 @@ CLUBS = {
             'LaborParty': 'Labor Party',
             'KnowledgeLiberationFront': 'Knowledge Liberation Front',
             'Hyakkayouran': 'Hyakkaryouran',
-            'ShinySparkleSociety': 'Shiny Sparkle Society',
+            'ShinySparkleSociety': 'Twinkle Twinkle Club', # 'Shiny Sparkle Society'
             'AbydosStudentCouncil': 'Abydos Student Council',
             'CentralControlCenter': 'CCC',
             'FreightLogisticsDepartment': 'Freight Logistics Department',

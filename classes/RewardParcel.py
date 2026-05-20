@@ -72,7 +72,7 @@ class RewardParcel(object):
                 assert(self._data != None)
                 gg = GachaGroup.from_id(self.parcel_id, self._data)
                 items_list += gg.contents
-            case 'Item' | 'Currency' | 'Equipment' | 'Character':
+            case 'Item' | 'Currency' | 'Equipment' | 'Character' | 'Emblem':
                 items_list.append(GachaElement(0, 0, self.parcel_type, self.parcel_id, '', self.amount, self.amount, 1, 1)) 
             case _:
                 print(f"Unknown parcel type {self.parcel_type}")
