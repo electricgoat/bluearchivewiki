@@ -11,7 +11,7 @@ import collections
 #import wikitextparser as wtp
 import wiki
 
-from data import load_data
+from data import load_data, load_scenario_data
 from model import Character, Furniture
 # import shared.functions
 # from shared.CompareImages import compare_images
@@ -22,7 +22,8 @@ Interaction = collections.namedtuple(
 )
 
 data = None
-args = None
+scenario_data = None
+args = {}
 characters = {}
 devname_map = None
 
@@ -61,12 +62,13 @@ def enforce_naming(local_path, file_wikiname, move_from, scope='image'):
 
 
 def generate():
-    global data, args, characters
+    global data, scenario_data, args, characters
     global devname_map
 
     portrait_catalog =  [x for x in os.listdir(os.path.join(args['data_assets'], 'Assets/_MX/AddressableAsset/UIs/01_Common/01_Character')) if x.endswith('.png')]
     portrait_catalog_lc = [x.casefold() for x in portrait_catalog]
 
+    scenario_character_portrait_by_sprite = {x['SpinePrefabName'].rsplit('/')[-1].replace('CharacterSpine_', '').lower():{'portrait': x['SmallPortrait'].rsplit('/')[-1]} for x in scenario_data.scenario_character_name.values()}
 
     for sprname, char in devname_map.items():
         npc_wikiname =  char['firstname'] + (char['variant'] and f" ({char['variant']})" or '')
@@ -76,7 +78,8 @@ def generate():
         if 'portrait' in args['type']:
             file_sourcename = None
             file_wikiname = f"Portrait_{npc_wikiname.replace(' ', '_')}.png"
-            sourcenames = [f"Student_Portrait_{sprname}.png", f"NPC_Portrait_{sprname}.png"]
+            sourcenames = {f"Student_Portrait_{sprname}.png", f"NPC_Portrait_{sprname}.png"}
+            if sprname.lower() in scenario_character_portrait_by_sprite: sourcenames.add(f"{scenario_character_portrait_by_sprite[sprname.lower()]['portrait']}.png")
 
             for sourcename in sourcenames:
                 if sourcename.casefold() in portrait_catalog_lc: file_sourcename = sourcename
@@ -90,7 +93,7 @@ def generate():
         if 'portrait_small' in args['type']:
             file_sourcename = None
             file_wikiname = f"Portrait_{npc_wikiname.replace(' ', '_')}_Small.png"
-            sourcenames = [f"Student_Portrait_{sprname}_Small.png", f"NPC_Portrait_{sprname}_Small.png"]
+            sourcenames = {f"Student_Portrait_{sprname}_Small.png", f"NPC_Portrait_{sprname}_Small.png"}
 
             for sourcename in sourcenames:
                 if sourcename.casefold() in portrait_catalog_lc: file_sourcename = sourcename
@@ -122,11 +125,14 @@ def load_file(path: str, file: str):
 
 
 def init_data():
-    global args, data
+    global args, data, scenario_data
     global characters
     global devname_map
     
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
+
+    scenario_data = load_scenario_data(args['data_primary'], args['data_secondary'], args['translation'])
+    
 
     # season_data['jp'] = load_season_data(args['data_primary'])
     # season_data['gl'] = load_season_data(args['data_secondary']) 
