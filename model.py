@@ -128,7 +128,7 @@ class Character(object):
             'Pierce': 'Penetration',
             'Mystic': 'Mystic',
             'Sonic': 'Sonic',
-            'Chemical': 'Chemical'
+            'Chemical': 'Corrosive'
         }[self._damage_type]
 
     @property

@@ -39,6 +39,7 @@ def damage_type(type):
         'Pierce': 'Penetration',
         #'Mystic': 'Mystic',
         #'Sonic': 'Sonic'
+        'Chemical': 'Corrosive',
     }[type]
 
 
@@ -48,7 +49,8 @@ def armor_type(type):
         'LightArmor': 'Light',
         'HeavyArmor': 'Heavy',
         'Unarmed': 'Special',
-        'ElasticArmor': 'Elastic'
+        'ElasticArmor': 'Elastic',
+        'CompositeArmor': 'Composite',
     }[type]
 
 
