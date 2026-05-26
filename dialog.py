@@ -295,77 +295,6 @@ def generate():
 
 
 
-def generate_scandir():
-    global args
-    global data, scenario_data
-
-    voice_by_path = {
-        path: item
-        for item in data.voice.values()
-        for path in item["Path"]
-    }
-
-    character_dialog_by_voice_id = {
-        voice_id:item
-        for item in data.character_dialog
-        for voice_id in item['VoiceId']
-    }
-    
-    character_wikiname = args['character_wikiname'][0]
-
-    file_list = {
-        x.split('.')[0]: {
-            'localpath':    os.path.join('Audio/VOC_JP/', args['scandir']+'/', x),
-            'respath':      os.path.join('Audio/VOC_JP/', args['scandir']+'/', x.split('.')[0]) ,
-            'voice_id': None,
-            'is_character_dialog': False,
-            'wikitext_voice_title': x.split('.')[0].split('_',1)[-1],
-            'wikitext_voice_clips': x
-        }
-        for x in os.listdir(os.path.join(args['data_audio'], 'Audio', 'VOC_JP',  args['scandir']))
-    }
-    print(f"Found {len(file_list)} files")
-
-
-    unmatched_voice = []
-    unmatched_dialog = []
-    for name, file in file_list.items():
-        file['voice_id'] = file['respath'] in voice_by_path and voice_by_path[file['respath']]['Id'] or None
-        file['is_character_dialog'] =  file['voice_id'] and file['voice_id'] in character_dialog_by_voice_id
-
-        if file['voice_id'] is None: unmatched_voice.append(name)
-        if not file['is_character_dialog']: unmatched_dialog.append(name)
-    print(f"Matched {len(file_list)-len(unmatched_voice)}/{len(file_list)} entries in Voice")
-    print(f"Matched {len(file_list)-len(unmatched_dialog)}/{len(file_list)-len(unmatched_voice)} entries in CharacterDialog")
-
-
-    env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    env.filters['html'] = Dialog.html
-    template = env.get_template('templates/template_npc_dialog.txt')
-
-    with open(os.path.join(args['outdir'], f"npc_{character_wikiname}_dialog.txt"), 'w', encoding="utf8") as f:
-        wikitext = template.render(
-            character_wikiname=character_wikiname, 
-            file_list=file_list, 
-            character_dialog = character_dialog_by_voice_id
-            )
-        f.write(wikitext)
-        
-
-    if wiki.site != None:
-        process_files_npc(character_wikiname, file_list)
-
-        wikipath = character_wikiname + '/audio'
-
-        if args['wiki_section'] != None:
-            #print(f"Updating section {args['wiki_section']} of {wikipath}")
-            wiki.update_section(wikipath, args['wiki_section'], wikitext)
-        elif not wiki.page_exists(wikipath, wikitext):
-            print(f'Publishing {wikipath}')
-            #wiki.publish(wikipath, wikitext, f'Generated NPC audio page')
-
-
-
 def scavenge(character):
     global args, data
     assert(wiki.site != None)
@@ -586,7 +515,6 @@ def get_event_ccg_lines(character, files, dialog_category, maindir=None) -> list
 
 
 
-
 def get_memorial_lines(character, dialog_data, files_scandir, character_code) -> list[Dialog]:
     global data
     lines:list[Dialog] = []
@@ -710,48 +638,7 @@ def process_files(character, dialog:Dialog, page_list:list):
             wiki.upload(os.path.join(args['data_audio'], localfilename), 
                         wikiname, 
                         'Character dialog upload', 
-                        wikitext)
-            
-
-def process_files_npc(character_wikiname:str, file_list:dict):
-    global args
-
-    if wiki.site == None: return
-
-    page_list = wiki.page_list(f"File:{character_wikiname}")
-    page_list_lower = [x.lower() for x in page_list]
-
-    for file, line in file_list.items():
-        wikiname = f"File:{line['wikitext_voice_clips']}"
-        wikitext = f"[[Category:NPC dialog]]\r\n[[Category:{character_wikiname} dialog]]"
-
-        localfilename = None
-        if os.path.exists(os.path.join(args['data_audio'], line['localpath'])): localfilename = line['localpath']
-        elif os.path.exists(os.path.join(args['data_audio'], line['localpath'].lower())): localfilename = line['localpath'].lower()
-        if localfilename is None:
-            print(f"Local file not found at {os.path.join(args['data_audio'], line['localpath'])}")
-            continue
-        
-        if wikiname in page_list: 
-            print(f"{wikiname} is already in known pages list")
-            if args['update_files'] and not wiki.page_exists(wikiname, wikitext): 
-                wiki.publish(wikiname, wikitext, 'Updated audio categories')
-                print('... updated file categories.')
-            continue
-
-        if wikiname.lower() in page_list_lower:
-            i = page_list_lower.index(wikiname.lower())
-            print(f"{wikiname} is in known pages list, but capitalized as {page_list[i]}")
-            wiki.move(page_list[i], wikiname, 'Name capitalization changed', noredirect=False)
-            #no continue here because we will try and upload the new file on the chance its data changed
-        
-        
-        print (f"Uploading {localfilename} → {line['wikitext_voice_clips']}")
-        wiki.upload(os.path.join(args['data_audio'], localfilename), 
-                    line['wikitext_voice_clips'], 
-                    'NPC dialog upload', 
-                    wikitext)
-
+                        wikitext)     
 
 
 def dump_missing_standard_translations(character:Character, lines:list[Dialog]):
@@ -799,13 +686,12 @@ def main():
     parser.add_argument('-data_audio',      metavar='DIR', required=True, help='Audio files directory')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
-    parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
+    parser.add_argument('-character_id',    nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
-    parser.add_argument('-scandir', nargs='?', default=None, type=str, metavar='DIR', help='Skip character export logic; try to match files within specified directory directly')
     parser.add_argument('-wiki', nargs=2,   metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki')
     parser.add_argument('-wiki_section',    metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-update_files',    action='store_true', help='Check audio file wikitext and update it')
-    parser.add_argument('-force_upload',  action='store_true', help='Try reuploading files even if one already exists.')
+    parser.add_argument('-force_upload',    action='store_true', help='Try reuploading files even if one already exists.')
     parser.add_argument('-scavenge',        action='store_true', help='Parse existing standard line transcriptions from the wikidata')
 
     args = vars(parser.parse_args())
@@ -820,13 +706,7 @@ def main():
 
     try:
         init_data()
-
-        if  args['scandir'] is None:
-            generate()
-        elif args['character_wikiname'] is None:
-            print(f"character_wikiname needs to be specified when using -scandir")
-        else:
-            generate_scandir()
+        generate()
     except:
         parser.print_help()
         traceback.print_exc()
