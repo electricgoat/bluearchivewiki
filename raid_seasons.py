@@ -34,6 +34,7 @@ RAIDS = {
     'EN0010':           Raid('Decagrammaton: Geburah', 'Geburah', 'Outdoors'),
     'EN0011':           Raid('Decagrammaton: Tiphareth', 'Tiphareth', 'Indoors'),
     'EN0013':           Raid('Decagrammaton: Yesod', 'Yesod', 'Urban'),
+    'EN0022':           Raid('The Library of Lore: Drumbarka', 'Drumbarka', 'Urban'),
 }
 
 SEASON_IGNORE = {

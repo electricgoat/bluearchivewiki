@@ -44,7 +44,7 @@ force_voice_group_link = {
 
 STANDARD_LINE_TYPES = [ #those do not have ingame transcriptions
             'Formation', 'Formchange', 'Tactic', 'Battle', 'CommonSkill', 'CommonTSASkill', 'ExSkill', 'Summon', 'Growup', 'Relationship'] 
-EVENT_STANDARD_LINE_TYPES = [ 'EventLocation', 'EventMission', 'Minigame', 'MiniGame' ] 
+EVENT_STANDARD_LINE_TYPES = [ 'EventLogin', 'EventLobby', 'EventLocation', 'EventMission', 'Minigame', 'MiniGame', 'Carrier' ] 
 EVENT_CCG_LINE_TYPES = [ 'Cardgame_Act' ] 
 
 
@@ -165,8 +165,8 @@ def generate():
                     line['CostumeUniqueId'] = character.costume['CostumeUniqueId']
                     line['DialogCategory'] = 'UILobbySpecial'
                     line['GroupId'] = 0 
-                    line['LocalizeJP'] = re.sub(r"\[.*?\]", "", line['TextJp'].replace('― ',''), 0)
-                    line['LocalizeEN'] = re.sub(r"\[.*?\]", "", line['TextEn'].replace('— ','').replace('― ',''), 0)
+                    line['LocalizeJP'] = re.sub(r"\[.*?\]", "", line['TextJp'].replace('― ',''), count=0)
+                    line['LocalizeEN'] = re.sub(r"\[.*?\]", "", line['TextEn'].replace('— ','').replace('― ',''), count=0)
                     line['VoiceId'] = []
                     
                     memorial_unlock.append(line)
@@ -262,7 +262,7 @@ def generate():
         for line in ccg_lines:
             process_files(character, line, page_list)
 
-        
+
         missing_sl_jp_count = len([x for x in standard_lines if x.wiki_localization_jp==''])
         missing_sl_en_count = len([x for x in standard_lines if x.wiki_localization_en==''])
         print (f"Missing standard lines text counts JP: {missing_sl_jp_count}, EN: {missing_sl_en_count}")

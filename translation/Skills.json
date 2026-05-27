@@ -7229,8 +7229,59 @@
             "GroupId": "CH0076ExtraPassive01",
             "NameEn": "A sparkling☆ vibe?",
             "DescriptionEn": "Increase the Critical Damage of Attacker allies by $1."
-        }
+        },
 
+        {
+            "GroupId": "CH0246Ex01",
+            "NameEn": "Explosive Minuet",
+            "DescriptionEn": "Deal $1 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0246Public01",
+            "NameEn": "Watch your step!",
+            "DescriptionEn": "Every $1, reduce Critical Damage Resistance of enemies within a circular area by $2 for $3.\nDeal $5 damage to enemies within a circular area every $4, for $6."
+        },
+        {
+            "GroupId": "CH0246Passive01",
+            "NameEn": "It's gonna get even better, you know?",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0246WeaponPassive01",
+            "NameEn": "It's gonna get even better, you know? +",
+            "DescriptionEn": "Increase Defense Penetration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0246ExtraPassive01",
+            "NameEn": "Let's play together!",
+            "DescriptionEn": "Increase Attack of allied Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0247Ex01",
+            "NameEn": "I will surrender myself to this",
+            "DescriptionEn": "Deal $1 damage to one enemy. (This attack ignores $2 of the enemy Defense)\nDeal fixed damage of $3 max HP to self. (This effect can't make Haruka retreat from battle)"
+        },
+        {
+            "GroupId": "CH0247Public01",
+            "NameEn": "Like flowers blooming",
+            "DescriptionEn": "Every $1, increases Attack by $2 for $3.\nHeal for $4 of Healing. (Healing amount is multiplied by x1-2 depending on current HP; the lower the HP, the greater the healing amount)"
+        },
+        {
+            "GroupId": "CH0247Passive01",
+            "NameEn": "The weed's desire",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0247WeaponPassive01",
+            "NameEn": "The weed's desire +",
+            "DescriptionEn": "Increase Critical Damage by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0247ExtraPassive01",
+            "NameEn": "Please disappear, please disappear!",
+            "DescriptionEn": "When damage is taken, gain 1 \"I Will Not Forgive\" for $1. (Cooldown: $2)\n\"I Will Not Forgive\" can stack up to a maximum of $3, and each \"I Will Not Forgive\" increases Critical Damage by $4."
+        }
 
     ]
 }
