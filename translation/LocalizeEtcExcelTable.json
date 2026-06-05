@@ -16239,6 +16239,113 @@
             "NameEn": "Mutsuki's (Dress) Eleph",
             "DescriptionJp": "ムツキ（ドレス）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Mutsuki (Dress)."
+        },
+        {
+            "Key": 3692890223,
+            "NameJp": "イベントPt",
+            "NameEn": "Event Points",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得できる。",
+            "DescriptionEn": "Points obtained through events. Acquiring many allows you to get various rewards."
+        },
+        {
+            "Key": 1796767250,
+            "NameJp": "クーリングパック",
+            "NameEn": "Cooling Pack",
+            "DescriptionJp": "衝撃を加えると瞬時に冷却効果を発揮するクーリングパック。暑い夏の日の必需品。",
+            "DescriptionEn": "A cooling pack that instantly provides a cooling effect when squeezed. An essential item on hot summer days."
+        },
+        {
+            "Key": 3936351402,
+            "NameJp": "SRT小隊用レーション",
+            "NameEn": "SRT Combat Ration",
+            "DescriptionJp": "SRT学園で支給されていた小隊用レーション。熱湯を注いで待てば簡単に食事ができる。保存性が高く、SRT学園閉鎖後も時折ブラックマーケットで取引されている。",
+            "DescriptionEn": "This is a platoon ration that was issued at SRT Academy. It can be easily prepared by simply adding hot water and waiting. It has a long shelf life and is occasionally traded on the black market even after SRT Academy closed."
+        },
+        {
+            "Key": 960254150,
+            "NameJp": "キュウリ味の歯磨き粉",
+            "NameEn": "Cucumber-Flavored Toothpaste",
+            "DescriptionJp": "SRT学園で支給されていた低価格の歯磨き粉。キュウリのさわやかな香りが特徴だが、独特すぎて好き嫌いが大きく分かれた。多くの生徒は歯磨きではなく、装備を磨くのに使っていたという……。",
+            "DescriptionEn": "An inexpensive toothpaste provided at SRT Academy. It's characterized by the fresh scent of cucumber, but this unique flavor created a strong divide in opinions. It is said that many students opted not to use it for brushing their teeth, but for polishing their equipment…"
+        },
+                {
+            "Key": 2228122147,
+            "NameKr": "SRT식 설득법",
+            "DescriptionKr": "2부 로어추적 편 2장 9화 클리어",
+            "NameJp": "SRT式尋問法",
+            "DescriptionJp": "第2部ロア追跡編2章9話クリア",
+            "NameEn": "SRT-Style Interrogation Method",
+            "DescriptionEn": "Lore Pursuit Part 2 Chapter 2-9 Cleared"
+        },
+        {
+            "Key": 3856217901,
+            "NameKr": "특수작전: 로어추적 편",
+            "DescriptionKr": "2026-06-10 10:59:59까지 진행하는 특수작전: 로어추적 편 이벤트에서 획득 가능",
+            "NameJp": "特殊作戦・ロア追跡編",
+            "DescriptionJp": "2026-06-10 10:59:59まで実施される特殊作戦・ロア追跡編イベントにて獲得可能",
+            "NameEn": "Special Operation: Lore Pursuit",
+            "DescriptionEn": "Available from the Special Operation: Lore Pursuit event held until 2026-06-10 10:59:59"
+        },
+        {
+            "Key": 1472027894,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "스위퍼가 처치될 때마다 다른 방어 타입의 스위퍼가 소환됩니다.\n스위퍼와 방어 타입이 다른 적은 피해를 매우 적게 받습니다.\n\n스위퍼를 처치하여 등장한 적과 동일한 방어 타입의 스위퍼를 소환한 후 적을 처치하세요.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "スイーパーが倒れる度に、他の防御タイプのスイーパーが召喚されます。\nスイーパーと防御タイプが異なる他の敵は被ダメージ量が大幅に減少します。\n\nスイーパーを倒して登場した敵と同じ防御タイプのスイーパーを召喚した後、敵を倒しましょう。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "Each time a Sweeper is defeated, another Sweeper with a different defense type is summoned.\nEnemies with a different defense type from the Sweeper take significantly reduced damage.\n\nDefeat the Sweeper and summon a Sweeper with the same defense type as the enemy that appears, then defeat the enemy."
+        },
+        {
+            "Key": 3165699134,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "보스인 하루카(드레스)의 공격 타입과 방어 타입을 고려하여 편성하세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "ハルカ（ドレス）の攻撃タイプと防御タイプを踏まえて編成しましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Form your team while considering Haruka (Dress)'s attack and defense types."
+        },
+        {
+            "Key": 2899464306,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "적 보스는 카르파초 조직원을 이용하여 자신의 공격력과 방어력을 대폭 강화합니다.\n기절한 카르파초 조직원은 EX 스킬로 처치할 수 있습니다.\n\n카르파초 조직원을 우선적으로 처치하여 보스를 약화시킨 후 전투를 진행해 보세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "敵ボスはカルパッチョ・ファミリー組織員を利用して自身の攻撃力と防御力を大幅に強化します。\n気絶したカルパッチョ・ファミリー組織員はEXスキルで倒すことができます。\n\n先にカルパッチョ・ファミリー組織員を倒して、ボスを弱体化してから戦闘を進めましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "The enemy boss greatly strengthens its attack and defense by utilizing Carpaccio Family members.\nStunned Carpaccio Family members can be defeated with EX skills.\n\nFirst defeat the Carpaccio Family members to weaken the boss, then proceed with the battle."
+        },
+        {
+            "Key": 1993701024,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "해로운 효과 제거 스킬을 사용해 아군 쿠마봇과 우사기봇의 해로운 효과를 모두 제거하면 빙결이 해제됩니다.\n보스는 받는 대미지량이 크게 감소하지만, 보스를 공격하고 있는 쿠마봇과 우사기봇의 수에 따라 받는 대미지량이 증가합니다. (쿠마봇은 우사기봇 보다 더 큰 폭으로 보스의 받는 대미지량을 증가시킵니다.)\n\n보스는 강력한 광역 스킬과 공격력 감소 효과를 사용하니, 우사기봇과 쿠마봇을 보호하면서 해로운 효과 제거 스킬을 활용하며 전투를 진행해 보세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "弱体状態を解除するスキルを使用して、味方くまロボとうさロボの弱体状態をすべて解除した場合、凍結が解除されます。\nボスは被ダメージ量が大幅に減少しますが、ボスを攻撃するくまロボとうさロボの数によって被ダメージ量が増加します。（くまロボは、うさロボより大幅にボスの被ダメージ量を増加させます）\n\nボスは強力な広範囲スキルと攻撃力減少効果を使用するため、くまロボとうさロボを守りながら、弱体状態解除スキルを活用しつつ、戦闘を進めましょう。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "If you use a skill to remove debuffs and remove all debuffs from your allied bear robots and rabbit robots, the freeze effect will be removed.\nThe boss will take significantly less damage, but the amount of damage it takes increases depending on the number of bear robots and rabbit robots attacking it.\n(Bear robots increase the amount of damage the boss takes significantly more than rabbit robots.) The boss uses powerful wide-area skills and attack reduction effects, so protect your bear robots and rabbit robots while making use of debuff removal skills as you progress through the battle."
+        },
+        {
+            "Key": 892388351,
+            "NameJp": "リコレクト・メモリー-ive aLIVE!交換チケット",
+            "NameEn": "Recollection・-ive aLIVE! Exchange Ticket",
+            "DescriptionJp": "獲得後、リコレクト・メモリー-ive aLIVE!に交換できるチケット。既に保有している場合、代わりに30,000クレジットを獲得します。",
+            "DescriptionEn": "A ticket that can be exchanged for Recollection・-ive aLIVE! machine after acquisition. If you already own it, you will receive 30,000 Credits instead."
+        },
+        {
+            "Key": 3130709227,
+            "NameKr": "드럼통 게",
+            "DescriptionKr": "(X)",
+            "NameJp": "ドラム缶ガニ",
+            "DescriptionJp": "(X)",
+            "NameEn": "Drumbarka",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 4163299294,
+            "NameKr": "드럼통 게",
+            "DescriptionKr": "(X)",
+            "NameJp": "ドラム缶ガニ",
+            "DescriptionJp": "(X)",
+            "NameEn": "Drumbarka",
+            "DescriptionEn": ""
         }
 
     ]

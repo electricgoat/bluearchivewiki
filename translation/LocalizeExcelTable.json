@@ -5730,7 +5730,38 @@
             "Kr": "키보토스 곳곳에서 발생하고 있는 정체불명의 이상 현상, 로어. 과연 FOX 소대는 로어와 함께 사라져 버린 학생들과 바뀌어 버린 일상을 되찾을 수 있을까요?",
             "Jp": "キヴォトス各地で発生している、正体不明の特異現象「ロア」。果たしてFOX小隊は、消えてしまった生徒たち、そして変わってしまった日常を取り戻すことができるのでしょうか？",
             "En": "Across Kivotos, an unidentified anomalous phenomenon known as \"Lore\" has been occurring. Can FOX Squad save the students who have vanished, and restore the everyday life that has been changed?"
+        },
+        {
+            "Key": 577718197,
+            "Kr": "드럼통 게는 각 부위 별로 다른 방어 타입을 가집니다.\n각각 방어 타입에 대응하는 학생을 편성하여 해당 부위를 공격하세요.",
+            "Jp": "ドラム缶ガニは各パーツごとに異なる防御タイプを持っています。\nそれぞれ防御タイプに対応した生徒を編成し、該当パーツを攻撃しましょう。",
+            "En": "Each part of Drumbarka has a different defense type. Assemble a team of students that correspond to each defense type and attack the corresponding part."
+        },
+        {
+            "Key": 4270946096,
+            "Kr": "집게발 공격 시 반대 방향 컨트롤러의 해로운 효과를 제거하여 공격을 회피할 수 있습니다.\n회피한 후에는 집게발을 공격할 수 있습니다.\n집게발의 방어 타입에 대응하는 학생으로 공격하세요.",
+            "Jp": "ハサミ攻撃時、反対方向の操作盤の弱体状態を解除すれば、足場を移動して攻撃を回避できます。\n回避した後は、ハサミを攻撃できます。\nハサミの防御タイプに対応する生徒で攻撃しましょう。",
+            "En": "During the pincer attack, move the platform to a different location to evade the attack by cleansing the debuff of the control panel on the opposite side. After dodging, you can attack the pincer. Use a student whose attack type corresponds to the pincer armor."
+        },
+        {
+            "Key": 4165932791,
+            "Kr": "드럼통 게의 특정 부위는 파괴할 수 있습니다.\n부위를 파괴하면 해당 부위에 더 큰 피해를 줄 수 있습니다.\n모든 부위를 파괴하면 전투에 유리한 효과를 획득할 수 있습니다.",
+            "Jp": "ドラム缶ガニの特定のパーツは破壊可能です。\nパーツを破壊すると、そのパーツにさらに大きなダメージを与えられます。\nすべてのパーツを破壊すると、戦闘で有利な効果を獲得できます。",
+            "En": "Certain parts of Drumbarka are destructible. Destroying a part will allow you to inflict more damage on that part. Destroying all parts grants you an advantage in combat."
+        },
+        {
+            "Key": 3950991928,
+            "Kr": "드럼통 게의 배딱지를 공격하면 크레인 에너지를 충전할 수 있습니다.\n에너지가 가득 차면 크레인을 사용하여 드럼통 게를 그로기 상태로 만들 수 있습니다.\n드럼통 게가 방어 자세를 취하고 있을 때 그로기 상태를 만들면,\n드럼통 게의 공격을 방어하고 더 큰 피해를 줄 수 있습니다.",
+            "Jp": "ドラム缶ガニのフンドシを攻撃すると、クレーンのエネルギーをチャージできます。\nエネルギーが満タンになると、クレーンを使用してドラム缶ガニをグロッキー状態にできます。\nドラム缶ガニが防御態勢を取っている時、グロッキー状態にすると、\nドラム缶ガニの攻撃を防ぎ、より大きなダメージを与えることができます。",
+            "En": "Attacking Drumbarka's body will charge the crane energy. When the energy is full, you can use the crane to stun the Drumbarka. Stunning the crab while it is in a defensive stance will block its attacks and allow you to deal more damage."
+        },
+        {
+            "Key": 723529624,
+            "Kr": "드럼통은 일정 시간마다 아군에게 피해를 줍니다.\n드럼통에는 지속적으로 해로운 효과가 누적되며 효과 수에 비례하여 피해량이 증가합니다.\n해로운 효과를 제거할 수 있는 학생을 편성하세요.\n해로운 효과를 제거할 때마다 드럼통 게의 받는 피해를 증가시킵니다.",
+            "Jp": "ドラム缶は一定時間毎に味方にダメージを与えます。\nドラム缶には弱体状態が継続的に蓄積され、効果の数に比例してダメージ量が増加します。\n弱体状態を解除するスキルを持つ生徒を編成しましょう。\n弱体状態を解除する度に、ドラム缶ガニの被ダメージ量が増加します。",
+            "En": "The oil drum deals damage to allies at regular intervals. The oil drum continuously accumulates debuffs, and the damage increases proportionally to the number of debuffs. Include students with skills to remove debuffs in your team. Each time a debuff is removed, the amount of damage taken by Drumbarka increases."
         }
+
                         
     ]
 }

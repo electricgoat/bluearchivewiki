@@ -620,6 +620,24 @@
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
+    },
+    "38": {
+      "bosses": [
+        [
+          "Light",
+          "Insane"
+        ],
+        [
+          "Special",
+          "Torment"
+        ],
+        [
+          "Elastic",
+          "Torment"
+        ]
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
     }
   },
   "gl": {
@@ -1180,7 +1198,7 @@
       "bosses": [
         [
           "Heavy",
-          "Insane"
+          "Torment"
         ],
         [
           "Special",
@@ -1188,7 +1206,7 @@
         ],
         [
           "Light",
-          "Torment"
+          "Insane"
         ]
       ],
       "challenge_difficulty": "Torment",
