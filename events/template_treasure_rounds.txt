@@ -1,16 +1,20 @@
+This minigame is similar to the Inventory Management seasons of [[Events/Mini_Event/SCHALE_Settlement_Task_with_General_Student_Council|SCHALE Settlement Task with General Student Council]] mini-event. Players must reveal hidden treasures on a {{rounds[0]['TreasureRoundSize'][0]}}x{{rounds[0]['TreasureRoundSize'][1]}}-tile board. 
+Revealing any tile costs {{wiki_price}} and rewards {{wiki_cell_reward}}. Treasure rewards are obtained once all tiles of that treasure are revealed. Players can choose to advance to the next board after at least one treasure has been fully revealed; though Round 7+ rewards are substantially lower, so moving on before all/most of the board treasures are revealed is not advised.
 <tabber>
 {% for round in rounds -%}
 Round {{round['TreasureRound']}}=
-{| class="wikitable" style="text-align:center"
+{| class="wikitable"
 ! colspan="2" | Item
 !Size
 !Count
-{%- for reward in round['rewards'] %}
+!Rewards
+{%- for reward in round['treasures'] %}
 |-
-| [[File:{{reward.image}}.png|x100px]]
-| style="text-align:left" | {{reward.name_en}}
+| style="text-align:center" | [[File:{{reward.image}}.png|x100px]]
+| {{reward.name_en}}
 | {{reward.width}}x{{reward.height}}
 | {{round['RewardAmount'][loop.index0]}}
+| {{"".join(reward.wikitext_items())}}
 {%- endfor %}
 |}
 |-|

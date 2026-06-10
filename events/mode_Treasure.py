@@ -25,8 +25,8 @@ class TreasureReward(object):
         self.reward_parcel_amount = reward_parcel_amount
         self.image = image
 
-        # self.wiki_card = wiki_card
-        # self._data = data
+        self.wiki_card = wiki_card
+        self._data = data
 
     def __repr__(self):
         return str(self.__dict__)
@@ -72,45 +72,6 @@ class TreasureReward(object):
         return items_list
     
 
-    # @property
-    # def wikitext_itemgroup(self) -> str:
-    #     if len(self.items) == 0: return ''
-
-    #     wikitext = ''
-    #     wikitext += '<div class="itemgroup btag"><span class="tag' + ((len(self.items)<3 and len(self.amount)>2) and ' condensed' or '') + '">' + ", ".join([f"{self.amount[i]}×{'%g' % round(self.parcel_prob[i]/100, 2)}%" for i,_ in enumerate(self.amount)]) + '</span>'
-    #     wikitext += "".join(self.wikitext_items())
-    #     wikitext += '</div>'
-
-    #     return wikitext
-                
-
-    # @property
-    # def wikitext(self) -> str:
-    #     if self.parcel_id in FAKE_ITEMS:
-            
-    #         probability = f"{'%g' % (self.parcel_prob[0]/100)}"
-    #         quantity = self.amount[0]
-    #         return("{{" + f"ItemCard|{FAKE_ITEMS[self.parcel_id]}{quantity>1 and f'|quantity={quantity}' or ''}{probability!=100 and f'|probability={probability > 5 and round(probability,1) or round(probability,2)}' or ''}|text=|60px|block" + "}}")
-
-    #     elif len(self.amount) > 1 or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
-
-    #     else: return "".join(self.wikitext_items(use_parcel_prob = True))
-
-    
-    # def format_wiki_items(self, **params):
-    #     items_list = []
-    #     for i in range(len(self.parcel_type)):
-    #         items_list.append(self.wiki_card(self.parcel_type[i], self.parcel_id[i], quantity=self.amount[i], **params )) 
-    #     return items_list
-    
-
-
-    # def add_drop(self, amount:int, parcel_prob:int):
-    #     self.amount += amount
-    #     self.parcel_prob += parcel_prob
-
-
-
 
 
 def wiki_card(type: str, id: int, **params):
@@ -140,20 +101,21 @@ def get_mode_treasure(season_id: int, ext_data, ext_characters, ext_items, ext_f
     env.filters['nl2p'] = shared.functions.nl2p
 
 
-    wikitext = {'title':'===Inventory Management===', 'rounds':'', 'rewards':''}
+    wikitext = {'title':'===Inventory Management===', 'rounds':''}
 
-    board = data.event_content_treasure[season_id]
+    #board = data.event_content_treasure[season_id]
     #print(board)
 
     rounds = [x for x in data.event_content_treasure_round[season_id]]
     for round in rounds: 
+        round['treasures'] = []
         round['rewards'] = []
 
         for i, reward_id in enumerate(round['RewardID']): 
             #amount = round['RewardAmount'][i]
             treasure = data.event_content_treasure_reward[reward_id]
 
-            round['rewards'].append(TreasureReward(   treasure['Id'],
+            round['treasures'].append(TreasureReward(   treasure['Id'],
                                              treasure['LocalizeCodeID'], 
                                              treasure['CellUnderImageWidth'], 
                                              treasure['CellUnderImageHeight'], 
@@ -165,12 +127,38 @@ def get_mode_treasure(season_id: int, ext_data, ext_characters, ext_items, ext_f
                                              #data
                                              )
             )
+            
 
+    cost_goods_ids = [x['CellCheckGoodsId'] for x in rounds]
+    if len(set(cost_goods_ids)) == 1: #all rounds cost the same
+        cost_good = data.goods[cost_goods_ids[0]]
+        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+    else:
+        wiki_price = 'varies depending on round'
         
+    cell_reward_ids = [x['CellRewardId'] for x in rounds]
+    if len(set(cell_reward_ids)) == 1: #all rounds have the same cell reveal reward
+        cell_reward = data.event_content_treasure_cell_reward[cell_reward_ids[0]]
+        cell_reward_parcels = []
+        for i, parcel_id in enumerate(cell_reward['RewardParcelId']):  
+            cell_reward_parcels.append(RewardParcel(
+                cell_reward['RewardParcelType'][i],
+                parcel_id,
+                cell_reward['RewardParcelAmount'][i],
+                10000,
+                None,
+                wiki_card,
+                data
+            ))
+        wiki_cell_reward = ", ".join(wiki_card(parcel.parcel_type, parcel.parcel_id, quantity=parcel.amount, probability=None ) for parcel in cell_reward_parcels)
+
+    else:
+        wiki_cell_reward = 'varies depending on round'
+    
 
     rounds = sorted(rounds, key=lambda x: x['TreasureRound'])
     template = env.get_template('template_treasure_rounds.txt')
-    wikitext['rounds'] = template.render(rounds=rounds)
+    wikitext['rounds'] = template.render(rounds=rounds, wiki_price=wiki_price, wiki_cell_reward=wiki_cell_reward)
 
             
-    return '\n'.join(wikitext.values())
+    return '\n'.join(wikitext.values()) + '\n'
