@@ -58,6 +58,7 @@ SEASON_NOTES = {
         78:'Introduction of Lunatic Difficulty',
         83: 'Revised phase 2 of the fight',
         90: 'Adjusted skills and HP for certain difficulties',
+        93: 'Maximum number of held tickets increased to 6',
     },
     'gl' : {
         2:'Beta version, no ranking rewards',
@@ -65,6 +66,7 @@ SEASON_NOTES = {
         24:'Introduction of Insane Difficulty',
         46:'Introduction of Torment Difficulty',
         73:'Introduction of Lunatic Difficulty',
+        85: 'Adjusted skills and HP for certain difficulties',
     }
 }
 

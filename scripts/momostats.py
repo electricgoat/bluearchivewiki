@@ -57,7 +57,7 @@ def generate():
             for index,parcel in enumerate(reward['RewardParcelType']):
                 if parcel == 'Currency' and reward['RewardParcelId'][index] == 3:
                     total_jims += reward['RewardAmount'][index]
-            if 'MemoryLobby' in reward['RewardParcelType'] and '(' not in character.wiki_name: 
+            if 'MemoryLobby' in reward['RewardParcelType']: 
                 memolobby_at_talk_no[reward['OrderInGroup']].append(character.wiki_name)
 
 

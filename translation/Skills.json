@@ -7281,6 +7281,32 @@
             "GroupId": "CH0247ExtraPassive01",
             "NameEn": "Please disappear, please disappear!",
             "DescriptionEn": "When damage is taken, gain 1 \"I Will Not Forgive\" for $1. (Cooldown: $2)\n\"I Will Not Forgive\" can stack up to a maximum of $3, and each \"I Will Not Forgive\" increases Critical Damage by $4."
+        },
+
+        {
+            "GroupId": "CH0303Ex01",
+            "NameEn": "Beautiful as a flower",
+            "DescriptionEn": "Increase Explosive Efficiency of self and allied Special students by $1 for $2."
+        },
+        {
+            "GroupId": "CH0303Public01",
+            "NameEn": "Unleashed fastball",
+            "DescriptionEn": "Every $1, reduce Critical Damage Resistance of one enemy with the highest maximum HP by $2 for $3.\nDeal $4 damage."
+        },
+        {
+            "GroupId": "CH0303Passive01",
+            "NameEn": "Twilight-defying flower",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0303WeaponPassive01",
+            "NameEn": "Twilight-defying flower +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0303ExtraPassive01",
+            "NameEn": "Inheritor of the Hundred Lotus",
+            "DescriptionEn": "Increase Explosive Efficiency of self and allied Special students by $1."
         }
 
     ]
