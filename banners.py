@@ -179,7 +179,7 @@ def init_banners(region: str):
 		banner.notes = banner_names.get(banner.featured_name, {}).get('Notes', '')
 
 		for prev_banner in banners.values():
-			if not banner.rerun_original_id and prev_banner.info_character_id == banner.info_character_id: 
+			if not banner.rerun_original_id and prev_banner.info_character_id == banner.info_character_id and prev_banner.category_type == banner.category_type: 
 				#print(f"This is a rerun of banner {prev_banner.id}")
 				banner.rerun_original_id = prev_banner.id
 				break
