@@ -354,7 +354,7 @@
         {
             "GroupId": "FuukaExtraPassive01",
             "NameEn": "Pride of School Lunch Club",
-            "DescriptionEn": "Increase Critical Rate Resistance of all allies by $1."
+            "DescriptionEn": "Increase Critical Hit Resistance of all allies by $1."
         },
         {
             "GroupId": "MutsukiEx01",
@@ -1154,7 +1154,12 @@
         {
             "GroupId": "AyanePublic01",
             "NameEn": "Learning Support",
-            "DescriptionEn": "Every $1, increase the critical hit resistance of all allies in a circular area by $2."
+            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of all allies in a circular area by $2."
+        },
+        {
+            "GroupId": "AyaneGearPublic01",
+            "NameEn": "Learning Support +",
+            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of Striker allies by $2 for $3 and grant them \"Relief Supplies\" (Can only be used $4 time per battle)\nWhen an ally holding \"Relief Supplies\" has HP below $5, the \"Relief Supplies\" are consumed to heal them by $6 of Healing."
         },
         {
             "GroupId": "AyanePassive01",
@@ -2355,12 +2360,17 @@
         {
             "GroupId": "CH0100Ex01",
             "NameEn": "Promptly and precisely",
-            "DescriptionEn": "Deal $1 damage to enemies in a conical area, ignoring $2 of their defense."
+            "DescriptionEn": "Deal $1 damage to enemies in a conical area, ignoring $2 of their Defense."
         },
         {
             "GroupId": "CH0100Public01",
             "NameEn": "Wide-area firing, commence",
-            "DescriptionEn": "Every $1, deal $2 damage to enemies in a circular area, ignoring $3 of their defense."
+            "DescriptionEn": "Every $1, deal $2 damage to enemies in a circular area, ignoring $3 of their Defense."
+        },
+        {
+            "GroupId": "CH0100GearPublic01",
+            "NameEn": "Wide-area firing, commence +",
+            "DescriptionEn": "Every $1, increase Mystic Efficiency by $2 for $3.\nDeal $4 damage to enemies in a circular area, ignoring $5 of their Defense"
         },
         {
             "GroupId": "CH0100Passive01",
@@ -2669,6 +2679,11 @@
             "GroupId": "CH0156Public01",
             "NameEn": "It's annoying...",
             "DescriptionEn": "Every $1, fire shells at up to 4 enemies. Deal $2 damage within the circular area around targeted enemy."
+        },
+        {
+            "GroupId": "CH0156GearPublic01",
+            "NameEn": "It's annoying... +",
+            "DescriptionEn": "Every $1, fire shells at up to 4 enemies. Deal $2 damage within the circular area around targeted enemy.\nIf Toramaru is deployed, additionally grant Toramaru the \"High Explosive shell loaded\" effect. When \"Main gun aim, fire\" is used while Toramaru has this effect, Toramaru's \"High Explosive shell loaded\" is consumed and the damage multiplier of \"Main gun aim, fire\" is increased by x$3."
         },
         {
             "GroupId": "CH0156Passive01",
@@ -5469,22 +5484,22 @@
 
         {
             "GroupId": "CH0139Ex01",
-            "NameEn": "Imperial Edict: Gather Knowledge",
+            "NameEn": "Imperial Edict: Investigation",
             "DescriptionEn": "For one ally, increase the EX Skill damage by $1 for $2."
         },
         {
             "GroupId": "CH0139Public01",
-            "NameEn": "Imperial Edict: Ethics and Discipline",
+            "NameEn": "Imperial Order: Ethics and Discipline",
             "DescriptionEn": "Every $1, grant a shield of $2 Healing to the ally with the lowest HP for $3."
         },
         {
             "GroupId": "CH0139Passive01",
-            "NameEn": "Order: Moderation",
+            "NameEn": "Mandate: Moderation",
             "DescriptionEn": "Increase Healing by $1."
         },
         {
             "GroupId": "CH0139WeaponPassive01",
-            "NameEn": "Order: Moderation +",
+            "NameEn": "Mandate: Moderation +",
             "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
         },
         {
@@ -7307,7 +7322,97 @@
             "GroupId": "CH0303ExtraPassive01",
             "NameEn": "Inheritor of the Hundred Lotus",
             "DescriptionEn": "Increase Explosive Efficiency of self and allied Special students by $1."
+        },
+
+        {
+            "GroupId": "CH0355_01Ex01",
+            "NameEn": "The field trip isn't over until you get home",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nGain Flower Bud for $2, and immediately draw an EX Skill card.\nWhile Flower Bud is active, EX skill changes to \"Please pay attention, okay?\".\nWhen Flower Bud is removed, move the EX skill card to the bottom of the deck."
+        },
+        {
+            "GroupId": "CH0355_01Ex02",
+            "NameEn": "Please pay attention, okay?",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nCan only be used when you have Flower Bud."
+        },
+        {
+            "GroupId": "CH0355_01Public01",
+            "NameEn": "That's not allowed",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy."
+        },
+        {
+            "GroupId": "CH0355_01Passive01",
+            "NameEn": "Instructor on vacation",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0355_01WeaponPassive01",
+            "NameEn": "Instructor on vacation +",
+            "DescriptionEn": "Increase Sonic Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0355_01ExtraPassive01",
+            "NameEn": "The teachings of Plum Blossom Garden",
+            "DescriptionEn": "When acquiring a Flower Bud and every $1 thereafter, the Flower Bud blooms in 3 stages.\nWhen using \"Please pay attention, okay?\", consume Flower Bud and increase the amount of damage dealt by $2 per stage of the growth (for $3)."
+        },
+
+        {
+            "GroupId": "CH0355_02Ex01",
+            "NameEn": "Please hold me!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAfter each use, the damage from \"Please hold me!\" for the rest of this battle is reduced by $2 of Attack (stacks up to a maximum of $3)"
+        },
+        {
+            "GroupId": "CH0355_02Public01",
+            "NameEn": "Must focus!",
+            "DescriptionEn": "At the start of battle, gain $1 Skill Cost for each allied student in formation (up to a maximum of $2). (Can only be used $3 time per battle)\nIf another student in the squad also has an effect that grants Cost at the start of battle, this effect will not grant Cost."
+        },
+        {
+            "GroupId": "CH0355_02Passive01",
+            "NameEn": "Child power",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0355_02WeaponPassive01",
+            "NameEn": "Child power +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0355_02ExtraPassive01",
+            "NameEn": "Resort fun",
+            "DescriptionEn": "While using the EX skill, Sonic Efficiency is increased by $1."
+        },
+
+        {
+            "GroupId": "CH0356Ex01",
+            "NameEn": "Announcement: Closed Today",
+            "DescriptionEn": "Reduce Skill Cost of 3 closest allied Strikers (excluding self) by $1 (Reduction active until EX is activated once).\nIncrease own Cost Recovery by $2 for $3.\nYour next two EX Skills change to \"Practice: Banzai Calisthenics\"."
+        },
+        {
+            "GroupId": "CH0356Ex02",
+            "NameEn": "Practice: Banzai Calisthenics",
+            "DescriptionEn": "Increase Cost Recovery by $1 for $2.\nAfter using Practice: Banzai Calisthenics twice, the skill will change to \"Announcement: Closed Today\"."
+        },
+        {
+            "GroupId": "CH0356Public01",
+            "NameEn": "Decision: Enforcement",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Hit Resistance by $2 for $3. Deal $4 damage."
+        },
+        {
+            "GroupId": "CH0356Passive01",
+            "NameEn": "Inspection: On-site Audit",
+            "DescriptionEn": "Increase normal attack Firing Range by $1 and HP by $2."
+        },
+        {
+            "GroupId": "CH0356WeaponPassive01",
+            "NameEn": "Inspection: On-site Audit +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase normal attack Firing Range by $2 and HP by $3."
+        },
+        {
+            "GroupId": "CH0356ExtraPassive01",
+            "NameEn": "Convalescence: Restoring Vitality",
+            "DescriptionEn": "When allies deal $1 critical hits, heal self for $2 of Healing."
         }
+
+
 
     ]
 }
