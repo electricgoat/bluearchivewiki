@@ -137,6 +137,8 @@ class Banner:
             case 'SelectPickupLimitedGacha':
                 return 'Encore Recruitment'
             case 'SelectPickupFesGacha':
+                if 2000 <= self.linked_lobby_banner_id < 2200:
+                    return 'Limited Dash Recruitment'
                 return 'Anniversary Archive Recruitment'
             case _:
                 return self.name_jp
@@ -149,6 +151,8 @@ class Banner:
             case 'SelectPickupLimitedGacha':
                 return 'Encore Recruitment'
             case 'SelectPickupFesGacha':
+                if 2000 <= self.linked_lobby_banner_id < 2200:
+                    return 'Limited Dash Recruitment'
                 return 'Anniversary Archive Recruitment'
             case _:
                 return self.name_en
@@ -161,6 +165,8 @@ class Banner:
             case 'SelectPickupLimitedGacha':
                 return 'Encore Recruitment'
             case 'SelectPickupFesGacha':
+                if 2000 <= self.linked_lobby_banner_id < 2200:
+                    return 'Limited Dash Recruitment'
                 return 'Anniversary Archive Recruitment'
             case _:
                 return self.name_en_global
@@ -173,6 +179,8 @@ class Banner:
             case 'SelectPickupLimitedGacha':
                 return 'Encore Recruitment'
             case 'SelectPickupFesGacha':
+                if 2000 <= self.linked_lobby_banner_id < 2200:
+                    return 'Limited Dash Recruitment'
                 return 'Anniversary Archive Recruitment'
             case _:
                 return self.name_en_global_rerun
@@ -187,6 +195,8 @@ class Banner:
     def bannercode(self):
         if self.category_type == 'SelectPickupGacha':
             code = 'Archive_'
+        elif self.category_type == 'SelectPickupFesGacha' and 2000 <= self.linked_lobby_banner_id < 2200:
+            code = 'Limited_Dash_'
         else:
             code = ','.join([x.wiki_name.replace(' ','_') for x in self.featured_characters]) + '_' 
         if not self.is_rerun:
