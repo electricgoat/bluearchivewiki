@@ -16,7 +16,7 @@ from classes.Emblem import Emblem
 from classes.RaidSeasonReward import RaidSeasonReward
 from raid import get_boss_skills
 from raid_seasons import RAIDS
-from eliminate_raid_seasons import SEASON_IGNORE, SEASON_NOTES
+from eliminate_raid_seasons import SEASON_IGNORE
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
@@ -96,7 +96,7 @@ def total_cumulative_rewards(season):
 def get_ranking_rewards(season): 
     ranking_rewards = data.eliminate_raid_ranking_reward[season['RankingRewardGroupId']]
     for entry in ranking_rewards:
-        reward = RaidSeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], entry['RewardParcelUniqueName'], entry['RewardParcelAmount'], wiki_card)
+        reward = RaidSeasonReward(entry['Id'], entry['RewardParcelType'], entry['RewardParcelUniqueId'], "", entry['RewardParcelAmount'], wiki_card)
         entry['reward'] = reward
         if entry['RankEnd'] == 0: entry['RankEnd'] = '∞'
     return ranking_rewards
