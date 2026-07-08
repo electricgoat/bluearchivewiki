@@ -111,12 +111,15 @@ def get_mode_field(season_id: int, ext_data, ext_characters, ext_items, ext_furn
         date_id = entry['FromInteraction']['FieldDateId']
         entry['FromDate'] = data.field_date[date_id]
 
-        reward_id = entry['FromInteraction']['InteractionId'][entry['FromInteraction']['InteractionType'].index("Reward")]
-        rewards = []
-        for reward in data.field_reward[reward_id]:
-            rewards.append(RewardParcel(reward['RewardParcelType'], reward['RewardId'], [reward['RewardAmount']], [reward['RewardProb']], data=data, wiki_card=wiki_card))
+        if 'Reward' in entry['FromInteraction']['InteractionType']:
+            reward_id = entry['FromInteraction']['InteractionId'][entry['FromInteraction']['InteractionType'].index("Reward")]
+            rewards = []
+            for reward in data.field_reward[reward_id]:
+                rewards.append(RewardParcel(reward['RewardParcelType'], reward['RewardId'], [reward['RewardAmount']], [reward['RewardProb']], data=data, wiki_card=wiki_card))
 
-        entry['Rewards'] = rewards
+            entry['Rewards'] = rewards
+        else:
+            entry['Rewards'] = []
 
 
         evidence[entry['UniqueId']] = entry
