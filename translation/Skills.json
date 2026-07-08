@@ -1159,7 +1159,7 @@
         {
             "GroupId": "AyaneGearPublic01",
             "NameEn": "Learning Support +",
-            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of Striker allies by $2 for $3 and grant them \"Relief Supplies\" (Can only be used $4 time per battle)\nWhen an ally holding \"Relief Supplies\" has HP below $5, the \"Relief Supplies\" are consumed to heal them by $6 of Healing."
+            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of Striker allies by $2 for $3 and grant them \"Relief Supplies\". (Can only be used $4 time per battle)\nWhen an ally holding \"Relief Supplies\" has HP below $5, the \"Relief Supplies\" are consumed to heal them by $6 of Healing."
         },
         {
             "GroupId": "AyanePassive01",
@@ -2222,8 +2222,8 @@
         },
         {
             "GroupId": "CH0160Public01",
-            "NameEn": "Into the backdoor",
-            "DescriptionEn": "Every $1, decrease Attack of one enemy with the highest Attack by $1 for $2."
+            "NameEn": "Through the backdoor",
+            "DescriptionEn": "Every $1, decrease Attack of one enemy with the highest Attack by $2 for $3."
         },
         {
             "GroupId": "CH0160Passive01",

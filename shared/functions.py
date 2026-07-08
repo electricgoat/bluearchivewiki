@@ -284,6 +284,7 @@ def replace_units(text):
     text = re.sub('秒', ' seconds', text)
     text = re.sub('個', '', text)
     text = re.sub('発分', ' hits', text)
+    text = re.sub('人', ' students', text)
     return text
 
 
