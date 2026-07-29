@@ -7410,9 +7410,142 @@
             "GroupId": "CH0356ExtraPassive01",
             "NameEn": "Convalescence: Restoring Vitality",
             "DescriptionEn": "When allies deal $1 critical hits, heal self for $2 of Healing."
+        },
+
+        {
+            "GroupId": "CH0344Ex01",
+            "NameEn": "Set course for horizon!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nDeal damage to enemies depending on the number of them within the circular area:\n2 or less: Deal $2 damage\n3 or more: Deal $3  damage"
+        },
+        {
+            "GroupId": "CH0344Public01",
+            "NameEn": "Our captain!",
+            "DescriptionEn": "At the start of battle and every $1 thereafter, increase Attack by $2 for $3 and enter the Charisma state."
+        },
+        {
+            "GroupId": "CH0344Passive01",
+            "NameEn": "Hidden potential?",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0344WeaponPassive01",
+            "NameEn": "Hidden potential? +",
+            "DescriptionEn": "Increase Mystic Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0344ExtraPassive01",
+            "NameEn": "Charismatic captain",
+            "DescriptionEn": "Increase Critical Rate by $1.\nWhen in Charisma state, if the target of the EX Skill has Special armor, reduce its Defense by $2 for $3 before attacking, then exit the Charisma state."
+        },
+
+        {
+            "GroupId": "CH0345Ex01",
+            "NameEn": "Satsuki Kyogoku Safety Protocol",
+            "DescriptionEn": "Heal one other ally for $1 of Healing.\nHeal self for $2 of Healing.\nGain $3 Sunscreen. (Sunscreen stacks up to a maximum of $4)"
+        },
+        {
+            "GroupId": "CH0345Public01",
+            "NameEn": "Aah!? What!?",
+            "DescriptionEn": "Every $1, reduce Defense of one enemy by $2 for $3.\nDeal $4 damage to them.\nGain $5 Sunscreen. (Sunscreen stacks up to a maximum of $6)"
+        },
+        {
+            "GroupId": "CH0345Passive01",
+            "NameEn": "Let me put some on you",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0345WeaponPassive01",
+            "NameEn": "Let me put some on you +",
+            "DescriptionEn": "Increase HP by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0345ExtraPassive01",
+            "NameEn": "Go have fun!",
+            "DescriptionEn": "When you acquire $1 Sunscreens, heal all allied Strikers (excluding self) by $2 of Healing, and grant them UV Barrier for $3. The UV Barrier increases Attack by $4. (Resets Sunscreen stacks)"
+        },
+
+        {
+            "GroupId": "CH0348Ex01",
+            "NameEn": "Shake, shake~ Shake, shake!",
+            "DescriptionEn": "Fire two rockets, dealing $1 and $2 damage to the nearest enemy.\n(These attacks penetrate enemy shields)"
+        },
+        {
+            "GroupId": "CH0348Public01",
+            "NameEn": "That's amazing!",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 for $3."
+        },
+        {
+            "GroupId": "CH0348Passive01",
+            "NameEn": "Live on scene!",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0348WeaponPassive01",
+            "NameEn": "Live on scene! +",
+            "DescriptionEn": "Increase Piercing Efficiency by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0348ExtraPassive01",
+            "NameEn": "Scoop spotted!",
+            "DescriptionEn": "Increase Piercing Efficiency of all aliies by $1."
+        },
+
+        {
+            "GroupId": "CH0346Ex01",
+            "NameEn": "Fräulein's Suitcase",
+            "DescriptionEn": "Deal $1 guaranteed critical damage to one enemy, and apply the Suitcase for $2.\nDamage dealt by Partner student to an enemy with the Suitcase is stored in the Suitcase at $3 times its value.\nWhen the duration ends or when Iroha (Swimsuit) uses her EX Skill, the Suitcase explodes, dealing fixed damage equal to the amount stored.\n(The fixed damage is up to $4 of the damage dealt by Iroha (Swimsuit) when the Suitcase was applied)"
+        },
+        {
+            "GroupId": "CH0346Public01",
+            "NameEn": "We're both in the same boat, huh?",
+            "DescriptionEn": "Every $1, increase Attack of your Partner and yourself by $2 for $3."
+        },
+        {
+            "GroupId": "CH0346Passive01",
+            "NameEn": "Found your weakness",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0346WeaponPassive01",
+            "NameEn": "Found your weakness +",
+            "DescriptionEn": "Increase Explosive Efficiency by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0346ExtraPassive01",
+            "NameEn": "Is it a joint operation?",
+            "DescriptionEn": "Increase Attack by $1.\nWhen entering a battle, select one other Striker ally with the highest Critical Damage as your Partner.\n(Prioritizes selecting Attacker allies)"
+        },
+
+        {
+            "GroupId": "CH0347Ex01",
+            "NameEn": "Ibuki's friends!",
+            "DescriptionEn": "Designate up to two of the allied Strikers as Friends.\nChange this skill to \"Which one should I pick?\" for the duration of the battle. Draw an EX Skill card instantly.\nWhenever a Friend student consumes Cost, Ibuki (Swimsuit) gains $1 Seashells, and when she has $2 Seashells, she consumes them all to gain a Seashell Flower, and will not gain any more Seashells."
+        },
+        {
+            "GroupId": "CH0347Ex02",
+            "NameEn": "Which one should I pick?",
+            "DescriptionEn": "Increase Critical Damage of your Friend student by $1 for $2.\nWhen holding a Seashell Flower, enhance this skill and increase the Critical Damage bonus multiplier by $3."
+        },
+        {
+            "GroupId": "CH0347Public01",
+            "NameEn": "Ibuki can help!",
+            "DescriptionEn": "After using \"Ibuki's Friends!\", every $1, grant an effect (for $2) according to the class of each of Friend student:\nTank: Increase Defense by $3\nAttacker: Increase Critical Damage by $4\nSupporter: Continuously heal for $5 of Healing\nHealer: Increase Healing by $6\nIf both Friend students are of the same class, the effect is doubled.\nWhen holding Seashell Flower, the skill is enhanced and the effect duration is increased to $7."
+        },
+        {
+            "GroupId": "CH0347Passive01",
+            "NameEn": "Pandemonium Society's Conscience",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0347WeaponPassive01",
+            "NameEn": "Pandemonium Society's Conscience +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0347ExtraPassive01",
+            "NameEn": "Little Genius Professor",
+            "DescriptionEn": "Increase Cost Recovery of all allies by $1."
         }
-
-
 
     ]
 }

@@ -7172,7 +7172,7 @@
         {
             "Key": 268835141,
             "NameJp": "クラシック2段カート",
-            "NameEn": "Classic 2-tier Cart",
+            "NameEn": "Classic Two-Tier Cart",
             "DescriptionJp": "昼食のティータイムにも、夜のパーティーにも合うクラシックな2段カート。常に清潔な状態で貴賓たちを待つ。",
             "DescriptionEn": "A classic 2-tier cart suitable for tea time during the day or a party at night. It awaits guests in a constantly clean state."
         },
@@ -16517,6 +16517,424 @@
             "DescriptionJp": "大決戦ホド（屋内戦）の全ての防御タイプを難易度Insane以上で倒す",
             "NameEn": "Hod (Indoors) defeated! 2026",
             "DescriptionEn": "Defeat all defense types of Hod Indoor Warfare [[Grand Assault]] on Insane difficulty or higher."
+        },
+        {
+            "Key": 3676923538,
+            "NameJp": "鉄砂掌の稽古台",
+            "NameEn": "Iron Sand Palm Training Stand",
+            "DescriptionJp": "爪の先まで鍛え上げるための稽古台。ケガには気を付けよう。",
+            "DescriptionEn": "A training platform for honing your claws to the fullest. Be careful not to get hurt."
+        },
+        {
+            "Key": 197068937,
+            "NameJp": "山海経の秘境セット",
+            "NameEn": "Shanhaijing Secret Realm Set",
+            "DescriptionJp": "山海経の秘境には、修行のための演武場が建てられているという。",
+            "DescriptionEn": "It is said that Shanhaijing's hidden realm contains a training arena built for cultivation."
+        },
+        {
+            "Key": 1537274567,
+            "NameJp": "山海経の秘境セット",
+            "NameEn": "Shanhaijing Secret Realm Furniture"
+        },
+        {
+            "Key": 3121776939,
+            "NameJp": "稽古場の床",
+            "NameEn": "Training Arena Floor",
+            "DescriptionJp": "柔らかい砂が敷かれた稽古場の床。転んでも安全。",
+            "DescriptionEn": "A floor of the training arena covered in soft sand. It is safe even if you fall."
+        },
+        {
+            "Key": 1355453598,
+            "NameJp": "内殿の床材",
+            "NameEn": "Inner Hall Flooring",
+            "DescriptionJp": "内殿は休息と来客のための空間。使用後は必ず掃除をすること。",
+            "DescriptionEn": "The inner hall is a space for rest and receiving guests. Be sure to clean it after use."
+        },
+        {
+            "Key": 1068905084,
+            "NameJp": "内殿の装飾絨毯",
+            "NameEn": "Inner Hall Decorative Carpet",
+            "DescriptionJp": "ホコリがたまりやすいので、しっかりとお手入れしなければいけない。",
+            "DescriptionEn": "It tends to collect dust, so it needs to be cleaned thoroughly."
+        },
+        {
+            "Key": 2092665293,
+            "NameJp": "回廊の茂み",
+            "NameEn": "Covered Corridor Shrubbery",
+            "DescriptionJp": "回廊とは建物や中庭などを取り囲む廊下のこと。草が枯れないようにお世話をしている。",
+            "DescriptionEn": "A corridor surrounding buildings or courtyards, known as a covered gallery. It is carefully tended so the grass does not wither."
+        },
+        {
+            "Key": 2976892609,
+            "NameJp": "竹垣",
+            "NameEn": "Bamboo Hedge",
+            "DescriptionJp": "竹で作った生垣。火気厳禁。",
+            "DescriptionEn": "A hedge made of bamboo. Fire is strictly prohibited."
+        },
+        {
+            "Key": 2624585092,
+            "NameJp": "盆栽用の陶器",
+            "NameEn": "Bonsai Pottery",
+            "DescriptionJp": "盆栽用の陶器。水のあげすぎもよくない。",
+            "DescriptionEn": "Ceramic pot for bonsai. Overwatering is not good either."
+        },
+        {
+            "Key": 2767845940,
+            "NameJp": "趣のあるガンラック",
+            "NameEn": "Stylish Gun Rack",
+            "DescriptionJp": "銃器を安全に保管する場所。あって然るべき。",
+            "DescriptionEn": "A safe place to store firearms. It is only fitting for one to be here."
+        },
+        {
+            "Key": 1118818099,
+            "NameJp": "山海経風の石灯",
+            "NameEn": "Shanhaijing-Style Stone Lantern",
+            "DescriptionJp": "石で作った灯篭。実は中に電気灯が入っている。",
+            "DescriptionEn": "A stone lantern made of stone. In fact, it contains an electric light inside."
+        },
+        {
+            "Key": 1342987293,
+            "NameJp": "山海経風の柱",
+            "NameEn": "Shanhaijing-Style Pillar",
+            "DescriptionJp": "伝統的な造りの柱。瓦は消耗品。",
+            "DescriptionEn": "A pillar built in a traditional style. The roof tiles are consumables."
+        },
+        {
+            "Key": 847063315,
+            "NameJp": "山海経風の軒先",
+            "NameEn": "Shanhaijing-Style Eaves",
+            "DescriptionJp": "いかにも格式高そうな伝統的な軒先。",
+            "DescriptionEn": "A traditional eave that looks undeniably refined."
+        },
+        {
+            "Key": 1942343381,
+            "NameJp": "内殿の座卓",
+            "NameEn": "Inner Hall Low Table",
+            "DescriptionJp": "花瓶が置かれた座卓。花はむやみに触らないように。",
+            "DescriptionEn": "A low table with a vase placed on it. Please do not touch the flowers carelessly."
+        },
+        {
+            "Key": 3685119818,
+            "NameJp": "稽古用の的紙",
+            "NameEn": "Practice Target Paper",
+            "DescriptionJp": "稽古用の的紙。大事なのは弾着群。",
+            "DescriptionEn": "Target paper for practice. What matters most is the shot grouping."
+        },
+        {
+            "Key": 3730746751,
+            "NameJp": "梅花椿の稽古場",
+            "NameEn": "Plum Blossom Practice Area",
+            "DescriptionJp": "梅花椿は丸太の上でバランスをとる訓練の一つ。しっかりと下半身を鍛えてから挑戦すること。",
+            "DescriptionEn": "Plum Blossom is one of the balance-training exercises performed on a log. Be sure to strengthen your lower body before trying it."
+        },
+        {
+            "Key": 576479166,
+            "NameJp": "筋斗雲",
+            "NameEn": "Magical Cloud",
+            "DescriptionJp": "不思議な雲。神仙になる想像をしてみよう。",
+            "DescriptionEn": "A mysterious cloud. Try imagining yourself becoming an immortal."
+        },
+        {
+            "Key": 3738752605,
+            "NameJp": "太湖石",
+            "NameEn": "Taihu Stone",
+            "DescriptionJp": "山海経風の庭園でよく使われる造景用石材。安定感がある。",
+            "DescriptionEn": "A landscaping stone commonly used in Shanhaijing-style gardens. It has a solid, stable feel."
+        },
+        {
+            "Key": 1688931063,
+            "NameJp": "山海経風の旗",
+            "NameEn": "Shanhaijing-Style Flag",
+            "DescriptionJp": "山海経の校章が描かれた旗。",
+            "DescriptionEn": "A flag bearing Shanhaijing's school emblem."
+        },
+        {
+            "Key": 4060295958,
+            "NameJp": "山海経風の門",
+            "NameEn": "Shanhaijing-Style Gate",
+            "DescriptionJp": "伝統的な造りの門。",
+            "DescriptionEn": "A gate built in a traditional style."
+        },
+        {
+            "Key": 1873937132,
+            "NameJp": "山海経風の飾り窓",
+            "NameEn": "Shanhaijing-Style Decorative Window",
+            "DescriptionJp": "回廊に設置された飾り窓。派手ではないが美しい。",
+            "DescriptionEn": "A decorative window installed in the corridor. It is not flashy, but it is beautiful."
+        },
+        {
+            "Key": 852248101,
+            "NameJp": "演武場の門",
+            "NameEn": "Training Hall Gate",
+            "DescriptionJp": "演武場の出入り口。",
+            "DescriptionEn": "The entrance to the training hall."
+        },
+        {
+            "Key": 1395122267,
+            "NameJp": "内殿の格子窓",
+            "NameEn": "Inner Hall Lattice Window",
+            "DescriptionJp": "内殿に設置された飾り窓。日の光がよく入るらしい。",
+            "DescriptionEn": "A decorative window installed in the inner hall. It seems to let in plenty of sunlight."
+        },
+        {
+            "Key": 2164308677,
+            "NameJp": "内殿の机",
+            "NameEn": "Inner Hall Desk",
+            "DescriptionJp": "灯篭と本が積まれた机。棚の中には何があるのだろうか。",
+            "DescriptionEn": "A desk piled with lanterns and books. I wonder what is inside the shelves."
+        },
+        {
+            "Key": 527417942,
+            "NameJp": "山海経風のゲームテーブル",
+            "NameEn": "Shanhaijing-Style Game Table",
+            "DescriptionJp": "山海経独自のゲームができるという4人用テーブル。没頭しすぎには注意。",
+            "DescriptionEn": "A four-person table where you can play a game unique to Shanhaijing. Be careful not to get too absorbed."
+        },
+        {
+            "Key": 291123961,
+            "NameJp": "内殿の椅子",
+            "NameEn": "Inner Hall Chair",
+            "DescriptionJp": "お茶をたしなむための椅子。香りで心を穏やかにしよう。",
+            "DescriptionEn": "A chair for sipping tea. Let us calm our minds with its fragrance."
+        },
+        {
+            "Key": 3973575263,
+            "NameJp": "内殿の柱",
+            "NameEn": "Inner Hall Pillar",
+            "DescriptionJp": "内殿に設置された柱。赤は繫栄と慶事の象徴。",
+            "DescriptionEn": "A pillar installed in the inner hall. Red symbolizes prosperity and celebration."
+        },
+        {
+            "Key": 3553530711,
+            "NameJp": "石造りの池",
+            "NameEn": "Stone Pond",
+            "DescriptionJp": "石で作った池。どんな魚がいるのだろうか。",
+            "DescriptionEn": "A pond made of stone. I wonder what kind of fish live in it."
+        },
+        {
+            "Key": 1793079599,
+            "NameJp": "稽古用木人樁",
+            "NameEn": "Training Dummy Post",
+            "DescriptionJp": "訓練用の木杭。精神の乱れはすなわち動作の乱れ。",
+            "DescriptionEn": "A training stake for practice. A disturbed mind leads to erratic movements."
+        },
+        {
+            "Key": 3590695037,
+            "NameJp": "山水秘境",
+            "NameEn": "Mountain and Water Secret Realm",
+            "DescriptionJp": "山水秘境は山と水が美しく調和している風景のこと。心が洗われるよう。",
+            "DescriptionEn": "A landscape where mountains and water are beautifully harmonized. It feels as if the mind is washed clean."
+        },
+        {
+            "Key": 3532774298,
+            "NameJp": "稽古場の回廊床材",
+            "NameEn": "Training Arena Corridor Flooring",
+            "DescriptionJp": "回廊の石廊下。走らないように。",
+            "DescriptionEn": "The stone flooring of the corridor. Please do not run on it."
+        },
+        {
+            "Key": 159811054,
+            "NameJp": "演武場の背景",
+            "NameEn": "Training Hall Background",
+            "DescriptionJp": "演武場の背景。心の準備が必要かもしれない。",
+            "DescriptionEn": "The backdrop of the training hall. You may need to prepare yourself mentally."
+        },
+        {
+            "Key": 2829068959,
+            "NameJp": "演武場の石碑",
+            "NameEn": "Training Hall Stone Monument",
+            "DescriptionJp": "演武場の石碑。山海経の校章が刻まれている。",
+            "DescriptionEn": "The stone monument of the training hall. Shanhaijing's school emblem is engraved on it."
+        },
+        {
+            "Key": 1817827411,
+            "NameJp": "山水画の屏風",
+            "NameEn": "Landscape Painting Folding Screen",
+            "DescriptionJp": "山水画が描かれた屏風。趣のある作品。",
+            "DescriptionEn": "A folding screen painted with a landscape scene. A tasteful piece."
+        },
+        {
+            "Key": 2290838043,
+            "NameJp": "演武場の牌楼",
+            "NameEn": "Training Hall Archway",
+            "DescriptionJp": "牌楼は入口の大きな門を指す。いろいろな意味で象徴的。",
+            "DescriptionEn": "A paifang refers to a large gate at the entrance. It is symbolic in many ways."
+        },
+        {
+            "Key": 409277448,
+            "NameJp": "演武場本館",
+            "NameEn": "Training Hall Main Building",
+            "DescriptionJp": "説明は不要。さあ稽古だ！",
+            "DescriptionEn": "No explanation is needed. Now, let us train!"
+        },
+        {
+            "Key": 4001695608,
+            "NameJp": "多宝格",
+            "NameEn": "Multipurpose Display Cabinet",
+            "DescriptionJp": "貴重品やコレクションを陳列する多目的棚。セキュリティ面は少し心配。",
+            "DescriptionEn": "A versatile shelf for displaying valuables and collections. Security is a little concerning."
+        },
+        {
+            "Key": 3300618759,
+            "NameJp": "茶盤",
+            "NameEn": "Tea Table",
+            "DescriptionJp": "お茶をたしなむための4人用座卓。いろいろなお茶を吟味しよう。",
+            "DescriptionEn": "A four-person low table for enjoying tea. Let us savor various teas."
+        },
+        {
+            "Key": 768674664,
+            "NameJp": "山海経風の縁側",
+            "NameEn": "Shanhaijing-Style Veranda",
+            "DescriptionJp": "縁側は住居空間を広げ、外周部に張り出した空間のこと。いわゆるバルコニー。",
+            "DescriptionEn": "A veranda expands the living space and projects outward from the perimeter. In other words, a balcony."
+        },
+        {
+            "Key": 3827357385,
+            "NameJp": "内殿の窓",
+            "NameEn": "Inner Hall Window",
+            "DescriptionJp": "内殿に設置された窓。換気は積極的に。",
+            "DescriptionEn": "A window installed in the inner hall. Ventilation should be encouraged."
+        },
+        {
+            "Key": 599941314,
+            "NameJp": "絶景の滝",
+            "NameEn": "Scenic Waterfall",
+            "DescriptionJp": "身も心も引き締まるような滝。風邪には気を付けよう。",
+            "DescriptionEn": "A waterfall that makes both body and mind feel invigorated. Be careful not to catch a cold."
+        },
+        {
+            "Key": 3618294141,
+            "NameJp": "サーベル置き",
+            "NameEn": "Saber Stand",
+            "DescriptionJp": "サーベルの模型を置く台。\n模型だけど、まるで本物のよう。ヨーホー！",
+            "DescriptionEn": "A stand for displaying model sabers.\nIt looks almost as real as the real thing. Yo-ho!"
+        },
+        {
+            "Key": 2023463617,
+            "NameJp": "紫外線避難所",
+            "NameEn": "Survival-type UV Shelter",
+            "DescriptionJp": "ビーチで危険な紫外線を防ぐためには、パラソルと日焼け止めは必須！",
+            "DescriptionEn": "Parasols and sunscreen are essential for protection from dangerous UV rays at the beach!"
+        },
+        {
+            "Key": 1642565089,
+            "NameJp": "砂むし風呂",
+            "NameEn": "Hot Sand Bath",
+            "DescriptionJp": "温泉熱で温められた砂の入った浴槽。あつあつの砂風呂で、たまった疲れを吹き飛ばそう。",
+            "DescriptionEn": "A tub filled with sand heated with geothermal hot spring. Wash away your fatigue in a piping hot sand bath."
+        },
+        {
+            "Key": 3100730703,
+            "NameJp": "ビーチのパーティーセット",
+            "NameEn": "Beach Party Set",
+            "DescriptionJp": "ビーチのパーティーセット。派手で楽しいパーティーになりそう。",
+            "DescriptionEn": "A beach party set. It looks like it will be a flashy, fun party."
+        },
+        {
+            "Key": 709069209,
+            "NameJp": "桜の木とベンチ",
+            "NameEn": "Cherry Tree and Bench",
+            "DescriptionJp": "桜とベンチ。刹那に咲く花がとても美しい。",
+            "DescriptionEn": "Cherry blossoms and a bench. The flowers that bloom for an instant are very beautiful."
+        },
+        {
+            "Key": 975091188,
+            "NameJp": "マコト（水着）の神名文字",
+            "NameEn": "Makoto's (Swimsuit) Eleph",
+            "DescriptionJp": "マコト（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Makoto (Swimsuit)."
+        },
+        {
+            "Key": 2857583343,
+            "NameJp": "サツキ（水着）の神名文字",
+            "NameEn": "Satsuki's (Swimsuit) Eleph",
+            "DescriptionJp": "サツキ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Satsuki (Swimsuit)."
+        },
+        {
+            "Key": 365205461,
+            "NameJp": "イロハ（水着）の神名文字",
+            "NameEn": "Iroha's (Swimsuit) Eleph",
+            "DescriptionJp": "イロハ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Iroha (Swimsuit)."
+        },
+        {
+            "Key": 538806173,
+            "NameJp": "イブキ（水着）の神名文字",
+            "NameEn": "Ibuki's (Swimsuit) Eleph",
+            "DescriptionJp": "イブキ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Ibuki (Swimsuit)."
+        },
+        {
+            "Key": 2276115351,
+            "NameJp": "チアキ（水着）の神名文字",
+            "NameEn": "Chiaki's (Swimsuit) Eleph",
+            "DescriptionJp": "チアキ（水着）の神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Chiaki (Swimsuit)."
+        },
+        {
+            "Key": 1634148326,
+            "NameKr": "산해경 비경",
+            "DescriptionKr": "(X)",
+            "NameJp": "山海経の秘境",
+            "DescriptionJp": "(X)",
+            "NameEn": "Hidden Wonders of Shanhaijing",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 2367717864,
+            "NameKr": "출항! 만마선 ~마코토 의장님의 화려한 피서~",
+            "DescriptionKr": "출항! 만마선 ~마코토 의장님의 화려한 피서~ 이벤트에서 획득 가능",
+            "NameJp": "出航！万魔船　マコト議長の華麗なる避暑",
+            "DescriptionJp": "出航！万魔船　マコト議長の華麗なる避暑イベントにて獲得可能",
+            "NameEn": "Set Sail! Man-of-Pandemonium: Chairman Makoto's Magnificent Summer Retreat",
+            "DescriptionEn": "Obtainable in theSet Sail! Man-of-Pandemonium: Chairman Makoto's Magnificent Summer Retreat."
+        },
+        {
+            "Key": 3567219003,
+            "NameKr": "Hatsukoi",
+            "DescriptionKr": "시논의 배틀패스 시즌 3 성장CH+ 구매",
+            "NameJp": "Hatsukoi",
+            "DescriptionJp": "シノンのバトルパスシーズン3成長CH+購入",
+            "NameEn": "Hatsukoi",
+            "DescriptionEn": "Purchase Shinon's Battle Pass Season 3 Growth CH+"
+        },
+
+        {
+            "Key": 1282591725,
+            "NameJp": "夢の砂",
+            "NameEn": "Dream Sand",
+            "DescriptionJp": "眠っている人のところにたまる不思議な砂。夢から覚めた瞬間に、噓だったかのように消えてしまう。",
+            "DescriptionEn": "A mysterious sand that gathers around sleeping people. It vanishes as if it were never there the moment they wake up."
+        },
+        {
+            "Key": 1569031997,
+            "NameJp": "流れ着いたペットボトル",
+            "NameEn": "Washed-Up Plastic Bottle",
+            "DescriptionJp": "波に流されてきたゴミ。海に捨てられたプラスチックがすべて分解されるには500年かかると言われている。",
+            "DescriptionEn": "Trash washed ashore by the waves. It is said that plastic discarded into the sea takes about 500 years to fully decompose."
+        },
+        {
+            "Key": 4055095110,
+            "NameJp": "貝殻",
+            "NameEn": "Seashell",
+            "DescriptionJp": "食べたあとの殻。極限の状況では、どんなものでも利用しなければならない。",
+            "DescriptionEn": "The shell left after eating. In extreme situations, anything can be put to use."
+        },
+        {
+            "Key": 3436517252,
+            "NameJp": "石ころ",
+            "NameEn": "Sea Pebble",
+            "DescriptionJp": "ただの石ころ。海では意外と手に入らない。",
+            "DescriptionEn": "Just a pebble. It is surprisingly hard to find one at the sea."
+        },
+        {
+            "Key": 1437157854,
+            "NameJp": "女王の星",
+            "NameEn": "Queen's Star",
+            "DescriptionJp": "勝利の象徴。星を5個すべて集めると、何でも叶えてくれる「クイーンのなんでも券」が与えられるとか……？",
+            "DescriptionEn": "A symbol of victory. Rumor has it that collecting all five stars grants a 'Queen's Anything Goes Ticket' that can grant any wish..."
         }
 
     ]
