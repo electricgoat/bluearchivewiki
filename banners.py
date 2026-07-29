@@ -28,6 +28,8 @@ UNIQUE_LOBBY_IMAGE_BANNER_ID = {
 		90050127,
 		90050129,
 		90050136,
+		90050690,
+		90050691,
 		]
 }
 
@@ -214,7 +216,11 @@ def init_banners(region: str):
 			wiki_filename = f'Lobby_Banner_EN_{banner.sale_period_from.strftime("%Y%m%d")}_{sameday_sequence_num:02}.png'
 
 			#this aims to collapse rerun 2+ images to first rerun name
-			same_banner_reruns = [x for x in banners.values() if x.rerun_original_id == banner.rerun_original_id and x.id not in UNIQUE_LOBBY_IMAGE_BANNER_ID[region]]
+			if banner.id in UNIQUE_LOBBY_IMAGE_BANNER_ID[region]:
+				print(f"Banner {banner.id} is in UNIQUE_LOBBY_IMAGE_BANNER_ID, skipping rerun image check")
+				same_banner_reruns = []
+			else:
+				same_banner_reruns = [x for x in banners.values() if x.rerun_original_id == banner.rerun_original_id and x.id not in UNIQUE_LOBBY_IMAGE_BANNER_ID[region]]
 			if banner.is_rerun and len(same_banner_reruns) > 0:
 				banner.image_lobby_banner = same_banner_reruns[0].image_lobby_banner
 				sameday_sequence_num -= 1
