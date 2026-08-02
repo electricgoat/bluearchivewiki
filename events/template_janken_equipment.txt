@@ -1,0 +1,14 @@
+===Equipment===
+Each accessory can be raised up to Tier {{max_tier}}; every tier past the first costs {{wiki_upgrade_cost}} ({{tier_up_costs|join(', ')}} for tiers 2~{{max_tier}} respectively).
+{% raw %}{{% endraw %}| class="wikitable"
+!colspan="2" |Accessory
+!Tier
+!ATK
+!HP
+{% for item in equipment %}{% for tier in item['tiers'] %}|-
+{% if loop.first %}| rowspan="{{len(item['tiers'])}}" style="text-align: center" |[[File:{{item['image']}}.png|x64px]]
+| rowspan="{{len(item['tiers'])}}" style="text-align: left;" |'''{{item['localize']['name']}}'''{% if item['localize']['description'] %}<br>{{item['localize']['description']|nl2br}}{% endif %}
+{% endif %}| style="text-align: center" |{{tier['Tier']}}
+| style="text-align: right;" |{{tier['AttackPower']|thousands}}
+| style="text-align: right;" |{{tier['HitPoint']|thousands}}
+{% endfor %}{% endfor %}{% raw %}|}{% endraw %}

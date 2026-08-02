@@ -1,0 +1,16 @@
+===Score Rewards===
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible limitwidth-640"
+!Accumulated score
+!Reward
+{% for tier in tiers -%}
+|-
+| style="text-align: right;" |{{tier['score']|thousands}}
+|<div class="rewards">{% for parcel in tier['parcels'] %}{{parcel.wikitext}}{% endfor %}</div>
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+! Total Score Rewards
+|-
+|<div class="rewards">{%- for reward in total_rewards -%}{{reward.wikitext}}{% endfor %}</div>
+{% raw %}|}{% endraw %}

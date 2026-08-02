@@ -5,16 +5,16 @@
 ! rowspan="2" |Stage
 ! rowspan="2" |Level
 ! rowspan="2" |Entry cost
-!style="font-stretch: condensed;" rowspan="2" |Environment
-!style="font-stretch: condensed;" rowspan="2" |Enemy armor
+!class="condensed" rowspan="2" |Environment
+!class="condensed" rowspan="2" |Enemy armor
 {%- if 'ThreeStar' in reward_types %}
 ! rowspan="2" |Star objectives{% endif %}
 ! colspan="{{rewardcols}}" |Rewards
 |-
 {%- if 'FirstClear' in reward_types %}
-!style="font-stretch: condensed;"|FirstClear{% endif %}
+!class="condensed"|FirstClear{% endif %}
 {%- if 'ThreeStar' in reward_types %}
-!style="font-stretch: condensed;"|ThreeStar{% endif %}
+!class="condensed"|ThreeStar{% endif %}
 {%- if 'Event' in reward_types %}
 !Event{% endif %}
 {%- if 'Default' in reward_types %}

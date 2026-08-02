@@ -3,11 +3,11 @@
 !Stage
 !Level
 !Entry cost
-!style="font-stretch: condensed;" |Environment
-!style="font-stretch: condensed;" |Enemy armor
+!class="condensed" |Environment
+!class="condensed" |Enemy armor
 !Rewards
-!style="font-stretch: condensed;" |Average reward
-!style="font-stretch: condensed;" |Average {% raw %}{{{% endraw %}ItemCard|Credits|text={% raw %}}}{% endraw %}/AP
+!class="condensed" |Average reward
+!class="condensed" |Average {% raw %}{{{% endraw %}ItemCard|Credits|text={% raw %}}}{% endraw %}/AP
 {% for stage in stages -%}
 |-
 |{{stage.name_en}}

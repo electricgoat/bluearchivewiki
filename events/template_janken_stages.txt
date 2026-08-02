@@ -1,0 +1,54 @@
+==={{stage_type}} Stages===
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible stagetable"
+|-
+! rowspan="2" |Stage
+! rowspan="2" |Opponent
+!class="condensed" rowspan="2" |Opponent HP
+!class="condensed" rowspan="2" |Opponent ATK
+{%- if stages|selectattr('difficulty_rating')|list %}
+!class="condensed" rowspan="2" |Rating{% endif %}
+{%- if stages|selectattr('echelon')|list %}
+! rowspan="2" |Preset{% endif %}
+! rowspan="2" |Entry cost
+! rowspan="2" |Star objectives
+! colspan="{{rewardcols}}" |Rewards
+|-
+{%- if 'FirstClear' in reward_types %}
+!class="condensed"|FirstClear{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+!class="condensed"|ThreeStar{% endif %}
+{%- if 'Event' in reward_types %}
+!Event{% endif %}
+{%- if 'Default' in reward_types %}
+!Default{% endif %}
+{%- if 'Rare' in reward_types %}
+!Rare{% endif %}
+{%- if 'Other' in reward_types %}
+!Other{% endif %}
+{% for stage in stages -%}
+|-
+| style="text-align: left;" |{{stage.name_en}}{% if stage.stage_hint %}{% raw %}<br>{{Tip|{% endraw %}{{stage.stage_hint|nl2br}}{% raw %}}}{% endraw %}{% endif %}
+| style="text-align: center" |{% if stage.enemy %}{% if stage.enemy['image'] %}[[File:{{stage.enemy['image']}}.png|x48px]]<br>{% endif %}{{stage.enemy['localize']['name']}}{% if stage.enemy['IsBoss'] %}<br>(Boss){% endif %}{% endif %}
+| style="text-align: right;" |{% if stage.enemy %}{{stage.enemy['HitPoint']|thousands}}{% endif %}
+| style="text-align: right;" |{% if stage.enemy %}{{stage.enemy['AttackPower']|thousands}}{% endif %}
+{%- if stages|selectattr('difficulty_rating')|list %}
+| style="text-align: center" |{{stage.difficulty_rating}}{% endif %}
+{%- if stages|selectattr('echelon')|list %}
+| style="text-align: left;" |{% for unit in stage.echelon %}{% if unit['character'] %}{{unit['character']['localize']['name']}}{% endif %}{% if unit['equipment'] %}<br>{{unit['equipment']['localize']['name']}} T{{unit['equipment']['Tier']}}{% endif %}{% endfor %}{% endif %}
+|{{stage.wiki_enter_cost}}
+| style="text-align: left;" | {{ '<br>'.join(stage.star_goal.wiki_list) }}
+{%- if 'FirstClear' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('FirstClear', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('ThreeStar', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Event' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Event', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Default' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Default', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Rare' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Rare', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Other' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Other', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+

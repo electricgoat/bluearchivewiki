@@ -15,6 +15,8 @@ STAR_GOALS = {
     'AllyBaseDamage': 'No more than {0} damage to base',
     'ClearTimeInSec': 'Clear within {0} seconds',
     'GetBoxes': 'Collect {0} boxes',
+    'UsedTurn': 'Clear within {0} turns',
+    'LeftHitPoint': 'Finish with {0}% or more HP remaining',
 }
 
 
@@ -335,6 +337,81 @@ class DefenseStage(Stage):
             StarGoal(stage['StarGoal'], stage['StarGoalAmount'])
         )
     
+
+class JankenStage(Stage):
+    #Rock-paper-scissors minigame stages have no battlefield, so most of the regular stage fields stay empty
+    #and the enemy/echelon data is carried in the janken-specific attributes instead.
+
+    def __init__(self, *stage_args, enemy_id = 0, difficulty_rating = '', skill_cost_event_chance = 0, fixed_echelon = None, stage_icon = ''):
+        super().__init__(*stage_args)
+        self.enemy_id = enemy_id
+        self.difficulty_rating = difficulty_rating
+        self.skill_cost_event_chance = skill_cost_event_chance
+        self.fixed_echelon = fixed_echelon or []
+        self.stage_icon = stage_icon
+
+
+    @classmethod
+    def get_table_name_stage_rewards(cls):
+        return 'event_content_stage_rewards'
+
+
+    @classmethod
+    def from_data(cls, stage_id, data, wiki_card = None, missing_localization = None, missing_etc_localization = None):
+        stage = data.minigame_janken_stage[stage_id]
+
+        rewards = cls.get_rewards(stage, data, wiki_card)
+        enter_cost = cls.wiki_enter_cost(stage, data)
+
+        stage_type = ''
+        if stage['StageTypeLocalize'] in data.localization:
+            stage_type = data.localization[stage['StageTypeLocalize']].get('En') or data.localization[stage['StageTypeLocalize']].get('Jp', '')
+            if 'En' not in data.localization[stage['StageTypeLocalize']] and missing_localization is not None: missing_localization.add_entry(data.localization[stage['StageTypeLocalize']])
+        name_en = f"{stage_type or stage['JankenStageType']} {stage['StageDisplay']}"
+
+        #Story stages carry a blurb about the upcoming opponent, other stage types leave it empty
+        stage_hint = ''
+        if stage['StageDiscription'] > 0 and stage['StageDiscription'] in data.localization:
+            stage_hint = data.localization[stage['StageDiscription']].get('En') or data.localization[stage['StageDiscription']].get('Jp', '')
+            if 'En' not in data.localization[stage['StageDiscription']] and missing_localization is not None: missing_localization.add_entry(data.localization[stage['StageDiscription']])
+
+        #Normal stages are additionally rated as 下/中/上
+        difficulty_rating = ''
+        if stage['EnemyInfoDifficulty'] > 0 and stage['EnemyInfoDifficulty'] in data.localization:
+            difficulty_rating = data.localization[stage['EnemyInfoDifficulty']].get('En') or data.localization[stage['EnemyInfoDifficulty']].get('Jp', '')
+            if 'En' not in data.localization[stage['EnemyInfoDifficulty']] and missing_localization is not None: missing_localization.add_entry(data.localization[stage['EnemyInfoDifficulty']])
+
+        return cls(
+            stage['Id'],
+            stage['Name'],
+            name_en,
+            stage['EventContentId'],
+            stage['JankenStageType'],
+            stage['StageNumber'],
+            stage['StageDisplay'],
+            stage['PrevStageId'],
+            0, #battle_duration
+            "", #strategy_map
+            "", #strategy_map_bg
+            stage['EventContentStageRewardId'],
+            None, #topography
+            None, #rec_level
+            None, #strategy_environment
+            [], #grounds
+            'MinigameJankenStage',
+            rewards,
+            enter_cost,
+            set(),
+            set(),
+            stage_hint,
+            StarGoal(stage['StarGoal'], stage['StarGoalAmount']),
+            enemy_id = stage['EnemyId'],
+            difficulty_rating = difficulty_rating,
+            skill_cost_event_chance = stage['SKillCostEventChance'],
+            fixed_echelon = data.minigame_janken_fixed_echelon.get(stage['FixedEchelon'], []),
+            stage_icon = stage['StageIconName'].rsplit('/', 1)[-1],
+        )
+
 
 class WeekDungeonStage(Stage):
 

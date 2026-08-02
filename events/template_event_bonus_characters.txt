@@ -6,7 +6,7 @@
 !Bonus Rate
 !style="color:#f02e2e;" |Striker
 !style="color:#274ff2;" |Special
-!style="font-stretch: condensed;" |Max Bonus Rate
+!class="condensed" |Max Bonus Rate
 {% for item in bonus_values if bonus_values[item] != [] -%}
 |-
 | rowspan="{{len(bonus_values[item])}}" |{% raw %}{{{% endraw %}ItemCard|{{event_currencies[item]['Name']}}|80px|block{% raw %}}}{% endraw %}

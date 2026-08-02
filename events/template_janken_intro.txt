@@ -1,0 +1,15 @@
+[[File:Event {{season_id}} Janken.png|thumb|{{name}} minigame]]
+{{name}} is a rock-paper-scissors minigame. Each turn the player and the opponent pick a hand at the same time; winning the exchange deals damage based on attack power, while a draw deals reduced damage to both sides. The goal is to reduce the opponent's HP to zero within the turn limit.
+
+The player fights with one of the crabs below, equipped with a single accessory; both contribute attack power and HP. Playing a hand charges skill cost, which is spent on the crab's active skill.
+
+Entering a stage costs {{wiki_play_cost}}, while raising equipment tiers costs {{wiki_upgrade_cost}}.
+{%- if janken_info['MultipleMax'] > 1 %}
+Earning all three challenge stars on a stage unlocks the multiplier option, which lets the player pay the entry cost several times over (up to x{{janken_info['MultipleMax']}}) for proportionally increased rewards.
+{%- endif %}
+{%- if janken_info['ChallengeMultipleUnlockScore'] > 0 and challenge_stages %}
+The multiplier option of the Challenge stage is instead unlocked at an accumulated score of {{janken_info['ChallengeMultipleUnlockScore']|thousands}}.
+{%- endif %}
+{%- if challenge_stages %}
+The Challenge stage pits the player against a boss with a very large HP pool; damage dealt to it accumulates into a score, which is paid out through the '''Score Rewards''' ladder.
+{%- endif %}

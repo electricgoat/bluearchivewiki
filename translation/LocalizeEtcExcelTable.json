@@ -16935,6 +16935,195 @@
             "NameEn": "Queen's Star",
             "DescriptionJp": "勝利の象徴。星を5個すべて集めると、何でも叶えてくれる「クイーンのなんでも券」が与えられるとか……？",
             "DescriptionEn": "A symbol of victory. Rumor has it that collecting all five stars grants a 'Queen's Anything Goes Ticket' that can grant any wish..."
+        },
+        {
+            "Key": 3685108562,
+            "NameKr": "타이거샤크마루",
+            "DescriptionKr": "상어의 영혼이 깃든 천부적인 파이터. 항상 투쟁할 대상을 찾는 점에서, 마코토와 쏙 닮았다. 강적과의 싸움, 끊임없는 투쟁, 그리고 해초류에 굶주려 있다.",
+            "NameJp": "タイガーシャーク丸",
+            "DescriptionJp": "サメの魂を宿した生粋のファイター。常に戦う相手を求めるその姿は、マコトそのもの。強敵との激闘、終わりなき闘争、そして海藻への飽くなき執念を持つ。",
+            "NameEn": "Tiger Shark Maru",
+            "DescriptionEn": "A genuine fighter with the soul of a shark. The way it constantly seeks out someone to fight is just like Makoto herself. It is driven by fierce battles against powerful foes, endless struggle, and an insatiable obsession with seaweed."
+        },
+        {
+            "Key": 3820641632,
+            "NameKr": "천상천하 유아독존",
+            "DescriptionKr": "상대방이 직전 턴에 낸 선택지를 낼 확률을 0%로 만들고, 해당 선택지의 확률을 나머지 두 선택지에 균등 분배한다. 자신의 피해 보너스 대미지 배율은 변하지 않는다.",
+            "NameJp": "天上天下唯我独尊",
+            "DescriptionJp": "相手が直前のターンで選択した手を出す確率を0%にし、残りの2つの手を出す確率をそれぞれ均等に分配する。自分のダメージボーナスのダメージ倍率は変わらない。",
+            "NameEn": "Throughout heaven and earth, I alone am the honored one",
+            "DescriptionEn": "Makes the opponent's chance of playing the hand they chose on the previous turn 0%, and evenly distributes the chance of the remaining two hands between them. Your own damage bonus multiplier does not change."
+        },
+        {
+            "Key": 1124524675,
+            "NameKr": "빨간 소라게",
+            "DescriptionKr": "그냥 소라게. 이로하 머리 색깔이랑 같다는 이유로 담당하게 되었다. 정들이면 귀찮게 될 것을 알지만, 결국은 이래저래 소중하게 여기게 되었다.",
+            "NameJp": "赤ヤドカリ",
+            "DescriptionJp": "ただのヤドカリ。髪の色と同じ色という理由でイロハに世話されることになった。最初は情が移ると面倒だと言われていたが、結局なんだかんだ大切にされている。",
+            "NameEn": "Red Hermit Crab",
+            "DescriptionEn": "Just an ordinary hermit crab. It ended up in Iroha's care simply because it happened to match her hair color. At first, she insisted that getting attached would only be a hassle, but somehow, she ended up cherishing it anyway."
+        },
+        {
+            "Key": 743937787,
+            "NameKr": "제대로 하기",
+            "DescriptionKr": "이번 턴에 지거나 비기더라도 대미지를 받지 않는다.",
+            "NameJp": "しっかりと",
+            "DescriptionJp": "今回のターンが引き分け/敗北でもダメージを受けない。",
+            "NameEn": "Do It Properly",
+            "DescriptionEn": "This turn, you will not take damage even if you lose or draw."
+        },
+        {
+            "Key": 2027863597,
+            "NameKr": "꼬집이 씨",
+            "DescriptionKr": "이부키의 소중한 파트너! 소라게 중에 가장 어리고, 겁이 많아 싸움이 능숙하지 못하다. 하지만 품고 있는 잠재력은 누구보다 크다!",
+            "NameJp": "カニカニさん",
+            "DescriptionJp": "イブキの大切なパートナー！ヤドカリたちの中では最年少。とても臆病なため戦いは得意ではない。だが、秘めた才能は誰にも負けない！",
+            "NameEn": "Kanikani-san",
+            "DescriptionEn": "Ibuki's precious partner! The youngest among the hermit crabs. Timid and not much of fighter, but its hidden talent is unmatched by anyone!"
+        },
+        {
+            "Key": 18352450,
+            "NameKr": "꼬집어 줄게!",
+            "DescriptionKr": "공격력이 [c][007eff]30%[-][/c] 증가한다. (최대 중첩 [c][007eff]3회[-][/c]) 이번 턴에 승리할 경우, 코스트를 [c][007eff]1[-][/c]만큼 회복한다. 패배할 경우 중첩을 모두 잃는다.",
+            "NameJp": "カニカニさんだよ！",
+            "DescriptionJp": "攻撃力が[c][007eff]30%[-][/c]増加する。（最大[c][007eff]3回[-][/c]重複）今回のターンで勝利した場合、コストを[c][007eff]1[-][/c]分回復する。敗北した場合、重複した攻撃力はリセットされる。",
+            "NameEn": "It's Kanikani-san!",
+            "DescriptionEn": "Increase Attack by [c][007eff]30%[-][/c]. (Can stack up to [c][007eff]3 times[-][/c])\nIf you win this turn, recover [c][007eff]1[-][/c] Cost. If you lose, all stacked attack power is reset."
+        },
+        {
+            "Key": 1038647446,
+            "NameKr": "레비아탄 Z",
+            "DescriptionKr": "사츠키의 생체공학 프로젝트, 일명 레비아탄 계획으로 탄생한 궁극의 생물병기! 그 비결이란 건강한 식습관, 규칙적인 산책, 그리고 따스한 햇살이다!",
+            "NameJp": "レヴィアタンZ",
+            "DescriptionJp": "サツキの生体工学プロジェクト――通称「レヴィアタン計画」から生まれた究極の生物兵器！その秘訣は、健康的な食生活・規則正しいお散歩・そして暖かな日差し！",
+            "NameEn": "Leviathan Z",
+            "DescriptionEn": "Satsuki's bioengineering project — the so-called 'Leviathan Plan' — created the ultimate bio-weapon! Its secret is a healthy diet, regular walks, and warm sunlight!"
+        },
+        {
+            "Key": 1089612741,
+            "NameKr": "작전명 NK",
+            "DescriptionKr": "상대가 가위/바위/보를 낼 확률을 33%로 만든다. 자신의 피해 보너스 대미지 배율은 변하지 않는다.",
+            "NameJp": "作戦名NK",
+            "DescriptionJp": "相手がグー/チョキ/パーを出す確率をそれぞれ33%にする。自分のダメージボーナスの倍率は変わらない。",
+            "NameEn": "Operation NK",
+            "DescriptionEn": "Force the opponent to have a 33% chance of playing Rock, Scissors, or Paper. Your damage bonus multiplier does not change."
+        },
+        {
+            "Key": 132637474,
+            "NameKr": "블랙 돌리",
+            "DescriptionKr": "세련쟁이 소라게 씨. 남들보다 멋 부린 부분을 알아봐 주길 바라지만, 뭐가 다른 건지 도통 알 수가 없다. 오직 치아키만이 멋 낸 부분을 모두 찾아준다고.",
+            "NameJp": "ブラックドリー",
+            "DescriptionJp": "おしゃれなヤドカリさん。本人なりのこだわりに気づいてほしいらしいが、どこが違うのかはさっぱり分からない。なぜかチアキだけは、その違いを見抜くらしい。",
+            "NameEn": "Black Dolly",
+            "DescriptionEn": "A fashionable hermit crab. It wishes others would notice the touches that make it unique, but no one can tell the difference. For some reason, Chiaki is the only one who can always spot them."
+        },
+        {
+            "Key": 1017860088,
+            "NameKr": "히어로 샷",
+            "DescriptionKr": "피해량이 [c][007eff]150%[-][/c] 증가하지만, 무승부도 패배로 간주한다.",
+            "NameJp": "ヒーローショット",
+            "DescriptionJp": "ダメージ量が[c][007eff]150%[-][/c]増加するが、引き分けの場合も敗北する。",
+            "NameEn": "Hero Shot",
+            "DescriptionEn": "Damage increases by [c][007eff]150%[-][/c], but a draw also counts as a loss."
+        },
+        {
+            "Key": 3948924537,
+            "NameKr": "별무리 쨩",
+            "DescriptionKr": "(X)",
+            "NameJp": "星屑ちゃん",
+            "DescriptionJp": "(X)",
+            "NameEn": "Stardust-chan",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 641038767,
+            "NameKr": "민중의 집게발",
+            "DescriptionKr": "(X)",
+            "NameJp": "民衆のハサミ",
+            "DescriptionJp": "(X)",
+            "NameEn": "People's Scissors",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 1818135546,
+            "NameKr": "가재 씨",
+            "DescriptionKr": "(X)",
+            "NameJp": "ザリガニさん",
+            "DescriptionJp": "(X)",
+            "NameEn": "Crayfish-san",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 2627441868,
+            "NameKr": "서러브레드",
+            "DescriptionKr": "(X)",
+            "NameJp": "サラブレッド",
+            "DescriptionJp": "(X)",
+            "NameEn": "Thoroughbred",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 1322353299,
+            "NameKr": "숙청군 2호",
+            "DescriptionKr": "(X)",
+            "NameJp": "粛清君2号",
+            "DescriptionJp": "(X)",
+            "NameEn": "Purge-kun No. 2",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 3093344069,
+            "NameKr": "메슈데크",
+            "DescriptionKr": "(X)",
+            "NameJp": "メスデク",
+            "DescriptionJp": "(X)",
+            "NameEn": "Mesudeku",
+            "DescriptionEn": "(X)"
+        },
+        {
+            "Key": 1779390952,
+            "NameKr": "해초류 월계수",
+            "DescriptionKr": "승리의 상징. 승자에게 월계수를 수여하는 전통은 오디세이아에서 시작했다고 알려진다. 이것도 아마 비슷한 것이다.",
+            "NameJp": "海藻でできた冠",
+            "DescriptionJp": "勝利の象徴。勝者に月桂冠を授与する伝統は、オデュッセイアに起源があると言われている。これもおそらく似たようなものだろう。",
+            "NameEn": "Seaweed Laurel Wreath",
+            "DescriptionEn": "A symbol of victory. The tradition of awarding the victor a laurel wreath is said to have originated in the Odyssey. This is probably something similar."
+        },
+        {
+            "Key": 537612354,
+            "NameKr": "또 하나의 나",
+            "DescriptionKr": "어둠의 나. 언제나 가장 가까운 곳에서 응원해 주는 믿음직한 파트너! 그저 붙어 있을 뿐인 거 같기도 하지만…….",
+            "NameJp": "もうひとりの私",
+            "DescriptionJp": "いつも一番近くで応援してくれる、頼もしいパートナー！ただくっついているだけにも見えるけど……。",
+            "NameEn": "Another Me",
+            "DescriptionEn": "A reliable partner who always cheers you on from the closest place! It might look like they're just clinging to you..."
+        },
+        {
+            "Key": 2662707979,
+            "NameKr": "만마전 스티커",
+            "DescriptionKr": "게헨나에서 가장 우수한 학생들에게 주어지는 휘장. 만마전에 가입하기 위해서는 그 무엇보다 능력을 증명해야 한다. 실력 이외에는 무엇도 기준이 되지 못한다.",
+            "NameJp": "万魔殿ステッカー",
+            "DescriptionJp": "ゲヘナの最優秀生徒に授与される徽章。万魔殿に入るためには、能力を証明しなければならない。実力のみが基準になり得る。",
+            "NameEn": "Pandemonium Sticker",
+            "DescriptionEn": "An insignia awarded to Gehenna's most outstanding students. To join the Pandemonium Society, one must prove their abilities. Merit alone serves as the standard."
+        },
+        {
+            "Key": 2083688323,
+            "NameKr": "동전 목걸이",
+            "DescriptionKr": "소라게 목에 동전 목걸이. 오래전부터 내려오는 격언이자, 무가치함을 향한 조소 섞인 비유. 하지만, 꿈은 이루어진다.",
+            "NameJp": "コインネックレス",
+            "DescriptionJp": "ヤドカリにもコインネックレス。古くから伝わることわざで、価値が分からない者への嘲笑を含んだ比喩。それでも、身に着けたヤドカリは誇らしげである。",
+            "NameEn": "Coin Necklace",
+            "DescriptionEn": "A coin necklace for a hermit crab. This is an old proverb, a metaphor that mocks those who don't understand the value of coins. Nevertheless, the hermit crabs wearing them look proud."
+        },
+        {
+            "Key": 73193444,
+            "NameKr": "모모프렌즈 반창고",
+            "DescriptionKr": "아픈 거 다 날아가라! 이번 여행을 위해, 응급의학부장이 직접 준비해 준 의료용품. 몹시 실용적이면서도 아이의 취향을 배려하고 있다.",
+            "NameJp": "モモフレンズの絆創膏",
+            "DescriptionJp": "痛いの痛いの飛んでいけー！今回の旅行のために、救急医学部長が準備した医療品。非常に実用的かつ、子供受けもいい。",
+            "NameEn": "MomoFriends Bandage",
+            "DescriptionEn": "Pain, pain, go away! These medical supplies were prepared by the chief of emergency medicine for this trip. They are highly practical and also popular with children."
         }
 
     ]

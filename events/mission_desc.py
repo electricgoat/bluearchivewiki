@@ -568,6 +568,43 @@ def localize_ClearSpecificDefenseStage(mission, data = None, items=None, furnitu
     return True
 
 
+#CompleteConditionParameter is [event id, equipment tier], CompleteConditionCount is always 1
+def localize_JankenEquipmentTierCheckCount(mission, data = None, items=None, furniture=None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    tier = str(mission['CompleteConditionParameter'][-1])
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', tier))
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', tier))
+
+    mission['AutoLocalized'] = True
+    return True
+
+
+#CompleteConditionParameter is [event id, janken stage id], CompleteConditionCount is the score to reach
+def localize_JankenGetSpecificScore(mission, data = None, items=None, furniture=None):
+    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    desc_jp = data.localization[key].get('Jp')
+    desc_en = data.localization[key].get('En', '')
+
+    stage = data.minigame_janken_stage.get(mission['CompleteConditionParameter'][-1])
+    if stage is None:
+        print(f"Janken score mission {mission['Id']} refers to unknown stage {mission['CompleteConditionParameter'][-1]}")
+        return False
+
+    stage_type = data.localization.get(stage['StageTypeLocalize'], {})
+    stage_jp = f"{stage_type.get('Jp') or stage['JankenStageType']} {stage['StageDisplay']}"
+    stage_en = f"{stage_type.get('En') or stage_type.get('Jp') or stage['JankenStageType']} {stage['StageDisplay']}"
+
+    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_jp).replace('{1}', str(mission['CompleteConditionCount'])))
+    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_en).replace('{1}', str(mission['CompleteConditionCount'])))
+
+    mission['AutoLocalized'] = True
+    return True
+
+
 def localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture):
     desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
     desc_en = 'Clear $2 $1 within $3 seconds'

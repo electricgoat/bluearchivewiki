@@ -3,8 +3,8 @@
 !Stage
 !Level
 !Entry cost
-!style="font-stretch: condensed;" |Environment
-!style="font-stretch: condensed;" |Enemy armor
+!class="condensed" |Environment
+!class="condensed" |Enemy armor
 !Star objectives
 !Rewards
 {% for stage in stages -%}

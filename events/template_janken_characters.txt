@@ -1,0 +1,18 @@
+===Fighters===
+{% raw %}{{% endraw %}| class="wikitable"
+!colspan="3" |Crab
+!Partner
+!ATK
+!HP
+!Skill
+{% for character in characters -%}
+|-
+| style="text-align: center" |[[File:{{character['image']}}.png|120px]]
+| style="text-align: center" |{% if character['image_battle'] %}[[File:{{character['image_battle']}}.png|x80px]]{% endif %}
+| style="text-align: left;" |'''{{character['localize']['name']}}'''{% if character['localize']['description'] %}<br>{{character['localize']['description']|nl2br}}{% endif %}
+| style="text-align: left;" |{{character['owner']['name']}}
+| style="text-align: right;" |{{character['AttackPower']|thousands}}
+| style="text-align: right;" |{{character['HitPoint']|thousands}}
+| style="text-align: left;" |{% if character['skill'] %}'''{{character['skill']['localize']['name']}}''' (Cost: {{character['skill']['SkillCost']}}{% if character['skill']['OncePerMatch'] %}, once per match{% endif %})<br>{{character['skill']['localize']['description']|colorize|nl2br}}{% endif %}
+{% endfor -%}
+{% raw %}|}{% endraw %}

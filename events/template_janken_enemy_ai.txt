@@ -1,0 +1,17 @@
+===Opponent Hand Probabilities===
+Every turn the opponent rolls one of the following hand probability profiles, then picks a hand according to it.
+
+Note that game interface shows your chance of winning the turn, not opponent's chance of selecting shown hands. The numbers shown in the game can therefore be read, clockwise, as players chance to win, to get a draw, or to loose.
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible mw-collapsed limitwidth-640"
+!Profile chance
+{% for hand in hands -%}
+!{{hand}}
+{% endfor -%}
+{% for profile in profiles -%}
+|-
+| style="text-align: right;" |{{'%g' % (profile['chance']|round(2))}}%
+{% for hand in hands -%}
+| style="text-align: right;" |{{'%g' % (profile['hands'][hand]|round(2))}}%
+{% endfor -%}
+{% endfor -%}
+{% raw %}|}{% endraw %}
