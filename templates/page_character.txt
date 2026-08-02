@@ -42,7 +42,7 @@
 | CharacterPool = {{character.character_pool}}
 | ReleaseDate = {{character.profile.release_date_jp}}
 | ReleaseDateGL = {{character.profile.release_date_gl}}
-{{'}}'}}{{'{{'}}CharacterVariants|{{character.personal_name_en}}{{'}}'}}__TOC__
+{{'}}'}}{{'{{'}}CharacterVariants|{{character.personal_name_en}}{% if character.main_combat_style_id>0 and character.main_combat_style_id != character.id %}|{{character.main_combat_style_id}}{% endif %}{{'}}'}}__TOC__
 
 =Background=
 {% raw %}{{{% endraw %}CharacterBackground
