@@ -96,6 +96,25 @@ def page_list(match, srnamespace = '*'): #TODO namespaces lookup https://www.med
 
 
 
+def page_prefix_list(apprefix, apnamespace = 6): #namespace 6 is File:
+    global site
+    page_list = []
+
+    try:
+        for r in site.query(list='allpages', apprefix=apprefix, apnamespace=apnamespace, aplimit=200, apfilterredir='all'):
+            for page in r['allpages']:
+                page_list.append(page['title'].replace(' ', '_'))
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            return page_prefix_list(apprefix, apnamespace)
+        else:
+            print (f"Unknown error {error}")
+
+    return page_list
+
+
+
 def category_members(cmtitle, cmnamespace = '*'):
     global site
     page_list = []

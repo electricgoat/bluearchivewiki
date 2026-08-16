@@ -14,7 +14,10 @@ data = None
 
 
 def upload_tracks(tracks):
-    global args 
+    global args
+
+    known_wiki_pages = set(wiki.page_prefix_list('Track_'))
+    print(f"Loaded {len(known_wiki_pages)} cached track file pages from the wiki")
 
     for track in tracks.values():
         print(f"=== Track {track['Id']} ===")
@@ -24,17 +27,23 @@ def upload_tracks(tracks):
             print(f'File not found: {localpath}')
             continue
 
+        complete_name = f"File:{track['WikiFilename']}"
+        generic_name = f"File:Track_{track['Id']}.ogg"
+
         #Rename old file if it had no artist/name listed previously, but now does
-        complete_name_exists = wiki.page_exists(f"File:{track['WikiFilename']}")
+        complete_name_exists = complete_name in known_wiki_pages
 
         if not complete_name_exists:
-            generic_name_exists = wiki.page_exists(f"File:Track_{track['Id']}.ogg")
+            generic_name_exists = generic_name in known_wiki_pages
             if generic_name_exists:
-                if f"File:{track['WikiFilename']}" != f"File:Track_{track['Id']}.ogg" and not complete_name_exists:
-                    wiki.move(f"File:Track_{track['Id']}.ogg", f"File:{track['WikiFilename']}", summary='Descriptive track name', noredirect=False)
+                if complete_name != generic_name:
+                    wiki.move(generic_name, complete_name, summary='Descriptive track name', noredirect=False)
+                    known_wiki_pages.discard(generic_name)
+                    known_wiki_pages.add(complete_name)
             else:
                 print (f"Uploading {localpath} as {track['WikiFilename']}")
                 wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')
+                known_wiki_pages.add(complete_name)
 
 
 def wiki_file_name(track_id, track_data):
