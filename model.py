@@ -421,11 +421,34 @@ class Skill(object):
         
 
         additional_tooltip = []
+        additional_skill_group_ids = []
+        form_conversion_prefixes = set()
         if group[0]['AdditionalToolTipId'] != 0: 
             #print(f"group_id {group_id} has additional tooltips group: {group[0]['AdditionalToolTipId']} at max_level {max_level}")
             for add_tooltip in data.skill_additional_tooltip[group[0]['AdditionalToolTipId']]:
+                additional_group_id = add_tooltip['AdditionalSkillGroupId']
                 add_max_level = (add_tooltip['ShowSkillSlot'].upper() == 'EX' or show_skill_slot == 'EX') and 5 or 10
-                additional_tooltip.append(Skill.from_data(add_tooltip['AdditionalSkillGroupId'], data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
+                additional_tooltip.append(Skill.from_data(additional_group_id, data, max_level=add_max_level ,show_skill_slot=add_tooltip['ShowSkillSlot']))
+                additional_skill_group_ids.append(additional_group_id)
+
+                additional_group = next((skill for skill in data.skills.values() if skill['GroupId'] == additional_group_id), None)
+                if additional_group and additional_group.get('TextureSkillCardForFormConversion'):
+                    match = re.match(r'^(.*\D)\d+$', additional_group_id)
+                    if match:
+                        form_conversion_prefixes.add(match.group(1))
+
+            # Form-change skills are not always all listed in the additional-tooltip table.
+            # Include sibling forms identified by SkillExcelTable's form-conversion metadata.
+            for skill in data.skills.values():
+                sibling_group_id = skill['GroupId']
+                if (
+                    skill['Level'] == 1
+                    and skill.get('TextureSkillCardForFormConversion')
+                    and sibling_group_id not in additional_skill_group_ids
+                    and any(re.fullmatch(re.escape(prefix) + r'\d+', sibling_group_id) for prefix in form_conversion_prefixes)
+                ):
+                    additional_tooltip.append(Skill.from_data(sibling_group_id, data, max_level=5, show_skill_slot='Ex'))
+                    additional_skill_group_ids.append(sibling_group_id)
 
 
         select_ex_tooltip = []
