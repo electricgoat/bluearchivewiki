@@ -7524,7 +7524,12 @@
         {
             "GroupId": "CH0347Ex02",
             "NameEn": "Which one should I pick?",
-            "DescriptionEn": "Increase Critical Damage of your Friend student by $1 for $2.\nWhen holding a Seashell Flower, enhance this skill and increase the Critical Damage bonus multiplier by $3."
+            "DescriptionEn": "Increase Critical Damage of your Friend students by $1 for $2.\nWhen holding a Seashell Flower, enhance this skill and increase the Critical Damage bonus multiplier by $3."
+        },
+        {
+            "GroupId": "CH0347Ex03",
+            "NameEn": "Which one should I pick? (Enhanced)",
+            "DescriptionEn": "Increase Critical Damage of your Friend students by $1 for $2.\n(Skill is enhanced because Ibuki has the Seashell Flower)"
         },
         {
             "GroupId": "CH0347Public01",
