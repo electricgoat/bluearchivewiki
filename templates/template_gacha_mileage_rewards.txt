@@ -1,0 +1,27 @@
+===First-time rewards===
+First-time rewards can each be claimed once per pickup recruitment period. After the final first-time reward, progress continues into the repeat rewards.
+
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+!Recruitments
+!Reward
+{% for reward in first_time_rewards -%}
+|-
+!{{reward['RequiredRecruitAmount']}}
+|{% for card in reward['RewardCards'] %}{{card}}{% endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+
+===Repeat rewards===
+Repeat rewards follow the first-time rewards and cycle infinitely. After the final repeat reward, the sequence starts again from its first reward.
+
+The number in parentheses is the cumulative recruitment count at which the reward is first available.
+
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+!Recruitments
+!Reward
+{% for reward in repeat_rewards -%}
+|-
+!{{reward['RequiredRecruitAmount']}} ({{reward['FirstTotalRecruitAmount']}} total)
+|{% for card in reward['RewardCards'] %}{{card}}{% endfor %}
+{% endfor -%}
+{% raw %}|}{% endraw %}

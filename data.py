@@ -660,7 +660,7 @@ BlueArchiveSeasonData = collections.namedtuple(
     ['raid_season', 'world_raid_season', 'interactive_world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
      'event_content_season', 'guide_mission_season',
      'time_attack_dungeon_season',
-     'shop_recruit']
+     'shop_recruit', 'shop_recruit_mileage']
 )
 
 def load_season_data(path):
@@ -675,4 +675,5 @@ def load_season_data(path):
         guide_mission_season=           load_generic(path, 'GuideMissionSeasonExcelTable.json'),
         time_attack_dungeon_season=     load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
         shop_recruit =                  load_generic(path, 'ShopRecruitExcelTable.json'),
+        shop_recruit_mileage =          load_generic(path, 'ShopRecruitMileageExcelTable.json', key=None),
     )
