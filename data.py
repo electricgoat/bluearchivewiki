@@ -1,4 +1,5 @@
 import collections
+import collections.abc
 import json
 import orjson
 import os
@@ -487,20 +488,53 @@ def load_character_dialog_standard(path_translation):
     return data
 
 
+# case-folded filenames must match SkillDataKey values or this will stop working
+class LazyLevelSkill(collections.abc.Mapping):
+    def __init__(self, path):
+        self.skill_path = os.path.join(path, 'LevelSkill')
+        self.files = None
+        self.skills = {}
+
+    @property
+    def index(self):
+        if self.files is None:
+            self.files = {file.removesuffix('.json').lower(): file
+                          for file in os.listdir(self.skill_path) if file.endswith('.json')}
+
+        return self.files
+
+    def __getitem__(self, key):
+        lookup = key.lower()
+        if lookup not in self.skills:
+            file = self.index[lookup]
+            with open(os.path.join(self.skill_path, file), encoding="utf8") as f:
+                skill_info = orjson.loads(f.read())
+
+            if (type(skill_info) is list): self.skills[lookup] = skill_info[0] #pre-1.35
+            elif (type(skill_info) is dict): self.skills[lookup] = skill_info
+            else:
+                print(f"ERROR - file {file} with unknown data of type {type(skill_info)}")
+                raise KeyError(key)
+
+        return self.skills[lookup]
+
+    def __contains__(self, key):
+        return key.lower() in self.index
+
+    def __iter__(self):
+        keys = []
+        for name in self.index:
+            skill = self[name]
+            keys.append(skill['SkillDataKey'] if 'SkillDataKey' in skill else skill['GroupName'])
+
+        return iter(keys)
+
+    def __len__(self):
+        return len(self.index)
+
+
 def load_levelskill(path):
-    data = {}
-    for file in os.listdir(path + '/LevelSkill/'):
-        if not file.endswith('.json'):
-            continue
-
-        with open(os.path.join(path + '/LevelSkill/', file), encoding="utf8") as f:
-            skill_info = orjson.loads(f.read())
-
-            if (type(skill_info) is list): data[skill_info[0]['GroupName']] = skill_info[0] #pre-1.35
-            elif (type(skill_info) is dict): data[skill_info['SkillDataKey']] = skill_info
-            else: print(f"ERROR - file {file} with unknown data of type {type(skill_info)}")
-
-    return data
+    return LazyLevelSkill(path)
 
 
 def load_skill_logiceffectdata(path):
@@ -550,20 +584,47 @@ def load_strategymaps(path_primary):
     return data
 
 
+# builds key list from the directory listing and parses each file the first time that stage is actually called for
+class LazyStages(collections.abc.Mapping):
+    def __init__(self, path_primary):
+        self.stage_path = os.path.join(path_primary, 'Stage')
+        self.files = None
+        self.stages = {}
+
+    @property
+    def index(self):
+        if self.files is None:
+            self.files = {}
+            for file in os.listdir(self.stage_path):
+                if not file.endswith('.json') or "newleveltest" in file:
+                    #print(f'Skipping {file} as it contains "newleveltest" in the name.')
+                    continue
+
+                self.files[file[:file.index('.')]] = file
+
+        return self.files
+
+    def __getitem__(self, key):
+        if key not in self.stages:
+            file_path = os.path.join(self.stage_path, self.index[key])
+            with open(file_path, "rb") as f:
+                self.stages[key] = orjson.loads(f.read())
+
+        return self.stages[key]
+
+    # Mapping would answer this by parsing the file, the directory listing is enough
+    def __contains__(self, key):
+        return key in self.index
+
+    def __iter__(self):
+        return iter(self.index)
+
+    def __len__(self):
+        return len(self.index)
+
+
 def load_stages(path_primary):
-    data = {}
-    stage_path = os.path.join(path_primary, 'Stage')
-
-    for file in os.listdir(stage_path):
-        if not file.endswith('.json') or "newleveltest" in file:
-            #print(f'Skipping {file} as it contains "newleveltest" in the name.')
-            continue
-
-        file_path = os.path.join(stage_path, file)
-        with open(file_path, "rb") as f:
-            data[file[:file.index('.')]] = orjson.loads(f.read())
-
-    return data
+    return LazyStages(path_primary)
 
 
 def load_bgm(path_primary, path_translation):
