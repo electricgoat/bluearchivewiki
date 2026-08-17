@@ -3,6 +3,17 @@ import os
 import json
 from xxhash import xxh32_intdigest
 
+# Sorting helpers for damage and armor types
+DAMAGE_TYPE_ORDER = ('Explosive', 'Penetration', 'Mystic', 'Sonic', 'Corrosive')
+ARMOR_TYPE_ORDER = ('Light', 'Heavy', 'Special', 'Elastic', 'Composite')
+
+def damage_type_sort_order(type):
+    return (DAMAGE_TYPE_ORDER.index(type) if type in DAMAGE_TYPE_ORDER else len(DAMAGE_TYPE_ORDER), type)
+
+def armor_type_sort_order(type):
+    return (ARMOR_TYPE_ORDER.index(type) if type in ARMOR_TYPE_ORDER else len(ARMOR_TYPE_ORDER), type)
+
+
 def colorize(text:str):
     if len(text):
         return re.sub(
@@ -11,6 +22,7 @@ def colorize(text:str):
             text
         )
     else: return ''
+
 
 def nl2br(text:str):
     if len(text): return text.replace('\n\n','<br>').replace('\n','<br>')
@@ -280,7 +292,7 @@ def replace_units(text):
     #text = re.sub('3回', 'three times', text)
     text = re.sub('回', '', text)
     text = re.sub('つ', '', text)
-    text = re.sub('\]1秒\[', ']1 second[', text)
+    text = re.sub(r'\]1秒\[', ']1 second[', text)
     text = re.sub('秒', ' seconds', text)
     text = re.sub('個', '', text)
     text = re.sub('発分', ' hits', text)

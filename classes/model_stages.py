@@ -5,7 +5,7 @@
 import collections
 import re
 import shared.functions
-from shared.functions import armor_type, damage_type, environment_type, hashkey
+from shared.functions import armor_type, damage_type, armor_type_sort_order, damage_type_sort_order, environment_type, hashkey
 
 
 ignore_item_id = [
@@ -300,8 +300,8 @@ class EventStage(object):
             enter_cost,
             # set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
             # set([armor_type(x['EnemyArmorType']) for x in grounds])
-            set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
-            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
+            sorted(set([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ]), key=damage_type_sort_order),
+            sorted(set([armor_type(x['ArmorType']) for x in spawn_templates.values()]), key=armor_type_sort_order),
             stage_hint
         )
     
@@ -388,8 +388,8 @@ class FieldStage(EventStage):
             enter_cost,
             # set([damage_type(x['EnemyBulletType']) for x in grounds if x['EnemyBulletType'] != "Normal" ]),
             # set([armor_type(x['EnemyArmorType']) for x in grounds])
-            set(sorted([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ])),
-            set(sorted([armor_type(x['ArmorType']) for x in spawn_templates.values()])),
+            sorted(set([damage_type(x['BulletType']) for x in spawn_templates.values() if x['BulletType'] != "Normal" ]), key=damage_type_sort_order),
+            sorted(set([armor_type(x['ArmorType']) for x in spawn_templates.values()]), key=armor_type_sort_order),
             stage_hint = '',
         )
 
