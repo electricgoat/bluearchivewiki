@@ -1,33 +1,33 @@
-from dataclasses import replace
 import os
 import re
-import sys
 import traceback
-#import json
 import argparse
 import collections
 import textwrap
 
 
-#import wikitextparser as wtp
 import wiki
 
 from data import load_data
-from model import Character, Furniture
-import shared.functions
-from shared.CompareImages import compare_images
+from model import Character
 
-Interaction = collections.namedtuple(
-    'Interaction',
-    ['characters', 'filename', 'furniture']
+
+# The wiki Type is what {{Media}} accepts; see the cargo declaration in Template:Media
+VideoType = collections.namedtuple(
+    'VideoType',
+    ['dirname', 'suffix', 'media_type', 'comment']
 )
+
+VIDEO_TYPES = {
+    'dangle':           VideoType('upload_dangle',        'dangle',         'Dangle',  'Dangle video upload'),
+    'formation_idle':   VideoType('upload_formation_idle','formation_idle', 'Idle',    'Formation idle video upload'),
+    'cafe_headpat':     VideoType('upload_cafe_headpat',  'headpat',        'Headpat', 'Headpat video upload'),
+}
+
 
 data = {}
 args = {}
 map_wikiname_id = {}
-videos = []
-
-
 
 
 def get_character_data():
@@ -46,12 +46,36 @@ def get_character_data():
             print(f'Failed to parse for DevName {character_data["DevName"]}: {err}')
             traceback.print_exc()
 
-        # if args['character_id'] is not None and character['Id'] not in args['character_id']:
-        #     continue
-    
     return characters
-    
 
+
+
+def scan_gallery(gallery_dir, suffix):
+    catalog = collections.defaultdict(list)
+
+    if not os.path.isdir(gallery_dir):
+        print(f'Directory {gallery_dir} does not exist, skipping')
+        return catalog
+
+    pattern = re.compile(rf'^(?P<name>.+)_{re.escape(suffix)}(?:_(?P<part>\d+))?$')
+
+    for filename in sorted(os.listdir(gallery_dir)):
+        if not filename.endswith('.webm'):
+            continue
+
+        wiki_filename = filename.replace(' ', '_')
+        if wiki_filename != filename:
+            print(f'NOTE - {filename} will be uploaded as {wiki_filename}')
+
+        match = pattern.match(wiki_filename[:-len('.webm')])
+
+        if not match:
+            print(f'WARNING - unrecognised filename {filename} in {gallery_dir}')
+            continue
+
+        catalog[match.group('name')].append((wiki_filename, os.path.join(gallery_dir, filename)))
+
+    return catalog
 
 
 
@@ -63,34 +87,54 @@ def generate():
 
     characters = get_character_data()
 
+    for type_name in args['video_type']:
+        video_type = VIDEO_TYPES[type_name]
+        gallery_dir = os.path.join(args['gallery_root'], video_type.dirname)
 
+        print(f'===== {type_name} ({gallery_dir}) =====')
+        catalog = scan_gallery(gallery_dir, video_type.suffix)
+        matched_names = set()
 
-    for character in characters:
-        if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
-            continue
+        for character in characters:
+            if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
+                continue
 
-        wikitext = textwrap.dedent("""\
-                                {{Media
-                                | Type = Dangle
-                                | Collection =
-                                | Student = """+ character.wiki_name+"""
-                                | Notes = 
-                                }}
-                                [[Category:Character videos]]
-                                """)
+            name = character.wiki_name.replace(' ', '_')
+            files = catalog.get(name)
 
-        filename = f"{character.wiki_name.replace(' ','_')}_dangle.webm"
-        wikipath = f"File:{character.wiki_name.replace(' ','_')}_dangle.webm"       
+            if files:
+                matched_names.add(name)
+            else:
+                # No local capture - still visit the expected page so an already
+                # uploaded file gets its cargo entry refreshed.
+                files = [(f'{name}_{video_type.suffix}.webm', None)]
 
-        if wiki.site != None:  
-            if wiki.page_exists(wikipath):
-                print(f'Updating {wikipath}')
-                wiki.publish(wikipath, wikitext, f'Adding cargo entries for dangle video')
-            elif os.path.exists(os.path.join(args['gallery_dir'], filename)):
-                print (f"Uploading {filename}")
-                wiki.upload(os.path.join(args['gallery_dir'], filename), filename, 'Dangle video upload', wikitext)
+            wikitext = textwrap.dedent("""\
+                                    {{Media
+                                    | Type = """+ video_type.media_type+"""
+                                    | Collection =
+                                    | Student = """+ character.wiki_name+"""
+                                    | Notes = 
+                                    }}
+                                    [[Category:Character videos]]
+                                    """)
 
+            for wiki_filename, path in files:
+                wikipath = f'File:{wiki_filename}'
 
+                if wiki.site is None:
+                    continue
+
+                if wiki.page_exists(wikipath):
+                    print(f'Updating {wikipath}')
+                    wiki.publish(wikipath, wikitext, f'Adding cargo entries for {type_name} video')
+                elif path is not None:
+                    print(f'Uploading {wiki_filename}')
+                    wiki.upload(path, wiki_filename, video_type.comment, wikitext)
+
+        leftovers = set(catalog.keys()).difference(matched_names)
+        if leftovers and args['character_wikiname'] is None:
+            print(f'Files not matched to a character: {sorted(leftovers)}')
 
 
 
@@ -102,12 +146,14 @@ def main():
     parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
-    parser.add_argument('-gallery_dir',     metavar='DIR', default='C:/Video_capture/upload', help='Directory with video file')
+    parser.add_argument('-gallery_root',    metavar='DIR', default='C:/Video_capture', help='Directory containing the per-type video directories')
     parser.add_argument('-outdir',          metavar='DIR', default='./out/video', help='Output directory')
-    
+
+    parser.add_argument('-video_type', nargs="*", type=str, metavar='TYPE', choices=list(VIDEO_TYPES), default=['dangle'], help=f'Type(s) of video to upload: {", ".join(VIDEO_TYPES)}')
+
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
-    parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
-    
+    #parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
+
     #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
 
