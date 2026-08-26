@@ -3061,13 +3061,13 @@
         {
             "GroupId": "CH0075ExtraPassive01",
             "NameEn": "Nibble",
-            "DescriptionEn": "When reloading, decrease Attack Speed by $1, but increase Attack by $2 for $3.<br>Stacks up to a maximum of $4 times."
+            "DescriptionEn": "When reloading, decrease Attack Speed by $1, but increase Attack by $2 for $3.\nStacks up to a maximum of $4 times."
         },
 
         {
             "GroupId": "CH0143Ex01",
             "NameEn": "Iron Rain",
-            "DescriptionEn": "Deal $1 damage to enemies in a straight line.<br>Apply $2 of continuous burn damage for $3."
+            "DescriptionEn": "Deal $1 damage to enemies in a straight line.\nApply $2 of continuous burn damage for $3."
         },
         {
             "GroupId": "CH0143Public01",
@@ -7392,6 +7392,16 @@
             "DescriptionEn": "Increase Cost Recovery by $1 for $2.\nAfter using Practice: Banzai Calisthenics twice, the skill will change to \"Announcement: Closed Today\"."
         },
         {
+            "GroupId": "CH0356Ex03",
+            "NameEn": "Practice: Banzai Calisthenics",
+            "DescriptionEn": "Increase Cost Recovery by $1 for $2.\nAfter using Practice: Banzai Calisthenics twice, the skill will change to \"Announcement: Closed Today\"."
+        },
+        {
+            "GroupId": "CH0356Ex04",
+            "NameEn": "Practice: Banzai Calisthenics",
+            "DescriptionEn": "Increase Cost Recovery by $1 for $2.\nAfter using Practice: Banzai Calisthenics twice, the skill will change to \"Announcement: Closed Today\"."
+        },
+        {
             "GroupId": "CH0356Public01",
             "NameEn": "Decision: Enforcement",
             "DescriptionEn": "Every $1, reduce one enemy's Critical Hit Resistance by $2 for $3. Deal $4 damage."
@@ -7550,6 +7560,63 @@
             "GroupId": "CH0347ExtraPassive01",
             "NameEn": "Little Genius Professor",
             "DescriptionEn": "Increase Cost Recovery of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0368Ex01",
+            "NameEn": "Diving, start!",
+            "DescriptionEn": "For one other ally, increase the damage dealt by EX Skill by $1 for $2.\n(If the target has a \"Surfacing!\" effect, remove it)\nKokoro enters a Submerged state and her EX Skill changes to \"Surfacing!\"."
+        },
+        {
+            "GroupId": "CH0368Ex02",
+            "NameEn": "Surfacing!",
+            "DescriptionEn": "Increase Base Proficiency of one other ally by $1 for $2.\n(If the target has a \"Diving, start!\" effect, remove it)\nKokoro exits the Submerged state and her EX Skill changes to \"Diving, start!\"\n(Base Proficiency: Increase damage dealt by normal attacks, Normal Skills, and Sub Skills)"
+        },
+        {
+            "GroupId": "CH0368Public01",
+            "NameEn": "Underwater breaching",
+            "DescriptionEn": "Every $1 normal attacks, deal $2 damage to one enemy and lower their Attack by $3 for $4."
+        },
+        {
+            "GroupId": "CH0368Passive01",
+            "NameEn": "Diver's instinct",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0368WeaponPassive01",
+            "NameEn": "Diver's instinct +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0368ExtraPassive01",
+            "NameEn": "Breath control",
+            "DescriptionEn": "HP is increased by $1 and Base Proficiency is increased by $2.\nWhen using EX Skill on an Attacker ally who does not possess a \"Safety Certificate\", grant them a \"Safety Certificate\" and triple the duration of the effect of that EX Skill (removes all \"Safety Certificates\" possessed by other allies).\nWhile Submerged, change all damage dealt to EX damage type and increase the damage dealt by EX Skill by $3."
+        },
+
+        {
+            "GroupId": "CH0369Ex01",
+            "NameEn": "Loading underwater flechette ammunition",
+            "DescriptionEn": "Heal self for $1 of Healing.\nReload instantly after activation.\nNormal attacks deal $2 damage (effective until Kotone reloads $3 time)."
+        },
+                {
+            "GroupId": "CH0369Public01",
+            "NameEn": "Deep Sea guide",
+            "DescriptionEn": "Every $1, increase the damage dealt by the EX Skills of the three other allies excluding self by $2 for $3."
+        },
+        {
+            "GroupId": "CH0369Passive01",
+            "NameEn": "Orca's resilience",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0369WeaponPassive01",
+            "NameEn": "Orca's resilience +",
+            "DescriptionEn": "Increase Healing by $1. Increase HP by $2."
+        },
+        {
+            "GroupId": "CH0369ExtraPassive01",
+            "NameEn": "Leviathan",
+            "DescriptionEn": "When attacking, there is a $1 chance to reduce target's Defense by $2 for $3. (Cooldown: $4)\nWhen normal attacks are enhanced by the EX Skill, with every $5 normal attack, heal self for $6 of Healing."
         }
 
     ]

@@ -49,6 +49,7 @@ CLUBS = {
             'NicomediasTroop': 'Nicomedia\'s Troop',
             'PublishingDepartment': 'Publishing Department',
             'FoxSquad': "FOX Squad",
+            'DivingClub': 'Diving Club',
             'EmptyClub': 'no club'
 }
 

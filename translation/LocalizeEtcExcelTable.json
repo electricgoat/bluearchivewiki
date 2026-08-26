@@ -15595,19 +15595,32 @@
             "DescriptionJp": "SRT学園で支給されていた低価格の歯磨き粉。キュウリのさわやかな香りが特徴だが、独特すぎて好き嫌いが大きく分かれた。多くの生徒は歯磨きではなく、装備を磨くのに使っていたという……。",
             "DescriptionEn": "An inexpensive toothpaste provided at SRT Academy. It's characterized by the fresh scent of cucumber, but this unique flavor created a strong divide in opinions. It is said that many students opted not to use it for brushing their teeth, but for polishing their equipment…"
         },
+
         {
             "Key": 3183815932,
+            "NameKr": "경로가 표시된 지도",
+            "DescriptionKr": "용의자의 이동 경로가 표시된 지도. 소축척 지도지만 주요한 길목들을 식별하기에는 충분하다.",
             "NameJp": "経路図",
-            "NameEn": "Route Map",
             "DescriptionJp": "容疑者の移動経路が記されている地図。縮尺は小さいが、主な道順は確認できる。",
-            "DescriptionEn": "A map showing the suspect's movement path. While the scale is small, the main route can be confirmed."
+            "NameTh": "แผนที่แสดงเส้นทาง",
+            "DescriptionTh": "แผนที่แสดงเส้นทางเคลื่อนไหวของผู้ต้องสงสัย แม้เป็นแผนที่มาตราย่อส่วนขนาเล็ก แต่ก็ระบุเส้นทางสำคัญได้",
+            "NameTw": "標示路徑的地圖",
+            "DescriptionTw": "標示了嫌疑犯移動路徑的地圖。雖然是小比例尺地圖，但足以辨識主要的路口。",
+            "NameEn": "Marked Map",
+            "DescriptionEn": "A map showing the suspect's route. It's a small-scale map, but it's detailed enough to identify main roads."
         },
         {
             "Key": 207833206,
+            "NameKr": "난수암호",
+            "DescriptionKr": "정체불명의 난수가 적혀 있는 메모지. 자세히 살펴보면 규칙성을 찾을 수 있을지도 모른다.",
             "NameJp": "乱数が書かれたメモ",
-            "NameEn": "Memo With Random Numbers",
             "DescriptionJp": "謎の乱数が書かれたメモ。規則性があるかもしれない。よく見て見よう。",
-            "DescriptionEn": "A memo with mysterious random numbers. There might be a pattern. Let's look closely."
+            "NameTh": "รหัสลับแบบสุ่ม",
+            "DescriptionTh": "กระดาษโน้ตที่มีตัวเลขสุ่มปริศนา หากพิจารณาอย่างละเอียดจะพบรูปแบบบางอย่าง",
+            "NameTw": "亂數密碼",
+            "DescriptionTw": "寫有來歷不明亂數的便條紙。仔細觀察的話，或許能找出規律性。",
+            "NameEn": "Random Number Cipher",
+            "DescriptionEn": "A note with a mysterious number on it. If you look closely, you may find a pattern."
         },
         {
             "Key": 2530291965,
@@ -15639,13 +15652,19 @@
         },
         {
             "Key": 3981029618,
+            "NameKr": "검표된 열차표",
+            "DescriptionKr": "이미 검표가 끝나 구멍이 뚫린 열차표 한 장. 이 표로 소유자의 행선지를 추측할 수 있다.",
             "NameJp": "使用済みの乗車券",
-            "NameEn": "Used Passage Ticket",
             "DescriptionJp": "使用済みで穴が空いている乗車券。行き先が推測できる。",
-            "DescriptionEn": "A used passage ticket with a hole punched through it. The destination can be inferred."
+            "NameTh": "ตั๋วรถไฟที่ตรวจแล้ว",
+            "DescriptionTh": "ตั๋วรถไฟหนึ่งใบที่ตรวจและเจาะรูแล้ว สามารถคาดเดาสถานที่ปลายทางของเจ้าของได้",
+            "NameTw": "已驗票的車票",
+            "DescriptionTw": "一張已驗票完畢、被打了孔的車票。憑這張票可推測持有者的目的地。",
+            "NameEn": "Punched Train Ticket",
+            "DescriptionEn": "A train ticket that has already been punched after a ticket check. You can guess the owner's destination with this ticket."
         },
 
-                {
+        {
             "Key": 1489514206,
             "NameJp": "ヴァルキューレ矯正局備品・テレビ",
             "NameEn": "Valkyrie Correctional・Television",
@@ -17142,6 +17161,163 @@
             "DescriptionJp": "第2部ゲヘナ編2章18話クリア",
             "NameEn": "We Light the Blaze",
             "DescriptionEn": "Clear Story Act 2, Gehenna Arc, Chapter 2, Episode 18."
+        },
+                {
+            "Key": 1040348540,
+            "NameJp": "初級戦術教育BD （オデュッセイア）",
+            "NameEn": "Beginner Tactical Training Blu-ray (Odyssey)",
+            "DescriptionJp": "オデュッセイアの生徒の戦術活動を映像として記録した教育用BD。",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Odyssey students' tactical activities."
+        },
+        {
+            "Key": 3922028509,
+            "NameJp": "中級戦術教育BD （オデュッセイア）",
+            "NameEn": "Normal Tactical Training Blu-ray (Odyssey)",
+            "DescriptionJp": "オデュッセイアの生徒の戦術活動を映像として記録した教育用BD。",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Odyssey students' tactical activities."
+        },
+        {
+            "Key": 1517008117,
+            "NameJp": "上級戦術教育BD （オデュッセイア）",
+            "NameEn": "Advanced Tactical Training Blu-ray (Odyssey)",
+            "DescriptionJp": "オデュッセイアの生徒の戦術活動を映像として記録した教育用BD。",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Odyssey students' tactical activities."
+        },
+        {
+            "Key": 1545055482,
+            "NameJp": "最上級戦術教育BD （オデュッセイア）",
+            "NameEn": "Superior Tactical Training Blu-ray (Odyssey)",
+            "DescriptionJp": "オデュッセイアの生徒の戦術活動を映像として記録した教育用BD。",
+            "DescriptionEn": "A training Blu-ray containing documentation of the Odyssey students' tactical activities."
+        },
+        {
+            "Key": 1666267426,
+            "NameJp": "初級技術ノート （オデュッセイア）",
+            "NameEn": "Beginner Tech Notes (Odyssey)",
+            "DescriptionJp": "オデュッセイア海洋高等学校の戦術の極意がまとめられているノート。",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Odyssey Maritime School."
+        },
+        {
+            "Key": 1747862717,
+            "NameJp": "中級技術ノート （オデュッセイア）",
+            "NameEn": "Normal Tech Notes (Odyssey)",
+            "DescriptionJp": "オデュッセイア海洋高等学校の戦術の極意がまとめられているノート。",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Odyssey Maritime School."
+        },
+        {
+            "Key": 1402230049,
+            "NameJp": "上級技術ノート （オデュッセイア）",
+            "NameEn": "Advanced Tech Notes (Odyssey)",
+            "DescriptionJp": "オデュッセイア海洋高等学校の戦術の極意がまとめられているノート。",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Odyssey Maritime School."
+        },
+        {
+            "Key": 370749418,
+            "NameJp": "最上級技術ノート （オデュッセイア）",
+            "NameEn": "Superior Tech Notes (Odyssey)",
+            "DescriptionJp": "オデュッセイア海洋高等学校の戦術の極意がまとめられているノート。",
+            "DescriptionEn": "Notes summarizing the core tactical secrets of Odyssey Maritime School."
+        },
+        {
+            "Key": 240461881,
+            "NameJp": "ココロの神名文字",
+            "NameEn": "Kokoro's Eleph",
+            "DescriptionJp": "ココロの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kokoro."
+        },
+        {
+            "Key": 2380592803,
+            "NameJp": "コトネの神名文字",
+            "NameEn": "Kotone's Eleph",
+            "DescriptionJp": "コトネの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Kotone."
+        },
+        {
+            "Key": 565124304,
+            "NameJp": "ダイビングプール",
+            "NameEn": "Diving Pool",
+            "DescriptionJp": "深い水中の環境を再現するために造られた、人工のダイビングプール。揺るぎのない深い青を見つめていると、恐怖をおぼえることもある。しかし、熟練のダイバーにとってはベッドのようにくつろげる空間である。",
+            "DescriptionEn": "This artificial diving pool was made to recreate the deep underwater environment. Looking into its unwavering, rich blue inderior can sometimes be frightening. However, for experienced divers, it's a space as comfortable as a bed."
+        },
+        {
+            "Key": 193349195,
+            "NameJp": "本の山",
+            "NameEn": "Book Pile",
+            "DescriptionJp": "誰かが雑然と積み上げた本の山。何かの規則性はあるようだが、並べた本人以外には知る由もない。",
+            "DescriptionEn": "A pile of books, haphazardly stacked by someone. There seems to be some kind of pattern to it, but only the person who arranged them knows what it may be."
+        },
+        {
+            "Key": 3447151588,
+            "NameKr": "Dive into OCEAN!",
+            "DescriptionKr": "Dive into OCEAN! 이벤트에서 획득 가능",
+            "NameJp": "Dive into OCEAN！",
+            "DescriptionJp": "Dive into OCEAN！イベントにて獲得可能",
+            "NameEn": "Dive into OCEAN!",
+            "DescriptionEn": "Obtainable in the Dive into OCEAN! event."
+        },
+        {
+            "Key": 3795215314,
+            "NameJp": "酸素ボンベ",
+            "NameEn": "Oxygen Tank",
+            "DescriptionJp": "ダイビングに必要な空気がたっぷり詰まったシリンダー。潜る前の残圧確認は欠かせない。",
+            "DescriptionEn": "A cylinder filled with compressed of air, essential for diving. Checking the remaining pressure before diving is crucial."
+        },
+        {
+            "Key": 702211098,
+            "NameJp": "マウスピース",
+            "NameEn": "Mouthpiece",
+            "DescriptionJp": "シュノーケルに取りつけるマウスピース。初心者が強く噛んでしまうこともあるため、ダイビング部では常に予備を用意している。",
+            "DescriptionEn": "A mouthpiece that attaches to a snorkel. Beginners sometimes bite down hard on them, so the Diving Club always keeps spares on hand."
+        },
+        {
+            "Key": 2168533805,
+            "NameJp": "ダイビングウェイト",
+            "NameEn": "Diving Weight",
+            "DescriptionJp": "ダイビング中、中性浮力を保つために身につける重り。ダイバーの好みに合わせて、さまざまな色にコーティングされている。",
+            "DescriptionEn": "These are weights worn by divers to maintain neutral buoyancy underwater. They are coated in a variety of colors to suit the diver's preference."
+        },
+        {
+            "Key": 757618182,
+            "NameJp": "マーカーブイ",
+            "NameEn": "Marker Buoy",
+            "DescriptionJp": "潜水中に自分の位置を知らせるため、水中で展開するマーカーブイ。水面にいる人々に自分の存在を知らせることができる。",
+            "DescriptionEn": "A marker buoy deployed underwater to indicate one's position while diving. It can alert people on the surface to the diver's presence."
+        },
+        {
+            "Key": 2536316021,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "동작이 틀린 트라이던트 부원을 찾아 코코로의 버프를 부여해 응원해주세요.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "動きがおかしいトライデントの部員を見つけ、ココロのバフを付与して応援しましょう。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "Find the Trident member acting strangely and apply a Kokoro buff to support them."
+        },
+        {
+            "Key": 3928371061,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "적 방어 타입에 맞는 공격 타입의 학생을 편성해 전투를 진행해 보세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "敵の防御タイプに合わせた攻撃タイプの生徒を編成して、戦闘を進めましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Deploy students with the attack type that counters the enemy's defense type and proceed with the battle."
+        },
+        {
+            "Key": 1476886488,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "주기적으로 강력한 적 스위퍼가 생성됩니다. \n스위퍼를 주의하며 보스인 튼튼한 양산형 오토마타를 처치하세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "一定時間ごとに強力なスイーパーが生成されます。\nスイーパーに注意しながら、頑丈な量産型オートマタを倒しましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "A powerful enemy sweeper is generated at regular intervals.\nBe careful of the sweeper and defeat the sturdy mass-produced Automata boss."
+        },
+        {
+            "Key": 87738011,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "보스인 트라이던트 함상저격수는 주기적으로 강력한 범위 대미지의 공격 스킬을 사용합니다. \n해당 공격은 보호막을 보유한 학생에게는 약한 대미지를 입힙니다. \n트라이던트 함상 저격수의 스킬 타이밍에 맞춰 학생들에게 보호막을 부여하세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "トライデントの艦上狙撃手は、一定時間ごとに強力な広範囲攻撃スキルを使用します。\nこの攻撃は、シールドを保有している生徒には弱いダメージしか与えられません。\nトライデントの艦上狙撃手が使うスキルのタイミングに合わせて、生徒たちにシールドを付与しましょう。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "The Trident shipboard sniper periodically uses a powerful area-of-effect attack skill.\nThis attack deals weak damage to students with shields.\nGrant shields to students in time with the skill timing used by the Trident shipboard sniper."
         }
 
     ]
