@@ -233,7 +233,7 @@ def get_mode_cluesearch(season_id: int, ext_data, ext_characters, ext_items, ext
     rounds_data, clues = parse_clue_search_rounds(season_id)
     
     # Generate intro text
-    wikitext['intro'] = f"Clue search is the new minigame type introduced for this event. Players are presented with a clue board that requires specific numbers of each of {len(clues)} clue types to complete. Clues can be purchased at the Event Points store for {{{{ItemCard|Event Points|quantity=200}}}} each; turning clues back is also available at the recycling shop for a full Event Points refund. Submitting each clue awards play {{{{ItemCard|Credits|quantity=50000}}}}.\n"
+    wikitext['intro'] = f"Clue search is the new minigame type introduced for this event. Players are presented with a clue board that requires submitting specific numbers of each of {len(clues)} clue types to complete. Clues can be purchased at the Event Points store for {{{{ItemCard|Event Points|quantity=200}}}} each; turning clues back is also available at the recycling shop for a full Event Points refund. Submitting each clue awards player {{{{ItemCard|Credits|quantity=50000}}}}.\n"
 
     # Generate clue reference table
     wikitext['clues'] = generate_clue_info_table(clues)

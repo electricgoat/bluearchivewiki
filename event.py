@@ -661,9 +661,9 @@ def generate():
 
     template = env.get_template('events/template_event_missions.txt')
     wikitext_missions = template.render(season=season, missions=missions.values(), total_rewards=dict(sorted(total_rewards.items())).values())
-
+    
     template = env.get_template('events/template_event_hexamaps.txt')
-    wikitext_hexamaps = template.render(hexamaps=hexamaps.values())
+    wikitext_hexamaps = template.render(hexamaps=hexamaps.values()) if len(hexamaps) else ''
 
     wikitext_milestones = ''
     if milestones:

@@ -33,8 +33,17 @@ class TreasureReward(object):
 
     @property
     def name_en(self):
+        global data, missing_localization
+
         key = shared.functions.hashkey(self.localize_code)
-        return data.localization[key].get('En', f"Untranslated {key}")
+        if key not in data.localization:
+            print(f"Missing localize key {key} for treasure reward {self.id} ({self.localize_code})")
+            return self.localize_code
+
+        localization = data.localization[key]
+        if 'En' not in localization and missing_localization is not None: missing_localization.add_entry(localization)
+
+        return localization.get('En') or localization.get('Jp') or self.localize_code
 
     @property
     def items(self) -> list[RewardParcel]:
