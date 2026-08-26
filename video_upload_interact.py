@@ -184,7 +184,7 @@ def main():
     parser.add_argument('-data_primary',    metavar='DIR', default='../ba-data/jp',     help='Fullest (JP) game version data')
     parser.add_argument('-data_secondary',  metavar='DIR', default='../ba-data/global', help='Secondary (Global) version data to include localisation from')
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
-    parser.add_argument('-gallery_dir',     metavar='DIR', default='D:/Video_capture/upload_cafe_interact', help='Directory with video files')
+    parser.add_argument('-gallery_dir',     metavar='DIR', default='C:/Video_capture/upload_cafe_interact', help='Directory with video files')
     parser.add_argument('-outdir',          metavar='DIR', default='./out/video', help='Output directory')
     
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
