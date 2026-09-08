@@ -33,6 +33,19 @@ UNIQUE_LOBBY_IMAGE_BANNER_ID = {
 		]
 }
 
+UI_REDESIGN_DATE = {
+	'jp': datetime(2026, 4, 21),
+	'gl': datetime(2026, 8, 18),
+	}
+
+
+def ui_era(banner: Banner) -> int:
+	"""Visual style generation of a banner's images; images are only shared within the same era."""
+	cutoff = UI_REDESIGN_DATE.get(banner.region)
+	if cutoff is None or banner.sale_period_from is None:
+		return 0
+	return 1 if banner.sale_period_from >= cutoff else 0
+
 EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha', 'SelectPickupLimitedGacha', 'SelectPickupFesGacha']
 
 
@@ -202,13 +215,15 @@ def init_banners(region: str):
 			wiki_filename = f'Lobby_Banner_{banner.sale_period_from.strftime("%Y%m%d")}_{sameday_sequence_num:02}.png'
 
 			# this aims to prevent duplicates of the same image since we have a somewhat reliable mapping of jp prodnotice filenames
-			if original_filename is not None:
-				original_filename_stripped = original_filename.rsplit('_',1)[0]
-				if original_filename_stripped in lobby_banner_map:
-					wiki_filename = lobby_banner_map[original_filename_stripped]
+			if banner.id in UNIQUE_LOBBY_IMAGE_BANNER_ID[region]:
+				print(f"Banner {banner.id} is in UNIQUE_LOBBY_IMAGE_BANNER_ID, skipping duplicate image check")
+			elif original_filename is not None:
+				lobby_banner_key = (ui_era(banner), original_filename.rsplit('_',1)[0])
+				if lobby_banner_key in lobby_banner_map:
+					wiki_filename = lobby_banner_map[lobby_banner_key]
 					sameday_sequence_num -= 1
 				else: #if banner.prodnotice_data is not None and banner.prodnotice_data.get('IsDownloaded') == True:
-					lobby_banner_map[original_filename_stripped] = wiki_filename
+					lobby_banner_map[lobby_banner_key] = wiki_filename
 			banner.image_lobby_banner = BannerImage(original_filename, os.path.join(args['bannerwatch'], 'lobby_banner'), [wiki_filename])
 
 		elif region == 'gl': 
@@ -220,7 +235,7 @@ def init_banners(region: str):
 				print(f"Banner {banner.id} is in UNIQUE_LOBBY_IMAGE_BANNER_ID, skipping rerun image check")
 				same_banner_reruns = []
 			else:
-				same_banner_reruns = [x for x in banners.values() if x.rerun_original_id == banner.rerun_original_id and x.id not in UNIQUE_LOBBY_IMAGE_BANNER_ID[region]]
+				same_banner_reruns = [x for x in banners.values() if x.rerun_original_id == banner.rerun_original_id and x.id not in UNIQUE_LOBBY_IMAGE_BANNER_ID[region] and ui_era(x) == ui_era(banner)]
 			if banner.is_rerun and len(same_banner_reruns) > 0:
 				banner.image_lobby_banner = same_banner_reruns[0].image_lobby_banner
 				sameday_sequence_num -= 1
