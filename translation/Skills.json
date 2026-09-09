@@ -4721,7 +4721,7 @@
         {
             "GroupId": "CH0079ExtraPassive01",
             "NameEn": "Invincible! The true leader of Gehenna!",
-            "DescriptionEn": "Increase Piercing Efficiency of all aliies by $1."
+            "DescriptionEn": "Increase Piercing Efficiency of all allies by $1."
         },
 
         {
@@ -7497,7 +7497,7 @@
         {
             "GroupId": "CH0348ExtraPassive01",
             "NameEn": "Scoop spotted!",
-            "DescriptionEn": "Increase Piercing Efficiency of all aliies by $1."
+            "DescriptionEn": "Increase Piercing Efficiency of all allies by $1."
         },
 
         {
@@ -7617,6 +7617,32 @@
             "GroupId": "CH0369ExtraPassive01",
             "NameEn": "Leviathan",
             "DescriptionEn": "When attacking, there is a $1 chance to reduce target's Defense by $2 for $3. (Cooldown: $4)\nWhen normal attacks are enhanced by the EX Skill, with every $5 normal attack, heal self for $6 of Healing."
+        },
+
+        {
+            "GroupId": "CH0328Ex01",
+            "NameEn": "Beat the Drill Bit",
+            "DescriptionEn": "Deals $1 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $2 for $3.\nAfterwards, deal $4 damage to enemies within a circular area."
+        },
+        {
+            "GroupId": "CH0328Public01",
+            "NameEn": "A \"special\" gift",
+            "DescriptionEn": "Every $1, deals $2 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $3 for $4."
+        },
+        {
+            "GroupId": "CH0328Passive01",
+            "NameEn": "Hot Spring freak",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0328WeaponPassive01",
+            "NameEn": "Hot Spring freak +",
+            "DescriptionEn": "Increase Debuff Duration by $1. Increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0328ExtraPassive01",
+            "NameEn": "Why so serious?",
+            "DescriptionEn": "Increase Piercing Efficiency of all allies by $1."
         }
 
     ]

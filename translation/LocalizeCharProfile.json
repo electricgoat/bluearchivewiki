@@ -3893,7 +3893,8 @@
         {
             "CharacterId": 20040,
             "CharacterPool": null,
-            "FamilyNameEn": "Kyōgoku",
+            "FamilyNameEn": "Kyougoku",
+            "FamilyNameReadingEn": "Kyōgoku",
             "PersonalNameEn": "Satsuki",
             "VariantNameEn": null,
             "CharacterAgeEn": null,
@@ -5219,7 +5220,8 @@
         {
             "CharacterId": 10147,
             "CharacterPool": "limited",
-            "FamilyNameEn": "Kyōgoku",
+            "FamilyNameEn": "Kyougoku",
+            "FamilyNameReadingEn": "Kyōgoku",
             "PersonalNameEn": "Satsuki",
             "VariantNameEn": "Swimsuit",
             "CharacterAgeEn": null,
@@ -5329,6 +5331,25 @@
             "WeaponNameEn": "Type 75 Special Underwater Automatic Rifle",
             "WeaponDescEn": "An underwater rifle that Kotone has been using since she enrolled in school. It uses underwater flechette rounds, allowing her to aim reliably deep underwater. The drawback is that its effective range is significantly shorter on land than that of other rifles, but Kotone does not seem particularly concerned about it.",
             "ReleaseDateJp": "2026/08/26",
+            "ReleaseDateGl": null
+        },
+        {
+            "CharacterId": 20061,
+            "CharacterPool": null,
+            "FamilyNameEn": "Kinugawa",
+            "PersonalNameEn": "Kasumi",
+            "VariantNameEn": "Swimsuit",
+            "CharacterAgeEn": null,
+            "CharHeightEn": null,
+            "DesignerNameEn": null,
+            "IllustratorNameEn": null,
+            "LobbyIllustratorNameEn": null,
+            "VoiceEn": "Uesaka Sumire",
+            "HobbyEn": "Blasting, hot spring development",
+            "ProfileIntroductionEn": "Manager of the Hot Spring Development Department at Gehenna Academy.\n\nHer \"development-above-all\" philosophy remains unchanged, regardless of season or location. Though others see her as completely unhinged, she even turns that public image of herself into a weapon to achieve her goals.",
+            "WeaponNameEn": "Red·Rector",
+            "WeaponDescEn": "A handgun that Kasumi carries around.\n\nAlthough easily drowned out by the sounds of drilling and explosions, a single, thunderous gunshot always rings out whenever the Hot Spring Development Department begins construction.",
+            "ReleaseDateJp": "2026/09/09",
             "ReleaseDateGl": null
         }
 

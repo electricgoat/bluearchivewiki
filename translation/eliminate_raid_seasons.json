@@ -430,6 +430,7 @@
       "challenge_difficulty": "Torment"
     },
     "27": {
+      "notes": "Kaitenger Red and Black's Evasion Rates were reduced",
       "bosses": [
         [
           "Light",
@@ -665,6 +666,24 @@
         ],
         [
           "Heavy",
+          "Torment"
+        ],
+        [
+          "Elastic",
+          "Insane"
+        ]
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
+    },
+    "41": {
+      "bosses": [
+        [
+          "Light",
+          "Torment"
+        ],
+        [
+          "Special",
           "Torment"
         ],
         [
@@ -1107,6 +1126,7 @@
       "challenge_difficulty": "Torment"
     },
     "27": {
+      "notes": "Kaitenger Red and Black's Evasion Rates were reduced",
       "bosses": [
         [
           "Light",
@@ -1279,6 +1299,24 @@
         [
           "Elastic",
           "Torment"
+        ]
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
+    },
+    "37": {
+      "bosses": [
+        [
+          "Special",
+          "Torment"
+        ],
+        [
+          "Elastic",
+          "Torment"
+        ],
+        [
+          "Light",
+          "Insane"
         ]
       ],
       "challenge_difficulty": "Torment",
