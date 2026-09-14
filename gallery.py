@@ -210,10 +210,18 @@ def upload_files(export_galleries:list[Gallery]):
         comment = f"Sprite for {gallery.character_wikiname}"
 
         for path in gallery.files_exportable.keys():
-            for file in [x for x in gallery.files_exportable[path] if (f"File:{x}" not in page_list or args['reupload']) and x not in gallery.exclude_files[path]]:
-                print (f"Uploading {file} from {os.path.join(path, file)}")
-                #path = os.path.join(args['gallery_dir'], gallery.dirname, file)
-                wiki.upload(os.path.join(path, file), file, comment, wiki_text)
+            for file in [x for x in gallery.files_exportable[path] if x not in gallery.exclude_files[path]]:
+                uploaded = f"File:{file}" in page_list
+
+                if not uploaded or args['reupload']:
+                    print (f"Uploading {file} from {os.path.join(path, file)}")
+                    #path = os.path.join(args['gallery_dir'], gallery.dirname, file)
+                    wiki.upload(os.path.join(path, file), file, comment, wiki_text)
+
+                #An upload does not update the wikitext by itself
+                if uploaded and args['update_wikitext'] and not wiki.page_exists(f"File:{file}", wiki_text):
+                    print (f"Updating wikitext of File:{file}")
+                    wiki.publish(f"File:{file}", wiki_text, 'Updated sprite categories')
 
 
 
@@ -384,6 +392,7 @@ def main():
     parser.add_argument('-npc', action='store_true', help='Treat as an NPC gallery')
     parser.add_argument('-nogallery', action='store_true', help='Don\'t create gallery page')
     parser.add_argument('-reupload', action='store_true', help='Try to reupload files')
+    parser.add_argument('-update_wikitext', action='store_true', help='Check the wikitext of files already on the wiki and update it')
 
     args = vars(parser.parse_args())
     print(args)
