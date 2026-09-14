@@ -89,11 +89,6 @@
         "lastname": "",
         "variant": null
     },
-    "kirara": {
-        "firstname": "Kirara",
-        "lastname": "",
-        "variant": null
-    },
     "ibuki": {
         "firstname": "Ibuki",
         "lastname": "",
@@ -103,11 +98,6 @@
         "firstname": "Arisu",
         "lastname": "",
         "variant": "Unarmed"
-    },
-    "reizyo": {
-        "firstname": "Reijo",
-        "lastname": "",
-        "variant": null
     },
     "reizyo_beta": {
         "firstname": "Reijo",
@@ -344,16 +334,6 @@
         "lastname": "",
         "variant": "Masked"
     },
-
-
-    
-    
-    
-    "CH0110": {
-        "firstname": "Umika",
-        "lastname": "",
-        "variant": null
-    },
     "NP0001": {
         "firstname": "Azusa",
         "lastname": "",
@@ -409,7 +389,6 @@
         "lastname": "",
         "variant": null
     },
-
     "NP0011_1": {
         "firstname": "Decalcomania",
         "lastname": "",
@@ -420,7 +399,6 @@
         "lastname": "",
         "variant": null
     },
-
     "NP0012": {
         "firstname": "Saori",
         "lastname": "",
@@ -751,23 +729,8 @@
         "lastname": "",
         "variant": "School Uniform"
     },
-    "CH0281": {
-        "firstname": "Asuna",
-        "lastname": "",
-        "variant": "School Uniform"
-    },
     "NP0082": {
         "firstname": "Karin",
-        "lastname": "",
-        "variant": "School Uniform"
-    },
-    "CH0282": {
-        "firstname": "Karin",
-        "lastname": "",
-        "variant": "School Uniform"
-    },
-    "CH0280": {
-        "firstname": "Neru",
         "lastname": "",
         "variant": "School Uniform"
     },
@@ -912,7 +875,7 @@
         "variant": "Wounded"
     },
     "NP0125": {
-        "firstname": "Shiroko＊Terror",
+        "firstname": "Shiroko\uff0aTerror",
         "lastname": "",
         "variant": "Unknown, Wounded"
     },
@@ -1076,80 +1039,25 @@
         "lastname": "",
         "variant": "Swimsuit"
     },
-    "CH0070": {
-        "firstname": "Seia",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0080": {
-        "firstname": "Satsuki",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0109": {
-        "firstname": "Niya",
-        "lastname": "",
-        "variant": null
-    },
     "CH0125": {
         "firstname": "Meru",
         "lastname": "",
         "variant": "Hot Spring"
-    },
-    "CH0139": {
-        "firstname": "Kisaki",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0158": {
-        "firstname": "Rio",
-        "lastname": "",
-        "variant": null
     },
     "CH0162": {
         "firstname": "Koyuki",
         "lastname": "",
         "variant": "Bunnysuit"
     },
-    "CH0166": {
-        "firstname": "Rabu",
-        "lastname": "",
-        "variant": null
-    },
     "CH0171": {
         "firstname": "Yukino",
         "lastname": "",
         "variant": null
     },
-    "CH0189": {
-        "firstname": "Serika",
-        "lastname": "",
-        "variant": "Swimsuit"
-    },
-    "CH0196": {
-        "firstname": "Akari",
-        "lastname": "",
-        "variant": "New Year"
-    },
-    "CH0197": {
-        "firstname": "Izumi",
-        "lastname": "",
-        "variant": "New Year"
-    },
     "CH0199": {
-        "firstname": "Shiroko＊Terror",
+        "firstname": "Shiroko\uff0aTerror",
         "lastname": "",
         "variant": "Unknown"
-    },
-    "CH0201": {
-        "firstname": "Momoi",
-        "lastname": "",
-        "variant": "Maid"
-    },
-    "CH0202": {
-        "firstname": "Midori",
-        "lastname": "",
-        "variant": "Maid"
     },
     "CH0212": {
         "firstname": "Akira",
@@ -1158,16 +1066,6 @@
     },
     "CH0213": {
         "firstname": "Kai",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0216": {
-        "firstname": "Moe",
-        "lastname": "",
-        "variant": "Swimsuit"
-    },
-    "CH0222": {
-        "firstname": "Nagusa",
         "lastname": "",
         "variant": null
     },
@@ -1186,16 +1084,6 @@
         "lastname": "",
         "variant": null
     },
-    "CH0228": {
-        "firstname": "Yakumo",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0229": {
-        "firstname": "Takane",
-        "lastname": "",
-        "variant": null
-    },
     "CH0236": {
         "firstname": "Arata",
         "lastname": "",
@@ -1205,16 +1093,6 @@
         "firstname": "Arata",
         "lastname": "",
         "variant": "Helmet"
-    },
-    "CH0238": {
-        "firstname": "Chiaki",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0245": {
-        "firstname": "Rei",
-        "lastname": "",
-        "variant": null
     },
     "CH0253": {
         "firstname": "Makoto",
@@ -1281,7 +1159,6 @@
         "lastname": "",
         "variant": null
     },
-
     "NP0116": {
         "firstname": "Kaiser PMC",
         "lastname": "",
@@ -1342,17 +1219,6 @@
         "lastname": "",
         "variant": "Nightwear"
     },
-
-    "CH0246": {
-        "firstname": "Mutsuki",
-        "lastname": "",
-        "variant": "Dress"
-    },
-    "CH0247": {
-        "firstname": "Haruka",
-        "lastname": "",
-        "variant": "Dress"
-    },
     "CH0248": {
         "firstname": "Mutsuki",
         "lastname": "",
@@ -1362,11 +1228,6 @@
         "firstname": "Haruka",
         "lastname": "",
         "variant": "Suit"
-    },
-    "CH0259": {
-        "firstname": "Saori",
-        "lastname": "",
-        "variant": "Dress"
     },
     "NP0164": {
         "firstname": "Saori",
@@ -1388,33 +1249,13 @@
         "lastname": "",
         "variant": "Camping"
     },
-    "CH0235": {
-        "firstname": "Maki",
-        "lastname": "",
-        "variant": "Camping"
-    },
     "CH0256": {
         "firstname": "Kaede",
         "lastname": "",
         "variant": "Guide"
     },
-    "CH0257": {
-        "firstname": "Pina",
-        "lastname": "",
-        "variant": "Guide"
-    },
     "NP0182": {
         "firstname": "Natsuki",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0242": {
-        "firstname": "Hikari",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0243": {
-        "firstname": "Nozomi",
         "lastname": "",
         "variant": null
     },
@@ -1438,26 +1279,6 @@
         "lastname": "",
         "variant": "2nd grade, no scarf"
     },
-    "CH0220": {
-        "firstname": "Yoshimi",
-        "lastname": "",
-        "variant": "Band"
-    },
-    "CH0221": {
-        "firstname": "Natsu",
-        "lastname": "",
-        "variant": "Band"
-    },
-    "CH0250": {
-        "firstname": "Kazusa",
-        "lastname": "",
-        "variant": "Band"
-    },
-    "CH0251": {
-        "firstname": "Airi",
-        "lastname": "",
-        "variant": "Band"
-    },
     "CH0252": {
         "firstname": "Tsumugi",
         "lastname": "",
@@ -1467,21 +1288,6 @@
         "firstname": "Akemi",
         "lastname": "",
         "variant": null
-    },
-    "CH0266": {
-        "firstname": "Saori",
-        "lastname": "",
-        "variant": "Swimsuit"
-    },
-    "CH0268": {
-        "firstname": "Misaki",
-        "lastname": "",
-        "variant": "Swimsuit"
-    },
-    "CH0269": {
-        "firstname": "Hiyori",
-        "lastname": "",
-        "variant": "Swimsuit"
     },
     "CH0277": {
         "firstname": "Professor Smug",
@@ -1544,12 +1350,12 @@
         "variant": "Swimsuit, no jacket"
     },
     "NP0231": {
-        "firstname": "Shiroko＊Terror",
+        "firstname": "Shiroko\uff0aTerror",
         "lastname": "",
         "variant": "Unknown, Robber"
     },
     "NP0232": {
-        "firstname": "Shiroko＊Terror",
+        "firstname": "Shiroko\uff0aTerror",
         "lastname": "",
         "variant": "Robber"
     },
@@ -1557,11 +1363,6 @@
         "firstname": "Hoshino",
         "lastname": "",
         "variant": "Battle"
-    },
-    "CH0267": {
-        "firstname": "Atsuko",
-        "lastname": "",
-        "variant": "Swimsuit"
     },
     "NP0172": {
         "firstname": "Shiroko",
@@ -1768,11 +1569,6 @@
         "lastname": "",
         "variant": null
     },
-    "CH0310": {
-        "firstname": "Koyuki",
-        "lastname": "",
-        "variant": "Pajama"
-    },
     "CH0311": {
         "firstname": "Hare",
         "lastname": "",
@@ -1797,11 +1593,6 @@
         "firstname": "Mirai",
         "lastname": "",
         "variant": null
-    },
-    "CH0307": {
-        "firstname": "Akane",
-        "lastname": "",
-        "variant": "School Uniform"
     },
     "CH0308": {
         "firstname": "Toki",
@@ -1852,16 +1643,6 @@
         "firstname": "Kei",
         "lastname": "",
         "variant": "AMAS"
-    },
-    "CH0082": {
-        "firstname": "Sena",
-        "lastname": "",
-        "variant": "Casual"
-    },
-    "CH0286": {
-        "firstname": "Juri",
-        "lastname": "",
-        "variant": "Part-Timer"
     },
     "CH0290": {
         "firstname": "Fuuka",
@@ -1943,21 +1724,6 @@
         "lastname": "",
         "variant": "Swimsuit"
     },
-    "CH0305": {
-        "firstname": "Rena",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0309": {
-        "firstname": "Subaru",
-        "lastname": "",
-        "variant": null
-    },
-    "CH0317": {
-        "firstname": "Miyo",
-        "lastname": "",
-        "variant": null
-    },
     "CH0323": {
         "firstname": "Akira",
         "lastname": "",
@@ -1967,11 +1733,6 @@
         "firstname": "Maia",
         "lastname": "",
         "variant": null
-    },
-    "CH0328": {
-        "firstname": "Kasumi",
-        "lastname": "Kinugawa",
-        "variant": "Swimsuit"
     },
     "CH0329": {
         "firstname": "Megu",
@@ -2032,31 +1793,6 @@
         "firstname": "Izuna",
         "lastname": "",
         "variant": "Dress"
-    },
-    "CH0331": {
-        "firstname": "Rio",
-        "lastname": "",
-        "variant": "Battle"
-    },
-    "CH0333": {
-        "firstname": "Toki",
-        "lastname": "",
-        "variant": "Battle"
-    },
-    "CH0334": {
-        "firstname": "Arisu",
-        "lastname": "",
-        "variant": "Battle"
-    },
-    "CH0336": {
-        "firstname": "Yuzu",
-        "lastname": "",
-        "variant": "Battle"
-    },
-    "CH0337": {
-        "firstname": "Eimi",
-        "lastname": "",
-        "variant": "Battle"
     },
     "CH0342": {
         "firstname": "Minato",
@@ -2288,7 +2024,7 @@
         "lastname": "",
         "variant": null
     },
-     "NP0283": {
+    "NP0283": {
         "firstname": "Niko",
         "lastname": "",
         "variant": "Part-Timer"
@@ -2327,7 +2063,15 @@
         "firstname": "Kunekune",
         "lastname": "",
         "variant": null
+    },
+    "CH0279": {
+        "firstname": "Rabu",
+        "lastname": "",
+        "variant": "Swimsuit"
+    },
+    "CH0355": {
+        "firstname": "Shun",
+        "lastname": "",
+        "variant": "Swimsuit"
     }
-    
 }
-
