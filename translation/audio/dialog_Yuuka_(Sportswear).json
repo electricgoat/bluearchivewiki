@@ -1,0 +1,364 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_(Sportswear)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/CH0184_Lobby_3",
+            "LocalizeEN": "This outfit...is a refreshing look?\n\nWh-Where did that come from?!\n\nWell, um... Thank you, Sensei..."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_(Sportswear)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0184/CH0184_Lobby_5",
+            "LocalizeEN": "When you really think about it...\n\nPhysical education is just another STEM subject that can be scientifically analyzed.\n\nMaybe not in the middle of a run... Or while lifting weights... But outside of that, exercise is nothing but science."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_(Sportswear)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0184/CH0184_Season_Halloween",
+            "LocalizeEN": "A day of costumes, tricks, treats... Wait, treats?\n\nIt's just a day of calories, then!\n\nI-I'm not going to let down my guard just because I'm wearing workout clothes!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Yuuka_(Sportswear)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/CH0184_MemorialLobby_4_1",
+            "LocalizeEN": "(If Sensei drinks from the bottle I've been drinking from...)\n\n(I-It'd be an indirect kiss!)\n\n(No, no! It doesn't matter what the circumstances are...)\n\n(Such shamelessness can never, absolutely never be tolerated!)"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_1",
+            "LocalizeJP": "しっかり準備して、最高の大運動会にするわよ！",
+            "LocalizeEN": "Let's prepare well and make this the best field day!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_2",
+            "LocalizeJP": "この倉庫、変なものでいっぱい。これは…、対戦車のミサイル…！？",
+            "LocalizeEN": "This warehouse has a lot of weird things. This is... an anti-tank missile?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_act_1",
+            "LocalizeJP": "流石はトレーニング部。完璧な記録ね。",
+            "LocalizeEN": "As expected of the [[Training Club]], this is a perfect record."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_act_2",
+            "LocalizeJP": "（一体、何をどうすればこんな記録が出せるの…！？）",
+            "LocalizeEN": "How in the world can someone achieve such a record?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_act_3",
+            "LocalizeJP": "みんな揃いも揃って、変な提案ばっかり…。",
+            "LocalizeEN": "Everyone is all together and all they do is make weird suggestions..."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Yuuka_(Sportswear)_EventLocation_Act_4",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_eventlocation_act_4",
+            "LocalizeJP": "このまま任せて、本当にいいのかしら…。",
+            "LocalizeEN": "Is it really okay to leave everything to me like this?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_(Sportswear)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_formation_in_1",
+            "LocalizeEN": "It's the best choice."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_(Sportswear)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_formation_in_2",
+            "LocalizeEN": "It's proof time."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_(Sportswear)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_formation_select",
+            "LocalizeEN": "What do you think? Active and rational, right?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_defeat_1",
+            "LocalizeJP": "どこで間違えたの。",
+            "LocalizeEN": "Wh-Where did I go wrong...?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_defeat_2",
+            "LocalizeJP": "ちょっと運動量を増やしただけなのに。",
+            "LocalizeEN": "But I just increased my exercise a bit..."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_in_1",
+            "LocalizeJP": "たしかに、動きやすくはありますけど……",
+            "LocalizeEN": "It's certainly easier to move around."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_in_2",
+            "LocalizeEN": "Calculation completed. I will definitely not lose."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_victory_1",
+            "LocalizeEN": "Perfect as expected."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Sportswear)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_tactic_victory_2",
+            "LocalizeEN": "I already had the answer, I just subtracted it."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_buffself_1",
+            "LocalizeJP": "ここ、ちょっと暑いわね。",
+            "LocalizeEN": "It's kind of hot in here."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_covered_1",
+            "LocalizeEN": "I'm behind cover. Please provide support."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_damage_2",
+            "LocalizeJP": "計算外よ。",
+            "LocalizeEN": "Not a part of my calculations."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_damage_3",
+            "LocalizeJP": "邪魔になっちゃう。",
+            "LocalizeEN": "It's getting in my way."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_defense_1",
+            "LocalizeEN": "It's not going to be a hit."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_in_1",
+            "LocalizeEN": "Pay attention to unusual variables and move forward."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_in_2",
+            "LocalizeEN": "Perfect condition. The outcome has been decided."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_move_2",
+            "LocalizeEN": "Moving toward the objective."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_recovery_1",
+            "LocalizeEN": "Thank you for the uncalculated supplies."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_retire",
+            "LocalizeJP": "今のところ、まだ想定内だから…。今のところ。",
+            "LocalizeEN": "So far it's still within expectations... At this point."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_shout_2",
+            "LocalizeJP": "行くわよ。",
+            "LocalizeEN": "Let's go．"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_tacticalaction_1",
+            "LocalizeEN": "I'll go next."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_victory_1",
+            "LocalizeEN": "As calculated, this is the result."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Sportswear)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_battle_victory_2",
+            "LocalizeEN": "A perfect exercise."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_commonskill",
+            "LocalizeEN": "I'll go when I can catch my breath."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_1",
+            "LocalizeEN": "Come on, let's go together."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_2",
+            "LocalizeEN": "I will show you the technical prowess of Millennium!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_3",
+            "LocalizeEN": "It's time to wake up!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_level_1",
+            "LocalizeEN": "Quickly."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_level_2",
+            "LocalizeEN": "Over here!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_(Sportswear)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_exskill_level_3",
+            "LocalizeJP": "わ、わあ……思ったより早い…！",
+            "LocalizeEN": "Wow, sooner than expected...!"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_(Sportswear)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_growup_1",
+            "LocalizeEN": "Gym clothes are efficient, don't you think so too?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_(Sportswear)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_growup_2",
+            "LocalizeEN": "Staring at me like that makes me uncomfortable, but it's fine if Sensei is doing it."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_(Sportswear)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_growup_3",
+            "LocalizeEN": "I feel reborn. It's just easier to move."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_(Sportswear)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_growup_4",
+            "LocalizeEN": "I don't expect to lose this time either, because my calculations are perfect."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_relationship_up_1",
+            "LocalizeJP": "無理は禁物ですよ。\n先生も気をつけてくださいね。\n……私も無理しがちだって？\nううっ、そうですけど……",
+            "LocalizeEN": "I won't overdo it. Sensei, please be careful too. Do I tend to push myself too hard? That's right, but..."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_relationship_up_2",
+            "LocalizeEN": "Tell me when you're thirsty, I'll always be by your side to support you."
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_relationship_up_3",
+            "LocalizeEN": "Wearing gym clothes keeps me motivated. Is this because of my clothes? Or... is it because Sensei is by my side?"
+        },
+        {
+            "CharacterId": 10053,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_(Sportswear)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0184/ch0184_relationship_up_4",
+            "LocalizeJP": "先生と一緒にいると、私の計算能力が鈍ってしまう時があります。\nご、誤解しないでくださいね。\nその……頭がちょっとぼーっとするって意味です……",
+            "LocalizeEN": "My math skills sometimes get dull when I'm with Sensei. Please don't get me wrong. I'm just a little dizzy."
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Marina_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_formation_in_1",
+            "LocalizeEN": "Good decision, Sensei."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Marina_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_formation_select",
+            "LocalizeEN": "Isn't it here?"
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_defeat_1",
+            "LocalizeJP": "ありえない…、敗北だと。",
+            "LocalizeEN": "Impossible defeat,"
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_defeat_2",
+            "LocalizeJP": "サボタージュ。…これはサボタージュのせいだ。",
+            "LocalizeEN": "Sabotage. ...This is because of sabotage."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_in_1",
+            "LocalizeEN": "Guys, I'll take the lead."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_in_2",
+            "LocalizeEN": "For the great President Cherino."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_victory_1",
+            "LocalizeEN": "Guys, it's our victory."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Marina_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_tactic_victory_2",
+            "LocalizeEN": "Celebrate your victory."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_buffed_1",
+            "LocalizeEN": "This heart is burning"
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_buffself_1",
+            "LocalizeJP": "私に従え。",
+            "LocalizeEN": "Follow me."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_covered_1",
+            "LocalizeEN": "Hide for a while and then attack."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_in_2",
+            "LocalizeEN": "Ураааааааа!"
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_move_1",
+            "LocalizeEN": "Enemies are taking turns, don't let them escape."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_move_2",
+            "LocalizeEN": "Charge towards victory."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_recovery_1",
+            "LocalizeEN": "Thank you for your support, Sister."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_retire",
+            "LocalizeJP": "まだ…、まだ戦える…。",
+            "LocalizeEN": "Not yet...I can still fight..."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_tacticalaction_1",
+            "LocalizeEN": "Move forward, move forward."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Marina_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_battle_victory_2",
+            "LocalizeEN": "Assault is always a valid strategy."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Marina_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_exskill_2",
+            "LocalizeEN": "Charge now."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Marina_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_exskill_3",
+            "LocalizeEN": "Charge!"
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Marina_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_exskill_level_1",
+            "LocalizeEN": "I'm not afraid of bullets."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Marina_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_growup_3",
+            "LocalizeEN": "I really liked this."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Marina_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_growup_4",
+            "LocalizeEN": "Don't let the cold stop you from training."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Marina_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_relationship_up_1",
+            "LocalizeEN": "I always feel reassuring when I'm with my teacher."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Marina_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_relationship_up_2",
+            "LocalizeEN": "If there's anything you enjoy doing other than defeating enemies, please tell me too, Sensei."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Marina_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_relationship_up_3",
+            "LocalizeEN": "The teacher is mine... No, you're an important customer of Red Winter, so I have to welcome you politely."
+        },
+        {
+            "CharacterId": 10037,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Marina_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Marina/marina_relationship_up_4",
+            "LocalizeEN": "If you're with me, the red winter cold won't be a big deal."
+        }
+    ]
+}

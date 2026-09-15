@@ -1,0 +1,372 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Ui_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_Cafe_monolog_1",
+            "LocalizeEN": "A-Ahhh! Wh-What is this place?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Ui_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_Cafe_monolog_2",
+            "LocalizeEN": "So many people...and they're staring at me. Ughhh!"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_LogIn_1",
+            "LocalizeEN": "Y-You're here, Sensei. I want to recommend you something."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_Lobby_4",
+            "LocalizeEN": "Is there anything I can do to help?\n\nIf there's something I can do, please let me know!"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_Lobby_5",
+            "LocalizeEN": "There are lots of books here too...\n\nWas I not supposed to see that? I-I'm sorry."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_Season_Birthday",
+            "LocalizeEN": "T-Today is my birthday, Sensei.\n\nIf you're not busy...\n\n...can we spend time together?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Ui_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_ExWeapon_Get",
+            "LocalizeEN": "I-I honestly don't get why would you care about someone like me. But I-I'll...try my best. I swear it."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Ui_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_MemorialLobby_3_1",
+            "LocalizeEN": "Each of these precious children have stories to tell. They've been waiting to share them with the world.\n\nSo I want to help them tell their stories."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_EventLogin_2",
+            "LocalizeEN": "Sensei, you're here...\n\nW-We meet again..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_EventLogin_Season_2",
+            "LocalizeEN": "We don't have much of time left...\n\nHmm..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_EventLobby_1",
+            "LocalizeEN": "Ah, y-yes... Did you call me...?\n\nA-Anything you wanted to say?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_EventLobby_3",
+            "LocalizeEN": "Um... Sensei... You should...get started..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0169/CH0169_EventLobby_4",
+            "LocalizeEN": "Um... Is there something you want to tell me?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ui_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_formation_in_1",
+            "LocalizeEN": "Eh, m- me...? Really...?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ui_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_formation_in_2",
+            "LocalizeEN": "Um... Well, if Sensei says so."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_defeat_1",
+            "LocalizeJP": "す、すみません。",
+            "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_defeat_2",
+            "LocalizeJP": "どうして…、こんなことに。",
+            "LocalizeEN": "Why... did this happen"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_in_1",
+            "LocalizeEN": "Uwa. I'm really going in..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_in_2",
+            "LocalizeEN": "I believe in you, Sensei."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_victory_1",
+            "LocalizeEN": "Can I go home now?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_tactic_victory_2",
+            "LocalizeEN": "It's done. Well, that's enough, right? It's really done, right?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_buffed_1",
+            "LocalizeEN": "C-can you help me?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_buffself_1",
+            "LocalizeJP": "これで、少しは…",
+            "LocalizeEN": "With this... maybe even for a little bit..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_damage_1",
+            "LocalizeJP": "ひいっ！"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_damage_2",
+            "LocalizeJP": "ふわぁ！"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_damage_3",
+            "LocalizeJP": "うぃぃ…"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_defense_1",
+            "LocalizeEN": "It's totally useless."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_in_1",
+            "LocalizeEN": "Let's finish early and go home."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_in_2",
+            "LocalizeEN": "So...um...we're off."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_move_1",
+            "LocalizeEN": "I-it's still not over?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_move_2",
+            "LocalizeEN": "How long is this gonna last?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_recovery_1",
+            "LocalizeEN": "Th-thank you."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_retire",
+            "LocalizeJP": "これだから…、外に出たくなかったのに。",
+            "LocalizeEN": "This is why I didn't want to go outside."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_shout_1",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_shout_2",
+            "LocalizeJP": "やあっ！"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_shout_3",
+            "LocalizeJP": "はあっ！"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_victory_1",
+            "LocalizeEN": "E- everyone, thanks for your work..."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_battle_victory_2",
+            "LocalizeEN": "Somehow, I barely made it through... Huh…."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Ui_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_commonskill",
+            "LocalizeEN": "This this the time for mental management."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_exskill_1",
+            "LocalizeEN": "Wh-what is this?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_exskill_2",
+            "LocalizeEN": "Why did this happen?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_exskill_level_1",
+            "LocalizeEN": "Jeez."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_exskill_level_2",
+            "LocalizeEN": "Only this time."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_exskill_level_3",
+            "LocalizeEN": "If it wasn't for Sensei's request."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_growup_1",
+            "LocalizeEN": "Does this mean... I should prepare to go outside?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_growup_2",
+            "LocalizeEN": "What are you trying to make me do by giving me this?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_growup_3",
+            "LocalizeEN": "I feel like I'm a little bit motivated... or maybe not."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_growup_4",
+            "LocalizeEN": "What is this? It-it's for me?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_relationship_up_1",
+            "LocalizeEN": "If it were someone else, it'd be a bit... but if it's you, Sensei, then... Yes, I'll be fine."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_relationship_up_2",
+            "LocalizeEN": "If you don't mind, I would like to continue working with you... Never mind, please forget about it. I'm sorry."
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_relationship_up_3",
+            "LocalizeEN": "It's fine if we only do it now and then... Um... Do you want to read books together sometime?"
+        },
+        {
+            "CharacterId": 10035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0169/ch0169_relationship_up_4",
+            "LocalizeEN": "Erm, actually, I've done a research on all your preferences, Sensei....! S- So these should be fit you well, s- so if you'd like, sometime we should...!"
+        }
+    ]
+}

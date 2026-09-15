@@ -1,0 +1,107 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ako_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_formation_in_1",
+            "LocalizeJP": "お仕事ですね？はい、お任せください。",
+            "LocalizeEN": "More work? Yes, leave it to me."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ako_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_formation_in_2",
+            "LocalizeJP": "シャーレとしての業務上の指示ということでしょうか？でしたら、仕方ありません。",
+            "LocalizeEN": "Is it a job-related instruction coming from Schale? In that case, it can't be helped."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ako_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_exskill_1",
+            "LocalizeEN": "Sending known combat data."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ako_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_exskill_2",
+            "LocalizeJP": "データはこれとこれと……",
+            "LocalizeEN": "Data here and there."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ako_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_exskill_3",
+            "LocalizeEN": "I'll show you the information-gathering skills of a Prefect Team member."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ako_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_exskill_level_1",
+            "LocalizeEN": "Analysis complete, weaknesses identified."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ako_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_exskill_level_3",
+            "LocalizeEN": "I am fully prepared."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ako_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_growup_2",
+            "LocalizeEN": "I've grown so much. Even I'm surprised."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ako_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_growup_3",
+            "LocalizeEN": "This isn't the kind of thing you can just casually do for everyone, is it? What is your goal? You want me to do something for you?"
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ako_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_growup_4",
+            "LocalizeJP": "その……ありがとうございます。先生。\n……何ですか、その顔は。\n私だって何かをしてもらえば、感謝くらいします。まったく……",
+            "LocalizeEN": "Em, thank you for that, Sensei. What's that face supposed to mean? Even I can thank someone who does something for me. Come on."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ako_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_relationship_up_1",
+            "LocalizeEN": "Eh? Since when were you so close? No, I wasn't being too conscious!"
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ako_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_relationship_up_2",
+            "LocalizeJP": "……業務外での関係でもお望みなんですか？\nそういうのは早いですよ……まだ",
+            "LocalizeEN": "Do you want us to keep a relationship outside of work? It's too soon for something like that... yet..."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ako_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_relationship_up_3",
+            "LocalizeEN": "Give me a little more time to reflect on my feelings. I just need a little time, I promise."
+        },
+        {
+            "CharacterId": 20008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ako_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Ako/ako_relationship_up_4",
+            "LocalizeEN": "You got me, Sensei, I don't dislike you. And? So what? What are you going to make of it?"
+        }
+    ]
+}

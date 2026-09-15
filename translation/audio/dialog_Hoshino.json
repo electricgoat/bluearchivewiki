@@ -1,0 +1,325 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/Hoshino_Lobby_3",
+            "LocalizeEN": "You need me? Ugh, thanks for the empty compliment."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Hoshino/Hoshino_Season_Halloween",
+            "LocalizeEN": "Halloween, huh? It's never really meant anything to me before.\n\nThat said, you like to celebrate Halloween yourself, right Sensei?\n\nHuh? You want me to join you? Heehee, I'd love to."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_formation_in_1",
+            "LocalizeEN": "Well, it's work after all. Guess I have to do it."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_formation_in_2",
+            "LocalizeJP": "ふぁ〜、めんどくさいけどしようがないな～。",
+            "LocalizeEN": "Yaaawn. It's a pain but I guess I have to."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_formation_select",
+            "LocalizeJP": "はあ～、めんどくさ……",
+            "LocalizeEN": "Yaaawn. What a pain."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_defeat_1",
+            "LocalizeJP": "あれっ…負けちゃったぁ〜。",
+            "LocalizeEN": "Huh? We lost."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_defeat_2",
+            "LocalizeJP": "こんなつもりじゃなかったけどな。",
+            "LocalizeEN": "It wasn't meant to be like this."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_in_1",
+            "LocalizeEN": "Well, time to work. Let's get fired up."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_in_2",
+            "LocalizeEN": "Shall we begin?"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_victory_1",
+            "LocalizeEN": "Well, that's how it is."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_tactic_victory_2",
+            "LocalizeEN": "What else did you expect?"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_buffself_1",
+            "LocalizeJP": "さぁ、行ってみよ～。",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_damage_1",
+            "LocalizeJP": "っく…！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_damage_2",
+            "LocalizeJP": "うっ…！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_damage_3",
+            "LocalizeJP": "ぐぅ…！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_defense_1",
+            "LocalizeEN": "It's no use."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_in_1",
+            "LocalizeEN": "Are you ready. Let's go!"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_in_2",
+            "LocalizeEN": "Here. Get ready."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_move_1",
+            "LocalizeEN": "Uhe~, what a pain..."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_move_2",
+            "LocalizeJP": "ふあぁ、眠い……",
+            "LocalizeEN": "Yaaawn... So tired."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_recovery_1",
+            "LocalizeJP": "世話をかけるね～。",
+            "LocalizeEN": "You didn't have to bother."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_retire",
+            "LocalizeJP": "ごめん、みんな…",
+            "LocalizeEN": "I'm sorry, everyone..."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_shout_1",
+            "LocalizeJP": "ほぉ！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_shout_2",
+            "LocalizeJP": "へぇ！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_shout_3",
+            "LocalizeJP": "やぁ！"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_tacticalaction_1",
+            "LocalizeJP": "こっちだよ～。",
+            "LocalizeEN": "It's over here."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_victory_1",
+            "LocalizeEN": "Yaaawn, ugh. We won somehow."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_battle_victory_2",
+            "LocalizeJP": "ふぁあああ～勝利勝利～。",
+            "LocalizeEN": "Yaaawn... Victory!"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hoshino_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_commonskill",
+            "LocalizeEN": "This will save you time."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_1",
+            "LocalizeEN": "Gather here."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_2",
+            "LocalizeEN": "Shield up! Come closer."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_3",
+            "LocalizeEN": "Leave the front to me."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_level_1",
+            "LocalizeEN": "Attack while I hold them."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_level_2",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_exskill_level_3",
+            "LocalizeEN": "It's futile."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_growup_1",
+            "LocalizeJP": "はあ、もっと強くなっちゃったか…",
+            "LocalizeEN": "Did I become stronger?"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_growup_2",
+            "LocalizeEN": "Mmm? Not bad."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_growup_3",
+            "LocalizeEN": "Uhee~, I'm stronger now."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_growup_4",
+            "LocalizeJP": "うん、いい感じ～。",
+            "LocalizeEN": "Mm, it feels right."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_relationship_up_1",
+            "LocalizeEN": "You're a weird one, Sensei. Why me of all people?"
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_relationship_up_2",
+            "LocalizeEN": "Let's relax together."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_relationship_up_3",
+            "LocalizeJP": "ああ。ありがとう、……先生。",
+            "LocalizeEN": "Thanks, Sensei."
+        },
+        {
+            "CharacterId": 10005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hoshino/hoshino_relationship_up_4",
+            "LocalizeEN": "Ehehe~, only you move my heart like this, Sensei."
+        }
+    ]
+}

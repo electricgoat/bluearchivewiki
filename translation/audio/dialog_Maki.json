@@ -1,0 +1,283 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Maki_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Maki/Maki_Cafe_Act_1",
+            "LocalizeEN": "I think this wall would look really nice with a fresh coat of paint on it."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Maki_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Maki/Maki_ExWeapon_Get",
+            "LocalizeEN": "I'm going to color the world with this gun!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Maki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_formation_in_1",
+            "LocalizeEN": "What is it? Did something interesting happen?"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Maki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_formation_in_2",
+            "LocalizeEN": "Hehe, leave it to me."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Maki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_formation_select",
+            "LocalizeEN": "Huh? It wasn't my turn?"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_defeat_1",
+            "LocalizeJP": "うわ失敗した、みんな逃げて。",
+            "LocalizeEN": "I screwed up! Everyone, run!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_defeat_2",
+            "LocalizeJP": "うーん、今回の作品はダメだ。",
+            "LocalizeEN": "Aww... The work wasn't good this time."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_in_1",
+            "LocalizeEN": "If I win, I'll draw the best graffiti on that barrier!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_in_2",
+            "LocalizeEN": "Today's graffiti phrase is... Yeah, \"Veritas\" looks good!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_victory_1",
+            "LocalizeEN": "We win, we win!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Maki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_tactic_victory_2",
+            "LocalizeEN": "Took another shot at it today!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_buffed_1",
+            "LocalizeEN": "Guess it's my turn!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_buffself_1",
+            "LocalizeJP": "私は今心から燃え上がっている。",
+            "LocalizeEN": "Now I'm burning up from the inside!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_defense_1",
+            "LocalizeEN": "Hehe, it's no use!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_in_1",
+            "LocalizeEN": "Well, let's show our strength, shall we?"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_in_2",
+            "LocalizeEN": "Make the world a happier place!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_move_1",
+            "LocalizeEN": "Let's go paint the next graffiti ASAP!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_move_2",
+            "LocalizeEN": "C'mon! Forward, forward!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_recovery_1",
+            "LocalizeEN": "Oh, thanks!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_retire",
+            "LocalizeJP": "やられちゃった。",
+            "LocalizeEN": "I got beaten..."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_shout_2",
+            "LocalizeJP": "ヤッホー。",
+            "LocalizeEN": "Yahoo!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_shout_3",
+            "LocalizeJP": "これあげる。",
+            "LocalizeEN": "I'll give this to you."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_tacticalaction_1",
+            "LocalizeEN": "Changing formation!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_victory_1",
+            "LocalizeEN": "That's a great result! What's your opinion, Sensei?"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Maki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_battle_victory_2",
+            "LocalizeEN": "My artistic spirit is unstoppable!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Maki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_commonskill",
+            "LocalizeEN": "Burst!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Maki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_exskill_1",
+            "LocalizeEN": "It's perfect today as well!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Maki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_exskill_2",
+            "LocalizeEN": "Hehe, this work is also a masterpiece!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Maki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_exskill_3",
+            "LocalizeEN": "Mm-hmm! I like it!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Maki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_exskill_level_1",
+            "LocalizeJP": "くらえ～っ"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Maki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_exskill_level_2",
+            "LocalizeEN": "A present for all of you!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Maki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_growup_1",
+            "LocalizeEN": "I have the best inspiration right now!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Maki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_growup_2",
+            "LocalizeEN": "Yeah, all right!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Maki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_growup_3",
+            "LocalizeEN": "Will this help me get better grades?"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Maki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_growup_4",
+            "LocalizeEN": "Ooh! I feel great power!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Maki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_relationship_up_1",
+            "LocalizeEN": "Ahaha! Thanks for always helping me out, Sensei."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Maki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_relationship_up_2",
+            "LocalizeEN": "I'd like to draw Sensei's face at least once."
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Maki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_relationship_up_3",
+            "LocalizeEN": "I... I-I wasn't looking at Sensei's photos or anything!"
+        },
+        {
+            "CharacterId": 10007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Maki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Maki/maki_relationship_up_4",
+            "LocalizeEN": "I feel like I get a lot of good inspiration when I'm with Sensei."
+        }
+    ]
+}

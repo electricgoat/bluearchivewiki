@@ -1,0 +1,262 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mine_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_formation_in_2",
+            "LocalizeEN": "It's time for the Remedial Knights to step in."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mine_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_formation_select",
+            "LocalizeEN": "Wh-what's going on?"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_defeat_1",
+            "LocalizeJP": "まさか、このような。…申し訳ありません、私が力不足なばかりに。",
+            "LocalizeEN": "No way, something like this. ...I'm sorry, I'm just not strong enough."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_defeat_2",
+            "LocalizeJP": "あまりご自身を責めないでください。きっと大丈夫ですから。",
+            "LocalizeEN": "Don't blame yourself too much, Everything will be fine."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_in_1",
+            "LocalizeEN": "Leave it to me, I'll take the lead."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_in_2",
+            "LocalizeEN": "Blessing for all."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_victory_1",
+            "LocalizeEN": "Everyone, Are you okay?"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mine_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_tactic_victory_2",
+            "LocalizeJP": "「救護」が必要な方を\n誰一人、逃（の）がさない。当然のことです。",
+            "LocalizeEN": "It goes without saying that we must not let anyone who needs aid slip away."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_buffself_1",
+            "LocalizeJP": "まだです。",
+            "LocalizeEN": "Not yet."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_damage_2",
+            "LocalizeJP": "そんな…！"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_damage_3",
+            "LocalizeJP": "この程度。",
+            "LocalizeEN": "This degree."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_defense_1",
+            "LocalizeEN": "Incapacitate."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_in_1",
+            "LocalizeEN": "I'll step forward, so please stand behind me."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_in_2",
+            "LocalizeEN": "The Remedial Knights are here."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_move_1",
+            "LocalizeEN": "Let's move on."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_move_2",
+            "LocalizeEN": "Move."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_recovery_1",
+            "LocalizeEN": "Thank you. I feel much better now."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_retire",
+            "LocalizeJP": "少々、苦しいですね…。",
+            "LocalizeEN": "It's a little painful..."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_tacticalaction_1",
+            "LocalizeEN": "Which one will be next?"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_victory_1",
+            "LocalizeEN": "The rescue was successfully completed."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mine_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_battle_victory_2",
+            "LocalizeEN": "It's our victory, but we must stay vigilant."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mine_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_commonskill",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_1",
+            "LocalizeEN": "I shall go."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_2",
+            "LocalizeEN": "Over there."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_3",
+            "LocalizeEN": "Please stand back."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_level_1",
+            "LocalizeEN": "A helping hand on the battlefield!"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_level_2",
+            "LocalizeEN": "Engrave your pride and conviction in your heart!"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mine_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_exskill_level_3",
+            "LocalizeEN": "Until the very end, that very moment!"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_growup_1",
+            "LocalizeEN": "For me..., how did it come to this?"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_growup_2",
+            "LocalizeEN": "thank you. teacher"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_growup_3",
+            "LocalizeEN": "Hehe. I'm the one who ended up having to receive aid."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mine_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_growup_4",
+            "LocalizeEN": "If you don't mind, how about having some tea next time? I'd like to thank you somehow."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_relationship_up_1",
+            "LocalizeEN": "It's an unfamiliar feeling, isn't it? It's a fluffy, warm feeling that tickles my chest"
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_relationship_up_2",
+            "LocalizeEN": "Have you noticed? Sensei is changing me little by little."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_relationship_up_3",
+            "LocalizeEN": "If I can be of any help, please let me know."
+        },
+        {
+            "CharacterId": 10058,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mine_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0152/ch0152_relationship_up_4",
+            "LocalizeEN": "Sensei always gives me more than I can pay back, You're a real pain. Seriously. Hehe."
+        }
+    ]
+}

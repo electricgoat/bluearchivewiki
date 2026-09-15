@@ -1,0 +1,255 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Eimi_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Eimi/Eimi_Season_Xmas",
+            "LocalizeEN": "I heard that today is a special day, but what would make it special for lovers?\n\nElucidate me, Sensei."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Eimi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_formation_in_2",
+            "LocalizeEN": "Okay, leave it to me."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_defeat_1",
+            "LocalizeJP": "作戦失敗、再編成を。",
+            "LocalizeEN": "Operation failed. Reorganize."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_defeat_2",
+            "LocalizeJP": "違う作戦に挑戦してみるのはどうかな。",
+            "LocalizeEN": "How about trying a different strategy?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_in_1",
+            "LocalizeEN": "I guess it's my turn."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_in_2",
+            "LocalizeEN": "Should I suppress everyone?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_victory_1",
+            "LocalizeEN": "Efficiently calculated, Sensei."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Eimi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_tactic_victory_2",
+            "LocalizeEN": "Operation clear. Any other instructions?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_buffed_1",
+            "LocalizeEN": "Support acknowledged."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_buffself_1",
+            "LocalizeJP": "全力で行く。",
+            "LocalizeEN": "I'll give it my all."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_defense_1",
+            "LocalizeEN": "Useless."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_in_1",
+            "LocalizeEN": "Combat start."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_in_2",
+            "LocalizeEN": "Breaking in."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_move_1",
+            "LocalizeEN": "Is that it?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_retire",
+            "LocalizeJP": "私はここまで。",
+            "LocalizeEN": "This is as far as I go."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_shout_2",
+            "LocalizeJP": "照準。",
+            "LocalizeEN": "Aiming."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_shout_3",
+            "LocalizeJP": "打つ。",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_tacticalaction_1",
+            "LocalizeEN": "Changing position."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_victory_1",
+            "LocalizeEN": "Did we come out with results?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Eimi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_battle_victory_2",
+            "LocalizeEN": "This is our victory."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Eimi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_commonskill",
+            "LocalizeEN": "Enemy spotted!"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Eimi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_exskill_1",
+            "LocalizeEN": "Launching interpreter. Parsing start."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Eimi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_exskill_2",
+            "LocalizeEN": "Reanalyze code. Applied."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Eimi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_exskill_3",
+            "LocalizeEN": "Undergoing pattern analysis."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Eimi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_exskill_level_1",
+            "LocalizeEN": "Switching to defense mode."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Eimi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_exskill_level_3",
+            "LocalizeEN": "Changes applied. It's okay now."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Eimi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_growup_1",
+            "LocalizeEN": "I need this for combat as well, right?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Eimi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_growup_2",
+            "LocalizeEN": "Teach me some more."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Eimi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_growup_3",
+            "LocalizeEN": "What kind of training should I do?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Eimi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_growup_4",
+            "LocalizeEN": "I'm growing stronger."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Eimi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_relationship_up_1",
+            "LocalizeEN": "I know I can leave my back to you, Sensei."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Eimi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_relationship_up_2",
+            "LocalizeEN": "You want to know about my gun?"
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Eimi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_relationship_up_3",
+            "LocalizeEN": "It's easy to understand when you teach me, Sensei."
+        },
+        {
+            "CharacterId": 10001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Eimi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Eimi/eimi_relationship_up_4",
+            "LocalizeEN": "It's my duty to protect Sensei."
+        }
+    ]
+}

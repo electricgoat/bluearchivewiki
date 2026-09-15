@@ -1,0 +1,47 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Nagusa_Season_Birthday_Player_2",
+            "Path": "Audio/VOC_JP/JP_CH0222/CH0222_Season_Birthday_Player_2",
+            "LocalizeJP": "私にとっても、\n自分事のように\n特別に思うんだ。",
+            "LocalizeEN": "Perhaps that's why today feels special for me as well."
+        },
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nagusa_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0222/ch0222_tactic_defeat_1",
+            "LocalizeJP": "やっぱり…、私には無理だったんだ…。みんな、ごめん…"
+        },
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nagusa_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0222/ch0222_tactic_defeat_2",
+            "LocalizeJP": "ううっ……！本当にっ…、ごめんなさいっ……！"
+        },
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nagusa_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0222/ch0222_battle_buffself_1",
+            "LocalizeJP": "いける。"
+        },
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nagusa_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0222/ch0222_battle_covered_1",
+            "LocalizeJP": "ここなら大丈夫。"
+        },
+        {
+            "CharacterId": 10119,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nagusa_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0222/ch0222_battle_retire",
+            "LocalizeJP": "やっぱり…、私には……"
+        }
+    ]
+}

@@ -1,0 +1,318 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Momoi/Momoi_Season_Xmas",
+            "LocalizeEN": "Christmas... *sigh*\n\nIf you dress up in red and gift me a game, this'd be the best Christmas ever!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_MemorialLobby_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/Momoi_MemorialLobby_1",
+            "LocalizeEN": "Look, Sensei! I filled out this stamp card!\n\nNow this quest is cleared! Ahem!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/Momoi_MemorialLobby_2_1",
+            "LocalizeEN": "I thought this quest would be impossible.\n\nYeah! You and I...we make a great team!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_MemorialLobby_4",
+            "Path": "Audio/VOC_JP/JP_Momoi/Momoi_MemorialLobby_4",
+            "LocalizeEN": "Hahaha! I'm glad you said it's okay. But I still had lots of fun thanks to you, Sensei!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momoi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_formation_in_2",
+            "LocalizeEN": "Now it's my turn."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momoi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_formation_select",
+            "LocalizeEN": "Wah! Wait... I can't play games like this!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_tactic_defeat_1",
+            "LocalizeJP": "先生、諦めないで。リトライしよう！",
+            "LocalizeEN": "Sensei, don't give up. Let's try again!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_tactic_defeat_2",
+            "LocalizeJP": "あーもう。クソゲーじゃん。",
+            "LocalizeEN": "Aww, geez. This game sucks!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_tactic_in_1",
+            "LocalizeEN": "Let's finish it quickly and go home."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_tactic_in_2",
+            "LocalizeEN": "I'll show you my aim."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_tactic_victory_1",
+            "LocalizeEN": "At this level, the difficulty level is EZ."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_covered_1",
+            "LocalizeEN": "Found a hiding place!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_damage_1",
+            "LocalizeJP": "…痛い！",
+            "LocalizeEN": "That hurt!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_damage_2",
+            "LocalizeJP": "助けてー！",
+            "LocalizeEN": "Help me!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_damage_3",
+            "LocalizeJP": "許せない。",
+            "LocalizeEN": "Unforgiveable!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_in_1",
+            "LocalizeJP": "うーん……パッドでの操作だったら自信あるんだけど……",
+            "LocalizeEN": "If it was on the gamepad, I'd be more confident…"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_in_2",
+            "LocalizeEN": "I can see the scenario to victory."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_move_1",
+            "LocalizeEN": "All clear here!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_move_2",
+            "LocalizeEN": "To the next stage, onward!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_recovery_1",
+            "LocalizeEN": "Always check your health gauge carefully."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_retire",
+            "LocalizeJP": "攻略本、読んでおけば良かった。",
+            "LocalizeEN": "I should have read the strategy book."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_shout_2",
+            "LocalizeJP": "くらえ。",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_shout_3",
+            "LocalizeJP": "行くよ。",
+            "LocalizeEN": "Go."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_tacticalaction_1",
+            "LocalizeEN": "Let's go over there!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_tsa_1",
+            "LocalizeJP": "レトロこそ、真の最先端なんだよ！",
+            "LocalizeEN": "Retro is the true cutting edge!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_tsa_2",
+            "LocalizeJP": "今からこのゲームはロボットものになるよ！",
+            "LocalizeEN": "From now on, this game will be about robots."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_victory_1",
+            "LocalizeEN": "Clear! Onto the next stage!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_battle_victory_2",
+            "LocalizeEN": "This is our victory!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Momoi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_commonskill",
+            "LocalizeEN": "I'm already angry!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_1",
+            "LocalizeEN": "Alright, just a few more... Huh!? Ugh, I won't allow this!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_2",
+            "LocalizeJP": "へえ、おもしろ……うわっ！死んだ？！\n信じられない！",
+            "LocalizeEN": "Huh, interesting... Wha-?! I died! I can't believe this!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_3",
+            "LocalizeJP": "私の勝ちっ！えっ？！負けたじゃん？！\nもおおおおぉっ！",
+            "LocalizeEN": "I'm winning! Huh, I lost!? Come on!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_level_1",
+            "LocalizeEN": "I had to buy her ice cream! It's all your fault!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_level_2",
+            "LocalizeEN": "Frustrated... I'm so frustrated!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_exskill_level_3",
+            "LocalizeEN": "Take the bullet of my anger!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_growup_1",
+            "LocalizeEN": "Make sure you get more experience points!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_growup_2",
+            "LocalizeEN": "Leveling up is always an exciting moment."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_growup_3",
+            "LocalizeEN": "I want to become stronger! That way, I can become a big sis who can protect everyone."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_growup_4",
+            "LocalizeEN": "My firepower from now on will be incredible!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_relationship_up_1",
+            "LocalizeEN": "If you want to increase my favorability, buy me more new games."
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_relationship_up_2",
+            "LocalizeEN": "W-What a foreshadowing! What will happen if we go on like this?"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_relationship_up_3",
+            "LocalizeEN": "Huh? Perhaps the flag is raised now... N-No! No flags up!"
+        },
+        {
+            "CharacterId": 13011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Momoi/momoi_relationship_up_4",
+            "LocalizeEN": "It takes a lot of experience to make the best games. And love experience too... right?"
+        }
+    ]
+}

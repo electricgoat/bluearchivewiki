@@ -1,0 +1,292 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_Shiroko/Shiroko_Season_Birthday",
+            "LocalizeEN": "I didn't think you'd remember my birthday.\n\nNo, I really don't mind. I mean it."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Shiroko/Shiroko_Season_Halloween",
+            "LocalizeEN": "Halloween. I've never experienced it due to how desolate our district is.\n\nI don't mind being in a vibrant city for a change."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Shiroko_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Shiroko/Shiroko_ExWeapon_Get",
+            "LocalizeEN": "I'm a little stronger now, right? Well, as long as it becomes a source of strength for everyone."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko_MemorialLobby_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/Shiroko_MemorialLobby_2",
+            "LocalizeEN": "(What could they be thinking? I wish I knew.)"
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_Shiroko/Shiroko_MemorialLobby_3",
+            "LocalizeEN": "(What could Sensei be up to?)"
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_formation_in_1",
+            "LocalizeEN": "I'm ready."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_formation_in_2",
+            "LocalizeEN": "OK, I join the battle."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_formation_select",
+            "LocalizeJP": "うーん……"
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_defeat_1",
+            "LocalizeJP": "ごめん、私の判断ミスだ。",
+            "LocalizeEN": "Sorry, I made a wrong choice."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_defeat_2",
+            "LocalizeJP": "少し…力不足だったか。",
+            "LocalizeEN": "I was... a bit underpowered."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_in_1",
+            "LocalizeEN": "Enemy spotted, awaiting instructions."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_in_2",
+            "LocalizeEN": "Sensei, I'm waiting for sortie order."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_victory_1",
+            "LocalizeEN": "Better safe than sorry. What a simple rule."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_tactic_victory_2",
+            "LocalizeEN": "Your command was great, Sensei."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_covered_1",
+            "LocalizeEN": "Cover, secured."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_damage_2",
+            "LocalizeJP": "全く。",
+            "LocalizeEN": "Good grief."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_defense_1",
+            "LocalizeEN": "Useless."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_in_1",
+            "LocalizeEN": "We're going with formation P."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_in_2",
+            "LocalizeEN": "Let's maintain formation, and move forward."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_move_1",
+            "LocalizeJP": "この辺に確か、銀行が……",
+            "LocalizeEN": "I'm sure there's a bank around here..."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_move_2",
+            "LocalizeEN": "This is a good place for riding."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_retire",
+            "LocalizeJP": "…ミスった、ごめん。",
+            "LocalizeEN": "Sorry, I made a mistake"
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_Supply",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_supply",
+            "LocalizeJP": "補給、確認した。",
+            "LocalizeEN": "Supply confirmed."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_battle_tacticalaction_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shiroko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_commonskill",
+            "LocalizeEN": "Here you go!"
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_1",
+            "LocalizeEN": "Condition is good. Here you go."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_2",
+            "LocalizeEN": "Unit, starting."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_3",
+            "LocalizeEN": "Drone, engaging."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_level_1",
+            "LocalizeEN": "Commence fire support."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_level_2",
+            "LocalizeEN": "Target setting completed."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_exskill_level_3",
+            "LocalizeEN": "Support attack."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_growup_1",
+            "LocalizeEN": "I felt the results of my training."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_growup_3",
+            "LocalizeEN": "I feel like I've grown. This is also thanks to Sensei."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_growup_4",
+            "LocalizeEN": "I can feel I'm growing."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_relationship_up_1",
+            "LocalizeEN": "It's strange... My heart is pounding."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_relationship_up_2",
+            "LocalizeJP": "先生と一緒にいると…なんだか不思議な気分。",
+            "LocalizeEN": "I feel strange when I'm with Sensei."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_relationship_up_3",
+            "LocalizeJP": "先生。教えて。\n私の知らない、色んなことを、もっと……",
+            "LocalizeEN": "Sensei, tell me more things I don't know."
+        },
+        {
+            "CharacterId": 10010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Shiroko/shiroko_relationship_up_4",
+            "LocalizeEN": "From that moment I met Sensei, this place became more special to me."
+        }
+    ]
+}

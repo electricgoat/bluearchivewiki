@@ -1,0 +1,137 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Serina_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_formation_in_1",
+            "LocalizeJP": "ま、任せてください。",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Serina_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_formation_in_2",
+            "LocalizeJP": "頑張ります。",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Serina_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_battle_tsa_1",
+            "LocalizeJP": "今すぐ向かいます。",
+            "LocalizeEN": "I'm on my way now."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Serina_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_battle_tsa_2",
+            "LocalizeJP": "救護騎士団です。",
+            "LocalizeEN": "We are the Remedial Knights."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Serina_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_commonskill",
+            "LocalizeJP": "痛いの痛いの飛んでけ～。",
+            "LocalizeEN": "Pain, pain, go away.<ref group=\"note\">{{wikt|痛いの痛いの飛んでけ}} is a Japanese idiom that doctors use to sooth patients.</ref>"
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_1",
+            "LocalizeEN": "Everyone, we have prepared these for you."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_2",
+            "LocalizeEN": "Heave-ho. The supplies have arrived."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_3",
+            "LocalizeEN": "These are supplies for everyone."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_level_1",
+            "LocalizeEN": "Please receive the supplies."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_level_2",
+            "LocalizeEN": "Let's start with those who are feeling unwell, in order."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Serina_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_exskill_level_3",
+            "LocalizeEN": "Please take good care of it."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Serina_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_growup_1",
+            "LocalizeEN": "I feel much healthier."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Serina_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_growup_2",
+            "LocalizeEN": "If only I could share this power with those who are feeling under the weather."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Serina_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_growup_3",
+            "LocalizeEN": "For the sake of those who are unwell, I will work harder."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Serina_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_growup_4",
+            "LocalizeJP": "私も少しは成長したんでしょうか？へへへ……",
+            "LocalizeEN": "Have I grown a little? Ehehe."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Serina_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_relationship_up_1",
+            "LocalizeEN": "Being with Sensei heals my heart."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Serina_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_relationship_up_2",
+            "LocalizeJP": "ふふ、幸せですね～。",
+            "LocalizeEN": "Ufufu... I'm so happy."
+        },
+        {
+            "CharacterId": 26003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Serina_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Serina/serina_relationship_up_3",
+            "LocalizeEN": "I can't be a doctor who only cares for you, Sensei... but I will always think about you."
+        }
+    ]
+}

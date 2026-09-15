@@ -1,0 +1,267 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kasumi_EventShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/CH0089_EventShop_Login_2",
+            "LocalizeEN": "Ah! We've got everything here! Everything except for what we don't! Wahaha!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kasumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_formation_in_1",
+            "LocalizeEN": "Ah, It’s work.  Leave it to me."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kasumi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_formation_in_2",
+            "LocalizeEN": "What a great choice, isn’t it?"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kasumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_formation_select",
+            "LocalizeEN": "O~kay! Let's go!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_defeat_1",
+            "LocalizeJP": "些細些細、そういうこともあるというものだ",
+            "LocalizeEN": "It’s a small thing but that’s just how it is."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_defeat_2",
+            "LocalizeJP": "逆に考えるのだ．もう一度開発する機会を得たのだとな",
+            "LocalizeEN": "We have to rethink this. Consider it as we're given another chance to do another development"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_in_1",
+            "LocalizeEN": "Doesn't this feels like a great place to dig!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_in_2",
+            "LocalizeEN": "Let's do this next construction here!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_victory_1",
+            "LocalizeEN": "Great, Let’s continue like this!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kasumi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_tactic_victory_2",
+            "LocalizeEN": "Wonderful! Another splendid hot spring development it was!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_buffed_1",
+            "LocalizeEN": "There was no need but... Thanks!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_buffself_1",
+            "LocalizeJP": "よっこらせ！",
+            "LocalizeEN": "Heave- ho!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_covered_1",
+            "LocalizeEN": "This seems sturdy!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_defense_1",
+            "LocalizeEN": "What's the matter?"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_in_1",
+            "LocalizeEN": "So you're getting in the way... Don't blame me for what happens next"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_in_2",
+            "LocalizeEN": "Wahaha! Sure, let's try it out!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_move_1",
+            "LocalizeEN": "We have limited time, so let’s go!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_move_2",
+            "LocalizeEN": "Alright, next, next!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_recovery_1",
+            "LocalizeEN": "Wow, I’m so grateful!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_tacticalaction_1",
+            "LocalizeEN": "Go~ Go~!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_victory_1",
+            "LocalizeEN": "Haah, that’s refreshing!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kasumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_battle_victory_2",
+            "LocalizeEN": "Wonderful, It was magnificent."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kasumi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_commonskill",
+            "LocalizeJP": "サプラ～イズ",
+            "LocalizeEN": "Surprise!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_1",
+            "LocalizeEN": "The point this time is... Here!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_2",
+            "LocalizeEN": "Alright alright, there it is!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_3",
+            "LocalizeEN": "Alright, Let’s get started."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_level_1",
+            "LocalizeEN": "Boooom! Blaaaam! Hahahaha!<!--from https://www.youtube.com/watch?v=YpW2daad_N8-->"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_level_2",
+            "LocalizeEN": "Now, it’s a present!  Hahaha!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kasumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_exskill_level_3",
+            "LocalizeEN": "Let’s go! Let’s go!  Hahaha!"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kasumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_growup_1",
+            "LocalizeEN": "Yeah, that’s life!  Sometimes things are like this."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kasumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_growup_2",
+            "LocalizeEN": "By the way sensei, are you sure about this? If something happens, you’ll be an accomplice."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kasumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_growup_3",
+            "LocalizeEN": "Oh, I was just looking for that, that’s helpful."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kasumi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_growup_4",
+            "LocalizeEN": "Hahaha! No need to worry. Let's call this our secret"
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kasumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_relationship_up_1",
+            "LocalizeEN": "You would do this much for me. There are some really extraordinary people out there."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kasumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_relationship_up_2",
+            "LocalizeEN": "The teacher is very interesting, huh? I am praising you."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kasumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_relationship_up_3",
+            "LocalizeEN": "If there is anything you need, just tell me. Yes anything, whatever it is, I’ll get it for you, behind the scenes, quietly."
+        },
+        {
+            "CharacterId": 10078,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kasumi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0089/ch0089_relationship_up_4",
+            "LocalizeEN": "Hahahaha,  I really appreciate it Sensei."
+        }
+    ]
+}

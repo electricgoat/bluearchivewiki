@@ -1,0 +1,283 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_Cafe_Act_2",
+            "Path": "Audio/VOC_JP/JP_Midori/Midori_Cafe_Act_2",
+            "LocalizeEN": "All right, now I just need to... I got the prize!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Midori/Midori_Lobby_1",
+            "LocalizeEN": "I'm worried about the Game Development Department.\n\nI know we'll be okay as long as you're with us..."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_Midori/Midori_Season_Birthday_Player",
+            "LocalizeEN": "I want to wish you a happy birthday, Sensei!\n\nI don't know what you like, so...\n\nDo you wanna come hang out with me?"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Midori/Midori_Season_Halloween",
+            "LocalizeEN": "I'm not usually a big Halloween fan, but maybe with you here this year...\n\nI think it'll be fun. I'm excited!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_MemorialLobby_2",
+            "Path": "Audio/VOC_JP/JP_Midori/Midori_MemorialLobby_2",
+            "LocalizeEN": "I feel like I'm broadening my horizons. This was a good research opportunity."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_formation_in_1",
+            "LocalizeEN": "I understand. I will go."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_formation_in_2",
+            "LocalizeEN": "Yes, I will do my best."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_formation_select",
+            "LocalizeEN": "Hmm... Huh?"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_defeat_1",
+            "LocalizeJP": "う…、悔しい。",
+            "LocalizeEN": "Frustrating..."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_defeat_2",
+            "LocalizeJP": "申し訳ありません、私の力不足でした。",
+            "LocalizeEN": "I'm sorry for my incompetence."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_in_1",
+            "LocalizeEN": "Since I accepted it, I will do my best."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_in_2",
+            "LocalizeEN": "Stay calm and move forward."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_victory_1",
+            "LocalizeEN": "Everyone, thank you for your hard work."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_tactic_victory_2",
+            "LocalizeEN": "Clear. Excellent!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_covered_1",
+            "LocalizeEN": "Hiding here."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_damage_3",
+            "LocalizeJP": "痛い…。",
+            "LocalizeEN": "Ow..."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_defense_1",
+            "LocalizeEN": "That barely missed me..."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_in_1",
+            "LocalizeEN": "Teamwork is the basis of party play."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_in_2",
+            "LocalizeEN": "Hmm, my sister is better at this kind of thing than I am."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_move_2",
+            "LocalizeEN": "I can't wait to go home and play games."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_retire",
+            "LocalizeJP": "うーん、もう少し落ち着いてできてれば…。",
+            "LocalizeEN": "If only I could calm down a little more..."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_tacticalaction_1",
+            "LocalizeEN": "I'm moving."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_tsa_1",
+            "LocalizeJP": "ここからは…、容赦しないから。",
+            "LocalizeEN": "I won't go easy on you from now on."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_tsa_2",
+            "LocalizeJP": "覚悟して…。本気で行くよ！",
+            "LocalizeEN": "Prepare yourself... I'm going all out!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_battle_victory_2",
+            "LocalizeEN": "It's our victory."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Midori_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_commonskill",
+            "LocalizeEN": "I will help you!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_exskill_1",
+            "LocalizeEN": "Ahh, I lost... It can't be helped."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_exskill_2",
+            "LocalizeEN": "A little disappointing... Well, let's give it a try."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_exskill_level_1",
+            "LocalizeEN": "No hard feelings, but be prepared."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_exskill_level_2",
+            "LocalizeEN": "It's as precise as a dot...!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_exskill_level_3",
+            "LocalizeEN": "Rapid fire, go!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_growup_1",
+            "LocalizeEN": "I want to be better at drawing... and I want to be more helpful to Sensei."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_growup_2",
+            "LocalizeEN": "It is really nice to see the hard work pay off."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_growup_3",
+            "LocalizeEN": "I want to become more mature because then I will be able to help everyone and Sensei more."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_growup_4",
+            "LocalizeEN": "Thank you, Sensei. I will continue to do my best."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_relationship_up_1",
+            "LocalizeEN": "Sensei is always kind."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_relationship_up_2",
+            "LocalizeEN": "Let's keep making good memories with the Game Development Department. And with me, too... I-It's nothing!"
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_relationship_up_3",
+            "LocalizeEN": "When we create a game, I want to show it to you first, Sensei."
+        },
+        {
+            "CharacterId": 10016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Midori/midori_relationship_up_4",
+            "LocalizeEN": "Sometimes... I want to keep Sensei to myself instead of together with my sister. Um... C-Could I hold your hand?"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Box_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_box_1",
+            "LocalizeJP": "これは…、想像以上ですね♡",
+            "LocalizeEN": "This is... more than I imagined! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Box_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_box_2",
+            "LocalizeJP": "いい感じです。",
+            "LocalizeEN": "What a nice feeling."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Complete",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_complete",
+            "LocalizeJP": "はい。今日はこれでおしまいです。",
+            "LocalizeEN": "Alright. That's a wrap for today."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Fail_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_fail_1",
+            "LocalizeJP": "あらあら、困りましたね…。",
+            "LocalizeEN": "Oh my, you must be troubled..."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Fail_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_fail_2",
+            "LocalizeJP": "そんなときもありますよ。",
+            "LocalizeEN": "Things like these are bound to happen."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Start_Facility",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_start_facility",
+            "LocalizeJP": "では、そろそろ動きますね。",
+            "LocalizeEN": "Well then, let's get going."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Start_Item",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_start_item",
+            "LocalizeEN": "Oh, how bold. ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Success",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_success",
+            "LocalizeJP": "あらまぁ…、すごいです♡",
+            "LocalizeEN": "Wow... so amazing...! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hanako_(Swimsuit)_Minigame_Victory",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_minigame_victory",
+            "LocalizeJP": "ふう…、すっきりしました♡",
+            "LocalizeEN": "Ha... I feel so refreshed! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_formation_in_1",
+            "LocalizeEN": "Ah, you're choosing me?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_formation_in_2",
+            "LocalizeEN": "Hehe, must be interesting!"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_formation_select",
+            "LocalizeEN": "Ah! If you could be a bit gentler... ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_defeat_1",
+            "LocalizeJP": "あら、冷たすぎましたか？",
+            "LocalizeEN": "Oh, was the water too cold?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_defeat_2",
+            "LocalizeJP": "はしゃぎすぎてしまったかもしれませんね。",
+            "LocalizeEN": "Maybe we played around a bit too much..."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_in_1",
+            "LocalizeEN": "Ah, what a huge... number of enemies...! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_in_2",
+            "LocalizeEN": "You're coming with me, right?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_victory_1",
+            "LocalizeEN": "Hehe, that was a nice experience... ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_tactic_victory_2",
+            "LocalizeEN": "Haa, so cool...! ♥ Sensei, how does it feel?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_buffed_1",
+            "LocalizeEN": "Thank you! I'll return the favour next time."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_buffself_1",
+            "LocalizeJP": "もっと激しく、いきますよ！",
+            "LocalizeEN": "Let's continue on... even more intensely!"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_covered_1",
+            "LocalizeEN": "Let's hide here."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_defense_1",
+            "LocalizeEN": "You didn't hit me~!"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_in_1",
+            "LocalizeEN": "It's fun, playing in the water."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_in_2",
+            "LocalizeEN": "Hehe, let's keep going!"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_move_1",
+            "LocalizeEN": "Let's move on."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_move_2",
+            "LocalizeEN": "I can still keep going~ ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_retire",
+            "LocalizeJP": "あらら……。",
+            "LocalizeEN": "Oh my..."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_victory_1",
+            "LocalizeEN": "Is there anyone else also looking to cool down?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_battle_victory_2",
+            "LocalizeEN": "How was it? Of course, that was just an ordinary water balloon... ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_commonskill",
+            "LocalizeEN": "Here it comes!"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_1",
+            "LocalizeEN": "Everyone! Please come here! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_2",
+            "LocalizeEN": "Oh, what a splash! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_3",
+            "LocalizeEN": "Hehe, how was that?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_level_1",
+            "LocalizeEN": "Please don't run! ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_level_2",
+            "LocalizeEN": "It's nice and cool, don't you think?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_exskill_level_3",
+            "LocalizeEN": "It's not summer without something like this... ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_growup_1",
+            "LocalizeEN": "Sensei, you're... amazing! Hehe, I'm just joking."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_growup_2",
+            "LocalizeEN": "I'm always thankful for that direct nature of yours, Sensei."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_growup_3",
+            "LocalizeEN": "Every now and then, make sure to take care of yourself, alright?"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_growup_4",
+            "LocalizeEN": "You've given me such a wonderful thing once again..."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_relationship_up_1",
+            "LocalizeEN": "At such a rare beach occasion like this... let's make some memories."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_relationship_up_2",
+            "LocalizeEN": "The ocean is so beautiful.... Oh, what I just said didn't have any deeper meaning. ♥"
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_relationship_up_3",
+            "LocalizeEN": "When I'm with Sensei, I start thinking about all kinds of things."
+        },
+        {
+            "CharacterId": 10074,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0209/ch0209_relationship_up_4",
+            "LocalizeEN": "Sensei, what are you feeling right now? I'm having fun... A lot of fun."
+        }
+    ]
+}

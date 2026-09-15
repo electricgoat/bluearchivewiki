@@ -1,0 +1,725 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Momoi_(Maid)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Momoi_(Maid)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Gachaget",
+            "LocalizeEN": "What do you think about maids, Sensei? Wouldn't that be a great idea for a story?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Momoi_(Maid)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Cafe_monolog_1",
+            "LocalizeEN": "Cafe... Maids... They seem related, but at the same time, they don't..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Momoi_(Maid)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Cafe_monolog_2",
+            "LocalizeEN": "If I worked here, I'd have to clean all the floors here... Ugh."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Momoi_(Maid)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Cafe_monolog_3",
+            "LocalizeEN": "Cake... Tea... Looks delicious... Huh? Am I the one who should prepare that?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Momoi_(Maid)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Cafe_monolog_4",
+            "LocalizeEN": "I wanna sneak away and sleep somewhere..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Momoi_(Maid)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Cafe_monolog_5",
+            "LocalizeEN": "How about a story about a maid's journey that starts at a cafe?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_LogIn_1",
+            "LocalizeEN": "You have come, my lord!\nWhat do you think, Sensei? A maid-like greeting, right?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_LogIn_2",
+            "LocalizeEN": "Hi-de-ho, Sensei! Maid Momoi has been a good girl while she was waiting!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_1_1",
+            "LocalizeEN": "What should I do to escape from my maid job...?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_1_2",
+            "LocalizeEN": "Eek! Sensei!? When did you get here!?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_2_1",
+            "LocalizeEN": "If everyone did their own housework all the time, we'd have less work to do!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_2_2",
+            "LocalizeEN": "Eh? That's true, but does it apply to me too? No way..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_3_1",
+            "LocalizeEN": "Sensei, I'm bored. Let's play a game together!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_3_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_3_2",
+            "LocalizeEN": "Hmm? Aren't I a maid now?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_3_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_3_3",
+            "LocalizeEN": "Well then, let's play a game that features maids!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_4_1",
+            "LocalizeEN": "Writing a game scenario isn't easy... To be specific...!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_4_2",
+            "LocalizeEN": "...Anyway, it's pretty difficult!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Lobby_5",
+            "LocalizeEN": "If you're worried about what to do...\nThen why not leave it all to your trusty maid and take a rest!\nFor example, you could ask me!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Birthday_Player_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Birthday_Player_1",
+            "LocalizeEN": "Happy Birthday, my lord!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Birthday_Player_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Birthday_Player_2",
+            "LocalizeEN": "What? You want some more maid-like phrases? I just said them."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Birthday_Player_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Birthday_Player_3",
+            "LocalizeEN": "But yeah, true. Happy Birthday, Sensei!\nYour present is... the right to play games all night with me!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Birthday_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Birthday_1",
+            "LocalizeEN": "I don't really get it, but apparently it's the master's job to keep track of the maids' movements...\nSo, Sensei...? Is there anything you'd like to give me?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Birthday_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Birthday_2",
+            "LocalizeEN": "Wow! Thank you, Sensei!\nWhat? Really? You prepared one for Midori too?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_NewYear",
+            "LocalizeEN": "It's the new year... how time flies... Happy New Year, Sensei.\nI wonder what games will be released this year? I'm looking forward to it!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Xmas",
+            "LocalizeEN": "There are lots of games on special sale for Christmas...\nThis is our chance to do some shopping, Sensei!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Halloween_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Halloween_1",
+            "LocalizeEN": "Halloween... Another season closely related to the Game Development Club...\nHere you go! Maid Momoi has prepared some candy for you!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Momoi_(Maid)_Season_Halloween_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_Season_Halloween_2",
+            "LocalizeEN": "Huh? It's the opposite? Is that right...?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Momoi_(Maid)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_ExWeapon_Get",
+            "LocalizeEN": "Listen up, Sensei! For a maid, equipment is more important than anything else! Infiltration, explosions, securing secrets. And world peace... To do that kind of work, you need good equipment!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_(Maid)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_MemorialLobby_1_1",
+            "LocalizeEN": "Hehehe... The sweets are delicious... \nThe sunshine is warm... and the sofa is soft and fluffy..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_(Maid)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_MemorialLobby_2_1",
+            "LocalizeEN": "Hmmm... cleaning...?\nI'll do it... after I just eat... and rest for a bit..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_(Maid)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_MemorialLobby_3_1",
+            "LocalizeEN": "Huh? Sensei?\nI see. This is still a dream."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_(Maid)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_MemorialLobby_4_1",
+            "LocalizeEN": "To meet Sensei even in a dream... That seems nice...\nMaybe something fun will happen today... hehe..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Momoi_(Maid)_MemorialLobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_MemorialLobby_5",
+            "LocalizeEN": "Zzz... Ah, bonus lives..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_1",
+            "LocalizeEN": "I came, I saw, and I won! ...Right?\nAnyway, Saiba Momoi the maid is here to battle!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_2",
+            "LocalizeEN": "Ah, Sensei! I've been ready for that a long time...!\nHuh...? W-Wait a moment, Sensei!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_Season_1",
+            "LocalizeEN": "Ugh, there's too much work!\nI didn't know it would end up like this..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_Season_2",
+            "LocalizeEN": "I don't understand, I don't understand...\nA phantom thief? An auction? A work of art? What is that! Is this some kind of game setting?!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_Season_End_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_Season_End_1",
+            "LocalizeEN": "Although many things happened, the heroes defeated the evil and returned home in high spirits...!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLogin_Season_End_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLogin_Season_End_2",
+            "LocalizeEN": "Well, that was the ending. Hmm? Sensei? Great work today!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLobby_1",
+            "LocalizeJP": "ん？メイドらしい\n働きぶりを見たい……？\n\nまあ一応、メイド服に\nなっているからね！\nうん！",
+            "LocalizeEN": "Hmm? Do you want to see a maid at work...?\nWell, I am wearing a maid outfit after all! Yup!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLobby_2",
+            "LocalizeEN": "Why are there no maid classes where students can skip and take a nap? Don't you think that's a problem?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLobby_3",
+            "LocalizeEN": "Oh, that's right! Hey, Sensei. Did you know? This mansion... \nis hiding a huge secret! My intuition is telling me so!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Momoi_(Maid)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0201/CH0201_EventLobby_4",
+            "LocalizeEN": "Haha! Th-That really tickles, Sensei! I'm not good at being ticklish, but it's not that I don't like it!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_GeasGet_1",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_geasget_1",
+            "LocalizeJP": "パワーアーップ！クリアに向けて！",
+            "LocalizeEN": "Power up! Towards clearing!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Select_1",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_select_1",
+            "LocalizeJP": "おお。そなたもゲームをプレイしに来たのか。新しいゲーマーは常に歓迎しておる。",
+            "LocalizeEN": "Oh, you came to play games too. New gamers are always welcome."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Select_2",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_select_2",
+            "LocalizeJP": "来たか、我が主よ。メイドのゲームとはなんなのか、楽しみだろう？",
+            "LocalizeEN": "Come, my lord. I'm sure you're looking forward to what the maid's game is."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Select_3",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_select_3",
+            "LocalizeJP": "いぇーい！頑張って作ったからね！今回は大丈夫なはず。",
+            "LocalizeEN": "Well, I worked really hard on it! It should be fine this time."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Shout_1",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_shout_1",
+            "LocalizeJP": "いくよ！",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Shout_2",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_shout_2",
+            "LocalizeJP": "くらえ！",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Shout_3",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_shout_3",
+            "LocalizeJP": "発射！",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Start_1",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_start_1",
+            "LocalizeJP": "さあ、お掃除を始めようか。全部綺麗に片づけてやるんだから。",
+            "LocalizeEN": "Now, let's start cleaning. We're going to tidy everything up nicely."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Momoi_(Maid)_ST0004_Minigame_Start_2",
+            "Path": "Audio/VOC_JP/JP_ST0004/st0004_minigame_start_2",
+            "LocalizeJP": "目標は…、ハイスコア！…え？そんなシステムないって？",
+            "LocalizeEN": "The goal is... a high score! ...What? There's no such system?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momoi_(Maid)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_formation_in_1",
+            "LocalizeJP": "メイドの気分になってみようかな～！",
+            "LocalizeEN": "I wonder if I should try to feel like a maid!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momoi_(Maid)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_formation_in_2",
+            "LocalizeJP": "メイドみたいに、ぜーんぶ解決するよ！",
+            "LocalizeEN": "Just like a maid, I'll solve all your problems!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momoi_(Maid)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_formation_select",
+            "LocalizeJP": "イエ～！見てる～先生？私が全部片づけてあげるね！",
+            "LocalizeEN": "Yay! Are you watching, Sensei? I'll clean it all up for you!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_defeat_1",
+            "LocalizeJP": "逃げないで…、箒を持って…、って。箒は関係ないかあ。",
+            "LocalizeEN": "Don't run away... Grab a broom... or, I guess the broom is irrelevant."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_defeat_2",
+            "LocalizeJP": "メイドは…、こんな目に合わないはずなのに…。",
+            "LocalizeEN": "A maid... shouldn't have to go through this..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_in_1",
+            "LocalizeJP": "早く終わらせて、ゲームしに行こう？",
+            "LocalizeEN": "Let's finish this quickly and go play games, okay?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_in_2",
+            "LocalizeJP": "問題ないよ～！私がいるんだもん。",
+            "LocalizeEN": "No problemo! I'm right here."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_victory_1",
+            "LocalizeJP": "お掃除完了～！まっ、こんなもんだね。",
+            "LocalizeEN": "Cleaning complete! Well, guess that's about it."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momoi_(Maid)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_tactic_victory_2",
+            "LocalizeJP": "やればできる子！…なんだからさ！",
+            "LocalizeEN": "She can do it if she tries! ...That's why!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_buffed_1",
+            "LocalizeJP": "うん！ありがとう。",
+            "LocalizeEN": "Mm! Thanks."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_buffself_1",
+            "LocalizeJP": "これがバフってやつだよ～！",
+            "LocalizeEN": "This is what we call a buff!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_covered_1",
+            "LocalizeJP": "隠れるよ～！",
+            "LocalizeEN": "Taking cover!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_damage_1",
+            "LocalizeEN": "Ow!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_damage_2",
+            "LocalizeEN": "Aieee..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_damage_3",
+            "LocalizeJP": "その顔、覚えたからね！",
+            "LocalizeEN": "I'll remember your face!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_defense_1",
+            "LocalizeEN": "You won't hit me!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_in_1",
+            "LocalizeJP": "ゲームは実践のように！実践はゲームのように！",
+            "LocalizeEN": "Games are like practice! Practice is like a game!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_in_2",
+            "LocalizeJP": "メイドの気分になるには、こういう仕事も必要だよね！",
+            "LocalizeEN": "To feel like a maid, you need a job like this!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_move_1",
+            "LocalizeJP": "とりあえず、お仕事終わり～。",
+            "LocalizeEN": "Anyway, work is done."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_move_2",
+            "LocalizeJP": "掃除完了～。疲れた～。",
+            "LocalizeEN": "Cleaning complete! I'm tired..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_recovery_1",
+            "LocalizeJP": "ありがとう。",
+            "LocalizeEN": "Thank you!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_retire",
+            "LocalizeJP": "うげ。めまいが…。",
+            "LocalizeEN": "Ugh. I feel dizzy..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_shout_1",
+            "LocalizeJP": "いっくよー！",
+            "LocalizeEN": "Here we go!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_shout_2",
+            "LocalizeJP": "これはどうだ！",
+            "LocalizeEN": "How about this!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_shout_3",
+            "LocalizeEN": "Ya!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_tacticalaction_1",
+            "LocalizeJP": "次はどこー！？",
+            "LocalizeEN": "Where to next!?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_victory_1",
+            "LocalizeJP": "ふっふふーん、見た先生？今日のメイドモモイ、最高だったでしょ？",
+            "LocalizeEN": "Hehehe, did you see that, Sensei? Maid Momoi today was the best, right?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momoi_(Maid)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_battle_victory_2",
+            "LocalizeJP": "ふっふふーこれが、…ってうわあ！",
+            "LocalizeEN": "Hehehe! This is... Wah!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Momoi_(Maid)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_commonskill",
+            "LocalizeJP": "掃除は嫌だ～。…うえ！？",
+            "LocalizeEN": "I hate cleaning... Ehh!?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_1",
+            "LocalizeJP": "う～また外れた～。…ってあれ？",
+            "LocalizeEN": "Ugh, I missed again... What the?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_2",
+            "LocalizeJP": "私、もう怒ったんだから～！…え？ラッキー！",
+            "LocalizeEN": "I'm already ticked off! ...Huh? Lucky!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_3",
+            "LocalizeJP": "も～！当たれってばー！…って、なにこれ。",
+            "LocalizeEN": "C'mon, hit something! ...What's this?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_level_1",
+            "LocalizeJP": "見つけた！レアアイテム！",
+            "LocalizeEN": "I found it! The rare item!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_level_2",
+            "LocalizeJP": "おお、この力は一体…。",
+            "LocalizeEN": "Oh, what kind of power is this...?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momoi_(Maid)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_exskill_level_3",
+            "LocalizeJP": "今の私は何も怖くない！",
+            "LocalizeEN": "Now I'm not scared of anything!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_(Maid)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_growup_1",
+            "LocalizeJP": "レベルアップー！メイドレベルもアップー。え？メイドレベルはまだ…、だって？先生、それどういう意味？",
+            "LocalizeEN": "Level up! Maid level also increased. Eh? My Maid level is not enough...? Sensei, what does that mean?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_(Maid)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_growup_2",
+            "LocalizeJP": "先生、へへ。私強くなったよ！え？じゃあ一緒に掃除しようって？それは…、ちょっと…。",
+            "LocalizeEN": "Hehe, Sensei! I've gotten stronger! Eh? You want us to clean up together? That's... a bit..."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_(Maid)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_growup_3",
+            "LocalizeJP": "メイドモモイの成長、とくとご覧あれ。どう？先生！",
+            "LocalizeEN": "Take a look at how Maid Momoi has grown. What do you think, Sensei?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momoi_(Maid)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_growup_4",
+            "LocalizeJP": "あーあ、仕方ないね、この最強メイドモモイ様が何でも解決してあげる！",
+            "LocalizeEN": "Oh well, there's no other way, this strongest Maid Momoi-sama will solve anything!"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_(Maid)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_relationship_up_1",
+            "LocalizeJP": "せ、先生といるとやっぱり楽しいかも。これは本心だからね。",
+            "LocalizeEN": "I-I guess it's fun being with you after all, Sensei. I mean it honestly."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_(Maid)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_relationship_up_2",
+            "LocalizeJP": "聞いて、先生！メイドには報酬が大事なんだって！だからご褒美として…、私と遊ぼ？",
+            "LocalizeEN": "Listen, Sensei! Rewards are important to a maid! So as a reward... Shall we play together?"
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_(Maid)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_relationship_up_3",
+            "LocalizeJP": "メイドも人間だよ！休まないと壊れちゃう…。だから、今から先生は私と一緒に、休憩するの！えへへ。",
+            "LocalizeEN": "Maids are human too! If they don't rest, they'll break down... So, from now on, you're going to take a break with me! Ehehe."
+        },
+        {
+            "CharacterId": 10094,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momoi_(Maid)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0201/ch0201_relationship_up_4",
+            "LocalizeJP": "ゲームでメイドが出てくると、高確率で攻略対象になるじゃん？だから先生。私のことも…、攻略してみない？",
+            "LocalizeEN": "When maids appear in video games, there's a high chance they'll become a character whose affection can be won<ref group=\"note\">In visual novels, {{lj|攻略}} usually involves making the right choices when interacting with a character to raise his/her affection until the route for a romantic relationship is unlocked. Momoi is suggesting here that maids have a high chance of being such a character, in contrast to NPCs who do not have a romantic route.</ref>, right? So, Sensei, why don't you try... and win my affection too?"
+        }
+    ]
+}

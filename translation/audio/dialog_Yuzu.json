@@ -1,0 +1,305 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuzu_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_formation_in_1",
+            "LocalizeJP": "せ、先生が必要としてくれるのであれば……\nわたしも……",
+            "LocalizeEN": "I-If Sensei needs me, I'll be there."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuzu_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_formation_in_2",
+            "LocalizeJP": "な、仲良くなれるように頑張ります……\nたぶん……",
+            "LocalizeEN": "I'll do my best to get along with you, maybe."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuzu_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_formation_select",
+            "LocalizeEN": "M-Me? Uhh... I'll try..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_defeat_1",
+            "LocalizeJP": "ご、ごめんなさい…！",
+            "LocalizeEN": "I-I am sorry...!"
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_defeat_2",
+            "LocalizeJP": "ああ、ダメ…。",
+            "LocalizeEN": "Ah, this isn't good..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_in_1",
+            "LocalizeJP": "ほ、他の人達と一緒に……？！\nが、頑張ります！",
+            "LocalizeEN": "W-With other people? ...I'll do my best."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_in_2",
+            "LocalizeJP": "ええっ？！\nベ、ベストは尽くします……。",
+            "LocalizeEN": "Eh? ...I will do my best."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_victory_1",
+            "LocalizeEN": "Ugh... Thank goodness."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuzu_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_tactic_victory_2",
+            "LocalizeEN": "Success makes me happy... So that's how it feels."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_buffed_1",
+            "LocalizeEN": "Th-Thank you."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_buffself_1",
+            "LocalizeJP": "頑張ります。",
+            "LocalizeEN": "I'll do my best."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_covered_1",
+            "LocalizeEN": "I'll hide here and distract them... while I still can!"
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_damage_2",
+            "LocalizeJP": "痛い…。",
+            "LocalizeEN": "It hurts..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_damage_3",
+            "LocalizeJP": "だ、大丈夫です。",
+            "LocalizeEN": "I-I'm okay."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_defense_1",
+            "LocalizeEN": "This much is... it's fine."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_in_1",
+            "LocalizeEN": "For the time being, I have to show myself like a director."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_in_2",
+            "LocalizeEN": "Stay calm and proceed with caution."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_move_1",
+            "LocalizeEN": "I managed to do it. I-I will continue."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_move_2",
+            "LocalizeEN": "It was a close call..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_retire",
+            "LocalizeJP": "ひぃ…、ごめんなさい。",
+            "LocalizeEN": "Aieee... I am sorry."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_shout_3",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "Here I come."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_tacticalaction_1",
+            "LocalizeEN": "I-I'm going."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_tsa_1",
+            "LocalizeJP": "こ、これは…、私が操縦します。",
+            "LocalizeEN": "T-This... I will pilot this."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_tsa_2",
+            "LocalizeJP": "私はエースパイロットです、ゲームでの話ですが…。",
+            "LocalizeEN": "I'm an ace pilot, in a video game..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_victory_1",
+            "LocalizeJP": "ふー。役に立って…..嬉しいです。",
+            "LocalizeEN": "Phew... I am happy to be of help."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuzu_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_battle_victory_2",
+            "LocalizeEN": "Good job for today. Hehe..."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Yuzu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_commonskill",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_1",
+            "LocalizeEN": "Here I come."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_2",
+            "LocalizeEN": "The sights are set."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_3",
+            "LocalizeEN": "I think this is... interesting."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_level_1",
+            "LocalizeEN": "Retro, be forever!"
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_level_2",
+            "LocalizeEN": "Please be prepared."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuzu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_exskill_level_3",
+            "LocalizeEN": "This is... the pain of creation."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuzu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_growup_1",
+            "LocalizeEN": "Thanks to you, Sensei, I feel a little better."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuzu_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_growup_2",
+            "LocalizeEN": "I want to become a more confident me."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuzu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_growup_3",
+            "LocalizeEN": "When do I feel scared? Well...  When Sensei is not around, I guess."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuzu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_growup_4",
+            "LocalizeEN": "I'm not the strongest by any means... but I'll do my best. Because I really, really like you guys."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuzu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_relationship_up_1",
+            "LocalizeEN": "I'm not bothering you, am I? If so... I'm glad."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuzu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_relationship_up_2",
+            "LocalizeEN": "I don't understand... I really don't know how I feel... but I am happy."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuzu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_relationship_up_3",
+            "LocalizeEN": "When you give us lessons and conduct us, Sensei, you are kind of... umm, you know, really, really cool."
+        },
+        {
+            "CharacterId": 10018,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuzu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Yuzu/yuzu_relationship_up_4",
+            "LocalizeEN": "Me talking with Sensei, that's... umm, well... It's embarrassing."
+        }
+    ]
+}

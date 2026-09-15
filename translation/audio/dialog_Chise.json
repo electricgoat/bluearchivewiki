@@ -1,0 +1,267 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_formation_in_1",
+            "LocalizeEN": "Oh! A butterfly."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_formation_in_2",
+            "LocalizeEN": "Nice weather today."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_formation_select",
+            "LocalizeEN": "Huh? I made a mistake?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_defeat_1",
+            "LocalizeJP": "もう少しちゃんとしてれば…。",
+            "LocalizeEN": "If only I had done better."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_defeat_2",
+            "LocalizeJP": "負けた？いつ？",
+            "LocalizeEN": "We lost? When?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_in_1",
+            "LocalizeEN": "We're going on a trip? No?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_in_2",
+            "LocalizeEN": "Um, my house isn't here."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_victory_1",
+            "LocalizeEN": "I don't know well what's going on, but winning is a good thing."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_tactic_victory_2",
+            "LocalizeEN": "Victory? We won?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_buffed_1",
+            "LocalizeEN": "Not bad."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_covered_1",
+            "LocalizeEN": "I'll hide, ok?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_damage_2",
+            "LocalizeJP": "イタ…。"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_defense_1",
+            "LocalizeEN": "Something hit me?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_in_1",
+            "LocalizeEN": "I should just dispatch any intruders, right?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_in_2",
+            "LocalizeEN": "I guess I'll move."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_move_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_move_2",
+            "LocalizeEN": "Forward, forward!"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_recovery_1",
+            "LocalizeEN": "Ah! Thank you."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_retire",
+            "LocalizeJP": "時代劇の録画忘れてた。",
+            "LocalizeEN": "I forgot to record the period drama."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_shout_3",
+            "LocalizeJP": "よい、しょ！",
+            "LocalizeEN": "Huff！"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_tacticalaction_1",
+            "LocalizeEN": "Moving ahead."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_victory_1",
+            "LocalizeEN": "At some point it was over, I think."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_battle_victory_2",
+            "LocalizeEN": "Was that the enemy we defeated just now?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Chise_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_commonskill",
+            "LocalizeEN": "One shot is all it takes."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_exskill_1",
+            "LocalizeEN": "All right."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_exskill_2",
+            "LocalizeEN": "I see."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_exskill_3",
+            "LocalizeEN": "I get it now!"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_exskill_level_1",
+            "LocalizeEN": "So I should just burn them?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_exskill_level_2",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_growup_1",
+            "LocalizeEN": "Can you eat this?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_growup_2",
+            "LocalizeEN": "Oh, some mysterious power is going through my body."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_growup_3",
+            "LocalizeEN": "I got stronger?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_growup_4",
+            "LocalizeEN": "If possible, I want to become as strong as a tank."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_relationship_up_1",
+            "LocalizeEN": "The time I spend with Sensei feels like I'm dreaming."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_relationship_up_2",
+            "LocalizeEN": "I can become a bad girl for you, Sensei."
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_relationship_up_3",
+            "LocalizeEN": "Is this the taste of happiness?"
+        },
+        {
+            "CharacterId": 13001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Chise/chise_relationship_up_4",
+            "LocalizeEN": "I wish work at the Yin-Yang Club was this fun."
+        }
+    ]
+}

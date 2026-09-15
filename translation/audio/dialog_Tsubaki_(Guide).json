@@ -1,0 +1,132 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Tsubaki_(Guide)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0255/CH0255_EventLobby_3",
+            "LocalizeEN": "If you keep acting like a bully...\n\nI might just sleep in bed with you, Sensei...\n\nHuh? You'd like that...? <ref group=\"note\">The global EN translation previously said \"If you keep acting like a bully... I might just become your sleep paralysis demon... Hmm? You're not afraid of ghosts?\"</ref>"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Tsubaki_(Guide)_EventMission_Get_2",
+            "Path": "Audio/VOC_JP/JP_CH0255/CH0255_EventMission_Get_2",
+            "LocalizeJP": "先生も修行を\n頑張っているんだね……\n\n私も負けられない。ぐぅ……\n\n私も負けられない。ぐぅ……",
+            "LocalizeEN": "You're quite diligent about your training...\n\nBut I won't be defeated... Zzz...\n\nBut I won't be defeated... Zzz..."
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Tsubaki_(Guide)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_commonskill",
+            "LocalizeJP": "はい……\nいい夢見てね……",
+            "LocalizeEN": "Yes... Have a nice dream"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_1",
+            "LocalizeEN": "Okay, okay, that's enough"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_2",
+            "LocalizeJP": "そこまで、そこまで。",
+            "LocalizeEN": "That's enough, that's enough"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_3",
+            "LocalizeJP": "みんな、出発だよ……",
+            "LocalizeEN": "Everyone, it's time to go..."
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_level_1",
+            "LocalizeEN": "Over here, here. By number... Yes like that"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_level_2",
+            "LocalizeEN": "Over here, over here. I'll show you around"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_(Guide)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_exskill_level_3",
+            "LocalizeEN": "Without rushing... Yes, here"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_(Guide)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_growup_1",
+            "LocalizeEN": "In training today as well... Am I sleeping more than usual? You're mistaking it... maybe"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_(Guide)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_growup_2",
+            "LocalizeEN": "For training, we have to get a fresh start... First things first, let's try changing the pillow?"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_(Guide)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_growup_3",
+            "LocalizeJP": "ガイドとはどこかに誰かを案内すること……\n私は夢の国のガイドだよ……",
+            "LocalizeEN": "To be a guide is to guide someone, somewhere... I am a guide for dreamland, you know..."
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_(Guide)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_growup_4",
+            "LocalizeJP": "修行の成果が感じられるね……\n今日はぐっすり眠れそう……",
+            "LocalizeEN": "I can feel the fruits of my training... Feels like I can sleep soundly today..."
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_(Guide)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_relationship_up_1",
+            "LocalizeEN": "Where should I guide you to, Sensei...? As expected, the bedroom would be best?"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_(Guide)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_relationship_up_2",
+            "LocalizeJP": "今の私は睡眠ガイド春日ツバキ……\n不眠症がひどくなったら…… 呼んでね?",
+            "LocalizeEN": "Right now, I am the sleep guide. Kasuga Tsubaki. If you ever have trouble sleeping... call me, alright?"
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_(Guide)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_relationship_up_3",
+            "LocalizeJP": "普通のガイドもちゃんとできるよ?\nこれも修行の一環だし……",
+            "LocalizeEN": "I can be a normal guide as well, you know? This is just part of the training..."
+        },
+        {
+            "CharacterId": 20035,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_(Guide)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0255/ch0255_relationship_up_4",
+            "LocalizeJP": "先生と一緒にいると、修行が上手くいくみたい……\nうん…… ガイドも、熟睡も、それ以外も……",
+            "LocalizeEN": "When I'm with you, the training goes well.... Yes... In guiding.. and in getting sound sleep... and everything else..."
+        }
+    ]
+}

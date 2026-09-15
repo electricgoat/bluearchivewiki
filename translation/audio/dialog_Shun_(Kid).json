@@ -1,0 +1,257 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shun_(Kid)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0066/CH0066_Cafe_monolog_5",
+            "LocalizeEN": "If I'm just a kid, it's okay if I take a nap, right?"
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_(Kid)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_formation_in_1",
+            "LocalizeEN": "I'm used to taking care of you,"
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_(Kid)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_formation_in_2",
+            "LocalizeEN": "We're ready now."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_(Kid)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_formation_select",
+            "LocalizeEN": "Wah, so cool. So high up."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_defeat_1",
+            "LocalizeJP": "うう…、すみません。",
+            "LocalizeEN": "Uu..... excuse me."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_defeat_2",
+            "LocalizeJP": "私の…、ミスです。",
+            "LocalizeEN": "It's my mistake."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_in_1",
+            "LocalizeEN": "so where are you hiding"
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_in_2",
+            "LocalizeEN": "If it's a game of tag, leave it to me."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_victory_1",
+            "LocalizeEN": "I'll give you a \"Good job\" stamp. Pon!"
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_(Kid)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_tactic_victory_2",
+            "LocalizeEN": "Don't forget to wash your hands after using a gun."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_buffself_1",
+            "LocalizeJP": "体がぐんと軽くなりました。",
+            "LocalizeEN": "My body has become much lighter."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_covered_1",
+            "LocalizeEN": "I'm hiding."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_damage_2",
+            "LocalizeJP": "イター。",
+            "LocalizeEN": "Ouch."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_damage_3",
+            "LocalizeJP": "うー。私だって怒るんですからね。",
+            "LocalizeEN": "Ugh. Even I get angry sometimes."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_in_1",
+            "LocalizeEN": "It's time for an excursion."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_in_2",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_move_1",
+            "LocalizeEN": "let's move."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_move_2",
+            "LocalizeEN": "Um, do you agree with me on this road?"
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_recovery_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_retire",
+            "LocalizeJP": "もう少し、体が大きければ。",
+            "LocalizeEN": "If only I was a little taller."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_shout_1",
+            "LocalizeJP": "まずは一発。",
+            "LocalizeEN": "First shot."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_shout_2",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_tacticalaction_1",
+            "LocalizeEN": "Everything seems to be okay here."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_victory_1",
+            "LocalizeEN": "They are all good kids."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_(Kid)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_battle_victory_2",
+            "LocalizeEN": "Let's play together again."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_(Kid)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_exskill_2",
+            "LocalizeEN": "H-heavy."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_(Kid)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_exskill_3",
+            "LocalizeEN": "It looks like I'm going to drop it."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_(Kid)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_exskill_level_1",
+            "LocalizeEN": "Uwah, th-that startled me."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_(Kid)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_growup_1",
+            "LocalizeEN": "Huh, I feel like I've grown a little taller."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_(Kid)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_growup_3",
+            "LocalizeEN": "Once again I have learned something new."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_(Kid)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_growup_4",
+            "LocalizeEN": "Such growth is always welcome."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_(Kid)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_relationship_up_1",
+            "LocalizeEN": "If I had this body...no matter how much I spoiled them, they wouldn't think it was weird."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_(Kid)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_relationship_up_2",
+            "LocalizeEN": "My body is like this now Thank you in advance."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_(Kid)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_relationship_up_3",
+            "LocalizeEN": "Let's play together again, Sensei."
+        },
+        {
+            "CharacterId": 10025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_(Kid)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0066/ch0066_relationship_up_4",
+            "LocalizeEN": "Oh, are you going to go home already? ...Would you like to play some more?"
+        }
+    ]
+}

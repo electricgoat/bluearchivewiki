@@ -1,0 +1,306 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Asuna_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Asuna/Asuna_Gachaget",
+            "LocalizeEN": "Life with my new master begins today!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Asuna_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/Asuna_Lobby_2",
+            "LocalizeEN": "You came to see me, right?\n\nI knew I was my master's favorite!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Asuna_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/Asuna_MemorialLobby_5_1",
+            "LocalizeEN": "So...let's just keep it up, okay?\n\nBest of luck to us both, Master!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_formation_in_1",
+            "LocalizeEN": "Asuna, here! Nice to meet you, Sensei."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_formation_in_2",
+            "LocalizeEN": "You need me, after all."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_formation_select",
+            "LocalizeJP": "ヤッホー！まっかせてね～。",
+            "LocalizeEN": "Yahoo! Leave it to me."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_defeat_1",
+            "LocalizeJP": "予想と違ったな。",
+            "LocalizeEN": "Not what I expected."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_defeat_2",
+            "LocalizeJP": "惜しかった。みんな、ごめん。",
+            "LocalizeEN": "So close. Sorry everyone."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_in_1",
+            "LocalizeEN": "Call sign 01: Asuna. Here I go!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_in_2",
+            "LocalizeEN": "Come on. Let's start the mission."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_victory_1",
+            "LocalizeEN": "This air is the best."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_tactic_victory_2",
+            "LocalizeEN": "Good job, everyone. That was great."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_buffed_1",
+            "LocalizeEN": "It feels good."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_buffself_1",
+            "LocalizeJP": "いいねいいね",
+            "LocalizeEN": "Nice nice"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_covered_1",
+            "LocalizeEN": "I'm excited."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_damage_2",
+            "LocalizeJP": "助けて。",
+            "LocalizeEN": "Help!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_damage_3",
+            "LocalizeJP": "許さない。",
+            "LocalizeEN": "Unforgivable."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_defense_1",
+            "LocalizeEN": "It doesn't hurt at all."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_in_1",
+            "LocalizeEN": "Everyone, to battle. Let's do it in style."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_in_2",
+            "LocalizeEN": "I'll show you the power of a C&C agent."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_move_1",
+            "LocalizeEN": "Cleaning complete. Let's go on to the next one."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_move_2",
+            "LocalizeEN": "All clear. We didn't leave a speck."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_recovery_1",
+            "LocalizeEN": "You're the best! I love you!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_retire",
+            "LocalizeJP": "ごめん。",
+            "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_shout_3",
+            "LocalizeJP": "行くよ。",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_tacticalaction_1",
+            "LocalizeEN": "Come on, to the next."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_victory_1",
+            "LocalizeEN": "There! That was a bit of a warm up... oh? Hehe..."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_battle_victory_2",
+            "LocalizeEN": "That was really nice! ...Oh? You saw?"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Asuna_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_commonskill",
+            "LocalizeEN": "Be prepared."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_exskill_1",
+            "LocalizeEN": "This is Asuna. Here I go!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_exskill_2",
+            "LocalizeEN": "You can't hit me."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_exskill_3",
+            "LocalizeEN": "It's all or nothing. I will try!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_exskill_level_1",
+            "LocalizeEN": "Nobody can stop me."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_exskill_level_3",
+            "LocalizeEN": "Here's Asuna!"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_growup_1",
+            "LocalizeEN": "This is when it gets serious."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_growup_2",
+            "LocalizeEN": "Huh? Somehow I feel smarter."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_growup_3",
+            "LocalizeEN": "I will do whatever it takes to meet my master expectations."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_growup_4",
+            "LocalizeEN": "What does my master want from me? Whatever it is, I feel I can now grant it."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_relationship_up_1",
+            "LocalizeEN": "Master is very interested in me, right?"
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_relationship_up_2",
+            "LocalizeEN": "If my master needs my service, I'll do anything anytime, anywhere."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_relationship_up_3",
+            "LocalizeEN": "It's fun to be with you, master. Let's have fun together from now on."
+        },
+        {
+            "CharacterId": 16001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Asuna/asuna_relationship_up_4",
+            "LocalizeEN": "Master, don't worry, I will never leave your side."
+        }
+    ]
+}

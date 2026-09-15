@@ -1,0 +1,340 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Junko_(New_Year)_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_Cafe_Act_1",
+            "LocalizeEN": "It's...a nice place... Or maybe fun would be a better description."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Junko_(New_Year)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_Lobby_1",
+            "LocalizeEN": "Did you fall in love with me because of my kimono?\n\nO-Of course. Do you think I'm a glutton?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Junko_(New_Year)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventLogin_1",
+            "LocalizeEN": "Oh. Heya, Sensei! It's real loud outside. Wanna go check it out?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Junko_(New_Year)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventLogin_2",
+            "LocalizeEN": "Unlike most days, New Year's Day means there's yummy food...\n\nAnd I end up spending too much money..."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Junko_(New_Year)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventLobby_1",
+            "LocalizeEN": "Oh, what's up, Sensei? Oh... Did you wanna talk to me... By any chance?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Junko_(New_Year)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventLobby_2",
+            "LocalizeEN": "Hey, don't you poke me! You're gonna mess up my kimono.\n\nCleaning it is not the problem!"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Junko_(New_Year)_EventMission_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventMission_2",
+            "LocalizeEN": "I don't have a problem with loud spaces. If I did, I wouldn't be able to get along with the Gourmet Research Society."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Junko_(New_Year)_EventMission_Get_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventMission_Get_1",
+            "LocalizeEN": "See? You can do it, too.\n\nHeehee. I always wanted to say that."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Junko_(New_Year)_EventMission_Day_End",
+            "Path": "Audio/VOC_JP/JP_CH0192/CH0192_EventMission_Day_End",
+            "LocalizeJP": "今日の仕事はこれでおしまい？\n\nそれならおいしいもの\n食べに行きましょ！\n\nそれならおいしいもの\n食べに行きましょ！",
+            "LocalizeEN": "Are we done for today?\n\nThen let's go grab something delicious!\n\nThen let's go grab something delicious!"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_(New_Year)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_formation_in_1",
+            "LocalizeEN": "After all, what’s the point without me?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_(New_Year)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_formation_in_2",
+            "LocalizeEN": "Leave it to me and I'll finish it soon."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_(New_Year)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_formation_select",
+            "LocalizeEN": "hang on! It's going to collapse, right?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_defeat_1",
+            "LocalizeJP": "せっかく借りた着物が…。",
+            "LocalizeEN": "The kimono I borrowed"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_defeat_2",
+            "LocalizeJP": "覚えときなさい。",
+            "LocalizeEN": "Remember."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_in_1",
+            "LocalizeEN": "I'm looking at you carefully."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_in_2",
+            "LocalizeEN": "Let's finish it quickly and eat rice."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_victory_1",
+            "LocalizeEN": "What can I buy for you today?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_(New_Year)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_tactic_victory_2",
+            "LocalizeEN": "My win. ...Well, of course."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_buffed_1",
+            "LocalizeEN": "Thank you I will thank you later."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_buffself_1",
+            "LocalizeJP": "ここからが本番 ね。",
+            "LocalizeEN": "From here is the real thing."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_covered_1",
+            "LocalizeEN": "You can hide."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_damage_1",
+            "LocalizeJP": "痛いわよ…！",
+            "LocalizeEN": "It hurts."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_defense_1",
+            "LocalizeEN": "You can't see it."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_in_1",
+            "LocalizeEN": "Sensei, look at me. Off I go."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_in_2",
+            "LocalizeEN": "It's such an easy win."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_move_1",
+            "LocalizeEN": "Is there anything I can eat?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_move_2",
+            "LocalizeEN": "I'm hungry."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_recovery_1",
+            "LocalizeEN": "I was saved."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_retire",
+            "LocalizeJP": "お腹空いてなければ…。",
+            "LocalizeEN": "Unless you're hungry..."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_shout_3",
+            "LocalizeJP": "行くよ。",
+            "LocalizeEN": "go."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_tacticalaction_1",
+            "LocalizeEN": "Let's go on and on."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_victory_1",
+            "LocalizeEN": "I wonder if it's okay anymore It's empty."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_(New_Year)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_battle_victory_2",
+            "LocalizeEN": "It's safe here... Wow! …Why?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_1",
+            "LocalizeEN": "Take it slow and be careful what are you doing?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_2",
+            "LocalizeEN": "noisy."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_3",
+            "LocalizeEN": "Heave-ho!Heave-ho!...Wow. ...Why only me?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_level_1",
+            "LocalizeEN": "about"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_level_2",
+            "LocalizeEN": "I don't know anymore"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_(New_Year)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_exskill_level_3",
+            "LocalizeEN": "Burst it all."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_(New_Year)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_growup_1",
+            "LocalizeEN": "Did it grow a little? ...What, are you saying it's fine as is? I'm not kidding. It's important to me."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_(New_Year)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_growup_2",
+            "LocalizeEN": "I wonder why the food we eat on special occasions is so delicious. What do you think, Sensei?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_(New_Year)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_growup_3",
+            "LocalizeEN": "Will I be able to eat more if I get stronger? It doesn't matter...? I-I know it even if you don't say it!"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_(New_Year)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_growup_4",
+            "LocalizeEN": "Hehe, what do you think? Have you changed your mind a little bit?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_(New_Year)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_relationship_up_1",
+            "LocalizeEN": "Hey, do you think this look suits you? I'm not really used to this kind of thing... What are you laughing at?"
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_(New_Year)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_relationship_up_2",
+            "LocalizeEN": "Sensei is a strange person. When we're together... it's nothing... forget about it."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_(New_Year)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_relationship_up_3",
+            "LocalizeEN": "Even if I praise you, nothing will come of it! Well, it's not like I won't come out..."
+        },
+        {
+            "CharacterId": 16012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_(New_Year)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0192/ch0192_relationship_up_4",
+            "LocalizeEN": "Would you like to go eat something delicious next time? Well... it's just the two of us..."
+        }
+    ]
+}

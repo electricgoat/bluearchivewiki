@@ -1,0 +1,254 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Sakurako_(Idol)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0274/CH0274_Season_NewYear",
+            "LocalizeEN": "Happy new year, Sensei. I will sing for you this year as well."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Sakurako_(Idol)_EventMission_Day_End",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_eventmission_day_end",
+            "LocalizeJP": "お疲れ様でした、先生。\n頑張った先生にご..... ご褒美を.....\nなっ、なんちゃって～!",
+            "LocalizeEN": "Good job, Sensei. \nFor working hard... Sensei will get a r-reward of... T-Teehee!"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sakurako_(Idol)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_formation_in_1",
+            "LocalizeEN": "The time has come."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sakurako_(Idol)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_formation_in_2",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sakurako_(Idol)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_formation_select",
+            "LocalizeEN": "Look forward to it alright...\nOh... It's about... T-The performance..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_defeat_1",
+            "LocalizeJP": "くっ、練習が不足していたのでしょうか。",
+            "LocalizeEN": "Ugh... So the practice wasn't enough..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_defeat_2",
+            "LocalizeJP": "申し訳ございません……。",
+            "LocalizeEN": "I'm sorry..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_in_1",
+            "LocalizeEN": "Handling this much is easy."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_in_2",
+            "LocalizeEN": "There's a lot of guests...\nIt's about the live performance."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_victory_1",
+            "LocalizeEN": "Heehee... It wasn't hard at all."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sakurako_(Idol)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_tactic_victory_2",
+            "LocalizeEN": "It was an enjoyable performance.\nI'd love to do it again."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_buffed_1",
+            "LocalizeEN": "I'll make sure to return the favor."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_buffself_1",
+            "LocalizeJP": "クライマックスといきましょうか。",
+            "LocalizeEN": "Let's get to the climax of the show."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_defense_1",
+            "LocalizeEN": "That won't work."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_in_1",
+            "LocalizeEN": "I'll quickly put you to rest."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_in_2",
+            "LocalizeEN": "Can my voice reach everyone?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_move_1",
+            "LocalizeEN": "It's not over yet."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_retire",
+            "LocalizeJP": "私が、至らないばかりに……。",
+            "LocalizeEN": "I, was doing so many mistakes..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_victory_1",
+            "LocalizeEN": "I had a great time.\nDid you enjoy it on the stage too?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sakurako_(Idol)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_battle_victory_2",
+            "LocalizeEN": "With this... Can I get closer to everyone a bit more?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Sakurako_(Idol)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_commonskill",
+            "LocalizeEN": "U, Umm... Like this, right?\nWappi!"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_1",
+            "LocalizeEN": "I'll always be watching over you...\nW, What!?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_2",
+            "LocalizeEN": "Yes, come here... Eeh!?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_3",
+            "LocalizeEN": "Heehee... Heehee... Eeh!?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_level_1",
+            "LocalizeEN": "W-Why!? What is it...?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_level_2",
+            "LocalizeEN": "Something must be wrong...?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sakurako_(Idol)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_exskill_level_3",
+            "LocalizeEN": "Who would have thought it would turn out like this..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sakurako_(Idol)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_growup_1",
+            "LocalizeEN": "I must always be vigilant but...\nWhen I'm with Sensei, I feel so relaxed."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sakurako_(Idol)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_growup_2",
+            "LocalizeEN": "Thank you so much, Sensei.\nNext time... What should I give back to you?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sakurako_(Idol)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_growup_3",
+            "LocalizeEN": "I feel like power is overflowing in me.\nUm... I feel like saying it like that is kind of misleading."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sakurako_(Idol)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_growup_4",
+            "LocalizeEN": "Every day, I've been focusing so much...\nIt's good to get support from someone once in a while."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sakurako_(Idol)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_relationship_up_1",
+            "LocalizeEN": "Um... If it's okay for Sensei...\nHow about we perform a duet?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sakurako_(Idol)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_relationship_up_2",
+            "LocalizeEN": "How do I say it without causing a misunderstanding for everyone...?"
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sakurako_(Idol)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_relationship_up_3",
+            "LocalizeEN": "It's hard to explain this feeling...\nBut I feel like this can't continue..."
+        },
+        {
+            "CharacterId": 10106,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sakurako_(Idol)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0274/ch0274_relationship_up_4",
+            "LocalizeEN": "I'll pray for you Sensei...\nWould \"singing for you\" be okay as well?"
+        }
+    ]
+}

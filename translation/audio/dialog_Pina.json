@@ -1,0 +1,131 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Pina_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_formation_select",
+            "LocalizeEN": "Heehee. You need me, right? Right?"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Pina_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_tactic_defeat_1",
+            "LocalizeJP": "やはりこういう時は、切腹しなきゃダメデスよネ…。",
+            "LocalizeEN": "At... at times like this, you have to commit seppuku, don't you?"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Pina_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_tactic_defeat_2",
+            "LocalizeJP": "ワタシ、土下座だけはめっちゃ上手デス！",
+            "LocalizeEN": "I'm really good at performing *dogeza! *(prostration/gesture for extreme apology/deep respect)"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_buffself_1",
+            "LocalizeJP": "ワタシ、燃えてマス。",
+            "LocalizeEN": "I'm on fire!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_damage_1",
+            "LocalizeJP": "無念…。",
+            "LocalizeEN": "This is regrettable..."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_damage_2",
+            "LocalizeEN": "It hurts!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_retire",
+            "LocalizeJP": "クッ…。紙一重の差デシタか。"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_shout_1",
+            "LocalizeJP": "スキアリ！",
+            "LocalizeEN": "An opening!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Pina_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_battle_shout_3",
+            "LocalizeJP": "発射！",
+            "LocalizeEN": "Firing!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Pina_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_growup_1",
+            "LocalizeEN": "Sensei, it's burning hot today, too!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Pina_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_growup_2",
+            "LocalizeJP": "胸の内側から熱く燃え上がる何か…。\nこれは、勇気デスか？\nそうじゃナイなら……。",
+            "LocalizeEN": "There's a burning hot feeling from deep in my chest... is this courage? But if it isn't, then..."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Pina_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_growup_3",
+            "LocalizeJP": "センセイ、いや、師匠と呼んでもいいデスか？！",
+            "LocalizeEN": "Sensei... no, can I call you Master?!"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Pina_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_growup_4",
+            "LocalizeEN": "I am a better person today than I was yesterday."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Pina_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_relationship_up_1",
+            "LocalizeEN": "The culture of Hyakkiyako fascinates me. It is beautiful, mysterious and thrilling."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Pina_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_relationship_up_2",
+            "LocalizeEN": "Sensei, I look forward to your continued guidance and encouragement."
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Pina_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_relationship_up_3",
+            "LocalizeEN": "Teacher, I am happy to meet you. yesterday, today and tomorrow"
+        },
+        {
+            "CharacterId": 16004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Pina_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Pina/pina_relationship_up_4",
+            "LocalizeEN": "I'm happy to be here. I got to experience the culture of Hyakkiyakou, to be with my friends, and... I got to meet Sensei."
+        }
+    ]
+}

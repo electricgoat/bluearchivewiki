@@ -1,0 +1,141 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanae_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_formation_in_1",
+            "LocalizeJP": "治療なら私に任せてください。",
+            "LocalizeEN": "Leave the treatment to me."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanae_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_formation_in_2",
+            "LocalizeJP": "私が手伝います。",
+            "LocalizeEN": "I will help you."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanae_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_battle_tsa_1",
+            "LocalizeJP": "プップー！救急車が来ました。",
+            "LocalizeEN": "Beep beep! The ambulance is here."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanae_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_battle_tsa_2",
+            "LocalizeJP": "具合の悪い方々に良いお知らせです。救護騎士団が到着しました！",
+            "LocalizeEN": "Good news for those who are unwell, the Remedial Knights have arrived."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hanae_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_commonskill",
+            "LocalizeEN": "Pain, pain, go away."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_1",
+            "LocalizeEN": "No! I got you!"
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_2",
+            "LocalizeEN": "Careful! You're safe now."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_3",
+            "LocalizeEN": "Uwa! Catch! You're safe now."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_level_1",
+            "LocalizeEN": "Medication start. Maybe I put in too much."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_level_2",
+            "LocalizeEN": "I'm going to start your treatment. Oops, I put in too much."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanae_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_exskill_level_3",
+            "LocalizeEN": "This should make the pain go away. Maybe."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanae_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_growup_1",
+            "LocalizeEN": "I'm always full of energy, but now I'm more energetic than usual."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanae_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_growup_2",
+            "LocalizeEN": "It would be nice if there wasn't a single person feeling unwell. Why don't we make it happen, me and you?"
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanae_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_growup_3",
+            "LocalizeEN": "I will work harder, for Sensei, and to become a junior that my seniors can be proud of."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanae_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_growup_4",
+            "LocalizeEN": "I make mistakes, but I don't get discouraged because Sensei will help me."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanae_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_relationship_up_1",
+            "LocalizeEN": "Thanks to Sensei I can be happy."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanae_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_relationship_up_2",
+            "LocalizeEN": "I will do my best to share the happiness I received from Sensei with other people."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanae_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_relationship_up_3",
+            "LocalizeEN": "It is love, not treatment, that overcomes pain! Sensei taught me this."
+        },
+        {
+            "CharacterId": 23002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanae_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hanae/hanae_relationship_up_4",
+            "LocalizeEN": "Ehehe, Sensei's cheek. Pinch."
+        }
+    ]
+}

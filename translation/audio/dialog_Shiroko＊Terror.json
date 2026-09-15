@@ -1,0 +1,464 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Shiroko＊Terror_Title",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Shiroko＊Terror_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Gachaget",
+            "LocalizeEN": "Sunaookami Shiroko from Abydos... Nice to meet you again, Sensei."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shiroko＊Terror_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Cafe_monolog_1",
+            "LocalizeEN": "This place is not bad..."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shiroko＊Terror_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Cafe_monolog_2",
+            "LocalizeEN": "Peaceful here, isn't it?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shiroko＊Terror_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Cafe_monolog_3",
+            "LocalizeEN": "I think I'll take a break."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shiroko＊Terror_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Cafe_monolog_4",
+            "LocalizeEN": "What is this? Can I open it...?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Shiroko＊Terror_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Cafe_monolog_5",
+            "LocalizeEN": "(This furniture... Is it Sensei's favorite?)"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_LogIn_1",
+            "LocalizeEN": "You look busy... Need some help?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_LogIn_2",
+            "LocalizeEN": "I've been waiting for you, Sensei. I won't leave until the job is done."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_1_1",
+            "LocalizeEN": "Sensei, I finished some paperwork.\nHm? How did I do that if you didn't teach me?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_1_2",
+            "LocalizeEN": "...Because I've done it before."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_2_1",
+            "LocalizeEN": "The snacks in the break room, you know...\nI'm sorry, I ate some."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_2_2",
+            "LocalizeEN": "Can I have more?\n...Thank you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_3",
+            "LocalizeEN": "Are you working late, Sensei? \nI'll stay with you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_4",
+            "LocalizeEN": "Why are you staring at me for that long...?\nA staring contest, huh? You're on."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Lobby_5",
+            "LocalizeEN": "All of those things are all things that I miss."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Season_Birthday_Player",
+            "LocalizeEN": "Happy Birthday.\nUmm, I was wondering if you'd like to go riding with me...\nHmm? It's the second time I've suggested that today?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Season_Birthday",
+            "LocalizeEN": "It's my birthday. Thank you.\nI'm over here too, Sensei, and you should celebrate."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei.\nAnother year is starting. What are your goals for this year?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Season_Xmas",
+            "LocalizeEN": "It's Christmas... Did you get me a present?\nHeh, I'm just kidding. Merry Christmas, Sensei."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko＊Terror_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_Season_Halloween",
+            "LocalizeEN": "Trick or Treat.\nI said it first, so I'll take a candy."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Shiroko＊Terror_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_ExWeapon_Get",
+            "LocalizeEN": "You're going to do this much for me?\nOh... No, I'm not complaining or anything. I was just a little surprised..."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko＊Terror_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_MemorialLobby_1_1",
+            "LocalizeEN": "This place is still the same.\nI guess I'm the only one who has changed."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko＊Terror_MemorialLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_MemorialLobby_2",
+            "LocalizeEN": "But some things haven't changed, which is a bit of a relief."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko＊Terror_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_MemorialLobby_3",
+            "LocalizeEN": "Sensei, I would like to ride my bicycle again."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko＊Terror_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_MemorialLobby_4_1",
+            "LocalizeEN": "There may be many barriers... \nBut with you here... I feel like I can do it."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko＊Terror_MemorialLobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0263/CH0263_MemorialLobby_5",
+            "LocalizeEN": "Mm. Thank you, Sensei."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko＊Terror_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_formation_in_1",
+            "LocalizeEN": "I'm ready. Let me help you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko＊Terror_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_formation_in_2",
+            "LocalizeEN": "I'll join in."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko＊Terror_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_formation_select",
+            "LocalizeEN": "Is something wrong...?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_defeat_1",
+            "LocalizeJP": "鈍ったかな……。",
+            "LocalizeEN": "Guess I'm getting slow..."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_defeat_2",
+            "LocalizeJP": "大丈夫……、また挑戦しよう。",
+            "LocalizeEN": "Don't worry... We'll try again."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_in_1",
+            "LocalizeEN": "Enemy found, please give instructions."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_in_2",
+            "LocalizeEN": "Can I shoot?"
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_victory_1",
+            "LocalizeEN": "Just as expected."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko＊Terror_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_tactic_victory_2",
+            "LocalizeEN": "A natural result, since Sensei is with us."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_buffself_1",
+            "LocalizeJP": "ん……、一人でもできる。",
+            "LocalizeEN": "Mm, I'll hold my own."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_in_2",
+            "LocalizeEN": "Follow me."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_move_2",
+            "LocalizeJP": "自転車、持ってくればよかった……",
+            "LocalizeEN": "I should have brought my bike..."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_retire",
+            "LocalizeJP": "まだ、足りないのに。",
+            "LocalizeEN": "It's still not enough."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_tacticalaction_1",
+            "LocalizeEN": "Moving on."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_victory_1",
+            "LocalizeEN": "Rest assured now."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko＊Terror_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_battle_victory_2",
+            "LocalizeEN": "Thanks for your help."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shiroko＊Terror_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_commonskill",
+            "LocalizeEN": "It's time to get this out."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_2",
+            "LocalizeEN": "Sensei? ...Got it."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_3",
+            "LocalizeEN": "You want me to...? Okay, I'll take care of it."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_10",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_10",
+            "LocalizeEN": "It fits in my hand."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_11",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_11",
+            "LocalizeEN": "Target ahead."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_12",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_12",
+            "LocalizeEN": "Commencing fire support."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_2",
+            "LocalizeJP": "本気でいくよ。",
+            "LocalizeEN": "Time to get serious."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_3",
+            "LocalizeJP": "手加減しない。",
+            "LocalizeEN": "I won't go easy on you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_4",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_4",
+            "LocalizeJP": "また……、強くなった。",
+            "LocalizeEN": "I'm stronger again."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_5",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_5",
+            "LocalizeJP": "これも耐えられる。",
+            "LocalizeEN": "This is also bearable."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_6",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_6",
+            "LocalizeJP": "体が軽くなった感じ。",
+            "LocalizeEN": "I feel lighter."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_7",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_7",
+            "LocalizeJP": "見せてあげる。",
+            "LocalizeEN": "I'll show you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko＊Terror_ExSkill_Level_8",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_exskill_level_8",
+            "LocalizeJP": "ん、もう少し頑張る。",
+            "LocalizeEN": "I'll try a little harder."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko＊Terror_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_growup_1",
+            "LocalizeEN": "You're giving it to me? I'll take good care of it."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko＊Terror_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_growup_2",
+            "LocalizeEN": "I may have gotten bigger... I mean the height."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko＊Terror_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_growup_3",
+            "LocalizeEN": "Is this... Yes, I have received it. I'll try to be helpful."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko＊Terror_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_growup_4",
+            "LocalizeEN": "Thank you, Sensei. Let's keep up the good work."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko＊Terror_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_relationship_up_1",
+            "LocalizeEN": "Sensei... Lend me your shoulder."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko＊Terror_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_relationship_up_2",
+            "LocalizeEN": "It was nice to be able to help you, Sensei."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko＊Terror_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_relationship_up_3",
+            "LocalizeEN": "Umm... I don't know how it will sound, but... I feel comfortable with you."
+        },
+        {
+            "CharacterId": 10100,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko＊Terror_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0263/ch0263_relationship_up_4",
+            "LocalizeEN": "There are so many things I don't know yet... I'm sure you'll be able to help me out."
+        }
+    ]
+}

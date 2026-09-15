@@ -1,0 +1,130 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Ayane_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Ayane/Ayane_Gachaget",
+            "LocalizeEN": "I'm Okusora Ayane. You can count on my support."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ayane_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_formation_in_1",
+            "LocalizeEN": "Leave the rear support to me."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ayane_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_formation_in_2",
+            "LocalizeEN": "I will assist you."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Ayane_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_commonskill",
+            "LocalizeEN": "Go, please."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_1",
+            "LocalizeEN": "I got a grasp on the situation. Here it goes."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_2",
+            "LocalizeEN": "Can't miss the timing for support."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_3",
+            "LocalizeEN": "Now!"
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_level_1",
+            "LocalizeEN": "Rear support has arrived."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_level_2",
+            "LocalizeEN": "Perfect timing."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ayane_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_exskill_level_3",
+            "LocalizeEN": "It looks like I made it in time."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ayane_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_growup_1",
+            "LocalizeEN": "Thank you for your concern, Sensei."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ayane_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_growup_2",
+            "LocalizeEN": "Now I can support everyone even more."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ayane_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_growup_3",
+            "LocalizeEN": "Can I really keep growing like this?"
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ayane_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_growup_4",
+            "LocalizeEN": "Yes, Sensei. I will live up to your expectations."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ayane_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_relationship_up_1",
+            "LocalizeEN": "I'm very happy to be able to get close to Sensei like this, but what if everyone around start to suspect us?"
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ayane_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_relationship_up_2",
+            "LocalizeEN": "Sensei, I'm always indebted to you. I'm troubled thinking just how could I ever repay you."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ayane_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_relationship_up_3",
+            "LocalizeEN": "There are still many things I haven't learned from you, so I want to be with you a little longer."
+        },
+        {
+            "CharacterId": 23005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ayane_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Ayane/ayane_relationship_up_4",
+            "LocalizeEN": "Sometimes I think I hardly deserve the time we spend together like this...　hehe, it's nothing."
+        }
+    ]
+}

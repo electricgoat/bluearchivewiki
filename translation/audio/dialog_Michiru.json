@@ -1,0 +1,319 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Michiru_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/CH0113_Cafe_monolog_1",
+            "LocalizeEN": "I need a new video idea for the channel..."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Michiru_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/CH0113_EventLogin_Season_2",
+            "LocalizeEN": "I'm not gonna give up until the end! The Ninjutsu Research Club will be officially recognized!\n\nAnd Michiruchi, a Girl's Ninja Scroll will reach a hundred subscribers!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Michiru_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/CH0113_EventLobby_1",
+            "LocalizeEN": "The Mouryo are running amok, and the Yin-Yang Club is pressuring me.\n\nThe Gehenna Pandemonium Society is so annoying... And I'm so confused now..."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Michiru_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0113/CH0113_EventLobby_4",
+            "LocalizeEN": "I'm going to successfully fulfill the Yin-Yang Club's request...\n\n...and get official approval for the club. I swear!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Michiru_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_formation_in_1",
+            "LocalizeJP": "うぎゃあっ？！び、びっくりした……\nあ、今から出陣？了解！",
+            "LocalizeEN": "Ahh! I was surprised... Oh, are we going to fight now? Roger that!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Michiru_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_formation_in_2",
+            "LocalizeEN": "Hehe... Now it's my turn! Eh, wait? Is that right?"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Michiru_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_formation_select",
+            "LocalizeEN": "Hello, my name is Michiru.\nNow, give us your orders~!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_defeat_1",
+            "LocalizeJP": "あーれーど、どうしてー！？な、なんでー！！",
+            "LocalizeEN": "Oh, Why, What?"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_defeat_2",
+            "LocalizeJP": "うわーん！爆発オチはいやー！！",
+            "LocalizeEN": "OMG! I don't like the explosion Finish!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_in_1",
+            "LocalizeEN": "Ninjutsu Research Club has started!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_in_2",
+            "LocalizeEN": "I'll show you how terrifying a ninja is... Be prepared!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_victory_1",
+            "LocalizeEN": "Mission complete."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Michiru_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_tactic_victory_2",
+            "LocalizeEN": "For us, the Ninjutsu Research Club, this is a piece of cake."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_buffed_1",
+            "LocalizeEN": "It's not like I don't feel like I've become stronger."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_buffself_1",
+            "LocalizeJP": "よし、なんかいけそーな気がする！",
+            "LocalizeEN": "Healing I feel like I can do something."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_damage_1",
+            "LocalizeJP": "痛！",
+            "LocalizeEN": "it hurts!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_damage_2",
+            "LocalizeJP": "いったー！？",
+            "LocalizeEN": "it hurtsー!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_damage_3",
+            "LocalizeJP": "はりゃぁ！？"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_defense_1",
+            "LocalizeEN": "Haha! I don't get it."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_in_1",
+            "LocalizeEN": "Huhu! well, welcome to me."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_in_2",
+            "LocalizeEN": "Let's get started."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_move_1",
+            "LocalizeEN": "Okay, let's go."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_move_2",
+            "LocalizeEN": "Really, still going on?"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_recovery_1",
+            "LocalizeEN": "thanks for your help!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_retire",
+            "LocalizeJP": "うわーん！"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_shout_1",
+            "LocalizeJP": "ほっ！"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_shout_2",
+            "LocalizeJP": "てゃぁ！"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_shout_3",
+            "LocalizeJP": "はぁっ！"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_tacticalaction_1",
+            "LocalizeEN": "Shubabababa!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_victory_1",
+            "LocalizeEN": "how is it? This is the power of our Ninjutsu Research Club!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Michiru_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_battle_victory_2",
+            "LocalizeEN": "Yes, Michiru-style ninjutsu has no blind spots!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Michiru_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_commonskill",
+            "LocalizeEN": "For now, I'll restore my mental strength with ninja goods."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Michiru_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_exskill_1",
+            "LocalizeEN": "Mi……Michiru-style Ninpo!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Michiru_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_exskill_2",
+            "LocalizeEN": "I'll show you the Katon no Jutsu!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Michiru_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_exskill_3",
+            "LocalizeEN": "Don't underestimate the head of the Ninjutsu Research Club!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Michiru_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_exskill_level_2",
+            "LocalizeEN": "Ninpo……so hot!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Michiru_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_growup_1",
+            "LocalizeEN": "Eh, can you give me this? to me? haha, Sensei-dono has a discerning eye... what the heck. Nahaha!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Michiru_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_growup_2",
+            "LocalizeEN": "oh! Now I can become stronger and stronger!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Michiru_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_growup_3",
+            "LocalizeEN": "Ah,Oh,it…Thank you?"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Michiru_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_growup_4",
+            "LocalizeEN": "Haha, I've finally made it this far! In order to live up to Senseiｰdono expectations, I'll show you all my strengths!"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Michiru_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_relationship_up_1",
+            "LocalizeJP": "のあぁっ！？ちょっ、近い！近いって！\n距離感！あー、心臓に悪い……",
+            "LocalizeEN": "Hey! it's close, it's close! A sense of distance! Haha, it's bad for my heart..."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Michiru_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_relationship_up_2",
+            "LocalizeEN": "When I'm with you, I feel like I can do anything even if I'm like this. ……What is this, this is a strange feeling"
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Michiru_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_relationship_up_3",
+            "LocalizeEN": "Wow, what a sense of distance! ? Are you kidding me? Surprise? It's not that I don't like it."
+        },
+        {
+            "CharacterId": 16009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Michiru_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0113/ch0113_relationship_up_4",
+            "LocalizeEN": "Oh, it's close... No, should I approach from here? That's right, with my honey trap... I can't do such a shameful thing!"
+        }
+    ]
+}

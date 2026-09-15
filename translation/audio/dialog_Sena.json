@@ -1,0 +1,104 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sena_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_formation_in_2",
+            "LocalizeJP": "待機中です。いつでもお呼びください。",
+            "LocalizeEN": "I'm on standby. Please call me anytime."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Sena_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_commonskill",
+            "LocalizeEN": "I hope this helps."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "CommonTSASkill",
+            "VoiceClip": "Sena_CommonTSASkill",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_commontsaskill",
+            "LocalizeJP": "した…、いえ、負傷者はこちらへ。",
+            "LocalizeEN": "Corpses... no, the injured are here."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sena_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_exskill_1",
+            "LocalizeEN": "Situation confirmed."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sena_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_exskill_level_1",
+            "LocalizeEN": "I'm heading out."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sena_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_exskill_level_2",
+            "LocalizeEN": "I'm on my way now."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sena_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_exskill_level_3",
+            "LocalizeEN": "I'm rushing to the scene."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sena_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_growup_1",
+            "LocalizeEN": "Thank you. I will not waste this support."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sena_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_growup_3",
+            "LocalizeEN": "Thank you. I will use this power to properly repay you."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sena_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_growup_4",
+            "LocalizeEN": "That will be a great help. Thanks to you, my work should be easier to do from now on."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sena_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_relationship_up_1",
+            "LocalizeEN": "You are always so considerate. Thank you."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sena_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_relationship_up_2",
+            "LocalizeEN": "I'm not used to receiving something like this... but yes, I'm happy."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sena_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_relationship_up_3",
+            "LocalizeEN": "Sensei is the only one who approaches me this frequently. What a mysterious person."
+        },
+        {
+            "CharacterId": 20012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sena_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0081/ch0081_relationship_up_4",
+            "LocalizeEN": "Perhaps because I have had many opportunities for interactions lately, I find myself thinking about Sensei often, in various ways."
+        }
+    ]
+}

@@ -113,7 +113,7 @@ def item_sort_order(item):
     return sort_value
 
 
-def replace_glossary(item:str = None):
+def replace_glossary(item:str|None = None):
     glossary = {
         #'Field':'Outdoor',
         'Valkyrie Police School':'Valkyrie Police Academy',

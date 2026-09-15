@@ -1,0 +1,505 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Chiaki_Title",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Chiaki_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Gachaget",
+            "LocalizeEN": "Extra news! Extra news~!!\nPandemonium Society's Secretary, Motomiya Chiaki has arrived at Schale~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chiaki_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Cafe_monolog_1",
+            "LocalizeEN": "This place is interesting isn't it~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chiaki_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Cafe_monolog_2",
+            "LocalizeEN": "I can feel a scoop is about to pop out!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chiaki_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Cafe_monolog_3",
+            "LocalizeEN": "Ah! I'd love to be friends with those people!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chiaki_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Cafe_monolog_4",
+            "LocalizeEN": "If I left a \"Pandemonium Weekly\" stand over here..."
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chiaki_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Cafe_monolog_5",
+            "LocalizeEN": "Ooh this! Ibuki's going to really love this no doubt!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_LogIn_1",
+            "LocalizeEN": "Ah! Sensei, welcome back~!\nI'd love to hold an interview right away, can I~?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_LogIn_2",
+            "LocalizeEN": "Hello, Sensei~! Let's spend the day on full power again!!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_1",
+            "LocalizeEN": "Yessir~! I'm Motomiya Chiaki, on standby for you~!\nDo you have any materi... anything you want me to help you with~?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_2",
+            "LocalizeEN": "Have you read this week's \"Pandemonium Weekly\"?\nThe special bonus \"Cutie Ibuki chan\" bromide was simply the best!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_3",
+            "LocalizeEN": "So this is Makoto senpai's pic I'm gonna use for next week's \"Pandemonium Society weekly\" and~...\n...Yes? It's too small to see you say?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_4_1",
+            "LocalizeEN": "Sensei hard at work! Yes! Look over here please~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_4_2",
+            "LocalizeEN": "Your face's all stiff, you know~ Yea, relax, relax~"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Lobby_5",
+            "LocalizeEN": "Even as a secretary, or as a student on duty, I'll do anything you ask! Just say the word anytime, Sensei!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei! So we're doing a special \"The day Sensei was born\" edition ! Well then, please answer these interview questions!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Season_Birthday",
+            "LocalizeEN": "Huh, come to think of it, it is my birthday isn't it. I was too focused I completely forgot about it~! Ahaha, thank you~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Season_NewYear",
+            "LocalizeEN": "Happy New Year! You'll be our first \"Weekly Pandemonium\" reader!!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Season_Xmas",
+            "LocalizeEN": "Merry christmas~! Now now, stand right in front of that tree! I'm gonna snap a pic~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chiaki_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_Season_Halloween",
+            "LocalizeEN": "I've been looking forward to this day since forever! There's tons of people on the streets! I'll go make some buddies okay~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Chiaki_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_ExWeapon_Get",
+            "LocalizeEN": "Yeah~! I'm so happy! Even more so than whenever I got an exclusive scoop!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Chiaki_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_MemorialLobby_1_1",
+            "LocalizeEN": "Ahaha, I've took the picture!\nYour dozing face would make the perfect main cover for next week's volume!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Chiaki_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_MemorialLobby_2_1",
+            "LocalizeEN": "Now we're all set for the special edition of \"Weekly Pandemonium\"! \nGood job me, getting another amazing scoop!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Chiaki_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_MemorialLobby_3",
+            "LocalizeEN": "Fufu, the instincts of a secretary is not to be ignored, you know~?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Chiaki_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_MemorialLobby_4_1",
+            "LocalizeEN": "I know! While we're on it what about we go on uncovering Sensei's mysteries too?\nLike the mysterious hole in their sock.. maybe!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Chiaki_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_MemorialLobby_5_1",
+            "LocalizeEN": "Eh!? Bad girls get trapped under the desk..!?\nI- I'm sorry~! Let me out~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLogin_1",
+            "LocalizeEN": "Woahaa~ So many things to look forward to!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLogin_2",
+            "LocalizeEN": "Sensei! Over here! Next to me! I've reserved a seat jut for you~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLogin_Season_1",
+            "LocalizeEN": "Things are getting heated up~! Sensei, are you having fun~?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLogin_Season_2",
+            "LocalizeEN": "The party's finale! Let's have fun till the very end~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLogin_Season_End",
+            "LocalizeEN": "A lot of things happened... But it was really the best time of my life!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLobby_1",
+            "LocalizeEN": "Yes~! Did you call me?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLobby_2",
+            "LocalizeEN": "I'll go snap some pics for the next volume~"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLobby_3_1",
+            "LocalizeEN": "Sensei, open wide!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLobby_3_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLobby_3_2",
+            "LocalizeEN": "Yes! That was Pandemonium Society's specialty chocolate! So how was it? It's so sweet and delicious isn't it!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chiaki_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0238/CH0238_EventLobby_4",
+            "LocalizeEN": "I love wonderful music and delicious food... But being with you makes it somewhat different than usual!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chiaki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_formation_in_2",
+            "LocalizeEN": "I might just dig up a good scoop~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chiaki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_formation_select",
+            "LocalizeEN": "Preps' all good!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_defeat_1",
+            "LocalizeJP": "つ、次はミスしませんから！",
+            "LocalizeEN": "I- I won't miss next time"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_defeat_2",
+            "LocalizeJP": "あ、あれ！？こんなはずじゃ！？",
+            "LocalizeEN": "Ah, Huh!? Things aren't supposed to be this way!?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_in_1",
+            "LocalizeEN": "We're going all out together~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_in_2",
+            "LocalizeEN": "Let's do our best!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_victory_1",
+            "LocalizeEN": "Yes! Mission done and over!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chiaki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_tactic_victory_2",
+            "LocalizeEN": "I've took so many good pics!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_buffed_1",
+            "LocalizeEN": "Thank you~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_buffself_1",
+            "LocalizeJP": "元気モリモリ～！",
+            "LocalizeEN": "All fired up~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_covered_1",
+            "LocalizeEN": "I can hide!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_defense_1",
+            "LocalizeEN": "Whoowie, dodged that!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_in_1",
+            "LocalizeEN": "Heave~ Ho!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_in_2",
+            "LocalizeEN": "Material collecting start!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_move_1",
+            "LocalizeEN": "I'm coming with a bang~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_move_2",
+            "LocalizeEN": "I'll head out first okay!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_recovery_1",
+            "LocalizeEN": "Thank you! I'm at full spirits now!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_retire",
+            "LocalizeJP": "今回の取材は、ここまで……。",
+            "LocalizeEN": "That ends the interview..."
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_victory_1",
+            "LocalizeEN": "Easy win wasn't it!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chiaki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_battle_victory_2",
+            "LocalizeEN": "Yep, that was a fulfilling interview!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Chiaki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_commonskill",
+            "LocalizeEN": "Next special edition's gonna be this!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_1",
+            "LocalizeEN": "I can smell the scoops.... Aha! I'm caught!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_2",
+            "LocalizeEN": "Hmhm I see...? Woah! That's close!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_3",
+            "LocalizeEN": "So so..? Ahaha! Wow! Run away!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_level_1",
+            "LocalizeEN": "Yes, here you go!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_level_2",
+            "LocalizeEN": "I'm in the middle of collecting material!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chiaki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_exskill_level_3",
+            "LocalizeEN": "This is going to hurt quite a little bit you know~?"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chiaki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_growup_1",
+            "LocalizeEN": "Wahaa! Thank you, Sensei!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chiaki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_growup_2",
+            "LocalizeEN": "Yes! I'll set my secretary spirit ablaze, and I'm gonna go at full steam!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chiaki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_growup_3",
+            "LocalizeEN": "I feel like I've gotten stronger! I feel like collecting materials for \"Weekly Pandemonium\" is going to go well..!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chiaki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_growup_4",
+            "LocalizeEN": "Waaah! I'm so happy! I'm on cloud nine! Sensei, I'm gonna take a pic, so come in close! Say cheese!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chiaki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_relationship_up_1",
+            "LocalizeEN": "Ahaha... This is somewhat.. embarassing!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chiaki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_relationship_up_2",
+            "LocalizeEN": "I'm.. so happy. Huh? I'm quieter than usual? You're talking about me? N- No, not at all~!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chiaki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_relationship_up_3",
+            "LocalizeEN": "Ughh~ Geez! I have no idea what face to put on at times like this!"
+        },
+        {
+            "CharacterId": 10107,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chiaki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0238/ch0238_relationship_up_4",
+            "LocalizeEN": "Um, I can't really explain it but... I want to research about you a bit more! Can't... I?"
+        }
+    ]
+}

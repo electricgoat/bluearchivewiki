@@ -1,0 +1,325 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Yuuka_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Gachaget",
+            "LocalizeEN": "The conditions have been met. Let's get down to business."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yuuka_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Cafe_Act_1",
+            "LocalizeEN": "You need a short break? We have approximately 1,890 second to spare. Use them wisely."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_LogIn_1",
+            "LocalizeEN": "Sensei. I'll do everything I can to assist you, just as I did yesterday."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Lobby_2",
+            "LocalizeEN": "I have approximately 34 tips on how to improve your behavior, Sensei."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yuuka_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Season_NewYear",
+            "LocalizeEN": "The first step is crucial in any math problem. Let's start this year on the right foot as well."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_formation_in_1",
+            "LocalizeEN": "A reasonable choice."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_formation_in_2",
+            "LocalizeEN": "Will I get a reward for this?"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yuuka_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_formation_select",
+            "LocalizeEN": "Sensei is smart after all."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_defeat_1",
+            "LocalizeJP": "問題設計の方が間違ってましたから。",
+            "LocalizeEN": "The problem design was wrong."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_defeat_2",
+            "LocalizeJP": "計算機が故障していたとは。",
+            "LocalizeEN": "I thought the calculator was broken."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_in_1",
+            "LocalizeEN": "Confirm the enemy's position, Sensei, please guide me."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_in_2",
+            "LocalizeEN": "Checking enemy positions. Distance, proximity, strength, calculation complete."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_victory_1",
+            "LocalizeJP": "スマートに勝利～。",
+            "LocalizeEN": "Smart win!"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_tactic_victory_2",
+            "LocalizeEN": "Was I lucky? No, it was calculated."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_BuffSelf_1",
+            "LocalizeJP": "私の計算は完璧よ。",
+            "LocalizeEN": "My calculations are perfect."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Covered_1",
+            "LocalizeEN": "I'm taking cover, please help me."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Damage_1",
+            "LocalizeJP": "くっ……！"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Damage_2",
+            "LocalizeJP": "ひゃあ！"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Damage_3",
+            "LocalizeJP": "痛い！"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Defense_1",
+            "LocalizeEN": "Useless."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_In_1",
+            "LocalizeEN": "The calculation is perfect. Let's stay calm."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_In_2",
+            "LocalizeEN": "Our win rate is pretty high. Let's be confident."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Move_1",
+            "LocalizeEN": "So far it's calculated."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Move_2",
+            "LocalizeEN": "If the calculation is correct, the next target should be visible soon."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Recovery_1",
+            "LocalizeEN": "Just the right amount."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Retire",
+            "LocalizeJP": "変数が多すぎる。",
+            "LocalizeEN": "Too many variables."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_TacticalAction_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Victory_1",
+            "LocalizeJP": "計算通り。\n完璧～。",
+            "LocalizeEN": "As calculated, perfect."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_Battle_Victory_2",
+            "LocalizeEN": "Mathematics leads to truth. our win."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Yuuka_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_CommonSkill",
+            "LocalizeEN": "It's not over yet."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_1",
+            "LocalizeEN": "Sorrow and anger, I'll factor them all."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_2",
+            "LocalizeEN": "The current situation and conditions... OK, this is a win."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_3",
+            "LocalizeEN": "The probability of an attack hitting me is extremely low!"
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_Level_1",
+            "LocalizeEN": "It's just a calculated result."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_Level_2",
+            "LocalizeEN": "Logic and reason are merciless."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yuuka_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Yuuka/Yuuka_ExSkill_Level_3",
+            "LocalizeEN": "I will prove victory."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_growup_1",
+            "LocalizeEN": "I was waiting for the chance to show my results."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_growup_2",
+            "LocalizeEN": "The results that can be felt in numbers make people's hearts beat."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_growup_3",
+            "LocalizeEN": "Please expect the next mission to be in the black."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yuuka_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_growup_4",
+            "LocalizeEN": "I don't really like this expression, but I'm immeasurable now."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_relationship_up_1",
+            "LocalizeEN": "I feel like I've used up a lot of energy and time, but I feel like I've gained a lot with Sensei."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_relationship_up_2",
+            "LocalizeEN": "I can't calculate how I feel right now."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_relationship_up_3",
+            "LocalizeEN": "I used to think only about measurements and calculations, but now I just want to feel this moment."
+        },
+        {
+            "CharacterId": 13010,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yuuka_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Yuuka/yuuka_relationship_up_4",
+            "LocalizeEN": "It's a feeling I can't explain, but I don't hate it."
+        }
+    ]
+}

@@ -1,0 +1,409 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Ui_(Swimsuit)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_Cafe_monolog_3",
+            "LocalizeEN": "Maybe because of this outfit, I can't calm down like usual...<ref group=\"note\">Official translation is \"I may be mistaken, but things seem busier here than usual...\"</ref>"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_(Swimsuit)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_LogIn_1",
+            "LocalizeEN": "Oh, Sensei! I've been waiting for you.\n\nI've made you an Americano."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_(Swimsuit)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_Lobby_4",
+            "LocalizeEN": "Maybe next time...we can try working in the Antiquarian Bookstore?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ui_(Swimsuit)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei.\n\nThis year...I'd like to stay indoors with you instead of going to the beach."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_(Swimsuit)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_EventLogin_1",
+            "LocalizeEN": "Over here, Sensei. I've finished the preparations for the investigation."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_(Swimsuit)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_EventLobby_3",
+            "LocalizeEN": "If you need anything, just tell me in person..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ui_(Swimsuit)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_EventLobby_4",
+            "LocalizeEN": "Even though I don't really like being outside...\n\n...it wasn't too bad since I got to be alone with you."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Ui_(Swimsuit)_EventMission_Get_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/CH0204_EventMission_Get_2",
+            "LocalizeEN": "For you, Sensei..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Box_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_box_1",
+            "LocalizeJP": "こっ、これは……。",
+            "LocalizeEN": "Th- This is..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Box_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_box_2",
+            "LocalizeJP": "まぁ……許容範囲です。"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Fail_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_fail_1",
+            "LocalizeJP": "はぁ……今度は何ですか？",
+            "LocalizeEN": "Haah.. What is it this time"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Fail_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_fail_2",
+            "LocalizeJP": "どうして……こんなことに……。",
+            "LocalizeEN": "Why,,, it turned to this..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Start_Facility",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_start_facility",
+            "LocalizeJP": "一息ついたら、落ち着きました",
+            "LocalizeEN": "Haah, once i took a breather, I start to calm down"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Start_Item",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_start_item",
+            "LocalizeJP": "ふむ……これは使えそうですね。",
+            "LocalizeEN": "Hmm... Looks like this can be used"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Start_Re",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_start_re",
+            "LocalizeJP": "一度始めた物は、最後までやる主義でして。",
+            "LocalizeEN": "Once I start something, I need to finish it, that's my principle"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Success",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_success",
+            "LocalizeJP": "この調子で、頑張ってください",
+            "LocalizeEN": "Please do your best, keep it up"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Ui_(Swimsuit)_Minigame_Victory",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_minigame_victory",
+            "LocalizeJP": "まずはひと段落ですね",
+            "LocalizeEN": "First things first, let's take a pause"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ui_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_formation_in_1",
+            "LocalizeEN": "D-Do I even need to come out?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ui_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_formation_in_2",
+            "LocalizeEN": "I understand, more or less..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ui_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_formation_select",
+            "LocalizeEN": "Wow...S-Sensei..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_tactic_defeat_1",
+            "LocalizeJP": "うぅ…。だから、嫌だったのに…。",
+            "LocalizeEN": "Uhee... This is why, I didn't want to..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_tactic_defeat_2",
+            "LocalizeJP": "すみません、やはり…。私に屋外行動は…。",
+            "LocalizeEN": "Sorry. As expected... outdoor activities for me is..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_tactic_in_2",
+            "LocalizeEN": "Well... If I'll do it, I'll do it seriously..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_tactic_victory_1",
+            "LocalizeEN": "Good work, Sensei."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ui_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_tactic_victory_2",
+            "LocalizeEN": "C-Can I... go home already?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_buffed_1",
+            "LocalizeEN": "T-Thanks for the help."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_buffself_1",
+            "LocalizeJP": "分かりました、そっちがその気なら…。",
+            "LocalizeEN": "Alright, if that's how you feel..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_covered_1",
+            "LocalizeEN": "I'll be here."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_damage_1",
+            "LocalizeJP": "うわぁあ…。"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_damage_2",
+            "LocalizeJP": "むひゃ！"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_damage_3",
+            "LocalizeJP": "ふへっ？"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_defense_1",
+            "LocalizeEN": "That's not going to work."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_in_1",
+            "LocalizeEN": "Fuha... Heading out..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_in_2",
+            "LocalizeEN": "Why... am I the one leading..?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_move_1",
+            "LocalizeEN": "Is there still more?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_move_2",
+            "LocalizeEN": "Let's finish this up quickly."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_recovery_1",
+            "LocalizeEN": "Thank you very much."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_retire",
+            "LocalizeJP": "うわぁあ…。",
+            "LocalizeEN": "Ueauau..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_shout_3",
+            "LocalizeJP": "はにゃっ！"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_victory_1",
+            "LocalizeEN": "Uhee...Finally, that's over..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ui_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_battle_victory_2",
+            "LocalizeEN": "Hmm... A-Am I the one exhausted?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Ui_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_commonskill",
+            "LocalizeEN": "Fumu, I see."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_1",
+            "LocalizeEN": "I'm already at my limit."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_2",
+            "LocalizeEN": "It was the right choice to prepare this."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_3",
+            "LocalizeEN": "I've calmed down a little."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_level_1",
+            "LocalizeEN": "Would you like a drink..?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_level_2",
+            "LocalizeEN": "Have some too everyone, if it's fine..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ui_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_exskill_level_3",
+            "LocalizeEN": "It's all so nice and cold."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_growup_1",
+            "LocalizeJP": "ふ、ふふ……まあ、たまにはこういう夏も、無しではありませんね……",
+            "LocalizeEN": "H-Hehehe. S-Sometimes summers like this... it's not like they don't exist..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_growup_2",
+            "LocalizeEN": "More than I thought, this is not bad... Fuhihi..."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_growup_3",
+            "LocalizeEN": "Thank you, Sensei. I'll try my best to be of help."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ui_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_growup_4",
+            "LocalizeEN": "This feeling... I see, I understand."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_relationship_up_1",
+            "LocalizeEN": "T-Thank you, Sensei. Um... As thanks, shall I brew you an Americano?"
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_relationship_up_2",
+            "LocalizeEN": "If I'm together with Sensei... I feel like I can do anything, even things I'm weak at."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_relationship_up_3",
+            "LocalizeEN": "Making requests of me like this... is reserved only for Sensei."
+        },
+        {
+            "CharacterId": 10073,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ui_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0204/ch0204_relationship_up_4",
+            "LocalizeEN": "N-Next time, if you have free time, um... please call me over."
+        }
+    ]
+}

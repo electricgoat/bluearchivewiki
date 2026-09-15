@@ -1,0 +1,242 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Atsuko_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Atsuko/Atsuko_Gachaget",
+            "LocalizeEN": "My name is Hakari Atsuko. Sensei, can I help with anything? Please."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Atsuko_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Atsuko/Atsuko_ExWeapon_Get",
+            "LocalizeEN": "I gave up thinking or making decisions for myself. I just thought that life was my fate. But from now on...it'll be different. Thank you, Sensei."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Atsuko_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/Atsuko_MemorialLobby_3",
+            "LocalizeEN": "I'll treasure it."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Atsuko_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_formation_in_2",
+            "LocalizeEN": "Confirmed."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Atsuko_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_tactic_defeat_2",
+            "LocalizeJP": "負けちゃった。",
+            "LocalizeEN": "We lost."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Atsuko_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_tactic_in_1",
+            "LocalizeEN": "Commencing attack."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Atsuko_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_tactic_in_2",
+            "LocalizeEN": "Operation started."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Atsuko_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_tactic_victory_1",
+            "LocalizeEN": "Victory."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Atsuko_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_tactic_victory_2",
+            "LocalizeEN": "You bought it."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_buffed_1",
+            "LocalizeEN": "Assistance acknowledged. Thanks."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_buffself_1",
+            "LocalizeJP": "大丈夫。まだいける。",
+            "LocalizeEN": "It's okay, I can still go."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_covered_1",
+            "LocalizeEN": "Hiding."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_damage_3",
+            "LocalizeJP": "私、狙われる価値があるんだ。",
+            "LocalizeEN": "So I am worth targeting after all."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_defense_1",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_in_2",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_move_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_retire",
+            "LocalizeJP": "ごめん。",
+            "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Atsuko_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_battle_tacticalaction_1",
+            "LocalizeEN": "I'll go over there."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Atsuko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_commonskill",
+            "LocalizeEN": "I'm being targeted."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_1",
+            "LocalizeJP": "そっか、なるほど……",
+            "LocalizeEN": "Ah, I see."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_2",
+            "LocalizeJP": "これは、私を……",
+            "LocalizeEN": "Is this what protects me?"
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_3",
+            "LocalizeJP": "こうなってるんだね……",
+            "LocalizeEN": "This is how it goes."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_level_1",
+            "LocalizeEN": "In that case, I won't hesitate."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_level_2",
+            "LocalizeEN": "Then please."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Atsuko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_exskill_level_3",
+            "LocalizeEN": "If this helps then,"
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Atsuko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_growup_1",
+            "LocalizeEN": "I'll care for myself like you care for me."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Atsuko_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_growup_2",
+            "LocalizeEN": "I never thought I was worth all this."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Atsuko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_growup_3",
+            "LocalizeEN": "I will always remember what you taught me."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Atsuko_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_growup_4",
+            "LocalizeEN": "I learned one more thing."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Atsuko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_relationship_up_1",
+            "LocalizeEN": "You are nice to me."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Atsuko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_relationship_up_2",
+            "LocalizeEN": "I wonder if the day will come when I can return all I have received."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Atsuko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_relationship_up_3",
+            "LocalizeEN": "Now I feel a little closer... um, no, it's nothing."
+        },
+        {
+            "CharacterId": 10042,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Atsuko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Atsuko/atsuko_relationship_up_4",
+            "LocalizeEN": "It's all thanks to you, Sensei. Um, that's... well, a ton of things."
+        }
+    ]
+}

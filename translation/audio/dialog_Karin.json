@@ -1,0 +1,140 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Karin_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_formation_in_1",
+            "LocalizeEN": "Leave the rear support to me."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Karin_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_formation_in_2",
+            "LocalizeJP": "狙撃なら専門だから。",
+            "LocalizeEN": "I specialize in sniping."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Karin_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_battle_tsa_1",
+            "LocalizeJP": "C&Cのヘリの力、見せてあげる。",
+            "LocalizeEN": "I'll show you the power of C&C's helicopter"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Karin_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_battle_tsa_2",
+            "LocalizeJP": "コールサイン02、空中支援を始める。",
+            "LocalizeEN": "Call sign 02 Start air support"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Karin_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_commonskill",
+            "LocalizeEN": "Don't miss your aim."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_1",
+            "LocalizeEN": "target confirmation"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_2",
+            "LocalizeEN": "caught the target."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_3",
+            "LocalizeEN": "leave it to me"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_level_1",
+            "LocalizeEN": "Sensei's enemies don't let go."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_level_2",
+            "LocalizeEN": "Mission started."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Karin_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_exskill_level_3",
+            "LocalizeEN": "Blow it up in one shot."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Karin_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_growup_1",
+            "LocalizeEN": "Thanks Sensei. I will use this power that Sensei gave me to help those who need C&C's help."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Karin_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_growup_2",
+            "LocalizeEN": "This power is for Sensei's sake."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Karin_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_growup_3",
+            "LocalizeEN": "Leave any request to me."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Karin_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_growup_4",
+            "LocalizeEN": "Training are bitter, but the fruit is sweet."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Karin_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_relationship_up_1",
+            "LocalizeEN": "It's a strange feeling, it's the first time I feel like this"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Karin_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_relationship_up_2",
+            "LocalizeEN": "I have a feeling that I want to convey It will surely be the most important mission for me to convey it."
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Karin_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_relationship_up_3",
+            "LocalizeEN": "Just having Sensei by my side makes me feel special Why is that?"
+        },
+        {
+            "CharacterId": 20001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Karin_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Karin/karin_relationship_up_4",
+            "LocalizeEN": "I think it's growing. As a student, as a maid, and... please forget about it."
+        }
+    ]
+}

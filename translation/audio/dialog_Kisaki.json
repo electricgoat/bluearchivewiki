@@ -1,0 +1,130 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kisaki_EventLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0139/CH0139_EventLobby_2_1",
+            "LocalizeEN": "The Black Tortoise Promenade is using the Moonlight Festival as an opportunity to mingle with the outside world."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "UIEventTreasure",
+            "VoiceClip": "Kisaki_EventTreasure_Get_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/CH0139_EventTreasure_Get_2",
+            "LocalizeEN": "Oh...that's interesting.\n\nCan I try it, too?"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kisaki_EventMission_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/CH0139_EventMission_2_2",
+            "LocalizeEN": "...but please don't when other people are around."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kisaki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_commonskill",
+            "LocalizeEN": "Have a short break"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_1",
+            "LocalizeEN": "This should do it..."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_2",
+            "LocalizeEN": "Should I stop around here...?"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_3",
+            "LocalizeEN": "I'd prefer to watch for a bit longer but..."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_level_1",
+            "LocalizeEN": "Very well, go ahead and try"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_level_2",
+            "LocalizeEN": "I'll leave the rest to you"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kisaki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_exskill_level_3",
+            "LocalizeEN": "It is your time"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kisaki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_growup_1",
+            "LocalizeEN": "Growth....huh. Fufu.\nNot a bad feeling"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kisaki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_growup_2",
+            "LocalizeEN": "At the least, my... Oh, nevermind"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kisaki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_growup_3",
+            "LocalizeEN": "Potential is a good thing. It allows me to peek into the future. Fufu... All of it, is thanks to you"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kisaki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_growup_4",
+            "LocalizeEN": "I can still do more, you say...? Hmm... If you say so, then it must be the truth"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kisaki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_relationship_up_1",
+            "LocalizeEN": "Life is like a river that keeps on flowing. And it seeks someone that can accept that. There is no deep meaning.... But, I don't mean it has no meaning either, you know?"
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kisaki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_relationship_up_2",
+            "LocalizeEN": "\"Since when has the moonlight came to be?\", I ask the skies with a cup in my hands ... Fufu, it might just be, that you were there, all along."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kisaki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_relationship_up_3",
+            "LocalizeEN": "Your empty hand, I will hold it. Your unfulfilled heart, I will fill it.\n...That's why, you are fine the way you are right now."
+        },
+        {
+            "CharacterId": 20039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kisaki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0139/ch0139_relationship_up_4",
+            "LocalizeEN": "I would call our encounter as once in a lifetime, but that would be so very lonely.\n...Even so, I will never forget you. No matter what happens. Forever. Alright."
+        }
+    ]
+}

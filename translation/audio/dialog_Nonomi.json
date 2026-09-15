@@ -1,0 +1,294 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Nonomi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_formation_in_1",
+            "LocalizeEN": "Yes, leave it to me."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Nonomi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_formation_in_2",
+            "LocalizeEN": "I will help you, Sensei."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Nonomi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_formation_select",
+            "LocalizeEN": "Wow, you are going to choose me?"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_defeat_1",
+            "LocalizeJP": "ちょっと無理みたい…。",
+            "LocalizeEN": "It seems a bit impossible..."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_defeat_2",
+            "LocalizeJP": "惜しかったね…、次こそは絶対に。",
+            "LocalizeEN": "That was close... Next time for sure."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_in_1",
+            "LocalizeEN": "Come on, everyone, please give your best wishes."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_in_2",
+            "LocalizeEN": "Yup yup! Let's all do our best."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_victory_1",
+            "LocalizeEN": "It's all thanks to Sensei."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Nonomi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_tactic_victory_2",
+            "LocalizeEN": "Your conducting was the best."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_buffself_1",
+            "LocalizeJP": "ではでは、いきましょうか。",
+            "LocalizeEN": "Well then, let's go."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_damage_1",
+            "LocalizeJP": "うぅ…。"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_damage_2",
+            "LocalizeJP": "おっとっと。",
+            "LocalizeEN": "Oopsie."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_in_1",
+            "LocalizeEN": "Let's fight today."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_in_2",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_move_1",
+            "LocalizeEN": "Let's move on to the next one."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_move_2",
+            "LocalizeEN": "Now, move forward, move forward."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_recovery_1",
+            "LocalizeEN": "Wow, great!"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_retire",
+            "LocalizeJP": "うう、ごめんなさい。",
+            "LocalizeEN": "Ugh... I'm so sorry."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_shout_1",
+            "LocalizeJP": "あ、髪が乱れちゃいました。",
+            "LocalizeEN": "Oh, my hair got messed up."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_shout_2",
+            "LocalizeJP": "うふ。では、真面目に行きますよ。",
+            "LocalizeEN": "Now, let's get serious."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_shout_3",
+            "LocalizeJP": "いいですよ。準備終わりました。",
+            "LocalizeEN": "OK. I'm ready to go."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_tacticalaction_1",
+            "LocalizeEN": "Here we go!☆"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_victory_1",
+            "LocalizeJP": "ふふっ～最高の戦いでした～！",
+            "LocalizeEN": "Hehee! It was a great fight!"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Nonomi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_battle_victory_2",
+            "LocalizeEN": "Thank you all for your hard work."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Nonomi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_commonskill",
+            "LocalizeEN": "Well now!☆"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_1",
+            "LocalizeEN": "Yup, yup, I'm ready."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_2",
+            "LocalizeEN": "Now it's my turn!"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_3",
+            "LocalizeJP": "ノノミ～行きま～す",
+            "LocalizeEN": "Nonomi, going all out!☆"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_level_1",
+            "LocalizeEN": "It's punishment time!☆"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_level_2",
+            "LocalizeEN": "Firing all bullets!☆"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nonomi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_exskill_level_3",
+            "LocalizeEN": "Please prepare yourself!"
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nonomi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_growup_1",
+            "LocalizeEN": "Thank you for always taking care of me, Sensei."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nonomi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_growup_2",
+            "LocalizeEN": "Hehe, one step forward."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nonomi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_growup_3",
+            "LocalizeEN": "I will try my hardest."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nonomi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_growup_4",
+            "LocalizeEN": "I'm growing up at this very moment."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nonomi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_relationship_up_1",
+            "LocalizeEN": "I feel like I've become even closer to Sensei."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nonomi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_relationship_up_2",
+            "LocalizeEN": "I feel... kind of excited."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nonomi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_relationship_up_3",
+            "LocalizeEN": "Sensei, please watch me. I will do my best."
+        },
+        {
+            "CharacterId": 13004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nonomi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Nonomi/nonomi_relationship_up_4",
+            "LocalizeEN": "Yes, I understand, Sensei. Well, then... Let's do the... \"thing\" together, shall we?"
+        }
+    ]
+}

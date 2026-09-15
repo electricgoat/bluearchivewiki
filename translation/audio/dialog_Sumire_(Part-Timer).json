@@ -1,0 +1,18 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20044,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Sumire_(Part-Timer)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0287/CH0287_EventLogin_Season_1",
+            "LocalizeEN": "Something very unsportsman-like seems to be going on.\n\nWe have to do something, Trainer!"
+        },
+        {
+            "CharacterId": 20044,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Sumire_(Part-Timer)_EventShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0287/CH0287_EventShop_End",
+            "LocalizeEN": "Please double check to make sure you didn't forget anything."
+        }
+    ]
+}

@@ -1,0 +1,358 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Koyuki_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_Gachaget",
+            "LocalizeEN": "Is there anything fun going on? I, Kurosaki Koyuki, am here! Ni・Ha・Ha・Ha!!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Koyuki_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_Cafe_monolog_2",
+            "LocalizeEN": "Th-This is a safe zone! No one can get me here, right?!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koyuki_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_LogIn_2",
+            "LocalizeEN": "Nihaha, Sensei!\n\n...Huh? No, I didn't touch anything.\n\nMaybe...?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koyuki_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday! Se・n・Se・i!\n\nI'll do anything for you today, Sensei."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koyuki_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_Season_Birthday",
+            "LocalizeEN": "Yup! Today's my birthday!\n\nNihaha! I hope I'm lucky today. Otherwise, I'll be in trouble!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koyuki_Season_Halloween_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_Season_Halloween_1_2",
+            "LocalizeEN": "...Me? I-I've never...\n\nI don't know if I have, or...have I...? Nihaha...?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Koyuki_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/CH0198_MemorialLobby_1_1",
+            "LocalizeEN": "Wow, Sensei! An actual four-leaf clover!\n\nWhat happened?! It wasn't there just a moment ago!\n\nMaybe... It suddenly sprouted?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Koyuki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_formation_in_1",
+            "LocalizeEN": "Let's try it out!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Koyuki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_formation_in_2",
+            "LocalizeEN": "May fun things, please happen!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Koyuki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_formation_select",
+            "LocalizeEN": "Uwaa!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_defeat_1",
+            "LocalizeJP": "はあ、はあ、ムズイ…。",
+            "LocalizeEN": "Haa, haa, so hard..."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_defeat_2",
+            "LocalizeJP": "思ってたのと違う。",
+            "LocalizeEN": "It was different from what I thought..."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_in_1",
+            "LocalizeEN": "Geh, isn't that a bit too much?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_in_2",
+            "LocalizeEN": "Um, are you gonna do all this?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_victory_1",
+            "LocalizeEN": "Wasn't calling me worth it?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koyuki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_tactic_victory_2",
+            "LocalizeEN": "Please call me next time too!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_buffed_1",
+            "LocalizeEN": "Ah! Are you giving it to me?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_buffself_1",
+            "LocalizeJP": "ちゃんとやりますよーだ。",
+            "LocalizeEN": "I'll do it seriously!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_damage_1",
+            "LocalizeJP": "ギョアッ！",
+            "LocalizeEN": "Gyah!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_damage_2",
+            "LocalizeJP": "フガルッ！",
+            "LocalizeEN": "Fugaru!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_damage_3",
+            "LocalizeJP": "あいたたたた。",
+            "LocalizeEN": "Owowowow!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_defense_1",
+            "LocalizeEN": "Nihaha! Not letting you!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_in_1",
+            "LocalizeEN": "I'm the captain now after all!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_in_2",
+            "LocalizeEN": "There's no time to slack off!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_move_1",
+            "LocalizeEN": "Charging in!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_move_2",
+            "LocalizeEN": "I'll keep on going."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_retire",
+            "LocalizeJP": "うぅ、バタン。",
+            "LocalizeEN": "Urgh, ka-thump."
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_shout_1",
+            "LocalizeJP": "ぴゅぴゅぴゅぴゅぴゅーん。",
+            "LocalizeEN": "Pyupyupyupyupyuーn"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_shout_2",
+            "LocalizeJP": "ウララララー！",
+            "LocalizeEN": "Urarararaー!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_shout_3",
+            "LocalizeJP": "ばきゅーんばきゅーん。",
+            "LocalizeEN": "Bakyuーn\nBakyuーn"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_tacticalaction_1",
+            "LocalizeEN": "Hacchaー!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_victory_1",
+            "LocalizeEN": "Easy win easy win. Bang!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koyuki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_battle_victory_2",
+            "LocalizeEN": "Easy easy. Bang!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Koyuki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_commonskill",
+            "LocalizeEN": "NiHaHaHaHa!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_1",
+            "LocalizeEN": "Which one should I choose... Wah!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_2",
+            "LocalizeEN": "In a situation like this... Wah!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_3",
+            "LocalizeJP": "こんな時のために…うわっ！？",
+            "LocalizeEN": "For times like this... Wah!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_level_1",
+            "LocalizeEN": "Well, isn't it fine like this?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_level_2",
+            "LocalizeEN": "So long's the result's good, everything will be ok!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koyuki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_exskill_level_3",
+            "LocalizeEN": "Is this what they call, the best part?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koyuki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_growup_1",
+            "LocalizeEN": "Eh? You're giving it to me? Really? You didn't just mistake me for another person?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koyuki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_growup_2",
+            "LocalizeEN": "Nihahaha! What a great power! Eh? Great responsibility? What's that?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koyuki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_growup_3",
+            "LocalizeEN": "No one can stop me. …Except Sensei! Except my Senpai too!"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koyuki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_growup_4",
+            "LocalizeEN": "Ah, even for me this might be a little too much, surely. Wait, this actually might be good.\nNiha! Are you sure about giving this much to me~!?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koyuki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_relationship_up_1",
+            "LocalizeEN": "Eh? What is it, a present? For me? From Sensei!?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koyuki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_relationship_up_2",
+            "LocalizeEN": "I sincerely give my thanks for the present that I received. Should always be courteous towards adults, right?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koyuki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_relationship_up_3",
+            "LocalizeEN": "Might have I, done something today?"
+        },
+        {
+            "CharacterId": 10063,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koyuki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0198/ch0198_relationship_up_4",
+            "LocalizeEN": "Thank you very much. I'll cherish it, truly."
+        }
+    ]
+}

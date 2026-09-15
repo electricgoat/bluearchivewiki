@@ -1,0 +1,290 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_formation_in_1",
+            "LocalizeJP": "オッケー",
+            "LocalizeEN": "OK."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_formation_select",
+            "LocalizeJP": "(もぐもぐ むしゃむしゃ)"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_defeat_1",
+            "LocalizeJP": "お腹が空いてたから負けちゃった…。",
+            "LocalizeEN": "I was so hungry and we lost..."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_defeat_2",
+            "LocalizeJP": "罰としてご飯抜き！？",
+            "LocalizeEN": "I have to skip meals as punishment!?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_in_1",
+            "LocalizeEN": "Let's get this over quick and go have something to eat?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_in_2",
+            "LocalizeJP": "あ～、この辺に美味しくて有名なお店があった気がする～。",
+            "LocalizeEN": "Oh right! Wasn't there a famous food store in this area?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_victory_1",
+            "LocalizeEN": "Sensei, we won! You'll get us something tasty now, right?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izumi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_tactic_victory_2",
+            "LocalizeEN": "Ah... It's time to eat. Hurry, hurry!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_buffed_1",
+            "LocalizeEN": "I'm feeling better."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_buffself_1",
+            "LocalizeJP": "よいしょっと。",
+            "LocalizeEN": "Here it goes."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_damage_1",
+            "LocalizeJP": "これは美味しくない。",
+            "LocalizeEN": "This isn't yummy."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_damage_2",
+            "LocalizeJP": "痛い！",
+            "LocalizeEN": "Ouch!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_damage_3",
+            "LocalizeJP": "お腹空いたー。",
+            "LocalizeEN": "I'm hungry."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_defense_1",
+            "LocalizeEN": "It doesn't hurt."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_in_1",
+            "LocalizeEN": "Attack! Take all the snacks from the enemy!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_in_2",
+            "LocalizeEN": "Let's end this soon so we can have a snack!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_move_1",
+            "LocalizeEN": "Is it over already? When's dinner?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_move_2",
+            "LocalizeEN": "Once we take care of those kids, can we go get something to eat?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_recovery_1",
+            "LocalizeEN": "Thank you! But now I have an empty stomach..."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_retire",
+            "LocalizeJP": "ごめん、もう限界……。",
+            "LocalizeEN": "Sorry, I'm at my limit..."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_shout_1",
+            "LocalizeJP": "やぁ！"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_shout_2",
+            "LocalizeJP": "はぁ！"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_shout_3",
+            "LocalizeJP": "くらえっ！",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_tacticalaction_1",
+            "LocalizeEN": "I'll go over there."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_victory_1",
+            "LocalizeJP": "(もぐもぐ)うん、よし！"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_battle_victory_2",
+            "LocalizeJP": "(もぐもぐ)\n暴れた後のハンバーガーってやっぱり最高！",
+            "LocalizeEN": "Nom nom. A hamburger after a rampage is the best!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_1",
+            "LocalizeEN": "Come out, deluxe chocolate hamburger!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_2",
+            "LocalizeEN": "I had this prepared for an opportunity like this."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_3",
+            "LocalizeEN": "Ta-da! My snack is here."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_level_1",
+            "LocalizeJP": "(ゴクゴク)\n元気が出る！",
+            "LocalizeEN": "Nom, nom, I feel better!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_level_2",
+            "LocalizeJP": "(もぐもぐ)\nうおおおお！！"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_exskill_level_3",
+            "LocalizeJP": "(むしゃむしゃ)\nおおー！エネルギー充填！覚悟しなさい！",
+            "LocalizeEN": "Nom nom... mm! I'm energised! Get ready!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_growup_1",
+            "LocalizeEN": "Thank you, Sensei! I feel a little full now!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_growup_2",
+            "LocalizeEN": "Why do you always give me these invaluable treats?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_growup_3",
+            "LocalizeEN": "Thank you for the meal!"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izumi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_growup_4",
+            "LocalizeEN": "Let's eat lots of delicious food and gain strength."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_relationship_up_1",
+            "LocalizeEN": "Let's go out on a gourmet tour together?."
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_relationship_up_2",
+            "LocalizeEN": "Whatever I eat, wherever I eat it's always delicious! Is it because I'm with you, Sensei?"
+        },
+        {
+            "CharacterId": 10009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Izumi/izumi_relationship_up_3",
+            "LocalizeEN": "What shall we eat next time?"
+        }
+    ]
+}

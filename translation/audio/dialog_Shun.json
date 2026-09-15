@@ -1,0 +1,291 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shun_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_Shun/Shun_LogIn_1",
+            "LocalizeEN": "Welcome back, Sensei. What would like to do first? Eat or take a bath?\n\nOr...would you rather have class first?"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_formation_in_1",
+            "LocalizeEN": "Ufufu, what a wonderful choice."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_formation_in_2",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shun_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_formation_select",
+            "LocalizeEN": "Oh, is there a problem...?"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_tactic_defeat_1",
+            "LocalizeJP": "み、みんな、怪我はなかった？",
+            "LocalizeEN": "Is everyone alright? Are there any injuries?"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_tactic_defeat_2",
+            "LocalizeJP": "ごめんなさい、私の不注意でした。",
+            "LocalizeEN": "I'm sorry, it was because of my carelessness."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_tactic_in_2",
+            "LocalizeEN": "Alright, let's start playing hide-and-seek."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_tactic_victory_1",
+            "LocalizeEN": "Well done, everyone. You all did well."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shun_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_tactic_victory_2",
+            "LocalizeEN": "Well done, everyone. Don't forget to review when you get home."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_buffed_1",
+            "LocalizeEN": "Thank you for your help."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_buffself_1",
+            "LocalizeJP": "さあ、ちょっとだけ本気で行きましょうか。",
+            "LocalizeEN": "Let's get a little serious."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_covered_1",
+            "LocalizeEN": "Hiding."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_damage_1",
+            "LocalizeJP": "あら。"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_defense_1",
+            "LocalizeEN": "Fufufu, such a trick won't work on me."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_in_1",
+            "LocalizeEN": "Now, let's go for a walk, everyone."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_in_2",
+            "LocalizeEN": "Everyone, be careful not to get lost."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_move_2",
+            "LocalizeEN": "Be careful not to get lost on the way."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_recovery_1",
+            "LocalizeEN": "Oh, thank you!"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_retire",
+            "LocalizeJP": "これ以上…、ごめんなさい。",
+            "LocalizeEN": "That's it... I'm sorry."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_shout_1",
+            "LocalizeJP": "行きまーす。",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_shout_2",
+            "LocalizeJP": "せーの。",
+            "LocalizeEN": "One, two, three!"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_shout_3",
+            "LocalizeJP": "覚悟してね。",
+            "LocalizeEN": "Be prepared."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_tacticalaction_1",
+            "LocalizeEN": "Changing my location."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_victory_1",
+            "LocalizeEN": "Thank you for your hard work, everyone."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shun_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_battle_victory_2",
+            "LocalizeEN": "Let's get along from now on."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shun_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_commonskill",
+            "LocalizeEN": "Heave-ho!"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_1",
+            "LocalizeEN": "I found a bad boy."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_2",
+            "LocalizeEN": "Carefully watch how your sister does it, okay?"
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_3",
+            "LocalizeEN": "Let's end the battle with this."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_level_1",
+            "LocalizeEN": "That's no good."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_level_2",
+            "LocalizeEN": "Bang."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shun_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_exskill_level_3",
+            "LocalizeEN": "Bang."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_growup_1",
+            "LocalizeEN": "Growth is always a pleasant thing."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_growup_2",
+            "LocalizeEN": "I can feel the power coursing through every corner of my body... It's exhilarating."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_growup_3",
+            "LocalizeEN": "My mind and body have become strong."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shun_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_growup_4",
+            "LocalizeEN": "To teach the children, I must take the lead and grow myself."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_relationship_up_1",
+            "LocalizeEN": "When I am with Sensei, I sometimes want to be spoiled like a child."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_relationship_up_2",
+            "LocalizeEN": "Sensei is truly a special person, for the students and for me."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_relationship_up_3",
+            "LocalizeEN": "I am looking forward to teaching together with Sensei."
+        },
+        {
+            "CharacterId": 10011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shun_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Shun/shun_relationship_up_4",
+            "LocalizeEN": "I hope this moment lasts forever."
+        }
+    ]
+}

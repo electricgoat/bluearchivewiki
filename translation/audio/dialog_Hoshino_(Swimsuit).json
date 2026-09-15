@@ -1,0 +1,363 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hoshino_(Swimsuit)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_Gachaget",
+            "LocalizeEN": "*yawn* Oh, Sensei! We should go slow on a day like this!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Swimsuit)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_Cafe_monolog_4",
+            "LocalizeEN": "...Over there?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Swimsuit)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_Lobby_1",
+            "LocalizeEN": "Are you really gonna make me work while I'm wearing something like this? Heh~"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Swimsuit)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei. What do you want for your birthday?\n\n...You'll be happy with anything I do?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Swimsuit)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_Season_Halloween",
+            "LocalizeEN": "Lots of people are wearing interesting outfits.\n\n...Huh? Why are you looking at me like that?\n\nI'm not wearing this for anything like that!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_ExWeapon_Get",
+            "LocalizeEN": "You'd even do that for me...? Seriously, you're so weird. Well, I guess I don't mind. I should work a little harder!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Swimsuit)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_MemorialLobby_2_1",
+            "LocalizeEN": "Cool shade... A comfortable breeze... The soft sound of waves...\n\nWow...! I'm glad I came here! This place is like a dream. It's the best!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Swimsuit)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_MemorialLobby_3_1",
+            "LocalizeEN": "...Don't just stand there, Sensei. Why don't you lie down?\n\nThere's not much room... Do you mind?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Swimsuit)_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_MemorialLobby_5_1",
+            "LocalizeEN": "I don't mind though...\n\nSo, I guess that's why I like you.\n\n...Heeheehee."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hoshino_(Swimsuit)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_EventLobby_1",
+            "LocalizeEN": "Sensei! Is it okay if you play hooky with this old grandma?<ref group=\"note\">Global's translation, \"old grandma\", is inconsistent with the rest of the game. It should be \"uncle\" instead.</ref>\n\nReally? Won't you get in trouble?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hoshino_(Swimsuit)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/HoshinoSwimsuit_EventLogin_Season_End",
+            "LocalizeEN": "Sensei, are you still busy?\n\nUgh... I guess there's no way around it. I'll help you out."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_formation_in_1",
+            "LocalizeEN": "Uhee, I guess it's my turn again."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_formation_in_2",
+            "LocalizeEN": "If Sensei says so, I guess I have to."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_formation_select",
+            "LocalizeEN": "Oh... Huh? Did you pick the wrong person?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_defeat_1",
+            "LocalizeJP": "ありゃ？おっかしいな～？",
+            "LocalizeEN": "Huh? That's strange."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_defeat_2",
+            "LocalizeJP": "気にしない気にしない。大丈夫。ねっ？",
+            "LocalizeEN": "Don't worry. It'll be fine, right?."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_in_1",
+            "LocalizeEN": "Let's finish this quickly."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_in_2",
+            "LocalizeEN": "Well, let's go."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_victory_1",
+            "LocalizeEN": "Great. Then, I can go back and relax now?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_tactic_victory_2",
+            "LocalizeEN": "That was all good."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_buffed_1",
+            "LocalizeJP": "ありがと～。"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_buffself_1",
+            "LocalizeJP": "さて、んじゃやりますか。",
+            "LocalizeEN": "Well then, shall we do it?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_damage_1",
+            "LocalizeJP": "くっ…。"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_damage_2",
+            "LocalizeJP": "ぐぅ…。"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_damage_3",
+            "LocalizeJP": "いたたたー…。",
+            "LocalizeEN": "Ouch."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_defense_1",
+            "LocalizeJP": "無駄無駄～。",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_in_1",
+            "LocalizeEN": "Let's finish soon and take a rest."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_in_2",
+            "LocalizeEN": "Alright, follow me."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_move_1",
+            "LocalizeEN": "Come on, next one!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_move_2",
+            "LocalizeEN": "Let's go to the next one."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_recovery_1",
+            "LocalizeEN": "Woah, thank you!"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_retire",
+            "LocalizeJP": "うへ～。調子に乗り過ぎちゃったかな？",
+            "LocalizeEN": "Uhee, maybe I got too carried away."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_shout_1",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_shout_2",
+            "LocalizeJP": "ふっ！"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_shout_3",
+            "LocalizeJP": "やぁ！"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_victory_1",
+            "LocalizeEN": "Good work, everyone."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_battle_victory_2",
+            "LocalizeJP": "ありがとねー、先生。おかげで楽勝だったよ～。",
+            "LocalizeEN": "Thanks, Sensei. With your help, it was an easy victory."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_exskill_1",
+            "LocalizeEN": "Since we're here I might as well."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_exskill_2",
+            "LocalizeEN": "Hey, don't be so stiff."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_exskill_level_1",
+            "LocalizeEN": "Let's go easy."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_exskill_level_2",
+            "LocalizeEN": "Let's have fun."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_exskill_level_3",
+            "LocalizeEN": "Is that cold?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_growup_1",
+            "LocalizeEN": "Uhee, can I really have all this, Sensei?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_growup_2",
+            "LocalizeEN": "Thank you. I'll take care of this."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_growup_3",
+            "LocalizeEN": "Thank you as always."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_growup_4",
+            "LocalizeEN": "I feel stronger again."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_relationship_up_1",
+            "LocalizeJP": "全くもう、先生はいつもそういうことばっかりー……",
+            "LocalizeEN": "Oh Sensei, you always say stuff like this."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_relationship_up_2",
+            "LocalizeEN": "You know, this old man can't... Hmmm. Ignore what I said. I'll accept this sincerely. Thank you, Sensei."
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_relationship_up_3",
+            "LocalizeJP": "おじさんに一体何ができるんだろうねぇ……",
+            "LocalizeEN": "What can an old man like me do?"
+        },
+        {
+            "CharacterId": 10045,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_HoshinoSwimsuit/hoshinoswimsuit_relationship_up_4",
+            "LocalizeEN": "Let me know if anything comes up. I want to help you too, Sensei."
+        }
+    ]
+}

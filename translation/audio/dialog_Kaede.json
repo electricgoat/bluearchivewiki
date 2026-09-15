@@ -1,0 +1,198 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Kaede_Title",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_Title",
+            "LocalizeEN": "Blue~ Archive!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kaede_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_Cafe_monolog_3",
+            "LocalizeEN": "*humming* Hey, whatcha doing today?"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kaede_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_Lobby_1",
+            "LocalizeEN": "What are we playing...\n\nO-Of course, I'm gonna do my homework!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kaede_Lobby_3_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_Lobby_3_2",
+            "LocalizeEN": "Huh?! They're not heroes of justice? They're kind of different?\n\n...U-Um, is this like a grown-up problem? I don't get it."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kaede_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_MemorialLobby_1_1",
+            "LocalizeEN": "Fufu~\n\nI feel like so much happened today."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kaede_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_EventLogin_2",
+            "LocalizeEN": "Oh, Sensei! What's going on? Are you gonna play in the Movie Village?\n\nI wanna play with you too!\n\nOh, but, I can't do that now..."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kaede_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_EventLobby_2",
+            "LocalizeEN": "Huh? What? Is this like a poking game?\n\nI'm not gonna lose! Yap! Yaaap!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kaede_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_EventLobby_3",
+            "LocalizeEN": "I know that helping like this is a part of my training, but...\n\nIt's still so boring!\n\nHmm... I wanna go out and have fun..."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Kaede_CardShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_CardShop_Login_2",
+            "LocalizeEN": "Okay! Okay! It's your turn, so pick one!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Kaede_Cardpickup_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/Kaede_Cardpickup_1",
+            "LocalizeEN": "Whoa, this is an incredible rare card!\n\nSensei! Amazing! This must be fate!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kaede_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_formation_in_1",
+            "LocalizeJP": "お、私の番…！？任せて任せて！",
+            "LocalizeEN": "Leave it to me, leave it to me."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kaede_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_formation_in_2",
+            "LocalizeJP": "…私？私…！私だー！頑張る頑張るー！",
+            "LocalizeEN": "…I? Me…! It's me! I'll do my best, I'll do my best!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kaede_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_commonskill",
+            "LocalizeEN": "Don! Ahaha!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_1",
+            "LocalizeJP": "さあ、私のかっこいい姿を……！\nのあっ！？ふぅ……",
+            "LocalizeEN": "Now, let's see how cool I look...Oh! Damn..."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_2",
+            "LocalizeJP": "ここで大活躍を……！\nあぁっ！？危ない危ない……",
+            "LocalizeEN": "Let's show our success here...ha! ? Dangerous, dangerous."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_3",
+            "LocalizeJP": "ふふっ、ここで必殺技……！\nとあぁっ！？びっくりしたー……",
+            "LocalizeEN": "Fufu~, here's the special move... oops! I was surprised…."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_level_1",
+            "LocalizeEN": "Signal bullet firing"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_level_2",
+            "LocalizeEN": "Because I can be strong too."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kaede_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_exskill_level_3",
+            "LocalizeEN": "Be dashing when you're in a pinch! I appear."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kaede_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_growup_1",
+            "LocalizeEN": "Sensei, thank you for giving me this."
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kaede_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_growup_2",
+            "LocalizeEN": "Is this for me? Yay!"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kaede_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_growup_3",
+            "LocalizeEN": "oh…. This power fills my entire body. …what? Is there no such effect? What, was it just my imagination?"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kaede_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_growup_4",
+            "LocalizeEN": "A gift from Sensei, I wonder if this will make me grow a little taller"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kaede_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_relationship_up_1",
+            "LocalizeEN": "Sensei, do you have free time today? Why don't you stay the night at the discipline club?"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kaede_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_relationship_up_2",
+            "LocalizeEN": "Oh, I think I can become a wonderful lady too... , maybe that's a little different? Why?"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kaede_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_relationship_up_3",
+            "LocalizeEN": "I'm really happy that Sensei is going out with me I really like it"
+        },
+        {
+            "CharacterId": 20015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kaede_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kaede/kaede_relationship_up_4",
+            "LocalizeEN": "I heard that people are supposed to give presents to their loved ones. That's why I give you my treasure, this shiny stone! copper? It's sparkling, isn't it?"
+        }
+    ]
+}

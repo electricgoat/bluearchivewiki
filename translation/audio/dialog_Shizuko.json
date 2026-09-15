@@ -1,0 +1,143 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Shizuko_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/Shizuko_EventShop_1",
+            "LocalizeEN": "Momoyodou won't be stopped, even if there is a festival!\n\nWell, we are the Festival Operations team after all. Heehee."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shizuko_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_formation_in_1",
+            "LocalizeJP": "さすが先生お目が高いですね。",
+            "LocalizeEN": "As expected of the teacher, your eyes are high."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shizuko_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_formation_in_2",
+            "LocalizeJP": "イエス！ お祭りの予算を稼ぐチャンス…じゃなくて！頑張りまーす。",
+            "LocalizeEN": "YES! A chance to earn festival budget... no! I'll do my best."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shizuko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_commonskill",
+            "LocalizeEN": "I won't let you get in my way."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_1",
+            "LocalizeJP": "百夜堂、出張販売ですっ！\n……ああっ？！",
+            "LocalizeEN": "It is a business trip sale at Momoyo Hall. …Wow!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_2",
+            "LocalizeEN": "Momoyo Hall sells business trips anywhere. …Wow! A tea set!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_2_b",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_2_b",
+            "LocalizeJP": "百夜堂はどこへでも 出張販売します！\nあっ！",
+            "LocalizeEN": "Momoyo Hall sells business trips anywhere. …Wow!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_3",
+            "LocalizeJP": "ここで活動資金を稼がないと……！\n……うわわっ？！",
+            "LocalizeEN": "I need to earn activity funds here.…Wow!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_level_1",
+            "LocalizeEN": "I am not disappointed by this."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_level_2",
+            "LocalizeEN": "hang on! Too intense."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shizuko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_exskill_level_3",
+            "LocalizeEN": "ah.Even though it's from a shop."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shizuko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_growup_1",
+            "LocalizeEN": "Ehehe. Shizuko is very happy that her teacher cares about her. Nyan Nyan♡…OK. i'm cute."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shizuko_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_growup_2",
+            "LocalizeEN": "Yeah! I grew up. V!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shizuko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_growup_3",
+            "LocalizeEN": "W,well. I will do my best to live up to your expectations."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shizuko_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_growup_4",
+            "LocalizeEN": "I've been treated so well by my teacher, Shizuko, I'll do my best again as the owner of Momoyo Hall and poster girl!"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shizuko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_relationship_up_1",
+            "LocalizeEN": "it's close! The distance with the teacher is so close! I wonder if it's okay？ I wonder if it's okay？"
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shizuko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_relationship_up_2",
+            "LocalizeJP": "この甘い気持ち……\n百夜堂のあんみつを、口いっぱいに頬張った時みたいな……",
+            "LocalizeEN": "This sweet feeling is just like when you've filled your mouth with Momoyo Hall's anmitsu."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shizuko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_relationship_up_3",
+            "LocalizeEN": "I always feel like I'm on a festival day when I'm with sensei, it's really strange."
+        },
+        {
+            "CharacterId": 23006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shizuko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Shizuko/shizuko_relationship_up_4",
+            "LocalizeEN": "They say that even the fun festivals will end someday. But at least until the time really comes...can I stay by your side for a little longer?"
+        }
+    ]
+}

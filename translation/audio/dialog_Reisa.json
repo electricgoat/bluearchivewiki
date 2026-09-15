@@ -1,0 +1,325 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Reisa_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/CH0167_Cafe_monolog_3",
+            "LocalizeEN": "No, I have to push forward as normal!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Reisa_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/CH0167_EventLogin_2",
+            "LocalizeEN": "Here comes the superhero of the Vigilante Crew!\n\nIt is I, Uzawa Reisa! Greetings!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Reisa_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/CH0167_EventLobby_3",
+            "LocalizeEN": "There was an incident? Where's the culprit?!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reisa_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_formation_in_1",
+            "LocalizeEN": "At last, It's my turn!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reisa_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_formation_in_2",
+            "LocalizeEN": "Yes! I can go anytime!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Reisa_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_formation_select",
+            "LocalizeJP": "宇沢（うざわ）レイサにお任せください！",
+            "LocalizeEN": "Leave everything to... Uzawa Reisa!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_defeat_1",
+            "LocalizeJP": "うわぁっ…ごめんなさい…",
+            "LocalizeEN": "Uwaa... I'm sorry..."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_defeat_2",
+            "LocalizeJP": "私がもっと、ちゃんとしていれば…",
+            "LocalizeEN": "If only I've... been more diligent..."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_in_1",
+            "LocalizeEN": "If my help's needed, I'll go anywhere!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_in_2",
+            "LocalizeJP": "皆さんと一緒に、私、宇沢（うざわ）レイサが参ります！",
+            "LocalizeEN": "Together with everyone, I, Uzawa Reisa, is heading out!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_victory_1",
+            "LocalizeEN": "Whew! Wasn't that a cakewalk."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Reisa_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_tactic_victory_2",
+            "LocalizeEN": "Whew! Justice always prevails!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_buffed_1",
+            "LocalizeEN": "T-Thank you very much..."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_buffself_1",
+            "LocalizeJP": "最大出力で、行きますよ！",
+            "LocalizeEN": "Moving with maximum output!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_damage_1",
+            "LocalizeJP": "ぐっ",
+            "LocalizeEN": "Oow"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_damage_2",
+            "LocalizeJP": "うっ",
+            "LocalizeEN": "Oof"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_damage_3",
+            "LocalizeJP": "ぐいっ",
+            "LocalizeEN": "Owie"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_in_1",
+            "LocalizeEN": "Wow! I'm in the lead! ?"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_in_2",
+            "LocalizeEN": "With nothing to fear, onwards!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_move_1",
+            "LocalizeEN": "I can still keep on going!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_move_2",
+            "LocalizeEN": "Moving to the next!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_recovery_1",
+            "LocalizeEN": "Aah! T-Thank you very much..."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_retire",
+            "LocalizeJP": "ま、まだ…　いけぇ…",
+            "LocalizeEN": "I-I can... still..."
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_shout_1",
+            "LocalizeJP": "ハ！",
+            "LocalizeEN": "Hah!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_shout_2",
+            "LocalizeJP": "ヤア！",
+            "LocalizeEN": "Yaah!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_shout_3",
+            "LocalizeJP": "トリャ！",
+            "LocalizeEN": "Dorya!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_tacticalaction_1",
+            "LocalizeEN": "Haa!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_victory_1",
+            "LocalizeEN": "Umu! The natural outcome!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Reisa_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_battle_victory_2",
+            "LocalizeEN": "Next! Moving to the next!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Reisa_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_commonskill",
+            "LocalizeEN": "Finishing Move! Pose of Victory!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_1",
+            "LocalizeEN": "Dorya-!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_2",
+            "LocalizeEN": "Making my entrance!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_3",
+            "LocalizeEN": "It's a match!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_level_1",
+            "LocalizeEN": "You can't escape!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_level_2",
+            "LocalizeEN": "Please receive, this letter of challenge!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Reisa_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_exskill_level_3",
+            "LocalizeEN": "Please prepare yourself!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reisa_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_growup_1",
+            "LocalizeEN": "T-This is... for me?"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reisa_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_growup_2",
+            "LocalizeEN": "Thank you so much, Sensei! I'll keep on doing my best!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reisa_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_growup_3",
+            "LocalizeJP": "宇沢（うざわ）レイサの成長に、終わりはありません！",
+            "LocalizeEN": "Uzawa Reisa's growth, has no ending!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Reisa_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_growup_4",
+            "LocalizeEN": "With growth together comes responsibility. I'll be working hard even further!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reisa_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_relationship_up_1",
+            "LocalizeEN": "If it's okay with you Sensei, um... I'd like to keep on being your bodyguard!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reisa_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_relationship_up_2",
+            "LocalizeEN": "I feel like I've shown a lot of shameful sides to you Sensei, but um... that's okay, right?"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reisa_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_relationship_up_3",
+            "LocalizeEN": "The fact that I'm here now, everything is all thanks to you, Sensei!"
+        },
+        {
+            "CharacterId": 10068,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Reisa_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0167/ch0167_relationship_up_4",
+            "LocalizeEN": "Just like before... No! From here on out! Please take care of me!"
+        }
+    ]
+}

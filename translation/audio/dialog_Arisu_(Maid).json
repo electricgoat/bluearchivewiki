@@ -1,0 +1,530 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Arisu_(Maid)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Cafe_monolog_3",
+            "LocalizeEN": "I have heard tell that this world holds places called \"maid cafe.\""
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Arisu_(Maid)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Cafe_monolog_5",
+            "LocalizeEN": "My maid level has gone up! My stats while wearing this maid outfit have improved a bit."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Lobby_2",
+            "LocalizeEN": "When I wear a maid outfit, I feel as if my cleaning skill level has increased!\n\nSensei, do you need me to clean somewhere?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Lobby_4_2",
+            "LocalizeEN": "Augh... I've lost my calm mind..."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Lobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Lobby_5_1",
+            "LocalizeEN": "Sensei, what is on your task list for the day?\n\nOh, you're going to spend all day vegging out? As for me..."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei!\n\nTell me what the correct gift item is, and I will embark on a fetchquest!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Season_Birthday",
+            "LocalizeEN": "The day I met you and my friends in the Game Development Department...\n\nI will not ever forget that day, Sensei.\n\nSensei, I look forward to many more days together!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_(Maid)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_Season_Halloween",
+            "LocalizeEN": "Happy Halloween!\n\nToday is I have seen several people disguised as video game characters!\n\nOr...is it that video games are becoming reality today...?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Arisu_(Maid)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_ExWeapon_Get",
+            "LocalizeEN": "This...this is a legendary holy sword, imbued with both my strength and Sensei's! Thank you! I will raise my maid level even higher to become a maid hero worthy of this!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Arisu_(Maid)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_MemorialLobby_2_1",
+            "LocalizeEN": "The day will come when I have mastery over being a maid, and reach the highest level in my class.\n\nThat is the side of me that I want to show you.\n\nSo, please wait until then."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Arisu_(Maid)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_MemorialLobby_4_1",
+            "LocalizeEN": "If I can do it in a party with you...\n\nThen I can take on any dungeon in the world."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLogin_2",
+            "LocalizeEN": "My loadout is equipped! I am ready to go! What about you, Sensei?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLogin_Season_1",
+            "LocalizeEN": "I have worked very hard to clean and keep watch. I did a good job, right?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLogin_Season_2",
+            "LocalizeEN": "Uh... This got a lot more complicated than I expected...\n\nBut! Not to worry. I am a hero maid, and I am ready for anything!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLogin_Season_End",
+            "LocalizeEN": "That was an incredible adventure!\n\nIf I am in a party with you, Sensei, I am not scared of anything!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLobby_1",
+            "LocalizeEN": "My maid level still isn't very high...\n\nBut I will continue to grind for it!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLobby_2",
+            "LocalizeEN": "Sensei, please let me know if you see Neru anywhere.\n\nPromise me, okay?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLobby_3",
+            "LocalizeEN": "Cooking, cleaning, laundry... A maid must know many skills.\n\nWill you join this quest with me, Sensei?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Arisu_(Maid)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventLobby_4",
+            "LocalizeEN": "Um, you can hit me, but I am not going to drop any loot...\n\nI am not a mob!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Login_1",
+            "LocalizeEN": "Welcome, Sensei!\n\nEven watching a shop is within the capabilities of a hero maid!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Login_2",
+            "LocalizeEN": "We have many powerful items in stock for exchange!\n\nBut since it is you, Sensei... I think you could just have all of them!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_End",
+            "LocalizeEN": "Even though the event is over, the shop remains open!\n\nHowever, it is only for a limited time! So do not tarry! Promise you will not tarry!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_1",
+            "LocalizeEN": "Welcome to Aris' Adventure Supplies!\n\nWe have many powerful potions and materials to aid you in your quest!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_Buy_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Buy_1",
+            "LocalizeEN": "Bum bum bum! Item purchased!\n\nI will give you an upgrade! One premium smile, coming up!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_Buy_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Buy_2",
+            "LocalizeEN": "Ohoho... You have quite an eye for quality, dear guest.\n\nWhat do you think? I memorized some lines for situations like this!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_Buy_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Buy_3",
+            "LocalizeEN": "Oh weary traveler, is this your choice?\n\nHow is it, Sensei? I wanted to try that one out!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Arisu_(Maid)_EventShop_Buy_4",
+            "Path": "Audio/VOC_JP/JP_CH0200/CH0200_EventShop_Buy_4",
+            "LocalizeEN": "Inventory management is also a maid's duty!\n\nI will work hard again today!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_GeasGet_1",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_geasget_1",
+            "LocalizeJP": "先生、スコア更新を目指しましょう。アリスが隣で応援してます！",
+            "LocalizeEN": "Let's go for a new score, Sensei. Arisu is cheering you on next door!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Select_1",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_select_1",
+            "LocalizeJP": "パンパカパーン。先生がアリスたちのゲームを遊びに来ました！",
+            "LocalizeEN": "Panpakapaaan! Sensei has come to play a game with Arisu and her friends!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Select_2",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_select_2",
+            "LocalizeJP": "ようこそ、先生。ゲームを開始するにはアリスの隣に座ってください！",
+            "LocalizeEN": "Welcome, Sensei. To start the game, please sit next to Arisu!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Select_3",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_select_3",
+            "LocalizeJP": "ここはアリスが作った部分です！はい！アリスの自信作です！",
+            "LocalizeEN": "This is the part that I made! Yes, and Arisu is very proud of her work!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Shout_2",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_shout_2",
+            "LocalizeJP": "アリス、攻撃します！",
+            "LocalizeEN": "Arisu, attacking!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Start_1",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_start_1",
+            "LocalizeJP": "パンパカパーン。アリス、行きます！",
+            "LocalizeEN": "Panpakapaaan! Arisu is coming!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Arisu_(Maid)_ST0001_Minigame_Start_2",
+            "Path": "Audio/VOC_JP/JP_ST0001/st0001_minigame_start_2",
+            "LocalizeJP": "はい。メイド勇者、出撃します！",
+            "LocalizeEN": "Yes. Brave maid is going out!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_(Maid)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_formation_in_1",
+            "LocalizeEN": "I am Maid Arisu. Pleased to meet you!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_(Maid)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_formation_in_2",
+            "LocalizeEN": "Arisu's role today is... a single attacker of the Light attribute!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_(Maid)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_formation_select",
+            "LocalizeJP": "うぅ……この新スキン、まだ慣れません……",
+            "LocalizeEN": "Hmm, this new skin... I still can't get used to it..."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_defeat_1",
+            "LocalizeJP": "メイドレベルが足りませんでした…。",
+            "LocalizeEN": "The maid level was not enough..."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_defeat_2",
+            "LocalizeJP": "アリスは諦めません…。",
+            "LocalizeEN": "Arisu will not give up..."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_in_1",
+            "LocalizeEN": "Quest started. Go, Arisu!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_in_2",
+            "LocalizeEN": "Arisu will be the maid hero!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_victory_1",
+            "LocalizeEN": "I did it! Sensei, please praise me!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_(Maid)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_tactic_victory_2",
+            "LocalizeEN": "Cleaning quest completed!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_buffed_1",
+            "LocalizeEN": "I received a buff!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_buffself_1",
+            "LocalizeJP": "パワーアップです。",
+            "LocalizeEN": "Power Up!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_damage_2",
+            "LocalizeJP": "イタタ。",
+            "LocalizeEN": "Ow-ow-ow!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_damage_3",
+            "LocalizeJP": "痛いです。",
+            "LocalizeEN": "It hurts."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_defense_1",
+            "LocalizeEN": "Dodging."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_in_1",
+            "LocalizeEN": "We will clean up with maid power."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_in_2",
+            "LocalizeEN": "The job change does not change Arisu."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_move_1",
+            "LocalizeEN": "Arisu will continue cleaning up."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_move_2",
+            "LocalizeEN": "Moving on!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_recovery_1",
+            "LocalizeEN": "HP recovered!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_retire",
+            "LocalizeJP": "HPバーが赤いです！",
+            "LocalizeEN": "My HP bar is red!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_shout_2",
+            "LocalizeJP": "狙撃、開始します！",
+            "LocalizeEN": "Commencing sniping!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_tacticalaction_1",
+            "LocalizeEN": "Heading towards the goal."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_victory_1",
+            "LocalizeEN": "Operation successful. Quite a feat, Sensei!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Maid)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_battle_victory_2",
+            "LocalizeEN": "Mission complete. This is Arisu's favorite line!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Arisu_(Maid)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_commonskill",
+            "LocalizeEN": "Squeak, squeak... All right!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_1",
+            "LocalizeEN": "Cleaning, cleaning... Ah! I am ready!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_2",
+            "LocalizeEN": "It's cleaning time. Hm? I can do it!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_3",
+            "LocalizeEN": "Good, good, good... Huh? I'll do my best!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_level_1",
+            "LocalizeEN": "Lock on target... Blinding Light!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_level_2",
+            "LocalizeEN": "There is no escaping Arisu's eyes!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Maid)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_exskill_level_3",
+            "LocalizeEN": "With an unwavering will... Blinding Light!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_(Maid)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_growup_1",
+            "LocalizeEN": "Maid Level Up! Arisu's status has increased."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_(Maid)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_growup_2",
+            "LocalizeEN": "There is no level cap for Arisu, either as a maid or as a brave warrior!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_(Maid)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_growup_3",
+            "LocalizeEN": "I thought about how to become a maid hero. All I have to do is to raise the level of both Maid and Hero. Please help me, Sensei!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_(Maid)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_growup_4",
+            "LocalizeEN": "Together with you, I am sure that I will become a great maid hero. Please stay by Arisu's side from now on!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_(Maid)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_relationship_up_1",
+            "LocalizeEN": "Sensei! Does the maid outfit suit me?"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_(Maid)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_relationship_up_2",
+            "LocalizeEN": "Ehehe. Arisu is happy to be with Sensei. Please nudge me more!"
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_(Maid)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_relationship_up_3",
+            "LocalizeEN": "Today Arisu is a maid! So I'm going to tap Sensei on the shoulder! Thump-thump."
+        },
+        {
+            "CharacterId": 10066,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_(Maid)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0200/ch0200_relationship_up_4",
+            "LocalizeEN": "Arisu's affection level has increased! ...Can I spoil you a little more?"
+        }
+    ]
+}

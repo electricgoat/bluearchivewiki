@@ -1,0 +1,317 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mutsuki_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/Mutsuki_Season_Xmas",
+            "LocalizeEN": "Drum roll, please! Your Christmas present is...me!\n\nWant to unwrap your present? Heeheehee!<ref group=\"note\">The GL translation initially read 'Best gift ever, huh? Heeheehee!', which raised concerns about censorship.</ref>"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mutsuki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_formation_in_2",
+            "LocalizeEN": "Request time, start!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mutsuki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_formation_select",
+            "LocalizeEN": "Kufufu, in the end you need me, right?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_defeat_1",
+            "LocalizeJP": "クソッ……もう1回、もう1回！",
+            "LocalizeEN": "Shit... Once more, once more!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_defeat_2",
+            "LocalizeJP": "ハァ？負けた？私が！？ふざけないで。",
+            "LocalizeEN": "Huh? I lost? I LOST?! That was bullshit."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_in_1",
+            "LocalizeEN": "Yay! Can I play with fun?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_in_2",
+            "LocalizeEN": "This one? I'll beat this anyway~"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_victory_1",
+            "LocalizeEN": "It's over, right?\nSensei! Let's play, hurry!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mutsuki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_tactic_victory_2",
+            "LocalizeEN": "Kufufufu... That was fun."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_buffed_1",
+            "LocalizeEN": "Aha, thank you."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_buffself_1",
+            "LocalizeJP": "覚悟してね。",
+            "LocalizeEN": "Prepare yourself."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_damage_1",
+            "LocalizeJP": "きゃっ！",
+            "LocalizeEN": "Kya!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_damage_2",
+            "LocalizeJP": "イタッ！",
+            "LocalizeEN": "Ouch!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_damage_3",
+            "LocalizeJP": "痛いー！",
+            "LocalizeEN": "It hurts!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_defense_1",
+            "LocalizeEN": "Wasted, wasted~"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_in_1",
+            "LocalizeEN": "Right, let's go have fun anyway!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_in_2",
+            "LocalizeEN": "Alright let's go fulfill the request!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_move_1",
+            "LocalizeEN": "Kyahaha, that was fun."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_move_2",
+            "LocalizeEN": "What's there in this way?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_recovery_1",
+            "LocalizeEN": "Ahaha, thank you~!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_retire",
+            "LocalizeJP": "覚えてろよ！",
+            "LocalizeEN": "You'll regret this!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_shout_1",
+            "LocalizeJP": "うん！",
+            "LocalizeEN": "Yay!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_shout_2",
+            "LocalizeJP": "あっはは！",
+            "LocalizeEN": "Ahaha!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_shout_3",
+            "LocalizeJP": "死ね！",
+            "LocalizeEN": "Curse you!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_tacticalaction_1",
+            "LocalizeEN": "Let's go~"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_tsa_1",
+            "LocalizeJP": "きゃはっ、やっと届いた。",
+            "LocalizeEN": "Kyaha, finally arrived."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_tsa_2",
+            "LocalizeJP": "楽しくなるやつ、作ってみよっかな？",
+            "LocalizeEN": "Something fun, can I make it?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mutsuki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_battle_victory_1",
+            "LocalizeEN": "Around~ That was fun!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mutsuki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_commonskill",
+            "LocalizeEN": "I'm about to surprise you!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_1",
+            "LocalizeEN": "Ta-da! I'm gonna start fireworks!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_2",
+            "LocalizeEN": "Such a pit-a-pat time is coming~!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_3",
+            "LocalizeEN": "Come on, let's go~!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_level_1",
+            "LocalizeEN": "Take this~ Pow!\nAhahahaha! Interesting."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_level_2",
+            "LocalizeEN": "Kyahahaha!\nLooks like popcorn!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mutsuki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_exskill_level_3",
+            "LocalizeEN": "Keep shooting and...\nB! O! O! M!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mutsuki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_growup_1",
+            "LocalizeEN": "Alright! I'll live up to your expectations more and more!"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mutsuki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_growup_2",
+            "LocalizeEN": "Hey? Did you come to think I'm more important?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mutsuki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_growup_3",
+            "LocalizeEN": "Kufufufu, I feel stronger~"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mutsuki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_growup_4",
+            "LocalizeEN": "You really care about me because... you have a lot of affection for me~! Right?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mutsuki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_relationship_up_1",
+            "LocalizeEN": "When I'm with Sensei, I have more fun for some reason. I don't know why."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mutsuki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_relationship_up_2",
+            "LocalizeEN": "Maybe next time, can I ask for something to Sensei?"
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mutsuki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_relationship_up_3",
+            "LocalizeEN": "Kufufu~, I wanna charge and squeeeeze you."
+        },
+        {
+            "CharacterId": 13006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mutsuki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Mutsuki/mutsuki_relationship_up_4",
+            "LocalizeEN": "I thought we were together because it was fun. ...But that wasn't all. Kyaha."
+        }
+    ]
+}

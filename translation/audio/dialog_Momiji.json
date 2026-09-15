@@ -1,0 +1,261 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momiji_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_formation_in_1",
+            "LocalizeEN": "If I'm able to help."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momiji_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_formation_in_2",
+            "LocalizeEN": "Y, yes. Leave it to me."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Momiji_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_formation_select",
+            "LocalizeEN": "Ah, Sensei has read it too? It's a book that I really like."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_defeat_1",
+            "LocalizeJP": "どこで間違えたんでしょう…。一体、どこで…。",
+            "LocalizeEN": "What in the world went wrong..."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_defeat_2",
+            "LocalizeJP": "力が…、入りません。",
+            "LocalizeEN": "I'm losing strength..."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_in_1",
+            "LocalizeEN": "Let's start."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_in_2",
+            "LocalizeEN": "I hope everything goes well."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_victory_1",
+            "LocalizeEN": "Ha... I'm glad."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Momiji_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_tactic_victory_2",
+            "LocalizeEN": "Thanks to Sensei who is here."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_buffed_1",
+            "LocalizeEN": "Thank you!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_buffself_1",
+            "LocalizeJP": "私も、がんばりますから。",
+            "LocalizeEN": "I will work hard too."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_covered_1",
+            "LocalizeEN": "Hiding!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_damage_1",
+            "LocalizeJP": "イタタ…。",
+            "LocalizeEN": "Ouch."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_damage_2",
+            "LocalizeJP": "痛いです～！",
+            "LocalizeEN": "That hurts."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_defense_1",
+            "LocalizeEN": "It's not a big deal."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_in_1",
+            "LocalizeEN": "Let's move forward like a novel's protagonist!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_in_2",
+            "LocalizeEN": "Let's use all our strength like a manga's protagonist!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_move_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_move_2",
+            "LocalizeEN": "The next location... Where is it?"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_recovery_1",
+            "LocalizeEN": "Thanks, I'm feeling better!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_retire",
+            "LocalizeJP": "ふぇー、くらくらします。"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Momiji_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_battle_tacticalaction_1",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_1",
+            "LocalizeEN": "Be quiet in the library."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_2",
+            "LocalizeEN": "It'll obstruct reading!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_3",
+            "LocalizeEN": "Please don't make loud noises!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_level_1",
+            "LocalizeEN": "Please be quiet!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_level_2",
+            "LocalizeEN": "This is your penalty!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Momiji_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_exskill_level_3",
+            "LocalizeEN": "That's cruel!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momiji_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_growup_1",
+            "LocalizeEN": "Sensei, look! I have grown!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momiji_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_growup_2",
+            "LocalizeEN": "Thank you Sensei. This is all thanks to you."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momiji_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_growup_3",
+            "LocalizeEN": "Even though I cannot describe my feelings well with words right now, I feel similarly with finding an out-of-print book that I have been seeking for a long time."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Momiji_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_growup_4",
+            "LocalizeEN": "Making progress is such a pleasant thing. Hehe, I am so happy."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momiji_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_relationship_up_1",
+            "LocalizeEN": "It was really great to meet Sensei. If that's not the case, I..."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momiji_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_relationship_up_2",
+            "LocalizeEN": "This situation is surely in that manga... Hehe... Ah! No, I'm not imagining anything!"
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momiji_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_relationship_up_3",
+            "LocalizeEN": "What kinds of books does Sensei usually read? I can look for them. Um... Within the scope of what I can find."
+        },
+        {
+            "CharacterId": 13013,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Momiji_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Momiji/momiji_relationship_up_4",
+            "LocalizeEN": "When Sensei is together with me, I can somehow feel my strength welling up! Now I can do anything!"
+        }
+    ]
+}

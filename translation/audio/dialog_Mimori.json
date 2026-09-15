@@ -1,0 +1,299 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mimori_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/Mimori_LogIn_2",
+            "LocalizeEN": "W-Welcome, Sensei!\n\nPlease, come take your seat. We need to start our tasks, yes?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mimori_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Mimori/Mimori_Lobby_4",
+            "LocalizeEN": "I've dreamed of becoming a proper lady ever since I was young.\n\nLike the ones I read about in mangas and novels."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mimori_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_formation_in_1",
+            "LocalizeEN": "Is it me? Yes, if requested by Sensei, I would be happy to do so."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mimori_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_formation_in_2",
+            "LocalizeEN": "Yes, it's a teacher's help. Please leave it to me."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mimori_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_formation_select",
+            "LocalizeEN": "sir, is there anything i can do for you?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mimori_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_tactic_defeat_1",
+            "LocalizeJP": "今の私では力不足だったのでしょうか。",
+            "LocalizeEN": "Is it because I'm not strong enough now?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mimori_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_tactic_defeat_2",
+            "LocalizeJP": "こんなことでは、いつまでも理想の大和撫子になんて…。",
+            "LocalizeEN": "With this kind of thing, I can't believe I'll always be the ideal Yamato Nadeshiko"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mimori_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_tactic_in_2",
+            "LocalizeEN": "I will do my best to help Sensei."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mimori_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_tactic_victory_1",
+            "LocalizeEN": "I'm glad I was able to help Sensei."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mimori_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_tactic_victory_2",
+            "LocalizeEN": "Have I been of help? ...Hehe, that would have been nice."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_buffed_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_buffself_1",
+            "LocalizeJP": "ここが 頑張りどころですね。",
+            "LocalizeEN": "This is where you do your best."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_damage_2",
+            "LocalizeJP": "ま、負けません。",
+            "LocalizeEN": "I won't lose"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_damage_3",
+            "LocalizeJP": "これぐらいなんてこと。",
+            "LocalizeEN": "How much."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_defense_1",
+            "LocalizeEN": "I managed."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_in_1",
+            "LocalizeEN": "For now, I will be the one to lead the way."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_in_2",
+            "LocalizeEN": "Eliminating danger in advance is also part of thanks to the support. So let's get started."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_move_1",
+            "LocalizeEN": "Is everyone okay? Okay. Let's move on to the next one."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_move_2",
+            "LocalizeEN": "okay still fighting"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_recovery_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_retire",
+            "LocalizeJP": "私がここで、一人倒れるわけには、",
+            "LocalizeEN": "In order for me to fall alone here,"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_shout_1",
+            "LocalizeJP": "これ 受け取ってください。",
+            "LocalizeEN": "Please accept this."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_shout_3",
+            "LocalizeJP": "次の動きに備えましょう。",
+            "LocalizeEN": "Get ready for your next move."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_tacticalaction_1",
+            "LocalizeEN": "I will move."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_victory_1",
+            "LocalizeEN": "What do you think, teacher? I did my best."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mimori_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_battle_victory_2",
+            "LocalizeEN": "Heh, Sensei, could you give me a compliment?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mimori_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_commonskill",
+            "LocalizeEN": "I'm preparing a lunch box."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_1",
+            "LocalizeEN": "So everyone please gather."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_2",
+            "LocalizeEN": "Shall we take a break?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_3",
+            "LocalizeEN": "That's right, there's something special"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_level_1",
+            "LocalizeEN": "Is this everyone?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_level_2",
+            "LocalizeEN": "I prepared a lot."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mimori_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_exskill_level_3",
+            "LocalizeEN": "Everyone Please eat well and do your best."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mimori_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_growup_1",
+            "LocalizeEN": "I see, there is also this kind of training."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mimori_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_growup_2",
+            "LocalizeEN": "I'm not good at fighting, but I want to be strong for Sensei."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mimori_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_growup_3",
+            "LocalizeEN": "Even if I'm still weak, it's okay."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mimori_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_growup_4",
+            "LocalizeEN": "The road to training is still difficult, but I will continue to work harder. Both for myself and for Sensei."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mimori_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_relationship_up_1",
+            "LocalizeEN": "Our bond is getting deeper and deeper, isn't it, Sensei?"
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mimori_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_relationship_up_2",
+            "LocalizeEN": "Now I can be closer to Sensei..Oh, no, it's nothing."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mimori_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_relationship_up_3",
+            "LocalizeEN": "I don't know how to express the feelings that are rising from deep within my heart. However, I can tell you this. I'm glad I was able to be by your side."
+        },
+        {
+            "CharacterId": 10034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mimori_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Mimori/mimori_relationship_up_4",
+            "LocalizeEN": "Thank you for taking such great care of me. Teacher Is it okay if we hold hands like this for a little longer?"
+        }
+    ]
+}

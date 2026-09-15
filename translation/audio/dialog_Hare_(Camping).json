@@ -1,0 +1,404 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hare_(Camping)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_Cafe_monolog_1",
+            "LocalizeEN": "Ahh. How cozy."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hare_(Camping)_Season_NewYear_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_Season_NewYear_1",
+            "LocalizeEN": "Happy new year, Sensei.\n\nThey were handing out gamju in front of Millennium Tower."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLogin_2",
+            "LocalizeEN": "CAMPING?!\n\nI can't with the vice president sometimes."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLogin_Season_1",
+            "LocalizeEN": "What...do people do...in nature?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLogin_Season_2",
+            "LocalizeEN": "A bear? What do you mean a bear?! Where??\n\nWe need to get out of here, stat. Please."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLogin_Season_End_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLogin_Season_End_1",
+            "LocalizeEN": "Fine, fine. I guess it wasn't too bad overall."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLogin_Season_End_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLogin_Season_End_2",
+            "LocalizeEN": "What exactly does, \"from time to time\" mean? How often are we talking here?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLobby_1",
+            "LocalizeEN": "Please... I need to know...where the closest convenience store is..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLobby_2",
+            "LocalizeEN": "(I finally found Wi-Fi...! Nope... It's gone again.)"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLobby_3",
+            "LocalizeEN": "This energy drink...is warm.\n\nI wouldn't normally say yes, but I'm doing a lot of things I wouldn't normally do."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLobby_4_2",
+            "LocalizeEN": "...Huh? What do you mean you're enjoying yourself?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hare_(Camping)_EventLobby_4_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventLobby_4_3",
+            "LocalizeEN": "...I guess Sensei is popular for a reason."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hare_(Camping)_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventShop_1",
+            "LocalizeEN": "You know, if this was a game, we could've collected all of this with just one click."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hare_(Camping)_EventShop_Buy_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventShop_Buy_1",
+            "LocalizeEN": "Yeah... I think it'll be okay."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hare_(Camping)_EventShop_Buy_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_EventShop_Buy_2",
+            "LocalizeEN": "This...is for me?\n\nThanks. I'll give you everything I gathered in return."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "VoiceClip": "Hare_(Camping)_CookingShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_CookingShop_End",
+            "LocalizeEN": "So, the curry is technically ready...\n\nBut if it's missing any ingredients or anything, please tell me."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "VoiceClip": "Hare_(Camping)_CookingShop_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_CookingShop_2",
+            "LocalizeEN": "I read somewhere once that chocolate is a good secret ingredient for curry.\n\n...What about an energy drink?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "VoiceClip": "Hare_(Camping)_CookingShop_Cooking_5",
+            "Path": "Audio/VOC_JP/JP_CH0233/CH0233_CookingShop_Cooking_5",
+            "LocalizeEN": "...! Woah. It's actually good.\n\nI didn't know curry could be this good."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hare_(Camping)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_formation_in_1",
+            "LocalizeEN": "If it's Sensei's request..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hare_(Camping)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_formation_in_2",
+            "LocalizeEN": "Ugh, do I have to go outside?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hare_(Camping)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_formation_select",
+            "LocalizeJP": "(ごく、ごく)ふう……\n生き返る……。",
+            "LocalizeEN": "Ahh... I feel refreshed."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_defeat_1",
+            "LocalizeJP": "ごめん。身体張るの専門じゃないから。",
+            "LocalizeEN": "Sorry, I'm not good at putting my body on the line."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_defeat_2",
+            "LocalizeJP": "ちょっとエナドリ買ってくる…。",
+            "LocalizeEN": "I'll go get some energy drinks..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_in_1",
+            "LocalizeEN": "Huh? ...Am I at the front...?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_in_2",
+            "LocalizeJP": "ここはどこ……私はだれ……",
+            "LocalizeEN": "Where am I... Who am I...?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_victory_1",
+            "LocalizeEN": "I should be able to go home now, right?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hare_(Camping)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_tactic_victory_2",
+            "LocalizeEN": "I'm tired... I can't move anymore..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_buffed_1",
+            "LocalizeEN": "Nice idea."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_buffself_1",
+            "LocalizeJP": "コンパイル中…。",
+            "LocalizeEN": "Compiling..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_covered_1",
+            "LocalizeEN": "Firewall, build."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_damage_2",
+            "LocalizeJP": "イタタ…。",
+            "LocalizeEN": "Ouch..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_damage_3",
+            "LocalizeJP": "止まって。",
+            "LocalizeEN": "Stop."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_defense_1",
+            "LocalizeEN": "Security measures are perfect."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_in_1",
+            "LocalizeEN": "Do I have to start doing it now?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_in_2",
+            "LocalizeEN": "Caffeine... I need more caffeine..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_move_1",
+            "LocalizeEN": "All right, I'm off."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_move_2",
+            "LocalizeEN": "I'm going ahead."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_recovery_1",
+            "LocalizeEN": "Th-thank you."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_retire",
+            "LocalizeJP": "うう、あなたたちのアクセス経路、覚えたからね…。",
+            "LocalizeEN": "Ugh, I've memorized your access route..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_tacticalaction_1",
+            "LocalizeEN": "Huh, are you leaving already?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_victory_1",
+            "LocalizeEN": "Oh, are we done? Can I go home now?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_(Camping)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_battle_victory_2",
+            "LocalizeEN": "W-well done... Now, I'm going to leave..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hare_(Camping)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_commonskill",
+            "LocalizeEN": "Ah, that warms me up."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_(Camping)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_exskill_1",
+            "LocalizeEN": "Brrr, it's cold..."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_(Camping)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_exskill_3",
+            "LocalizeEN": "Are they roasted?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_(Camping)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_exskill_level_1",
+            "LocalizeEN": "Do you want to eat baked sweet potatoes?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_(Camping)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_exskill_level_2",
+            "LocalizeEN": "Be careful, it's hot."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_(Camping)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_exskill_level_3",
+            "LocalizeEN": "Fuuu, enjoy."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_(Camping)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_growup_1",
+            "LocalizeEN": "Even the hackers on the forum might be surprised by this."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_(Camping)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_growup_2",
+            "LocalizeEN": "This information might be useful in an outdoor environment."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_(Camping)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_growup_3",
+            "LocalizeEN": "Thank you, Sensei. Next time, I'll show you a better performance."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_(Camping)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_growup_4",
+            "LocalizeEN": "Yeah, that's an interesting idea. I learned something new."
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_(Camping)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_relationship_up_1",
+            "LocalizeEN": "The path of truth seems endless, no matter how far you walk. It's a bit like the human heart, isn't it?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_(Camping)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_relationship_up_2",
+            "LocalizeEN": "Sensei, do you want to play games together on the next break?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_(Camping)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_relationship_up_3",
+            "LocalizeEN": "When I look at a big mountain, I feel like I can see Sensei there. Just like an unchanging landscape, Sensei will always be there for me, right?"
+        },
+        {
+            "CharacterId": 10085,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_(Camping)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0233/ch0233_relationship_up_4",
+            "LocalizeEN": "I don't like mountain climbing, but maybe I'd be up for it if it is just me and Sensei..."
+        }
+    ]
+}

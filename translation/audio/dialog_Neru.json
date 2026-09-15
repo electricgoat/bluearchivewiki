@@ -1,0 +1,336 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Neru_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Neru/Neru_Gachaget",
+            "LocalizeEN": "Huh?! Damn it, our eyes met. I guess I've got no choice but to help you."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Neru/Neru_Season_Xmas",
+            "LocalizeEN": "Yo, Sensei. Merry Christmas...you know.\n\nYou got something for me? I mean, wow a gift!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Neru/Neru_Season_Halloween",
+            "LocalizeEN": "Yo, Sensei. Trick or treat.\n\nWhat? Have you never heard that or somethin'?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Neru_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Neru/Neru_MemorialLobby_1_1",
+            "LocalizeEN": "This, Sensei, is my favorite spot in the world. Welcome!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Neru_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Neru/Neru_MemorialLobby_2_1",
+            "LocalizeEN": "I love this school. And...I love this view."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_formation_in_1",
+            "LocalizeEN": "Phew, is it starting?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_formation_in_2",
+            "LocalizeEN": "It's troublesome, but I can't help it."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_formation_select",
+            "LocalizeEN": "Ahh? It's annoying."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_defeat_1",
+            "LocalizeJP": "負けた？ちげーよ、まだ勝ってねえだけだ。",
+            "LocalizeEN": "lost? No, I just haven't won yet."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_defeat_2",
+            "LocalizeJP": "大丈夫だ、次は ぶっ壊して粉々にしてやっからよ。",
+            "LocalizeEN": "It's okay, next time I'll smash it to pieces."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_in_1",
+            "LocalizeEN": "Is this the battlefield this time?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_in_2",
+            "LocalizeEN": "I'll praise you for not running away."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_victory_1",
+            "LocalizeEN": "This kind of fighting is my specialty."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_tactic_victory_2",
+            "LocalizeEN": "Haha, you're doing better than I expected, Sensei."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_buffed_1",
+            "LocalizeJP": "別にいらねぇってのに……",
+            "LocalizeEN": "Even though you say you don't need it."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_buffself_1",
+            "LocalizeJP": "イライラさせやがって。",
+            "LocalizeEN": "You annoy me."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_covered_1",
+            "LocalizeEN": "All right, let's go."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_damage_1",
+            "LocalizeJP": "くそっ",
+            "LocalizeEN": "Damn."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_damage_2",
+            "LocalizeJP": "めんどくせーな。",
+            "LocalizeEN": "It's troublesome."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_defense_1",
+            "LocalizeEN": "Is that so?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_in_1",
+            "LocalizeEN": "I'm going to go smash it."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_in_2",
+            "LocalizeEN": "Call sign Double O Start cleaning."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_move_1",
+            "LocalizeEN": "Mostly settled, next."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_move_2",
+            "LocalizeEN": "It's worth going on a rampage for a while, isn't it?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_recovery_1",
+            "LocalizeEN": "Huh, you have quite a sense, don't you?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_retire",
+            "LocalizeJP": "みっとも…ねえ。",
+            "LocalizeEN": "I can't believe it..."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_shout_2",
+            "LocalizeJP": "はっ！行くぞ。",
+            "LocalizeEN": "go."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_shout_3",
+            "LocalizeJP": "オラオラァ！",
+            "LocalizeEN": "Oraora!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_tacticalaction_1",
+            "LocalizeEN": "Oops! Was it over there!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_victory_1",
+            "LocalizeEN": "Your biggest mistake is blocking my way."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_battle_victory_2",
+            "LocalizeEN": "Cleaning done."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Neru_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_commonskill",
+            "LocalizeJP": "あぁ？！殺されてぇのか？",
+            "LocalizeEN": "Are you killed?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_1",
+            "LocalizeEN": "I'll kill you."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_2",
+            "LocalizeEN": "Are you kidding me?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_3",
+            "LocalizeEN": "Don't underestimate me."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_level_1",
+            "LocalizeEN": "Oraoraoraora!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_level_2",
+            "LocalizeEN": "You misunderstood who you were fighting against."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_exskill_level_3",
+            "LocalizeEN": "I have to clean up the trash."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_growup_1",
+            "LocalizeEN": "Sensei Good choice, look forward to it."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_growup_2",
+            "LocalizeEN": "Heh, it's nice, isn't it? Leave everything to me"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_growup_3",
+            "LocalizeEN": "No, don't get excited, let's get started, teacher"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_growup_4",
+            "LocalizeEN": "Sensei, be confident because I'll be by your side."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_relationship_up_1",
+            "LocalizeEN": "Wow, don't get too close. I'm going to kill you, I'm going to kill you!"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_relationship_up_2",
+            "LocalizeEN": "You know, it feels good that the teacher is here. Ah, what am I saying now?"
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_relationship_up_3",
+            "LocalizeEN": "I don't know why, I feel strange when I see my teacher."
+        },
+        {
+            "CharacterId": 10008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Neru/neru_relationship_up_4",
+            "LocalizeEN": "Thank you."
+        }
+    ]
+}

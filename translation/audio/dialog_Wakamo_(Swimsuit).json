@@ -1,0 +1,316 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Wakamo_(Swimsuit)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_LogIn_1",
+            "LocalizeEN": "Oh, Sensei. Welcome.\n\nI've been waiting for you. A day feels like a thousand years! ♥"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Wakamo_(Swimsuit)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_LogIn_2",
+            "LocalizeEN": "Welcome, Sensei. Preparations are complete.\n\nOkay, just let me know.\n\nHeehee, heeheehee..."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Wakamo_(Swimsuit)_Lobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_Lobby_3_1",
+            "LocalizeEN": "Can I move just a little closer to you? ...Huh? Really?\n\nO-Oh...?!"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "UILobby2",
+            "VoiceClip": "Wakamo_(Swimsuit)_Lobby_9",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_Lobby_9",
+            "LocalizeEN": "I'm fully prepared... Summer has at last arrived.\n\nI will show you every side of me...!"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_ExWeapon_Get",
+            "LocalizeEN": "You prepared this for me...? I swear...if anything ever gets in our way, I will destroy it no matter what. Heehee, heeheehee... ♥"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Wakamo_(Swimsuit)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/CH0175_MemorialLobby_3_1",
+            "LocalizeEN": "I'm not good enough for you.\n\nI'll always be a thorn in your side.\n\nAnd I'll make many, many more mistakes..."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_formation_in_1",
+            "LocalizeEN": "You found me"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_formation_in_2",
+            "LocalizeEN": "yes, as long as it's for the teacher"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_formation_select",
+            "LocalizeEN": "Oh, if you suddenly stroked me like that"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_defeat_1",
+            "LocalizeJP": "い、いけません、先生を…、失望させるわけには。",
+            "LocalizeEN": "I couldn't let my teacher down, but I couldn't."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_defeat_2",
+            "LocalizeJP": "ごめんなさい、ごめんなさい。",
+            "LocalizeEN": "I'm sorry, I'm sorry"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_in_1",
+            "LocalizeEN": "Shall we come together?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_in_2",
+            "LocalizeEN": "Will you watch over me?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_victory_1",
+            "LocalizeJP": "これくらい、軽い散歩のようなものです",
+            "LocalizeEN": "It's like a light walk."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_tactic_victory_2",
+            "LocalizeEN": "Are you satisfied?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_buffed_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_buffself_1",
+            "LocalizeJP": "そろそろ終わらせましょうか。",
+            "LocalizeEN": "Shall we finish now?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_covered_1",
+            "LocalizeEN": "Ah, just in the right place."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_defense_1",
+            "LocalizeEN": "It's pointless."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_in_1",
+            "LocalizeEN": "Shall we begin?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_in_2",
+            "LocalizeEN": "If you want to block it, I'll break it apart."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_move_1",
+            "LocalizeEN": "It looks like the walk will continue for a while."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_move_2",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_recovery_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_retire",
+            "LocalizeJP": "ああ…。熱気のせいか、少しめまいが。",
+            "LocalizeEN": "Maybe it's the heat, but I'm a little dizzy."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_tacticalaction_1",
+            "LocalizeEN": "Shall we change places?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_victory_1",
+            "LocalizeEN": "I wish you this victory."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_battle_victory_2",
+            "LocalizeEN": "It's a nice win."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_commonskill",
+            "LocalizeEN": "The flies are noisy."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_1",
+            "LocalizeEN": "This time with you. ...Something got in the way."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_2",
+            "LocalizeEN": "Ah, this happy moment. ...Is it a nuisance insect?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_3",
+            "LocalizeEN": "Sensei, please be closer to me. ...Let's clean it up first."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_level_1",
+            "LocalizeJP": "よくも、邪魔をしてくれましたね……",
+            "LocalizeEN": "You've done a good job of interfering with me."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_level_2",
+            "LocalizeEN": "I will smash it all and give it to you."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_exskill_level_3",
+            "LocalizeEN": "Disappear."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_growup_1",
+            "LocalizeEN": "This waka poem has become even stronger with the power I received from my teacher.All this power is for you only."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_growup_2",
+            "LocalizeEN": "It looks like I'm going to get stronger again No, if you wish"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_growup_3",
+            "LocalizeJP": "ああ、ますます強くなってしまいました……うふふっ",
+            "LocalizeEN": "I became stronger and stronger."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_growup_4",
+            "LocalizeJP": "うふふ……嬉しいです……\nこんなにも私を必要としてくださるなんて……",
+            "LocalizeEN": "I'm glad that you need me so much"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_relationship_up_1",
+            "LocalizeEN": "Stay by my side, I'm not going anywhere"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_relationship_up_2",
+            "LocalizeJP": "たとえ季節が移ろっていっても……\nあなた様は変わらず、私のことを愛してくださるのですね……ああ……",
+            "LocalizeEN": "Even if the seasons change, you will still love me the same way. …ah."
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_relationship_up_3",
+            "LocalizeJP": "先生……あなたさま……あなた様、ふふふ、あ・な・た・様……♥\nああ、この溢れる想いは、どうすれば伝わるのでしょう……",
+            "LocalizeEN": "Sensei, you, you, hhh, a-na-ta-sa-ma. ...Ah, how can I convey these overflowing feelings?"
+        },
+        {
+            "CharacterId": 10043,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0175/ch0175_relationship_up_4",
+            "LocalizeJP": "お慕いしております\nあなた様だけを、いつまでも……海よりも深く……",
+            "LocalizeEN": "I love you...only you, forever. Deeper than the sea..."
+        }
+    ]
+}

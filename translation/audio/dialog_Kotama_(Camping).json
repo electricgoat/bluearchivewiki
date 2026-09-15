@@ -1,0 +1,297 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kotama_(Camping)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_Season_NewYear",
+            "LocalizeEN": "Happy new year, Sensei.\n\nI'm strangely happy I get to be the first person to greet you in the new year."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Kotama_(Camping)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_ExWeapon_Get",
+            "LocalizeEN": "I've been considering modifying my gun to play your voice every time I pull the trigger."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kotama_(Camping)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_EventLogin_1",
+            "LocalizeEN": "Ugh. I can still feel the cold under all these layers.\n\nI can't remember the last time I was shivering like this."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kotama_(Camping)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_EventLogin_Season_2",
+            "LocalizeEN": "A BEAR?! Right now??\n\nThe universe is working against me."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kotama_(Camping)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_EventLobby_4",
+            "LocalizeEN": "I'm monitoring all frequency communications within a three kilometer radius...\n\nHuh. Nothing."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kotama_(Camping)_EventMission_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/CH0232_EventMission_1",
+            "LocalizeEN": "I've heard of all of these kinds of equipment and supplies before, definitely.\n\nBut I didn't know setting them up would be this difficult..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotama_(Camping)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_formation_in_1",
+            "LocalizeEN": "If it's more efficient for me to join..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotama_(Camping)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_formation_in_2",
+            "LocalizeEN": "If it is Sensei's request..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotama_(Camping)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_formation_select",
+            "LocalizeEN": "Hmm, I can't hear well here."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotama_(Camping)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_tactic_defeat_1",
+            "LocalizeJP": "この状況…、事前に予測はしていたのですが…。",
+            "LocalizeEN": "This situation... I predicted it in advance, but..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotama_(Camping)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_tactic_defeat_2",
+            "LocalizeJP": "すみません、先生の声をもっときちんと聴いていれば…。",
+            "LocalizeEN": "I'm sorry, I should have listened to Sensei more carefully."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotama_(Camping)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_tactic_in_2",
+            "LocalizeEN": "It's a long way ahead, isn't it..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotama_(Camping)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_tactic_victory_1",
+            "LocalizeEN": "Yes. We got a good recording."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotama_(Camping)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_tactic_victory_2",
+            "LocalizeEN": "It was a good result."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_buffed_1",
+            "LocalizeEN": "Interesting..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_buffself_1",
+            "LocalizeJP": "もっと集中します。",
+            "LocalizeEN": "I will concentrate more."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_covered_1",
+            "LocalizeEN": "Shh, recording in progress."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_damage_3",
+            "LocalizeJP": "これは、きついです…。",
+            "LocalizeEN": "This is tough..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_defense_1",
+            "LocalizeEN": "I can't hear you."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_in_1",
+            "LocalizeEN": "Confirmed, here we go."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_in_2",
+            "LocalizeEN": "I sense a presence up ahead..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_move_1",
+            "LocalizeEN": "I'm moving."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_move_2",
+            "LocalizeEN": "A sound is coming from over there..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_recovery_1",
+            "LocalizeEN": "Thank you very much."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_retire",
+            "LocalizeJP": "この音は…美しくありません。",
+            "LocalizeEN": "This sound is... not beautiful."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_tacticalaction_1",
+            "LocalizeEN": "The recording here is complete."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_victory_1",
+            "LocalizeEN": "Sensei, please share your thoughts on this victory."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotama_(Camping)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_battle_victory_2",
+            "LocalizeEN": "Sensei, please give us a word."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotama_(Camping)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_exskill_1",
+            "LocalizeEN": "I-is this a bear?!"
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotama_(Camping)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_exskill_2",
+            "LocalizeJP": "この辺りに、熊鈴が……",
+            "LocalizeEN": "There might be a bear bell around here...!"
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotama_(Camping)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_exskill_3",
+            "LocalizeEN": "A... a bear!"
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotama_(Camping)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_exskill_level_1",
+            "LocalizeEN": "There, there it is...!"
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotama_(Camping)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_exskill_level_3",
+            "LocalizeEN": "... So it's a rabbit ..."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotama_(Camping)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_growup_1",
+            "LocalizeEN": "Now... I am able to record crisp and clear audio."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotama_(Camping)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_growup_2",
+            "LocalizeEN": "The moment I tune a new power, my heart always beats faster."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotama_(Camping)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_growup_3",
+            "LocalizeEN": "Sensei's voice... I can hear it clearly now."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotama_(Camping)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_growup_4",
+            "LocalizeEN": "...Sensei, I would be happy if you could continue to speak to me directly in the future."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotama_(Camping)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_relationship_up_1",
+            "LocalizeEN": "I will now record the sounds of nature. ...Hmm? Of course, I will also record Sensei's voice. ...Sensei is also a part of nature, after all."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotama_(Camping)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_relationship_up_2",
+            "LocalizeEN": "Sensei. Please praise me... I'm recording this."
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotama_(Camping)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_relationship_up_3",
+            "LocalizeEN": "(If you're going to be by my side forever, then I don't need a wiretap or anything like that...)"
+        },
+        {
+            "CharacterId": 10084,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotama_(Camping)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0232/ch0232_relationship_up_4",
+            "LocalizeEN": "Sensei's voice is more calming than any ASMR."
+        }
+    ]
+}

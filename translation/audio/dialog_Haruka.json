@@ -1,0 +1,282 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Haruka_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/Haruka_Cafe_Act_1",
+            "LocalizeEN": "S-So... I-Is there anything I can do?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Haruka_MemorialLobby_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/Haruka_MemorialLobby_1",
+            "LocalizeEN": "Huh? Eh...!? Wh-Wh-Why? HUH?!"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Haruka_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/Haruka_MemorialLobby_2_1",
+            "LocalizeEN": "H-How...? Wh-Why are you here, Sensei...?!\n\nI-I must have messed up again...\n\nAh, c-could it be that I got the location wrong...?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Haruka_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/Haruka_MemorialLobby_3_1",
+            "LocalizeEN": "Th-That's.... This is... This is where... What should I say...\n\nLike, weeds and such... Where I can grow stuff like that... That..."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Haruka_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/Haruka_MemorialLobby_4_1",
+            "LocalizeEN": "S-Sorry, Sensei. It's my fault that...someone like you came to a filthy place like this...\n\nHuh? Ah...? J-Just now, I heard s-something incredible...!?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruka_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_formation_in_1",
+            "LocalizeEN": "Me?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruka_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_formation_in_2",
+            "LocalizeEN": "Are you really choosing me?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_defeat_1",
+            "LocalizeJP": "ごめんなさいごめんなさいごめんなさい…。",
+            "LocalizeEN": "I'm sorry I'm sorry I'm sorry"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_defeat_2",
+            "LocalizeJP": "わ、私がちゃんとしなかったせいで…。",
+            "LocalizeEN": "It's my fault for not doing it right..."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_in_1",
+            "LocalizeEN": "Yes, I will erase them all."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_in_2",
+            "LocalizeEN": "Yes, I'll kill everyone"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_victory_1",
+            "LocalizeEN": "I accomplished everything as I was told."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruka_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_tactic_victory_2",
+            "LocalizeEN": "I tried my best."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_defense_1",
+            "LocalizeEN": "It doesn't hurt."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_in_1",
+            "LocalizeEN": "Then, let's wipe them all."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_in_2",
+            "LocalizeEN": "Then, let's carefully go and crush them all."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_move_1",
+            "LocalizeEN": "I crushed everyone, as ordered."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_move_2",
+            "LocalizeEN": "Not yet, I'm not done yet!"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_recovery_1",
+            "LocalizeEN": "You're giving this to me?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_retire",
+            "LocalizeJP": "うう…。だ、ダメなのに。",
+            "LocalizeEN": "I can't."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_tacticalaction_1",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_tsa_1",
+            "LocalizeJP": "う、埋めちゃっていいんですよね？",
+            "LocalizeEN": "Is it okay if I bury this?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_tsa_2",
+            "LocalizeJP": "ま、任せてください。全部片付けちゃいます。",
+            "LocalizeEN": "Leave it to me. I'll wipe them all."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_victory_1",
+            "LocalizeEN": "I can eliminate anyone if you wish."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruka_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_battle_victory_2",
+            "LocalizeEN": "Uhm, did I do well?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Haruka_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_commonskill",
+            "LocalizeEN": "This is wrong... Unforgivable."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_exskill_1",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_exskill_2",
+            "LocalizeEN": "Anyway I'll shoot."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_exskill_3",
+            "LocalizeEN": "Haruka is here."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_exskill_level_3",
+            "LocalizeEN": "Please die please die please die!"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_growup_1",
+            "LocalizeEN": "I don't deserve this."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_growup_2",
+            "LocalizeEN": "Why are you being so nice to me?"
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_growup_3",
+            "LocalizeEN": "I have to pay you back. I will definitely, absolutely pay you back no matter what."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_growup_4",
+            "LocalizeEN": "If I were the person I am now, I might be able to meet your expectations."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_relationship_up_1",
+            "LocalizeEN": "Sensei, thank you very much."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_relationship_up_2",
+            "LocalizeEN": "There are so many things I want to repay you for, Sensei."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_relationship_up_3",
+            "LocalizeEN": "Sensei, if there is anything you want to eliminate, please let me know. I will eliminate everything."
+        },
+        {
+            "CharacterId": 16000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Haruka/haruka_relationship_up_4",
+            "LocalizeEN": "Thanks, Sensei."
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chinatsu_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_formation_in_1",
+            "LocalizeJP": "医療支援はお任せください。"
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chinatsu_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_formation_in_2",
+            "LocalizeEN": "It's time to depart."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Chinatsu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/Chinatsu_CommonSkill",
+            "LocalizeEN": "Vitals are normal. Please proceed."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chinatsu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_exskill_1",
+            "LocalizeEN": "Does it hurt? Here."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chinatsu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_exskill_2",
+            "LocalizeEN": "Please let me know if you need help."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chinatsu_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_exskill_3",
+            "LocalizeEN": "It's not medicine, it's the future."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chinatsu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/Chinatsu_ExSkill_Level_1",
+            "LocalizeEN": "From here on it depends on your will."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chinatsu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/Chinatsu_ExSkill_Level_3",
+            "LocalizeEN": "My medicine will save you."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chinatsu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_growup_1",
+            "LocalizeEN": "I grew up."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chinatsu_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_growup_2",
+            "LocalizeEN": "I will do my best to improve."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chinatsu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_growup_3",
+            "LocalizeEN": "I'm sure I can be of use to Sensei now."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chinatsu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_growup_4",
+            "LocalizeEN": "I've become stronger."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chinatsu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_relationship_up_1",
+            "LocalizeEN": "My heart rate is abnormal when I'm with Sensei. As the doctor-in-charge, this is troubling."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chinatsu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_relationship_up_2",
+            "LocalizeEN": "You are a strange person, Sensei."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chinatsu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_relationship_up_3",
+            "LocalizeEN": "My face feels hot. It doesn't seem like I have a cold. That's strange."
+        },
+        {
+            "CharacterId": 26000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chinatsu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Chinatsu/chinatsu_relationship_up_4",
+            "LocalizeEN": "You really are a handful, Sensei. I don't dislike that."
+        }
+    ]
+}

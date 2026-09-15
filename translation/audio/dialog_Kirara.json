@@ -1,0 +1,485 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Kirara_Title",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Kirara_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Gachaget",
+            "LocalizeEN": "Ah! it's Teach! Yahho~! It's Kirara! You were waiting for me? Ahaha, that makes me happy!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kirara_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cafe_monolog_1",
+            "LocalizeEN": "Is there any potential new buddies somewhere~?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kirara_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cafe_monolog_2",
+            "LocalizeEN": "This place's pretty wide, huh! Think I dig it!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kirara_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cafe_monolog_3",
+            "LocalizeEN": "Ah? Teach! Teach! Here!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kirara_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cafe_monolog_4",
+            "LocalizeEN": "Angle it like this and... Yeah! Perfect for selfies I think!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kirara_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cafe_monolog_5",
+            "LocalizeEN": "Wonder if the café here sells parfaits too? I'm really craving for some sweets!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_LogIn_1",
+            "LocalizeEN": "Morning~ Teach! Another busy day?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_LogIn_2",
+            "LocalizeEN": "Duty girl of the day is me, Kirara chan~ Doesnt this get you all excited? Don't you feel so too?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_1",
+            "LocalizeEN": "So the cafe I hit yesterday with my buddy, it was for realsies awesome! Let's go together next time!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_2",
+            "LocalizeEN": "Teach, don't you seem out of steam? How about we take a nap over there?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_3",
+            "LocalizeEN": "Uwahh... This much work... If it was me I'd give up already I think! Teach, you really do got the smarts huh~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_4_1",
+            "LocalizeEN": "Teach, check out this selfie I took yesterday? Whatcha think? Cute right~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_4_2",
+            "LocalizeEN": "Eh? You wanna make it your phone wallpaper? Th- That's a bit too embarrassing I think!?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Lobby_5",
+            "LocalizeEN": "Let's just get this work done and over with, and go out and have fun!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Teach! Your present is.... Me! I'll be with you all day long today so, take care of me 'kay!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Season_Birthday",
+            "LocalizeEN": "Ahaha! So you really did remember! Thank you! You got me all charged up 100%!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Season_NewYear",
+            "LocalizeEN": "Hope this year will be even more sparkly and lively than last year!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Season_Xmas",
+            "LocalizeEN": "Ah, Teach! Merry Christmas!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kirara_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Season_Halloween",
+            "LocalizeEN": "This candy? I'll give it to you! Here, say aaahn~!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Kirara_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_ExWeapon_Get",
+            "LocalizeEN": "Teach... You're.. giving this to me? T- Thanksies~!!\nNo, at times like this I need to be more serious, right? Thank you, Teach"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kirara_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_MemorialLobby_1_1",
+            "LocalizeEN": "What's the matter, Sensei? You're all fidgety\nKeep doing that and break's gonna be over, you know?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kirara_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_MemorialLobby_2_1",
+            "LocalizeEN": "Aah~ You don't know how to do pedicures, that's it?\nIts EZ! First, look reaal close at where you're gonna paint..."
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kirara_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_MemorialLobby_3_1",
+            "LocalizeEN": "Hyah... Y- Yeah! Like that!\nU- Umm.... Aren't your face a tad bit too close... Ahaha!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kirara_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_MemorialLobby_4_1",
+            "LocalizeEN": "Teach... I can really feel your breaths ynow..?\nY- Yeah no maybe  letting you do this is a bit too embarrasing..."
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kirara_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_MemorialLobby_5_1",
+            "LocalizeEN": "Ahaha! Nahh! N- Nothing!\nPaint it quick, and let's get back to studying!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Kirara_Cardpickup_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/Kirara_Cardpickup_1",
+            "LocalizeEN": "Wow! A rare card! Amazing!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirara_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_formation_in_1",
+            "LocalizeJP": "一緒に行きたいの？…いいよ！",
+            "LocalizeEN": "You want to tag along? ...Sure thing!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirara_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_formation_in_2",
+            "LocalizeEN": "Good choice isnt it?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirara_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_formation_select",
+            "LocalizeJP": "……うわっ！びっくりした！",
+            "LocalizeEN": "...Uwah! That startled me!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_defeat_1",
+            "LocalizeJP": "う～ん、超ホコリまみれじゃん…。",
+            "LocalizeEN": "Urgh.... I'm all covered in dust..."
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_defeat_2",
+            "LocalizeJP": "服も髪もグチャグチャ～、超サイアク～。",
+            "LocalizeEN": "My clothes and hair are all a mess~ This really sucks"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_in_1",
+            "LocalizeJP": "いいよ！あたしも気合い入れよっかな。",
+            "LocalizeEN": "Sure~ Guess I'll give it my best too!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_in_2",
+            "LocalizeEN": "Let's go with that then!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_victory_1",
+            "LocalizeJP": "先生、先生。任務完了だって。",
+            "LocalizeEN": "Teach, Teach. Mission complete they say"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirara_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_tactic_victory_2",
+            "LocalizeJP": "任務も終わったし～、一緒に遊びに行かない？",
+            "LocalizeEN": "Mission is done and all, wanna go have some fun?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_buffed_1",
+            "LocalizeJP": "あっ、サンキュー、サンキュー！",
+            "LocalizeEN": "Ah, Thank you thank you~!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_buffself_1",
+            "LocalizeJP": "キララ、完全版だよ！",
+            "LocalizeEN": "Here's Kirara, all perfect!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_covered_1",
+            "LocalizeJP": "見えないでしょ～？",
+            "LocalizeEN": "You can't see me can you~?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_damage_3",
+            "LocalizeJP": "ひど～い！",
+            "LocalizeEN": "That's awful!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_defense_1",
+            "LocalizeJP": "そんなん当たりませーん。",
+            "LocalizeEN": "You aint hitting~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_in_1",
+            "LocalizeJP": "あたしが手伝うから、心配しなくていいよ。",
+            "LocalizeEN": "I'll help you out, so no need to worry"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_in_2",
+            "LocalizeJP": "んじゃ、始めよっか！",
+            "LocalizeEN": "Then, let's start!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_move_2",
+            "LocalizeJP": "あはは、いこいこ。",
+            "LocalizeEN": "Ahaha, let's go let's go"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_recovery_1",
+            "LocalizeJP": "サンキュー、サンキュー。",
+            "LocalizeEN": "Thank you thank you~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_retire",
+            "LocalizeJP": "ふ～…、超サイアク！",
+            "LocalizeEN": "Haah.... This is really  the worst!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_tacticalaction_1",
+            "LocalizeJP": "行こっか～。",
+            "LocalizeEN": "Let's go~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_victory_1",
+            "LocalizeJP": "ひゃっほ～！あたしたちの勝ち～。",
+            "LocalizeEN": "Hyahoo~! Our win!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirara_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_battle_victory_2",
+            "LocalizeJP": "あははっ、これで一件落着だね～。",
+            "LocalizeEN": "Ahaha! That settles that~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kirara_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_commonskill",
+            "LocalizeJP": "うーん、しょうがないなぁ～。",
+            "LocalizeEN": "Hmmm, guess nothing to do about it"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_1",
+            "LocalizeJP": "この写真超映えるじゃん、みんなに見せよ～っと。",
+            "LocalizeEN": "This pic is awesome as heck, gotta show it to everyone~"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_2",
+            "LocalizeJP": "これをこうして…、じゃ～ん！",
+            "LocalizeEN": "Do this like that and... Tadaa~!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_3",
+            "LocalizeJP": "ハッシュタグよーし、…うんうん！いい感じ。",
+            "LocalizeEN": "Hashtag done,...Hmhm all good!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_level_1",
+            "LocalizeEN": "Really digging it!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_level_2",
+            "LocalizeJP": "完璧な角度じゃ～ん。",
+            "LocalizeEN": "Perfect angle isnt it"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirara_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_exskill_level_3",
+            "LocalizeEN": "The reactions are pretty great huh?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirara_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_growup_1",
+            "LocalizeJP": "あれ？…この感じ、初めてかも。",
+            "LocalizeEN": "Huh? This feeling... gotta be my first"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirara_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_growup_2",
+            "LocalizeJP": "うんうん、気に入ったよ。",
+            "LocalizeEN": "Mhmhm, I dig this"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirara_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_growup_3",
+            "LocalizeJP": "あたし、身長伸びたかな…？いいね。",
+            "LocalizeEN": "Did I, grow taller..? That's nice"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirara_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_growup_4",
+            "LocalizeJP": "あははっ、いい感じだね。今のあたし…、ちょっと強いかも。",
+            "LocalizeEN": "Ahaha, feels great. Right now... I'm feeling pretty tough"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirara_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_relationship_up_1",
+            "LocalizeJP": "先生といっしょにいると…、なんか変な気分。ん？どういうことって…、さぁ～！私もわかんないなー。",
+            "LocalizeEN": "When I'm with you... I feel kinda wierd. Hm? What do I mean, you ask...\nWho knoows~! I don't know either"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirara_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_relationship_up_2",
+            "LocalizeJP": "ん、ん？近すぎるんじゃないかって？た、たまには…、良いと思うけど？",
+            "LocalizeEN": "M- Mm? Aren't we being a bit too close? E- Every now and then... that's fine, no?"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirara_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_relationship_up_3",
+            "LocalizeJP": "たまにね、先生と一緒なのに先生に会いたくなるの。…あははっ、あたしホント変だよね！",
+            "LocalizeEN": "Sometimes y 'now, even though I'm with you, I feel like I want to meet you. ....Ahaha, I'm being really weird right!"
+        },
+        {
+            "CharacterId": 10093,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirara_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kirara/kirara_relationship_up_4",
+            "LocalizeJP": "そ、そのなんていうかこういうの初めてで…、か、顔真っ赤！？全然そんなことないんですけど～！",
+            "LocalizeEN": "U- Um... How should I say.. It's my first time with something like this... M- My face is beet red!? No Not at all no~!"
+        }
+    ]
+}

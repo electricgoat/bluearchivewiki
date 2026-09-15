@@ -1,0 +1,290 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko_(Riding)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/ShirokoRidingSuit_LogIn_1",
+            "LocalizeEN": "Welcome, Sensei. Would like to go cycling with me?"
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko_(Riding)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/ShirokoRidingSuit_Lobby_4",
+            "LocalizeEN": "There's something I want to buy, but I'm holding out.\n\nIt's an expensive bike part."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Shiroko_(Riding)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/ShirokoRidingSuit_Season_Xmas",
+            "LocalizeEN": "Cycling on this kind of day as well? Well...I don't have any plans anyway.\n\nI'm fine with meeting up right now, Sensei.\n\nCycling is off limits? Hmm..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Shiroko_(Riding)_MemorialLobby_4",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/ShirokoRidingSuit_MemorialLobby_4",
+            "LocalizeEN": "(Hmm? What's happening? My heartbeat won't stop racing...)"
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_(Riding)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_formation_in_1",
+            "LocalizeEN": "Mm, I'm ready."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_(Riding)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_formation_in_2",
+            "LocalizeEN": "Me? Understood."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shiroko_(Riding)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_formation_select",
+            "LocalizeEN": "Hmm..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_defeat_1",
+            "LocalizeJP": "準備が足りなかったみたい。",
+            "LocalizeEN": "I guess I wasn't prepared enough."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_defeat_2",
+            "LocalizeJP": "作成完璧だったはずなのに。",
+            "LocalizeEN": "It should have been perfect."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_in_1",
+            "LocalizeEN": "The plan is perfect. Let's get started."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_in_2",
+            "LocalizeEN": "Commencing operation. Okay, follow me."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_victory_1",
+            "LocalizeEN": "As expected."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shiroko_(Riding)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_tactic_victory_2",
+            "LocalizeEN": "All thanks to Sensei's guidance."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_buffself_1",
+            "LocalizeJP": "準備完了。",
+            "LocalizeEN": "I'm ready."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_covered_1",
+            "LocalizeEN": "Hiding for now."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_damage_3",
+            "LocalizeJP": "これじゃ。",
+            "LocalizeEN": "This isn't..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_defense_1",
+            "LocalizeEN": "Mm, no problem."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_in_1",
+            "LocalizeEN": "Now, let's move out."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_in_2",
+            "LocalizeEN": "Let's begin."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_move_1",
+            "LocalizeEN": "Let's get moving."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_move_2",
+            "LocalizeEN": "Mm. Go next."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_recovery_1",
+            "LocalizeEN": "Thank you, certainly received."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_retire",
+            "LocalizeJP": "ごめん こんなことになるなんて",
+            "LocalizeEN": "I'm sorry that this happened..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_tacticalaction_1",
+            "LocalizeEN": "I can still do it."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_victory_1",
+            "LocalizeJP": "（ゴクゴク）……ぷはあ。",
+            "LocalizeEN": "[gulp, gulp] Phew..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shiroko_(Riding)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_battle_victory_2",
+            "LocalizeEN": "Whew. Good work."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shiroko_(Riding)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_commonskill",
+            "LocalizeEN": "Hah!"
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_1",
+            "LocalizeEN": "It's time to put this out."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_2",
+            "LocalizeEN": "I wasn't planning to bring it out."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_3",
+            "LocalizeEN": "It can't be helped."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_level_1",
+            "LocalizeEN": "It's a riding grenade."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_level_2",
+            "LocalizeEN": "It's a must-have for cyclists."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shiroko_(Riding)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_exskill_level_3",
+            "LocalizeEN": "Super effective."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_(Riding)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_growup_1",
+            "LocalizeEN": "I've been training non-stop, and I'm sure I can get even stronger."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_(Riding)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_growup_2",
+            "LocalizeEN": "I may still be growing."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shiroko_(Riding)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_growup_4",
+            "LocalizeEN": "This should allow me to go even faster..."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_(Riding)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_relationship_up_1",
+            "LocalizeEN": "I'm having fun spending time with you, Sensei."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_(Riding)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_relationship_up_2",
+            "LocalizeEN": "See you next time."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_(Riding)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_relationship_up_3",
+            "LocalizeEN": "Thanks for your concern."
+        },
+        {
+            "CharacterId": 10024,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shiroko_(Riding)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_ShirokoRidingSuit/shirokoridingsuit_relationship_up_4",
+            "LocalizeEN": "Hmm... I'm in your debt again."
+        }
+    ]
+}

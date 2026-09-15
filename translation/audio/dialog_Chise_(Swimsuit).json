@@ -1,0 +1,391 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Chise_(Swimsuit)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_Title",
+            "LocalizeEN": "Blue~ Archive?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Chise_(Swimsuit)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_Gachaget",
+            "LocalizeEN": "A moment ago...I found a crab walking on the beach. Sensei, do you wanna go see it together?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Chise_(Swimsuit)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_Cafe_monolog_3",
+            "LocalizeEN": "Let's make a house for the crab around here!"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chise_(Swimsuit)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_Lobby_2",
+            "LocalizeEN": "I recently wrote a new Haiku.\nDo you want to hear it?\n\nOk, listen"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Chise_(Swimsuit)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_Lobby_3",
+            "LocalizeEN": "Summer is coming\nSometimes it's hot, others cold\nDelectable change"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chise_(Swimsuit)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_EventLogin_1",
+            "LocalizeEN": "Oh, Sensei. I've been waiting for you.\n\nWhy was I waiting?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chise_(Swimsuit)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_EventLogin_2",
+            "LocalizeEN": "Welcome to the Beach Shack.\n\n...How was that?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Chise_(Swimsuit)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0178/CH0178_EventLobby_4",
+            "LocalizeEN": "Sensei, did you call? I was just about to call you, too.\n\nWhat a coincidence."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_1",
+            "LocalizeJP": "これで、また一歩前進～。"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_2",
+            "LocalizeJP": "お～？もしかして、もっと大きくなった？"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_3",
+            "LocalizeJP": "いい感じだね～。"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_act_1",
+            "LocalizeJP": "これをこうして……あれはそっちで……これもそっちに……ふふん、お～け～"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_act_2",
+            "LocalizeJP": "あっ、ワタリガニさんだ……。"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Chise_(Swimsuit)_EventLocation_Act_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_eventlocation_act_3",
+            "LocalizeJP": "じゃあ、スタートー。みんな、一日三回、歯磨きを忘れないようにね。"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_formation_in_1",
+            "LocalizeEN": "The sun is warm."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_formation_in_2",
+            "LocalizeJP": "んーと………\n準備、OK？",
+            "LocalizeEN": "I'm ready."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Chise_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_formation_select",
+            "LocalizeEN": "We're going swimming?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_defeat_1",
+            "LocalizeJP": "負けちゃった。",
+            "LocalizeEN": "We lost."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_defeat_2",
+            "LocalizeJP": "負けちゃったけど、人間万事塞翁が馬。えっと、つまり気にしない気にしない。",
+            "LocalizeEN": "We lost but, the ways of fate are unpredictable and ever-changing. Um, what I mean is don't worry."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_in_1",
+            "LocalizeEN": "We're going on a walk! Eh? That's not it?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_in_2",
+            "LocalizeEN": "Forward! We're looking for shiny things."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_victory_1",
+            "LocalizeEN": "Is it over? Let's go back, Sensei."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Chise_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_tactic_victory_2",
+            "LocalizeEN": "We won? Can we go swimming now?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_buffed_1",
+            "LocalizeEN": "My power is rising."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_buffself_1",
+            "LocalizeJP": "エネルギー満タン。",
+            "LocalizeEN": "Energy full."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_covered_1",
+            "LocalizeEN": "Can I hide here."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_defense_1",
+            "LocalizeJP": "なんか、くすぐったい",
+            "LocalizeEN": "It tickles."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_in_1",
+            "LocalizeEN": "I'll destroy the intruders, ok?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_in_2",
+            "LocalizeEN": "We're going on a walk."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_move_1",
+            "LocalizeEN": "Which one next?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_move_2",
+            "LocalizeEN": "Let's go over here."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_recovery_1",
+            "LocalizeEN": "Uh? Thank you!"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_retire",
+            "LocalizeJP": "ふう、もう少しお散歩したかったな。",
+            "LocalizeEN": "I wanted to keep walking a little longer."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_shout_1",
+            "LocalizeJP": "やー。",
+            "LocalizeEN": "Ya."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_shout_2",
+            "LocalizeJP": "撃つよ。",
+            "LocalizeEN": "I'll fire."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_shout_3",
+            "LocalizeJP": "撃っちゃった。",
+            "LocalizeEN": "I fired."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_tacticalaction_1",
+            "LocalizeEN": "Here, here!."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Chise_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_battle_victory_1",
+            "LocalizeEN": "Look, look Sensei, victory pose!"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Chise_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_commonskill",
+            "LocalizeEN": "Shoot."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_1",
+            "LocalizeEN": "Shiny things everywhere."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_2",
+            "LocalizeEN": "Come on, let's move on."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_3",
+            "LocalizeEN": "Summer sea fever."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_level_1",
+            "LocalizeJP": "たしかこの辺にー……発見\nバーン",
+            "LocalizeEN": "I'm pretty sure I found it around here."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_level_2",
+            "LocalizeEN": "I was sure I had them... Ah, here! Grenades off."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Chise_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_exskill_level_3",
+            "LocalizeJP": "んーと、えーっと……\nうん。とりあえず、撃ってみよっか",
+            "LocalizeEN": "Eh?... I got it! I should fire, yes?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_growup_1",
+            "LocalizeJP": "夏の日差しを浴びた時みたいな……",
+            "LocalizeEN": "It's like bathing in the summer sun."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_growup_2",
+            "LocalizeEN": "I've gotten stronger! Maybe Sensei is getting stronger too?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_growup_3",
+            "LocalizeEN": "It feels like a fluffy cloud."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Chise_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_growup_4",
+            "LocalizeJP": "次は戦車に……\nその次は、ロケットになりたいな",
+            "LocalizeEN": "Next I want to be a tank and then a rocket."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_relationship_up_1",
+            "LocalizeEN": "Feeling warm next to Sensei... maybe this is happiness?"
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_relationship_up_2",
+            "LocalizeJP": "先生、聞いて聞いて\n胸が、ドクンドクンって言ってる",
+            "LocalizeEN": "Sensei, listen, listen, my heart is saying thump thump."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_relationship_up_3",
+            "LocalizeJP": "先生と一緒にいると\n色んな俳句が浮かんできて、楽しい",
+            "LocalizeEN": "When I'm with Sensei it's fun and various haiku come to mind."
+        },
+        {
+            "CharacterId": 10047,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Chise_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0178/ch0178_relationship_up_4",
+            "LocalizeJP": "キラキラがいっぱいの夏だけど……\n一番キラキラなのは、やっぱり……",
+            "LocalizeEN": "It's a summer with plenty of shiny things but, after all the number one shiniest thing is..."
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Akari_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_Akari/Akari_Cafe_monolog_2",
+            "LocalizeEN": "Hmm. It bothers me to see you spend time with so many other girls."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Akari_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Akari/Akari_Lobby_1",
+            "LocalizeEN": "You're asking me where the cookies went?\n\nUh, I don't know."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Akari_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Akari/Akari_Lobby_2",
+            "LocalizeEN": "When it comes to you... Fufufu, just the thought alone is enough to make me feel happy <ref group=\"note\">The global EN translation says \"Isn't daydreaming fun, Sensei? Heehee.\"</ref>"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Akari_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Akari/Akari_Season_Halloween",
+            "LocalizeEN": "Prepared to be tricked if you don't provide treats.\n\nHmm. What should I do if I want to play my tricks and eat the treats too?"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Akari_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Akari/Akari_MemorialLobby_2_1",
+            "LocalizeEN": "How much sushi have I eaten so far?\n\nHeehee. Am I supposed to count every piece of sushi as I eat?"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Akari_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_formation_in_1",
+            "LocalizeEN": "Yes, leave it to me."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Akari_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_formation_in_2",
+            "LocalizeEN": "Shall we go?"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_defeat_1",
+            "LocalizeJP": "ちょっと頭にきますね。",
+            "LocalizeEN": "This is a bit irritating."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_defeat_2",
+            "LocalizeJP": "次回はほんの少しだけ、グロテスクにやりましょう。",
+            "LocalizeEN": "Next time, let's do it a little bit more grotesquely."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_in_1",
+            "LocalizeEN": "I will meet Sensei's expectations."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_in_2",
+            "LocalizeEN": "Shall we smash them?"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_victory_1",
+            "LocalizeEN": "A perfect victory."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akari_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_tactic_victory_2",
+            "LocalizeEN": "Shall we go out to eat then? What exactly? A. ny. thing."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_buffself_1",
+            "LocalizeJP": "さてと。",
+            "LocalizeEN": "Well then."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_covered_1",
+            "LocalizeEN": "This looks sturdy."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_in_1",
+            "LocalizeEN": "Let the battle begin."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_in_2",
+            "LocalizeEN": "Do your best or you'll learn a harsh lesson~ Be it friend.. or foe..."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_move_1",
+            "LocalizeEN": "I think there's something interesting here."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_move_2",
+            "LocalizeEN": "I'm looking forward to it."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_recovery_1",
+            "LocalizeEN": "Hmmm... That's just not quite enough"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_retire",
+            "LocalizeJP": "許しません。",
+            "LocalizeEN": "I will not forgive you."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_shout_2",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_victory_1",
+            "LocalizeEN": "There's only one secret to winning, keeping a balanced diet."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_victory_2",
+            "LocalizeEN": "Victory has a sweet taste, doesn't it? I want to eat more, more, a lot more!!"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akari_Battle_Victory_3",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_battle_victory_3",
+            "LocalizeJP": "素晴らしい勝利ですね。このままもう1回…あれ？あはは、ご飯を食べてからにしましょうか。",
+            "LocalizeEN": "It's a wonderful victory. Let's go one more ti... Oh? Maybe after we grab a bite."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Akari_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_commonskill",
+            "LocalizeEN": "Prepare yourselves."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_1",
+            "LocalizeEN": "Reload over. Aligning sight."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_2",
+            "LocalizeEN": "Here goes a special shot."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_3",
+            "LocalizeEN": "I'm just a little angry."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_level_1",
+            "LocalizeEN": "Well done, please."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_level_2",
+            "LocalizeEN": "Enjoy it while it's hot."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_exskill_level_3",
+            "LocalizeEN": "Here goes one steaming hot grenade."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_growup_1",
+            "LocalizeEN": "You really do have a lot of expectations for me, huh. Fufu"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_growup_2",
+            "LocalizeEN": "Getting stronger is a good thing. Because it means you can do even more things"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_growup_3",
+            "LocalizeEN": "The more you eat, the stronger you become. This is the basic rule of high school girls."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_growup_4",
+            "LocalizeJP": "あら。私もまだ成長期なんですよ。\n背も、心も…… すべてが大きくなってますから～。",
+            "LocalizeEN": "My, I'm still growing too, you know. Be it my height or my heart, everything is growing bigger."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_relationship_up_1",
+            "LocalizeEN": "I've never once thought that I shouldn't eat too much, but when I'm with you... fufufu"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_relationship_up_2",
+            "LocalizeEN": "Fufufu... This nervousness I feel whenever I'm with you... I don't hate it."
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_relationship_up_3",
+            "LocalizeEN": "What should I do~? Whenever I'm with you, I start to feel dangerous feelings, just a little bit"
+        },
+        {
+            "CharacterId": 13002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Akari/akari_relationship_up_4",
+            "LocalizeEN": "Thank you for your care, Sensei. Whenever you need me, just hit me up"
+        }
+    ]
+}

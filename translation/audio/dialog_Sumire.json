@@ -1,0 +1,275 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Sumire_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/Sumire_Cafe_monolog_3",
+            "LocalizeEN": "These look like they could make for free weights."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Sumire_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/Sumire_MemorialLobby_1_1",
+            "LocalizeEN": "What did you think, Trainer? Do you enjoy your workout schedule?\n\nCan't you feel the burn?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sumire_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_formation_in_1",
+            "LocalizeEN": "Let the training begin."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sumire_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_formation_in_2",
+            "LocalizeEN": "Follow the trainer's instructions."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Sumire_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_formation_select",
+            "LocalizeEN": "One, two. one, two."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_defeat_1",
+            "LocalizeJP": "すみません。",
+            "LocalizeEN": "excuse me."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_defeat_2",
+            "LocalizeJP": "申し訳ありません、トレーナー。",
+            "LocalizeEN": "sorry trainer."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_in_1",
+            "LocalizeEN": "Do you want today's training to be a real battle format?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_in_2",
+            "LocalizeEN": "Trainer, thank you very much."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_victory_1",
+            "LocalizeEN": "It's nice to see the results."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Sumire_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_tactic_victory_2",
+            "LocalizeEN": "I feel one step stronger."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_buffed_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_damage_3",
+            "LocalizeJP": "あれ？",
+            "LocalizeEN": "that?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_defense_1",
+            "LocalizeEN": "It is a waste."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_in_1",
+            "LocalizeEN": "I want to be useful as a trainer."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_in_2",
+            "LocalizeEN": "I will show you the results so far."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_move_1",
+            "LocalizeEN": "It's just the right amount of stimulation."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_move_2",
+            "LocalizeEN": "Today's training is also fun."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_recovery_1",
+            "LocalizeEN": "Protein would have been better"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_retire",
+            "LocalizeJP": "鍛錬が…、足りませんでした。",
+            "LocalizeEN": "I didn't train enough."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_shout_2",
+            "LocalizeJP": "いち、に！",
+            "LocalizeEN": "One, two."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_tacticalaction_1",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_victory_1",
+            "LocalizeEN": "don't look so much"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Sumire_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_battle_victory_2",
+            "LocalizeEN": "good job for today."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Sumire_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_commonskill",
+            "LocalizeEN": "ock on."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sumire_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_exskill_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sumire_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_exskill_2",
+            "LocalizeEN": "Ready."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sumire_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_exskill_3",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sumire_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_exskill_level_1",
+            "LocalizeEN": "One, two,three."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Sumire_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_exskill_level_3",
+            "LocalizeEN": "to go."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sumire_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_growup_1",
+            "LocalizeEN": "Training is hard, but for this moment, I can endure it."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sumire_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_growup_2",
+            "LocalizeEN": "I want to become a better me with my trainer"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sumire_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_growup_3",
+            "LocalizeEN": "Work out with a trainer Exercise is really a good thing."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Sumire_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_growup_4",
+            "LocalizeEN": "Thank you very much for today."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sumire_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_relationship_up_1",
+            "LocalizeEN": "My chest hurts every time I see a sweatshirt. Why is that?"
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sumire_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_relationship_up_2",
+            "LocalizeEN": "Trainer, would you like to arm wrestle with me? ...Well, it's not like I wanted to hold hands with the trainer."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sumire_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_relationship_up_3",
+            "LocalizeEN": "Being with a trainer increases your heart rate."
+        },
+        {
+            "CharacterId": 10012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Sumire_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Sumire/sumire_relationship_up_4",
+            "LocalizeEN": "Would you like to go sweat it out with me?"
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hasumi_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Season_Birthday",
+            "LocalizeEN": "I usually spend my birthday with my clubmates, but today, I'm spending it with you.\n\nHaha. It feels a bit different."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hasumi_MemorialLobby_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_MemorialLobby_1",
+            "LocalizeEN": "Phew. We're drenched. This isn't good..."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hasumi_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_MemorialLobby_5_1",
+            "LocalizeEN": "I don't mind relaxing like this...if it's just for a little while.\n\nIt's rare that I get opportunities to slow down like this, but I always cherish them."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hasumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_formation_in_1",
+            "LocalizeEN": "Please don't refrain yourself. Leave it to me."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hasumi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_formation_in_2",
+            "LocalizeEN": "I've been waiting for this."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hasumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_formation_select",
+            "LocalizeJP": "ふむ……"
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hasumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_tactic_defeat_1",
+            "LocalizeJP": "申し訳ございません。",
+            "LocalizeEN": "I'm sorry."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hasumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_tactic_defeat_2",
+            "LocalizeJP": "少し休憩しましょう。そしてまた挑戦するのです。",
+            "LocalizeEN": "Let's take a short break, then try again."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hasumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_tactic_in_1",
+            "LocalizeEN": "Enemy Spotted. Readying for combat."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hasumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_tactic_in_2",
+            "LocalizeEN": "Departing."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Buffed_1",
+            "LocalizeEN": "Thank you for your support."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Covered_1",
+            "LocalizeEN": "I secured a sniping spot."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Damage_3",
+            "LocalizeJP": "なかなか。ですね。",
+            "LocalizeEN": "Not bad."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Defense_1",
+            "LocalizeEN": "How unskilled."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_In_1",
+            "LocalizeEN": "Reload. Proceeding to eliminate the enemy."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_In_2",
+            "LocalizeEN": "The heart is passionate and the head is calm. Here I go."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Move_1",
+            "LocalizeEN": "Maybe I should've exercised more."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Recovery_1",
+            "LocalizeEN": "It's delicious, but the quantity is lackin... I-I mean, it's nothing."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Retire",
+            "LocalizeJP": "覚悟が…足りなかったのでしょうか…",
+            "LocalizeEN": "Did I not have enough resolve?"
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_battle_shout_1",
+            "LocalizeJP": "発射！",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_battle_shout_2",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_TacticalAction_1",
+            "LocalizeEN": "Moving to a new sniping spot."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_TSA_1",
+            "LocalizeJP": "行きます、インクィジターゼロ！",
+            "LocalizeEN": "Go, Inquisitor Zero!"
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_TSA_2",
+            "LocalizeJP": "お祈りの時間は残してあげましょう。",
+            "LocalizeEN": "I'll give you time for your prayers."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Victory_1",
+            "LocalizeEN": "Good job."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hasumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_Battle_Victory_2",
+            "LocalizeEN": "I still have a long way to go."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hasumi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_CommonSkill",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hasumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_ExSkill_1",
+            "LocalizeEN": "Attack."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hasumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_ExSkill_3",
+            "LocalizeEN": "Target acquired."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hasumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_ExSkill_Level_1",
+            "LocalizeEN": "You aren't getting away."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hasumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_ExSkill_Level_2",
+            "LocalizeEN": "I'll shoot you through!"
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hasumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hasumi/Hasumi_ExSkill_Level_3",
+            "LocalizeEN": "Here it goes."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hasumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_growup_1",
+            "LocalizeEN": "Thank you for your concern, Sensei."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hasumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_growup_2",
+            "LocalizeEN": "As I grow stronger, I always wonder whether I'm truly becoming someone others can rely on."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hasumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_growup_3",
+            "LocalizeEN": "You would go so far for me?... I'm humbled."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hasumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_relationship_up_1",
+            "LocalizeEN": "I wonder why? When I'm with Sensei I get more nervous than usual."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hasumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_relationship_up_2",
+            "LocalizeEN": "Even if this moment were a dream, I will treasure it for the rest of my life."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hasumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_relationship_up_3",
+            "LocalizeEN": "I'll always be by your side, so feel free to ask whenever you need me."
+        },
+        {
+            "CharacterId": 13003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hasumi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hasumi/hasumi_relationship_up_4",
+            "LocalizeEN": "I am always grateful. I'll have to do my best as well."
+        }
+    ]
+}

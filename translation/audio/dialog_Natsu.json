@@ -1,0 +1,268 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Natsu_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0155/CH0155_Season_Birthday",
+            "LocalizeEN": "Sensei. Sensei. Did you...truly forget the importance of today's date?\n\nWhile I've anticipated and looked forward to this day all year long..."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "UIEventMiniGameDreamMaker",
+            "VoiceClip": "Natsu_(Band)_Minigame_4",
+            "Path": "Audio/VOC_JP/JP_CH0221/CH0221_Minigame_4",
+            "LocalizeEN": "It's almost complete... The ultimate music!"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Natsu_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_formation_in_1",
+            "LocalizeEN": "Don't complain to me later."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Natsu_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_formation_select",
+            "LocalizeEN": "Uh? Me?"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Natsu_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_tactic_defeat_1",
+            "LocalizeJP": "うーん……あれ？",
+            "LocalizeEN": "Huh? What?"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Natsu_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_tactic_defeat_2",
+            "LocalizeJP": "先生ごめん。糖分が足りなかった。",
+            "LocalizeEN": "I'm sorry, Sensei. I didn't have enough sugar."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Natsu_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_tactic_in_1",
+            "LocalizeEN": "Now, what will be the end of this battle?"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Natsu_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_tactic_victory_1",
+            "LocalizeEN": "Yes, it's over, sweets, sweets"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Natsu_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_tactic_victory_2",
+            "LocalizeEN": "Let's go home and eat something delicious."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_buffself_1",
+            "LocalizeJP": "さーて、これからこれから。",
+            "LocalizeEN": "from now on from now on"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_damage_1",
+            "LocalizeJP": "うっ。"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_damage_2",
+            "LocalizeJP": "うわっ。"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_damage_3",
+            "LocalizeJP": "ううっ。"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_defense_1",
+            "LocalizeEN": "Not a problem."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_in_1",
+            "LocalizeEN": "Well, let's go."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_move_1",
+            "LocalizeJP": "OK, OK～。",
+            "LocalizeEN": "Okay okay."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_move_2",
+            "LocalizeEN": "One by one."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_recovery_1",
+            "LocalizeEN": "Thanks."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_retire",
+            "LocalizeJP": "と、糖分が足りない……。",
+            "LocalizeEN": "I don't have enough for the time being."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_shout_1",
+            "LocalizeJP": "やぁっ！"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_shout_3",
+            "LocalizeJP": "はぁ！"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_victory_1",
+            "LocalizeEN": "Easy win."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Natsu_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_battle_victory_2",
+            "LocalizeEN": "Well, it's reward time Now, what will the teacher give me?"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Natsu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_commonskill",
+            "LocalizeEN": "Let's eat together?"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_1",
+            "LocalizeEN": "There is no choice."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_2",
+            "LocalizeEN": "In times like these,"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_3",
+            "LocalizeEN": "Killer!"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_level_1",
+            "LocalizeEN": "Milk Time!"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_level_2",
+            "LocalizeEN": "Hydration!"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Natsu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_exskill_level_3",
+            "LocalizeEN": "Yeah, like this!"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Natsu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_growup_1",
+            "LocalizeEN": "I was just hungry."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Natsu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_growup_3",
+            "LocalizeEN": "thank you. Teacher, you know me."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Natsu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_growup_4",
+            "LocalizeEN": "It's already amazing."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Natsu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_relationship_up_1",
+            "LocalizeEN": "The teacher said that it's really comfortable when we're together."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Natsu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_relationship_up_2",
+            "LocalizeEN": "I'd like to talk to you more about anything."
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Natsu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_relationship_up_3",
+            "LocalizeEN": "You don't have to worry about it"
+        },
+        {
+            "CharacterId": 10029,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Natsu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0155/ch0155_relationship_up_4",
+            "LocalizeEN": "It's special."
+        }
+    ]
+}

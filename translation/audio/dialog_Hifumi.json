@@ -1,0 +1,309 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hifumi_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Hihumi/Hihumi_Season_Xmas",
+            "LocalizeEN": "Feliz Navidad! It's Christmas.\n\nIt is the most special day of the year in Trinity.\n\nAnd...to me as well."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Hifumi_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Hihumi/Hihumi_ExWeapon_Get",
+            "LocalizeEN": "This... Is it really...the weapon?! With this, I can gain a bit more confidence, right?!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hifumi_MemorialLobby_6",
+            "Path": "Audio/VOC_JP/JP_Hihumi/Hihumi_MemorialLobby_6",
+            "LocalizeEN": "Huh? Do you not like how the scenery looks?"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hifumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_formation_in_1",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hifumi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_formation_in_2",
+            "LocalizeEN": "I'm not scared, I'm not scared."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hifumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_formation_select",
+            "LocalizeJP": "きゃあ？！"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_defeat_1",
+            "LocalizeJP": "…力不足でごめんなさい。",
+            "LocalizeEN": "I'm not strong enough, I'm sorry."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_defeat_2",
+            "LocalizeJP": "肩に力が入りすぎた…かもしれないです。",
+            "LocalizeEN": "I may have put too much pressure on my shoulders."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_in_1",
+            "LocalizeEN": "Let's all do our best."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_in_2",
+            "LocalizeEN": "Everyone, you can do this!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_victory_1",
+            "LocalizeEN": "Thanks to Sensei, we won!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hifumi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_tactic_victory_2",
+            "LocalizeEN": "It was a great fight."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_covered_1",
+            "LocalizeEN": "I'm hiding!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_damage_1",
+            "LocalizeJP": "ぐぅ…ご、ごめんなさい…。",
+            "LocalizeEN": "Ugh... I'm sorry..."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_damage_3",
+            "LocalizeJP": "ひゃあ！い、痛いです…。"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_defense_1",
+            "LocalizeJP": "あ、危ないところでした……",
+            "LocalizeEN": "That was close."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_in_1",
+            "LocalizeEN": "C-commence the plan!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_in_2",
+            "LocalizeEN": "We'll be okay as long as we're together."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_move_1",
+            "LocalizeEN": "Where did Peroro-sama go?"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_move_2",
+            "LocalizeEN": "What kind of place is ahead?"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_retire",
+            "LocalizeJP": "ま、まだやれるのに……。",
+            "LocalizeEN": "I... I can still do this..."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Supply",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_supply",
+            "LocalizeJP": "本当にありがとうございます！",
+            "LocalizeEN": "Thank you very much!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_tacticalaction_1",
+            "LocalizeJP": "よいしょっ"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_tsa_1",
+            "LocalizeJP": "私に任せてください！",
+            "LocalizeEN": "Leave it to me!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_tsa_2",
+            "LocalizeJP": "補習授業部の備品、クルセイダーちゃん。よろしくお願いします！",
+            "LocalizeEN": "Crusader-chan, equipment for Supplementary Lessons Department. thank you!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_victory_1",
+            "LocalizeEN": "We won!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hifumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_battle_victory_2",
+            "LocalizeEN": "We did it."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_1",
+            "LocalizeEN": "Eh! Huh? Where is it!?"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_2",
+            "LocalizeEN": "I can't find it. What should I do?"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_3",
+            "LocalizeJP": "ここに入れてたはずなのに…！",
+            "LocalizeEN": "I was sure I put it here."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_level_1",
+            "LocalizeEN": "It's Peroro-sama's turn."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_level_2",
+            "LocalizeJP": "うわっ～作動しちゃいました！",
+            "LocalizeEN": "It worked!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hifumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_exskill_level_3",
+            "LocalizeEN": "Please, Peroro-sama!"
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hifumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_growup_1",
+            "LocalizeEN": "I feel like I made a step forward."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hifumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_growup_2",
+            "LocalizeEN": "Wow... I think I changed!."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hifumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_growup_3",
+            "LocalizeEN": "This is all thanks to Sensei."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hifumi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_growup_4",
+            "LocalizeEN": "Thank you, Sensei."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hifumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_relationship_up_1",
+            "LocalizeEN": "Sensei, I'm always counting on you."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hifumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_relationship_up_2",
+            "LocalizeJP": "あの…その…もうちょっとだけそばにいてください。",
+            "LocalizeEN": "Um, well I... P-please stay by my side just a little longer..."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hifumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_relationship_up_3",
+            "LocalizeEN": "Maybe I can be more brave now."
+        },
+        {
+            "CharacterId": 10003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hifumi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hihumi/hihumi_relationship_up_4",
+            "LocalizeEN": "Sensei, you really are a special person."
+        }
+    ]
+}

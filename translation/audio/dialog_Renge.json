@@ -1,0 +1,281 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Renge_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0224/CH0224_Cafe_monolog_4",
+            "LocalizeEN": "Look at these cushions! Our rooms aren't nearly this comfortable."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Renge_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_formation_in_1",
+            "LocalizeEN": "Sure! This is my moment!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Renge_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_formation_in_2",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Renge_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_formation_select",
+            "LocalizeEN": "W-wait, Mentor! I'm not ready yet..."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_defeat_1",
+            "LocalizeJP": "え、油断した？ごめん、全部私のせい。",
+            "LocalizeEN": "Oh, did I let my guard down? I'm sorry, it's all my fault."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_defeat_2",
+            "LocalizeJP": "悪い、私のせいで、次は必ず勝つから。",
+            "LocalizeEN": "Sorry it's my fault. We will definitely win next time."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_in_1",
+            "LocalizeEN": "Behold Hyakkaryouran's power!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_in_2",
+            "LocalizeEN": "Let's finish this!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_victory_1",
+            "LocalizeEN": "Haha! It's all thanks to Sensei's leadership that we won!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Renge_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_tactic_victory_2",
+            "LocalizeEN": "Mission accomplished! Everyone worked together beautifully."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_buffed_1",
+            "LocalizeEN": "Just at the right time."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_buffself_1",
+            "LocalizeJP": "ここからが正念場だ！",
+            "LocalizeEN": "This is where the real battle begins!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_defense_1",
+            "LocalizeEN": "It won't work!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_in_1",
+            "LocalizeEN": "I'm going first! Now follow me!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_in_2",
+            "LocalizeEN": "Ah! I'll show you the power of Hyakkaryouran!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_move_2",
+            "LocalizeEN": "Keep in line! Let's go!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_recovery_1",
+            "LocalizeEN": "Oh, thank you!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_retire",
+            "LocalizeJP": "くっ、くっ、くっそぉぉ…",
+            "LocalizeEN": "Da-damn it..."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_shout_1",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_shout_2",
+            "LocalizeJP": "はぁっ！"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_shout_3",
+            "LocalizeJP": "ひゃっ！"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_tacticalaction_1",
+            "LocalizeEN": "Let's move."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_victory_1",
+            "LocalizeEN": "The name of the Assault Squad Captain isn't just for show."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Renge_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_battle_victory_2",
+            "LocalizeEN": "My path leads only to victory!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Renge_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_commonskill",
+            "LocalizeEN": "Alright, let's do this with all our might!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_1",
+            "LocalizeEN": "I am the captain of Hyakkaryouran's Assault Squad!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_2",
+            "LocalizeEN": "All right, I'm getting serious as well!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_3",
+            "LocalizeEN": "It's not over yet!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_level_1",
+            "LocalizeEN": "Taste this!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_level_2",
+            "LocalizeEN": "All right, let's turn this around!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Renge_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_exskill_level_3",
+            "LocalizeEN": "What do you think of that? This is the shooting technique of Hyakkaryouran!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Renge_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_growup_1",
+            "LocalizeEN": "Thanks to Sensei, I have grown. Ah, it's all because of Mentor. Thank you."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Renge_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_growup_2",
+            "LocalizeEN": "This is a way of teaching I would have never thought of. Sensei, or should I say, Mentor, you are truly amazing."
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Renge_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_growup_3",
+            "LocalizeEN": "Amazing! It's like I'm feeling a surge of power or something... Yeah, amazing! In any case, it is amazing!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Renge_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_growup_4",
+            "LocalizeEN": "In short, Sensei has high expectations of me, right? Haha, leave it to me! I'll give it my all!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Renge_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_relationship_up_1",
+            "LocalizeEN": "Well, I did say I wanted to do activities of youth with you, but is it really okay to go this far?"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Renge_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_relationship_up_2",
+            "LocalizeEN": "Oh, is this okay? Surely this is fine? I'm so close to Sensei. What should I do?"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Renge_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_relationship_up_3",
+            "LocalizeEN": "When I'm with Sensei, I feel ticklish for some reason. Sorry, I'll go for a run on the grounds!"
+        },
+        {
+            "CharacterId": 10082,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Renge_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0224/ch0224_relationship_up_4",
+            "LocalizeEN": "Ah, I'm fine. It's just that... Mentor really cares about me, I think."
+        }
+    ]
+}

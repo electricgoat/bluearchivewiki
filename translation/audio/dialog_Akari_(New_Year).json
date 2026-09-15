@@ -1,0 +1,131 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Akari_(New_Year)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0196/CH0196_Lobby_2",
+            "LocalizeEN": "It's a special offer! A date with me! <ref group=\"note\">The global EN translation says \"Lunch with me!\". Several now-fixed translation errors were pointed out and eventually rectified, but this was left as is</ref> For the low, low price of zero yen! What a steal!\n\nWhaaat? You think I'm just trying to play hooky?\n\nJust who do you think I am? ...That's the right answer! ★"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Akari_(New_Year)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0196/CH0196_Lobby_4",
+            "LocalizeEN": "Can I count on you, Sensei?\n\n...Oh dear. That was such a quick response.\n\nMaybe I'm expecting something totally absurd, though? Heehee. ★"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Akari_(New_Year)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0196/CH0196_EventLobby_4",
+            "LocalizeJP": "先生ばかりずるいです。\n\nはいっ、捕まえました★\nもう離しませんよ～\n\nはいっ、捕まえました★\nもう離しませんよ～",
+            "LocalizeEN": "Only for you, Sensei? That's not fair.\n\nYes! Gotcha. There's no escape! ★\n\nYes! Gotcha. There's no escape! ★"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Akari_(New_Year)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_commonskill",
+            "LocalizeEN": "A special shot, here it comes~"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_1",
+            "LocalizeEN": "Fufu\nI'm used to driving you know~?"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_2",
+            "LocalizeEN": "Fufu\nThis is fun~"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_3",
+            "LocalizeEN": "Hmmm\nLet's go for a drive~"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_level_1",
+            "LocalizeEN": "Oh my? What a waste..."
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_level_2",
+            "LocalizeEN": "Safety first, okay?"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akari_(New_Year)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_exskill_level_3",
+            "LocalizeEN": "Emergency break!\nThere is nothing~"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_(New_Year)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_growup_1",
+            "LocalizeEN": "Please watch how much I can eat... No, how much I can grow★"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_(New_Year)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_growup_2",
+            "LocalizeEN": "I can still eat much more, you know~? New year's got alo~t of delicious food after all! To not have a taste, that'd be a waste★"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_(New_Year)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_growup_3",
+            "LocalizeEN": "Fufu.. I wonder what kinds of special menus we'll come across~? It's exciting isnt it, Sensei!"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akari_(New_Year)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_growup_4",
+            "LocalizeEN": "When I'm with you, I can have sooo much refreshing new experiences. But, I think I'd like to have... even more new experiences?"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_(New_Year)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_relationship_up_1",
+            "LocalizeEN": "Sensei, is there anywhere you want to go to~? For driving, leave it to me"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_(New_Year)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_relationship_up_2",
+            "LocalizeEN": "It would be no exaggeration to say that food is the most important thing in life. But, something that's even more important than that... is there anything? Or not?"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_(New_Year)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_relationship_up_3",
+            "LocalizeEN": "Since I am in my best clothes, there are certain feelings I want you to... Feel.. Or not? Fufu"
+        },
+        {
+            "CharacterId": 20034,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akari_(New_Year)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0196/ch0196_relationship_up_4",
+            "LocalizeEN": "I get it. It's just natural that you see your students as precious... But... Sensei, actually I'm not a big fan of \"normal\" all that much★"
+        }
+    ]
+}

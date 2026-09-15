@@ -1,0 +1,428 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Izuna_(Swimsuit)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Gachaget",
+            "LocalizeEN": "My lord, it's summer! We're on the beach! Can you play with me?! Nin nin!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_(Swimsuit)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Cafe_monolog_1",
+            "LocalizeEN": "What should we play next? Watermelon crush? Water guns? I'm excited about everything!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_(Swimsuit)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Cafe_monolog_2",
+            "LocalizeEN": "Izuna Izuna~\nKonkokon♪ <ref group=\"note\">Official translation is \"Izuna... On the lookout! ♪\" instead</ref>"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_(Swimsuit)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Cafe_monolog_3",
+            "LocalizeEN": "I wonder what the president and Tsukuyo are doing right now."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_(Swimsuit)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Cafe_monolog_4",
+            "LocalizeEN": "The Izuna-Style Ninjutsu: Summer Version is complete! I should consider a winter version, too."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_(Swimsuit)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Cafe_monolog_5",
+            "LocalizeEN": "AC is so wonderful! I can't believe it can keep me cool in this heat! I-I mean, a ninja can withstand this kind of heat without a problem!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Izuna_(Swimsuit)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_Lobby_3",
+            "LocalizeEN": "Watermelon crush, sand castle building, and most importantly, shaved ice!\n\nI have so many things I want to do with you this summer!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Izuna_(Swimsuit)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_ExWeapon_Get",
+            "LocalizeEN": "You prepared a summer ninja tool just for me! I'm so happy, my lord! I'm gonna do my best to live up to your expectations! Heeheehee!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLogin_1",
+            "LocalizeEN": "My lord, here! Over here! I've got a spot for us here!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLogin_2",
+            "LocalizeEN": "Oh, I've been waiting, my lord! I'm yours to command!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLobby_1",
+            "LocalizeEN": "The Beach Shack is our base for this mission.\n\nThe word \"base\" makes me feel like a real ninja!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLobby_2",
+            "LocalizeEN": "Hm hm hm. ♪ The Beach Shack has all kinds of food!\n\nWhat would you like, my lord? Shaved ice? Takoyaki?\n\nI'm happy with anything as long as I'm with you!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLobby_4",
+            "LocalizeEN": "Let me know if you need anything!\n\nI'll get it done in a flash, like a ninja!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLogin_Season_1",
+            "LocalizeEN": "We've got many people on our side this time, my lord!\n\nIt's so lively. And fun!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLogin_Season_2",
+            "LocalizeEN": "*gulp* But we've already come so far...!\n\nI'm gonna work hard to prove myself to everyone! Nin nin!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0179/CH0179_EventLogin_Season_End",
+            "LocalizeEN": "So much happened this summer, it makes my head spin...\n\nBut I had so much fun every day. Thank you, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_1",
+            "LocalizeJP": "おお！！更に大きくなりましたね！まるで忍術でも使ったかのようです",
+            "LocalizeEN": "Ooh! It's getting bigger! Almost like a ninjutsu was used upon it!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_2",
+            "LocalizeJP": "主殿とイズナ達の前においては、まさに敵無しです！いい感じですね、主殿！",
+            "LocalizeEN": "The pursuers are truly no match for My lord and my group! Going great, My Lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_3",
+            "LocalizeJP": "流石は主殿！どんどんお店が拡大していきますね！",
+            "LocalizeEN": "As expected from my lord! The shop is expanding so rapidly!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_act_1",
+            "LocalizeJP": "お店のお手伝いですか？では、イズナも！",
+            "LocalizeEN": "Help with the shop? Well then, me too!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_act_2",
+            "LocalizeJP": "えっと、こうすれば良いのでしょうか？",
+            "LocalizeEN": "Erm,, am I doing this right"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Izuna_(Swimsuit)_EventLocation_Act_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_eventlocation_act_3",
+            "LocalizeJP": "皆さんで力を合わせて、リゾートを応援して行きましょう！",
+            "LocalizeEN": "With our combined powers, let's support the resort the best we can!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izuna_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_formation_in_1",
+            "LocalizeEN": "Yes, my lord! Izuna is on her way!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izuna_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_formation_select",
+            "LocalizeEN": "This summer, please command me as you wish, my lord! Nin nin!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_defeat_1",
+            "LocalizeJP": "なっ！？イ、イズナ、負けてしまったのでしょうか…？申し訳ありません、主殿ぉ…。",
+            "LocalizeEN": "Wh-what?! Did Izuna lose? I'm very sory, my lord..."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_defeat_2",
+            "LocalizeJP": "うぅ～っ…。一度負けただけで、イズナはあきらめませんよ……！",
+            "LocalizeEN": "Sob... Izuna isn't going to give up after losing once!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_in_1",
+            "LocalizeEN": "Please watch as Izuna does her part, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_in_2",
+            "LocalizeEN": "This summer, I'll show you the new stage of the Izuna-style ninja arts!."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_victory_1",
+            "LocalizeEN": "Mission complete! Quick, let's go play at the beach, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_(Swimsuit)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_tactic_victory_2",
+            "LocalizeEN": "There's no opponent you can't defeat with Izuna-style ninja arts!... Maybe."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_buffed_1",
+            "LocalizeEN": "Ninja Art: Appreciation Technique! Summer Version!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_buffself_1",
+            "LocalizeJP": "イズナ、今なら行けそうです！",
+            "LocalizeEN": "Izuna can do this now!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_covered_1",
+            "LocalizeEN": "Ninja Art: Concealment Technique."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_damage_1",
+            "LocalizeJP": "痛いです！",
+            "LocalizeEN": "Ouch!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_defense_1",
+            "LocalizeEN": "It's useless!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_in_1",
+            "LocalizeEN": "Izuna will slice through the vanguard!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_in_2",
+            "LocalizeEN": "Quick as a ninja! Mission start!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_move_1",
+            "LocalizeEN": "Let's go to the next, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_move_2",
+            "LocalizeEN": "Moving ahead! Hiya!."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_recovery_1",
+            "LocalizeEN": "Uwa! Thank you!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_retire",
+            "LocalizeJP": "うぅ…まだ主殿と遊べてないのに…。",
+            "LocalizeEN": "Ugh... but I haven't played with my lord yet..."
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_shout_3",
+            "LocalizeJP": "ニンニン！"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_victory_1",
+            "LocalizeEN": "We did it, my lord! It's our victory!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_battle_victory_2",
+            "LocalizeEN": "Ehehe♪, what do you think, my lord? Izuna did her best!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_commonskill",
+            "LocalizeEN": "Ninja Art: Bubbles Technique!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_1",
+            "LocalizeEN": "Hiya! Here I go!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_2",
+            "LocalizeEN": "This is also Izuna-style Ninjutsu!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_3",
+            "LocalizeEN": "Ninja Art: Beach Volleyball Technique!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_level_1",
+            "LocalizeEN": "Extreme Power Super Shot!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_level_2",
+            "LocalizeEN": "This is Izuna's true power!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_exskill_level_3",
+            "LocalizeEN": "This is Summer Izuna!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_growup_1",
+            "LocalizeEN": "This is... for Izuna? Thank you so much, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_growup_2",
+            "LocalizeEN": "Izuna has grown stronger! That means... it's time to play, my lord!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_growup_3",
+            "LocalizeEN": "With this I should be able to endure the heat... You know what that means, my lord! Let's play together!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_growup_4",
+            "LocalizeEN": "With my lord's help Izuna became strong. I'll do my best for my lord's sake, now and forever!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_relationship_up_1",
+            "LocalizeEN": "I get to spend another summer with my lord... Izuna is so happy!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_relationship_up_2",
+            "LocalizeEN": "My lord! My lord! My loooord♪ Ehehe, it's so fun just calling you like this!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_relationship_up_3",
+            "LocalizeEN": "Mm? What's the matter? Yes, it's a sunny day but, as long as I stand guard the heat means nothing to me!"
+        },
+        {
+            "CharacterId": 10046,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0179/ch0179_relationship_up_4",
+            "LocalizeEN": "(Whenever I see my lord, I... my face feels hot... I wonder why?)"
+        }
+    ]
+}

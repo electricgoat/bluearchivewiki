@@ -1,0 +1,306 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kotori_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/Kotori_MemorialLobby_2_1",
+            "LocalizeEN": "...So I DID hear you correctly. Um... Okay, so... Something about me...\n\nWhat am I supposed to say here...?\n\nA-And what is the reasoning behind your line of questioning? I can't fathom the logic!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kotori_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/Kotori_MemorialLobby_3_1",
+            "LocalizeEN": "Oh, uh, not that you need a specific reason or anything!\n\n...Huh? O-Of course I can answer your question! Talking about myself should be easy...\n\nS-So, something, something about me?! In my free time, I like to... Um...\n\nWell...! I like researching! And learning new things! And thinking about you, and...!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kotori_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/Kotori_MemorialLobby_4_1",
+            "LocalizeEN": "...? Wait. Wh-What did I just say...?\n\nThat I like learning new things, and thinking about you...?"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotori_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_formation_in_1",
+            "LocalizeEN": "It's my turn."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotori_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_formation_in_2",
+            "LocalizeEN": "Please look forward to my success."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kotori_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_formation_select",
+            "LocalizeEN": "Even though I don't have much confidence in practice... Ehehe."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_defeat_1",
+            "LocalizeJP": "理論上、完璧な作戦だったのに。",
+            "LocalizeEN": "But our strategy was perfect in theory..."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_defeat_2",
+            "LocalizeJP": "ご、ご、ごめんなさい。",
+            "LocalizeEN": "I, I'm sorry."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_in_1",
+            "LocalizeEN": "There's an enemy. Ah, can you see it?"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_in_2",
+            "LocalizeEN": "If we defeat the enemy, we would win! Ah, of course that's the case."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_victory_1",
+            "LocalizeEN": "It's our victory."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kotori_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_tactic_victory_2",
+            "LocalizeEN": "Unexpected, we are too strong."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_buffed_1",
+            "LocalizeEN": "Thank you for your support."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_buffself_1",
+            "LocalizeJP": "おお、燃え上がります。",
+            "LocalizeEN": "Ohhh, I'm burning with passion."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_defense_1",
+            "LocalizeEN": "Hehe. It's useless!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_in_1",
+            "LocalizeEN": "If we act as instructed, we will surely win."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_in_2",
+            "LocalizeEN": "If all our attacks hit and all enemy attacks are evaded, then we will win."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_move_1",
+            "LocalizeEN": "Phew, this place is safer."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_move_2",
+            "LocalizeEN": "Keep moving forward. Move!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_recovery_1",
+            "LocalizeEN": "Woah. I will now explain the value of this support."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_retire",
+            "LocalizeJP": "言うことが…ありません…。",
+            "LocalizeEN": "I have nothing to say..."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_shout_1",
+            "LocalizeJP": "いきます。",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_tacticalaction_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_tsa_1",
+            "LocalizeJP": "容赦という言葉はもうありません！",
+            "LocalizeEN": "There is no longer a word for forgiveness!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_tsa_2",
+            "LocalizeJP": "覚悟しなさい！これは私の怒りです！",
+            "LocalizeEN": "Be prepared! This is my anger!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_victory_1",
+            "LocalizeJP": "あっ！熱っ！\nちょ、ちょっと戦闘にしては、はしゃぎすぎちゃいましたか～。",
+            "LocalizeEN": "That's hot! Just a little bit of fighting makes me overexcited?"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kotori_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_battle_victory_2",
+            "LocalizeEN": "Wow, that scared me... It's still plugged in?"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kotori_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_commonskill",
+            "LocalizeEN": "This hurts."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_1",
+            "LocalizeEN": "Let me show you what I am capable of."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_2",
+            "LocalizeEN": "Let's start the lecture."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_3",
+            "LocalizeEN": "There is an explanation more powerful than words."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_level_1",
+            "LocalizeEN": "Overclock. Fire!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_level_2",
+            "LocalizeEN": "Firepower in full operation!"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kotori_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_exskill_level_3",
+            "LocalizeEN": "Opening the way"
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotori_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_growup_1",
+            "LocalizeEN": "Why. I feel like my improvements in logical reasoning are greater than those of my guns."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotori_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_growup_2",
+            "LocalizeEN": "Compared with long-winded words and logic, I desire strength more."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotori_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_growup_3",
+            "LocalizeEN": "I don't want to be a talkative person. As long as I'm with Sensei, I should be fine."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kotori_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_growup_4",
+            "LocalizeEN": "I can help those who suffer the pain of not knowing."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotori_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_relationship_up_1",
+            "LocalizeEN": "The more you explain, the easier it is to understand the world."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotori_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_relationship_up_2",
+            "LocalizeEN": "Every time I learn something new, my heart beats fast. And, when I'm with Sensei, I experience new emotions."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotori_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_relationship_up_3",
+            "LocalizeEN": "I want to be a teacher someday, not just to give lectures, but to listen to students like Sensei."
+        },
+        {
+            "CharacterId": 16002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kotori_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kotori/kotori_relationship_up_4",
+            "LocalizeEN": "I should be able to explain everything, but my heart... Sorry, I can't explain it easily."
+        }
+    ]
+}

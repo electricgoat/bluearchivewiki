@@ -1,0 +1,279 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Akane_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_formation_in_1",
+            "LocalizeEN": "Shall I begin my service?"
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Akane_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_formation_in_2",
+            "LocalizeJP": "ご主人様に愛を、敵には鉄槌（てっつい）を。\nそれがC&Cのご奉仕なんです。",
+            "LocalizeEN": "Love for your master, iron hammer for your enemies. That's C&C's service."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Akane_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_formation_select",
+            "LocalizeEN": "I will serve you wholeheartedly."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_defeat_1",
+            "LocalizeJP": "あら、これは予想外ですね…。",
+            "LocalizeEN": "Oh, this is unexpected."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_defeat_2",
+            "LocalizeJP": "私がもっと上手くできていたら…。",
+            "LocalizeEN": "If I could only do better."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_in_1",
+            "LocalizeEN": "I see, that's a splendid decision."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_in_2",
+            "LocalizeEN": "Let's get started. It's time to clean up."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_victory_1",
+            "LocalizeEN": "Winning gracefully is my responsibility and duty."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Akane_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_tactic_victory_2",
+            "LocalizeEN": "As expected of my master."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_buffed_1",
+            "LocalizeEN": "Oh! Thank you."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_buffself_1",
+            "LocalizeJP": "さて、行きますよ。",
+            "LocalizeEN": "Well, let's go."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_covered_1",
+            "LocalizeEN": "We're in a good position."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_damage_1",
+            "LocalizeJP": "うう…、これはちょっと。",
+            "LocalizeEN": "This is a bit..."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_damage_2",
+            "LocalizeJP": "はあ、困りましたね。",
+            "LocalizeEN": "This is troubling."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_in_1",
+            "LocalizeEN": "Please leave it to me. Working alongside my master is my calling."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_in_2",
+            "LocalizeEN": "Now, everyone, I will cleanly and comfortably exterminate you."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_move_1",
+            "LocalizeEN": "This side is clean now."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_move_2",
+            "LocalizeEN": "Shall we move on to the next cleaning?"
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_recovery_1",
+            "LocalizeEN": "Oh, that's nice of you."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_retire",
+            "LocalizeJP": "申し訳ございません、ご主人様。今回のことは私の過失でした。",
+            "LocalizeEN": "I'm sorry, master. I was at fault this time."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_shout_2",
+            "LocalizeJP": "あらあら。",
+            "LocalizeEN": "Oh my."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_victory_1",
+            "LocalizeEN": "To gift my master with victory is my responsibility and my mission."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Akane_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_battle_victory_2",
+            "LocalizeEN": "All for my master."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Akane_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_commonskill",
+            "LocalizeEN": "Oh my, there you are."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_1",
+            "LocalizeEN": "Eliminate those who disturb my master."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_2",
+            "LocalizeEN": "Shall we start cleaning?"
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_3",
+            "LocalizeJP": "ご覧になって。標的は…消えますよ。",
+            "LocalizeEN": "Look, the targets disappear."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_level_1",
+            "LocalizeEN": "I will gracefully dispose the enemy."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_level_2",
+            "LocalizeEN": "Everyone please, start cleaning."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Akane_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_exskill_level_3",
+            "LocalizeEN": "I kindly ask you to disappear."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akane_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_growup_1",
+            "LocalizeEN": "With this I can now offer an even better service."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akane_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_growup_2",
+            "LocalizeEN": "Akane will meet your expectations."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akane_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_growup_3",
+            "LocalizeEN": "From now on, Akane will be a little different. Please look forward to it, master."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Akane_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_growup_4",
+            "LocalizeEN": "From now on, Akane will surely be able to satisfy her master 100%."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akane_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_relationship_up_1",
+            "LocalizeEN": "Akane from C&C. I am honored to offer my services to my master."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akane_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_relationship_up_2",
+            "LocalizeEN": "Oh my. Were you worried about me? It makes me happy."
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akane_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_relationship_up_3",
+            "LocalizeEN": "I don't know why I can't stop smiling. Is it because my master is by my side?"
+        },
+        {
+            "CharacterId": 13000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Akane_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Akane/akane_relationship_up_4",
+            "LocalizeEN": "I don't serve you because you're my master. I'm a maid because you're my master."
+        }
+    ]
+}

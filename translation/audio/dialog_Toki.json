@@ -1,0 +1,323 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_LogIn_1",
+            "LocalizeEN": "You're here, Sensei.\n\nI've been waiting, Sensei. I'll be assisting you today."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_Lobby_1",
+            "LocalizeEN": "Report for duty? At your command.\n\n...Please gimme a reward when I'm done."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_Lobby_4",
+            "LocalizeEN": "I have a little bunny rabbit impression I can do.\n\n*hop*\n\n...Please hurry and compliment me."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei. *clap clap*\n\nIt's my job as your assistant to celebrate your birthday."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_Season_Birthday",
+            "LocalizeEN": "Huh? Birthday...?\n\nOh... Thank you for celebrating that.\n\nYou know actions speak louder than words, right?\n\nLet's go out. I'll assist you."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_Season_Xmas",
+            "LocalizeEN": "I know what I'm supposed to say in this situation.\n\nIt's \"Merry Christmas.\"\n\nThen I shall shoot down the formidable flying enemy\n\nknown as Santa Claus, and return immediately."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Toki_MiniEventBoxShop_4",
+            "Path": "Audio/VOC_JP/JP_CH0187/CH0187_MiniEventBoxShop_4",
+            "LocalizeEN": "When I'm done with this mission...I'm going to live a happy life with you, Sensei.\n\n...What do you mean by \"cliche\"?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_formation_in_1",
+            "LocalizeEN": "Well then, let's start."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_formation_in_2",
+            "LocalizeEN": "Let's clean up everything that stands in the way. That is my job."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_formation_select",
+            "LocalizeEN": "I see...This is that example's..."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_defeat_1",
+            "LocalizeJP": "敗因は、一体……。",
+            "LocalizeEN": "What caused...this loss...?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_defeat_2",
+            "LocalizeJP": "申し訳ありません、先生。",
+            "LocalizeEN": "I'm sorry, Sensei"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_in_1",
+            "LocalizeEN": "Until we do what we can."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_in_2",
+            "LocalizeEN": "Please give me instructions."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_victory_1",
+            "LocalizeEN": "I won. Yahoo. How was it?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_tactic_victory_2",
+            "LocalizeEN": "Mission complete. Are you satisfied?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_buffed_1",
+            "LocalizeEN": "It was helpful."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_buffself_1",
+            "LocalizeJP": "勝利への一歩。",
+            "LocalizeEN": "One step towards victory."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_defense_1",
+            "LocalizeEN": "Is that the end?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_in_1",
+            "LocalizeEN": "Carrying out the command."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_in_2",
+            "LocalizeEN": "As you wish."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_move_2",
+            "LocalizeEN": "Where is the next region?"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_retire",
+            "LocalizeJP": "くっ…、そんな。",
+            "LocalizeEN": "No way."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_tacticalaction_1",
+            "LocalizeEN": "Let's move on to the next."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_victory_1",
+            "LocalizeEN": "Sensei, are you watching? Peace, Peace."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_battle_victory_2",
+            "LocalizeEN": "Let's move on. V V."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Toki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_commonskill",
+            "LocalizeEN": "Going."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_1",
+            "LocalizeEN": "Switching to Abi Eshuh ."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_3",
+            "LocalizeEN": "Activating powered suit."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_4",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_4",
+            "LocalizeEN": "This is my full power!"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_5",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_5",
+            "LocalizeEN": "Confirming target. Lock on."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_6",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_6",
+            "LocalizeEN": "Abi Eshuh, annihilation mode!"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_level_1",
+            "LocalizeEN": "Installation complete."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_level_2",
+            "LocalizeEN": "Beginning combat."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_level_3",
+            "LocalizeEN": "I will do my best."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_Level_5",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_level_5",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_ExSkill_Level_6",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_exskill_level_6",
+            "LocalizeEN": "Fireー！"
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_growup_1",
+            "LocalizeEN": "It's not perfect yet, but it's getting closer and closer."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_growup_2",
+            "LocalizeEN": "This will let me become more of a help to Sensei."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_growup_3",
+            "LocalizeEN": "Thank you. Sensei, I will do my best to meet your expectations."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_growup_4",
+            "LocalizeEN": "Thank you for believing in me. I will try to live up to the C&C name."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_relationship_up_1",
+            "LocalizeEN": "The bond between Sensei and I has deepened. Yes, so please look at me more, Sensei."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_relationship_up_2",
+            "LocalizeEN": "\"Kizuna\" is said to be a special relationship between people. In other words, Sensei has become a special person to me."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_relationship_up_3",
+            "LocalizeEN": "Even though I look like this, various feelings are swirling around inside me. So, Sensei, make sure to return these feelings to me."
+        },
+        {
+            "CharacterId": 10062,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0187/ch0187_relationship_up_4",
+            "LocalizeEN": "This is what it means to share your thoughts with each other...\nPlease don't shut up, I'm embarrassed."
+        }
+    ]
+}

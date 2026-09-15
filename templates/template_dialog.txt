@@ -46,7 +46,7 @@
 {%- endif -%}
 
 
-{%- if event_lines != [] or event_standard_lines != [] or ccg_lines != [] -%}
+{%- if event_lines != [] or event_tables != [] -%}
 
 =Event lines=
 {% if event_lines != [] %}
@@ -72,10 +72,9 @@
 {% endraw %}
 {%- endif -%}
 
-{% if event_standard_lines != [] %}
-{%- raw -%}
-==Extra event lines==
-{{Audio section warning}}
+{% for name, table_lines in event_tables -%}
+=={{name}} lines==
+{%- raw %}
 {| class="wikitable limitwidth-1024"
 |+
 ! rowspan="2" |Name
@@ -85,7 +84,7 @@
 ! style="width:240px" |Japanese
 ! style="width:240px" |English
 {%- endraw %}
-{% for line in event_standard_lines -%}
+{% for line in table_lines -%}
 |-
 | {{line.wikitext_voice_title}}
 | {{line.wikitext_voice_clips}}
@@ -95,40 +94,15 @@
 {% raw -%}
 |}
 {% endraw %}
-{%- endif -%}
-
-{% if ccg_lines != [] %}
-{%- raw -%}
-==CCG lines==
-{| class="wikitable limitwidth-1024"
-|+
-! rowspan="2" |Name
-! rowspan="2" style="width:300px" |
-! colspan="2" |Transcription
-|-
-! style="width:240px" |Japanese
-! style="width:240px" |English
-{%- endraw %}
-{% for line in ccg_lines -%}
-|-
-| {{line.wikitext_voice_title}}
-| {{line.wikitext_voice_clips}}
-| lang="ja" | {{line.wiki_localization_jp|html}}
-| {{line.wiki_localization_en|html}}
-{% endfor -%}
-{% raw -%}
-|}
-{% endraw %}
-{%- endif -%}
+{%- endfor -%}
 
 {%- endif -%}
 
 
 
-{%- if standard_lines != [] %}
+{%- if tactics_lines != [] %}
 {%- raw -%}
 =Tactics and growth=
-{{Audio section warning}}
 {| class="wikitable limitwidth-1024"
 |+
 ! rowspan="2" |Name
@@ -138,7 +112,32 @@
 ! style="width:240px" |Japanese
 ! style="width:240px" |English
 {%- endraw %}
-{% for line in standard_lines -%}
+{% for line in tactics_lines -%}
+|-
+| {{line.wikitext_voice_title}}
+| {{line.wikitext_voice_clips}}
+| lang="ja" | {{line.wiki_localization_jp|html}}
+| {{line.wiki_localization_en|html}}
+{% endfor -%}
+{% raw -%}
+|}
+{% endraw %}
+{%- endif -%}
+
+{%- if unreferenced_lines != [] %}
+{%- raw -%}
+=Unreferenced=
+{{info|text=Voicelines listed in the following table do not appear to be referenced or are otherwise inaccessible in the game and therefore should not be seen as canonical.}}
+{| class="wikitable limitwidth-1024"
+|+
+! rowspan="2" |Name
+! rowspan="2" style="width:300px" |
+! colspan="2" |Transcription
+|-
+! style="width:240px" |Japanese
+! style="width:240px" |English
+{%- endraw %}
+{% for line in unreferenced_lines -%}
 |-
 | {{line.wikitext_voice_title}}
 | {{line.wikitext_voice_clips}}

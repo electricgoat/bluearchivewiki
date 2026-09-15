@@ -1,0 +1,60 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Noa_(Pajama)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0285/CH0285_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_tactic_defeat_1",
+            "LocalizeJP": "申し訳ございません、私が急いだばかりに……。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_(Pajama)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_tactic_defeat_2",
+            "LocalizeJP": "お気になさらず。次はうまく行きますから。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_battle_buffself_1",
+            "LocalizeJP": "手応えがありました。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_battle_damage_3",
+            "LocalizeJP": "少し、痛みますね。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_battle_retire",
+            "LocalizeJP": "私、疲れているのでしょうか。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_battle_shout_1",
+            "LocalizeJP": "えいっ。"
+        },
+        {
+            "CharacterId": 10109,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_(Pajama)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0285/ch0285_battle_shout_2",
+            "LocalizeJP": "今度はこちらです。"
+        }
+    ]
+}

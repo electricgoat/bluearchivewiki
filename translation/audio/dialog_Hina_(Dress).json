@@ -1,0 +1,412 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hina_(Dress)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Gachaget",
+            "LocalizeEN": "Sorasaki Hina. Head Prefect. I-I tried on the dress you picked out, Sensei. How do I look?"
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hina_(Dress)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Cafe_monolog_1",
+            "LocalizeEN": "This dress makes me feel like a live wire."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hina_(Dress)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Cafe_monolog_2",
+            "LocalizeEN": "I want to sit down and practice my trills. Do something..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_(Dress)_Lobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Lobby_1_1",
+            "LocalizeEN": "This is the dress that you recommended.\n\nIt's really pretty, but I don't usually wear—"
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_(Dress)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Lobby_4",
+            "LocalizeEN": "Even in a dress, It's still me. I will continue to serve at your side, Sensei.\n\nSo... Don't run away."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_(Dress)_Season_Birthday_Player_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_Season_Birthday_Player_2",
+            "LocalizeEN": "You actually were going to ask me yourself, you say?\n\nI-It's not that special or any— No.\n\nI prepared this song for you. So I shall perform it to the best of my abilities."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hina_(Dress)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_MemorialLobby_2_1",
+            "LocalizeEN": "N-No. That was... It wasn't just the two of us...then...\n\nThe...reason I kept practicing was...\n\nSo I could play for you...\n\nIf I quit before you heard my song... I don't think I could forgive myself."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hina_(Dress)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_MemorialLobby_4_1",
+            "LocalizeEN": "Ah... O-Okay...\n\nYeah... Why worry? This is the way you've always been."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLogin_1",
+            "LocalizeEN": "Welcome, Sensei.\n\nI'm sure the Pandemonium Society is giving you a hard time...\n\nBut I'd like to ask for your help."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLogin_2",
+            "LocalizeEN": "You're here, Sensei.\n\nSorry to ask you for another favor.\n\n...\"Don't worry about it?\" Heehee. How like you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLobby_1",
+            "LocalizeEN": "I feel wounded whenever there's trouble with the Pandemonium Society, but...\n\nI'm glad that this time, you were here, Sensei."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLobby_2",
+            "LocalizeEN": "Throwing a party at the last minute...\n\nWhat are they thinking? Really?\n\nIt's not like we can know, but still..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLobby_3",
+            "LocalizeEN": "Whatever happens, the Prefect Team's mission doesn't change.\n\nThis sort of thing happens all the time, after all."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLobby_4_1",
+            "LocalizeEN": "It wouldn't be Gehenna without the chaos."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hina_(Dress)_EventLobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventLobby_4_2",
+            "LocalizeEN": "Hm? \"Gehenna's scary?\"\n\nN-Now, now. I think you might be being a little hyperbolic..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hina_(Dress)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_formation_in_1",
+            "LocalizeEN": "Yes, I am ready."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hina_(Dress)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_formation_in_2",
+            "LocalizeEN": "I was waiting for Sensei's command."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hina_(Dress)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_formation_select",
+            "LocalizeEN": "Don't look at me... so much..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_defeat_1",
+            "LocalizeJP": "ごめん、先生。私が油断したから…。",
+            "LocalizeEN": "Sorry, Sensei. I dropped my guard..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_defeat_2",
+            "LocalizeJP": "慣れない服で集中が乱れたからかも。…また訓練しないと。",
+            "LocalizeEN": "Maybe awkward clothes distracted me... I have to train again."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_in_1",
+            "LocalizeEN": "Wearing the dress changes nothing I do."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_in_2",
+            "LocalizeEN": "I trust Sensei's command."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_victory_1",
+            "LocalizeEN": "As I thought, Sensei's command is perfect."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_(Dress)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_tactic_victory_2",
+            "LocalizeEN": "That was a perfect victory... Yes, now I have enough time for the practice."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_buffself_1",
+            "LocalizeJP": "準備は万全。",
+            "LocalizeEN": "I'm fully ready."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_covered_1",
+            "LocalizeJP": "隠れた。",
+            "LocalizeEN": "I hid."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_damage_3",
+            "LocalizeJP": "まったく…。",
+            "LocalizeEN": "Disgusting..."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_defense_1",
+            "LocalizeEN": "No use."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_in_1",
+            "LocalizeEN": "Let us go, there's the only one thing we need to do."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_in_2",
+            "LocalizeEN": "I have what needs swept before the practice."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_move_1",
+            "LocalizeEN": "I'm going to up the tempo a little."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_move_2",
+            "LocalizeEN": "I must not be lagged."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_recovery_1",
+            "LocalizeJP": "ありがとう",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_retire",
+            "LocalizeJP": "演奏が、まだ…なのに…。先生…ごめん。",
+            "LocalizeEN": "The performance... it's not finished yet... Sensei... I'm sorry."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_tacticalaction_1",
+            "LocalizeEN": "I move."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_(Dress)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_battle_victory_1",
+            "LocalizeEN": "Mission completed, without any problem."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hina_(Dress)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_commonskill",
+            "LocalizeEN": "Need to check before practice."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_1",
+            "LocalizeJP": "あなたのために\n用意した旋律……",
+            "LocalizeEN": "This melody is prepared for you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_2",
+            "LocalizeEN": "I want to show the results of my practice to you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_3",
+            "LocalizeEN": "My sound is unskilled, but wholeheartedly for you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_1",
+            "LocalizeEN": "I am, ready."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_2",
+            "LocalizeEN": "Now, I'm onstage."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_3",
+            "LocalizeEN": "Wholeheartedly, I will perform."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_4",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_4",
+            "LocalizeEN": "Ma non troppo."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_5",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_5",
+            "LocalizeEN": "But not too much."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_6",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_6",
+            "LocalizeEN": "Leisurely, lively."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_7",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_7",
+            "LocalizeEN": "Le finale."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_8",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_8",
+            "LocalizeEN": "Elegante."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_(Dress)_ExSkill_Level_9",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_exskill_level_9",
+            "LocalizeEN": "This is the finale."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_(Dress)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_growup_1",
+            "LocalizeEN": "Thanks to Sensei, I advanced in an additional measure again. Thank you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_(Dress)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_growup_2",
+            "LocalizeEN": "Who I am now is thanks to Sensei. I'm really happy of that."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_(Dress)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_growup_3",
+            "LocalizeEN": "I want to keep getting stronger to return a favor. Can you keep an eye on me?"
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_(Dress)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_growup_4",
+            "LocalizeEN": "Until Sensei can rely on me, I want to get stronger and grow. That is all what I think now."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_(Dress)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_relationship_up_1",
+            "LocalizeEN": "Sensei taught that even I was useful. Because you are, I am... Thank you so much."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_(Dress)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_relationship_up_2",
+            "LocalizeJP": "その……こんな格好だから。\nいつも以上に視線を気にしてしまうかも。\n相手が先生なら、いいんだけど……",
+            "LocalizeEN": "Um... Because of this appearance, I might care about someone's gazes more. If Sensei's, I don't care."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_(Dress)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_relationship_up_3",
+            "LocalizeEN": "Even I, may be really here? ...Hehe, you really don't change. Thank you."
+        },
+        {
+            "CharacterId": 10086,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_(Dress)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0230/ch0230_relationship_up_4",
+            "LocalizeEN": "Sensei, can you hold my hand? If you can, my tension will be relieved a little."
+        }
+    ]
+}

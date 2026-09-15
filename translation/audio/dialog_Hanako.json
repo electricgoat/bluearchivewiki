@@ -1,0 +1,194 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hanako_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Hanako/Hanako_Gachaget",
+            "LocalizeEN": "I'm Urawa Hanako. I look forward to working with you, in all kinds of ways."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hanako_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_Hanako/Hanako_Lobby_5",
+            "LocalizeEN": "Heehee. I just wanted to see your face, Sensei."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hanako_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Hanako/Hanako_Season_Xmas",
+            "LocalizeEN": "A holy night. I'm so excited...\n\nHuh? Oh, heehee. I'm just talking to myself."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_formation_in_1",
+            "LocalizeJP": "あら、私の出番ですか？",
+            "LocalizeEN": "Oh, is it my turn?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_formation_in_2",
+            "LocalizeJP": "ふふ、私のことを求めてくれるなんて。",
+            "LocalizeEN": "It's a wonder that you come looking for me."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hanako_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_formation_select",
+            "LocalizeJP": "あら。大胆ですね…？",
+            "LocalizeEN": "Bold, aren't you?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_tactic_defeat_1",
+            "LocalizeJP": "もう…、足腰が立ちません。",
+            "LocalizeEN": "I can't even get up."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hanako_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_tactic_defeat_2",
+            "LocalizeJP": "少し、よそ見をしすぎました。",
+            "LocalizeEN": "Maybe a got a bit too distracted."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_battle_damage_2",
+            "LocalizeJP": "いったー。",
+            "LocalizeEN": "Ouch."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_battle_damage_3",
+            "LocalizeJP": "今のは痛かったですね……。",
+            "LocalizeEN": "That hurt just now."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_battle_defense_1",
+            "LocalizeEN": "Ufufu. Was that it?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hanako_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_battle_retire",
+            "LocalizeJP": "こんな…はずでは。",
+            "LocalizeEN": "This can't be..."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hanako_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_commonskill",
+            "LocalizeEN": "Here I go."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_1",
+            "LocalizeEN": "Here. Oh! Fufufu."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_2",
+            "LocalizeEN": "Here it goes. Ah!"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_3",
+            "LocalizeEN": "Well then. Ah!"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_level_1",
+            "LocalizeEN": "I hope this helps."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_level_2",
+            "LocalizeEN": "I'd be glad it this satisfies you."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hanako_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_exskill_level_3",
+            "LocalizeEN": "Please take this."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_growup_1",
+            "LocalizeEN": "Don't you think I've grown a little?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_growup_3",
+            "LocalizeEN": "I will repay you properly next time. Yes, just the way you want me to."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hanako_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_growup_4",
+            "LocalizeEN": "If you cherish me so much, I... I won't be able to contain myself any more."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_relationship_up_1",
+            "LocalizeEN": "Can I really trust you, Sensei?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_relationship_up_2",
+            "LocalizeEN": "There's still more, right? Sensei?"
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_relationship_up_3",
+            "LocalizeEN": "I want Sensei to see me as I am."
+        },
+        {
+            "CharacterId": 23007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hanako_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hanako/hanako_relationship_up_4",
+            "LocalizeEN": "Sensei, perhaps you prefer it harsh and tough?"
+        }
+    ]
+}

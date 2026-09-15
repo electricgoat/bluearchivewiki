@@ -1,0 +1,375 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Arisu_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Cafe_Act_1",
+            "LocalizeEN": "I must prepare for new game plus."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Lobby_1",
+            "LocalizeEN": "A new game is coming out soon! You will join me to play co-op, correct?"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Lobby_3",
+            "LocalizeEN": "It has been many a millennia since humans last set foot here...\n\nI have always wanted to say that."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Lobby_4",
+            "LocalizeEN": "I do not know why I am shedding tears.\n\nThey must be to wash my ocular lenses."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Lobby_5",
+            "LocalizeEN": "Sensei, your next destination is an arcade...\n\nL-Lying? I would never!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Season_Birthday_Player",
+            "LocalizeEN": "It is the anniversary of the first time Sensei logged into my world. I am eternally grateful.\n\nCongratulations, Sensei."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Season_Birthday",
+            "LocalizeEN": "Today is my birthday. The day I got to meet everyone.\n\nIt is also the day I met Sensei for the first time."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Arisu_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_Season_NewYear",
+            "LocalizeEN": "Happy New Year...\n\nDisregard! Now is not the time for that!\n\nSensei! The New Year's event is underway!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Arisu_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Aris/Aris_ExWeapon_Get",
+            "LocalizeEN": "This is the...legendary holy sword...! Oh, it's a gun."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_formation_in_1",
+            "LocalizeEN": "I'll join the party."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_formation_in_2",
+            "LocalizeEN": "My role is... as an attacker."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Arisu_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_formation_select",
+            "LocalizeEN": "Booting complete."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_defeat_1",
+            "LocalizeJP": "必滅者よ、このまま諦めてはいけません。",
+            "LocalizeEN": "You can't give up now, ill-fated warrior."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_defeat_2",
+            "LocalizeJP": "リブート。また挑戦します。",
+            "LocalizeEN": "Rebooting. I will fight another time."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_in_1",
+            "LocalizeEN": "Target detected ahead. Charging forward."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_in_2",
+            "LocalizeEN": "Sensei, at your command."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_victory_1",
+            "LocalizeEN": "Course complete, going back."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Arisu_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_tactic_victory_2",
+            "LocalizeEN": "Enemy annihilation confirmed. Mission cleared."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_buffed_1",
+            "LocalizeEN": "Buffed!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_buffself_1",
+            "LocalizeJP": "バフをかけます！",
+            "LocalizeEN": "Buff it!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_damage_2",
+            "LocalizeJP": "機体に異常発生…。",
+            "LocalizeEN": "An abnormality has occurred in the aircraft."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_damage_3",
+            "LocalizeJP": "システムリセット。",
+            "LocalizeEN": "System reset."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_defense_1",
+            "LocalizeJP": "問題ありません"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_in_1",
+            "LocalizeEN": "Arisu is here. Arisu is here to help."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_in_2",
+            "LocalizeEN": "Light will lead the way."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_move_1",
+            "LocalizeJP": "アリス、前進を続けます",
+            "LocalizeEN": "Arisu. Keep moving forward."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_move_2",
+            "LocalizeEN": "Check your goals. To go!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_recovery_1",
+            "LocalizeEN": "HP Potion"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_retire",
+            "LocalizeJP": "システム、…停止。",
+            "LocalizeEN": "System stop."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_shout_2",
+            "LocalizeJP": "行きます。",
+            "LocalizeEN": "Going ahead."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_shout_3",
+            "LocalizeJP": "攻撃のチャンスです！",
+            "LocalizeEN": "It's our chance to attack."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_tacticalaction_1",
+            "LocalizeJP": "移動します",
+            "LocalizeEN": "Move."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_tsa_1",
+            "LocalizeJP": "合体！",
+            "LocalizeEN": "Fusion!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_tsa_2",
+            "LocalizeJP": "召喚に応じろ、ゴーレムよ。主人の命令に従え！",
+            "LocalizeEN": "Answer to my call, O golem. Obey your master's command!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_victory_1",
+            "LocalizeEN": "I'm not afraid because I have friends."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_battle_victory_2",
+            "LocalizeEN": "Courage is the ultimate magic."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Arisu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_commonskill",
+            "LocalizeEN": "I will charge it."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_1",
+            "LocalizeEN": "Magic charge 100%. Here I go!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_2",
+            "LocalizeEN": "Target confirmed. Exceeding output threshold."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_3",
+            "LocalizeJP": "悪を打ち砕く正義の一撃……",
+            "LocalizeEN": "Evil-crushing blow of justice"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_level_1",
+            "LocalizeEN": "I call upon the light! Energy Overload. Release."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_level_2",
+            "LocalizeEN": "I'm Arisu. I'll do my best."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_exskill_level_3",
+            "LocalizeEN": "I put my will into this light. Pierce forward, Balance Collapse!"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_growup_1",
+            "LocalizeEN": "Level up. I acquired a lot of experience points."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_growup_2",
+            "LocalizeEN": "I met everyone and learned about games and friendship. What will Sensei teach Arisu?"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_growup_3",
+            "LocalizeEN": "Look, Sensei! Arisu now understands all about smiling."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Arisu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_growup_4",
+            "LocalizeEN": "Sensei, Arisu is now the strongest warrior in the world."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_relationship_up_1",
+            "LocalizeEN": "Arisu also wants to raise Sensei's relationship level."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_relationship_up_2",
+            "LocalizeEN": "When I face a new game for the first time... when I level up or when I succeed in strengthening my gear... every time I meet Sensei, I feel a strange sensation that I cannot categorize."
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_relationship_up_3",
+            "LocalizeJP": "先生と接触してから、アリスの中に何かがプログラミングされました..\n数値に換算できないぐらい大きな、この気持ちの名前は……",
+            "LocalizeEN": "Something was programmed into Arisu after she made contact with Sensei. A feeling so big that can't be put into numbers. What is this feeling called?"
+        },
+        {
+            "CharacterId": 10015,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Arisu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Aris/aris_relationship_up_4",
+            "LocalizeEN": "Arisu is happy to have met Sensei."
+        }
+    ]
+}

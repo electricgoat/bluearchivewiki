@@ -1,0 +1,260 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "UILobby2",
+            "VoiceClip": "Cherino_Lobby_6",
+            "Path": "Audio/VOC_JP/JP_Cherino/Cherino_Lobby_6",
+            "LocalizeEN": "O-Only you get to see my bare face, C-Comrade.\n\nDon't tease me, or I'll have you on kitchen duty for a year!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Cherino_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_formation_in_1",
+            "LocalizeEN": "Good choice."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Cherino_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_formation_in_2",
+            "LocalizeEN": "Is it time to show my authority?"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Cherino_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_formation_select",
+            "LocalizeEN": "Huh? Let go!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_defeat_1",
+            "LocalizeJP": "う、うわぁ…、負けちゃった。",
+            "LocalizeEN": "Eh? We lost."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_defeat_2",
+            "LocalizeJP": "こ…、こんなの何かの間違いだ。",
+            "LocalizeEN": "This has to be a mistake."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_in_1",
+            "LocalizeEN": "Everyone, get ready."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_in_2",
+            "LocalizeEN": "Everyone, it's time to fulfil your duty."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_victory_1",
+            "LocalizeEN": "This is the power of Red Winter."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Cherino_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_tactic_victory_2",
+            "LocalizeEN": "Were you seeing my valiant figure, comrade?"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_buffed_1",
+            "LocalizeEN": "Not bad, comrade."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_buffself_1",
+            "LocalizeJP": "レッドウィンターの力、見せてやる。",
+            "LocalizeEN": "I'll show you the power of Red Winter."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_covered_1",
+            "LocalizeEN": "It's a rebellion, hide!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_defense_1",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_in_1",
+            "LocalizeEN": "Departing."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_in_2",
+            "LocalizeEN": "Come on, let's go."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_move_1",
+            "LocalizeEN": "This is no time to rest."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_move_2",
+            "LocalizeEN": "With this momentum, we will beat them all."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_retire",
+            "LocalizeJP": "うう、はあ、…お家に帰りたい。",
+            "LocalizeEN": "I want to go home."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_tacticalaction_1",
+            "LocalizeEN": "Advance! Advance!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_victory_1",
+            "LocalizeEN": "How's that? Did you realize the power of the chief secretary? ...mm? Ah! My moustache!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Cherino_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_battle_victory_2",
+            "LocalizeEN": "Is this what it's all about? Hahahaha! ……what? Wow!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Cherino_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_commonskill",
+            "LocalizeEN": "Purge them."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_1",
+            "LocalizeEN": "Come, guards. There! Fire!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_2",
+            "LocalizeEN": "Go, my guards! There! Purge them!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_3",
+            "LocalizeEN": "Guards, all hands attack!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_level_1",
+            "LocalizeEN": "Get rid of them all."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_level_2",
+            "LocalizeEN": "All right, attack."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Cherino_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_exskill_level_3",
+            "LocalizeEN": "Purge them!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Cherino_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_growup_1",
+            "LocalizeEN": "This overflowing power... are you seeing, comrade?"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Cherino_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_growup_2",
+            "LocalizeEN": "Not bad, not bad, there's no limit to my growth!"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Cherino_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_growup_3",
+            "LocalizeEN": "This is the true power of Red Winter."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Cherino_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_growup_4",
+            "LocalizeEN": "Well done, comrade."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Cherino_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_relationship_up_1",
+            "LocalizeEN": "If you embarrass me, you will be purged, ok?"
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Cherino_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_relationship_up_2",
+            "LocalizeEN": "Thank you, comrade."
+        },
+        {
+            "CharacterId": 10017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Cherino_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Cherino/cherino_relationship_up_3",
+            "LocalizeEN": "What?"
+        }
+    ]
+}

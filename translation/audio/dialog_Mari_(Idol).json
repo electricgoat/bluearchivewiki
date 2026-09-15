@@ -1,0 +1,323 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mari_(Idol)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/CH0273_Lobby_1",
+            "LocalizeEN": "If you'd like, Sensei...I'll sing this song...whether it's on stage or not."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mari_(Idol)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/CH0273_Lobby_2",
+            "LocalizeEN": "If my song can make Sensei happy... There's nothing more I can ask for."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mari_(Idol)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0273/CH0273_Lobby_5",
+            "LocalizeEN": "Seriously... Then me too...! Hiyah!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Mari_(Idol)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/CH0273_MemorialLobby_1_1",
+            "LocalizeEN": "You waited for me, Sensei!\n\nI can't believe you really kept waiting for me here..."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_formation_in_1",
+            "LocalizeEN": "Position, OK!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_formation_in_2",
+            "LocalizeEN": "This position will work, I hope?"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mari_(Idol)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_formation_select",
+            "LocalizeEN": "Preparations are complete, Sensei!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_defeat_1",
+            "LocalizeJP": "練習が、足りなかったのでしょうか……。",
+            "LocalizeEN": "It seems, I didn't practice enough..."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_defeat_2",
+            "LocalizeJP": "すみません、私のミスです……。",
+            "LocalizeEN": "I'm sorry, it was my mistake..."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_in_1",
+            "LocalizeEN": "Our song is for all of you!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_in_2",
+            "LocalizeEN": "I pray you may find peace of mind."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_victory_1",
+            "LocalizeEN": "What a wonderful concert that was!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mari_(Idol)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_tactic_victory_2",
+            "LocalizeEN": "My performance... how was it?"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_buffed_1",
+            "LocalizeEN": "This is... for me...?"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_buffself_1",
+            "LocalizeJP": "テンション、上げていきます！",
+            "LocalizeEN": "Here, raise your spirits!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_covered_1",
+            "LocalizeEN": "I'm covered!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_damage_1",
+            "LocalizeJP": "ひゃあ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_damage_2",
+            "LocalizeJP": "いたっ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_damage_3",
+            "LocalizeJP": "ふっ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_in_1",
+            "LocalizeEN": "Now then... let's go!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_in_2",
+            "LocalizeEN": "My song begins!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_move_1",
+            "LocalizeEN": "On to the next part!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_move_2",
+            "LocalizeEN": "The song is not yet over."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_recovery_1",
+            "LocalizeEN": "My thanks!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_retire",
+            "LocalizeJP": "ま、まだ、歌を届けられていません……！",
+            "LocalizeEN": "It seems... my performance hasn't reached them...!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_shout_1",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_shout_2",
+            "LocalizeJP": "ひやっ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_shout_3",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_victory_1",
+            "LocalizeEN": "Let's meet again, at the next performance!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mari_(Idol)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_battle_victory_2",
+            "LocalizeEN": "Times like this always pass so quickly, don't you think?"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mari_(Idol)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_commonskill",
+            "LocalizeEN": "Ki-- kira kira! ...Hwa?!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_1",
+            "LocalizeEN": "Just like we practiced...!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_2",
+            "LocalizeEN": "Trust in myself...!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_3",
+            "LocalizeEN": "Let me show you!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_level_1",
+            "LocalizeEN": "These emotions... I will convey them to you!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_level_2",
+            "LocalizeEN": "May this song reach you!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mari_(Idol)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_exskill_level_3",
+            "LocalizeEN": "I want to be everyone's strength!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_growup_1",
+            "LocalizeEN": "This... does this mean that you're sponsoring me, Sensei?\nThen, I will do my best to meet your expectations!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_growup_2",
+            "LocalizeEN": "Thank you for your concerns. Let me reciprocate with an astounding performance!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_growup_3",
+            "LocalizeEN": "My unease, my nervousness, they seem to have faded...\nThis must be thanks to you, Sensei."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mari_(Idol)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_growup_4",
+            "LocalizeEN": "Thanks to you, Sensei, my confidence has grown.\nRight now, I feel like I can do anything!"
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_relationship_up_1",
+            "LocalizeEN": "Sensei, you... accept who I am, is that right?\nThat's... good to hear."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_relationship_up_2",
+            "LocalizeEN": "If an idol sings for someone, then I... I want to be your idol, Sensei."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_relationship_up_3",
+            "LocalizeEN": "Sensei, please... keep your eyes on me."
+        },
+        {
+            "CharacterId": 10105,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mari_(Idol)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0273/ch0273_relationship_up_4",
+            "LocalizeEN": "Even if it may be a sin to think so...\n..Right now, please... watch me, Sensei."
+        }
+    ]
+}

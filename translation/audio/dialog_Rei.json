@@ -1,0 +1,25 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10115,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Rei_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0245/CH0245_EventLogin_1",
+            "LocalizeEN": "Do you like baseball, Sensei?\n\nBecause I love it!"
+        },
+        {
+            "CharacterId": 10115,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "VoiceClip": "Rei_Omikujipickup_1",
+            "Path": "Audio/VOC_JP/JP_CH0245/CH0245_Omikujipickup_1",
+            "LocalizeEN": "First place! It's the first place prize, Sensei! Woah, how amazing!"
+        },
+        {
+            "CharacterId": 10115,
+            "DialogCategory": "UIEventFortuneGachaShop",
+            "VoiceClip": "Rei_Omikujipickup_2",
+            "Path": "Audio/VOC_JP/JP_CH0245/CH0245_Omikujipickup_2",
+            "LocalizeEN": "This is the second place prize! It's a shame that you didn't get first place, but this is still incredible!"
+        }
+    ]
+}

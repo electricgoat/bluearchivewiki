@@ -1,0 +1,344 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mina_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0138/CH0138_Cafe_monolog_4",
+            "LocalizeEN": "The Shanhaijing Cafe is more like a tea house..."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mina_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/CH0138_Lobby_1",
+            "LocalizeEN": "No person can live alone...\n\nIt's a cliche, but I don't hate it."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mina_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0138/CH0138_Season_Birthday",
+            "LocalizeEN": "Heh... Being wished happy birthday by Sensei. Not bad.\n\nI can stand sitting around all day like some kind of desk jockey.\n\nHang out with me today!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mina_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0138/CH0138_Season_NewYear",
+            "LocalizeEN": "It's a new year... Happy new year, Sensei.\n\nSensei, do you have a new year resolution?\n\nMine, of course, is to live an even more hard-boiled life."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Mina_EventMission_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/CH0138_EventMission_Login_1",
+            "LocalizeEN": "Purpose. Duty. Operation. Misson. They all mean the same."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mina_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_formation_in_1",
+            "LocalizeEN": "Does our lives have meaning?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mina_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_formation_in_2",
+            "LocalizeEN": "Don't we have a future waiting?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_defeat_1",
+            "LocalizeJP": "発つ時が来たのか？",
+            "LocalizeEN": "Is it time to leave here?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_defeat_2",
+            "LocalizeJP": "この嵐の中をどう進んでいけば…、いいんだ。",
+            "LocalizeEN": "How do I move forward... in the midst of this storm?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_in_1",
+            "LocalizeEN": "Aa, no dream you can't wake up from, as they say."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_in_2",
+            "LocalizeEN": "Good. That's the best position."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_victory_1",
+            "LocalizeEN": "Destiny is, to be grasped by one's own hands."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Mina_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_tactic_victory_2",
+            "LocalizeEN": "It must always be this way. I don't like leaving things to circumstance."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_buffed_1",
+            "LocalizeEN": "I'll always return favours."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_buffself_1",
+            "LocalizeJP": "ここからだ、行くぞ。",
+            "LocalizeEN": "It's only beginning, let's go."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_covered_1",
+            "LocalizeEN": "Taking cover."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_damage_1",
+            "LocalizeJP": "ぅくっ！",
+            "LocalizeEN": "Gu!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_damage_2",
+            "LocalizeJP": "んぐっ！",
+            "LocalizeEN": "Guh!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_damage_3",
+            "LocalizeJP": "畜生…！",
+            "LocalizeEN": "Damn it..!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_defense_1",
+            "LocalizeEN": "That's the end of that?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_in_1",
+            "LocalizeEN": "Come, it's time."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_in_2",
+            "LocalizeEN": "In battle I'll make my stand."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_move_1",
+            "LocalizeEN": "Victory comes not to the idle."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_move_2",
+            "LocalizeEN": "Over there."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_recovery_1",
+            "LocalizeEN": "My thanks."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_retire",
+            "LocalizeJP": "運命こそ、我が宿敵。",
+            "LocalizeEN": "Oh fate, my long rival."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_shout_1",
+            "LocalizeJP": "受けてみろ！",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_shout_2",
+            "LocalizeJP": "お前のために用意した。",
+            "LocalizeEN": "I've prepared this just for you."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_shout_3",
+            "LocalizeJP": "覆水盆に返らず、だな。",
+            "LocalizeEN": "No use crying over spilt milk, as they say."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_tacticalaction_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_victory_1",
+            "LocalizeEN": "Respect for comrades,\nRounds for traitors.\nHm."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mina_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_battle_victory_2",
+            "LocalizeEN": "All I'm doing, is savouring the moment.\nHm."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mina_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_commonskill",
+            "LocalizeEN": "Let's go again."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_1",
+            "LocalizeEN": "Haa. For future's sake."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_2",
+            "LocalizeEN": "Now, who're we dealing with?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_3",
+            "LocalizeEN": "Now is the time to make a stand."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_level_1",
+            "LocalizeEN": "Farewell. Fuu."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_level_2",
+            "LocalizeEN": "It's our parting. Fu."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mina_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_exskill_level_3",
+            "LocalizeEN": "Seems it'll rain. Hmph!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mina_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_growup_1",
+            "LocalizeEN": "I feel like I've gotten stronger.\nIs this thanks to Sensei too?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mina_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_growup_2",
+            "LocalizeEN": "Today's me has grown further than yesterday's me. Hm, that's how it is."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mina_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_growup_3",
+            "LocalizeEN": "Here's looking at you.\nWhy am I saying that in this situation?\n\nYou can't get something like that? Then well...\n\nSorry, I just got too into the mood and said it..!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mina_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_growup_4",
+            "LocalizeEN": "Strength comes from having something to protect.\nAnd what is that? D-Don't ask me about every little thing!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mina_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_relationship_up_1",
+            "LocalizeJP": "鳥をしとめる時は、慎重でなければならない。早すぎても、遅すぎてもならないのだ。\nなんで鳥かって……？さ、さあな……",
+            "LocalizeEN": "Care is needed to shoot down birds.\nOne can neither be too quick nor to slow.\n\n..Why birds? I-I wonder..."
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mina_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_relationship_up_2",
+            "LocalizeEN": "The end arrives suddenly, sparing not even us.\nUntil then, I want to us to be in tune with one another.\n\n...Yes! That was a good line if I say so myself!"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mina_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_relationship_up_3",
+            "LocalizeEN": "Let's get closer, a step at a time.\nThat way one day... what would happen?"
+        },
+        {
+            "CharacterId": 10070,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mina_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0138/ch0138_relationship_up_4",
+            "LocalizeEN": "They say not to do things you're not used to, but they also say there's things you can't learn if you've never tried. Hmm.\nAh, Nevermind, forget it."
+        }
+    ]
+}

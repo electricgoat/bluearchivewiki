@@ -1,0 +1,602 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Midori_(Maid)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Midori_(Maid)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Gachaget",
+            "LocalizeEN": "Today... I tried being a maid. I'm looking forward to today... Master."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_(Maid)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Cafe_monolog_1",
+            "LocalizeEN": "Maid cafe... That's a bit too cliché."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_(Maid)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Cafe_monolog_2",
+            "LocalizeEN": "There are so many things that could become motifs..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_(Maid)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Cafe_monolog_3",
+            "LocalizeEN": "Cleaning this place seems like a lot of work..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_(Maid)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Cafe_monolog_4",
+            "LocalizeEN": "Is a maid who plays games a new idea...? Actually, maybe not..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Midori_(Maid)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Cafe_monolog_5",
+            "LocalizeEN": "Can I get a part-time job here...?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_LogIn_1",
+            "LocalizeEN": "Welcome back, Sensei! I've missed you! What can I help you with today?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_LogIn_2",
+            "LocalizeEN": "Welcome back, Master! I missed you! What can I do for you today?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_1",
+            "LocalizeEN": "Now that I'm wearing a maid uniform, I aim to become the perfect maid.\nAnd... what a maid needs is a \"Master\"!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_2",
+            "LocalizeEN": "Um... Does it suit me?\n...Is it cute?\nI'm glad to hear you say that... Hehe."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_3",
+            "LocalizeEN": "I ended up wearing a maid uniform for a number of reasons...\nBut now I think it was a good thing. And Sensei notices me, too."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_4_1",
+            "LocalizeEN": "If it's tidying up Schale, I'll do my best.\nI'll be ten times more careful than I am with my club room...!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_4_2",
+            "LocalizeEN": "Eh? You want me to put effort into cleaning up the club room as well...?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Lobby_5",
+            "LocalizeEN": "On the day of my shift, I get really excited. I get excited and happy about an hour before my shift starts."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_Birthday_Player",
+            "LocalizeEN": "Today is Master's birthday, right?\nHehe. It's a maid's job to remember her master's birthday, after all!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_Birthday",
+            "LocalizeEN": "Birthdays are usually spent with family, but...\nI... want to spend today... just today... with you, Sensei..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei.\nIf you'd like, would you like to come and visit the shrine with me?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_Xmas_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_Xmas_1",
+            "LocalizeEN": "Christmas... Is there anything special you'd like to eat?\nIt seems that the maids often make special dishes for special occasions."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_Xmas_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_Xmas_2",
+            "LocalizeEN": "...I'm not that good at cooking, but I'll do my best!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Midori_(Maid)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_Season_Halloween",
+            "LocalizeEN": "Someone said that dressing up as a maid for Halloween was a bit plain...\nBut it's not really a costume!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Midori_(Maid)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_ExWeapon_Get",
+            "LocalizeEN": "Pens, cleaning tools, guns... They're similar in that they're tools. If we had better tools, we could do a lot more. Thank you, Master. I'll never forget that."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_(Maid)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_MemorialLobby_1_1",
+            "LocalizeEN": "I-I'm so sorry, Master!\nI made a mistake again, and fell..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_(Maid)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_MemorialLobby_2_1",
+            "LocalizeEN": "It's okay. If you scold me...\nI'll accept it... No matter what it is..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_(Maid)_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_MemorialLobby_3",
+            "LocalizeEN": "...W-What do you think?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_(Maid)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_MemorialLobby_4_1",
+            "LocalizeEN": "But, that was the situation!\nI was the one who asked to take the photo..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Midori_(Maid)_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_MemorialLobby_5_1",
+            "LocalizeEN": "Um, Sensei?\nWere you satisfied with Maid Midori today?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLogin_1",
+            "LocalizeEN": "I've been waiting for you to come, Master. I look forward to working with you today.\nI felt a bit like a maid just now, didn't I?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLogin_2",
+            "LocalizeEN": "It's an incredibly luxurious mansion... It seems like there's a lot to do.\nIf I just take it one thing at a time steadily, I should be able to manage it.\n\nYou're in the same boat, Sensei."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLogin_Season_1",
+            "LocalizeEN": "What on earth is going on here...?\nNo, no, I need to pull myself together.\n\nIf I leave it all to my sister...!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLogin_Season_2",
+            "LocalizeEN": "Literally... Life is where the unimaginable happens.\nBut I will train until the end, Master.\nI have many shortcomings, but please rely on me!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLogin_Season_End",
+            "LocalizeEN": "You accomplished all of that...\nI still can't believe it. I was wondering what would happen along the way...\n\nThank you. It's all thanks to you, Sensei."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLobby_1",
+            "LocalizeEN": "Did you call me, Sensei?\nYes. I was wondering what kind of work a maid might do.\n\nEh? Is that attitude enough...?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLobby_2",
+            "LocalizeEN": "The important thing is to do what you can do now.\n...Just between you and me, if we don't do that, our department won't run smoothly..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLobby_3",
+            "LocalizeEN": "They say that diverse experiences are the driving force behind creativity...\nThis is a bit..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Midori_(Maid)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0202/CH0202_EventLobby_4",
+            "LocalizeEN": "Environment, clothing, elements... All the conditions seem to be met.\nWell then, Master. I will accompany you again today."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_GeasGet_1",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_geasget_1",
+            "LocalizeJP": "ありがとうございます。最善を尽くします。",
+            "LocalizeEN": "Thank you. I will do my best."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_Select_1",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_select_1",
+            "LocalizeJP": "私たちのゲームです、先生。イラストは私が描いてみました。",
+            "LocalizeEN": "This is our game, Sensei. I drew the illustrations."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_Select_2",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_select_2",
+            "LocalizeJP": "ゲームで遊びますか、ご主人様？ご期待にそえられていたら嬉しいです。",
+            "LocalizeEN": "Would you like to play a game, Master? I hope it meets your expectations."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_Select_3",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_select_3",
+            "LocalizeJP": "今まで私たちが作ったゲームの中では、一番障害が少なく作れました。…これも、今までの経験、でしょうか。",
+            "LocalizeEN": "Of all the games we've made so far, this one had the fewest problems. Perhaps this is also down to our past experiences."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_Start_1",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_start_1",
+            "LocalizeJP": "始めます。…一つも逃しません。",
+            "LocalizeEN": "Let's get started, and don't miss a thing."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Midori_(Maid)_ST0005_Minigame_Start_2",
+            "Path": "Audio/VOC_JP/JP_ST0005/st0005_minigame_start_2",
+            "LocalizeJP": "掃除対象はどこにいますか！？",
+            "LocalizeEN": "Where is the cleaning target!?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_(Maid)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_formation_in_1",
+            "LocalizeJP": "はい、先生。…いえ。ご主人様、私の番ですね。",
+            "LocalizeEN": "Yes, Sensei... I mean, Master. It's my turn."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_(Maid)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_formation_in_2",
+            "LocalizeJP": "分かりました。私でいいのですね。",
+            "LocalizeEN": "Understood. This is okay for me."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Midori_(Maid)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_formation_select",
+            "LocalizeJP": "ふわぁっ！うう～…。危なかった…。",
+            "LocalizeEN": "Woah! Whew, that was a close call..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_defeat_1",
+            "LocalizeJP": "申し訳ございません、私の力不足で…。",
+            "LocalizeEN": "I'm sorry, it's beyond my ability..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_defeat_2",
+            "LocalizeJP": "次こそは…。",
+            "LocalizeEN": "Next time..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_in_1",
+            "LocalizeJP": "先生、…ご主人様が見てくださってるから。",
+            "LocalizeEN": "Sensei... I mean, Master is watching over."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_in_2",
+            "LocalizeJP": "今だけは…、完璧なメイドになってみせます。",
+            "LocalizeEN": "Just for now... I'll become the perfect maid."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_victory_1",
+            "LocalizeJP": "勝ちました！よかったです。",
+            "LocalizeEN": "We won! I'm so happy."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Midori_(Maid)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_tactic_victory_2",
+            "LocalizeJP": "どうでしょう、私、うまくやれてましたか？",
+            "LocalizeEN": "What do you think? Did I do well?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_buffed_1",
+            "LocalizeJP": "ありがとうございます！元気が出ますね。",
+            "LocalizeEN": "Thank you! This gives me energy."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_buffself_1",
+            "LocalizeJP": "もう少し頑張ってみます。",
+            "LocalizeEN": "I'll try a little harder."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_covered_1",
+            "LocalizeEN": "Covering."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_damage_3",
+            "LocalizeJP": "痛いです。",
+            "LocalizeEN": "It hurts..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_defense_1",
+            "LocalizeJP": "その程度、効きません！",
+            "LocalizeEN": "That won't work!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_in_1",
+            "LocalizeJP": "お掃除を始めます。",
+            "LocalizeEN": "Let's start cleaning."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_in_2",
+            "LocalizeEN": "Let's get started. There's a lot to do."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_move_1",
+            "LocalizeEN": "The cleaning here is now complete."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_move_2",
+            "LocalizeJP": "それでは、次の位置に。",
+            "LocalizeEN": "Now, onto the next position."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_recovery_1",
+            "LocalizeJP": "ありがとうございます、元気が出ました。",
+            "LocalizeEN": "Thank you, I feel better now."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_retire",
+            "LocalizeJP": "まだです、まだ諦めるわけには…。",
+            "LocalizeEN": "Not yet, I can't give up just yet..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_tacticalaction_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_victory_1",
+            "LocalizeJP": "今日のお仕事はこれで終了です。…いかがでしたか、ご主人様。",
+            "LocalizeEN": "Today's work is finished. How was it, Master?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Midori_(Maid)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_battle_victory_2",
+            "LocalizeJP": "やりました先生！　…もう、お姉ちゃん。",
+            "LocalizeEN": "We did it, Sensei! ...Oh, come on, sister..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Midori_(Maid)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_commonskill",
+            "LocalizeJP": "お掃除は丁寧に、…うん、できました！",
+            "LocalizeEN": "The cleaning was done carefully... Yep, it is done!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_1",
+            "LocalizeJP": "１、２、よし、クリア！",
+            "LocalizeEN": "One, two... All right, clear!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_2",
+            "LocalizeJP": "ここと、こっち。…やった！",
+            "LocalizeEN": "Here, and here... I did it!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_3",
+            "LocalizeJP": "落ち着いて、一つずつ…、よし！",
+            "LocalizeEN": "Stay calm and take it one step at a time... Okay!"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_level_1",
+            "LocalizeEN": "Score updated! Did you see that, Sensei?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_level_2",
+            "LocalizeJP": "記録更新！…先生、どうでしょう！",
+            "LocalizeEN": "New record! What do you think, Sensei?"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Midori_(Maid)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_exskill_level_3",
+            "LocalizeJP": "ランキングサイトに上げてみようかな…。",
+            "LocalizeEN": "Maybe I'll put it on a ranking site..."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_(Maid)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_growup_1",
+            "LocalizeJP": "どうでしょう、ご主人様。私少しは成長できたのでしょうか。生徒として…、そしてメイドとして。"
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_(Maid)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_growup_2",
+            "LocalizeJP": "努力の方向性はもちろん大事ですが…、ときには「努力をしている」という事実が、安心感を与えてくれるんです。",
+            "LocalizeEN": "The direction of your efforts is of course important, but sometimes just the fact that you are making an effort can give you a sense of security."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_(Maid)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_growup_3",
+            "LocalizeJP": "私は…、こうして元気をもらえる相手がいて、本当に良かったと思っています。",
+            "LocalizeEN": "I'm really glad that I have someone who can give me energy like this."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Midori_(Maid)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_growup_4",
+            "LocalizeJP": "いつも見守ってくださりありがとうございます。これからもご主人様と一緒に、頑張っていきたいです。",
+            "LocalizeEN": "Thank you for always watching over me. I hope to continue to work hard together with you."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_(Maid)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_relationship_up_1",
+            "LocalizeJP": "先生、ご主人様…、呼び方どっちがいいですか？私としては…、ご主人様、かなぁ。",
+            "LocalizeEN": "Sensei, Master... Which is better to call you? Personally, I guess I'd call you \"Master\"."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_(Maid)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_relationship_up_2",
+            "LocalizeJP": "私たちの距離、近づいたのでしょうか？…それなら、嬉しいです。ふふ。",
+            "LocalizeEN": "Has the distance between us gotten closer? If so, I'm glad. Hehe."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_(Maid)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_relationship_up_3",
+            "LocalizeJP": "素晴らしい主人に仕えられることこそ、メイドの喜びと言いますよね。先生は私にとってそんな存在です。",
+            "LocalizeEN": "They say that the joy of being a maid is to serve a wonderful master. You are such a person to me."
+        },
+        {
+            "CharacterId": 10095,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Midori_(Maid)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0202/ch0202_relationship_up_4",
+            "LocalizeJP": "ご―しゅじん様。…えへへ。呼んでみたかっただけです。",
+            "LocalizeEN": "Maaaster! ...Hehe. I just wanted to call you."
+        }
+    ]
+}

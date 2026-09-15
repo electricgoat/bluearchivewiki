@@ -1,0 +1,330 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Izuna_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_Cafe_monolog_4",
+            "LocalizeEN": "This place is big enough to where I can use my Secret Izuna-Style Ninjutsu 108 Shadow Clone technique..."
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Izuna_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_Lobby_5",
+            "LocalizeEN": "What? I'm not supposed to use my skills on you?\n\nThen...who am I supposed to use them on?"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Izuna_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_ExWeapon_Get",
+            "LocalizeEN": "Th-This is a cutting-edge ninja weapon...! *gulp* Can I become an elite ninja with this?!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_EventLogin_Season_End",
+            "LocalizeEN": "The Hyakkiyako Festival is already over...\n\nThere's still plenty of festivals to come.\n\nPlease hang out with Izuna again, my lord!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_EventLobby_1",
+            "LocalizeEN": "Hmm hmm hmmm. ♪\nIzuna, Izuna, kon kon, kon kokon~♪ <ref group=\"note\">Official translation is \"Izuna, on the lookout!\"</ref>"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Izuna_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/Izuna_EventLobby_3",
+            "LocalizeEN": "Dango, senbei okonomiyaki...!\n\nThere's so much food Izuna wants to eat with you!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izuna_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_formation_in_1",
+            "LocalizeEN": "As you wish, my lord!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izuna_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_formation_in_2",
+            "LocalizeEN": "Please command me as you wish!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Izuna_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_formation_select",
+            "LocalizeEN": "Nin nin! My lord, what are your orders?"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_defeat_1",
+            "LocalizeJP": "ええっ！？任務失敗ですかぁ！？",
+            "LocalizeEN": "Eeh!? Mission failed!?"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_defeat_2",
+            "LocalizeJP": "……ま、負けても忍者は泣きませんので！",
+            "LocalizeEN": "... A ninja doesn't cry even when they lose!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_in_1",
+            "LocalizeEN": "Mission start!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_in_2",
+            "LocalizeEN": "I'll show you my Izuna-style ninja arts!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_victory_1",
+            "LocalizeEN": "Mission success! I was able to do a perfect job as a shinobi today as well."
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Izuna_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_tactic_victory_2",
+            "LocalizeEN": "I present this victory to my lord!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_buffed_1",
+            "LocalizeEN": "Ninja art, art of gratitude!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_buffself_1",
+            "LocalizeJP": "忍法、身体強化の術！",
+            "LocalizeEN": "Ninja art, body strength technique!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_covered_1",
+            "LocalizeEN": "I'm hiding!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_damage_1",
+            "LocalizeJP": "いたっ！"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_damage_2",
+            "LocalizeJP": "きゃんっ！"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_damage_3",
+            "LocalizeJP": "ひどいです。"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_in_1",
+            "LocalizeEN": "Izuna is here!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_in_2",
+            "LocalizeEN": "Everyone, trust Izuna and follow me!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_move_1",
+            "LocalizeEN": "Izuna, switching position!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_move_2",
+            "LocalizeEN": "Ninja run towards the next strategic area."
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_retire",
+            "LocalizeJP": "きゃんっ！め、目の前がぁ……ぐるぐるぅぅぅ～……。",
+            "LocalizeEN": "Aah! M-my head is... spinning..."
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_shout_1",
+            "LocalizeJP": "やっ！"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_shout_2",
+            "LocalizeJP": "はあっ！"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_shout_3",
+            "LocalizeJP": "ニンニン！"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_victory_1",
+            "LocalizeEN": "A victory for the Izuna-style ninja arts!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Izuna_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_battle_victory_2",
+            "LocalizeEN": "Woof woof! Victory!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Izuna_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_commonskill",
+            "LocalizeEN": "Go, shuriken!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_1",
+            "LocalizeEN": "Izuna-style ninja art!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_2",
+            "LocalizeEN": "I'll show you my ninja art!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_3",
+            "LocalizeEN": "Hiya! Cicada shell technique!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_level_1",
+            "LocalizeEN": "Emergency maneuver!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_level_2",
+            "LocalizeEN": "Ninja technique... this one also counts!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Izuna_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_exskill_level_3",
+            "LocalizeEN": "See how I dodge this!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_growup_1",
+            "LocalizeEN": "With this, I could learn even high-level ninja arts!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_growup_2",
+            "LocalizeEN": "This is yet another of my lord's blessings!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_growup_3",
+            "LocalizeEN": "I will become a ninja that can live up to my lord's expectations!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Izuna_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_growup_4",
+            "LocalizeEN": "Even taller than before, faster than before! Izuna is now perhaps the strongest ninja there is, my lord!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_relationship_up_1",
+            "LocalizeEN": "What is this sensation in my heart whenever I'm with my lord?... Maybe it's the sense of duty?"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_relationship_up_2",
+            "LocalizeEN": "I get a warm feeling every time I'm next to my lord. Is this... the joy of a ninja that has the support of their master?"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_relationship_up_3",
+            "LocalizeEN": "You're wishes are my command! Izuna is here to fulfil your every order!"
+        },
+        {
+            "CharacterId": 10014,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Izuna_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Izuna/izuna_relationship_up_4",
+            "LocalizeEN": "Izuna had long searched for a lord such as you. I finally... finally got to meet you. Now Izuna is very happy."
+        }
+    ]
+}

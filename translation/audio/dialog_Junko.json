@@ -1,0 +1,292 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_formation_in_1",
+            "LocalizeEN": "Let's do it, shall we?"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_formation_in_2",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Junko_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_formation_select",
+            "LocalizeEN": "Let me go!"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_defeat_1",
+            "LocalizeJP": "うえーん！悔しい。",
+            "LocalizeEN": "regrettable."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_defeat_2",
+            "LocalizeJP": "これは急にお腹が空くから。",
+            "LocalizeEN": "This is because I am suddenly hungry."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_in_1",
+            "LocalizeEN": "I'll take the lead."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_in_2",
+            "LocalizeEN": "If you win, you can eat delicious food."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_victory_1",
+            "LocalizeEN": "What do you think? It's a perfect victory."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Junko_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_tactic_victory_2",
+            "LocalizeEN": "Sensei, you're really going to treat me to food, aren't you?"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_buffed_1",
+            "LocalizeEN": "Oh,yes."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_buffself_1",
+            "LocalizeJP": "よーし。",
+            "LocalizeEN": "Yes."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_covered_1",
+            "LocalizeEN": "You can hide."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_damage_1",
+            "LocalizeJP": "痛い。"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_damage_3",
+            "LocalizeJP": "いたっ。"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_defense_1",
+            "LocalizeEN": "This degree."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_in_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_in_2",
+            "LocalizeEN": "Let's finish it quickly and go out to eat."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_move_1",
+            "LocalizeJP": "はぁ、お腹空いてきた……",
+            "LocalizeEN": "I'm hungry."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_move_2",
+            "LocalizeJP": "おやつでも持ってくれば良かった……",
+            "LocalizeEN": "I should have brought a snack."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_recovery_1",
+            "LocalizeEN": "Thank you, I will repay the favour"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_retire",
+            "LocalizeJP": "お腹が空いてたからごめん。",
+            "LocalizeEN": "Sorry, I was hungry."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_shout_2",
+            "LocalizeJP": "くらえ。"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_tacticalaction_1",
+            "LocalizeEN": "let's move"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_victory_1",
+            "LocalizeEN": "Well then, let's eat it... Wow! W-why?"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Junko_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_battle_victory_2",
+            "LocalizeEN": "Shazam. My last... What! ?"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Junko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_commonskill",
+            "LocalizeEN": "unforgivable."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_1",
+            "LocalizeJP": "ふふーん・・・・・・えええっ！\nうわあああん！"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_2",
+            "LocalizeJP": "お団子～お団子～うええ？！",
+            "LocalizeEN": "Dango Dango. What!"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_3",
+            "LocalizeJP": "へへっ・・・・・・うわっ?\nああもうっ！",
+            "LocalizeEN": "Ehehe, woah! Aah darn it!"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_level_1",
+            "LocalizeEN": "I haven't tasted it yet."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_level_2",
+            "LocalizeEN": "You bastard."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Junko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_exskill_level_3",
+            "LocalizeEN": "I'll smash it."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_growup_1",
+            "LocalizeEN": "It's not small, so it's still growing and it's going to get bigger."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_growup_2",
+            "LocalizeEN": "I don't know, but I feel a little stronger"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_growup_3",
+            "LocalizeEN": "Eat a lot, get stronger, get stronger Let's go to various places, Sensei"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Junko_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_growup_4",
+            "LocalizeEN": "It's still okay I think I can eat as much as I want."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_relationship_up_1",
+            "LocalizeEN": "It's true that you'll fall in love with me just because you treat me to food"
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_relationship_up_2",
+            "LocalizeEN": "Sensei is buying delicious things again, what a great person."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_relationship_up_3",
+            "LocalizeEN": "I don't mind being called cute, but it's nothing."
+        },
+        {
+            "CharacterId": 13007,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Junko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Zunko/zunko_relationship_up_4",
+            "LocalizeEN": "Call me when you need me. I'll always help you, Sensei."
+        }
+    ]
+}

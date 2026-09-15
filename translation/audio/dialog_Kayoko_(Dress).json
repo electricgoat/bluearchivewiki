@@ -1,0 +1,624 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Kayoko_(Dress)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Kayoko_(Dress)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Gachaget",
+            "LocalizeEN": "Hello. I'm not really used to wearing this... so if something is off, I apologize in advance. I'll be in your care, Sensei"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_(Dress)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Cafe_monolog_1",
+            "LocalizeEN": "Not a bad taste"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_(Dress)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Cafe_monolog_2",
+            "LocalizeEN": "I feel like someone's looking at me..."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_(Dress)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Cafe_monolog_3",
+            "LocalizeEN": "Hmm. So this is what Sensei likes"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_(Dress)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Cafe_monolog_4",
+            "LocalizeEN": "..This is somewhat calming"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_(Dress)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Cafe_monolog_5",
+            "LocalizeEN": "Is there nowhere I can sit down?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_LogIn_1",
+            "LocalizeEN": "Welcome, Sensei. What should we do today?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_LogIn_2",
+            "LocalizeEN": "Morning, Sensei. Do you have any plans for the day? Well if you're down... we.. No, nevermind"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Lobby_1",
+            "LocalizeEN": "The dress looks... good on me..? Thanks. It means alot coming from you"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Lobby_2",
+            "LocalizeEN": "If you like it, maybe I should wear this from now on. Ah... Erm.. Every now and then, of course"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Lobby_3",
+            "LocalizeEN": "Something... Feels different than usual. Or rather... I'm not like myself... I wonder why"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Lobby_4",
+            "LocalizeEN": "Well... It isn't too bad. Fufu"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Lobby_5",
+            "LocalizeEN": "..Ah, don't tell anyone else about this, okay. Understand?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei. Is there something you want me to do? ...Ah, I don't mean the usual tasks"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Season_Birthday",
+            "LocalizeEN": "My birthday...? Ah, that's right. Thanks. I completely forgot about it"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei. Since I'm already in my dress and all, want to have a party?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Season_Xmas",
+            "LocalizeEN": "It's Christmas... Eh? If we we're seen together while I'm dressed like this, someone could get the wrong idea. You're fine with that?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_(Dress)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_Season_Halloween",
+            "LocalizeEN": "Halloween costume...? I have all the preparations done"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Kayoko_(Dress)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_ExWeapon_Get",
+            "LocalizeEN": "Sometimes I do wonder, you've done so much for me... But can I ever really repay you? But.. Such day probably would never come, so I'll just say it in advance. ...Thanks, Sensei. From now on... I'll do my best as well"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_(Dress)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_MemorialLobby_1_1",
+            "LocalizeEN": "This is nice. Just sitting, spending time doing nothing with someone..."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_(Dress)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_MemorialLobby_2_1",
+            "LocalizeEN": "...I don't think I've ever done it much\n...That's right, usually I do it alone. And I'm fine with that"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_(Dress)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_MemorialLobby_3_1",
+            "LocalizeEN": "...Really?\nFufu, I'm glad, that you like this too"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_(Dress)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_MemorialLobby_4_1",
+            "LocalizeEN": "This is nice, spending time in peace.\n...Ah, I don't mean I hate the usual.\n...Surely you would understand"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_(Dress)_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_MemorialLobby_5_1",
+            "LocalizeEN": "Hahh... Hey...\nJust for a little while...\nJust for a little bit more... stay here"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLogin_1",
+            "LocalizeEN": "I've been waiting, Sensei. What should we do?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLogin_2",
+            "LocalizeEN": "..Ah, I've been looking for you, Sensei"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLogin_Season_1",
+            "LocalizeEN": "This is surprisingly a lot of work. Let's get on it"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLogin_Season_2",
+            "LocalizeEN": "Time's almost up. But it's okay, I'll help you out"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLogin_Season_End",
+            "LocalizeEN": "Time for cleanup"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLobby_1",
+            "LocalizeEN": "Hm? You called?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLobby_2",
+            "LocalizeEN": "Sensei.. this isn't the time to be messing around"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLobby_3",
+            "LocalizeEN": "Hahh.. Leave that for later"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kayoko_(Dress)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventLobby_4",
+            "LocalizeEN": "I'm not against playing around but... Not now"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Login_1",
+            "LocalizeEN": "You need supplies, right? They are here."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Login_2",
+            "LocalizeEN": "If there is something you need, just say the word. I'll get it for you"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_End",
+            "LocalizeEN": "The job is done but... Is there nothing you forgot?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_1",
+            "LocalizeEN": "If you tell me what it is I'll try finding it"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_2",
+            "LocalizeEN": "Sensei... that tickles"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_Buy_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Buy_1",
+            "LocalizeEN": "So that's what you needed"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_Buy_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Buy_2",
+            "LocalizeEN": "So this is it was. I'm sure it'll be of use"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_Buy_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Buy_3",
+            "LocalizeEN": "Glad there is just what was needed"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Kayoko_(Dress)_EventShop_Buy_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventShop_Buy_4",
+            "LocalizeEN": "Good choice"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_Login_1",
+            "LocalizeEN": "I've sorted all the ongoing tasks at hand. Let's have a look together, Sensei"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_Login_2",
+            "LocalizeEN": "You've came to check on how things are going?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_1",
+            "LocalizeEN": "Sensei... Hey.."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_2",
+            "LocalizeEN": "Being able to work wit you, is nice"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_Get_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_Get_1",
+            "LocalizeEN": "Mhm, done"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Kayoko_(Dress)_EventMission_Get_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/CH0239_EventMission_Get_2",
+            "LocalizeEN": "Not bad, right"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kayoko_(Dress)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_formation_in_1",
+            "LocalizeEN": "So it's my turn. I'll get ready"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kayoko_(Dress)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_formation_in_2",
+            "LocalizeEN": "Understood. I'll make sure it becomes a success"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kayoko_(Dress)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_formation_select",
+            "LocalizeEN": "Sensei..? What..."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_defeat_1",
+            "LocalizeJP": "ごめん.",
+            "LocalizeEN": "Sorry"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_defeat_2",
+            "LocalizeJP": "こんな事になるなんて",
+            "LocalizeEN": "Didn't think it would turn out like this"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_in_1",
+            "LocalizeEN": "I see. I understand"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_in_2",
+            "LocalizeEN": "This is all right"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_victory_1",
+            "LocalizeEN": "So? Got you interested?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_(Dress)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_tactic_victory_2",
+            "LocalizeEN": "Not a bad result, right"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_buffed_1",
+            "LocalizeEN": "Good choice. Thanks"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_buffself_1",
+            "LocalizeJP": "今がチャンス",
+            "LocalizeEN": "This is my chance"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_covered_1",
+            "LocalizeEN": "I can cover"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_damage_1",
+            "LocalizeJP": "んぁっ…"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_damage_2",
+            "LocalizeJP": "うぅ…！"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_damage_3",
+            "LocalizeJP": "んっ、くぅっ！"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_defense_1",
+            "LocalizeEN": "Useless"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_in_1",
+            "LocalizeEN": "If we're going to do it, we're doing it well"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_in_2",
+            "LocalizeEN": "Its okay. All preparations are done"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_move_1",
+            "LocalizeEN": "Clear"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_move_2",
+            "LocalizeEN": "Next"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_recovery_1",
+            "LocalizeEN": "Thanks"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_retire",
+            "LocalizeJP": "後は...よろしく",
+            "LocalizeEN": "I'll leave the rest... to you"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_victory_1",
+            "LocalizeEN": "Good work, everyone. And Sensei too."
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_(Dress)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_battle_victory_2",
+            "LocalizeEN": "Great commands, sensei"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kayoko_(Dress)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_commonskill",
+            "LocalizeEN": "I won't let you escape"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_1",
+            "LocalizeEN": "As expected"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_2",
+            "LocalizeEN": "Well, that's about it"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_3",
+            "LocalizeEN": "Like this?"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_level_1",
+            "LocalizeEN": "This is the end"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_level_2",
+            "LocalizeEN": "Found you"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_(Dress)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_exskill_level_3",
+            "LocalizeEN": "This is an order so"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_(Dress)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_growup_1",
+            "LocalizeEN": "Thanks, sensei. I'll repay all you've done for me"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_(Dress)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_growup_2",
+            "LocalizeEN": "Why are you doing so much for me... No, nevermind. Thanks"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_(Dress)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_growup_3",
+            "LocalizeEN": "At this point, I have no idea who's helping who"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_(Dress)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_growup_4",
+            "LocalizeEN": "...I have gotten it. I won't let you down"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_(Dress)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_relationship_up_1",
+            "LocalizeEN": "Thanks, sensei. This is really nice"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_(Dress)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_relationship_up_2",
+            "LocalizeEN": "I'll treasure this"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_(Dress)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_relationship_up_3",
+            "LocalizeEN": "When I'm with sensei like this, the dress doesn't feel so bad. Wonder why"
+        },
+        {
+            "CharacterId": 10088,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_(Dress)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0239/ch0239_relationship_up_4",
+            "LocalizeEN": "This feels somewhat different.. from usual. Wonder if it is because of my dress"
+        }
+    ]
+}

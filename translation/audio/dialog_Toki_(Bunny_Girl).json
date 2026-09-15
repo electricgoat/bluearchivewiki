@@ -1,0 +1,353 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Toki_(Bunny_Girl)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_Cafe_monolog_1",
+            "LocalizeEN": "A peaceful tea time... it certainly is relaxing."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_Season_Birthday",
+            "LocalizeEN": "It is my birthday. Thank you for remembering.\n\nHowever, I am acting as an undercover agent right now.\n\nHowever...it might be possible to celebrate, as long as we find somewhere inconspicuous enough."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_Season_Xmas",
+            "LocalizeEN": "It's Christmas.\n\nNo, it's fine.\n\nI'm not cold. ...Achoo!\n\nYou...*sniff*... You saw nothing."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_ExWeapon_Get",
+            "LocalizeEN": "I have been told that sometimes, it is not a weakness to tell someone your honest feelings. In that case... thank you, Sensei. From the bottom of my heart."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLogin_1",
+            "LocalizeEN": "Welcome, Sensei.\n\nPreparations are complete for the stealth mission."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLogin_2",
+            "LocalizeEN": "Everything is ready. Awaiting your order."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLogin_Season_1",
+            "LocalizeEN": "It seems this place holds a secret."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLogin_Season_End",
+            "LocalizeEN": "Good. It all wrapped up satisfactorily.\n\nI will simply consider this a learning experience in my path to becoming the perfect agent."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLobby_2",
+            "LocalizeEN": "Ha... In these clothes, it feels really...\n\nBut the fabric is so thin I suppose that's inevitable..."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLobby_3",
+            "LocalizeEN": "You mean the bunny suit?\n\nThe strengths are different than the maid outfit. It's good in the right situations."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Toki_(Bunny_Girl)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0211/CH0211_EventLobby_4",
+            "LocalizeEN": "You think I look good in it?\n\nHm... Well, thank you. I didn't expect that..."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_(Bunny_Girl)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_formation_in_1",
+            "LocalizeEN": "What is today's infiltration mission?"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_(Bunny_Girl)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_formation_in_2",
+            "LocalizeEN": "Confirmed. Preparing."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Toki_(Bunny_Girl)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_formation_select",
+            "LocalizeEN": "Your orders, Sensei. I am an invincible bunny girl, after all."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_defeat_1",
+            "LocalizeJP": "どうして、こんな結果に…。",
+            "LocalizeEN": "How did it...come to this..."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_defeat_2",
+            "LocalizeJP": "作戦失敗…、でしょうか？",
+            "LocalizeEN": "I guess it's...mission failed?"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_in_1",
+            "LocalizeEN": "No need to worry. I am a bunny after all."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_in_2",
+            "LocalizeEN": "Please leave it to me."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_victory_1",
+            "LocalizeEN": "I won. Yay."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Toki_(Bunny_Girl)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_tactic_victory_2",
+            "LocalizeEN": "An expected outcome. Yahoo."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_buffself_1",
+            "LocalizeJP": "ニンジンパワー、アップ...、です。",
+            "LocalizeEN": "Carrot power...up."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_covered_1",
+            "LocalizeEN": "Ya!...I'm hidden."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_damage_1",
+            "LocalizeJP": "痛っ！",
+            "LocalizeEN": "Ow!"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_damage_2",
+            "LocalizeJP": "くぅっ…！"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_damage_3",
+            "LocalizeJP": "この痛み、忘れません…。",
+            "LocalizeEN": "I won't forget this pain..."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_defense_1",
+            "LocalizeEN": "There."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_in_1",
+            "LocalizeEN": "Callsign bunny zero four, commencing."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_in_2",
+            "LocalizeEN": "Commencing infiltration."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_move_1",
+            "LocalizeEN": "Come on, let's go go."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_move_2",
+            "LocalizeEN": "Moving to the next target."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_recovery_1",
+            "LocalizeEN": "It was helpful."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_retire",
+            "LocalizeJP": "まだです。まだ…。",
+            "LocalizeEN": "Not yet. No..."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_tacticalaction_1",
+            "LocalizeEN": "Moving out. Pyon Pyon."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_victory_1",
+            "LocalizeEN": "This mission was a success as well. Pyon Pyon."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Toki_(Bunny_Girl)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_battle_victory_2",
+            "LocalizeEN": "Pyon. I am the best agent after all."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_1",
+            "LocalizeEN": "Arm gear, equipped."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_2",
+            "LocalizeEN": "I'll deal with it."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_3",
+            "LocalizeEN": "Target suppressed."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_level_1",
+            "LocalizeEN": "Fire-!"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_level_2",
+            "LocalizeEN": "Full..Burst!"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Toki_(Bunny_Girl)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_exskill_level_3",
+            "LocalizeEN": "I will respond with my full power."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_(Bunny_Girl)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_growup_1",
+            "LocalizeEN": "I will continue devoting myself to becoming the best bunny agent."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_(Bunny_Girl)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_growup_2",
+            "LocalizeEN": "Escorting Sensei is my job. This I cannot give up."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_(Bunny_Girl)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_growup_3",
+            "LocalizeEN": "I will do my best to not be ashamed by these bunny ears. Hm? That's not it?"
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Toki_(Bunny_Girl)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_growup_4",
+            "LocalizeEN": "Infiltration, action, escort, intrusion, maid, bunnygirl...please, instruct me."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_(Bunny_Girl)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_relationship_up_1",
+            "LocalizeEN": "I asked my teacher to give me more time. \n\nAt least as much time as I spend thinking about Sensei."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_(Bunny_Girl)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_relationship_up_2",
+            "LocalizeEN": "Being with Sensei is very calming. Yes, it soothes me to sleep, even."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_(Bunny_Girl)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_relationship_up_3",
+            "LocalizeEN": "You can rely on me, Sensei. Anytime, anywhere. Hehe, I've always wanted to say something like this."
+        },
+        {
+            "CharacterId": 10067,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Toki_(Bunny_Girl)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0211/ch0211_relationship_up_4",
+            "LocalizeEN": "For me, Sensei is necessity. For Sensei to feel the same about me...Stop saying embarrassing things? Hehe, it was on purpose."
+        }
+    ]
+}

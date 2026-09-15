@@ -1,0 +1,554 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Aru_(Dress)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Aru_(Dress)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Gachaget",
+            "LocalizeEN": "Oh, what kind of request is it this time? Or is it a business proposal? Well, either way, I'm glad you're here, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(Dress)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Cafe_monolog_1",
+            "LocalizeEN": "Ah, that person is...!? But I should be fine here, right...?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(Dress)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Cafe_monolog_2",
+            "LocalizeEN": "I don't mind the atmosphere here."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(Dress)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Cafe_monolog_3",
+            "LocalizeEN": "It's time to get one of the larger jobs off the ground..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(Dress)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Cafe_monolog_4",
+            "LocalizeEN": "I wonder if there is a good business partner somewhere..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(Dress)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Cafe_monolog_5",
+            "LocalizeEN": "Hmmm... What should I do with this month's operating expenses?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_LogIn_1",
+            "LocalizeEN": "Welcome back, Sensei. Let's talk business right away, shall we?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_LogIn_2",
+            "LocalizeEN": "I've been expecting you. What's today's request?\nOf course, you're going to escort me, aren't you?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Lobby_1",
+            "LocalizeEN": "Let me know if you have any requests. We are special today..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Lobby_2",
+            "LocalizeEN": "This is a formal dress after all...\nHey, Sensei. Would you like to go out with me?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Lobby_3",
+            "LocalizeEN": "The dress look good on me...? \nAh, of course! I'm the boss, after all! ...Heh."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Lobby_4",
+            "LocalizeEN": "Ugh... This dress looks like it's going to be expensive to clean...\nH-Huh!? I-I didn't say anything!"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Lobby_5",
+            "LocalizeEN": "Hey, sometimes we can talk about something other than work, you know?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Season_Birthday_Player",
+            "LocalizeEN": "Heheh, today is an incredibly special day... Of course I would remember it. Happy Birthday, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Season_Birthday",
+            "LocalizeEN": "H-Huh!? It is my birthday, and you remembered it...!?\nTh-Thank you..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei.\nNeedless to say, our partnership will continue.\nI'm counting on you to keep up the good work this year."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Season_Xmas",
+            "LocalizeEN": "For us Problem Solvers, it's just another day like any other... But I guess, with Sensei, it's going to be meaningful."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(Dress)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Season_Halloween",
+            "LocalizeEN": "The whole city is buoyant... \nHow about it, Sensei? Should we throw a party?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Aru_(Dress)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_ExWeapon_Get",
+            "LocalizeEN": "We've known each other for a long time. To say that I trust you... would be too late, right?\nWell, I am looking forward to working with you, Sensei. Yeah, that's good enough for me."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(Dress)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_MemorialLobby_1_1",
+            "LocalizeEN": "*sigh* I never thought something like this would happen.\nBut as you said, Sensei, things like this aren't so bad."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(Dress)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_MemorialLobby_2_1",
+            "LocalizeEN": "To be honest, it's a bit strange...\nWhy would an adult like you who dresses well would go out of their way to eat at a place like this?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(Dress)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_MemorialLobby_3_1",
+            "LocalizeEN": "But, I feel like I understand a little now.\nEven if the reasons are different, I'm sure everyone must feel that way too."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(Dress)_MemorialLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_MemorialLobby_4",
+            "LocalizeEN": "And I'm sure it's the same for you too, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(Dress)_MemorialLobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_MemorialLobby_5",
+            "LocalizeEN": "Hehe... I wonder, have I become closer to you, Sensei?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLogin_1",
+            "LocalizeEN": "Well, it's time to get to work, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLogin_2",
+            "LocalizeEN": "Just in time, Sensei. I have something to show you."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLogin_Season_1",
+            "LocalizeEN": "It is already time..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLogin_Season_2",
+            "LocalizeEN": "It's early, isn't it? Maybe it's time to pull the curtain back...?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLogin_Season_End",
+            "LocalizeEN": "Let's not skimp on the finishing touches."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLobby_1",
+            "LocalizeEN": "Hmm...? Sensei? Is there something you want to talk about...?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLobby_2",
+            "LocalizeEN": "Shh, be quiet!\nThey'll know we're in here...!"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLobby_3",
+            "LocalizeEN": "E-Eek!? Oh... It's you, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(Dress)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_EventLobby_4",
+            "LocalizeEN": "Th-This is not a good place... Let's talk outside."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_Login_1",
+            "LocalizeEN": "Okay then, let's gather some clues."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_Login_2",
+            "LocalizeEN": "Sensei, I need to put together a document. Would you help me with that?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_End",
+            "LocalizeEN": "I'd like to find out a little more about the target."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_1",
+            "LocalizeEN": "C-Can you focus? No, not on me... the material!"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_2",
+            "LocalizeEN": "Hmm? D-Do you want something from me?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_SPBuy_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Boxshop_SPBuy_1",
+            "LocalizeEN": "Oh, so that's what that was about."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_SPBuy_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Boxshop_SPBuy_2",
+            "LocalizeEN": "I totally understand."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_SPBuy_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_Boxshop_SPBuy_3",
+            "LocalizeEN": "That's the partner I've been looking for."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "UIEventBoxGachaShop",
+            "VoiceClip": "Aru_(Dress)_BoxShop_300",
+            "Path": "Audio/VOC_JP/JP_CH0240/CH0240_BoxShop_300",
+            "LocalizeEN": "We have all the information we need... But let's look at a few more just to be sure."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_(Dress)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_formation_in_1",
+            "LocalizeEN": "Hehe... I see."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_(Dress)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_formation_select",
+            "LocalizeEN": "You wanted to see me... Hyaaah! Phew..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_defeat_1",
+            "LocalizeJP": "ま、まって…！次こそは……",
+            "LocalizeEN": "H-Hold on! Next time for sure..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_defeat_2",
+            "LocalizeJP": "なっ… 何ですってー！？",
+            "LocalizeEN": "Wh-WHAAAAT!?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_in_1",
+            "LocalizeEN": "This request is perfect for me."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_in_2",
+            "LocalizeEN": "Don't worry. I'll take care of it."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_victory_1",
+            "LocalizeEN": "Left in my hands, results like this is simply natural"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(Dress)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_tactic_victory_2",
+            "LocalizeEN": "So, did we satisfy you?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_buffed_1",
+            "LocalizeEN": "A fine investment."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_buffself_1",
+            "LocalizeJP": "私を誰だっと思ってるの？",
+            "LocalizeEN": "Who do you think I am?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_covered_1",
+            "LocalizeEN": "You think you can beat me?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_defense_1",
+            "LocalizeEN": "Hmmm, is that all?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_in_1",
+            "LocalizeEN": "Now... Let us begin."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_in_2",
+            "LocalizeEN": "Let's go, everyone."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_move_1",
+            "LocalizeEN": "All cleaned up here."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_move_2",
+            "LocalizeEN": "There are still remnants. Onto the next one."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_retire",
+            "LocalizeJP": "これは…… その……",
+            "LocalizeEN": "This is... Umm..."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_tacticalaction_1",
+            "LocalizeEN": "Hah!"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_victory_1",
+            "LocalizeEN": "Are we done? That was an easier request than I thought it would be."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(Dress)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_battle_victory_2",
+            "LocalizeEN": "It was better than you expected, wasn't it?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Aru_(Dress)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_commonskill",
+            "LocalizeEN": "Hehehe... Ah, wait!"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_1",
+            "LocalizeEN": "This is a proposal, as the president."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_2",
+            "LocalizeEN": "You've at least heard the name, right?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_3",
+            "LocalizeEN": "Take this and be grateful"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_level_1",
+            "LocalizeEN": "If you're interested, get in touch with me."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_level_2",
+            "LocalizeEN": "Problem Solver 68, remember that."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(Dress)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_exskill_level_3",
+            "LocalizeEN": "What do you think? Not a bad proposition, right?"
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(Dress)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_growup_1",
+            "LocalizeEN": "You have great foresight. I promise you, Sensei, I won't let you down."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(Dress)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_growup_2",
+            "LocalizeEN": "I can't believe you're expecting so much from me... I need to work on myself more too."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(Dress)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_growup_3",
+            "LocalizeEN": "Rest assured, Sensei. I won't leave you even when I've became strong."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(Dress)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_growup_4",
+            "LocalizeEN": "Hehe... You can count on me this moment foward as well."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(Dress)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_relationship_up_1",
+            "LocalizeEN": "I wonder how much I should confide in Sensei... I'm at a loss."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(Dress)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_relationship_up_2",
+            "LocalizeEN": "I feel like words are not enough... I appreciate it, Sensei."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(Dress)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_relationship_up_3",
+            "LocalizeEN": "What should I say in times like this...? Even I have few things I don't know about."
+        },
+        {
+            "CharacterId": 10089,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(Dress)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0240/ch0240_relationship_up_4",
+            "LocalizeEN": "S-Sensei, umm... No, it's nothing!"
+        }
+    ]
+}

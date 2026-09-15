@@ -1,0 +1,253 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shigure_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_formation_in_1",
+            "LocalizeEN": "Yeah? Is it okay for me?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shigure_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_formation_in_2",
+            "LocalizeEN": "I'll try my best for the time being."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shigure_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_formation_select",
+            "LocalizeEN": "Hmm, do you like this kind of thing?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_defeat_1",
+            "LocalizeJP": "あれ、失敗？",
+            "LocalizeEN": "Huh, we failed?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_defeat_2",
+            "LocalizeJP": "あはは、ごめんね。",
+            "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_in_1",
+            "LocalizeEN": "Well, let's cheer up and get going."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_in_2",
+            "LocalizeEN": "I have a mountain of things to do."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_victory_1",
+            "LocalizeEN": "For a problem child from Red Winter, isn't this a job well done?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shigure_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_tactic_victory_2",
+            "LocalizeEN": "A victory toast is pretty nice."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_buffed_1",
+            "LocalizeEN": "I will thank you later."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_buffself_1",
+            "LocalizeJP": "そろそろ 頑張ってみようかな。",
+            "LocalizeEN": "It's about time to to do my best."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_defense_1",
+            "LocalizeEN": "That doesn't work for me."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_in_1",
+            "LocalizeEN": "Oh, looks like it's started."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_in_2",
+            "LocalizeEN": "Ah, let's go then."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_move_1",
+            "LocalizeEN": "Let's move on."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_move_2",
+            "LocalizeEN": "There's more."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_retire",
+            "LocalizeJP": "飲み過ぎちゃったかな。",
+            "LocalizeEN": "Did I drink too much?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_victory_1",
+            "LocalizeEN": "How about a drink to celebrate? All right, I understand."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shigure_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_battle_victory_2",
+            "LocalizeEN": "I've done my best, so how about a drink? Just kidding."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shigure_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_commonskill",
+            "LocalizeEN": "Yes, it will warm you up."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_1",
+            "LocalizeEN": "Did you find out?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_2",
+            "LocalizeEN": "It can't be helped if it's found out."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_3",
+            "LocalizeEN": "Curious about this flask?"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_level_1",
+            "LocalizeEN": "It hasn't fermented yet, but I guarantee the taste is good."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_level_2",
+            "LocalizeEN": "This one is kind of spicy."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shigure_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_exskill_level_3",
+            "LocalizeEN": "Have another drink."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shigure_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_growup_1",
+            "LocalizeEN": "Thank you, Sensei. I think it would be better to ferment something as a token of appreciation."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shigure_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_growup_2",
+            "LocalizeEN": "I feel bad to always receive help from you. I want to do something for you in return."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shigure_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_growup_3",
+            "LocalizeEN": "Is this really okay? I'm happy."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shigure_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_growup_4",
+            "LocalizeEN": "I have gotten so much from you, Sensei. I will do my best for you."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shigure_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_relationship_up_1",
+            "LocalizeEN": "It's not that I dislike it, but I may not deserve this feeling.<ref group=\"note\">[[wikt:似合う|似合う]] can mean match or suit, so this sentence could be translated as \"this feeling does not suit me\". Using \"suit\" or \"match\" in the translation is, however, ambiguous, so the word is interpreted as \"deserve\" here.</ref>"
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shigure_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_relationship_up_2",
+            "LocalizeEN": "I'm always grateful to you, Sensei, for accepting someone like me."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shigure_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_relationship_up_3",
+            "LocalizeEN": "I feel kind of good. Don't tell Nodoka."
+        },
+        {
+            "CharacterId": 10055,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shigure_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Shigure/shigure_relationship_up_4",
+            "LocalizeEN": "How about we talk over drinks next time? Water is fine too."
+        }
+    ]
+}

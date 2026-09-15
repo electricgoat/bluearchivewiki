@@ -1,0 +1,125 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Fuuka_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_formation_in_1",
+            "LocalizeEN": "Okay."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fuuka_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_battle_tsa_1",
+            "LocalizeJP": "大変お待たせしました。給食部の配送車が到着しましたよ！",
+            "LocalizeEN": "Thank you for waiting. Your delivery from the School Lunch Club is here!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fuuka_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_battle_tsa_2",
+            "LocalizeJP": "お待たせしました。給食部の到着です！",
+            "LocalizeEN": "Thank you for waiting. The School Lunch Club has arrived!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Fuuka_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_commonskill",
+            "LocalizeEN": "It's the reward of a good meal."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fuuka_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_exskill_2",
+            "LocalizeEN": "Mhm, perfect!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fuuka_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_exskill_3",
+            "LocalizeEN": "It came out great!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fuuka_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_exskill_level_1",
+            "LocalizeEN": "Here's a nutritious meal!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fuuka_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_exskill_level_2",
+            "LocalizeEN": "It's time to eat."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fuuka_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_exskill_level_3",
+            "LocalizeEN": "Enjoy!"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fuuka_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_growup_1",
+            "LocalizeEN": "Thanks, Sensei."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fuuka_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_growup_2",
+            "LocalizeEN": "Did my cooking skills improve too?"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fuuka_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_growup_3",
+            "LocalizeEN": "Maybe now I can help everyone a little more."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fuuka_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_growup_4",
+            "LocalizeEN": "Eh? For me?"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fuuka_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_relationship_up_1",
+            "LocalizeEN": "I want to make delicious food for Sensei."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fuuka_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_relationship_up_2",
+            "LocalizeEN": "Are you getting enough food, Sensei?"
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fuuka_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_relationship_up_3",
+            "LocalizeEN": "I wonder what kind of food you like."
+        },
+        {
+            "CharacterId": 23001,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fuuka_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Fuuka/fuuka_relationship_up_4",
+            "LocalizeEN": "Sensei, um... would you like me to make breakfast for you?"
+        }
+    ]
+}

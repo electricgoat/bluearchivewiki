@@ -1,0 +1,195 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Saya_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_Saya/Saya_Cafe_monolog_2",
+            "LocalizeEN": "What should I test on May next time?"
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Saya_Cafe_Act_2",
+            "Path": "Audio/VOC_JP/JP_Saya/Saya_Cafe_Act_2",
+            "LocalizeEN": "Nezusuke, you maniac! You have to control yourself!"
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Saya_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Saya/Saya_ExWeapon_Get",
+            "LocalizeEN": "My pistol is finally here! Of course, it's nothing compared to this terrifying bacteriological weapon."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Saya_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_formation_in_1",
+            "LocalizeJP": "ようやくぼく様の進化を発揮できる時が来たのだ。",
+            "LocalizeEN": "The time has finally come for me to demonstrate my evolution."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Saya_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_formation_in_2",
+            "LocalizeJP": "ふふ、ぼく様の活躍を期待してるといいのだ。",
+            "LocalizeEN": "Hehe, I hope you are looking forward to my success."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Saya_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_formation_select",
+            "LocalizeJP": "ちょっと待った、ぼく様に乱暴は許さないのだ。",
+            "LocalizeEN": "Wait a minute, I won't allow you to be rough with me."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Saya_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_tactic_defeat_1",
+            "LocalizeJP": "ご…、誤差が発生しただけなのだ。",
+            "LocalizeEN": "An error has just occurred."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Saya_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_tactic_defeat_2",
+            "LocalizeJP": "こんな結果は許されないのだ。",
+            "LocalizeEN": "This result is unacceptable."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Saya_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_battle_damage_1",
+            "LocalizeJP": "なに？",
+            "LocalizeEN": "What?"
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Saya_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_battle_retire",
+            "LocalizeJP": "ネズ助、お前だけでも。",
+            "LocalizeEN": "Nezusuke, please go by yourself."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Saya_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_battle_shout_2",
+            "LocalizeJP": "くらえ。",
+            "LocalizeEN": "Take this."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Saya_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_commonskill",
+            "LocalizeEN": "Experiment Record 001: starting observations."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_1",
+            "LocalizeEN": "Now, let's test my masterpiece."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_2",
+            "LocalizeEN": "Fufufufu, go over there, Nezusuke!"
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_3",
+            "LocalizeEN": "I've been waiting for this moment."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_level_1",
+            "LocalizeEN": "Break the medicine bottle."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_level_2",
+            "LocalizeEN": "Spread around."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saya_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_exskill_level_3",
+            "LocalizeEN": "Just one of these will render you immobile."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saya_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_growup_1",
+            "LocalizeEN": "What is this, I feel a tremendous power."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saya_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_growup_2",
+            "LocalizeEN": "I'm upgraded."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saya_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_growup_3",
+            "LocalizeEN": "Hehehe, I think we can do more interesting experiments."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saya_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_growup_4",
+            "LocalizeEN": "I want to be even stronger."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saya_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_relationship_up_1",
+            "LocalizeEN": "The chance to become friends with a great person like me is a great deal for you."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saya_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_relationship_up_2",
+            "LocalizeEN": "All of my research is confidential, but I don't mind showing you a little bit of it."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saya_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_relationship_up_3",
+            "LocalizeJP": "先生と一緒なら…どんな難題でも簡単に解決できそう。",
+            "LocalizeEN": "With Sensei, I can easily solve any problem."
+        },
+        {
+            "CharacterId": 20002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saya_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Saya/saya_relationship_up_4",
+            "LocalizeEN": "Do you like cheese by any chance? I want Sensei to like the same things as me."
+        }
+    ]
+}

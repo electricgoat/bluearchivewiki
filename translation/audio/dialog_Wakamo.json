@@ -1,0 +1,350 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Wakamo_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Lobby_2",
+            "LocalizeEN": "I'll do whatever you tell me to do."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Wakamo_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Lobby_4",
+            "LocalizeEN": "Just tell me if there's something you want.\n\nYes, no matter what. ♥"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Wakamo_MemorialLobby_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_MemorialLobby_2",
+            "LocalizeEN": "How I've longed express these feelings to you again..."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLogin_2",
+            "LocalizeEN": "No matter how hard you run, you won't escape from me.\n\nI'll make sure you learn that today."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLogin_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLogin_3",
+            "LocalizeEN": "Ooo... I can feel you getting closer."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLogin_4",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLogin_4",
+            "LocalizeEN": "Heehee. Did you think you could get rid of me just like that?\n\nAh, you're so cute. ♥"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLobby_2_1",
+            "LocalizeEN": "All that smoke and gunpowder can't hide you..."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLobby_2_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLobby_2_2",
+            "LocalizeEN": "That's right. I'll never let you go. ♥"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLobby_3_1",
+            "LocalizeEN": "Is this what folks call...\n\n...hide-and-seek?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLobby_3_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLobby_3_2",
+            "LocalizeEN": "Heehee. I think I like this game."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Wakamo_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_EventLobby_4",
+            "LocalizeEN": "I'm supposed to chase you around until I catch you, right?\n\nI'm looking forward to it.\n\nReady or not, here I come. ♥"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_formation_in_1",
+            "LocalizeJP": "は～い",
+            "LocalizeEN": "Okay~."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_formation_in_2",
+            "LocalizeEN": "I'm ready for your orders."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Wakamo_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_formation_select",
+            "LocalizeEN": "Hehehe."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_defeat_1",
+            "LocalizeJP": "申し訳ございません、…申し訳、ございません。",
+            "LocalizeEN": "I'm so sorry, ...I'm, so sorry."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_defeat_2",
+            "LocalizeJP": "あ…、お許しください。",
+            "LocalizeEN": "Ah... Please forgive me."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_in_1",
+            "LocalizeEN": "Let's begin."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_in_2",
+            "LocalizeEN": "Which one of you is my opponent?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_victory_1",
+            "LocalizeEN": "It's a natural result."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Wakamo_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_tactic_victory_2",
+            "LocalizeEN": "Is there anything else you want? Sensei?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Buffed_1",
+            "LocalizeEN": "Hehehe~, I'm thankful."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_BuffSelf_1",
+            "LocalizeJP": "あはははー。",
+            "LocalizeEN": "Ahahaha!"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Covered_1",
+            "LocalizeEN": "Hehehe~"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Damage_1",
+            "LocalizeJP": "あ~。",
+            "LocalizeEN": "Ah~."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Defense_1",
+            "LocalizeEN": "Isn't it useless."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Entrance_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_battle_entrance_1",
+            "LocalizeJP": "うふふふ、では始めましょうか。",
+            "LocalizeEN": "Hehehehe~, So... Shall we begin?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Entrance_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_battle_entrance_2",
+            "LocalizeJP": "あらあら、皆さん お揃いのようで。",
+            "LocalizeEN": "Oh my~, everyone seems to be the same"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Entrance_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_battle_entrance_3",
+            "LocalizeJP": "お待たせいたしました。うふふふふふ。",
+            "LocalizeEN": "Sorry to keep you waiting. Ehehehehehe~."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_In_1",
+            "LocalizeEN": "I will destroy all your enemies."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_In_2",
+            "LocalizeEN": "Aah, My heart is pounding."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Move_1",
+            "LocalizeEN": "Let's keep moving forward."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Move_2",
+            "LocalizeEN": "It's still not enough. Let's carry on."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Recovery_1",
+            "LocalizeEN": "Oh my~, Thank you very much."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_battle_retire",
+            "LocalizeJP": "これは、困りましたね。",
+            "LocalizeEN": "This is troublesome."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Victory_1",
+            "LocalizeEN": "Hehehe~, Were you satisfied?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Wakamo_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/Wakamo_Battle_Victory_2",
+            "LocalizeEN": "Haa~, It sure feels good."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_exskill_2",
+            "LocalizeEN": "Who is this child that wants to be pierced?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_exskill_3",
+            "LocalizeEN": "Please take turns for those who want to cry first."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_exskill_level_2",
+            "LocalizeEN": "I won't let you escape."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Wakamo_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_exskill_level_3",
+            "LocalizeEN": "You shall die there."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_growup_1",
+            "LocalizeEN": "I'm strong enough as I am, but I can be stronger if you wish."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_growup_2",
+            "LocalizeEN": "If it's for you, I'd be happy."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_growup_3",
+            "LocalizeJP": "私を必要としてくださるあなた様に、どうすれば恩返しができるでしょうか……",
+            "LocalizeEN": "How can I repay you for needing me?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Wakamo_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_growup_4",
+            "LocalizeEN": "Ah~, I'm loved now."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_relationship_up_1",
+            "LocalizeEN": "Hehehehe~, What should I do to be able to love you from the bottom of my heart?"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_relationship_up_2",
+            "LocalizeEN": "Aah~, This overflowing happiness, Please take responsibility for making me like this."
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_relationship_up_3",
+            "LocalizeEN": "...To think that you want me so much, I dedicate my body and soul to you"
+        },
+        {
+            "CharacterId": 10033,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Wakamo_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Wakamo/wakamo_relationship_up_4",
+            "LocalizeEN": "If it's for your sake, I, Wakamo, will do anything."
+        }
+    ]
+}

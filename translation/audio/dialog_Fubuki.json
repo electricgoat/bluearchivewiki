@@ -1,0 +1,328 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Fubuki_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/CH0141_EventLogin_1",
+            "LocalizeEN": "Looks like you're busy as usual, Sensei.\n\nI bought some chocolate donuts. Do you want one?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Fubuki_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/CH0141_EventLobby_1",
+            "LocalizeEN": "Ah, it's so peaceful."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Fubuki_EventLobby_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/CH0141_EventLobby_2_2",
+            "LocalizeEN": "Because when all the commotion is over...\n\nThere'll be leftover chocolate donuts on sale!"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Fubuki_EventLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/CH0141_EventLobby_3_1",
+            "LocalizeEN": "Unless something huge happens...\n\nI don't think there'll be any reason for the Public Safety Bureau to be called in, but..."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Fubuki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_formation_in_1",
+            "LocalizeEN": "Hey, do I really have to go?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Fubuki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_formation_in_2",
+            "LocalizeEN": "What a pain."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Fubuki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_formation_select",
+            "LocalizeEN": "I'm tired."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_defeat_1",
+            "LocalizeJP": "そもそも生活安全局は戦闘向きじゃないんだって。",
+            "LocalizeEN": "Seriously, the Public Safety Bureau isn't suited for combat in the first place."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_defeat_2",
+            "LocalizeJP": "やっぱり無理だったか。",
+            "LocalizeEN": "I guess there was no way after all."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_in_1",
+            "LocalizeEN": "Me, leader? Why?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_in_2",
+            "LocalizeEN": "Me at the front? Oh, you're serious."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_victory_1",
+            "LocalizeJP": "終わった？終わったよね？\nよっしゃ帰ろ帰ろ",
+            "LocalizeEN": "It's over. It's over, isn't it? Let's head back."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Fubuki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_tactic_victory_2",
+            "LocalizeEN": "Oh wow, I really didn't think we could win."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_buffed_1",
+            "LocalizeJP": "……私より、他の誰かにやってあげたら？まあ、一応感謝するけど",
+            "LocalizeEN": "Shouldn't you give that to somebody else? I mean, I am thankful."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_buffself_1",
+            "LocalizeJP": "はあ、ここまでやる必要あるかな？",
+            "LocalizeEN": "Do we really need all this?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_damage_3",
+            "LocalizeJP": "ああ、もう……"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_defense_1",
+            "LocalizeJP": "ははっ、くすぐったいじゃん",
+            "LocalizeEN": "It tickles, you know?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_in_1",
+            "LocalizeEN": "Alright. Let's get it done now."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_in_2",
+            "LocalizeJP": "そんなに焦らなくて良いから、てきとうに",
+            "LocalizeEN": "Come on, there's no need to rush. Let's just do things at our pace."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_move_1",
+            "LocalizeEN": "This way?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_move_2",
+            "LocalizeEN": "Mm? Is it this way?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_retire",
+            "LocalizeJP": "疲れた。もう動けない。",
+            "LocalizeEN": "I'm tired. Can't move."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_shout_1",
+            "LocalizeJP": "ふぁ……"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_shout_2",
+            "LocalizeJP": "一発で終わって…。",
+            "LocalizeEN": "Just be over in one shot."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_shout_3",
+            "LocalizeJP": "邪魔しないでくれる？",
+            "LocalizeEN": "Could you get out of my way?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_tacticalaction_1",
+            "LocalizeEN": "Let's say we're done patrolling this area."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_victory_1",
+            "LocalizeJP": "働いた後のコーヒーとドーナッツ……最高",
+            "LocalizeEN": "Coffee and donuts after work are the best."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Fubuki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_battle_victory_2",
+            "LocalizeJP": "あー、疲れた疲れた……糖分補給しなきゃ",
+            "LocalizeEN": "Ah, I'm exhausted. I should refuel my sugar intake."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Fubuki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_commonskill",
+            "LocalizeEN": "If I hit let's say it was luck."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_1",
+            "LocalizeEN": "It's break time."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_2",
+            "LocalizeJP": "ちょっと失礼。休んでからにしよう",
+            "LocalizeEN": "Don't mind me. I'll pick up after a little rest."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_3",
+            "LocalizeJP": "ドーナッツタイムってことで",
+            "LocalizeEN": "It's donut time."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_level_1",
+            "LocalizeJP": "どんな状況でも、余裕を失っちゃダメなんだって",
+            "LocalizeEN": "The one thing you can't lose under any circumstance is a carefree attitude."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_level_2",
+            "LocalizeJP": "あむ、あむ……美味い",
+            "LocalizeEN": "Sweet."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Fubuki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_exskill_level_3",
+            "LocalizeEN": "Some coffee would come along nicely."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fubuki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_growup_1",
+            "LocalizeEN": "Are you giving this to me? Why? Did you get the wrong person?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fubuki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_growup_2",
+            "LocalizeEN": "But I'm fine the way I am now."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fubuki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_growup_3",
+            "LocalizeEN": "Well, I guess I should gratefully accept Sensei's good will."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Fubuki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_growup_4",
+            "LocalizeEN": "If I have to work a little harder, well... am I short on donuts, now? If I had some I guess I could."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fubuki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_relationship_up_1",
+            "LocalizeEN": "You want to slack off with me, Sensei?"
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fubuki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_relationship_up_2",
+            "LocalizeEN": "I really don't like being interrupted during breaks. But if it's Sensei I guess I don't mind."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fubuki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_relationship_up_3",
+            "LocalizeEN": "Taking a break here like this somehow calms me down."
+        },
+        {
+            "CharacterId": 16008,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Fubuki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0141/ch0141_relationship_up_4",
+            "LocalizeEN": "Sensei, um... well... anyway, do you want donuts?"
+        }
+    ]
+}

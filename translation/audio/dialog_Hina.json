@@ -1,0 +1,330 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Hina/Hina_Lobby_2",
+            "LocalizeEN": "As long I'm here, I'm like every other club member."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_Lobby_8",
+            "Path": "Audio/VOC_JP/JP_Hina/Hina_Lobby_8",
+            "LocalizeEN": "(I wish I could have some fun... Maybe whine a little too...)"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hina_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_Hina/Hina_Season_Birthday_Player",
+            "LocalizeEN": "Sensei... I hear it's your birthday. I can wish you a happy birthday, can't I?\n\nThough, I'm sure you'd rather hear that from someone cuter than me...\n\nN-No?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hina_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Hina/Hina_MemorialLobby_1_1",
+            "LocalizeEN": "I get so embarrassed when...you stare at me like that."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hina_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Hina/Hina_MemorialLobby_4_1",
+            "LocalizeEN": "*sigh* I feel like I could drift away."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "UIEventMiniGameMission",
+            "VoiceClip": "Hina_(Dress)_EventMission_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0230/CH0230_EventMission_1_2",
+            "LocalizeEN": "Hm? \"You feel that in your bones?\" Heehee. So you work a lot, as well..."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hina_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_formation_in_1",
+            "LocalizeEN": "Sigh... I guess I have no choice."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hina_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_formation_select",
+            "LocalizeEN": "OK."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_defeat_1",
+            "LocalizeJP": "油断したの？",
+            "LocalizeEN": "Did I let my guard down?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_defeat_2",
+            "LocalizeJP": "私らしくないミスを…。ごめん、先生。",
+            "LocalizeEN": "I made an uncharactistic mistake... I'm sorry, Sensei."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_in_1",
+            "LocalizeJP": "めんどくさいけど…まあ、やらなきゃいけない事だから。",
+            "LocalizeEN": "What a pain. Well, someone has to do it."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_in_2",
+            "LocalizeEN": "I'll follow Sensei's instructions."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_victory_1",
+            "LocalizeEN": "This type of mission is no big deal."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hina_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_tactic_victory_2",
+            "LocalizeEN": "It was an easy job, but thank you for your hard work, Sensei."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_buffed_1",
+            "LocalizeEN": "Support acknowledged."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_buffself_1",
+            "LocalizeJP": "覚悟して。",
+            "LocalizeEN": "Prepare yourself."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_damage_1",
+            "LocalizeJP": "まったく…。",
+            "LocalizeEN": "Seriously..."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_damage_2",
+            "LocalizeJP": "良くないなぁ。",
+            "LocalizeEN": "This can't be good."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_defense_1",
+            "LocalizeEN": "Pointless."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_in_1",
+            "LocalizeEN": "Entering the battle. I'll infiltrate as quickly as possible."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_in_2",
+            "LocalizeEN": "Alright, let's go."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_move_1",
+            "LocalizeJP": "はあ、めんどくさい……",
+            "LocalizeEN": "Sigh... what a pain."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_move_2",
+            "LocalizeJP": "もう、やってもやっても終わらない……",
+            "LocalizeEN": "Seriously... there's no end to it."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_recovery_1",
+            "LocalizeEN": "Good, I'm back on my feet."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_retire",
+            "LocalizeJP": "全く…どこで間違えたのか。",
+            "LocalizeEN": "Seriously... where did it go wrong?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Supply",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_supply",
+            "LocalizeJP": "補給確認。",
+            "LocalizeEN": "Supplies acknowledged."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_tacticalaction_1",
+            "LocalizeEN": "Moving."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_tsa_1",
+            "LocalizeJP": "風紀委員会の6号戦車。この威力を今こそ試す時。",
+            "LocalizeEN": "Disciplinary Committee's tank No. 6. Now is the time to test its power."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_tsa_2",
+            "LocalizeJP": "これで戦況はこっちに傾いた。もう諦めて。",
+            "LocalizeEN": "With the help of this the battle has turned to our favor. Give up already."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_victory_1",
+            "LocalizeEN": "This is just the expected result."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hina_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_battle_victory_2",
+            "LocalizeEN": "Victory. What should I do next?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_exskill_1",
+            "LocalizeEN": "We'll do this by force."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_exskill_2",
+            "LocalizeEN": "It's this thing's turn."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_exskill_level_1",
+            "LocalizeEN": "Let's see how long you can last."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_exskill_level_2",
+            "LocalizeEN": "You cannot escape."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hina_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_exskill_level_3",
+            "LocalizeEN": "I won't let you get away."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_growup_1",
+            "LocalizeJP": "より強くなった…",
+            "LocalizeEN": "I got stronger."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_growup_2",
+            "LocalizeJP": "まだ成長できるんだ…",
+            "LocalizeEN": "I can still grow stronger."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_growup_3",
+            "LocalizeEN": "I'll use this power for Sensei."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hina_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_growup_4",
+            "LocalizeEN": "Thank you for your concern."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_relationship_up_1",
+            "LocalizeJP": "こんな私でもいいの…？",
+            "LocalizeEN": "You would take me?"
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_relationship_up_2",
+            "LocalizeJP": "一緒にいてくれて…ありがとう。先生。",
+            "LocalizeEN": "Thank you for being with me, Sensei."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_relationship_up_3",
+            "LocalizeJP": "こんな時はどうすればいいのかよく分からなくて…ごめん。",
+            "LocalizeEN": "I don't really know what I should do in this type of situation... Sorry."
+        },
+        {
+            "CharacterId": 10004,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hina_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hina/hina_relationship_up_4",
+            "LocalizeJP": "この温もり… 先生の温かさが伝わってきてるのかな。",
+            "LocalizeEN": "This warmth... Am I sensing Sensei's warmth?"
+        }
+    ]
+}

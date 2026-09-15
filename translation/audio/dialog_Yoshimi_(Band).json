@@ -1,0 +1,559 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Yoshimi_(Band)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Yoshimi_(Band)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Gachaget",
+            "LocalizeEN": "You can look foward to it.., No, please do! To my performance!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yoshimi_(Band)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Cafe_monolog_1",
+            "LocalizeEN": "This place is quite spacious... It might just be perfect to perform in"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yoshimi_(Band)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Cafe_monolog_2",
+            "LocalizeEN": "I was planning on practicing... but there's too many people here"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yoshimi_(Band)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Cafe_monolog_3",
+            "LocalizeEN": "I'm hungry... Is there anything sweet around?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yoshimi_(Band)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Cafe_monolog_4",
+            "LocalizeEN": "Maybe I'll take a short rest..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Yoshimi_(Band)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Cafe_monolog_5",
+            "LocalizeEN": "Huh? Didn't I tell them we'd meet here?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_LogIn_1",
+            "LocalizeEN": "S- Sensei!? Since when were you here!? M- Me? Well, I was just doing practice..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_LogIn_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_LogIn_2_1",
+            "LocalizeEN": "Welcome, Sensei! W- Would you..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_LogIn_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_LogIn_2_2",
+            "LocalizeEN": "like some... BGM? Want me perform for you?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_1",
+            "LocalizeEN": "Somehow, when we're like this I get more confident than usual"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_2",
+            "LocalizeEN": "Wh- What!? Why are you staring at me so much...? If there's something you want then just say it!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_3",
+            "LocalizeEN": "Wish I brought something to eat... Sensei, is there something you want to eat?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_4",
+            "LocalizeEN": "I thought practicing this would always be more fun than studying, but when you take this seriously this is hard work too huh"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_5_1",
+            "LocalizeEN": "Hmm? Shouldn't I be busy with practice? W- Well, yeah, but..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Lobby_5_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Lobby_5_2",
+            "LocalizeEN": "But hey, why are you asking anyways? You were scheming weren't you!? Tryna set up some cheesy line!!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday to you~ ♪ Happy birthday to you~♪\n...Why am I singing it to you?? Don't ask stupid things!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Season_Birthday",
+            "LocalizeEN": "H- Huh? My birthday..? You really remembered.."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei! Any song you want to listen to?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Season_Xmas",
+            "LocalizeEN": "It's Christmas huh~! W- What!? I'm not at the age to still believe in Santa!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Yoshimi_(Band)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Season_Halloween",
+            "LocalizeEN": "What a lively day! I don't mind it. If anything makes you want to do something doesn't it?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Yoshimi_(Band)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_ExWeapon_Get",
+            "LocalizeEN": "No matter the situation, you'll always be you...\nI see. Same goes for me, huh? No matter the situation, if you need me just call me! I will be there!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLogin_1",
+            "LocalizeEN": "You're slow, Sensei! Let's go, now!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLogin_2",
+            "LocalizeEN": "Ah, Sensei! Over here, over here!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLogin_Season_1",
+            "LocalizeEN": "The performance is starting! Follow me!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLogin_Season_2",
+            "LocalizeEN": "The climax? Leave it to me!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLogin_Season_End",
+            "LocalizeEN": "Phew, that felt great. Right, Sensei?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLobby_1",
+            "LocalizeEN": "Ah, w- what are you trying to do!? Just say it, S A Y it!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLobby_2",
+            "LocalizeEN": "Stop messing around! I'll get mad!!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLobby_3",
+            "LocalizeEN": "Hm? You called?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Yoshimi_(Band)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventLobby_4",
+            "LocalizeEN": "You want to feel the guitar? Sure"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_Login_1",
+            "LocalizeEN": "Yeah, yeah! We have no time you know! Just grab and go!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_End",
+            "LocalizeEN": "It'd be a waste to have leftovers, right? Whatever you can get, just take it and go"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_1",
+            "LocalizeEN": "W- What!? You surprised me!!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_2",
+            "LocalizeEN": "I told you to cut out on the pranks! You startle me!!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_Buy_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_Buy_1",
+            "LocalizeEN": "Huhh... Sounds good?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_Buy_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_Buy_2",
+            "LocalizeEN": "Not a bad choice"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_Buy_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_Buy_3",
+            "LocalizeEN": "Nice. I was aiming for that too"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Yoshimi_(Band)_EventShop_Buy_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_EventShop_Buy_4",
+            "LocalizeEN": "That's what you want? Okay~"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventMiniGameDreamMaker",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Minigame_1",
+            "LocalizeEN": "Feels like I get it, but no not really..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventMiniGameDreamMaker",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Minigame_2",
+            "LocalizeEN": "Alright! I got it perfectly!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventMiniGameDreamMaker",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Minigame_3",
+            "LocalizeEN": "Feels good! Let's go like this!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "UIEventMiniGameDreamMaker",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/CH0220_Minigame_4",
+            "LocalizeEN": "We'll do our best too! We're counting on you till the very end, okay Sensei!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_Awesome",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_minigame_awesome",
+            "LocalizeJP": "わっ…、今のなに？やば！",
+            "LocalizeEN": "Woah, what was that? That's sick!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_Daily_End",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_minigame_daily_end",
+            "LocalizeJP": "ふぅ…、今日も一日充実したわ。また明日！",
+            "LocalizeEN": "Haah... Progressed the whole day! See ya again tomorrow!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_Failed",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_minigame_failed",
+            "LocalizeJP": "も…、もう一回。次はうまくできるわよ！",
+            "LocalizeEN": "O- one more time! Next time I'll get it!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Yoshimi_(Band)_Minigame_Success",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_minigame_success",
+            "LocalizeJP": "見たでしょ。私はこれくらいできるのよ。",
+            "LocalizeEN": "You saw, right? This much is nothing for me"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yoshimi_(Band)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_formation_in_1",
+            "LocalizeEN": "No choice, I'll have to do you a favour!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yoshimi_(Band)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_formation_in_2",
+            "LocalizeEN": "You wanted to hear me perform?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Yoshimi_(Band)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_formation_select",
+            "LocalizeEN": "Hah! Knew it I'm the only one here, huh?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yoshimi_(Band)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_tactic_defeat_1",
+            "LocalizeJP": "うるさくて集中できない…。",
+            "LocalizeEN": "It's too noisy I can't focus..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yoshimi_(Band)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_tactic_defeat_2",
+            "LocalizeJP": "練習のときとは違う…。",
+            "LocalizeEN": "It's different from when I was practicing..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yoshimi_(Band)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_tactic_in_1",
+            "LocalizeEN": "Wh- What? A fight all of a sudden!?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yoshimi_(Band)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_tactic_in_2",
+            "LocalizeEN": "Wasn't I meant to perform!?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yoshimi_(Band)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_tactic_victory_2",
+            "LocalizeEN": "Not half bad of a performance was it?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_buffed_1",
+            "LocalizeEN": "Nice!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_buffself_1",
+            "LocalizeJP": "集中集中。",
+            "LocalizeEN": "Focus, focus!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_covered_1",
+            "LocalizeEN": "Whatever, this first!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_defense_1",
+            "LocalizeEN": "It's useless!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_in_1",
+            "LocalizeEN": "If I'm doing it, I'm doing it well!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_in_2",
+            "LocalizeEN": "Start on my call!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_move_1",
+            "LocalizeEN": "Onto the next bar!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_move_2",
+            "LocalizeEN": "The performance isn't over yet!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_retire",
+            "LocalizeJP": "ああ…！ギターが。",
+            "LocalizeEN": "Haah!! The guitar..."
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yoshimi_(Band)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_battle_victory_1",
+            "LocalizeJP": "はぁ、はぁ。はぁ…….\nやった……！",
+            "LocalizeEN": "Haah... haah... I did it!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Yoshimi_(Band)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_commonskill",
+            "LocalizeEN": "I'll add my flavour!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yoshimi_(Band)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_exskill_1",
+            "LocalizeEN": "Observe!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yoshimi_(Band)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_exskill_2",
+            "LocalizeEN": "Heat's rising!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yoshimi_(Band)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_exskill_3",
+            "LocalizeEN": "This is the climax!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yoshimi_(Band)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_exskill_level_1",
+            "LocalizeEN": "Here it goes!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Yoshimi_(Band)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_exskill_level_2",
+            "LocalizeEN": "You can follow, right!?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yoshimi_(Band)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_growup_1",
+            "LocalizeEN": "I might've gotten better!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yoshimi_(Band)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_growup_3",
+            "LocalizeEN": "At this difficulty already..? Maybe I have a talent for this!?"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Yoshimi_(Band)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_growup_4",
+            "LocalizeEN": "Where your expectations are at, I'll meet it! With my performance!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yoshimi_(Band)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_relationship_up_1",
+            "LocalizeEN": "Y- You're fine with giving this to me..?\nUh, no, I don't intend on giving it back!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yoshimi_(Band)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_relationship_up_2",
+            "LocalizeEN": "Says this and that.. I don't get them"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yoshimi_(Band)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_relationship_up_3",
+            "LocalizeEN": "Please... listen to my performance. Also, tell nobody about this!"
+        },
+        {
+            "CharacterId": 10092,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Yoshimi_(Band)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0220/ch0220_relationship_up_4",
+            "LocalizeEN": "I- I'm happy but... This isn't you telling me to go on doing this band thing, are you?"
+        }
+    ]
+}

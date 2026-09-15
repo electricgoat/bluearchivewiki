@@ -1,0 +1,260 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Asuna_(Bunny_Girl)_CardShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/CH0098_CardShop_Login_2",
+            "LocalizeEN": "*da-dump* *da-dump* *da-dump*"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Asuna_(Bunny_Girl)_CardShop_End",
+            "Path": "Audio/VOC_JP/JP_CH0098/CH0098_CardShop_End",
+            "LocalizeJP": "まだまだこっちは\n入っても良いみたいだね！\n\n……って、あれ？",
+            "LocalizeEN": "Looks like there's still some time left!\n\nOh, no!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_formation_in_1",
+            "LocalizeEN": "It's my turn."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_formation_in_2",
+            "LocalizeEN": "Yes, I'm ready."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_formation_select",
+            "LocalizeEN": "Ahaha! This is fun."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_defeat_1",
+            "LocalizeJP": "んー？おかしいなあ。",
+            "LocalizeEN": "Hmmm. That's weird."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_defeat_2",
+            "LocalizeJP": "大丈夫大丈夫。もう1回やってみよう、ね？",
+            "LocalizeEN": "It's fine. Let's try again, ok?"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_in_1",
+            "LocalizeEN": "Look, it's a bunny!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_in_2",
+            "LocalizeEN": "Wow! Sounds like there's a lot to do."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_victory_1",
+            "LocalizeEN": "Yay! We did it!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_tactic_victory_2",
+            "LocalizeEN": "Operation complete. Next time, let's go together again, master."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_buffed_1",
+            "LocalizeEN": "What is this? This is amazing!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_buffself_1",
+            "LocalizeJP": "よーっし！",
+            "LocalizeEN": "Yes!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_covered_1",
+            "LocalizeEN": "Wait just a bit."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_defense_1",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_in_1",
+            "LocalizeEN": "I'll go with all my might. Everyone follow me."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_in_2",
+            "LocalizeEN": "Come on, everyone. It's time to have some fun,"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_move_1",
+            "LocalizeEN": "Next one, let's go."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_move_2",
+            "LocalizeEN": "Yahoo! I'm still going."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_tacticalaction_1",
+            "LocalizeEN": "I'm a bunny now, let's go hopping!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_victory_1",
+            "LocalizeEN": "That was fun. How did I do, master?"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_battle_victory_2",
+            "LocalizeEN": "Over already? I didn't even get started."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_(Bunny_Girl)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_exskill_1",
+            "LocalizeEN": "Ta-da! Look look."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_(Bunny_Girl)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_exskill_2",
+            "LocalizeEN": "Here's a surprise from Bunny Asuna."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_(Bunny_Girl)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_exskill_3",
+            "LocalizeEN": "Here, a present!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_(Bunny_Girl)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_exskill_level_1",
+            "LocalizeEN": "This is fun."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Asuna_(Bunny_Girl)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_exskill_level_2",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_growup_1",
+            "LocalizeEN": "Bunny Asuna became even stronger."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_growup_2",
+            "LocalizeEN": "Is it fine for me to keep growing even stronger?"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_growup_3",
+            "LocalizeEN": "Thank you, master."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_growup_4",
+            "LocalizeEN": "Let's have more fun from now on, master."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_relationship_up_1",
+            "LocalizeEN": "Thank you, master. I will do my best from now on."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_relationship_up_2",
+            "LocalizeEN": "If you're ever in trouble, call me anytime. Bunny Asuna will hop and run to you."
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_relationship_up_3",
+            "LocalizeEN": "I knew it, master, you're the best! I love you!"
+        },
+        {
+            "CharacterId": 10028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Asuna_(Bunny_Girl)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0098/ch0098_relationship_up_4",
+            "LocalizeEN": "Rabbits get weak when they're lonely, so please take care of me, master."
+        }
+    ]
+}

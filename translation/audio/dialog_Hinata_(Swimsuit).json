@@ -1,0 +1,228 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hinata_(Swimsuit)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0210/CH0210_Gachaget",
+            "LocalizeEN": "M-My name is Wakaba Hinata! Tell me whatever you need and I shall do my best!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hinata_(Swimsuit)_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/CH0210_MemorialLobby_5_1",
+            "LocalizeEN": "Hmm... Zzz... *snort*\n\n...Huh!? Wh-What was that!?\n\nP-Please forget that. I beg of you to forget what you just heard! Sensei!!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hinata_(Swimsuit)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/CH0210_EventLogin_1",
+            "LocalizeEN": "I've been waiting for you, Sensei!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hinata_(Swimsuit)_EventLogin_Season_End",
+            "Path": "Audio/VOC_JP/JP_CH0210/CH0210_EventLogin_Season_End",
+            "LocalizeEN": "Leave the cleanup to me."
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hinata_(Swimsuit)_EventShop_Buy_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/CH0210_EventShop_Buy_2",
+            "LocalizeEN": "Yes! It's here!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Box_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_box_1",
+            "LocalizeJP": "すごいです…！",
+            "LocalizeEN": "That's amazing..!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Box_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_box_2",
+            "LocalizeJP": "みなさん、大変お疲れさまでした。",
+            "LocalizeEN": "Everyone, thanks for your work!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Fail_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_fail_1",
+            "LocalizeJP": "ご、ごめんなさい。",
+            "LocalizeEN": "S- Sorry"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Fail_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_fail_2",
+            "LocalizeJP": "き、きっと大丈夫です。",
+            "LocalizeEN": "S- Surely it will be fine"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Start",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_start",
+            "LocalizeEN": "We've arrived at a new location"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Start_Facility",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_start_facility",
+            "LocalizeJP": "もうひと踏ん張りしましょう。",
+            "LocalizeEN": "Let's give this another go"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Start_Re",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_start_re",
+            "LocalizeEN": "Yes! I will not give up!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Success",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_success",
+            "LocalizeJP": "ふう、よかった…。",
+            "LocalizeEN": "I'm glad"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Minigame",
+            "VoiceClip": "Hinata_(Swimsuit)_Minigame_Victory",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_minigame_victory",
+            "LocalizeJP": "みなさん、おケガはありませんでしたか？",
+            "LocalizeEN": "Is anyone hurt?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hinata_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_formation_in_1",
+            "LocalizeEN": "Yes, what should I do?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hinata_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_formation_in_2",
+            "LocalizeEN": "I- It's my turn, right! I'll do my best!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_commonskill",
+            "LocalizeEN": "Please take this!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_1",
+            "LocalizeEN": "The wind feels goo- A! Ahh..!?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_2",
+            "LocalizeEN": "The wind is... Ah! W- Wait!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_3",
+            "LocalizeEN": "Hmhmm... M- My hat!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_level_1",
+            "LocalizeEN": "To stand against the heat!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_level_2",
+            "LocalizeEN": "Let's play with water?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_exskill_level_3",
+            "LocalizeEN": "Speaking of summers, this has to be it!"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_growup_1",
+            "LocalizeEN": "Y- You're giving me this...! I- Is it really okay..?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_growup_2",
+            "LocalizeEN": "Thank you so much, Sensei! I'll treasure this"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_growup_3",
+            "LocalizeEN": "I'm not used to having people do things for me... but I am happy"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_growup_4",
+            "LocalizeEN": "I'll work even harder"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_relationship_up_1",
+            "LocalizeEN": "Ugh.. I can't find the words to express my grattitude"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_relationship_up_2",
+            "LocalizeEN": "I wonder, if I am properly being useful to Sensei"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_relationship_up_3",
+            "LocalizeEN": "When I am with you, my heart gets calm.. I wonder why?"
+        },
+        {
+            "CharacterId": 20028,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0210/ch0210_relationship_up_4",
+            "LocalizeEN": "If there is anything you need, please let me know. Anything."
+        }
+    ]
+}

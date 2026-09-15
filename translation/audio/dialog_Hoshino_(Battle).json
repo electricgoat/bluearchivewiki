@@ -1,0 +1,698 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Hoshino_(Battle)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hoshino_(Battle)_Gachaget",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Gachaget",
+            "LocalizeEN": "Ah, this is a big deal now... Looks like Oji-san has to get involved."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Battle)_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Cafe_monolog_1",
+            "LocalizeEN": "(Shelter, check. Exit, check.)"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Battle)_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Cafe_monolog_2",
+            "LocalizeEN": "For now, let's check the ammunition."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Battle)_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Cafe_monolog_3",
+            "LocalizeEN": "Uhe... I don't feel at ease... At times like this, I might wanna meet Sensei."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Battle)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Cafe_monolog_4",
+            "LocalizeEN": "This haircut is easy indeed, but I think it's weird..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hoshino_(Battle)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Cafe_monolog_5",
+            "LocalizeEN": "I don't feel like taking a nap today..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_LogIn_1",
+            "LocalizeEN": "Oh, Sensei! Good work! Did you have a good trip? Did anyone follow you?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_LogIn_2",
+            "LocalizeEN": "Sensei, good luck with your work today~! Oji-san is watching you very closely, okay?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_1",
+            "LocalizeEN": "Huh? You like to dress like this, Sensei? Hmm... I don't really understand."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_2",
+            "LocalizeEN": "Sugar is important, so I carry some candy in my purse. Want one too, Sensei?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_3_1",
+            "LocalizeEN": "Mmm... Phew... Sensei~! Would you mind giving me a massage~?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_3_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_3_2",
+            "LocalizeEN": "My shoulders get stiff easily in this outfit."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_4_1",
+            "LocalizeEN": "Turn your back to the wall. That's the basis of indoor warfare~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_4_2",
+            "LocalizeEN": "Yeah, in that position. It's useful in its own way, so keep that in mind~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_5_1",
+            "LocalizeEN": "Are you working overtime today~?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Lobby_5_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Lobby_5_2",
+            "LocalizeEN": "Here's some warm coffee! Gotta prepare for the night battle."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_Birthday_Player",
+            "LocalizeEN": "Sensei, happy birthday~\nAs for your present...hmm,\n\nHow about touching my gun~?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_Birthday_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_Birthday_1",
+            "LocalizeEN": "Ah, it's my birthday, huh? I don't really care, but..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_Birthday_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_Birthday_2",
+            "LocalizeJP": "先生に覚えてもらえるてるのは…\nちょっと嬉しいかな。",
+            "LocalizeEN": "I guess I'm just happy that Sensei remembers it."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_NewYear",
+            "LocalizeEN": "Happy New Year, Sensei. I hope you and I can both take it easy this year~!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_Xmas",
+            "LocalizeEN": "A Christmas present, huh... If I could get one, I'd like a gun maintenance set. I'm thinking of buying a new one soon~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hoshino_(Battle)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_Season_Halloween",
+            "LocalizeEN": "Uhe~ Do you think I'll look normal in this outfit today?\nSensei, why don't you out with me~?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Hoshino_(Battle)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_ExWeapon_Get",
+            "LocalizeEN": "Whenever you need my help, just give me a shout, okay? You'll always be my top priority."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Battle)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_MemorialLobby_1_1",
+            "LocalizeEN": "Ah, it's already gotten this late, huh... In that case, we'll just have to wait until morning."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Battle)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_MemorialLobby_2_1",
+            "LocalizeEN": "Eh? There you go again~ It's no fun hanging around an old-timer like me, though~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Battle)_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_MemorialLobby_3_1",
+            "LocalizeEN": "U-Uhehe~... You're still going on about that? It might be too much for me..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Battle)_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_MemorialLobby_4_1",
+            "LocalizeEN": "...Well, if Sensei agrees to be my sidekick, then maybe I'll play along.\nThen, how about the hero and sidekick have dinner? ...Just emergency rations, though."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hoshino_(Battle)_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/CH0258_MemorialLobby_5_1",
+            "LocalizeEN": "Well, yeah, that's true... But I really like them. Go easy on me~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_formation_in_1",
+            "LocalizeEN": "Time to get fired up!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_formation_in_2",
+            "LocalizeEN": "It's such a hassle, but... well, I'll do this right."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_formation_select",
+            "LocalizeEN": "Uhe~ Waiting around is tiring, too..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_S2_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_formation_in_1",
+            "LocalizeJP": "目標は？",
+            "LocalizeEN": "What's the target?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_S2_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_formation_in_2",
+            "LocalizeJP": "おじさんに任せて。",
+            "LocalizeEN": "Leave it to Oji-san."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hoshino_(Battle)_S2_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_formation_select",
+            "LocalizeJP": "弾倉よし、ジャンバーよし。ふぁぁ……。",
+            "LocalizeEN": "Mags, check. Jumper, check. *yawn*"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formchange",
+            "VoiceClip": "Hoshino_(Battle)_Formchange",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_formchange",
+            "LocalizeEN": "Leave the vanguard to me."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Formchange",
+            "VoiceClip": "Hoshino_(Battle)_S2_Formchange",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_formchange",
+            "LocalizeJP": "火力、足りてない感じ？",
+            "LocalizeEN": "Feeling the firepower is not enough?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_defeat_1",
+            "LocalizeJP": "計算ミス、だったかな……。",
+            "LocalizeEN": "A miscalculation, I guess..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_defeat_2",
+            "LocalizeJP": "くっ、どうして……。",
+            "LocalizeEN": "Ngh... Why...?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_in_1",
+            "LocalizeJP": "おじさんの出番かぁ～。",
+            "LocalizeEN": "Guess it's my turn~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_in_2",
+            "LocalizeJP": "準備完了、いこっか。",
+            "LocalizeEN": "Preparations complete. Let's go!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_victory_1",
+            "LocalizeJP": "うん、悪くなかったね。",
+            "LocalizeEN": "Mm, that wasn't too bad."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_S2_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_tactic_victory_2",
+            "LocalizeJP": "先生もお疲れ様。",
+            "LocalizeEN": "Thanks for your hard work, Sensei."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_tactic_defeat_1",
+            "LocalizeJP": "ごめんね……おじさんがもっと、頑張ってれば……。",
+            "LocalizeEN": "Sorry... If I had worked a little harder..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_tactic_defeat_2",
+            "LocalizeJP": "腕が鈍っちゃったかな……。",
+            "LocalizeEN": "I think I've dulled my arm..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_tactic_in_2",
+            "LocalizeEN": "Let's begin~!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_tactic_victory_1",
+            "LocalizeEN": "Guess it's a natural result."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hoshino_(Battle)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_tactic_victory_2",
+            "LocalizeEN": "It's done~! Now to take a break."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_buffed_1",
+            "LocalizeEN": "I may be getting tough~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_buffself_1",
+            "LocalizeJP": "おじさん、強くなったよ。",
+            "LocalizeEN": "Oji-san has gotten stronger."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_damage_1",
+            "LocalizeJP": "いたた……。",
+            "LocalizeEN": "Ow-ow-ow..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_defense_1",
+            "LocalizeEN": "I'm gonna stop you~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_in_1",
+            "LocalizeEN": "Be prepared."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_in_2",
+            "LocalizeEN": "I've got you covered."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_move_1",
+            "LocalizeEN": "There's still more?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_move_2",
+            "LocalizeEN": "I'll go on ahead, don't you worry~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_recovery_1",
+            "LocalizeEN": "Thank you~!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_retire",
+            "LocalizeJP": "これは……困るなぁ……。",
+            "LocalizeEN": "This is a problem..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_battle_victory_1",
+            "LocalizeEN": "I'm fine with this~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_buffed_1",
+            "LocalizeJP": "いやぁ悪いねぇ～。",
+            "LocalizeEN": "Oh, I'm sorry~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_buffself_1",
+            "LocalizeJP": "あとひと踏ん張り。",
+            "LocalizeEN": "Gotta hold out for a little longer."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_covered_1",
+            "LocalizeJP": "一息つこっか。",
+            "LocalizeEN": "Let's take a breather."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_defense_1",
+            "LocalizeJP": "効かないよ。",
+            "LocalizeEN": "That won't work."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_in_1",
+            "LocalizeJP": "目標、確認。",
+            "LocalizeEN": "Target confirmed."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_in_2",
+            "LocalizeJP": "バックアップよろしくね？",
+            "LocalizeEN": "Back me up, okay?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_move_1",
+            "LocalizeJP": "エリア制圧。",
+            "LocalizeEN": "Area control."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_move_2",
+            "LocalizeJP": "移動するよ。",
+            "LocalizeEN": "Moving on."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_recovery_1",
+            "LocalizeJP": "回復完了。",
+            "LocalizeEN": "Recovery complete."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_retire",
+            "LocalizeJP": "くぅっ、こんなの……。",
+            "LocalizeEN": "Ugh, I can't believe this..."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_tacticalaction_1",
+            "LocalizeJP": "次、行くよ。",
+            "LocalizeEN": "Let's go next."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_victory_1",
+            "LocalizeJP": "まだまだ行けるよ。",
+            "LocalizeEN": "I'm still pushing on."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hoshino_(Battle)_S2_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_battle_victory_2",
+            "LocalizeJP": "まぁ、こんなもんかな。",
+            "LocalizeEN": "Well, this is how it is."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hoshino_(Battle)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_commonskill",
+            "LocalizeEN": "Back on your feet~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_commonskill",
+            "LocalizeJP": "援護は頼んだよ。",
+            "LocalizeEN": "Counting on you for backup."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_1",
+            "LocalizeEN": "Now it's my turn!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_2",
+            "LocalizeEN": "Can't get through me."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_3",
+            "LocalizeEN": "You called?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_level_1",
+            "LocalizeEN": "Everybody, stand back!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_level_2",
+            "LocalizeEN": "I'm going in!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_exskill_level_3",
+            "LocalizeEN": "That's it? How disappointing~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_1",
+            "LocalizeJP": "1，2……後ろ。",
+            "LocalizeEN": "One, two... Back up."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_2",
+            "LocalizeJP": "逃がさないよ。",
+            "LocalizeEN": "I won't let you get away."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_3",
+            "LocalizeJP": "邪魔。",
+            "LocalizeEN": "Outta my way."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_level_1",
+            "LocalizeJP": "早く行くよ。",
+            "LocalizeEN": "Go, quickly!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_level_2",
+            "LocalizeJP": "そこ退いて。",
+            "LocalizeEN": "Stand back there."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hoshino_(Battle)_S2_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_s2_exskill_level_3",
+            "LocalizeJP": "退かないなら……撃つ。",
+            "LocalizeEN": "If you don't back down... I'll fire."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Battle)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_growup_1",
+            "LocalizeEN": "Oh? You're giving it to me? Thank you~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Battle)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_growup_2",
+            "LocalizeEN": "Yeah, I got it. Alright, it's time to correct some bad boys."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Battle)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_growup_3",
+            "LocalizeEN": "Ah, I got it again. So, where do we fight next?"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hoshino_(Battle)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_growup_4",
+            "LocalizeEN": "Uhe~ This is embarrassing, but... Thank you, Sensei. Oji-san shall fight for you."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Battle)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_relationship_up_1",
+            "LocalizeEN": "That again... It's making me blush~"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Battle)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_relationship_up_2",
+            "LocalizeEN": "In case Sensei ever gets in trouble, then... No, I won't let that happen."
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Battle)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_relationship_up_3",
+            "LocalizeEN": "Uhe~ Patrolling with Sensei... When's the next one? Looking forward to it~!"
+        },
+        {
+            "CharacterId": 10098,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hoshino_(Battle)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0258/ch0258_relationship_up_4",
+            "LocalizeEN": "Even though I look like this, you still believe in me, don't you, Sensei? Uhe~ I'm kinda embarrassed... and happy, too."
+        }
+    ]
+}

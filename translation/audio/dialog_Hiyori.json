@@ -1,0 +1,204 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Hiyori_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Gachaget",
+            "LocalizeEN": "Ehehe... Finally, I made it. It's gonna be really hard, right? But I've learned that's just life... I'm Hiyori. Nice to meet you... Ehehe..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hiyori_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Cafe_monolog_1",
+            "LocalizeEN": "Ehehe... Excuse me."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hiyori_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Cafe_monolog_2",
+            "LocalizeEN": "There's a lot of nice household furniture here..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Hiyori_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Cafe_monolog_4",
+            "LocalizeEN": "Ehehe... Sorry to inconvenience you. Excuse me."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hiyori_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_LogIn_2",
+            "LocalizeEN": "Ehehe... Yes, I'm sorry to say that I'm on duty today."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hiyori_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Lobby_4",
+            "LocalizeEN": "I've read up on all kinds of things in magazines...\n\nEhehe. Maybe I can be helpful..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hiyori_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Season_NewYear",
+            "LocalizeEN": "Another year is passing by.\n\nI wonder how much suffering is waiting in the new year. Ehehe..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hiyori_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_Season_Halloween",
+            "LocalizeEN": "Ehehe... Losing candy or being tricked... Both are painful.\n\nPainful choices are what symbolize life, don't you think?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Hiyori_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_ExWeapon_Get",
+            "LocalizeEN": "I know that you're trying to make me work as your servant. Ehehe...I have no choice, so I'll accept."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hiyori_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_MemorialLobby_3_1",
+            "LocalizeEN": "Sensei? Why do you keep looking away?\n\nIs it s-so strange you can't even look at me?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hiyori_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/Hiyori_MemorialLobby_4_1",
+            "LocalizeEN": "Waaaah! So that's how it is. This life has no meaning.\n\nWhy is life so...\n\nI'm so messed up that you can't even look at me straight."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hiyori_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_formation_in_1",
+            "LocalizeJP": "…はい！準備できました。よろしくお願いします。",
+            "LocalizeEN": "Umm... ah! I'm ready! Let's do our best."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hiyori_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_formation_in_2",
+            "LocalizeEN": "Ehehe... What kind of job do we have this time?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hiyori_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_commonskill",
+            "LocalizeEN": "That looks painful..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_1",
+            "LocalizeEN": "Mmm... uwaa!! H-here I go!"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_2",
+            "LocalizeEN": "Mmm... E-eh!? Wait just a second!"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_3",
+            "LocalizeEN": "Where's everybody...? Ah! I'll provide support!"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_level_1",
+            "LocalizeEN": "Ehehe... This is the best I can do..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_level_2",
+            "LocalizeEN": "L-later... I'll meet you on the next spot..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hiyori_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_exskill_level_3",
+            "LocalizeJP": "こういうのも、人生ですよね……",
+            "LocalizeEN": "This is life, isn't it?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hiyori_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_growup_1",
+            "LocalizeEN": "Eh? M-me!? You mean, I should keep suffering... is that it?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hiyori_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_growup_2",
+            "LocalizeJP": "この先は、もっと苦しいんですよね？どんどん辛くなるんでしょうけど……仕方ないですね……えへへ",
+            "LocalizeEN": "From now on it's going to be more painful, right? It'll be harder to bear but... it can't be helped, right? Ehehe."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hiyori_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_growup_3",
+            "LocalizeEN": "The stronger I become, the more I should suffer, right?..."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hiyori_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_growup_4",
+            "LocalizeEN": "You think even I can be of help...?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hiyori_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_relationship_up_1",
+            "LocalizeEN": "Um, I don't think I can be of much help. ...What am I going to do?"
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hiyori_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_relationship_up_2",
+            "LocalizeJP": "あ、ありがとうございます…えへへ……。",
+            "LocalizeEN": "Th-thank you!... ehehe."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hiyori_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_relationship_up_3",
+            "LocalizeEN": "Why do you keep coming after me? You want to show me how hard life is, right? That's gotta be it."
+        },
+        {
+            "CharacterId": 20017,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hiyori_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hiyori/hiyori_relationship_up_4",
+            "LocalizeEN": "You lift me up, to let me fall... again to hurt. That's right?"
+        }
+    ]
+}

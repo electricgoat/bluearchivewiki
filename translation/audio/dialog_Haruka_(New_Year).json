@@ -1,0 +1,177 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Haruka_(New_Year)_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_Lobby_1",
+            "LocalizeEN": "To celebrate New Year's...W-What should I do? What sh-should I explode...?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLogin_1",
+            "LocalizeEN": "S-S-S-Sensei? Oh! I-I'm sorry! Welcome!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLogin_2",
+            "LocalizeEN": "Heehee. This is an unexpected surprise, Sensei.\n\nN-No! That didn't mean anything! J-Just forget I said it!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLobby_1",
+            "LocalizeEN": "H-Huh?! Wh-Wh-What is it, Sensei?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLobby_2",
+            "LocalizeEN": "You called me...for no reason? At all? J-Just because?!\n\nHeeheehee..."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLobby_4",
+            "LocalizeEN": "I'm s-s-sorry...someone as great as you has to waste their time...on someone like me...\n\n...You don't feel that way...? Really? Are you sure?\n\nOh... Thank you, Sensei."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Haruka_(New_Year)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/CH0087_EventLogin_Season_1",
+            "LocalizeEN": "I'm not totally sure... But it seems like something big happened...\n\n...Should I destroy everything?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruka_(New_Year)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_formation_in_1",
+            "LocalizeJP": "ふ、ふぇっ！？",
+            "LocalizeEN": "F-Fue!?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruka_(New_Year)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_formation_in_2",
+            "LocalizeJP": "私で合ってますか？",
+            "LocalizeEN": "Am I the right one?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Haruka_(New_Year)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_commonskill",
+            "LocalizeJP": "ば、爆発してください……",
+            "LocalizeEN": "Please blow up."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_1",
+            "LocalizeJP": "新年には……。ひぃっ！？",
+            "LocalizeEN": "On this New Year I... Ah!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_2",
+            "LocalizeEN": "The sun is rising... Ah!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_3",
+            "LocalizeEN": "Ehehe... Ah!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_level_1",
+            "LocalizeEN": "Unforgivable unforgivable unforgivable!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_level_2",
+            "LocalizeEN": "Who gave you the right to be there?!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruka_(New_Year)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_exskill_level_3",
+            "LocalizeEN": "Stop running stop running stop running!"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_(New_Year)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_growup_1",
+            "LocalizeJP": "あ、ありがとうございます……先生……",
+            "LocalizeEN": "Th-thank you, Sensei."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_(New_Year)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_growup_2",
+            "LocalizeEN": "W-Why are you giving this to me?"
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_(New_Year)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_growup_3",
+            "LocalizeEN": "I'll repay this kindness even if it costs my life."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruka_(New_Year)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_growup_4",
+            "LocalizeEN": "What do I do? Just what should I do? I'll do anything. Please let me do it."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_(New_Year)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_relationship_up_1",
+            "LocalizeEN": "A-Ah! I've been granted far too much kindness from you, Sensei."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_(New_Year)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_relationship_up_2",
+            "LocalizeEN": "Even though I can't do even one thing right, please have me do anything.I will definitely see it through."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_(New_Year)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_relationship_up_3",
+            "LocalizeEN": "S-Sorry.No, I mean... Thank you very much."
+        },
+        {
+            "CharacterId": 20025,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruka_(New_Year)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0087/ch0087_relationship_up_4",
+            "LocalizeEN": "Please treat me well this year too.Um, I don't mean to force you, by any means!"
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Suzumi_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Cafe_Act_1",
+            "LocalizeEN": "Being well-rested is also an important factor in being able to complete missions."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Suzumi_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Lobby_2",
+            "LocalizeEN": "You mean the Vigilante Crew? It's a tough job, but someone has do it."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Suzumi_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExWeapon_Get",
+            "LocalizeEN": "It's always best to use a weapon you're comfortable with."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Suzumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_formation_in_1",
+            "LocalizeEN": "Your next patrol mission?"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Suzumi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_formation_in_2",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Suzumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_formation_select",
+            "LocalizeEN": "Did you have any problems?"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_defeat_1",
+            "LocalizeJP": "…！油断しました。",
+            "LocalizeEN": "I let my guard down."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_defeat_2",
+            "LocalizeJP": "退却を…、要請します。",
+            "LocalizeEN": "request a retreat."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_in_1",
+            "LocalizeEN": "Start patrolling this area."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_in_2",
+            "LocalizeEN": "When will this activity end?"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_victory_1",
+            "LocalizeEN": "We have completed the organization of this area."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Suzumi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_tactic_victory_2",
+            "LocalizeEN": "This area is now safe. Thank you all for your hard work."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Buffed_1",
+            "LocalizeEN": "It's my turn."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_BuffSelf_1",
+            "LocalizeJP": "行きます！",
+            "LocalizeEN": "going"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Covered_1",
+            "LocalizeEN": "hidden."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Damage_2",
+            "LocalizeJP": "そんな…。",
+            "LocalizeEN": "Such."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Defense_1",
+            "LocalizeEN": "It is a waste."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_In_1",
+            "LocalizeEN": "I'm entering the operation area."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_In_2",
+            "LocalizeEN": "Everyone, be vigilant and charge with caution."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Move_1",
+            "LocalizeEN": "It's safe here."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Move_2",
+            "LocalizeEN": "Let's move to the next target point."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Recovery_1",
+            "LocalizeEN": "It was helpful. Thank you."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Retire",
+            "LocalizeJP": "遅すぎたか。",
+            "LocalizeEN": "it was too late."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_TacticalAction_1",
+            "LocalizeEN": "Move."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Victory_1",
+            "LocalizeEN": "End the patrol."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Suzumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_Battle_Victory_2",
+            "LocalizeEN": "It was an easy task."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Suzumi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_CommonSkill",
+            "LocalizeEN": "I won't miss it."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_1",
+            "LocalizeEN": "Let me get off my knees."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_2",
+            "LocalizeEN": "light of retribution"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_3",
+            "LocalizeEN": "This hurts."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_Level_1",
+            "LocalizeEN": "now"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_Level_2",
+            "LocalizeEN": "flash shot throw"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Suzumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Suzumi/Suzumi_ExSkill_Level_3",
+            "LocalizeEN": "Fire a flashbang in front."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Suzumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_growup_1",
+            "LocalizeEN": "This would be useful for patrols."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Suzumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_growup_2",
+            "LocalizeEN": "Not bad."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Suzumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_growup_3",
+            "LocalizeEN": "Good vibes."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Suzumi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_growup_4",
+            "LocalizeEN": "I look forward to working with you."
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Suzumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_relationship_up_1",
+            "LocalizeEN": "Thank you very much, teacher"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Suzumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_relationship_up_2",
+            "LocalizeEN": "The patrol with the teacher feels shorter than usual. Why?"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Suzumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_relationship_up_3",
+            "LocalizeEN": "Is this what you call happiness?"
+        },
+        {
+            "CharacterId": 16003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Suzumi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Suzumi/suzumi_relationship_up_4",
+            "LocalizeEN": "Sensei, I want you to stay with me forever."
+        }
+    ]
+}

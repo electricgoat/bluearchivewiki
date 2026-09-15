@@ -1,0 +1,81 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Saten_Ruiko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_commonskill",
+            "LocalizeEN": "W-what do you think of the taste?"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saten_Ruiko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_exskill_1",
+            "LocalizeEN": "W-wow! W-what is this?"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saten_Ruiko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_exskill_2",
+            "LocalizeEN": "I'm here!"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Saten_Ruiko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_exskill_level_3",
+            "LocalizeEN": "I won't let you! Yaaaa!"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saten_Ruiko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_growup_1",
+            "LocalizeEN": "I-is this for me? Thank you. I will do my best!"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saten_Ruiko_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_growup_2",
+            "LocalizeEN": "I don't really understand, but somehow I feel stronger."
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Saten_Ruiko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_growup_3",
+            "LocalizeEN": "Wow, strength is welling from my body! Is this what it feels like?"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saten_Ruiko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_relationship_up_1",
+            "LocalizeEN": "How should I put it... \"Thank you very much\" seems insufficient."
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saten_Ruiko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_relationship_up_2",
+            "LocalizeEN": "Huh? This is for me? Are you really sure it's okay?"
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saten_Ruiko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_relationship_up_3",
+            "LocalizeEN": "Sensei has been helping me all the time... haha."
+        },
+        {
+            "CharacterId": 26011,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Saten_Ruiko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH9996/ch9996_relationship_up_4",
+            "LocalizeEN": "I have been having so much fun ever since I came here. I think it's all thanks to Sensei."
+        }
+    ]
+}

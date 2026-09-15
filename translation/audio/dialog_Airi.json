@@ -1,0 +1,77 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Airi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_formation_in_1",
+            "LocalizeJP": "全力でお手伝いします。",
+            "LocalizeEN": "I will do my best to help you."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Airi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_formation_in_2",
+            "LocalizeJP": "今日も頑張ります。",
+            "LocalizeEN": "I'll do my best today too."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Airi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_exskill_1",
+            "LocalizeEN": "Hmm, ...What, are you going to throw it? !"
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Airi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_exskill_2",
+            "LocalizeJP": "いただきま・・・・・・へ？えぇえ！？",
+            "LocalizeEN": "Thanks for the trea...huh? Huuuh?!"
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Airi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_exskill_level_3",
+            "LocalizeEN": "Such a waste."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Airi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_growup_3",
+            "LocalizeEN": "I got stronger."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Airi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_growup_4",
+            "LocalizeEN": "I am always grateful for your help. Sensei."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Airi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_relationship_up_2",
+            "LocalizeEN": "I am really happy to be with you, Sensei."
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Airi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_relationship_up_3",
+            "LocalizeEN": "Sensei, today, tomorrow, and the day after tomorrow, you will always be with me, right?"
+        },
+        {
+            "CharacterId": 23000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Airi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Airi/airi_relationship_up_4",
+            "LocalizeEN": "Sweets are nice, but I still prefer being with Sensei."
+        }
+    ]
+}

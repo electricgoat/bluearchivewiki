@@ -1,0 +1,290 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Aru_(New_Year)_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/AruNewyear_Cafe_monolog_4",
+            "LocalizeEN": "This rented kimono is expensive, so I need to move carefully..."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_(New_Year)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/AruNewyear_Season_Birthday_Player",
+            "LocalizeEN": "Heeheehee. Don't underestimate the preparedness of Problem Solver.\n\nI-Is something the matter?\n\nUh, I mean, h-happy birthday."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_(New_Year)_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/AruNewyear_MemorialLobby_1_1",
+            "LocalizeEN": "Heehee. Hurry it up, Sensei. Huh? I walk too fast? Don't be silly.\n\nTime is money. That's Business 101. I have to lead by example, including being punctual."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(New_Year)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/AruNewyear_EventLobby_1",
+            "LocalizeEN": "My new year's wish... For Problem Solver 68 to become the biggest organization in Kivotos!\n\nHow did this happen...?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Aru_(New_Year)_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/AruNewyear_EventLobby_3",
+            "LocalizeEN": "Stop worrying, Sensei. With the combined power of all its members...\n\n...Problem Solver 68 can overcome any obstacle!\n\nHuh? P-P-Plans?! No... I-I didn't have anything in particular..."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_(New_Year)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_formation_in_1",
+            "LocalizeEN": "You have a discerning eye, don't you?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_(New_Year)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_formation_in_2",
+            "LocalizeEN": "I will accept that request."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_(New_Year)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_formation_select",
+            "LocalizeEN": "Come on! This kimono is expensive. Handle it carefully!"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_defeat_1",
+            "LocalizeJP": "この服、高かったのに。",
+            "LocalizeEN": "How could this happen? This outfit was expensive."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_defeat_2",
+            "LocalizeJP": "今日はこんなところで勘弁してあげるわ。",
+            "LocalizeEN": "That's enough. I'll let you off this time."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_in_1",
+            "LocalizeEN": "It's a good job for a leader like me."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_in_2",
+            "LocalizeEN": "I will live up to that trust."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_victory_1",
+            "LocalizeEN": "What else did you expect?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_(New_Year)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_tactic_victory_2",
+            "LocalizeEN": "How's that? This is what being outmatched is like."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_buffself_1",
+            "LocalizeJP": "さあ、行くわよ。",
+            "LocalizeEN": "Come on, let's go."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_covered_1",
+            "LocalizeEN": "I secured a safe spot."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_damage_2",
+            "LocalizeJP": "何なのよ。",
+            "LocalizeEN": "What's your problem!"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_damage_3",
+            "LocalizeJP": "ここで引いてたまるもんですか！",
+            "LocalizeEN": "I'm not about to retreat now!"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_defense_1",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_in_1",
+            "LocalizeEN": "\"Yuumou shoujin\". Let's get started."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_in_2",
+            "LocalizeEN": "Let's get to work again this year, yes?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_move_1",
+            "LocalizeEN": "Hey! There's no time to linger."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_move_2",
+            "LocalizeEN": "Here goes the next one."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_retire",
+            "LocalizeJP": "こんなのおみくじに書いてなかったのに。",
+            "LocalizeEN": "I didn't write this on my fortune slip."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_tacticalaction_1",
+            "LocalizeEN": "Changing position."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_victory_1",
+            "LocalizeEN": "Looks like this year I got Great Fortune. No need to look at a fortune slip."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_(New_Year)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_battle_victory_2",
+            "LocalizeEN": "This year, too, perfect right from the start."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(New_Year)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_exskill_1",
+            "LocalizeEN": "Look at my true strength."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(New_Year)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_exskill_2",
+            "LocalizeEN": "Look closely."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_(New_Year)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_exskill_3",
+            "LocalizeEN": "Piece of cake."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(New_Year)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_growup_1",
+            "LocalizeEN": "As expected of me, there is still room for growth."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(New_Year)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_growup_2",
+            "LocalizeEN": "My progress is showing more and more."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(New_Year)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_growup_3",
+            "LocalizeEN": "Did you you finally understand how amazing I am?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_(New_Year)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_growup_4",
+            "LocalizeEN": "Sensei, you can rely more and more on me now that I'm growing stronger."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(New_Year)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_relationship_up_1",
+            "LocalizeEN": "Me and Sensei, we make for great partners, don't you think?"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(New_Year)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_relationship_up_2",
+            "LocalizeEN": "Rejoice, I will always stay by your side."
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(New_Year)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_relationship_up_3",
+            "LocalizeEN": "Sensei is no longer just a client for me... because, well... because you're VIP now!"
+        },
+        {
+            "CharacterId": 10031,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_(New_Year)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_AruNewyear/arunewyear_relationship_up_4",
+            "LocalizeEN": "Before I knew it, I had come all the way here with Sensei. Please look after me this year, and the next year too."
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Lobby_1",
+            "LocalizeEN": "Safety, check!\n\nVerification, check!\n\nAccident-free, check!<ref group=\"note\">Official translation is \"I like safety! Love it! I love no accidents!\"</ref>"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Lobby_3",
+            "LocalizeEN": "(I wonder what should I name our next coup d'etat?) <ref group=\"note\">Official translation is \"(What would be a good justification for our next coup d'etat...?)\"</ref>"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Lobby_4",
+            "LocalizeEN": "Sensei, aren't you pulling too many night shifts?\n\nAre you even receiving overtime pay?"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Lobby_5",
+            "LocalizeEN": "I wonder what our upperclassman is doing right now...\n\nI hope they're doing well."
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Season_Birthday_Player",
+            "LocalizeEN": "Happy Birthday, Sensei.\n\nToday we shall celebrate the birth of a true comrade! <ref group=\"note\">Official translation is \"Congratulations, Sensei. Let us celebrate the birth of a new comrade today.\"</ref>"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Season_Birthday_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Season_Birthday_1",
+            "LocalizeEN": "Fufu... Sensei, do you know what day it is today?"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Season_Birthday_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Season_Birthday_2",
+            "LocalizeEN": "Yes! That's right. It's the great anniversary of heroism,\nThe day citizens mustered their courage and obtained arms in their stand for freedom..!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Minori_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_Season_Xmas",
+            "LocalizeEN": "Only distributing gifts to good kids...\n\nThat Santa Claus, he's no different from scheming bourgeoisie! <ref group=\"note\">Official translation calls Santa a \"dirty capitalist\" instead</ref>"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Minori_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_ExWeapon_Get",
+            "LocalizeEN": "Strong and reliable equipment is one's best friend on site. In that sense, this guy has never once disappointed me."
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Minori_MemorialLobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0214/CH0214_MemorialLobby_5",
+            "LocalizeEN": "...This proof, nowhere to be found on a finished building,\n\nis what I wanted to share with you, Sensei."
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Minori_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_formation_in_1",
+            "LocalizeEN": "Hmm, where's today's site?"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Minori_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_formation_in_2",
+            "LocalizeEN": "I'll do my best and show the value of labour!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Minori_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_commonskill",
+            "LocalizeEN": "Everyone, turn your attention upwards."
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_1",
+            "LocalizeEN": "Don't tolerate low quality pudding!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_2",
+            "LocalizeEN": "Reform Red Winter Federal Academy's Secretariat!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_3",
+            "LocalizeEN": "Commencing a strike!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_level_1",
+            "LocalizeEN": "Workers' rights! More wages!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_level_2",
+            "LocalizeEN": "Workers of Kivotos! Unite!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Minori_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_exskill_level_3",
+            "LocalizeEN": "With our wills as one, there's nothing to fear!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Minori_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_growup_1",
+            "LocalizeEN": "It's only natural that hard work and effort rewards growth."
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Minori_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_growup_2",
+            "LocalizeEN": "Sensei's instructions are so easy to understand. I appreciate it!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Minori_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_growup_3",
+            "LocalizeEN": "Enlightenment is vital for a successful revolution!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Minori_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_growup_4",
+            "LocalizeEN": "I can safely progress the next work like this!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Minori_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_relationship_up_1",
+            "LocalizeEN": "Thanks to you Sensei, our department has become even more resolute!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Minori_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_relationship_up_2",
+            "LocalizeEN": "I can always trust Sensei to have my back!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Minori_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_relationship_up_3",
+            "LocalizeEN": "This feeling is, um... r-revolutionary!"
+        },
+        {
+            "CharacterId": 20026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Minori_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0214/ch0214_relationship_up_4",
+            "LocalizeEN": "Monopolizing is an act only the evil bourgoisie does, I know, but...\nIf it's about Sensei, even I want to do it a little."
+        }
+    ]
+}

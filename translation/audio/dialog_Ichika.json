@@ -1,0 +1,336 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Ichika_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_Cafe_monolog_3",
+            "LocalizeEN": "It's very peaceful!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Ichika_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_Season_NewYear",
+            "LocalizeEN": "Happy new year, Sensei!\n\nI pray that this year, I might enjoy some leisure!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Ichika_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_MemorialLobby_1_1",
+            "LocalizeEN": "Haha! Sensei! Over here! Here! Can you see me?\n\nAh! This balloon, it's such a simple thing..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Ichika_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_MemorialLobby_2_1",
+            "LocalizeEN": "But, when I'm holding it... I feel like a kid again. It reminds me of visiting amusement parks with friends... Haha.\n\nOh! This isn't mine though! It's just... One thing led to another, and..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ichika_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_EventLogin_1",
+            "LocalizeEN": "Welcome! I'm ready as I'll ever be!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Ichika_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_EventLobby_4",
+            "LocalizeEN": "Oh, Sensei. You don't have to call me like that multiple times. I'm always on standby right here."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Ichika_EventMission_Day_End",
+            "Path": "Audio/VOC_JP/JP_CH0071/CH0071_EventMission_Day_End",
+            "LocalizeEN": "That's it for today! So, Sensei. What are you going to do now?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ichika_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_formation_in_1",
+            "LocalizeEN": "Understood!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Ichika_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_formation_select",
+            "LocalizeEN": "It's my turn, right? Did I get it wrong?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ichika_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_tactic_defeat_1",
+            "LocalizeJP": "ふん……"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ichika_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_tactic_defeat_2",
+            "LocalizeJP": "なるほど、こういう感じだったんすねぇ……。",
+            "LocalizeEN": "I see. So, it's like this..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ichika_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_tactic_in_1",
+            "LocalizeEN": "It's finally starting, huh?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ichika_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_tactic_in_2",
+            "LocalizeEN": "Phew! There sure is a lot to do."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Ichika_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_tactic_victory_2",
+            "LocalizeEN": "Phew. Things calmed down for now. I'm heading back!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_buffed_1",
+            "LocalizeEN": "That helped!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_buffself_1",
+            "LocalizeJP": "本気で行くっすよ。",
+            "LocalizeEN": "I'm getting serious."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_covered_1",
+            "LocalizeEN": "Whoa."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_damage_1",
+            "LocalizeJP": "おお！"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_damage_2",
+            "LocalizeJP": "あれ…"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_damage_3",
+            "LocalizeJP": "あはは…"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_defense_1",
+            "LocalizeEN": "You can't hit me."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_in_1",
+            "LocalizeEN": "Everyone follow me!... Did that sound good?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_in_2",
+            "LocalizeEN": "Alright, here I go!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_move_1",
+            "LocalizeEN": "Let's get this over quick."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_move_2",
+            "LocalizeEN": "Keep going at that pace."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_recovery_1",
+            "LocalizeEN": "Yoo-hoo!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_retire",
+            "LocalizeJP": "ちっ……",
+            "LocalizeEN": "Tsk..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_shout_1",
+            "LocalizeJP": "やっ！"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_shout_2",
+            "LocalizeJP": "ふーん…"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_shout_3",
+            "LocalizeJP": "よいしょっと！"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_victory_1",
+            "LocalizeEN": "You all are truly amazing."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Ichika_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_battle_victory_2",
+            "LocalizeEN": "Phew! Things just work out sometimes."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Ichika_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_commonskill",
+            "LocalizeEN": "Did that really work?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_1",
+            "LocalizeEN": "Haaa, again?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_2",
+            "LocalizeEN": "Sigh, give me a break."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_3",
+            "LocalizeEN": "I'm in the middle of something right now."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_level_1",
+            "LocalizeEN": "Alright, I leave it to you!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_level_2",
+            "LocalizeEN": "I'll treat you to something next time!"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Ichika_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_exskill_level_3",
+            "LocalizeEN": "Can we do this later? I'm in the middle of something right now."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ichika_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_growup_1",
+            "LocalizeEN": "What?... For me? Thank you so much, Sensei."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ichika_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_growup_2",
+            "LocalizeEN": "Giving me this won't get you anything, you know, right?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ichika_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_growup_3",
+            "LocalizeEN": "Ahaha, when you give me so much, I have no choice but to give it my absolute all."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Ichika_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_growup_4",
+            "LocalizeEN": "Umm, I'm honored, you know, it's just... Ehehe..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ichika_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_relationship_up_1",
+            "LocalizeEN": "Umm, this is tough... How should I thank you..."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ichika_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_relationship_up_2",
+            "LocalizeEN": "In a situation like this, I guess I should just be sincere, right?"
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ichika_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_relationship_up_3",
+            "LocalizeEN": "I'll make up for this one day. But what will I do in return? I guess that's one thing to look forward to."
+        },
+        {
+            "CharacterId": 10077,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Ichika_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0071/ch0071_relationship_up_4",
+            "LocalizeEN": "It's a bit embarrasing, don't you think? Is it just me?"
+        }
+    ]
+}

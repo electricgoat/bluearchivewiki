@@ -1,0 +1,371 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_1_1",
+            "LocalizeEN": "It's so nice to be able to help!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_1_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_1_2",
+            "LocalizeEN": "I-I wonder...if I'm helpful to you in any way."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_2",
+            "LocalizeEN": "I'm always making mistakes...\n\nI'm a manager, though...for some reason."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_3",
+            "LocalizeEN": "Y-You can ask me anything! I'll always do my best!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_4",
+            "LocalizeEN": "I heard there are a lot of rumors going around about me. I wonder what they're about.\n\nNo one will tell me..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Lobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Lobby_5_1",
+            "LocalizeEN": "I-I can organize things for you."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Season_Xmas",
+            "LocalizeEN": "It's Christmas Day!\n\nI'm still part of the Sisterhood, so...\n\n...I'll pray for you, Sensei."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Season_Halloween_1_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Season_Halloween_1_1",
+            "LocalizeEN": "H-Halloween?\n\nTh-That's why people are wearing those outfits..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Hinata_Season_Halloween_1_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_Season_Halloween_1_2",
+            "LocalizeEN": "Oh. This is no costume. It's my normal attire!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Hinata_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_MemorialLobby_1_1",
+            "LocalizeEN": "Please...forgive me, Sensei.\n\nI never wanted to be a burden to you."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hinata_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_EventLogin_1",
+            "LocalizeEN": "Sensei, you're here! I've been waiting for you!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hinata_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_EventLogin_2",
+            "LocalizeEN": "Peace be with you always.\n\n...Is it awkward to hear that from me?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Hinata_EventLobby_4",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_EventLobby_4",
+            "LocalizeEN": "I like these moments of small talk, but...\n\nIsn't it about time we start heading out?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hinata_EventShop_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_EventShop_Login_2",
+            "LocalizeEN": "I'm good at organizing and managing! Please take a look!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Hinata_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/Hinata_EventShop_1",
+            "LocalizeEN": "You can call me all you want...but I don't know what I could do."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hinata_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_formation_in_1",
+            "LocalizeEN": "M-me?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hinata_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_formation_in_2",
+            "LocalizeEN": "Umm... do you really think I can help...?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hinata_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_formation_select",
+            "LocalizeEN": "I'm getting nervous."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_defeat_1",
+            "LocalizeJP": "うぅ……すみません……",
+            "LocalizeEN": "Ugh... I'm sorry..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_defeat_2",
+            "LocalizeJP": "うぅ…、またやってしまいました……",
+            "LocalizeEN": "Ugh... I messed up again..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_in_1",
+            "LocalizeEN": "I'm sure we'll make it somehow... right?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_in_2",
+            "LocalizeEN": "Fuu... I'm getting nervous..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_victory_1",
+            "LocalizeEN": "Thank heavens."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Hinata_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_tactic_victory_2",
+            "LocalizeEN": "It's all thanks to Sensei. Thank you."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_buffed_1",
+            "LocalizeEN": "Thank you for your help."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_covered_1",
+            "LocalizeEN": "Uwaa!? Enough already!."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_damage_1",
+            "LocalizeJP": "あぁ……"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_damage_2",
+            "LocalizeJP": "いった……"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_damage_3",
+            "LocalizeJP": "うわぁ！？"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_defense_1",
+            "LocalizeEN": "I-it's useless!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_in_1",
+            "LocalizeEN": "Umm... umm...!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_in_2",
+            "LocalizeEN": "I'll do my best!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_move_1",
+            "LocalizeEN": "It's still going?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_move_2",
+            "LocalizeEN": "When is it going to end!?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_recovery_1",
+            "LocalizeEN": "T-thank you!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_retire",
+            "LocalizeJP": "私……またやってしまいました……",
+            "LocalizeEN": "I... I messed up again..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_victory_1",
+            "LocalizeEN": "Hurray! We did it!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hinata_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_battle_victory_2",
+            "LocalizeEN": "Did I... did I do well?"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_1",
+            "LocalizeEN": "So it came to this after all..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_2",
+            "LocalizeEN": "It can't be helped."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_3",
+            "LocalizeEN": "If you must resent someone, then hate me!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_level_1",
+            "LocalizeEN": "S-sorry!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_level_2",
+            "LocalizeEN": "Excuse me!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hinata_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_exskill_level_3",
+            "LocalizeEN": "This may hurt!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_growup_1",
+            "LocalizeEN": "It feels like my strength is welling."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_growup_2",
+            "LocalizeEN": "I feel like I can do anything now!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_growup_3",
+            "LocalizeEN": "Now I can do better!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hinata_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_growup_4",
+            "LocalizeEN": "Thanks, Sensei!"
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_relationship_up_1",
+            "LocalizeEN": "Th-thanks..."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_relationship_up_2",
+            "LocalizeEN": "Uwa!... Mm, Sensei? You surprised me. Ehehe...."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_relationship_up_3",
+            "LocalizeEN": "One day I will return this kindness."
+        },
+        {
+            "CharacterId": 10036,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hinata_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hinata/hinata_relationship_up_4",
+            "LocalizeEN": "I hope one day I can do something in return for Sensei."
+        }
+    ]
+}

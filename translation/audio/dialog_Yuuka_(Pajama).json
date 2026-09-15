@@ -1,0 +1,39 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10108,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Pajama)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0284/ch0284_tactic_defeat_1",
+            "LocalizeJP": "うぅ……今日はコンディションが……。"
+        },
+        {
+            "CharacterId": 10108,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Yuuka_(Pajama)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0284/ch0284_tactic_defeat_2",
+            "LocalizeJP": "やっぱり、ちゃんと睡眠を取れなかったから……。"
+        },
+        {
+            "CharacterId": 10108,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Pajama)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0284/ch0284_battle_buffself_1",
+            "LocalizeJP": "気合を入れ直して！"
+        },
+        {
+            "CharacterId": 10108,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Pajama)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0284/ch0284_battle_damage_3",
+            "LocalizeJP": "邪魔しないでよ！"
+        },
+        {
+            "CharacterId": 10108,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Yuuka_(Pajama)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0284/ch0284_battle_retire",
+            "LocalizeJP": "睡眠不足は健康の敵って言ってたわ……。"
+        }
+    ]
+}

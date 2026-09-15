@@ -1,0 +1,133 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Hare_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_formation_in_1",
+            "LocalizeJP": "私の実力を証明してみせる機会だね。",
+            "LocalizeEN": "This is my chance to prove myself."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_battle_tsa_1",
+            "LocalizeJP": "テックレベル7、搭乗完了。",
+            "LocalizeEN": "Tech level 7, boarding complete."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Hare_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_battle_tsa_2",
+            "LocalizeJP": "これで終わらせよう。",
+            "LocalizeEN": "Let's finish this."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Hare_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_commonskill",
+            "LocalizeEN": "This will hurt."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_1",
+            "LocalizeEN": "Electromagnetic pulse, operation started."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_2",
+            "LocalizeEN": "Operating EMP drone."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_3",
+            "LocalizeEN": "Activating first stage emitter."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_level_1",
+            "LocalizeEN": "Suspending gear."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_level_2",
+            "LocalizeEN": "Just as expected."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Hare_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_exskill_level_3",
+            "LocalizeEN": "Everyone step back."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_growup_1",
+            "LocalizeEN": "Hmm, this is an impressive result."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_growup_2",
+            "LocalizeEN": "We need more data."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_growup_3",
+            "LocalizeEN": "I wonder if this surge of power can also be quantified."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Hare_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_growup_4",
+            "LocalizeEN": "It's always fun to explore the unknown."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_relationship_up_1",
+            "LocalizeEN": "After completing this research, next I would like to study you, Sensei."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_relationship_up_2",
+            "LocalizeEN": "If only you could look into people's hearts through a microscope."
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_relationship_up_3",
+            "LocalizeEN": "What kind of dynamics can explain the way this heart is drawn to Sensei?"
+        },
+        {
+            "CharacterId": 23003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Hare_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Hare/hare_relationship_up_4",
+            "LocalizeEN": "The ability to turn back time? Who knows? If you ask me, I just want to enjoy this moment forever."
+        }
+    ]
+}

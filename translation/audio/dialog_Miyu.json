@@ -1,0 +1,296 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Miyu_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_formation_in_1",
+            "LocalizeEN": "Is it a battle?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Miyu_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_formation_in_2",
+            "LocalizeEN": "Do not disturb other children."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_defeat_1",
+            "LocalizeJP": "こうなると思ってました。私が関わると、結局いつもこんな風に…。",
+            "LocalizeEN": "I thought it would be like this. When I'm involved, it always ends up like this"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_defeat_2",
+            "LocalizeJP": "逃げたい、辛い、帰りたい。",
+            "LocalizeEN": "I want to run away, it hurts, I want to go home."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_in_1",
+            "LocalizeEN": "am i the leader?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_in_2",
+            "LocalizeJP": "ど、どうしてこんなことに……",
+            "LocalizeEN": "Why is this happening?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_victory_1",
+            "LocalizeEN": "Wait, we won? Really?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyu_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_tactic_victory_2",
+            "LocalizeJP": "そんな、おかしいです……私なんかがリーダーになって、勝てただなんて……",
+            "LocalizeEN": "That's strange. I can't believe I became the leader and won."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_buffed_1",
+            "LocalizeJP": "あ、ありがとうございます……",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_buffself_1",
+            "LocalizeJP": "少し、本気を出します。",
+            "LocalizeEN": "I'll be a little more serious."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_covered_1",
+            "LocalizeEN": "hid."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_defense_1",
+            "LocalizeEN": "Maybe the enemy will ignore you."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_in_1",
+            "LocalizeEN": "(I wonder if I can do it well)"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_in_2",
+            "LocalizeJP": "すみません、できればで良いのですが、私についてきてください……",
+            "LocalizeEN": "Excuse me, I wish I could, but please follow me"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_move_1",
+            "LocalizeEN": "Change position."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_move_2",
+            "LocalizeEN": "Support fire, please."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_recovery_1",
+            "LocalizeEN": "? Is this for me?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_retire",
+            "LocalizeJP": "みんな、ごめん。",
+            "LocalizeEN": "Sorry, everyone."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_shout_1",
+            "LocalizeJP": "ヒット！",
+            "LocalizeEN": "hit!"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_shout_2",
+            "LocalizeJP": "タンゴダウン。",
+            "LocalizeEN": "Tango down."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_shout_3",
+            "LocalizeJP": "ファイア。",
+            "LocalizeEN": "Fire."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_tacticalaction_1",
+            "LocalizeEN": "Move."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_victory_1",
+            "LocalizeEN": "can i stay here"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyu_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_battle_victory_2",
+            "LocalizeJP": "わ、私のことは、お気になさらず……",
+            "LocalizeEN": "don't worry about me"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Miyu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_commonskill",
+            "LocalizeEN": "I will support you."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_1",
+            "LocalizeJP": "やっぱり私は、何もできないゴミ屑なんだ……",
+            "LocalizeEN": "After all, I'm a piece of trash who can't do anything."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_2",
+            "LocalizeJP": "私はその辺の小石…",
+            "LocalizeEN": "I'm a pebble around there."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_3",
+            "LocalizeJP": "SRTに、入らなければ良かった……",
+            "LocalizeEN": "I wish I hadn't entered SRT."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_level_1",
+            "LocalizeJP": "私のことなんて、気にしないでください……",
+            "LocalizeEN": "don't worry about me"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_level_2",
+            "LocalizeJP": "私には、この空間がちょうど良いので……",
+            "LocalizeEN": "This space is just right for me,"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_exskill_level_3",
+            "LocalizeJP": "すみません、ひとりにさせてください……",
+            "LocalizeEN": "Excuse me, please leave me alone."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_growup_1",
+            "LocalizeEN": "Is it okay for me to receive such a good thing?"
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyu_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_growup_2",
+            "LocalizeEN": "Better understanding of tactics."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_growup_3",
+            "LocalizeEN": "I will at least do my best to live up to the name of SRT."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_growup_4",
+            "LocalizeEN": "I have to grow up somehow and not pull everyone else's leg."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_relationship_up_1",
+            "LocalizeEN": "Sensei's instructions are good. I'm not scared."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_relationship_up_2",
+            "LocalizeJP": "先生は……私のこと、見つけてくれますよね？いつも、どんな時も",
+            "LocalizeEN": "Sensei will find me. Always, no matter what."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_relationship_up_3",
+            "LocalizeEN": "I wish I could be of help to you as a teacher."
+        },
+        {
+            "CharacterId": 10039,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0145/ch0145_relationship_up_4",
+            "LocalizeEN": "Teacher, please don't lose sight of me."
+        }
+    ]
+}

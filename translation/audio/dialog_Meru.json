@@ -1,0 +1,333 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Meru_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_Cafe_monolog_3",
+            "LocalizeEN": "I need to work on my drawing skills..."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Meru_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_Cafe_monolog_5",
+            "LocalizeEN": "I publish all of my fan books under my pen name."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Meru_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_Login_1",
+            "LocalizeEN": "Oh, welcome, Sensei!\n\nAll right, get to work! I'll be waiting!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Meru_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_EventLogin_Season_2",
+            "LocalizeEN": "I can't believe how the story unfolded...\n\nYou really can never tell where life will lead you..."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Meru_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_EventLobby_1",
+            "LocalizeEN": "Did you call me?\n\nOh, I'm busy...ish."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Meru_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_EventLobby_2",
+            "LocalizeEN": "I can trust Momiji to have my back.\n\nEveryone has their own preferences, right?"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Meru_EventMission_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/CH0124_EventMission_2",
+            "LocalizeEN": "Let's talk, Sensei! You keep saying things, and I'll put them in my next book!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Meru_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_formation_in_1",
+            "LocalizeEN": "Oh, I sense an idea coming."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Meru_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_formation_in_2",
+            "LocalizeEN": "Well, my specialty is drawing, you know."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Meru_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_formation_select",
+            "LocalizeEN": "Stop right there! Stay still like that~ ...Yes, just like that!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_defeat_1",
+            "LocalizeJP": "うう…、やられた～。",
+            "LocalizeEN": "Ugh... I've been had."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_defeat_2",
+            "LocalizeJP": "まだネタも沸いてきてないのに。",
+            "LocalizeEN": "The ideas are still not flowing."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_in_1",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_in_2",
+            "LocalizeEN": "Hehe, I wonder what's here?"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_victory_1",
+            "LocalizeEN": "Hmm, not bad."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Meru_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_tactic_victory_2",
+            "LocalizeEN": "This is it!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_buffed_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_buffself_1",
+            "LocalizeJP": "ノってきた～！",
+            "LocalizeEN": "I'm in the zone now!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_covered_1",
+            "LocalizeEN": "Hiding~!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_damage_3",
+            "LocalizeJP": "ひどいじゃん！",
+            "LocalizeEN": "That's terrible!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_defense_1",
+            "LocalizeEN": "Hehe, you can't hit me."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_in_1",
+            "LocalizeEN": "Let's go look for inspiration for a new book."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_in_2",
+            "LocalizeEN": "Now, where should I start?"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_move_1",
+            "LocalizeEN": "Next, I wonder where it could be?"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_move_2",
+            "LocalizeEN": "Let's try to move forward!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_recovery_1",
+            "LocalizeEN": "My eyes are clear now."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_retire",
+            "LocalizeJP": "徹夜作業よりつらいんだけど。",
+            "LocalizeEN": "This is even more painful than an all-nighter."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_shout_3",
+            "LocalizeJP": "いっけー！",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_tacticalaction_1",
+            "LocalizeEN": "Alright! Here we go!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_victory_1",
+            "LocalizeEN": "Good result! Maybe I have a talent for this too, unexpectedly."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Meru_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_battle_victory_2",
+            "LocalizeEN": "Yup, that feels good. I'll keep this momentum going for the manuscript too..."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Meru_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_commonskill",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_1",
+            "LocalizeEN": "T-this is...! Hahaha...!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_2",
+            "LocalizeEN": "It's here... it's here, it's here, it's here!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_3",
+            "LocalizeEN": "Aha! An inspiration...!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_level_1",
+            "LocalizeEN": "Wow! ... How's this?"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_level_2",
+            "LocalizeEN": "Yaaa! ... I did it!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Meru_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_exskill_level_3",
+            "LocalizeEN": "Yes, it's finished!"
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Meru_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_growup_1",
+            "LocalizeEN": "I came, I saw, I became strong."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Meru_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_growup_2",
+            "LocalizeEN": "It would be great if the ability to draw is also easily understood and improved."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Meru_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_growup_3",
+            "LocalizeEN": "This is all thanks to Sensei again! I will draw a picture as gift for you this time."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Meru_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_growup_4",
+            "LocalizeJP": "ああ、こんなに強くなるなんて。自分の成長っぷりが怖いわ～。",
+            "LocalizeEN": "Ah, I have become so strong. My rate of growth is scary."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Meru_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_relationship_up_1",
+            "LocalizeEN": "Well... Um... I can't say that in this occasion, so, um, it's impossible after all."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Meru_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_relationship_up_2",
+            "LocalizeEN": "Fantasies are always invisible. However, this situation is reality..."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Meru_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_relationship_up_3",
+            "LocalizeEN": "I'm impressed someone like me can be like this. Thank you Sensei: this is my true feeling."
+        },
+        {
+            "CharacterId": 10075,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Meru_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0124/ch0124_relationship_up_4",
+            "LocalizeEN": "Even though the word \"bond\" carries lots of weight, people say it a lot. Um... I really cherish my bonds with Sensei!"
+        }
+    ]
+}

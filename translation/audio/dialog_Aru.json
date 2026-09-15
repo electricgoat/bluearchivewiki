@@ -1,0 +1,320 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_Aru/Aru_Lobby_5",
+            "LocalizeEN": "Wh-What am I saying? Ahaha! I guess we never did agree on that, did we?"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Aru_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Aru/Aru_Season_NewYear",
+            "LocalizeEN": "Happy New Year to you. Expect me to work hard on your requests this year."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Aru/Aru_MemorialLobby_5_1",
+            "LocalizeEN": "Oh, yes. That's been confirmed. I see.\n\n(Who cares what your favorite sushi is...? Ugh. What's wrong with this lunatic?)"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Aru_MemorialLobby_6",
+            "Path": "Audio/VOC_JP/JP_Aru/Aru_MemorialLobby_6",
+            "LocalizeEN": "Huh? You think I have the wrong number?\n\nWh-What are you talking about? You called me!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_formation_in_1",
+            "LocalizeEN": "Haha, you made a great choice."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_formation_in_2",
+            "LocalizeEN": "Leave it to me."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Aru_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_formation_select",
+            "LocalizeEN": "Heh, I don't mind helping if you want it so badly."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_defeat_1",
+            "LocalizeJP": "くっ…覚えてなさい！",
+            "LocalizeEN": "Damn... You'll regret this!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_defeat_2",
+            "LocalizeJP": "これで終わりだと思わないことね！",
+            "LocalizeEN": "Don't think this is over!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_in_1",
+            "LocalizeEN": "Leading companies and platoons is my specialty."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_in_2",
+            "LocalizeEN": "Leader! As president, that's a fitting position for me!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_victory_1",
+            "LocalizeEN": "It's that easy."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Aru_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_tactic_victory_2",
+            "LocalizeEN": "See, Sensei? This is what you call in a league of my own."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_buffed_1",
+            "LocalizeEN": "This is authority."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_buffself_1",
+            "LocalizeJP": "行くわよ。",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_covered_1",
+            "LocalizeEN": "Offensive position secured."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_damage_3",
+            "LocalizeJP": "これは…違う！",
+            "LocalizeEN": "This... isn't my real ability!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_defense_1",
+            "LocalizeEN": "Heh, too bad."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_in_1",
+            "LocalizeEN": "Go, my employees. It's time to work."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_in_2",
+            "LocalizeEN": "Request start."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_move_1",
+            "LocalizeEN": "See? I'll absolutely carry out the request."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_move_2",
+            "LocalizeEN": "Now let's move."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_recovery_1",
+            "LocalizeEN": "This is VIP hospitality."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_retire",
+            "LocalizeJP": "依頼は…必ず遂行しなきゃ。",
+            "LocalizeEN": "I must... fulfill the request."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_tacticalaction_1",
+            "LocalizeEN": "Changing position."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_tsa_1",
+            "LocalizeJP": "高いお金を払って契約した業務用トラックなんだから",
+            "LocalizeEN": "Here's the commercial truck you paid a lot of money for."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_tsa_2",
+            "LocalizeJP": "さあ、作業始めるわよ",
+            "LocalizeEN": "Let's begin our job."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_victory_1",
+            "LocalizeEN": "If you leave it to a Problem Solver, you get perfect results."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Aru_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_battle_victory_2",
+            "LocalizeEN": "Request fulfilled."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Aru_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_commonskill",
+            "LocalizeEN": "Prepare yourself!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_1",
+            "LocalizeEN": "Mm, target found."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_2",
+            "LocalizeEN": "I can hit you with one hand."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_3",
+            "LocalizeEN": "One shot is enough."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_level_1",
+            "LocalizeEN": "Beat you down."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_level_2",
+            "LocalizeEN": "Ahaha! Bullseye!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Aru_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_exskill_level_3",
+            "LocalizeEN": "Am I cool, or what?"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_growup_1",
+            "LocalizeEN": "I'm brilliant as always."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_growup_2",
+            "LocalizeEN": "Hee hee, you can look out for my future."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_growup_3",
+            "LocalizeEN": "You're supposed to see my real value."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Aru_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_growup_4",
+            "LocalizeEN": "Hahaha, I've grown even stronger!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_relationship_up_1",
+            "LocalizeEN": "Hehe, you're lucky, Sensei. I'm a bigger shot than you think."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_relationship_up_2",
+            "LocalizeEN": "Being this close to costumers is... N-no, That's not it! It's okay if it's you, Sensei, because you're a regular."
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_relationship_up_3",
+            "LocalizeJP": "先生の依頼なら….\nなんでも…… や、やってあげるわ！",
+            "LocalizeEN": "If it's a commission from Sensei, I-I will... I'll do anything!"
+        },
+        {
+            "CharacterId": 10000,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Aru_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Aru/aru_relationship_up_4",
+            "LocalizeEN": "Thank you, Sensei. Thanks to you, I truly became a splendid version of myself."
+        }
+    ]
+}

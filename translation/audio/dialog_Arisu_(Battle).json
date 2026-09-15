@@ -1,0 +1,25 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10134,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Arisu_(Battle)_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0334/CH0334_MemorialLobby_2_1",
+            "LocalizeEN": "Is it not beautiful?\n\nand even in all the worlds I have yet to visit...\n\n...there must be plenty of beautiful things, just like this."
+        },
+        {
+            "CharacterId": 10134,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Arisu_(Battle)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0334/ch0334_battle_victory_1",
+            "LocalizeEN": "All clear... Sensei! How was I?"
+        },
+        {
+            "CharacterId": 10134,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Arisu_(Battle)_ExSkill_2_2",
+            "Path": "Audio/VOC_JP/JP_CH0334/ch0334_exskill_2_2",
+            "LocalizeEN": "Abi-Eshuh... Systems all green!"
+        }
+    ]
+}

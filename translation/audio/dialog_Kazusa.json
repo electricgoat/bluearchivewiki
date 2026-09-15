@@ -1,0 +1,360 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kazusa_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_Lobby_4",
+            "LocalizeEN": "...Huh? What am I doing? I'm watching you work."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kazusa_MemorialLobby_1_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_MemorialLobby_1_1",
+            "LocalizeEN": "Did you recognize me right away?\n\n*sigh* Y-Yeah, figures. Of course you would..."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kazusa_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_MemorialLobby_2_1",
+            "LocalizeEN": "Wh-What? I was avoiding you...?\n\nI-I just...um... Well, um... I haven't done my makeup yet."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kazusa_MemorialLobby_3_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_MemorialLobby_3_1",
+            "LocalizeEN": "Don't look at my face...!\n\nI told you, Sensei. Don't come any closer!"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kazusa_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_MemorialLobby_4_1",
+            "LocalizeEN": "R-Really? ...Are you just saying that?\n\nIf...you're not, th-thanks."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kazusa_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_MemorialLobby_5_1",
+            "LocalizeEN": "What's with your reaction...?\n\nDon't laugh! What's so funny?\n\nHey!!!"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kazusa_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_EventLogin_1",
+            "LocalizeEN": "Welcome, Sensei. I'll be counting on you today as well."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kazusa_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_EventLobby_1",
+            "LocalizeEN": "What is it?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Kazusa_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/Kazusa_EventLobby_3",
+            "LocalizeEN": "...I said that tickles."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kazusa_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_formation_in_1",
+            "LocalizeEN": "I as well?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kazusa_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_formation_in_2",
+            "LocalizeEN": "Um. I'll try anyway."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kazusa_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_formation_select",
+            "LocalizeEN": "Sensen, what?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_defeat_1",
+            "LocalizeJP": "あー……。腕、鈍ったな。",
+            "LocalizeEN": "My skill is rusty."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_defeat_2",
+            "LocalizeJP": "ごめん、先生。",
+            "LocalizeEN": "I'm sorry, Sensei."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_in_1",
+            "LocalizeJP": "何だか久しぶりだな、こういうの……",
+            "LocalizeEN": "It's been a while"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_in_2",
+            "LocalizeEN": "I have to get serious, then let's go"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_victory_1",
+            "LocalizeEN": "I'll do it."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kazusa_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_tactic_victory_2",
+            "LocalizeEN": "It's was an easy win. Good job, Sensei."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_buffed_1",
+            "LocalizeJP": "さあ、頑張るとしよっか",
+            "LocalizeEN": "Come on, let's do our best."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_buffself_1",
+            "LocalizeJP": "よし、行こう。",
+            "LocalizeEN": "ok let's go"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_damage_1",
+            "LocalizeJP": "くっ。"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_damage_2",
+            "LocalizeJP": "うっ。"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_damage_3",
+            "LocalizeJP": "チィッ。"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_defense_1",
+            "LocalizeEN": "I'm sorry."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_in_1",
+            "LocalizeEN": "I'm going to do it, so I'm going to do it."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_in_2",
+            "LocalizeEN": "I'm going, follow me"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_move_1",
+            "LocalizeEN": "still left"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_move_2",
+            "LocalizeEN": "It's not over, is it?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_recovery_1",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_shout_1",
+            "LocalizeJP": "よっ！"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_shout_3",
+            "LocalizeJP": "はぁっ！"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_tacticalaction_1",
+            "LocalizeJP": "さて、と",
+            "LocalizeEN": "Well then."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_victory_1",
+            "LocalizeJP": "……うん、OK",
+            "LocalizeEN": "Okay."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kazusa_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_battle_victory_2",
+            "LocalizeEN": "Sometimes this isn't so bad."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kazusa_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_commonskill",
+            "LocalizeEN": "delicious."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_1",
+            "LocalizeJP": "ゆっくり食べる暇もない……",
+            "LocalizeEN": "I don't even have time to eat slowly."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_2",
+            "LocalizeEN": "Oh over there."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_3",
+            "LocalizeEN": "Did I make it in time?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_level_1",
+            "LocalizeJP": "ほら、行くよ",
+            "LocalizeEN": "Here we go."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_level_2",
+            "LocalizeJP": "悪く思わないでね",
+            "LocalizeEN": "Don't feel bad about it."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kazusa_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_exskill_level_3",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kazusa_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_growup_1",
+            "LocalizeJP": "えっと……あ、ありがとう。先生",
+            "LocalizeEN": "Um. Thanks, Sensei."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kazusa_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_growup_2",
+            "LocalizeEN": "There are other students. Why me?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kazusa_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_growup_3",
+            "LocalizeEN": "I will continue to do my best from now on."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kazusa_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_growup_4",
+            "LocalizeJP": "こういうのは慣れないな……別に、嫌ってわけじゃないけど",
+            "LocalizeEN": "I'm not used to this kind of thing, but it's not that I hate it."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kazusa_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_relationship_up_1",
+            "LocalizeJP": "こういうのって、何て表現したら良いのかな……",
+            "LocalizeEN": "How should I express this kind of thing?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kazusa_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_relationship_up_2",
+            "LocalizeEN": "Sensei, well...sorry. it's nothing."
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kazusa_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_relationship_up_3",
+            "LocalizeEN": "Why is it so difficult to say thank you?"
+        },
+        {
+            "CharacterId": 10049,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kazusa_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kazusa/kazusa_relationship_up_4",
+            "LocalizeEN": "how can i say thank you"
+        }
+    ]
+}

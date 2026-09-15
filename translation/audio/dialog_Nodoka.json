@@ -1,0 +1,153 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Nodoka_Lobby_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/Nodoka_Lobby_1",
+            "LocalizeEN": "I'm happiest when I'm watching you."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Nodoka_EventShop_Season_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/Nodoka_EventShop_Season_1",
+            "LocalizeEN": "The festival is already halfway over.\n\nWell, I guess this doesn't relate to us that much..."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Nodoka_EventShop_Season_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/Nodoka_EventShop_Season_2",
+            "LocalizeEN": "Looks like Ivan Kupala doesn't have much left either.\n\nIf you find anything else that might be delicious or useful...\n\nPlease bring it to us!"
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Nodoka_EventShop_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/Nodoka_EventShop_1",
+            "LocalizeEN": "Spec Ops is always low on sweets..."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Nodoka_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_formation_in_1",
+            "LocalizeJP": "わ、私を信じてくださるんですか？",
+            "LocalizeEN": "do you believe me"
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Nodoka_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_formation_in_2",
+            "LocalizeJP": "私みたいな生徒でよろしければ。",
+            "LocalizeEN": "If you are a student like me,"
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Nodoka_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_commonskill",
+            "LocalizeEN": "I can see it all."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_1",
+            "LocalizeEN": "Observation ready."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_2",
+            "LocalizeEN": "You can't escape my eyes"
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_3",
+            "LocalizeEN": "let's see."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_level_1",
+            "LocalizeEN": "Scan completed."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_level_2",
+            "LocalizeEN": "I found."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Nodoka_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_exskill_level_3",
+            "LocalizeEN": "You were there."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nodoka_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_growup_1",
+            "LocalizeEN": "I feel like my eyes are much better."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nodoka_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_growup_2",
+            "LocalizeEN": "Now you can see every move Sensei makes in more detail."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nodoka_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_growup_3",
+            "LocalizeEN": "thank you. Sensei, I will do my best to observe more and more."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Nodoka_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_growup_4",
+            "LocalizeEN": "If you keep trying like this, someday you'll be able to get out of the special life."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nodoka_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_relationship_up_1",
+            "LocalizeEN": "I feel a little embarrassed when I try to talk face-to-face with Sensei like this."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nodoka_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_relationship_up_2",
+            "LocalizeEN": "If I'm with you, I'm not afraid even in this extreme cold"
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nodoka_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_relationship_up_3",
+            "LocalizeEN": "I would like to know more about Sensei."
+        },
+        {
+            "CharacterId": 26006,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Nodoka_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Nodoka/nodoka_relationship_up_4",
+            "LocalizeEN": "Sensei, the moon is beautiful tonight."
+        }
+    ]
+}

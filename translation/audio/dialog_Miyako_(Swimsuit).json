@@ -1,0 +1,364 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Miyako_(Swimsuit)_Lobby_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_Lobby_1_2",
+            "LocalizeEN": "I've only ever worn SRT Academy's standard-issue swimsuits before, so...\n\n...This cute design feels a bit unnatural to me."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Miyako_(Swimsuit)_Lobby_4_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_Lobby_4_1",
+            "LocalizeEN": "Could it be because rabbits don't like water...?\n\nI don't think ever I've seen a rabbit-pattern swimsuit."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Miyako_(Swimsuit)_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_Season_Halloween",
+            "LocalizeEN": "It's noisy outside...\n\nI want to treasure the memories we made today."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Miyako_(Swimsuit)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_ExWeapon_Get",
+            "LocalizeEN": "RABBIT Type 31 SMG, acquired. The internal workings have been modified so it can operate underwater, but maybe we could also modify the exterior to be...more cute?"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Miyako_(Swimsuit)_EventLogin_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_EventLogin_1",
+            "LocalizeEN": "Today's mission is infiltration and investigation... I hope we don't run into any trouble."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Miyako_(Swimsuit)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_EventLogin_2",
+            "LocalizeEN": "RABBIT 1, preparations completed. Sensei, your orders please."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Miyako_(Swimsuit)_EventLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_EventLobby_1",
+            "LocalizeEN": "When was the last time I had a shrimp sandwich..."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Miyako_(Swimsuit)_EventMission_Get_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/CH0215_EventMission_Get_1",
+            "LocalizeEN": "I learned a lot. Well, you are a Sensei, after all."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Miyako_(Swimsuit)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_formation_in_1",
+            "LocalizeEN": "Roger that."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Miyako_(Swimsuit)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_formation_in_2",
+            "LocalizeEN": "No abnormalities detected."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Miyako_(Swimsuit)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_formation_select",
+            "LocalizeEN": "Ah... C-Can I help you?"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyako_(Swimsuit)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_tactic_defeat_1",
+            "LocalizeJP": "申し訳ありません。",
+            "LocalizeEN": "I apologize."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyako_(Swimsuit)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_tactic_defeat_2",
+            "LocalizeJP": "少し浮かれていたようです。",
+            "LocalizeEN": "It was a little buoyant..."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyako_(Swimsuit)_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_tactic_in_1",
+            "LocalizeEN": "Starting the operation!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyako_(Swimsuit)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_tactic_in_2",
+            "LocalizeEN": "We know the site. Going in!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Miyako_(Swimsuit)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_tactic_victory_1",
+            "LocalizeEN": "No matter what I wear, swimsuit or otherwise, it will not interfere with my ability to carry out the mission."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_buffed_1",
+            "LocalizeEN": "Support received."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_buffself_1",
+            "LocalizeJP": "集中します。",
+            "LocalizeEN": "Concentrating."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_covered_1",
+            "LocalizeEN": "Please cover for me."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_damage_1",
+            "LocalizeJP": "うっ！",
+            "LocalizeEN": "Ugh!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_damage_2",
+            "LocalizeJP": "ううっ！",
+            "LocalizeEN": "Oof!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_damage_3",
+            "LocalizeJP": "ふうっ！",
+            "LocalizeEN": "Ngh...!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_defense_1",
+            "LocalizeEN": "No damage."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_in_1",
+            "LocalizeEN": "Going in!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_in_2",
+            "LocalizeEN": "Enemy detected. Responding!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_move_1",
+            "LocalizeEN": "Clear!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_move_2",
+            "LocalizeEN": "Next!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_recovery_1",
+            "LocalizeEN": "Thank you very much."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_retire",
+            "LocalizeJP": "私の力量が不足しておりました。",
+            "LocalizeEN": "I was not competent enough."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_shout_1",
+            "LocalizeJP": "はっ！",
+            "LocalizeEN": "Ha!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_shout_2",
+            "LocalizeJP": "やっ！",
+            "LocalizeEN": "Ya!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_shout_3",
+            "LocalizeJP": "ファイヤー！",
+            "LocalizeEN": "Fire!"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_tacticalaction_1",
+            "LocalizeEN": "Moving on to the next area."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_victory_1",
+            "LocalizeEN": "It was a brilliant conducting, Sensei."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Miyako_(Swimsuit)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_battle_victory_2",
+            "LocalizeEN": "All thanks to you, Sensei."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_commonskill",
+            "LocalizeEN": "UV protection is also part of the mission."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_1",
+            "LocalizeEN": "Let's try a new drone."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_2",
+            "LocalizeEN": "Flying drone up and running."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_3",
+            "LocalizeEN": "Commencing Codename: Beach Sports."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_level_1",
+            "LocalizeEN": "Impact confirmed."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_level_2",
+            "LocalizeEN": "Tango Down."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Miyako_(Swimsuit)_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_exskill_level_3",
+            "LocalizeEN": "Hit."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyako_(Swimsuit)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_growup_1",
+            "LocalizeEN": "Thank you for your support. We will certainly meet your expectations."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyako_(Swimsuit)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_growup_2",
+            "LocalizeEN": "That... seems to be different from what we usually receive. Is it because we are on an undercover mission?"
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyako_(Swimsuit)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_growup_3",
+            "LocalizeEN": "I will not waste a single thing that you have given me."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Miyako_(Swimsuit)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_growup_4",
+            "LocalizeEN": "Certainly received it. Thank you very much."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_relationship_up_1",
+            "LocalizeEN": "A-Are you sure? You have been so attentive to me... I-It's not that I don't like it."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_relationship_up_2",
+            "LocalizeEN": "Thank you very much, Sensei. I will take good care of it."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_relationship_up_3",
+            "LocalizeEN": "Is there anything I can do to thank you? Anything is fine."
+        },
+        {
+            "CharacterId": 10071,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Miyako_(Swimsuit)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0215/ch0215_relationship_up_4",
+            "LocalizeEN": "Well, since we're here... If it's all right with you, Sensei, we can..."
+        }
+    ]
+}

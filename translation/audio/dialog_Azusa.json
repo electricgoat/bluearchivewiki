@@ -1,0 +1,292 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Azusa_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/Azusa_Lobby_3",
+            "LocalizeEN": "I wonder if I'm being helpful...\n\nI am?\n\nUm..."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Azusa_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_Azusa/Azusa_Season_Xmas",
+            "LocalizeJP": "クリスマス……\n聖誕祭の日と言えば、\n一年の中でもかなり大切な日。\n\nこんな日に私なんかが\n一緒で良いのか……？",
+            "LocalizeEN": "Christmas... A holy day, and one of the most important of the year.\n\nIs it really okay for someone like me to be with you like this today?"
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Azusa_MemorialLobby_0_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/Azusa_MemorialLobby_0_1",
+            "LocalizeJP": "可愛いのは何も悪くないけど！\n\n可愛いぬいぐるみがいっぱいなのは良いけど！！\n\n……何だか恥ずかしい。",
+            "LocalizeEN": "I guess they are kind of cute!\n\nI've never seen so many cute plushes! \n\nTh-This is so embarrassing..."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Azusa_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/Azusa_MemorialLobby_5_1",
+            "LocalizeEN": "So where did you learn about this kind of place?\n\nYou saw it on a whim? I didn't expect you to like these sorts of things."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Azusa_MemorialLobby_6_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/Azusa_MemorialLobby_6_1",
+            "LocalizeEN": "And don't treat me like a child!\n\nNot that it matters at this point."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Azusa_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_formation_in_2",
+            "LocalizeEN": "Understood."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Azusa_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_formation_select",
+            "LocalizeJP": "うむ….",
+            "LocalizeEN": "Hmm..."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Azusa_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_tactic_defeat_1",
+            "LocalizeJP": "戦略を間違えた。私のミスだ。ごめん。",
+            "LocalizeEN": "Wrong strategy. It's my mistake. I'm sorry."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Azusa_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_tactic_defeat_2",
+            "LocalizeJP": "力不足だった。",
+            "LocalizeEN": "I was weak."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Azusa_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_tactic_in_1",
+            "LocalizeEN": "Enemy encountered."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Azusa_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_tactic_in_2",
+            "LocalizeEN": "Enemy found. Dealing with it."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Azusa_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_tactic_victory_2",
+            "LocalizeEN": "It's still okay. If you have other things to do, leave it to me."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_buffed_1",
+            "LocalizeEN": "Hm."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_buffself_1",
+            "LocalizeJP": "覚悟しろ。",
+            "LocalizeEN": "Prepare yourself."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_damage_3",
+            "LocalizeJP": "くそ、やられた。",
+            "LocalizeEN": "Damn it. I got hit."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_defense_1",
+            "LocalizeEN": "It's pointless."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_in_1",
+            "LocalizeEN": "Commencing battle."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_in_2",
+            "LocalizeEN": "Rush into battle."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_move_1",
+            "LocalizeEN": "Target confirmed."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_move_2",
+            "LocalizeJP": "ここはある程度片付いた、行こう",
+            "LocalizeEN": "Let's clear things up to some extent here. Let's go."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_retire",
+            "LocalizeJP": "まさか、こんな…",
+            "LocalizeEN": "This can't be..."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_tacticalaction_1",
+            "LocalizeEN": "Changing position."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_tsa_1",
+            "LocalizeJP": "戦術支援兵器到着。今から敵の殲滅作戦に入る。",
+            "LocalizeEN": "Tactical support weapon has arrived. Proceeding to target elimination."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_tsa_2",
+            "LocalizeJP": "戦術支援兵器登場。タンクデサントを始める。",
+            "LocalizeEN": "Tactical support weapon is here. Commencing tank descent."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_victory_1",
+            "LocalizeEN": "Mission progress complete."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Azusa_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_battle_victory_2",
+            "LocalizeEN": "Success, as expected."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Azusa_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_exskill_2",
+            "LocalizeJP": "vanitas vanitatum......",
+            "LocalizeEN": "Vanitas vanitatum."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Azusa_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_exskill_3",
+            "LocalizeJP": "全ては無に帰し、徒労であると知れ……",
+            "LocalizeEN": "Turn everything to dust. Show it's all a futile effort."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Azusa_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_exskill_level_1",
+            "LocalizeEN": "This should make things easier."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Azusa_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_exskill_level_2",
+            "LocalizeEN": "It cannot be helped."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Azusa_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_exskill_level_3",
+            "LocalizeEN": "Everything should go well now."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Azusa_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_growup_1",
+            "LocalizeEN": "My tactical operation skills increased."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Azusa_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_growup_2",
+            "LocalizeEN": "I've grown stronger."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Azusa_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_growup_3",
+            "LocalizeEN": "Yes. I'll strive to meet your expectations."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Azusa_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_growup_4",
+            "LocalizeEN": "I've grown up. Thank you."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Azusa_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_relationship_up_1",
+            "LocalizeJP": "こんな気持ち… 想像してなかった…",
+            "LocalizeEN": "This feeling, I never imagined."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Azusa_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_relationship_up_2",
+            "LocalizeEN": "Ah, yes... T-Thank you."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Azusa_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_relationship_up_3",
+            "LocalizeEN": "Y-Yes. Thank you for your concern."
+        },
+        {
+            "CharacterId": 10019,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Azusa_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Azusa/azusa_relationship_up_4",
+            "LocalizeJP": "ドキドキする… どうすればいいか分からない。",
+            "LocalizeEN": "My heart is pounding. What should I do?"
+        }
+    ]
+}

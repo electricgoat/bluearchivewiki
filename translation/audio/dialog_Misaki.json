@@ -1,0 +1,251 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Misaki_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Misaki/Misaki_ExWeapon_Get",
+            "LocalizeEN": "I won't question it, but... I've never received a gift like this. You're strange, Sensei. But I'll trust you with my power, for now."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Misaki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_formation_in_1",
+            "LocalizeEN": "Play a role."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Misaki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_formation_in_2",
+            "LocalizeEN": "Order's received."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Misaki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_formation_select",
+            "LocalizeEN": "What?"
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_defeat_1",
+            "LocalizeJP": "知ってた、 こういう結末だって。",
+            "LocalizeEN": "I knew it would end like this."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_defeat_2",
+            "LocalizeJP": "大丈夫、 慣れてるから。",
+            "LocalizeEN": "It's okay. because I'm used to it."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_in_1",
+            "LocalizeEN": "Got it."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_in_2",
+            "LocalizeEN": "Then do it that way."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_victory_1",
+            "LocalizeEN": "I did what I was told, that's all."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Misaki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_tactic_victory_2",
+            "LocalizeEN": "Does this make sense?"
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_buffed_1",
+            "LocalizeEN": "Confirmation."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_buffself_1",
+            "LocalizeJP": "まだ戦える。",
+            "LocalizeEN": "I can still fight."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_covered_1",
+            "LocalizeEN": "Hide."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_defense_1",
+            "LocalizeEN": "It's no use."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_in_2",
+            "LocalizeEN": "Engagement started."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_recovery_1",
+            "LocalizeEN": "Confirm help."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_retire",
+            "LocalizeJP": "結局こういうことになる。",
+            "LocalizeEN": "This is how it ends up."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_victory_1",
+            "LocalizeEN": "Battle over."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Misaki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_battle_victory_2",
+            "LocalizeJP": "勝ったよ、お望みどおりに",
+            "LocalizeEN": "Understood, as you wish."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Misaki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_commonskill",
+            "LocalizeJP": "少しは役に立つ",
+            "LocalizeEN": "It helps a little."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_1",
+            "LocalizeJP": "……全部無意味",
+            "LocalizeEN": "All meaningless."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_2",
+            "LocalizeJP": "意味なんて無い",
+            "LocalizeEN": "It doesn't make any sense."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_3",
+            "LocalizeJP": "何もかも無駄",
+            "LocalizeEN": "Everything is useless."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_level_1",
+            "LocalizeEN": "Dust returns to dust."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_level_2",
+            "LocalizeEN": "I knew it from the beginning."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Misaki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_exskill_level_3",
+            "LocalizeEN": "That's it."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Misaki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_growup_1",
+            "LocalizeEN": "What is the reason for doing this?"
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Misaki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_growup_2",
+            "LocalizeEN": "I can't understand it. what is this for？"
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Misaki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_growup_3",
+            "LocalizeEN": "After all, it's a throwaway piece, what the hell are you doing?"
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Misaki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_growup_4",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Misaki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_relationship_up_1",
+            "LocalizeEN": "You seems to be interested in me, but you shouldn't believe me."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Misaki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_relationship_up_2",
+            "LocalizeEN": "thank you."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Misaki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_relationship_up_3",
+            "LocalizeEN": "I'm a little confused."
+        },
+        {
+            "CharacterId": 10041,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Misaki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Misaki/misaki_relationship_up_4",
+            "LocalizeEN": "I don't have the right to refuse from the beginning, and I'm grateful to receive favors."
+        }
+    ]
+}

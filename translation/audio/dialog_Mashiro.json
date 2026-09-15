@@ -1,0 +1,189 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Mashiro_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Gachaget",
+            "LocalizeEN": "I'm Mashiro, first year from the Justice Task Force. I may be inexperienced, but I'm here to help however I can."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mashiro_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Cafe_monolog_1",
+            "LocalizeEN": "I doubt Tsurugi would like these kinds of decorations..."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mashiro_Cafe_Monolog_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Cafe_monolog_2",
+            "LocalizeEN": "Hasumi senpai's wings looks as fluffy as this furniture <ref group=\"note\">The global EN translation says \"Hasumi's wings looked fluffy enough to nap on.\"</ref>"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mashiro_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Cafe_monolog_3",
+            "LocalizeEN": "Tranquil like water..."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mashiro_Cafe_Monolog_4",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Cafe_monolog_4",
+            "LocalizeEN": "Is Tsurugi's neck okay...?"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Mashiro_Cafe_Act_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Cafe_Act_2",
+            "LocalizeEN": "How cute... Heehee. <ref group=\"note\">The global EN translation says \"How pretty... Heehee.\"</ref>"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mashiro_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Season_Birthday_Player",
+            "LocalizeEN": "Happy birthday, Sensei.\n\nMay your day be filled with justice <ref group=\"note\">The global EN translation says \"Happy birthday, Sensei.\n\nI hope you feel righteous justice on your birthday.\"</ref>"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Mashiro_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_Season_NewYear",
+            "LocalizeEN": "Happy new year. As to have evil be completely banished within the year, I will work even harder <ref group=\"note\">The global EN translation says \"It's a new year. This year... I will see injustice stopped once and for all.\"</ref>"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Mashiro_MemorialLobby_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/Mashiro_MemorialLobby_2",
+            "LocalizeJP": "完璧な狙撃のためなら、\nこれぐらいの暑さは\n十分耐えられます。",
+            "LocalizeEN": "I can handle heat like this if that's what it takes to get the perfect shot."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Mashiro_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_formation_in_2",
+            "LocalizeEN": "I will meet your expectations."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mashiro_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_battle_tsa_1",
+            "LocalizeJP": "正義を実現する時です。",
+            "LocalizeEN": "It's time to get justice"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Mashiro_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_battle_tsa_2",
+            "LocalizeJP": "インクィジターゼロ、起動。",
+            "LocalizeEN": "Inquisitor Zero starts up."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Mashiro_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_commonskill",
+            "LocalizeEN": "One person left."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mashiro_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_exskill_1",
+            "LocalizeEN": "Bullet loading, aim, check. Shooting commence."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mashiro_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_exskill_2",
+            "LocalizeEN": "Confirm and eliminate targets."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mashiro_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_exskill_3",
+            "LocalizeEN": "Target trapped... The distance is enough."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mashiro_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_exskill_level_1",
+            "LocalizeEN": "Fire."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Mashiro_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_exskill_level_2",
+            "LocalizeEN": "On the mark"
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mashiro_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_growup_1",
+            "LocalizeEN": "Thank you for your support."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mashiro_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_growup_2",
+            "LocalizeEN": "I can feel an enormous power."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mashiro_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_growup_3",
+            "LocalizeEN": "Wow, the fighting spirit is burning up."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Mashiro_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_growup_4",
+            "LocalizeEN": "I will do my best for justice."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mashiro_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_relationship_up_1",
+            "LocalizeEN": "Your sense of justice... It must be a cool justice."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mashiro_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_relationship_up_2",
+            "LocalizeEN": "If the teacher does something bad, then... ...No, that can't be true, because the teacher is justice itself."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mashiro_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_relationship_up_3",
+            "LocalizeEN": "The time I spend with you, somehow always feels short..."
+        },
+        {
+            "CharacterId": 20003,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Mashiro_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Mashiro/mashiro_relationship_up_4",
+            "LocalizeEN": "I love it, really... O- Of course, I'm talking about Justice!"
+        }
+    ]
+}

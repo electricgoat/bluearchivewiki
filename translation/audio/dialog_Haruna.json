@@ -1,0 +1,272 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruna_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_formation_in_1",
+            "LocalizeJP": "私（わたくし）の出番ですわね。",
+            "LocalizeEN": "Now is my turn."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruna_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_formation_in_2",
+            "LocalizeEN": "Cheers! Leave it to me."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Haruna_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_formation_select",
+            "LocalizeJP": "うふふっ"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_defeat_1",
+            "LocalizeJP": "美食の道とはこんなにも厳しいものなのですのね。",
+            "LocalizeEN": "The path of gastronomy is harsh, isn't it?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_defeat_2",
+            "LocalizeJP": "困りましたわね。ここでこんな困難に遭遇するだなんて、",
+            "LocalizeEN": "Oh my goodness. To think I would meet unexpected trouble here."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_in_1",
+            "LocalizeEN": "Let's have a little fun."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_in_2",
+            "LocalizeEN": "I'll be your rival this time."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_victory_1",
+            "LocalizeEN": "I'm thinking of throwing a victory party, would you care to join?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Haruna_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_tactic_victory_2",
+            "LocalizeEN": "It's our victory."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_buffed_1",
+            "LocalizeEN": "Thank you sincerly."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_buffself_1",
+            "LocalizeJP": "これはいかが？",
+            "LocalizeEN": "How about this?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_covered_1",
+            "LocalizeEN": "Pardon me."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_defense_1",
+            "LocalizeEN": "It's useless."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_in_1",
+            "LocalizeEN": "Everyone, I pray for your success."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_in_2",
+            "LocalizeEN": "Are we leaving now? Let us make a grand welcome."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_move_1",
+            "LocalizeJP": "参りますわよ",
+            "LocalizeEN": "Here I come."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_move_2",
+            "LocalizeEN": "Moving forward."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_recovery_1",
+            "LocalizeEN": "My humble thanks."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_retire",
+            "LocalizeJP": "お恥ずかしい…姿を…",
+            "LocalizeEN": "How embarrassing of me..."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_shout_3",
+            "LocalizeJP": "参ります。",
+            "LocalizeEN": "Here I come."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_tacticalaction_1",
+            "LocalizeJP": "ふうん"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_victory_1",
+            "LocalizeJP": "(もぐもぐ)うううう～ん、\nこのお味、たまりませんわ！",
+            "LocalizeEN": "I can't get enough of this flavor."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Haruna_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_battle_victory_2",
+            "LocalizeJP": "(もぐもぐ)おおお～\n勝利後のたい焼きは格別ですわね！",
+            "LocalizeEN": "Taiyaki after winning is supreme."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Haruna_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_commonskill",
+            "LocalizeEN": "That way?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_1",
+            "LocalizeEN": "Uhuhu, here I go!"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_2",
+            "LocalizeEN": "Let's do it with elegance, shall we?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_3",
+            "LocalizeEN": "Are you ready?."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_level_1",
+            "LocalizeEN": "Are you prepared, perhaps?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_level_2",
+            "LocalizeEN": "Here goes a 10 million Scoville extra spicy shot!"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Haruna_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_exskill_level_3",
+            "LocalizeEN": "With striking elegance!"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruna_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_growup_2",
+            "LocalizeEN": "Oh my, you would go this far for my sake?"
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruna_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_growup_3",
+            "LocalizeEN": "This isn't bad every now and then. Sensei, please keep looking after my growth."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Haruna_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_growup_4",
+            "LocalizeEN": "I thank you."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruna_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_relationship_up_1",
+            "LocalizeEN": "I would like you to stay with me a little longer."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruna_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_relationship_up_2",
+            "LocalizeEN": "I would like to have something delicious. If possible, with you."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruna_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_relationship_up_3",
+            "LocalizeEN": "If you're with me, maybe I'll even find the exquisite taste I've dreamt of."
+        },
+        {
+            "CharacterId": 10002,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Haruna_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Haruna/haruna_relationship_up_4",
+            "LocalizeEN": "Meals with Sensei are always special. It has nothing to do with the taste."
+        }
+    ]
+}

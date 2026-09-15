@@ -1,0 +1,365 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_LogIn_1",
+            "LocalizeEN": "Come and sit by me, Sensei. You have work to do, right?<ref group=\"note\">The EN translation initially deviated slightly from JP and KR, reading \"Come and sit, Sensei. There is work to be done.\". The text in all other localizations roughly translates to \"Welcome back, Sensei. Yes, sit here next to me. You're about to start work, aren't you?\"</ref>"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_LogIn_2",
+            "LocalizeEN": "What is your schedule today?\n\nDon't concern yourself with me.\n\nI will behave and work quietly in my corner."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_Lobby_1_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_Lobby_1_2",
+            "LocalizeEN": "Am I not the Hyakkaryouran's operations officer?\n\nThis was merely an opportunity to view and analyze Schale as an organization.\n\nShould I will it, Schale's defenses would crumble like a straw house.\n\n...I am capable of making jokes, Sensei. Please ease your look of alarm."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_Lobby_4_2",
+            "LocalizeEN": "...I must express some gratitude at our meeting."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_Lobby_5",
+            "LocalizeEN": "I'd be...irritated if you left my sight without warning.\n\nSo I request you stay by my side...where I can feel your presence by your warmth.\n\n...That is all.<ref group=\"note\">The EN translation previously deviated slightly from JP & KR with last sentence reading \"Where I can't lose sight of you.\", this was changed in 11.06.2024 update. The text in all other localizations roughly translates to \"Do not disappear without a word. Stay where I can see you, close enough that I can feel your warmth. That's all I hope for.\"</ref>"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_Season_Xmas",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_Season_Xmas",
+            "LocalizeEN": "Merry Christmas. Sensei.\n\nWhat would you like? An ostrich?\n\nI am capable of indulging in holiday cheer, Sensei."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kikyou_Season_Halloween_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_Season_Halloween_2",
+            "LocalizeEN": "I will select trick then.\n\nHow will you best me in a battle of wits, Sensei? I look forward to your trick."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kikyou_MemorialLobby_2_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_MemorialLobby_2_1",
+            "LocalizeEN": "Well... A teacher once imparted words of wisdom to me.\n\nFinding time to rest is essential. Perhaps even more so than I realized."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kikyou_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/CH0225_MemorialLobby_5_1",
+            "LocalizeEN": "I suppose... That is the essence of your character. You've thoroughly proven yourself.\n\nYour motivations and reasons matter not to me. I am not one to waste a rare opportunity.\n\nI will strive to be your most spoiled student, so you had best prepare yourself... Hah."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kikyou_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_formation_in_1",
+            "LocalizeEN": "Do you need my strength? ... I thought so."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kikyou_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_formation_in_2",
+            "LocalizeEN": "I thought you were calling me."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kikyou_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_formation_select",
+            "LocalizeEN": "Do whatever you want."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_defeat_1",
+            "LocalizeJP": "作戦失敗！？待って、どこで間違えたの？",
+            "LocalizeEN": "Operation failed!? Wait, where did it go wrong?"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_defeat_2",
+            "LocalizeJP": "屈辱……。このままじゃ、終われない。",
+            "LocalizeEN": "This is humiliating... I can't let it end like this."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_in_1",
+            "LocalizeEN": "I'll show you the art of war that has been passed down in Hyakkaryouran for generations."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_in_2",
+            "LocalizeEN": "Sensei, take command. I will support you with my strategy."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_victory_1",
+            "LocalizeEN": "With your leadership and my strategy, there's no way anyone can match us."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kikyou_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_tactic_victory_2",
+            "LocalizeEN": "If I were to give my plan a score, it would be 1000000 out of 10."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_buffed_1",
+            "LocalizeEN": "I'll put this support to good use in our strategy."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_buffself_1",
+            "LocalizeJP": "準備は終わってる。",
+            "LocalizeEN": "The preparations are complete."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_covered_1",
+            "LocalizeEN": "This is also part of the strategy."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_damage_1",
+            "LocalizeJP": "うっ。"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_damage_2",
+            "LocalizeJP": "ぐふっ。"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_damage_3",
+            "LocalizeJP": "ぬっ。"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_defense_1",
+            "LocalizeEN": "It doesn't work."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_in_1",
+            "LocalizeEN": "I will take the lead as this is an operation I planned."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_in_2",
+            "LocalizeEN": "Sear into your eyes the prowess of Hyakkaryouran."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_move_1",
+            "LocalizeEN": "Ready. Moving on to the next position."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_move_2",
+            "LocalizeEN": "The battle is going as planned. No need to worry."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_recovery_1",
+            "LocalizeEN": "Thank you. That helped."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_retire",
+            "LocalizeJP": "退散なんて、ありえない……。",
+            "LocalizeEN": "There's no way I'm retreating..."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Shout_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_shout_1",
+            "LocalizeJP": "はっ！"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_shout_2",
+            "LocalizeJP": "はぁっ！"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_shout_3",
+            "LocalizeJP": "やっ！"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_tacticalaction_1",
+            "LocalizeEN": "Moving to a more advantageous position."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_victory_1",
+            "LocalizeEN": "For Hyakkaryouran's strategist, victory is a given."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kikyou_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_battle_victory_2",
+            "LocalizeEN": "Because it's a matter of course to win."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kikyou_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_commonskill",
+            "LocalizeEN": "Consult this."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kikyou_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_exskill_2",
+            "LocalizeEN": "A decisive move to shake up the battle!"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kikyou_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_exskill_3",
+            "LocalizeEN": "There is only one thing to do."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kikyou_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_exskill_level_1",
+            "LocalizeEN": "There!"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kikyou_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_exskill_level_2",
+            "LocalizeEN": "I won't hold back. I'm going to give it my all!"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kikyou_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_exskill_level_3",
+            "LocalizeEN": "Enjoy Hyakkaryouran's power to the fullest."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kikyou_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_growup_1",
+            "LocalizeEN": "What do you expect in return for giving me this? After all, that's what a transaction is, isn't it?"
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kikyou_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_growup_2",
+            "LocalizeEN": "I don't know what you're scheming, but I won't refuse if you're offering."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kikyou_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_growup_3",
+            "LocalizeEN": "Even after being told that, you're still doing this... You're truly a weird person."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kikyou_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_growup_4",
+            "LocalizeEN": "Thanks to you, I've grown. I'm not denying it. This is an objective fact. So, at the very least, I'll say thank you."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kikyou_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_relationship_up_1",
+            "LocalizeEN": "Sensei, you're too close. I'm not saying I dislike it."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kikyou_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_relationship_up_2",
+            "LocalizeEN": "Ah, Sensei. Where have you been? Stay where I can see you."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kikyou_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_relationship_up_3",
+            "LocalizeEN": "I've received Sensei's kindness. Now it's my turn. Be prepared."
+        },
+        {
+            "CharacterId": 10083,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kikyou_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0225/ch0225_relationship_up_4",
+            "LocalizeEN": "It's true that I rely on you. So promise me: you'll rely on me too."
+        }
+    ]
+}

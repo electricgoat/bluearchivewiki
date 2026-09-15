@@ -1,0 +1,421 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Noa_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Cafe_monolog_3",
+            "LocalizeEN": "I would love to bring this furniture to the Seminar lounge, heehee."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Noa_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Cafe_monolog_5",
+            "LocalizeEN": "Yuuka would love it here."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_LogIn_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_LogIn_1",
+            "LocalizeEN": "Welcome, Sensei.\n\nHave you checked today's schedule? Should I add a morning check to your daily routine?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Lobby_1_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Lobby_1_1",
+            "LocalizeEN": "*staaare*"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Lobby_3_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Lobby_3_2",
+            "LocalizeEN": "Everyone read it...\n\nbut no one gave me their feedback.\n\nStrange, isn't it?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Lobby_4",
+            "LocalizeEN": "Yuuka, you're so expressive! It's never boring when you're around."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Lobby_4_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Lobby_4_2",
+            "LocalizeEN": "But it means I can't help but tease you, heehee."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Season_Birthday_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Season_Birthday_2",
+            "LocalizeEN": "it's nice to be remembered by others.\n\nThank you for thinking of me."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Season_NewYear",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Season_NewYear",
+            "LocalizeEN": "Happy New Year.\n\nI look forward to filling out this year's calendar for you, Sensei."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Noa_Season_Halloween_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_Season_Halloween_2",
+            "LocalizeEN": "Records aren't just bureaucracy, they're safeguards against being overlooked, and people should never be overlooked."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Noa_MemorialLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_MemorialLobby_3",
+            "LocalizeEN": "This glass plane is too frail to bear the weight of truth or reason."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Noa_MemorialLobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_MemorialLobby_4",
+            "LocalizeEN": "But this giant tablet should do the trick!"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Noa_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_EventLogin_Season_2",
+            "LocalizeEN": "I can tell by the electricity in the air that the Kivotos Halo Festival is near. Well, that and my calendar.\n\nLet's do our best until the very end."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Noa_EventMission_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_EventMission_2",
+            "LocalizeEN": "Haha. Oh Sensei. I'm busy already of course. I could do it later, but..."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Noa_EventMission_Get_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/CH0095_EventMission_Get_2",
+            "LocalizeEN": "I admire reliability."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Noa_EventLocation_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_eventlocation_1",
+            "LocalizeJP": "あー、あー、マイクテスト、マイクテスト……えっ、試しに何かお話を……ですか？……んんっ、えー、ではここで、ユウカちゃんの秘密を一つ (ｶﾁｯ)"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Noa_EventLocation_Act_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_eventlocation_act_1",
+            "LocalizeJP": "あら、いいアイディアですね？これは真剣に検討する必要がありそうです。ふふ。"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "EventLocation",
+            "VoiceClip": "Noa_EventLocation_Act_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_eventlocation_act_2",
+            "LocalizeJP": "ふふ。皆さん、お疲れさまでした。濃い目に淹れたアイスコーヒーでもいかがですか？"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Noa_EventMission_Day_End",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_eventmission_day_end",
+            "LocalizeJP": "ここのお仕事はこれで\n一段落ですね。\nご協力、感謝します。",
+            "LocalizeEN": "Looks like all the work is done. Thank you so much for your help."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_formation_in_1",
+            "LocalizeEN": "That's a reasonable choice."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_formation_in_2",
+            "LocalizeEN": "I look forward to working with you again this time."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Noa_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_formation_select",
+            "LocalizeEN": "If you have a better opinion, please."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_defeat_1",
+            "LocalizeJP": "お疲れ様でした。あまり気を落とさないでくださいね。",
+            "LocalizeEN": "thank you so much please don't worry too much"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_defeat_2",
+            "LocalizeJP": "今回は残念でしたね。次回はきっと成功できるはずです。",
+            "LocalizeEN": "It was disappointing this time. I'm sure you'll be successful next time."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_in_1",
+            "LocalizeEN": "I'd like a formula to confirm the appearance of the enemy."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_in_2",
+            "LocalizeEN": "If you have any questions about the site, please leave it to me."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_victory_1",
+            "LocalizeEN": "I was able to record a lot of new sides of the teacher... (cough) …Sorry, I learned a lot."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Noa_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_tactic_victory_2",
+            "LocalizeEN": "It was wonderful conducting. Would you like to join us for coffee later?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_buffed_1",
+            "LocalizeEN": "Accurate advice, thanks."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_buffself_1",
+            "LocalizeJP": "これなら、十分ですね。",
+            "LocalizeEN": "That's enough."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_covered_1",
+            "LocalizeEN": "Hide."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_damage_3",
+            "LocalizeJP": "少々、厳しいですね。",
+            "LocalizeEN": "It's a little tough, isn't it?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_defense_1",
+            "LocalizeEN": "It's not over there."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_in_1",
+            "LocalizeEN": "Sometimes you have to move your body."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_in_2",
+            "LocalizeEN": "Let's start the operation."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_move_1",
+            "LocalizeEN": "Shall we arrange this here?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_move_2",
+            "LocalizeEN": "What kind of variables lie ahead?"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_recovery_1",
+            "LocalizeEN": "Thank you for your support."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_retire",
+            "LocalizeJP": "うーん、少し過信してしまったかもしれません。",
+            "LocalizeEN": "I may have been a little overconfident."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_shout_2",
+            "LocalizeJP": "悪くありませんね。",
+            "LocalizeEN": "Not bad."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_tacticalaction_1",
+            "LocalizeEN": "Move."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_victory_1",
+            "LocalizeEN": "This concludes the meeting. Thank you for your hard work."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Noa_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_battle_victory_2",
+            "LocalizeEN": "Perfect as recorded."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Noa_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_commonskill",
+            "LocalizeEN": "Suppress quickly."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_1",
+            "LocalizeEN": "I see, that's the weak point"
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_2",
+            "LocalizeEN": "This is interesting."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_3",
+            "LocalizeJP": "ふふ… …今度はこちらを攻めてみましょう",
+            "LocalizeEN": "Let's attack this time."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_level_1",
+            "LocalizeEN": "Excuse me, I'm going to start recording."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_level_2",
+            "LocalizeEN": "I hope my knowledge can help you."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Noa_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_exskill_level_3",
+            "LocalizeEN": "You can't escape my records even if you hide."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_growup_1",
+            "LocalizeEN": "It's always fun to learn new things."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_growup_2",
+            "LocalizeJP": "ふふ、これはちょっと楽しいかも……",
+            "LocalizeEN": "This could be a little fun."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_growup_3",
+            "LocalizeEN": "Sensei's instructions are very easy to understand."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Noa_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_growup_4",
+            "LocalizeJP": "確信はできませんが…\n以前より少し成長できたのかもしれません。ふふっ。",
+            "LocalizeEN": "I can't be sure, but maybe I've grown a little more than before."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_relationship_up_1",
+            "LocalizeEN": "Sensei's word are like a warm sunset."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_relationship_up_2",
+            "LocalizeEN": "Thank you for your continued support, Sensei."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_relationship_up_3",
+            "LocalizeJP": "少しばかり、記録が難しいです…\n良い、という言葉だけじゃ、足りないのかも。",
+            "LocalizeEN": "Recording is a bit difficult. To use the word \"good\" may not be sufficient."
+        },
+        {
+            "CharacterId": 10052,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Noa_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0095/ch0095_relationship_up_4",
+            "LocalizeEN": "I don't want this feeling right now to be recorded."
+        }
+    ]
+}

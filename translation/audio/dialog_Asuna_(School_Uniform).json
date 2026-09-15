@@ -1,0 +1,60 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Asuna_(School_Uniform)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0281/CH0281_Lobby_4",
+            "LocalizeEN": "What kind of work do you typically do, Sensei?\n\nIs that...something I can help with? I do know a thing or two about cleaning!"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Asuna_(School_Uniform)_Season_Birthday_Player",
+            "Path": "Audio/VOC_JP/JP_CH0281/CH0281_Season_Birthday_Player",
+            "LocalizeEN": "Pop quiz! What day is it today? The answer is...\n\nIt's the birthday of my favorite person, Sensei! (clap) (clap) (clap)\n\nAhaha, happy birthday, Sensei!"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Asuna_(School_Uniform)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0281/CH0281_Season_Birthday",
+            "LocalizeEN": "Ah, you remembered my birthday?\n\nAs expected of Sensei! You're really, really amazing!"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Asuna_(School_Uniform)_EventLogin_Season_2",
+            "Path": "Audio/VOC_JP/JP_CH0281/CH0281_EventLogin_Season_2",
+            "LocalizeEN": "Let's have fun till the end, Mas— I mean Sensei!"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(School_Uniform)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0281/ch0281_tactic_defeat_1",
+            "LocalizeJP": "うーん……ちょっと失敗しちゃったかも。"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Asuna_(School_Uniform)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0281/ch0281_tactic_defeat_2",
+            "LocalizeJP": "ちょっと難しかったかも……。"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(School_Uniform)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0281/ch0281_battle_buffself_1",
+            "LocalizeJP": "あははっ、楽しいね！"
+        },
+        {
+            "CharacterId": 10112,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Asuna_(School_Uniform)_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0281/ch0281_battle_retire",
+            "LocalizeJP": "うわっ、ごめん。"
+        }
+    ]
+}

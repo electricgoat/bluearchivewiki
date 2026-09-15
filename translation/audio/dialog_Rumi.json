@@ -1,0 +1,305 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Rumi_EventLobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/CH0135_EventLobby_2",
+            "LocalizeEN": "Haha! Couldn't tickle the truth out of you, eh?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "UIEventShop",
+            "VoiceClip": "Rumi_EventShop_Buy_4",
+            "Path": "Audio/VOC_JP/JP_CH0135/CH0135_EventShop_Buy_4",
+            "LocalizeJP": "先生も知ってる通り、\n取引にタダはない。\n\n何かが無償で\n与えられたのなら……\n\nそれは知らないうちに、\n先生自身が商品に\nなってるんだよ。",
+            "LocalizeEN": "As you probably know, Sensei, there's no such thing as a free lunch.\n\nIf someone's offering something for free... before you know it, you yourself will have become the product."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "UIEventCardShop",
+            "VoiceClip": "Rumi_Cardpickup_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/CH0135_Cardpickup_3",
+            "LocalizeEN": "Let's see here... The result is....? Well, it's still good..."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Rumi_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_formation_in_1",
+            "LocalizeEN": "What should I make?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Rumi_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_formation_in_2",
+            "LocalizeEN": "Need my help? Leave it to me."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Rumi_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_formation_select",
+            "LocalizeEN": "Whoa, that was close... hold me more gently okay?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_defeat_1",
+            "LocalizeJP": "どうしてこんなことに…。",
+            "LocalizeEN": "How'd it end like this..."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_defeat_2",
+            "LocalizeJP": "まだ、倒れるわけには…。",
+            "LocalizeEN": "I can still fight on..."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_in_1",
+            "LocalizeEN": "Okay, let's get started. Stick to me close."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_in_2",
+            "LocalizeEN": "Enemies, huh. Wish we could have just negotiated."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_victory_1",
+            "LocalizeEN": "Ok, next!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Rumi_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_tactic_victory_2",
+            "LocalizeEN": "This is easy as pie."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_buffed_1",
+            "LocalizeEN": "Oh! Thanks."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_buffself_1",
+            "LocalizeJP": "本気で行こっかな…。",
+            "LocalizeEN": "Might I go all out..."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_covered_1",
+            "LocalizeEN": "I'll  be just fine."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_damage_2",
+            "LocalizeJP": "痛いってば！",
+            "LocalizeEN": "That hurts!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_defense_1",
+            "LocalizeEN": "Do the best you can."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_in_1",
+            "LocalizeEN": "Yeah sure, I'll be right with you. So, what do you wanna eat?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_in_2",
+            "LocalizeEN": "\"You can't fight on an empty stomach\", is one true saying."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_move_1",
+            "LocalizeEN": "I'll go over there."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_move_2",
+            "LocalizeEN": "Alright, gonna move."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_recovery_1",
+            "LocalizeEN": "Oh, nice save!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_retire",
+            "LocalizeJP": "ちょっと、本調子じゃ…、なくて。",
+            "LocalizeEN": "I was, just a bit, outside my usual."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_shout_3",
+            "LocalizeJP": "いくよ！",
+            "LocalizeEN": "Let's go!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_tacticalaction_1",
+            "LocalizeEN": "Advancing!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_victory_1",
+            "LocalizeEN": "Well, that's that... Good job, everyone."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Rumi_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_battle_victory_2",
+            "LocalizeEN": "Good job, everyone... Raise hands if you're hungry!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Rumi_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_commonskill",
+            "LocalizeEN": "Load, fire!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_1",
+            "LocalizeEN": "Hoowee. A'right, eat up!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_2",
+            "LocalizeEN": "Now then, ha! How about that?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_3",
+            "LocalizeEN": "Lots of servings still!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_level_1",
+            "LocalizeEN": "Order's ready, here!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_level_2",
+            "LocalizeEN": "Okay, done. Everyone eat!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Rumi_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_exskill_level_3",
+            "LocalizeEN": "Got hungry? Eat all you can!"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Rumi_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_growup_1",
+            "LocalizeEN": "Hmm? Did I just, get stronger?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Rumi_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_growup_2",
+            "LocalizeEN": "This feeling... yeah, it's not bad. Is it all because of Sensei?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Rumi_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_growup_3",
+            "LocalizeEN": "Thank you, Sensei. Won't you come to Genbu Company soon? I'll be sure to treat you."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Rumi_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_growup_4",
+            "LocalizeEN": "If I've gotten stronger, that  should mean I could make even more dishes. Sensei, aren't you starving?"
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Rumi_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_relationship_up_1",
+            "LocalizeEN": "I may be everyone's cook, head chef, and chairwoman... but sometimes, becoming someone's special someone... is something I've been thinking about."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Rumi_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_relationship_up_2",
+            "LocalizeEN": "Ah... Sorry, Sensei. I'm kinda not, used to handling these feelings. I mean, it's the first time, so."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Rumi_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_relationship_up_3",
+            "LocalizeEN": "Today, I'd like to invite you out with me Sensei, so, what do you say? I'm asking not as the chairwoman, but as just a student... just me, Rumi."
+        },
+        {
+            "CharacterId": 10069,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Rumi_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0135/ch0135_relationship_up_4",
+            "LocalizeEN": "Responsibility can be a serious and... burdensome thing.\nAt times, you just can't help but wanting to let go. \n\nHm, thank you, Sensei, for listening to my talk."
+        }
+    ]
+}

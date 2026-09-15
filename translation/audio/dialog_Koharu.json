@@ -1,0 +1,300 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Koharu_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Koharu/Koharu_Cafe_monolog_3",
+            "LocalizeEN": "I have no plans on getting to know you better."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koharu_Lobby_3",
+            "Path": "Audio/VOC_JP/JP_Koharu/Koharu_Lobby_3",
+            "LocalizeEN": "I'm gonna do my best to attend the Make-Up Work Club and graduate."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Koharu_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_Koharu/Koharu_Season_Halloween",
+            "LocalizeEN": "Do I want some candy? I can't eat childish stuff like that...\n\nOh, never mind."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Koharu_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_formation_in_2",
+            "LocalizeEN": "I guess it can't be helped"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Koharu_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_formation_select",
+            "LocalizeEN": "What! ...What are you going to do?"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_defeat_1",
+            "LocalizeJP": "う、うう…。負けちゃった。",
+            "LocalizeEN": "I lost."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_defeat_2",
+            "LocalizeJP": "う…、ごめんなさい。",
+            "LocalizeEN": "Sorry."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_in_1",
+            "LocalizeEN": "If it's this much..!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_in_2",
+            "LocalizeEN": "E- even I can do it!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_victory_1",
+            "LocalizeEN": "I won!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Koharu_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_tactic_victory_2",
+            "LocalizeEN": "Did you see? This is my ability."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_buffed_1",
+            "LocalizeEN": "OK！"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_buffself_1",
+            "LocalizeJP": "行くわよ。",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_covered_1",
+            "LocalizeEN": "We have secured cover!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_damage_2",
+            "LocalizeJP": "痛い…。",
+            "LocalizeEN": "Ouch..."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_defense_1",
+            "LocalizeEN": "If it's this much..!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_in_1",
+            "LocalizeEN": "Come on, let's go."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_in_2",
+            "LocalizeEN": "Depart!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_move_1",
+            "LocalizeEN": "It was an easy win."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_move_2",
+            "LocalizeEN": "Look, all thanks to my efforts."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_recovery_1",
+            "LocalizeEN": "Well... Thank you."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_retire",
+            "LocalizeJP": "うう…、まだ100%の実力を見せてないのに。",
+            "LocalizeEN": "Even though I haven't shown my 100% ability yet."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_tacticalaction_1",
+            "LocalizeEN": "I'm going now"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_tsa_1",
+            "LocalizeJP": "元々乗ってたのとは違うけど、しょうがない。",
+            "LocalizeEN": "This isn't what i originally signed up for, but what can I do."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_tsa_2",
+            "LocalizeJP": "これもそんなに悪くないから…、行くわよ！",
+            "LocalizeEN": "It's not that bad either... so let's go!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_victory_1",
+            "LocalizeEN": "This much... It's not that big of a deal."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Koharu_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_battle_victory_2",
+            "LocalizeEN": "This is good, right?"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Koharu_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_commonskill",
+            "LocalizeEN": "Wait!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koharu_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_exskill_1",
+            "LocalizeJP": "えーっと……あれ？！",
+            "LocalizeEN": "Erm... Huh!?"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koharu_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_exskill_2",
+            "LocalizeEN": "Huh?... Uh, uwaaaah!?"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koharu_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_exskill_level_1",
+            "LocalizeEN": "T- These are confiscated things!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koharu_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_exskill_level_2",
+            "LocalizeEN": "It's not mine, so don't get me wrong!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Koharu_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_exskill_level_3",
+            "LocalizeJP": "\"なんで持ってるの\"かって……う、うるさい！！",
+            "LocalizeEN": "\"Why do you have them\" you ask... S- Shut up!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koharu_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_growup_1",
+            "LocalizeEN": "You didn't even have to go this far..."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koharu_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_growup_2",
+            "LocalizeEN": "You're watching over my growth... Sounds sketchy"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koharu_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_growup_3",
+            "LocalizeEN": "See, I can grow like this too."
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Koharu_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_growup_4",
+            "LocalizeEN": "Not a bad result, right?"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koharu_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_relationship_up_1",
+            "LocalizeEN": "There's still a lot I can't do, but I'll try my hardest from now on!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koharu_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_relationship_up_2",
+            "LocalizeEN": "Jeez. you're always teasing me... But, thank you for always cheering for me"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koharu_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_relationship_up_3",
+            "LocalizeEN": "Lewd things are prohibited, but...\n\nErm... N- Nevermind!"
+        },
+        {
+            "CharacterId": 10020,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Koharu_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Koharu/koharu_relationship_up_4",
+            "LocalizeEN": "I'm in good terms with Sensei simply because I'm a student. It doesn't mean anything else... Yes."
+        }
+    ]
+}

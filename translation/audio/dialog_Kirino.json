@@ -1,0 +1,284 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Kirino_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Kirino/Kirino_ExWeapon_Get",
+            "LocalizeEN": "How great would it be if I could shoot this gun skillfully..."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirino_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_formation_in_1",
+            "LocalizeEN": "Am I dispatched?"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirino_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_formation_in_2",
+            "LocalizeEN": "Ready."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kirino_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_formation_select",
+            "LocalizeEN": "P-Please wait a second!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirino_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_tactic_defeat_1",
+            "LocalizeJP": "正義は敗北…、しません！…うう。",
+            "LocalizeEN": "Justice is defeated...I won't! …Ah."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirino_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_tactic_defeat_2",
+            "LocalizeJP": "本官のミスです。",
+            "LocalizeEN": "It was my mistake."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirino_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_tactic_in_1",
+            "LocalizeEN": "Let's put public safety first."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirino_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_tactic_victory_1",
+            "LocalizeEN": "Citizens, Kivotos is safe today."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kirino_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_tactic_victory_2",
+            "LocalizeEN": "Thank you for your cooperation with the patrol today."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_buffed_1",
+            "LocalizeEN": "Thank you for your support."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_buffself_1",
+            "LocalizeJP": "本官が先陣を切ります。",
+            "LocalizeEN": "I will take the lead."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_defense_1",
+            "LocalizeEN": "Resistance is futile."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_in_1",
+            "LocalizeEN": "Suppress quickly."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_in_2",
+            "LocalizeEN": "Criminals do not forgive."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_move_1",
+            "LocalizeEN": "This is now a safe zone."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_move_2",
+            "LocalizeEN": "Let's move on to the next area."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_recovery_1",
+            "LocalizeEN": "Thank you."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_retire",
+            "LocalizeJP": "追加支援を…、要請します。",
+            "LocalizeEN": "Requesting additional assistance."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_shout_3",
+            "LocalizeJP": "動くな。",
+            "LocalizeEN": "Freeze!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_tacticalaction_1",
+            "LocalizeEN": "Let's move."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_tsa_1",
+            "LocalizeJP": "ポーピ君1号、出動します。",
+            "LocalizeEN": "Popi-kun No. 1 is dispatched."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_tsa_2",
+            "LocalizeJP": "警察です、後ろに下がってください！",
+            "LocalizeEN": "I'm the police. Please step back."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_victory_1",
+            "LocalizeEN": "Mission completed."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kirino_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_battle_victory_2",
+            "LocalizeEN": "Right, left... Phew, it's safe here now."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kirino_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_commonskill",
+            "LocalizeEN": "Damn it."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_1",
+            "LocalizeEN": "You have the right to remain silent! ...Oh!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_2",
+            "LocalizeEN": "This crime in Kivotos will not be tolerated... Oh!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_3",
+            "LocalizeEN": "I warn you, if you don't surrender... Oh!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_level_1",
+            "LocalizeEN": "What should I do, what should I do... Eiya!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_level_2",
+            "LocalizeEN": "I'm going to use public authority."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kirino_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_exskill_level_3",
+            "LocalizeEN": "Even with this, suck it!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirino_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_growup_1",
+            "LocalizeEN": "If I keep trying like this, will I be able to get a job order from the security department someday?"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirino_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_growup_2",
+            "LocalizeEN": "I will devote myself to the safety of Kivotos."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirino_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_growup_3",
+            "LocalizeEN": "I see good results today."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kirino_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_growup_4",
+            "LocalizeEN": "Thank you for lending me your strength."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirino_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_relationship_up_1",
+            "LocalizeEN": "I knew I could count on you, Sensei."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirino_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_relationship_up_2",
+            "LocalizeEN": "I also want to become a splendid adult like you one day, Sensei!"
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirino_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_relationship_up_3",
+            "LocalizeEN": "I know this is nothing more than a work relationship, but I was about to mistake it for something else..."
+        },
+        {
+            "CharacterId": 13012,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kirino_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kirino/kirino_relationship_up_4",
+            "LocalizeEN": "It is not a crime in Kivotos for a teacher and student to fall in love. ...That's all I want to say."
+        }
+    ]
+}

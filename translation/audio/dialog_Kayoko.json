@@ -1,0 +1,292 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_Cafe_Monolog_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/Kayoko_Cafe_monolog_1",
+            "LocalizeEN": "*sigh* This isn't good."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Kayoko_Cafe_Monolog_3",
+            "Path": "Audio/VOC_JP/JP_Kayoko/Kayoko_Cafe_monolog_3",
+            "LocalizeEN": "Our plan for the future? Well, we don't have one. It'll work itself out."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Kayoko_LogIn_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/Kayoko_LogIn_2",
+            "LocalizeEN": "We got a new request in. Something about it seems familiar.\n\nI guess Schale reminds me of Problem Solver to some extent."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_MemorialLobby_4_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/Kayoko_MemorialLobby_4_1",
+            "LocalizeEN": "I don't mind that I don't have to take care of the cat all the time...\n\nBut still, I do get a little lonely..."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Kayoko_MemorialLobby_5_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/Kayoko_MemorialLobby_5_1",
+            "LocalizeEN": "A part of me can't just leave it alone. That's all.\n\nI don't know how else to explain it. Hmm, Sensei?"
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kayoko_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_formation_in_1",
+            "LocalizeEN": "I'm going now."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Kayoko_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_formation_in_2",
+            "LocalizeEN": "If it's a request, I have to do it."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_tactic_defeat_1",
+            "LocalizeJP": "ごめん。…ちょっと油断した。",
+            "LocalizeEN": "Sorry. ...I let my guard down."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_tactic_defeat_2",
+            "LocalizeJP": "覚えときなよ。",
+            "LocalizeEN": "I'll remember this."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_tactic_in_2",
+            "LocalizeEN": "It's that simple."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_tactic_victory_1",
+            "LocalizeEN": "Good Work, Sensei."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Kayoko_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_tactic_victory_2",
+            "LocalizeEN": "Sensei's choice paid off."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_buffed_1",
+            "LocalizeEN": "Support received."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_buffself_1",
+            "LocalizeJP": "本気で行くよ。",
+            "LocalizeEN": "I'm going for real."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_covered_1",
+            "LocalizeEN": "Cover object found."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Damage_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_damage_1",
+            "LocalizeJP": "くそ…。",
+            "LocalizeEN": "Damn..."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_defense_1",
+            "LocalizeEN": "That's it?"
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_in_1",
+            "LocalizeEN": "Stay calm, just follow the plan."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_move_1",
+            "LocalizeEN": "It looks like it's almost sorted out."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_move_2",
+            "LocalizeEN": "Looks like that's my next goal.\nLet's move"
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_recovery_1",
+            "LocalizeEN": "I appreciate it."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_shout_2",
+            "LocalizeJP": "行くよ。",
+            "LocalizeEN": "Here i go."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_shout_3",
+            "LocalizeJP": "くらって。",
+            "LocalizeEN": "Come on."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_TSA_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_tsa_1",
+            "LocalizeJP": "はあ…、こんなことまでさせるなんて。",
+            "LocalizeEN": "Sigh...I can't believe your letting me do something like this."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_TSA_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_tsa_2",
+            "LocalizeJP": "はあ…、仕方ない。",
+            "LocalizeEN": "Sigh...It can't be helped."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_victory_1",
+            "LocalizeEN": "You picked the wrong opponent."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Kayoko_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_battle_victory_2",
+            "LocalizeEN": "This doesn't even count as a warm-up"
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Kayoko_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_commonskill",
+            "LocalizeEN": "Get ready for this."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_exskill_1",
+            "LocalizeEN": "Sigh..."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_exskill_2",
+            "LocalizeEN": "It can't be helped."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_exskill_level_2",
+            "LocalizeEN": "This should change the tide of battle."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Kayoko_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_exskill_level_3",
+            "LocalizeEN": "Aim for the timing of the attack."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_growup_1",
+            "LocalizeEN": "To deliberately choose me...\nIf this is the right choice strategically, Then, that's fine."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_growup_2",
+            "LocalizeEN": "Okay with the preparations, leave the rest to me."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_growup_3",
+            "LocalizeEN": "I don't know if I can live up to expectations."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Kayoko_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_growup_4",
+            "LocalizeEN": "Thank you Sensei,\nLooking forward to working with you."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_relationship_up_1",
+            "LocalizeEN": "If you have any problems, you can always come to me."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_relationship_up_2",
+            "LocalizeEN": "Problem Solver should welcome Sensei... maybe."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_relationship_up_3",
+            "LocalizeEN": "Sensei's requests are always welcome."
+        },
+        {
+            "CharacterId": 13005,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Kayoko_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Kayoko/kayoko_relationship_up_4",
+            "LocalizeEN": "It was a pleasure working with you."
+        }
+    ]
+}

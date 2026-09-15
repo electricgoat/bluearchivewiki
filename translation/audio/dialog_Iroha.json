@@ -1,0 +1,173 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Iroha_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/CH0156_Lobby_2",
+            "LocalizeEN": "...You're working hard?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Iroha_Season_Halloween",
+            "Path": "Audio/VOC_JP/JP_CH0156/CH0156_Season_Halloween",
+            "LocalizeEN": "Okay, give me treats.\n\n...Huh? You want me to say it, right?\n\nOkay, okay! Trick or treat!"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Iroha_MemorialLobby_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/CH0156_MemorialLobby_1",
+            "LocalizeEN": "Heehee, not bad, right?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Iroha_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH0156/CH0156_EventLobby_3",
+            "LocalizeEN": "Why am I in still stuck putting things in order in a different district?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "EventMission",
+            "VoiceClip": "Iroha_EventMission_Day_End",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_eventmission_day_end",
+            "LocalizeJP": "今日はこんなところで\nしょうか。ま、お疲れ様\nですと言っておきます。",
+            "LocalizeEN": "I think that's enough for today. Great work!"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Iroha_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_formation_in_1",
+            "LocalizeJP": "ああー。はい…了解です。",
+            "LocalizeEN": "Sigh. Sure... Understood."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Iroha_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_formation_in_2",
+            "LocalizeJP": "予想はしてましたが…はあー。",
+            "LocalizeEN": "This is what I expected it, and yet... sigh."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Iroha_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_commonskill",
+            "LocalizeJP": "攻撃",
+            "LocalizeEN": "Attack."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_1",
+            "LocalizeJP": "はぁ、えっと、超無敵鉄甲「虎丸」、出撃……",
+            "LocalizeEN": "Sigh, erm... \"Super Invincible Steel Toramaru\", charging forward."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_2",
+            "LocalizeJP": "はぁ、パトロールでもしますか、虎丸",
+            "LocalizeEN": "Mm, shall we go on patrol, Toramaru?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_3",
+            "LocalizeJP": "超無敵鉄甲「虎丸」、前進\n……名前、恥ずかしいですね",
+            "LocalizeEN": "\"Super Invincible Steel Toramaru\", charging forward... the name's a little embarrassing."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_level_1",
+            "LocalizeEN": "Yeah, yeah. We're going."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_level_2",
+            "LocalizeJP": "分かりましたよ、もう……",
+            "LocalizeEN": "I got it already."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Iroha_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_exskill_level_3",
+            "LocalizeJP": "仕方ないですね……",
+            "LocalizeEN": "I guess I have to."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Iroha_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_growup_1",
+            "LocalizeJP": "サボらせて、くれなさそうですね……仕方ありません",
+            "LocalizeEN": "I don't suppose you'll let me slack this once off. Alright, fine."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Iroha_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_growup_2",
+            "LocalizeEN": "What is it? Did I caught your interest?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Iroha_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_growup_3",
+            "LocalizeEN": "Whoa, you would do this for me?"
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Iroha_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_growup_4",
+            "LocalizeJP": "ありがとうございます……なんですか、普通にお礼くらい言いますが",
+            "LocalizeEN": "Thank you very much... What is it? It's not like I can't say thank you."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Iroha_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_relationship_up_1",
+            "LocalizeJP": "ふふっ……まあ、波長が合わないわけではなさそうですね",
+            "LocalizeEN": "Hehe. Well, it seems like we are on the same wavelength after all."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Iroha_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_relationship_up_2",
+            "LocalizeJP": "まぁ、頼られるのは嫌な気分ではありませんが……",
+            "LocalizeEN": "I mean, it's not like I hate being relied on..."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Iroha_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_relationship_up_3",
+            "LocalizeJP": "そういう積極的なアプローチは、ちょっと……",
+            "LocalizeEN": "When you approach me that way, it's a little..."
+        },
+        {
+            "CharacterId": 20016,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Iroha_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0156/ch0156_relationship_up_4",
+            "LocalizeJP": "心が通うとは、こういうことなのでしょうか",
+            "LocalizeEN": "Is this what is like to understand one another?"
+        }
+    ]
+}

@@ -1,0 +1,300 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "CharacterGet",
+            "VoiceClip": "Tsubaki_Gachaget",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/Tsubaki_Gachaget",
+            "LocalizeEN": "I never thought this moment would happen. I'll be working with you from now on, Sensei."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Tsubaki_Cafe_Act_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/Tsubaki_Cafe_Act_1",
+            "LocalizeEN": "Ahahaha! Ah, whew... All that laughing wore me out."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Tsubaki_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/Tsubaki_ExWeapon_Get",
+            "LocalizeEN": "This weapon is... Is this a dream? It must be!"
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Tsubaki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_formation_in_1",
+            "LocalizeEN": "Alright, I'll get up already."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Tsubaki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_formation_in_2",
+            "LocalizeEN": "Fuwah...alright, I'll sleep once we get back."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Tsubaki_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_formation_select",
+            "LocalizeEN": "Hmm, this is surprisingly cozy?"
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Tsubaki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_tactic_defeat_1",
+            "LocalizeJP": "ご…ごめん、ちょっと居眠りしてた。",
+            "LocalizeEN": "S...sorry, I dozed off."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Tsubaki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_tactic_defeat_2",
+            "LocalizeJP": "眠ってたつもりだったけど、気絶してたんだね。",
+            "LocalizeEN": "I thought I was falling asleep, but I was passing out."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Tsubaki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_tactic_in_1",
+            "LocalizeEN": "Fuwah...I wonder if they just don't get enough sleep?"
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Tsubaki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_tactic_in_2",
+            "LocalizeEN": "Alright, off you go. Do your best~...eh? I'm going too?"
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Tsubaki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_tactic_victory_2",
+            "LocalizeEN": "Ah, it's done, it's over~. Good night~."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_buffed_1",
+            "LocalizeEN": "Looks like I'm up."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_buffself_1",
+            "LocalizeJP": "うわぁ、力を感じる。",
+            "LocalizeEN": "Uwah, I feel powerful."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Damage_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_damage_2",
+            "LocalizeJP": "痛い。",
+            "LocalizeEN": "Ouch."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Damage_3",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_damage_3",
+            "LocalizeJP": "いたっ。",
+            "LocalizeEN": "Ow."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_defense_1",
+            "LocalizeEN": "What a nuisance."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_in_1",
+            "LocalizeEN": "Follow behind me."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_in_2",
+            "LocalizeEN": "I'll stand up front."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_move_1",
+            "LocalizeEN": "It's safe here now."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_move_2",
+            "LocalizeEN": "I wanna finish this up and sleep."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_recovery_1",
+            "LocalizeEN": "Thank you~."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_retire",
+            "LocalizeJP": "眠い。",
+            "LocalizeEN": "I'm sleepy."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Shout_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_shout_2",
+            "LocalizeJP": "進め。",
+            "LocalizeEN": "Advance."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_tacticalaction_1",
+            "LocalizeEN": "Changing up my position."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_victory_1",
+            "LocalizeEN": "Phew...I'm glad I could be helpful."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Tsubaki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_battle_victory_2",
+            "LocalizeEN": "Phew...now I can sleep in peace."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Tsubaki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_commonskill",
+            "LocalizeEN": "My wounds? They'll be fine once I sleep them off."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_1",
+            "LocalizeJP": "よっと……じゃあ行こっか～。",
+            "LocalizeEN": "Hup, now let's get going."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_2",
+            "LocalizeEN": "I have something I need to protect."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_3",
+            "LocalizeEN": "Now, let me show you the results of my training."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_level_1",
+            "LocalizeEN": "I won't let you get in the way of my afternoon nap...I mean, in Sensei's way."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_level_2",
+            "LocalizeEN": "I'll take the lead. Let's go."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Tsubaki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_exskill_level_3",
+            "LocalizeJP": "痛くな～い\n痛くな～い",
+            "LocalizeEN": "It doesn't hurt, it doesn't hurt."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_growup_1",
+            "LocalizeEN": "Hmm? Maybe it's because I sleep so well, but I feel like I've gotten stronger."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_growup_2",
+            "LocalizeEN": "I always feel energized with you around, Sensei."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_growup_3",
+            "LocalizeEN": "Now, I feel like I could even hibernate."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Tsubaki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_growup_4",
+            "LocalizeEN": "Dreams are good and all, but I want to make those dreams with you come true, Sensei."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_relationship_up_1",
+            "LocalizeEN": "Warm sunshine, fluffy pillows, a soft futon, and Sensei. Nice."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_relationship_up_2",
+            "LocalizeEN": "The thing I hate most in the world is the alarm clock...but I wouldn't hate your voice, Sensei."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_relationship_up_3",
+            "LocalizeEN": "Even I have times where I go all out, like when I'm fighting or when I'm with you, Sensei."
+        },
+        {
+            "CharacterId": 13009,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Tsubaki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_Tsubaki/tsubaki_relationship_up_4",
+            "LocalizeEN": "I'm happy, but I'm scared that this moment is just a dream that I'm gonna wake up from."
+        }
+    ]
+}

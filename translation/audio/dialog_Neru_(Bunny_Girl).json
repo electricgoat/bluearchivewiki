@@ -1,0 +1,289 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Cafe",
+            "VoiceClip": "Neru_(Bunny_Girl)_Cafe_Monolog_5",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Cafe_monolog_5",
+            "LocalizeEN": "Is Sensei not here? Away? I-I mean, it doesn't matter, anyway..."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_Lobby_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Lobby_2",
+            "LocalizeEN": "Huh? My bomber jacket?\n\nGive it up. Wherever I go, it goes.<ref group=\"note\">Literal TL is \"I won't change it, no matter what I'm wearing\"</ref>"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_Lobby_4",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Lobby_4",
+            "LocalizeEN": "Do you need anything?\n\nSo maybe there's something I can help you with."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_Lobby_5",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Lobby_5",
+            "LocalizeEN": "Hey! Hands of the bunny ears! Yeah, I know they're not real, but still."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UILobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_Season_Birthday",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Season_Birthday",
+            "LocalizeEN": "Haha, Sensei! Today is a special day, right?\n\n...Huh? Did I wear this especially for your birthday?\n\nAbsolutely not! <ref group=\"note\">TL error, it's \"Huh? Did I got so pumped up I changed clothes for my birthday?\"  </ref>"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Neru_(Bunny_Girl)_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_ExWeapon_Get",
+            "LocalizeEN": "Hah, you have to go all-out sometimes.<ref group=\"note\"> Actually says \"Hah, if you're doing this much for me, then I got no choice but to go all out\"</ref>  Hope you can keep up."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UILobbySpecial",
+            "VoiceClip": "Neru_(Bunny_Girl)_MemorialLobby_0",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_MemorialLobby_0",
+            "LocalizeJP": "痛っ..て...",
+            "LocalizeEN": "Ouch..."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_EventLogin_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_EventLogin_2",
+            "LocalizeEN": "No time to delay! Let's hop to it!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Neru_(Bunny_Girl)_EventLogin_Season_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_EventLogin_Season_1",
+            "LocalizeEN": "I like to get things done in advance."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "UIEventMission",
+            "VoiceClip": "Neru_(Bunny_Girl)_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/CH0101_Tactic_Victory_2",
+            "LocalizeEN": "I am unstoppable!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_(Bunny_Girl)_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_formation_in_1",
+            "LocalizeEN": "Well, you'd be better off with me."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_(Bunny_Girl)_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_formation_in_2",
+            "LocalizeEN": "You have an eye for this, don't you?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Neru_(Bunny_Girl)_Formation_Select",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_formation_select",
+            "LocalizeEN": "Hey, let go, you idiot!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_(Bunny_Girl)_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_tactic_defeat_1",
+            "LocalizeJP": "ちっ、覚えとけよ、次は負けねえ。",
+            "LocalizeEN": "Tch, remember this. I won't lose next time."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_(Bunny_Girl)_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_tactic_defeat_2",
+            "LocalizeJP": "信じらんねえ、おかしいだろうがよ。",
+            "LocalizeEN": "I can't believe it, isn't this weird?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_(Bunny_Girl)_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_tactic_in_2",
+            "LocalizeEN": "Leave this to me."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Neru_(Bunny_Girl)_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_tactic_victory_1",
+            "LocalizeEN": "Of course we won, who do you think I am?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_buffed_1",
+            "LocalizeEN": "Not bad."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_buffself_1",
+            "LocalizeJP": "さあ、行くぜ。",
+            "LocalizeEN": "Let's go."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_covered_1",
+            "LocalizeEN": "No need to rush, I'll give you a fight!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_in_2",
+            "LocalizeEN": "Leave it to me, I'll finish it soon."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_move_1",
+            "LocalizeEN": "Let's go right away."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_move_2",
+            "LocalizeEN": "No way, this isn't all you got is it?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_recovery_1",
+            "LocalizeEN": "This timing is not bad."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Shout_3",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_shout_3",
+            "LocalizeJP": "くらえ！",
+            "LocalizeEN": "Eat this!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_victory_1",
+            "LocalizeEN": "Ha, that was barely even a warm-up."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Neru_(Bunny_Girl)_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_battle_victory_2",
+            "LocalizeEN": "Easy win, easy win."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Neru_(Bunny_Girl)_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_commonskill",
+            "LocalizeEN": "Is that all?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_(Bunny_Girl)_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_exskill_1",
+            "LocalizeEN": "Huh? What are you looking at?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_(Bunny_Girl)_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_exskill_2",
+            "LocalizeEN": "I'm not for show!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_(Bunny_Girl)_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_exskill_3",
+            "LocalizeEN": "Do you want to be beaten up?"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Neru_(Bunny_Girl)_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_exskill_level_1",
+            "LocalizeEN": "Take this!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_(Bunny_Girl)_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_growup_1",
+            "LocalizeEN": "Ha, it's not bad, I'll pay you back properly, so just wait."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_(Bunny_Girl)_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_growup_2",
+            "LocalizeEN": "Hah, that's great! This is what I've been waiting for."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_(Bunny_Girl)_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_growup_3",
+            "LocalizeEN": "You've got some moves, Sensei. I won't let you regret this."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Neru_(Bunny_Girl)_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_growup_4",
+            "LocalizeEN": "Oh... this isn't bad. Alright, leave the rest to me."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_(Bunny_Girl)_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_relationship_up_1",
+            "LocalizeEN": "Hey, are you ready? I'm not going to let you off with a \"just kidding\" after being together this far."
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_(Bunny_Girl)_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_relationship_up_2",
+            "LocalizeEN": "I'm in a pretty good mood... Hah!? No, it's nothing!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_(Bunny_Girl)_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_relationship_up_3",
+            "LocalizeEN": "Haah, I give up... Hey! Don't look!"
+        },
+        {
+            "CharacterId": 10026,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Neru_(Bunny_Girl)_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH0101/ch0101_relationship_up_4",
+            "LocalizeEN": "It's strange, somehow I feel out of my game when I'm with Sensei."
+        }
+    ]
+}

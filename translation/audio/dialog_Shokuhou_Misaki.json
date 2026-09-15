@@ -1,0 +1,274 @@
+{
+    "DataList": [
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "WeaponGet",
+            "VoiceClip": "Shokuhou_Misaki_ExWeapon_Get",
+            "Path": "Audio/VOC_JP/JP_CH9997/CH9997_ExWeapon_Get",
+            "LocalizeEN": "You really are something else. Oh, I don't mean that in a bad way. I usually don't trust people who can't read thoughts, but... Let's just say I don't find you suspicious."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "UIEventLobby",
+            "VoiceClip": "Shokuhou_Misaki_EventLobby_3",
+            "Path": "Audio/VOC_JP/JP_CH9997/CH9997_EventLobby_3",
+            "LocalizeEN": "...Even my patience has its limits."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shokuhou_Misaki_Formation_In_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_formation_in_1",
+            "LocalizeEN": "I'm not the type who shows myself in the frontline, though."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Formation",
+            "VoiceClip": "Shokuhou_Misaki_Formation_In_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_formation_in_2",
+            "LocalizeEN": "If you say that it's necessary, then I'll do it for you."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_Defeat_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_defeat_1",
+            "LocalizeJP": "だから言ったでしょぉ？",
+            "LocalizeEN": "I've told you so, didn't I?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_Defeat_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_defeat_2",
+            "LocalizeJP": "こういうのが得意な子に任せてよねぇ。",
+            "LocalizeEN": "Leave it to someone who's good at it, okay?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_In_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_in_1",
+            "LocalizeEN": "Oh? You want me to do this too?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_In_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_in_2",
+            "LocalizeEN": "Aren't you lucky that I'm in a good mood today?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_victory_1",
+            "LocalizeEN": "I've worked hard. Shouldn't I get some praise?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Tactic",
+            "VoiceClip": "Shokuhou_Misaki_Tactic_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_tactic_victory_2",
+            "LocalizeEN": "I didn't say I can't do it."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Buffed_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_buffed_1",
+            "LocalizeEN": "That was helpful."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_BuffSelf_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_buffself_1",
+            "LocalizeJP": "本気にさせたいのかしら。",
+            "LocalizeEN": "Are you trying to make me treat this seriously?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Covered_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_covered_1",
+            "LocalizeEN": "Ah."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Defense_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_defense_1",
+            "LocalizeEN": "You're doing something useless."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_In_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_in_1",
+            "LocalizeEN": "Well, I'm just here to help."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_In_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_in_2",
+            "LocalizeEN": "I'll give it a try, just a little bit."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Move_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_move_1",
+            "LocalizeEN": "There's more?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Move_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_move_2",
+            "LocalizeEN": "It's still not over?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Recovery_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_recovery_1",
+            "LocalizeEN": "Thank you!"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Retire",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_retire",
+            "LocalizeJP": "はぁ、はぁ、はぁ…。"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_TacticalAction_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_tacticalaction_1",
+            "LocalizeJP": "っ…‥！"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Victory_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_victory_1",
+            "LocalizeEN": "It was an easy battle."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Battle",
+            "VoiceClip": "Shokuhou_Misaki_Battle_Victory_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_battle_victory_2",
+            "LocalizeEN": "You gotta return all my favors later, okay?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "CommonSkill",
+            "VoiceClip": "Shokuhou_Misaki_CommonSkill",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_commonskill",
+            "LocalizeEN": "I'm not the type to take action myself."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_1",
+            "LocalizeEN": "Hmm, this is really okay?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_2",
+            "LocalizeJP": "ここまでするつもりはなかったけどぉ……",
+            "LocalizeEN": "I didn't intend to go this far, but..."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_3",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_3",
+            "LocalizeEN": "This really can't be helped."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_Level_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_level_1",
+            "LocalizeEN": "It always ends like this, huh?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_Level_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_level_2",
+            "LocalizeEN": "Didn't I told you?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "ExSkill",
+            "VoiceClip": "Shokuhou_Misaki_ExSkill_Level_3",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_exskill_level_3",
+            "LocalizeEN": "Please do as you like."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shokuhou_Misaki_Growup_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_growup_1",
+            "LocalizeEN": "This is not bad, right? So, what should I do?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shokuhou_Misaki_Growup_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_growup_2",
+            "LocalizeEN": "I don't like owing people favors, but I will remember this one."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shokuhou_Misaki_Growup_3",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_growup_3",
+            "LocalizeEN": "My head feels clear?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Growup",
+            "VoiceClip": "Shokuhou_Misaki_Growup_4",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_growup_4",
+            "LocalizeEN": "Using my ability felt easier... Huh? If you're curious, do you want to give it a try?"
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shokuhou_Misaki_Relationship_Up_1",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_relationship_up_1",
+            "LocalizeEN": "Are you like this with other people? Fufu, you must be quite popular."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shokuhou_Misaki_Relationship_Up_2",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_relationship_up_2",
+            "LocalizeEN": "Huh? I wonder if you're doing this also because you're a teacher."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shokuhou_Misaki_Relationship_Up_3",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_relationship_up_3",
+            "LocalizeEN": "Sometimes I want to peek into your head. Ah, I haven't done it, so please don't worry."
+        },
+        {
+            "CharacterId": 10080,
+            "DialogCategory": "Relationship",
+            "VoiceClip": "Shokuhou_Misaki_Relationship_Up_4",
+            "Path": "Audio/VOC_JP/JP_CH9997/ch9997_relationship_up_4",
+            "LocalizeEN": "Hey, don't you think you've done too much for an outsider?"
+        }
+    ]
+}
