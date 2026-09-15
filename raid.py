@@ -167,6 +167,23 @@ def get_boss_skills(skill_list_group_id, data, missing_skill_localization):
 
 
 
+def get_rewards_tabbers(seasons, rewards_wikitexts, env):
+    boss_seasons = collections.defaultdict(list)
+    for season in seasons:
+        boss_seasons[season['OpenRaidBossGroup'][0].split('_',1)[0]].append(season)
+
+    template = env.get_template('./raid/template_raid_rewards_tabber.txt')
+    tabbers = {}
+    for boss, boss_season_list in boss_seasons.items():
+        groups = {}
+        for season in boss_season_list:
+            groups.setdefault(rewards_wikitexts[season['SeasonId']], []).append(season['SeasonDisplay'])
+        tabs = sorted([sorted(set(displays)) for displays in groups.values()], key=lambda tab: tab[0], reverse=True)
+        tabbers[boss] = template.render(tabs=tabs)
+    return tabbers
+
+
+
 def generate():
     global args, data, season_data
     global missing_code_localization
@@ -185,7 +202,21 @@ def generate():
     
 
     region = 'jp'
-    for season in season_data[region].raid_season.values():
+    seasons = list(season_data[region].raid_season.values())
+
+    #Render every season's rewards section up front, so that per-boss duplicates are known before any page is written
+    rewards_wikitexts = {}
+    ranking_template = env.get_template('./raid/template_ranking_rewards.txt')
+    cumulative_template = env.get_template('./raid/template_cumulative_score_rewards.txt')
+    for season in seasons:
+        rewards_wikitext = ranking_template.render(rewards=get_ranking_rewards(season))
+        get_cumulative_rewads(season)
+        rewards_wikitext += cumulative_template.render(season=season, total_rewards=total_cumulative_rewards(season))
+        rewards_wikitexts[season['SeasonId']] = rewards_wikitext
+
+    rewards_tabbers = get_rewards_tabbers(seasons, rewards_wikitexts, env)
+
+    for season in seasons:
         print (f"Working on season {season['SeasonId']}")
         wikitext = "\n==Boss Info==\n===Stats===\n"        
 
@@ -205,13 +236,8 @@ def generate():
 
         wikitext += "=Unit recommendations=\n"
 
-        template = env.get_template('./raid/template_ranking_rewards.txt')
-        wikitext += template.render(rewards=get_ranking_rewards(season))
-
-
-        template = env.get_template('./raid/template_cumulative_score_rewards.txt')
-        get_cumulative_rewads(season)
-        wikitext += template.render(season=season, total_rewards=total_cumulative_rewards(season))
+        rewards_wikitext = rewards_wikitexts[season['SeasonId']]
+        wikitext += rewards_tabbers[season['OpenRaidBossGroup'][0].split('_',1)[0]]
 
         
         localization_id = boss_data[season[group][0]]['stage'][0]['BossBGInfoKey']
@@ -227,6 +253,10 @@ def generate():
 
         with open(os.path.join(args['outdir'], 'raids' ,f"raid_season_{season['SeasonId']}.txt"), 'w+', encoding="utf8") as f:
             f.write(wikitext)
+
+        boss_name = RAIDS[season['OpenRaidBossGroup'][0].split('_',1)[0]].shortname.replace(' ', '_')
+        with open(os.path.join(args['outdir'], 'raids' ,f"rewards_{boss_name}_season_{season['SeasonId']:02d} ({season['SeasonDisplay']}).txt"), 'w+', encoding="utf8") as f:
+            f.write(rewards_wikitext)
  
 
 

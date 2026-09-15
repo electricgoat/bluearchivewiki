@@ -70,8 +70,7 @@ SEASON_NOTES = {
         73:'Introduction of Lunatic Difficulty',
         85: 'Adjusted skills and HP for certain difficulties',
         86: 'Earlier incoming train indication at the start of phase 1',
-        87: 'Added HP bars for each of the Kaiten\'s parts in phase 2',
-        88: 'Maximum number of held tickets increased to 6',
+        87: 'Added HP bars for each of the Kaiten\'s parts in phase 2<br>Maximum number of held tickets increased to 6',
     }
 }
 

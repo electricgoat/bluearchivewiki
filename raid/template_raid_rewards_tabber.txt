@@ -1,0 +1,6 @@
+==Rewards==
+<tabber>
+{% for tab in tabs -%}
+|-|Season {{tab|join(' & ')}}= {% raw %}{{:{{PAGENAME}}{% endraw %}/Season {{tab[0]}} rewards{% raw %}}}{% endraw %}
+{% endfor -%}
+</tabber>
