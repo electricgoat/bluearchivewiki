@@ -325,6 +325,29 @@ def upload(file, name, comment = 'File upload', text = ''):
             print (f"Unknown upload error {error}")
 
 
+def file_hashes(names):
+    """SHA-1 of the file behind each File: page that has one, keyed by page title."""
+    global site
+    hashes = {}
+
+    if site is None: return hashes
+
+    names = list(names)
+    for chunk in [names[i:i+50] for i in range(0, len(names), 50)]:
+        try:
+            for page in site.query_pages(titles=chunk, prop='imageinfo', iiprop='sha1'):
+                for info in page.get('imageinfo', []):
+                    if 'sha1' in info: hashes[page['title'].replace(' ', '_')] = info['sha1']
+        except ApiError as error:
+            if error.message == 'Call failed':
+                print (f"Call failed, retrying")
+                return file_hashes(names)
+            else:
+                print (f"Unknown error reading file hashes {error}")
+
+    return hashes
+
+
 def move(name_old, name_new, summary='Consistent naming', noredirect=True):
     global site
     assert site is not None
