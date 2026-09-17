@@ -1,695 +1,703 @@
 {
   "jp": {
     "2": {
-      "notes": "Beta version",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Beta version"
     },
     "3": {
-      "notes": "Beta version",
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Beta version"
     },
     "4": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "5": {
-      "notes": "Torment difficulty no longer based on original defense type",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Torment difficulty no longer based on original defense type"
     },
     "6": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "7": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "HOD_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HOD_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HOD_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "8": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Goz_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Goz_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "9": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "10": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "11": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "12": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "EN0005_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0005_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "13": {
-      "notes": "No longer requires all 3 clears for ranking rewards",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "No longer requires all 3 clears for ranking rewards"
     },
     "14": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "HoverCraft_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HoverCraft_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HoverCraft_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "15": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "16": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Goz_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Goz_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "17": {
       "bosses": [
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "18": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "EN0006_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0006_Street_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "19": {
       "bosses": [
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Chesed_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "20": {
       "bosses": [
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Street_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "21": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "22": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "EN0005_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "23": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "24": {
       "bosses": [
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "Chesed_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Chesed_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Indoor_LightArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "25": {
       "bosses": [
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "26": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "27": {
-      "notes": "Kaitenger Red and Black's Evasion Rates were reduced",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Non-standard duration of 6 days<br>Kaitenger Red and Black's Evasion Rates were reduced"
     },
     "28": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_ElasticArmor",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "29": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ]
+        {
+          "group": "Chesed_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Chesed_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "30": {
-      "notes": "Torment difficulty now present on two defense types",
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Torment difficulty now present on two defense types"
     },
     "31": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "32": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "33": {
       "bosses": [
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "ShiroKuro_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_ElasticArmor",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "34": {
       "bosses": [
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "35": {
       "bosses": [
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "36": {
       "bosses": [
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "EN0006_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "37": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "HoverCraft_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HoverCraft_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HoverCraft_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "38": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "HOD_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HOD_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HOD_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "39": {
       "bosses": [
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "40": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
-      ],
-      "challenge_difficulty": "Torment",
-      "notes": ""
-    },
-    "41": {
-      "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
@@ -697,627 +705,649 @@
   },
   "gl": {
     "2": {
-      "notes": "Beta version",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Beta version"
     },
     "3": {
-      "notes": "Beta version",
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Beta version"
     },
     "4": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "5": {
-      "notes": "Torment difficulty no longer based on original defense type",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Torment difficulty no longer based on original defense type"
     },
     "6": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "7": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "HOD_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HOD_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HOD_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "8": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Goz_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Goz_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "9": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "10": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "11": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "12": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "EN0005_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0005_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "13": {
-      "notes": "No longer requires all 3 clears for ranking rewards",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "No longer requires all 3 clears for ranking rewards"
     },
     "14": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "HoverCraft_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HoverCraft_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "HoverCraft_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "15": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "16": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Goz_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Goz_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "17": {
       "bosses": [
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "18": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "EN0006_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0006_Street_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "19": {
       "bosses": [
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "Chesed_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "20": {
       "bosses": [
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Street_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "21": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "22": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ]
+        {
+          "group": "EN0005_Indoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "EN0005_Indoor_Unarmed",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "23": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Binah_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Outdoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "24": {
       "bosses": [
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "Chesed_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Chesed_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Indoor_LightArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "25": {
       "bosses": [
-        [
-          "Heavy",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "26": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "27": {
-      "notes": "Kaitenger Red and Black's Evasion Rates were reduced",
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Kaitenger_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": "Kaitenger Red and Black's Evasion Rates were reduced"
     },
     "28": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Special",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "Binah_Street_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_Unarmed",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Street_ElasticArmor",
+          "difficulty": "Torment"
+        }
       ],
-      "challenge_difficulty": "Torment"
+      "challenge_difficulty": "Torment",
+      "notes": ""
     },
     "29": {
       "bosses": [
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ]
+        {
+          "group": "Chesed_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Chesed_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Chesed_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "30": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Indoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": "Torment difficulty now present on two defense types"
     },
     "31": {
       "bosses": [
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "32": {
       "bosses": [
-        [
-          "Light",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Insane"
-        ]
+        {
+          "group": "Kaitenger_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Kaitenger_Street_Unarmed",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "33": {
       "bosses": [
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Heavy",
-          "Insane"
-        ]
+        {
+          "group": "ShiroKuro_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "ShiroKuro_Street_HeavyArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "34": {
       "bosses": [
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "Hieronymus_Street_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Hieronymus_Street_LightArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "35": {
       "bosses": [
-        [
-          "Heavy",
-          "Torment"
-        ],
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Insane"
-        ]
+        {
+          "group": "Perorozilla_Outdoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Perorozilla_Outdoor_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "36": {
       "bosses": [
-        [
-          "Special",
-          "Insane"
-        ],
-        [
-          "Light",
-          "Insane"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ]
+        {
+          "group": "EN0006_Street_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "EN0006_Street_ElasticArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
     },
     "37": {
       "bosses": [
-        [
-          "Special",
-          "Torment"
-        ],
-        [
-          "Elastic",
-          "Torment"
-        ],
-        [
-          "Light",
-          "Insane"
-        ]
+        {
+          "group": "HoverCraft_Outdoor_Unarmed",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HoverCraft_Outdoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HoverCraft_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        }
       ],
       "challenge_difficulty": "Torment",
       "notes": ""

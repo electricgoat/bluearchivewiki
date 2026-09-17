@@ -1,20 +1,20 @@
-import collections
 import os
-import re
-import traceback
-#import copy
-import argparse
 import json
-from datetime import datetime
+import argparse
+from datetime import datetime, timedelta, timezone
 
 import wiki
 
 from jinja2 import Environment, FileSystemLoader
-from data import load_data, load_season_data
+from data import load_season_data
 from raid_seasons import RAIDS
 import shared.functions
 
+
 HISTORICAL_DATA_FILE = 'translation/eliminate_raid_seasons.json'
+BOSS_GROUPS = ['OpenRaidBossGroup01', 'OpenRaidBossGroup02', 'OpenRaidBossGroup03']
+DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
+JST = timezone(timedelta(hours=9))
 
 SEASON_IGNORE = {
     'jp' : [1],
@@ -23,207 +23,143 @@ SEASON_IGNORE = {
 
 
 args = {}
-data = {}
 season_data = {'jp':{}, 'gl':{}}
 historical_season_data = {'jp':{}, 'gl':{}}
 
 
 def load_historical_data():
-    global historical_season_data
-    
     if not os.path.exists(HISTORICAL_DATA_FILE):
         return
-    
-    try:
-        with open(HISTORICAL_DATA_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            historical_season_data['jp'] = {int(k): v for k, v in data.get('jp', {}).items()}
-            historical_season_data['gl'] = {int(k): v for k, v in data.get('gl', {}).items()}
-        #print(f"Loaded historical data for {len(historical_season_data['jp'])} JP and {len(historical_season_data['gl'])} GL seasons")
-    except Exception as e:
-        print(f"Error loading historical data: {e}")
+    with open(HISTORICAL_DATA_FILE, 'r', encoding='utf-8') as f:
+        stored = json.load(f)
+    for region in historical_season_data:
+        historical_season_data[region] = {int(k): v for k, v in stored.get(region, {}).items()}
 
 
 def save_historical_data():
-    try:
-        data = {
-            'jp': {str(k): v for k, v in historical_season_data['jp'].items()},
-            'gl': {str(k): v for k, v in historical_season_data['gl'].items()}
-        }
-        with open(HISTORICAL_DATA_FILE, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        # jp_count = len(historical_season_data['jp'])
-        # gl_count = len(historical_season_data['gl'])
-        # print(f"Saved historical data for {jp_count} JP and {gl_count} GL seasons to {HISTORICAL_DATA_FILE}")
-        # if jp_count > 0:
-        #     print(f"  JP seasons: {sorted(historical_season_data['jp'].keys())}")
-        # if gl_count > 0:
-        #     print(f"  GL seasons: {sorted(historical_season_data['gl'].keys())}")
-    except Exception as e:
-        print(f"Error saving historical data: {e}")
-        import traceback
-        traceback.print_exc()
+    stored = {region: {str(k): seasons[k] for k in sorted(seasons)} for region, seasons in historical_season_data.items()}
+    with open(HISTORICAL_DATA_FILE + '.tmp', 'w', encoding='utf-8') as f:
+        json.dump(stored, f, indent=2, ensure_ascii=False)
+    os.replace(HISTORICAL_DATA_FILE + '.tmp', HISTORICAL_DATA_FILE)
 
 
-def get_season_historical_data(season_id, region):
-    if season_id in historical_season_data[region]:
-        return historical_season_data[region][season_id]
-    return None
+def parse_date(text):
+    return datetime.strptime(text, DATE_FORMAT)
 
 
-def record_season_data(season_id, region, armor_types, difficulties, challenge_difficulty, notes=''):
-    now = datetime.now()
-    season = season_data[region].eliminate_raid_season.get(season_id)
-    
-    if season:
-        start_time = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
-        if start_time >= now:
-            # Store bosses as list of [armor, difficulty] pairs
-            bosses = [[armor_types[i], difficulties[i]] for i in range(len(armor_types))]
-            
-            # Preserve existing notes if present, otherwise use current notes
-            existing_notes = historical_season_data[region].get(season_id, {}).get('notes', '')
-            final_notes = existing_notes if existing_notes else notes
-            
-            historical_season_data[region][season_id] = {
-                'bosses': bosses,
-                'challenge_difficulty': challenge_difficulty,
-                'notes': final_notes
-            }
-            #print(f"  Recorded {region} season {season_id} to historical data")
+def open_difficulties(group, region):
+    return [x['Difficulty'] for x in season_data[region].eliminate_raid_stage[group] if x['IsOpen']]
 
 
-def apply_historical_overrides(season, season_id, region, boss_data, boss_groups, difficulties_range):
-    hist_data = get_season_historical_data(season_id, region)
-    
-    if hist_data:
-        # Apply armor and difficulty overrides from historical data
-        if 'bosses' in hist_data:
-            for i in range(len(boss_groups)):
-                if i < len(hist_data['bosses']):
-                    season['armor'][i] = hist_data['bosses'][i][0]
-                    season['difficulty'][i] = hist_data['bosses'][i][1]
-        # Apply challenge difficulty override if present
-        if 'challenge_difficulty' in hist_data:
-            season['challenge_difficulty'] = hist_data['challenge_difficulty']
-        # Apply notes override if present
-        if hist_data.get('notes'):
-            season['notes'] = hist_data['notes']
-        return True
-    
-    return False
+def live_record(season, region):
+    """The season's bosses in the game's order, each with its hardest open difficulty. Only right until the next season of the same boss groups."""
+    groups = [season[key] for key in BOSS_GROUPS]
+    longest = max((open_difficulties(group, region) for group in groups), key=len)
+    return {
+        'bosses': [{'group': group, 'difficulty': open_difficulties(group, region)[-1]} for group in groups],
+        'challenge_difficulty': 'Torment' if len(longest) == 6 else longest[-1],
+    }
 
 
-def get_raid_boss_data(group, region = 'jp'):
-    global args, data, season_data
-
-    boss_data = {}
-
-    boss_data['stage'] = season_data[region].eliminate_raid_stage[group]
-    boss_data['armor'] = None
-    for stage in boss_data['stage']:
-        #print (f"RaidCharacterId: {stage['RaidCharacterId']} {stage['RaidBossGroup']} {stage['Difficulty']}")
-        stage['ground'] = data.ground[stage['GroundId']]
-        stage['character'] = data.characters[stage['RaidCharacterId']]
-        stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-        if not boss_data['armor']: boss_data['armor'] = stage['RaidBossGroup'].split('_')[-1]
-        
-    return boss_data
+def armor(group):
+    return shared.functions.armor_type(group.split('_')[-1])
 
 
-def print_season(season, note: str = ''):
-    now = datetime.now() #does not account for timezone
+def describe(record):
+    return ', '.join(f"{armor(b['group'])} {shared.functions.difficulty_shorthand(b['difficulty'])}" for b in record['bosses'])
 
-    opentime = datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
-    closetime = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S")
 
-    if (opentime > now): note += 'future'
-    elif (closetime > now): note += 'current'
+def resolve_record(season, region, now):
+    """The stored record of a season if it has started, else its game data in the stored boss order, which is recorded."""
+    season_id = season['SeasonId']
+    history = historical_season_data[region]
+    label = f"{region.upper()} season {season_id}"
+    started = parse_date(season['SeasonStartData']) <= now
+    ended = parse_date(season['SeasonEndData']) <= now
+    live = live_record(season, region)
+    stored = history.get(season_id)
 
-    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {', '.join([shared.functions.difficulty_shorthand(x) for x in season['difficulty']]).ljust(16)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {note}")
+    if season['ignore']:
+        if stored and not started:
+            print(f"{label} is ignored, dropping its stored record ({describe(stored)})")
+            del history[season_id]
+        return live
+
+    live_groups = [b['group'] for b in live['bosses']]
+    stored_groups = [b['group'] for b in stored['bosses']] if stored else []
+    same_bosses = sorted(stored_groups) == sorted(live_groups)
+    if stored and not same_bosses:
+        print(f"WARNING - {label} stores bosses {', '.join(stored_groups)}, the game data has {', '.join(live_groups)}")
+    elif stored and stored_groups != live_groups:
+        print(f"{label} is shown in stored order, the game data's is {', '.join(map(armor, live_groups))}")
+
+    if started and stored:
+        return stored
+    if started and ended:
+        print(f"WARNING - {label} has no stored record, using the current game data, which may have changed since the season")
+        return live
+
+    record = live | {'notes': stored.get('notes', '') if stored else ''}
+    if same_bosses:
+        record['bosses'].sort(key=lambda b: stored_groups.index(b['group']))
+    if stored and record != stored:
+        print(f"{label} updated from game data: {describe(stored)} / {stored['challenge_difficulty']} -> {describe(record)} / {record['challenge_difficulty']}")
+    history[season_id] = record
+    return record
+
+
+def print_season(season, now):
+    note = 'future' if parse_date(season['SeasonStartData']) > now else 'current' if parse_date(season['SeasonEndData']) > now else ''
+    print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {', '.join(season['difficulty_shorthand']).ljust(16)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {note}")
 
 
 def generate():
-    global args, data, season_data
-    last_season_name = ''
-    boss_groups = ['OpenRaidBossGroup01', 'OpenRaidBossGroup02', 'OpenRaidBossGroup03']
+    now = datetime.now(JST).replace(tzinfo=None) # season dates are JST
 
     for region in ['jp', 'gl']:
         print (f"============ {region.upper()} eliminate raids ============")
+        last_season_name = ''
         for season in season_data[region].eliminate_raid_season.values():
-            boss = season['OpenRaidBossGroup01'].split('_',2)
-            season['armor'] = []
-            season['difficulty'] = []
+            season['ignore'] = season['SeasonId'] in SEASON_IGNORE[region]
+            if season['ignore']:
+                continue
 
-            if season['SeasonId'] in SEASON_IGNORE[region]:
-                #print(f"Flagged to ignore {region} season {season['SeasonId']}")
+            boss = season['OpenRaidBossGroup01'].split('_',2)
+            if boss[0] not in RAIDS:
+                print(f"WARNING - Unknown boss {season['OpenRaidBossGroup01']}, {region} SeasonId {season['SeasonId']} will be ignored")
                 season['ignore'] = True
                 continue
 
-            if boss[0] not in RAIDS:
-                print(f"Unknown boss {season['OpenRaidBossGroup01']}")
-                continue
-
-            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 60):
+            start = parse_date(season['SeasonStartData'])
+            if (start - now).days > 60:
                 print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
                 season['ignore'] = True
-                #continue
 
-            if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
+            if last_season_name == RAIDS[boss[0]].name and start > now: #jp tends to have a placeholder duplicate a raid set further in the future
                 print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
                 season['ignore'] = True
-                #continue
 
-
-            season['raid_name'] = RAIDS[boss[0]].name
-            last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
-            
-            if (len(boss)>1):
-                season['env'] = boss[1]
-            else:
-                season['env'] = RAIDS[boss[0]].environment
-
+            season['raid_name'] = last_season_name = RAIDS[boss[0]].name
+            season['env'] = boss[1] if len(boss) > 1 else RAIDS[boss[0]].environment
             season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname}.png"
 
-            season['notes'] = ''
-            season_length = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S") - datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
-            if (season_length.days + 1) != 7: 
-                season['notes'] += f"Non-standard duration of {season_length.days + 1} days"
+            record = resolve_record(season, region, now)
+            season['armor'] = [armor(b['group']) for b in record['bosses']]
+            season['difficulty_shorthand'] = [shared.functions.difficulty_shorthand(b['difficulty']) for b in record['bosses']]
+            season['challenge_difficulty'] = record['challenge_difficulty']
 
-            boss_data = {}
-            difficulties_range = []
-            for group in boss_groups:
-                boss_data[group]= get_raid_boss_data(season[group], region)
+            season_length = parse_date(season['SeasonEndData']) - start
+            season['notes'] = record.get('notes') or (f"Non-standard duration of {season_length.days + 1} days" if season_length.days + 1 != 7 else '')
 
-                season['armor'].append(shared.functions.armor_type(boss_data[group]['armor']))
-
-                stage_difficulties = [x['Difficulty'] for x in boss_data[group]['stage'] if x['IsOpen']]
-                if len(stage_difficulties) > len(difficulties_range): difficulties_range = stage_difficulties
-                season['difficulty'].append(stage_difficulties[-1])
-            
-            if len(difficulties_range) == 6: difficulties_range.append('Torment')
-            season['challenge_difficulty'] = difficulties_range[-1]
-            
-            # Apply historical data overrides
-            apply_historical_overrides(season, season['SeasonId'], region, boss_data, boss_groups, difficulties_range)
-
-            season['difficulty_shorthand'] = [shared.functions.difficulty_shorthand(x) for x in season['difficulty']]
-            
-            # Record this season to historical data if it's current or future
-            record_season_data(season['SeasonId'], region, season['armor'], season['difficulty'], season['challenge_difficulty'], season['notes'])
-            
-            print_season(season)
+            print_season(season, now)
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.filters['environment_type'] = shared.functions.environment_type
-    env.filters['damage_type'] = shared.functions.damage_type
-    env.filters['armor_type'] = shared.functions.armor_type
-    env.filters['thousands'] = shared.functions.format_thousands
     env.filters['difficulty_shorthand'] = shared.functions.difficulty_shorthand
     template = env.get_template('./raid/template_eliminate_raid_seasons.txt')
 
     wikitext = template.render(season_data=season_data)
-    
+
     save_historical_data()
 
     with open(os.path.join(args['outdir'], 'raids' ,f"eliminate_raid_seasons.txt"), 'w+', encoding="utf8") as f:
@@ -233,15 +169,11 @@ def generate():
         wiki.update_section('Grand Assault', 'Grand Assault list', wikitext)
 
 
-
 def init_data():
-    global args, data, season_data
-    
     load_historical_data()
-    data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
     season_data['jp'] = load_season_data(args['data_primary'])
     season_data['gl'] = load_season_data(args['data_secondary'])
-   
+
 
 def main():
     global args
@@ -258,15 +190,9 @@ def main():
 
     if args['wiki'] != None:
         wiki.init(args)
-    else:
-        args['wiki'] = None
 
-    try:
-        init_data()
-        generate()
-    except:
-        parser.print_help()
-        traceback.print_exc()
+    init_data()
+    generate()
 
 
 if __name__ == '__main__':
