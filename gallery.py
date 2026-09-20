@@ -106,6 +106,10 @@ class Gallery(object):
         character_dir_path = os.path.join(root_dir, character_dir)
         character_wikiname = ')' in character_dir and character_dir[:character_dir.rfind(')')+1] or character_dir
         character_wikiname = re.sub('_diorama$', '', character_wikiname).replace('_', ' ')
+
+        override_wikiname = re.sub('_(diorama|S2)$', '', character_dir).replace('_', ' ')
+        if override_wikiname in wikiname_to_devname_map: character_wikiname = override_wikiname
+
         is_diorama = character_dir.endswith("diorama")
         is_exported = (is_diorama or f"{character_dir}_diorama" not in export_catalog) and not character_dir.endswith("S2")    
 
@@ -126,6 +130,11 @@ class Gallery(object):
             files
         )
     
+
+    def sprite_name(self, filename):
+        #files are named after their gallery, whatever follows that prefix must be the sprite's own name
+        return filename.replace('.png', '').removeprefix(self.character_wikiname.replace(' ', '_') + '_')
+
 
     @staticmethod
     def scan_files(dir):
@@ -268,7 +277,7 @@ def get_character_data():
             character_map[character.wiki_name.split(' (')[0]] = []
         character_map[character.wiki_name.split(' (')[0]].append(character)
 
-    if args['npc']:
+    if args['npc'] and args['character_wikiname'] is not None:
         for name in args['character_wikiname']:
             npc = Npc(name)
             if npc.personal_name_en not in character_map:
@@ -295,7 +304,7 @@ def get_character_data():
             sprite_devname_map.update(json.load(f))
 
     for devname, char in sprite_devname_map.items():
-        wikiname_to_devname_map[char['firstname'] + (char['variant'] is not None and f" ({char['variant']})" or "")] = devname
+        wikiname_to_devname_map[char.get('wikiname') or char['firstname'] + (char['variant'] is not None and f" ({char['variant']})" or "")] = devname
     
 
 
@@ -306,7 +315,8 @@ def generate():
     get_character_data()
     scan_directory_for_galleries(args['gallery_dir'])
 
-    export_list = args['character_wikiname'] and [x.split('(',1)[0].replace('_',' ').strip() for x in args['character_wikiname']] or character_map.keys()
+    #Each requested name is reduced to its base name, which exports all of that character's sprites at once; duplicates are consumed so a character is not exported twice in one run
+    export_list = args['character_wikiname'] and list(dict.fromkeys(x.split('(',1)[0].replace('_',' ').strip() for x in args['character_wikiname'])) or character_map.keys()
 
     for character_name in export_list:
         export_galleries:list[Gallery] = [x for x in galleries if x.character_name == character_name and x.is_exported]
@@ -325,7 +335,7 @@ def generate():
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
                 'CharacterName': gallery.character_name,
                 'CharacterVariant': gallery.variant,
-                'SpriteNames': ','.join([x.split(')',1)[-1].split('_',1)[-1].replace('.png', '') for x in Gallery.flatlist(gallery.files_exportable)]),
+                'SpriteNames': ','.join([gallery.sprite_name(x) for x in Gallery.flatlist(gallery.files_exportable)]),
                 'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
         if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
@@ -333,7 +343,10 @@ def generate():
             gallery.cargo_template['Spoiler'] = 'yes'
 
         for order, character in enumerate(character_map[character_name]):
-            gallery_self = next(x for x in export_galleries if x.character_wikiname == character.wiki_name)
+            gallery_self = next((x for x in export_galleries if x.character_wikiname == character.wiki_name), None)
+            if gallery_self is None:
+                print(f"No sprite gallery named {character.wiki_name}, skipping")
+                continue
             gallery_alt = [x for pv in playable_variants for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname == pv]
             gallery_npc =    [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname not in playable_variants and not any(text in x.character_wikiname for text in LEGACY_SPRNAME)]
             gallery_legacy = [x for x in export_galleries if x.character_wikiname != character.wiki_name and x.character_wikiname not in playable_variants and any(text in x.character_wikiname for text in LEGACY_SPRNAME)]

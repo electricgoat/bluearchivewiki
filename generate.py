@@ -55,6 +55,9 @@ def generate():
             'lastname': character.family_name_en,
             'variant': character.variant
         }
+        #if wikiname was overridden add in the override value
+        if character._wiki_name and character._wiki_name != character.wiki_name:
+            devname_entries[devname_key(character.dev_name)]['wikiname'] = character.wiki_name
 
         fragment_sources = "FragmentSources" in data.translated_characters[character.id] and "\n"+data.translated_characters[character.id]["FragmentSources"] or None
         with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:
