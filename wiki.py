@@ -290,6 +290,7 @@ def publish(page_name, wikitext, summary='Publishing generated page'):
 
 
 def upload(file, name, comment = 'File upload', text = ''):
+    """Uploads a file, returns whether the wiki has it afterwards."""
     global site
     f = open(file, "rb")
 
@@ -308,21 +309,23 @@ def upload(file, name, comment = 'File upload', text = ''):
                 }
             }
         )
+        return True
     except ApiError as error:
         if error.message == 'Call failed':
             print (f"Call failed, retrying")
-            upload(file, name, comment, text)
+            return upload(file, name, comment, text)
         elif error.data['code'] == 'backend-fail-internal':
             print (f"Server failed with {error.data['code']}, retrying")
-            upload(file, name, comment, text)
+            return upload(file, name, comment, text)
         elif error.data['code'] == 'badtoken':
             reauthenticate()
-            upload(file, name, comment, text)
+            return upload(file, name, comment, text)
         elif error.data['code'] == 'fileexists-no-change':
             print (f"{error.data['info']}")
             return True
         else:
             print (f"Unknown upload error {error}")
+            return False
 
 
 def file_hashes(names):

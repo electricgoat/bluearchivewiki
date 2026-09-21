@@ -56,7 +56,9 @@ def generate():
             'variant': character.variant
         }
         #if wikiname was overridden add in the override value
-        if character._wiki_name and character._wiki_name != character.wiki_name:
+        if character._wiki_name:
+            print (f"DevName {character.dev_name} has a wiki name override {character._wiki_name} (was {character.wiki_name})")
+        if character._wiki_name:
             devname_entries[devname_key(character.dev_name)]['wikiname'] = character.wiki_name
 
         fragment_sources = "FragmentSources" in data.translated_characters[character.id] and "\n"+data.translated_characters[character.id]["FragmentSources"] or None

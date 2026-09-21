@@ -1,5 +1,6 @@
 from dataclasses import replace
 import os
+import hashlib
 import re
 import traceback
 import argparse
@@ -207,44 +208,48 @@ def generate_page_wikitext(export_galleries:list[Gallery], include_cargo = False
 #     return wikitext
 
 
+def file_sha1(path):
+    with open(path, 'rb') as f: return hashlib.sha1(f.read()).hexdigest()
+
+
+
 def upload_files(export_galleries:list[Gallery]):
     assert wiki.site != None
     global args
 
     for gallery in export_galleries:
-        page_list = wiki.page_list(f"File:{gallery.character_wikiname}")
+        #A page can exist without a file (a duplicate's redirect) and a redirect can hold a file (uploaded while the sprite was still unique)
+        wiki_pages = wiki.page_prefix_list(gallery.character_wikiname)
+        wiki_hashes = wiki.file_hashes([f"File:{x}" for x in Gallery.flatlist(gallery.files)])
         wiki_categories = ["Character sprites", f"{gallery.character_name} images"]
-        wiki_text = "\n".join([f"[[Category:{x}]]" for x in wiki_categories])
+        sprite_text = "\n".join([f"[[Category:{x}]]" for x in wiki_categories])
 
         comment = f"Sprite for {gallery.character_wikiname}"
 
-        for path in gallery.files_exportable.keys():
-            for file in [x for x in gallery.files_exportable[path] if x not in gallery.exclude_files[path]]:
-                uploaded = f"File:{file}" in page_list
+        for path in gallery.files.keys():
+            for file in gallery.files[path]:
+                page = f"File:{file}"
+                has_page, has_file = page in wiki_pages, page in wiki_hashes
+                duplicate_of = gallery.exclude_files[path].get(file)
 
-                if not uploaded or args['reupload']:
-                    print (f"Uploading {file} from {os.path.join(path, file)}")
-                    #path = os.path.join(args['gallery_dir'], gallery.dirname, file)
-                    wiki.upload(os.path.join(path, file), file, comment, wiki_text)
+                if duplicate_of:
+                    #A duplicate is never uploaded: its page is created as a redirect, and turned into one over a file uploaded before
+                    text, summary = f"#REDIRECT [[File:{duplicate_of}]]\n[[Category:Character sprite redirects]]", 'Identical sprite redirect'
+                    update_text = not has_page or has_file or args['update_wikitext']
+                else:
+                    text, summary = sprite_text, 'Updated sprite categories'
+                    local_path = os.path.join(path, file)
+                    uploaded = False
+                    #-reupload replaces a file on the wiki only when its content differs from the local one
+                    if not has_file or (args['reupload'] and wiki_hashes[page] != file_sha1(local_path)):
+                        print (f"Uploading {file} from {local_path}")
+                        uploaded = wiki.upload(local_path, file, comment, text)
+                    #An upload writes the text of a new page only, so a page that was there without a file (a redirect) gets its text once the file is uploaded
+                    update_text = has_page and (args['update_wikitext'] if has_file else uploaded)
 
-                #An upload does not update the wikitext by itself
-                if uploaded and args['update_wikitext'] and not wiki.page_exists(f"File:{file}", wiki_text):
-                    print (f"Updating wikitext of File:{file}")
-                    wiki.publish(f"File:{file}", wiki_text, 'Updated sprite categories')
-
-
-
-def redirect_files(export_galleries:list[Gallery]):
-    assert wiki.site != None
-    global args
-
-    for gallery in export_galleries:
-        page_list = wiki.page_list(f"File:{gallery.character_wikiname}")
-
-        for path in gallery.exclude_files.keys():
-            for file in [x for x in gallery.exclude_files[path] if f"File:{x}" not in page_list]:
-                print (f"Creating redirect from {file} to {gallery.exclude_files[path][file]}")
-                wiki.publish(f"File:{file}", f"#REDIRECT [[File:{gallery.exclude_files[path][file]}]]\n[[Category:Character sprite redirects]]", "Identical sprite redirect")
+                if update_text and not wiki.page_exists(page, text):
+                    print (f"Updating wikitext of {page}: {summary}")
+                    wiki.publish(page, text, summary)
 
 
 
@@ -342,6 +347,8 @@ def generate():
             #print(f"Spoiler sprite: {gallery.dirname}")
             gallery.cargo_template['Spoiler'] = 'yes'
 
+        group_uploaded = False
+
         for order, character in enumerate(character_map[character_name]):
             gallery_self = next((x for x in export_galleries if x.character_wikiname == character.wiki_name), None)
             if gallery_self is None:
@@ -360,8 +367,10 @@ def generate():
             wikitext = generate_page_wikitext(export_galleries, include_cargo = (order==0))
             
             if args['wiki'] != None and wiki.site != None: 
-                upload_files(export_galleries)
-                redirect_files(export_galleries)
+                #Every variant's page lists the same galleries, so the group's files are uploaded once, after the first page resolved the excluded duplicates
+                if not group_uploaded:
+                    upload_files(export_galleries)
+                    group_uploaded = True
 
                 # if not args['npc']:
                 wikipath = character.wiki_name + '/gallery'
@@ -369,7 +378,10 @@ def generate():
                 if args['wiki_section'] != None:
                     #print(f"Updating section {args['wiki_section']} of {wikipath}")
                     wiki.update_section(wikipath, args['wiki_section'], wikitext)
-                elif not wiki.page_exists(wikipath, wikitext) and not args['nogallery']:
+                elif args['gallery'] == 'update' and wiki.page_exists(wikipath):
+                    print(f'Publishing updated {wikipath}')
+                    wiki.publish(wikipath, wikitext, f'Generated character gallery page')
+                elif args['gallery'] == 'create' and not wiki.page_exists(wikipath, wikitext):
                     print(f'Publishing {wikipath}')
                     wiki.publish(wikipath, wikitext, f'Generated character gallery page')
                 # else:
@@ -403,8 +415,8 @@ def main():
     #parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-character_wikiname', nargs="*", type=str, metavar='Wikiname', help='Name(s) of a characters to export')
     parser.add_argument('-npc', action='store_true', help='Treat as an NPC gallery')
-    parser.add_argument('-nogallery', action='store_true', help='Don\'t create gallery page')
-    parser.add_argument('-reupload', action='store_true', help='Try to reupload files')
+    parser.add_argument('-gallery', choices=['create', 'update', 'no'], default='create', help='create: publish new and changed gallery pages (default), update: existing ones only, no: leave them alone')
+    parser.add_argument('-reupload', action='store_true', help='Reupload files that differ from the ones on the wiki')
     parser.add_argument('-update_wikitext', action='store_true', help='Check the wikitext of files already on the wiki and update it')
 
     args = vars(parser.parse_args())
