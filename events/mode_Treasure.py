@@ -1,173 +1,70 @@
-import os
-from jinja2 import Environment, FileSystemLoader
+from typing import NamedTuple
 
 import shared.functions
-from classes.RewardParcel import RewardParcel
+from events.common import EventContext, template_env
 
-missing_localization = None
-missing_code_localization = None
-
-data = {}
-characters = {}
-items = {}
-furniture = {}
-emblems = {}
+env = template_env()
 
 
-class TreasureReward(object):
-    def __init__(self, id, localize_code:str, width:int, height:int, reward_parcel_type:list[str], reward_parcel_id: list[int], reward_parcel_amount: list[int], image:str, wiki_card = None, data = None):
-        self.id = id
-        self.localize_code = localize_code
-        self.width = width
-        self.height = height
-        self.reward_parcel_type = reward_parcel_type
-        self.reward_parcel_id = reward_parcel_id
-        self.reward_parcel_amount = reward_parcel_amount
-        self.image = image
-
-        self.wiki_card = wiki_card
-        self._data = data
-
-    def __repr__(self):
-        return str(self.__dict__)
-
-    @property
-    def name_en(self):
-        global data, missing_localization
-
-        key = shared.functions.hashkey(self.localize_code)
-        if key not in data.localization:
-            print(f"Missing localize key {key} for treasure reward {self.id} ({self.localize_code})")
-            return self.localize_code
-
-        localization = data.localization[key]
-        if 'En' not in localization and missing_localization is not None: missing_localization.add_entry(localization)
-
-        return localization.get('En') or localization.get('Jp') or self.localize_code
-
-    @property
-    def items(self) -> list[RewardParcel]:
-        items_list = []
-
-        for i, parcel_id in enumerate(self.reward_parcel_id):
-            items_list.append(RewardParcel(
-                self.reward_parcel_type[i],
-                parcel_id,
-                self.reward_parcel_amount[i],
-                10000,
-                None,
-            ))
-                
-        return items_list
-    
-
+class TreasureReward(NamedTuple):
+    """A treasure hidden on a round's board, with its name and reward cards resolved."""
+    name_en: str
+    width: int
+    height: int
+    image: str
+    cards: list[str]
 
     def wikitext_items(self) -> list[str]:
-        #assert(self.wiki_card != None)
-        items_list = []
-        #for item in self.items: print(item)
-        #print(f"probs {[x.prob for x in self.items]}")
-        #total_prob = sum(x.prob for x in self.items)
-        #print(f"total_prob {total_prob}")
-        for index, item in enumerate(self.items):
-            # if item.id in IGNORE_ITEM_ID:
-            #     continue
-
-            #probability = total_prob > 0 and item.prob / total_prob * 100 or 0
-            #if use_parcel_prob: probability = self.parcel_prob[index] / 100
-            
-            #items_list.append(self.wiki_card(item.parcel_type, item.parcel_id, quantity=quantity if quantity!=1 else None, text='', probability=probability if probability<100 else None, block=True, size='60px' )) 
-            items_list.append(wiki_card(item.parcel_type, item.parcel_id, quantity=item.amount, text='', probability=None, block=True, size='48px' )) 
-        return items_list
-    
+        return self.cards
 
 
-
-def wiki_card(type: str, id: int, **params):
-    global data, characters, items, furniture, emblems
-    return shared.functions.wiki_card(type, id, data=data, characters=characters, items=items, furniture=furniture, emblems=emblems, **params)
-
-
-def get_mode_treasure(season_id: int, ext_data, ext_characters, ext_items, ext_furniture, ext_emblems, ext_missing_localization, ext_missing_code_localization):
-    global data, characters, items, furniture, emblems
-    global missing_localization, missing_code_localization
-    data = ext_data
-    characters = ext_characters
-    items = ext_items
-    furniture = ext_furniture
-    emblems = ext_emblems
-    missing_localization = ext_missing_localization
-    missing_code_localization = ext_missing_code_localization
-
-    env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
-    env.globals['len'] = len
-    
-    env.filters['environment_type'] = shared.functions.environment_type
-    env.filters['damage_type'] = shared.functions.damage_type
-    env.filters['armor_type'] = shared.functions.armor_type
-    env.filters['thousands'] = shared.functions.format_thousands
-    env.filters['nl2br'] = shared.functions.nl2br
-    env.filters['nl2p'] = shared.functions.nl2p
+def parse_treasure(ctx: EventContext, treasure: dict) -> TreasureReward:
+    return TreasureReward(
+        treasure_name(ctx, treasure),
+        treasure['CellUnderImageWidth'],
+        treasure['CellUnderImageHeight'],
+        treasure['CellUnderImagePath'].rsplit('/',1)[-1],
+        [ctx.wiki_card(parcel_type, parcel_id, quantity=amount, text='', probability=None, block=True, size='48px')
+         for parcel_type, parcel_id, amount in zip(treasure['RewardParcelType'], treasure['RewardParcelId'], treasure['RewardParcelAmount'])],
+    )
 
 
+def treasure_name(ctx: EventContext, treasure: dict) -> str:
+    key = shared.functions.hashkey(treasure['LocalizeCodeID'])
+    if key not in ctx.data.localization:
+        print(f"Missing localize key {key} for treasure reward {treasure['Id']} ({treasure['LocalizeCodeID']})")
+        return treasure['LocalizeCodeID']
+
+    localization = ctx.data.localization[key]
+    if 'En' not in localization: ctx.missing_localization.add_entry(localization)
+
+    return localization.get('En') or localization.get('Jp') or treasure['LocalizeCodeID']
+
+
+def get_mode_treasure(ctx: EventContext, season_id: int) -> str:
+    data = ctx.data
     wikitext = {'title':'===Inventory Management===', 'rounds':''}
 
-    #board = data.event_content_treasure[season_id]
-    #print(board)
-
-    rounds = [x for x in data.event_content_treasure_round[season_id]]
-    for round in rounds: 
-        round['treasures'] = []
-        round['rewards'] = []
-
-        for i, reward_id in enumerate(round['RewardID']): 
-            #amount = round['RewardAmount'][i]
-            treasure = data.event_content_treasure_reward[reward_id]
-
-            round['treasures'].append(TreasureReward(   treasure['Id'],
-                                             treasure['LocalizeCodeID'], 
-                                             treasure['CellUnderImageWidth'], 
-                                             treasure['CellUnderImageHeight'], 
-                                             treasure['RewardParcelType'],
-                                             treasure['RewardParcelId'],
-                                             treasure['RewardParcelAmount'],
-                                             treasure['CellUnderImagePath'].rsplit('/',1)[-1],
-                                             #wiki_card,
-                                             #data
-                                             )
-            )
-            
+    rounds = [dict(x) for x in sorted(data.event_content_treasure_round[season_id], key=lambda x: x['TreasureRound'])]
+    for round in rounds:
+        round['treasures'] = [parse_treasure(ctx, data.event_content_treasure_reward[x]) for x in round['RewardID']]
 
     cost_goods_ids = [x['CellCheckGoodsId'] for x in rounds]
     if len(set(cost_goods_ids)) == 1: #all rounds cost the same
         cost_good = data.goods[cost_goods_ids[0]]
-        wiki_price = wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
+        wiki_price = ctx.wiki_card('Item', cost_good['ConsumeParcelId'][0], quantity = cost_good['ConsumeParcelAmount'][0])
     else:
         wiki_price = 'varies depending on round'
-        
+
     cell_reward_ids = [x['CellRewardId'] for x in rounds]
     if len(set(cell_reward_ids)) == 1: #all rounds have the same cell reveal reward
         cell_reward = data.event_content_treasure_cell_reward[cell_reward_ids[0]]
-        cell_reward_parcels = []
-        for i, parcel_id in enumerate(cell_reward['RewardParcelId']):  
-            cell_reward_parcels.append(RewardParcel(
-                cell_reward['RewardParcelType'][i],
-                parcel_id,
-                cell_reward['RewardParcelAmount'][i],
-                10000,
-                None,
-                wiki_card,
-                data
-            ))
-        wiki_cell_reward = ", ".join(wiki_card(parcel.parcel_type, parcel.parcel_id, quantity=parcel.amount, probability=None ) for parcel in cell_reward_parcels)
-
+        wiki_cell_reward = ", ".join(ctx.wiki_card(parcel_type, parcel_id, quantity=amount, probability=None)
+                                     for parcel_type, parcel_id, amount in zip(cell_reward['RewardParcelType'], cell_reward['RewardParcelId'], cell_reward['RewardParcelAmount']))
     else:
         wiki_cell_reward = 'varies depending on round'
-    
 
-    rounds = sorted(rounds, key=lambda x: x['TreasureRound'])
     template = env.get_template('template_treasure_rounds.txt')
     wikitext['rounds'] = template.render(rounds=rounds, wiki_price=wiki_price, wiki_cell_reward=wiki_cell_reward)
 
-            
     return '\n'.join(wikitext.values()) + '\n'

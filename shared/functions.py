@@ -209,12 +209,12 @@ def translate_package_name(text):
     return text
 
 
-def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:dict|None, furniture:dict|None, emblems:dict|None, **params):
+def wiki_card(type: str, id: int, data, characters:dict|None, items:dict|None, furniture:dict|None, emblems:dict|None, **params):
     wikitext_params = ''
 
     match type:
         case 'Item':
-            assert data is not None, "ItemCard card is called for, but no items dict has been "
+            assert items is not None, "ItemCard card is called for, but no items dict has been provided"
             card_type = 'ItemCard'
             name = items[id].name_en
 
@@ -223,11 +223,11 @@ def wiki_card(type: str, id: int, data:dict|None, characters:dict|None, items:di
                 name = items[6999].name_en
 
         case 'Equipment':
-            assert data is not None, "Equipment ItemCard card is called for, but no data dict has been "
+            assert data is not None, "Equipment ItemCard card is called for, but no data has been provided"
             card_type = 'ItemCard'
             name = data.etc_localization[data.equipment[id]['LocalizeEtcId']]['NameEn']
         case 'Currency':
-            assert data is not None, "Currency ItemCard card is called for, but no data dict has been "
+            assert data is not None, "Currency ItemCard card is called for, but no data has been provided"
             card_type = 'ItemCard'
             name = data.etc_localization[data.currencies[id]['LocalizeEtcId']]['NameEn']
         case 'Character':

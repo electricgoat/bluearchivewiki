@@ -349,6 +349,9 @@ class JankenStage(Stage):
         self.skill_cost_event_chance = skill_cost_event_chance
         self.fixed_echelon = fixed_echelon or []
         self.stage_icon = stage_icon
+        #events/mode_Janken.py fills these in from its character and equipment tables
+        self.enemy: dict|None = None
+        self.echelon: list[dict] = []
 
 
     @classmethod

@@ -8,7 +8,7 @@
 |-
 |{{location.order}}
 |'''{{location.secretstone_prob/100}}%'''
-|<div class="rewards">{%- for reward in location.rewards -%}{{wiki_itemcard(reward, Card.QUANTITY, Card.PROBABILITY)}}{% endfor %}</div>
+|<div class="rewards">{%- for reward in location.rewards -%}{{reward_card(reward)}}{% endfor %}</div>
 {% endfor -%}
 |{% raw %}}{% endraw %}
 

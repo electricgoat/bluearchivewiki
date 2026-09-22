@@ -41,553 +41,236 @@ enemy_tags = CLUBS | TAG_MAP | {
         'DecagrammatonSPO': 'Decagrammaton',
 }
 
-
-map_descriptions = {
-    'MISSION_CLEAR_ACCOUNT_LEVEL_UP':1033750787,
-    #'Mission_Get_Specific_Item_Count':999, #event token redeem 
-    'MISSION_CLEAR_SPECIFIC_SCENARIO_MAIN_02':856660351,
-    'MISSION_CLEAR_SCHEDULE_IN_Millenium_1':9999990001,
-    'MISSION_CLEAR_SCHEDULE_IN_Millenium_2':335064968,
-    'MISSION_CLEAR_SCHEDULE_IN_Millenium_3':2039883679,
-    'MISSION_CLEAR_CAMPAIGN_STAGE_DIFFICULTY_NORMAL':3452893853,
-    'MISSION_CLEAR_CAMPAIGN_STAGE_DIFFICULTY_HARD':4209844389,  
-    'MISSION_CLEAR_SCHEDULE_IN_SchaleResidence_ArcadeCenter':9999990002,
-    'Mission_Schale_Office_At_Specipic_Rank':3638053631,
-    'Mission_Schale_Residence_At_Specipic_Rank':3180890437,
-    'MISSION_Character_LIMITBREAK':2160474459,
-    'MISSION_CHARACTER_SKILL_LEVEL_UP_COUNT':2974642405,
-    'MISSION_CLEAR_EQUIPMENT_LEVEL_UP_COUNT':2490203958,
-    'MISSION_CLEAR_EQUIPMENT_TIER_UP_COUNT':1464479618,
-    'MISSION_CHARACTER_SPECIFIC_LEVEL_COUNT':3383040034,
-    'MISSION_USE_GEM':2443754493,
-    'MISSION_USE_GOLD':3553550028,
-    'MISSION_GET_CHARACTER_COUNT':4260571357,
-    'MISSION_GET_CHARACTER_GEHENNA_COUNT':3839565178,
-    'Mission_ShopBuyAP_Count':4109224226,
-    'MISSION_CAFE_COMFORT':1867335861,
-    'Mission_Cafe_Rank_Count':1766036111,
-    'MISSION_DAILY_LOGIN':3140972389,
-    'Mission_Schedule_Count':383264321,
-    'Mission_Total_Get_Clear_Star_Count':2500747902,
-    'Mission_Craft_Count':4193814424,
-    'MISSION_USE_ACTION_POINT':1282336120,
-    'Event_Mission_Kill_DecagrammatonSPO':1276704409,
-    'Event_Mission_DiceRace_Use_Dice_Count':1086597895,
-    'Event_Mission_DiceRace_Finish_Lap_Count':3628171236,
-    'Event_Mission_Complete_Mission_All':546921936,
-    'Event_MISSION_CLEAR_CAMPAIGN_STAGE_DIFFICULTY_Hard':9999990003,
-    'Event_Mission_Complete_Campaign_Stage_Story': 9999990004,
-    'Event_Mission_Complete_Campaign_Stage_Quest': 9999990005,
-    'Mission_Event_Location_At_Specipic_Rank_808': 4069346749,
-    'Event_Mission_Omikuji_Count': 1910182025,
-    'Event_Mission_Daily_Complete_Mission': 373831186,
-    'Event_Mission_Conquest_Get_Tile_Count': 9999990007,
-    'Mission_Event_Location_At_Specipic_Rank_824': 260494932,
-    'Mission_Event_Location_At_Specipic_Rank_817': 816893370,
-    'Event_Mission_Complete_Mission_Challenge_Count': 9999990008,
-    'Event_Mission_Complete_Mission_Challenge_Count_817': 9999990008,
-    'MISSION_CLEAR_SCHEDULE_IN_DU_1': 3664015476,
-    'MISSION_CLEAR_SCHEDULE_IN_DU_2': 616759800,
-    'Event_Mission_WorldRaid_JoinToBossNumber': 2946961325,
-    'Event_Mission_WorldRaid_JoinWithTag_Abydos': 1685706037,
-    'Event_Mission_TBG_Complete_Round_Count': 1240110750,
-    'Event_Mission_TBG_Complete_Thema1_Normal': 3285415668,
-    'Event_Mission_TBG_Complete_Thema2_Normal': 2074176759,
-    'Event_Mission_TBG_Complete_Thema3_Normal': 3986099473,
-    'Event_Mission_TBG_Complete_Thema4_Normal': 107350320,
-    'Event_Mission_TBG_Complete_Thema2_Hidden': 2905801638,
-    'Event_Mission_TBG_Complete_Thema4_Hidden': 3584453321,
-    'Event_Mission_Complete_Campaign_Stage': 538150987,
-    'Event_Mission_Omikuji_Count_832': 2417672652,
-    #'Mission_Clear_Specific_Chaserdungeon': 1859421411,
-    #'Mission_Clear_Specific_Schooldungeon': 2400906688,
-    #'Mission_Clear_Specific_Weekdungeon': 4187819492,
-    'MISSION_CLEAR_SCHEDULE_IN_Abydos_1': 3289015374,
-}
+EVENT_DIFFICULTIES = ['', 'Story', 'Quest', 'Challenge']
 
 
-
-def mission_desc(mission, data, missing_descriptions = [], items = None, furniture = None):
-
-    localize_id = None    
+def mission_desc(mission, data, missing_descriptions = None, items = None, furniture = None):
+    """Put the mission's Japanese and English descriptions on it: its localized text, filled in by the localizer of its condition type if there is one."""
     mission['AutoLocalized'] = False
 
-    
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
+    key = description_key(mission)
     if key in data.localization:
-        #print (f"Key {key} found in localization data")
-        mission['DescriptionJp'] = description_cleanup(data.localization[key].get('Jp').replace('{0}', str(mission['CompleteConditionCount']))) 
-        mission['DescriptionEn'] = description_cleanup(data.localization[key].get('En', '').replace('{0}', str(mission['CompleteConditionCount']))) 
+        mission['DescriptionJp'] = description_cleanup(data.localization[key].get('Jp').replace('{0}', str(mission['CompleteConditionCount'])))
+        mission['DescriptionEn'] = description_cleanup(data.localization[key].get('En', '').replace('{0}', str(mission['CompleteConditionCount'])))
         if 'En' not in data.localization[key]: print (f"Untranslated mission localize id {key}")
-        #else: return
 
+    localizer = LOCALIZERS.get(mission['CompleteConditionType'].replace('Reset_',''))
+    if localizer is not None: localizer(mission, data, items, furniture)
 
-    #Matching by Description is a finer sieve than condition type, it's used because some conditions are used for differently-phrased missions
-    if f"localize_{mission['Description']}" in globals():
-        globals()[f"localize_{mission['Description']}"](mission, data, items, furniture)
-    elif f"localize_{mission['CompleteConditionType'].replace('Reset_','')}" in globals():
-        globals()[f"localize_{mission['CompleteConditionType'].replace('Reset_','')}"](mission, data, items, furniture)
-
-
-    if not mission['AutoLocalized'] and mission['Description'] not in map_descriptions.keys() and key not in data.localization :
-        missing_descriptions.append(mission['Description'])
+    if not mission['AutoLocalized'] and key not in data.localization:
+        if missing_descriptions is not None: missing_descriptions.append(mission['Description'])
         print (f"Missing localization mapping {key} for {mission['Description']} of {mission}")
         return False
 
-    
-    if not mission['AutoLocalized'] and mission['Description'] in map_descriptions.keys() and map_descriptions[mission['Description']] in data.localize_code.keys():
-        localize_id = map_descriptions[mission['Description']]
-        mission['LocalizeId'] = localize_id
-        if 'Jp' in data.localize_code[localize_id]:
-            mission['DescriptionJp'] = description_cleanup(data.localize_code[localize_id]['Jp'].replace('{0}', str(mission['CompleteConditionCount']))) 
-        if 'En' in data.localize_code[localize_id]:
-            mission['DescriptionEn'] = description_cleanup(data.localize_code[localize_id]['En'].replace('{0}', str(mission['CompleteConditionCount']))) 
+
+def description_key(mission) -> int:
+    return isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
 
 
-def localize_ClearSpecificChaserDungeonCount(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
+def localized_description(mission, data) -> tuple[str, str]:
+    """The Japanese and English texts of the mission's localized description, placeholders included."""
+    localization = data.localization[description_key(mission)]
+    return localization.get('Jp'), localization.get('En', '')
 
-    CHASER_DUNGEON_NAMES = ['', 'Overpass', 'Desert Railroad', 'Classroom']
+
+def fill(text: str, values: dict) -> str:
+    """Replace each placeholder of values in the text, in order."""
+    for placeholder, value in values.items():
+        text = text.replace(placeholder, str(value))
+    return text
+
+
+def describe(mission, desc_jp: str, desc_en: str) -> bool:
+    mission['DescriptionJp'] = description_cleanup(desc_jp)
+    mission['DescriptionEn'] = description_cleanup(desc_en)
+    mission['AutoLocalized'] = True
+    return True
+
+
+def dungeon_stage(mission, dungeon_names: dict[int, str]) -> str:
+    """The dungeon and stage letter of the stage id in the mission's first condition parameter."""
     stage_id = str(mission['CompleteConditionParameter'][0])
-    #print(f"Stage ID: {stage_id}")
-    stage_name = f"{CHASER_DUNGEON_NAMES[int(stage_id[1:3])]} {chr(ord('A') + int(stage_id[4:]) - 1)}"
-    #print(f"Stage name: {stage_name}")
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+    return f"{dungeon_names.get(int(stage_id[1:3]), '')} {chr(ord('A') + int(stage_id[4:]) - 1)}"
 
 
-def localize_ClearSpecificFindGiftAndBloodDungeonCount(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
-
-    WEEK_DUNGEON_NAMES = {11:'Base Defense', 21:'Item Retrieval'}
-    stage_id = str(mission['CompleteConditionParameter'][0])
-    #print(f"Stage ID: {stage_id}")
-    stage_name = f"{WEEK_DUNGEON_NAMES.get(int(stage_id[1:3]),'')} {chr(ord('A') + int(stage_id[4:]) - 1)}"
-    #print(f"Stage name: {stage_name}")
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def campaign_stage(mission) -> tuple[str, str]:
+    """The name (like 12-3H) and difficulty of the campaign stage in the mission's condition parameters."""
+    parameters = mission['CompleteConditionParameter']
+    difficulty = int(str(parameters[-1])[3:4])
+    stage = str(parameters[-1])[1:3].lstrip('0') + '-' + str(parameters[0])[5:7].lstrip('0') + ('H' if difficulty == 2 else '')
+    return stage, ['', 'Normal', 'Hard'][difficulty]
 
 
-def localize_ClearSpecificSchoolDungeonCount(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
-
-    SCHOOL_DUNGEON_NAMES = {1:'Trinity', 2:'Gehenna', 3:'Millennium'}
-    stage_id = str(mission['CompleteConditionParameter'][0])
-    #print(f"Stage ID: {stage_id}")
-    stage_name = f"{SCHOOL_DUNGEON_NAMES.get(int(stage_id[1:3]),'')} {chr(ord('A') + int(stage_id[4:]) - 1)}"
-    #print(f"Stage name: {stage_name}")
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_name).replace('{1}', str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def event_stage(mission, offset: int = 0) -> tuple[str, int]:
+    """The number and difficulty index of the event stage in the mission's last condition parameter: the event id (plus offset digits), the difficulty, a digit, the stage number."""
+    idlen = len(str(mission['EventContentId'])) + offset
+    parameter = str(mission['CompleteConditionParameter'][-1])
+    return parameter[idlen+2:idlen+4].lstrip('0'), int(parameter[idlen:idlen+1])
 
 
-def localize_Achieve_EquipmentAtSpecificTierUpCount(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(', '.join(str(x) for x in mission['CompleteConditionParameter']))).replace('{1}', str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(', '.join(str(x) for x in mission['CompleteConditionParameter']))).replace('{1}', str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def tag_names(tags, names: dict) -> str:
+    """The tag, or the tags joined by "or", as names spells them."""
+    return " or ".join(names.get(x) or x for x in ([tags] if isinstance(tags, str) else tags))
 
 
-def localize_DreamGetSpecificParameter(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
+def localize_ClearSpecificChaserDungeonCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    values = {'{0}': dungeon_stage(mission, {1: 'Overpass', 2: 'Desert Railroad', 3: 'Classroom'}), '{1}': mission['CompleteConditionCount']}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
+
+
+def localize_ClearSpecificFindGiftAndBloodDungeonCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    values = {'{0}': dungeon_stage(mission, {11: 'Base Defense', 21: 'Item Retrieval'}), '{1}': mission['CompleteConditionCount']}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
+
+
+def localize_ClearSpecificSchoolDungeonCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    values = {'{0}': dungeon_stage(mission, {1: 'Trinity', 2: 'Gehenna', 3: 'Millennium'}), '{1}': mission['CompleteConditionCount']}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
+
+
+def localize_Achieve_EquipmentAtSpecificTierUpCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    values = {'{0}': ', '.join(str(x) for x in mission['CompleteConditionParameter']), '{1}': mission['CompleteConditionCount']}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
+
+
+def localize_DreamGetSpecificParameter(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
 
     params = {x['Id']:x for x in data.minigame_dream_parameter[mission['EventContentId']]}
     condition_param = data.localization[params[mission['CompleteConditionParameter'][1]]['LocalizeEtcId']]
 
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('Jp'))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('En'))) 
-
-    mission['AutoLocalized'] = True
-    return True
+    return describe(mission, fill(desc_jp, {'{0}': mission['CompleteConditionCount'], '{1}': condition_param.get('Jp')}),
+                             fill(desc_en, {'{0}': mission['CompleteConditionCount'], '{1}': condition_param.get('En')}))
 
 
-def localize_DreamGetSpecificScheduleCount(mission, data, items = None, furniture = None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
+def localize_DreamGetSpecificScheduleCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
 
     params = {x['DreamMakerScheduleGroupId']:x for x in data.minigame_dream_schedule[mission['EventContentId']]}
     condition_param = data.localization[params[mission['CompleteConditionParameter'][1]]['LocalizeEtcId']]
 
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('Jp'))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', str(mission['CompleteConditionCount'])).replace('{1}', condition_param.get('En'))) 
-
-    mission['AutoLocalized'] = True
-    return True
+    return describe(mission, fill(desc_jp, {'{0}': mission['CompleteConditionCount'], '{1}': condition_param.get('Jp')}),
+                             fill(desc_en, {'{0}': mission['CompleteConditionCount'], '{1}': condition_param.get('En')}))
 
 
-def localize_CompleteScheduleWithTagCount(mission, data, items = None, furniture = None):
-    desc_jp = '受け入れ済みの$2の生徒と$1回スケジュールを実行する'
-    desc_en = 'Schedule a lesson with student from $2 $1 time(s)'
-
-    tag = type(mission['CompleteConditionParameterTag']) is list and " or ".join(map_tags(mission['CompleteConditionParameterTag'])) or map_tag(mission['CompleteConditionParameterTag'])
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',tag)) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount'])).replace('$2',tag)) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_CompleteScheduleWithTagCount(mission, data, items, furniture):
+    tags = mission['CompleteConditionParameterTag']
+    values = {'$1': mission['CompleteConditionCount'], '$2': " or ".join(map_tags(tags)) if isinstance(tags, list) else map_tag(tags)}
+    return describe(mission, fill('受け入れ済みの$2の生徒と$1回スケジュールを実行する', values), fill('Schedule a lesson with student from $2 $1 time(s)', values))
 
 
-def localize_ClearSchoolDungeonCount(mission, data, items = None, furniture = None):
-    desc_jp = ''
-    desc_en = 'Participate in School Exchange $1 time(s)'
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearSchoolDungeonCount(mission, data, items, furniture):
+    values = {'$1': mission['CompleteConditionCount']}
+    return describe(mission, fill('', values), fill('Participate in School Exchange $1 time(s)', values))
 
 
-def localize_ClearSpecificScenario(mission, data, items = None, furniture = None):
-    desc_jp = 'メインストーリー第$1編$2章$3話をクリア'
-    desc_en = 'Complete Volume $1, Chapter $2, Episode $3 of the main story'
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionParameter'][0])[0:1])
-                                                          .replace('$2', str(mission['CompleteConditionParameter'][0])[1:2])
-                                                          .replace('$3', str(mission['CompleteConditionParameter'][0])[2:4].lstrip('0'))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionParameter'][0])[0:1])
-                                                          .replace('$2', str(mission['CompleteConditionParameter'][0])[1:2])
-                                                          .replace('$3', str(mission['CompleteConditionParameter'][0])[2:4].lstrip('0'))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearSpecificScenario(mission, data, items, furniture):
+    scenario = str(mission['CompleteConditionParameter'][0])
+    values = {'$1': scenario[0:1], '$2': scenario[1:2], '$3': scenario[2:4].lstrip('0')}
+    return describe(mission, fill('メインストーリー第$1編$2章$3話をクリア', values), fill('Complete Volume $1, Chapter $2, Episode $3 of the main story', values))
 
 
-def localize_ClearSpecificCampaignStageCount(mission, data, items = None, furniture = None):
-    desc_jp = 'エリア[[Missions/$1|$1]] $2をクリア'
-    desc_en = 'Clear $2 Mission [[Missions/$1|$1]]'
-
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
-    difficulty_names = ['','Normal','Hard']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearSpecificCampaignStageCount(mission, data, items, furniture):
+    stage, difficulty = campaign_stage(mission)
+    values = {'$1': stage, '$2': difficulty}
+    return describe(mission, fill('エリア[[Missions/$1|$1]] $2をクリア', values), fill('Clear $2 Mission [[Missions/$1|$1]]', values))
 
 
-def localize_ClearCampaignStageTimeLimitFromSecond(mission, data, items = None, furniture = None):
-    desc_jp = '任務ステージ[[Missions/$1|$1]]$2を$3秒以内にクリア'
-    desc_en = 'Clear $2 Mission [[Missions/$1|$1]] within $3 seconds'
-
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[3:4])
-    difficulty_names = ['','Normal','Hard']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[1:3].lstrip('0')+'-'+str(mission['CompleteConditionParameter'][0])[5:7].lstrip('0')+(difficulty == 2 and 'H' or '')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearCampaignStageTimeLimitFromSecond(mission, data, items, furniture):
+    stage, difficulty = campaign_stage(mission)
+    values = {'$1': stage, '$2': difficulty, '$3': mission['CompleteConditionCount']}
+    return describe(mission, fill('任務ステージ[[Missions/$1|$1]]$2を$3秒以内にクリア', values), fill('Clear $2 Mission [[Missions/$1|$1]] within $3 seconds', values))
 
 
-def localize_ClearEventStageTimeLimitFromSecond(mission, data, items = None, furniture = None):
-    desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
-    desc_en = 'Clear $2 $1 within $3 seconds'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearEventStageTimeLimitFromSecond(mission, data, items, furniture):
+    stage, difficulty = event_stage(mission)
+    values = {'$1': stage, '$2': EVENT_DIFFICULTIES[difficulty], '$3': mission['CompleteConditionCount']}
+    return describe(mission, fill('任務ステージ$1 $2を$3秒以内にクリア', values), fill('Clear $2 $1 within $3 seconds', values))
 
 
-def localize_EventCompleteCampaignStageMinimumTurn(mission, data, items = None, furniture = None):
-    desc_jp = '$2のステージ$1を$3ターン以内にクリア'
-    desc_en = 'Clear $2 $1 within $3 turns'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_EventCompleteCampaignStageMinimumTurn(mission, data, items, furniture):
+    stage, difficulty = event_stage(mission)
+    values = {'$1': stage, '$2': EVENT_DIFFICULTIES[difficulty], '$3': mission['CompleteConditionCount']}
+    return describe(mission, fill('$2のステージ$1を$3ターン以内にクリア', values), fill('Clear $2 $1 within $3 turns', values))
 
 
-def localize_CompleteMission(mission, data, items = None, furniture = None):
-    desc_jp = 'イベントのチャレンジミションを$1個以上クリア'
-    desc_en = 'Complete $1 Achievement Missions'
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_CompleteMission(mission, data, items, furniture):
+    values = {'$1': mission['CompleteConditionCount']}
+    return describe(mission, fill('イベントのチャレンジミションを$1個以上クリア', values), fill('Complete $1 Achievement Missions', values))
 
 
-def localize_Mission_Get_Specific_Item_Count(mission, data, items, furniture):
-
-    desc_jp = '$1を$2個獲得する'
-    desc_en = 'Acquire $2 $1'
-
-    if type(mission['CompleteConditionParameter']) is list:
-        for index, etag in enumerate(mission['CompleteConditionParameter']):
-            mission['CompleteConditionParameter'][index] = mission['CompleteConditionParameter'][index] in items and items[mission['CompleteConditionParameter'][index]].name_en or f"Item {mission['CompleteConditionParameter'][index]}"
-        tag = " or ".join(mission['CompleteConditionParameter'])
-    else:
-        tag = mission['CompleteConditionParameter'][index] in items and items[mission['CompleteConditionParameter'][index]].name_en or f"Item {mission['CompleteConditionParameter'][index]}"
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_GetItemWithTagCount(mission, data, items, furniture):
+    tags = mission['CompleteConditionParameterTag']
+    values = {'$1': " or ".join(get_item_type(x) for x in tags) if isinstance(tags, list) else get_item_type(tags), '$2': mission['CompleteConditionCount']}
+    return describe(mission, fill('$1を$2個獲得する', values), fill('Acquire $2 $1', values))
 
 
-def localize_GetItemWithTagCount(mission, data, items=None, furniture=None):
-    desc_jp = '$1を$2個獲得する'
-    desc_en = 'Acquire $2 $1'
-
-    if type(mission['CompleteConditionParameterTag']) is list:
-        for index, etag in enumerate(mission['CompleteConditionParameterTag']):
-            mission['CompleteConditionParameterTag'][index] = get_item_type(mission['CompleteConditionParameterTag'][index])
-        tag = " or ".join(mission['CompleteConditionParameterTag'])
-    else:
-        tag =  get_item_type(mission['CompleteConditionParameterTag'])
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_GetEquipmentWithTagCount(mission, data, items, furniture):
+    tags = mission['CompleteConditionParameterTag']
+    values = {'$1': item_types[tags] if isinstance(tags, str) else " or ".join(item_types[map_tag(x)] for x in tags), '$2': mission['CompleteConditionCount']}
+    return describe(mission, fill('$1を$2個獲得する', values), fill('Acquire $2 $1', values))
 
 
-def localize_GetEquipmentWithTagCount(mission, data, items=None, furniture=None):
-    global item_types
-
-    desc_jp = '$1を$2個獲得する'
-    desc_en = 'Acquire $2 $1'
-
-    for i, tag in enumerate(mission['CompleteConditionParameterTag']):
-        if tag in TAG_MAP.keys(): mission['CompleteConditionParameterTag'][i] = TAG_MAP[tag]
-    
-    if type(mission['CompleteConditionParameterTag']) is list and len(mission['CompleteConditionParameterTag'])==1: mission['CompleteConditionParameterTag'] = mission['CompleteConditionParameterTag'][0] 
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', item_types[mission['CompleteConditionParameterTag']]).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', item_types[mission['CompleteConditionParameterTag']]).replace('$2',str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
-
-
-def localize_GetSpecificItemCount(mission, data, items=None, furniture=None):
-    global item_types
+def localize_GetSpecificItemCount(mission, data, items, furniture):
     assert items is not None
+    count = mission['CompleteConditionCount']
 
-    desc_jp = '$1個獲得する'
-    desc_en = 'Acquire $1'
-
-    toget_jp = ''
-    toget_en = ''
-
-    for item_id in mission['CompleteConditionParameter']:
-        toget_jp += f"{items[item_id].name_jp}を{mission['CompleteConditionCount']}, "
-        toget_en += f"{mission['CompleteConditionCount']} {items[item_id].name_en}, "
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', toget_jp[0:-2]))
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', toget_en[0:-2]))
-
-    mission['AutoLocalized'] = True
-    return True
+    toget_jp = ', '.join(f"{items[x].name_jp}を{count}" for x in mission['CompleteConditionParameter'])
+    toget_en = ', '.join(f"{count} {items[x].name_en}" for x in mission['CompleteConditionParameter'])
+    return describe(mission, fill('$1個獲得する', {'$1': toget_jp}), fill('Acquire $1', {'$1': toget_en}))
 
 
-def localize_ClearBattleWithTagCount(mission, data = None, items=None, furniture=None):
-    global enemy_tags
-
-    desc_jp = '-'
-    desc_en = 'Clear any stage with a student from $1 $2 time(s)'
-
-    if type(mission['CompleteConditionParameterTag']) is str:
-        tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
-    elif type(mission['CompleteConditionParameterTag']) is list:
-        tag = " or ".join([x in enemy_tags and enemy_tags[x] or x for x in mission['CompleteConditionParameterTag']])
-
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearBattleWithTagCount(mission, data, items, furniture):
+    values = {'$1': tag_names(mission['CompleteConditionParameterTag'], enemy_tags), '$2': mission['CompleteConditionCount']}
+    return describe(mission, fill('-', values), fill('Clear any stage with a student from $1 $2 time(s)', values))
 
 
-def localize_KillEnemyWithTagCount(mission, data = None, items=None, furniture=None):
-    global enemy_tags
-
-    desc_jp = '-'
-    desc_en = 'Defeat any enemy from $1 $2 time(s)'
-
-    if type(mission['CompleteConditionParameterTag']) is list:
-        for index, etag in enumerate(mission['CompleteConditionParameterTag']):
-            mission['CompleteConditionParameterTag'][index] = etag in enemy_tags and enemy_tags[etag] or etag
-        tag = " or ".join(mission['CompleteConditionParameterTag'])
-    else:
-        tag = mission['CompleteConditionParameterTag'] in enemy_tags and enemy_tags[mission['CompleteConditionParameterTag']] or mission['CompleteConditionParameterTag']
-
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', tag).replace('$2',str(mission['CompleteConditionCount']))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_KillEnemyWithTagCount(mission, data, items, furniture):
+    values = {'$1': tag_names(mission['CompleteConditionParameterTag'], enemy_tags), '$2': mission['CompleteConditionCount']}
+    return describe(mission, fill('-', values), fill('Defeat any enemy from $1 $2 time(s)', values))
 
 
-def localize_ConquerSpecificStepTileAll(mission, data = None, items=None, furniture=None):
-    desc_jp = 'エリア$1をすべて占領'
-    desc_en = 'Occupy all of area $1'
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1',str(mission['CompleteConditionParameter'][2]+1))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1',str(mission['CompleteConditionParameter'][2]+1))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ConquerSpecificStepTileAll(mission, data, items, furniture):
+    values = {'$1': mission['CompleteConditionParameter'][2]+1}
+    return describe(mission, fill('エリア$1をすべて占領', values), fill('Occupy all of area $1', values))
 
 
-def localize_UpgradeConquestBaseTileCount(mission, data = None, items=None, furniture=None):
-    desc_jp = 'Lv.{0}拠点を{1}個保有する'
-    desc_en = 'Own {1} Lv. {0} base(s)'
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(mission['CompleteConditionParameter'][2]))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(mission['CompleteConditionParameter'][2]))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_UpgradeConquestBaseTileCount(mission, data, items, furniture):
+    values = {'{1}': mission['CompleteConditionCount'], '{0}': mission['CompleteConditionParameter'][2]}
+    return describe(mission, fill('Lv.{0}拠点を{1}個保有する', values), fill('Own {1} Lv. {0} base(s)', values))
 
 
-def localize_KillConquestBoss(mission, data = None, items=None, furniture=None):
-    desc_jp = 'エリア{0}のボスを倒す'
-    desc_en = 'Defeat the area {0} boss'
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}',str(mission['CompleteConditionParameter'][2]+1))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}',str(mission['CompleteConditionParameter'][2]+1))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_KillConquestBoss(mission, data, items, furniture):
+    values = {'{0}': mission['CompleteConditionParameter'][2]+1}
+    return describe(mission, fill('エリア{0}のボスを倒す', values), fill('Defeat the area {0} boss', values))
 
 
-def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data = None, items=None, furniture=None):
-    desc_jp = '-'
-    desc_en = 'Clear Challenge {0} within {1} second(s)'
-
-    clevel = str(mission['CompleteConditionParameter'][0])[-1:]
-    
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(clevel))) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{1}',str(mission['CompleteConditionCount'])).replace('{0}',str(clevel))) 
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearEventConquestTileTimeLimitFromSecond(mission, data, items, furniture):
+    values = {'{1}': mission['CompleteConditionCount'], '{0}': str(mission['CompleteConditionParameter'][0])[-1:]}
+    return describe(mission, fill('-', values), fill('Clear Challenge {0} within {1} second(s)', values))
 
 
-def localize_ClearSpecificDefenseStage(mission, data = None, items=None, furniture=None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
-
-    idlen = len(str(mission['EventContentId']))+1
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Normal','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage)
-                                                          .replace('{1}', difficulty_names[difficulty])
-                                                          .replace('{2}', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage)
-                                                          .replace('{1}', difficulty_names[difficulty])
-                                                          .replace('{2}', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_ClearSpecificDefenseStage(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    stage, difficulty = event_stage(mission, offset=1)
+    values = {'{0}': stage, '{1}': ['', 'Story', 'Normal', 'Challenge'][difficulty], '{2}': mission['CompleteConditionCount']}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
 
 
 #CompleteConditionParameter is [event id, equipment tier], CompleteConditionCount is always 1
-def localize_JankenEquipmentTierCheckCount(mission, data = None, items=None, furniture=None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
-
-    tier = str(mission['CompleteConditionParameter'][-1])
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', tier))
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', tier))
-
-    mission['AutoLocalized'] = True
-    return True
+def localize_JankenEquipmentTierCheckCount(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    values = {'{0}': mission['CompleteConditionParameter'][-1]}
+    return describe(mission, fill(desc_jp, values), fill(desc_en, values))
 
 
 #CompleteConditionParameter is [event id, janken stage id], CompleteConditionCount is the score to reach
-def localize_JankenGetSpecificScore(mission, data = None, items=None, furniture=None):
-    key = isinstance(mission['Description'], int) and mission['Description'] or hashkey(mission['Description'])
-    desc_jp = data.localization[key].get('Jp')
-    desc_en = data.localization[key].get('En', '')
+def localize_JankenGetSpecificScore(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
 
     stage = data.minigame_janken_stage.get(mission['CompleteConditionParameter'][-1])
     if stage is None:
@@ -598,136 +281,46 @@ def localize_JankenGetSpecificScore(mission, data = None, items=None, furniture=
     stage_jp = f"{stage_type.get('Jp') or stage['JankenStageType']} {stage['StageDisplay']}"
     stage_en = f"{stage_type.get('En') or stage_type.get('Jp') or stage['JankenStageType']} {stage['StageDisplay']}"
 
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('{0}', stage_jp).replace('{1}', str(mission['CompleteConditionCount'])))
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('{0}', stage_en).replace('{1}', str(mission['CompleteConditionCount'])))
-
-    mission['AutoLocalized'] = True
-    return True
+    return describe(mission, fill(desc_jp, {'{0}': stage_jp, '{1}': mission['CompleteConditionCount']}),
+                             fill(desc_en, {'{0}': stage_en, '{1}': mission['CompleteConditionCount']}))
 
 
-def localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture):
-    desc_jp = '任務ステージ$1 $2を$3秒以内にクリア'
-    desc_en = 'Clear $2 $1 within $3 seconds'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
-
-
-def localize_Event_Mission_Complete_Campaign_Stage_Main_TimeLimit(mission, data, items, furniture):
-    return localize_Event_Mission_Complete_Campaign_Stage_Ground_TimeLimit(mission, data, items, furniture)
-     
-
-def localize_Event_Mission_Complete_Campaign_Stage_Minimum_Turn(mission, data, items, furniture):
-    desc_jp = '$2のステージ$1を$3ターン以内にクリア'
-    desc_en = 'Clear $2 $1 within $3 turns'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
-
-
-def localize_Event_Mission_Clear_Specific_Campaign_Stage(mission, data, items, furniture):
-    desc_jp = 'エリア$1 $2をクリア'
-    desc_en = 'Clear $2 $1 of the event'
-
-    idlen = len(str(mission['EventContentId']))
-    difficulty = int(str(mission['CompleteConditionParameter'][-1])[idlen:idlen+1])
-    difficulty_names = ['','Story','Quest','Challenge']
-
-    stage = str(mission['CompleteConditionParameter'][-1])[idlen+2:idlen+4].lstrip('0')
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', stage)
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
-
-
-def localize_Event_Mission_WorldRaid_DamageToBoss(mission, data, items, furniture):
-    desc_jp = '$1に$2以上ダメージ'
-    desc_en = 'Deal $1 damage to $2'
-
-    #TODO actually properly localize those
-    boss_names = {81400: 'Wakamo (Swimsuit)', 81410: 'Wakamo (Hovercraft)',
-                  814000: 'Wakamo (Swimsuit)', 814100: 'Wakamo (Hovercraft)',
-                  10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)'}
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', str(mission['CompleteConditionCount']))
-                                                          .replace('$2', boss_names[mission['CompleteConditionParameter'][1]])
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', str(mission['CompleteConditionCount']))
-                                                          .replace('$2', boss_names[mission['CompleteConditionParameter'][1]])
-                                                    )
-    
-    mission['AutoLocalized'] = True
-    return True
-
-
-def localize_Event_Mission_WorldRaid_TimeLimit(mission, data, items, furniture):
-    desc_jp = '$1$2を$3秒以内にクリア'
-    desc_en = 'Defeat $1 on $2 within $3 seconds'
-
-    #TODO actually properly localize those
-    boss_names = {81400: 'Wakamo (Swimsuit)', 81410: 'Wakamo (Hovercraft)',
-                  814000: 'Wakamo (Swimsuit)', 814100: 'Wakamo (Hovercraft)',
-                  10814000: 'Wakamo (Swimsuit)', 10814100: 'Wakamo (Hovercraft)', 301200: 'Wakamo (Swimsuit)', 302200: 'Wakamo (Hovercraft)'}
-
-    difficulty = int(str(mission['CompleteConditionParameter'][1])[6:7])
-    difficulty_names = ['','Normal','Hard','VeryHard']
-
-
-    mission['DescriptionJp'] = description_cleanup(desc_jp.replace('$1', boss_names[int(str(mission['CompleteConditionParameter'][1])[:-3])])
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    ) 
-    mission['DescriptionEn'] = description_cleanup(desc_en.replace('$1', boss_names[int(str(mission['CompleteConditionParameter'][1])[:-3])])
-                                                          .replace('$2', difficulty_names[difficulty])
-                                                          .replace('$3', str(mission['CompleteConditionCount']))
-                                                    )
-
-    mission['AutoLocalized'] = True
-    return True
-
+#Localizers by CompleteConditionType, without its Reset_ prefix
+LOCALIZERS = {
+    'ClearSpecificChaserDungeonCount': localize_ClearSpecificChaserDungeonCount,
+    'ClearSpecificFindGiftAndBloodDungeonCount': localize_ClearSpecificFindGiftAndBloodDungeonCount,
+    'ClearSpecificSchoolDungeonCount': localize_ClearSpecificSchoolDungeonCount,
+    'Achieve_EquipmentAtSpecificTierUpCount': localize_Achieve_EquipmentAtSpecificTierUpCount,
+    'DreamGetSpecificParameter': localize_DreamGetSpecificParameter,
+    'DreamGetSpecificScheduleCount': localize_DreamGetSpecificScheduleCount,
+    'CompleteScheduleWithTagCount': localize_CompleteScheduleWithTagCount,
+    'ClearSchoolDungeonCount': localize_ClearSchoolDungeonCount,
+    'ClearSpecificScenario': localize_ClearSpecificScenario,
+    'ClearSpecificCampaignStageCount': localize_ClearSpecificCampaignStageCount,
+    'ClearCampaignStageTimeLimitFromSecond': localize_ClearCampaignStageTimeLimitFromSecond,
+    'ClearEventStageTimeLimitFromSecond': localize_ClearEventStageTimeLimitFromSecond,
+    'EventCompleteCampaignStageMinimumTurn': localize_EventCompleteCampaignStageMinimumTurn,
+    'CompleteMission': localize_CompleteMission,
+    'GetItemWithTagCount': localize_GetItemWithTagCount,
+    'GetEquipmentWithTagCount': localize_GetEquipmentWithTagCount,
+    'GetSpecificItemCount': localize_GetSpecificItemCount,
+    'ClearBattleWithTagCount': localize_ClearBattleWithTagCount,
+    'KillEnemyWithTagCount': localize_KillEnemyWithTagCount,
+    'ConquerSpecificStepTileAll': localize_ConquerSpecificStepTileAll,
+    'UpgradeConquestBaseTileCount': localize_UpgradeConquestBaseTileCount,
+    'KillConquestBoss': localize_KillConquestBoss,
+    'ClearEventConquestTileTimeLimitFromSecond': localize_ClearEventConquestTileTimeLimitFromSecond,
+    'ClearSpecificDefenseStage': localize_ClearSpecificDefenseStage,
+    'JankenEquipmentTierCheckCount': localize_JankenEquipmentTierCheckCount,
+    'JankenGetSpecificScore': localize_JankenGetSpecificScore,
+}
 
 
 def description_cleanup(text):
     #text = re.sub('1回', 'once', text)
     text = text.replace(' 1 time(s)', ' once')
     text = text.replace(' 2 time(s)', ' twice')
-    text = text.replace('time(s)', 'times') 
+    text = text.replace('time(s)', 'times')
     text = text.replace(' 1 laps', ' 1 lap')
     text = text.replace(' 1 base(s)', ' 1 base')
     text = text.replace(' base(s)', ' bases')
@@ -737,8 +330,6 @@ def description_cleanup(text):
 
 
 def get_item_type(text):
-    global item_types
-    
     if text in TAG_MAP.keys(): text = TAG_MAP[text]
     if text in item_types: text = item_types[text]
 
