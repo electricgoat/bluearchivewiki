@@ -32,17 +32,6 @@ env = template_env()
 #An event's season row is its first row of these content types
 EVENT_TYPES = ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent", "SeasonalEvent"]
 
-#Events whose name or title isn't under the key hashed from their season, and the keys it is under. TODO figure out how those keys are derived
-NAME_KEY_FIXES = {
-    2954736197: 1435341545, #mini event
-    1202895593: 2677397330, #1st collab event
-    3197273807: 2041289632, #2025 valentines event
-}
-TITLE_KEY_FIXES = {
-    4164572829: 1011309388, #mini event
-    3349884597: 2041289632, #2025 valentines event
-}
-
 EVENT_ITEM_TYPES = ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']
 
 #The sections of the content types, in page order. A new minigame is one more entry.
@@ -69,25 +58,30 @@ def find_season(ctx: EventContext, region: str, event_id: int) -> dict|None:
     return next((dict(seasons[(event_id, x)]) for x in EVENT_TYPES if (event_id, x) in seasons), None)
 
 
+def title_key(ctx: EventContext, season: dict) -> str:
+    """Derive the key of the event's title localization entry. Mini events and seasonal events have none of their own and go by the 
+    title of their story replay volume: all mini event stories share one, and all meetups/valentines, another. 
+    (in the client, UIService.GetScenarioModeVolumeTitle)"""
+    key = f"Event_Title_{season['OriginalEventContentId']}"
+    if hashkey(key) in ctx.data.localization: return key
+    match season['EventContentType']:
+        case 'MiniEvent': return 'Replay_Contents_MiniEvent'  #Aoi
+        case 'SeasonalEvent': return 'Event_Title_810_Meetup' #valentines, ctx.data.const_event_common['MeetupScenarioReplayTitleLocalize']
+        case _: return key
+
+
 def localize_season(ctx: EventContext, season: dict):
-    """Put the event's localized name, title and description on its season row."""
-    localization = ctx.data.localization
+    """Put the event's localized name, title and description on its season row. An event without a name or a title goes by the other."""
+    def lookup(key: str, what: str) -> dict|None:
+        localized = ctx.data.localization.get(hashkey(key))
+        if localized is None: print(f"Missing {what} {key}")
+        elif 'En' not in localized: ctx.missing_localization.add_entry(localized)
+        return localized
 
-    def lookup(key: int, what: str) -> dict|None:
-        if key not in localization:
-            print(f"Missing {what} {key}")
-            return None
-        if 'En' not in localization[key]: ctx.missing_localization.add_entry(localization[key])
-        return localization[key]
-
-    name_key = hashkey(season['Name'])
-    name = lookup(name_key, 'localize key')
-    if name is None and name_key in NAME_KEY_FIXES: name = localization[NAME_KEY_FIXES[name_key]]
-    if name is None: raise ValueError(f"No localized name for event {season['EventContentId']}")
-
-    title_key = hashkey(f"Event_Title_{season['OriginalEventContentId']}")
-    title = lookup(title_key, 'localize_title key')
-    if title is None: title = localization[TITLE_KEY_FIXES[title_key]] if title_key in TITLE_KEY_FIXES else name
+    name = lookup(season['Name'], 'name')
+    title = lookup(title_key(ctx, season), 'title') or name
+    name = name or title
+    if name is None or title is None: raise ValueError(f"No localized name for event {season['EventContentId']}")
 
     if name.get('En') != title.get('En'): print(f"Event Name and Title are mismatched, check which is more complete:\n Name :{name.get('En')}\n Title:{title.get('En')}")
 
@@ -96,7 +90,7 @@ def localize_season(ctx: EventContext, season: dict):
 
     season['LocalizeName'] = name
     season['LocalizeTitle'] = title
-    season['LocalizeDescription'] = lookup(hashkey(f"Event_Description_{season['OriginalEventContentId']}"), 'localize_description key')
+    season['LocalizeDescription'] = lookup(f"Event_Description_{season['OriginalEventContentId']}", 'description')
 
 
 def event_dates(season_jp: dict, season_gl: dict|None) -> str:
@@ -208,10 +202,8 @@ def print_seasons(ctx: EventContext, region: str):
     for season in ctx.season_data[region].event_content_season.values():
         if season['EventContentId'] in seasons: continue
 
-        name = ''
-        localize_key = hashkey(season['Name'])
-        if localize_key in ctx.data.localization:
-            name = ctx.data.localization[localize_key].get('En') or ctx.data.localization[localize_key]['Jp']
+        localized = ctx.data.localization.get(hashkey(season['Name'])) or ctx.data.localization.get(hashkey(title_key(ctx, season)), {})
+        name = localized.get('En') or localized.get('Jp', '')
 
         seasons[season['EventContentId']] = {'Name': name, 'EventContentOpenTime': season['EventContentOpenTime'], 'EventContentCloseTime': season['EventContentCloseTime']}
 
