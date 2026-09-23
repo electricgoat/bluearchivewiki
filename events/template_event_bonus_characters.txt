@@ -16,7 +16,7 @@
 |{{bonus}}%
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Striker' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|80px}}{% endraw %}{% endfor %}
 | style="text-align:left" |{% for character in bonus_characters[item] if character['Class'] == 'Special' and character['BonusPercentage'] == bonus -%}{% raw %}{{{% endraw %}CharacterCard|{{character['Name']}}{% raw %}|80px}}{% endraw %}{% endfor %}
-{% if loop.index == 1 %}| rowspan="{{len(bonus_values[item])}}" |
+{% if loop.index == 1 %}| rowspan="{{len(bonus_values[item])}}" |{{max_bonus[item]}}%
 {% endif -%}
 {% endfor -%}{% endfor -%}
 {% raw %}|}{% endraw %}

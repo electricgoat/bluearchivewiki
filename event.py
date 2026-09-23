@@ -34,6 +34,8 @@ EVENT_TYPES = ["Stage", "MiniEvent", "SpecialMiniEvent", "MinigameRhythmEvent", 
 
 EVENT_ITEM_TYPES = ['EventPoint', 'EventToken1', 'EventToken2', 'EventToken3', 'EventToken4']
 
+TEAM_SLOTS = {'Striker': 4, 'Special': 2}
+
 #The sections of the content types, in page order. A new minigame is one more entry.
 SECTIONS_BEFORE_MISSIONS = {
     'EventLocation': schedule_locations,
@@ -136,13 +138,20 @@ def bonus_units(ctx: EventContext, season: dict) -> str:
             })
 
     bonus_values = {item: sorted({x['BonusPercentage'] for x in characters}, reverse=True) for item, characters in bonus_characters.items()}
+    max_bonus = {item: max_bonus_rate(characters) for item, characters in bonus_characters.items()}
 
     event_currencies = {x: {} for x in EVENT_ITEM_TYPES}
     for currency in main_event_rows(season, ctx.data.event_content_currency, 'event currencies'):
         event_currencies[currency['EventContentItemType']] = {'ItemUniqueId': currency['ItemUniqueId'], 'Name': ctx.items[currency['ItemUniqueId']].name_en}
 
     template = env.get_template('template_event_bonus_characters.txt')
-    return "==Details==\n{{EventStorySection}}\n" + template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, event_currencies=event_currencies)
+    return "==Details==\n{{EventStorySection}}\n" + template.render(bonus_characters=bonus_characters, bonus_values=bonus_values, max_bonus=max_bonus, event_currencies=event_currencies)
+
+
+def max_bonus_rate(characters: list[dict]) -> int:
+    """The bonus of the best team for an event item: every slot of TEAM_SLOTS takes the highest bonus left of its class."""
+    return sum(sum(sorted((x['BonusPercentage'] for x in characters if x['Class'] == combat_class), reverse=True)[:slots])
+               for combat_class, slots in TEAM_SLOTS.items())
 
 
 def generate(ctx: EventContext, event_id: int, outdir: str):
