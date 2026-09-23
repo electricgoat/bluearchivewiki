@@ -1,5 +1,7 @@
 from classes.RewardParcel import RewardParcel
-from events.common import EventContext
+from events.common import EventContext, template_env
+
+env = template_env()
 
 
 def parse_clue_search_rounds(ctx: EventContext, season_id: int):
@@ -21,7 +23,7 @@ def parse_clue_search_rounds(ctx: EventContext, season_id: int):
 
         for round_info in rounds_info:
             round_data = {
-                'round_number': round_info.get('Round', 0),
+                'round_number': f"{round_info['Round']}{'+' if round_info['IsLoop'] else ''}",  #+ marks the looping round, as on supply boxes
                 'clue_requirements': [0] * len(clues),  # Initialize with 0 for the number of clue types
                 'reward_parcels': [],
             }
@@ -58,6 +60,31 @@ def parse_clue_search_rounds(ctx: EventContext, season_id: int):
             rounds_data.append(round_data)
 
     return rounds_data, clues
+
+
+def clue_goods(ctx: EventContext, season_id: int, clues: list[dict]) -> tuple[dict, dict]:
+    """The goods of the event's shops that sell a clue, and that take one back (the recycling shop). Every clue trades at the same price."""
+    clue_ids = {x['ClueId'] for x in clues}
+    goods = [ctx.data.goods[x['GoodsId'][0]] for x in ctx.data.event_content_shop[season_id]]
+    return next(x for x in goods if clue_ids & set(x['ParcelId'])), next(x for x in goods if clue_ids & set(x['ConsumeParcelId']))
+
+
+def investigation(ctx: EventContext, clue_search: dict) -> dict|None:
+    """How clues are found by investigating, since event 863: the cost of an investigation, how many can be made at once, and the points
+    investigations earn, a number of which finds a clue of choice. None when clues are only bought at the shop."""
+    if clue_search['SearchCostGoodsId'] == 0: return None
+
+    return {
+        'cost': cost_card(ctx, ctx.data.goods[clue_search['SearchCostGoodsId']]),
+        'max_count': clue_search['MaxSearchCount'],
+        'points': ctx.wiki_card('Item', clue_search['DeductionPointItemId']),
+        'points_per_clue': clue_search['InspirationConvertCount'],
+    }
+
+
+def cost_card(ctx: EventContext, good: dict, count: int = 1, **params) -> str:
+    """The card of the cost of good, bought count times."""
+    return ctx.wiki_card(good['ConsumeParcelType'][0], good['ConsumeParcelId'][0], quantity=good['ConsumeParcelAmount'][0] * count, **params)
 
 
 def get_clue_display_data(ctx: EventContext, clue):
@@ -133,12 +160,13 @@ def generate_clue_info_table(ctx: EventContext, clues):
     return wikitext
 
 
-def generate_clue_search_table(ctx: EventContext, rounds_data, clues):
-    """Generate the wiki table for ClueSearch rounds"""
+def generate_clue_search_table(ctx: EventContext, rounds_data, clues, price: dict|None):
+    """Generate the wiki table for ClueSearch rounds. price is the goods that sells a clue, or None when clues are found by investigating,
+    whose cost per clue isn't fixed: the rounds then show their number of clues instead of their cost."""
     wikitext = '{| class="wikitable"\n'
     wikitext += '|+ Clue board rewards\n'
     wikitext += '|-\n'
-    wikitext += '! rowspan="2" | Round !! colspan="' + str(len(clues)) + '" | Clues number required !! rowspan="2" | Total Cost !! rowspan="2" | Clear rewards\n'
+    wikitext += '! rowspan="2" | Round !! colspan="' + str(len(clues)) + '" | Clues number required !! rowspan="2" | ' + ('Total Cost' if price else 'Total Clues') + ' !! rowspan="2" | Clear rewards\n'
     wikitext += '|-\n'
 
     # Clue headers
@@ -158,9 +186,9 @@ def generate_clue_search_table(ctx: EventContext, rounds_data, clues):
             for requirement in round_info['clue_requirements']:
                 wikitext += f'|| {requirement if requirement > 0 else ""} '
 
-            #Total cost
-            total_cost = sum(round_info['clue_requirements'])
-            wikitext += '|| {{ItemCard|Event Points|quantity=' + str(total_cost * 200) + '|text=}} '
+            #Total cost, or number of clues
+            total_clues = sum(round_info['clue_requirements'])
+            wikitext += f"|| {cost_card(ctx, price, total_clues, text=None) if price else total_clues} "
 
             # Rewards
             wikitext += '|| '
@@ -190,14 +218,24 @@ def get_mode_cluesearch(ctx: EventContext, season_id: int) -> str:
 
     # Parse rounds and clues
     rounds_data, clues = parse_clue_search_rounds(ctx, season_id)
+    buy, sell = clue_goods(ctx, season_id, clues)
+    search = investigation(ctx, ctx.data.event_content_clue_search[season_id])
 
     # Generate intro text
-    wikitext['intro'] = f"Clue search is the new minigame type introduced for this event. Players are presented with a clue board that requires submitting specific numbers of each of {len(clues)} clue types to complete. Clues can be purchased at the Event Points store for {{{{ItemCard|Event Points|quantity=200}}}} each; turning clues back is also available at the recycling shop for a full Event Points refund. Submitting each clue awards player {{{{ItemCard|Credits|quantity=50000}}}}.\n"
+    wikitext['intro'] = env.get_template('template_cluesearch_intro.txt').render(
+        introduced = season_id == min(ctx.data.event_content_clue_search),
+        clues = clues,
+        search = search,
+        buy_currency = ctx.items[buy['ConsumeParcelId'][0]].name_en,
+        buy_cost = cost_card(ctx, buy),
+        sell_gain = ctx.wiki_card(sell['ParcelType'][0], sell['ParcelId'][0], quantity=sell['ParcelAmount'][0]),
+        clue_reward = ' '.join(ctx.wiki_card(parcel_type, parcel_id, quantity=amount) for parcel_type, parcel_id, amount in zip(clues[0]['RewardParcelType'], clues[0]['RewardParcelId'], clues[0]['RewardParcelAmount'])),
+    ) + '\n'
 
     # Generate clue reference table
     wikitext['clues'] = generate_clue_info_table(ctx, clues)
 
     # Generate table
-    wikitext['rounds'] = generate_clue_search_table(ctx, rounds_data, clues)
+    wikitext['rounds'] = generate_clue_search_table(ctx, rounds_data, clues, None if search else buy)
 
     return '\n'.join(wikitext.values())
