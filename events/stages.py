@@ -26,18 +26,23 @@ def event_stages(ctx: EventContext, event_id: int) -> str:
 
 
 def schedule_locations(ctx: EventContext, event_id: int) -> str:
-    """A table for each group of locations, listing the rewards of its rooms."""
+    """A tab for each group of locations, listing the rewards of its rooms; the locations with the same rewards share a tab."""
     location_groups = [x['RewardGroupId'] for x in ctx.data.event_content_zone.values() if x['LocationId'] == event_id]
     locations = [EventScheduleLocation.from_data(x['Id'], ctx.data) for x in ctx.data.event_content_location_reward.values() if x['ScheduleGroupId'] in location_groups]
 
-    template = env.get_template('template_schedule.txt')
-    wikitext = '=Schedule Locations=\n'
-
+    tabs = {}
     for group in location_groups:
         group_locations = [x for x in locations if x.group_id == group]
-        wikitext += template.render(location_name=group_locations[0].name, locations=group_locations, reward_card=schedule_reward_card)
+        tab = tabs.setdefault(schedule_rewards_key(group_locations), {'names': [], 'locations': group_locations})
+        tab['names'].append(group_locations[0].name)
 
-    return wikitext
+    template = env.get_template('template_schedule.txt')
+    return '=Schedule Locations=\n' + template.render(tabs=tabs.values(), reward_card=schedule_reward_card)
+
+
+def schedule_rewards_key(group_locations: list) -> tuple:
+    """The cells the rooms of a location fill, so the locations whose tables would read the same share a tab."""
+    return tuple((x.order, x.secretstone_prob, tuple(x.rewards)) for x in group_locations)
 
 
 def schedule_reward_card(reward) -> str:

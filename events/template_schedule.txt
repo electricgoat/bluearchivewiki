@@ -1,14 +1,21 @@
+<tabber>
+{% for tab in tabs -%}
+{%- if not loop.first %}|-|
+{% endif -%}
+{{tab.names|join(', ')}}=
 {% raw %}{{% endraw %}| class="wikitable stagetable mw-collapsible"
-! colspan="3" |{{location_name}}
+! colspan="3" |{{tab.names|join(', ')}}
 |-
 !Room<br> Level
 !Visiting Student<br />Eleph
 !Rewards
-{% for location in locations -%}
+{% for location in tab.locations -%}
 |-
 |{{location.order}}
 |'''{{location.secretstone_prob/100}}%'''
 |<div class="rewards">{%- for reward in location.rewards -%}{{reward_card(reward)}}{% endfor %}</div>
 {% endfor -%}
 |{% raw %}}{% endraw %}
+{% endfor -%}
+</tabber>
 
