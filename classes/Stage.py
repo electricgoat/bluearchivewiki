@@ -1,6 +1,7 @@
 # import collections
 # import re
 from shared.functions import armor_type, damage_type, armor_type_sort_order, damage_type_sort_order, environment_type, hashkey
+from shared.glossary import OOPARTS, SCHOOLS
 from classes.RewardParcel import RewardParcel
 
 ignore_item_id = [
@@ -21,7 +22,7 @@ STAR_GOALS = {
 
 
 class Stage(object):
-    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint, star_goal = None, avg_reward=None, avg_reward_per_ap=None):
+    def __init__(self, id, name, name_en, season, difficulty, stage_number, stage_display, prev_id, battle_duration, stategy_map, strategy_map_bg, reward_id, topography, rec_level, strategy_environment, grounds, content_type, rewards, wiki_enter_cost, damage_types, armor_types, stage_hint, star_goal = None, avg_reward=None, avg_reward_per_ap=None, schools=None, ooparts=None):
         self.id = id
         self.name = name
         self.name_en = name_en
@@ -50,6 +51,8 @@ class Stage(object):
         self.star_goal = star_goal
         self.avg_reward = avg_reward
         self.avg_reward_per_ap = avg_reward_per_ap
+        self.schools = schools or []
+        self.ooparts = ooparts or []
     def __repr__ (self):
         return f"EventStage:{self.name}"
 
@@ -417,10 +420,26 @@ class JankenStage(Stage):
 
 
 class WeekDungeonStage(Stage):
-
     @classmethod
     def get_table_name_stage_rewards(cls):
         return 'week_dungeon_reward'
+
+
+    @classmethod
+    def get_schools(cls, stage, data):
+        schools = [data.week_dungeon_group_buff[buff_id]['School'] for buff_id in stage['GroupBuffID']]
+        return [SCHOOLS.get(school, school) for school in schools]
+
+
+    @classmethod
+    def get_ooparts(cls, rewards):
+        ooparts = []
+        for parcel in [x for parcels in rewards.values() for x in parcels if x.parcel_type == 'GachaGroup']:
+            for item in [x for x in parcel.items if x.parcel_type == 'Item']:
+                family = OOPARTS.get(item.parcel_id // 10 * 10)
+                if family is not None and family not in ooparts:
+                    ooparts.append(family)
+        return ooparts
 
 
     @classmethod
@@ -479,6 +498,8 @@ class WeekDungeonStage(Stage):
             sorted(set([armor_type(x['ArmorType']) for x in spawn_templates.values()]), key=armor_type_sort_order),
             '',
             StarGoal(stage['StarGoal'], stage['StarGoalAmount']),
+            schools = cls.get_schools(stage, data),
+            ooparts = cls.get_ooparts(rewards),
         )
     
     @classmethod

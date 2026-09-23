@@ -1,4 +1,8 @@
-{% raw %}{{% endraw %}| class="wikitable limitwidth-1024 stagetable"
+{% if schools %}'''Schools:''' {{ schools|join(', ') }}
+
+{% endif %}{% if ooparts %}'''Ooparts:''' {{ ooparts|join(', ') }}
+
+{% endif %}{% raw %}{{% endraw %}| class="wikitable limitwidth-1024 stagetable"
 |+ {{dungeon_type}}
 !Stage
 !Level

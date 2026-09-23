@@ -1,26 +1,11 @@
 from classes.Gacha import GachaGroup, GachaElement
 import shared.functions
 
-# This is to avoid unpacking 4-oopart gachagroups, which looks too messy to display on the page.
-FAKE_ITEMS = {
-    #ChaserA
-    10110 : 'Random Bounty Artifact - Classroom 1',
-    10111 : 'Random Bounty Artifact - Classroom 2',
-    10112 : 'Random Bounty Artifact - Classroom 3',
-    10113 : 'Random Bounty Artifact - Classroom 4',
-
-    #ChaserB
-    10114 : 'Random Bounty Artifact - Desert Railroad 1',
-    10115 : 'Random Bounty Artifact - Desert Railroad 2',
-    10116 : 'Random Bounty Artifact - Desert Railroad 3',
-    10117 : 'Random Bounty Artifact - Desert Railroad 4',
-
-    #ChaserC
-    10118 : 'Random Bounty Artifact - Overpass 1',
-    10119 : 'Random Bounty Artifact - Overpass 2',
-    10120 : 'Random Bounty Artifact - Overpass 3',
-    10121 : 'Random Bounty Artifact - Overpass 4',
-
+# Gacha groups listed as a single item instead of being unpacked, because the pool is too large
+# to display. The game shows them as one item too, so the name is the one of the item it shows.
+# The bounty hunt oopart groups used to be here as well, until they went from four ooparts to two.
+FAKE_GACHA_ITEMS = {
+    10600 : 'Eleph Box', #random Eleph of the 20 students the bounty hunt shop sells, item 42000
 }
 
 
@@ -117,10 +102,11 @@ class RewardParcel(object):
 
     @property
     def wikitext(self) -> str:
-        if self.parcel_id in FAKE_ITEMS:
+        if self.parcel_type == 'GachaGroup' and self.parcel_id in FAKE_GACHA_ITEMS:
             probability = self.parcel_prob[0]/100 if isinstance(self.parcel_prob, list) else self.parcel_prob/100
-            quantity = self.amount
-            return("{{" + f"ItemCard|{FAKE_ITEMS[self.parcel_id]}{quantity>1 and f'|quantity={quantity}' or ''}{probability!=100 and f'|probability={probability > 5 and round(probability,1) or round(probability,2)}' or ''}|text=|60px|block" + "}}")
+            quantity = self.amount > 1 and f"|quantity={self.amount}" or ''
+            chance = probability != 100 and f"|probability={round(probability, 1 if probability > 5 else 2):g}" or ''
+            return "{{" + f"ItemCard|{FAKE_GACHA_ITEMS[self.parcel_id]}{quantity}{chance}|text=|48px|block" + "}}"
 
         elif (isinstance(self.amount, list) and len(self.amount) > 1) or (self.parcel_type == 'GachaGroup' and len(self.items)>1): return self.wikitext_itemgroup
         else: return "".join(self.wikitext_items(use_parcel_prob = self.parcel_prob!=10000 and True or False))

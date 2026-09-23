@@ -25,11 +25,16 @@ missing_localization = MissingTranslations("translation/missing/LocalizeExcelTab
 missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
 missing_etc_localization = MissingTranslations("translation/missing/LocalizeEtcExcelTable.json")
 
+#The location each dungeon type is called by on the wiki. Only the bounty hunts (Chaser*) go by the
+#name the game gives them; Blood is Base Defense and FindGift is Item Retrieval in the game data.
+#ChaserD and ChaserE have no Global name yet, so theirs follow the Korean 파괴된 도로 and 고저택.
 DUNGEON_TYPES = {
     "Blood": "Ruined Munitions Factory",
     "ChaserA": "Overpass",
     "ChaserB": "Desert Railroad",
     "ChaserC": "Classroom",
+    "ChaserD": "Destroyed Road",
+    "ChaserE": "Old Mansion",
     "FindGift": "Slumpia Square",
 }
 
@@ -84,7 +89,13 @@ def generate():
         else:
             template = env.get_template('templates/template_week_dungeon.txt')
 
-        wikitext = template.render(stages=stages[dungeon_type], dungeon_type=DUNGEON_TYPES.get(dungeon_type, dungeon_type) )
+        #The school bonus and the oopart families are the same on every stage of a dungeon type
+        wikitext = template.render(
+            stages=stages[dungeon_type],
+            dungeon_type=DUNGEON_TYPES.get(dungeon_type, dungeon_type),
+            schools=stages[dungeon_type][0].schools,
+            ooparts=stages[dungeon_type][0].ooparts,
+        )
         with open(os.path.join(args['outdir'], 'week_dungeon', f'{dungeon_type}.txt'), 'w', encoding="utf8") as f:
             f.write(wikitext)
             f.close()
