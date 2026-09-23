@@ -1,3 +1,6 @@
+{% for name, description in descriptions -%}
+*'''{{name}}''' - {{description}}
+{% endfor %}
 <tabber>
 {% for tab in tabs -%}
 {%- if not loop.first %}|-|

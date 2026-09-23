@@ -30,14 +30,17 @@ def schedule_locations(ctx: EventContext, event_id: int) -> str:
     location_groups = [x['RewardGroupId'] for x in ctx.data.event_content_zone.values() if x['LocationId'] == event_id]
     locations = [EventScheduleLocation.from_data(x['Id'], ctx.data) for x in ctx.data.event_content_location_reward.values() if x['ScheduleGroupId'] in location_groups]
 
-    tabs = {}
+    descriptions, tabs = [], {}
     for group in location_groups:
         group_locations = [x for x in locations if x.group_id == group]
+        location = group_locations[0]
+        descriptions.append((location.name, location.description))
+
         tab = tabs.setdefault(schedule_rewards_key(group_locations), {'names': [], 'locations': group_locations})
-        tab['names'].append(group_locations[0].name)
+        tab['names'].append(location.name)
 
     template = env.get_template('template_schedule.txt')
-    return '=Schedule Locations=\n' + template.render(tabs=tabs.values(), reward_card=schedule_reward_card)
+    return '=Schedule Locations=\n' + template.render(descriptions=descriptions, tabs=tabs.values(), reward_card=schedule_reward_card)
 
 
 def schedule_rewards_key(group_locations: list) -> tuple:

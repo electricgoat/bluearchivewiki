@@ -34,9 +34,10 @@ def _get_schedule_rewards(location, data):
 
 
 class EventScheduleLocation(object):
-    def __init__(self, id, name, order, group_id, localize_id, rank, favor_exp, secretstone_prob, extra_favor_exp, extra_favor_exp_prob, rewards):
+    def __init__(self, id, name, description, order, group_id, localize_id, rank, favor_exp, secretstone_prob, extra_favor_exp, extra_favor_exp_prob, rewards):
         self.id = id
         self.name = name
+        self.description = description
         self.order = order
         self.group_id = group_id
         self.localize_id = localize_id
@@ -57,16 +58,14 @@ class EventScheduleLocation(object):
     def from_data(cls, location_id, data):
         location = data.event_content_location_reward[location_id]
 
-        try:
-            name = data.etc_localization[location['LocalizeEtcId']]['NameEn']
-        except:
-            name = data.etc_localization[location['LocalizeEtcId']]['NameJp']
-            print(f"English ETC localization {location['LocalizeEtcId']} not found")
+        localization = data.etc_localization[location['LocalizeEtcId']]
+        if 'NameEn' not in localization: print(f"English ETC localization {location['LocalizeEtcId']} not found")
         rewards = get_schedule_rewards(location, data)
 
         return cls(
             location['Id'],
-            name,
+            localization.get('NameEn') or localization.get('NameJp') or '',
+            localization.get('DescriptionEn') or localization.get('DescriptionJp') or '',
             location['OrderInGroup'],
             location['ScheduleGroupId'],
             #location['VoiceClipsJp'],
