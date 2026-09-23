@@ -17325,7 +17325,261 @@
             "NameEn": "Kasumi's (Swimsuit) Eleph",
             "DescriptionJp": "カスミ（水着）の神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Kasumi (Swimsuit)."
+        },
+        {
+            "Key": 2389589315,
+            "NameKr": "마지막 항해",
+            "DescriptionKr": "2부 오디세이아 편 1장 13화 클리어",
+            "NameJp": "最後の航海",
+            "DescriptionJp": "第2部オデュッセイア編1章13話クリア",
+            "NameEn": "The Last Voyage",
+            "DescriptionEn": "Clear Story Act 2: Odyssey Arc, Chapter 1, Episode 13."
+        },
+        {
+            "Key": 3872561135,
+            "NameJp": "機械工学作業台",
+            "NameEn": "Drafting Table",
+            "DescriptionJp": "原則を重んじるエンジニアの作業台。\n機械工学に強い関心があるようだ。",
+            "DescriptionEn": "A workbench belonging to an engineer who places great importance on principles.\nIt seems they have a strong interest in mechanical engineering."
+        },
+        {
+            "Key": 1901807731,
+            "NameJp": "化学作業台",
+            "NameEn": "Chemical Workstation",
+            "DescriptionJp": "いたずら好きなエンジニアの化学作業台。\nなぜか甘くて美味しそうな香りが漂っている。",
+            "DescriptionEn": "A mischievous engineer's chemistry workbench.\nFor some reason, a sweet, delicious aroma is wafting from it."
+        },
+        {
+            "Key": 3587860639,
+            "NameJp": "デスメタルステージ",
+            "NameEn": "Death Metal Stage",
+            "DescriptionJp": "",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 1667233181,
+            "NameJp": "研究委託掲示板",
+            "NameEn": "Research Commissioning Bulletin Board",
+            "DescriptionJp": "科学の力を必要とする人たちの問題を解決してあげよう。\nしっかり元は取れるように頑張ろう！",
+            "DescriptionEn": "Let's solve the problems of people who need the power of science. Let's make sure we get a solid return on our efforts!"
+        },
+        {
+            "Key": 1480277556,
+            "NameJp": "リコレクト・メモリー7th",
+            "NameEn": "Recollection・7th memory",
+            "DescriptionJp": "7th PVの映像を再生できる機械",
+            "DescriptionEn": "Machine that plays 6th PV video."
+        },
+                {
+            "Key": 2318549160,
+            "NameJp": "アンナの神名文字",
+            "NameEn": "Anna's Eleph",
+            "DescriptionJp": "アンナの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Anna."
+        },
+        {
+            "Key": 1981454069,
+            "NameJp": "エリナの神名文字",
+            "NameEn": "Erina's Eleph",
+            "DescriptionJp": "エリナの神秘が詰まった神名文字。",
+            "DescriptionEn": "The mystical Eleph of Erina."
+        },
+        {
+            "Key": 2754036272,
+            "NameJp": "イベントPt",
+            "NameEn": "Event Points",
+            "DescriptionJp": "イベントで入手できるポイント。たくさん手に入れることで、様々な報酬を獲得できる。",
+            "DescriptionEn": "Points obtained through events. Acquiring many allows you to get various rewards."
+        },
+        {
+            "Key": 3129873588,
+            "NameJp": "銅の欠片",
+            "NameEn": "Copper Fragment",
+            "DescriptionJp": "銅85%、スズ5%、亜鉛5%、鉛5%。表面には炭酸銅の緑青が浮き出ており、断面からは酸化前の鮮やかな黄褐色の光沢が覗いている。",
+            "DescriptionEn": "85% copper, 5% tin, 5% zinc, and 5% lead. A green patina of copper carbonate has formed on the surface, while the cross section reveals the vivid yellow-brown luster of the metal before oxidation."
+        },
+        {
+            "Key": 3146977865,
+            "NameJp": "チタンの欠片",
+            "NameEn": "Titanium Fragment",
+            "DescriptionJp": "四塩化チタンをクロール法で還元したもので、チタン純度は99%を誇る。不純物として、鉄と酸素、および微量の窒素が出る。",
+            "DescriptionEn": "Produced by reducing titanium tetrachloride using the Kroll process, it boasts a titanium purity of 99%. Its impurities include iron, oxygen, and trace amounts of nitrogen."
+        },
+        {
+            "Key": 3195766908,
+            "NameJp": "ガラスの欠片",
+            "NameEn": "Glass Fragment",
+            "DescriptionJp": "二酸化ケイ素81％、三酸化ホウ素13％、酸化ナトリウム4％、酸化アルミニウム2％。熱膨張係数は低い。",
+            "DescriptionEn": "81% silicon dioxide, 13% boron trioxide, 4% sodium oxide, and 2% aluminum oxide. It has a low coefficient of thermal expansion."
+        },
+        {
+            "Key": 2461132470,
+            "NameJp": "調査ポイント",
+            "NameEn": "Investigation Points",
+            "DescriptionJp": "痕跡収集で調査を進めると獲得できるポイント。一定数を集めることで、手がかりをすぐに見つけることができる。",
+            "DescriptionEn": "Points earned by progressing through investigations in Clue Search. Collect enough to find a clue immediately."
+        },
+        {
+            "Key": 1316255374,
+            "NameJp": "手がかり交換ポイント",
+            "NameEn": "Clue Exchange Points",
+            "DescriptionJp": "手がかりをショップで販売すると獲得できる交換ポイント。他の手がかりと交換できる。",
+            "DescriptionEn": "Exchange points earned by selling clues at the shop. They can be exchanged for other clues."
+        },
+        {
+            "Key": 1776353643,
+            "NameKr": "It’s our Engine! ~183호를 탈출하라!~",
+            "DescriptionKr": "It’s our Engine! 이벤트에서 획득 가능",
+            "NameJp": "It’s our Engine!　～183号を脱出せよ！～",
+            "DescriptionJp": "It’s our Engine!　～183号を脱出せよ！～イベントにて獲得可能",
+            "NameEn": "It's our Engine! ～Escape from No. 183!～",
+            "DescriptionEn": "Obtainable in the It's our Engine! ～Escape from No. 183!～ event."
+        },
+        {
+            "Key": 1663247535,
+            "NameKr": "이벤트 챌린지 스테이지 1 힌트",
+            "DescriptionKr": "스위퍼로 만들어진 천공카드에 NIKI ANNA를 작성하세요.\\검은 스위퍼의 위치를 기억하고, EX 스킬로 공격하세요.\n허수아비를 공격하면 힌트를 확인할 수 있습니다.",
+            "NameJp": "イベントチャレンジステージ1ヒント",
+            "DescriptionJp": "スイーパーで作られたパンチカードに「NIKI ANNA」と記入しましょう。\n黒いスイーパーの位置を覚えて、EXスキルで攻撃しましょう。\nかかしを攻撃するとヒントを確認することができます。",
+            "NameEn": "Event Challenge Stage 1 Hint",
+            "DescriptionEn": "Write \"NIKI ANNA\" on the punch card made of Sweepers.\nRemember the positions of the black Sweepers and attack them with EX Skills.\nAttack the scarecrow to view a hint."
+        },
+        {
+            "Key": 2160228724,
+            "NameKr": "이벤트 챌린지 스테이지 2 힌트",
+            "DescriptionKr": "적 방어 타입에 맞는 공격 타입의 학생을 편성해 전투를 진행해 보세요.",
+            "NameJp": "イベントチャレンジステージ2ヒント",
+            "DescriptionJp": "敵の防御タイプに合わせた攻撃タイプの生徒を編成して、戦闘を進めましょう。",
+            "NameEn": "Event Challenge Stage 2 Hint",
+            "DescriptionEn": "Deploy students with the attack type that counters the enemy's defense type and proceed with the battle."
+        },
+        {
+            "Key": 2682081963,
+            "NameKr": "이벤트 챌린지 스테이지 3 힌트",
+            "DescriptionKr": "토템은 모든 대미지를 매우 적게 받지만 파괴되면 아군의 체력을 회복시켜줍니다.\n마리나는 EX 스킬 사용 중 강력한 대미지를 받으면 기절에 걸립니다. 마리나의 스킬 사용을 저지하지 못하면 미노리가 아군에게 강력한 공격을 합니다.\n 토템을 타격 횟수가 많은 스킬로 토템을 파괴해 아군을 회복시키고 강력한 EX 스킬로 마리나의 스킬 사용을 저지하세요.",
+            "NameJp": "イベントチャレンジステージ3ヒント",
+            "DescriptionJp": "トーテムは被ダメージ量が大幅に減少しますが、破壊されると味方のHPを回復します。\nマリナはEXスキル使用中に強力なダメージを受けると気絶します。マリナのスキル使用を阻止できないと、ミノリが味方に強力な攻撃を放ちます。\n打撃数の多いスキルでトーテムを破壊して味方を回復させ、強力なEXスキルでマリナのスキル使用を阻止しましょう。",
+            "NameEn": "Event Challenge Stage 3 Hint",
+            "DescriptionEn": "Totems take greatly reduced damage, but restore allied HP when destroyed.\nMarina will be stunned if she takes heavy damage while using her EX Skill. If you fail to interrupt Marina's skill, Minori will unleash a powerful attack on your allies.\nDestroy the totems with skills that hit many times to heal your allies, and use powerful EX Skills to interrupt Marina's skill."
+        },
+        {
+            "Key": 605415002,
+            "NameKr": "이벤트 챌린지 스테이지 4 힌트",
+            "DescriptionKr": "붉은 겨울 친위대를 처치하면 강화된 양산형 탱크에 받는 대미지량 증가 효과가 누적됩니다.\n광역 딜러를 사용하여 붉은 겨울 친위대를 처치하고 강화된 양산형 탱크를 처치하세요.",
+            "NameJp": "イベントチャレンジステージ4ヒント",
+            "DescriptionJp": "レッドウィンター親衛隊を倒すと、強化された量産型戦車に受けるダメージ増加効果が累積します。\n広範囲攻撃スキルを使用してレッドウィンター親衛隊を倒し、強化された量産型戦車を倒してください。",
+            "NameEn": "Event Challenge Stage 4 Hint",
+            "DescriptionEn": "Defeating Red Winter guards applies a stacking effect that increases the damage taken by the enhanced mass-produced tank.\nUse skills that attack a wide area to defeat the Red Winter guards, then take down the enhanced mass-produced tank."
+        },
+        {
+            "Key": 1033125869,
+            "NameKr": "단종 부품 복제",
+            "DescriptionKr": "세상에 없는 부품은 없습니다. 아직 만들지 않은 부품이 있을 뿐.",
+            "NameJp": "生産終了部品の複製",
+            "DescriptionJp": "この世に存在しない部品なんてありません。まだ作られていない部品があるだけです。",
+            "NameEn": "Discontinued Parts Replication",
+            "DescriptionEn": "There's no such thing as a part that doesn't exist. Some just haven't been made yet."
+        },
+        {
+            "Key": 1594401264,
+            "NameKr": "수리 요청",
+            "DescriptionKr": "고치는 건 아주 쉽습니다. 고친 다음의 일은 나중에 생각하면 됩니다.",
+            "NameJp": "修理依頼",
+            "DescriptionJp": "直すだけならとても簡単です。直した後のことは、いずれ考えましょう。",
+            "NameEn": "Repair Request",
+            "DescriptionEn": "Fixing it is easy. We can worry about what happens afterward later."
+        },
+        {
+            "Key": 2157495962,
+            "NameKr": "기술 자문",
+            "DescriptionKr": "무엇이든 물어보세요. 뭐라도 대답합니다.",
+            "NameJp": "技術相談",
+            "DescriptionJp": "何でも聞いてください。どんなことでもお答えします。",
+            "NameEn": "Technical Consultation",
+            "DescriptionEn": "Ask us anything. We'll come up with an answer."
+        },
+        {
+            "Key": 2213731587,
+            "NameKr": "설계도 제작",
+            "DescriptionKr": "설계도를 제작합니다. \"미터법\"으로요.",
+            "NameJp": "設計図作成",
+            "DescriptionJp": "設計図を作成します。もちろん「メートル法」で。",
+            "NameEn": "Blueprint Drafting",
+            "DescriptionEn": "We draw up blueprints. Using the metric system, of course."
+        },
+        {
+            "Key": 3106440326,
+            "NameKr": "화학약품 제조",
+            "DescriptionKr": "화학약품을 만들어줍시다. 요리랑 비슷하겠죠.",
+            "NameJp": "化学薬品製造",
+            "DescriptionJp": "化学薬品を作りましょう。要は料理と同じです。",
+            "NameEn": "Chemical Production",
+            "DescriptionEn": "Let's make some chemicals. It's basically the same as cooking."
+        },
+        {
+            "Key": 2987680966,
+            "NameKr": "리버스 프로그래밍",
+            "DescriptionKr": "소스코드가 없는 프로그램을 똑같이 구현해주는 프로그래밍입니다. 작동만 하면 그만입니다.",
+            "NameJp": "リバースエンジニアリング",
+            "DescriptionJp": "ソースコードがないプログラムを完全再現します。動けばそれで十分です。",
+            "NameEn": "Reverse Engineering",
+            "DescriptionEn": "We recreate programs exactly without their source code. As long as they work, that's good enough."
+        },
+        {
+            "Key": 3389658552,
+            "NameKr": "인형 눈알 붙이기",
+            "DescriptionKr": "부업의 대명사입니다. 예술적 감각을 일깨워봅시다.",
+            "NameJp": "人形の目玉貼り",
+            "DescriptionJp": "これぞ内職の代名詞。眠れる芸術センスを爆発させましょう。",
+            "NameEn": "Gluing Eyes onto Dolls",
+            "DescriptionEn": "The quintessential side job. Let's unleash your dormant artistic talent."
+        },
+        {
+            "Key": 1655699791,
+            "NameKr": "교통량 조사",
+            "DescriptionKr": "183호 앞을 지나가는 사람과 자동차의 통행량을 조사합니다. 아무것도 지나가지 않지만, 일이니까 해야합니다.",
+            "NameJp": "交通量調査",
+            "DescriptionJp": "183号前の交通量を調査します。何も通りませんが、これも仕事ですから。",
+            "NameEn": "Traffic Survey",
+            "DescriptionEn": "We count the people and cars passing in front of No. 183. Nothing ever passes by, but a job is a job."
+        },
+        {
+            "Key": 2498303248,
+            "NameKr": "메이드의 프릴 앞치마",
+            "DescriptionKr": "카린이 항상 착용하는 앞치마.\n\n메이드의 상징이라 할 수 있기에, 항상 정성 들여 관리하고 있다.",
+            "NameJp": "メイドのフリルエプロン",
+            "DescriptionJp": "カリンがいつも着用しているエプロン。\n\nメイドの象徴とも言える品のため、いつも丁寧に扱っている。",
+            "NameEn": "Maid's Frilly Apron",
+            "DescriptionEn": "The apron Karin always wears.\n\nAs it is a symbol of a maid, she takes great care to maintain it."
+        },
+        {
+            "Key": 510297897,
+            "NameKr": "오래된 마법 모자",
+            "DescriptionKr": "에리의 분신 같은 마법 모자.\n\n이 모자가 있었기에, 지금의 에리가 있을 수 있었다.",
+            "NameJp": "古い魔法の帽子",
+            "DescriptionJp": "エリの分身のような魔法の帽子。\n\nこの帽子があったからこそ、今のエリがいる。",
+            "NameEn": "Old Magic Hat",
+            "DescriptionEn": "A magician's hat that is like an extension of Eri herself.\n\nIt is thanks to this hat that Eri is who she is today."
+        },
+        {
+            "Key": 699539006,
+            "NameKr": "독서가의 방석",
+            "DescriptionKr": "시미코가 가장 좋아하는 방석.\n\n독서에 몰입하기 좋은 편한 자리를 만들기 위한 필수품이다.",
+            "NameJp": "読書家のクッション",
+            "DescriptionJp": "シミコが一番愛用しているクッション。\n\n読書の最適なお供。",
+            "NameEn": "Reader's Cushion",
+            "DescriptionEn": "Shimiko's favorite cushion.\n\nAn essential item for creating a comfortable spot to get immersed in a book."
+        },
+        {
+            "Key": 2158139198,
+            "NameKr": "엘레프 상자",
+            "DescriptionKr": "무작위 학생의 엘레프가 들어있는 상자. 현상수배 상점에서 판매하는 엘레프 중 하나를 획득할 수 있다.",
+            "NameJp": "神名文字ボックス",
+            "DescriptionJp": "ランダムな生徒の神名文字が入っている箱。指名手配ショップで販売している神名文字のうち一つを獲得することができる。",
+            "NameEn": "Eleph Box",
+            "DescriptionEn": "A box containing the Elephs of a random student. You can obtain one of the Elephs sold in the [[Shop#Bounty_Section|Bounty Shop]]."
         }
+
 
     ]
 }

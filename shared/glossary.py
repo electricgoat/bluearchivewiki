@@ -50,12 +50,29 @@ CLUBS = {
             'PublishingDepartment': 'Publishing Department',
             'FoxSquad': "FOX Squad",
             'DivingClub': 'Diving Club',
+            'Class183': 'Class No. 183',
             'EmptyClub': 'no club'
 }
 
 SCHOOLS = {
     'RedWinter': 'Red Winter',
     'WildHunt': 'Wildhunt'
+}
+
+
+# Oopart families, keyed by the id of their N tier item. Each family occupies one decade of item ids,
+# N to SSR (110 Phaistos Disc Piece, 111 Broken Phaistos Disc, 112 Damaged, 113 Intact)
+OOPARTS = {
+    100: 'Nebra Sky Disk',
+    110: 'Phaistos Disc',
+    120: 'Wolfsegg Steel',
+    130: 'Nimrud Lens',
+    140: 'Mandrake',
+    150: 'Rohonc Codex',
+    160: 'Aether',
+    170: 'Antikythera Mechanism',
+    180: 'Voynich Manuscript',
+    190: 'Crystal Haniwa',
 }
 
 

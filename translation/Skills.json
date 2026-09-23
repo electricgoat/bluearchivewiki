@@ -88,8 +88,13 @@
         },
         {
             "GroupId": "ShimikoPublic01",
-            "NameEn": "Chicken soup for the Soul",
-            "DescriptionEn": "Every $1, grant a shield to an ally with the lowest HP (shield HP is $2 of Shimiko's Healing). (Duration: $3)"
+            "NameEn": "Food for the Soul",
+            "DescriptionEn": "Every $1, grant a shield of $2 Healong to an ally with the lowest HP. (Duration: $3)"
+        },
+        {
+            "GroupId": "ShimikoGearPublic01",
+            "NameEn": "Food for the Soul +",
+            "DescriptionEn": "Every $1, grant a shield of $2 Healing for $3 and increase Attack Speed by $4 for $5 to the 2 allies with the lowest HP.\nAdditionally, reduce own skill cost by $6 for $7 EX Skill use.\nFor the next EX Skill use, the cover object gains additional HP of $8 of Shimiko's Max HP."
         },
         {
             "GroupId": "ShimikoPassive01",
@@ -1067,13 +1072,18 @@
         },
         {
             "GroupId": "KarinEx01",
-            "NameEn": "Eliminating Target",
+            "NameEn": "Target Removal",
             "DescriptionEn": "Deal $1 Attack damage to one enemy. If enemy is colossal-sized, deal an additional $2 damage."
         },
         {
             "GroupId": "KarinPublic01",
             "NameEn": "Initiate Fire Support",
             "DescriptionEn": "Every $1, deal $2 Attack damage to one enemy, with a $3 chance to stun. (Duration: $4)"
+        },
+        {
+            "GroupId": "KarinGearPublic01",
+            "NameEn": "Initiate Fire Support +",
+            "DescriptionEn": "At the beginning of combat, acquire Codename 02.\nWhile possessing Codename 02, EX Skill bonus damage applies to large enemies as well.\nEvery $1, deal $2 Attack damage to one enemy, and inflict Stun for $3."
         },
         {
             "GroupId": "KarinPassive01",
@@ -2662,7 +2672,7 @@
         {
             "GroupId": "CH0116WeaponPassive01",
             "NameEn": "Healing wave! +",
-            "DescriptionEn": "Increase Healing  by $1. Further increase Healing by $2."
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
         },
         {
             "GroupId": "CH0116ExtraPassive01",
@@ -6438,6 +6448,11 @@
             "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 for $3.\nDeal $4 damage."
         },
         {
+            "GroupId": "CH0304GearPublic01",
+            "NameEn": "Spellbook Guidance +",
+            "DescriptionEn": "Every $1, reduce one enemy's Critical Damage Resistance by $2 and apply Grimoire for $3.\nDeal $4 damage.\nAttacking a target affected by Grimoire with an enhanced EX Skill additionally increases the damage multiplier by 1. Afterwards, remove Grimoire from the target."
+        },
+        {
             "GroupId": "CH0304Passive01",
             "NameEn": "Good Omen",
             "DescriptionEn": "Increase Attack by $1."
@@ -7238,7 +7253,7 @@
         {
             "GroupId": "CH0076WeaponPassive01",
             "NameEn": "Here's a bandage +",
-            "DescriptionEn": "Increase Healing  by $1. Further increase Healing by $2."
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
         },
         {
             "GroupId": "CH0076ExtraPassive01",
@@ -7622,12 +7637,12 @@
         {
             "GroupId": "CH0328Ex01",
             "NameEn": "Beat the Drill Bit",
-            "DescriptionEn": "Deals $1 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $2 for $3.\nAfterwards, deal $4 damage to enemies within a circular area."
+            "DescriptionEn": "Deal $1 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $2 for $3.\nAfterwards, deal $4 damage to enemies within a circular area."
         },
         {
             "GroupId": "CH0328Public01",
             "NameEn": "A \"special\" gift",
-            "DescriptionEn": "Every $1, deals $2 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $3 for $4."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nIf the target has Heavy armor, before the attack increase the amount of Effective damage taken by $3 for $4."
         },
         {
             "GroupId": "CH0328Passive01",
@@ -7643,6 +7658,58 @@
             "GroupId": "CH0328ExtraPassive01",
             "NameEn": "Why so serious?",
             "DescriptionEn": "Increase Piercing Efficiency of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0320Ex01",
+            "NameEn": "Please take a look!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nIf holding 4 Medals, this attack is a guaranteed critical hit."
+        },
+        {
+            "GroupId": "CH0320Public01",
+            "NameEn": "This is worthy of a medal!",
+            "DescriptionEn": "When allies defeat 8 enemies, gain $1 Medal (up to $2 times per battle).\nUp to 4 Medals can be stacked; each Medal increases damage dealt by $3."
+        },
+        {
+            "GroupId": "CH0320Passive01",
+            "NameEn": "Begin heat treatment!",
+            "DescriptionEn": "Increase Critical Rate by $1."
+        },
+        {
+            "GroupId": "CH0320WeaponPassive01",
+            "NameEn": "Begin heat treatment! +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Rate by $2."
+        },
+        {
+            "GroupId": "CH0320ExtraPassive01",
+            "NameEn": "It's looking good!",
+            "DescriptionEn": "Every $1, increase Piercing Efficiency by $2. (stacks up to 3 times)"
+        },
+
+        {
+            "GroupId": "CH0321Ex01",
+            "NameEn": "Let's eat first~",
+            "DescriptionEn": "Grant a shield of $1 Healing to allies within a circular area. (Duration: $2)\nGrant Special Pudding to allies protected by this shield.\nSpecial Pudding increases Attack by $3 and is removed 10 seconds after the \"Let's eat first~\" shield expires."
+        },
+        {
+            "GroupId": "CH0321Public01",
+            "NameEn": "I'm telling you, good enough is fine~",
+            "DescriptionEn": "Every $1, increase the Attack of 6 allies (excluding Special students) by $2 for $3."
+        },
+        {
+            "GroupId": "CH0321Passive01",
+            "NameEn": "Let's take a break~",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0321WeaponPassive01",
+            "NameEn": "Let's take a break~ +",
+            "DescriptionEn": "Increase Healing by $1. Further increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0321ExtraPassive01",
+            "NameEn": "Let's go all out~!",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
 
     ]
