@@ -12,7 +12,7 @@ import wikitextparser as wtp
 import wiki
 
 from data import load_data
-from model import Character
+from classes.Character import Character
 
 args = {}
 

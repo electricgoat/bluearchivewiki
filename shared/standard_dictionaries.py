@@ -6,7 +6,8 @@ This module sits above the model: model.py and classes/* must never import it, o
 import collections
 import traceback
 
-from model import Character, Item
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture
 from classes.Emblem import Emblem
 

@@ -244,6 +244,12 @@
 {% for level in character.passive_weapon_skill.levels -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
 {% endfor -%}
+{% if character.passive_weapon_skill.mechanics -%}
+| SkillDescriptionGeneratedGeneral = {{character.passive_weapon_skill.mechanics.description_general}}
+{% for level in range(1, character.passive_weapon_skill.max_level + 1) -%}
+| SkillDescriptionGeneratedLv{{level}} = {{character.passive_weapon_skill.mechanics.describe(level)}}
+{% endfor -%}
+{% endif -%}
 {% raw %}}}{% endraw %}
 
 {%- if character.normal_gear_skill != None %}
@@ -281,6 +287,12 @@
 {% for level in character.normal_gear_skill.levels -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
 {% endfor -%}
+{% if character.normal_gear_skill.mechanics -%}
+| SkillDescriptionGeneratedGeneral = {{character.normal_gear_skill.mechanics.description_general}}
+{% for level in range(1, character.normal_gear_skill.max_level + 1) -%}
+| SkillDescriptionGeneratedLv{{level}} = {{character.normal_gear_skill.mechanics.describe(level)}}
+{% endfor -%}
+{% endif -%}
 {% raw %}}}{% endraw %}
 
 {%- if character.normal_gear_skill.additional_tooltip != [] %}

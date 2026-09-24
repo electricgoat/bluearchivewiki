@@ -14,4 +14,10 @@
 | SkillUpgradeLv{{outer_loop.index + 1}}_{{loop.index}}_Amount = {{amount}}
 {% endfor -%}{% endif -%}{% endif -%}
 {% endfor -%}
+{% if skill.mechanics -%}
+| SkillDescriptionGeneratedGeneral = {{skill.mechanics.description_general}}
+{% for level in range(1, skill.max_level + 1) -%}
+| SkillDescriptionGeneratedLv{{level}} = {{skill.mechanics.describe(level)}}
+{% endfor -%}
+{% endif -%}
 {% raw %}}}{% endraw %}

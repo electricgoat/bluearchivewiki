@@ -12,7 +12,8 @@ import wikitextparser as wtp
 import wiki
 
 from data import load_data
-from model import Character
+from classes.Character import Character
+from classes.Skill import Skill
 import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
@@ -124,9 +125,11 @@ def main():
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
     parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
+    parser.add_argument('-skill_mechanics', action='store_true', help='EXPERIMENTAL: add skill descriptions generated from skill mechanics to skill tables')
 
     args = vars(parser.parse_args())
     print(args)
+    Skill.generate_mechanics = args['skill_mechanics']
 
     if args['wiki'] != None: #and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
         wiki.init(args)

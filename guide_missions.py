@@ -11,7 +11,8 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
 from data import load_data, load_season_data
-from model import Character, Item
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture
 from events.mission_desc import mission_desc
 from shared.functions import hashkey

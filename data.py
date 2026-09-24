@@ -5,6 +5,8 @@ import orjson
 import os
 import re
 
+from shared.battle_schema import resolve as resolve_battle_enums
+
 BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
     ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 
@@ -19,7 +21,7 @@ BlueArchiveData = collections.namedtuple(
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization', 'localization', 
     'character_dialog','character_dialog_event','character_dialog_aux','character_dialog_subtitle','character_dialog_battlepass','character_voice','character_voice_subtitle',
-    'levelskill','logiceffectdata',
+    'levelskill','logiceffectdata','logic_effects','logic_effect_visuals','translated_skill_effects','translated_forms','tactical_support_system',
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group', 'furniture_template', 'furniture_template_element', 'cafe_interaction', 
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
@@ -87,6 +89,11 @@ def load_data(path_primary, path_secondary, path_translation):
         character_voice_subtitle=   load_character_subtitle(path_primary, path_secondary, 'CharacterVoiceSubtitleExcelTable.json', match_id='CharacterVoiceGroupId'),
         levelskill =                load_levelskill(path_primary),
         logiceffectdata =           load_skill_logiceffectdata(path_primary),
+        logic_effects =             load_logic_effects(path_primary),
+        logic_effect_visuals =      load_generic(path_primary, 'LogicEffectCommonVisualExcelTable.json', key='StringID'),
+        translated_skill_effects =  load_skill_effect_names(path_translation, 'TemplateId'),
+        translated_forms =          load_skill_effect_names(path_translation, 'FormId'),
+        tactical_support_system =   load_generic(path_primary, 'TacticalSupportSystemExcelTable.json'),
         guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
         guide_mission_season =      load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
         localize_code =             load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeCodeExcelTable.json'),
@@ -459,8 +466,8 @@ class LazyLevelSkill(collections.abc.Mapping):
             with open(os.path.join(self.skill_path, file), encoding="utf8") as f:
                 skill_info = orjson.loads(f.read())
 
-            if (type(skill_info) is list): self.skills[lookup] = skill_info[0] #pre-1.35
-            elif (type(skill_info) is dict): self.skills[lookup] = skill_info
+            if (type(skill_info) is list): self.skills[lookup] = resolve_battle_enums(skill_info[0]) #pre-1.35
+            elif (type(skill_info) is dict): self.skills[lookup] = resolve_battle_enums(skill_info)
             else:
                 print(f"ERROR - file {file} with unknown data of type {type(skill_info)}")
                 raise KeyError(key)
@@ -491,6 +498,28 @@ def load_skill_logiceffectdata(path):
         data = orjson.loads(f.read())
 
     return {item['StringId']: convert_boolean_strings(item) for item in data}
+
+
+def load_skill_effect_names(path_translation, key):
+    """translation/SkillEffects.json holds names of character-unique effects (by TemplateId) and of character forms (by FormId)"""
+    return {item[key]: item for item in load_file(os.path.join(path_translation, 'SkillEffects.json'), key=None) if item.get(key)}
+
+
+def load_logic_effects(path):
+    """Current LogicEffect data, grouped by GroupId into per-level lists with enum values resolved to names.
+    PC holds student (and their summons') effects, NPC holds enemy, boss and event effects, their GroupIds do not overlap"""
+    data = []
+    for file in ('LogicEffect_PC.json', 'LogicEffect_NPC.json'):
+        with open(os.path.join(path, 'DB', file), encoding="utf8") as f:
+            data += orjson.loads(f.read())
+
+    groups = collections.defaultdict(list)
+    for row in sorted(data, key=lambda x: x['Level']):
+        row['Type'] = row['$type'].split(',')[0].rsplit('.', 1)[-1].removesuffix('EffectDAO')
+        groups[row['GroupId']].append(resolve_battle_enums(row))
+
+    return dict(groups)
+
 
 def convert_boolean_strings(obj):
     if isinstance(obj, dict):

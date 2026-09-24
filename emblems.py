@@ -13,7 +13,8 @@ from jinja2 import Environment, FileSystemLoader
 import wiki
 
 from data import load_data
-from model import Character, Item, Furniture
+from model import Item, Furniture
+from classes.Character import Character
 from classes.Emblem import Emblem
 import shared.functions
 from shared.MissingTranslations import MissingTranslations

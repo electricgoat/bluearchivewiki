@@ -10,7 +10,8 @@ import wiki
 
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from model import Item, Character
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture, FurnitureGroup
 from classes.Emblem import Emblem
 from classes.RaidSeasonReward import RaidSeasonReward

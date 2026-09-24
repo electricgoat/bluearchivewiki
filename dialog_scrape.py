@@ -23,7 +23,7 @@ from pywikiapi import Site, ApiError
 import dialog
 import wiki
 from classes.Dialog import Dialog, Clip
-from model import Character
+from classes.Character import Character
 
 
 CLIP_LINK = re.compile(r"\[\[\s*(?:File|Media)\s*:\s*([^\]|]+?)\.\w+\s*(?:\|[^\]]*)?\]\]", re.IGNORECASE)

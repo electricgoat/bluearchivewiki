@@ -10,7 +10,7 @@ from datetime import datetime
 import wiki
 
 from data import load_data
-from model import Character
+from classes.Character import Character
 #import shared.functions
 from shared.CompareImages import compare_images
 

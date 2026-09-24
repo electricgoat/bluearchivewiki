@@ -9,7 +9,7 @@ import textwrap
 import wiki
 
 from data import load_data
-from model import Character
+from classes.Character import Character
 
 
 # The wiki Type is what {{Media}} accepts; see the cargo declaration in Template:Media
