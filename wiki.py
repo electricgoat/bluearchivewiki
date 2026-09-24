@@ -388,6 +388,25 @@ def redirect(name_from, name_to, summary='Generated redirect'):
     publish(name_from, wikitext, summary)
 
 
+def redirect_target(page):
+    """Title the page redirects to, None if it doesn't exist or isn't a redirect."""
+    global site
+
+    try:
+        result = site('query', titles=page, redirects=True)
+        for redirect in result['query'].get('redirects', []):
+            if redirect['from'].replace(' ', '_') == page.replace(' ', '_'):
+                return redirect['to'].replace(' ', '_')
+    except ApiError as error:
+        if error.message == 'Call failed':
+            print (f"Call failed, retrying")
+            return redirect_target(page)
+        else:
+            print (f"Unknown error {error}")
+
+    return None
+
+
 def extract_trailing_parts(section):
     #Match {{...}} or [[Category:...]]
     trailing_pattern = re.compile(r'(\{\{[^}]+\}\}|\[\[Category:[^\]]+\]\])\s*$', re.MULTILINE)
