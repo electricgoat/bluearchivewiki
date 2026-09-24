@@ -73,6 +73,7 @@ class Banner:
         self.direct_pay_android_shop_cash_id = banner_data.get('DirectPayAndroidShopCashId', 0)
         self.direct_pay_apple_shop_cash_id = banner_data.get('DirectPayAppleShopCashId', 0)
         self.selectable_gacha_group_id = banner_data.get('SelectAbleGachaGroupId', 0)
+        self.select_pickup_character_id = banner_data.get('SelectPickupCharacterId', [])
 
 
     def parse_date(self, date_str):
@@ -92,6 +93,11 @@ class Banner:
     @property
     def is_rerun(self):
         return self.rerun_original_id is not None
+
+    @property
+    def rerun_key(self):
+        """Runs of one banner share it: the category and InfoCharacterId, or for select recruitments, which list no InfoCharacterId, the lobby banner."""
+        return (self.category_type, tuple(self.info_character_id) or self.linked_lobby_banner_id)
     
     @property
     def wiki_featured_characters(self):

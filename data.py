@@ -32,7 +32,7 @@ BlueArchiveData = collections.namedtuple(
     'minigame_ccg_card', 'minigame_ccg_character', 'minigame_ccg_enemy', 'minigame_ccg_info', 'minigame_ccg_reward_card', 'minigame_ccg_reward_card_rate', 'minigame_ccg_reward_item', 'minigame_ccg_skill', 'minigame_ccg_open_dialog',
     'minigame_janken_info', 'minigame_janken_stage', 'minigame_janken_character', 'minigame_janken_character_ai', 'minigame_janken_character_skill', 'minigame_janken_equipment', 'minigame_janken_fixed_echelon', 'minigame_janken_reward_score', 'minigame_janken_reward_score_item', 'minigame_janken_voice',
     'ground', 'ground_module_reward',
-    'gacha_elements', 'gacha_elements_recursive', 'gacha_groups', 'gacha_select_pickup_group',
+    'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
     'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
@@ -179,7 +179,6 @@ def load_data(path_primary, path_secondary, path_translation):
         gacha_elements=             load_file_grouped(path_primary, 'GachaElementExcelTable.json', 'GachaGroupID'),
         gacha_elements_recursive=   load_file_grouped(path_primary, 'GachaElementRecursiveExcelTable.json', 'GachaGroupID'),
         gacha_groups=               load_generic(path_primary, 'GachaGroupExcelTable.json', key='ID'),
-        gacha_select_pickup_group=  load_file_grouped(path_primary, 'GachaSelectPickupGroupExcelTable.json', 'GachaGroupId'),
         strategymaps=               load_strategymaps(path_primary),
         goods=                      load_generic(path_primary, 'GoodsExcelTable.json'),
         stages=                     load_stages(path_primary),
@@ -670,7 +669,7 @@ BlueArchiveSeasonData = collections.namedtuple(
     ['raid_season', 'world_raid_season', 'interactive_world_raid_season', 'eliminate_raid_season', 'eliminate_raid_stage', 'multi_floor_raid_season',
      'event_content_season', 'guide_mission_season',
      'time_attack_dungeon_season',
-     'shop_recruit', 'shop_recruit_mileage']
+     'shop_recruit', 'shop_recruit_mileage', 'gacha_select_pickup_group']
 )
 
 def load_season_data(path):
@@ -686,4 +685,5 @@ def load_season_data(path):
         time_attack_dungeon_season=     load_generic(path, 'TimeAttackDungeonSeasonManageExcelTable.json', key=None),
         shop_recruit =                  load_generic(path, 'ShopRecruitExcelTable.json'),
         shop_recruit_mileage =          load_generic(path, 'ShopRecruitMileageExcelTable.json', key=None),
+        gacha_select_pickup_group =     load_file_grouped(path, 'GachaSelectPickupGroupExcelTable.json', 'GachaGroupId'),
     )
