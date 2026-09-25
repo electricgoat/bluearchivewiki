@@ -218,7 +218,7 @@ def upload_files(export_galleries:list[Gallery]):
     global args
 
     for gallery in export_galleries:
-        #A page can exist without a file (a duplicate's redirect) and a redirect can hold a file (uploaded while the sprite was still unique)
+        #Duplicates used to be redirects rather than files, so a page can exist without a file, or hold a redirect over a file uploaded while the sprite was still unique
         wiki_pages = wiki.page_prefix_list(gallery.character_wikiname)
         wiki_hashes = wiki.file_hashes([f"File:{x}" for x in Gallery.flatlist(gallery.files)])
         wiki_categories = ["Character sprites", f"{gallery.character_name} images"]
@@ -230,22 +230,22 @@ def upload_files(export_galleries:list[Gallery]):
             for file in gallery.files[path]:
                 page = f"File:{file}"
                 has_page, has_file = page in wiki_pages, page in wiki_hashes
+                local_path = os.path.join(path, file)
                 duplicate_of = gallery.exclude_files[path].get(file)
 
-                if duplicate_of:
-                    #A duplicate is never uploaded: its page is created as a redirect, and turned into one over a file uploaded before
-                    text, summary = f"#REDIRECT [[File:{duplicate_of}]]\n[[Category:Character sprite redirects]]", 'Identical sprite redirect'
-                    update_text = not has_page or has_file or args['update_wikitext']
-                else:
-                    text, summary = sprite_text, 'Updated sprite categories'
-                    local_path = os.path.join(path, file)
-                    uploaded = False
-                    #-reupload replaces a file on the wiki only when its content differs from the local one
-                    if not has_file or (args['reupload'] and wiki_hashes[page] != file_sha1(local_path)):
-                        print (f"Uploading {file} from {local_path}")
-                        uploaded = wiki.upload(local_path, file, comment, text)
-                    #An upload writes the text of a new page only, so a page that was there without a file (a redirect) gets its text once the file is uploaded
-                    update_text = has_page and (args['update_wikitext'] if has_file else uploaded)
+                #A duplicate is uploaded like any other sprite, as MediaWiki doesn't follow a redirect on a page that holds a file (https://phabricator.wikimedia.org/T16928); only the gallery pages leave it out
+                if duplicate_of: text, summary = f"This sprite is identical to [[:File:{duplicate_of}]].\n{sprite_text}\n[[Category:Character sprite duplicates]]", 'Duplicate sprite note'
+                else: text, summary = sprite_text, 'Updated sprite categories'
+
+                uploaded = False
+                #-reupload replaces a file on the wiki only when its content differs from the local one
+                if not has_file or (args['reupload'] and wiki_hashes[page] != file_sha1(local_path)):
+                    print (f"Uploading {file} from {local_path}")
+                    uploaded = wiki.upload(local_path, file, comment, text)
+
+                #An upload writes the text of a new page only, so a page that was there without a file (a duplicate's redirect) gets its text once the file is uploaded.
+                #A duplicate's text is always checked, as it may still be a redirect over its file, or the sprite may have turned into a duplicate since its upload
+                update_text = has_page and ((bool(duplicate_of) or args['update_wikitext']) if has_file else uploaded)
 
                 if update_text and not wiki.page_exists(page, text):
                     print (f"Updating wikitext of {page}: {summary}")
