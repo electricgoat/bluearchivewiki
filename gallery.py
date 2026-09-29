@@ -23,7 +23,7 @@ LEGACY_SPRNAME = ['First version', 'Original version', 'Beta version', 'Unreleas
 
 
 class Gallery(object):
-    def __init__(self, root_dir, dirname, character_wikiname, is_diorama, is_exported, description, files, exclude_files = None, cargo_template = None):
+    def __init__(self, root_dir, dirname, character_wikiname, is_diorama, is_exported, description, files, exclude_files = None, cargo_template = None, background = None):
         self.root_dir = root_dir
         self.dirname = dirname
         self.character_wikiname = character_wikiname
@@ -33,6 +33,7 @@ class Gallery(object):
         self.files = files
         self.exclude_files = exclude_files
         self.cargo_template = cargo_template
+        self.background = background
 
 
     @property
@@ -61,7 +62,7 @@ class Gallery(object):
                 f"character_wikiname={self.character_wikiname!r}, is_diorama={self.is_diorama}, "
                 f"is_exported={self.is_exported}, description={self.description!r}, "
                 f"files={list(self.files.keys())}, exclude_files={self.exclude_files!r}, "
-                f"cargo_template={self.cargo_template!r})")
+                f"cargo_template={self.cargo_template!r}, background={self.background!r})")
 
     
     def wikitext(self, include_cargo = False, header_level = 2):
@@ -97,7 +98,8 @@ class Gallery(object):
 
         if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
         
-        wikitext += "<gallery>\n" + "\n".join(files) + "\n</gallery>\n"
+        attributes = self.background and f' data-bg="{self.background}"' or ''
+        wikitext += f"<gallery{attributes}>\n" + "\n".join(files) + "\n</gallery>\n"
 
         return wikitext
     
@@ -330,11 +332,15 @@ def generate():
             print(f"No sprite export galleries found for {character_name}")
             continue
         
-        playable_variants = []
-        if not args['npc']: playable_variants = [x.wiki_name for x in character_map[character_name]]
+        playable_variants = {}
+        if not args['npc']: playable_variants = {x.wiki_name: x for x in character_map[character_name]}
  
         #prepare data for cargo template
         for gallery in export_galleries:
+            #sprites of a playable character are shown over the background of their character collection art
+            playable = playable_variants.get(gallery.character_wikiname)
+            gallery.background = playable and playable.costume['CollectionBGTexturePath'].rsplit('/', 1)[-1] + '.png'
+
             gallery.cargo_template = {
                 'Id': wikiname_to_devname_map.get(gallery.character_wikiname, ''),
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
@@ -343,9 +349,10 @@ def generate():
                 'SpriteNames': ','.join([gallery.sprite_name(x) for x in Gallery.flatlist(gallery.files_exportable)]),
                 'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
-        if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
-            #print(f"Spoiler sprite: {gallery.dirname}")
-            gallery.cargo_template['Spoiler'] = 'yes'
+            if gallery.background: gallery.cargo_template['Background'] = gallery.background
+            if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
+                #print(f"Spoiler sprite: {gallery.dirname}")
+                gallery.cargo_template['Spoiler'] = 'yes'
 
         group_uploaded = False
 
