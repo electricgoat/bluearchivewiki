@@ -139,6 +139,114 @@ def category_members(cmtitle, cmnamespace = '*'):
 
 
 
+def page_links(title, plnamespace = '*'):
+    """Titles of all pages linked from the given page (including links coming from transcluded templates)."""
+    assert site is not None
+    page_list = []
+
+    try:
+        for page in site.query_pages(titles=[title], prop='links', pllimit='max', plnamespace=plnamespace):
+            for link in page.get('links', []):
+                page_list.append(link['title'].replace(' ', '_'))
+    except ApiError as error:
+        print (f"Unknown error {error}")
+
+    return page_list
+
+
+
+def embedded_in(eititle, einamespace = '*'):
+    """Titles of all pages transcluding the given page (Bucket registers its queries this way too)."""
+    assert site is not None
+    page_list = []
+
+    try:
+        for r in site.query(list='embeddedin', eititle=eititle, eilimit='max', einamespace=einamespace):
+            for page in r['embeddedin']:
+                page_list.append(page['title'].replace(' ', '_'))
+    except ApiError as error:
+        print (f"Unknown error {error}")
+
+    return page_list
+
+
+
+def backlinks(bltitle, blnamespace = '*'):
+    """Titles of all pages linking to the given page (what links here)."""
+    assert site is not None
+    page_list = []
+
+    try:
+        for r in site.query(list='backlinks', bltitle=bltitle, bllimit='max', blnamespace=blnamespace):
+            for page in r['backlinks']:
+                page_list.append(page['title'].replace(' ', '_'))
+    except ApiError as error:
+        print (f"Unknown error {error}")
+
+    return page_list
+
+
+
+def bucket(query:str):
+    """Rows of a Bucket query, written as the extension's Lua: bucket('raids').select('season').where('server','JP').run()"""
+    assert site is not None
+
+    try:
+        return site('bucket', query=query)['bucket']
+    except TypeError: #Bucket words its errors as a string, which pywikiapi can't read
+        print (f"Bucket query failed: {query}")
+        return []
+
+
+
+def purge_all(titles, forcelinkupdate = False, attempts = 5, delay = 60):
+    """Purge given pages, retrying the ones that were not purged (usually due to purge rate limit) after a delay."""
+    failed = purge(titles, forcelinkupdate)
+
+    attempt = 1
+    while failed and attempt <= attempts:
+        print (f"{len(failed)} pages were not purged (likely rate limited), retrying in {delay}s, attempt {attempt}/{attempts}")
+        time.sleep(delay)
+        failed = purge(failed, forcelinkupdate)
+        attempt += 1
+
+    if failed:
+        print (f"Failed to purge {len(failed)} pages: {failed}")
+    else:
+        print (f"Done")
+
+    return failed
+
+
+
+def purge(titles, forcelinkupdate = False):
+    """Purge the parser cache of given pages, returns the list of titles that could not be purged."""
+    assert site is not None
+    failed = []
+
+    titles = list(titles)
+    for chunk in [titles[i:i+20] for i in range(0, len(titles), 20)]:
+        try:
+            result = site('purge', titles=chunk, forcelinkupdate=forcelinkupdate, POST=True)
+            for page in result.get('purge', []):
+                if page.get('missing') or page.get('invalid'):
+                    print (f"Page {page['title']} not found")
+                elif page.get('purged'):
+                    print (f"Purged {page['title']}")
+                else:
+                    failed.append(page['title'].replace(' ', '_'))
+        except ApiError as error:
+            if error.data['code'] == 'badtoken':
+                reauthenticate()
+                failed += purge(chunk, forcelinkupdate)
+            else:
+                print (f"Unknown purge error {error}")
+                failed += chunk
+
+    return failed
+
+
+
 def update_template(page_name, template_name, wikitext):
     assert site is not None
     template_old = None

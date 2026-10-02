@@ -1,0 +1,302 @@
+{
+    "jp": [
+        {
+            "SeasonId": 3,
+            "Version": "v1.0.78359-m28_1_0_1_mashiro3",
+            "StackedSeasonRewardGauge": [625, 1250, 1875, 2500, 3125, 3750, 4375, 5000, 5625, 6250, 6875, 7500, 8125, 8750, 9375, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 75000, 100000, 125000, 150000, 175000, 200000, 225000, 250000, 312500, 375000, 437500, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 0, "RewardParcelType": ["Item"], "RewardParcelUniqueId": [7], "RewardParcelAmount": [425]}
+            ],
+            "SeasonReward": [
+                {"SeasonRewardParcelType": ["Equipment"], "SeasonRewardParcelUniqueId": [1], "SeasonRewardAmount": [12]},
+                {"SeasonRewardParcelType": ["Item"], "SeasonRewardParcelUniqueId": [10], "SeasonRewardAmount": [12]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [130, 100], "SeasonRewardAmount": [6, 6]},
+                {"SeasonRewardParcelType": ["Currency", "Item"], "SeasonRewardParcelUniqueId": [1, 7], "SeasonRewardAmount": [200000, 50]},
+                {"SeasonRewardParcelType": ["Equipment"], "SeasonRewardParcelUniqueId": [2], "SeasonRewardAmount": [8]},
+                {"SeasonRewardParcelType": ["Item"], "SeasonRewardParcelUniqueId": [11], "SeasonRewardAmount": [6]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [131, 101], "SeasonRewardAmount": [3, 3]},
+                {"SeasonRewardParcelType": ["Currency", "Item"], "SeasonRewardParcelUniqueId": [3, 7], "SeasonRewardAmount": [150, 50]},
+                {"SeasonRewardParcelType": ["Equipment"], "SeasonRewardParcelUniqueId": [3], "SeasonRewardAmount": [2]},
+                {"SeasonRewardParcelType": ["Item"], "SeasonRewardParcelUniqueId": [12], "SeasonRewardAmount": [3]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [132, 102], "SeasonRewardAmount": [2, 2]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [23, 7], "SeasonRewardAmount": [15, 50]},
+                {"SeasonRewardParcelType": ["Equipment"], "SeasonRewardParcelUniqueId": [4], "SeasonRewardAmount": [1]},
+                {"SeasonRewardParcelType": ["Item"], "SeasonRewardParcelUniqueId": [13], "SeasonRewardAmount": [1]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [133, 103], "SeasonRewardAmount": [1, 1]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [10007, 7], "SeasonRewardAmount": [5, 50]},
+                {"SeasonRewardParcelType": ["Equipment", "Equipment"], "SeasonRewardParcelUniqueId": [1, 2], "SeasonRewardAmount": [24, 16]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [10, 11], "SeasonRewardAmount": [24, 12]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [130, 100, 131, 101], "SeasonRewardAmount": [12, 12, 6, 6]},
+                {"SeasonRewardParcelType": ["Currency", "Currency", "Item"], "SeasonRewardParcelUniqueId": [1, 3, 7], "SeasonRewardAmount": [300000, 150, 100]},
+                {"SeasonRewardParcelType": ["Equipment", "Equipment"], "SeasonRewardParcelUniqueId": [3, 4], "SeasonRewardAmount": [2, 1]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [12, 13], "SeasonRewardAmount": [3, 1]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [132, 102, 133, 103], "SeasonRewardAmount": [2, 2, 1, 1]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [23, 10007, 7], "SeasonRewardAmount": [15, 5, 100]},
+                {"SeasonRewardParcelType": ["Equipment", "Equipment"], "SeasonRewardParcelUniqueId": [1, 2], "SeasonRewardAmount": [24, 16]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [10, 11], "SeasonRewardAmount": [24, 12]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [130, 100, 131, 101], "SeasonRewardAmount": [12, 12, 6, 6]},
+                {"SeasonRewardParcelType": ["Currency", "Currency", "Item"], "SeasonRewardParcelUniqueId": [1, 3, 7], "SeasonRewardAmount": [1000000, 150, 100]},
+                {"SeasonRewardParcelType": ["Equipment", "Equipment"], "SeasonRewardParcelUniqueId": [3, 4], "SeasonRewardAmount": [4, 2]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [12, 13], "SeasonRewardAmount": [6, 2]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [132, 102, 133, 103], "SeasonRewardAmount": [4, 4, 2, 2]},
+                {"SeasonRewardParcelType": ["Item", "Item", "Item"], "SeasonRewardParcelUniqueId": [23, 10007, 7], "SeasonRewardAmount": [20, 5, 100]},
+                {"SeasonRewardParcelType": ["Currency"], "SeasonRewardParcelUniqueId": [1], "SeasonRewardAmount": [2000000]},
+                {"SeasonRewardParcelType": ["Item"], "SeasonRewardParcelUniqueId": [7], "SeasonRewardAmount": [200]},
+                {"SeasonRewardParcelType": ["Currency"], "SeasonRewardParcelUniqueId": [3], "SeasonRewardAmount": [200]},
+                {"SeasonRewardParcelType": ["Item", "Item"], "SeasonRewardParcelUniqueId": [23, 10007], "SeasonRewardAmount": [20, 5]}
+            ]
+        },
+        {
+            "SeasonId": 4,
+            "Version": "v1.2.81489-m29_1_2_2",
+            "StackedSeasonRewardGauge": [2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 220000, 240000, 260000, 290000, 320000, 350000, 380000, 410000, 440000, 470000, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 0, "RewardParcelType": ["Item"], "RewardParcelUniqueId": [7], "RewardParcelAmount": [425]}
+            ]
+        },
+        {
+            "SeasonId": 5,
+            "Version": "v1.3.85633-m30_1_3_0",
+            "StackedSeasonRewardGauge": [2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 220000, 240000, 260000, 290000, 320000, 350000, 380000, 410000, 440000, 470000, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100223, 100222, 100221, 100220], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100222, 100221, 100220], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100221, 100220], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100220], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 6,
+            "Version": "v1.4.87742-m30_1_4_0415",
+            "StackedSeasonRewardGauge": [2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 220000, 240000, 260000, 290000, 320000, 350000, 380000, 410000, 440000, 470000, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100023, 100022, 100021, 100020], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100022, 100021, 100020], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100021, 100020], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100020], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 7,
+            "Version": "v1.5.90074-m31_1_5_0429",
+            "StackedSeasonRewardGauge": [2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 220000, 240000, 260000, 290000, 320000, 350000, 380000, 410000, 440000, 470000, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100103, 100102, 100101, 100100], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100102, 100101, 100100], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100101, 100100], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100100], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 8,
+            "Version": "v1.5.90074-m31_1_5_0513",
+            "StackedSeasonRewardGauge": [2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 120000, 140000, 160000, 180000, 200000, 220000, 240000, 260000, 290000, 320000, 350000, 380000, 410000, 440000, 470000, 500000],
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100223, 100222, 100221, 100220], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100222, 100221, 100220], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100221, 100220], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100220], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 9,
+            "Version": "v1.6.93562-m32_1_6_0527",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100313, 100312, 100311, 100310], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100312, 100311, 100310], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100311, 100310], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100310], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 10,
+            "Version": "v1.6.93562-m32_1_6_0527",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100003, 100002, 100001, 100000], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100002, 100001, 100000], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100001, 100000], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100000], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 11,
+            "Version": "v1.6.93562-m32_1_6_0624",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100313, 100312, 100311, 100310], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100312, 100311, 100310], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100311, 100310], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100310], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 12,
+            "Version": "v1.7.97927-m33_1_7_0630",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100213, 100212, 100211, 100210], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100212, 100211, 100210], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100211, 100210], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100210], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 13,
+            "Version": "v1.7.97927-m33_1_7_0715",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100113, 100112, 100111, 100110], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100112, 100111, 100110], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100111, 100110], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100110], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 14,
+            "Version": "v1.8.101734-m34_1_8_0729",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100403, 100402, 100401, 100400], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100402, 100401, 100400], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100401, 100400], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100400], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 15,
+            "Version": "v1.8.101734-m34_1_8_0812",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100223, 100222, 100221, 100220], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100222, 100221, 100220], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100221, 100220], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100220], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 16,
+            "Version": "v1.9.105038-m35_1_9_0826",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100323, 100322, 100321, 100320], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100322, 100321, 100320], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100321, 100320], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100320], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 17,
+            "Version": "v1.9.105038-m35_1_9_0826",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100103, 100102, 100101, 100100], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100102, 100101, 100100], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100101, 100100], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100100], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 18,
+            "Version": "v1.9.105038-m35_1_9_0923",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100323, 100322, 100321, 100320], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100322, 100321, 100320], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100321, 100320], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100320], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 19,
+            "Version": "v1.10.109261-m36_1_10_0929",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100403, 100402, 100401, 100400], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100402, 100401, 100400], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100401, 100400], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100400], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 20,
+            "Version": "v1.10.109261-m36_1_10_1012",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100213, 100212, 100211, 100210], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100212, 100211, 100210], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100211, 100210], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100210], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 21,
+            "Version": "v1.11.113283-m37_1_11_1027",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100513, 100512, 100511, 100510], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100512, 100511, 100510], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100511, 100510], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100510], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 22,
+            "Version": "v1.11.113283-m37_1_11_1117_deahwa",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100423, 100422, 100421, 100420], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100422, 100421, 100420], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100421, 100420], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100420], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 23,
+            "Version": "v1.11.113283-m37_1_11_1117_deahwa",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100513, 100512, 100511, 100510], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100512, 100511, 100510], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100511, 100510], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100510], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 24,
+            "Version": "v1.12.118164-m38_1_12_1130_db5mq3i2wn",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100003, 100002, 100001, 100000], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100002, 100001, 100000], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100001, 100000], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100000], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 25,
+            "Version": "v1.12.118164-m38_1_12_1130_db5mq3i2wn_4",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100313, 100312, 100311, 100310], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100312, 100311, 100310], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100311, 100310], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100310], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 26,
+            "Version": "v1.12.118164-m38_1_12_1130_db5mq3i2wn_4",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100103, 100102, 100101, 100100], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100102, 100101, 100100], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100101, 100100], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100100], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 27,
+            "Version": "v1.13.122457-m39_1_13_0112_7sveqmy4q1",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100503, 100502, 100501, 100500], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100502, 100501, 100500], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100501, 100500], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100500], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        },
+        {
+            "SeasonId": 28,
+            "Version": "v1.15.129381-m40_1_15_0209_r0v8s1hvre",
+            "RankingReward": [
+                {"RankStart": 1, "RankEnd": 10000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100623, 100622, 100621, 100620], "RewardParcelAmount": [1200, 575, 1, 1, 1, 1]},
+                {"RankStart": 10001, "RankEnd": 50000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100622, 100621, 100620], "RewardParcelAmount": [1000, 500, 1, 1, 1]},
+                {"RankStart": 50001, "RankEnd": 100000, "RewardParcelType": ["Currency", "Item", "Furniture", "Furniture"], "RewardParcelUniqueId": [3, 7, 100621, 100620], "RewardParcelAmount": [800, 425, 1, 1]},
+                {"RankStart": 100001, "RankEnd": 0, "RewardParcelType": ["Currency", "Item", "Furniture"], "RewardParcelUniqueId": [3, 7, 100620], "RewardParcelAmount": [600, 325, 1]}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{% set promo = 'Limit_Break_Raid_' + info.shortname|replace(' ', '_') + '_promo.png' -%}
+{% raw %}{{{% endraw %}#seo:
+    |title={{raid_page}}
+    |title_mode=append
+    |keywords={{info.name}},{{info.shortname}},Raid,raidboss,Limit Break Raid,Limit Break Assault,multifloor,tower
+    |description={{info.shortname}} is a raid boss in Blue Archive that can be encountered in the monthly Limit Break Raid game mode.
+    |image = {{promo}}
+    |image_alt = {{raid_page}}
+{% raw %}}}{% endraw %}
+[[File:{{promo}}|thumb|Promo image]]
+'''{{info.shortname}}''' is a raid boss in Blue Archive that can be encountered in the monthly [[Limit Break Raid]] game mode. It is an {{info.environment|replace('oors', 'oor')}} raid that can appear as {% if armors|length == 2 %}either {% endif %}{{armors|join(' or ')}} Armor.
+
+==Appearances==
+<tabber>
+JP={% raw %}{{MultiFloorRaidTable |
+{{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Challenge, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{raid_page}}{% raw %}" AND Server = "JP"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td class="bg-element bg-{{lc:%Challenge%}}">%Challenge%</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| default = None!
+}}
+}}
+|-|
+Global={{MultiFloorRaidTable |
+{{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Challenge, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{raid_page}}{% raw %}" AND Server = "GL"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td class="bg-element bg-{{lc:%Challenge%}}">%Challenge%</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| default = None!
+}}
+}}{% endraw %}
+</tabber>

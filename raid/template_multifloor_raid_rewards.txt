@@ -1,0 +1,57 @@
+{% set season_gl = season['global'] -%}
+{% set numbered_alike = season_gl and season_gl['SeasonDisplay'] == season['SeasonDisplay'] -%}
+{% set armor = season['challenge']|armor_type -%}
+{% raw %}{{#seo:{% endraw %}
+    |title={{info.name}} ({{armor}} Armor) season {{season['SeasonDisplay']}} rewards
+    |title_mode=append
+    |keywords={{info.name}},{{info.shortname}},{{mode.keywords}},season {{season['SeasonDisplay']}},rewards,clear rewards,floors,boss stats
+    |description=Boss stats and clear rewards of every floor of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{season['env']|environment_type}}, {{armor}} Armor), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
+    |image = Limit_Break_Raid_{{info.shortname|replace(' ', '_')}}_promo.png
+    |image_alt = {{info.name}}
+{% raw %}}}
+{{#invoke:BlueBucket|put|raid_rewards{% endraw %}
+|Type = {{mode.type}}
+|Name = {{raid_page}}
+|Season = {{season['SeasonDisplay']}}
+|RewardsSeason = {{rewards_season}}
+{% raw %}}}{% endraw %}Boss stats and clear rewards of [[{{raid_page}}]] ({{season['env']|environment_type}}, {{armor}} Armor){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
+Held{% if not numbered_alike %} as Season {{season['SeasonDisplay']}}{% endif %} in the Japanese version on {{period}}.{% if season_gl %} Held{% if not numbered_alike %} as Season {{season_gl['SeasonDisplay']}}{% endif %} in the Global version on {{period_gl}}.{% endif %}{% if season['rewards_note'] %} {{season['rewards_note']}}{% endif %}
+
+<onlyinclude>
+{% raw %}{{% endraw %}| class="wikitable <noinclude>mw-collapsible </noinclude>limitwidth-1024"
+!Difficulty
+! class="condensed" |Rec. Level
+!Attack Type
+!Armor Type
+!Boss HP
+!ATK
+!DEF
+! class="condensed" |CRIT RES
+! class="condensed" |CRIT DMG RES
+! class="condensed" |Groggy Gauge
+!Clear reward
+{% for bracket in rewards -%}
+{% for floor in bracket.rows -%}
+{% if loop.length > 2 and loop.index == 2 %}</onlyinclude>{% endif %}{% if loop.length > 2 and loop.last %}<onlyinclude>{% endif %}|-{% if loop.first or loop.last %} class="protected"{% endif %}
+!{{floor['Difficulty']}}
+|{{floor['LevelBoss']}}
+|class="bg-element bg-{{floor['BulletType']|damage_type|lower}}" |{{floor['BulletType']|damage_type}}
+|class="bg-element bg-{{floor['ArmorType']|armor_type|lower}}" |{{floor['ArmorType']|armor_type}}
+|{{floor['MaxHP100']|thousands}}
+|{{floor['AttackPower100']|thousands}}
+|{{floor['DefensePower100']|thousands}}
+|{{floor['CriticalResistPoint']|thousands}}
+|{{floor['CriticalDamageResistRate']|thousands}}
+|{{floor['GroggyGauge']|thousands}}
+| class="collapsed-opacity" |{{floor.cards|join}}
+{% endfor -%}
+|- class="protected"
+! colspan="2" | Total {{bracket.floors}} reward:
+| colspan="9" style="padding-bottom: 0.5em;" | {{bracket.cards|join}}
+{% if not loop.last -%}
+|- class="protected"
+| colspan="11" |
+{% endif -%}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+<includeonly>Boss stats and clear rewards of every floor: [[{{page}}]]</includeonly></onlyinclude>

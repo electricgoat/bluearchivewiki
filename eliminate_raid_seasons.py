@@ -113,42 +113,52 @@ def print_season(season, now):
     print (f"{str(season['SeasonId']).rjust(3, ' ')} {str(season['SeasonDisplay']).rjust(3, ' ')}: {season['SeasonStartData']} ~ {season['SeasonEndData']} {season['raid_name'].ljust(40, ' ')} {season['env'].ljust(10, ' ')} {', '.join(season['armor']).ljust(24)} {', '.join(season['difficulty_shorthand']).ljust(16)} {shared.functions.difficulty_shorthand(season['challenge_difficulty'])} {note}")
 
 
+def known_seasons(seasons, region, now):
+    last_season_name = ''
+    for season in seasons.values():
+        season['ignore'] = season['SeasonId'] in SEASON_IGNORE[region]
+        if season['ignore']:
+            continue
+
+        boss = season['OpenRaidBossGroup01'].split('_',2)
+        if boss[0] not in RAIDS:
+            print(f"WARNING - Unknown boss {season['OpenRaidBossGroup01']}, {region} SeasonId {season['SeasonId']} will be ignored")
+            season['ignore'] = True
+            continue
+
+        start = parse_date(season['SeasonStartData'])
+        if (start - now).days > 60:
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
+            season['ignore'] = True
+
+        if last_season_name == RAIDS[boss[0]].name and start > now: #jp tends to have a placeholder duplicate a raid set further in the future
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+            season['ignore'] = True
+
+        season['raid'] = RAIDS[boss[0]]
+        season['raid_name'] = last_season_name = RAIDS[boss[0]].name
+        season['env'] = boss[1] if len(boss) > 1 else RAIDS[boss[0]].environment
+        season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname}.png"
+
+        yield season
+
+
+def prepare_seasons(seasons, region):
+    return [x for x in known_seasons(seasons, region, datetime.now(JST).replace(tzinfo=None)) if not x['ignore']]
+
+
 def generate():
     now = datetime.now(JST).replace(tzinfo=None) # season dates are JST
 
     for region in ['jp', 'gl']:
         print (f"============ {region.upper()} eliminate raids ============")
-        last_season_name = ''
-        for season in season_data[region].eliminate_raid_season.values():
-            season['ignore'] = season['SeasonId'] in SEASON_IGNORE[region]
-            if season['ignore']:
-                continue
-
-            boss = season['OpenRaidBossGroup01'].split('_',2)
-            if boss[0] not in RAIDS:
-                print(f"WARNING - Unknown boss {season['OpenRaidBossGroup01']}, {region} SeasonId {season['SeasonId']} will be ignored")
-                season['ignore'] = True
-                continue
-
-            start = parse_date(season['SeasonStartData'])
-            if (start - now).days > 60:
-                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
-                season['ignore'] = True
-
-            if last_season_name == RAIDS[boss[0]].name and start > now: #jp tends to have a placeholder duplicate a raid set further in the future
-                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
-                season['ignore'] = True
-
-            season['raid_name'] = last_season_name = RAIDS[boss[0]].name
-            season['env'] = boss[1] if len(boss) > 1 else RAIDS[boss[0]].environment
-            season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname}.png"
-
+        for season in known_seasons(season_data[region].eliminate_raid_season, region, now):
             record = resolve_record(season, region, now)
             season['armor'] = [armor(b['group']) for b in record['bosses']]
             season['difficulty_shorthand'] = [shared.functions.difficulty_shorthand(b['difficulty']) for b in record['bosses']]
             season['challenge_difficulty'] = record['challenge_difficulty']
 
-            season_length = parse_date(season['SeasonEndData']) - start
+            season_length = parse_date(season['SeasonEndData']) - parse_date(season['SeasonStartData'])
             season['notes'] = record.get('notes') or (f"Non-standard duration of {season_length.days + 1} days" if season_length.days + 1 != 7 else '')
 
             print_season(season, now)

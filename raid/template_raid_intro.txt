@@ -2,7 +2,7 @@
     |title={{info.name}} (Raid)
     |title_mode=append
     |keywords={{info.name}},{{info.shortname}},Raid,raidboss,total war
-    |description=Binah is one of the Elimination Raid bosses in Blue Archive
+    |description={{info.shortname}} is one of the Total Assault (Raid) bosses in Blue Archive
     |image = Raid_{{info.shortname}}_promo.png
     |image_alt = {{info.name}} (Raid)
 {% raw %}}}{% endraw %}
@@ -13,31 +13,27 @@
 
 ==Appearances==
 <tabber>
-JP={% raw %}{{{% endraw %}#cargo_query:
-  tables = raids
-| fields = Image, Name, Environment, Season, Start_date=Start_date, End_date=End_date, Notes
-| where = Name="{{info.name}}" AND Server="JP"
-| order by = Start_date ASC
-| more results text =
-| format = template
-| template = RaidTableRow
-| named args = yes
+JP={% raw %}{{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{info.name}}{% raw %}" AND Server = "JP"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
 | intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
 | outro = </table>
 | default = None!
-{% raw %}}}{% endraw %}
+}}
 |-|
-Global={% raw %}{{{% endraw %}#cargo_query:
-  tables = raids
-| fields = Image, Name, Environment, Season, Start_date=Start_date, End_date=End_date, Notes
-| where = Name="{{info.name}}" AND Server="GL"
-| order by = Start_date ASC
-| more results text =
-| format = template
-| template = RaidTableRow
-| named args = yes
+Global={{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{info.name}}{% raw %}" AND Server = "GL"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
 | intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
 | outro = </table>
 | default = None!
-{% raw %}}}{% endraw %}
+}}{% endraw %}
 </tabber>

@@ -105,56 +105,70 @@ def print_season(season, note: str = ''):
 
 
 
+def prepare_seasons(seasons, region):
+    """Marks up the rows of a region's RaidSeasonManageExcelTable for the raid list, and returns the ones it shows, which raid.py makes pages for.
+    Left out (ignore) are the seasons of SEASON_IGNORE, those of unknown bosses and the placeholders of coming seasons."""
+    last_season_name = ''
+    listed = []
+
+    for season in seasons.values():
+        if season['SeasonId'] in SEASON_BOSS_OVERRIDE[region]:
+            print(f"Overriding {region} season {season['SeasonId']}")
+            season['OpenRaidBossGroup'] = SEASON_BOSS_OVERRIDE[region][season['SeasonId']]
+
+        boss = season['OpenRaidBossGroup'][0].split('_',1)
+
+        if season['SeasonId'] in SEASON_IGNORE[region]:
+            #print(f"Flagged to ignore {region} season {season['SeasonId']}")
+            season['ignore'] = True
+            continue
+
+        if boss[0] not in RAIDS:
+            print(f"Unknown boss {season['OpenRaidBossGroup']}")
+            season['ignore'] = True
+            continue
+
+        if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 28):
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
+            season['ignore'] = True
+            #continue
+
+        if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+            season['ignore'] = True
+            #continue
+
+
+        season['raid'] = RAIDS[boss[0]]
+        season['raid_name'] = RAIDS[boss[0]].name
+        last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
+
+        if (len(boss)>1):
+            season['env'] = environment_type(boss[1])
+        else:
+            season['env'] = RAIDS[boss[0]].environment
+
+        season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname}.png"
+
+        season['notes'] = ''
+        if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
+        season_length = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S") - datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
+        if (season_length.days + 1) != 7:
+            season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
+
+        print_season(season)
+        if not season.get('ignore'): listed.append(season)
+
+    return listed
+
+
+
 def generate():
     global args, data, season_data
-    last_season_name = ''
 
     for region in ['jp', 'gl']:
         print (f"============ {region.upper()} raids ============")
-        for season in season_data[region].raid_season.values():
-            if season['SeasonId'] in SEASON_BOSS_OVERRIDE[region]:
-                print(f"Overriding {region} season {season['SeasonId']}")
-                season['OpenRaidBossGroup'] = SEASON_BOSS_OVERRIDE[region][season['SeasonId']]
-
-            boss = season['OpenRaidBossGroup'][0].split('_',1)
-
-            if season['SeasonId'] in SEASON_IGNORE[region]:
-                #print(f"Flagged to ignore {region} season {season['SeasonId']}")
-                season['ignore'] = True
-                continue
-
-            if boss[0] not in RAIDS:
-                print(f"Unknown boss {season['OpenRaidBossGroup']}")
-                continue
-
-            if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 28):
-                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
-                season['ignore'] = True
-                #continue
-
-            if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
-                print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
-                season['ignore'] = True
-                #continue
-
-
-            season['raid_name'] = RAIDS[boss[0]].name
-            last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
-
-            if (len(boss)>1):
-                season['env'] = environment_type(boss[1])
-            else:
-                season['env'] = RAIDS[boss[0]].environment
-
-            season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname}.png"
-
-            season['notes'] = ''
-            if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
-            season_length = datetime.strptime(season['SeasonEndData'], "%Y-%m-%d %H:%M:%S") - datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S")
-            if (season_length.days + 1) != 7: 
-                season['notes'] += f"{len(season['notes'])>0 and '; n' or 'N'}on-standard duration of {season_length.days + 1} days"
-
-            print_season(season)
+        prepare_seasons(season_data[region].raid_season, region)
 
 
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))

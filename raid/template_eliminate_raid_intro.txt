@@ -1,0 +1,37 @@
+{% raw %}{{{% endraw %}#seo:
+    |title={{raid_page}}
+    |title_mode=append
+    |keywords={{info.name}},{{info.shortname}},Raid,raidboss,Grand Assault,Elimination Raid
+    |description={{info.shortname}} is one of the Grand Assault (Elimination Raid) bosses in Blue Archive
+    |image = Elimination_Raid_{{info.shortname}}_promo.png
+    |image_alt = {{raid_page}}
+{% raw %}}}{% endraw %}''<sup>This page describes [[Grand Assault]] version of the raid. See also [[{{info.name}}]]</sup>''
+[[File:Elimination_Raid_{{info.shortname}}_promo.png|thumb|{{info.shortname}} promo image]]
+{{info.name}} is a raid boss in Blue Archive that can be encountered in both normal Raids and the newer Grand Assault mode.
+
+==Appearances==
+<tabber>
+JP={% raw %}{{EliminateRaidTable |
+{{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Armor, Difficulty, ChallengeDifficulty, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{raid_page}}{% raw %}" AND Server = "JP"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{BossArmorList|%Armor%|%Difficulty%|%ChallengeDifficulty%}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| default = None!
+}}
+}}
+|-|
+Global={{EliminateRaidTable |
+{{#invoke:BlueBucket|get|raids
+| select = Name, Environment, Armor, Difficulty, ChallengeDifficulty, Season, StartDate, EndDate, Notes
+| where = Name = "{% endraw %}{{raid_page}}{% raw %}" AND Server = "GL"
+| order by = StartDate ASC
+| limit = 1000
+| format = userformat
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{BossArmorList|%Armor%|%Difficulty%|%ChallengeDifficulty%}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| default = None!
+}}
+}}{% endraw %}
+</tabber>

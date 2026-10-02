@@ -1,0 +1,60 @@
+{% set season_gl = season['global'] -%}
+{% set numbered_alike = season_gl and season_gl['SeasonDisplay'] == season['SeasonDisplay'] -%}
+{% raw %}{{#seo:{% endraw %}
+    |title={{info.name}} ({{season['env']|environment_type}}) season {{season['SeasonDisplay']}} rewards
+    |title_mode=append
+    |keywords={{info.name}},{{info.shortname}},{{mode.keywords}},season {{season['SeasonDisplay']}},rewards,ranking rewards
+    |description=Ranking and score rewards of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{season['env']|environment_type}}), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
+    |image = {{season['banner']}}
+    |image_alt = {{info.name}}
+{% raw %}}}
+{{#invoke:BlueBucket|put|raid_rewards{% endraw %}
+|Type = {{mode.type}}
+|Name = {{raid_page}}
+|Season = {{season['SeasonDisplay']}}
+|RewardsSeason = {{rewards_season}}
+{% raw %}}}{% endraw %}Rewards of [[{{raid_page}}]] ({{season['env']|environment_type}}){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
+Held{% if not numbered_alike %} as Season {{season['SeasonDisplay']}}{% endif %} in the Japanese version on {{period}}.{% if season_gl %} Held{% if not numbered_alike %} as Season {{season_gl['SeasonDisplay']}}{% endif %} in the Global version on {{period_gl}}.{% endif %}
+
+{% if not rewards.regions -%}
+Note that listed brackets are for the Japanese server. Global version has differing bracket sizes depending on the region.
+{% endif -%}
+<onlyinclude>
+{% raw %}{{% endraw %}| class="wikitable{% if rewards.regions %} highlight-column{% endif %}"
+{% if rewards.regions -%}
+!colspan="{{rewards.regions|length + 1}}"|Bracket
+!rowspan="2"|Ranking rewards
+|-
+!Japan
+{% for region in rewards.regions -%}
+!{% if region == 'North America' %}class="condensed"|{% endif %}{{region}}
+{% endfor -%}
+{% else -%}
+!Bracket
+!Ranking rewards
+{% endif -%}
+{% for bracket in rewards.ranking -%}
+|-
+|style="text-align:center"|{{bracket.ranks}}
+{% for ranks in bracket.ranks_gl -%}
+|style="text-align:center"|{{ranks}}
+{% endfor -%}
+|{{bracket.cards|join(' ')}}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+</onlyinclude>
+==Cumulative Score Milestones==
+{% raw %}{{% endraw %}| class="wikitable columns-2 rewards limitwidth-1024"
+|-
+|
+{% for milestone in rewards.milestones -%}
+* <span class="score">{{milestone.score|thousands}}:</span><span class="items">{{milestone.cards|join(' ')}}</span>
+{% endfor -%}
+{% raw %}|}{% endraw %}
+<onlyinclude>
+{% raw %}{{% endraw %}| class="wikitable"
+!Total Score Rewards ({{rewards.milestones[-1].score|thousands}} points)
+|-
+|<div class="rewards">{{rewards.total|join}}</div>
+{% raw %}|}{% endraw %}
+<includeonly>Rewards of each score milestone: [[{{page}}]]</includeonly></onlyinclude>
