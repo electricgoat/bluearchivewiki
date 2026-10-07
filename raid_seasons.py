@@ -61,7 +61,7 @@ SEASON_NOTES = {
         91: 'Earlier incoming train indication at the start of phase 1',
         92: 'Added HP bars for each of the Kaiten\'s parts in phase 2',
         93: 'Maximum number of held tickets increased to 6',
-        97: 'Added resetting of the battle room<br>Added restarting after losing to the battle',
+        97: 'Added option to reset the battle state<br>Added restart option after losing the team',
     },
     'gl' : {
         2:'Beta version, no ranking rewards',

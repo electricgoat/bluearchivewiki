@@ -99,7 +99,7 @@ class Gallery(object):
         if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
         
         attributes = self.background and f' data-bg="{self.background}"' or ''
-        wikitext += f"<gallery{attributes}>\n" + "\n".join(files) + "\n</gallery>\n"
+        wikitext += f"<gallery class=\"spritegallery\"{attributes}>\n" + "\n".join(files) + "\n</gallery>\n"
 
         return wikitext
     
@@ -189,7 +189,7 @@ def generate_page_wikitext(export_galleries:list[Gallery], include_cargo = False
     for gallery in export_galleries:
         wikitext +=  gallery.wikitext(include_cargo)
 
-    wikitext += "=Video=\n{{CharacterVideoGallery}}\n"
+    wikitext += "=Video=\n{{CharacterVideoGallery}}{{CharacterModels}}\n"
     
     wikitext += "\n{{CharacterAdditionalGallery|"+export_galleries[0].character_name+" images}}"
     wikitext += "\n{{CharacterGallerySeo|"+",".join([x.character_wikiname for x in export_galleries])+"}}"

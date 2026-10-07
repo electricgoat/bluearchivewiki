@@ -7710,6 +7710,32 @@
             "GroupId": "CH0321ExtraPassive01",
             "NameEn": "Let's go all out~!",
             "DescriptionEn": "Increase Attack of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0252Ex01",
+            "NameEn": "Love・and・Peace!",
+            "DescriptionEn": "Deal $1 damage to enemies within a circular area. Inflict Confusion for $2.\nDeal $3 additional damage to medium and small-sized enemies.\n(This damage can not be a Critical hit)"
+        },
+        {
+            "GroupId": "CH0252Public01",
+            "NameEn": "Inspiration",
+            "DescriptionEn": "Every $1, heal self for $2 of Healing."
+        },
+        {
+            "GroupId": "CH0252Passive01",
+            "NameEn": "The Spirit of Death Metal",
+            "DescriptionEn": "Increase HP by $1."
+        },
+        {
+            "GroupId": "CH0252WeaponPassive01",
+            "NameEn": "The Spirit of Death Metal +",
+            "DescriptionEn": "Increase HP by $1. Further increase HP by $2."
+        },
+        {
+            "GroupId": "CH0252ExtraPassive01",
+            "NameEn": "Peace! Peace! Peace!",
+            "DescriptionEn": "Increase Accuracy by $1.\nWhen using the EX Skill, reduce damage taken by $2 for $3."
         }
 
     ]
