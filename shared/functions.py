@@ -125,7 +125,7 @@ def replace_glossary(item:str|None = None):
         'Relationship Rank': 'Affection rank',
         'Exclusive Weapon': 'Unique Weapon',
         'Unique Item': 'Unique Gear',
-        'Remedial Knights': 'Rescue Knights',
+        #'Remedial Knights': 'Rescue Knights',
     }
     for search, replace in glossary.items():
         if item != None:

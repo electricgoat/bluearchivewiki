@@ -7673,8 +7673,8 @@
             "DescriptionKr": "구호기사단 그룹 스토리 {0}화 클리어",
             "NameJp": "救護騎士団顧問",
             "DescriptionJp": "救護騎士団グループストーリー{0}話クリア",
-            "NameEn": "Rescue Knights Advisor",
-            "DescriptionEn": "Clear Episode {0} of Rescue Knights group story"
+            "NameEn": "Remedial Knights Advisor",
+            "DescriptionEn": "Clear Episode {0} of Remedial Knights group story"
         },
         {
             "Key": 4290886996,
@@ -17611,6 +17611,42 @@
             "NameEn": "Tsumugi's Eleph",
             "DescriptionJp": "ツムギの神秘が詰まった神名文字。",
             "DescriptionEn": "The mystical Eleph of Tsumugi."
+        },
+        {
+            "Key": 530751023,
+            "NameKr": "박스캣 최대 체력 증가, 딜러 2명 이상 편성 시 코스트 회복 속도 증가",
+            "DescriptionKr": "박스캣의 최대 체력이 증가합니다.\n딜러 학생을 2명 이상 편성할 경우 모든 아군의 코스트 회복 속도가 증가합니다.",
+            "NameJp": "ネロの最大HP増加、アタッカー2人以上編成時コスト回復速度増加",
+            "DescriptionJp": "ネロの最大HPが増加します。\nアタッカーの生徒を2人以上編成すると、すべての味方のコスト回復速度が増加します。",
+            "NameEn": "Increases Box Cat's Max HP; increases Cost Recovery when the team includes two or more Attackers.",
+            "DescriptionEn": "Increases Box Cat's Max HP by 100%. Additionally increases Cost Recovery of all allies if the team has two or more Damage Dealers."
+        },
+        {
+            "Key": 2301978585,
+            "NameKr": "박스캣 체력에 따라 EX 스킬 피격 대미지량 감소",
+            "DescriptionKr": "박스캣은 체력이 60% 이상일 때 EX 스킬 피격 대미지량이 감소합니다.\n박스캣 체력이 60% 미만이 되면 EX 스킬 피격 대미지량 감소 효과가 제거됩니다.",
+            "NameJp": "ネロのHPによってEXスキルの被ダメージ量減少",
+            "DescriptionJp": "ネロはHPが60%以上の時、EXスキルの被ダメージ量が減少します。\nネロのHPが60％未満になると、EXスキルの被ダメージ量減少効果が解除されます。",
+            "NameEn": "Reduce damage taken from EX Skills based on Box Cat's HP.",
+            "DescriptionEn": "As long as Box Cat has 60% or more HP, reduce EX Skill Damage Taken by 80%. Once its HP is below 60%, this effect will be removed."
+        },
+        {
+            "Key": 244113921,
+            "NameKr": "보호막 효과가 있는 아군 수에 따라 아군 공격력 증가",
+            "DescriptionKr": "보호막 효과가 있는 아군 수에 따라 아군 전체의 공격력이 증가합니다.",
+            "NameJp": "シールド効果を持っている味方の数によって味方の攻撃力が増加",
+            "DescriptionJp": "シールド効果を持っている味方の数によって味方全体の攻撃力が増加します。",
+            "NameEn": "Allies' Attack increases based on the number of allies with a shield effect.",
+            "DescriptionEn": "Increase Attack of all allies based on the number of allies with a shield effect."
+        },
+        {
+            "Key": 3250278136,
+            "NameKr": "적 받는 대미지량 대폭 감소",
+            "DescriptionKr": "적의 받는 대미지량이 대폭 감소합니다.\nEx 스킬로 20회 타격 시 받는 대미지량 감소 효과가 해제됩니다.",
+            "NameJp": "敵の被ダメージ量が大幅に減少",
+            "DescriptionJp": "敵の被ダメージ量が大幅に減少します。\nEXスキルで20回打撃すると、被ダメージ量減少効果が解除されます。",
+            "NameEn": "Damage taken by enemies is significantly reduced.",
+            "DescriptionEn": "The amount of damage the enemy takes is significantly reduced. Landing 20 hits with an EX Skill removes the damage reduction effect."
         }
 
 
