@@ -54,8 +54,12 @@ class Gallery(object):
     
     @property
     def variant(self):
-        return '(' in self.character_wikiname and self.character_wikiname[self.character_wikiname.find('(')+1:-1] or ''
-    
+        return '(' in self.character_wikiname and self.character_wikiname.split('(',1)[1].rsplit(')',1)[0] or ''
+
+    @property
+    def suffix(self):
+        return ')' in self.character_wikiname and self.character_wikiname.rsplit(')',1)[1].strip() or ''
+
 
     def __repr__(self):
         return (f"Gallery(root_dir={self.root_dir!r}, dirname={self.dirname!r}, "
@@ -68,7 +72,8 @@ class Gallery(object):
     def wikitext(self, include_cargo = False, header_level = 2):
         wikitext = f"{'='*header_level}{self.character_wikiname}{'='*header_level}\n"
         if self.description: wikitext += self.description+"\n"
-        if include_cargo: 
+        if include_cargo:
+            assert self.cargo_template is not None
             wikitext += "{{Sprite\n"
             for field, value in self.cargo_template.items():
                 wikitext += f"|{field} = {value}\n"
@@ -220,6 +225,7 @@ def upload_files(export_galleries:list[Gallery]):
     global args
 
     for gallery in export_galleries:
+        assert gallery.exclude_files is not None
         #Duplicates used to be redirects rather than files, so a page can exist without a file, or hold a redirect over a file uploaded while the sprite was still unique
         wiki_pages = wiki.page_prefix_list(gallery.character_wikiname)
         wiki_hashes = wiki.file_hashes([f"File:{x}" for x in Gallery.flatlist(gallery.files)])
@@ -261,18 +267,18 @@ def get_character_data():
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
-    for character in data.characters.values():
-        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+    for row in data.characters.values():
+        if not row['IsPlayableCharacter'] or row['ProductionStep'] != 'Release':
             continue
 
         try:
-            character = Character.from_data(character['Id'], data)
+            character = Character.from_data(row['Id'], data)
             characters.append(character)
 
             if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
                 continue
         except Exception as err:
-            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
+            print(f'Failed to parse for DevName {row["DevName"]}: {err}')
             traceback.print_exc()
             continue
 
@@ -346,6 +352,7 @@ def generate():
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
                 'CharacterName': gallery.character_name,
                 'CharacterVariant': gallery.variant,
+                **(gallery.suffix and {'CharacterSuffix': gallery.suffix} or {}),
                 'SpriteNames': ','.join([gallery.sprite_name(x) for x in Gallery.flatlist(gallery.files_exportable)]),
                 'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
