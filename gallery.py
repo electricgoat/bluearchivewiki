@@ -60,6 +60,11 @@ class Gallery(object):
     def suffix(self):
         return ')' in self.character_wikiname and self.character_wikiname.rsplit(')',1)[1].strip() or ''
 
+    @property
+    def uid(self):
+        name = re.sub('_diorama$', '', self.dirname)
+        return name.replace('_', ' ') != self.character_wikiname and name or ''
+
 
     def __repr__(self):
         return (f"Gallery(root_dir={self.root_dir!r}, dirname={self.dirname!r}, "
@@ -348,6 +353,7 @@ def generate():
             gallery.background = playable and playable.costume['CollectionBGTexturePath'].rsplit('/', 1)[-1] + '.png'
 
             gallery.cargo_template = {
+                **(gallery.uid and {'Uid': gallery.uid} or {}),
                 'Id': wikiname_to_devname_map.get(gallery.character_wikiname, ''),
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
                 'CharacterName': gallery.character_name,
