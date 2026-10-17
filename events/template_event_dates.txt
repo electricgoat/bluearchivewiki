@@ -8,11 +8,10 @@
 {% endif -%}
 | NameEN = {{server == 'JP' and season['LocalizeTitle'].get('En') or season['LocalizeTitle'].get('EnGlobal', season['LocalizeTitle'].get('En', ''))}}
 | Promo = Event_{{season['LocalizeName'].get('En', season['EventContentId']|string ).replace(' ', '_')}}.png
-| Image = Event_Banner_{{season['OriginalEventContentId']}}_Jp.png
-| Start_date = {{season['EventContentOpenTime']}}
-| End_date = {{season['EventContentCloseTime']}}
-| Reward_exchange_start = {{season['EventContentOpenTime']}}
-| Reward_exchange_end = {{season['ExtensionTime']}}
+| StartDate = {{season['EventContentOpenTime']}}
+| EndDate = {{season['EventContentCloseTime']}}
+| RewardExchangeStart = {{season['EventContentOpenTime']}}
+| RewardExchangeEnd = {{season['ExtensionTime']}}
 | Notes = 
 {% if server == 'JP' and season['LocalizeDescription'] != None %}| Description = {{season['LocalizeDescription'].get('En', '') |replace_glossary}}
 {% endif -%}
