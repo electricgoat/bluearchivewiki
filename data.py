@@ -7,7 +7,7 @@ import re
 
 BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
-    ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 
+    ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 'stat_level_interpolation',
      'costumes',
     'skills', 'skills_localization','skill_additional_tooltip','skill_select_ex_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
@@ -19,7 +19,7 @@ BlueArchiveData = collections.namedtuple(
     'favor_levels', 'favor_rewards', 
     'memory_lobby','etc_localization', 'localization', 
     'character_dialog','character_dialog_event','character_dialog_aux','character_dialog_subtitle','character_dialog_battlepass','character_voice','character_voice_subtitle',
-    'levelskill','logiceffectdata',
+    'levelskill','logiceffectdata','logic_effects_npc',
     'guide_mission','guide_mission_season','localize_code',
     'furniture', 'furniture_group', 'furniture_template', 'furniture_template_element', 'cafe_interaction', 
     'campaign_stages', 'campaign_stage_rewards', 'campaign_strategy_objects', 'campaign_units', 
@@ -31,6 +31,7 @@ BlueArchiveData = collections.namedtuple(
     'minigame_roadpuzzle_info', 'minigame_roadpuzzle_railtile', 'minigame_roadpuzzle_map', 'minigame_roadpuzzle_roadround', 'minigame_roadpuzzle_reward',
     'minigame_ccg_card', 'minigame_ccg_character', 'minigame_ccg_enemy', 'minigame_ccg_info', 'minigame_ccg_reward_card', 'minigame_ccg_reward_card_rate', 'minigame_ccg_reward_item', 'minigame_ccg_skill', 'minigame_ccg_open_dialog',
     'minigame_janken_info', 'minigame_janken_stage', 'minigame_janken_character', 'minigame_janken_character_ai', 'minigame_janken_character_skill', 'minigame_janken_equipment', 'minigame_janken_fixed_echelon', 'minigame_janken_reward_score', 'minigame_janken_reward_score_item', 'minigame_janken_voice',
+    'minigame_tank_stage', 'minigame_tank_character', 'minigame_tank_level',
     'ground', 'ground_module_reward',
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
@@ -43,7 +44,7 @@ BlueArchiveData = collections.namedtuple(
     'bgm','voice','voice_spine',
     'operator',
     'field_season', 'field_world_map_zone', 'field_quest', 'field_reward', 'field_evidence', 'field_keyword', 'field_date', 'field_interaction', 'field_content_stage', 'field_content_stage_reward',
-    'emblem'
+    'emblem', 'student_frame'
     ]
 )
 
@@ -56,6 +57,7 @@ def load_data(path_primary, path_secondary, path_translation):
         characters_skills=          load_characters_skills(path_primary),
         characters_stats=           load_generic(path_primary, 'CharacterStatExcelTable.json', key='CharacterId'),
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
+        stat_level_interpolation=   load_generic(path_primary, 'StatLevelInterpolationExcelTable.json', key='Level'),
         costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
         skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
@@ -87,6 +89,7 @@ def load_data(path_primary, path_secondary, path_translation):
         character_voice_subtitle=   load_character_subtitle(path_primary, path_secondary, 'CharacterVoiceSubtitleExcelTable.json', match_id='CharacterVoiceGroupId'),
         levelskill =                load_levelskill(path_primary),
         logiceffectdata =           load_skill_logiceffectdata(path_primary),
+        logic_effects_npc =         load_logic_effects(path_primary, 'LogicEffect_NPC.json'),
         guide_mission =             load_generic(path_primary, 'GuideMissionExcelTable.json'),
         guide_mission_season =      load_generic(path_primary, 'GuideMissionSeasonExcelTable.json'),
         localize_code =             load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeCodeExcelTable.json'),
@@ -174,6 +177,9 @@ def load_data(path_primary, path_secondary, path_translation):
         minigame_janken_reward_score = load_generic(path_primary, 'MinigameJankenRewardScoreExcelTable.json', key='EventContentId'),
         minigame_janken_reward_score_item = load_generic(path_primary, 'MinigameJankenRewardScoreItemExcelTable.json', key='Id'),
         minigame_janken_voice =     load_generic(path_primary, 'MinigameJankenVoiceExcelTable.json', key='Id'),
+        minigame_tank_stage =       load_file_grouped(path_primary, 'MiniGameTankStageExcelTable.json', key='EventContentId'),
+        minigame_tank_character =   load_file_grouped(path_primary, 'MiniGameTankCharacterExcelTable.json', key='EventContentId'),
+        minigame_tank_level =       load_file_grouped(path_primary, 'MiniGameTankLevelExcelTable.json', key='EventContentId'),
         ground =                    load_generic(path_primary, 'GroundExcelTable.json'),
         ground_module_reward =      load_file_grouped(path_primary, 'GroundModuleRewardExcelTable.json', 'GroupId'),
         gacha_elements=             load_file_grouped(path_primary, 'GachaElementExcelTable.json', 'GachaGroupID'),
@@ -223,6 +229,7 @@ def load_data(path_primary, path_secondary, path_translation):
         field_content_stage =       load_generic(path_primary, 'FieldContentStageExcelTable.json'),
         field_content_stage_reward= load_file_grouped(path_primary, 'FieldContentStageRewardExcelTable.json', 'GroupId'),
         emblem=                     load_generic(path_primary, 'EmblemExcelTable.json', key='Id'),
+        student_frame=              load_generic(path_primary, 'StudentFrameExcelTable.json', key='Id'),
     )
 
 
@@ -491,6 +498,18 @@ def load_skill_logiceffectdata(path):
 
     return {item['StringId']: convert_boolean_strings(item) for item in data}
 
+def load_logic_effects(path, filename):
+    """A LogicEffect_*.json table, a list of effects, by GroupId: an effect group has an effect for each level"""
+    with open(os.path.join(path, 'DB', filename), encoding="utf8") as f:
+        data = orjson.loads(f.read())
+
+    groups = collections.defaultdict(list)
+    for item in data:
+        groups[item['GroupId']].append(item)
+
+    return dict(groups)
+
+
 def convert_boolean_strings(obj):
     if isinstance(obj, dict):
         for key, value in obj.items():
@@ -670,7 +689,8 @@ BlueArchiveSeasonData = collections.namedtuple(
      'raid_ranking_reward', 'eliminate_raid_ranking_reward',
      'event_content_season', 'guide_mission_season',
      'time_attack_dungeon_season',
-     'shop_recruit', 'shop_recruit_mileage', 'gacha_select_pickup_group']
+     'shop_recruit', 'shop_recruit_mileage', 'gacha_select_pickup_group',
+     'shop_info', 'shop', 'shop_refresh', 'shop_filter']
 )
 
 def load_season_data(path):
@@ -689,4 +709,58 @@ def load_season_data(path):
         shop_recruit =                  load_generic(path, 'ShopRecruitExcelTable.json'),
         shop_recruit_mileage =          load_generic(path, 'ShopRecruitMileageExcelTable.json', key=None),
         gacha_select_pickup_group =     load_file_grouped(path, 'GachaSelectPickupGroupExcelTable.json', 'GachaGroupId'),
+        shop_info =                     load_generic(path, 'ShopInfoExcelTable.json', key='CategoryType'),
+        shop =                          load_generic(path, 'ShopExcelTable.json'),
+        shop_refresh =                  load_generic(path, 'ShopRefreshExcelTable.json'),
+        shop_filter =                   load_file_grouped(path, 'ShopFilterClassifiedExcelTable.json', 'CategoryType'),
+    )
+
+
+BlueArchiveCashShopData = collections.namedtuple(
+    'BlueArchiveCashShopData',
+    ['shop_cash', 'products', 'shop_cash_stepup', 'product_selection_group', 'product_auto_selection_group', 'content_enter_cost_reduce']
+)
+
+#The product table of each ShopCashExcelTable PackageType
+PRODUCT_TABLES = {
+    'Product':              'ProductExcelTable.json',
+    'ProductGooglePoint':   'ProductExcelTable.json',
+    'ProductMonthly':       'ProductMonthlyExcelTable.json',
+    'ProductSelect':        'ProductSelectExcelTable.json',
+    'ProductBattlePass':    'ProductBattlePassExcelTable.json',
+    'ProductDailyRecord':   'ProductDailyRecordExcelTable.json',
+    'ProductStreakRecord':  'ProductStreakRecordExcelTable.json',
+}
+
+def load_cash_shop_data(path):
+    tables = {file: load_generic(path, file) for file in set(PRODUCT_TABLES.values())}
+
+    return BlueArchiveCashShopData(
+        shop_cash =                     load_generic(path, 'ShopCashExcelTable.json'),
+        products =                      {type: tables[file] for type, file in PRODUCT_TABLES.items()},
+        shop_cash_stepup =              load_generic(path, 'ShopCashStepupExcelTable.json', key=None),
+        product_selection_group =       load_file_grouped(path, 'ProductSelectionGroupExcelTable.json', 'ProductSelectionGroupId'),
+        product_auto_selection_group =  load_file_grouped(path, 'ProductAutoSelectionGroupExcelTable.json', 'ProductAutoSelectionGroupId'),
+        content_enter_cost_reduce =     load_file_grouped(path, 'ContentEnterCostReduceExcelTable.json', 'EnterCostReduceGroupId'),
+    )
+
+
+BlueArchiveBattlePassData = collections.namedtuple(
+    'BlueArchiveBattlePassData',
+    ['info', 'levels', 'exp_limits', 'missions', 'rewards', 'flavor_text', 'products', 'shop_cash', 'localization']
+)
+
+def load_battle_pass_data(path):
+    return BlueArchiveBattlePassData(
+        info =          load_generic(path, 'BattlePassInfoExcelTable.json'),
+        levels =        load_file_grouped(path, 'BattlePassLevelExcelTable.json', 'BattlePassId'),
+        exp_limits =    load_file_grouped(path, 'BattlePassExpLimitExcelTable.json', 'BattlePassId'),
+        missions =      load_file_grouped(path, 'BattlePassMissionExcelTable.json', 'BattlePassId'),
+        rewards =       load_file_grouped(path, 'BattlePassRewardExcelTable.json', 'RewardGroupId'),
+        flavor_text =   load_file_grouped(path, 'BattlePassFlavorTextExcelTable.json', 'GroupId'),
+        products =      load_file_grouped(path, 'ProductBattlePassExcelTable.json', 'BattlePassProductGroupId'),
+        #The pass's rows of the cash shop, by the Id of their product: product Ids are unique within a product table only
+        shop_cash =     {x['CashProductId']: x for x in load_generic(path, 'ShopCashExcelTable.json', key=None) if x['CategoryType'] == 'BattlePass'},
+        #The region's own texts: load_data's combined localization has GL's Japanese where GL has the key
+        localization =  load_generic(path, 'LocalizeExcelTable.json', key='Key', load_multipart=True),
     )

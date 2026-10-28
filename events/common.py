@@ -54,12 +54,19 @@ def render_stage_tables(template: Template, stages: list, difficulty_names: dict
         group = [x for x in stages if x.difficulty == difficulty]
         if not group: continue
 
-        reward_types = []
-        for stage in group:
-            for tag, rewards in stage.rewards.items():
-                if tag not in reward_types and (not skip_empty or any(x.wikitext_items() for x in rewards)):
-                    reward_types.append(tag)
-
-        wikitext += template.render(stage_type=name, stages=group, reward_types=reward_types, rewardcols=len(reward_types))
+        types = reward_types(group, skip_empty)
+        wikitext += template.render(stage_type=name, stages=group, reward_types=types, rewardcols=len(types))
 
     return wikitext
+
+
+def reward_types(stages: list, skip_empty: bool = True) -> list[str]:
+    """The reward tags of the stages, in order of appearance. skip_empty leaves out the tags whose rewards show no items."""
+    types = []
+
+    for stage in stages:
+        for tag, rewards in stage.rewards.items():
+            if tag not in types and (not skip_empty or any(x.wikitext_items() for x in rewards)):
+                types.append(tag)
+
+    return types

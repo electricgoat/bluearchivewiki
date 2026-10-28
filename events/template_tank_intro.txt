@@ -1,0 +1,12 @@
+[[File:Event {{season_id}} Tank Racing.png|thumb|{{name}}]]
+{{name}} is a tank racing game, which opens after clearing {{unlock_stage}}. The tank drives forward along the lanes of the track by itself, and the left and right buttons switch lanes. Colliding with an obstacle briefly speeds the tank up, while without collisions it gradually slows down; on curves the tank drifts and keeps its speed. Tapping START at the right moment when the race begins gives a PERFECT START.
+
+Fuel runs down over time, and the race ends if it runs out: fuel items refill it, and dash items give a burst of speed. Destroying obstacles one after another builds a combo, and each combo milestone raises the score obstacles give. When a rival tank cuts in, the attack button fires the main gun: destroying the rival gives a high score and a short dash.
+{%- if has_bosses %}
+
+On boss stages the tank fights a boss one-on-one, and has to bring the boss's HP to 0 before its own runs out. Which boss it faces depends on the tank.
+{%- endif %}
+
+Entering a stage costs {{costs|join(' or ')}}{% if time_limit %}, and stages have a time limit of {{time_limit}}{% endif %}. Earning all three stars on a stage unlocks sweeping it. Tanks are upgraded with {{upgrade_items|join(' and ')}} for better stats.
+{%- for stage in free_stages %} Stage {{stage.stage_number}}, {{stage.name_en}}, is a free race: it costs nothing, gives no rewards and doesn't count toward missions.{% endfor %}
+

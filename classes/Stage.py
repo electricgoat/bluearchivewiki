@@ -1,6 +1,6 @@
 # import collections
 # import re
-from shared.functions import armor_type, damage_type, armor_type_sort_order, damage_type_sort_order, environment_type, hashkey
+from shared.functions import armor_type, damage_type, armor_type_sort_order, damage_type_sort_order, environment_type, hashkey, format_thousands
 from shared.glossary import OOPARTS, SCHOOLS
 from classes.RewardParcel import RewardParcel
 
@@ -18,7 +18,12 @@ STAR_GOALS = {
     'GetBoxes': 'Collect {0} boxes',
     'UsedTurn': 'Clear within {0} turns',
     'LeftHitPoint': 'Finish with {0}% or more HP remaining',
+    'GetScore': 'Score {0} points',
+    'HitCount': 'Clear taking fewer than {0} hits',
 }
+
+#Tank races and boss duels have no enemies to defeat
+TANK_STAR_GOALS = STAR_GOALS | {'Clear': 'Clear the stage'}
 
 
 class Stage(object):
@@ -419,6 +424,61 @@ class JankenStage(Stage):
         )
 
 
+class TankStage(Stage):
+    #Tank racing minigame stages are races, boss duels and a free race, all without a battlefield.
+    #A boss stage's boss depends on the player's tank: boss_entries maps the player's tank group to the boss's.
+
+    def __init__(self, *stage_args, name_jp: str = '', boss_entries: dict[int, int] | None = None):
+        super().__init__(*stage_args)
+        self.name_jp = name_jp
+        self.boss_entries = boss_entries or {}
+        #events/mode_Tank.py fills these in from its tank tables
+        self.bosses: list[dict] = []
+        self.rivals: list[dict] = []
+
+
+    @classmethod
+    def get_table_name_stage_rewards(cls):
+        return 'event_content_stage_rewards'
+
+
+    #Stage ids are numbered per event, so this takes the stage's row
+    @classmethod
+    def from_data(cls, stage, data, wiki_card, missing_localization = None):
+        name = data.localization.get(stage['Name'], {})
+        if name and 'En' not in name and missing_localization is not None: missing_localization.add_entry(name)
+
+        enter_cost = wiki_card(stage['CostParcelType'], stage['CostParcelId'], quantity=stage['CostParcelAmount'], text='') if stage['CostParcelType'] != 'None' else ''
+
+        return cls(
+            stage['UniqueId'],
+            stage['Name'],
+            name.get('En') or name.get('Jp', ''),
+            stage['EventContentId'],
+            stage['StageType'],
+            stage['StageNumber'],
+            stage['StageNumber'],
+            stage['PrevStageId'],
+            stage['StageDuration'] // 1000, #battle_duration
+            "", #strategy_map
+            "", #strategy_map_bg
+            stage['RewardGroupId'],
+            None, #topography
+            None, #rec_level
+            None, #strategy_environment
+            [], #grounds
+            'MiniGameTankStage',
+            cls.get_rewards(stage, data, wiki_card, reward_id_field='RewardGroupId'),
+            enter_cost,
+            set(),
+            set(),
+            '', #stage_hint
+            StarGoal(stage['StarGoal'], stage['StarGoalAmount'], TANK_STAR_GOALS),
+            name_jp = name.get('Jp', ''),
+            boss_entries = dict(zip(stage['BossEntryPlayerTankGroupIds'], stage['BossEntryBossGroupIds'])),
+        )
+
+
 class WeekDungeonStage(Stage):
     @classmethod
     def get_table_name_stage_rewards(cls):
@@ -647,9 +707,10 @@ def json_find_key(json_input, lookup_key):
 
 
 class StarGoal(object):
-    def __init__(self, star_goal:list[str], star_goal_amount:list[int]):
+    def __init__(self, star_goal:list[str], star_goal_amount:list[int], texts:dict[str, str] = STAR_GOALS):
         self.star_goal = star_goal
         self.star_goal_amount = star_goal_amount
+        self.texts = texts
 
     def __repr__ (self):
         return f"StarGoal: {self.star_goal}"
@@ -658,7 +719,7 @@ class StarGoal(object):
     def wiki_list(self):
         wiki_list = []
         for i,goal in enumerate(self.star_goal):
-            goal_text = STAR_GOALS.get(goal, goal)
-            if goal not in STAR_GOALS: print(f"Stage: unknown star goal {goal}")
-            wiki_list.append(f'<span class="mw-no-invert">⭐</span> {goal_text.replace("{0}", str(self.star_goal_amount[i]))}')
+            goal_text = self.texts.get(goal, goal)
+            if goal not in self.texts: print(f"Stage: unknown star goal {goal}")
+            wiki_list.append(f'<span class="mw-no-invert">⭐</span> {goal_text.replace("{0}", format_thousands(self.star_goal_amount[i]))}')
         return wiki_list

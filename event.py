@@ -22,6 +22,7 @@ from events.mode_CCG import get_mode_ccg
 from events.mode_DiceRace import get_mode_dicerace
 from events.mode_ClueSearch import get_mode_cluesearch
 from events.mode_Janken import get_mode_janken
+from events.mode_Tank import get_mode_tank
 
 missing_localization = MissingTranslations("translation/missing/LocalizeExcelTable.json")
 missing_code_localization = MissingTranslations("translation/missing/LocalizeCodeExcelTable.json")
@@ -51,6 +52,7 @@ SECTIONS_AFTER_SHOPS = {
     'MiniGameRoad': get_mode_road,
     'MiniGameCCG': get_mode_ccg,
     'MinigameJanken': get_mode_janken,
+    'MiniGameTank': get_mode_tank,
 }
 
 
