@@ -1,11 +1,12 @@
 {% set season_gl = season['global'] -%}
 {% set numbered_alike = season_gl and season_gl['SeasonDisplay'] == season['SeasonDisplay'] -%}
 {% set armor = season['challenge']|armor_type -%}
+{% set environment = season['env']|environment_type|replace(',', ', ') -%}
 {% raw %}{{#seo:{% endraw %}
     |title={{info.name}} ({{armor}} Armor) season {{season['SeasonDisplay']}} rewards
     |title_mode=append
     |keywords={{info.name}},{{info.shortname}},{{mode.keywords}},season {{season['SeasonDisplay']}},rewards,clear rewards,floors,boss stats
-    |description=Boss stats and clear rewards of every floor of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{season['env']|environment_type}}, {{armor}} Armor), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
+    |description=Boss stats and clear rewards of every floor of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{environment}}, {{armor}} Armor), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
     |image = Limit_Break_Raid_{{info.shortname|replace(' ', '_')}}_promo.png
     |image_alt = {{info.name}}
 {% raw %}}}
@@ -14,7 +15,7 @@
 |Name = {{raid_page}}
 |Season = {{season['SeasonDisplay']}}
 |RewardsSeason = {{rewards_season}}
-{% raw %}}}{% endraw %}Boss stats and clear rewards of [[{{raid_page}}]] ({{season['env']|environment_type}}, {{armor}} Armor){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
+{% raw %}}}{% endraw %}Boss stats and clear rewards of [[{{raid_page}}]] ({{environment}}, {{armor}} Armor){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
 Held{% if not numbered_alike %} as Season {{season['SeasonDisplay']}}{% endif %} in the Japanese version on {{period}}.{% if season_gl %} Held{% if not numbered_alike %} as Season {{season_gl['SeasonDisplay']}}{% endif %} in the Global version on {{period_gl}}.{% endif %}{% if season['rewards_note'] %} {{season['rewards_note']}}{% endif %}
 
 <onlyinclude>

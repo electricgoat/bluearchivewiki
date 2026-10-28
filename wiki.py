@@ -90,6 +90,23 @@ def page_exists(page, wikitext = None):
 
 
 
+def user_name():
+    """Name of the logged in user, which its edits go by."""
+    assert site is not None
+
+    return site('query', meta='userinfo')['query']['userinfo']['name']
+
+
+
+def last_editor(page):
+    """User who made the latest revision of the page, None if it doesn't exist."""
+    assert site is not None
+
+    for info in site.query_pages(titles=[page], prop='revisions', rvprop='user'):
+        return info['revisions'][0]['user'] if 'revisions' in info else None
+
+
+
 def page_list(match, srnamespace = '*'): #TODO namespaces lookup https://www.mediawiki.org/wiki/Manual:Namespace
     assert site is not None
     page_list = []

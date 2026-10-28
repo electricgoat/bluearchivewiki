@@ -7,7 +7,7 @@ import wiki
 
 from jinja2 import Environment, FileSystemLoader
 from data import load_season_data
-from raid_seasons import RAIDS
+from raid_seasons import RAIDS, default_environment
 import shared.functions
 
 
@@ -128,17 +128,17 @@ def known_seasons(seasons, region, now):
 
         start = parse_date(season['SeasonStartData'])
         if (start - now).days > 60:
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
             season['ignore'] = True
 
         if last_season_name == RAIDS[boss[0]].name and start > now: #jp tends to have a placeholder duplicate a raid set further in the future
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
             season['ignore'] = True
 
         season['raid'] = RAIDS[boss[0]]
         season['raid_name'] = last_season_name = RAIDS[boss[0]].name
-        season['env'] = boss[1] if len(boss) > 1 else RAIDS[boss[0]].environment
-        season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname}.png"
+        season['env'] = boss[1] if len(boss) > 1 else default_environment(RAIDS[boss[0]])
+        season['banner'] = f"EliminateRaid_Banner_{RAIDS[boss[0]].shortname.replace(' ','_')}.png"
 
         yield season
 

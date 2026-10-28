@@ -10,7 +10,7 @@ import wiki
 
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from raid_seasons import RAIDS
+from raid_seasons import RAIDS, default_environment
 import shared.functions
 
 
@@ -57,12 +57,12 @@ def prepare_seasons(seasons, region, data):
             continue
 
         if ((datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 14):
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
             season['ignore'] = True
             continue
 
         if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartDate'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
             season['ignore'] = True
             #continue
 
@@ -70,7 +70,7 @@ def prepare_seasons(seasons, region, data):
         season['raid_name'] = RAIDS[boss[0]].name
         last_season_name = season['raid_name'] #jp tends to have a placeholder duplicate a raid set further in the future
 
-        season['env'] = RAIDS[boss[0]].environment
+        season['env'] = default_environment(RAIDS[boss[0]])
         season['challenge'] = data.characters[data.multi_floor_raid_stage[season['OpenRaidBossGroupId']][0]['RaidCharacterId']]['ArmorType']
 
         season['banner'] = f"MultiFloorRaid_Banner_{RAIDS[boss[0]].shortname.replace(' ','_')}.png"

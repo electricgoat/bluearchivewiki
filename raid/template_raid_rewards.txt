@@ -1,10 +1,11 @@
 {% set season_gl = season['global'] -%}
 {% set numbered_alike = season_gl and season_gl['SeasonDisplay'] == season['SeasonDisplay'] -%}
+{% set environment = season['env']|environment_type|replace(',', ', ') -%}
 {% raw %}{{#seo:{% endraw %}
-    |title={{info.name}} ({{season['env']|environment_type}}) season {{season['SeasonDisplay']}} rewards
+    |title={{info.name}} ({{environment}}) season {{season['SeasonDisplay']}} rewards
     |title_mode=append
     |keywords={{info.name}},{{info.shortname}},{{mode.keywords}},season {{season['SeasonDisplay']}},rewards,ranking rewards
-    |description=Ranking and score rewards of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{season['env']|environment_type}}), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
+    |description=Ranking and score rewards of {{mode.name}} season {{season['SeasonDisplay']}} on the Japanese server of Blue Archive: {{info.name}} ({{environment}}), held {{season['SeasonStartData'][:10]}} to {{season['SeasonEndData'][:10]}}
     |image = {{season['banner']}}
     |image_alt = {{info.name}}
 {% raw %}}}
@@ -13,7 +14,7 @@
 |Name = {{raid_page}}
 |Season = {{season['SeasonDisplay']}}
 |RewardsSeason = {{rewards_season}}
-{% raw %}}}{% endraw %}Rewards of [[{{raid_page}}]] ({{season['env']|environment_type}}){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
+{% raw %}}}{% endraw %}Rewards of [[{{raid_page}}]] ({{environment}}){% if numbered_alike %} Season {{season['SeasonDisplay']}}{% endif %}.<br>
 Held{% if not numbered_alike %} as Season {{season['SeasonDisplay']}}{% endif %} in the Japanese version on {{period}}.{% if season_gl %} Held{% if not numbered_alike %} as Season {{season_gl['SeasonDisplay']}}{% endif %} in the Global version on {{period_gl}}.{% endif %}
 
 {% if not rewards.regions -%}

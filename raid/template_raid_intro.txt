@@ -19,7 +19,7 @@ JP={% raw %}{{#invoke:BlueBucket|get|raids
 | order by = StartDate ASC
 | limit = 1000
 | format = userformat
-| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td style="text-align:center">{{#arraymap:%Environment%|,|raidterrain|{{Icon|raidterrain|size=24}}|&#32;}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
 | intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
 | outro = </table>
 | default = None!
@@ -31,7 +31,7 @@ Global={{#invoke:BlueBucket|get|raids
 | order by = StartDate ASC
 | limit = 1000
 | format = userformat
-| userformat = <nowiki><tr><td>[[%Name%]]</td><td>{{Icon|%Environment%|size=24}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
+| userformat = <nowiki><tr><td>[[%Name%]]</td><td style="text-align:center">{{#arraymap:%Environment%|,|raidterrain|{{Icon|raidterrain|size=24}}|&#32;}}</td><td>{{DateRange|%StartDate%|%EndDate%|format=Y/m/d H:i|relative=no}}</td><td>%Season%</td><td>%Notes%</td></tr></nowiki>
 | intro = <table class="sortable wikitable raidtable"><tr><th>Raid name</th><th></th><th>Period</th><th>Season</th><th>Notes</th></tr>
 | outro = </table>
 | default = None!

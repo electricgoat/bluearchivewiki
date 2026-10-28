@@ -16,7 +16,7 @@ args = None
 data = None
 season_data = {'jp':None, 'gl':None}
 
-Raid = collections.namedtuple('Raid', 'name, shortname, environment') #Store default environment so we don't have to look at actual boss info
+Raid = collections.namedtuple('Raid', 'name, shortname, environment') #Store default environment so we don't have to look at actual boss info; a tuple for a raid whose stages differ
 RAIDS = {
     'Binah':            Raid('Decagrammaton: Binah', 'Binah', 'Outdoors'),
     'Chesed':           Raid('Decagrammaton: Chesed', 'Chesed', 'Indoors'),
@@ -35,6 +35,7 @@ RAIDS = {
     'EN0011':           Raid('Decagrammaton: Tiphareth', 'Tiphareth', 'Indoors'),
     'EN0013':           Raid('Decagrammaton: Yesod', 'Yesod', 'Urban'),
     'EN0022':           Raid('The Library of Lore: Drumbarka', 'Drumbarka', 'Urban'),
+    'EN0023':           Raid('The Library of Lore: Nightmare Train', 'Nightmare Train', ('Indoors', 'Urban')),
 }
 
 SEASON_IGNORE = {
@@ -91,6 +92,11 @@ def environment_type(environment):
     }[environment]
 
 
+def default_environment(raid):
+    """The raid's environment, as the raid lists and pages give it: its environments joined by commas, if it has several"""
+    return raid.environment if isinstance(raid.environment, str) else ','.join(raid.environment)
+
+
 
 def print_season(season, note: str = ''):
     now = datetime.now() #does not account for timezone
@@ -129,12 +135,12 @@ def prepare_seasons(seasons, region):
             continue
 
         if ((datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") - datetime.now()).days > 28):
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is too far in the future and will be ignored")
             season['ignore'] = True
             #continue
 
         if (last_season_name == RAIDS[boss[0]].name and (datetime.strptime(season['SeasonStartData'], "%Y-%m-%d %H:%M:%S") > datetime.now())):
-            print(f"Raid {region} SeasonId {season['SeasonId']} ({RAIDS[boss[0]].environment} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
+            print(f"Raid {region} SeasonId {season['SeasonId']} ({default_environment(RAIDS[boss[0]])} | {RAIDS[boss[0]].name}) is a duplicate of previous entry and will be ignored")
             season['ignore'] = True
             #continue
 
@@ -146,9 +152,9 @@ def prepare_seasons(seasons, region):
         if (len(boss)>1):
             season['env'] = environment_type(boss[1])
         else:
-            season['env'] = RAIDS[boss[0]].environment
+            season['env'] = default_environment(RAIDS[boss[0]])
 
-        season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname}.png"
+        season['banner'] = f"Raid_Banner_{RAIDS[boss[0]].shortname.replace(' ','_' )}.png"
 
         season['notes'] = ''
         if season['SeasonId'] in SEASON_NOTES[region]: season['notes'] += SEASON_NOTES[region][season['SeasonId']]
