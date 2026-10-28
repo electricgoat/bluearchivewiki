@@ -7736,6 +7736,99 @@
             "GroupId": "CH0252ExtraPassive01",
             "NameEn": "Peace! Peace! Peace!",
             "DescriptionEn": "Increase Accuracy by $1.\nWhen using the EX Skill, reduce damage taken by $2 for $3."
+        },
+
+        {
+            "GroupId": "CH0379Ex01",
+            "NameEn": "Crusader-chan, let's go!",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nIf holding any Circuit Fever, consume all of it to enhance this attack, increasing the damage multiplier by x0.5 for each Circuit Fever consumed."
+        },
+        {
+            "GroupId": "CH0379Public01",
+            "NameEn": "AP shell loaded!",
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy.\nIf the target has Light armor, before the attack increase the amount of Effective damage taken by $3 for $4."
+        },
+        {
+            "GroupId": "CH0379Passive01",
+            "NameEn": "Racer's grit",
+            "DescriptionEn": "Increase Critical Damage by $1."
+        },
+        {
+            "GroupId": "CH0379WeaponPassive01",
+            "NameEn": "Racer's grit +",
+            "DescriptionEn": "Increase Attack by $1. Increase Critical Damage by $2."
+        },
+        {
+            "GroupId": "CH0379ExtraPassive01",
+            "NameEn": "Ace racer",
+            "DescriptionEn": "When another allied Attacker Striker uses an EX Skill, increase their Critical Damage by $1 for $2.\nGain $3 Circuit Fever. (Circuit Fever stacks up to a maximum of 4)"
+        },
+
+        {
+            "GroupId": "CH0380Ex01",
+            "NameEn": "Macte Virtute",
+            "DescriptionEn": "Azusa enters the battlefield to cheer on allies for $1.\nIncrease Cost Recovery by $2 for $3.\nHeal allies within a circular area for $4 of Healing."
+        },
+        {
+            "GroupId": "SM038001Public01",
+            "NameEn": "Plaudite",
+            "DescriptionEn": "When Azusa appears, and every $1 thereafter, increase Explosive Efficiency of allies within a circular area around her by $2 for $3."
+        },
+        {
+            "GroupId": "SM038001Passive01",
+            "NameEn": "Do your best, everyone",
+            "DescriptionEn": "When Azusa appears, increase Attack of allies within a circular area around her by $1 for $2."
+        },
+        {
+            "GroupId": "CH0380Public01",
+            "NameEn": "Fortiter",
+            "DescriptionEn": "Every $1, increase Critical Rate of allied Striker Attackers by $2 for $3."
+        },
+        {
+            "GroupId": "CH0380Passive01",
+            "NameEn": "Headpats",
+            "DescriptionEn": "Increase Healing by $1."
+        },
+        {
+            "GroupId": "CH0380WeaponPassive01",
+            "NameEn": "Headpats +",
+            "DescriptionEn": "Increase Buff Duration by $1. Increase Healing by $2."
+        },
+        {
+            "GroupId": "CH0380ExtraPassive01",
+            "NameEn": "Just as I was taught",
+            "DescriptionEn": "Increase Explosive Efficiency of all allies by $1."
+        },
+
+        {
+            "GroupId": "CH0322Ex01",
+            "NameEn": "IPoAC Spoofing",
+            "DescriptionEn": "Deal $1 damage to one enemy.\nWhile Puppy is deployed, this skill changes to \"1-Byte Burst\"."
+        },
+        {
+            "GroupId": "SM032201Ex01",
+            "NameEn": "1-Byte Burst",
+            "DescriptionEn": "Deal $1 damage bouncing to up to 8 enemies sequentially.\nEach subsequent hit on the same enemy is reduced by $2.\n(Calculated using Puppy's stats)"
+        },
+        {
+            "GroupId": "CH0322Public01",
+            "NameEn": "Watchdog Timer",
+            "DescriptionEn": "At the start of battle, and every $1 thereafter, summon Puppy for $3. Puppy additionally inherits $2 of Rana's Attack.\n(Puppy's normal attacks deal $4 damage to enemies within a circular area centered on one enemy. If there are other enemies near the target, deal $5 damage to up to 1 of them.)\n(Only one tactical support vehicle can be fielded at any given time)"
+        },
+        {
+            "GroupId": "CH0322Passive01",
+            "NameEn": "Overclock",
+            "DescriptionEn": "Increase Attack by $1."
+        },
+        {
+            "GroupId": "CH0322WeaponPassive01",
+            "NameEn": "Overclock +",
+            "DescriptionEn": "Increase Attack by $1. Further increase Attack by $2."
+        },
+        {
+            "GroupId": "CH0322ExtraPassive01",
+            "NameEn": "Multicast",
+            "DescriptionEn": "Increase Attack of all allies by $1."
         }
 
     ]
