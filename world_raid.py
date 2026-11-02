@@ -4,13 +4,11 @@ import os
 import traceback
 import argparse
 
-from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
 from model import Item, Furniture, FurnitureGroup
 from classes.Character import Character
-from shared.functions import translate_package_name
-from event import Card, wiki_itemcard
+from shared.functions import translate_package_name, Card, wiki_itemcard
 import shared.functions
 
 ignore_item_id = [
@@ -27,12 +25,6 @@ season_data = {'jp':None, 'gl':None}
 
 
 characters, items, furniture = {},{},{}
-
-class Card(IntFlag):
-    PROBABILITY = auto()
-    #PROBABILITY_AUTO = auto()
-    QUANTITY = auto()
-    QUANTITY_AUTO = auto()
 
 STAGE_DIFFICULTY = {'A': 'Normal',
                     'B': 'Hard',

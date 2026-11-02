@@ -1,6 +1,7 @@
 import re
 import os
 import json
+from enum import IntFlag, auto
 from xxhash import xxh32_intdigest
 
 # Sorting helpers for damage and armor types
@@ -265,6 +266,30 @@ def wiki_card(type: str, id: int, data, characters:dict|None, items:dict|None, f
 
     if name == None: print (f"Unknown {type} item {id}")
     return '{{'+card_type+'|'+(name != None and name.replace('"', '\\"') or f'{type}_{id}')+wikitext_params+'}}'
+
+
+class Card(IntFlag):
+    PROBABILITY = auto()
+    #PROBABILITY_AUTO = auto()
+    QUANTITY = auto()
+    QUANTITY_AUTO = auto()
+
+
+def wiki_itemcard(reward, *params):
+    #
+    #Deprecated
+    #Use wiki_card
+    #
+    card_type = reward.type != 'Character' and 'ItemCard' or 'CharacterCard'
+
+    if Card.PROBABILITY in params: probability = f'|probability={reward.prob:g}'
+    else: probability = ''
+
+    if Card.QUANTITY_AUTO in params: quantity = reward.amount>1 and '|quantity='+str(reward.amount) or ''
+    elif Card.QUANTITY in params: quantity = '|quantity='+str(reward.amount)
+    else: quantity = ''
+
+    return '{{'+card_type+'|'+(reward.name != None and reward.name or 'Unknown')+quantity+probability+'|text=|60px|block}}'
 
 
 def hashkey(text:str)->int:
