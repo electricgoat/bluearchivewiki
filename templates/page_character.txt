@@ -239,7 +239,13 @@
 | SkillNameJP = {{character.passive_weapon_skill.name}}
 | SkillIconType = {{character.passive_weapon_skill.icon}}
 | SkillDamageType = {{character.passive_weapon_skill.damage_type}}
+{% if character.passive_weapon_skill.damage_target_count != 'None' -%}
+| SkillDamageTargetCount = {{character.passive_weapon_skill.damage_target_count}}
+{% endif -%}
 | SkillType = Weapon Passive
+{% if character.passive_weapon_skill.effect_names -%}
+| SkillEffectList = {{character.passive_weapon_skill.effect_names|join(', ')}}
+{% endif -%}
 | SkillDescriptionGeneral = {{character.passive_weapon_skill.description_general|colorize}}
 {% for level in character.passive_weapon_skill.levels -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
@@ -276,7 +282,13 @@
 | SkillNameJP = {{character.normal_gear_skill.name}}
 | SkillIconType = {{character.normal_gear_skill.icon}}
 | SkillDamageType = {{character.normal_gear_skill.damage_type}}
+{% if character.normal_gear_skill.damage_target_count != 'None' -%}
+| SkillDamageTargetCount = {{character.normal_gear_skill.damage_target_count}}
+{% endif -%}
 | SkillType = Gear Normal
+{% if character.normal_gear_skill.effect_names -%}
+| SkillEffectList = {{character.normal_gear_skill.effect_names|join(', ')}}
+{% endif -%}
 | SkillDescriptionGeneral = {{character.normal_gear_skill.description_general|colorize}}
 {% for level in character.normal_gear_skill.levels -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}

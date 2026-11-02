@@ -23,6 +23,18 @@ def _get_skill_upgrade_materials(level, data):
             yield data.translated_currencies[id]['NameEn'], data.currencies[id]['Icon'].rsplit('/', 1)[-1], amount
 
 
+def _get_skill_effects(group, data):
+    """Skill effects used by JP 1.74 character filter. Probably not a straight replica of ingame logic"""
+    levels = [level for level in group if level['SkillFilterActivate']]
+    if not levels:
+        return
+
+    for key in data.skills_localization[max(levels, key=operator.itemgetter('Level'))['LocalizeSkillId']]['SkillEffectList']:
+        effect = data.skill_effects_localization[key]
+        if effect['SkillFilterActivate']:
+            yield effect
+
+
 class SkillLevel(object):
     def __init__(self, description, cost, materials):
         self.description = description
@@ -40,8 +52,9 @@ class SkillLevel(object):
 
 class Skill(object):
     missing_skill_localization = None   # MissingTranslations collector, set by Character.from_data
+    missing_skill_effect_localization = None
 
-    def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], select_ex_tooltip = [], show_skill_slot = ''):
+    def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], select_ex_tooltip = [], show_skill_slot = '', effect_names = [], damage_target_count = 'None'):
         self.name = name
         self.icon = icon
         self.levels = levels
@@ -56,6 +69,8 @@ class Skill(object):
         self.additional_tooltip = additional_tooltip
         self.select_ex_tooltip = select_ex_tooltip
         self.show_skill_slot = show_skill_slot
+        self.effect_names = effect_names
+        self.damage_target_count = damage_target_count
 
     @property
     def damage_type(self):
@@ -174,6 +189,15 @@ class Skill(object):
             print (f"No translation found for skill {data.skills_localization[group[0]['LocalizeSkillId']]['NameJp']}, group_id {group_id}")
 
 
+        effect_names = []
+        for effect in _get_skill_effects(group, data):
+            name_en = effect.get('SkillEffectNameEN')
+            if not name_en and cls.missing_skill_effect_localization:
+                # texts only: translation rows override the game's fields
+                cls.missing_skill_effect_localization.add_entry({key: value for key, value in effect.items() if key == 'Key' or key.endswith(('KR', 'JP'))})
+            effect_names.append(name_en or effect['SkillEffectNameJP'])
+
+
         effect_data = None
         if group_id.find('Passive') > -1 and group_id.find('ExtraPassive') == -1:
             effect_data = {}
@@ -213,6 +237,8 @@ class Skill(object):
             additional_tooltip,
             select_ex_tooltip,
             skill_type(show_skill_slot),
+            effect_names,
+            group[0]['SkillDamageTargetCount'],
         )
 
 

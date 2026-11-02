@@ -162,8 +162,9 @@ class Character(object):
         return self._character_pool
 
     @classmethod
-    def from_data(cls, character_id, data, ext_missing_skill_localization = None):
+    def from_data(cls, character_id, data, ext_missing_skill_localization = None, ext_missing_skill_effect_localization = None):
         Skill.missing_skill_localization = ext_missing_skill_localization
+        Skill.missing_skill_effect_localization = ext_missing_skill_effect_localization
 
         character = data.characters[character_id]
         character_ai = data.characters_ai[character['CharacterAIId']]

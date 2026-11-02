@@ -9,7 +9,7 @@ BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
     ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 'stat_level_interpolation',
      'costumes',
-    'skills', 'skills_localization','skill_additional_tooltip','skill_select_ex_tooltip','translated_characters','translated_skills',
+    'skills', 'skills_localization','skill_effects_localization','skill_additional_tooltip','skill_select_ex_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
     'character_potential', 'character_potential_stat',
     'currencies','translated_currencies',
@@ -48,6 +48,7 @@ BlueArchiveData = collections.namedtuple(
     ]
 )
 
+OVERWRITE_CHECK_FIELDS = ('SkillEffectNameKR', 'SkillEffectNameJP', 'SkillEffectDescriptionKR', 'SkillEffectDescriptionJP', 'SuffixTextKR', 'SuffixTextJP')
 
 def load_data(path_primary, path_secondary, path_translation):
     return BlueArchiveData(
@@ -61,6 +62,7 @@ def load_data(path_primary, path_secondary, path_translation):
         costumes=                   load_generic(path_primary, 'CostumeExcelTable.json', key='CostumeGroupId'),
         skills=                     load_generic(path_primary, 'SkillExcelTable.json'),
         skills_localization=        load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillExcelTable.json'),
+        skill_effects_localization= load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeSkillEffectExcelTable.json', checked_fields=OVERWRITE_CHECK_FIELDS),
         skill_additional_tooltip =  load_file_grouped(path_primary, 'SkillAdditionalTooltipExcelTable.json', key='GroupId'),
         skill_select_ex_tooltip =   load_file_grouped(path_primary, 'SkillSelectExTooltipExcelTable.json', key='GroupId'),
         translated_characters =     load_file(os.path.join(path_translation, 'LocalizeCharProfile.json'), key='CharacterId', load_multipart=False),
@@ -349,7 +351,7 @@ def load_combined(path_primary, path_secondary, filename:str, key:str|None='Id',
     return data_primary 
   
 
-def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key'):
+def load_combined_localization(path_primary, path_secondary, path_translation, filename, key='Key', checked_fields=('Jp',)):
 
     data_primary = load_generic(path_primary, filename, key, load_db=True, load_multipart=True)
     data_secondary = load_generic(path_secondary, filename, key, load_db=True, load_multipart=True)
@@ -365,15 +367,16 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
 
     for index in combined_keys:
         if data_aux and index in data_aux:
-            if index in data_primary and 'Jp' in data_primary[index] and data_aux[index]['Jp'] != data_primary[index]['Jp']:
-                print(f"Warning - overwriting Jp text {index}:\n{data_primary[index]['Jp']}\n{data_aux[index]['Jp']}")
-            data_primary[index] = data_aux[index]
+            for field, text in data_aux[index].items():
+                if field in checked_fields and field in data_primary.get(index, {}) and text != data_primary[index][field]:
+                    print(f"Warning - overwriting {field} text {index}:\n{data_primary[index][field]}\n{text}")
+            data_primary[index] = data_primary.get(index, {}) | data_aux[index]
             if index in data_secondary and data_secondary[index].get('En') is not None and data_aux[index]['En'] != data_secondary[index]['En']:
                 #print(f"Warning - superseding official En text {index}, secondary kept as EnGlobal:\n{data_aux[index]['En']}")\n{data_secondary[index]['En']}
                 data_primary[index]['EnGlobal'] = data_secondary[index]['En']
 
         elif index in data_secondary:
-            data_primary[index] = data_secondary[index]
+            data_primary[index] = data_primary.get(index, {}) | data_secondary[index]
 
     return data_primary
 

@@ -17,6 +17,7 @@ import shared.functions
 from shared.MissingTranslations import MissingTranslations
 
 missing_skill_localization = MissingTranslations("translation/missing/LocalizeSkillExcelTable.json")
+missing_skill_effect_localization = MissingTranslations("translation/missing/LocalizeSkillEffectExcelTable.json")
 
 DEVNAME_MAP = 'translation/devname_map.json'
 DEVNAME_MAP_AUX = 'translation/devname_map_aux.json'
@@ -42,7 +43,7 @@ def generate():
             continue
 
         try:
-            character = Character.from_data(character['Id'], data, missing_skill_localization)
+            character = Character.from_data(character['Id'], data, missing_skill_localization, missing_skill_effect_localization)
             #if character.club == character._club and character.club != 'Veritas': print(f' Unknown club name {character.wiki_name} {character.club}')
         except Exception as err:
             print(f'Failed to parse for DevName {character["DevName"]}: {err}')
@@ -141,6 +142,7 @@ def main():
         traceback.print_exc()
 
     missing_skill_localization.write()
+    missing_skill_effect_localization.write()
 
 
 if __name__ == '__main__':

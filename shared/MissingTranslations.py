@@ -29,8 +29,8 @@ class MissingTranslations:
         keys_to_add = []
         for entry in self.entries:
             for key, value in entry.items():
-                if key.endswith("Jp"):
-                    en_key = key[:-2] + "En"  # Replace "Jp" with "En"
+                if key.endswith(("Jp", "JP")):
+                    en_key = key[:-2] + ("En" if key.endswith("Jp") else "EN")  # Replace "Jp" with "En", "JP" with "EN"
                     if en_key not in entry:
                         keys_to_add.append(en_key)
 

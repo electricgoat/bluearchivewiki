@@ -3,10 +3,16 @@
 | SkillNameJP = {{skill.name}}
 | SkillIconType = {{skill.icon}}
 | SkillDamageType = {{skill.damage_type}}
+{% if skill.damage_target_count != 'None' -%}
+| SkillDamageTargetCount = {{skill.damage_target_count}}
+{% endif -%}
 | SkillBaseCost = {{skill.levels[0].cost}}
 {% for skill in skill.skill_cost -%}
 | SkillCostLv{{skill.level}} = {{skill.cost}}
 {% endfor -%}
+{% if skill.effect_names -%}
+| SkillEffectList = {{skill.effect_names|join(', ')}}
+{% endif -%}
 | SkillDescriptionGeneral = {{skill.description_general|colorize}}
 {% for level in skill.levels -%}
 | SkillDescriptionLv{{loop.index}} = {{level.description|colorize}}
