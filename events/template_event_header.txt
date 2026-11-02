@@ -1,4 +1,4 @@
-[[File:Event {{season['LocalizeName']['En']}}.png|thumb|Event promo image]]
+[[File:Event {{season['LocalizeName']['En']|replace(':', '')}}.png|thumb|Event promo image]]
 
 {%- if 1<season['EventContentId']<1000 %}
 {{season['LocalizeTitle']['En']}} is the '''00th''' [[Events|event]] in Blue Archive.

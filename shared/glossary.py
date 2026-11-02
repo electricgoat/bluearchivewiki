@@ -13,7 +13,7 @@ CLUBS = {
             'GameDev': 'Game Development Department',
             'Veritas': 'Veritas',
             'Engineer': 'Engineering Department',
-            'KnightsHospitaller': 'Rescue Knights',
+            'KnightsHospitaller': 'Remedial Knights',
             'FoodService': 'School Lunch Club',
             'PandemoniumSociety': 'Pandemonium Society',
             'RabbitPlatoon': 'RABBIT Platoon',

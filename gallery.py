@@ -23,7 +23,7 @@ LEGACY_SPRNAME = ['First version', 'Original version', 'Beta version', 'Unreleas
 
 
 class Gallery(object):
-    def __init__(self, root_dir, dirname, character_wikiname, is_diorama, is_exported, description, files, exclude_files = None, cargo_template = None):
+    def __init__(self, root_dir, dirname, character_wikiname, is_diorama, is_exported, description, files, exclude_files = None, cargo_template = None, background = None):
         self.root_dir = root_dir
         self.dirname = dirname
         self.character_wikiname = character_wikiname
@@ -33,6 +33,7 @@ class Gallery(object):
         self.files = files
         self.exclude_files = exclude_files
         self.cargo_template = cargo_template
+        self.background = background
 
 
     @property
@@ -53,21 +54,31 @@ class Gallery(object):
     
     @property
     def variant(self):
-        return '(' in self.character_wikiname and self.character_wikiname[self.character_wikiname.find('(')+1:-1] or ''
-    
+        return '(' in self.character_wikiname and self.character_wikiname.split('(',1)[1].rsplit(')',1)[0] or ''
+
+    @property
+    def suffix(self):
+        return ')' in self.character_wikiname and self.character_wikiname.rsplit(')',1)[1].strip() or ''
+
+    @property
+    def uid(self):
+        name = re.sub('_diorama$', '', self.dirname)
+        return name.replace('_', ' ') != self.character_wikiname and name or ''
+
 
     def __repr__(self):
         return (f"Gallery(root_dir={self.root_dir!r}, dirname={self.dirname!r}, "
                 f"character_wikiname={self.character_wikiname!r}, is_diorama={self.is_diorama}, "
                 f"is_exported={self.is_exported}, description={self.description!r}, "
                 f"files={list(self.files.keys())}, exclude_files={self.exclude_files!r}, "
-                f"cargo_template={self.cargo_template!r})")
+                f"cargo_template={self.cargo_template!r}, background={self.background!r})")
 
     
     def wikitext(self, include_cargo = False, header_level = 2):
         wikitext = f"{'='*header_level}{self.character_wikiname}{'='*header_level}\n"
         if self.description: wikitext += self.description+"\n"
-        if include_cargo: 
+        if include_cargo:
+            assert self.cargo_template is not None
             wikitext += "{{Sprite\n"
             for field, value in self.cargo_template.items():
                 wikitext += f"|{field} = {value}\n"
@@ -97,7 +108,8 @@ class Gallery(object):
 
         if exclude_files: wikitext += "\n".join([f"<!-- {x} intentionally excluded as a duplicate of another sprite -->" for x in exclude_files]) + "\n"
         
-        wikitext += "<gallery>\n" + "\n".join(files) + "\n</gallery>\n"
+        attributes = self.background and f' data-bg="{self.background}"' or ''
+        wikitext += f"<gallery class=\"spritegallery\"{attributes}>\n" + "\n".join(files) + "\n</gallery>\n"
 
         return wikitext
     
@@ -187,7 +199,7 @@ def generate_page_wikitext(export_galleries:list[Gallery], include_cargo = False
     for gallery in export_galleries:
         wikitext +=  gallery.wikitext(include_cargo)
 
-    wikitext += "=Video=\n{{CharacterVideoGallery}}\n"
+    wikitext += "=Video=\n{{CharacterVideoGallery}}{{CharacterModels}}\n"
     
     wikitext += "\n{{CharacterAdditionalGallery|"+export_galleries[0].character_name+" images}}"
     wikitext += "\n{{CharacterGallerySeo|"+",".join([x.character_wikiname for x in export_galleries])+"}}"
@@ -218,7 +230,8 @@ def upload_files(export_galleries:list[Gallery]):
     global args
 
     for gallery in export_galleries:
-        #A page can exist without a file (a duplicate's redirect) and a redirect can hold a file (uploaded while the sprite was still unique)
+        assert gallery.exclude_files is not None
+        #Duplicates used to be redirects rather than files, so a page can exist without a file, or hold a redirect over a file uploaded while the sprite was still unique
         wiki_pages = wiki.page_prefix_list(gallery.character_wikiname)
         wiki_hashes = wiki.file_hashes([f"File:{x}" for x in Gallery.flatlist(gallery.files)])
         wiki_categories = ["Character sprites", f"{gallery.character_name} images"]
@@ -230,22 +243,22 @@ def upload_files(export_galleries:list[Gallery]):
             for file in gallery.files[path]:
                 page = f"File:{file}"
                 has_page, has_file = page in wiki_pages, page in wiki_hashes
+                local_path = os.path.join(path, file)
                 duplicate_of = gallery.exclude_files[path].get(file)
 
-                if duplicate_of:
-                    #A duplicate is never uploaded: its page is created as a redirect, and turned into one over a file uploaded before
-                    text, summary = f"#REDIRECT [[File:{duplicate_of}]]\n[[Category:Character sprite redirects]]", 'Identical sprite redirect'
-                    update_text = not has_page or has_file or args['update_wikitext']
-                else:
-                    text, summary = sprite_text, 'Updated sprite categories'
-                    local_path = os.path.join(path, file)
-                    uploaded = False
-                    #-reupload replaces a file on the wiki only when its content differs from the local one
-                    if not has_file or (args['reupload'] and wiki_hashes[page] != file_sha1(local_path)):
-                        print (f"Uploading {file} from {local_path}")
-                        uploaded = wiki.upload(local_path, file, comment, text)
-                    #An upload writes the text of a new page only, so a page that was there without a file (a redirect) gets its text once the file is uploaded
-                    update_text = has_page and (args['update_wikitext'] if has_file else uploaded)
+                #A duplicate is uploaded like any other sprite, as MediaWiki doesn't follow a redirect on a page that holds a file (https://phabricator.wikimedia.org/T16928); only the gallery pages leave it out
+                if duplicate_of: text, summary = f"This sprite is identical to [[:File:{duplicate_of}]].\n{sprite_text}\n[[Category:Character sprite duplicates]]", 'Duplicate sprite note'
+                else: text, summary = sprite_text, 'Updated sprite categories'
+
+                uploaded = False
+                #-reupload replaces a file on the wiki only when its content differs from the local one
+                if not has_file or (args['reupload'] and wiki_hashes[page] != file_sha1(local_path)):
+                    print (f"Uploading {file} from {local_path}")
+                    uploaded = wiki.upload(local_path, file, comment, text)
+
+                #An upload writes the text of a new page only, so a page that was there without a file (a duplicate's redirect) gets its text once the file is uploaded.
+                #A duplicate's text is always checked, as it may still be a redirect over its file, or the sprite may have turned into a duplicate since its upload
+                update_text = has_page and ((bool(duplicate_of) or args['update_wikitext']) if has_file else uploaded)
 
                 if update_text and not wiki.page_exists(page, text):
                     print (f"Updating wikitext of {page}: {summary}")
@@ -259,18 +272,18 @@ def get_character_data():
 
     data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
-    for character in data.characters.values():
-        if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':
+    for row in data.characters.values():
+        if not row['IsPlayableCharacter'] or row['ProductionStep'] != 'Release':
             continue
 
         try:
-            character = Character.from_data(character['Id'], data)
+            character = Character.from_data(row['Id'], data)
             characters.append(character)
 
             if args['character_wikiname'] is not None and character.wiki_name not in args['character_wikiname']:
                 continue
         except Exception as err:
-            print(f'Failed to parse for DevName {character["DevName"]}: {err}')
+            print(f'Failed to parse for DevName {row["DevName"]}: {err}')
             traceback.print_exc()
             continue
 
@@ -330,22 +343,29 @@ def generate():
             print(f"No sprite export galleries found for {character_name}")
             continue
         
-        playable_variants = []
-        if not args['npc']: playable_variants = [x.wiki_name for x in character_map[character_name]]
+        playable_variants = {}
+        if not args['npc']: playable_variants = {x.wiki_name: x for x in character_map[character_name]}
  
         #prepare data for cargo template
         for gallery in export_galleries:
+            #sprites of a playable character are shown over the background of their character collection art
+            playable = playable_variants.get(gallery.character_wikiname)
+            gallery.background = playable and playable.costume['CollectionBGTexturePath'].rsplit('/', 1)[-1] + '.png'
+
             gallery.cargo_template = {
+                **(gallery.uid and {'Uid': gallery.uid} or {}),
                 'Id': wikiname_to_devname_map.get(gallery.character_wikiname, ''),
                 'Type': gallery.character_wikiname in playable_variants and 'PC' or 'NPC',
                 'CharacterName': gallery.character_name,
                 'CharacterVariant': gallery.variant,
+                **(gallery.suffix and {'CharacterSuffix': gallery.suffix} or {}),
                 'SpriteNames': ','.join([gallery.sprite_name(x) for x in Gallery.flatlist(gallery.files_exportable)]),
                 'Sample': Gallery.flatlist(gallery.files_exportable)[0]
             }
-        if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
-            #print(f"Spoiler sprite: {gallery.dirname}")
-            gallery.cargo_template['Spoiler'] = 'yes'
+            if gallery.background: gallery.cargo_template['Background'] = gallery.background
+            if os.path.exists(os.path.join(gallery.root_dir, gallery.dirname, 'spoiler.txt')):
+                #print(f"Spoiler sprite: {gallery.dirname}")
+                gallery.cargo_template['Spoiler'] = 'yes'
 
         group_uploaded = False
 

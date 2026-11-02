@@ -46,7 +46,8 @@ def ui_era(banner: Banner) -> int:
 		return 0
 	return 1 if banner.sale_period_from >= cutoff else 0
 
-EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', 'SelectPickupGacha', 'SelectPickupLimitedGacha', 'SelectPickupFesGacha']
+SELECT_CAT = ['SelectPickupGacha', 'SelectPickupLimitedGacha', 'SelectPickupFesGacha']
+EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', *SELECT_CAT]
 
 
 args = {}
@@ -55,6 +56,7 @@ regional_data = {}
 known_lobby_banners_jp = {}
 prodnotice_events_jp = []
 banner_names = {}
+banners_aux = {}
 characters = {}
 
 
@@ -100,7 +102,7 @@ def find_notice_for_character(character_name):
 
 
 def init_data():
-	global args, data, regional_data, characters, known_lobby_banners_jp, known_lobby_banners_gl, prodnotice_events_jp, banner_names
+	global args, data, regional_data, characters, known_lobby_banners_jp, known_lobby_banners_gl, prodnotice_events_jp, banner_names, banners_aux
 	
 	data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
@@ -144,6 +146,32 @@ def init_data():
 		with open(banner_names_file, "r", encoding="utf-8") as f:
 			banner_names = json.load(f)
 
+	banners_aux_file = Path(os.path.join(args['translation'], 'banners_aux.json'))
+	if banners_aux_file.exists():
+		with open(banners_aux_file, "r", encoding="utf-8") as f:
+			banners_aux = json.load(f)
+
+
+
+def banner_entries(region: str) -> dict[int, dict]:
+	"""The region's ShopRecruit rows (a select recruitment's with SelectPickupCharacterId, the characters of its group), merged with the region's entries in banners_aux.json.
+	The game drops ended select recruitments and rewrites their groups, so an entry keeps a banner as it ran: its fields replace those of the row with its Id, or it adds the row the game data no longer has."""
+	groups = regional_data[region].gacha_select_pickup_group
+	entries = {}
+	for row in regional_data[region].shop_recruit.values():
+		if row['CategoryType'] in SELECT_CAT and row['SelectAbleGachaGroupId']:
+			row = row | {'SelectPickupCharacterId': [x['CharacterId'] for x in groups.get(row['SelectAbleGachaGroupId'], [])]}
+		entries[row['Id']] = row
+
+	for entry in banners_aux.get(region, []):
+		row = entries.get(entry['Id'], {})
+		if not row:
+			print(f"{region.upper()} banner {entry['Id']} is not in the game data, taken from banners_aux.json")
+		for key in [x for x in entry if x in row and row[x] != entry[x]]:
+			print(f"{region.upper()} banner {entry['Id']} {key}: {row[key]} in the game data, {entry[key]} in banners_aux.json")
+		entries[entry['Id']] = row | entry
+	return entries
+
 
 
 def init_banners(region: str):
@@ -154,7 +182,7 @@ def init_banners(region: str):
 	lobby_banner_map = {}
 	sameday_sequence_num = 1
 
-	shop_recruit_sorted:list[dict] = sorted(regional_data[region].shop_recruit.values(), key=lambda x: x['SalePeriodFrom'])
+	shop_recruit_sorted:list[dict] = sorted(banner_entries(region).values(), key=lambda x: x['SalePeriodFrom'])
 	prev_id = 0
 
 	for banner_data in shop_recruit_sorted:
@@ -173,12 +201,8 @@ def init_banners(region: str):
 		elif region == 'gl': 
 			banner.prodnotice_data = None
  
-		banner.featured_characters = [characters[id] for id in banner.info_character_id]
-		if banner_data['CategoryType'] in ['SelectPickupGacha', 'SelectPickupLimitedGacha', 'SelectPickupFesGacha'] and banner.selectable_gacha_group_id > 0:
-			#print(f"This is a SelectPickupGacha banner")
-			select_group = data.gacha_select_pickup_group.get(banner.selectable_gacha_group_id, [])
-			banner.featured_characters = [characters[entry['CharacterId']] for entry in select_group]
-		
+		banner.featured_characters = [characters[id] for id in banner.select_pickup_character_id or banner.info_character_id]
+
 		if banner.featured_name in banner_names:
 			banner.name_jp = banner_names[banner.featured_name].get('NameJp', '').strip()
 			banner.name_en = banner_names[banner.featured_name].get('NameEn', '').strip()
@@ -194,7 +218,7 @@ def init_banners(region: str):
 		banner.notes = banner_names.get(banner.featured_name, {}).get('Notes', '')
 
 		for prev_banner in banners.values():
-			if not banner.rerun_original_id and prev_banner.info_character_id == banner.info_character_id and prev_banner.category_type == banner.category_type: 
+			if not banner.rerun_original_id and prev_banner.rerun_key == banner.rerun_key:
 				#print(f"This is a rerun of banner {prev_banner.id}")
 				banner.rerun_original_id = prev_banner.id
 				break

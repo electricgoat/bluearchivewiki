@@ -34,7 +34,7 @@ DUNGEON_TYPES = {
     "ChaserA": "Overpass",
     "ChaserB": "Desert Railroad",
     "ChaserC": "Classroom",
-    "ChaserD": "Destroyed Road",
+    "ChaserD": "Destroyed Highway",
     "ChaserE": "Old Mansion",
     "FindGift": "Slumpia Square",
 }

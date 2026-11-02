@@ -719,6 +719,24 @@
       ],
       "challenge_difficulty": "Torment",
       "notes": ""
+    },
+    "42": {
+      "bosses": [
+        {
+          "group": "Goz_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Indoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Goz_Indoor_Unarmed",
+          "difficulty": "Insane"
+        }
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
     }
   },
   "gl": {
@@ -1364,6 +1382,42 @@
         },
         {
           "group": "HoverCraft_Outdoor_LightArmor",
+          "difficulty": "Insane"
+        }
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
+    },
+    "38": {
+      "bosses": [
+        {
+          "group": "HOD_Indoor_HeavyArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HOD_Indoor_ElasticArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "HOD_Indoor_LightArmor",
+          "difficulty": "Insane"
+        }
+      ],
+      "challenge_difficulty": "Torment",
+      "notes": ""
+    },
+    "39": {
+      "bosses": [
+        {
+          "group": "Binah_Outdoor_LightArmor",
+          "difficulty": "Torment"
+        },
+        {
+          "group": "Binah_Outdoor_HeavyArmor",
+          "difficulty": "Insane"
+        },
+        {
+          "group": "Binah_Outdoor_ElasticArmor",
           "difficulty": "Insane"
         }
       ],

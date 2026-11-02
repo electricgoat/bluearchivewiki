@@ -1,0 +1,38 @@
+===Tanks===
+{% raw %}{{% endraw %}| class="wikitable"
+!colspan="2" |Tank
+!Team
+!Unlock
+!Level
+!Upgrade cost
+!HP
+!ATK
+!Reload
+!Acceleration
+!class="condensed"|Top speed
+!Cornering
+!Deceleration
+!class="condensed"|Fuel use
+{% for tank in tanks -%}
+{% for level in tank['levels'] -%}
+|-
+{% if loop.first -%}
+| rowspan="{{tank['levels']|length}}" style="text-align: center" |[[File:{{tank['image']}}.png|64px]]
+| rowspan="{{tank['levels']|length}}" |'''{{tank['name']}}'''
+| rowspan="{{tank['levels']|length}}" |{{tank['team']}}
+| rowspan="{{tank['levels']|length}}" |{% if tank['unlock'] %}Clear {{tank['unlock'].stage_number}}. {{tank['unlock'].name_en}}{% else %}From the start{% endif %}
+{% endif -%}
+| style="text-align: center" |{{level['Grade']}}
+|{{level['upgrade_cost']}}
+| style="text-align: right;" |{{level['MaxHP']|thousands}}
+| style="text-align: right;" |{{level['AttackPower']|thousands}}
+| style="text-align: right;" |{{'%g'|format(level['AttackCooltime'] / 1000)}}s
+| style="text-align: right;" |{{level['Acceleration']|thousands}}
+| style="text-align: right;" |{{level['MaxSpeed']|thousands}}
+| style="text-align: right;" |{{level['Cornering']|thousands}}
+| style="text-align: right;" |{{'%g'|format(level['DecelerationScale']|round(2))}}
+| style="text-align: right;" |{{level['FuelReductionRate']}}
+{% endfor -%}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+

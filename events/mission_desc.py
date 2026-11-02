@@ -198,7 +198,9 @@ def localize_EventCompleteCampaignStageMinimumTurn(mission, data, items, furnitu
     return describe(mission, fill('$2のステージ$1を$3ターン以内にクリア', values), fill('Clear $2 $1 within $3 turns', values))
 
 
+#The localized description says which missions count, the generic text only stands in for one without English
 def localize_CompleteMission(mission, data, items, furniture):
+    if description_key(mission) in data.localization and localized_description(mission, data)[1]: return False
     values = {'$1': mission['CompleteConditionCount']}
     return describe(mission, fill('イベントのチャレンジミションを$1個以上クリア', values), fill('Complete $1 Achievement Missions', values))
 
@@ -285,6 +287,34 @@ def localize_JankenGetSpecificScore(mission, data, items, furniture):
                              fill(desc_en, {'{0}': stage_en, '{1}': mission['CompleteConditionCount']}))
 
 
+def localized_texts(data, key: int) -> tuple[str, str]:
+    """The Japanese and English texts of a localization key, the English one falling back to the Japanese."""
+    localized = data.localization.get(key, {})
+    return localized.get('Jp', ''), localized.get('En') or localized.get('Jp', '')
+
+
+#CompleteConditionParameter is [event id, tank group, upgrade level], CompleteConditionCount is always 1
+def localize_TankRacingUpgradeTierCheck(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    event_id, group, level = mission['CompleteConditionParameter']
+
+    tank = {x['GroupId']: x for x in data.minigame_tank_character[event_id]}[group]
+    tank_jp, tank_en = localized_texts(data, tank['TankName'])
+
+    return describe(mission, fill(desc_jp, {'{0}': tank_jp, '{1}': level}), fill(desc_en, {'{0}': tank_en, '{1}': level}))
+
+
+#CompleteConditionParameter is [event id, tank stage id]
+def localize_ClearSpecificTankRacingStage(mission, data, items, furniture):
+    desc_jp, desc_en = localized_description(mission, data)
+    event_id, stage_id = mission['CompleteConditionParameter']
+
+    stage = {x['UniqueId']: x for x in data.minigame_tank_stage[event_id]}[stage_id]
+    stage_jp, stage_en = localized_texts(data, stage['Name'])
+
+    return describe(mission, fill(desc_jp, {'{0}': stage_jp}), fill(desc_en, {'{0}': stage_en}))
+
+
 #Localizers by CompleteConditionType, without its Reset_ prefix
 LOCALIZERS = {
     'ClearSpecificChaserDungeonCount': localize_ClearSpecificChaserDungeonCount,
@@ -313,6 +343,8 @@ LOCALIZERS = {
     'ClearSpecificDefenseStage': localize_ClearSpecificDefenseStage,
     'JankenEquipmentTierCheckCount': localize_JankenEquipmentTierCheckCount,
     'JankenGetSpecificScore': localize_JankenGetSpecificScore,
+    'TankRacingUpgradeTierCheck': localize_TankRacingUpgradeTierCheck,
+    'ClearSpecificTankRacingStage': localize_ClearSpecificTankRacingStage,
 }
 
 

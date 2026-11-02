@@ -43,6 +43,11 @@ def upload_tracks(tracks):
                     wiki.move(generic_name, complete_name, summary='Descriptive track name', noredirect=False)
                     known_wiki_pages.discard(generic_name)
                     known_wiki_pages.add(complete_name)
+
+                    #The generic name is a redirect now, so a Theme_ redirect to it became a double one
+                    theme_name = f"File:Theme_{track['Id']:02}.ogg"
+                    if wiki.redirect_target(theme_name) == generic_name:
+                        wiki.redirect(theme_name, complete_name, summary='Fix double redirect')
             else:
                 print (f"Uploading {localpath} as {track['WikiFilename']}")
                 wiki.upload(localpath, track['WikiFilename'], 'BGM track upload')

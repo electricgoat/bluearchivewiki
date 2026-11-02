@@ -1652,8 +1652,8 @@
         ],
         "NameJp": "I need to be in romantic",
         "NameEn": "I need to be in romantic",
-        "NameEnGlobal": "",
-        "NameEnGlobalRerun": "",
+        "NameEnGlobal": "Ah... Would you like to come with me on this journey of ROCK?",
+        "NameEnGlobalRerun": "Ah... Would you like to come with me on this journey of ROCK?",
         "Notes": ""
     },
     "Kikyou (Swimsuit),Renge (Swimsuit)": {
@@ -1894,6 +1894,18 @@
         "NameEnGlobalRerun": "",
         "Notes": ""
     },
+    "Wakamo,Hoshino (Swimsuit),Mika": {
+        "Characters": [
+            "Wakamo",
+            "Hoshino (Swimsuit)",
+            "Mika"
+        ],
+        "NameJp": "",
+        "NameEn": "",
+        "NameEnGlobal": "",
+        "NameEnGlobalRerun": "",
+        "Notes": "selectable rate-up character, students removed from Anniversary pool"
+    },
     "Rio (Battle)": {
         "Characters": [
             "Rio (Battle)"
@@ -1949,6 +1961,25 @@
             "Eimi (Battle)"
         ],
         "NameJp": "想い惹かれる断想の不可逆性",
+        "NameEn": "",
+        "NameEnGlobal": "",
+        "NameEnGlobalRerun": "",
+        "Notes": ""
+    },
+    "Azusa (Swimsuit),Mashiro (Swimsuit),Hina (Swimsuit),Iori (Swimsuit),Neru (Bunny Girl),Karin (Bunny Girl),Aru (New Year),Mutsuki (New Year),Izuna (Swimsuit),Chise (Swimsuit)": {
+        "Characters": [
+            "Azusa (Swimsuit)",
+            "Mashiro (Swimsuit)",
+            "Hina (Swimsuit)",
+            "Iori (Swimsuit)",
+            "Neru (Bunny Girl)",
+            "Karin (Bunny Girl)",
+            "Aru (New Year)",
+            "Mutsuki (New Year)",
+            "Izuna (Swimsuit)",
+            "Chise (Swimsuit)"
+        ],
+        "NameJp": "",
         "NameEn": "",
         "NameEnGlobal": "",
         "NameEnGlobalRerun": "",
@@ -2074,17 +2105,19 @@
         "NameEnGlobalRerun": "",
         "Notes": ""
     },
-    "Wakamo,Hoshino (Swimsuit),Mika": {
+    "Wakamo,Hoshino (Swimsuit),Mika,Hanako (Swimsuit),Hina (Dress)": {
         "Characters": [
             "Wakamo",
             "Hoshino (Swimsuit)",
-            "Mika"
+            "Mika",
+            "Hanako (Swimsuit)",
+            "Hina (Dress)"
         ],
         "NameJp": "",
         "NameEn": "",
         "NameEnGlobal": "",
         "NameEnGlobalRerun": "",
-        "Notes": "selectable rate-up character, students removed from Anniversary pool"
+        "Notes": ""
     },
     "Makoto (Swimsuit)": {
         "Characters": [
@@ -2171,6 +2204,36 @@
             "Erina"
         ],
         "NameJp": "化学の力だ！ダイヤモンドカッター！",
+        "NameEn": "",
+        "NameEnGlobal": "",
+        "NameEnGlobalRerun": "",
+        "Notes": ""
+    },
+    "Tsumugi": {
+        "Characters": [
+            "Tsumugi"
+        ],
+        "NameJp": "弦よ、軋め！紡がれるは冥界の旋律！",
+        "NameEn": "",
+        "NameEnGlobal": "",
+        "NameEnGlobalRerun": "",
+        "Notes": ""
+    },
+    "Hifumi (Racing)": {
+        "Characters": [
+            "Hifumi (Racing)"
+        ],
+        "NameJp": "",
+        "NameEn": "",
+        "NameEnGlobal": "",
+        "NameEnGlobalRerun": "",
+        "Notes": ""
+    },
+    "Azusa (Racing)": {
+        "Characters": [
+            "Azusa (Racing)"
+        ],
+        "NameJp": "",
         "NameEn": "",
         "NameEnGlobal": "",
         "NameEnGlobalRerun": "",

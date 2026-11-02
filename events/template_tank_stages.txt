@@ -1,0 +1,46 @@
+===Stages===
+{% raw %}{{% endraw %}| class="wikitable mw-collapsible stagetable"
+|-
+! rowspan="2" |No.
+! rowspan="2" |Stage
+! rowspan="2" |Type
+! rowspan="2" |Opponents
+! rowspan="2" |Entry cost
+! rowspan="2" |Star objectives
+! colspan="{{rewardcols}}" |Rewards
+|-
+{%- if 'FirstClear' in reward_types %}
+!class="condensed"|FirstClear{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+!class="condensed"|ThreeStar{% endif %}
+{%- if 'Event' in reward_types %}
+!Event{% endif %}
+{%- if 'Default' in reward_types %}
+!Default{% endif %}
+{%- if 'Rare' in reward_types %}
+!Rare{% endif %}
+{%- if 'Other' in reward_types %}
+!Other{% endif %}
+{% for stage in stages -%}
+|-
+| style="text-align: center" |{{stage.stage_number}}
+| style="text-align: left;" |{{stage.name_en}}{% if stage.name_jp != stage.name_en %}<br><span lang="ja">{{stage.name_jp}}</span>{% endif %}
+| style="text-align: center" |{{stage_types.get(stage.difficulty, stage.difficulty)}}
+| style="text-align: left;" |{% for entry in stage.bosses %}With {{entry['player']['name']}}: {{entry['boss']['name']}} ({{entry['boss']['levels'][0]['MaxHP']|thousands}} HP, {{entry['boss']['levels'][0]['AttackPower']|thousands}} ATK){% if not loop.last %}<br>{% endif %}{% endfor %}{% for rival in stage.rivals %}Rival tank ({{rival['MaxHP']|thousands}} HP){% if not loop.last %}<br>{% endif %}{% endfor %}
+|{{stage.wiki_enter_cost}}
+| style="text-align: left;" | {{ '<br>'.join(stage.star_goal.wiki_list) }}
+{%- if 'FirstClear' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('FirstClear', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'ThreeStar' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('ThreeStar', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Event' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Event', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Default' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Default', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Rare' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Rare', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{%- if 'Other' in reward_types %}
+|<div class="rewards">{% for reward_parcel in stage.rewards.get('Other', []) %}{{reward_parcel.wikitext}}{% endfor %}</div>{% endif %}
+{% endfor -%}
+{% raw %}|}{% endraw %}
+

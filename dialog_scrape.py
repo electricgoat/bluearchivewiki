@@ -18,7 +18,7 @@ import json
 import traceback
 
 import wikitextparser as wtp
-from pywikiapi import Site, ApiError
+from pywikiapi import ApiError
 
 import dialog
 import wiki
@@ -128,7 +128,7 @@ def write_records(character:Character, records:list[dict]):
 
 def main():
     dialog.init(vars(dialog.argument_parser().parse_args()))
-    site = wiki.site if wiki.site is not None else Site(wiki.WIKI_API) #reading pages needs no login
+    site = wiki.site if wiki.site is not None else wiki.Site(wiki.WIKI_API) #reading pages needs no login
 
     failed = []
     for character in dialog.selected_characters():

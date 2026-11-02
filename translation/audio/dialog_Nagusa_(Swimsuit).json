@@ -2,6 +2,13 @@
     "DataList": [
         {
             "CharacterId": 10142,
+            "DialogCategory": "UITitle",
+            "VoiceClip": "Nagusa_(Swimsuit)_Title",
+            "Path": "Audio/VOC_JP/JP_CH0303/CH0303_Title",
+            "LocalizeEN": "Blue Archive"
+        },
+        {
+            "CharacterId": 10142,
             "DialogCategory": "UIEventLobby",
             "VoiceClip": "Nagusa_(Swimsuit)_EventLobby_4",
             "Path": "Audio/VOC_JP/JP_CH0303/CH0303_EventLobby_4",

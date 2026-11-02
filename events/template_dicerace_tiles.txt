@@ -1,0 +1,8 @@
+{% raw %}{{% endraw %}| class="wikitable limitwidth-640"
+{% for tile in tiles -%}
+|-
+!{{tile['Name']}}
+|{{tile['Contents']}}
+{% endfor -%}
+|{% raw %}}{% endraw %}
+

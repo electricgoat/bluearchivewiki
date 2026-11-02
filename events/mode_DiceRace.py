@@ -11,10 +11,13 @@ def get_mode_dicerace(ctx: EventContext, season_id: int) -> str:
     dice_race = data.event_content_dice_race[season_id]
 
     title = 'Dice Race'
-    wikitext = {'title':f"\n=={title}==", 'intro':'', 'lap_rewards':'===Lap Completion Rewards===\n', }
+    wikitext = {'title':f"\n=={title}==", 'intro':'', 'tiles':'===Tile Rewards===\n', 'lap_rewards':'===Lap Completion Rewards===\n', }
 
     good = data.goods[dice_race['DiceCostGoodsId']]
     dice_cost_wiki_card = ctx.wiki_card(good['ConsumeParcelType'][0], good['ConsumeParcelId'][0], quantity = good['ConsumeParcelAmount'][0])
+
+    nodes = data.event_content_dice_race_node[season_id]
+    tiles = [{'Name': 'Start' if x['EventContentDiceRaceNodeType'] == 'StartNode' else f"Tile {x['NodeId']}", 'Contents': tile_contents(ctx, x)} for x in nodes]
 
     lap_reward_data = [dict(x) for x in data.event_content_dice_race_total_reward[season_id]]
     total_lap_rewards = {}
@@ -31,9 +34,20 @@ def get_mode_dicerace(ctx: EventContext, season_id: int) -> str:
                 total_lap_rewards[parcel_id].amount += parcel.amount
 
     template = env.get_template('template_dicerace_intro.txt')
-    wikitext['intro'] += template.render(season_id=season_id, die_cost=dice_cost_wiki_card, event_info=dice_race, nodes=data.event_content_dice_race_node[season_id])
+    wikitext['intro'] += template.render(season_id=season_id, die_cost=dice_cost_wiki_card, event_info=dice_race, nodes=nodes)
+
+    template = env.get_template('template_dicerace_tiles.txt')
+    wikitext['tiles'] += template.render(tiles=tiles)
 
     template = env.get_template('template_dicerace_lap_rewards.txt')
     wikitext['lap_rewards'] += template.render(lap_reward_data=lap_reward_data, total_rewards=total_lap_rewards)
 
     return '\n'.join(wikitext.values())
+
+
+def tile_contents(ctx: EventContext, node: dict) -> str:
+    """What the tile does: move the pawn further, or give its rewards."""
+    if node['EventContentDiceRaceNodeType'] == 'MoveForwardNode':
+        steps = node['MoveForwardTypeArg']
+        return f"Move forward {steps} tile{'s' if steps > 1 else ''}"
+    return ' '.join(ctx.wiki_card(parcel_type, parcel_id, quantity=amount) for parcel_type, parcel_id, amount in zip(node['RewardParcelType'], node['RewardParcelId'], node['RewardAmount']))
