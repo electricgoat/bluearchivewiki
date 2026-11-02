@@ -1,0 +1,198 @@
+{{'{{'}}#seo:
+    |title=Virtual Aptitude Test BETA (仮想適性試験)
+    |title_mode=append
+    |keywords=Virtual Aptitude Test,仮想適性試験,Tactical Relay,game mode,beta
+    |description=Virtual Aptitude Test is a Blue Archive battle mode in which up to {{intro.squads}} squads take turns fighting waves of enemies
+    |image = Virtual Aptitude Test.png
+    |image_alt = Virtual Aptitude Test BETA
+{{'}}'}}
+[[File:Virtual Aptitude Test.png|thumb|400px|Virtual Aptitude Test BETA]]
+'''Virtual Aptitude Test''' (仮想適性試験; Tactical Relay internally) is a battle mode in which up to {{intro.squads}} squads take turns fighting waves of enemies. Its first run, '''Virtual Aptitude Test BETA''', is held in the Japanese version from {{intro.period}}. The mode opens after clearing [[Missions/{{intro.unlock}}|Mission {{intro.unlock}}]], and [[Plana]] runs the tests.
+
+==Overview==
+[[File:Virtual Aptitude Test formation.png|thumb|400px|Squads and a stage's mission info]]
+There are {{stages|length}} stages, each with {{levels|length}} levels: {{levels[:-1]|map(attribute='level')|join(', ')}} and {{levels[-1].level}}. Only level {{levels[0].level}} is open at first, and clearing a level opens the next one. A stage's enemies come in sections of {{(levels[0].waves / levels[0].sections)|int}} waves, and their armor alternates between two types from one section to the next.
+
+Battle rewards depend on the furthest wave reached. Once a stage has been cleared, sweep function is unlocked; note that sweep gives the rewards of the best record achieved for given stage.
+
+The mission info screen ranks Sensei's records on each stage by level, waves cleared and clear time, and shows ''Tallying'' until {{intro.ranking}} Senseis have cleared the stage. The records don't show on the profile.
+
+Being a beta, the details of mode mechanics are subject to change.
+{{'{{'}}Clear{{'}}'}}
+
+==Squads==
+[[File:Virtual Aptitude Test TCS and affection rank buff.png|thumb|400px|TCS slots and the Affection Rank Buff]]
+Aptitude Test squad has 4 Strikers, 2 Specials, and 2 TCS slots that accept any student class, for up to 8 students. One student per squad can be borrowed from another Sensei.
+
+Students in TCS slots get no EX skill cards: they use their EX skills by themselves at set times instead, and Specials in TCS slots still lend the Strikers their stats.
+{| class="wikitable" style="text-align:center"
+!TCS slot
+!First EX skill after
+!Then every
+{%- for slot in squads.tcs %}
+|-
+|{{loop.index}}
+|{{slot.first}} seconds
+|{{slot.every}} seconds
+{%- endfor %}
+|}
+
+'''Attack type buff:''' when {{squads.synergy[0][0]}} or more students of a squad share an attack type, they deal more damage: {% for count, increase in squads.synergy %}{% if loop.last and not loop.first %} and {% elif not loop.first %}, {% endif %}+{{increase}} with {{count}}{% if loop.last %} or more{% endif %}{% endfor %}. Students need to be fielded, those who retreat stop counting towards the buff.
+
+'''Affection Rank Buff:''' each student's cost recovery rises by {{squads.bond}} per affection rank.
+
+===Level Sync===
+[[File:Virtual Aptitude Test level sync.png|thumb|400px|Skill levels raised by Level Sync]]
+Level Sync raises students to a specific minimum upgrade/gearing level, borrowed students included, so that students who aren't fully raised can join in. Students that are raised above the floor keep their own stats.
+{| class="wikitable" style="text-align:center"
+! rowspan="2" |Level
+! rowspan="2" |Student level
+! colspan="4" |Skill levels
+! colspan="3" |Equipment
+|-
+!EX
+!Normal
+!Passive
+!Sub
+!Slot 1
+!Slot 2
+!Slot 3
+{%- for row in squads.level_sync %}
+|-
+|{{row.level}}
+{%- for x in row.skills + row.equipment %}
+|{{x}}
+{%- endfor %}
+{%- endfor %}
+|}
+{{'{{'}}Clear{{'}}'}}
+
+==Battle==
+[[File:Virtual Aptitude Test relay.png|thumb|400px|Switching squads during a battle]]
+One squad fights at a time. Squads can be switched during the battle, so that each section's enemies meet a squad suited to their armor. In AUTO play the squads can switch, and Limit Break can be used automatically, both can be configured in game options.
+
+===Damage===
+Enemies take less damage than usual from attacks their armor isn't Weak to:
+{%- for matchup, rate, usual in battle.damage.matchups %}
+* {{matchup}}: {{rate}}{% if rate == usual %}, as usual{% else %} (usually {{usual}}){% endif %}
+{%- endfor %}
+{| class="wikitable" style="text-align:center"
+! rowspan="2" |Armor
+! colspan="{{battle.damage.bullets|length}}" |Attack type
+|-
+{%- for bullet in battle.damage.bullets %}
+!<span class="{{bullet|lower}}">{{bullet}}</span>
+{%- endfor %}
+{%- for armor, cells in battle.damage.rows %}
+|-
+!<span class="{{armor|lower}}">{{armor}}</span>
+{%- for matchup, rate in cells %}
+|{% if matchup == 'Weak' %}'''{{rate}}'''{% else %}{{rate}}{% endif %}
+{%- endfor %}
+{%- endfor %}
+|}
+
+===Extra HP===
+[[File:Virtual Aptitude Test extra HP.png|thumb|400px|Enemies with extra HP]]
+Enemies appear with extra HP equal to {{battle.extra_hp.amount}} of their max HP, which runs out over {{battle.extra_hp.duration}} seconds.
+{{'{{'}}Clear{{'}}'}}
+
+===Limit Break===
+[[File:Virtual Aptitude Test Limit Break.png|thumb|400px|Skills costing nothing during Limit Break]]
+Damaging enemies and meeting the stage's special rule charges the Limit Break gauge. Limit Break uses up a full gauge, and makes all student EX skills cost nothing for {{battle.limit_break.duration}} seconds.
+
+The gauge capacity grows by {{battle.limit_break.step}} for every {{battle.limit_break.every}} affection ranks of all owned students together, up to +{{battle.limit_break.most}} at {{battle.limit_break.up_to}}.
+{{'{{'}}Clear{{'}}'}}
+
+===Other rules===
+[[File:Virtual Aptitude Test RETURN.png|thumb|400px|RETURN]]
+* RETURN brings a squad whose students have scattered across the field back together.
+* Strikers can't be damaged for {{battle.immunity}} seconds after entering the field.
+* EX skill animations are always off.
+{{'{{'}}Clear{{'}}'}}
+
+==Stages==
+[[File:Virtual Aptitude Test stage select.png|thumb|400px|Choosing a level and a stage]]
+A stage's sections alternate between its two armor types, beginning with the first one listed. Each stage also has a special rule that charges the Limit Break gauge.
+{{'{{'}}Clear{{'}}'}}
+{| class="wikitable"
+!Stage
+!Terrain
+!Enemies
+!Special rule
+!Enemy level<br>({{levels|map(attribute='level')|join(' / ')}})
+{%- for stage in stages %}
+|-
+|'''{{stage.name}}'''
+| style="text-align:center" |{{'{{'}}Icon|{{stage.terrain}}|size=24{{'}}'}}<br>{{stage.terrain}}
+|{% for armor, names in stage.enemies %}{% if not loop.first %}<br>{% endif %}<span class="{{armor|lower}}">'''{{armor}}'''</span>: {{names|join(', ')}}{% endfor %}
+|{% for name, description in stage.rules %}'''{{name}}'''<br>{{description}}<br>{% endfor %}Limit Break gauge: +{{stage.gains|join(', +')}} each time
+| style="text-align:center" |{{stage.enemy_levels|join(' / ')}}
+{%- endfor %}
+|}
+
+{| class="wikitable" style="text-align:center"
+!Level
+!Sections
+!Waves
+!Squads
+!Time limit
+!AP
+!Recommended level
+{%- for level in levels %}
+|-
+|{{level.level}}
+|{{level.sections}}
+|{{level.waves}}
+|{{level.squads}}
+|{{level.time}}
+|{{level.ap}}
+|{{level.recommended}}
+{%- endfor %}
+|}
+
+==Rewards==
+[[File:Virtual Aptitude Test coins.png|thumb|400px|Coins and the shop]]
+Battles reward {{rewards.coin}} depending on the number of cleared waves:
+{| class="wikitable" style="text-align:center"
+! rowspan="2" |Wave
+! colspan="{{levels|length}}" |Coins
+|-
+{%- for level in levels %}
+!{{level.level}}
+{%- endfor %}
+{%- for wave, amounts in rewards.waves.items() %}
+|-
+|{{wave}}
+{%- for x in amounts %}
+|{{x}}
+{%- endfor %}
+{%- endfor %}
+|}
+
+The coins can be used at the [[Shop#Virtual Aptitude Test Section|Virtual Aptitude Test BETA shop]], which provides growth materials and unlike most shops '''doesn't reset''' at the start of each month. Coins are set to expire on {{'{{'}}DateTime|{{rewards.expiry}}+9{{'}}'}}, expired coins will turn into {{rewards.expiry_change.card}}, at 1:{{rewards.expiry_change.amount}} exchange rate.
+{{'{{'}}Clear{{'}}'}}
+
+===Achievements===
+{%- if achievements.groups|length == 1 %}
+Each level of each stage has achievements for clearing its last wave a number of times:
+{%- else %}
+The levels have achievements for clearing their last wave a number of times:
+{%- endif %}
+{%- for group in achievements.groups %}
+{%- if achievements.groups|length > 1 %}
+'''{{group.levels|join(', ')}}'''
+{%- endif %}
+{| class="wikitable" style="text-align:center"
+!Clears
+!Reward
+{%- for count, cards in group.ladder %}
+|-
+|{{count}}
+|{{cards}}
+{%- endfor %}
+|}
+{%- endfor %}
+In total, the {{achievements.count}} achievements give {{achievements.totals|join(' and ')}}.
+
+[[Category:Game modes]]

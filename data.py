@@ -764,3 +764,23 @@ def load_battle_pass_data(path):
         #The region's own texts: load_data's combined localization has GL's Japanese where GL has the key
         localization =  load_generic(path, 'LocalizeExcelTable.json', key='Key', load_multipart=True),
     )
+
+
+BlueArchiveTacticalRelayData = collections.namedtuple(
+    'BlueArchiveTacticalRelayData',
+    ['seasons', 'stages', 'rewards', 'missions', 'level_adjustment', 'apc_slots', 'favor_bonus', 'open_condition', 'damage_factors']
+)
+
+def load_tactical_relay_data(path):
+    return BlueArchiveTacticalRelayData(
+        seasons =           load_generic(path, 'TacticalRelaySeasonManageExcelTable.json', key='SeasonId'),
+        stages =            load_file_grouped(path, 'TacticalRelayStageExcelTable.json', 'SeasonId'),
+        rewards =           load_file_grouped(path, 'TacticalRelayStageRewardExcelTable.json', 'GroupId'),
+        #The achievements of clearing a stage's waves, their first parameter is the stage
+        missions =          load_file_grouped(path, 'MissionExcelTable.json', 'CompleteConditionType').get('Reset_SpecificTacticalRelayWaveClear', []),
+        level_adjustment =  {x['Difficulty']: x for x in load_generic(path, 'CharacterLeveladjustmentExcelTable.json', key=None) if x['ContentType'] == 'TacticalRelay'},
+        apc_slots =         load_generic(path, 'ApcSlotDefineExcelTable.json', key='ApcSlotDefineId'),
+        favor_bonus =       load_generic(path, 'FavorCollectionScoreBonusExcelTable.json'),
+        open_condition =    load_generic(path, 'OpenConditionExcelTable.json', key='OpenConditionContentType'),
+        damage_factors =    load_generic(path, 'BulletArmorDamageFactorExcelTable.json', key=None),
+    )
