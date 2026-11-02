@@ -1,0 +1,20 @@
+[[File:{{image}}.png|250px|thumb]]
+{| class="wikitable"
+!Phase
+{%- if hp_header %}
+!{{hp_header}}
+{%- endif %}
+!Time
+!Special Rules
+!Notes
+{%- for phase in phases %}
+|-
+|{{phase.difficulty}}
+{%- if hp_header %}
+| style="white-space:nowrap" |{{phase.hp}}
+{%- endif %}
+|{{phase.time}}
+| style="white-space:nowrap" |{{phase.icons}}
+|{{phase.notes}}
+{%- endfor %}
+|}
