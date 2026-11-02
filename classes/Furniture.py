@@ -77,6 +77,11 @@ class Furniture(object):
 
         name_en = 'NameEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['NameEn'] or None
         desc_en = 'DescriptionEn' in data.etc_localization[furniture['LocalizeEtcId']] and data.etc_localization[furniture['LocalizeEtcId']]['DescriptionEn'] or None
+
+        #Glossary only applies to raid trophies, regular furniture names like "Military Field Bunk Bed" stay as is
+        if furniture['SubCategory'] == 'Trophy':
+            name_en = replace_glossary(name_en)
+            desc_en = replace_glossary(desc_en)
         
         furniture_group = furniture['SetGroudpId'] > 0 and FurnitureGroup.from_data(furniture['SetGroudpId'], data) or None
 
@@ -105,9 +110,9 @@ class Furniture(object):
             furniture['OtherSize'],
             furniture['ComfortBonus'],
             data.etc_localization[furniture['LocalizeEtcId']]['NameJp'],
-            replace_glossary(name_en),
+            name_en,
             data.etc_localization[furniture['LocalizeEtcId']]['DescriptionJp'],
-            replace_glossary(desc_en),
+            desc_en,
             furniture['Icon'][furniture['Icon'].rfind('/')+1:],
             furniture_group,
             interaction,

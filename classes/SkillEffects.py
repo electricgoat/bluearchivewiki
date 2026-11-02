@@ -67,10 +67,10 @@ def stat_change(effect: dict, app, holder_is_self: bool | None = None) -> str:
     return f"{'increase' if increase else 'reduce'}{own} {STAT_NAMES.get(stat, stat)}{of_target(app)} by {skill_value(value)}{source}"
 
 
-def form_name(lexicon, group_id: str, form_index: int | None = None) -> str:
+def form_name(lexicon, group_id: str, form_index: int | None = None, unnamed: str = 'an alternate state') -> str:
     """A form's name as it reads in a clause: names that do not say what they are get 'state' ("Submerged" -> "the Submerged state")"""
     name = lexicon.form_name(group_id, form_index)
-    if not name: return 'an alternate state'
+    if not name: return unnamed
     return f"the {name}" if re.search(r'(state|stance|mode|form|posture)$', name, re.I) else f'the {name} state'
 
 
@@ -167,7 +167,7 @@ def describe_effect(effect: dict, app, lexicon) -> str | None:
 
         case 'DispelLogicEffectTemplate':
             removed = effect['LogicEffectTemplateToDispel']
-            if 'FormConversion' in removed: return f"exit {form_name(lexicon, effect['GroupId'])}"
+            if 'FormConversion' in removed: return f"exit {form_name(lexicon, effect['GroupId'], unnamed='the alternate state')}"
             if 'Dummy' in removed:
                 if not lexicon.is_notable_marker_template(removed): return None
                 name = f'"{lexicon.family_name(removed) or lexicon.marker_name(removed)}"'

@@ -3,7 +3,7 @@ import operator
 import re
 
 from shared.functions import replace_units, statcalc_replace_statname
-from classes.SkillMechanics import SkillMechanics
+from classes.SkillMechanics import SkillMechanics, Lexicon
 
 
 def _get_skill_upgrade_materials(level, data):
@@ -33,7 +33,7 @@ class SkillLevel(object):
     @classmethod
     def from_data(cls, level, group_id, data):
         return cls(
-            translate_skill(data.skills_localization[level['LocalizeSkillId']]['DescriptionJp'], level['Level'], group_id, data),
+            mark_effect_names(translate_skill(data.skills_localization[level['LocalizeSkillId']]['DescriptionJp'], level['Level'], group_id, data), group_id, data),
             level['SkillCost'],
             list(_get_skill_upgrade_materials(level, data))
         )
@@ -42,6 +42,7 @@ class SkillLevel(object):
 class Skill(object):
     missing_skill_localization = None   # MissingTranslations collector, set by Character.from_data
     generate_mechanics = False          # EXPERIMENTAL descriptions generated from skill mechanics, enabled by generate.py -skill_mechanics
+    combat_icons = False                # EXPERIMENTAL {{CombatIcon}} marks on unique effect names in descriptions, enabled by generate.py -combat_icons
 
     def __init__(self, name, name_translated, icon, levels, description_general, max_level, damage_type, skill_cost, effect_data, additional_tooltip = [], select_ex_tooltip = [], show_skill_slot = '', mechanics = None):
         self.name = name
@@ -163,7 +164,7 @@ class Skill(object):
             text_general = data.translated_skills[group_id]["DescriptionGeneral"] 
         except:
             text_general = translate_skill(levels[9].description, max_level, group_id, data)
-        description_general = format_description(levels, text_general)
+        description_general = mark_effect_names(format_description(levels, text_general), group_id, data)
 
 
         try: data.translated_skills[group[0]['GroupId']]['NameEn']
@@ -225,6 +226,22 @@ def mechanics_from_data(group_id, data, max_level):
         return SkillMechanics.from_data(group_id, data, max_level)
     except Exception as err:
         print(f'Failed to generate skill mechanics for {group_id}: {err!r}')
+
+
+def mark_effect_names(text, group_id, data):
+    """Unique effect names in a description as {{CombatIcon}} marks. Unquoted names have to match exactly: "mark them" is not the "Mark" effect"""
+    names = Skill.combat_icons and Lexicon.of(data).effect_names(group_id)
+    if not names: return text
+    canonical = {x.lower(): x for x in names}
+    pattern = r'(?P<open>["“])?(?<![\w-])(?P<name>' + '|'.join(map(re.escape, names)) + r')(?P<plural>e?s)?(?![\w-])(?P<punct>[,.;:!?]?)(?P<close>["”])?'
+
+    def replace(match):
+        name, plural, quoted = canonical[match['name'].lower()], match['plural'] or '', bool(match['open'] and match['close'])
+        if not quoted and match['name'] != name: return match[0]
+        icon = '{{CombatIcon|Special|' + name + (f"|{match['name']}{plural}" if plural else '') + '}}'
+        return icon + match['punct'] if quoted else (match['open'] or '') + icon + match['punct'] + (match['close'] or '')
+
+    return re.sub(pattern, replace, text, flags=re.IGNORECASE)
 
 
 def translate_skill(text_jp, skill_level, group_id, data):

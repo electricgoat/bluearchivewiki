@@ -10,14 +10,14 @@ Code:
 - `translation/SkillEffects.json`: names the game does not localize: character-unique effects (by `TemplateId`) and character forms (by `FormId`). A base for translation work.
 
 Tools (in `scripts/`, which is gitignored, so add them with `git add -f`):
-- `build_battle_schema.py <schemata dir>`: regenerates `shared/battle_schema.json` from a game code dump.
+- `build_battle_schema.py <schemata dir>`: regenerates `shared/battle_schema.json` from a game code dump. Rerun on game updates: its `source` field says which version it was built from. 1.72 to 1.74 only added values, no existing number changed meaning.
 - `skill_mechanics_check.py`: compares generated descriptions against JP descriptions and writes `out/skill_mechanics_check.txt`. `-raid` checks raid bosses instead (§8.2). JP values match generated ones within the precision JP shows, closest value first, so a whole number does not consume a decimal another value needs.
 - `skill_effect_names.py`: mines names of unique effects and forms from skill descriptions into `translation/SkillEffects.json`. It only fills empty names and never changes a name already in the file.
 
-Status as of 2026-09-18, across 1,477 skills of released students:
+Status as of 2026-11-02 (game data 1.74.471552), across 1,510 skills of released students:
 - For 93.1% of skills, every number in the JP description also appears in the generated text.
 - 95.2% of all JP values are found.
-- 2 skills still contain mechanics the generator does not explain, both with empty descriptions (see §11).
+- 4 skills still contain mechanics the generator does not explain: Otogi's empty Normal skill, and three from new content (see §11).
 
 ---
 
@@ -317,6 +317,14 @@ Every modifier has `CheckTarget` (whose state is checked) and usually `IncludeTy
 - `ConditionCheckTarget` CasterAlly means the event counts for allies. `TryCount` and `MaxTriggerCount` work as for passives.
 - **Cooldown:** SkillExcelTable `CoolTime` applies to passives and to non-interval Normal skills.
 
+## 10.1 Effect names in the live descriptions
+
+`generate.py -combat_icons` (off by default) marks the names of a character's unique effects in the regular, translation-based skill descriptions as `{{CombatIcon|Special|<name>}}`, or `{{CombatIcon|Special|<name>|<as written>}}` for a plural: "3 {{CombatIcon|Special|Seashell|Seashells}}". The template syntax is tentative and the wiki does not have the template yet, hence the flag.
+
+- **Which names:** English names from `translation/SkillEffects.json` whose effect groups belong to the skill's character, or to its summons (`SM032601` is `CH0326`'s). Names a skill also goes by ("Passion", "I don't care if someone gets hurt") are skipped, as the text may mean the skill (`Lexicon.effect_names`).
+- **Matching (`mark_effect_names` in `classes/Skill.py`):** longest name first ("Seashell Flower" before "Seashell"). Quoted names lose their quotes and may differ in case ("Bad deed" is "Bad Deed"). Unquoted names must match exactly, so Maki's "mark them" and Kikyou (Swimsuit)'s "the hammock" stay words. Punctuation inside the quotes moves outside: `"Operation Plans,"` becomes `{{CombatIcon|Special|Operation Plans}},`.
+- **Coverage:** 45 names on 34 pages. Effects still missing an English name in `translation/SkillEffects.json` are not marked (§7.2 lists candidates such as "Sweet Potato", "Departure Signal", "Lock On").
+
 ## 11. Remaining gaps
 
 - **Unnamed markers:** none left (§7.1), and every name in `translation/SkillEffects.json` now has both JP and EN. New students will add more: rerun `skill_effect_names.py`, then add unquoted names and English by hand. 20 of 30 forms are still unnamed (§8).
@@ -333,7 +341,8 @@ Every modifier has `CheckTarget` (whose state is checked) and usually `IncludeTy
   - Separately, CH0243's cost-spent tiers still combine conditions into misleading totals.
 - **Complex characters (§8.1):**
   - Rio also has a hidden EX draw gauge besides the card copy. It isn't mentioned, as JP's draw for her means the card stays in hand.
-- **Raid boss skills (§8.2):** 51.2% fully matched and 43.3% of JP values found, against 92.1% and 94.8% for students.
+- **New content (1.73, 1.74):** tag 28 is unnamed on Tsumugi's EX ("if the target is tagged 28 or medium-sized"), CH0321's Normal skill checks a marker with no name yet ("unique effect"), and `SkillCardChange` on Rana's Normal skill is not handled. The other new classes (`HpSyncToHighest`, `SetTargetHp`, `ImmuneByInvokerTargetSide`, `ImmuneDamageInvokerWithoutLogicEffectId`, `OverrideBulletArmorDamageFactorWithLogicEffect`, `ApplyReduceDamageByHitRate`) are only used by the boss EN0023 so far.
+- **Raid boss skills (§8.2):** 51.2% fully matched and 41.1% of JP values found, against 93.1% and 95.2% for students.
   - **Still unhandled effects:** `DeadlyAttack` (77), `MaxHPCapGaugeValue` (61), `ChangeStatLogicApplicationGauge(RecoverOverTime)` (33), `StartStatusLevelIndicator` (16), `ChangeGaugeUIType`, `RemoveVisualEffects`, `ImmuneInvokerWithLogicEffectId`.
   - **Still unhandled conditions:** `CountListSquadType` (48), `CountLogicEffectType` (45).
   - **Names:** boss status names are unmapped (`Hit`, `ImmuneDamageAll`, `ImmuneGroggyGaugeAdd`), summons show dev names or none, and tags checked on targets remain unnamed (`tagged 792`).

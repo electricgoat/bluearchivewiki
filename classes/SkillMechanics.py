@@ -97,6 +97,7 @@ class Lexicon(object):
         self._brief_flags = None
         self._skill_names_jp = None
         self._referenced = {}
+        self._effect_owners = None
         self._timelines = {}
         self._resolving = set()
         self.tag_names = {}  # tag numbers named by spawn conditions: 696 -> 'Raid_Lunatic'
@@ -270,6 +271,19 @@ class Lexicon(object):
             key_data = next((v for k, v in self.skill_data_keys.items() if k.replace('_', '') == skill), None)
             if key_data and (name := walk(self.data.levelskill[key_data])): return name
         return None
+
+    def effect_names(self, group_id: str) -> list[str]:
+        """English names of a character's unique effects and its summons', longest first. Names a skill also goes by are left out"""
+        def family(part): return re.sub(r'^SM(\d{4})\d{2}$', r'CH\1', part or '')  # summons are numbered after their student: SM032601 is CH0326's
+        if self._effect_owners is None:
+            self._effect_owners = collections.defaultdict(set)
+            for group, rows in self.data.logic_effects.items():
+                if rows[0]['TemplateId'] in self.data.translated_skill_effects: self._effect_owners[rows[0]['TemplateId']].add(family(self.character_part(group)))
+        skill_names = {x.get('NameEn') for x in self.data.translated_skills.values()}
+        owner = family(self.character_part(group_id))
+        names = {entry['NameEn'] for template, entry in self.data.translated_skill_effects.items()
+                 if entry.get('NameEn') and owner in self._effect_owners[template] and entry['NameEn'] not in skill_names}
+        return sorted(names, key=len, reverse=True)
 
     @staticmethod
     def character_part(group_id: str) -> str | None:
@@ -1445,10 +1459,8 @@ class SkillMechanics(object):
                 if app.reference_slot and skill_slot(app.reference_slot) == own and skill_slot(host) != own: found.setdefault(app.key, app)
         return [app for key, app in found.items() if key not in {x.key for x in self.applications}]
 
-    def expired_timers(self) -> set[tuple[str, int]]:
-        """
-        (TemplateId, frame) of the skill's own internal timers that have always run out by the time an ability checks them
-        """
+    def expired_timers(self) -> dict[str, int]:
+        """Frame by which each of the skill's own internal timers has run out, by TemplateId"""
         timers = {}
         for app in self.applications:
             row = self.lexicon.data.logic_effects[app.group_id][0]

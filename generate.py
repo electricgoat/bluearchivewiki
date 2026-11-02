@@ -126,10 +126,12 @@ def main():
     parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
     parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')
     parser.add_argument('-skill_mechanics', action='store_true', help='EXPERIMENTAL: add skill descriptions generated from skill mechanics to skill tables')
+    parser.add_argument('-combat_icons', action='store_true', help='EXPERIMENTAL: mark unique effect names in skill descriptions with {{CombatIcon|Special|...}}')
 
     args = vars(parser.parse_args())
     print(args)
     Skill.generate_mechanics = args['skill_mechanics']
+    Skill.combat_icons = args['combat_icons']
 
     if args['wiki'] != None: #and (args['wiki_template'] != None or args['wiki_section'] != None or args['wiki_section_number'] != None):
         wiki.init(args)
