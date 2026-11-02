@@ -18138,6 +18138,70 @@
             "DescriptionJp": "チェリノ（温泉）を護衛しましょう。\nチェリノ（温泉）が軽装備の敵を倒せるように、弾力装甲の敵を倒しましょう。",
             "NameEn": "Event Challenge Stage 4 Hint",
             "DescriptionEn": "Escort Cherino (Hot Spring).\nDefeat the Elastic Armor enemies so that Cherino (Hot Spring) can defeat the Light Armor enemies."
+        },
+        {
+            "Key": 1143289879,
+            "NameJp": "敵が20回攻撃を受けると、リミットブレイクゲージ回復",
+            "NameEn": "When an enemy is hit 20 times, the Limit Break gauge charges",
+            "DescriptionJp": "敵が攻撃を20回受ける度に敵の安定率が減少\n同じ敵が攻撃を20回受ける度に、リミットブレイクゲージが回復",
+            "DescriptionEn": "Every 20 hits an enemy takes lower its stability.\nEvery 20 hits the same enemy takes charge the Limit Break gauge."
+        },
+        {
+            "Key": 664136517,
+            "NameJp": "味方が回復を4回受けると、リミットブレイクゲージ回復",
+            "NameEn": "When an ally is healed 4 times, the Limit Break gauge charges",
+            "DescriptionJp": "味方ストライカー生徒に感電持続ダメージ\n同じ味方ストライカー生徒が回復を4回受ける度に、リミットブレイクゲージが回復",
+            "DescriptionEn": "Allied Striker students take electric shock damage over time.\nEvery 4 heals the same allied Striker student receives charge the Limit Break gauge."
+        },
+        {
+            "Key": 4222987326,
+            "NameJp": "敵のCC状態時間が累積すると、リミットブレイクゲージ回復",
+            "NameEn": "When enemies spend time under crowd control, the Limit Break gauge charges",
+            "DescriptionJp": "難易度A/B/Cで、敵のCC状態の時間がそれぞれ1/2/3秒累積した時、リミットブレイクゲージが回復（最大1回）",
+            "DescriptionEn": "When an enemy has spent 1/2/3 seconds in total under crowd control on level A/B/C, the Limit Break gauge charges (once at most)."
+        },
+        {
+            "Key": 4214467446,
+            "NameJp": "味方が弱体状態を解除すると、リミットブレイクゲージ回復",
+            "NameEn": "When allies remove debuffs, the Limit Break gauge charges",
+            "DescriptionJp": "戦闘開始時、および敵を4体倒すたびに、最大HPが最も高いストライカーの生徒に被回復量減少効果を適用します（最大2スタック）\n味方が弱体状態を解除した時、リミットブレイクゲージが回復（敵のスキルで付与された弱体状態は解除されません）",
+            "DescriptionEn": "At the start of the battle and every 4 enemies defeated, the Striker student with the highest max HP gets a debuff reducing the healing they receive (up to 2 stacks).\nWhen allies remove a debuff, the Limit Break gauge charges (debuffs inflicted by enemy skills can't be removed)."
+        },
+        {
+            "Key": 4039785270,
+            "NameKr": "원숭이 기관사",
+            "DescriptionKr": "(X)",
+            "NameJp": "サルの運転士",
+            "DescriptionJp": "(X)",
+            "NameEn": "Monkey Train Engineer",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 40754837,
+            "NameKr": "원숭이 차장",
+            "DescriptionKr": "(X)",
+            "NameJp": "サルの車掌",
+            "DescriptionJp": "(X)",
+            "NameEn": "Monkey Conductor",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 3661894829,
+            "NameKr": "악몽 코어",
+            "DescriptionKr": "(X)",
+            "NameJp": "悪夢コア",
+            "DescriptionJp": "(X)",
+            "NameEn": "Nightmare Core",
+            "DescriptionEn": ""
+        },
+        {
+            "Key": 8621998,
+            "NameKr": "오디세이아 여객선",
+            "DescriptionKr": "(X)",
+            "NameJp": "オデュッセイアクルーズ",
+            "DescriptionJp": "(X)",
+            "NameEn": "Odyssey Cruise",
+            "DescriptionEn": ""
         }
 
 

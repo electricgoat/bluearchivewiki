@@ -1755,8 +1755,98 @@
             "NameEn": "Express Freight",
             "DescriptionEn": "When used on Drumbarka, increases Groggy gauge by [c][007eff]100%[-][/c].",
             "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2337490272,
+            "NameKr": "다마소의 부름",
+            "DescriptionKr": "원형 범위 내 아군에게 공격력 [c][007eff]350%[-][/c] 대미지\n대상의 체력%가 낮을수록 대미지가 최대 [c][007eff]50%[-][/c] 증가",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "ダマススの招請",
+            "DescriptionJp": "円形範囲内の味方に対して、攻撃力の[c][007eff]350%[-][/c]分のダメージ/\n対象の残りHPが少ないほど、ダメージが増加します（最大[c][007eff]50%[-][/c]まで）",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Damasus' Call",
+            "DescriptionEn": "Deals [c][007eff]350%[-][/c] of ATK as damage to allies in a circular area.\nIncreases damage by up to [c][007eff]50%[-][/c] the lower the target's HP.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3500805200,
+            "NameKr": "불가타의 경전",
+            "DescriptionKr": "가장 가까운 아군 1인에게 저주를 부여하여, 공격력 [c][007eff]100%[-][/c] 대미지, 공격력 [c][007eff]40%[-][/c] 지속 대미지\n저주는 [c][007eff]10초[-][/c] 후 폭발하여 원형 범위 내 아군에게 공격력 [c][007eff]3250%[-][/c] 대미지\n저주에 걸린 대상의 체력이 [c][007eff]100%[-][/c]가 되면 저주 즉시 제거\n추가로 저주 대상의 받는 회복효과 강화율 [c][007eff]3000[-][/c] 증가([c][007eff]10초[-][/c]간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "ウルガータ",
+            "DescriptionJp": "最も近い味方1人に対して呪い状態を付与。\n呪い状態は攻撃力の[c][007eff]100%[-][/c]分のダメージ、攻撃力の[c][007eff]40%[-][/c]分の持続ダメージを付与、[c][007eff]10秒[-][/c]後に爆発し円形範囲内の味方に対して、攻撃力の[c][007eff]3250%[-][/c]分のダメージ\n呪い状態が付与された対象のHPが[c][007eff]100%[-][/c]だった場合、あるいは100%まで回復した場合にも、呪い状態は直ちに解除。\nさらに呪い状態の対象の被回復率を[c][007eff]3000[-][/c]増加（[c][007eff]10秒[-][/c]間）",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Vulgate's Sacred Book",
+            "DescriptionEn": "Inflicts a curse on the nearest ally, dealing [c][007eff]100%[-][/c] of ATK as damage and [c][007eff]40%[-][/c] of ATK as damage over time.\nThe curse explodes after [c][007eff]10 sec[-][/c], dealing [c][007eff]3250%[-][/c] of ATK as damage to allies in a circular area.\nThe curse is lifted immediately if the target's HP is at or is healed to [c][007eff]100%[-][/c].\nAdditionally increases the cursed target's Recovery Boost by [c][007eff]3000[-][/c] (for [c][007eff]10 sec[-][/c]).",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 2670571865,
+            "NameKr": "사자의 구제",
+            "DescriptionKr": "원형 범위 내 아군에게 공격력 [c][007eff]90%[-][/c] 대미지",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "獅子の救済",
+            "DescriptionJp": "円形範囲内の味方に対して、攻撃力の[c][007eff]90%[-][/c]分のダメージ",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Reaper's Execution",
+            "DescriptionEn": "Deals [c][007eff]90%[-][/c] of ATK as damage to allies in a circular area.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 401275505,
+            "NameKr": "사막의 고행",
+            "DescriptionKr": "[c][007eff]10초[-][/c]마다 모든 아군에게 공격력 [c][007eff]30%[-][/c] 대미지\nATG가 가득 찰 경우 모든 아군 불사([c][007eff]10초[-][/c]간), 모든 아군에게 최대 체력 [c][007eff]1000%[-][/c] 대미지\n추가로 모든 아군의 받는 회복효과 강화율 [c][007eff]2000[-][/c] 증가([c][007eff]10초[-][/c]간)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "砂漠の苦痛",
+            "DescriptionJp": "[c][007eff]10秒[-][/c]毎に、すべての味方に対して攻撃力の[c][007eff]30%[-][/c]分のダメージ\nATGの値がMAXの場合、すべての味方に対して、不死身状態を付与（[c][007eff]10秒[-][/c]間）\nさらにHPの[c][007eff]1000%[-][/c]分のダメージを付与、\n被回復率を[c][007eff]2000[-][/c]増加（[c][007eff]10秒[-][/c]間）",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Desert Penance",
+            "DescriptionEn": "Deals [c][007eff]30%[-][/c] of ATK as damage to all allies every [c][007eff]10 sec[-][/c].\nWhen ATG is full, all allies become invincible (for [c][007eff]10 sec[-][/c]).\nAlso deals [c][007eff]1000%[-][/c] of Max HP as damage to all allies and\nincreases all allies' Recovery Boost by [c][007eff]2000[-][/c] (for [c][007eff]10 sec[-][/c]).",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 4248746328,
+            "NameKr": "고행의 깨달음",
+            "DescriptionKr": "예로니무스의 방어관통 수치 [c][007eff]750[-][/c] 증가, 폭발 특효 [c][007eff]200%[-][/c] 가산\n예로니무스의 모든 공격이 아군의 엄폐를 무시",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "苦行を経た悟り",
+            "DescriptionJp": "ヒエロニムスの防御貫通値を[c][007eff]750[-][/c]増加、爆発特効を[c][007eff]200%[-][/c]加算\nヒエロニムスの全ての攻撃が味方の遮蔽を無視",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Ascetic Awakening",
+            "DescriptionEn": "Increases Hieronymus' Defense Piercing by [c][007eff]750[-][/c] and Explosive Effectiveness by [c][007eff]200%[-][/c].\nAll of Hieronymus' attacks ignore allies' Cover.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 3856097957,
+            "NameKr": "성스러운 빛 (녹색 성유물)",
+            "DescriptionKr": "녹색 성유물의 체력 [c][007eff]100%[-][/c] 회복 시 스킬을 발동하여 아래 효과 적용\n- 예로니무스의 받는 대미지량 [c][007eff]55%[-][/c] 증가(최대 5중첩)\n이후 녹색 성유물의 받는 회복 효과 강화율 [c][007eff]80%[-][/c] 감소([c][007eff]20초[-][/c]간)/\n불가타의 경전의 저주가 제거될 경우, 녹색 성유물의 체력을 모두 회복",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "聖なる光（聖遺物）",
+            "DescriptionJp": "緑色の聖遺物のHPが[c][007eff]100%[-][/c]まで回復した時に発動し、以下の効果を付与\n- ヒエロニムスの被ダメージ量が[c][007eff]55%[-][/c]増加（最大で5回分まで効果が重複）\nその後、緑色の聖遺物の被回復率を[c][007eff]80%[-][/c]減少（[c][007eff]20秒[-][/c]間）\nウルガータの呪い状態が解除された場合、緑色の聖遺物のHPをすべて回復",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Holy Light (Relic)",
+            "DescriptionEn": "Activates when the Green Relic's HP is healed to [c][007eff]100%[-][/c], applying the following effect:\n- Increases Hieronymus' damage taken by [c][007eff]55%[-][/c] (max: 5 stacks).\nAfterward, decreases the Green Relic's Recovery Boost by [c][007eff]80%[-][/c] (for [c][007eff]20 sec[-][/c]).\nWhen the curse of Vulgate's Sacred Book is lifted, fully restores the Green Relic's HP.",
+            "SkillInvokeLocalizeEn": ""
+        },
+        {
+            "Key": 360347704,
+            "NameKr": "성스러운 빛 (적색 성유물)",
+            "DescriptionKr": "적색 성유물이 소환된 이후 예로니무스가 받는 피해 누적, [c][007eff]900만[-][/c] 누적 시 적색 성유물 활성화\n적색 성유물의 체력 [c][007eff]100%[-][/c] 회복 시 스킬을 발동하여 아래 효과 적용(최대 5회)\n- 아군 스트라이커 학생의 코스트 회복력 [c][007eff]2500[-][/c] 증가([c][007eff]5초[-][/c]간)\n- 예로니무스가 ATG 스킬을 사용 중인 경우, 그로기 상태가 됨([c][007eff]5초[-][/c]간)\n이후 적색 성유물 비활성화\n(적색 성유물은 EX 스킬에만 타깃이 됨)",
+            "SkillInvokeLocalizeKr": "",
+            "NameJp": "聖なる光（聖遺物）",
+            "DescriptionJp": "赤色の聖遺物が召喚された後、ヒエロニムスの被ダメージが累積。[c][007eff]900万[-][/c]累積時、赤色の聖遺物を有効化\n赤色の聖遺物のHPを[c][007eff]100%[-][/c]回復時、スキルを発動して以下の効果を付与（最大5回）\n- 味方ストライカー生徒のコスト回復力を[c][007eff]2500[-][/c]増加（[c][007eff]5秒[-][/c]間）\n- ヒエロニムスがATGスキルを使用中の場合、グロッキー状態になる（[c][007eff]5秒[-][/c]間）\nその後、赤色の聖遺物を無効化\n（赤色の聖遺物はEXスキルでのみターゲットになる）",
+            "SkillInvokeLocalizeJp": "",
+            "SkillEffectList": [],
+            "NameEn": "Holy Light (Relic)",
+            "DescriptionEn": "After the Red Relic is summoned, damage taken by Hieronymus accumulates. When it reaches [c][007eff]9,000,000[-][/c], the Red Relic is activated.\nWhen the Red Relic's HP is healed to [c][007eff]100%[-][/c], activates the skill, applying the following effects (up to 5 times):\n- Increases Cost Recovery of ally Striker students by [c][007eff]2500[-][/c] (for [c][007eff]5 sec[-][/c]).\n- If Hieronymus is using an ATG skill, Hieronymus becomes Groggy (for [c][007eff]5 sec[-][/c]).\nAfterward, the Red Relic is deactivated.\n(The Red Relic can only be targeted by EX Skills.)",
+            "SkillInvokeLocalizeEn": ""
         }
-
  
     ]
 }
