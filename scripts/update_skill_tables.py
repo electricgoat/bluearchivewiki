@@ -6,7 +6,7 @@ import traceback
 import wikitextparser as wtp
 from data import load_data
 from jinja2 import Environment, FileSystemLoader
-from model import Character
+from classes.Character import Character
 from pywikiapi import Site
 from util import get_character_page
 

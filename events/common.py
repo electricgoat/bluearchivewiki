@@ -8,7 +8,8 @@ from jinja2 import Environment, FileSystemLoader, Template
 
 import shared.functions
 from data import BlueArchiveData, BlueArchiveSeasonData
-from model import Character, Item
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture
 from classes.Emblem import Emblem
 from shared.MissingTranslations import MissingTranslations

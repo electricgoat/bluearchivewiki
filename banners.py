@@ -9,7 +9,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 from data import load_data, load_season_data, BlueArchiveData
-from model import Character
+from classes.Character import Character
 from classes.Banner import Banner, BannerImage
 import wiki
 

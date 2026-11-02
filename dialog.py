@@ -9,7 +9,7 @@ import re
 from jinja2 import Environment, FileSystemLoader
 
 from data import load_data, load_scenario_data
-from model import Character
+from classes.Character import Character
 from classes.Dialog import Dialog, Clip
 from shared.functions import hashkey
 from shared.standard_dictionaries import build_characters

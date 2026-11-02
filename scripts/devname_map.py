@@ -9,7 +9,7 @@ import argparse
 
 
 from data import load_data
-from model import Character
+from classes.Character import Character
 import shared.functions
 
 args = None

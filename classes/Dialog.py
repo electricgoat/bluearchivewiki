@@ -1,4 +1,4 @@
-from model import Character
+from classes.Character import Character
 from shared.glossary import CLIP_TITLE_WORDS
 import re
 

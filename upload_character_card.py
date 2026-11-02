@@ -9,7 +9,7 @@ import textwrap
 import wiki
 
 from data import load_data
-from model import Character
+from classes.Character import Character
 
 
 #Region subdirectory of the cards directory -> filename infix

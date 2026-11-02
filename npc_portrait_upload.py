@@ -12,7 +12,8 @@ import collections
 import wiki
 
 from data import load_data, load_scenario_data
-from model import Character, Furniture
+from model import Furniture
+from classes.Character import Character
 # import shared.functions
 # from shared.CompareImages import compare_images
 

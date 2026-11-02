@@ -7,7 +7,8 @@ from jinja2 import Environment, FileSystemLoader
 
 import shared.functions
 from data import load_data, load_tactical_relay_data, BlueArchiveData, BlueArchiveTacticalRelayData
-from model import Character, Item
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture
 from classes.Emblem import Emblem
 from shared.MissingTranslations import MissingTranslations

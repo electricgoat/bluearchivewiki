@@ -7,7 +7,8 @@ import argparse
 from enum import IntFlag, auto
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from model import Item, Character
+from model import Item
+from classes.Character import Character
 from classes.Furniture import Furniture, FurnitureGroup
 from shared.functions import translate_package_name
 from event import Card, wiki_itemcard
