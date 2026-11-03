@@ -93,7 +93,7 @@ class Skill(object):
             return {
                 slot: slot,
                 'Ex': 'EX',
-                'Extrapassive': 'Sub',
+                'ExtraPassive': 'Sub',
                 'Public': 'Normal'
             }[slot]
         
