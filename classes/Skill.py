@@ -35,6 +35,15 @@ def _get_skill_effects(group, data):
             yield effect
 
 
+def _distinct_tables(skills):
+    """Deduplicate tables; sibling skill groups can share all their texts"""
+    shown = lambda skill: (skill.name, skill.name_translated, skill.icon, skill._damage_type, skill.damage_target_count, skill.show_skill_slot, skill.effect_names, skill.skill_cost, skill.description_general, [(level.description, level.cost) for level in skill.levels])
+    distinct = []
+    for skill in skills:
+        if all(shown(skill) != shown(other) for other in distinct): distinct.append(skill)
+    return distinct
+
+
 class SkillLevel(object):
     def __init__(self, description, cost, materials):
         self.description = description
@@ -102,13 +111,11 @@ class Skill(object):
             end_variables = re.findall(r'\{\{SkillValue\|([^\}\[]+)\}\}',  levels[max_level-1].description)
             range_text = []
 
-            for i in range(len(end_variables)):
-                try: stripped_start = re.findall(r'([0-9a-zA-z./]+).*', start_variables[i])
-                except IndexError: 
-                    start_variables.append(0)
-                    stripped_start = [0]
-
-                range_text.append(start_variables[i] != end_variables[i] and f'{stripped_start[0]}~{end_variables[i]}' or f'{end_variables[i]}')
+            for i, end in enumerate(end_variables):
+                start = start_variables[i] if i < len(start_variables) else '0'
+                #values listed as 1%/2%/3% get a range each
+                parts = zip(start.split('/'), end.split('/')) if start.count('/') == end.count('/') else [(start, end)]
+                range_text.append('/'.join(e if s == e else f"{re.findall(r'([0-9a-zA-z./]+).*', s)[0]}~{e}" for s, e in parts))
 
             for skill_value in range_text:
                 text_en = re.sub(r'\$\d+', '{{SkillValue|' + skill_value + '}}', text_en, 1)
@@ -234,8 +241,8 @@ class Skill(object):
             group[0]['BulletType'],
             skill_cost,
             effect_data,
-            additional_tooltip,
-            select_ex_tooltip,
+            _distinct_tables(additional_tooltip),
+            _distinct_tables(select_ex_tooltip),
             skill_type(show_skill_slot),
             effect_names,
             group[0]['SkillDamageTargetCount'],
@@ -253,7 +260,10 @@ def translate_skill(text_jp, skill_level, group_id, data):
             try: skill_desc = data.translated_skills[group_id][f'ReplaceOnLevel{i}']
             except KeyError: pass
             
-            try: skill_desc = skill_desc.removesuffix('.') + data.translated_skills[group_id][f'AddOnLevel{i}']
+            try:
+                addition = data.translated_skills[group_id][f'AddOnLevel{i}']
+                #a clause continues the sentence, a new sentence keeps its period
+                skill_desc = (skill_desc if re.match(r'(\s|<br>)*[A-Z]', addition) else skill_desc.removesuffix('.')) + addition
             except KeyError: pass
 
     variables = re.findall(r'\[c]\[[0-9A-Fa-f]{6}]([^\[]*)\[-]\[/c]', replace_units(text_jp))

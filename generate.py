@@ -121,7 +121,7 @@ def main():
     parser.add_argument('-translation',     metavar='DIR', default='../bluearchivewiki/translation', help='Additional translations directory')
     parser.add_argument('-outdir',          metavar='DIR', default='out', help='Output directory')
     parser.add_argument('-wiki', nargs=2, metavar=('LOGIN', 'PASSWORD'), help='Publish data to wiki, requires wiki_template to be set')
-    parser.add_argument('-wiki_template', metavar='TEMPLATE NAME', help='Name of a template whose data will be updated')
+    parser.add_argument('-wiki_template', nargs='+', metavar='TEMPLATE NAME', help='Name(s) of templates whose data will be updated, every instance on the page')
     parser.add_argument('-wiki_section',  metavar='SECTION NAME', help='Name of a page section to be updated')
     parser.add_argument('-wiki_section_number', type=int,  metavar='SECTION NUMBER', help='Sequential number of a page section to be updated, use with caution')
     parser.add_argument('-character_id', nargs="*", type=int, metavar='ID', help='Id(s) of a characters to export')

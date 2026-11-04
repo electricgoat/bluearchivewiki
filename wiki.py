@@ -264,40 +264,33 @@ def purge(titles, forcelinkupdate = False):
 
 
 
-def update_template(page_name, template_name, wikitext):
+def update_template(page_name, template_names, wikitext):
+    """Replaces every instance of the templates, paired by order with the generated ones"""
     assert site is not None
-    template_old = None
-    template_new = None
 
     text = site('parse', page=page_name, prop='wikitext')
     print (f"Updating wiki page {text['parse']['title']}")
+    page = text['parse']['wikitext']
+    templates_old, templates_new = wtp.parse(page).templates, wtp.parse(wikitext).templates
 
-    wikitext_old = wtp.parse(text['parse']['wikitext'])
-    for template in wikitext_old.templates:
-        if template.name.strip() == template_name: 
-            template_old = str(template)
-            #print (f'Old template text is {template_old}')
-            break
+    replacements, updated = [], []
+    for template_name in template_names:
+        old = [template for template in templates_old if template.name.strip() == template_name]
+        new = [str(template) for template in templates_new if template.name.strip() == template_name]
+        if not new or len(old) != len(new):
+            print (f'Unable to pair {template_name} templates: {len(old)} on the page, {len(new)} generated')
+            continue
+        changed = [(template_old.span, template_new) for template_old, template_new in zip(old, new) if str(template_old) != template_new]
+        if changed: updated.append(template_name)
+        replacements += changed
 
-    wikitext_new = wtp.parse(wikitext)
-    for template in wikitext_new.templates:
-        if template.name.strip() == template_name: 
-            template_new = str(template)
-            #print (f'New template text is {template_new}')
-            break
-
-    if template_new == None:
-        print (f'Unable to find new template data')
+    if not replacements:
+        print (f'...no changes in {", ".join(template_names)} for {page_name}')
         return
 
-    if template_old == None:
-        print (f'Unable to find old template data')
-        return
-
-    if template_new == template_old:
-        print (f'...no changes in {template_name} for {page_name}')
-    else:
-        publish(page_name, text['parse']['wikitext'].replace(template_old, template_new), summary=f'Updated {template_name} template data')
+    for (start, end), template_new in sorted(replacements, reverse=True):
+        page = page[:start] + template_new + page[end:]
+    publish(page_name, page, summary=f'Updated {", ".join(updated)} template data')
 
 
 

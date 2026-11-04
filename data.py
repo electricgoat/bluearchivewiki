@@ -35,7 +35,7 @@ BlueArchiveData = collections.namedtuple(
     'ground', 'ground_module_reward',
     'gacha_elements', 'gacha_elements_recursive', 'gacha_groups',
     'strategymaps','goods', 'stages',
-    'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward',
+    'raid_stage', 'raid_stage_reward', 'raid_stage_season_reward', 'raid_ranking_reward', 'raid_skill_description_list',
     'world_raid_stage','world_raid_stage_reward', 'world_raid_boss_group', 
     'interactive_world_raid_stage', 'interactive_world_raid_status_preset', 'interactive_world_raid_boss_group', 'interactive_world_raid_condition', 'interactive_world_raid_skill_description_list',
     'eliminate_raid_stage', 'eliminate_raid_stage_reward', 'eliminate_raid_stage_season_reward', 'eliminate_raid_ranking_reward',
@@ -200,6 +200,7 @@ def load_data(path_primary, path_secondary, path_translation):
         raid_stage_reward=          load_file_grouped(path_primary, 'RaidStageRewardExcelTable.json', 'GroupId'),
         raid_stage_season_reward=   load_generic(path_primary, 'RaidStageSeasonRewardExcelTable.json', key='SeasonRewardId'),
         raid_ranking_reward=        load_file_grouped(path_primary, 'RaidRankingRewardExcelTable.json', 'RankingRewardGroupId'),
+        raid_skill_description_list={(x['BossGroup'], x['Difficulty']): x for x in load_generic(path_primary, 'RaidSkillDescriptionListExcelTable.json', key=None)},
         #world_raid_season=          load_generic(path_primary, 'WorldRaidSeasonManageExcelTable.json', key='SeasonId'),
         world_raid_stage=           load_file_grouped(path_primary, 'WorldRaidStageExcelTable.json', 'WorldRaidBossGroupId'),
         world_raid_stage_reward=    load_file_grouped(path_primary, 'WorldRaidStageRewardExcelTable.json', 'GroupId'),
@@ -382,7 +383,8 @@ def load_combined_localization(path_primary, path_secondary, path_translation, f
                 data_primary[index]['EnGlobal'] = data_secondary[index]['En']
 
         elif index in data_secondary:
-            data_primary[index] = data_primary.get(index, {}) | data_secondary[index]
+            #Extend primary data with the secondary, don't overwrite existing primary fields. GL has multiple errors there.
+            data_primary[index] = data_secondary[index] | data_primary.get(index, {})
 
     return data_primary
 

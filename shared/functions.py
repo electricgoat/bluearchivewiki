@@ -315,13 +315,14 @@ def replace_units(text):
     #text = re.sub('1回', 'once', text)
     #text = re.sub('2回', 'twice', text)
     #text = re.sub('3回', 'three times', text)
+    text = re.sub('[回発]分', ' hits', text)
     text = re.sub('回', '', text)
     text = re.sub('つ', '', text)
     text = re.sub(r'\]1秒\[', ']1 second[', text)
     text = re.sub('秒', ' seconds', text)
     text = re.sub('個', '', text)
-    text = re.sub('発分', ' hits', text)
     text = re.sub('人', ' students', text)
+    text = re.sub('～', '~', text)
     return text
 
 

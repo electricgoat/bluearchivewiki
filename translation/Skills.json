@@ -89,7 +89,7 @@
         {
             "GroupId": "ShimikoPublic01",
             "NameEn": "Food for the Soul",
-            "DescriptionEn": "Every $1, grant a shield of $2 Healong to an ally with the lowest HP. (Duration: $3)"
+            "DescriptionEn": "Every $1, grant a shield of $2 Healing to an ally with the lowest HP. (Duration: $3)"
         },
         {
             "GroupId": "ShimikoGearPublic01",
@@ -249,7 +249,7 @@
         {
             "GroupId": "HasumiExtraPassive01",
             "NameEn": "Searching for target",
-            "DescriptionEn": "After reloading increase Critical Rate by $1 for one attack."
+            "DescriptionEn": "After reloading increase Critical Rate by $1 for $2 attack."
         },
         {
             "GroupId": "HarunaEx01",
@@ -1073,7 +1073,7 @@
         {
             "GroupId": "KarinEx01",
             "NameEn": "Target Removal",
-            "DescriptionEn": "Deal $1 Attack damage to one enemy. If enemy is colossal-sized, deal an additional $2 damage."
+            "DescriptionEn": "Deal $1 Attack damage to one enemy. If enemy is extra-large, deal an additional $2 damage."
         },
         {
             "GroupId": "KarinPublic01",
@@ -1164,7 +1164,7 @@
         {
             "GroupId": "AyanePublic01",
             "NameEn": "Learning Support",
-            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of all allies in a circular area by $2."
+            "DescriptionEn": "Every $1, increase the Critical Hit Resistance of all allies in a circular area by $2 for $3."
         },
         {
             "GroupId": "AyaneGearPublic01",
@@ -1494,7 +1494,7 @@
         {
             "GroupId": "CherinoExtraPassive01",
             "NameEn": "Kneel before the moustache!",
-            "DescriptionEn": "Increase cost recovery by $1. If other Red Winter students are in the same team, increase the effect by $3 per student. (Cherino not included, up to a maximum of 3)"
+            "DescriptionEn": "Increase cost recovery by $1. For every other Red Winter student in the same team, increase the effect by $3 per student. (Cherino not included, up to a maximum of 3)"
         },
         {
             "GroupId": "NodokaEx01",
@@ -1544,7 +1544,8 @@
         {
             "GroupId": "CH0056ExtraPassive01",
             "NameEn": "Aim for the weak point",
-            "DescriptionEn": "When attacking weakened enemies, deal $1 of Attack as additional damage."
+            "DescriptionEn": "When attacking weakened enemies, deal $1 of Attack as additional damage.",
+            "DescriptionGeneral": "When attacking weakened enemies, deal $1 of Attack as additional damage. (Weakened: being inflicted with a debuff.)"
         },
         {
             "GroupId": "CH0057Ex01",
@@ -1574,7 +1575,7 @@
         {
             "GroupId": "CH0055Ex01",
             "NameEn": "Let's begin the forbidden games",
-            "DescriptionEn": "Apply continuous healing equivalent to $1 of Hanako's Healing to allies in a certain area. (Duration: $2)"
+            "DescriptionEn": "Apply continuous healing equivalent to $1 of Hanako's Healing to allies in a certain area (up to $2 times). (Duration: $3)"
         },
         {
             "GroupId": "CH0055Public01",
@@ -1695,7 +1696,7 @@
         {
             "GroupId": "CH0165Public01",
             "NameEn": "Hostess' Hospitality",
-            "DescriptionEn": "Every $1, increase incoming healing of the ally with the lowest HP by $2 for 20 seconds."
+            "DescriptionEn": "Every $1, increase incoming healing of the ally with the lowest HP by $2 for $3."
         },
         {
             "GroupId": "CH0165Passive01",
@@ -2193,7 +2194,7 @@
         {
             "GroupId": "CH0066ExtraPassive01",
             "NameEn": "Unbalanced",
-            "DescriptionEn": "When using EX skill, decrease Attack by $1 for $2. Afterwards, increase Attack by $4 for $3."
+            "DescriptionEn": "When using EX skill, decrease Attack by $1 for $2. After $3, increase Attack by $4 for $5."
         },
         {
             "GroupId": "CH0111Ex01",
@@ -2911,7 +2912,7 @@
         {
             "GroupId": "CH0091Ex01",
             "NameEn": "Aquatic support",
-            "DescriptionEn": "Increase the Attack of all allies around Hoshino by $1, and add $2 to the Explosion damage bonus against the enemies weak to it. (Duration: $3)"
+            "DescriptionEn": "Increase the Attack of all allies around Hoshino by $1, and add $2 Explosive Efficiency. (Duration: $3)"
         },
         {
             "GroupId": "CH0091Public01",
@@ -3108,12 +3109,12 @@
         {
             "GroupId": "CH0137Ex01",
             "NameEn": "Very well done!",
-            "DescriptionEn": "Heal one other ally for $1 of Healing. Heal self for $2 of Healing.\nReceive 1 Hanamaru Stamp."
+            "DescriptionEn": "Heal one other ally for $1 of Healing. Heal self for $2 of Healing.\nReceive $3 Hanamaru Stamp."
         },
         {
             "GroupId": "CH0137Public01",
             "NameEn": "I'm looking forward to next time!",
-            "DescriptionEn": "When allies deal $1 critical hits, heal one other ally with the lowest HP for $2 Healing.\nReceive 1 Hanamaru Stamp."
+            "DescriptionEn": "When allies deal $1 critical hits, heal one other ally with the lowest HP for $2 Healing.\nReceive $3 Hanamaru Stamp."
         },
         {
             "GroupId": "CH0137Passive01",
@@ -3264,7 +3265,7 @@
         {
             "GroupId": "CH0184ExtraPassive01",
             "NameEn": "Optimal pathing calculation",
-            "DescriptionEn": "When Yuuka stops moving, she gains $1 Mystic damage bonus against the enemies weak to it for $2."
+            "DescriptionEn": "When Yuuka stops moving, she gains $1 Mystic Efficiency for $2."
         },
 
         {
@@ -3374,7 +3375,7 @@
         {
             "GroupId": "CH0194Ex01",
             "NameEn": "The sound of blessings",
-            "DescriptionEn": "Increase Critical Damage $1 for $2 and grant 1 \"Holy Night Blessing\" to other allies within a circular area around Serina. (\"Holy Night Blessing\" stacks up to 15 times)\nEach \"Holy Night Blessing\" adds $3 Penetration damage bonus against the enemies weak to it. (Duration: $4)"
+            "DescriptionEn": "Increase Critical Damage $1 for $2 and grant 1 \"Holy Night Blessing\" to other allies within a circular area around Serina. (\"Holy Night Blessing\" stacks up to 15 times)\nEach \"Holy Night Blessing\" adds $3 Piercing Efficiency. (Duration: $4)"
         },
         {
             "GroupId": "CH0194Public01",
@@ -3446,7 +3447,7 @@
         {
             "GroupId": "CH0191WeaponPassive01",
             "NameEn": "New Year's Viando +",
-            "DescriptionEn": "Increase Explosive damage bonus against the enemies weak to it by $1. Increase Attack by $2."
+            "DescriptionEn": "Increase Explosive Efficiency by $1. Increase Attack by $2."
         },
         {
             "GroupId": "CH0191ExtraPassive01",
@@ -3550,7 +3551,7 @@
         {
             "GroupId": "CH0069WeaponPassive01",
             "NameEn": "Gloria Patri +",
-            "DescriptionEn": "Increase Penetration damage bonus against the enemies weak to it by $1. Increase Attack by $2."
+            "DescriptionEn": "Increase Piercing Efficiency by $1. Increase Attack by $2."
         },
         {
             "GroupId": "CH0069ExtraPassive01",
@@ -3628,7 +3629,7 @@
         {
             "GroupId": "CH0067WeaponPassive01",
             "NameEn": "One who judges the guilty +",
-            "DescriptionEn": "Increase Mystic damage bonus against the enemies weak to it by $1. Increase Attack Speed by $2."
+            "DescriptionEn": "Increase Mystic Efficiency by $1. Increase Attack Speed by $2."
         },
         {
             "GroupId": "CH0067ExtraPassive01",
@@ -3716,12 +3717,12 @@
         {
             "GroupId": "CH0198Public01",
             "NameEn": "One? Or Two?!",
-            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 2 nearby enemies.\nReload immediately after skill activation."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 2 nearby enemies.\nReload instantly after skill activation."
         },
         {
             "GroupId": "CH0198GearPublic01",
             "NameEn": "One? Or Two?! +",
-            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 3 nearby enemies.\nReload immediately after skill activation.\nWhen you defeat a cumulative 6 enemies with normal skills, reduce your own EX skill cost by $3 for $4 use of EX skill."
+            "DescriptionEn": "Every $1, deal $2 damage to one enemy. If there are enemies nearby, deal the same damage to 3 nearby enemies.\nReload instantly after skill activation.\nWhen Koyuki defeats a cumulative 6 enemies with Normal skills, reduce her EX skill cost by $3 for $4 use of EX skill."
         },
         {
             "GroupId": "CH0198Passive01",
@@ -3743,7 +3744,7 @@
         {
             "GroupId": "CH0086Ex01",
             "NameEn": "New Year's Omamori",
-            "DescriptionEn": "For one other ally, add $1 to the Mystic damage bonus against the enemies weak to it. (Duration: $2)\nGrant them Omamori status."
+            "DescriptionEn": "For one other ally, add $1 Mystic Efficiency. (Duration: $2)\nGrant them Omamori status."
         },
         {
             "GroupId": "CH0086Public01",
@@ -3763,7 +3764,7 @@
         {
             "GroupId": "CH0086ExtraPassive01",
             "NameEn": "Omamori bond",
-            "DescriptionEn": "When allies deal $1 critical hits, increase Attack by $2.\nFor allies with an Omamori, add $3 to the Mystic damage bonus against the enemies weak to it. (Duration: $4)\nAfterwards, clear all Omamori from allies."
+            "DescriptionEn": "When allies deal $1 critical hits, increase Attack by $2.\nFor allies with an Omamori, add $3 Mystic Efficiency. (Duration: $4)\nAfterwards, clear all Omamori from allies."
         },
 
         {
@@ -3877,7 +3878,7 @@
         {
             "GroupId": "CH0211ExtraPassive01",
             "NameEn": "Arms Handling",
-            "DescriptionEn": "When EX skill is activated, add $1 to Explosive damage bonus against the enemies weak to it. (Duration: $2)"
+            "DescriptionEn": "When EX skill is activated, add $1 Explosive Efficiency. (Duration: $2)"
         },
         
         {
@@ -4011,7 +4012,7 @@
         {
             "GroupId": "CH0214ExtraPassive01",
             "NameEn": "Fruits of labor",
-            "DescriptionEn": "For all allies, increase Explosive damage bonus against the enemies weak to it by $1."
+            "DescriptionEn": "For all allies, increase Explosive Efficiency by $1."
         },
 
         {
@@ -4100,7 +4101,7 @@
         {
             "GroupId": "CH0188Public01",
             "NameEn": "\"Right here\"",
-            "DescriptionEn": "At the beginning of combat, increase the Critical Rate of all other allies by $1 for $2, and reduce EX skill cost by $3.\n(Reduction active until EX is activated $4 time)"
+            "DescriptionEn": "At the beginning of combat, increase the Critical Rate of all other allies by $1 for $2, and reduce EX skill cost by $3.\n(Reduction active until EX is activated $4 time)\n\n(Can only be used $5 time per battle)"
         },
         {
             "GroupId": "CH0188Passive01",
@@ -4542,7 +4543,7 @@
         {
             "GroupId": "CH0161ExtraPassive01",
             "NameEn": "Rise up to the challenge",
-            "DescriptionEn": "Obtain a Prayer for each Cost consumed by other allies (Prayers can stack up to a maximum of 50).\nFor every 10 Prayers accumulated, increase Critical Damage by $1 for $2."
+            "DescriptionEn": "Obtain a Prayer for each Cost consumed by other allies (Prayers can stack up to a maximum of $1).\nFor every $2 Prayers accumulated, increase Critical Damage by $3 for $4."
         },
 
         {
@@ -4684,12 +4685,12 @@
 
         {
             "GroupId": "CH0231Ex01",
-            "NameEn": "Perfect agent",
+            "NameEn": "Perfect Agent",
             "DescriptionEn": "For allies within a circular range, increase Critical Rate by $1 and Critical Damage $2 for $3.\nAdditionally, add 1 \"Perfect bodyguard\" to each ally (up to a maximum of $4)."
         },
         {
             "GroupId": "CH0231Public01",
-            "NameEn": "Don't miss the target!",
+            "NameEn": "I don't miss!",
             "DescriptionEn": "Every $1, decrease the Defense of one enemy by $2 for $3.\nDeal damage depending on the number of \"Perfect bodyguards\" owned:\n3 or less: Deal $4 damage\n4 to 7: Deal $5 damage\n8 to 11: Deal $6 damage\n12 or more: Deal $7 damage"
         },
         {
@@ -4730,13 +4731,13 @@
         },
         {
             "GroupId": "CH0079ExtraPassive01",
-            "NameEn": "Invincible! The true leader of Gehenna!",
+            "NameEn": "Invincible! The True Leader of Gehenna!",
             "DescriptionEn": "Increase Piercing Efficiency of all allies by $1."
         },
 
         {
             "GroupId": "CH0077Ex01",
-            "NameEn": "Ibuki's drawing time!",
+            "NameEn": "Ibuki's art class!",
             "DescriptionEn": "Increase Attack of all other allies within a circular area by $1 for $2."
         },
         {
@@ -5287,7 +5288,7 @@
         {
             "GroupId": "CH0258_TankerEx01",
             "NameEn": "Hardened defensive posture",
-            "DescriptionEn": "Move to the specified location, then raise a shield that acts as a cover, granting the cover state and increasing Attack by $1 for $2.\nThe cover has $3 of Hoshino's HP.\n(The armor type of the cover is the same as Hoshino (Combat))"
+            "DescriptionEn": "Move to the specified location, then raise a shield that acts as a cover, granting the cover state and increasing Attack by $1 for $2.\nThe cover has $3 of Hoshino's HP.\n(The armor type of the cover is the same as Hoshino (Battle))"
         },
         {
             "GroupId": "CH0258_TankerPublic01",
@@ -5593,7 +5594,7 @@
         {
             "GroupId": "CH0275ExtraPassive01",
             "NameEn": "Fans cheering",
-            "DescriptionEn": "Whenever other allies consume Cost, gain \"Penlights\" amount equal to the Cost used.\n(\"Penlights\" can be stacked up to a maximum of $1.)\nWhen 10 \"Penlights\" are acquired, increase Defense by $2 for $3. (effect does not stack)"
+            "DescriptionEn": "Whenever other allies consume Cost, gain \"Penlights\" amount equal to the Cost used.\n(\"Penlights\" can be stacked up to a maximum of $1.)\nWhen $2 \"Penlights\" are acquired, increase Defense by $3 for $4. (effect does not stack)"
         },
 
         {
@@ -5677,12 +5678,12 @@
         {
             "GroupId": "CH0285Ex01",
             "NameEn": "Please be quiet after lights out",
-            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4 hits)"
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4)"
         },
         {
             "GroupId": "CH0285Ex02",
             "NameEn": "Shhh, lights out",
-            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4 hits)"
+            "DescriptionEn": "Deal $1 damage to one enemy.\nAdditionally grant Weak Point Exposed status for $2.\nWhen attacked, an enemy with this debuff takes additional damage equal to $3 of Noa's Attack.\n(This damage can not be critical, effect ends after $4)"
         },
         {
             "GroupId": "CH0285Public01",
@@ -6627,7 +6628,8 @@
         {
             "GroupId": "CH0326Ex01",
             "NameEn": "Thermite Pink, here we go!",
-            "DescriptionEn": "Reisa (Magical) deploys to the field as Thermite Pink for $4. Thermite Pink additionally inherits Reisa's stats: $1 of Reisa (Magical) maximum HP, $2 of Attack, and $3 of Healing."
+            "DescriptionEn": "Reisa (Magical) deploys to the field as Thermite Pink for $4. Thermite Pink additionally inherits Reisa's stats: $1 of Reisa (Magical) maximum HP, $2 of Attack, and $3 of Healing.",
+            "DescriptionGeneral": "Reisa (Magical) deploys to the field as Thermite Pink for $4. Thermite Pink additionally inherits Reisa's stats: $1 of Reisa (Magical) maximum HP, $2 of Attack, and $3 of Healing.\n\n''Despite being a targetable unit with her own HP pool, Thermite Pink is not considered a Tactical Support unit, and is not subject to the usual 1 max deployed T.S. limit.''"
         },
         {
             "GroupId": "SM032601Public01",
@@ -6802,7 +6804,7 @@
         {
             "GroupId": "CH0297ExtraPassive01",
             "NameEn": "Relax, and focus...!",
-            "DescriptionEn": "While you have a shield, acquire Ninja Walking. Ninja Walking continuously recovers HP by $1 of Healing."
+            "DescriptionEn": "While Tsukuyo has a shield, acquire Ninja Walking. Ninja Walking continuously recovers HP by $1 of Healing."
         },
 
         {
@@ -7025,7 +7027,7 @@
         {
             "GroupId": "CH0337Ex01",
             "NameEn": "Designated field sniper",
-            "DescriptionEn": "Reload instantly upon activating the skill.\nAssume precision aim stance, enhancing normal attacks to deal $1 damage, and tag one enemy. (Precision aim stance is canceled after $2 seconds has passed or when a normal skill is used)\nEimi (Battle) will prioritize attacking tagged enemies."
+            "DescriptionEn": "Reload instantly upon activating the skill.\nAssume precision aim stance, enhancing normal attacks to deal $1 damage, and tag one enemy. (Precision aim stance is canceled after $2 have passed or when a normal skill is used)\nEimi (Battle) will prioritize attacking tagged enemies."
         },
         {
             "GroupId": "CH0337Public01",
