@@ -6,7 +6,7 @@ import wiki
 
 from jinja2 import Environment, FileSystemLoader
 from data import load_data, load_season_data
-from raid import get_boss_skills
+from raid import get_stage_skills
 from eliminate_raid_seasons import prepare_seasons
 import raid_rewards
 import shared.functions
@@ -49,7 +49,7 @@ def get_raid_boss_data(group):
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-        stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization)
+        stage['character_skills'] = get_stage_skills(stage, data, missing_skill_localization, missing_localization)
 
     return boss_data
 

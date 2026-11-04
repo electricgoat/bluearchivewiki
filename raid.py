@@ -48,7 +48,7 @@ def get_raid_boss_data(group):
         stage['ground'] = data.ground[stage['GroundId']]
         stage['character'] = data.characters[stage['RaidCharacterId']]
         stage['characters_stats'] = data.characters_stats[stage['RaidCharacterId']]
-        stage['character_skills'] = get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization)
+        stage['character_skills'] = get_stage_skills(stage, data, missing_skill_localization, missing_localization)
 
         stage['boss_characters'] = [data.characters[x] for x in stage['BossCharacterId']]
         stage['boss_characters_stats'] = [data.characters_stats[x] for x in stage['BossCharacterId']]
@@ -60,6 +60,47 @@ def get_raid_boss_data(group):
                 missing_etc_localization.add_entry(boss_character['localization'])
     
     return boss_data
+
+
+
+def get_stage_skills(stage, data, missing_skill_localization, missing_localization):
+    """Skills the raid lobby lists in RaidSkillDescriptionList, fallback to raid characters'."""
+    description = data.raid_skill_description_list.get((stage['RaidBossGroup'], stage['Difficulty']))
+    if description is None:
+        return get_boss_skills(data.costumes[data.characters[stage['RaidCharacterId']]['CostumeGroupId']]['CharacterSkillListGroupId'], data, missing_skill_localization)
+
+    SKILL_SLOTS = {'Ex':'EX', 'Public':'Public', 'Passive':'Passive'}
+    skills_by_groupid = {item['GroupId']: item for item in data.skills.values()}
+    skills_by_lowercase_groupid = {k.lower(): v for k, v in skills_by_groupid.items()}
+    phase_names = get_phase_names(description, data, missing_localization) if len(set(description['SkillUsePhase'])) > 1 else {}
+
+    skill_data = []
+    for skill_id, phase, slot in zip(description['SkillGroupId'], description['SkillUsePhase'], description['ShowSkillSlot']):
+        skill = skills_by_groupid.get(skill_id) or skills_by_lowercase_groupid.get(skill_id.lower()) # Chesed's Grand Assault Ex01_HardCore is listed as Ex01_Hardcore
+        if skill is None:
+            print(f"Warning - {stage['RaidBossGroup']} {stage['Difficulty']} lists skill {skill_id}, which SkillExcelTable lacks")
+            continue
+        tooltips = [skills_by_groupid[x['AdditionalSkillGroupId']] for x in data.skill_additional_tooltip.get(skill['AdditionalToolTipId'], [])]
+        for row, suffix in [(skill, '')] + [(x, ' tooltip') for x in tooltips]:
+            skill_data.append({**row, 'SkillType': SKILL_SLOTS[slot] + suffix, 'IconName': row['IconName'][row['IconName'].rfind('/') + 1:], 'PhaseName': phase_names.get(phase)})
+            loc_data = data.skills_localization[row['LocalizeSkillId']]
+            if 'NameEn' not in loc_data and loc_data.get('NameJp', "") != "":
+                missing_skill_localization.add_entry(loc_data)
+
+    return skill_data
+
+
+
+def get_phase_names(description, data, missing_localization):
+    """Names the raid lobby gives the phases of a RaidSkillDescriptionList row."""
+    overrides = {int(phase): shared.functions.hashkey(key.strip()) for phase, key in (x.split(':') for x in description['PhaseNameOverrideKey'].split(',') if x)}
+    names = {}
+    for phase in set(description['SkillUsePhase']):
+        text = data.localization.get(overrides.get(phase)) or data.localization[shared.functions.hashkey('Boss_PhaseLabel_Common' if phase < 1 else 'Boss_PhaseLabel_Num')]
+        if 'En' not in text:
+            missing_localization.add_entry(text)
+        names[phase] = text.get('En', text['Jp']).format(phase)
+    return names
 
 
 

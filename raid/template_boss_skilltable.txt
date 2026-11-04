@@ -4,6 +4,10 @@
 !Type
 !Effect
 {%- for skill in stage['character_skills'] if skill['IconName']!='' %}
+{%- if skill['PhaseName'] and loop.changed(skill['PhaseName']) %}
+|-
+! colspan="4" |{{skill['PhaseName']}}
+{%- endif %}
 |-
 |{% if skillbg %} class="bg-element bg-normal" |{% endif %}[[File:{{skill['IconName']}}.png|50px]]
 |{{skills_localization[skill['LocalizeSkillId']]['NameJp']}}
