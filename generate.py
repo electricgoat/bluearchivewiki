@@ -8,6 +8,8 @@ import argparse
 
 from jinja2 import Environment, FileSystemLoader
 
+import requests
+from pywikiapi import ApiError
 import wikitextparser as wtp
 import wiki
 
@@ -32,6 +34,7 @@ def generate():
     env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)))
     env.filters['colorize'] = shared.functions.colorize
     template = env.get_template('templates/page_character.txt')
+    site = wiki.site if wiki.site is not None else wiki.Site(wiki.WIKI_API) #reading pages needs no login
 
     devname_entries = {}
 
@@ -61,8 +64,10 @@ def generate():
             devname_entries[devname_key(character.dev_name)]['wikiname'] = character.wiki_name
 
         fragment_sources = "FragmentSources" in data.translated_characters[character.id] and "\n"+data.translated_characters[character.id]["FragmentSources"] or None
+        story = character.profile.change_story
+        story_published = story is not None and story.page is not None and published(site, story.page)
         with open(os.path.join(args['outdir'], f'{character.wiki_name}.txt'), 'w', encoding="utf8") as f:
-            wikitext = template.render(character=character, fragment_sources = fragment_sources)
+            wikitext = template.render(character=character, fragment_sources = fragment_sources, story_published = story_published)
             
             f.write(wikitext)
             
@@ -77,6 +82,15 @@ def generate():
             wiki.publish(character.wiki_name, wikitext, "Updated character page")
 
     update_devname_maps(data, devname_entries)
+
+
+def published(site, page) -> bool:
+    """Whether the wiki has the page, False when the wiki can't be reached"""
+    try:
+        return all('missing' not in x for x in site.query_pages(titles=[page]))
+    except (ApiError, requests.RequestException) as err:
+        print(f"WARNING - couldn't check whether {page} is published, it isn't linked: {err}")
+        return False
 
 
 def devname_key(dev_name):

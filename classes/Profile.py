@@ -1,12 +1,17 @@
 from shared.glossary import CLUBS
+from classes.ScenarioMode import ScenarioMode
 
 
 class Profile(object):
-    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, club, school_year, age, birthday, height, hobbies, designer, illustrator, lobby_illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl):
+    def __init__(self, family_name_jp, family_name_ruby_jp, personal_name_jp, personal_name_ruby_jp, family_name_en, personal_name_en, family_name_reading_en, personal_name_reading_en, club, school_year, age, birthday, height, hobbies, designer, illustrator, lobby_illustrator, voice, introduction_jp, introduction_en, weapon_name, weapon_desc, weapon_name_translated, weapon_desc_translated, release_date_jp, release_date_gl, change_story):
         self.family_name_jp = family_name_jp
         self.family_name_ruby_jp = family_name_ruby_jp
         self.personal_name_jp = personal_name_jp
         self.personal_name_ruby_jp = personal_name_ruby_jp
+        self.family_name_en = family_name_en
+        self.personal_name_en = personal_name_en
+        self.family_name_reading_en = family_name_reading_en
+        self.personal_name_reading_en = personal_name_reading_en
         self._club = club
         self.school_year = school_year
         self.age = age
@@ -25,6 +30,7 @@ class Profile(object):
         self.weapon_desc_translated = weapon_desc_translated
         self.release_date_jp = release_date_jp
         self.release_date_gl = release_date_gl
+        self.change_story = change_story
 
     @property
     def birthday(self):
@@ -61,13 +67,23 @@ class Profile(object):
 
     @classmethod
     def from_data(cls, character_id, data):
-        profile = data.characters_localization.get(character_id, {})
         localization = data.translated_characters[character_id]
+        change = data.characters_profile_change.get(character_id)
+        profile_id = change['ChangeCharacterID'] if change else character_id
+        if profile_id not in data.translated_characters:
+            print(f"WARNING - changed profile {profile_id} of {localization['PersonalNameEn']} ({character_id}) has no translation, the original profile is used")
+            profile_id = character_id
+
+        original = data.characters_localization.get(character_id, {})
+        profile = data.characters_localization.get(profile_id, {})
+        profile_localization = localization | data.translated_characters[profile_id]
 
         field_list = ['FamilyName', 'PersonalName', 'CharacterAge', 'CharHeight', 'DesignerName', 'IllustratorName', 'LobbyIllustratorName', 'Voice', 'Hobby', 'ProfileIntroduction', 'WeaponName', 'WeaponDesc' ]
         localized_strings = {}
         for f in field_list:
-            localized_strings[f] = localization[f+'En'] if f+'En' in localization and localization[f+'En'] is not None else profile.get(f+'Jp', '')  
+            #the profile screen shows the changed profile, the weapon screen the character's own
+            jp, en = (original, localization) if f.startswith('Weapon') else (profile, profile_localization)
+            localized_strings[f] = en[f+'En'] if f+'En' in en and en[f+'En'] is not None else jp.get(f+'Jp', '')
 
         release_date_jp = localization.get('ReleaseDateJp') or ''
         release_date_gl = localization.get('ReleaseDateGl') or ''
@@ -88,6 +104,10 @@ class Profile(object):
             profile.get("FamilyNameRubyJp"),
             profile.get("PersonalNameJp"),
             profile.get("PersonalNameRubyJp"),    
+            localized_strings['FamilyName'],
+            localized_strings['PersonalName'],
+            profile_localization.get('FamilyNameReadingEn') or localized_strings['FamilyName'],
+            profile_localization.get('PersonalNameReadingEn') or localized_strings['PersonalName'],
             profile.get('Club'),
             profile.get('SchoolYearJp'),        
             localized_strings['CharacterAge'].replace('歳',''),
@@ -100,10 +120,11 @@ class Profile(object):
             localized_strings['Voice'],
             '<p>' + profile.get('ProfileIntroductionJp', "").replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             '<p>' + localized_strings['ProfileIntroduction'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
-            profile.get('WeaponNameJp'),
-            '<p>' + profile.get('WeaponDescJp', "").replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
+            original.get('WeaponNameJp'),
+            '<p>' + original.get('WeaponDescJp', "").replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             localized_strings['WeaponName'],
             '<p>' + localized_strings['WeaponDesc'].replace("\n\n",'</p><p>').replace("\n",'<br>') + '</p>',
             release_date_jp,
             release_date_gl,
+            change and ScenarioMode.from_data(change['ScenarioModeId'], data),
         )

@@ -2,11 +2,11 @@
 | Id = {{character.id}}
 | DevName = {{character.dev_name}}
 | Wikiname = {{character.wiki_name}}
-| PersonalNameEn = {{character.personal_name_en}}
-{% if character.personal_name_en != character.personal_name_reading_en %}| PersonalNameReadingEn = {{character.personal_name_reading_en}}
+| PersonalNameEn = {{character.profile.personal_name_en}}
+{% if character.profile.personal_name_en != character.profile.personal_name_reading_en %}| PersonalNameReadingEn = {{character.profile.personal_name_reading_en}}
 {% endif -%}
-| FamilyNameEn = {{character.family_name_en}}
-{% if character.family_name_en != character.family_name_reading_en %}| FamilyNameReadingEn = {{character.family_name_reading_en}}
+| FamilyNameEn = {{character.profile.family_name_en}}
+{% if character.profile.family_name_en != character.profile.family_name_reading_en %}| FamilyNameReadingEn = {{character.profile.family_name_reading_en}}
 {% endif -%}
 | PersonalNameJp = {{character.profile.personal_name_jp}}
 | PersonalNameRubyJp = {{character.profile.personal_name_ruby_jp}}
@@ -324,6 +324,14 @@ See [[{{PAGENAME}}/audio]]
 {{CharacterCafe}}
 ===Gifts===
 {{CharacterGifts}}{% endraw %}
+{% set story = character.profile.change_story -%}
+{% if story %}
+=Trivia=
+* {{character.personal_name_en}}'s in-game profile changes after {% if story.page -%}
+finishing the Main Story {{story.volume|replace('/', ' ')}}: ''{{story.volume_title}}'', Chapter {{story.chapter}}: ''{{story.chapter_title}}'', {% if story_published %}[[{{story.page}}|Episode {{story.episode}}: {{story.episode_title}}]]{% else %}Episode {{story.episode}}: {{story.episode_title}}{% endif %}
+{%- else %}certain story events{% endif %}.
+
+{% endif -%}
 {% raw %}{{{% endraw %}{{character.club}}{% raw %}}}{% endraw %}
 {% raw %}{{{% endraw %}Kivotos|{{character.school}}{% raw %}}}{% endraw %}
 [[Category:Characters]]

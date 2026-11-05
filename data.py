@@ -7,7 +7,7 @@ import re
 
 BlueArchiveData = collections.namedtuple(
     'BlueArchiveData',
-    ['characters', 'characters_ai', 'characters_localization', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 'stat_level_interpolation',
+    ['characters', 'characters_ai', 'characters_localization', 'characters_profile_change', 'characters_skills', 'characters_stats', 'characters_cafe_tags', 'stat_level_interpolation',
      'costumes',
     'skills', 'skills_localization','skill_effects_localization','skill_additional_tooltip','skill_select_ex_tooltip','translated_characters','translated_skills',
     'weapons', 'gear',
@@ -17,7 +17,7 @@ BlueArchiveData = collections.namedtuple(
     'equipment',
     'recipes', 'recipes_ingredients', 
     'favor_levels', 'favor_rewards', 
-    'memory_lobby','etc_localization', 'localization', 
+    'memory_lobby', 'scenario_modes', 'etc_localization', 'localization', 
     'character_dialog','character_dialog_event','character_dialog_aux','character_dialog_subtitle','character_dialog_battlepass','character_voice','character_voice_subtitle',
     'levelskill','logiceffectdata','logic_effects_npc',
     'guide_mission','guide_mission_season','localize_code',
@@ -61,6 +61,7 @@ def load_data(path_primary, path_secondary, path_translation):
         characters=                 load_generic(path_primary, 'CharacterExcelTable.json'),
         characters_ai=              load_generic(path_primary, 'CharacterAIExcelTable.json'),
         characters_localization=    load_generic(path_primary, 'LocalizeCharProfileExcelTable.json', key='CharacterId'),
+        characters_profile_change=  load_generic(path_primary, 'LocalizeCharProfileChangeExcelTable.json', key='CharacterId'),
         characters_skills=          load_characters_skills(path_primary),
         characters_stats=           load_generic(path_primary, 'CharacterStatExcelTable.json', key='CharacterId'),
         characters_cafe_tags =      load_generic(path_primary, 'CharacterAcademyTagsExcelTable.json'),
@@ -86,6 +87,7 @@ def load_data(path_primary, path_secondary, path_translation):
         favor_levels=               load_favor_levels(path_primary),
         favor_rewards=              load_favor_rewards(path_primary),
         memory_lobby=               load_generic(path_primary, 'MemoryLobbyExcelTable.json', key='Id'),
+        scenario_modes=             load_generic(path_primary, 'ScenarioModeExcelTable.json', key='ModeId'),
         etc_localization=           load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeEtcExcelTable.json'),
         localization=               load_combined_localization(path_primary, path_secondary, path_translation, 'LocalizeExcelTable.json'),
         character_dialog=           load_character_dialog(path_primary, path_secondary, 'CharacterDialogExcelTable.json'),

@@ -50,7 +50,7 @@ CLUBS = {
             'PublishingDepartment': 'Publishing Department',
             'FoxSquad': "FOX Squad",
             'DivingClub': 'Diving Club',
-            'Class183': 'Class No. 183',
+            'Class183': 'Spec Ops No. 183',
             'EmptyClub': 'no club'
 }
 
