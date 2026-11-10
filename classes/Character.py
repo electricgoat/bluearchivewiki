@@ -157,8 +157,8 @@ class Character(object):
     def character_pool(self):
         if self._character_pool == 'regular' and self.wiki_name in ARCHIVE_POOL:
             return 'archive'
-        if self._character_pool == 'limited' and self.wiki_name in ARCHIVE_POOL:
-            return 'encore'
+        # if self._character_pool == 'limited' and self.wiki_name in ARCHIVE_POOL:
+        #     return 'encore'
         return self._character_pool
 
     @classmethod

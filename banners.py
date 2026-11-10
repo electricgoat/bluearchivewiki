@@ -4,13 +4,14 @@ import re
 import json
 import traceback
 import argparse
-from datetime import datetime
+import subprocess
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 from data import load_data, load_season_data, BlueArchiveData
 from classes.Character import Character
-from classes.Banner import Banner, BannerImage
+from classes.Banner import Banner, BannerImage, REGION_TIMEZONE
 import wiki
 
 IGNORE_ID = {
@@ -48,6 +49,11 @@ def ui_era(banner: Banner) -> int:
 
 SELECT_CAT = ['SelectPickupGacha', 'SelectPickupLimitedGacha', 'SelectPickupFesGacha']
 EXPORT_CAT = ['PickupGacha', 'LimitedGacha', 'FesGacha', *SELECT_CAT]
+
+DATA_ARGS = {'jp': 'data_primary', 'gl': 'data_secondary'}
+
+#GL v1.96 (patch1785) dropped the expired the banners; they are read from the last version that has them all in git history
+HISTORY_FROM = {'gl': 'v1.93.454564-patch1771'}
 
 
 args = {}
@@ -106,8 +112,7 @@ def init_data():
 	
 	data = load_data(args['data_primary'], args['data_secondary'], args['translation'])
 
-	regional_data['jp'] = load_season_data(args['data_primary'])
-	regional_data['gl'] = load_season_data(args['data_secondary']) 
+	for region, arg in DATA_ARGS.items(): regional_data[region] = load_season_data(args[arg])
 
 	for character in data.characters.values():
 		if not character['IsPlayableCharacter'] or character['ProductionStep'] != 'Release':#  not in ['Release', 'Complete']:
@@ -153,15 +158,50 @@ def init_data():
 
 
 
+def git(repo: str, *command: str) -> str:
+	return subprocess.run(['git', '-C', repo, *command], stdout=subprocess.PIPE, encoding='utf8', check=True).stdout
+
+
+
+def history_table(repo: str, commit: str, name: str) -> list[dict]:
+	"""A table of a version of the data's history, preferring DB/ location over Excel/"""
+	folder = 'DB' if git(repo, 'ls-tree', '--name-only', commit, f'DB/{name}') else 'Excel'
+	return json.loads(git(repo, 'show', f'{commit}:{folder}/{name}'))['DataList']
+
+
+
+def versions(region: str):
+	"""The ShopRecruit rows and select groups of each version of the region's data since HISTORY_FROM, oldest first, with when it came (its commit), then those of the data itself."""
+	zone = timezone(timedelta(hours=int(REGION_TIMEZONE[region])))
+	if region in HISTORY_FROM:
+		repo = args[DATA_ARGS[region]]
+		log = [line.split(' ', 2) for line in git(repo, 'log', '--reverse', '--format=%H %ct %s').splitlines()]
+		for commit, committed, _ in log[[tag for _, _, tag in log].index(HISTORY_FROM[region]):]:
+			groups = collections.defaultdict(list)
+			for x in history_table(repo, commit, 'GachaSelectPickupGroupExcelTable.json'): groups[x['GachaGroupId']].append(x)
+			yield datetime.fromtimestamp(int(committed), zone).replace(tzinfo=None), history_table(repo, commit, 'ShopRecruitExcelTable.json'), groups
+	yield datetime.now(zone).replace(tzinfo=None), regional_data[region].shop_recruit.values(), regional_data[region].gacha_select_pickup_group
+
+
+
 def banner_entries(region: str) -> dict[int, dict]:
-	"""The region's ShopRecruit rows (a select recruitment's with SelectPickupCharacterId, the characters of its group), merged with the region's entries in banners_aux.json.
+	"""The region's ShopRecruit rows (a select recruitment's with SelectPickupCharacterId, the characters of its group), with those its data dropped since HISTORY_FROM once they ended, merged with the region's entries in banners_aux.json.
 	The game drops ended select recruitments and rewrites their groups, so an entry keeps a banner as it ran: its fields replace those of the row with its Id, or it adds the row the game data no longer has."""
-	groups = regional_data[region].gacha_select_pickup_group
-	entries = {}
-	for row in regional_data[region].shop_recruit.values():
-		if row['CategoryType'] in SELECT_CAT and row['SelectAbleGachaGroupId']:
-			row = row | {'SelectPickupCharacterId': [x['CharacterId'] for x in groups.get(row['SelectAbleGachaGroupId'], [])]}
-		entries[row['Id']] = row
+	entries, dropped = {}, {}
+	for time, shop_recruit, groups in versions(region):
+		rows = {}
+		for row in shop_recruit:
+			if row['CategoryType'] in SELECT_CAT and row['SelectAbleGachaGroupId']:
+				row = row | {'SelectPickupCharacterId': [x['CharacterId'] for x in groups.get(row['SelectAbleGachaGroupId'], [])]}
+			rows[row['Id']] = row
+		dropped = {id: dropped.get(id, time) for id in entries if id not in rows}
+		entries |= rows
+
+	for id, time in list(dropped.items()):
+		if not entries[id]['SalePeriodTo'] or datetime.fromisoformat(entries[id]['SalePeriodTo']) > time:
+			print(f"{region.upper()} banner {id} was dropped from the game data before it ended, left out")
+			del entries[id], dropped[id]
+	if dropped: print(f"{region.upper()}: {len(dropped)} rows the game data dropped once they ended, taken from its history since {HISTORY_FROM[region]}")
 
 	for entry in banners_aux.get(region, []):
 		row = entries.get(entry['Id'], {})
