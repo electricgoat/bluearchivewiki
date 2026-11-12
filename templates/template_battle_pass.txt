@@ -1,0 +1,102 @@
+{{'{{'}}#seo:
+    |title=Shinon's Battle Pass (シノンのバトルパス)
+    |title_mode=append
+    |keywords=Battle Pass,バトルパス,Shinon's Battle Pass,シノンのバトルパス,Shinon,Growth CH,成長CH,Basic CH,一般CH,season pass
+    |description=The Battle Pass is a Blue Archive seasonal rewards track, with a free Basic CH and the paid Growth CH
+    |image = Battle Pass introduction.png
+    |image_alt = Shinon's Battle Pass
+{{'}}'}}
+[[File:Battle Pass introduction.png|thumb|400px|Shinon's Battle Pass]]
+The '''Battle Pass''' (バトルパス) is a reward track that runs in seasons of a few weeks. The Japanese version got it on {{launch.JP}}{% if launch.GL %}, the Global version on {{launch.GL}}{% endif %}.
+
+The game presents it as a TV shopping program: [[Shinon|Kawaru Shinon]] of the Kronos School of Journalism hosts a special live broadcast selling the pass's paid track, '''Growth CH''' (成長CH), while a news ticker runs headlines from around Kivotos, a new set each season. Shinon's lines on the pass's screens are on [[Shinon/audio]].
+
+==Overview==
+Players earn pass points by completing the pass missions: daily and weekly missions, along with one-off seasonal achievements. Every {{intro.level_points}} points raise the pass level by one, up to level {{intro.max_level}}. The points of daily and weekly missions are capped each week, the weeks starting on {{intro.week_start}} (UTC+9). Levels can also be bought, for {{intro.level_price}} each.
+
+Each level gives a reward on the free track, '''Basic CH''' (一般CH), and one on Growth CH to Sensei who bought one of the season's offers:
+* '''Growth CH''' unlocks the Growth CH rewards.
+* '''Growth CH+''' unlocks them too, raises the pass level by {{intro.bonus_levels}} at once, and comes with the season's title and Pyroxenes.
+* Growth CH can be upgraded to the CH+ version by additionally paying the difference in their price.
+
+{% for season in seasons -%}
+==Season {{season.id}}==
+[[File:Battle Pass Season {{season.id}}.png|thumb|400px|Shinon's Battle Pass Season {{season.id}}]]
+{% for region, period in season.periods.items() -%}
+* {{region}}: {{period}}
+{% endfor -%}
+* Weekly point limit: {{season.weekly_limit}}
+* Growth CH+ title: {{season.title}}
+{% if season.exclusive -%}
+* Exclusive reward: {{season.exclusive.card}} at level {{season.exclusive.level}}
+{% endif %}
+===Offers===
+Reference prices stored by the game are in JPY and KRW (depending on the server), though actual currency players see and are charged in depends on the platform and region.
+{| class="wikitable" style="text-align:center"
+! Offer
+! Contents
+{% for region in season.periods -%}
+! {{region}}
+{% endfor -%}
+{% for offer in season.offers -%}
+|-
+| style="text-align:left" |{{offer.name}}<!-- {{offer.product_id}} -->
+| style="text-align:left" |{{offer.contents}}
+{% for price in offer.prices.values() -%}
+|{{price}}
+{% endfor -%}
+{% endfor -%}
+|}
+
+===Missions===
+{| class="wikitable"
+! Mission
+! Points
+{% for heading, missions in season.missions.items() -%}
+|-
+! colspan="2" |{{heading}}
+{% for mission in missions -%}
+|-
+|{{mission.text}}
+| style="text-align:center" |{{mission.points}}
+{% endfor -%}
+{% endfor -%}
+|}
+
+===Level rewards===
+Featured level rewards are highlighted in bold.
+{| class="wikitable mw-collapsible mw-collapsed"
+! Level
+! Basic CH
+! Growth CH
+{% for level in season.levels -%}
+|-
+| style="text-align:center" |{% if level.pickup %}'''{{level.level}}'''{% else %}{{level.level}}{% endif %}
+{% for cell in level.rewards -%}
+|{{cell}}
+{% endfor -%}
+{% endfor -%}
+|}
+
+{| class="wikitable"
+! Total Basic CH rewards
+|-
+|<div class="rewards">{{season.totals[0]}}</div>
+|-
+! Total Growth CH rewards
+|-
+|<div class="rewards">{{season.totals[1]}}</div>
+|}
+
+===News ticker===
+{| class="wikitable limitwidth-1024"
+! style="width:50%" |Japanese
+! style="width:50%" |English
+{% for headline in season.ticker -%}
+|-
+| lang="ja" |{{headline.jp}}
+|{{headline.en}}
+{% endfor -%}
+|}
+
+{% endfor -%}
